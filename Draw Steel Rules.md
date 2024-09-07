@@ -1,3 +1,7 @@
+---
+aliases: 
+tags: 
+---
 # WHAT IS THIS GAME?
 
 This is a game about fighting monsters. About larger-than-life, extraordinary heroes plunging into battle against terrifying, monstrous enemies.
@@ -298,13 +302,13 @@ You regain all lost Recoveries when you finish a respite (see Respite).
 
 A respite is a focused period of rest and recuperation that allows heroes to regain Stamina and Recoveries. During a respite, you must spend 24 hours uninterrupted and doing nothing but sleeping, eating, dressing your wounds, and recuperating. You can also undertake one respite activity, such as making a project roll (see Research and Crafting in future packets for more information), or changing your kit (see Kits).
 
-When you finish a respite, you regain all your Recoveries and Stamina, and your Victories convert to Experience.  It is best to take a respite in a safe place where you aren’t in a hostile environment or at risk of being attacked. If your respite is interrupted by enemies attacking, an earth tremor, swarms of biting insects, and similar serious distractions, the respite ends early and you don’t gain the benefits for finishing it.
+When you finish a respite, you regain all your Recoveries and Stamina, and your Victories convert to Experience. It is best to take a respite in a safe place where you aren’t in a hostile environment or at risk of being attacked. If your respite is interrupted by enemies attacking, an earth tremor, swarms of biting insects, and similar serious distractions, the respite ends early and you don’t gain the benefits for finishing it.
 
 The standard eightish hours of sleep one gets at night doesn’t count as a respite. The rules assume that all heroes take the time to sleep, eat, and take care of all the other functions necessary for life even if they aren’t engaged in a respite.
 
 ## ORDEN AND THE TIMESCAPE
 
-A new game demands new worlds! Welcome to the timescape—a collection of worlds spanning high fantasy, dark fantasy, and even space fantasy! We sincerely hope you take these rules and adapt them to your own world, or adapt your world to these rules, or something in between! 
+A new game demands new worlds! Welcome to the timescape—a collection of worlds spanning high fantasy, dark fantasy, and even space fantasy! We sincerely hope you take these rules and adapt them to your own world, or adapt your world to these rules, or something in between!
 
 Our tour begins on the world of Orden, the Prime Manifold—a realm of elves, dwarves, humans, orcs, dragons, and more. But human civilization and politics dominate here, especially in the great city of Capital, a hotbed of urban fantasy intrigue.
 
@@ -408,7 +412,7 @@ Use the following step-by-step guide to create a hero. These steps are presented
 
 Many players like to build a hero from the backstory up, making ancestry and culture ideal first choices. However, some players like to start more in the present, choosing an inciting incident and a class—the choices with the most potential impact on what your character can do in the game—and then going back and figuring out where their hero came from. There’s no wrong way to do it!
 
-You’ll want a character sheet to fill out while you make your hero.  
+You’ll want a character sheet to fill out while you make your hero.
 *(Playtest note: The character sheet is still to come.)*
 
 #### 1. THINK
@@ -439,7 +443,7 @@ Choose your hero’s career, which describes what you did for a living before yo
 
 #### 5. CLASS
 
-Choose your hero’s class. This choice has the biggest impact on how your hero interacts with the rules of the game, especially the rules for combat. Your class provides your characteristic scores and Stamina, in addition to skills, several abilities, and other benefits. You can be a censor, conduit, elementalist, fury, null, shadow, tactician, talent, or troubadour. See *Classes* for more information.  
+Choose your hero’s class. This choice has the biggest impact on how your hero interacts with the rules of the game, especially the rules for combat. Your class provides your characteristic scores and Stamina, in addition to skills, several abilities, and other benefits. You can be a censor, conduit, elementalist, fury, null, shadow, tactician, talent, or troubadour. See *Classes* for more information.
 *(Playtest note: The currently available classes are the conduit, elementalist, fury, shadow, and tactician, each of which includes only 1st-level features.)*
 
 #### 6. KIT
@@ -454,25 +458,25 @@ A melee weapon free strike is a melee attack made with an unarmed strike or impr
 
 ##### MELEE WEAPON FREE STRIKE
 
-- **Keywords:** Attack, Melee, Weapon  
-- **Type:** Action  
-- **Distance:** Reach 1  
-- **Target:** 1 creature or object  
-- **Power Roll + Might or Agility:**  
-  - 11 or lower: 2 damage  
-  - 12–16: 6 damage  
-  - 17+: 9 damage  
+- **Keywords:** Attack, Melee, Weapon
+- **Type:** Action
+- **Distance:** Reach 1
+- **Target:** 1 creature or object
+- **Power Roll + Might or Agility:**
+  - 11 or lower: 2 damage
+  - 12–16: 6 damage
+  - 17+: 9 damage
 
 ##### RANGED WEAPON FREE STRIKE
 
-- **Keywords:** Attack, Ranged, Weapon  
-- **Type:** Action  
-- **Distance:** Ranged 5  
-- **Target:** 1 creature or object  
-- **Power Roll + Might or Agility:**  
-  - 11 or lower: 2 damage  
-  - 12–16: 5 damage  
-  - 17+: 8 damage  
+- **Keywords:** Attack, Ranged, Weapon
+- **Type:** Action
+- **Distance:** Ranged 5
+- **Target:** 1 creature or object
+- **Power Roll + Might or Agility:**
+  - 11 or lower: 2 damage
+  - 12–16: 5 damage
+  - 17+: 8 damage
 
 See *Free Strikes* for more information on using free strikes, and see *Abilities* for information on the ability format.
 
@@ -609,7 +613,7 @@ Where an ancestry provides you with an ability, see *Abilities* for details of t
 
 ## DEVIL
 
-“Go to hell!”  
+“Go to hell!”
 “You know, I have a rather interesting story about that…”
 
 The native ancestry of the Seven Cities of Hell, devils are humanoids with red or blue skin expressed in a wide variety of hues, from bright crimson to deep purple. Each devil is born with some hellmark—horns, a tail, cloven hooves, a forked tongue, fanged incisors, or even wings.
@@ -734,31 +738,31 @@ As a devil character, you have the following benefits:
 
 When you create a devil character, you have 3 fiend points, which you use to select a number of the following features.
 
-- **BARBED TAIL (1 FIEND POINT):**  
+- **BARBED TAIL (1 FIEND POINT):**
   Your pointy tail allows you to punctuate all your actions. Once per round, you can deal 1 extra damage on a melee attack or free strike.
 
-- **BEAST LEGS (2 FIEND POINTS):**  
+- **BEAST LEGS (2 FIEND POINTS):**
   Your powerful legs improve your speed by 1.
 
-- **EXPOSED SKELETON (2 FIEND POINTS):**  
+- **EXPOSED SKELETON (2 FIEND POINTS):**
   Your bones are visible and hardened above your skin, granting you Weapon immunity 2.
 
-- **GLOWING EYES (1 FIEND POINT):**  
+- **GLOWING EYES (1 FIEND POINT):**
   Your eyes are a solid, vibrant color that flares to show your excitement or rage. Whenever you take damage from a creature, you can use a triggered action to curse that creature for daring to do you harm. The creature takes 1d10 psychic damage.
 
-- **HELLSIGHT (1 POINT):**  
+- **HELLSIGHT (1 POINT):**
   Your eyes let you see through the dark, fog, and other types of concealment. You don’t take a bane on attacks against concealed, unhidden creatures.
 
-- **HORNS (1 FIEND POINT):**  
+- **HORNS (1 FIEND POINT):**
   Your cherished horns are a hardened representation of your force of will, granting you an edge on Presence resistance rolls.
 
-- **PREHENSILE TAIL (2 FIEND POINTS):**  
+- **PREHENSILE TAIL (2 FIEND POINTS):**
   Your prehensile tail allows you to challenge foes on all sides. You can’t be flanked.
 
-- **WINGS (2 FIEND POINTS):**  
+- **WINGS (2 FIEND POINTS):**
   You possess wings powerful enough to take you airborne. As a maneuver, you can switch between walking and flying when you are touching the ground, or vice versa when you are within 1 square of the ground. While flying, your stability drops to 0 and you have damage weakness 5. While using your wings to fly, you can stay aloft for a number of rounds equal to your Might (minimum of 1 round) before you fall prone.
 
-- **SILVER TONGUE:**  
+- **SILVER TONGUE:**
   You can twist how your words are perceived to get a better read on people. You gain an edge when attempting to discover an NPC’s motivations and pitfalls during negotiations (see *Negotiation*).
 
 ## DRAGON KNIGHT
@@ -889,21 +893,21 @@ Your hardened scales grant you immunity 5 to one of the following damage types: 
 
 The legacy of the Dragon Phalanx lives in you. Choose one of the following benefits.
 
-- **DRACONIAN RUSH:**  
+- **DRACONIAN RUSH:**
   As a maneuver, you can fly in a straight line up to your speed. Until you reach level 6, you must end your turn on a solid surface or fall, then fall prone.
 
-- **DRACONIAN GUARD:**  
+- **DRACONIAN GUARD:**
   When you or a creature adjacent to you is attacked, you can use a triggered action to swing your wings around and guard against the blow, reducing any damage from the attack by an amount equal to your level + your Victories.
 
-- **DRACONIAN PRIDE:**  
+- **DRACONIAN PRIDE:**
   You can use the following ability:
 
-  **DRACONIAN PRIDE**  
-  You let loose a mighty roar to repel your foes and shake their spirits.  
-  **Keywords:** Area, Magic  
-  **Type:** Action  
-  **Distance:** 2 burst  
-  **Target:** All enemies  
+  **DRACONIAN PRIDE**
+  You let loose a mighty roar to repel your foes and shake their spirits.
+  **Keywords:** Area, Magic
+  **Type:** Action
+  **Distance:** 2 burst
+  **Target:** All enemies
   **Power Roll + Might or Presence:**
   - 11 or lower: 2 damage; push 1
   - 12–16: 4 damage; push 3
@@ -913,16 +917,16 @@ The legacy of the Dragon Phalanx lives in you. Choose one of the following benef
 
 ## DWARF
 
-“Remember, we are dwarves. Our strength is the strength of the earth. The strength of the marble column that rises to the heavens. The strength of the granite foundation that reaches deep into the ground. But what is the value of strength if it is not used in service of justice?”  
+“Remember, we are dwarves. Our strength is the strength of the earth. The strength of the marble column that rises to the heavens. The strength of the granite foundation that reaches deep into the ground. But what is the value of strength if it is not used in service of justice?”
 —Zarok the Lawgiver, Hero, Dwarves 232
 
 Possessed of a strength that belies their size, dwarves have flesh infused with stone—a silico-organic hybrid making them physically denser than other humanoids. They enjoy a reputation in Orden as savvy engineers and technologists thanks to the lore they inherited from their elder siblings, the long-extinct steel dwarves.
 
 Dwarves are the children of the elder god Ord, and a common phrase among dwarves is “Ord made the world”—their way of saying, “What will be, will be.” They take great pride in knowing that along with Aan, Eth, and Kul, their god created the mundane world, and many dwarves leave their homes to see the world and seek glory in Ord’s name.
 
-### ON DWARVES  
+### ON DWARVES
 
-There’s nothing a team of dwarves can’t do! Five dwarves alone can easily kill a dragon. Ten dragons![^1] Why, Vorka the Fell-Handed alone slew five dragons at the Siege of Var Loska before succumbing to her wounds. One dwarf! Think what a small, dedicated party of dwarves could do!  
+There’s nothing a team of dwarves can’t do! Five dwarves alone can easily kill a dragon. Ten dragons![^1] Why, Vorka the Fell-Handed alone slew five dragons at the Siege of Var Loska before succumbing to her wounds. One dwarf! Think what a small, dedicated party of dwarves could do!
 There aren’t many of the great dragons left, alas, so we must … I mean, dwarves must content themselves with fighting lesser evils. Necromancers, tyrants. Folks who cheat at dice.
 
 Dwarves take the long view. Well, so do elves, but elves seem more interested in preserving things. Dwarves want to make things! Improve the world! “The world is fine the way it is …” Shut up! No it’s not! The world is full of pain, misery, injustice. We cannot make a perfect world, but we can strive to improve the one we’ve got!
@@ -953,30 +957,30 @@ You are young yet, but already those who work evil deeds should fear you. You ar
 
 As a dwarf character, you have the following benefits:
 
-### GROUNDED  
+### GROUNDED
 
 Your heavy stone body and connection to the earth makes it difficult for others to move you. Your stability increases by 1.
 
-### RUNIC CARVING 
+### RUNIC CARVING
 
 You can carve a magic rune onto your skin. The rune you carve determines the benefit you receive. You can change or remove this rune with 10 minutes of work while not engaged in combat.
 
 - **Detection:** Pick a specific type of creature, such as “goblins” or “humans” or an object, such as “magic swords” or “potions.” Your rune glows softly when you are within 20 squares of a chosen creature or object, regardless of line of effect. You can change the type of creature as a maneuver.
-  
+
 - **Light:** Your skin sheds light for 10 squares. You can turn this on and off as a maneuver.
-  
+
 - **Voice:** As a maneuver, you can communicate telepathically with another willing creature you have met before whose name you name, who can speak and understand a language you know, and is within 1 mile of you. You and the creature can respond to one another as if having a normal conversation. You can change the person you communicate with by changing the rune.
 
 ## ELF, WODE
 
-See you the wood so dark and deep,  
-Where runs the fox and hare?  
-You know now why your mother weeps.  
+See you the wood so dark and deep,
+Where runs the fox and hare?
+You know now why your mother weeps.
 Your father’s bones lie there.
 
-See you the river clear and sweet  
-So beautiful and fair?  
-Follow it in and you may meet  
+See you the river clear and sweet
+So beautiful and fair?
+Follow it in and you may meet
 The Queen of Dark and Air.
 
 Children of the sylvan celestials and masters of the elf-haunted forests called wodes, wode elves see all forests as their domain by birthright. They know and enjoy their reputation among humans for snatching children who wander too far into the woods. Humans should fear the trees.
@@ -1212,6 +1216,7 @@ Though he had lived with fear most of his young life, mortality was not somethin
 “My people are a serene and peaceful lot. We do not seek glory like the folk of Vanigar. But, in battle sometimes, knowing I am getting closer to my wyrd, my destiny, I think I know how they feel. Something comes over me, some enormous sense of … of rightness.” She smiled again at the young man. “It scares my friends sometimes, I know.”
 
 The Arrow had seen it, and enthusiastically agreed.
+
 “You’re not from the Barrow Hills,” he said.
 
 The Pillar shook her head. “No, I do not wot of your hills. I am from the hills north of the Blue Cloud Mountains in far Vanigar.” She turned and looked down at the Arrow with some pride. “My people are descended from the original Haka’an tribe.” She went back to work. “Though I am sure the Barrow Men, as you call them, are a fine people. We’re all related, you see.”
@@ -1330,7 +1335,7 @@ The people who stand against Ajax and tyrants like him will be just like you—n
 
 Stopping Ajax will require you to become something else. You must become heroes. Conduits of saints, warmasters of great armies. Censors and shadows. That may seem unlikely now, but the future has a way of surprising us.
 
-Some of your names, I will see written in future textbooks. 
+Some of your names, I will see written in future textbooks.
 
 But some of your names, I will see written in the stars.
 
@@ -1460,17 +1465,17 @@ Each orc has within them a fire that causes their veins to glow once blood is dr
 
 ### ON ORCS
 
-What a world we have made.  
+What a world we have made.
 Indeed, what a marvel!
 
 It is a marvel now, with the dragons and celestials, elementals and terrans.
 
-It is unseemly. It was better before things started talking.  
+It is unseemly. It was better before things started talking.
 And having opinions. About our creation. About us!
 
 Oh, I don’t know. I thought I agreed, but then look you what our sibling Ord has made. A fine people, these elementals. They make marvels. Ord made them, and now they make miracles.
 
-We make marvels. The world is a miracle, and enough.  
+We make marvels. The world is a miracle, and enough.
 Yes. But still. I think I might try my hand at children. It seems a worthy pursuit.
 
 Heed the lesson of our Shamèd Brother. It was better before the coming of the terrans. Before the coming of war.
@@ -1493,7 +1498,7 @@ Look where that got him.
 
 Hush, you. We should not be too hard on our Brother In Mourning. He has paid for his hubris. My children would love the world more than lore. That is my answer.
 
-They seem a fine people, if you ask me.  
+They seem a fine people, if you ask me.
 And there they are, look at them! Kul, your thoughts made real! Only in the world a little while, and already growing, learning.
 
 Ah! My children! So fierce and unyielding. I see you lead short lives, like the terrans. Perhaps this is good.
@@ -1512,13 +1517,13 @@ And will they know you?
 
 If they wish. Much as I agreed with…the Father of Men…I find worship unseemly.
 
-Agreed.  
+Agreed.
 Agreed!
 
 Let me introduce myself, at least.
 
-Ahem.  
-“Hear me, kanin! This world we made is yours, as much as it is anyone’s. You belong here.  
+Ahem.
+“Hear me, kanin! This world we made is yours, as much as it is anyone’s. You belong here.
 “Know that you are my children, the children of Kul, he who put fire within the world. And there is fire in you. And though the world and fate and baser minds may conspire to destroy your light, you will survive. And more than survive, you will thrive. And in thriving, you will conquer!”
 
 ### ORC BENEFITS
@@ -1563,7 +1568,7 @@ The three peasants—Jago, his wife Sarah, and his sister Beth—sat together wa
 
 “Really? That’s weird. I’m from Tor, I’ve been all over—just never met a polder before.”
 
-Jackson looked at his friend, the high elf void mage. “Am I crazy?”  
+Jackson looked at his friend, the high elf void mage. “Am I crazy?”
 “You’re not crazy,” Embers smiled. She was enjoying watching two of her friends get to know each other.
 
 “John’s just never run into one, it seems.”
@@ -1608,7 +1613,7 @@ John took a deep breath and came back to reality. “Well. If we could be picky,
 
 The polder looked at the high elf and nodded, impressed. Test passed.
 
-31  
+31
 **Draw Steel © 2024 MCDM Productions, LLC**
 
 “Okay. Well, if you’ve already got a candidate, I could get things started. The other half is: we need a good story—short, punchy. Something that’ll catch on, needs to be easy to relate to, but bigger than life. A tax. A toll! Bridge toll, classic. An ogre … no, three ogres. Yeah, three is better. Three ogres in Ajax’s livery. A lone figure standing against them. See? Easy.”
@@ -1681,9 +1686,9 @@ You gain the following ability:
 
 You become an actual shadow.
 
-- **Keywords**: Magic  
-- **Type**: Maneuver  
-- **Distance**: Self  
+- **Keywords**: Magic
+- **Type**: Maneuver
+- **Distance**: Self
 - **Target**: Self
 
 **Effect**: You flatten yourself into a shadow against a wall or floor you are touching, and become hidden from any creature you have cover or concealment from or who isn’t observing you. While in shadow form, you have full awareness of your surroundings, attacks against you and tests made to find you take a bane, and you can’t move or take actions or maneuvers except to exit this form. Any ability or effect that targets more than 1 square affects you in this form only if it explicitly affects the surface you are flattened against. You can exit this form as a maneuver.
@@ -1786,14 +1791,14 @@ Additionally, you gain the following ability.
 
 A magical sigil you placed on a creature explodes with energy.
 
-- **Keywords**: Attack, Magic, Ranged  
-- **Type**: Action  
-- **Distance**: Ranged 10  
+- **Keywords**: Attack, Magic, Ranged
+- **Type**: Action
+- **Distance**: Ranged 10
 - **Target**: 1 creature with your sigil
 
-**Power Roll** + Reason, Intuition, or Presence:  
-- 11 or lower: 3 damage; slide 1  
-- 12–16: 7 damage; slide 2  
+**Power Roll** + Reason, Intuition, or Presence:
+- 11 or lower: 3 damage; slide 1
+- 12–16: 7 damage; slide 2
 - 17+: 10 damage; slide 3
 
 **Effect**: The sigil disappears from the creature.
@@ -1812,8 +1817,8 @@ Your supernatural gifts allow you to influence other undead. You gain an edge on
 
 ## TIME RAIDER
 
-“I fear no living thing, but the time raiders.”  
-—Chief Executive Admiral Lithiri Aswandala  
+“I fear no living thing, but the time raiders.”
+—Chief Executive Admiral Lithiri Aswandala
 Commander of the HOV First Get Behind Them Memonek
 
 The original servitor species of the synliiroi—evil psions with near god-like power—the kuran’zoi liberated themselves during the First Psychic War. In the centuries since, they built their own culture and civilization as nomads of the timescape. The exonym “time raiders” was given to them by denizens of the lower worlds who, seeing the advanced technology they wield, concluded they must be from the future.
@@ -1930,7 +1935,7 @@ Your mind is a formidable layer of defense, granting you psionic immunity 5.
 
 ## CULTURE
 
-What makes a hero? Is their desire to stand up for the innocent and protect others somehow innate? Are they born knowing that tyrants must fall? Does a higher power instill the idea that sometimes those least deserving of compassion are those who need it most?  
+What makes a hero? Is their desire to stand up for the innocent and protect others somehow innate? Are they born knowing that tyrants must fall? Does a higher power instill the idea that sometimes those least deserving of compassion are those who need it most?
 
 No. A hero’s life experience teaches them right from wrong—and that experience starts with the culture that raised them.
 
@@ -1941,7 +1946,6 @@ No. A hero’s life experience teaches them right from wrong—and that experien
 A hero’s culture describes the beliefs, customs, values, and way of life held by the community in which they were raised. This community provides life experiences that give a character some of their game statistics. Even if a hero doesn’t share their culture’s values, those values shaped their early development and way of life. In fact, some people become heroes primarily from the rejection of the ways of their culture.
 
 For our purposes, a hero’s culture represents people, not a place. Yes, you might have grown up in the city of Capital, but your culture is more specific than that. One hero’s culture might be House Alvaro, a noble house in Capital where they were raised. Another’s culture could be a group or organization that moves around, such as a band of pirates or a secret order of sorcerers sworn to protect books of fell magic. It helps to get specific when thinking about your culture, and working with the four aspects of a culture can help you do that: language, environment, organization, and upbringing.
-
 
 ## CULTURE
 
@@ -1999,7 +2003,7 @@ A nomadic culture travels from place to place to survive. They might follow anim
 
 A rural culture is one located in a town, village, or smaller settled enclave. People dwelling in such places often cultivate the land, trade goods or services with travelers passing through, harvest fish from the sea, or mine metals and gems from the earth.
 
-Living among a small population, most folks in a rural community learn a trade and are handed down bits of essential knowledge to help their community survive.  For example, when a rural culture has only one blacksmith, it’s important to have an apprentice already learning at the anvil well before that smith starts to get old. If the only priest in town gets the sniffles, folks want an acolyte ready to wear the fancy robes should the worst occur.
+Living among a small population, most folks in a rural community learn a trade and are handed down bits of essential knowledge to help their community survive. For example, when a rural culture has only one blacksmith, it’s important to have an apprentice already learning at the anvil well before that smith starts to get old. If the only priest in town gets the sniffles, folks want an acolyte ready to wear the fancy robes should the worst occur.
 
 **Skill Options:** One skill from the crafting or lore skill groups.
 
@@ -2049,120 +2053,120 @@ Those who thrive in bureaucratic cultures don’t just follow the rules. They kn
 
 ##### COMMUNAL
 
-A communal culture has no formal book of laws or rules for governing. Instead, the community works together to pick leaders and make important decisions. Often in these cultures, each person has a relatively equal say in how the culture operates, and everyone contributes to help the culture survive and thrive. People share the burdens of governing, physical labor, childcare, and other duties. A collective of farmers who work together to cultivate and protect their land without a noble, a city of pirates where each person can do as they wish, and a traveling theatrical troupe whose members vote on every artistic and administrative decision are all communal cultures.  
+A communal culture has no formal book of laws or rules for governing. Instead, the community works together to pick leaders and make important decisions. Often in these cultures, each person has a relatively equal say in how the culture operates, and everyone contributes to help the culture survive and thrive. People share the burdens of governing, physical labor, childcare, and other duties. A collective of farmers who work together to cultivate and protect their land without a noble, a city of pirates where each person can do as they wish, and a traveling theatrical troupe whose members vote on every artistic and administrative decision are all communal cultures.
 
-Some communal cultures have one or more people who serve as leaders, but the way these leaders come to power is never official. Some are thrust into the role by people who admire their stances and actions. Other leaders seize power without the help of an official process, dethroning a previous leader and claiming their power without a challenge. People in communal cultures learn that their voice and individuality has worth, as do the opinions and hard work of others.  
+Some communal cultures have one or more people who serve as leaders, but the way these leaders come to power is never official. Some are thrust into the role by people who admire their stances and actions. Other leaders seize power without the help of an official process, dethroning a previous leader and claiming their power without a challenge. People in communal cultures learn that their voice and individuality has worth, as do the opinions and hard work of others.
 
-**Skill Options**: One skill from the crafting or interpersonal skill groups.  
+**Skill Options**: One skill from the crafting or interpersonal skill groups.
 
-#### UPBRINGING  
+#### UPBRINGING
 
-Your culture’s upbringing aspect is a more specific and personal part of your hero’s story, describing how you were individually raised within your culture. Were you trained to become the newest archmage in a secret order of wizards, or to be a sword-wielding bodyguard who protected that arcane organization? Did you learn to delve deep into mines looking for ore in a mountain kingdom, or did you build machines meant to dig faster and deeper than any person could alone? Whatever your culture, your upbringing makes you special within that culture.  
+Your culture’s upbringing aspect is a more specific and personal part of your hero’s story, describing how you were individually raised within your culture. Were you trained to become the newest archmage in a secret order of wizards, or to be a sword-wielding bodyguard who protected that arcane organization? Did you learn to delve deep into mines looking for ore in a mountain kingdom, or did you build machines meant to dig faster and deeper than any person could alone? Whatever your culture, your upbringing makes you special within that culture.
 
-Pick your upbringing aspect from the following list: academic, creative, illegal, labor, martial, or noble. You then gain skill options from your chosen aspect.  
+Pick your upbringing aspect from the following list: academic, creative, illegal, labor, martial, or noble. You then gain skill options from your chosen aspect.
 
-##### ACADEMIC  
+##### ACADEMIC
 
-Heroes with an academic upbringing were raised by people who collect, study, and share books and other records. Some academics focus on one area of study, such as a college for wizards dedicated to the study of magic, or a church that teaches the word of one deity. People in an academic culture learn how to wield the power that is knowledge.  
+Heroes with an academic upbringing were raised by people who collect, study, and share books and other records. Some academics focus on one area of study, such as a college for wizards dedicated to the study of magic, or a church that teaches the word of one deity. People in an academic culture learn how to wield the power that is knowledge.
 
-**Skill Options**: One skill from the lore skill group.  
+**Skill Options**: One skill from the lore skill group.
 
-##### CREATIVE  
+##### CREATIVE
 
-Heroes with a creative upbringing were raised among folk who create art or other works valuable enough to trade. A creative culture might produce fine art such as dance, music, or sculpture, or more practical wares such as wagons, weapons, tools, or buildings. People in such cultures learn the value of quality crafting and attention to detail.  
+Heroes with a creative upbringing were raised among folk who create art or other works valuable enough to trade. A creative culture might produce fine art such as dance, music, or sculpture, or more practical wares such as wagons, weapons, tools, or buildings. People in such cultures learn the value of quality crafting and attention to detail.
 
-**Skill Options**: The Music or Perform skill, or one skill from the crafting skill group.  
+**Skill Options**: The Music or Perform skill, or one skill from the crafting skill group.
 
-##### ILLEGAL  
+##### ILLEGAL
 
-Heroes with an illegal upbringing had caregivers who performed activities that other folk—whether within or outside their culture—considered unlawful. A band of pirates, a guild of assassins, or an organization of spies all commit unlawful acts for money. People with illegal upbringings typically don’t mind breaking the rules when it suits them—and are good at making sure no one finds out they did.  
+Heroes with an illegal upbringing had caregivers who performed activities that other folk—whether within or outside their culture—considered unlawful. A band of pirates, a guild of assassins, or an organization of spies all commit unlawful acts for money. People with illegal upbringings typically don’t mind breaking the rules when it suits them—and are good at making sure no one finds out they did.
 
-**Skill Options**: One skill from the intrigue skill group.  
+**Skill Options**: One skill from the intrigue skill group.
 
-##### LABOR  
+##### LABOR
 
-People who labor for a living survive through cultivation, typically raising crops or livestock on a farm; by harvesting natural resources, whether by hunting, trapping, logging, or mining; or through manual labor tied to settlement and trade, such as construction, carting, loading cargo, and so forth. People with a labor upbringing know the value of hard work.  
+People who labor for a living survive through cultivation, typically raising crops or livestock on a farm; by harvesting natural resources, whether by hunting, trapping, logging, or mining; or through manual labor tied to settlement and trade, such as construction, carting, loading cargo, and so forth. People with a labor upbringing know the value of hard work.
 
-**Skill Options**: One of the Blacksmithing or Handle Animals skills, or one skill from the exploration skill group.  
+**Skill Options**: One of the Blacksmithing or Handle Animals skills, or one skill from the exploration skill group.
 
-##### MARTIAL  
+##### MARTIAL
 
-Heroes who have a martial upbringing are raised by warriors. These might be the soldiers of an established army, a band of mercenaries, a guild of monster-slaying adventurers, or any other folk whose lives revolve around combat. Heroes with a martial upbringing are always ready for a fight—and they know how to finish that fight.  
+Heroes who have a martial upbringing are raised by warriors. These might be the soldiers of an established army, a band of mercenaries, a guild of monster-slaying adventurers, or any other folk whose lives revolve around combat. Heroes with a martial upbringing are always ready for a fight—and they know how to finish that fight.
 
-**Skill Options**: One of the Alertness, Blacksmithing, Climb, Endurance, Fletching, Intimidate, Jump, Monsters, Ride, or Track skills.  
+**Skill Options**: One of the Alertness, Blacksmithing, Climb, Endurance, Fletching, Intimidate, Jump, Monsters, Ride, or Track skills.
 
-##### NOBLE  
+##### NOBLE
 
-Heroes with a noble upbringing were raised by leaders who rule over others and play the games of politics to maintain power. Many families are nobles by birthright, but some cultures have noble titles that are earned through deeds or popularity. Whatever the case, heroes with this background understand why the whispered words in the right ear can sometimes be more powerful than any army.  
+Heroes with a noble upbringing were raised by leaders who rule over others and play the games of politics to maintain power. Many families are nobles by birthright, but some cultures have noble titles that are earned through deeds or popularity. Whatever the case, heroes with this background understand why the whispered words in the right ear can sometimes be more powerful than any army.
 
-**Skill Options**: One skill from the interpersonal skill group.  
+**Skill Options**: One skill from the interpersonal skill group.
 
-##### BUT I REALLY WANT ALERTNESS  
+##### BUT I REALLY WANT ALERTNESS
 
 If the culture you create doesn’t grant a skill that you want, check with your Director about modifying what the culture’s aspects offer. For instance, you can easily make the case that a culture with the martial upbringing aspect should give a character access to the Alertness skill, given that being successful in battle means always being aware of your surroundings.
 
 ## CAREER
 
-Hero isn’t a job. It’s a calling. But before you answered that call, you had a different job or vocation that paid the bills. Thank the gods for that, because the experience you gained in that career is now helping you save lives and slay monsters.  
-(Playtest note: Eight careers are detailed below, with more coming.)  
+Hero isn’t a job. It’s a calling. But before you answered that call, you had a different job or vocation that paid the bills. Thank the gods for that, because the experience you gained in that career is now helping you save lives and slay monsters.
+(Playtest note: Eight careers are detailed below, with more coming.)
 
 ### CAREER QUESTIONS
 
-The careers in this section don’t go into great detail about the actual jobs they represent. We assume that you know the basics of what an artisan, a criminal, or a gladiator does for a living. However, each career does include a list of questions that you should think about to help you define the specific details of your hero’s career. For instance, if you pick the Artisan career, one of the questions is, “What did you create?” You don’t need to answer these questions, but doing so helps shape a more complete picture of your hero.  
+The careers in this section don’t go into great detail about the actual jobs they represent. We assume that you know the basics of what an artisan, a criminal, or a gladiator does for a living. However, each career does include a list of questions that you should think about to help you define the specific details of your hero’s career. For instance, if you pick the Artisan career, one of the questions is, “What did you create?” You don’t need to answer these questions, but doing so helps shape a more complete picture of your hero.
 
 ### CAREER BENEFITS
 
-Your career describes what your life was before you became a hero. When you select a career, you gain a number of benefits, the details of which are specified in the career’s description.  
+Your career describes what your life was before you became a hero. When you select a career, you gain a number of benefits, the details of which are specified in the career’s description.
 
 #### SKILLS
 
-Each career grants you two or three skills. If a career grants you a skill you already have, you can select a different skill.  
+Each career grants you two or three skills. If a career grants you a skill you already have, you can select a different skill.
 
 #### LANGUAGES
 
-Some careers allow you to learn extra languages, chosen from those available in Languages.  
+Some careers allow you to learn extra languages, chosen from those available in Languages.
 
 #### RENOWN
 
-Some careers increase your starting Renown score. See Renown for more information.  
+Some careers increase your starting Renown score. See Renown for more information.
 
 #### PROJECT POINTS
 
-Some careers provide project points that you can put toward research and crafting projects (see Research and Crafting in future packets for more information). These points can be divided among multiple projects, but they can’t be used more than once. At the Director’s discretion, your career might also let you start the game with the materials needed for one or more projects, so that you can immediately put your project points toward them.  
+Some careers provide project points that you can put toward research and crafting projects (see Research and Crafting in future packets for more information). These points can be divided among multiple projects, but they can’t be used more than once. At the Director’s discretion, your career might also let you start the game with the materials needed for one or more projects, so that you can immediately put your project points toward them.
 
 #### CAREER TITLE
 
-Your career provides you with a common title. See Titles for more information.  
-(Playtest note: The Titles section is still to come.)  
+Your career provides you with a common title. See Titles for more information.
+(Playtest note: The Titles section is still to come.)
 
 ### INCITING INCIDENT
 
-Each career has a list of inciting incidents, each of which suggests a potential reason why you gave up your career, turned away from a possibly comfortable and reliable living, and took up the sword (or axe or wand) to become an adventuring hero. Each inciting incident represents a life-changing event that might have motivated you to change course, becoming a person who risks it all to save others.  
+Each career has a list of inciting incidents, each of which suggests a potential reason why you gave up your career, turned away from a possibly comfortable and reliable living, and took up the sword (or axe or wand) to become an adventuring hero. Each inciting incident represents a life-changing event that might have motivated you to change course, becoming a person who risks it all to save others.
 
-You can roll for or choose an inciting incident from the table that accompanies each career. You can also use the table as inspiration and work with your Director to come up with a unique inciting incident of your own.  
-(Playtest note: There are currently three inciting incidents for each career. More are coming.)  
+You can roll for or choose an inciting incident from the table that accompanies each career. You can also use the table as inspiration and work with your Director to come up with a unique inciting incident of your own.
+(Playtest note: There are currently three inciting incidents for each career. More are coming.)
 
 #### WHAT WAS TAKEN FROM YOU?
 
-During your inciting incident, something was taken from you. It might have been a material object, such as an heirloom sword or a locket that proves your royal heritage. It could be a person you loved who was killed, kidnapped, or cursed. It might be something deeper and more abstract, as with a chance for happiness or a lifetime goal snatched away.  
+During your inciting incident, something was taken from you. It might have been a material object, such as an heirloom sword or a locket that proves your royal heritage. It could be a person you loved who was killed, kidnapped, or cursed. It might be something deeper and more abstract, as with a chance for happiness or a lifetime goal snatched away.
 
-It might be the case that you’re obsessed with getting back what you lost. You might be in a position where you’ll never recover what was taken from you, but you want to prevent that same loss from happening to others. It might be a little bit of both. Whatever the case, the loss you’ve suffered is part of what drives you to be a hero. Record what was taken from you on your character sheet, and let your Director know.  
+It might be the case that you’re obsessed with getting back what you lost. You might be in a position where you’ll never recover what was taken from you, but you want to prevent that same loss from happening to others. It might be a little bit of both. Whatever the case, the loss you’ve suffered is part of what drives you to be a hero. Record what was taken from you on your character sheet, and let your Director know.
 
 ### ARTISAN
 
-You started off making and selling art or useful wares. In defining your career, think about the following questions:  
+You started off making and selling art or useful wares. In defining your career, think about the following questions:
 
-- What did you create?  
-- Who taught you your craft?  
-- Was there any particular creation you were known for?  
-- Did you have a shop, or did you travel to sell your wares?  
+- What did you create?
+- Who taught you your craft?
+- Was there any particular creation you were known for?
+- Did you have a shop, or did you travel to sell your wares?
 
-You gain the following career benefits:  
+You gain the following career benefits:
 
-- **Skills**: Two skills from the crafting skill group  
-- **Languages**: One language  
-- **Project Points**: 100  
-- **Title**—Expert Artisan: Whenever you make a test as part of a research or crafting project that uses a skill you have from the crafting skill group, you can roll the test twice and use either roll.  
+- **Skills**: Two skills from the crafting skill group
+- **Languages**: One language
+- **Project Points**: 100
+- **Title**—Expert Artisan: Whenever you make a test as part of a research or crafting project that uses a skill you have from the crafting skill group, you can roll the test twice and use either roll.
 
 #### ARTISAN INCITING INCIDENTS
 
@@ -2264,10 +2268,10 @@ You gain the following career benefits:
 
 You cast an entertaining spell that creates a minor but impressive magical effect.
 
-**Keywords**: Magic  
-**Type**: Action  
-**Distance**: Self  
-**Target**: Self  
+**Keywords**: Magic
+**Type**: Action
+**Distance**: Self
+**Target**: Self
 
 **Effect**: Choose one of the following effects:
 
@@ -2321,7 +2325,7 @@ From an early age, you dedicated yourself to learning, whether you shared the kn
 
 You gain the following career benefits:
 
-- **Skills**: Two skills from the lore skill group   
+- **Skills**: Two skills from the lore skill group
 - **Languages**: One language
 - **Project Points**: 100
 - **Title**—Expert Sage: Whenever you make a test as part of a research or crafting project that uses a skill you have from the lore skill group, you can roll the test twice and use either roll.
@@ -2360,8 +2364,8 @@ You gain the following career benefits:
 
 ## CLASSES
 
-(Playtest note: Introduction to come.)  
-Your class provides you with most of your abilities. For details on the ability format, see Abilities.  
+(Playtest note: Introduction to come.)
+Your class provides you with most of your abilities. For details on the ability format, see Abilities.
 (Playtest note: The currently available classes are the conduit, elementalist, fury, shadow, and tactician, each of which includes only 1st-level features.)
 
 ## CONDUIT
@@ -2372,13 +2376,13 @@ As a conduit, you heal and buff your allies, and debuff your foes while smiting 
 
 ### BASICS
 
-- **Starting Characteristics**: You start with an Intuition of 2 and a Presence of 2, and can choose one of the following arrays for your other characteristic scores:  
-  - 2, −1, −1  
-  - 1, 1, −1  
-  - 1, 0, 0  
-- **Starting Stamina at 1st Level**: 18  
-- **Stamina Gained at 2nd and Higher Levels**: 8  
-- **Recoveries**: 10  
+- **Starting Characteristics**: You start with an Intuition of 2 and a Presence of 2, and can choose one of the following arrays for your other characteristic scores:
+  - 2, −1, −1
+  - 1, 1, −1
+  - 1, 0, 0
+- **Starting Stamina at 1st Level**: 18
+- **Stamina Gained at 2nd and Higher Levels**: 8
+- **Recoveries**: 10
 - **Skills**: Choose any two skills from the interpersonal or lore skill groups.
 
 ### CONDUIT ADVANCEMENT
@@ -2395,8 +2399,8 @@ As a conduit, you gain the following features.
 
 #### DEITY AND DOMAINS
 
-Choose a god or saint who you revere from the Conduit Deities table, or ask your Director about the deities in your campaign world. With the Director’s permission, you can also create your own deity, and can choose four domains to be part of their portfolio.  
-After choosing your deity, pick two domains from their portfolio. Your choice of domains determines many of the features you’ll gain from this class.  
+Choose a god or saint who you revere from the Conduit Deities table, or ask your Director about the deities in your campaign world. With the Director’s permission, you can also create your own deity, and can choose four domains to be part of their portfolio.
+After choosing your deity, pick two domains from their portfolio. Your choice of domains determines many of the features you’ll gain from this class.
 (Playtest note: More gods and saints are coming, along with their descriptions.)
 
 ### CONDUIT DEITIES
@@ -2412,22 +2416,22 @@ After choosing your deity, pick two domains from their portfolio. Your choice of
 
 #### PIETY
 
-Your deity grants you a Heroic Resource called piety to fuel your abilities. You use piety to heal and empower your allies, and to unleash your deity’s power upon your foes.  
-Outside of combat and other dangerous situations tracked in turns and rounds, you have piety equal to your Victories. If you lose some or all of this piety outside of combat, it takes you 1 minute to regain it.  
+Your deity grants you a Heroic Resource called piety to fuel your abilities. You use piety to heal and empower your allies, and to unleash your deity’s power upon your foes.
+Outside of combat and other dangerous situations tracked in turns and rounds, you have piety equal to your Victories. If you lose some or all of this piety outside of combat, it takes you 1 minute to regain it.
 When a combat encounter begins, you keep any piety you had outside of combat. At the start of each of your turns during combat, you gain 2 piety. You can also use the Prayer ability to gain additional piety. When combat ends, you once again have piety equal to your Victories.
 
 #### PRAYER
 
-*I beseech you!*  
-**Keywords**: Magic  
-**Type**: Maneuver  
-**Distance**: Self  
-**Target**: Self  
+*I beseech you!*
+**Keywords**: Magic
+**Type**: Maneuver
+**Distance**: Self
+**Target**: Self
 
-**Power Roll + Intuition**:  
-- 11 or lower: 1d6 damage; bleeding (EoT)  
-- 12–16: Gain 1 piety  
-- 17+: Gain 2 piety and choose and use a domain effect  
+**Power Roll + Intuition**:
+- 11 or lower: 1d6 damage; bleeding (EoT)
+- 12–16: Gain 1 piety
+- 17+: Gain 2 piety and choose and use a domain effect
 
 **Effect**: The first time you use this ability during an encounter, it has a double edge. The second time you use it, it takes an edge. The third time you use it, it takes a bane. The fourth and each subsequent time you use this ability during an encounter, it has a double bane.
 
@@ -2545,10 +2549,10 @@ You gain the following ability.
 
 The power of death lets you speak with those who have passed from the world.
 
-- **Keywords**: Magic  
-- **Type**: Maneuver  
-- **Distance**: Reach 1  
-- **Target**: Special  
+- **Keywords**: Magic
+- **Type**: Maneuver
+- **Distance**: Reach 1
+- **Target**: Special
 
 **Effect**: You can speak to the corpse or head of a creature who has died within the last 24 hours and who can speak a language you know. The target regards you as they would have in life, and you might need to make tests to influence them and convince them to speak with you. After 1 minute, the effect ends. You can’t use this ability on the same creature twice.
 
@@ -2560,10 +2564,10 @@ You gain the following ability.
 
 Craft objects with the power of your mind!
 
-- **Keywords**: Magic  
-- **Type**: Maneuver  
-- **Distance**: Self  
-- **Target**: Self  
+- **Keywords**: Magic
+- **Type**: Maneuver
+- **Distance**: Self
+- **Target**: Self
 
 **Effect**: You create a mundane object no larger than size 1S that you hold. If you use this feature again or stop holding the object, it disappears.
 
@@ -2587,16 +2591,16 @@ You gain the following ability, which you can use once on your turn.
 
 Your divine energy restores the righteous.
 
-- **Keywords**: Magic, Ranged  
-- **Type**: Maneuver  
-- **Distance**: Ranged 5  
-- **Target**: Self or 1 ally  
+- **Keywords**: Magic, Ranged
+- **Type**: Maneuver
+- **Distance**: Ranged 5
+- **Target**: Self or 1 ally
 
-**Effect**: The target can spend 1 Recovery.  
-**Spend Piety**: For each piety spent, you can choose one of the following enhancements:  
-- You can target one additional ally within distance.  
-- You can end one effect on a target that has a duration of EoT or is ended by a resistance roll.  
-- A prone target can stand up.  
+**Effect**: The target can spend 1 Recovery.
+**Spend Piety**: For each piety spent, you can choose one of the following enhancements:
+- You can target one additional ally within distance.
+- You can end one effect on a target that has a duration of EoT or is ended by a resistance roll.
+- A prone target can stand up.
 - A target can spend 1 additional Recovery.
 
 ### PIOUS FORCE
@@ -2607,15 +2611,15 @@ You gain the following ability, which can be used as a ranged free strike.
 
 You unleash a blast of raw divine magic upon your foe.
 
-- **Keywords**: Attack, Magic, Ranged  
-- **Type**: Action  
-- **Distance**: Ranged 5  
-- **Target**: 1 creature or object  
+- **Keywords**: Attack, Magic, Ranged
+- **Type**: Action
+- **Distance**: Ranged 5
+- **Target**: 1 creature or object
 
-**Power Roll + Intuition**:  
-- 11 or lower: 2 damage  
-- 12–16: 6 damage  
-- 17+: 9 damage  
+**Power Roll + Intuition**:
+- 11 or lower: 2 damage
+- 12–16: 6 damage
+- 17+: 9 damage
 
 **Effect**: You can choose to change the damage type to holy.
 
@@ -2627,26 +2631,26 @@ Choose one of the following triggered actions.
 
 You sap the strength of an attacking enemy with divine energy.
 
-- **Keywords**: Magic, Ranged  
-- **Type**: Triggered  
-- **Distance**: Ranged 5  
-- **Target**: 1 enemy  
+- **Keywords**: Magic, Ranged
+- **Type**: Triggered
+- **Distance**: Ranged 5
+- **Target**: 1 enemy
 - **Trigger**: The target makes an attack. You can use this ability after seeing the result of the attack.
 
-**Effect**: The attack takes a bane and the damage to one creature targeted by the attack is reduced by an amount equal to your Intuition.  
+**Effect**: The attack takes a bane and the damage to one creature targeted by the attack is reduced by an amount equal to your Intuition.
 **Spend 1 Piety**: The attack has a double bane and the damage to one creature targeted by the attack is reduced by an amount equal to twice your Intuition score.
 
 #### HOLY INFUSION
 
 You invigorate an attacking ally with divine energy.
 
-- **Keywords**: Magic, Ranged  
-- **Type**: Triggered  
-- **Distance**: Ranged 5  
-- **Target**: 1 ally  
+- **Keywords**: Magic, Ranged
+- **Type**: Triggered
+- **Distance**: Ranged 5
+- **Target**: 1 ally
 - **Trigger**: The target makes an attack. You can use this ability after seeing the result of the attack.
 
-**Effect**: The attack gains an edge and deals holy damage equal to twice your Intuition score.  
+**Effect**: The attack gains an edge and deals holy damage equal to twice your Intuition score.
 **Spend 1 Piety**: The attack has a double edge and deals holy damage equal to twice your Intuition score.
 
 ### CONDUIT ABILITIES
@@ -2661,29 +2665,29 @@ Select one signature ability from the options below. Signature abilities can be 
 
 A tendril of divine energy shoots forth to draw in your foe.
 
-- **Keywords**: Attack, Magic, Ranged  
-- **Type**: Action  
-- **Distance**: Ranged 5  
-- **Target**: 1 creature or object  
+- **Keywords**: Attack, Magic, Ranged
+- **Type**: Action
+- **Distance**: Ranged 5
+- **Target**: 1 creature or object
 
-**Power Roll + Intuition**:  
-- 11 or lower: 2 holy damage; pull 2  
-- 12–16: 6 holy damage; pull 3  
-- 17+: 9 holy damage; pull 4  
+**Power Roll + Intuition**:
+- 11 or lower: 2 holy damage; pull 2
+- 12–16: 6 holy damage; pull 3
+- 17+: 9 holy damage; pull 4
 
 ##### LIGHTFALL
 
 Holy light scours your foes and sets your allies into perfect attack position.
 
-- **Keywords**: Area, Magic, Ranged  
-- **Type**: Action  
-- **Distance**: Cube 3 within 5  
-- **Target**: All enemies  
+- **Keywords**: Area, Magic, Ranged
+- **Type**: Action
+- **Distance**: Cube 3 within 5
+- **Target**: All enemies
 
-**Power Roll + Intuition**:  
-- 11 or lower: 2 holy damage  
-- 12–16: 3 holy damage  
-- 17+: 4 holy damage  
+**Power Roll + Intuition**:
+- 11 or lower: 2 holy damage
+- 12–16: 3 holy damage
+- 17+: 4 holy damage
 
 **Effect**: You can teleport each ally in the area and yourself (if you’re in the area) to an unoccupied space within the area.
 
@@ -2691,29 +2695,29 @@ Holy light scours your foes and sets your allies into perfect attack position.
 
 The divine energy of creation tears at your foe.
 
-- **Keywords**: Attack, Magic, Ranged  
-- **Type**: Action  
-- **Distance**: Ranged 5  
-- **Target**: 1 creature  
+- **Keywords**: Attack, Magic, Ranged
+- **Type**: Action
+- **Distance**: Ranged 5
+- **Target**: 1 creature
 
-**Power Roll + Intuition**:  
-- 11 or lower: 2 corruption damage  
-- 12–16: 6 corruption damage; the next ally to damage the target before the start of your next turn deals an extra 1d6 corruption damage  
-- 17+: 9 corruption damage; the next ally to damage the target before the start of your next turn deals an extra 1d10 corruption damage  
+**Power Roll + Intuition**:
+- 11 or lower: 2 corruption damage
+- 12–16: 6 corruption damage; the next ally to damage the target before the start of your next turn deals an extra 1d6 corruption damage
+- 17+: 9 corruption damage; the next ally to damage the target before the start of your next turn deals an extra 1d10 corruption damage
 
 ##### WITHER
 
 A bolt of holy energy saps the life from a foe.
 
-- **Keywords**: Attack, Magic, Ranged  
-- **Type**: Action  
-- **Distance**: Ranged 5  
-- **Target**: 1 creature or object  
+- **Keywords**: Attack, Magic, Ranged
+- **Type**: Action
+- **Distance**: Ranged 5
+- **Target**: 1 creature or object
 
-**Power Roll + Intuition**:  
-- 11 or lower: 2 corruption damage  
-- 12–16: 6 corruption damage; the target takes a bane on ability power rolls (EoT)  
-- 17+: 9 corruption damage; the target has a double bane on ability power rolls (EoT)  
+**Power Roll + Intuition**:
+- 11 or lower: 2 corruption damage
+- 12–16: 6 corruption damage; the target takes a bane on ability power rolls (EoT)
+- 17+: 9 corruption damage; the target has a double bane on ability power rolls (EoT)
 
 ### HEROIC ABILITIES
 
@@ -2727,10 +2731,10 @@ Choose one heroic ability from the following options, each of which costs 3 piet
 
 You conjure an angelic spirit who lashes your foes with burning radiance.
 
-- **Keywords**: Magic, Ranged  
-- **Type**: Action  
-- **Distance**: Ranged 5  
-- **Target**: Special  
+- **Keywords**: Magic, Ranged
+- **Type**: Action
+- **Distance**: Ranged 5
+- **Target**: Special
 
 **Effect**: You summon an angelic spirit of size 1M who can’t be harmed, and who appears in an unoccupied space within distance. The spirit lasts until the end of your next turn. You and your allies can move through the spirit’s space, but enemies can’t. The first time on a turn that an enemy moves within 1 square of the spirit or starts their turn there, they take holy damage equal to twice your Intuition score.
 
@@ -2738,29 +2742,29 @@ You conjure an angelic spirit who lashes your foes with burning radiance.
 
 Your divine fury is a hammer that crashes down upon the unrighteous.
 
-- **Keywords**: Attack, Magic, Ranged  
-- **Type**: Action  
-- **Distance**: Ranged 5  
-- **Target**: 1 creature or object  
+- **Keywords**: Attack, Magic, Ranged
+- **Type**: Action
+- **Distance**: Ranged 5
+- **Target**: 1 creature or object
 
-**Power Roll + Intuition**:  
-- 11 or lower: 6 holy damage  
-- 12–16: 8 holy damage; prone  
-- 17+: 13 holy damage; prone and can’t stand (EoT)  
+**Power Roll + Intuition**:
+- 11 or lower: 6 holy damage
+- 12–16: 8 holy damage; prone
+- 17+: 13 holy damage; prone and can’t stand (EoT)
 
 ##### RIGHTEOUS REBUKE (3 PIETY)
 
 Divine wrath strikes your foe with lightning that follows them across the battlefield.
 
-- **Keywords**: Attack, Magic, Ranged  
-- **Type**: Action  
-- **Distance**: Ranged 5  
-- **Target**: 1 creature  
+- **Keywords**: Attack, Magic, Ranged
+- **Type**: Action
+- **Distance**: Ranged 5
+- **Target**: 1 creature
 
-**Power Roll + Intuition**:  
-- 11 or lower: 6 lightning damage  
-- 12–16: 8 lightning damage  
-- 17+: 13 lightning damage  
+**Power Roll + Intuition**:
+- 11 or lower: 6 lightning damage
+- 12–16: 8 lightning damage
+- 17+: 13 lightning damage
 
 **Effect**: If the target deals damage to another creature before the end of their next turn, the target of this ability takes another 1d10 lightning damage.
 
@@ -2768,15 +2772,15 @@ Divine wrath strikes your foe with lightning that follows them across the battle
 
 A resounding clap of thunder disrupts your foes.
 
-- **Keywords**: Area, Magic, Ranged  
-- **Type**: Action  
-- **Distance**: 4 cube within 5  
-- **Target**: All enemies  
+- **Keywords**: Area, Magic, Ranged
+- **Type**: Action
+- **Distance**: 4 cube within 5
+- **Target**: All enemies
 
-**Power Roll + Intuition**:  
-- 11 or lower: 4 sonic damage; push 1  
-- 12–16: 5 sonic damage; push 3  
-- 17+: 8 sonic damage; push 5  
+**Power Roll + Intuition**:
+- 11 or lower: 4 sonic damage; push 1
+- 12–16: 5 sonic damage; push 3
+- 17+: 8 sonic damage; push 5
 
 **Effect**: You can also push each willing ally in the area, and their stability doesn’t count against this forced movement.
 
@@ -2788,15 +2792,15 @@ Choose one heroic ability from the following options, each of which costs 5 piet
 
 The divine light of protection surrounds your allies.
 
-- **Keywords**: Magic, Ranged  
-- **Type**: Maneuver  
-- **Distance**: Ranged 5  
-- **Target**: 3 allies  
+- **Keywords**: Magic, Ranged
+- **Type**: Maneuver
+- **Distance**: Ranged 5
+- **Target**: 3 allies
 
-**Power Roll + Intuition**:  
-- 11 or lower: Gain 10 temporary Stamina  
-- 12–16: Gain 15 temporary Stamina  
-- 17+: Gain 20 temporary Stamina  
+**Power Roll + Intuition**:
+- 11 or lower: Gain 10 temporary Stamina
+- 12–16: Gain 15 temporary Stamina
+- 17+: Gain 20 temporary Stamina
 
 **Effect**: This temporary Stamina disappears at the end of the encounter.
 
@@ -2804,38 +2808,38 @@ The divine light of protection surrounds your allies.
 
 Divine energy scours your target to make them more susceptible to harm.
 
-- **Keywords**: Attack, Magic, Ranged  
-- **Type**: Action  
-- **Distance**: Ranged 5  
-- **Target**: 1 creature or object  
+- **Keywords**: Attack, Magic, Ranged
+- **Type**: Action
+- **Distance**: Ranged 5
+- **Target**: 1 creature or object
 
-**Power Roll + Intuition**:  
-- 11 or lower: 7 corruption damage; whenever the target takes damage, they take an extra 3 corruption damage (EoT)  
-- 12–16: 10 damage; whenever the target takes damage, they take an extra 5 corruption damage (EoT)  
-- 17+: 16 damage; whenever the target takes damage, they take an extra 5 corruption damage (EoE)  
+**Power Roll + Intuition**:
+- 11 or lower: 7 corruption damage; whenever the target takes damage, they take an extra 3 corruption damage (EoT)
+- 12–16: 10 damage; whenever the target takes damage, they take an extra 5 corruption damage (EoT)
+- 17+: 16 damage; whenever the target takes damage, they take an extra 5 corruption damage (EoE)
 
 ##### TERRIFYING SMITE (5 PIETY)
 
 A mote of holy light racks your foe with their greatest fear.
 
-- **Keywords**: Attack, Magic, Ranged  
-- **Type**: Action  
-- **Distance**: Ranged 5  
-- **Target**: 1 creature  
+- **Keywords**: Attack, Magic, Ranged
+- **Type**: Action
+- **Distance**: Ranged 5
+- **Target**: 1 creature
 
-**Power Roll + Intuition**:  
-- 11 or lower: 7 holy damage  
-- 12–16: 10 holy damage; frightened (EoT)  
-- 17+: 16 holy damage; frightened (EoE)  
+**Power Roll + Intuition**:
+- 11 or lower: 7 holy damage
+- 12–16: 10 holy damage; frightened (EoT)
+- 17+: 16 holy damage; frightened (EoE)
 
 ##### WAVE OF VIRTUE (5 PIETY)
 
 A pulse of divine magic lets your comrades draw on their reserves of inner strength.
 
-- **Keywords**: Area, Magic  
-- **Type**: Action  
-- **Distance**: 5 burst  
-- **Target**: All allies  
+- **Keywords**: Area, Magic
+- **Type**: Action
+- **Distance**: 5 burst
+- **Target**: All allies
 
 **Effect**: Each target can spend one or two Recoveries, and end one effect that has a duration of EoT or is ended by a resistance roll.
 
@@ -2847,13 +2851,13 @@ As an elementalist, you can unleash your wrath across a field of foes, put an en
 
 ### BASICS
 
-- **Starting Characteristics**: You start with a Reason of 2 and an Intuition of 2, and can choose one of the following arrays for your other characteristics scores:  
-  - 2, −1, −1  
-  - 1, 1, −1  
-  - 1, 0, 0  
-- **Starting Stamina at 1st Level**: 15  
-- **Stamina Gained at 2nd and Higher Levels**: 6  
-- **Recoveries**: 8  
+- **Starting Characteristics**: You start with a Reason of 2 and an Intuition of 2, and can choose one of the following arrays for your other characteristics scores:
+  - 2, −1, −1
+  - 1, 1, −1
+  - 1, 0, 0
+- **Starting Stamina at 1st Level**: 15
+- **Stamina Gained at 2nd and Higher Levels**: 6
+- **Recoveries**: 8
 - **Skills**: You gain Magic and can choose any three skills from the crafting or lore skill groups.
 
 ### ELEMENTALIST ADVANCEMENT
@@ -2900,15 +2904,15 @@ You gain the following ability, which can be used as a ranged free strike:
 
 You hurl a ball of elemental energy at a nearby foe.
 
-- **Keywords**: Attack, Magic, Ranged  
-- **Type**: Action  
-- **Distance**: Ranged 5  
-- **Target**: 1 creature or object  
+- **Keywords**: Attack, Magic, Ranged
+- **Type**: Action
+- **Distance**: Ranged 5
+- **Target**: 1 creature or object
 
-**Power Roll + Reason**:  
-- 11 or lower: 2 damage (type varies)  
-- 12–16: 6 damage (type varies)  
-- 17+: 9 damage (type varies)  
+**Power Roll + Reason**:
+- 11 or lower: 2 damage (type varies)
+- 12–16: 6 damage (type varies)
+- 17+: 9 damage (type varies)
 
 **Effect**: When you make this attack, choose the damage type from one of the following options: acid, cold, corruption, fire, lightning, poison, or sonic.
 
@@ -2924,9 +2928,9 @@ If you maintain the same ability on several targets and the effect includes a po
 
 Whenever you take damage while you have an active persistent ability, you must make the following power roll.
 
-**Power Roll + Reason**:  
-- 11 or lower: You lose all active persistent abilities.  
-- 12–16: If you have only one persistent ability active, it remains active. Otherwise, you lose one active persistent ability of your choice.  
+**Power Roll + Reason**:
+- 11 or lower: You lose all active persistent abilities.
+- 12–16: If you have only one persistent ability active, it remains active. Otherwise, you lose one active persistent ability of your choice.
 - 17+: All your active persistent abilities remain active.
 
 #### PRACTICAL MAGIC
@@ -2937,14 +2941,14 @@ You have the following ability:
 
 Your mastery of elemental power lets you customize your magic.
 
-- **Keywords**: Magic  
-- **Type**: Maneuver  
-- **Distance**: Self  
-- **Target**: Self  
+- **Keywords**: Magic
+- **Type**: Maneuver
+- **Distance**: Self
+- **Target**: Self
 
-**Effect**: Choose one of the following effects:  
-- You use the Knockback maneuver, but you make a Reason test instead of a Might test. For this use of the maneuver, you can target a creature at a distance equal to the distance of your Hurl Element ability.  
-- You choose a creature within the distance of your Hurl Element ability and deal damage to that creature equal to your Reason score. The damage type can be acid, cold, corruption, fire, lightning, poison, or sonic.  
+**Effect**: Choose one of the following effects:
+- You use the Knockback maneuver, but you make a Reason test instead of a Might test. For this use of the maneuver, you can target a creature at a distance equal to the distance of your Hurl Element ability.
+- You choose a creature within the distance of your Hurl Element ability and deal damage to that creature equal to your Reason score. The damage type can be acid, cold, corruption, fire, lightning, poison, or sonic.
 - You teleport a number of squares equal to your Reason score.
 
 ### 1ST-LEVEL SPECIALIZATION FEATURE
@@ -2968,10 +2972,10 @@ You gain the following ability:
 
 The earth rises, falls, or opens at your command.
 
-- **Keywords**: Earth, Magic, Melee  
-- **Type**: Action  
-- **Distance**: Reach 1  
-- **Target**: Special  
+- **Keywords**: Earth, Magic, Melee
+- **Type**: Action
+- **Distance**: Reach 1
+- **Target**: Special
 
 **Effect**: You touch a square containing mundane dirt, stone, or metal and create a 5 wall of the same material, which rises up out of the ground and must include the square you touched.
 
@@ -2989,10 +2993,10 @@ You gain the following ability:
 
 With the merest touch, you cause an object to turn into slag or ash.
 
-- **Keywords**: Fire, Magic, Melee  
-- **Type**: Action  
-- **Distance**: Reach 1  
-- **Target**: 1 mundane object  
+- **Keywords**: Fire, Magic, Melee
+- **Type**: Action
+- **Distance**: Reach 1
+- **Target**: 1 mundane object
 
 **Effect**: You heat the target and cause it to combust and melt. If the object is larger than 1 square, then only the square of the object that you touch is destroyed.
 
@@ -3014,10 +3018,10 @@ You also gain the following ability:
 
 You share your special senses with others.
 
-- **Keywords**: Magic, Ranged, Void  
-- **Type**: Maneuver  
-- **Distance**: Ranged 5  
-- **Target**: Special  
+- **Keywords**: Magic, Ranged, Void
+- **Type**: Maneuver
+- **Distance**: Ranged 5
+- **Target**: Special
 
 **Effect**: For each essence you spend, you can target 1 creature. That creature gains the benefit of your Void Sense feature until the end of your next turn, but doesn’t gain the use of Shared Void Sense.
 
@@ -3038,37 +3042,37 @@ Your specialization grants you a triggered action, as shown on the Elementalist 
 
 You imbue an attack with the strength of stone.
 
-- **Keywords**: Earth, Magic, Ranged  
-- **Type**: Triggered  
-- **Distance**: Ranged 5  
-- **Target**: Self or 1 ally  
-- **Trigger**: The target makes a melee attack.  
+- **Keywords**: Earth, Magic, Ranged
+- **Type**: Triggered
+- **Distance**: Ranged 5
+- **Target**: Self or 1 ally
+- **Trigger**: The target makes a melee attack.
 
-**Effect**: The attack deals extra damage equal to 3 times your Reason score.  
+**Effect**: The attack deals extra damage equal to 3 times your Reason score.
 **Spend 1 Essence**: The attack deals extra damage equal to 4 times your Reason score instead and pushes the target a number of squares equal to your Reason score.
 
 ##### EXPLOSIVE ASSISTANCE
 
 You add a little magic to an ally’s aggression at just the right time.
 
-- **Keywords**: Fire, Magic, Ranged  
-- **Type**: Triggered  
-- **Distance**: Ranged 5  
-- **Target**: Self or 1 ally  
-- **Trigger**: The target force moves a creature or object.  
+- **Keywords**: Fire, Magic, Ranged
+- **Type**: Triggered
+- **Distance**: Ranged 5
+- **Target**: Self or 1 ally
+- **Trigger**: The target force moves a creature or object.
 
-**Effect**: The distance of the forced movement is increased by a number of squares equal to your Reason score.  
+**Effect**: The distance of the forced movement is increased by a number of squares equal to your Reason score.
 **Spend 1 Essence**: The distance of the forced movement is increased by a number of squares equal to twice your Reason score instead.
 
 ##### MEND THE SOUL
 
 The power you channel grants the ability to get back in the fight.
 
-- **Keywords**: Green, Magic, Ranged  
-- **Type**: Triggered  
-- **Distance**: Ranged 5  
-- **Target**: Self or 1 ally  
-- **Trigger**: The target starts their turn.  
+- **Keywords**: Green, Magic, Ranged
+- **Type**: Triggered
+- **Distance**: Ranged 5
+- **Target**: Self or 1 ally
+- **Trigger**: The target starts their turn.
 
 **Effect**: The target can spend a Recovery.
 
@@ -3076,13 +3080,13 @@ The power you channel grants the ability to get back in the fight.
 
 You call on the void to swallow and spit out an ally.
 
-- **Keywords**: Magic, Ranged, Void  
-- **Type**: Triggered  
-- **Distance**: Self or Ranged 5  
-- **Target**: Self or 1 ally  
-- **Trigger**: The target starts their turn or moves.  
+- **Keywords**: Magic, Ranged, Void
+- **Type**: Triggered
+- **Distance**: Self or Ranged 5
+- **Target**: Self or 1 ally
+- **Trigger**: The target starts their turn or moves.
 
-**Effect**: At any point during the move, you teleport the target a number of squares equal to your Reason.  
+**Effect**: At any point during the move, you teleport the target a number of squares equal to your Reason.
 **Spend 1 Essence**: You teleport the target a number of squares equal to twice your Reason score instead.
 
 ### ELEMENTALIST ABILITIES
@@ -3097,15 +3101,15 @@ Select one signature ability from the options below. Signature abilities can be 
 
 A sudden storm of detritus assaults your foes and leaves them struggling to move.
 
-- **Keywords**: Area, Earth, Magic, Ranged  
-- **Type**: Action  
-- **Distance**: 3 cube within 5  
-- **Target**: All enemies  
+- **Keywords**: Area, Earth, Magic, Ranged
+- **Type**: Action
+- **Distance**: 3 cube within 5
+- **Target**: All enemies
 
-**Power Roll + Reason**:  
-- 11 or lower: 2 damage  
-- 12–16: 3 damage  
-- 17+: 4 damage  
+**Power Roll + Reason**:
+- 11 or lower: 2 damage
+- 12–16: 3 damage
+- 17+: 4 damage
 
 **Effect**: The ground beneath the area becomes difficult terrain for your enemies.
 
@@ -3113,29 +3117,29 @@ A sudden storm of detritus assaults your foes and leaves them struggling to move
 
 A jet of fire erupts with elemental fury where it strikes.
 
-- **Keywords**: Attack, Fire, Magic, Ranged  
-- **Type**: Action  
-- **Distance**: Ranged 5  
-- **Target**: 1 creature or object  
+- **Keywords**: Attack, Fire, Magic, Ranged
+- **Type**: Action
+- **Distance**: Ranged 5
+- **Target**: 1 creature or object
 
-**Power Roll + Reason**:  
-- 11 or lower: 2 fire damage; push 2  
-- 12–16: 6 fire damage; push 3  
+**Power Roll + Reason**:
+- 11 or lower: 2 fire damage; push 2
+- 12–16: 6 fire damage; push 3
 - 17+: 9 fire damage; push 5
 
 ##### GROWING PAINS
 
 Whipping vines erupt from a foe’s body to grasp at another close by.
 
-- **Keywords**: Attack, Green, Magic, Ranged  
-- **Type**: Action  
-- **Distance**: Ranged 5  
-- **Target**: 1 creature  
+- **Keywords**: Attack, Green, Magic, Ranged
+- **Type**: Action
+- **Distance**: Ranged 5
+- **Target**: 1 creature
 
-**Power Roll + Reason**:  
-- 11 or lower: 2 damage  
-- 12–16: 6 damage  
-- 17+: 9 damage  
+**Power Roll + Reason**:
+- 11 or lower: 2 damage
+- 12–16: 6 damage
+- 17+: 9 damage
 
 **Effect**: A creature within 5 squares of the target is pulled 2 squares toward the target.
 
@@ -3143,14 +3147,14 @@ Whipping vines erupt from a foe’s body to grasp at another close by.
 
 A beam of energy corrupts and hinders whatever it touches.
 
-- **Keywords**: Attack, Magic, Ranged, Void  
-- **Type**: Action  
-- **Distance**: Ranged 5  
-- **Target**: 1 creature or object  
+- **Keywords**: Attack, Magic, Ranged, Void
+- **Type**: Action
+- **Distance**: Ranged 5
+- **Target**: 1 creature or object
 
-**Power Roll + Reason**:  
-- 11 or lower: 2 corruption damage  
-- 12–16: 6 corruption damage; slowed (EoT)  
+**Power Roll + Reason**:
+- 11 or lower: 2 corruption damage
+- 12–16: 6 corruption damage; slowed (EoT)
 - 17+: 9 corruption damage; slowed (EoT)
 
 ### HEROIC ABILITIES
@@ -3165,15 +3169,15 @@ Choose one heroic ability from the following options, each of which costs 3 esse
 
 Fire engulfs a target of your choice and burns at your command.
 
-- **Keywords**: Attack, Fire, Magic, Persistent, Ranged  
-- **Type**: Action  
-- **Distance**: Ranged 5  
-- **Target**: 1 creature or object  
+- **Keywords**: Attack, Fire, Magic, Persistent, Ranged
+- **Type**: Action
+- **Distance**: Ranged 5
+- **Target**: 1 creature or object
 
-**Power Roll + Reason**:  
-- 11 or lower: 6 fire damage  
-- 12–16: 8 fire damage  
-- 17+: 13 fire damage  
+**Power Roll + Reason**:
+- 11 or lower: 6 fire damage
+- 12–16: 8 fire damage
+- 17+: 13 fire damage
 
 **Persistent 1**: If the target is within distance at the start of your turn, make a power roll for this ability again.
 
@@ -3181,15 +3185,15 @@ Fire engulfs a target of your choice and burns at your command.
 
 Mushrooms erupt from a foe, sapping their vitality to spread strengthening spores.
 
-- **Keywords**: Attack, Green, Magic, Ranged  
-- **Type**: Action  
-- **Distance**: Ranged 5  
-- **Target**: 1 creature  
+- **Keywords**: Attack, Green, Magic, Ranged
+- **Type**: Action
+- **Distance**: Ranged 5
+- **Target**: 1 creature
 
-**Power Roll + Reason**:  
-- 11 or lower: 6 poison damage  
-- 12–16: 9 poison damage  
-- 17+: 14 poison damage  
+**Power Roll + Reason**:
+- 11 or lower: 6 poison damage
+- 12–16: 9 poison damage
+- 17+: 14 poison damage
 
 **Effect**: The mushrooms can be removed by the target or by an adjacent creature as an action. While the mushrooms are on the target, each of your allies adjacent to the target gains an edge on attacks against them.
 
@@ -3197,15 +3201,15 @@ Mushrooms erupt from a foe, sapping their vitality to spread strengthening spore
 
 You slam the ground, which buckles out from you in every direction.
 
-- **Keywords**: Area, Earth, Magic  
-- **Type**: Action  
-- **Distance**: 3 burst  
-- **Target**: All enemies  
+- **Keywords**: Area, Earth, Magic
+- **Type**: Action
+- **Distance**: 3 burst
+- **Target**: All enemies
 
-**Power Roll + Reason**:  
-- 11 or lower: 4 damage  
-- 12–16: 5 damage  
-- 17+: 8 damage; prone  
+**Power Roll + Reason**:
+- 11 or lower: 4 damage
+- 12–16: 5 damage
+- 17+: 8 damage; prone
 
 **Effect**: You must be touching the ground or floor to use this ability. The surface beneath the area becomes difficult terrain for your enemies.
 
@@ -3213,15 +3217,15 @@ You slam the ground, which buckles out from you in every direction.
 
 You open a rift into the void to harry your enemies.
 
-- **Keywords**: Area, Magic, Persistent, Ranged, Void  
-- **Type**: Action  
-- **Distance**: 4 cube within 5  
-- **Target**: All enemies  
+- **Keywords**: Area, Magic, Persistent, Ranged, Void
+- **Type**: Action
+- **Distance**: 4 cube within 5
+- **Target**: All enemies
 
-**Power Roll + Reason**:  
-- 11 or lower: 3 psychic damage  
-- 12–16: 4 psychic damage  
-- 17+: 6 psychic damage  
+**Power Roll + Reason**:
+- 11 or lower: 3 psychic damage
+- 12–16: 4 psychic damage
+- 17+: 6 psychic damage
 
 **Persistent 1**: At the start of your turn, you can use this ability again as a maneuver without spending essence.
 
@@ -3233,15 +3237,15 @@ Choose one heroic ability from the following options, each of which costs 5 esse
 
 A storm of fire descends upon your enemies.
 
-- **Keywords**: Area, Fire, Magic, Persistent, Ranged  
-- **Type**: Action  
-- **Distance**: 4 cube within 5  
-- **Target**: All enemies  
+- **Keywords**: Area, Fire, Magic, Persistent, Ranged
+- **Type**: Action
+- **Distance**: 4 cube within 5
+- **Target**: All enemies
 
-**Power Roll + Reason**:  
-- 11 or lower: 5 fire damage  
-- 12–16: 7 fire damage  
-- 17+: 10 fire damage  
+**Power Roll + Reason**:
+- 11 or lower: 5 fire damage
+- 12–16: 7 fire damage
+- 17+: 10 fire damage
 
 **Persistent 2**: At the start of your turn, you can use this ability again as a maneuver without spending essence.
 
@@ -3249,10 +3253,10 @@ A storm of fire descends upon your enemies.
 
 The material substance of a creature shreds away at your command.
 
-- **Keywords**: Magic, Melee, Persistent, Void  
-- **Type**: Maneuver  
-- **Distance**: Self or Reach  
-- **Target**: Self or 1 ally  
+- **Keywords**: Magic, Melee, Persistent, Void
+- **Type**: Maneuver
+- **Distance**: Self or Reach
+- **Target**: Self or 1 ally
 
 **Effect**: Until the start of your next turn, the target has damage immunity 5 and can move through 1 square of solid matter once per turn. If the target ends their turn inside solid matter, they are shunted out into the space where they entered it and this effect ends.
 
@@ -3262,15 +3266,15 @@ The material substance of a creature shreds away at your command.
 
 You call down a rain that burns your enemies and restores your allies.
 
-- **Keywords**: Area, Green, Magic  
-- **Type**: Action  
-- **Distance**: 5 burst  
-- **Target**: All enemies  
+- **Keywords**: Area, Green, Magic
+- **Type**: Action
+- **Distance**: 5 burst
+- **Target**: All enemies
 
-**Power Roll + Reason**:  
-- 11 or lower: 3 acid damage  
-- 12–16: 5 acid damage  
-- 17+: 7 acid damage  
+**Power Roll + Reason**:
+- 11 or lower: 3 acid damage
+- 12–16: 5 acid damage
+- 17+: 7 acid damage
 
 **Effect**: You and each ally in the area suffering any effect that has a duration of EoT or is ended by a resistance roll have all such effects end.
 
@@ -3278,16 +3282,16 @@ You call down a rain that burns your enemies and restores your allies.
 
 The surface of the world around you opens up at your command.
 
-- **Keywords**: Magic, Earth, Persistent, Ranged  
-- **Type**: Maneuver  
-- **Distance**: Ranged 5  
-- **Target**: Special  
+- **Keywords**: Magic, Earth, Persistent, Ranged
+- **Type**: Maneuver
+- **Distance**: Ranged 5
+- **Target**: Special
 
 **Effect**: You open four holes with 1-square openings that are 6 squares deep, and which can be placed on any mundane surface within distance. You can place these holes next to each other to create fewer holes with wider openings. For each creature standing above a hole when it opens and small enough to fall in, make a power roll.
 
-**Power Roll + Reason**:  
-- 11 or lower: The target can shift up to 1 square from the edge of the hole to the nearest unoccupied space of their choice.  
-- 12–16: The target falls into the hole.  
+**Power Roll + Reason**:
+- 11 or lower: The target can shift up to 1 square from the edge of the hole to the nearest unoccupied space of their choice.
+- 12–16: The target falls into the hole.
 - 17+: The target falls into the hole and can’t reduce the height of the fall.
 
 **Persistent 1**: At the start of your turn, you open another hole.
@@ -3358,7 +3362,6 @@ Your chosen primordial aspect grants you features as shown on the 1st-Level Prim
 | Berserker  | Primordial Strength                 |
 | Reaver     | Primordial Cunning                  |
 | Stormwight | Primordial Shape, Relentless Hunter |
-
 
 #### PRIMORDIAL CUNNING
 
@@ -4706,8 +4709,8 @@ For example, the Shining Armor Kit has a +2/+2/+2 melee weapon damage bonus, inc
 
 ### DISTANCE BONUS
 
-If you have a martial kit, its distance bonus increases the distance of your abilities with the Ranged and Weapon keywords.  
-If you have a caster kit, its distance bonus increases the distance of your abilities with the Magic and Ranged keywords.  
+If you have a martial kit, its distance bonus increases the distance of your abilities with the Ranged and Weapon keywords.
+If you have a caster kit, its distance bonus increases the distance of your abilities with the Magic and Ranged keywords.
 A distance bonus doesn’t increase the size of any ability’s area of effect.
 
 ### REACH BONUS
@@ -4766,12 +4769,12 @@ You wear light armor and wield one or two light weapons.
 
 #### SIGNATURE ABILITY
 
-**Fade**  
-A stab, and a few quick, careful steps back.  
-**Keywords:** Attack, Melee, Ranged, Weapon  
-**Type:** Action  
-**Distance:** Reach 1 or range 10  
-**Target:** 1 creature  
+**Fade**
+A stab, and a few quick, careful steps back.
+**Keywords:** Attack, Melee, Ranged, Weapon
+**Type:** Action
+**Distance:** Reach 1 or range 10
+**Target:** 1 creature
 **Power Roll + Might or Agility:**
 - 11 or lower: 4 damage; you shift 1 square
 - 12–16: 9 damage; you shift up to 2 squares
@@ -4794,12 +4797,12 @@ You wear medium armor and wield a polearm.
 
 #### SIGNATURE ABILITY
 
-**Forward Thrust, Backward Smash**  
-In your hands, the haft is as good as the head.  
-**Keywords:** Attack, Melee, Weapon  
-**Type:** Action  
-**Distance:** Reach 2  
-**Target:** 2 creatures or objects  
+**Forward Thrust, Backward Smash**
+In your hands, the haft is as good as the head.
+**Keywords:** Attack, Melee, Weapon
+**Type:** Action
+**Distance:** Reach 2
+**Target:** 2 creatures or objects
 **Power Roll + Might or Agility:**
 - 11 or lower: 4 damage
 - 12–16: 6 damage
@@ -4822,16 +4825,16 @@ You wear no armor and wield only your unarmed strikes.
 
 #### SIGNATURE ABILITY
 
-**Battle Grace**  
-You feint to move your enemies into perfect position.  
-**Keywords:** Attack, Melee, Weapon  
-**Type:** Action  
-**Distance:** Reach 1  
-**Target:** 1 creature  
+**Battle Grace**
+You feint to move your enemies into perfect position.
+**Keywords:** Attack, Melee, Weapon
+**Type:** Action
+**Distance:** Reach 1
+**Target:** 1 creature
 **Power Roll + Might or Agility:**
 - 11 or lower: 5 damage
 - 12–16: 9 damage; you swap places with the target
-- 17+: 12 damage; you swap places with the target, then slide the target 2 squares  
+- 17+: 12 damage; you swap places with the target, then slide the target 2 squares
 **Effect:** If you roll a 12 or better and can’t swap places with the target because one or both of you is too big to fit into the swapped space, you both remain in your original spaces and the target takes 2 extra damage.
 
 ### MOUNTAIN
@@ -4850,16 +4853,16 @@ You wear heavy armor and wield a heavy weapon.
 
 #### SIGNATURE ABILITY
 
-**Pain for Pain**  
-An enemy who tagged you will pay for that.  
-**Keywords:** Attack, Melee, Weapon  
-**Type:** Action  
-**Distance:** Reach 1  
-**Target:** 1 creature  
+**Pain for Pain**
+An enemy who tagged you will pay for that.
+**Keywords:** Attack, Melee, Weapon
+**Type:** Action
+**Distance:** Reach 1
+**Target:** 1 creature
 **Power Roll + Might or Agility:**
 - 11 or lower: 3 damage
 - 12–16: 8 damage
-- 17+: 16 damage  
+- 17+: 16 damage
 **Effect:** If the target dealt damage to you since the end of your last turn, this attack gains an edge.
 
 ### PANTHER
@@ -4879,16 +4882,16 @@ You wear no armor and wield a heavy weapon.
 
 #### SIGNATURE ABILITY
 
-**Devastating Rush**  
-The faster you move, the harder you hit.  
-**Keywords:** Attack, Melee, Weapon  
-**Type:** Action  
-**Distance:** Reach 1  
-**Target:** 1 creature or object  
+**Devastating Rush**
+The faster you move, the harder you hit.
+**Keywords:** Attack, Melee, Weapon
+**Type:** Action
+**Distance:** Reach 1
+**Target:** 1 creature or object
 **Power Roll + Might or Agility:**
 - 11 or lower: 3 damage
 - 12–16: 8 damage
-- 17+: 16 damage  
+- 17+: 16 damage
 **Effect:** You can move up to 3 squares straight toward the target before this attack. You deal extra damage equal to the distance moved this way.
 
 ### PUGILIST
@@ -4908,16 +4911,16 @@ You wear no armor and wield only your unarmed strikes.
 
 #### SIGNATURE ABILITY
 
-**Let's Dance**  
-Keeping your enemies stumbling around the battlefield is second nature to you.  
-**Keywords:** Attack, Melee, Weapon  
-**Type:** Action  
-**Distance:** Reach 1  
-**Target:** 1 creature  
+**Let's Dance**
+Keeping your enemies stumbling around the battlefield is second nature to you.
+**Keywords:** Attack, Melee, Weapon
+**Type:** Action
+**Distance:** Reach 1
+**Target:** 1 creature
 **Power Roll + Might or Agility:**
 - 11 or lower: 4 damage
 - 12–16: 9 damage; slide 1
-- 17+: 13 damage; slide 2  
+- 17+: 13 damage; slide 2
 **Effect:** You can shift into any square your target leaves after you slide them.
 
 ### RAIDER
@@ -4938,12 +4941,12 @@ You wear medium armor and wield a shield and a light weapon.
 
 #### SIGNATURE ABILITY
 
-**Shield Bash**  
-In your hands, a shield isn’t just for protection.  
-**Keywords:** Attack, Melee, Weapon  
-**Type:** Action  
-**Distance:** Reach 1  
-**Target:** 1 creature  
+**Shield Bash**
+In your hands, a shield isn’t just for protection.
+**Keywords:** Attack, Melee, Weapon
+**Type:** Action
+**Distance:** Reach 1
+**Target:** 1 creature
 **Power Roll + Might or Agility:**
 - 11 or lower: 4 damage; push 1
 - 12–16: 8 damage; push 2
@@ -4976,12 +4979,12 @@ You wear medium armor and wield a medium weapon and a bow.
 
 #### SIGNATURE ABILITY
 
-**Hamstring Shot**  
-A well-placed shot leaves your enemy struggling to move.  
-**Keywords:** Attack, Ranged, Weapon  
-**Type:** Action  
-**Distance:** Ranged 10  
-**Target:** 1 creature  
+**Hamstring Shot**
+A well-placed shot leaves your enemy struggling to move.
+**Keywords:** Attack, Ranged, Weapon
+**Type:** Action
+**Distance:** Ranged 10
+**Target:** 1 creature
 **Power Roll + Might or Agility:**
 - 11 or lower: 3 damage
 - 12–16: 7 damage; slowed (EoT)
@@ -5005,12 +5008,12 @@ You wear light armor and wield a bow.
 
 #### SIGNATURE ABILITY
 
-**Two Shot**  
-When you fire two arrows back to back, both hit their mark.  
-**Keywords:** Attack, Ranged, Weapon  
-**Type:** Action  
-**Distance:** Ranged 12  
-**Target:** 2 creatures or objects  
+**Two Shot**
+When you fire two arrows back to back, both hit their mark.
+**Keywords:** Attack, Ranged, Weapon
+**Type:** Action
+**Distance:** Ranged 12
+**Target:** 2 creatures or objects
 **Power Roll + Might or Agility:**
 - 11 or lower: 4 damage
 - 12–16: 6 damage
@@ -5034,12 +5037,12 @@ You wear light armor, and wield a polearm and several ensnaring weapons.
 
 #### SIGNATURE ABILITY
 
-**Net and Stab**  
-The well-thrown net that follows your main attack leaves your foes right where you want them.  
-**Keywords:** Attack, Melee, Weapon  
-**Type:** Action  
-**Distance:** Reach 2  
-**Target:** 1 creature  
+**Net and Stab**
+The well-thrown net that follows your main attack leaves your foes right where you want them.
+**Keywords:** Attack, Melee, Weapon
+**Type:** Action
+**Distance:** Reach 2
+**Target:** 1 creature
 **Power Roll + Might or Agility:**
 - 11 or lower: 4 damage
 - 12–16: 7 damage; slowed (EoT)
@@ -5061,12 +5064,12 @@ You wear heavy armor and wield a shield and a medium weapon.
 
 #### SIGNATURE ABILITY
 
-**Protective Attack**  
-The strength of your assault makes it impossible for your foe to ignore you.  
-**Keywords:** Attack, Melee, Weapon  
-**Type:** Action  
-**Distance:** Reach 1  
-**Target:** 1 creature  
+**Protective Attack**
+The strength of your assault makes it impossible for your foe to ignore you.
+**Keywords:** Attack, Melee, Weapon
+**Type:** Action
+**Distance:** Reach 1
+**Target:** 1 creature
 **Power Roll + Might or Agility:**
 - 11 or lower: 5 damage; taunted (EoT)
 - 12–16: 9 damage; taunted (EoT)
@@ -5089,16 +5092,16 @@ You wear no armor and wield a bow.
 
 #### SIGNATURE ABILITY
 
-**Patient Shot**  
-Breathe… aim… wait… then strike!  
-**Keywords:** Attack, Ranged, Weapon  
-**Type:** Action  
-**Distance:** Ranged 15  
-**Target:** 1 creature  
+**Patient Shot**
+Breathe… aim… wait… then strike!
+**Keywords:** Attack, Ranged, Weapon
+**Type:** Action
+**Distance:** Ranged 15
+**Target:** 1 creature
 **Power Roll + Might or Agility:**
 - 11 or lower: 3 damage
 - 12–16: 7 damage
-- 17+: 14 damage  
+- 17+: 14 damage
 **Effect:** If you don’t take a move action this turn, you gain an edge on this attack.
 
 ### STICK AND ROBE
@@ -5119,12 +5122,12 @@ You wear light armor and wield a polearm.
 
 #### SIGNATURE ABILITY
 
-**Where I Want You**  
-When your stick speaks, your enemy moves.  
-**Keywords:** Attack, Melee, Weapon  
-**Type:** Action  
-**Distance:** Reach 2  
-**Target:** 1 creature  
+**Where I Want You**
+When your stick speaks, your enemy moves.
+**Keywords:** Attack, Melee, Weapon
+**Type:** Action
+**Distance:** Reach 2
+**Target:** 1 creature
 **Power Roll + Might or Agility:**
 - 11 or lower: 4 damage
 - 12–16: 8 damage; slide 1
@@ -5147,16 +5150,16 @@ You wear light armor and wield a medium weapon.
 
 #### SIGNATURE ABILITY
 
-**Fancy Footwork**  
-All combat is a dance—and you’ll be the one leading.  
-**Keywords:** Attack, Melee, Weapon  
-**Type:** Action  
-**Distance:** Reach 1  
-**Target:** 1 creature  
+**Fancy Footwork**
+All combat is a dance—and you’ll be the one leading.
+**Keywords:** Attack, Melee, Weapon
+**Type:** Action
+**Distance:** Reach 1
+**Target:** 1 creature
 **Power Roll + Might or Agility:**
 - 11 or lower: 5 damage
 - 12–16: 10 damage; push 1
-- 17+: 14 damage; push 2  
+- 17+: 14 damage; push 2
 **Effect:** You can shift into any square your target leaves after you force move them with this ability.
 
 ### WHIRLWIND
@@ -5176,12 +5179,12 @@ You wear no armor and wield a whip.
 
 #### SIGNATURE ABILITY
 
-**Extension of My Arm**  
-When you draw your whip back after an attack, your enemy comes ever closer.  
-**Keywords:** Attack, Melee, Weapon  
-**Type:** Action  
-**Distance:** Reach 3  
-**Target:** 1 creature  
+**Extension of My Arm**
+When you draw your whip back after an attack, your enemy comes ever closer.
+**Keywords:** Attack, Melee, Weapon
+**Type:** Action
+**Distance:** Reach 3
+**Target:** 1 creature
 **Power Roll + Might or Agility:**
 - 11 or lower: 4 damage
 - 12–16: 8 damage; pull 1
@@ -5227,12 +5230,13 @@ You wield an implement of metal, such as a tome or a crown.
 
 #### SIGNATURE ABILITY: DRAIN
 
-You drain the energy from your target and revitalize your senses.  
-**Keywords**: Attack, Magic, Melee  
-**Type**: Action  
-**Distance**: Reach  
-**Target**: 1 creature  
+You drain the energy from your target and revitalize your senses.
+**Keywords**: Attack, Magic, Melee
+**Type**: Action
+**Distance**: Reach
+**Target**: 1 creature
 **Power Roll** + Reason, Intuition, or Presence:
+
 - 11 or lower: 5 corruption damage
 - 12-16: 10 corruption damage
 - 17+: 14 corruption damage; you can spend 1 recovery to regain Stamina
@@ -5256,21 +5260,23 @@ You don a tiny implement of glass such as a pendant or an anklet.
 
 #### SIGNATURE ABILITY: TARANTELLA VOLLEY
 
-Visible energy sparks off you to wash across a nearby foe, who you invite to dance with you.  
-**Keywords**: Attack, Magic, Melee  
-**Type**: Action  
-**Distance**: Reach 2  
-**Target**: 1 creature or object  
+Visible energy sparks off you to wash across a nearby foe, who you invite to dance with you.
+**Keywords**: Attack, Magic, Melee
+**Type**: Action
+**Distance**: Reach 2
+**Target**: 1 creature or object
 **Power Roll** + Agility, Intuition, or Presence:
+
 - 11 or lower: 2 damage
 - 12–16: 7 damage; you swap places with the target
-- 17+: 11 damage; you swap places with the target, and a hero within distance can shift up to 2 squares  
+- 17+: 11 damage; you swap places with the target, and a hero within distance can shift up to 2 squares
 **Effect**: If you roll a 12 or better and can’t swap places with the target because one or both of you is too big to fit into the swapped space, you both remain in your original spaces and the target takes 2 extra damage.
 
 #### KIT WARD: WALTZING WARD
 
-Your ward surrounds you with a soft, enchanting melody whose volume you control, and grants you the following benefits:  
-- Whenever an enemy ends their turn adjacent to you, you can shift 2 squares as a free triggered action.  
+Your ward surrounds you with a soft, enchanting melody whose volume you control, and grants you the following benefits:
+
+- Whenever an enemy ends their turn adjacent to you, you can shift 2 squares as a free triggered action.
 - Whenever a creature damages you with a melee ability, you can slide them a number of squares equal to your highest characteristic score.
 
 ### FRIGID
@@ -5289,20 +5295,22 @@ You wield an implement of crystal, such as a staff or a wand.
 
 #### SIGNATURE ABILITY: FROZEN EXPLOSION
 
-You unleash a blast of frigid air to freeze and hinder your foes.  
-**Keywords**: Area, Magic, Ranged  
-**Type**: Action  
-**Distance**: 3 cube within 12  
-**Target**: All enemies  
+You unleash a blast of frigid air to freeze and hinder your foes.
+**Keywords**: Area, Magic, Ranged
+**Type**: Action
+**Distance**: 3 cube within 12
+**Target**: All enemies
 **Power Roll** + Reason, Intuition, or Presence:
+
 - 11 or lower: 2 cold damage
 - 12–16: 3 cold damage; slowed (EoT)
 - 17+: 4 cold damage; slowed (EoE)
 
 #### KIT WARD: ICE ARMOR
 
-Your ward covers your body in ice, and grants you the following benefits:  
-- **Cold and Fire Immunity**: You have cold and fire immunity equal to your highest characteristic score.  
+Your ward covers your body in ice, and grants you the following benefits:
+
+- **Cold and Fire Immunity**: You have cold and fire immunity equal to your highest characteristic score.
 - **Cold Damage**: When a creature damages you with a melee ability, they take cold damage equal to your highest characteristic score.
 
 ### MEDITATOR
@@ -5320,20 +5328,22 @@ You wear light armor and wield an implement of bone such as a staff or a skull.
 
 #### SIGNATURE ABILITY: BOUNTIFUL DECAY
 
-Your curse causes a foe’s flesh to rot off as spores that aid your allies.  
-**Keywords**: Attack, Magic, Ranged  
-**Type**: Action  
-**Distance**: Ranged 5  
-**Target**: 1 creature  
+Your curse causes a foe’s flesh to rot off as spores that aid your allies.
+**Keywords**: Attack, Magic, Ranged
+**Type**: Action
+**Distance**: Ranged 5
+**Target**: 1 creature
 **Power Roll** + Reason, Intuition, or Presence:
+
 - 11 or lower: 2 corruption damage; a hero within distance can make a resistance roll to end an effect
 - 12–16: 6 corruption damage; a hero within distance can make a resistance roll to end an effect
 - 17+: 9 corruption damage; a hero within distance who is affected by an “(EoT)” or “(resistance ends)” effect has the effect end
 
 #### KIT WARD: SPIRIT WARD
 
-Your spirit overflows and warms the area around you. It grants you the following benefits:  
-- You gain an edge on resistance rolls.  
+Your spirit overflows and warms the area around you. It grants you the following benefits:
+
+- You gain an edge on resistance rolls.
 - Whenever an enemy damages you with a melee ability, you deal corruption damage to that enemy equal to your highest characteristic score.
 
 ### MISSILE
@@ -5351,21 +5361,23 @@ You wield an implement of wood such as an orb or a hooked rod.
 
 #### SIGNATURE ABILITY: SPIKE!
 
-You lob your implement at high speed toward your opponent, unleashing a chaotic flare of magic.  
-**Keywords**: Attack, Magic, Ranged  
-**Type**: Action  
-**Distance**: Ranged 15  
-**Target**: 1 creature or object  
+You lob your implement at high speed toward your opponent, unleashing a chaotic flare of magic.
+**Keywords**: Attack, Magic, Ranged
+**Type**: Action
+**Distance**: Ranged 15
+**Target**: 1 creature or object
 **Power Roll** + Reason, Intuition, or Presence:
+
 - 11 or lower: 2 fire damage
 - 12–16: 8 cold damage
-- 17+: 11 lightning damage  
+- 17+: 11 lightning damage
 **Effect**: If your Magic Eye Ward is locked onto the target, you can target them with this ability regardless of the distance as long as you have line of effect to them, and this ability deals additional damage equal to your highest characteristic.
 
 #### KIT WARD: MAGIC EYE WARD
 
-Your ward wraps itself around your head and shields your eyes, granting you the following benefits:  
-- You have Ranged immunity equal to your highest characteristic score.  
+Your ward wraps itself around your head and shields your eyes, granting you the following benefits:
+
+- You have Ranged immunity equal to your highest characteristic score.
 - Whenever an enemy within 15 squares of you damages you with a ranged ability, your ward locks onto them until the end of the encounter.
 
 ### NATURE CALLING
@@ -5383,20 +5395,22 @@ You wield an implement of stone, such as a club or a crown.
 
 #### SIGNATURE ABILITY: LIGHTNING SPARK
 
-You call forth a small bolt of lightning, then hurl it at your foe.  
-**Keywords**: Attack, Magic, Ranged  
-**Type**: Action  
-**Distance**: Ranged 12  
-**Target**: 1 creature or object  
+You call forth a small bolt of lightning, then hurl it at your foe.
+**Keywords**: Attack, Magic, Ranged
+**Type**: Action
+**Distance**: Ranged 12
+**Target**: 1 creature or object
 **Power Roll** + Reason, Intuition, or Presence:
+
 - 11 or lower: 2 lightning damage
 - 12–16: 6 damage; the target takes a bane on their next power roll
 - 17+: 9 damage; the target has a double bane on their next power roll
 
 #### KIT WARD: VINE WARD
 
-Your ward surrounds you with protective animal spirits, and grants you the following benefits:  
-- The area within 2 squares of you is difficult terrain for your enemies.  
+Your ward surrounds you with protective animal spirits, and grants you the following benefits:
+
+- The area within 2 squares of you is difficult terrain for your enemies.
 - Whenever an enemy within 12 squares of you damages you with a ranged ability, you can either shift towards them or pull them a number of squares equal to your highest characteristic score.
 
 ### ROOK
@@ -5413,20 +5427,22 @@ You wear heavy armor and wield an implement of bone, such as a scepter or a staf
 
 #### SIGNATURE ABILITY: BLESSED LIGHT
 
-Burning radiance falls upon your foe, outlining them with a holy glow.  
-**Keywords**: Attack, Magic, Ranged  
-**Type**: Action  
-**Distance**: Ranged 5  
-**Target**: 1 creature or object  
+Burning radiance falls upon your foe, outlining them with a holy glow.
+**Keywords**: Attack, Magic, Ranged
+**Type**: Action
+**Distance**: Ranged 5
+**Target**: 1 creature or object
 **Power Roll** + Reason, Intuition, or Presence:
+
 - 11 or lower: 2 holy damage; the next attack against the target has an edge
 - 12–16: 6 holy damage; the next attack against the target has an edge
 - 17+: 9 holy damage; the next attack against the target has a double edge
 
 #### KIT WARD: CASTLE GUARD
 
-Your armor is reinforced by a bright ward of holy energy, and grants you the following benefits:  
-- Allies within 2 squares of you have their stability increased by 1.  
+Your armor is reinforced by a bright ward of holy energy, and grants you the following benefits:
+
+- Allies within 2 squares of you have their stability increased by 1.
 - Whenever an enemy damages you with a melee ability, you or an ally within 2 can shift 2 as a free triggered action.
 
 ### SPELLSLINGER
@@ -5445,19 +5461,20 @@ You wield an implement of metal, such as a knife or a scepter.
 
 #### SIGNATURE ABILITY: SPLIT BEAM
 
-Two beams of supernatural force lance out at your command.  
-**Keywords**: Attack, Magic, Ranged  
-**Type**: Action  
-**Distance**: Ranged 10  
-**Target**: 2 creatures or objects  
+Two beams of supernatural force lance out at your command.
+**Keywords**: Attack, Magic, Ranged
+**Type**: Action
+**Distance**: Ranged 10
+**Target**: 2 creatures or objects
 **Power Roll** + Reason, Intuition, or Presence:
+
 - 11 or lower: 3 damage
 - 12–16: 5 damage
 - 17+: 6 damage
 
 #### KIT WARD: INVIGORATING WARD
 
-Your ward surrounds you with crackling energy.  
+Your ward surrounds you with crackling energy.
 Whenever you take damage, you gain a bonus to damage equal to your highest characteristic score, which you apply to the next damage-dealing magic ability you use before the end of the encounter. This benefit is cumulative, so that you can accrue bonus damage multiple times, then expend it all on one use of an ability.
 
 ### WARD WEAVER
@@ -5476,12 +5493,13 @@ You wield an implement of stone such as a wand or pendant.
 
 #### SIGNATURE ABILITY: ENERGY SIPHON
 
-Absorbing psychic energy from another creature lets you shield yourself within it.  
-**Keywords**: Attack, Magic, Ranged  
-**Type**: Action  
-**Distance**: Ranged 10  
-**Target**: 1 creature  
+Absorbing psychic energy from another creature lets you shield yourself within it.
+**Keywords**: Attack, Magic, Ranged
+**Type**: Action
+**Distance**: Ranged 10
+**Target**: 1 creature
 **Power Roll** + Intuition:
+
 - 11 or lower: 2 psychic damage; you gain damage immunity 1 until the end of your next turn
 - 12–16: 6 psychic damage; you gain damage immunity 3 until the end of your next turn
 - 17+: 9 psychic damage; you gain damage immunity 5 until the end of your next turn
@@ -5522,37 +5540,37 @@ Many of the details of each complication are purposefully left vague, so that yo
 
 ### DETERMINE COMPLICATION
 
-You can choose your character’s complication, or you can roll on the Complications table.  
+You can choose your character’s complication, or you can roll on the Complications table.
 (Playtest note: More complications are coming.)
 
 #### CULT VICTIM
 
-Cultists captured you while raiding your home, then began an unholy ritual to turn your body into an undead spirit. The ritual failed, but your body became infused with corrupted magic, turning you partially incorporeal.  
-**Benefit**: Once per turn, you can move through a solid mundane object no more than 1 square thick. If you end your turn inside the object, you take 5 damage and are shunted out into the space where you entered the object.  
+Cultists captured you while raiding your home, then began an unholy ritual to turn your body into an undead spirit. The ritual failed, but your body became infused with corrupted magic, turning you partially incorporeal.
+**Benefit**: Once per turn, you can move through a solid mundane object no more than 1 square thick. If you end your turn inside the object, you take 5 damage and are shunted out into the space where you entered the object.
 **Drawback**: Your body is more susceptible to negative energy. You have corruption weakness 5.
 
 #### DEVIL DEAL
 
-Your ancestors made a deal with an archdevil that has tied you to that fiend’s service. When you first learned of this deal, you were taken to the Seven Cities of Hell, where some of the timescape’s best minds taught you the ways of battle or magic. The archdevil allows you to use these gifts as you will … until they require a favor from you.  
-**Benefit**: Whenever you are present for a battle in which all the creatures on one side are not surprised, your side goes first on a result of 4 or greater on the d10 roll (see Determine Who Goes First in Combat Round).  
+Your ancestors made a deal with an archdevil that has tied you to that fiend’s service. When you first learned of this deal, you were taken to the Seven Cities of Hell, where some of the timescape’s best minds taught you the ways of battle or magic. The archdevil allows you to use these gifts as you will … until they require a favor from you.
+**Benefit**: Whenever you are present for a battle in which all the creatures on one side are not surprised, your side goes first on a result of 4 or greater on the d10 roll (see Determine Who Goes First in Combat Round).
 **Drawback**: The archdevil occasionally asks you to defeat enemies on their behalf. If you refuse, your fiendish patron sends devils after you and those you care about.
 
 #### ELEMENTAL ABSORPTION
 
-When an evil mage threatened someone you loved, you blocked your foe’s summoning of an elemental creature by absorbing their magic with your body. You are now infused with the power of that elemental—and they’re not happy about it.  
-**Benefit**: Your Stamina increases by 6 at 1st level, then increases by an additional 1 each time you gain a new level.  
+When an evil mage threatened someone you loved, you blocked your foe’s summoning of an elemental creature by absorbing their magic with your body. You are now infused with the power of that elemental—and they’re not happy about it.
+**Benefit**: Your Stamina increases by 6 at 1st level, then increases by an additional 1 each time you gain a new level.
 **Drawback**: When you are dying, your possessing elemental takes control of your body. The elemental yearns for destruction, causing you to attack the closest creature they notice without regard for your desires or your body’s safety.
 
 #### FIRE AND CHAOS
 
-A great monster who breathed fire burned your home to the ground. While everything around you was consumed, you somehow stood strong amid the inferno, your body adapting to ignore the effects of the flames.  
-**Benefit**: You have fire immunity 5.  
+A great monster who breathed fire burned your home to the ground. While everything around you was consumed, you somehow stood strong amid the inferno, your body adapting to ignore the effects of the flames.
+**Benefit**: You have fire immunity 5.
 **Drawback**: You have cold weakness 5.
 
 #### PRIMORDIAL SICKNESS
 
-You once contracted a terrible illness for which no one could find a cure. You sought out a primordial swamp said to be either incredibly poisonous or miraculously salubrious. It turned out to be both, keeping your illness at bay while corrupting your body with its unnatural energy.  
-**Benefit**: You have poison immunity 5 and corruption immunity 5.  
+You once contracted a terrible illness for which no one could find a cure. You sought out a primordial swamp said to be either incredibly poisonous or miraculously salubrious. It turned out to be both, keeping your illness at bay while corrupting your body with its unnatural energy.
+**Benefit**: You have poison immunity 5 and corruption immunity 5.
 **Drawback**: The number of Recoveries you have is reduced by 1.
 
 #### PUNISHMENT CURSE
@@ -5561,33 +5579,33 @@ Through ignorance, fear, spite, or selfishness, you refused to help someone in n
 
 #### PUNISHMENT CURSE
 
-Through ignorance, fear, spite, or selfishness, you refused to help someone in need. To teach you a lesson, a deity offered you what seemed to be a blessing—extra power to help you heal yourself in times of need, but harsh consequences should your need become excessive.  
-You took the deal, and now benefit from the blessing but also suffer from a curse.  
-**Benefit**: You have 2 additional Recoveries.  
+Through ignorance, fear, spite, or selfishness, you refused to help someone in need. To teach you a lesson, a deity offered you what seemed to be a blessing—extra power to help you heal yourself in times of need, but harsh consequences should your need become excessive.
+You took the deal, and now benefit from the blessing but also suffer from a curse.
+**Benefit**: You have 2 additional Recoveries.
 **Drawback**: When you are out of Recoveries, you are dying, no matter what your current Stamina is.
 
 #### SHIPWRECKED
 
-You are the sole survivor of a shipwreck that left you stranded on a remote and inhospitable island for years. Your struggle to survive there granted you insight into the natural world but distanced you from who you once were.  
-**Benefit**: You gain two skills from the exploration skill group.  
+You are the sole survivor of a shipwreck that left you stranded on a remote and inhospitable island for years. Your struggle to survive there granted you insight into the natural world but distanced you from who you once were.
+**Benefit**: You gain two skills from the exploration skill group.
 **Drawback**: You have forgotten one language you know.
 
 #### VIVID DREAMS
 
-You broke a magic amulet that immersed your mind in weird magic. This magic has given you the power of premonition, but you struggle to control this new gift. Whenever you take a respite, make a Reason power roll to determine whether you gain this complication’s benefit or drawback.  
-**Benefit**: On a 12 to 16, you experience a vision of an event currently happening in your world. The vision lasts for just a few seconds, but the information you glean is helpful to you. On a 17 or higher, you receive a full minute or more of the scene.  
+You broke a magic amulet that immersed your mind in weird magic. This magic has given you the power of premonition, but you struggle to control this new gift. Whenever you take a respite, make a Reason power roll to determine whether you gain this complication’s benefit or drawback.
+**Benefit**: On a 12 to 16, you experience a vision of an event currently happening in your world. The vision lasts for just a few seconds, but the information you glean is helpful to you. On a 17 or higher, you receive a full minute or more of the scene.
 **Drawback**: On an 11 or lower, you receive a painful vision that is fractal and inscrutable. When the respite ends, you immediately lose 1 Recovery.
 
 #### WARD
 
-Your childhood sweetheart was royalty, and the two of you stayed close throughout the years. When your former sweetheart died, you swore an oath to dedicate your life to become a tutor for their child, advising them in the ways of being a benevolent monarch.  
-**Benefit**: You know how to talk to monarchs, aristocrats, and other wealthy leaders. When you engage with any such NPC during a negotiation, their patience increases by 1 (to a maximum of 5).  
+Your childhood sweetheart was royalty, and the two of you stayed close throughout the years. When your former sweetheart died, you swore an oath to dedicate your life to become a tutor for their child, advising them in the ways of being a benevolent monarch.
+**Benefit**: You know how to talk to monarchs, aristocrats, and other wealthy leaders. When you engage with any such NPC during a negotiation, their patience increases by 1 (to a maximum of 5).
 **Drawback**: Your royal ward regularly calls upon you for advice and takes that advice to heart—for better or for worse.
 
 #### WAR OF THE GUILDS
 
-Being in the wrong place at the wrong time saw you caught in the middle of a conflict between two warring thieves’ guilds. Whether by choice or by accident, you wound up helping one faction at the expense of the other.  
-**Benefit**: Having gained the favor of the faction you helped, you can call on its members three times for favors. If a favor is reasonable and within the faction’s power to grant, they’ll do it, no questions asked.  
+Being in the wrong place at the wrong time saw you caught in the middle of a conflict between two warring thieves’ guilds. Whether by choice or by accident, you wound up helping one faction at the expense of the other.
+**Benefit**: Having gained the favor of the faction you helped, you can call on its members three times for favors. If a favor is reasonable and within the faction’s power to grant, they’ll do it, no questions asked.
 **Drawback**: The faction you wronged hates you, and its members would love to see you pay for your transgression.
 
 ### COMPLICATIONS TABLE
@@ -5625,8 +5643,8 @@ That said, such clever ideas often work for free the first time, but the Directo
 
 Each test has the following steps:
 
-- The Director decides that a hero’s actions call for a test and asks the hero’s player to make a power roll using an appropriate characteristic (see Characteristics and Tests). The Director then selects a difficulty for the power roll, either secretly or publicly (see Test Difficulty).  
-- The player makes the power roll. If the character has a skill that applies to the test (see Skills), they gain a +2 bonus to the roll.  
+- The Director decides that a hero’s actions call for a test and asks the hero’s player to make a power roll using an appropriate characteristic (see Characteristics and Tests). The Director then selects a difficulty for the power roll, either secretly or publicly (see Test Difficulty).
+- The player makes the power roll. If the character has a skill that applies to the test (see Skills), they gain a +2 bonus to the roll.
 - The player reports the result, and the Director interprets the success or failure of the roll.
 
 ### CHARACTERISTICS AND TESTS
@@ -5777,7 +5795,7 @@ If a hero attempts to sneak by an enemy guard unnoticed, should the hero make an
 
 Unless the rules state otherwise, heroes make tests and NPCs do not. Heroes are the stars of the story, and the consequences and rewards of tests have longer-lasting implications for them. There are exceptions to this rule, of course. If a hero travels with an NPC retainer or companion, that NPC would almost certainly make tests too. But for the most part, NPCs working against the heroes never need to make tests.
 
-To quickly assess the difficulty of a task and the test made to attempt it, the Director can use the following guidelines (though these are not hard and fast rules):  
+To quickly assess the difficulty of a task and the test made to attempt it, the Director can use the following guidelines (though these are not hard and fast rules):
 
 - **Easy Test**: A test is easy if only one creature opposes the hero, and that opposed creature would have a lower bonus to their test roll for the task than the hero does. If a hero with an Agility score of 2 attempts to sneak by a guard with an Intuition score of 0, the test is easy.
 - **Moderate Test**: A test is moderate if multiple creatures oppose the hero and those creatures would have lower bonuses to their test rolls than the hero, or if only one creature opposes the hero and has the same test bonus as the hero.
@@ -6076,12 +6094,14 @@ In general, the higher the success limit, the harder and more complicated it is 
 | Hard       | 7             | 3             |
 
 For larger or smaller groups, you can make the following adjustments to keep montage tests achievable but challenging:
+
 - For four or fewer heroes, decrease the success limit and failure limits by 1 (to a minimum of 2) for every hero fewer than five. For example, if your group has only three heroes, an easy montage test has a success and failure limit of 3.
 - For six or more heroes, increase the success and failure limits by 1 for every hero more than five.
 
 ### MONTAGE TEST OUTCOMES
 
 A montage test can have three different outcomes:
+
 - If the heroes hit the success limit before hitting the failure limit or before time runs out for the test, they achieve total success.
 - If the heroes hit the failure limit or time runs out, and if they’ve achieved at least two more successes than failures, they achieve a partial success.
 - If the heroes hit the failure limit or time runs out, and if they don’t have at least two more successes than failures, they suffer total failure.
@@ -6105,23 +6125,16 @@ Four heroes must cross the vast and inhospitable Infinite Desert to warn the cit
 The Director determines that crossing the desert is a montage test of hard difficulty. With four heroes involved, the success limit is 6 and the failure limit is 2 as the montage test begins:
 
 - When the test begins, the Director sets the scene. They tell the players that the desert has extreme temperatures, sudden sandstorms, high dunes to cross, deep sand, chasms, and quicksand lakes. The Director decides that challenges of dunes, deep sand, and quicksand can be tackled multiple times in the test, since the Infinite Desert is filled with these hazards.
-
 - **Urdoncara**, a fury, starts things off by asking to make an Intuition test using the Nature skill to predict the best times of day to travel and rest. She wants the party to avoid the worst of the desert’s extreme temperatures and any sandstorms or other weather phenomena, so that their journey is quickened. The Director decides this is an easy test. Urdoncara makes the test and gets a result of 12, earning 1 success for the montage test.
-
 - **Loric**, a tactician, wants to make a Reason test using the Climb skill to lead the party over dunes and other hazards with minimal effort. The Director allows the attempt, but says that knowing what makes one dune easier to climb than another is difficult, setting the difficulty at medium. Loric gets a 9 on the test and fails with a major consequence, which the Director decides will cause him to take a bane on his next power roll due to the exertion. The montage test currently has 1 success and 1 failure.
-
 - **Karrel**, an elementalist, thinks the group might cross the desert faster if they have specially modified sandshoes that distribute their weight and prevent their feet from sinking into the sand. The Director loves the idea and decides that making four pairs of the shoes while traveling the desert is a medium Reason test. Karrel gets to use their Tailoring skill and winds up with a result of 13—a success with a consequence. The Director gains an additional 2 VP at the start of the next combat encounter as a consequence, but the group now has 2 successes and 1 failure on the montage test.
-
 - **Adrian**, a conduit, offers to scout ahead for the group with an Intuition test, using the Navigate skill to find the best path forward and avoid hazards such as chasms and quicksand. The Director thinks this straightforward task of acting as lookout in a vast desert is an easy task. Adrian smashes it with a 21, and the Director decides to get creative with the reward. Adrian’s lookout skills grant the next hero to act in the montage test an edge on their test. At the end of the first montage test round, the heroes have 3 successes and 1 failure.
 
 Before the next montage test round, the Director pauses the montage test to run a battle with a kingfissure worm, who attacks the heroes as they cross over an ancient ruin partially buried in the sand. After the heroes defeat the kingfissure worm, the test continues:
 
 - **Urdoncara** wants to make a Might test using the Lift skill to carry most of the group’s equipment as they cross the desert, allowing her allies to move more quickly while she keeps up with her superior endurance. The Director thinks this arduous task has a hard difficulty. Urdoncara gets a 17 on the test thanks to the edge from Adrian’s earlier success. The montage test has 4 successes and 1 failure.
-
 - **Loric**, eager to prove himself after his last failure, asks to make a Might test using the Lead skill, representing tying a rope around his waist to drag his weaker friends over the tallest dunes. The Director likes the idea, but doesn’t think the Lead skill applies to the task. He tells Loric that Lift is more appropriate, since the tactician is using their physical skill to aid their friends and not really doing anything interpersonal. Loric agrees, and the Director sets the test at medium difficulty. Making the test with a bane because of his previous failure, the tactician rolls a 15, which is a success with a consequence. The montage test has 5 successes and 1 failure, but the consequence gives the Director another 2 VP at the start of the next combat encounter.
-
 - Since the group needs only 1 more success to achieve total success, **Karrel** says she’d like to assist **Adrian** in whatever task he decides to take on. Adrian wants to recall lore about the Khem-hor—the inhabitants of the Infinite Desert—to remember their time-honored travel techniques using the History skill. Karrel has the Culture skill, which she can use to assist by providing information about the lives and society of the Khem-hor. She makes a Reason test to assist and gets a 16, granting Adrian an edge on his upcoming test.
-
 - **Adrian** attempts to recall lore about the Khem-hor, wanting to see if he can remember any of their travel techniques from his studies of the history of the region. The Director has him make a hard Reason test with an edge, thanks to Karrel’s input on the current state of Khem-hor culture. Adrian gets a 17, and the Director decides that the conduit recalls a shortcut through a canyon tunnel that leads directly to Ahset, avoiding a vast lake of quicksand. The heroes get their sixth success in the montage test, achieving total success, and earn 2 Victories.
 
 The heroes could have attempted other tests during their travels, such as an Agility test using the Stealth skill to lead the group through dangerous shortcuts in the desert without being seen or waylaid by predators, a Reason test using the Nature skill to find enough food and water to keep the group hydrated and fed, or a Presence test using the Music skill to inspire allies to travel faster with song.
@@ -6330,15 +6343,15 @@ Many followers stay at a stronghold, which is a home base you designate and can 
 
 ### FOLLOWER TYPES
 
-When you attract a new follower, you decide on their name and ancestry, and choose what role they play in their service to you.  
+When you attract a new follower, you decide on their name and ancestry, and choose what role they play in their service to you.
 
 *(Playtest note: More types of followers are coming.)*
 
 #### ARTISAN
 
-Artisans are crafting experts who can contribute to your research and crafting projects (see Research and Crafting).  
-*(Playtest note: The Research and Crafting section is still to come.)*  
-An artisan can contribute one project roll per day to a project you choose while they remain at your stronghold, provided they have access to the necessary materials.  
+Artisans are crafting experts who can contribute to your research and crafting projects (see Research and Crafting).
+*(Playtest note: The Research and Crafting section is still to come.)*
+An artisan can contribute one project roll per day to a project you choose while they remain at your stronghold, provided they have access to the necessary materials.
 
 When you recruit an artisan, choose four skills from the crafting skill group that they know. An artisan has a Might or Agility score of 1 (your choice), a Reason score of 1, and a 0 in all other characteristics. They know Caelian and two other languages of your choice.
 
@@ -6350,12 +6363,12 @@ When you recruit a sage, choose four skills from the lore skill group that they 
 
 ### SPECIFIC USES FOR RENOWN
 
-The Director can use Renown as a tool that determines how much access heroes have to exclusive places in the campaign’s world, or how much power they wield in organizations of which they are members.  
+The Director can use Renown as a tool that determines how much access heroes have to exclusive places in the campaign’s world, or how much power they wield in organizations of which they are members.
 *(Playtest note: This section is yet to come.)*
 
 ### SUPERNATURAL AND MUNDANE
 
-The word **supernatural** is used to describe abilities, creatures, and objects that are magical or psionic in nature.  
+The word **supernatural** is used to describe abilities, creatures, and objects that are magical or psionic in nature.
 The word **mundane** is used to describe attacks, creatures, and objects that aren’t magical or psionic.
 
 ### SUFFOCATING
@@ -6386,7 +6399,7 @@ This game also isn’t about accumulating and counting every piece of copper you
 
 The **Hero Wealth** table shows the types of items, gear, services, property, and more that you can purchase at various levels in the game. The table shows both the purchases that heroes can acquire individually and those that a party can acquire when the characters pool their resources together as a group.
 
-This isn’t an exhaustive list, but you and the Director can use the table to judge what your character can and can’t purchase. For instance, the price of an ox isn’t on this list, but you can reasonably assume that if you can buy a horse, you can probably afford an ox as well.  *(Don’t @ us, farm nerds.)*  And if you can’t afford something you want, fear not! You might still be able to acquire a specific good or service through negotiation, or by trading your heroic services instead of spending cash. Treasures such as magic swords and psionic crowns are rare and typically can’t be purchased. Instead, they’re found on adventures, traded for other treasures, given as rewards by NPCs, or crafted by the characters.
+This isn’t an exhaustive list, but you and the Director can use the table to judge what your character can and can’t purchase. For instance, the price of an ox isn’t on this list, but you can reasonably assume that if you can buy a horse, you can probably afford an ox as well. *(Don’t @ us, farm nerds.)* And if you can’t afford something you want, fear not! You might still be able to acquire a specific good or service through negotiation, or by trading your heroic services instead of spending cash. Treasures such as magic swords and psionic crowns are rare and typically can’t be purchased. Instead, they’re found on adventures, traded for other treasures, given as rewards by NPCs, or crafted by the characters.
 
 ### HERO WEALTH
 
@@ -6710,7 +6723,7 @@ Sometimes figuring out who gets to take the first turn in combat is automatic. I
 
 ### CREATURES TAKE TURNS
 
-Whichever side goes first chooses a creature (or sometimes a group of creatures on the Director’s side) to act at the start of combat. Whenever the rules talk about a creature acting in combat, that creature gets to take their turn. When that turn is over, the other side chooses a creature to act. Play continues back and forth this way as each creature takes their turn. 
+Whichever side goes first chooses a creature (or sometimes a group of creatures on the Director’s side) to act at the start of combat. Whenever the rules talk about a creature acting in combat, that creature gets to take their turn. When that turn is over, the other side chooses a creature to act. Play continues back and forth this way as each creature takes their turn.
 
 Unless an ability or special rule allows them to do so, any creature who has taken a turn during a round can’t act again until a new round begins. To help track which creatures have already acted in the current round, each creature can have a coin, token, or card they flip over on the table, or some kind of flag they set on their virtual tabletop token, once they’ve taken a turn. That way, all the players know who has already acted and who hasn’t.
 
@@ -6886,7 +6899,7 @@ Forced movement ignores difficult terrain and never provokes opportunity attacks
 
 ### VERTICAL
 
-If a forced movement effect has the word “vertical” in front of it, then the forced movement can move a target up or down in addition to horizontally. For example, if a forced movement effect says “vertical push 5,” then the creature targeted by the effect can be pushed up to 5 squares in any direction, as long as the forced movement is a straight line.  
+If a forced movement effect has the word “vertical” in front of it, then the forced movement can move a target up or down in addition to horizontally. For example, if a forced movement effect says “vertical push 5,” then the creature targeted by the effect can be pushed up to 5 squares in any direction, as long as the forced movement is a straight line.
 
 If a creature who can’t fly is left in midair at the end of a vertical forced move, they fall.
 
@@ -7264,7 +7277,7 @@ Sometimes the heroes just need to buy time. They might need to battle a conqueri
 
 ### STOP THE ACTION
 
-Sometimes combat is complicated by the fact that the heroes need to stop the villainous actions of their foes. It’s not enough to simply defeat the warriors in a cult. The heroes must also stop the zealots’ archdevil-summoning ritual! Or it might be that the heroes need to interrupt a wedding and make sure an evil mage doesn’t marry the heir to the throne. Despite combat, the mage forces the ceremony to continue! 
+Sometimes combat is complicated by the fact that the heroes need to stop the villainous actions of their foes. It’s not enough to simply defeat the warriors in a cult. The heroes must also stop the zealots’ archdevil-summoning ritual! Or it might be that the heroes need to interrupt a wedding and make sure an evil mage doesn’t marry the heir to the throne. Despite combat, the mage forces the ceremony to continue!
 
 Objectives in this category often have a timer associated with them. If the heroes don’t achieve the objective in a certain number of rounds, the conditions of the battle should change. For instance, if the cultists summon the archdevil, defeating the devil suddenly becomes the heroes’ new objective!
 
@@ -7389,7 +7402,6 @@ An NPC with the benevolence pitfall has a cynical view of the world, believing t
 Arguments that appeal to a benevolence motivation contend that if the NPC strikes a deal with the heroes, the people the NPC cares about will benefit from the deal. Example arguments include the following:
 
 - “If you lend us the Sword of Agathor, we can make Capital safer for your guild by using it to lay your enemies low.”
-
 - "If you can teleport us into the dragon’s cave, we’ll give you half the wyrm’s hoard once we cut off the creature’s head. That could benefit generations of students at your academy!"
 
 ### DISCOVERY
@@ -7399,6 +7411,7 @@ An NPC with the discovery motivation wants to learn new lore, explore forgotten 
 An NPC with the discovery pitfall has no interest in finding new places, peoples, or ideas. It might be that the unknown scares them or makes them so uncomfortable that they’d rather remain ignorant. Alternatively, a previous pursuit of discovery might have turned out poorly for them.
 
 Arguments that appeal to a discovery motivation contend that striking a deal with the heroes will allow the NPC to gain new knowledge or acquire unique property. Example arguments include the following:
+
 - "Allow us to use your cipher to translate the only copy of the *Codex Mortis*, and then we’ll let you read the book when we’re done."
 - "We know the journey to Decant Isle is dangerous, but we’re going into uncharted territory. We thought that your crew of sailors might want to be among the few mortals to lay eyes on the place."
 
@@ -7409,6 +7422,7 @@ An NPC with the freedom motivation wants no authority above them and desires no 
 An NPC with the freedom pitfall believes that a world without authority is one in turmoil and chaos. They might even believe that they are the right person to rule, and that their ideals should be the ones that become the law of the land.
 
 Arguments that appeal to a freedom motivation contend that helping the heroes will maintain or grant freedom to the NPC or other people. Example arguments include the following:
+
 - "I know you want to see the queen’s authority revoked forever. She has no heirs. Give us the key to her study so that we can prove her corruption and give you a chance to topple the monarchy henceforth."
 - "If you promise to give us ten vials of Assassin’s Kiss, we’ll see to it that the baron’s prison is emptied."
 
@@ -7419,6 +7433,7 @@ An NPC with the greed motivation desires wealth and resources above almost anyth
 An NPC with the greed pitfall has no interest in accumulating wealth or other resources, and becomes offended if anyone tries to buy their participation. They hold their ideals above material desires.
 
 Arguments that appeal to a greed motivation contend that helping the heroes will increase the NPC’s wealth or assets. Example arguments include the following:
+
 - "You should help us battle the overmind. Xorranox’s wealth is legendary, and we’ll see to it that you get your fair share."
 - "Give us a week to do research among your private collection of books, and we’ll give you another ten unique tomes we found in an ancient star elf sanctuary."
 
@@ -7429,6 +7444,7 @@ An NPC with the higher authority motivation remains staunchly loyal to a person 
 An NPC with the higher authority pitfall scoffs at the idea of serving another. The NPC might not believe that all people should be free, but they certainly believe that they personally shouldn’t have to answer to anyone.
 
 Arguments that appeal to a higher authority motivation contend that it’s in the interest of the higher authority for the NPC to strike a deal with the heroes. A hero might even tell the NPC that if the higher authority were in the NPC’s position, they would take the deal. Example arguments include the following:
+
 - "All great creations honor your god, Malus. If you teach me to forge the Hammer of Azdul, that will be a great honor to bestow upon your god."
 - "You know what Jarith the Bold would do? He’d guide us through the vast wasteland of the desert to reach the tower. Will you be our Jarith?"
 
@@ -7441,6 +7457,7 @@ An NPC with the justice pitfall doesn’t believe that the timescape is an inher
 ### JUSTICE
 
 Arguments that appeal to a justice motivation position the heroes on the good side of an NPC’s sense of right and wrong. Example arguments include the following:
+
 - "You despise those who steal from nature. Allow us peacefully into your wode so we may bottle the Blessed Spring’s water. We’re going to use it to stop an army from felling every tree and tearing up the earth wherever they go."
 - "You think nobles are lazy barons who get rich off the backs of peasants. We want to dethrone Lord Saxton. Lend us your crew of thieves, and we’ll see to it that when Saxton falls, the people can choose their own leaders."
 
@@ -7451,6 +7468,7 @@ An NPC with the legacy motivation desires fame while alive and acclaim that last
 An NPC with a legacy pitfall cares nothing about leaving a personal mark on the world. To them, such vain thinking is nothing but a waste of time.
 
 Arguments that appeal to a legacy motivation contend that striking a deal with the heroes increases the likelihood that people will talk about the NPC for centuries to come. Example arguments include the following:
+
 - "If you give us the vizier’s itinerary, I’ll compose a song about your bravery in defying him, then sing it in every tavern from here to Ix!"
 - "Yes, losing the battle is a possibility. If we do, the gnolls will still come for you eventually. But if we crush our foes, imagine the honors, the histories, the poems, the statues—all of it created for you because your siege engines turned the tide."
 
@@ -7461,6 +7479,7 @@ An NPC with the peace motivation wants calm in their life. Under typical circums
 An NPC with the peace pitfall hates being bored. They want excitement, drama, and danger in their life. For them, there’s nothing worse than the status quo.
 
 Arguments that appeal to a peace motivation contend that helping the heroes will earn the NPC some peace, at least for a little while. Example arguments include the following:
+
 - "You have a good thing going here. A little burgling of nobles, some alcohol smuggling, and some illegal gambling dens. No one’s getting hurt, but Constable Cofax is closing in on you. We could redirect him toward some real danger to the community, if you can help us set a trap for the Watchmaker."
 - "I know you don’t sell to outsiders, but we need that helm. I’m going to use it to turn back a group of hobgoblins marching this way. They’re not going to be as friendly as us."
 
@@ -7471,6 +7490,7 @@ An NPC with the power motivation covets the authority of others. They want to in
 An NPC with the power pitfall has no interest in authority for themself. They might respect the authority of others, but they hate the thought of ruling over other people and roundly reject any suggestion of the idea.
 
 Arguments that appeal to a power motivation contend that working with the heroes will increase or protect the NPC’s power. Example arguments include the following:
+
 - "Everyone knows you should be running the watch, Percy. The old lady’s retiring, and our friend Baron Kuglar is naming the replacement. Now, you let us into the restricted armory, and we’ll put in a good word."
 - "We know he’s your brother, Your Highness, but he’s older—first in line for the throne. If you help us prove he’s in a cult, you become the favorite son."
 
@@ -7485,6 +7505,7 @@ An NPC with the protection motivation has land, people, information, items, or a
 An NPC with the protection pitfall is happy to leave others to fend for themselves. They don’t believe that it’s their responsibility to protect anyone other than themself, and might be outright disgusted at the thought of risking themself or their property to protect others.
 
 Arguments that appeal to a protection motivation contend that helping the heroes allows an NPC to better protect their charge. Example arguments include the following:
+
 - "Dead soldiers grow the necromancer’s ranks. Total annihilation is the only way to defeat her. March with us now, while her army is small, and we’ll defeat her. Or..."
 
 ### REVELRY
@@ -7494,6 +7515,7 @@ An NPC with the revelry motivation just wants to have fun. They enjoy socializin
 An NPC with the revelry pitfall sees social encounters and hedonism as a waste of time. They take pleasure only in work or in building their own skills and character. Others who suggest immature debauchery are not worth their time.
 
 Arguments that appeal to the revelry motivation contend that striking a deal with the heroes will allow the NPC to get back to reveling sooner, longer, or harder. Example arguments include the following:
+
 - "How would you like to have the most exclusive songs for your exclusive birthday celebration next week? I’ll write you a whole original set list, free of charge … provided you extend me and my band here an invitation."
 - "I know you don’t want to forge five Chronokinesis Crowns. How’s this instead? You do that for me, and I’ll give you the fourteen kegs of whiskey we found in a steel-dwarf ruin. This stuff is old, unique, and forget-your-first-name potent. You can crack a keg with your friends to celebrate a job well done."
 
@@ -7504,6 +7526,7 @@ An NPC with the vengeance motivation wants to harm another who has hurt them. Th
 An NPC with the vengeance pitfall believes that revenge solves nothing. They might have gained this belief firsthand, or they might simply not have the ambition to seek revenge—and they take a dim view of others who do.
 
 Arguments that appeal to the vengeance motivation contend that the NPC can gain payback for their pain by helping the heroes. Example arguments include the following:
+
 - "The servants of Ajax killed your sister as she scoured the city for his cults. The Black Iron Pact works for the Overlord. Give us her diaries, and we might uncover the pact’s hideaway and deal a great blow to your hated foes."
 - "That prankster Huckable made your trousers tear at the last council meeting. Don’t you want to pay him back? We can arrange a delicious prank at the next gathering, but we need you to guarantee the safety of the orc refugees."
 
@@ -7625,6 +7648,7 @@ If a hero is famous to an NPC, they gain an edge on tests when making arguments 
 ### NPC RESPONSE AND OFFER
 
 After a hero makes an argument, the NPC responds in one of three ways:
+
 - An NPC responds positively if the heroes increase the NPC’s interest. “That’s an excellent point.” “You’ve given me much to consider.” “Fair enough.” “Makes sense to me.”
 - An NPC responds negatively if the heroes decrease their interest. “I don’t buy that.” “Poppycock!” “I hear you, but I disagree.” “That’s not going to sway me.”
 - An NPC responds with impatience if the heroes fail to increase or decrease their interest. “I’ve heard that before.” “Are you going to offer me anything real?” “This debate is tiresome.” “BORING!”
@@ -7691,7 +7715,8 @@ The heroes can walk away from a negotiation without accepting a deal at any time
 
 After killing the true lord of Bedegar, the tyrannical Lord Saxton took over the barony’s capital, and is presently gathering forces of his own to march on the rest of Bedegar’s settlements. The heroes recently saved Edmund, the true heir to Bedegar’s throne, and are now gathering forces to build an army that can stand against Saxton and defeat the tyrant.
 
-The heroes are engaging in a negotiation with Zola Honeycut, the human guildmaster of the Clock—a thieves’ guild whose headquarters is located in Bedegar’s capital. The guild openly opposed Saxton when he first seized power, but the tyrant was quick to crack down on all known members of the Clock, forcing them into hiding or hanging them as a warning to others. The heroes’ hope is that they can convince Zola to support their armed 
+The heroes are engaging in a negotiation with Zola Honeycut, the human guildmaster of the Clock—a thieves’ guild whose headquarters is located in Bedegar’s capital. The guild openly opposed Saxton when he first seized power, but the tyrant was quick to crack down on all known members of the Clock, forcing them into hiding or hanging them as a warning to others. The heroes’ hope is that they can convince Zola to support their armed
+
 resistance.
 
 ### ZOLA’S NEGOTIATION STATS
