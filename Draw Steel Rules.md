@@ -947,7 +947,7 @@ None of us ask to come into this world, and apart from the Hakaan, none of us kn
 
 You are young yet, but already those who work evil deeds should fear you. You are a dwarf. You have a great destiny ahead.
 
----
+[^1]: This is what happens when you let a dwarven troubadour write the dwarf entry.
 
 ## DWARF BENEFITS
 
@@ -966,8 +966,6 @@ You can carve a magic rune onto your skin. The rune you carve determines the ben
 - **Light:** Your skin sheds light for 10 squares. You can turn this on and off as a maneuver.
   
 - **Voice:** As a maneuver, you can communicate telepathically with another willing creature you have met before whose name you name, who can speak and understand a language you know, and is within 1 mile of you. You and the creature can respond to one another as if having a normal conversation. You can change the person you communicate with by changing the rune.
-
-[^1]: This is what happens when you let a dwarven troubadour write the dwarf entry.
 
 ## ELF, WODE
 
@@ -2168,11 +2166,11 @@ You gain the following career benefits:
 
 #### ARTISAN INCITING INCIDENTS
 
-| d3  | Incident                                                                                                                                             |
-| --- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| d3  | Incident                                                                                                                                                                                                                                                                                                                                                                                          |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1   | **Continue the Work**: A great hero was a fan of the things you created, and gave you a generous commission to create your best work for them. While working on this commission, you and the hero became close friends. The day you finished the work was the same day they disappeared. To honor their legacy, you took up the mantle of a hero with the intent of finishing your friend's work. |
-| 2   | **Inspired**: As you traveled the road selling your wares, troll bandits attacked you. One of the bandits claimed an item belonging to someone precious to you—or perhaps claimed that person’s life—but the rest were driven off or slain by a group of heroes. Seeing the quick work these heroes made of the bandits inspired you to follow in their footsteps. |
-| 3   | **Robbery**: A criminal gang stole your goods and harmed a number of people who worked for you. You became a hero to prevent such indignities from being visited upon others, to seek revenge for the assault, or to find the thieves and get your stuff back. |
+| 2   | **Inspired**: As you traveled the road selling your wares, troll bandits attacked you. One of the bandits claimed an item belonging to someone precious to you—or perhaps claimed that person’s life—but the rest were driven off or slain by a group of heroes. Seeing the quick work these heroes made of the bandits inspired you to follow in their footsteps.                                |
+| 3   | **Robbery**: A criminal gang stole your goods and harmed a number of people who worked for you. You became a hero to prevent such indignities from being visited upon others, to seek revenge for the assault, or to find the thieves and get your stuff back.                                                                                                                                    |
 
 ### CRIMINAL
 
@@ -2192,10 +2190,10 @@ You gain the following career benefits:
 
 #### CRIMINAL INCITING INCIDENTS
 
-| d3  | Incident                                                                                                                                          |
-| --- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | **Atonement**: The last criminal job you pulled led to the death of someone or the destruction of something you love. In order to make up for the loss you caused, you left your criminal ways behind and became a hero. |
-| 2   | **Friendly Priest**: You went to prison for your crimes and eventually escaped. An elderly priest took you in and shielded you from the law, convinced that your soul wasn’t corrupt. They never judged you for your past, speaking only of the future. Eventually, the priest died, imparting final words that inspired you to become a hero. |
+| d3  | Incident                                                                                                                                                                                                                                                                                                                                                                                                                |
+| --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | **Atonement**: The last criminal job you pulled led to the death of someone or the destruction of something you love. In order to make up for the loss you caused, you left your criminal ways behind and became a hero.                                                                                                                                                                                                |
+| 2   | **Friendly Priest**: You went to prison for your crimes and eventually escaped. An elderly priest took you in and shielded you from the law, convinced that your soul wasn’t corrupt. They never judged you for your past, speaking only of the future. Eventually, the priest died, imparting final words that inspired you to become a hero.                                                                          |
 | 3   | **Stand Against Tyranny**: When a tyrant rose to power in your homeland, they began cracking down on all criminals with deadly raids and public executions. The nature of the crime didn’t matter—pickpockets and beggars were made to kneel before the axe alongside murderers. After losing enough friends, you stood up and joined the resistance—not just against this tyrant, but against authoritarians anywhere. |
 
 ### GLADIATOR
@@ -2216,11 +2214,11 @@ You gain the following career benefits:
 
 #### GLADIATOR INCITING INCIDENTS
 
-| d3  | Incident                                                                                                                                           |
-| --- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | **Betrayed**: A local crime lord offered you money to throw your last bout, promising that you’d live through the ordeal and get a cut of all the wagers placed on the match. You held up your end of the deal—which made the knife in your back after the loss so surprising. You woke in a shallow grave, barely alive, and ready to mete out justice. |
+| d3  | Incident                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | **Betrayed**: A local crime lord offered you money to throw your last bout, promising that you’d live through the ordeal and get a cut of all the wagers placed on the match. You held up your end of the deal—which made the knife in your back after the loss so surprising. You woke in a shallow grave, barely alive, and ready to mete out justice.                                                                            |
 | 2   | **Heckler**: As you stood victorious on the arena sands, a voice cried out among the cheering. “This violence is just for show. You should be ashamed. There are people who need you—who need your skills!” Why did that voice ring so clear? And why did it sound so familiar? You never saw the face of the person who uttered the words, but they weighed heavy on you. The next day, you fled the arena to begin a hero’s life. |
-| 3   | **New Challenges**: You earned every title you could. You beat every opponent willing to face you in the arena. Your final battle with your rival ended with you victorious—and yet you were unsatisfied. There are other, greater foes out there, and you mean to find them. |
+| 3   | **New Challenges**: You earned every title you could. You beat every opponent willing to face you in the arena. Your final battle with your rival ended with you victorious—and yet you were unsatisfied. There are other, greater foes out there, and you mean to find them.                                                                                                                                                       |
 
 ### LABORER
 
@@ -2240,11 +2238,11 @@ You gain the following career benefits:
 
 #### LABORER INCITING INCIDENTS
 
-| d3  | Incident                                                                                                                                            |
-| --- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| d3  | Incident                                                                                                                                                                                                                                                                                                                             |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 1   | **Disaster**: A disaster, such as a cave-in, wildfire, or tidal wave, hit your crew while you were working. You saved as many folks as you could, but the ones you couldn’t save weigh heavily on your mind. You took up the life of a hero to save as many people as possible, vowing that what happened to you won’t happen again. |
-| 2   | **Embarrassment**: A noble you worked for admonished you publicly for work done poorly—more than once. Finally, you had enough. You vowed to take up a new path and show this noble that you are far more than what they make you out to be. |
-| 3   | **Live the Dream**: You worked with a good friend, and on the job you’d always fantasize about what it’d be like to hit the road as adventuring heroes—someday. You didn’t count on your friend falling ill and passing away. Now it’s time to live out that dream for both of you. |
+| 2   | **Embarrassment**: A noble you worked for admonished you publicly for work done poorly—more than once. Finally, you had enough. You vowed to take up a new path and show this noble that you are far more than what they make you out to be.                                                                                         |
+| 3   | **Live the Dream**: You worked with a good friend, and on the job you’d always fantasize about what it’d be like to hit the road as adventuring heroes—someday. You didn’t count on your friend falling ill and passing away. Now it’s time to live out that dream for both of you.                                                  |
 
 ### MAGE'S APPRENTICE
 
@@ -2283,11 +2281,11 @@ You cast an entertaining spell that creates a minor but impressive magical effec
 
 #### MAGE'S APPRENTICE INCITING INCIDENTS
 
-| d3  | Incident                                                                                                                                             |
-| --- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | **Oops**: While studying magic, you accidentally sent yourself from your original world to this one. Now you’re stranded here, hoping to get back home by finding ancient texts or powerful magical treasures that might transport you there. A life of adventure it is! |
+| d3  | Incident                                                                                                                                                                                                                                                                                                                                                                                                          |
+| --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | **Oops**: While studying magic, you accidentally sent yourself from your original world to this one. Now you’re stranded here, hoping to get back home by finding ancient texts or powerful magical treasures that might transport you there. A life of adventure it is!                                                                                                                                          |
 | 2   | **Ultimate Power**: The mage you worked for was a kindly old soul, but the basic magic they taught you always seemed like a small part of something bigger. It wasn’t until you met an adventuring elementalist that you realized hitting the road as a hero was the only way to truly improve and hone your skills. You resigned your apprenticeship and found yourself walking the path of a hero the next day. |
-| 3   | **Missing Mage**: One day you woke up and the mage you worked for was just gone. They didn’t take any of their belongings, and there was no sign of any foul play—just the scent of sulfur in their bedchamber. You set out on your heroic journey in the aftermath, and have been looking for them ever since. |
+| 3   | **Missing Mage**: One day you woke up and the mage you worked for was just gone. They didn’t take any of their belongings, and there was no sign of any foul play—just the scent of sulfur in their bedchamber. You set out on your heroic journey in the aftermath, and have been looking for them ever since.                                                                                                   |
 
 ### PERFORMER
 
@@ -2306,10 +2304,10 @@ You gain the following career benefits:
 
 #### PERFORMER INCITING INCIDENTS
 
-| d3  | Incident                                                                                                                                           |
-| --- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | **Cursed Audience**: During a performance, you watched in horror as the audience was suddenly overcome by a curse that caused them to disintegrate before your eyes. You’re not sure what happened, but seeking that answer quickly led you to places where only heroes dare to go. |
-| 2   | **Fame and Fortune**: You thought you were famous—then that hero came to your show. Suddenly, all eyes were on the dragon-slaying brute instead of the stage where they belonged. The audience even gave them a standing ovation when they entered the room. All you got was polite applause. Fine. If people want a hero, then a hero you shall be. |
+| d3  | Incident                                                                                                                                                                                                                                                                                                                                                                                     |
+| --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | **Cursed Audience**: During a performance, you watched in horror as the audience was suddenly overcome by a curse that caused them to disintegrate before your eyes. You’re not sure what happened, but seeking that answer quickly led you to places where only heroes dare to go.                                                                                                          |
+| 2   | **Fame and Fortune**: You thought you were famous—then that hero came to your show. Suddenly, all eyes were on the dragon-slaying brute instead of the stage where they belonged. The audience even gave them a standing ovation when they entered the room. All you got was polite applause. Fine. If people want a hero, then a hero you shall be.                                         |
 | 3   | **Tragic Lesson**: When a producer who once shortchanged you shouted out on the street for you to stop a thief who had picked their pocket, your spite toward the producer inspired you to let the thief run right on by. But that decision led to tragedy when the thief later harmed someone you loved. From that moment on, you decided to make it your responsibility to protect others. |
 
 ### SAGE
@@ -2330,11 +2328,11 @@ You gain the following career benefits:
 
 #### SAGE INCITING INCIDENTS
 
-| d3  | Incident                                                                                                                                             |
-| --- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | **Bookish Ideas**: You were always content to live a peaceful life in your library, until you found that one book—the one that told the tale of heroes who had saved the timescape. They didn’t spend their days behind a desk. They made a real difference. It was time for you to do the same. |
+| d3  | Incident                                                                                                                                                                                                                                                                                                                                  |
+| --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | **Bookish Ideas**: You were always content to live a peaceful life in your library, until you found that one book—the one that told the tale of heroes who had saved the timescape. They didn’t spend their days behind a desk. They made a real difference. It was time for you to do the same.                                          |
 | 2   | **Cure the Curse**: You used to think knowledge could fix everything. You were wrong. When someone you loved fell under a curse, the means to cure them couldn’t be found in any of the books you owned. But that wasn’t going to stop you. The answers are out there, and you’ll find them even if you need to face down death to do so. |
-| 3   | **Lost Library**: An evil mage took all your books for themselves, cackling at your impotence as they raided your shelves. Now you’re off to search through ancient ruins and secret libraries to rebuild your collection of rare tomes—and to find the mage who stole from you. |
+| 3   | **Lost Library**: An evil mage took all your books for themselves, cackling at your impotence as they raided your shelves. Now you’re off to search through ancient ruins and secret libraries to rebuild your collection of rare tomes—and to find the mage who stole from you.                                                          |
 
 ### SOLDIER
 
@@ -2354,11 +2352,11 @@ You gain the following career benefits:
 
 #### SOLDIER INCITING INCIDENTS
 
-| d3  | Incident                                                                                                                                           |
-| --- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | **Dishonorable Discharge**: You enlisted in the military to protect others, but your commander ordered you to beat and kill civilians. When you refused, things got violent. You barely escaped the brawl that ensued, but now you vow to help people on your own terms. |
+| d3  | Incident                                                                                                                                                                                                                                                                                                                                                                |
+| --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | **Dishonorable Discharge**: You enlisted in the military to protect others, but your commander ordered you to beat and kill civilians. When you refused, things got violent. You barely escaped the brawl that ensued, but now you vow to help people on your own terms.                                                                                                |
 | 2   | **Out of Retirement**: You had a long and storied career as a soldier before deciding to retire to a simpler life. But when you returned to your old home, you found that your enemies had laid waste to it. Now the skills you earned on the battlefield are helping you as you become a different kind of warrior, seeking to save others from the fate you suffered. |
-| 3   | **Sole Survivor**: You were the last surviving member of your unit after an arduous battle or monstrous assault, surviving only because of your luck. You turned away from the life of a soldier then, seeking to become a hero who could stand against such threats. |
+| 3   | **Sole Survivor**: You were the last surviving member of your unit after an arduous battle or monstrous assault, surviving only because of your luck. You turned away from the life of a soldier then, seeking to become a hero who could stand against such threats.                                                                                                   |
 
 ## CLASSES
 
@@ -2385,11 +2383,11 @@ As a conduit, you heal and buff your allies, and debuff your foes while smiting 
 
 ### CONDUIT ADVANCEMENT
 
-| Level | Features                                                                                   |
-|-------|---------------------------------------------------------------------------------------------|
+| Level | Features                                                                                                                 |
+| ----- | ------------------------------------------------------------------------------------------------------------------------ |
 | 1st   | Deity and Domains, Piety, Domain Feature, Healing Grace, Pious Force, Triggered Action, Conduit Abilities Signature, 3,5 |
-| 2nd   | Gift of the Gods, Domain Feature, Domain Ability Signature, 3, 5, 5 (Domain) |
-| 3rd   | Restore Life, 7-Piety, Ability Signature, 3, 5, 5 (Domain), 7 |
+| 2nd   | Gift of the Gods, Domain Feature, Domain Ability Signature, 3, 5, 5 (Domain)                                             |
+| 3rd   | Restore Life, 7-Piety, Ability Signature, 3, 5, 5 (Domain), 7                                                            |
 
 ### 1ST-LEVEL FEATURES
 
@@ -2403,14 +2401,14 @@ After choosing your deity, pick two domains from their portfolio. Your choice of
 
 ### CONDUIT DEITIES
 
-| Deity  | Domains                             |
-|--------|-------------------------------------|
-| Adun   | Love, Protection, Storm, War        |
-| Cavall | Knowledge, Protection, Sun, War     |
-| Cyrvis | Fate, Death, Nature, Trickery       |
-| Malus  | Creation, Fate, Life, Knowledge     |
-| Salorna| Death, Nature, Storm, Sun           |
-| Viras  | Creation, Life, Love, Trickery      |
+| Deity   | Domains                         |
+| ------- | ------------------------------- |
+| Adun    | Love, Protection, Storm, War    |
+| Cavall  | Knowledge, Protection, Sun, War |
+| Cyrvis  | Fate, Death, Nature, Trickery   |
+| Malus   | Creation, Fate, Life, Knowledge |
+| Salorna | Death, Nature, Storm, Sun       |
+| Viras   | Creation, Life, Love, Trickery  |
 
 #### PIETY
 
@@ -2491,20 +2489,20 @@ You gain a domain feature from one of your domains, as shown on the 1st-Level Co
 
 #### 1ST-LEVEL CONDUIT DOMAIN FEATURES
 
-| Domain    | Feature                | Skill           |
-|-----------|------------------------|-----------------|
-| Creation  | Hands of the Maker      | Crafting        |
-| Death     | Grave Speech            | Lore            |
-| Fate      | Fate Trance             | Lore            |
-| Knowledge | Cypher Mind             | Lore            |
-| Life      | Revitalizing Ritual     | Exploration     |
-| Love      | Compassionate Aura      | Interpersonal   |
-| Nature    | Animal Spirit           | Exploration     |
-| Protection| Alertness Ward          | Exploration     |
-| Storm     | Control Weather         | Exploration     |
-| Sun       | Inner Light             | Lore            |
-| Trickery  | Divine Thievery         | Intrigue        |
-| War       | Ritual of Preparation   | Exploration     |
+| Domain     | Feature               | Skill         |
+| ---------- | --------------------- | ------------- |
+| Creation   | Hands of the Maker    | Crafting      |
+| Death      | Grave Speech          | Lore          |
+| Fate       | Fate Trance           | Lore          |
+| Knowledge  | Cypher Mind           | Lore          |
+| Life       | Revitalizing Ritual   | Exploration   |
+| Love       | Compassionate Aura    | Interpersonal |
+| Nature     | Animal Spirit         | Exploration   |
+| Protection | Alertness Ward        | Exploration   |
+| Storm      | Control Weather       | Exploration   |
+| Sun        | Inner Light           | Lore          |
+| Trickery   | Divine Thievery       | Intrigue      |
+| War        | Ritual of Preparation | Exploration   |
 
 #### ALERTNESS WARD
 
@@ -2860,11 +2858,11 @@ As an elementalist, you can unleash your wrath across a field of foes, put an en
 
 ### ELEMENTALIST ADVANCEMENT
 
-| Level | Features                                                                                                                  |
-|-------|---------------------------------------------------------------------------------------------------------------------------|
+| Level | Features                                                                                                                                                                               |
+| ----- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1st   | Elemental Specialization, Essence, Hurl Element, Persistent Magic, Practical Magic, Specialization Feature, Specialization Triggered Action, Elementalist Abilities Signature, 1, 3, 5 |
-| 2nd   | Specialization Feature, New 5-Essence Ability Signature, 1, 3, 5, 5                                                        |
-| 3rd   | Specialization Feature, 7-Essence Ability Signature, 1, 3, 5, 5, 7                                                        |
+| 2nd   | Specialization Feature, New 5-Essence Ability Signature, 1, 3, 5, 5                                                                                                                    |
+| 3rd   | Specialization Feature, 7-Essence Ability Signature, 1, 3, 5, 5, 7                                                                                                                     |
 
 ### 1ST-LEVEL FEATURES
 
@@ -2956,7 +2954,7 @@ Your elementalist specialization grants you a feature, as shown on the 1st-Level
 #### 1ST-LEVEL ELEMENTALIST SPECIALIZATION FEATURES
 
 | Specialization | Feature            |
-|----------------|--------------------|
+| -------------- | ------------------ |
 | Earth          | Manipulate Earth   |
 | Fire           | Melt               |
 | Green          | Speech of the Wild |
@@ -3029,12 +3027,12 @@ Your specialization grants you a triggered action, as shown on the Elementalist 
 
 ##### ELEMENTALIST TRIGGERED ACTIONS
 
-| Specialization | Triggered Action   |
-|----------------|--------------------|
-| Earth          | Earthen Force      |
+| Specialization | Triggered Action     |
+| -------------- | -------------------- |
+| Earth          | Earthen Force        |
 | Fire           | Explosive Assistance |
-| Green          | Mend the Soul      |
-| Void           | Void Embrace       |
+| Green          | Mend the Soul        |
+| Void           | Void Embrace         |
 
 ##### EARTHEN FORCE
 
@@ -3094,7 +3092,6 @@ Your mastery of elemental magic grants you unique magical abilities that let you
 #### SIGNATURE ABILITY
 
 Select one signature ability from the options below. Signature abilities can be used at will.
-
 
 ##### DEBRIS
 
@@ -3314,11 +3311,11 @@ As a fury, you have abilities that deal a lot of damage, move you around the bat
 
 ### FURY ADVANCEMENT
 
-| Level | Features                                   | Abilities          |
-|-------|--------------------------------------------|--------------------|
-| 1st   | Primordial Aspect, Rage, Growing Rage, Mighty Leaps, Aspect Features, Aspect Triggered Action, Fury Abilities | Signature, 3, 5    |
-| 2nd   | Aspect Feature, Aspect Ability              | Signature, 3, 5, 5 (Aspect) |
-| 3rd   | Aspect Feature, 7-Rage Ability              | Signature, 3, 5, 5 (Aspect), 7 |
+| Level | Features                                                                                                      | Abilities                      |
+| ----- | ------------------------------------------------------------------------------------------------------------- | ------------------------------ |
+| 1st   | Primordial Aspect, Rage, Growing Rage, Mighty Leaps, Aspect Features, Aspect Triggered Action, Fury Abilities | Signature, 3, 5                |
+| 2nd   | Aspect Feature, Aspect Ability                                                                                | Signature, 3, 5, 5 (Aspect)    |
+| 3rd   | Aspect Feature, 7-Rage Ability                                                                                | Signature, 3, 5, 5 (Aspect), 7 |
 
 ### 1ST-LEVEL FEATURES
 
@@ -3356,10 +3353,10 @@ Your chosen primordial aspect grants you features as shown on the 1st-Level Prim
 
 #### 1ST-LEVEL PRIMORDIAL ASPECT FEATURES
 
-| Aspect     | Feature                         |
-|------------|----------------------------------|
-| Berserker  | Primordial Strength             |
-| Reaver     | Primordial Cunning              |
+| Aspect     | Feature                             |
+| ---------- | ----------------------------------- |
+| Berserker  | Primordial Strength                 |
+| Reaver     | Primordial Cunning                  |
 | Stormwight | Primordial Shape, Relentless Hunter |
 
 
@@ -3371,11 +3368,11 @@ As your rage grows, your primordial cunning intensifies. These benefits are cumu
 
 ### PRIMORDIAL CUNNING GROWING RAGE
 
-| **Rage** | **Benefit**                                                                                                                                                    |
-|---------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 2       | • You gain an edge on Agility tests and resistance rolls. <br>• Once per turn, when you slide a target or when you move adjacent to a target during a shift, you can deal weapon damage to the target equal to your Agility score. |
-| 4       | Once per turn, when you slide a target or when you move adjacent to a target during a shift, you can deal weapon damage to the target equal to twice your Agility score, instead of once your Agility score. |
-| 6       | You have a double edge on Agility tests and resistance rolls. |
+| **Rage** | **Benefit**                                                                                                                                                                                                                        |
+| -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2        | • You gain an edge on Agility tests and resistance rolls. <br>• Once per turn, when you slide a target or when you move adjacent to a target during a shift, you can deal weapon damage to the target equal to your Agility score. |
+| 4        | Once per turn, when you slide a target or when you move adjacent to a target during a shift, you can deal weapon damage to the target equal to twice your Agility score, instead of once your Agility score.                       |
+| 6        | You have a double edge on Agility tests and resistance rolls.                                                                                                                                                                      |
 
 ### PRIMORDIAL SHAPE
 
@@ -3389,11 +3386,11 @@ As your rage grows, your primordial strength intensifies. These benefits are cum
 
 #### PRIMORDIAL STRENGTH GROWING RAGE
 
-| **Rage** | **Benefit**                                                                                                  |
-|---------|--------------------------------------------------------------------------------------------------------------|
-| 2       | • You gain an edge on Might tests and resistance rolls. <br> • You gain a bonus to weapon damage equal to your Might score if you are at least 2 squares from where you started your turn when you attack. |
-| 4       | You gain a bonus to weapon damage equal to twice your Might score, instead of once your Might score, if you are at least two squares from where you started your turn when you attack. |
-| 6       | You have a double edge on Might tests and resistance rolls. |
+| **Rage** | **Benefit**                                                                                                                                                                                                |
+| -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2        | • You gain an edge on Might tests and resistance rolls. <br> • You gain a bonus to weapon damage equal to your Might score if you are at least 2 squares from where you started your turn when you attack. |
+| 4        | You gain a bonus to weapon damage equal to twice your Might score, instead of once your Might score, if you are at least two squares from where you started your turn when you attack.                     |
+| 6        | You have a double edge on Might tests and resistance rolls.                                                                                                                                                |
 
 ### RELENTLESS HUNTER
 
@@ -3405,11 +3402,11 @@ Your primordial aspect grants you a triggered action, as shown on the Fury Trigg
 
 #### FURY TRIGGERED ACTIONS
 
-| **Aspect**   | **Triggered Action** |
-|--------------|----------------------|
-| Berserker    | Relentless Toss       |
-| Reaver       | Uncanny Dodge         |
-| Stormwight   | Regeneration          |
+| **Aspect** | **Triggered Action** |
+| ---------- | -------------------- |
+| Berserker  | Relentless Toss      |
+| Reaver     | Uncanny Dodge        |
+| Stormwight | Regeneration         |
 
 ### REGENERATION
 
@@ -3505,6 +3502,7 @@ You hit with a strength that’s worth the risk of raising your opponent’s ire
 **Effect:** You can choose to do an extra 1d6 damage to the target. If you do, the target gains an edge on their next attack against you.
 
 ##### IMPALING STRIKE
+
 Fighting up close lets you keep your foe exactly where you want them.
 
 - **Keywords:** Attack, Melee, Weapon
@@ -3735,11 +3733,11 @@ Attacks with your sharp and deadly claws send your foes staggering back.
 
 #### BEAR GROWING RAGE
 
-| **Rage** | **Benefit**                                                                                                              |
-|---------|--------------------------------------------------------------------------------------------------------------------------|
-| 2       | • You gain an edge on Might tests, resistance rolls, and power rolls made to grab. <br> • While in bear form, your attacks deal extra damage equal to your Might score, and any target you have grabbed at the start of your turn takes damage equal to your Might score. |
-| 4       | While in bear form, you can use all your abilities, your attacks deal extra damage equal to twice your Might score, and any target you have grabbed at the start of your turn takes damage equal to twice your Might score, instead of once your Might score. |
-| 6       | You have a double edge on Might tests, resistance rolls, and power rolls made with the Grab ability. |
+| **Rage** | **Benefit**                                                                                                                                                                                                                                                               |
+| -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2        | • You gain an edge on Might tests, resistance rolls, and power rolls made to grab. <br> • While in bear form, your attacks deal extra damage equal to your Might score, and any target you have grabbed at the start of your turn takes damage equal to your Might score. |
+| 4        | While in bear form, you can use all your abilities, your attacks deal extra damage equal to twice your Might score, and any target you have grabbed at the start of your turn takes damage equal to twice your Might score, instead of once your Might score.             |
+| 6        | You have a double edge on Might tests, resistance rolls, and power rolls made with the Grab ability.                                                                                                                                                                      |
 
 ### CORVEN
 
@@ -3785,11 +3783,11 @@ Foes who try to close around you do so at their peril.
 
 #### CROW GROWING RAGE
 
-| **Rage** | **Benefit**                                                                                                  |
-|---------|--------------------------------------------------------------------------------------------------------------|
-| 2       | • You can shift 1 square as a free maneuver once per turn. <br> • While in crow form, your attacks deal extra damage equal to your Agility score. <br> • Once per turn while in crow form, when you move away from an enemy, that enemy takes damage equal to your Agility score. |
-| 4       | • While in crow or hybrid crow form, you can use all your abilities, and your attacks deal extra damage equal to twice your Agility score, instead of once your Agility score. <br> • Once per turn while in crow or hybrid crow form, when you move away from an enemy, that enemy takes damage equal to twice your Agility score, instead of once your Agility score. |
-| 6       | You can shift up to 2 squares as a free maneuver once per turn. |
+| **Rage** | **Benefit**                                                                                                                                                                                                                                                                                                                                                             |
+| -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2        | • You can shift 1 square as a free maneuver once per turn. <br> • While in crow form, your attacks deal extra damage equal to your Agility score. <br> • Once per turn while in crow form, when you move away from an enemy, that enemy takes damage equal to your Agility score.                                                                                       |
+| 4        | • While in crow or hybrid crow form, you can use all your abilities, and your attacks deal extra damage equal to twice your Agility score, instead of once your Agility score. <br> • Once per turn while in crow or hybrid crow form, when you move away from an enemy, that enemy takes damage equal to twice your Agility score, instead of once your Agility score. |
+| 6        | You can shift up to 2 squares as a free maneuver once per turn.                                                                                                                                                                                                                                                                                                         |
 
 ### RADEN
 
@@ -3817,7 +3815,9 @@ Your primordial damage type is corruption.
 - **Mobility:** When an enemy ends their turn adjacent to you, you can shift up to 2 squares as a free triggered action.
 
 #### SIGNATURE ABILITY
+
 ##### DRIVING POUNCE
+
 Your enemies try in vain to fall back from your pouncing attack.
 
 - **Keywords:** Animal, Attack, Melee, Weapon
@@ -3833,11 +3833,11 @@ Your enemies try in vain to fall back from your pouncing attack.
 
 #### RAT GROWING RAGE
 
-| **Rage** | **Benefit**                                                                                                              |
-|---------|--------------------------------------------------------------------------------------------------------------------------|
-| 2       | • You have Weapon immunity 2. <br> • While in rat form, your attacks deal extra damage equal to your Agility score. <br> • While in rat form, if you attack a creature you are climbing, that creature is bleeding (EoT). |
-| 4       | While in rat or hybrid rat form, you can use all your abilities, and your attacks deal extra damage equal to twice your Agility score, instead of once your Agility score. |
-| 6       | You have Weapon immunity 2. Any damage you ignore because of this immunity is dealt to each enemy adjacent to you when you are attacked. |
+| **Rage** | **Benefit**                                                                                                                                                                                                               |
+| -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2        | • You have Weapon immunity 2. <br> • While in rat form, your attacks deal extra damage equal to your Agility score. <br> • While in rat form, if you attack a creature you are climbing, that creature is bleeding (EoT). |
+| 4        | While in rat or hybrid rat form, you can use all your abilities, and your attacks deal extra damage equal to twice your Agility score, instead of once your Agility score.                                                |
+| 6        | You have Weapon immunity 2. Any damage you ignore because of this immunity is dealt to each enemy adjacent to you when you are attacked.                                                                                  |
 
 ### VUKEN
 
@@ -3883,11 +3883,11 @@ A savage assault forces your foes back.
 
 #### WOLF GROWING RAGE
 
-| **Rage** | **Benefit**                                                                                                              |
-|---------|--------------------------------------------------------------------------------------------------------------------------|
-| 2       | • You gain an edge on Agility tests and resistance rolls. <br> • While in wolf form, your attacks deal extra damage equal to your Agility score. <br> • When you attack a target while in wolf form, the next ally to damage that target before the start of your next turn deals extra damage equal to your Agility score. |
-| 4       | • While in wolf or hybrid wolf form, you can use all your abilities, and your attacks deal extra damage equal to twice your Agility score, instead of once your Agility score. <br> • When you attack a target while in wolf or hybrid wolf form, the next ally to damage that target before the start of your next turn deals extra damage equal to twice your Agility score, instead of once your Agility score. |
-| 6       | You have a double edge on Agility tests and resistance rolls. |
+| **Rage** | **Benefit**                                                                                                                                                                                                                                                                                                                                                                                                        |
+| -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 2        | • You gain an edge on Agility tests and resistance rolls. <br> • While in wolf form, your attacks deal extra damage equal to your Agility score. <br> • When you attack a target while in wolf form, the next ally to damage that target before the start of your next turn deals extra damage equal to your Agility score.                                                                                        |
+| 4        | • While in wolf or hybrid wolf form, you can use all your abilities, and your attacks deal extra damage equal to twice your Agility score, instead of once your Agility score. <br> • When you attack a target while in wolf or hybrid wolf form, the next ally to damage that target before the start of your next turn deals extra damage equal to twice your Agility score, instead of once your Agility score. |
+| 6        | You have a double edge on Agility tests and resistance rolls.                                                                                                                                                                                                                                                                                                                                                      |
 
 ## SHADOW
 
@@ -3908,11 +3908,11 @@ As a shadow, you have abilities that deal a lot of damage, let you move swiftly 
 
 ### SHADOW ADVANCEMENT
 
-| Level | Features | Abilities |
-|-------|----------|-----------|
-| 1st   | Shadow College, Insight, College Feature, College Triggered Action, Hesitation is Weakness, Shadow Abilities | Signature, 3, 5 |
-| 2nd   | College Feature, College Ability | Signature, 3, 5, 5 (College) |
-| 3rd   | Assess and Aim, 7-Insight Ability | Signature, 3, 5, 5 (College), 7 |
+| Level | Features                                                                                                     | Abilities                       |
+| ----- | ------------------------------------------------------------------------------------------------------------ | ------------------------------- |
+| 1st   | Shadow College, Insight, College Feature, College Triggered Action, Hesitation is Weakness, Shadow Abilities | Signature, 3, 5                 |
+| 2nd   | College Feature, College Ability                                                                             | Signature, 3, 5, 5 (College)    |
+| 3rd   | Assess and Aim, 7-Insight Ability                                                                            | Signature, 3, 5, 5 (College), 7 |
 
 ### 1ST-LEVEL FEATURES
 
@@ -4009,11 +4009,11 @@ Your college grants you a triggered action, as shown on the Shadow Triggered Act
 
 #### SHADOW TRIGGERED ACTIONS
 
-| College | Triggered Action          |
-|---------|---------------------------|
-| Black Ash | In All This Confusion    |
-| Caustic Alchemy | Defensive Roll     |
-| Harlequin Mask | Misdirection        |
+| College         | Triggered Action      |
+| --------------- | --------------------- |
+| Black Ash       | In All This Confusion |
+| Caustic Alchemy | Defensive Roll        |
+| Harlequin Mask  | Misdirection          |
 
 ##### DEFENSIVE ROLL
 
@@ -4279,11 +4279,11 @@ As a tactician, you have abilities that heal your allies and grant them extra da
 
 ### TACTICIAN ADVANCEMENT
 
-| Level | Features | Abilities |
-|-------|----------|-----------|
-| 1st   | Tactical Doctrine, Focus, Mark, Seize the Opening, Doctrine Features, Doctrine Triggered Action, Field Arsenal | Field Arsenal, 3, 5 |
-| 2nd   | Doctrine Features, Doctrine Ability | Field Arsenal, 3, 5, 5 (Doctrine) |
-| 3rd   | All According to Plan, 7-Focus Ability | Field Arsenal, 3, 5, 5 (Doctrine), 7 |
+| Level | Features                                                                                                       | Abilities                            |
+| ----- | -------------------------------------------------------------------------------------------------------------- | ------------------------------------ |
+| 1st   | Tactical Doctrine, Focus, Mark, Seize the Opening, Doctrine Features, Doctrine Triggered Action, Field Arsenal | Field Arsenal, 3, 5                  |
+| 2nd   | Doctrine Features, Doctrine Ability                                                                            | Field Arsenal, 3, 5, 5 (Doctrine)    |
+| 3rd   | All According to Plan, 7-Focus Ability                                                                         | Field Arsenal, 3, 5, 5 (Doctrine), 7 |
 
 ### 1ST-LEVEL FEATURES
 
@@ -4349,11 +4349,11 @@ Your chosen doctrine grants you two features, as shown on the 1st-Level Tactical
 
 #### 1ST-LEVEL TACTICAL DOCTRINE FEATURES
 
-| Doctrine   | Feature               |
-|------------|-----------------------|
-| Vanguard   | Imposing Attitude      |
-| Mastermind | I Read Your Book!      |
-| Insurgent  | Covert Operations      |
+| Doctrine   | Feature           |
+| ---------- | ----------------- |
+| Vanguard   | Imposing Attitude |
+| Mastermind | I Read Your Book! |
+| Insurgent  | Covert Operations |
 
 ##### COVERT OPERATIONS
 
@@ -4387,11 +4387,11 @@ Your doctrine grants you a triggered action, as shown on the Tactician Triggered
 
 #### TACTICIAN TRIGGERED ACTIONS
 
-| Doctrine   | Triggered Action       |
-|------------|------------------------|
-| Vanguard   | Parry                  |
-| Mastermind | Overwatch              |
-| Insurgent  | Flank Them Now!        |
+| Doctrine   | Triggered Action |
+| ---------- | ---------------- |
+| Vanguard   | Parry            |
+| Mastermind | Overwatch        |
+| Insurgent  | Flank Them Now!  |
 
 ##### FLANK THEM NOW!
 
@@ -5187,7 +5187,7 @@ When you draw your whip back after an attack, your enemy comes ever closer.
 - 12–16: 8 damage; pull 1
 - 17+: 11 damage; pull 2
 
-### Martial Kits
+### MARTIAL KITS
 
 | Kit              | Armor          | Weapon             | Stamina | Speed | Stability | Melee Damage | Ranged Damage | Weapon Distance | Reach | Mobility |
 | ---------------- | -------------- | ------------------ | ------- | ----- | --------- | ------------ | ------------- | --------------- | ----- | -------- |
@@ -5909,21 +5909,21 @@ Skills from the interpersonal skill group are used to socially interact with oth
 
 ### INTERPERSONAL SKILLS
 
-| Skill        | Use                                                        |
-| ------------ | ---------------------------------------------------------- |
-| Brag         | Impress others with stories of your deeds                  |
-| Empathize    | Relate to someone on a personal level                      |
-| Flirt        | Attract romantic attention from someone                    |
-| Gamble       | Make bets with others                                      |
-| Handle Animals| Interact with animal wildlife that isn’t sapient          |
-| Interrogate  | Obtain information from a creature withholding it          |
-| Intimidate   | Awe or scare a creature                                    |
-| Lead         | Inspire people to action                                   |
-| Lie          | Convince someone that a falsehood is true                  |
-| Music        | Perform music vocally or with an instrument                |
-| Perform      | Engage in dance, oratory, acting, or some other physical performance |
-| Persuade     | Convince someone to agree with you through use of your charms and grace |
-| Read Person  | Read the emotions and body language of other creatures     |
+| Skill          | Use                                                                     |
+| -------------- | ----------------------------------------------------------------------- |
+| Brag           | Impress others with stories of your deeds                               |
+| Empathize      | Relate to someone on a personal level                                   |
+| Flirt          | Attract romantic attention from someone                                 |
+| Gamble         | Make bets with others                                                   |
+| Handle Animals | Interact with animal wildlife that isn’t sapient                        |
+| Interrogate    | Obtain information from a creature withholding it                       |
+| Intimidate     | Awe or scare a creature                                                 |
+| Lead           | Inspire people to action                                                |
+| Lie            | Convince someone that a falsehood is true                               |
+| Music          | Perform music vocally or with an instrument                             |
+| Perform        | Engage in dance, oratory, acting, or some other physical performance    |
+| Persuade       | Convince someone to agree with you through use of your charms and grace |
+| Read Person    | Read the emotions and body language of other creatures                  |
 
 ### INTRIGUE SKILLS
 
@@ -5958,19 +5958,19 @@ Skills from the lore skill group are used to research and recall specific inform
 
 ### LORE SKILLS
 
-| Skill                | Use                                                           |
-| -------------------- | ------------------------------------------------------------- |
-| Culture              | Knowing about a culture’s customs, folktales, and taboos       |
-| Criminal Underworld  | Knowing about criminal organizations, their crimes, their relationships, and their leaders |
-| History              | Knowing about significant past events                         |
-| Magic                | Knowing about magical places, spells, rituals, items, and phenomena |
-| Monsters             | Knowing monster ecology, strengths, and weaknesses            |
-| Nature               | Knowing about natural flora, fauna, and weather               |
-| Psionics             | Knowing about psionic places, spells, rituals, items, and phenomena |
-| Religion             | Knowing about religious mythology, practices, and rituals     |
-| Rumors               | Knowing gossip, legends, and uncertain truths                 |
-| Society              | Knowing noble etiquette and the leadership and power dynamics of noble families |
-| Timescape            | Knowing about the various planets of the timescape            |
+| Skill               | Use                                                                                        |
+| ------------------- | ------------------------------------------------------------------------------------------ |
+| Culture             | Knowing about a culture’s customs, folktales, and taboos                                   |
+| Criminal Underworld | Knowing about criminal organizations, their crimes, their relationships, and their leaders |
+| History             | Knowing about significant past events                                                      |
+| Magic               | Knowing about magical places, spells, rituals, items, and phenomena                        |
+| Monsters            | Knowing monster ecology, strengths, and weaknesses                                         |
+| Nature              | Knowing about natural flora, fauna, and weather                                            |
+| Psionics            | Knowing about psionic places, spells, rituals, items, and phenomena                        |
+| Religion            | Knowing about religious mythology, practices, and rituals                                  |
+| Rumors              | Knowing gossip, legends, and uncertain truths                                              |
+| Society             | Knowing noble etiquette and the leadership and power dynamics of noble families            |
+| Timescape           | Knowing about the various planets of the timescape                                         |
 
 ### ARE ALL SKILLS EQUAL?
 
@@ -6280,7 +6280,7 @@ Sages can reconstruct many of these languages by learning which modern languages
 
 #### DEAD LANGUAGES TABLE
 
-| **Language** | **Related Languages** | **Common Topics**                   | 
+| **Language** | **Related Languages** | **Common Topics**                   |
 | ------------ | --------------------- | ----------------------------------- |
 | Kheltivari   | Yllyric, Cyllinric    | Using a wode to travel through time |
 | Khamish      | Khoursirian           | Beast magic                         |
@@ -6675,16 +6675,16 @@ The Creature and Object Sizes table shows examples of creature and object sizes 
 
 ### CREATURE AND OBJECT SIZES
 
-| Size | Example Creature | Example Object  |
-|------|------------------|-----------------|
-| 1T   | Pixie            | Potato          |
-| 1S   | Polder           | Heavy armor     |
-| 1M   | Human            | Wardrobe        |
-| 1L   | Hakaan           | Anvil           |
-| 2    | Ogre             | Carriage        |
-| 3    | Treant           | Sailboat        |
-| 4    | Ancient Dragon   | Galley          |
-| 5    | The Kraken       | Castle          |
+| Size | Example Creature | Example Object |
+| ---- | ---------------- | -------------- |
+| 1T   | Pixie            | Potato         |
+| 1S   | Polder           | Heavy armor    |
+| 1M   | Human            | Wardrobe       |
+| 1L   | Hakaan           | Anvil          |
+| 2    | Ogre             | Carriage       |
+| 3    | Treant           | Sailboat       |
+| 4    | Ancient Dragon   | Galley         |
+| 5    | The Kraken       | Castle         |
 
 ### SIDES
 
