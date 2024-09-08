@@ -5591,7 +5591,7 @@ A complication is an optional feature you can take to enrich your hero’s backs
 
 ### BENEFIT AND DRAWBACK
 
-Your complication gives your hero both a benefit and a drawback. Some of these benefits and drawbacks are mechanical, while others are narrative. The benefit and drawback of a complication make your connection to the game deeper and more interesting, and provide hooks to let the Director better draw your hero into the campaign’s story.
+Your complication gives your hero both a benefit and a drawback. Some of these benefits and drawbacks are mechanical, while others are narrative. The benefit and drawback of a complication makes your connection to the game deeper and more interesting, and provides hooks to let the Director better draw your hero into the campaign’s story.
 
 Not all complication benefits and drawbacks are created equal, but each benefit is balanced by its drawback. If you have a powerful positive side to your complication, be prepared to have an equally influential bit of negative backstory as well.
 
@@ -5638,12 +5638,8 @@ You once contracted a terrible illness for which no one could find a cure. You s
 
 #### PUNISHMENT CURSE
 
-Through ignorance, fear, spite, or selfishness, you refused to help someone in need. To teach you a lesson, a deity offered you what seemed to be a blessing—extra power to help you heal yourself in times of need, but harsh consequences if you fail to live up to their expectations...
+Through ignorance, fear, spite, or selfishness, you refused to help someone in need. To teach you a lesson, a deity offered you what seemed to be a blessing—extra power to help you heal yourself in times of need, but harsh consequences should your need become excessive. You took the deal, and now benefit from the blessing but also suffer from a curse.
 
-#### PUNISHMENT CURSE
-
-Through ignorance, fear, spite, or selfishness, you refused to help someone in need. To teach you a lesson, a deity offered you what seemed to be a blessing—extra power to help you heal yourself in times of need, but harsh consequences should your need become excessive.
-You took the deal, and now benefit from the blessing but also suffer from a curse.
 **Benefit**: You have 2 additional Recoveries.
 **Drawback**: When you are out of Recoveries, you are dying, no matter what your current Stamina is.
 
@@ -5671,7 +5667,7 @@ Being in the wrong place at the wrong time saw you caught in the middle of a con
 **Benefit**: Having gained the favor of the faction you helped, you can call on its members three times for favors. If a favor is reasonable and within the faction’s power to grant, they’ll do it, no questions asked.
 **Drawback**: The faction you wronged hates you, and its members would love to see you pay for your transgression.
 
-### COMPLICATIONS TABLE
+### COMPLICATIONS
 
 | d10 | Complication         |
 | --- | -------------------- |
@@ -5797,7 +5793,7 @@ Common consequences for failing a test include the following:
 - Thinking you know something that you don’t
 - Getting stuck in a situation that must be resolved with a negotiation or a montage test that you didn’t need to make before
 
-In lieu of other consequences, the Director has the option to gain 2 additional Villain Power (VP), a resource their...
+In lieu of other consequences, the Director has the option to gain 2 additional Villain Power (VP), a resource their creatures use in combat, at the start of the next combat  encounter.
 
 ### FAILURE
 
@@ -5811,7 +5807,7 @@ If you succeed on a test and incur a consequence, you do what you set out to do,
 
 Just like failure with a consequence, the consequences accompanying success don’t need to be immediately apparent. In lieu of other consequences, the Director has the option to gain 2 additional VP at the start of the next combat encounter.
 
-Sometimes when a hero rolls a failure without a consequence, the Director can offer to let them succeed with a consequence. Likewise, a hero who rolls a success with a consequence might be given a chance to fail without a consequence if doing so is the better option. For instance, when a hero rolls a 10 on an easy Might test to break down a locked door, that’s a failure. But the Director could offer the player the choice of either not breaking down the door or breaking down the door and losing 1d6 Stamina as they get injured in the effort.
+Sometimes when a hero rolls a failure without a consequence, the Director can offer to let them succeed with a consequence. Likewise, a hero who rolls a success with a consequence might be given a chance to fail without a consequence if doing so is the better option. For instance, when a hero rolls a 10 on an easy Might test to break down a locked door, that’s a failure. But the Director could offer the player the choice of either not breaking down the door, or breaking down the door and losing 1d6 Stamina as they get injured in the effort.
 
 ### SUCCESS
 
@@ -5929,7 +5925,7 @@ We made the decision to have a lot of specific skills based on our design goals.
 
 Since players don’t need to be worried about their characters covering a wide spread of skills, they’re free to choose the skills they think fit their heroes best and are the most fun to work with. In this way, you can get pretty specific with the hero you want to make. Maybe you’re thinking about an elementalist who has a gymnastic background in jumping and tumbling, and who also studied religion and blacksmithing. You can make that in our game! Having a specific backstory is part of cinematic storytelling.
 
-Our rules for skills allow for them to be flexibly applied to any test that is appropriate for the skill. This encourages clever thinking. A player can ask the Director, “I want to impress the duke with a story about how I ascended the sheer Cliffs of Azgahnan. Can I use my Climb skill to get a +2 bonus to my Presence test?” That’s great! Getting creative like that is a lot of fun. It paints a visual picture...
+Our rules for skills allow for them to be flexibly applied to any test that is appropriate for the skill. This encourages clever thinking. A player can ask the Director, “I want to impress the duke with a story about how I ascended the sheer Cliffs of Azgahnan. Can I use my Climb skill to get a +2 bonus to my Presence test?” That’s great! Getting creative like that is a lot of fun. It paints a visual picture and it’s tactical thinking! However, if the skills in a game are too broad in the kinds of activities they represent, that sometimes encourages players to find a way to apply the  same skill over and over again with as many tests as possible. This isn’t fun for anyone, and doesn’t make a very compelling story.
 
 ## SKILL GROUPS
 
@@ -5943,8 +5939,9 @@ Directors should feel free to make their own skills that they feel are relevant 
 
 Skills from the crafting skill group are used in the creation and appraisal of goods and for jury-rigging contraptions. They are especially useful during rests and downtime.
 
-- **Rewards**: Rewards for tests made with crafting skills typically include having leftover rare material used in the creation process, knowing a buyer willing to pay extra for goods or items you’re appraising, or making a jury-rigged device so amazing that it lasts for more uses than it should.
-- **Failure Consequences**: Failure consequences for tests made with crafting skills typically include wasting rare materials used in the creation process, greatly overestimating or underestimating an item’s value, and poorly jury-rigging a contraption so that it harms people (or at least the wrong people).
+Rewards for tests made with crafting skills typically include having leftover rare material used in the creation process, knowing a buyer willing to pay extra for goods or items you’re appraising, or making a jury-rigged device so amazing that it lasts for more uses than it should.
+
+Failure consequences for tests made with crafting skills typically include wasting rare materials used in the creation process, greatly overestimating or underestimating an item’s value, and poorly jury-rigging a contraption so that it harms people (or at least the wrong people).
 
 #### CRAFTING SKILLS TABLE
 
@@ -5963,8 +5960,9 @@ Skills from the crafting skill group are used in the creation and appraisal of g
 
 Skills from the exploration skill group are used to physically explore the environment around the characters and to overcome physical obstacles.
 
-- **Rewards**: Rewards for tests made with exploration skills typically include helping another creature engaging in the same task succeed without needing to also make a test, automatically succeeding on a follow-up test while engaged in the same task, reaching a destination faster than you anticipated, and learning about or avoiding an upcoming hazard.
-- **Failure Consequences**: Failure consequences for tests made with exploration skills include harming yourself, your gear, or your allies, becoming lost, or stumbling headlong into a hazard or a place you were trying to avoid.
+Rewards for tests made with exploration skills typically include helping another creature engaging in the same task succeed without needing to also make a test, automatically succeeding on a follow-up test while engaged in the same task, reaching a destination faster than you anticipated, and learning about or avoiding an upcoming hazard.
+
+Failure consequences for tests made with exploration skills include harming yourself, your gear, or your allies, becoming lost, or stumbling headlong into a hazard or a place you were trying to avoid.
 
 #### EXPLORATION SKILLS TABLE
 
@@ -5985,8 +5983,9 @@ Skills from the exploration skill group are used to physically explore the envir
 
 Skills from the interpersonal skill group are used to socially interact with other creatures and are particularly useful during negotiations. Aside from the Handle Animals skill, you can generally only use interpersonal skills when you attempt to influence creatures who have emotions and who can understand you.
 
-- **Rewards**: Rewards for tests made with interpersonal skills typically include gaining an extra favor, item, or piece of information from the person or people you interact with.
-- **Failure Consequences**: Failure consequences for tests made with interpersonal skills include making the person you’re interacting with angry, sad, embarrassed, offended, or otherwise upset or uncomfortable, which might cause them to ignore you, storm off, spread rumors about you, attack you, betray you, blackmail you, or otherwise attempt to harm you.
+Rewards for tests made with interpersonal skills typically include gaining an extra favor, item, or piece of information from the person or people you interact with.
+
+Failure consequences for tests made with interpersonal skills include making the person you’re interacting with angry, sad, embarrassed, offended, or otherwise upset or uncomfortable, which might cause them to ignore you, storm off, spread rumors about you, attack you, betray you, blackmail you, or otherwise attempt to harm you.
 
 ### INTERPERSONAL SKILLS
 
@@ -6010,34 +6009,36 @@ Skills from the interpersonal skill group are used to socially interact with oth
 
 Skills from the intrigue skill group are used in tasks centered around investigation, thievery, and spycraft.
 
-- **Rewards**: Rewards for tests made with skills from this group typically include helping another creature engaging in the same task succeed without needing to also make a test, automatically succeeding on a follow-up test while engaged in the same task, discovering helpful information in addition to what you set out to learn, and performing an extra bit of clandestine activity in addition to what you set out to do.
-- **Failure Consequences**: Failure consequences for tests made with intrigue skills include getting caught in the act or failing to notice a detail that places you in danger, such as triggering a trap or walking into an ambush.
+Rewards for tests made with skills from this group typically include helping another creature engaging in the same task succeed without needing to also make a test, automatically succeeding on a follow-up test while engaged in the same task, discovering helpful information in addition to what you set out to learn, and performing an extra bit of clandestine activity in addition to what you set out to do.
+
+Failure consequences for tests made with intrigue skills include getting caught in the act or failing to notice a detail that places you in danger, such as triggering a trap or walking into an ambush.
 
 #### INTRIGUE SKILLS TABLE
 
-| Skill          | Use                                                                                                |
-| -------------- | -------------------------------------------------------------------------------------------------- |
-| Alertness      | Intuitively sense the details of your surroundings                                                 |
-| Conceal Object | Hide an object on your person or in your environment                                               |
-| Disguise       | Change your appearance to look like a different person                                             |
+| Skill          | Use                                                                                               |
+| -------------- |---------------------------------------------------------------------------------------------------|
+| Alertness      | Intuitively sense the details of your surroundings                                                |
+| Conceal Object | Hide an object on your person or in your environment                                              |
+| Disguise       | Change your appearance to look like a different person                                            |
 | Eavesdrop      | Actively listen to something that is hard to hear, such as a whispered conversation through a door |
-| Escape Artist  | Escape from bonds such as rope or manacles                                                         |
-| Hide           | Conceal yourself from others’ observation                                                          |
-| Pick Lock      | Open a lock without using the key                                                                  |
-| Pick Pocket    | Steal an item that another person wears or carries without them noticing                           |
-| Sabotage       | Disable a mechanical device such as a trap                                                         |
-| Search         | Actively search an environment for important details and items                                     |
-| Sneak          | Move silently                                                                                      |
-| Track          | Follow a trail that another creature has left behind                                               |
+| Escape Artist  | Escape from bonds such as rope or manacles                                                        |
+| Hide           | Conceal yourself from others’ observation                                                         |
+| Pick Lock      | Open a lock without using the key                                                                 |
+| Pick Pocket    | Steal an item that another person wears or carries without them noticing                          |
+| Sabotage       | Disable a mechanical device such as a trap                                                        |
+| Search         | Actively search an environment for important details and items                                    |
+| Sneak          | Move silently                                                                                     |
+| Track          | Follow a trail that another creature has left behind                                              |
 
 ### LORE SKILLS
 
 Skills from the lore skill group are used to research and recall specific information. They are especially useful during rests and downtime.
 
-- **Rewards**: Rewards for tests made with lore skills typically include learning an extra piece of useful information.
-- **Failure Consequences**: Failure consequences for tests made with lore skills typically include learning an incorrect piece of information that seems useful, but which actually makes things worse or wastes time. (It’s fun to roleplay these sorts of moments, so lean in!) Alternatively, the Director can make medium and hard lore tests for each hero in secret and let the players know the narrative outcome without revealing the result of the dice.
+Rewards for tests made with lore skills typically include learning an extra piece of useful information.
 
-### LORE SKILLS
+Failure consequences for tests made with lore skills typically include learning an incorrect piece of information that seems useful, but which actually makes things worse or wastes time. (It’s fun to roleplay these sorts of moments, so lean in!) Alternatively, the Director can make medium and hard lore tests for each hero in secret and let the players know the narrative outcome without revealing the result of the dice.
+
+### LORE SKILLS TABLE
 
 | Skill               | Use                                                                                        |
 | ------------------- | ------------------------------------------------------------------------------------------ |
@@ -6087,16 +6088,19 @@ Each hero participating in the group test makes the test individually as usual, 
 
 When interpreting the outcome of a group test, the Director first determines if the task succeeded or not before figuring out rewards and consequences. If half or more of the heroes making the group test succeed, then the group test succeeds. Otherwise, the group test fails.
 
-- If the heroes succeeded and half or more of them obtained a reward from the test, the Director gives the group a collective reward and ignores any consequences incurred in the test. This collective reward should be equivalent to earning two individual rewards. In fact, it could be two consumable items, juicy pieces of information, or hero tokens. However, it could also be something more tailored to the task. For instance, if the heroes earn a collective reward while sneaking through the camp of an enemy army, the Director might allow them to sabotage a bunch of war engines or steal a few horses on their way out.
-- If the heroes failed the group test and more than half of them incurred a consequence as a result, the Director gives the group a collective consequence and ignores any earned rewards. This collective consequence should affect everyone. An easy option is for the stress of failing the test to cause each hero to take a bane on their next power roll or for the Director to gain 2 VP per hero at the start of the next combat encounter, but the consequence could also be tailored to the task. For instance, if the heroes fail in their attempt to sneak through the camp of an enemy army, they’re spotted and the camp immediately goes on alert as waves of enemies attack them.
-- If fewer than half the heroes get a consequence or reward on their individual tests, then the group test simply succeeds or fails.
+If the heroes succeeded and half or more of them obtained a reward from the test, the Director gives the group a collective reward and ignores any consequences incurred in the test. This collective reward should be equivalent to earning two individual rewards. In fact, it could be two consumable items, juicy pieces of information, or hero tokens. However, it could also be something more tailored to the task. For instance, if the heroes earn a collective reward while sneaking through the camp of an enemy army, the Director might allow them to sabotage a bunch of war engines or steal a few horses on their way out.
+
+If the heroes failed the group test and more than half of them incurred a consequence as a result, the Director gives the group a collective consequence and ignores any earned rewards. This collective consequence should affect everyone. An easy option is for the stress of failing the test to cause each hero to take a bane on their next power roll or for the Director to gain 2 VP per hero at the start of the next combat encounter, but the consequence could also be tailored to the task. For instance, if the heroes fail in their attempt to sneak through the camp of an enemy army, they’re spotted and the camp immediately goes on alert as waves of enemies attack them.
+
+If fewer than half the heroes get a consequence or reward on their individual tests, then the group test simply succeeds or fails.
 
 ### MONTAGE TESTS
 
 When a group of heroes works together over time to accomplish a common goal that requires more than a single characteristic, the Director can call for a montage test. Such tests typically take place over a prolonged period and focus on collective or shared activities. Navigating a vast desert, convincing farmers to rise up against a tyrannical leader, and performing a ritual to open a magically sealed gate can all be accomplished with montage tests.
 
-- In a montage test, the players take turns making tests as their characters tackle a task together in a montage test round. Each hero has a chance to make a test (or to assist another hero’s test) intended to influence the outcome of the task (see Assist a Test).
-- A hero can also spend their turn using an item, ability, or other option they have available that they believe can help in the montage test. For example, if a group of heroes wants to cross an ocean on a sailing ship before a storm begins, one hero might make use of a magic fan that creates wind to keep the sails full day and night. The Director decides that this clever action gives the heroes 2 automatic successes in the montage test, with no individual tests necessary (see Total Successes and Failures).
+In a montage test, the players take turns making tests as their characters tackle a task together in a montage test round. Each hero has a chance to make a test (or to assist another hero’s test) intended to influence the outcome of the task (see Assist a Test).
+
+A hero can also spend their turn using an item, ability, or other option they have available that they believe can help in the montage test. For example, if a group of heroes wants to cross an ocean on a sailing ship before a storm begins, one hero might make use of a magic fan that creates wind to keep the sails full day and night. The Director decides that this clever action gives the heroes 2 automatic successes in the montage test, with no individual tests necessary (see Total Successes and Failures).
 
 Once a hero makes a test, assists with a test, or uses an ability or other option, they can’t do anything else as part of the montage test until each other hero involved in the montage test does so as well. A hero can also choose to do nothing, most often if they have no one to assist and fear that their actions might make the situation worse (see Montage Test Outcomes). Once every hero has had a chance to act, the montage test round ends and a new one begins.
 
@@ -6128,7 +6132,8 @@ An individual character can’t use the same skill more than once in a montage t
 
 In general, when a hero makes a test as part of a montage test, they should choose new obstacles to overcome that haven’t already been tackled as part of the test. If the heroes are chasing a thief through the marketplace and one of them has already distracted the pack of stray dogs with a deft hand and a piece of meat, additional tests made to distract the animals don’t count toward the result of the montage test.
 
-- When it fits the scenario, the Director can adjust this restriction. If part of a montage test involves searching for people trapped in a burning building, the Director is likely to allow multiple tests to fight or avoid the fire, since this will happen throughout the montage test, not just once.
+
+When it fits the scenario, the Director can adjust this restriction. If part of a montage test involves searching for people trapped in a burning building, the Director is likely to allow multiple tests to fight or avoid the fire, since this will happen throughout the montage test, not just once.
 
 ### DIRECTOR CAN INTRODUCE MORE CHALLENGES
 
@@ -6223,11 +6228,9 @@ Many abilities and other options refer to creatures, objects, or spaces that are
 
 ### FALLING
 
-- When you fall 2 or more squares, you take 2 damage for each square you fall, then you land prone.
-- You reduce the effective height of the fall by a number of squares equal to your Agility score.
-- Falling into liquid that is at least 1 square deep reduces the effective height of a fall by 4 squares.
-- Falling is not forced movement, but being force moved downward is considered falling (see Forced Movement in Combat).
-- Movement from falling doesn’t provoke opportunity attacks (see Opportunity Attacks).
+When you fall 2 or more squares, you take 2 damage for  each square you fall, then you land prone. When you fall,  you reduce the effective height of the fall by a number of squares equal to your Agility score. Falling into liquid that is at least 1 square deep reduces the effective height of a fall by 4 squares.
+
+Falling is not forced movement, but being force moved downward is considered falling (see Forced Movement in Combat). Movement from falling doesn’t provoke opportunity attacks (see Opportunity Attacks).
 
 #### FALLING ONTO ANOTHER CREATURE
 
@@ -6243,15 +6246,11 @@ Hiding and sneaking are important tools for heroes and their foes. You might wan
 
 #### HIDING
 
-When you wish to hide from a creature, you must have cover or concealment (see Combat) from your foe, and that foe can’t observe you attempting to hide. If you duck behind a barrel to hide from a foe, your attempt to hide has a chance of succeeding only if your foe doesn’t notice you doing so.
-
-- If you are being chased by a hungry dragon, you can hide only if you first move into a place where the dragon can’t observe you, such as turning a sharp corner into a tunnel full of giant stalagmites before the dragon does. You then make your hide attempt.
+When you wish to hide from a creature, you must have cover or concealment (see Combat) from your foe, and that foe can’t observe you attempting to hide. If you duck behind a barrel to hide from a foe, your attempt to hide has a chance of succeeding only if your foe doesn’t notice you doing so. If you are being chased by a hungry dragon, you can hide only if you first move into a place where the dragon can’t observe you, such as turning a sharp corner into a tunnel full of giant stalagmites before the dragon does. You then make your hide attempt.
 
 Most often, you use the Hide maneuver to hide during combat (see Maneuvers). If you do so while you have cover or concealment from a creature who isn’t observing you, you are automatically hidden from them unless the Director deems otherwise. If you hide outside of combat, the Director might ask you to make a test using the Hide skill.
 
-If you are hidden from another creature, you gain an edge on attacks made against them, and the creature can’t target you with attacks. You are no longer hidden from a creature if you don’t have cover or concealment from them. If you use an ability, interact with an enemy creature, move without sneaking, or otherwise make noise or reveal yourself while hidden, you are no longer hidden once the action resolves.
-
-For example, if you are hidden and then make an attack, you resolve the attack first, then you are no longer hidden.
+If you are hidden from another creature, you gain an edge on attacks made against them, and the creature can’t target you with attacks. You are no longer hidden from a creature if you don’t have cover or concealment from them. If you use an ability, interact with an enemy creature, move without sneaking, or otherwise make noise or reveal yourself while hidden, you are no longer hidden once the thing you’re doing resolves. For instance, if you are hidden and then make an attack, you resolve the attack first, then are no longer hidden.
 
 #### SEARCHING FOR HIDDEN CREATURES
 
@@ -6277,7 +6276,7 @@ If your hero knows a language, they can speak, read, write, and understand it.
 
 ### CAELIAN EMPIRE
 
-The Caelian Empire dominated five of the seven regions of Orden three thousand years ago. During the height of this most recent human empire, all humans (including folks from Vanigar in the far north, but not from the islands of Ix) learned to speak the Caelian tongue. For many, especially the noble classes and the well-to-do, Caelian effectively replaced their native language.
+The Caelian Empire dominated five of the seven regions of Orden three thousand years ago. During the height of this most recent human empire, all humans (including folks from Vanigar in the far north, but not folks from the islands of Ix) learned to speak the Caelian tongue. For many, especially the noble classes and the well-to-do, Caelian effectively replaced their native language.
 
 Some thirteen hundred years after the fall of the Caelian Empire, the languages of the different regions of the empire are enjoying a resurgence. Still, the Caelian tongue is spoken by most humans in most regions to one extent or another.
 
@@ -6285,54 +6284,54 @@ Most people in Orden can speak and understand some Caelian, simply because the e
 
 ### EXTANT SPOKEN LANGUAGES
 
-Folks have been speaking and writing in Orden for at least thirty thousand years, but most of those languages are now dead. Many have been forgotten, others were spoken by peoples who never developed writing, and some preserved in writing have no related descendants to reveal how they sounded.
+Folks have been speaking and writing in Orden for at least thirty thousand years, but most of those languages are now dead. Many have been forgotten. Others were spoken by peoples who never developed writing, preventing those languages from being preserved. And many languages that were preserved in writing left no related descendants, so that no one knows what sounds that writing represented.
 
-The languages on the **Vasloria Languages by Ancestry** table are the most common languages in that region, actively spoken by significant populations. Most languages are associated with a specific ancestry and its culture, but being a member of an ancestry doesn’t automatically make you part of the associated culture the language is tied to. For example, if your orc hero was raised in a culture of elves, you probably speak one of the elven languages and might never have learned Kalliak.
+The languages on the Vasloria Languages by Ancestry table are the most common languages in that region, actively spoken by significant populations. Most languages are associated with a specific ancestry and its culture, but being a member of an ancestry doesn’t automatically make you part of the associated culture the language is tied to. For example, if your orc hero was raised in a culture of elves, you probably speak one of the elven languages and might never have learned Kalliak.
 
 Most languages have colloquial or casual names. For instance, many people in Orden call Kalliak “Orcish” and Hyrallic “Elvish,” but any sage knows there are many orcish and elven languages, just as there are multiple human languages.
 
 #### VASLORIA LANGUAGES BY ANCESTRY
 
-| **Ancestry**      | **Language**       | **Notes**                                         |
-| ----------------- | ------------------ | ------------------------------------------------- |
-| Angulots          | Filliaric          | Offshoot of Cyllinric                             |
-| Demons            | Proto-Ctholl       |                                                   |
-| Devils            | Anjal              | Language of contract law                          |
-| Dwarves           | Zaliac             | Language of engineering                           |
-| Dragons           | Xakalliac          |                                                   |
-| Dragons, elder    | The First Language | Language of magic                                 |
-| Elves, wode       | Yllyric            | Language of druids                                |
-| Elves, high       | Hyrallic           | Language of interspecies diplomacy                |
-| Fae creatures     | Khelt              | Offshoot of Kheltivari                            |
-| Giants            | Kuric              |                                                   |
-| Gnolls            | Anjal              |                                                   |
-| Gnomes            | Variac             |                                                   |
-| Goblins           | Szetch             |                                                   |
-| Kobolds           | Kethaic            | Patois of Xakalliac and Caelian                   |
-| Lizardfolk        | Khamish            |                                                   |
-| Ogres             | Kuric              |                                                   |
-| Olothec           | Urollialic         |                                                   |
-| Orcs              | Kalliak            | Offshoot of Zaliac                                |
-| Overminds         | Za’hariax          |                                                   |
-| Time raiders      | Voll               |                                                   |
-| Trolls            | Variac             | Common language of the World Below                |
-| Voiceless talkers | Variac             |                                                   |
-|                   | Mindspeech         | A symbolic language shared among native telepaths |
-| Everyone          | Caelian            | Common tongue                                     |
+| **Ancestry**      | **Language**       | **Notes**                                                            |
+|-------------------| ------------------ |----------------------------------------------------------------------|
+| Angulotls         | Filliaric          | Offshoot of Cyllinric                                                |
+| Demons            | Proto-Ctholl       |                                                                      |
+| Devils            | Anjal              | Language of contract law                                             |
+| Dwarves           | Zaliac             | Language of engineering                                              |
+| Dragons           | Xakalliac          |                                                                      |
+| Dragons, elder    | The First Language | Language of magic                                                    |
+| Elves, wode       | Yllyric            | Language of druids                                                   |
+| Elves, high       | Hyrallic           | Language of interspecies diplomacy, the common language of the elves |
+| Fae creatures     | Khelt              | Offshoot of Kheltivari                                               |
+| Giants            | Kuric              |                                                                      |
+| Gnolls            | Anjal              |                                                                      |
+| Gnomes            | Variac             |                                                                      |
+| Goblins           | Szetch             |                                                                      |
+| Kobolds           | Kethaic            | Patois of Xakalliac and Caelian                                      |
+| Lizardfolk        | Khamish            |                                                                      |
+| Ogres             | Kuric              |                                                                      |
+| Olothec           | Urollialic         |                                                                      |
+| Orcs              | Kalliak            | Offshoot of Zaliac                                                   |
+| Overminds         | Za’hariax          |                                                                      |
+| Time raiders      | Voll               |                                                                      |
+| Trolls            | Variac             | Common language of the World Below                                   |
+| Voiceless talkers | Variac             |                                                                      |
+|                   | Mindspeech         | A symbolic language shared among native telepaths.                   |
+| Everyone          | Caelian            | Common tongue                                                        |
 
 #### VASLORIA HUMAN LANGUAGES
 
 | **Region** | **Language** |
-| ---------- | ------------ |
-| The Gol    | Uvalic       |
-| Higrara    | Higraran     |
-| Ix         | Oaxuatl      |
-| Khemhara   | Khemharic    |
-| Koursir    | Khoursirian  |
-| Phaedros   | Phaedran     |
-| Rioja      | Riojan       |
-| Vanigar    | Vaniric      |
-| Vasloria   | Vaslorian    |
+| --------- | ----------- |
+| The Gol   | Uvalic      |
+| Higara    | Higaran     |
+| Ix        | Oaxuatl     |
+| Khemhara  | Khemharic   |
+| Koursir   | Khoursirian |
+| Phaedros  | Phaedran    |
+| Rioja     | Riojan      |
+| Vanigar   | Vaniric     |
+| Vasloria  | Vaslorian   |
 
 #### LANGUAGE USAGE
 
@@ -6342,7 +6341,7 @@ Most languages have colloquial or casual names. For instance, many people in Ord
 
 Within any document concerning the workings of machines, masonry, or geology, you are likely to find a healthy supply of jargon using **Zaliac**, the most popular dwarven language. Even when such texts aren’t fully written in Zaliac, they use a lot of dwarven language when describing esoteric, complex ideas.
 
-Just as Zaliac is used in engineering, contract law isn’t written purely in **Anjal**, the dominant language of the Seven Cities of Hell. However, a lot of the legal jargon in any contract, as well as some of the language of trial courts, features many Anjal words. People are sticklers for detail in the Seven Cities, making their language popular among lawyers.
+Just as Zaliac is used in engineering, contract law isn’t written purely in **Anjal**, the dominant language of the Seven Cities of Hell. But, a lot of the legal jargon in any contract, as well as some of the language of trial courts, features many Anjal words. People are sticklers for detail in the Seven Cities, making their language popular among lawyers.
 
 In the same way that intelligent creatures in Orden who live near or trade with other cultures use **Caelian** as a common language, the denizens of the World Below, the Dark Under All, often speak **Variac**, the language of the voiceless talkers.
 
@@ -6350,9 +6349,9 @@ In the same way that intelligent creatures in Orden who live near or trade with 
 
 For an adventuring hero with an ambition to create great works or unlock deep lore, it can be useful to be able to read ancient writing. Much deep lore is attested only in ancient tomes and scrolls written in languages that no modern culture uses.
 
-Most of these ancient writings were written by people who expected other people to read them. The lore might have been kept secret by not sharing it with anyone outside the college or cult whose members originally wrote it, but the actual writing was not intended to be difficult to read or understand. It wasn’t written in code—just in a language that people stopped speaking long ago.
+Most of these ancient writings were written by people who expected other people to read it. The lore might have been kept secret by not sharing it with anyone outside the college or cult whose members originally wrote it, but the actual writing was not intended to be difficult to read or understand. It wasn’t written in code—just in a language that people stopped speaking long ago.
 
-Sages can reconstruct many of these languages by learning which modern languages descended from them, then comparing them to related languages from the same time period that might have survived. Translating such ancient languages has been extremely useful for crafting and research.
+Sages can reconstruct many of these languages by learning which modern languages descended from them, then comparing them to related languages from the same time period that might have survived. Translating such ancient languages has been extremely useful for the purposes of crafting and research.
 
 #### DEAD LANGUAGES TABLE
 
@@ -6426,7 +6425,8 @@ When you recruit a sage, choose four skills from the lore skill group that they 
 
 ### SPECIFIC USES FOR RENOWN
 
-The Director can use Renown as a tool that determines how much access heroes have to exclusive places in the campaign’s world, or how much power they wield in organizations of which they are members.
+The Director can use Renown as a tool that determines how much access heroes have to exclusive places in the campaign’s world, or how much power they wield in organizations of which they are members. The rules for  using Renown in such ways is in the For the Director section.
+
 *(Playtest note: This section is yet to come.)*
 
 ### SUPERNATURAL AND MUNDANE
@@ -6460,59 +6460,87 @@ A rope is 10 squares long. A creature able to use an anchored rope to climb can 
 
 This game also isn’t about accumulating and counting every piece of copper you acquire. Instead of tracking a bank account, the amount of stuff your hero can purchase is based on their level. As you accomplish more deeds, you acquire more treasure and rewards from grateful NPCs that allow you to be an even more effective hero.
 
-The **Hero Wealth** table shows the types of items, gear, services, property, and more that you can purchase at various levels in the game. The table shows both the purchases that heroes can acquire individually and those that a party can acquire when the characters pool their resources together as a group.
+The Hero Wealth table shows the types of items, gear, services, property, and more that you can purchase at various levels in the game. The table shows both the purchases that heroes can acquire individually and that a party can acquire when the characters pool their resources together as a group.
 
-This isn’t an exhaustive list, but you and the Director can use the table to judge what your character can and can’t purchase. For instance, the price of an ox isn’t on this list, but you can reasonably assume that if you can buy a horse, you can probably afford an ox as well. *(Don’t @ us, farm nerds.)* And if you can’t afford something you want, fear not! You might still be able to acquire a specific good or service through negotiation, or by trading your heroic services instead of spending cash. Treasures such as magic swords and psionic crowns are rare and typically can’t be purchased. Instead, they’re found on adventures, traded for other treasures, given as rewards by NPCs, or crafted by the characters.
+This isn’t an exhaustive list, but you and the Director can use the table to judge what your character can and can’t purchase. For instance, the price of an ox isn’t on this list, but you can reasonably assume that if you can buy a horse, you can probably afford an ox as well. (Don’t @ us, farm nerds.) And if you can’t afford something you want, fear not! You might still be able to acquire a specific good or service through negotiation, or by trading your heroic services instead of spending cash. Treasures such as magic swords and psionic crowns are rare and typically can’t be purchased. Instead, they’re found on adventures, traded for other treasures, given as rewards by NPCs, or crafted by the characters.
 
 ### HERO WEALTH
 
-| Level    | Individual Purchases                                                                                                                | Group Purchases                                             |
-| -------- | ----------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
+| Level    | Individual                                                                                                                | Group                                              |
+| -------- | ---------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
 | 1st–2nd  | Mundane clothing, gear, armor, implements, and weapons; meals or drinks at a common tavern; stay at a common inn; passage on a boat | Horse and cart; dinner at a fine tavern; stay at a fine inn |
-| 3rd–4th  | Horse and cart; dinner at a fine tavern; stay at a fine inn                                                                         | Catapult; small house                                       |
-| 5th–6th  | Catapult; small house                                                                                                               | Library; tavern; manor home; sailing boat                   |
-| 7th–8th  | Library; tavern; manor home; sailing boat                                                                                           | Church; keep; wizard tower                                  |
-| 9th–10th | Church; keep; wizard tower                                                                                                          | Castle; shipyard                                            |
+| 3rd–4th  | Horse and cart; dinner at a fine tavern; stay at a fine inn                                                                        | Catapult; small house                                       |
+| 5th–6th  | Catapult; small house                                                                                                              | Library; tavern; manor home; sailing boat                   |
+| 7th–8th  | Library; tavern; manor home; sailing boat                                                                                          | Church; keep; wizard tower                                  |
+| 9th–10th | Church; keep; wizard tower                                                                                                         | Castle; shipyard                                            |
 
-### ABILITIES
+## ABILITIES
 
 Your class, kit, ancestry, titles, and other heroic options give you access to abilities that make your hero stand out. Abilities are special actions, maneuvers, and more that allow you to affect creatures, objects, and the environment. Abilities are presented in a format that breaks out specific entries for keywords, time, distance, target, and effect. If an ability is an attack, it also includes a damage entry.
 
-#### NAME AND STORY TEXT
+### NAME AND STORY TEXT
 
 Each ability has an evocative name that sets up what it does in the game, followed by a line or two of flavor text that provides a sense of how the use of the ability might appear if described in an action scene in a story.
 
-The name and story text for abilities sometimes make reference to specific ways in which the ability is used—particularly combat abilities whose names imply specific types of weapons or tactics. However, that narrative flavor has no effect on how an ability can be used. For example, the fury’s Impaling Strike ability allows you to grab a target, setting up the idea of harpooning your monstrous foe with a sword, then wrenching them in close before pulling your weapon free. But you can use that ability with an axe, a mace, a hammer, or any other weapon.
+The name and story text for abilities sometimes make reference to specific ways in which the ability is used—particularly combat abilities whose names imply specific types of weapons or tactics. However, that narrative flavor has no effect on how an ability can be used. For example, the fury’s *Impaling Strike* ability allows you to grab a target, setting up the idea of harpooning your monstrous foe with a sword, then wrenching them in close before pulling your weapon free. But you can use that ability with an axe, a mace, a hammer, or any other weapon.
 
-#### RESOURCE COST
+### RESOURCE COST
 
 Some abilities have a Heroic Resource cost to use them. When you use one of these abilities, you spend your Heroic Resource, then activate the ability.
 
-#### ABILITY KEYWORDS
+### ABILITY KEYWORDS
 
 Each ability has a “Keyword” entry with one or more keywords that explain how the ability functions.
 
-- **AREA**: Abilities with the Area keyword create an area of effect.
-- **ATTACK**: Abilities with the Attack keyword (referred to simply as “attacks”) deal damage to or impose a harmful effect on other creatures.
-- **CHARGE**: Abilities with the Charge keyword can be used with the Charge action in place of a melee free strike.
-- **MAGIC**: Magic-keyword abilities are used by creatures who can cast spells, have innate magical features, or wield magic items. These abilities do magical things such as create rays of fire, open swirling portals, or summon creatures.
-- **MELEE**: Abilities with the Melee keyword can be used only over very short distances, typically within a creature’s reach.
-- **PSIONIC**: Psionic-keyword abilities are used by creatures who can manifest psionic powers, have innate psionic features, or wield psionic items.
-- **RANGED**: Abilities with the Ranged keyword can be used to affect creatures who are too far away to touch.
-- **RESISTANCE**: Abilities with the Resistance keyword require the target to make a resistance roll to lessen or avoid their effect.
-- **WEAPON**: The Weapon keyword is used in attacks made with blades, bows, and other such items, including attacks creatures make with their own bodies, such as punches, kicks, bites, and tail slaps. Your kit determines the types of weapons you wield.
+#### AREA
 
-#### IT’S NOT ALL ATTACKS!
+Abilities with the Area keyword create an area of effect. Many area abilities also deal damage, but such abilities are not attacks. See Area Abilities for more information.
 
-The **Attack** keyword and phrases like “makes an attack” are reserved for abilities that have a creature specifically targeting other creatures or objects and dealing harm to them by making a power roll. Other abilities that target areas of effect or require the target to make a resistance roll instead are not attacks. They use the Area and Resistance keywords.
+#### ATTACK
+
+Abilities with the Attack keyword (referred to simply as “attacks”) deal damage to or impose a harmful effect on other creatures.
+
+#### CHARGE
+
+Abilities with the Charge keyword can be used with the Charge action in place of a melee free strike (see Charge in Actions in Combat).
+
+#### MAGIC
+
+Magic-keyword abilities are used by creatures who can cast spells, have innate magical features, or wield magic items. These abilities do magical things such as create rays of fire, open swirling portals, or summon creatures.
+
+#### MELEE
+
+Abilities with the Melee keyword can be used only over very short distances, typically within a creature’s reach, because they require you to touch someone or something with your body, a weapon, or an implement.
+
+#### PSIONIC
+
+Psionic-keyword abilities are used by creatures who can manifest psionic powers, have innate psionic features, or wield psionic items. These abilities might create blasts of psychic energy, move objects with telekinesis, or slow down time with chronopathy.
+
+#### RANGED
+
+Abilities with the Ranged keyword can be used to affect creatures who are too far away to touch.
+
+#### RESISTANCE
+
+Abilities with the Resistance keyword require the target to make a resistance roll to lessen or avoid their effect.
+
+(Playtest note: Only monsters and villains have Resistance-keyword abilities right now.)
+
+#### WEAPON
+
+The Weapon keyword is used in attacks that are made with blades, bows, and other such items. Weapon abilities also include attacks creatures make with their own bodies, such as punches, kicks, bites, tail slaps, and more. Your kit determines the types of weapons you wield and use with weapon abilities (see Kits).
+
+### IT’S NOT ALL ATTACKS!
+
+The Attack keyword and phrases like “makes an attack” are reserved for abilities that have a creature specifically targeting other creatures or objects (not an area) and dealing harm to them by making a power roll. Other abilities that target areas of effect, or that require the target to make a resistance roll instead of having the creature using the ability make the roll, are not attacks. They instead use the Area and Resistance keywords, respectively. That means if a feature distinctly interacts with an attack (for instance, the conduit’s Holy Infusion triggered action), that feature has no effect on abilities with the Area or Resistance keyword.
 
 ### TYPE
 
-Each ability has a “Type” entry that describes how long it takes to execute the ability. Most abilities require an action, a maneuver, a triggered action, a free maneuver, or a free triggered action.
+Each ability has a “Type” entry that describes how long it takes to execute the ability. For instance, if you use an ability that has “Action” as its type entry, you must use your action to activate the ability. Most abilities require you to use an action, a maneuver, a triggered action, a free maneuver, or a free triggered action (see Combat for more information).
 
 If an ability takes 1 minute or longer to use, you can’t use it in combat.
 
-#### TRIGGERS
+#### TRIGGER
 
 If an ability requires a triggered action or a free triggered action to use, a "Trigger" entry is part of the ability. For example, the trigger for the tactician’s Parry ability is: “A creature makes a Weapon attack against the target.”
 
@@ -6536,7 +6564,7 @@ Some abilities have a melee distance and a ranged distance. When you use such an
 
 ### AREA ABILITIES
 
-Area abilities cover an area, creating an effect within that area that lets you target multiple creatures or objects at once. When an ability allows you to create an area of effect, you are sometimes given a distance, noted as “within X,” that describes how many squares away from you the area can be. If an area ability doesn’t originate from you, at least 1 square of the area of effect must be within that distance and your line of effect. This square is referred to as the origin square of the area of effect. The area of effect can spread from the origin square however you choose, as long as the area of effect conforms to the shape and arrangement rules of that particular area.
+Area abilities cover an area, creating an effect within that area that lets you target multiple creatures or objects at once. When an ability allows you to create an area of effect, you are sometimes given a distance, noted as “within X,” that describes how many squares away from you the area can be. If an area ability doesn’t originate from you, then at least 1 square of the area of effect must be within that distance and your line of effect. This square is referred to as the origin square of the area of effect. The area of effect can spread from the origin square however you choose, as long as the area of effect conforms to the shape and arrangement rules of that particular area.
 
 Unless otherwise noted, area abilities don’t pass through solid barriers such as walls or ceilings or spread around corners. These obstructions stop areas from spreading. As long as you have line of effect and distance to the origin square, you can place an area ability to include one or more squares where you don’t have line of effect (see Line of Effect below).
 
@@ -6743,11 +6771,11 @@ It’s helpful to know how big a square is for abilities that heroes and NPCs ca
 
 A creature’s size indicates how many squares they occupy during combat, which defines the creature’s space. If a creature’s size is 1, they occupy a space of 1 square. If a creature is larger than 1 square, their size equals the number of squares they take up in length, width, and height. For example, a horse has a size of 2, which means that during combat, they occupy a space that is 2 squares long, 2 squares wide, and 2 squares high. You could also think of that space as a cube that is 2 squares on all sides.
 
-If a creature is size 1, their size value includes the letter T, S, M, or L, abbreviations of tiny, small, medium, and large respectively. Since the minimal amount of space a creature can take up during combat is 1, this letter indicates the difference between tiny pixies, small polders, medium humans, and large hakaan, each of which occupy a space of 1 square in combat. These sizes in order from smallest to largest are 1T, 1S, 1M, and 1L.
+If a creature is a size 1, their size value includes the letter T, S, M, or L, abbreviations of tiny, small, medium, and large respectively. Since the minimal amount of space a creature can take up during combat is 1, this letter indicates the difference between tiny pixies, small polders, medium humans, and large hakaan, each of which occupy of a space 1 square in combat. These sizes in order from smallest to largest are 1T, 1S, 1M, and 1L.
 
-Objects can also have a size rating. If an object has an O (an abbreviation for oblong) next to its size, it indicates that the object’s size isn’t the number of squares the object occupies, but rather its relative mass and weight to a creature of equivalent size. If an ability or feature allows you to interact with objects of a certain size, that rule includes all objects of that size, oblong or otherwise.
+Objects can also have a size rating. If an object has an O (an abbreviation for oblong) next to its size, it indicates that the object’s size isn’t the number of squares the object occupies, but rather it's relative mass and weight to a creature of equivalent size. If an ability or feature allows you to interact with objects of a certain size that rule includes all objects of that size, oblong or otherwise.
 
-The Creature and Object Sizes table shows examples of creature and object sizes up to size 5, but there is no limit to what a creature or object’s size could be.
+The Creature and Object Sizes table shows examples sizes of creatures and objects up to size 5, but there is no limit to what a creature or object’s size could be.
 
 ### CREATURE AND OBJECT SIZES
 
@@ -7123,9 +7151,9 @@ You can use this action to make a free strike (see Free Strikes). Most of the ti
 
 You use your action to employ medicine or inspiring words to make an adjacent creature feel better and stay in the fight. The creature can spend a Recovery to regain Stamina, or can make a resistance roll against a “(resistance ends)” effect they are suffering.
 
-### FREE STRIKE
+### FREE STRIKES
 
-Every creature can make a free strike as an action on their turn, though doing so typically isn’t the most effective choice. Most of the time, you’ll use free strikes when the rules call for it. Specific rules let you use free strikes as part of an action that allows you to also do something else impactful, such as how the Charge action lets you move and use a melee free strike in one action (see Charge above).
+Every creature can make a **free strike** as an action on their turn, though doing so typically isn’t the most effective choice. Most of the time, you’ll use free strikes when the rules call for it. Specific rules let you use free strikes as part of an action that allows you to also do something else impactful, such as how the Charge action lets you move and use a melee free strike in one action (see Charge above).
 
 Many rules and abilities allow heroes to make free strikes when it isn’t their turn, such as the tactician’s Overwatch ability. As well, all characters can make an opportunity attack free strike.
 
@@ -7235,7 +7263,7 @@ You can tell when other creatures are winded and vice versa.
 
 ### DYING AND DEATH
 
-When your Stamina is 0 or lower, you are dying. While dying, you can’t take the Catch Breath action in combat, and whenever you make a test using Might or Agility, make an attack, or use an action, maneuver, or triggered action, you lose 1d6 Stamina after the action, maneuver, or triggered action is resolved. This Stamina loss can’t be prevented in any way. While you are dying, your allies can help you spend recoveries in combat, and you can spend Recoveries out of combat as usual.
+When your Stamina is 0 or lower, you are dying. While dying, you can’t take the Catch Breath action in combat, and whenever you make a test using Might or Agility, make an attack, or use an action, maneuver, or a triggered action, you lose 1d6 Stamina after the action, maneuver, or triggered action is resolved. This Stamina loss can’t be prevented in any way. While you are dying, your allies can help you spend recoveries in combat, and you can spend Recoveries out of combat as usual.
 
 While your Stamina is lower than 0, if it reaches the negative of your winded value, you die. When you die, you can’t be brought back to life without the use of a special powerful item such as a Scroll of Resurrection.
 
@@ -7364,7 +7392,7 @@ Objectives can modify an encounter’s difficulty by extending the scope of succ
 
 ### DRAMATIC FINISH
 
-If the heroes are able to end a fight with a dramatic finish, the Director assigns each hero one or more of their remaining enemies, then asks that hero’s player to describe how the hero neutralizes that enemy. The hero might deliver a killing blow, knock their foe out, or let the enemy flee with their tail between their legs (literally or figuratively). If the fight has more heroes than Director-controlled enemies, the Director can assign more than one hero to an enemy, then ask the players how their characters work together to bring that enemy down. After everyone gives a description, the battle ends.
+If the heroes are able to end a fight with a dramatic finish, the Director assigns each hero one or more of their remaining enemies, then asks that hero’s player to describe how the hero neutralizes that enemy. The hero might deliver a killing blow, knock their foe out, or let the enemy flee with their tail between their legs (literally or figuratively). If the fight has more heroes than Director controlled enemies, the Director can assign more than one hero to an enemy, then ask the players how their characters work together to bring that enemy down. After everyone gives a description, the battle ends.
 
 ### EVENT ENDING
 
@@ -7394,7 +7422,7 @@ To negotiate successfully, the heroes must make persuasive arguments to convince
 
 ### LIMITS OF NEGOTIATION
 
-Some players might instinctively feel that the negotiation rules should give them something akin to mind-control superpowers. They’re not used to imagining NPCs complexly, and might attempt to negotiate in situations where negotiation is either completely unreasonable or literally impossible. No matter how persuasive or well-spoken a hero is, there’s no argument to be made that might convince the vile Lord Syuul to give up his pursuit of evil and become a gardener. A negotiation typically can’t convince a queen to hand over her crown to the heroes and name them the new rulers of the land, or inspire a dragon to fork over every piece of treasure in their hoard.
+Some players might instinctively feel that the negotiation rules should give them something akin to mind-control superpowers. They’re not used to imagining NPCs complexly, and might attempt to negotiate in situations where negotiation is either completely unreasonable or literally impossible. No matter how persuasive or well spoken a hero is, there’s no argument to be made that might convince the vile Lord Syuul to give up his pursuit of evil and become a gardener. A negotiation typically can’t convince a queen to hand over her crown to the heroes and name them the new rulers of the land, or inspire a dragon to fork over every piece of treasure in their hoard.
 
 Negotiations only work when the heroes ask for something from an NPC that the NPC is willing to seriously consider giving them.
 
@@ -7584,7 +7612,7 @@ Arguments that appeal to the revelry motivation contend that striking a deal wit
 
 ### VENGEANCE
 
-An NPC with the vengeance motivation wants to harm another who has hurt them. Their desire for revenge could be proportional to the harm that was inflicted upon them, or they might wish to pay back their pain with interest. In some cases, a desire for vengeance can be satisfied only by the death of another, but other NPCs might wish to pay back their own suffering with embarrassment, career failure, or some other less permanent pain.
+An NPC with the vengeance motivation wants to harm another who has hurt them. Their desire for revenge could be proportional to the harm that was inflicted upon them, or they might wish to pay back their pain with interest. In some cases, a desire for vengeance can be satisfied only by the death of another, but an NPC might wish to pay back their own suffering with embarrassment, career failure, or some other less permanent pain.
 
 An NPC with the vengeance pitfall believes that revenge solves nothing. They might have gained this belief firsthand, or they might simply not have the ambition to seek revenge—and they take a dim view of others who do.
 
@@ -7637,7 +7665,7 @@ While the heroes can discover an NPC’s motivations or pitfalls through tests m
 
 As part of their initial request to an NPC in a negotiation, a hero makes an argument as to why the NPC should give the heroes what they want. The hero might offer to do something in exchange as part of their argument, such as clear bandits from a forest, hand over a piece of treasure, or slay a dragon for the NPC. Or instead of offering something, the hero could attempt to convince the NPC that it’s in their own best interest to help—or even that it’s a moral imperative. For example, a hero could appeal to a knight’s sense of duty, the potential wealth a mercenary could make, or the final wish of a queen’s dearly departed grandmother as part of an argument. NPCs who admire the heroes are more likely to respond to compliments and buttering up, while those who fear the heroes are more likely to respond to intimidation and awe.
 
-Arguments need a justification as to why they’re true. “Helping us defeat Lord Saxton is good for you in the long run,” is half of an argument, so the hero also needs to explain why this is the case. “Helping us defeat Lord Saxton is good for you in the long run, because we know he’s coming for your kingdom after Bedegar falls!” If a hero makes half an argument, the NPC might follow up with questions such as, “Why do you say that?” or “What makes you think that’s true?” to get the full argument from the hero.
+Arguments need a justification as to why they’re true. “Helping us defeat Lord Saxton is good for you in the long run,” is half of an argument, so that the hero also needs to explain why this is the case. “Helping us defeat Lord Saxton is good for you in the long run, because we know he’s coming for your kingdom after Bedegar falls!” If a hero makes half an argument, the NPC might follow up with questions such as, “Why do you say that?” or “What makes you think that’s true?” to get the full argument from the hero.
 
 One hero makes an argument to an NPC, but the players can discuss the details of the argument out of character beforehand. It’s up to the group to decide how much discussion to have before making an argument, and to decide what argument the players think will best sway the NPC.
 
@@ -7681,7 +7709,9 @@ If an argument uses one of the NPC’s pitfalls, it automatically fails and the 
 
 ### RENOWN AND NEGOTIATION
 
-During a negotiation, an NPC has an Impression score that determines the amount of Renown needed to influence them (see Renown). This score only matters if the NPC knows of the heroes. A dragon who slumbered away the last hundred years and was just woken up to negotiate can’t be influenced by a hero’s Renown. (By the way, it’s a terrible idea to wake a dragon, even if they do know you’re famous.) If the NPC does know of the hero and has an Impression that is equal to or lower than the hero’s Renown, the NPC can be influenced by that hero. The higher an NPC’s Impression, the harder they are to influence with Renown. A small-time brigand has a lower Impression score than a monarch who meets with powerful and famous people all the time. The **NPCs and Impression** table provides examples of different archetypical NPC Impression scores. If a creature has a level, then their Impression equals their level unless the Director deems otherwise.
+During a negotiation, an NPC has an Impression score that determines the amount of Renown needed to influence them (see Renown). This score only matters if the NPC knows of the heroes. A dragon who slumbered away the last hundred years and was just woken up to negotiate can’t be influenced by a hero’s Renown. (By the way, it’s a terrible idea to wake a dragon, even if they do know you’re famous.) If the NPC does know of the hero and has an Impression that is equal to or lower than the hero’s Renown, the NPC can be influenced by that hero. 
+
+The higher an NPC’s Impression, the harder they are to influence with Renown. A small-time brigand has a lower Impression score than a monarch who meets with powerful and famous people all the time. The **NPCs and Impression** table provides examples of different archetypical NPC Impression scores. If a creature has a level, then their Impression equals their level unless the Director deems otherwise.
 
 ### NPCS AND IMPRESSION
 
@@ -7752,7 +7782,7 @@ If the NPC’s interest is 1, they outright reject the heroes’ idea without a 
 
 ### INTEREST 0 ("NO, AND …")
 
-If an NPC’s interest is 0, they offer nothing, refuse to negotiate further, and seek to harm the heroes. The NPC might attack immediately, or they could take a different approach, perhaps spreading malicious rumors about the characters, sending assassins after them, or otherwise making their lives difficult. If the heroes don’t want to be at odds with the NPC, they’ll need to offer a valuable gift or undertake a quest just to make amends.
+If an NPC’s interest is 0, they offer nothing, refuse to negotiate further, and seek to harm the heroes. The NPC might attack immediately, or they could take a different approach, perhaps spreading malicious rumors about the characters, sending assassins after them, or otherwise making their lives difficult. If the heroes don’t want to be at odds with the NPC, they’ll need to offer an valuable gift or undertake a quest just to make amends.
 
 It is impossible to continue a negotiation when an NPC’s interest drops to 0.
 
@@ -7778,9 +7808,7 @@ The heroes can walk away from a negotiation without accepting a deal at any time
 
 After killing the true lord of Bedegar, the tyrannical Lord Saxton took over the barony’s capital, and is presently gathering forces of his own to march on the rest of Bedegar’s settlements. The heroes recently saved Edmund, the true heir to Bedegar’s throne, and are now gathering forces to build an army that can stand against Saxton and defeat the tyrant.
 
-The heroes are engaging in a negotiation with Zola Honeycut, the human guildmaster of the Clock—a thieves’ guild whose headquarters is located in Bedegar’s capital. The guild openly opposed Saxton when he first seized power, but the tyrant was quick to crack down on all known members of the Clock, forcing them into hiding or hanging them as a warning to others. The heroes’ hope is that they can convince Zola to support their armed
-
-resistance.
+The heroes are engaging in a negotiation with Zola Honeycut, the human guildmaster of the Clock—a thieves’ guild whose headquarters is located in Bedegar’s capital. The guild openly opposed Saxton when he first seized power, but the tyrant was quick to crack down on all known members of the Clock, forcing them into hiding or hanging them as a warning to others. The heroes’ hope is that they can convince Zola to support their armed resistance.
 
 ### ZOLA’S NEGOTIATION STATS
 
