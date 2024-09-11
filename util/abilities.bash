@@ -12,7 +12,7 @@ generate_abilities_for_class() {
 
     local links="$(mktemp)"
 
-    abilities_types="$(jq -rc ".${class}[\"1ST-LEVEL FEATURES\"][\"${class} ABILITIES\"] | to_entries | .[]" '../Draw Steel Rules.json')"
+    abilities_types="$(jq -rc ".${class}[\"1ST-LEVEL FEATURES\"][\"${class} ABILITIES\"] | to_entries | .[]" '../Rules/Draw Steel Rules.json')"
     echo "$abilities_types" | while read -r ability_type; do
         local type_raw
         type_raw="$(jq -r '.key' <(echo "$ability_type"))"

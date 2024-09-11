@@ -1,9 +1,16 @@
-generate_json: 
-	md_to_json ../Draw\ Steel\ Rules.md > ../Draw\ Steel\ Rules.json
+generate: generate_json generate_abilities
+
+generate_json:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    echo >&2 "[JUST] --- Generating json --- "
+    md_to_json ../Rules/Draw\ Steel\ Rules.md > ../Rules/Draw\ Steel\ Rules.json
 
 generate_abilities:
     #!/usr/bin/env bash
     set -euo pipefail
+
+    echo >&2 "[JUST] --- Generating abilities --- "
 
     source abilities.bash
 

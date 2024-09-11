@@ -13,7 +13,9 @@
       "pip install markdown-to-json"
     ],
     "scripts": {
-      "generate_json": "just generate_json"
+      "generate": "just generate",
+      "generate_json": "just generate_json",
+      "generate_abilities": "just generate_abilities"
     }
   }
 }
