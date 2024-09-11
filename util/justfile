@@ -1,3 +1,17 @@
 generate_json: 
 	md_to_json ../Draw\ Steel\ Rules.md > ../Draw\ Steel\ Rules.json
 
+generate_abilities:
+    #!/usr/bin/env bash
+    set -euo pipefail
+
+    source abilities.bash
+
+    mkdir -p ../Abilities
+    rm -rf ../Abilities/*
+
+    generate_abilities_for_class "CONDUIT"
+    generate_abilities_for_class "ELEMENTALIST"
+    generate_abilities_for_class "FURY"
+    generate_abilities_for_class "SHADOW"
+    generate_abilities_for_class "TACTICIAN"
