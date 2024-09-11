@@ -37,7 +37,6 @@ generate_abilities_for_class() {
     done
 
     generate_ability_index_markdown "$class" "$(cat "$links")" > "$folder_path/_${folder_name} Ability Index.md"
-
 }
 
 ability_to_markdown() {
