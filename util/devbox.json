@@ -1,0 +1,19 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.11.0/.schema/devbox.schema.json",
+  "packages": [
+    "bash@latest",
+    "python@latest",
+    "just@latest",
+  ],
+  "shell": {
+    "init_hook": [
+      "if [ \"$(type -t \"source\")\" = \"builtin\" ]; then clear -x; source bin/furc; fi",
+      ". $VENV_DIR/bin/activate",
+      "pip install markdown-to-json"
+    ],
+    "scripts": {
+      "convert_md_to_json": "python3 markdown_to_json.py"
+    }
+  }
+}
+
