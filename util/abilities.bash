@@ -65,10 +65,14 @@ ability_to_markdown() {
         # Handle embedded json arrays (ability keywords, etc)
         if [[ "$val_line" =~ ^\[.*\]$ ]]; then
             echo "$val_line" | sed "s/'/\"/g" | jq -c '.[]' | while read item; do
-                echo "\n- ${item}" >> "$content_path"
+                local item_val
+                item_val="$(echo "$item" | sed -e 's/^"//' -e 's/"$//')"
+                echo "\n- ${item_val}" >> "$content_path"
             done
         elif [[ "$val_line" =~ ^\-\s*\[.*\]$ ]]; then
             echo "$val_line" | sed "s/^-\s*//g" | sed "s/'/\"/g" | jq -c '.[]' | while read item; do
+                local item_val
+                item_val="$(echo "$item" | sed -e 's/^"//' -e 's/"$//')"
                 echo "\n- ${item}" >> "$content_path"
             done
         else
