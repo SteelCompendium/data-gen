@@ -59,10 +59,15 @@ generate_abilities_for_class() {
     generate_ability_index_markdown "${class_title} Ability Index" "$(cat "$links")" > "$folder_path/_${class_title} Ability Index.md"
 }
 
+# Prints out markdown for an ability
 ability_to_markdown() {
+    # String of the ability name - expected to be all uppercase
     local name_raw="${1:-}"
+    # String of the ability value - expected to be... a mess
     local value_raw="${2:-}"
+    # String of how the ability is granted (class, kit, etc) - expected to be all uppercase
     local source_raw="${3:-}"
+    # String of the ability type (triggered action, 3-rage, etc) - expected to be all uppercase
     local type_raw="${4:-}"
 
     # Cleanup input
@@ -79,26 +84,29 @@ ability_to_markdown() {
     fi
 
     # Format ability content
-    local content_path
-    content_path="$(mktemp)"
-    echo "$value_raw" | while read -r val_line; do
-        # Handle embedded json arrays (ability keywords, etc)
-        if [[ "$val_line" =~ ^\[.*\]$ ]]; then
-            echo "$val_line" | sed "s/'/\"/g" | jq -c '.[]' | while read item; do
-                local item_val
-                item_val="$(echo "$item" | sed -e 's/^"//' -e 's/"$//')"
-                echo "\n- ${item_val}" >> "$content_path"
-            done
-        elif [[ "$val_line" =~ ^\-\s*\[.*\]$ ]]; then
-            echo "$val_line" | sed "s/^-\s*//g" | sed "s/'/\"/g" | jq -c '.[]' | while read item; do
-                local item_val
-                item_val="$(echo "$item" | sed -e 's/^"//' -e 's/"$//')"
-                echo "\n- ${item}" >> "$content_path"
-            done
-        else
-            echo "${val_line}" >> "$content_path"
-        fi
-    done
+#    local content_path
+#    content_path="$(mktemp)"
+#    echo "$value_raw" | while read -r val_line; do
+#        # Handle embedded json arrays (ability keywords, etc)
+#        if [[ "$val_line" =~ ^\[.*\]$ ]]; then
+#            echo "$val_line" | sed "s/'/\"/g" | jq -c '.[]' | while read item; do
+#                local item_val
+#                item_val="$(echo "$item" | sed -e 's/^"//' -e 's/"$//')"
+#                echo "\n- ${item_val}" >> "$content_path"
+#            done
+#        elif [[ "$val_line" =~ ^\-\s*\[.*\]$ ]]; then
+#            echo "$val_line" | sed "s/^-\s*//g" | sed "s/'/\"/g" | jq -c '.[]' | while read item; do
+#                local item_val
+#                item_val="$(echo "$item" | sed -e 's/^"//' -e 's/"$//')"
+#                echo "\n- ${item}" >> "$content_path"
+#            done
+#        else
+#            echo "${val_line}" >> "$content_path"
+#        fi
+#    done
+
+    local content
+    content="$(format_ability_json_value "$value_raw")"
 
     # Build markdown
     markdown="---"
@@ -110,14 +118,34 @@ ability_to_markdown() {
     markdown="${markdown}\n"
     markdown="${markdown}\n# $name"
     markdown="${markdown}\n"
-    markdown="${markdown}\n$(cat "$content_path")"
+    markdown="${markdown}\n$content"
 
     # TODO - format the markdown with a linter
     echo -e "$markdown"
 }
 
+# Takes json value from md_to_json and converts to something more useful
+# This assumes the data is known to be in ability format
+format_ability_json_value() {
+    # Json string of an ability
+    local value="${1:-}"
+
+    local content_path
+    content_path="$(mktemp)"
+    echo -e "$value" | while read -r line; do
+
+
+        echo "$line" >> "$content_path"
+    done
+
+    cat "$content_path"
+}
+
+# Prints out markdown for an "index" note of abilities
 generate_ability_index_markdown() {
+    # String for the title
     local title="${1:-}"
+    # newline-separated list of string urls of links to include
     local links="${2:-}"
     local markdown_path
     markdown_path="$(mktemp)"
