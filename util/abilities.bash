@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+# For a given class, parses the rules json doc to extract abilities and create dedicated files for them
 generate_abilities_for_class() {
     local class="${1:-}"
 
@@ -91,9 +92,6 @@ ability_to_markdown() {
         content="$(ability_content_to_markdown "$value_raw")"
     fi
 
-#    local content
-#    content="$(format_ability_json_value "$value_raw")"
-
     # Build markdown
     markdown="---"
     markdown="${markdown}\nname: \"$name\""
@@ -110,71 +108,61 @@ ability_to_markdown() {
     echo -e "$markdown"
 }
 
+# Converts an ability in json to markdown.  This is used when an ability was able to be converted to json
 ability_json_to_markdown() {
     local value_raw="${1:-}"
     local content_path
     content_path="$(mktemp)"
 
-    flavor="$(echo "$value_raw" | jq -r '.flavor // empty')"
-    if [ -n "$flavor" ]; then
-        echo "${flavor}" >> $content_path
-        echo "" >> $content_path
-    fi
+    ability_field_to_markdown "" "flavor" "" "$value_raw" >> $content_path
 
-    keywords="$(echo "$value_raw" | jq -r '.keywords // empty')"
-    if [ -n "$keywords" ]; then
-        echo "- **Keywords:** ${keywords}" >> $content_path
-    fi
+    ability_field_to_markdown "\n- **Keywords:** " "keywords" "" "$value_raw" >> $content_path
+    ability_field_to_markdown "- **Type:** " "type" "" "$value_raw" >> $content_path
+    ability_field_to_markdown "- **Distance:** " "distance" "" "$value_raw" >> $content_path
+    ability_field_to_markdown "- **Target:** " "target" "" "$value_raw" >> $content_path
 
-    type="$(echo "$value_raw" | jq -r '.type // empty')"
-    if [ -n "$type" ]; then
-        echo "- **Type:** ${type}" >> $content_path
-    fi
+    ability_field_to_markdown "\n**" "roll" "**" "$value_raw" >> $content_path
 
-    distance="$(echo "$value_raw" | jq -r '.distance // empty')"
-    if [ -n "$distance" ]; then
-        echo "- **Distance:** ${distance}" >> $content_path
-    fi
+    ability_field_to_markdown "- **11 or lower:** " "tier1" "" "$value_raw" >> $content_path
+    ability_field_to_markdown "- **12-16:** " "tier2" "" "$value_raw" >> $content_path
+    ability_field_to_markdown "- **17+:** " "tier3" "" "$value_raw" >> $content_path
 
-    target="$(echo "$value_raw" | jq -r '.target // empty')"
-    if [ -n "$target" ]; then
-        echo "- **Target:** ${target}" >> $content_path
-    fi
-
-    roll="$(echo "$value_raw" | jq -r '.roll // empty')"
-    if [ -n "$roll" ]; then
-        echo "" >> $content_path
-        echo "**${roll}**" >> $content_path
-    fi
-
-    tier1="$(echo "$value_raw" | jq -r '.tier1 // empty')"
-    if [ -n "$tier1" ]; then
-        echo "- **11 or lower:** ${tier1}" >> $content_path
-    fi
-
-    tier2="$(echo "$value_raw" | jq -r '.tier2 // empty')"
-    if [ -n "$tier2" ]; then
-        echo "- **12-16:** ${tier2}" >> $content_path
-    fi
-
-    tier3="$(echo "$value_raw" | jq -r '.tier3 // empty')"
-    if [ -n "$tier3" ]; then
-        echo "- **17+:** ${tier3}" >> $content_path
-    fi
-
-    effect="$(echo "$value_raw" | jq -r '.effect // empty')"
-    if [ -n "$effect" ]; then
-        echo "" >> $content_path
-        echo "**Effect:** ${effect}" >> $content_path
-    fi
+    ability_field_to_markdown "\n**Effect:** " "effect" "" "$value_raw" >> $content_path
 
     # TODO - alt effects
-    # TODO - spend
-    # TODO - persistent
+    #    alt_effects="$(echo "$value_raw" | jq '.alternative_effects // empty | .[]')"
+    #    if [ "$alt_effects" != "" ]; then
+    #        echo >&2 "HEY"
+    #        echo >&2 "$alt_effects"
+    #        echo "$alt_effects" | while read -r alt_effect; do
+    #            echo "\n**Alternative Effect:** $alt_effect" >> $content_path
+    #        done
+    #    fi
+
+    local spend_cost
+    spend_cost=$(ability_field_to_markdown " " "spend_cost" "" "$value_raw")
+    ability_field_to_markdown "\n**Spend${spend_cost}:** " "spend_effect" "" "$value_raw" >> $content_path
+
+    local persistent_cost
+    persistent_cost=$(ability_field_to_markdown " " "persistent_cost" "" "$value_raw")
+    ability_field_to_markdown "\n**Persistent${persistent_cost}:** " "persistent_effect" "" "$value_raw" >> $content_path
 
     cat "$content_path"
 }
 
+# Checks an ability json object for a key and if present will generate markdown for the value
+ability_field_to_markdown() {
+    local prefix="${1:-}"
+    local key="${2:-}"
+    local suffix="${3:-}"
+    local json="${4:-}"
+    value="$(echo "$json" | jq -r ".$key // empty")"
+    if [ -n "$value" ]; then
+        echo "${prefix}${value}${suffix}"
+    fi
+}
+
+# Converts an ability in plaintext to markdown.  This is used when an ability was unable to be converted to json
 ability_content_to_markdown() {
     local value_raw="${1:-}"
 

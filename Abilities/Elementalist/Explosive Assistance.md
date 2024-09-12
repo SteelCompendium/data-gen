@@ -15,3 +15,5 @@ You add a little magic to an ally’s aggression at just the right time.
 - **Target:** Self or 1 ally
 
 **Effect:** The distance of the forced movement is increased by a number of squares equal to your Reason score.
+
+**Spend 1 Essence:** The distance of the forced movement is increased by a number of squares equal to twice your Reason score instead.

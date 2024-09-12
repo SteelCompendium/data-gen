@@ -18,3 +18,5 @@ Fire engulfs a target of your choice and burns at your command.
 - **11 or lower:** 6 fire damage
 - **12-16:** 8 fire damage
 - **17+:** 13 fire damage
+
+**Persistent 1:** If the target is within distance at the start of your turn, make a power roll for this ability again.

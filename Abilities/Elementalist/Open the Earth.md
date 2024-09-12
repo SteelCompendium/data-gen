@@ -20,3 +20,5 @@ The surface of the world around you opens up at your command.
 - **17+:** The target falls into the hole and can’t reduce the height of the fall.
 
 **Effect:** You open four holes with 1-square openings that are 6 squares deep, and which can be placed on any mundane surface within distance. You can place these holes next to each other to create fewer holes with wider openings. For each creature standing above a hole when it opens and small enough to fall in, make a power roll.
+
+**Persistent 1:** At the start of your turn, you open another hole.

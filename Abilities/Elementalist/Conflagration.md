@@ -18,3 +18,5 @@ A storm of fire descends upon your enemies.
 - **11 or lower:** 5 fire damage
 - **12-16:** 7 fire damage
 - **17+:** 10 fire damage
+
+**Persistent 2:** At the start of your turn, you can use this ability again as a maneuver without spending essence.
