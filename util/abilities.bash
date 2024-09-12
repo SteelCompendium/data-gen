@@ -124,7 +124,7 @@ ability_json_to_markdown() {
 
     ability_field_to_markdown "\n**" "roll" "**" "$value_raw" >> $content_path
 
-    ability_field_to_markdown "- **11 or lower:** " "tier1" "" "$value_raw" >> $content_path
+    ability_field_to_markdown "\n- **11 or lower:** " "tier1" "" "$value_raw" >> $content_path
     ability_field_to_markdown "- **12-16:** " "tier2" "" "$value_raw" >> $content_path
     ability_field_to_markdown "- **17+:** " "tier3" "" "$value_raw" >> $content_path
 
