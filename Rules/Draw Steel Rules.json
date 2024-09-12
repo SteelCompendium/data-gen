@@ -392,6 +392,7 @@
           "type": "Triggered",
           "distance": "Ranged 5",
           "target": "1 enemy",
+          "trigger": "The target makes an attack. You can use this ability after seeing the result of the attack.",
           "effect": "The attack takes a bane and the damage to one creature targeted by the attack is reduced by an amount equal to your Intuition.",
           "spend_cost": "1 Piety",
           "spend_effect": "The attack has a double bane and the damage to one creature targeted by the attack is reduced by an amount equal to twice your Intuition score."
@@ -402,6 +403,7 @@
           "type": "Triggered",
           "distance": "Ranged 5",
           "target": "1 ally",
+          "trigger": "The target makes an attack. You can use this ability after seeing the result of the attack.",
           "effect": "The attack gains an edge and deals holy damage equal to twice your Intuition score.",
           "spend_cost": "1 Piety",
           "spend_effect": "The attack has a double edge and deals holy damage equal to twice your Intuition score."
@@ -629,6 +631,7 @@
           "type": "Triggered",
           "distance": "Ranged 5",
           "target": "Self or 1 ally",
+          "trigger": "The target makes a melee attack.",
           "effect": "The attack deals extra damage equal to 3 times your Reason score.",
           "spend_cost": "1 Essence",
           "spend_effect": "The attack deals extra damage equal to 4 times your Reason score instead and pushes the target a number of squares equal to your Reason score."
@@ -639,6 +642,7 @@
           "type": "Triggered",
           "distance": "Ranged 5",
           "target": "Self or 1 ally",
+          "trigger": "The target force moves a creature or object.",
           "effect": "The distance of the forced movement is increased by a number of squares equal to your Reason score.",
           "spend_cost": "1 Essence",
           "spend_effect": "The distance of the forced movement is increased by a number of squares equal to twice your Reason score instead."
@@ -649,6 +653,7 @@
           "type": "Triggered",
           "distance": "Ranged 5",
           "target": "Self or 1 ally",
+          "trigger": "The target starts their turn.",
           "effect": "The target can spend a Recovery."
         },
         "VOID EMBRACE": {
@@ -657,6 +662,7 @@
           "type": "Triggered",
           "distance": "Self or Ranged 5",
           "target": "Self or 1 ally",
+          "trigger": "The target starts their turn or moves.",
           "effect": "At any point during the move, you teleport the target a number of squares equal to your Reason.",
           "spend_cost": "1 Essence",
           "spend_effect": "You teleport the target a number of squares equal to twice your Reason score instead."
@@ -857,6 +863,7 @@
           "type": "Triggered",
           "distance": "Self",
           "target": "Self",
+          "trigger": "You lose Stamina and are not dying.",
           "effect": "After damage is resolved, if your rage is high enough, you can enter your animal or hybrid form as a free triggered action. If you can’t gain the temporary Stamina from that form because you have already done so this encounter, you gain temporary Stamina equal to your Might.",
           "spend_cost": "1 Rage",
           "spend_effect": "If you are not dying, you can spend a Recovery."
@@ -867,6 +874,7 @@
           "type": "Triggered",
           "distance": "Self or reach",
           "target": "Self or 1 creature",
+          "trigger": "The target is force moved.",
           "effect": "You can select a new target of the same size or smaller within distance to be force moved instead. Additionally, you can increase the forced move distance by a number of squares equal to your Might score. You can use your Primordial Strength benefit to make this forced movement vertical.",
           "spend_cost": "1 Rage",
           "spend_effect": "You can increase the forced move distance by a number of squares equal to twice your Might score instead."
@@ -877,6 +885,7 @@
           "type": "Triggered",
           "distance": "Reach 1",
           "target": "Self",
+          "trigger": "You are targeted by a damaging area of effect.",
           "effect": "You shift up to 2 squares. If that moves you out of the area of effect, you ignore the attack. Otherwise, you take half damage.",
           "spend_cost": "1 Rage",
           "spend_effect": "You move a willing adjacent ally affected by the attack with you, applying the same outcome to them."
@@ -1207,6 +1216,7 @@
           "type": "Triggered",
           "distance": "Self",
           "target": "Self",
+          "trigger": "Another creature damages you.",
           "effect": "You shift up to 2 squares, halve the triggering damage, and don’t suffer any effect associated with the damage. If you end this movement with concealment or cover, you can use the Hide maneuver even if you are observed.",
           "spend_cost": "1 Insight",
           "spend_effect": "If the triggering damage was from an attack, you also reduce the attack’s damage by one tier."
@@ -1217,6 +1227,7 @@
           "type": "Triggered",
           "distance": "Self",
           "target": "Self",
+          "trigger": "You take damage.",
           "effect": "You teleport up to 4 squares, halve the triggering damage, and don’t suffer any effect associated with the damage.",
           "spend_cost": "Insight",
           "spend_effect": "You teleport 1 additional square for each insight spent."
@@ -1227,6 +1238,7 @@
           "type": "Triggered",
           "distance": "Self",
           "target": "Self",
+          "trigger": "An enemy attacks you.",
           "effect": "Choose an enemy within distance of the attack. The attack targets that enemy instead."
         }
       },
@@ -1236,6 +1248,7 @@
         "type": "Free triggered action",
         "distance": "Self",
         "target": "Self",
+        "trigger": "Another hero ends their turn.",
         "effect": "You take your turn immediately."
       },
       "SHADOW ABILITIES": {
@@ -1430,6 +1443,7 @@
           "type": "Triggered",
           "distance": "Self or Ranged 10",
           "target": "You or an ally",
+          "trigger": "A nontarget ally is about to make an attack.",
           "effect": "The target can shift up to 2 squares before the attack resolves. After the attack resolves, both the original attacker and the target can shift up to 2 squares.",
           "spend_cost": "1 Focus",
           "spend_effect": "The attack deals an extra 1d6 damage."
@@ -1440,6 +1454,7 @@
           "type": "Triggered",
           "distance": "Self or Reach 1",
           "target": "Self or 1 ally",
+          "trigger": "A creature makes a Weapon attack against the target.",
           "effect": "The attack’s damage against the target is halved.",
           "spend_cost": "1 Focus",
           "spend_effect": "The result of the attack’s power roll is treated as one tier lower before the damage is halved. If the attack is a critical hit, the attacker can still take an additional action."
@@ -1450,6 +1465,7 @@
           "type": "Triggered",
           "distance": "Ranged 10",
           "target": "1 enemy",
+          "trigger": "The target moves.",
           "effect": "At any point during the target’s movement, one ally can make a free strike against the target.",
           "spend_cost": "1 Focus",
           "spend_effect": "The target’s speed becomes 0 (EoT)."

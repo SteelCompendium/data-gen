@@ -13,6 +13,7 @@ Your quick reflexes cost an enemy the precision they seek.
 - **Type:** Triggered
 - **Distance:** Self or Reach 1
 - **Target:** Self or 1 ally
+- **Trigger:** A creature makes a Weapon attack against the target.
 
 **Effect:** The attack’s damage against the target is halved.
 

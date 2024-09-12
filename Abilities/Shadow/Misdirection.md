@@ -13,5 +13,6 @@ You sow a moment of confusion in combat, to your enemy’s peril.
 - **Type:** Triggered
 - **Distance:** Self
 - **Target:** Self
+- **Trigger:** An enemy attacks you.
 
 **Effect:** Choose an enemy within distance of the attack. The attack targets that enemy instead.

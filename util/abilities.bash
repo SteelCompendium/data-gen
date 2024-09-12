@@ -120,6 +120,7 @@ ability_json_to_markdown() {
     ability_field_to_markdown "- **Type:** " "type" "" "$value_raw" >> $content_path
     ability_field_to_markdown "- **Distance:** " "distance" "" "$value_raw" >> $content_path
     ability_field_to_markdown "- **Target:** " "target" "" "$value_raw" >> $content_path
+    ability_field_to_markdown "- **Trigger:** " "trigger" "" "$value_raw" >> $content_path
 
     ability_field_to_markdown "\n**" "roll" "**" "$value_raw" >> $content_path
 

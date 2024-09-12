@@ -13,6 +13,7 @@ You imbue an attack with the strength of stone.
 - **Type:** Triggered
 - **Distance:** Ranged 5
 - **Target:** Self or 1 ally
+- **Trigger:** The target makes a melee attack.
 
 **Effect:** The attack deals extra damage equal to 3 times your Reason score.
 
