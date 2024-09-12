@@ -35,7 +35,7 @@ format_ability_json json_path:
     def is_ability(string):
         if not isinstance(string, str):
             return False
-        pattern = r"^(?!.*\*\*[A-Z ]+:\*\*).*(?=.*\*\*Keywords\*\*)(?=.*\*\*Type\*\*|.*\*\*Power Roll\*\*|.*\[\'.*\'\]).*"
+        pattern = r"^(?!.*\*\*[A-Z ]+:\*\*).*(?=.*\*\*Keywords:?\*\*|.*\*\*Type:?\*\*)(?=.*\*\*Power Roll\*\*|.*\[\'.*\'\]).*"
         if re.search(pattern, string, re.M | re.S) != None:
             return True
         return False
@@ -60,7 +60,7 @@ format_ability_json json_path:
         target = target_match.group(1) if target_match else None
 
         # Extract the roll description
-        roll_match = re.search(r"\*\*(Power Roll \+ [^:]+)\*\*", input_string)
+        roll_match = re.search(r"\*\*(Power Roll \+ [^\*:]+)\**:*", input_string)
         roll = roll_match.group(1) if roll_match else None
 
         # Tiers
