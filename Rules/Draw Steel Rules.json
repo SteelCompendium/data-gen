@@ -167,7 +167,14 @@
       "POLDER BENEFITS": {
         "POLDER GEIST": "When you start your turn while no creatures have line of effect to you, or while you are hidden from or have concealment from all creatures with line of effect to you, your speed is increased by 3 until the end of your turn.",
         "SHADOWMELD": {
-          "SHADOWMELD": "You become an actual shadow.\n\n['**Keywords**: Magic', '**Type**: Maneuver', '**Distance**: Self', '**Target**: Self']\n\n**Effect**: You flatten yourself into a shadow against a wall or floor you are touching, and become hidden from any creature you have cover or concealment from or who isn’t observing you. While in shadow form, you have full awareness of your surroundings, attacks against you and tests made to find you take a bane, and you can’t move or take actions or maneuvers except to exit this form. Any ability or effect that targets more than 1 square affects you in this form only if it explicitly affects the surface you are flattened against. You can exit this form as a maneuver."
+          "SHADOWMELD": {
+            "flavor": "You become an actual shadow.",
+            "keywords": "Magic",
+            "type": "Maneuver",
+            "distance": "Self",
+            "target": "Self",
+            "effect": "You flatten yourself into a shadow against a wall or floor you are touching, and become hidden from any creature you have cover or concealment from or who isn’t observing you. While in shadow form, you have full awareness of your surroundings, attacks against you and tests made to find you take a bane, and you can’t move or take actions or maneuvers except to exit this form. Any ability or effect that targets more than 1 square affects you in this form only if it explicitly affects the surface you are flattened against. You can exit this form as a maneuver."
+          }
         }
       }
     },
@@ -176,7 +183,17 @@
       "REVENANT BENEFITS": {
         "FORMER LIFE": "Choose the ancestry you were before you died. Your size equals that ancestry’s size. Your speed is 5. You lose all other ancestral benefits from your original ancestry.",
         "VENGEANCE MARK": "As a maneuver, you place a magic sigil on a creature within 10 squares of you. When you place a sigil, you can decide where it appears on the creature’s body, and whether the sigil is visible to only you or to all creatures.\n\nYou always know the direction to the exact location of a creature who bears one of your sigils and is on the same plane of existence as you.\n\nAdditionally, you gain the following ability.",
-        "DETONATE SIGIL": "A magical sigil you placed on a creature explodes with energy.\n\n['**Keywords**: Attack, Magic, Ranged', '**Type**: Action', '**Distance**: Ranged 10', '**Target**: 1 creature with your sigil']\n\n**Power Roll** + Reason, Intuition, or Presence:\n\n['11 or lower: 3 damage; slide 1', '12–16: 7 damage; slide 2', '17+: 10 damage; slide 3']\n\n**Effect**: The sigil disappears from the creature.\n\nYou can have an active number of sigils equal to your level. You can remove a sigil from a creature harmlessly (no action required). If you are already using your maximum number of sigils, your oldest sigil disappears with no other effect.",
+        "DETONATE SIGIL": {
+          "flavor": "A magical sigil you placed on a creature explodes with energy.",
+          "keywords": "Attack, Magic, Ranged",
+          "type": "Action",
+          "distance": "Ranged 10",
+          "target": "1 creature with your sigil",
+          "tier1": "3 damage; slide 1",
+          "tier2": "7 damage; slide 2",
+          "tier3": "10 damage; slide 3",
+          "effect": "The sigil disappears from the creature.\n\nYou can have an active number of sigils equal to your level. You can remove a sigil from a creature harmlessly (no action required). If you are already using your maximum number of sigils, your oldest sigil disappears with no other effect."
+        },
         "TOUGH BUT WITHERED": "Your undead body grants you cold, corruption, lightning immunity, and poison immunity equal to your level. You also have fire weakness 5. You can’t suffocate, and you don’t need to eat or drink to stay alive.\n\nAdditionally, when your Stamina equals the negative of your winded value, you become inert instead of dying. You can continue to observe your surroundings, but you can’t speak, take actions, maneuvers, or triggered actions, or move and you fall prone. If you take any fire damage while in this state, your body is destroyed and you die. Otherwise, after 12 hours, you regain Stamina equal to your recovery value.",
         "UNDEAD INFLUENCE": "Your supernatural gifts allow you to influence other undead. You gain an edge on Reason, Intuition, and Presence tests made to interact with undead creatures."
       }
@@ -261,7 +278,18 @@
         "CONDUIT DEITIES": "| Deity   | Domains                         |\n| ------- | ------------------------------- |\n| Adun    | Love, Protection, Storm, War    |\n| Cavall  | Knowledge, Protection, Sun, War |\n| Cyrvis  | Fate, Death, Nature, Trickery   |\n| Malus   | Creation, Fate, Life, Knowledge |\n| Salorna | Death, Nature, Storm, Sun       |\n| Viras   | Creation, Life, Love, Trickery  |"
       },
       "PIETY": {
-        "PRAYER": "*I beseech you!*\n**Keywords**: Magic\n**Type**: Maneuver\n**Distance**: Self\n**Target**: Self\n\n**Power Roll + Intuition**:\n\n['11 or lower: 1d6 damage; bleeding (EoT)', '12–16: Gain 1 piety', '17+: Gain 2 piety and choose and use a domain effect']\n\n**Effect**: The first time you use this ability during an encounter, it has a double edge. The second time you use it, it takes an edge. The third time you use it, it takes a bane. The fourth and each subsequent time you use this ability during an encounter, it has a double bane.",
+        "PRAYER": {
+          "flavor": "*I beseech you!*\n**Keywords**: Magic\n**Type**: Maneuver\n**Distance**: Self\n**Target**: Self",
+          "keywords": "Magic",
+          "type": "Maneuver",
+          "distance": "Self",
+          "target": "Self",
+          "roll": "Power Roll + Intuition",
+          "tier1": "1d6 damage; bleeding (EoT)",
+          "tier2": "Gain 1 piety",
+          "tier3": "Gain 2 piety and choose and use a domain effect",
+          "effect": "The first time you use this ability during an encounter, it has a double edge. The second time you use it, it takes an edge. The third time you use it, it takes a bane. The fourth and each subsequent time you use this ability during an encounter, it has a double bane."
+        },
         "DOMAIN EFFECTS": {
           "CREATION DOMAIN EFFECT": "You create a 5 wall of stone within 10 squares of you.",
           "DEATH DOMAIN EFFECT": "Two enemies of your choice within 10 squares of you take corruption damage equal to 5 + your conduit level.",
@@ -287,44 +315,214 @@
         "DIVINE THIEVERY": "The gods favor your thievery with magic. Whenever you make a test that uses a skill you have from the intrigue skill group, you can use Intuition on the test instead of another characteristic.",
         "FATE TRANCE": "If you spend 10 minutes in an uninterrupted meditative state without moving, you get a glimpse of any significant events that will happen in the area around you in the next 24 hours unless you or your allies intercede in those events. As described by the Director, these glimpses of the future might be clear and concise, or might be vague and hard to understand.",
         "GRAVE SPEECH": {
-          "GRAVE SPEECH": "The power of death lets you speak with those who have passed from the world.\n\n['**Keywords**: Magic', '**Type**: Maneuver', '**Distance**: Reach 1', '**Target**: Special']\n\n**Effect**: You can speak to the corpse or head of a creature who has died within the last 24 hours and who can speak a language you know. The target regards you as they would have in life, and you might need to make tests to influence them and convince them to speak with you. After 1 minute, the effect ends. You can’t use this ability on the same creature twice."
+          "GRAVE SPEECH": {
+            "flavor": "The power of death lets you speak with those who have passed from the world.",
+            "keywords": "Magic",
+            "type": "Maneuver",
+            "distance": "Reach 1",
+            "target": "Special",
+            "effect": "You can speak to the corpse or head of a creature who has died within the last 24 hours and who can speak a language you know. The target regards you as they would have in life, and you might need to make tests to influence them and convince them to speak with you. After 1 minute, the effect ends. You can’t use this ability on the same creature twice."
+          }
         },
         "HANDS OF THE MAKER": {
-          "HANDS OF THE MAKER": "Craft objects with the power of your mind!\n\n['**Keywords**: Magic', '**Type**: Maneuver', '**Distance**: Self', '**Target**: Self']\n\n**Effect**: You create a mundane object no larger than size 1S that you hold. If you use this feature again or stop holding the object, it disappears."
+          "HANDS OF THE MAKER": {
+            "flavor": "Craft objects with the power of your mind!",
+            "keywords": "Magic",
+            "type": "Maneuver",
+            "distance": "Self",
+            "target": "Self",
+            "effect": "You create a mundane object no larger than size 1S that you hold. If you use this feature again or stop holding the object, it disappears."
+          }
         },
         "INNER LIGHT": "Each time you finish a respite, you can choose yourself or another character who is also ending a respite to gain the benefit of a divine ritual. As you perform the ritual, you place a ray of morning light into the target’s soul, granting the target an edge on resistance rolls. This benefit lasts until you complete another respite.",
         "REVITALIZING RITUAL": "Each time you finish a respite, you can choose yourself or another character who is also ending a respite to gain the benefit of a divine ritual. When you perform the ritual, the target’s recovery value increases by an amount equal to your level. This benefit lasts until you complete another respite.",
         "RITUAL OF PREPARATION": "As a respite action, you can bless a weapon. Any creature who wields the weapon gains a +1 bonus to damage with abilities that use the weapon. This benefit lasts until you complete your next respite."
       },
       "HEALING GRACE": {
-        "HEALING GRACE": "Your divine energy restores the righteous.\n\n['**Keywords**: Magic, Ranged', '**Type**: Maneuver', '**Distance**: Ranged 5', '**Target**: Self or 1 ally']\n\n**Effect**: The target can spend 1 Recovery.\n**Spend Piety**: For each piety spent, you can choose one of the following enhancements:\n\n['You can target one additional ally within distance.', 'You can end one effect on a target that has a duration of EoT or is ended by a resistance roll.', 'A prone target can stand up.', 'A target can spend 1 additional Recovery.']"
+        "HEALING GRACE": {
+          "flavor": "Your divine energy restores the righteous.",
+          "keywords": "Magic, Ranged",
+          "type": "Maneuver",
+          "distance": "Ranged 5",
+          "target": "Self or 1 ally",
+          "effect": "The target can spend 1 Recovery.",
+          "spend_cost": "Piety",
+          "spend_effect": "For each piety spent, you can choose one of the following enhancements:\n\n['You can target one additional ally within distance.', 'You can end one effect on a target that has a duration of EoT or is ended by a resistance roll.', 'A prone target can stand up.', 'A target can spend 1 additional Recovery.']"
+        }
       },
       "PIOUS FORCE": {
-        "PIOUS FORCE": "You unleash a blast of raw divine magic upon your foe.\n\n['**Keywords**: Attack, Magic, Ranged', '**Type**: Action', '**Distance**: Ranged 5', '**Target**: 1 creature or object']\n\n**Power Roll + Intuition**:\n\n['11 or lower: 2 damage', '12–16: 6 damage', '17+: 9 damage']\n\n**Effect**: You can choose to change the damage type to holy."
+        "PIOUS FORCE": {
+          "flavor": "You unleash a blast of raw divine magic upon your foe.",
+          "keywords": "Attack, Magic, Ranged",
+          "type": "Action",
+          "distance": "Ranged 5",
+          "target": "1 creature or object",
+          "roll": "Power Roll + Intuition",
+          "tier1": "2 damage",
+          "tier2": "6 damage",
+          "tier3": "9 damage",
+          "effect": "You can choose to change the damage type to holy."
+        }
       },
       "TRIGGERED ACTION": {
-        "DIVINE DISRUPTION": "You sap the strength of an attacking enemy with divine energy.\n\n['**Keywords**: Magic, Ranged', '**Type**: Triggered', '**Distance**: Ranged 5', '**Target**: 1 enemy', '**Trigger**: The target makes an attack. You can use this ability after seeing the result of the attack.']\n\n**Effect**: The attack takes a bane and the damage to one creature targeted by the attack is reduced by an amount equal to your Intuition.\n**Spend 1 Piety**: The attack has a double bane and the damage to one creature targeted by the attack is reduced by an amount equal to twice your Intuition score.",
-        "HOLY INFUSION": "You invigorate an attacking ally with divine energy.\n\n['**Keywords**: Magic, Ranged', '**Type**: Triggered', '**Distance**: Ranged 5', '**Target**: 1 ally', '**Trigger**: The target makes an attack. You can use this ability after seeing the result of the attack.']\n\n**Effect**: The attack gains an edge and deals holy damage equal to twice your Intuition score.\n**Spend 1 Piety**: The attack has a double edge and deals holy damage equal to twice your Intuition score."
+        "DIVINE DISRUPTION": {
+          "flavor": "You sap the strength of an attacking enemy with divine energy.",
+          "keywords": "Magic, Ranged",
+          "type": "Triggered",
+          "distance": "Ranged 5",
+          "target": "1 enemy",
+          "effect": "The attack takes a bane and the damage to one creature targeted by the attack is reduced by an amount equal to your Intuition.",
+          "spend_cost": "1 Piety",
+          "spend_effect": "The attack has a double bane and the damage to one creature targeted by the attack is reduced by an amount equal to twice your Intuition score."
+        },
+        "HOLY INFUSION": {
+          "flavor": "You invigorate an attacking ally with divine energy.",
+          "keywords": "Magic, Ranged",
+          "type": "Triggered",
+          "distance": "Ranged 5",
+          "target": "1 ally",
+          "effect": "The attack gains an edge and deals holy damage equal to twice your Intuition score.",
+          "spend_cost": "1 Piety",
+          "spend_effect": "The attack has a double edge and deals holy damage equal to twice your Intuition score."
+        }
       },
       "CONDUIT ABILITIES": {
         "SIGNATURE ABILITY": {
-          "HOLY LANCE": "A tendril of divine energy shoots forth to draw in your foe.\n\n['**Keywords**: Attack, Magic, Ranged', '**Type**: Action', '**Distance**: Ranged 5', '**Target**: 1 creature or object']\n\n**Power Roll + Intuition**:\n\n['11 or lower: 2 holy damage; pull 2', '12–16: 6 holy damage; pull 3', '17+: 9 holy damage; pull 4']",
-          "LIGHTFALL": "Holy light scours your foes and sets your allies into perfect attack position.\n\n['**Keywords**: Area, Magic, Ranged', '**Type**: Action', '**Distance**: Cube 3 within 5', '**Target**: All enemies']\n\n**Power Roll + Intuition**:\n\n['11 or lower: 2 holy damage', '12–16: 3 holy damage', '17+: 4 holy damage']\n\n**Effect**: You can teleport each ally in the area and yourself (if you’re in the area) to an unoccupied space within the area.",
-          "SACRIFICIAL OFFER": "The divine energy of creation tears at your foe.\n\n['**Keywords**: Attack, Magic, Ranged', '**Type**: Action', '**Distance**: Ranged 5', '**Target**: 1 creature']\n\n**Power Roll + Intuition**:\n\n['11 or lower: 2 corruption damage', '12–16: 6 corruption damage; the next ally to damage the target before the start of your next turn deals an extra 1d6 corruption damage', '17+: 9 corruption damage; the next ally to damage the target before the start of your next turn deals an extra 1d10 corruption damage']",
-          "WITHER": "A bolt of holy energy saps the life from a foe.\n\n['**Keywords**: Attack, Magic, Ranged', '**Type**: Action', '**Distance**: Ranged 5', '**Target**: 1 creature or object']\n\n**Power Roll + Intuition**:\n\n['11 or lower: 2 corruption damage', '12–16: 6 corruption damage; the target takes a bane on ability power rolls (EoT)', '17+: 9 corruption damage; the target has a double bane on ability power rolls (EoT)']"
+          "HOLY LANCE": {
+            "flavor": "A tendril of divine energy shoots forth to draw in your foe.",
+            "keywords": "Attack, Magic, Ranged",
+            "type": "Action",
+            "distance": "Ranged 5",
+            "target": "1 creature or object",
+            "roll": "Power Roll + Intuition",
+            "tier1": "2 holy damage; pull 2",
+            "tier2": "6 holy damage; pull 3",
+            "tier3": "9 holy damage; pull 4"
+          },
+          "LIGHTFALL": {
+            "flavor": "Holy light scours your foes and sets your allies into perfect attack position.",
+            "keywords": "Area, Magic, Ranged",
+            "type": "Action",
+            "distance": "Cube 3 within 5",
+            "target": "All enemies",
+            "roll": "Power Roll + Intuition",
+            "tier1": "2 holy damage",
+            "tier2": "3 holy damage",
+            "tier3": "4 holy damage",
+            "effect": "You can teleport each ally in the area and yourself (if you’re in the area) to an unoccupied space within the area."
+          },
+          "SACRIFICIAL OFFER": {
+            "flavor": "The divine energy of creation tears at your foe.",
+            "keywords": "Attack, Magic, Ranged",
+            "type": "Action",
+            "distance": "Ranged 5",
+            "target": "1 creature",
+            "roll": "Power Roll + Intuition",
+            "tier1": "2 corruption damage",
+            "tier2": "6 corruption damage; the next ally to damage the target before the start of your next turn deals an extra 1d6 corruption damage",
+            "tier3": "9 corruption damage; the next ally to damage the target before the start of your next turn deals an extra 1d10 corruption damage"
+          },
+          "WITHER": {
+            "flavor": "A bolt of holy energy saps the life from a foe.",
+            "keywords": "Attack, Magic, Ranged",
+            "type": "Action",
+            "distance": "Ranged 5",
+            "target": "1 creature or object",
+            "roll": "Power Roll + Intuition",
+            "tier1": "2 corruption damage",
+            "tier2": "6 corruption damage; the target takes a bane on ability power rolls (EoT)",
+            "tier3": "9 corruption damage; the target has a double bane on ability power rolls (EoT)"
+          }
         },
         "HEROIC ABILITIES": "You make use of a number of heroic abilities, all of which channel piety to empower them.",
         "3-PIETY ABILITIES": {
-          "ANGEL OF WRATH (3 PIETY)": "You conjure an angelic spirit who lashes your foes with burning radiance.\n\n['**Keywords**: Magic, Ranged', '**Type**: Action', '**Distance**: Ranged 5', '**Target**: Special']\n\n**Effect**: You summon an angelic spirit of size 1M who can’t be harmed, and who appears in an unoccupied space within distance. The spirit lasts until the end of your next turn. You and your allies can move through the spirit’s space, but enemies can’t. The first time on a turn that an enemy moves within 1 square of the spirit or starts their turn there, they take holy damage equal to twice your Intuition score.",
-          "PUNISHING SMITE (3 PIETY)": "Your divine fury is a hammer that crashes down upon the unrighteous.\n\n['**Keywords**: Attack, Magic, Ranged', '**Type**: Action', '**Distance**: Ranged 5', '**Target**: 1 creature or object']\n\n**Power Roll + Intuition**:\n\n['11 or lower: 6 holy damage', '12–16: 8 holy damage; prone', '17+: 13 holy damage; prone and can’t stand (EoT)']",
-          "RIGHTEOUS REBUKE (3 PIETY)": "Divine wrath strikes your foe with lightning that follows them across the battlefield.\n\n['**Keywords**: Attack, Magic, Ranged', '**Type**: Action', '**Distance**: Ranged 5', '**Target**: 1 creature']\n\n**Power Roll + Intuition**:\n\n['11 or lower: 6 lightning damage', '12–16: 8 lightning damage', '17+: 13 lightning damage']\n\n**Effect**: If the target deals damage to another creature before the end of their next turn, the target of this ability takes another 1d10 lightning damage.",
-          "THUNDER OF THE DIVINE (3 PIETY)": "A resounding clap of thunder disrupts your foes.\n\n['**Keywords**: Area, Magic, Ranged', '**Type**: Action', '**Distance**: 4 cube within 5', '**Target**: All enemies']\n\n**Power Roll + Intuition**:\n\n['11 or lower: 4 sonic damage; push 1', '12–16: 5 sonic damage; push 3', '17+: 8 sonic damage; push 5']\n\n**Effect**: You can also push each willing ally in the area, and their stability doesn’t count against this forced movement."
+          "ANGEL OF WRATH (3 PIETY)": {
+            "flavor": "You conjure an angelic spirit who lashes your foes with burning radiance.",
+            "keywords": "Magic, Ranged",
+            "type": "Action",
+            "distance": "Ranged 5",
+            "target": "Special",
+            "effect": "You summon an angelic spirit of size 1M who can’t be harmed, and who appears in an unoccupied space within distance. The spirit lasts until the end of your next turn. You and your allies can move through the spirit’s space, but enemies can’t. The first time on a turn that an enemy moves within 1 square of the spirit or starts their turn there, they take holy damage equal to twice your Intuition score."
+          },
+          "PUNISHING SMITE (3 PIETY)": {
+            "flavor": "Your divine fury is a hammer that crashes down upon the unrighteous.",
+            "keywords": "Attack, Magic, Ranged",
+            "type": "Action",
+            "distance": "Ranged 5",
+            "target": "1 creature or object",
+            "roll": "Power Roll + Intuition",
+            "tier1": "6 holy damage",
+            "tier2": "8 holy damage; prone",
+            "tier3": "13 holy damage; prone and can’t stand (EoT)"
+          },
+          "RIGHTEOUS REBUKE (3 PIETY)": {
+            "flavor": "Divine wrath strikes your foe with lightning that follows them across the battlefield.",
+            "keywords": "Attack, Magic, Ranged",
+            "type": "Action",
+            "distance": "Ranged 5",
+            "target": "1 creature",
+            "roll": "Power Roll + Intuition",
+            "tier1": "6 lightning damage",
+            "tier2": "8 lightning damage",
+            "tier3": "13 lightning damage",
+            "effect": "If the target deals damage to another creature before the end of their next turn, the target of this ability takes another 1d10 lightning damage."
+          },
+          "THUNDER OF THE DIVINE (3 PIETY)": {
+            "flavor": "A resounding clap of thunder disrupts your foes.",
+            "keywords": "Area, Magic, Ranged",
+            "type": "Action",
+            "distance": "4 cube within 5",
+            "target": "All enemies",
+            "roll": "Power Roll + Intuition",
+            "tier1": "4 sonic damage; push 1",
+            "tier2": "5 sonic damage; push 3",
+            "tier3": "8 sonic damage; push 5",
+            "effect": "You can also push each willing ally in the area, and their stability doesn’t count against this forced movement."
+          }
         },
         "5-PIETY ABILITIES": {
-          "ARMOR OF THE FAITHFUL (5 PIETY)": "The divine light of protection surrounds your allies.\n\n['**Keywords**: Magic, Ranged', '**Type**: Maneuver', '**Distance**: Ranged 5', '**Target**: 3 allies']\n\n**Power Roll + Intuition**:\n\n['11 or lower: Gain 10 temporary Stamina', '12–16: Gain 15 temporary Stamina', '17+: Gain 20 temporary Stamina']\n\n**Effect**: This temporary Stamina disappears at the end of the encounter.",
-          "DIVINE WEAKNESS (5 PIETY)": "Divine energy scours your target to make them more susceptible to harm.\n\n['**Keywords**: Attack, Magic, Ranged', '**Type**: Action', '**Distance**: Ranged 5', '**Target**: 1 creature or object']\n\n**Power Roll + Intuition**:\n\n['11 or lower: 7 corruption damage; whenever the target takes damage, they take an extra 3 corruption damage (EoT)', '12–16: 10 damage; whenever the target takes damage, they take an extra 5 corruption damage (EoT)', '17+: 16 damage; whenever the target takes damage, they take an extra 5 corruption damage (EoE)']",
-          "TERRIFYING SMITE (5 PIETY)": "A mote of holy light racks your foe with their greatest fear.\n\n['**Keywords**: Attack, Magic, Ranged', '**Type**: Action', '**Distance**: Ranged 5', '**Target**: 1 creature']\n\n**Power Roll + Intuition**:\n\n['11 or lower: 7 holy damage', '12–16: 10 holy damage; frightened (EoT)', '17+: 16 holy damage; frightened (EoE)']",
-          "WAVE OF VIRTUE (5 PIETY)": "A pulse of divine magic lets your comrades draw on their reserves of inner strength.\n\n['**Keywords**: Area, Magic', '**Type**: Action', '**Distance**: 5 burst', '**Target**: All allies']\n\n**Effect**: Each target can spend one or two Recoveries, and end one effect that has a duration of EoT or is ended by a resistance roll."
+          "ARMOR OF THE FAITHFUL (5 PIETY)": {
+            "flavor": "The divine light of protection surrounds your allies.",
+            "keywords": "Magic, Ranged",
+            "type": "Maneuver",
+            "distance": "Ranged 5",
+            "target": "3 allies",
+            "roll": "Power Roll + Intuition",
+            "tier1": "Gain 10 temporary Stamina",
+            "tier2": "Gain 15 temporary Stamina",
+            "tier3": "Gain 20 temporary Stamina",
+            "effect": "This temporary Stamina disappears at the end of the encounter."
+          },
+          "DIVINE WEAKNESS (5 PIETY)": {
+            "flavor": "Divine energy scours your target to make them more susceptible to harm.",
+            "keywords": "Attack, Magic, Ranged",
+            "type": "Action",
+            "distance": "Ranged 5",
+            "target": "1 creature or object",
+            "roll": "Power Roll + Intuition",
+            "tier1": "7 corruption damage; whenever the target takes damage, they take an extra 3 corruption damage (EoT)",
+            "tier2": "10 damage; whenever the target takes damage, they take an extra 5 corruption damage (EoT)",
+            "tier3": "16 damage; whenever the target takes damage, they take an extra 5 corruption damage (EoE)"
+          },
+          "TERRIFYING SMITE (5 PIETY)": {
+            "flavor": "A mote of holy light racks your foe with their greatest fear.",
+            "keywords": "Attack, Magic, Ranged",
+            "type": "Action",
+            "distance": "Ranged 5",
+            "target": "1 creature",
+            "roll": "Power Roll + Intuition",
+            "tier1": "7 holy damage",
+            "tier2": "10 holy damage; frightened (EoT)",
+            "tier3": "16 holy damage; frightened (EoE)"
+          },
+          "WAVE OF VIRTUE (5 PIETY)": {
+            "flavor": "A pulse of divine magic lets your comrades draw on their reserves of inner strength.",
+            "keywords": "Area, Magic",
+            "type": "Action",
+            "distance": "5 burst",
+            "target": "All allies",
+            "effect": "Each target can spend one or two Recoveries, and end one effect that has a duration of EoT or is ended by a resistance roll."
+          }
         }
       }
     }
@@ -337,50 +535,264 @@
       "ELEMENTAL SPECIALIZATION": "Through your studies, you know and can manipulate the seven primal elements of the timescape:\n\n['**Air** is the element of movement. Air abilities allow you to manipulate speed, quickness, flight, and breath.', '**Earth** is the element of permanence. Earth abilities create and shape physical terrain in a permanent way, and bolster the strength and hardiness of allies.', '**Fire** is the element of destruction. Fire abilities harm enemies and objects.', '**Green** is the element of creation and growth. Green abilities make and manipulate plants, fungi, and other forms of life to hamper foes and nourish your allies.', '**Rot** is the element of death. Rot abilities decay and debuff enemies.', '**Void** is the element of the unknown. Void abilities warp space and reality, allowing you to teleport, create illusions, and make things incorporeal.', '**Water** is the element of change. Water abilities enhance what your allies can do, and alter the abilities of your enemies for the worse.']\n\nHeroic abilities that include your specialization’s keyword have their initial essence cost reduced by 1 (to a minimum of 1). This reduced cost doesn’t apply to abilities you gain because of your specialization, such as Manipulate Earth or Void Sight.\n\nChoose one of the following elements to be your specialty: earth, fire, green, or void. (Other elemental specializations will be featured in future products.) Your choice of specialization determines many of the features you’ll gain from this class.",
       "ESSENCE": "You channel the substance of creation in the form of a Heroic Resource called essence. In times of great stress, you can focus your control on this substance, gathering and burning it to cast and maintain spells.\n\nOutside of combat and other dangerous situations tracked in turns and rounds, you have essence equal to your Victories. If you lose some or all of this essence outside of combat, it takes you 1 minute to regain it. You can also dedicate that essence to maintaining persistent abilities (see Persistent Magic below).\n\nWhen combat begins, you keep any essence you had outside of combat. At the start of each of your turns during combat, you gain 2 essence. When combat ends, you once more have essence equal to your Victories.",
       "HURL ELEMENT": {
-        "HURL ELEMENT": "You hurl a ball of elemental energy at a nearby foe.\n\n['**Keywords**: Attack, Magic, Ranged', '**Type**: Action', '**Distance**: Ranged 5', '**Target**: 1 creature or object']\n\n**Power Roll + Reason**:\n\n['11 or lower: 2 damage (type varies)', '12–16: 6 damage (type varies)', '17+: 9 damage (type varies)']\n\n**Effect**: When you make this attack, choose the damage type from one of the following options: acid, cold, corruption, fire, lightning, poison, or sonic."
+        "HURL ELEMENT": {
+          "flavor": "You hurl a ball of elemental energy at a nearby foe.",
+          "keywords": "Attack, Magic, Ranged",
+          "type": "Action",
+          "distance": "Ranged 5",
+          "target": "1 creature or object",
+          "roll": "Power Roll + Reason",
+          "tier1": "2 damage (type varies)",
+          "tier2": "6 damage (type varies)",
+          "tier3": "9 damage (type varies)",
+          "effect": "When you make this attack, choose the damage type from one of the following options: acid, cold, corruption, fire, lightning, poison, or sonic."
+        }
       },
       "PERSISTENT MAGIC": "Some of your heroic abilities have the Persistent keyword. Whenever you use a persistent ability, you decide whether you want to maintain it. If you maintain a persistent ability in combat, you reduce the amount of essence you earn at the start of your turn by an amount equal to the ability’s persistent value, which enables the ability’s persistent effect. All your active persistent abilities end when combat ends.\n\nYou can maintain a persistent ability outside of combat as long as you have Victories equal to or greater than its persistent value. If you maintain a persistent ability outside of combat, the maximum essence you can use on other abilities is reduced by the ability’s persistent value. For instance, if you have 4 Victories and maintain the Stone Ward ability (a persistent ability with a cost of 1 essence), you can only use abilities costing 3 essence or less outside of combat.\n\nYou can’t maintain any abilities that would make you earn a negative amount of essence at the start of your turn or have a negative amount of essence outside of combat. You can stop maintaining an ability at any time (no action required).\n\nIf you maintain the same ability on several targets and the effect includes a power roll, you make that roll once and apply the same effect to all targets. A creature can’t be affected by multiple instances of a persistent ability.\n\nWhenever you take damage while you have an active persistent ability, you must make the following power roll.\n\n**Power Roll + Reason**:\n\n['11 or lower: You lose all active persistent abilities.', '12–16: If you have only one persistent ability active, it remains active. Otherwise, you lose one active persistent ability of your choice.', '17+: All your active persistent abilities remain active.']",
       "PRACTICAL MAGIC": {
-        "PRACTICAL MAGIC": "Your mastery of elemental power lets you customize your magic.\n\n['**Keywords**: Magic', '**Type**: Maneuver', '**Distance**: Self', '**Target**: Self']\n\n**Effect**: Choose one of the following effects:\n\n['You use the Knockback maneuver, but you make a Reason test instead of a Might test. For this use of the maneuver, you can target a creature at a distance equal to the distance of your Hurl Element ability.', 'You choose a creature within the distance of your Hurl Element ability and deal damage to that creature equal to your Reason score. The damage type can be acid, cold, corruption, fire, lightning, poison, or sonic.', 'You teleport a number of squares equal to your Reason score.']"
+        "PRACTICAL MAGIC": {
+          "flavor": "Your mastery of elemental power lets you customize your magic.",
+          "keywords": "Magic",
+          "type": "Maneuver",
+          "distance": "Self",
+          "target": "Self",
+          "effect": "Choose one of the following effects:\n\n['You use the Knockback maneuver, but you make a Reason test instead of a Might test. For this use of the maneuver, you can target a creature at a distance equal to the distance of your Hurl Element ability.', 'You choose a creature within the distance of your Hurl Element ability and deal damage to that creature equal to your Reason score. The damage type can be acid, cold, corruption, fire, lightning, poison, or sonic.', 'You teleport a number of squares equal to your Reason score.']"
+        }
       },
       "1ST-LEVEL SPECIALIZATION FEATURE": {
         "1ST-LEVEL ELEMENTALIST SPECIALIZATION FEATURES": "| Specialization | Feature            |\n| -------------- | ------------------ |\n| Earth          | Manipulate Earth   |\n| Fire           | Melt               |\n| Green          | Speech of the Wild |\n| Void           | Void Sense         |",
         "MANIPULATE EARTH": {
-          "MANIPULATE EARTH (2 ESSENCE)": "The earth rises, falls, or opens at your command.\n\n['**Keywords**: Earth, Magic, Melee', '**Type**: Action', '**Distance**: Reach 1', '**Target**: Special']\n\n**Effect**: You touch a square containing mundane dirt, stone, or metal and create a 5 wall of the same material, which rises up out of the ground and must include the square you touched.\n\n**Alternative Effect**: You touch a structure of mundane dirt, stone, or metal that takes up at least 2 squares. You can open a 1-square opening in the structure where you touched it.\n\n**Alternative Effect**: You touch a doorway or other opening in a mundane dirt, stone, or metal surface that is no larger than 1 square. The opening is sealed by the same material that makes up the surface.\n\n**Spend No Essence**: You can use this ability without spending essence. If you do, you must spend 1 uninterrupted minute using the ability while within reach of the target before its effect occurs."
+          "MANIPULATE EARTH (2 ESSENCE)": {
+            "flavor": "The earth rises, falls, or opens at your command.",
+            "keywords": "Earth, Magic, Melee",
+            "type": "Action",
+            "distance": "Reach 1",
+            "target": "Special",
+            "effect": "You touch a square containing mundane dirt, stone, or metal and create a 5 wall of the same material, which rises up out of the ground and must include the square you touched.",
+            "alternative_effects": [
+              "You touch a structure of mundane dirt, stone, or metal that takes up at least 2 squares. You can open a 1-square opening in the structure where you touched it.\n",
+              "You touch a doorway or other opening in a mundane dirt, stone, or metal surface that is no larger than 1 square. The opening is sealed by the same material that makes up the surface.\n"
+            ],
+            "spend_cost": "No Essence",
+            "spend_effect": "You can use this ability without spending essence. If you do, you must spend 1 uninterrupted minute using the ability while within reach of the target before its effect occurs."
+          }
         },
         "MELT": {
-          "MELT (2 ESSENCE)": "With the merest touch, you cause an object to turn into slag or ash.\n\n['**Keywords**: Fire, Magic, Melee', '**Type**: Action', '**Distance**: Reach 1', '**Target**: 1 mundane object']\n\n**Effect**: You heat the target and cause it to combust and melt. If the object is larger than 1 square, then only the square of the object that you touch is destroyed.\n\n**Spend No Essence**: You can use this ability without spending essence. If you do, you must spend 1 uninterrupted minute using the ability while touching the target before its effect occurs."
+          "MELT (2 ESSENCE)": {
+            "flavor": "With the merest touch, you cause an object to turn into slag or ash.",
+            "keywords": "Fire, Magic, Melee",
+            "type": "Action",
+            "distance": "Reach 1",
+            "target": "1 mundane object",
+            "effect": "You heat the target and cause it to combust and melt. If the object is larger than 1 square, then only the square of the object that you touch is destroyed.",
+            "spend_cost": "No Essence",
+            "spend_effect": "You can use this ability without spending essence. If you do, you must spend 1 uninterrupted minute using the ability while touching the target before its effect occurs."
+          }
         },
         "SPEECH OF THE WILD": "You can speak with and understand Animals, Plant Creatures, and Monstrosities, even if they don’t share a language with you. Your ability to communicate with such creatures doesn’t make them inherently more intelligent or less hostile toward you.\n\nAdditionally, when you touch a living plant object, you can communicate with it telepathically. You can use words to communicate with the plant, but it communicates with you only by transmitting feelings and sensations that can’t be overly specific.",
         "VOID SENSE": {
-          "SHARED VOID SENSE (1+ ESSENCE)": "You share your special senses with others.\n\n['**Keywords**: Magic, Ranged, Void', '**Type**: Maneuver', '**Distance**: Ranged 5', '**Target**: Special']\n\n**Effect**: For each essence you spend, you can target 1 creature. That creature gains the benefit of your Void Sense feature until the end of your next turn, but doesn’t gain the use of Shared Void Sense."
+          "SHARED VOID SENSE (1+ ESSENCE)": {
+            "flavor": "You share your special senses with others.",
+            "keywords": "Magic, Ranged, Void",
+            "type": "Maneuver",
+            "distance": "Ranged 5",
+            "target": "Special",
+            "effect": "For each essence you spend, you can target 1 creature. That creature gains the benefit of your Void Sense feature until the end of your next turn, but doesn’t gain the use of Shared Void Sense."
+          }
         }
       },
       "SPECIALIZATION TRIGGERED ACTION": {
-        "EARTHEN FORCE": "You imbue an attack with the strength of stone.\n\n['**Keywords**: Earth, Magic, Ranged', '**Type**: Triggered', '**Distance**: Ranged 5', '**Target**: Self or 1 ally', '**Trigger**: The target makes a melee attack.']\n\n**Effect**: The attack deals extra damage equal to 3 times your Reason score.\n**Spend 1 Essence**: The attack deals extra damage equal to 4 times your Reason score instead and pushes the target a number of squares equal to your Reason score.",
-        "EXPLOSIVE ASSISTANCE": "You add a little magic to an ally’s aggression at just the right time.\n\n['**Keywords**: Fire, Magic, Ranged', '**Type**: Triggered', '**Distance**: Ranged 5', '**Target**: Self or 1 ally', '**Trigger**: The target force moves a creature or object.']\n\n**Effect**: The distance of the forced movement is increased by a number of squares equal to your Reason score.\n**Spend 1 Essence**: The distance of the forced movement is increased by a number of squares equal to twice your Reason score instead.",
-        "MEND THE SOUL": "The power you channel grants the ability to get back in the fight.\n\n['**Keywords**: Green, Magic, Ranged', '**Type**: Triggered', '**Distance**: Ranged 5', '**Target**: Self or 1 ally', '**Trigger**: The target starts their turn.']\n\n**Effect**: The target can spend a Recovery.",
-        "VOID EMBRACE": "You call on the void to swallow and spit out an ally.\n\n['**Keywords**: Magic, Ranged, Void', '**Type**: Triggered', '**Distance**: Self or Ranged 5', '**Target**: Self or 1 ally', '**Trigger**: The target starts their turn or moves.']\n\n**Effect**: At any point during the move, you teleport the target a number of squares equal to your Reason.\n**Spend 1 Essence**: You teleport the target a number of squares equal to twice your Reason score instead."
+        "EARTHEN FORCE": {
+          "flavor": "You imbue an attack with the strength of stone.",
+          "keywords": "Earth, Magic, Ranged",
+          "type": "Triggered",
+          "distance": "Ranged 5",
+          "target": "Self or 1 ally",
+          "effect": "The attack deals extra damage equal to 3 times your Reason score.",
+          "spend_cost": "1 Essence",
+          "spend_effect": "The attack deals extra damage equal to 4 times your Reason score instead and pushes the target a number of squares equal to your Reason score."
+        },
+        "EXPLOSIVE ASSISTANCE": {
+          "flavor": "You add a little magic to an ally’s aggression at just the right time.",
+          "keywords": "Fire, Magic, Ranged",
+          "type": "Triggered",
+          "distance": "Ranged 5",
+          "target": "Self or 1 ally",
+          "effect": "The distance of the forced movement is increased by a number of squares equal to your Reason score.",
+          "spend_cost": "1 Essence",
+          "spend_effect": "The distance of the forced movement is increased by a number of squares equal to twice your Reason score instead."
+        },
+        "MEND THE SOUL": {
+          "flavor": "The power you channel grants the ability to get back in the fight.",
+          "keywords": "Green, Magic, Ranged",
+          "type": "Triggered",
+          "distance": "Ranged 5",
+          "target": "Self or 1 ally",
+          "effect": "The target can spend a Recovery."
+        },
+        "VOID EMBRACE": {
+          "flavor": "You call on the void to swallow and spit out an ally.",
+          "keywords": "Magic, Ranged, Void",
+          "type": "Triggered",
+          "distance": "Self or Ranged 5",
+          "target": "Self or 1 ally",
+          "effect": "At any point during the move, you teleport the target a number of squares equal to your Reason.",
+          "spend_cost": "1 Essence",
+          "spend_effect": "You teleport the target a number of squares equal to twice your Reason score instead."
+        }
       },
       "ELEMENTALIST ABILITIES": {
         "SIGNATURE ABILITY": {
-          "DEBRIS": "A sudden storm of detritus assaults your foes and leaves them struggling to move.\n\n['**Keywords**: Area, Earth, Magic, Ranged', '**Type**: Action', '**Distance**: 3 cube within 5', '**Target**: All enemies']\n\n**Power Roll + Reason**:\n\n['11 or lower: 2 damage', '12–16: 3 damage', '17+: 4 damage']\n\n**Effect**: The ground beneath the area becomes difficult terrain for your enemies.",
-          "FIRE LANCE": "A jet of fire erupts with elemental fury where it strikes.\n\n['**Keywords**: Attack, Fire, Magic, Ranged', '**Type**: Action', '**Distance**: Ranged 5', '**Target**: 1 creature or object']\n\n**Power Roll + Reason**:\n\n['11 or lower: 2 fire damage; push 2', '12–16: 6 fire damage; push 3', '17+: 9 fire damage; push 5']",
-          "GROWING PAINS": "Whipping vines erupt from a foe’s body to grasp at another close by.\n\n['**Keywords**: Attack, Green, Magic, Ranged', '**Type**: Action', '**Distance**: Ranged 5', '**Target**: 1 creature']\n\n**Power Roll + Reason**:\n\n['11 or lower: 2 damage', '12–16: 6 damage', '17+: 9 damage']\n\n**Effect**: A creature within 5 squares of the target is pulled 2 squares toward the target.",
-          "VOID RAY": "A beam of energy corrupts and hinders whatever it touches.\n\n['**Keywords**: Attack, Magic, Ranged, Void', '**Type**: Action', '**Distance**: Ranged 5', '**Target**: 1 creature or object']\n\n**Power Roll + Reason**:\n\n['11 or lower: 2 corruption damage', '12–16: 6 corruption damage; slowed (EoT)', '17+: 9 corruption damage; slowed (EoT)']"
+          "DEBRIS": {
+            "flavor": "A sudden storm of detritus assaults your foes and leaves them struggling to move.",
+            "keywords": "Area, Earth, Magic, Ranged",
+            "type": "Action",
+            "distance": "3 cube within 5",
+            "target": "All enemies",
+            "roll": "Power Roll + Reason",
+            "tier1": "2 damage",
+            "tier2": "3 damage",
+            "tier3": "4 damage",
+            "effect": "The ground beneath the area becomes difficult terrain for your enemies."
+          },
+          "FIRE LANCE": {
+            "flavor": "A jet of fire erupts with elemental fury where it strikes.",
+            "keywords": "Attack, Fire, Magic, Ranged",
+            "type": "Action",
+            "distance": "Ranged 5",
+            "target": "1 creature or object",
+            "roll": "Power Roll + Reason",
+            "tier1": "2 fire damage; push 2",
+            "tier2": "6 fire damage; push 3",
+            "tier3": "9 fire damage; push 5"
+          },
+          "GROWING PAINS": {
+            "flavor": "Whipping vines erupt from a foe’s body to grasp at another close by.",
+            "keywords": "Attack, Green, Magic, Ranged",
+            "type": "Action",
+            "distance": "Ranged 5",
+            "target": "1 creature",
+            "roll": "Power Roll + Reason",
+            "tier1": "2 damage",
+            "tier2": "6 damage",
+            "tier3": "9 damage",
+            "effect": "A creature within 5 squares of the target is pulled 2 squares toward the target."
+          },
+          "VOID RAY": {
+            "flavor": "A beam of energy corrupts and hinders whatever it touches.",
+            "keywords": "Attack, Magic, Ranged, Void",
+            "type": "Action",
+            "distance": "Ranged 5",
+            "target": "1 creature or object",
+            "roll": "Power Roll + Reason",
+            "tier1": "2 corruption damage",
+            "tier2": "6 corruption damage; slowed (EoT)",
+            "tier3": "9 corruption damage; slowed (EoT)"
+          }
         },
         "HEROIC ABILITIES": "You channel a range of heroic abilities, all of them fueled by your essence",
         "3-ESSENCE ABILITIES": {
-          "BURN! (3 ESSENCE)": "Fire engulfs a target of your choice and burns at your command.\n\n['**Keywords**: Attack, Fire, Magic, Persistent, Ranged', '**Type**: Action', '**Distance**: Ranged 5', '**Target**: 1 creature or object']\n\n**Power Roll + Reason**:\n\n['11 or lower: 6 fire damage', '12–16: 8 fire damage', '17+: 13 fire damage']\n\n**Persistent 1**: If the target is within distance at the start of your turn, make a power roll for this ability again.",
-          "INVIGORATING GROWTH (3 ESSENCE)": "Mushrooms erupt from a foe, sapping their vitality to spread strengthening spores.\n\n['**Keywords**: Attack, Green, Magic, Ranged', '**Type**: Action', '**Distance**: Ranged 5', '**Target**: 1 creature']\n\n**Power Roll + Reason**:\n\n['11 or lower: 6 poison damage', '12–16: 9 poison damage', '17+: 14 poison damage']\n\n**Effect**: The mushrooms can be removed by the target or by an adjacent creature as an action. While the mushrooms are on the target, each of your allies adjacent to the target gains an edge on attacks against them.",
-          "PUNCH THE EARTH (3 ESSENCE)": "You slam the ground, which buckles out from you in every direction.\n\n['**Keywords**: Area, Earth, Magic', '**Type**: Action', '**Distance**: 3 burst', '**Target**: All enemies']\n\n**Power Roll + Reason**:\n\n['11 or lower: 4 damage', '12–16: 5 damage', '17+: 8 damage; prone']\n\n**Effect**: You must be touching the ground or floor to use this ability. The surface beneath the area becomes difficult terrain for your enemies.",
-          "STARE INTO THE ABYSS (3 ESSENCE)": "You open a rift into the void to harry your enemies.\n\n['**Keywords**: Area, Magic, Persistent, Ranged, Void', '**Type**: Action', '**Distance**: 4 cube within 5', '**Target**: All enemies']\n\n**Power Roll + Reason**:\n\n['11 or lower: 3 psychic damage', '12–16: 4 psychic damage', '17+: 6 psychic damage']\n\n**Persistent 1**: At the start of your turn, you can use this ability again as a maneuver without spending essence."
+          "BURN! (3 ESSENCE)": {
+            "flavor": "Fire engulfs a target of your choice and burns at your command.",
+            "keywords": "Attack, Fire, Magic, Persistent, Ranged",
+            "type": "Action",
+            "distance": "Ranged 5",
+            "target": "1 creature or object",
+            "roll": "Power Roll + Reason",
+            "tier1": "6 fire damage",
+            "tier2": "8 fire damage",
+            "tier3": "13 fire damage",
+            "persistent_cost": "1",
+            "persistent_effect": "If the target is within distance at the start of your turn, make a power roll for this ability again."
+          },
+          "INVIGORATING GROWTH (3 ESSENCE)": {
+            "flavor": "Mushrooms erupt from a foe, sapping their vitality to spread strengthening spores.",
+            "keywords": "Attack, Green, Magic, Ranged",
+            "type": "Action",
+            "distance": "Ranged 5",
+            "target": "1 creature",
+            "roll": "Power Roll + Reason",
+            "tier1": "6 poison damage",
+            "tier2": "9 poison damage",
+            "tier3": "14 poison damage",
+            "effect": "The mushrooms can be removed by the target or by an adjacent creature as an action. While the mushrooms are on the target, each of your allies adjacent to the target gains an edge on attacks against them."
+          },
+          "PUNCH THE EARTH (3 ESSENCE)": {
+            "flavor": "You slam the ground, which buckles out from you in every direction.",
+            "keywords": "Area, Earth, Magic",
+            "type": "Action",
+            "distance": "3 burst",
+            "target": "All enemies",
+            "roll": "Power Roll + Reason",
+            "tier1": "4 damage",
+            "tier2": "5 damage",
+            "tier3": "8 damage; prone",
+            "effect": "You must be touching the ground or floor to use this ability. The surface beneath the area becomes difficult terrain for your enemies."
+          },
+          "STARE INTO THE ABYSS (3 ESSENCE)": {
+            "flavor": "You open a rift into the void to harry your enemies.",
+            "keywords": "Area, Magic, Persistent, Ranged, Void",
+            "type": "Action",
+            "distance": "4 cube within 5",
+            "target": "All enemies",
+            "roll": "Power Roll + Reason",
+            "tier1": "3 psychic damage",
+            "tier2": "4 psychic damage",
+            "tier3": "6 psychic damage",
+            "persistent_cost": "1",
+            "persistent_effect": "At the start of your turn, you can use this ability again as a maneuver without spending essence."
+          }
         },
         "5-ESSENCE ABILITIES": {
-          "CONFLAGRATION (5 ESSENCE)": "A storm of fire descends upon your enemies.\n\n['**Keywords**: Area, Fire, Magic, Persistent, Ranged', '**Type**: Action', '**Distance**: 4 cube within 5', '**Target**: All enemies']\n\n**Power Roll + Reason**:\n\n['11 or lower: 5 fire damage', '12–16: 7 fire damage', '17+: 10 fire damage']\n\n**Persistent 2**: At the start of your turn, you can use this ability again as a maneuver without spending essence.",
-          "INCORPOREALNESS (5 ESSENCE)": "The material substance of a creature shreds away at your command.\n\n['**Keywords**: Magic, Melee, Persistent, Void', '**Type**: Maneuver', '**Distance**: Self or Reach', '**Target**: Self or 1 ally']\n\n**Effect**: Until the start of your next turn, the target has damage immunity 5 and can move through 1 square of solid matter once per turn. If the target ends their turn inside solid matter, they are shunted out into the space where they entered it and this effect ends.\n\n**Persistent 1**: The effect lasts until the start of your next turn.",
-          "NOURISHING RAIN (5 ESSENCE)": "You call down a rain that burns your enemies and restores your allies.\n\n['**Keywords**: Area, Green, Magic', '**Type**: Action', '**Distance**: 5 burst', '**Target**: All enemies']\n\n**Power Roll + Reason**:\n\n['11 or lower: 3 acid damage', '12–16: 5 acid damage', '17+: 7 acid damage']\n\n**Effect**: You and each ally in the area suffering any effect that has a duration of EoT or is ended by a resistance roll have all such effects end.",
-          "OPEN THE EARTH (5 ESSENCE)": "The surface of the world around you opens up at your command.\n\n['**Keywords**: Magic, Earth, Persistent, Ranged', '**Type**: Maneuver', '**Distance**: Ranged 5', '**Target**: Special']\n\n**Effect**: You open four holes with 1-square openings that are 6 squares deep, and which can be placed on any mundane surface within distance. You can place these holes next to each other to create fewer holes with wider openings. For each creature standing above a hole when it opens and small enough to fall in, make a power roll.\n\n**Power Roll + Reason**:\n\n['11 or lower: The target can shift up to 1 square from the edge of the hole to the nearest unoccupied space of their choice.', '12–16: The target falls into the hole.', '17+: The target falls into the hole and can’t reduce the height of the fall.']\n\n**Persistent 1**: At the start of your turn, you open another hole."
+          "CONFLAGRATION (5 ESSENCE)": {
+            "flavor": "A storm of fire descends upon your enemies.",
+            "keywords": "Area, Fire, Magic, Persistent, Ranged",
+            "type": "Action",
+            "distance": "4 cube within 5",
+            "target": "All enemies",
+            "roll": "Power Roll + Reason",
+            "tier1": "5 fire damage",
+            "tier2": "7 fire damage",
+            "tier3": "10 fire damage",
+            "persistent_cost": "2",
+            "persistent_effect": "At the start of your turn, you can use this ability again as a maneuver without spending essence."
+          },
+          "INCORPOREALNESS (5 ESSENCE)": {
+            "flavor": "The material substance of a creature shreds away at your command.",
+            "keywords": "Magic, Melee, Persistent, Void",
+            "type": "Maneuver",
+            "distance": "Self or Reach",
+            "target": "Self or 1 ally",
+            "effect": "Until the start of your next turn, the target has damage immunity 5 and can move through 1 square of solid matter once per turn. If the target ends their turn inside solid matter, they are shunted out into the space where they entered it and this effect ends.",
+            "persistent_cost": "1",
+            "persistent_effect": "The effect lasts until the start of your next turn."
+          },
+          "NOURISHING RAIN (5 ESSENCE)": {
+            "flavor": "You call down a rain that burns your enemies and restores your allies.",
+            "keywords": "Area, Green, Magic",
+            "type": "Action",
+            "distance": "5 burst",
+            "target": "All enemies",
+            "roll": "Power Roll + Reason",
+            "tier1": "3 acid damage",
+            "tier2": "5 acid damage",
+            "tier3": "7 acid damage",
+            "effect": "You and each ally in the area suffering any effect that has a duration of EoT or is ended by a resistance roll have all such effects end."
+          },
+          "OPEN THE EARTH (5 ESSENCE)": {
+            "flavor": "The surface of the world around you opens up at your command.",
+            "keywords": "Magic, Earth, Persistent, Ranged",
+            "type": "Maneuver",
+            "distance": "Ranged 5",
+            "target": "Special",
+            "roll": "Power Roll + Reason",
+            "tier1": "The target can shift up to 1 square from the edge of the hole to the nearest unoccupied space of their choice.",
+            "tier2": "The target falls into the hole.",
+            "tier3": "The target falls into the hole and can’t reduce the height of the fall.",
+            "effect": "You open four holes with 1-square openings that are 6 squares deep, and which can be placed on any mundane surface within distance. You can place these holes next to each other to create fewer holes with wider openings. For each creature standing above a hole when it opens and small enough to fall in, make a power roll.",
+            "persistent_cost": "1",
+            "persistent_effect": "At the start of your turn, you open another hole."
+          }
         }
       }
     }
@@ -822,7 +1234,16 @@
           "Magic Damage Bonus: +2/+2/+2",
           "Magic Distance Bonus: +5"
         ],
-        "SIGNATURE ABILITY: DRAIN": "You drain the energy from your target and revitalize your senses.\n\n**Keywords**: Attack, Magic, Melee\n**Type**: Action\n**Distance**: Reach\n**Target**: 1 creature\n**Power Roll** + Reason, Intuition, or Presence:\n\n['11 or lower: 5 corruption damage', '12-16: 10 corruption damage', '17+: 14 corruption damage; you can spend 1 recovery to regain Stamina']",
+        "SIGNATURE ABILITY: DRAIN": {
+          "flavor": "You drain the energy from your target and revitalize your senses.",
+          "keywords": "Attack, Magic, Melee",
+          "type": "Action",
+          "distance": "Reach",
+          "target": "1 creature",
+          "tier1": "5 corruption damage",
+          "tier2": "10 corruption damage",
+          "tier3": "14 corruption damage; you can spend 1 recovery to regain Stamina"
+        },
         "KIT WARD: BLOOD WARD": "The blood ward is a large projection of your heart that magnifies the sound of your heartbeat. Whenever an ability lets you spend a Recovery, you can forgo regaining Stamina to instead increase your speed by 2 and have your abilities deal 2 extra corruption damage until the end of the encounter instead."
       },
       "DANCER": {
@@ -831,7 +1252,17 @@
           "Speed Bonus: +2",
           "Magic Damage Bonus: +0/+1/+2"
         ],
-        "SIGNATURE ABILITY: TARANTELLA VOLLEY": "Visible energy sparks off you to wash across a nearby foe, who you invite to dance with you.\n\n**Keywords**: Attack, Magic, Melee\n**Type**: Action\n**Distance**: Reach 2\n**Target**: 1 creature or object\n**Power Roll** + Agility, Intuition, or Presence:\n\n['11 or lower: 2 damage', '12–16: 7 damage; you swap places with the target', '17+: 11 damage; you swap places with the target, and a hero within distance can shift up to 2 squares\\n**Effect**: If you roll a 12 or better and can’t swap places with the target because one or both of you is too big to fit into the swapped space, you both remain in your original spaces and the target takes 2 extra damage.']",
+        "SIGNATURE ABILITY: TARANTELLA VOLLEY": {
+          "flavor": "Visible energy sparks off you to wash across a nearby foe, who you invite to dance with you.",
+          "keywords": "Attack, Magic, Melee",
+          "type": "Action",
+          "distance": "Reach 2",
+          "target": "1 creature or object",
+          "tier1": "2 damage",
+          "tier2": "7 damage; you swap places with the target",
+          "tier3": "11 damage; you swap places with the target, and a hero within distance can shift up to 2 squares\\n",
+          "effect": "If you roll a 12 or better and can’t swap places with the target because one or both of you is too big to fit into the swapped space, you both remain in your original spaces and the target takes 2 extra damage.']"
+        },
         "KIT WARD: WALTZING WARD": "Your ward surrounds you with a soft, enchanting melody whose volume you control, and grants you the following benefits:\n\n['Whenever an enemy ends their turn adjacent to you, you can shift 2 squares as a free triggered action.', 'Whenever a creature damages you with a melee ability, you can slide them a number of squares equal to your highest characteristic score.']"
       },
       "FRIGID": {
@@ -841,7 +1272,16 @@
           "Magic Distance Bonus: +7",
           "Magic Area Bonus: +1"
         ],
-        "SIGNATURE ABILITY: FROZEN EXPLOSION": "You unleash a blast of frigid air to freeze and hinder your foes.\n\n**Keywords**: Area, Magic, Ranged\n**Type**: Action\n**Distance**: 3 cube within 12\n**Target**: All enemies\n**Power Roll** + Reason, Intuition, or Presence:\n\n['11 or lower: 2 cold damage', '12–16: 3 cold damage; slowed (EoT)', '17+: 4 cold damage; slowed (EoE)']",
+        "SIGNATURE ABILITY: FROZEN EXPLOSION": {
+          "flavor": "You unleash a blast of frigid air to freeze and hinder your foes.",
+          "keywords": "Area, Magic, Ranged",
+          "type": "Action",
+          "distance": "3 cube within 12",
+          "target": "All enemies",
+          "tier1": "2 cold damage",
+          "tier2": "3 cold damage; slowed (EoT)",
+          "tier3": "4 cold damage; slowed (EoE)"
+        },
         "KIT WARD: ICE ARMOR": "Your ward covers your body in ice, and grants you the following benefits:\n\n['You have cold immunity and fire immunity equal to your highest characteristic score.', 'When a creature damages you with a melee ability, they take cold damage equal to your highest characteristic score.']"
       },
       "MEDITATOR": {
@@ -850,7 +1290,16 @@
           "Stamina Bonus: +9",
           "Speed Bonus: +1"
         ],
-        "SIGNATURE ABILITY: BOUNTIFUL DECAY": "Your curse causes a foe’s flesh to rot off as spores that aid your allies.\n\n**Keywords**: Attack, Magic, Ranged\n**Type**: Action\n**Distance**: Ranged 5\n**Target**: 1 creature\n**Power Roll** + Reason, Intuition, or Presence:\n\n['11 or lower: 2 corruption damage; a hero within distance can make a resistance roll to end an effect', '12–16: 6 corruption damage; a hero within distance can make a resistance roll to end an effect', '17+: 9 corruption damage; a hero within distance who is affected by an “(EoT)” or “(resistance ends)” effect has the effect end']",
+        "SIGNATURE ABILITY: BOUNTIFUL DECAY": {
+          "flavor": "Your curse causes a foe’s flesh to rot off as spores that aid your allies.",
+          "keywords": "Attack, Magic, Ranged",
+          "type": "Action",
+          "distance": "Ranged 5",
+          "target": "1 creature",
+          "tier1": "2 corruption damage; a hero within distance can make a resistance roll to end an effect",
+          "tier2": "6 corruption damage; a hero within distance can make a resistance roll to end an effect",
+          "tier3": "9 corruption damage; a hero within distance who is affected by an “(EoT)” or “(resistance ends)” effect has the effect end"
+        },
         "KIT WARD: SPIRIT WARD": "Your spirit overflows and warms the area around you. It grants you the following benefits:\n\n['You gain an edge on resistance rolls.', 'Whenever an enemy damages you with a melee ability, you deal corruption damage to that enemy equal to your highest characteristic score.']"
       },
       "MISSILE": {
@@ -859,7 +1308,17 @@
           "Magic Damage Bonus: +0/+1/+2",
           "Magic Distance Bonus: +10"
         ],
-        "SIGNATURE ABILITY: SPIKE!": "You lob your implement at high speed toward your opponent, unleashing a chaotic flare of magic.\n\n**Keywords**: Attack, Magic, Ranged\n**Type**: Action\n**Distance**: Ranged 15\n**Target**: 1 creature or object\n**Power Roll** + Reason, Intuition, or Presence:\n\n['11 or lower: 2 fire damage', '12–16: 8 cold damage', '17+: 11 lightning damage\\n**Effect**: If your Magic Eye Ward is locked onto the target, you can target them with this ability regardless of the distance as long as you have line of effect to them, and this ability deals additional damage equal to your highest characteristic.']",
+        "SIGNATURE ABILITY: SPIKE!": {
+          "flavor": "You lob your implement at high speed toward your opponent, unleashing a chaotic flare of magic.",
+          "keywords": "Attack, Magic, Ranged",
+          "type": "Action",
+          "distance": "Ranged 15",
+          "target": "1 creature or object",
+          "tier1": "2 fire damage",
+          "tier2": "8 cold damage",
+          "tier3": "11 lightning damage\\n",
+          "effect": "If your Magic Eye Ward is locked onto the target, you can target them with this ability regardless of the distance as long as you have line of effect to them, and this ability deals additional damage equal to your highest characteristic.']"
+        },
         "KIT WARD: MAGIC EYE WARD": "Your ward wraps itself around your head and shields your eyes, granting you the following benefits:\n\n['You have Ranged immunity equal to your highest characteristic score.', 'Whenever an enemy within 15 squares of you damages you with a ranged ability, your ward locks onto them until the end of the encounter.']"
       },
       "NATURE CALLING": {
@@ -868,7 +1327,16 @@
           "Stability Bonus: +2",
           "Magic Distance Bonus: +7"
         ],
-        "SIGNATURE ABILITY: LIGHTNING SPARK": "You call forth a small bolt of lightning, then hurl it at your foe.\n\n**Keywords**: Attack, Magic, Ranged\n**Type**: Action\n**Distance**: Ranged 12\n**Target**: 1 creature or object\n**Power Roll** + Reason, Intuition, or Presence:\n\n['11 or lower: 2 lightning damage', '12–16: 6 damage; the target takes a bane on their next power roll', '17+: 9 damage; the target has a double bane on their next power roll']",
+        "SIGNATURE ABILITY: LIGHTNING SPARK": {
+          "flavor": "You call forth a small bolt of lightning, then hurl it at your foe.",
+          "keywords": "Attack, Magic, Ranged",
+          "type": "Action",
+          "distance": "Ranged 12",
+          "target": "1 creature or object",
+          "tier1": "2 lightning damage",
+          "tier2": "6 damage; the target takes a bane on their next power roll",
+          "tier3": "9 damage; the target has a double bane on their next power roll"
+        },
         "KIT WARD: VINE WARD": "Your ward surrounds you with protective animal spirits, and grants you the following benefits:\n\n['The area within 2 squares of you is difficult terrain for your enemies.', 'Whenever an enemy within 12 squares of you damages you with a ranged ability, you can either shift towards them or pull them a number of squares equal to your highest characteristic score.']"
       },
       "ROOK": {
@@ -876,7 +1344,16 @@
         "KIT BONUS": [
           "Stamina Bonus: +12"
         ],
-        "SIGNATURE ABILITY: BLESSED LIGHT": "Burning radiance falls upon your foe, outlining them with a holy glow.\n\n**Keywords**: Attack, Magic, Ranged\n**Type**: Action\n**Distance**: Ranged 5\n**Target**: 1 creature or object\n**Power Roll** + Reason, Intuition, or Presence:\n\n['11 or lower: 2 holy damage; the next attack against the target has an edge', '12–16: 6 holy damage; the next attack against the target has an edge', '17+: 9 holy damage; the next attack against the target has a double edge']",
+        "SIGNATURE ABILITY: BLESSED LIGHT": {
+          "flavor": "Burning radiance falls upon your foe, outlining them with a holy glow.",
+          "keywords": "Attack, Magic, Ranged",
+          "type": "Action",
+          "distance": "Ranged 5",
+          "target": "1 creature or object",
+          "tier1": "2 holy damage; the next attack against the target has an edge",
+          "tier2": "6 holy damage; the next attack against the target has an edge",
+          "tier3": "9 holy damage; the next attack against the target has a double edge"
+        },
         "KIT WARD: CASTLE GUARD": "Your armor is reinforced by a bright ward of holy energy, and grants you the following benefits:\n\n['Allies within 2 squares of you have their stability increased by 1.', 'Whenever an enemy damages you with a melee ability, you or an ally within 2 can shift 2 as a free triggered action.']"
       },
       "SPELLSLINGER": {
@@ -886,7 +1363,16 @@
           "Magical Damage Bonus: +1/+1/+1",
           "Magic Distance Bonus: +5"
         ],
-        "SIGNATURE ABILITY: SPLIT BEAM": "Two beams of supernatural force lance out at your command.\n\n**Keywords**: Attack, Magic, Ranged\n**Type**: Action\n**Distance**: Ranged 10\n**Target**: 2 creatures or objects\n**Power Roll** + Reason, Intuition, or Presence:\n\n['11 or lower: 3 damage', '12–16: 5 damage', '17+: 6 damage']",
+        "SIGNATURE ABILITY: SPLIT BEAM": {
+          "flavor": "Two beams of supernatural force lance out at your command.",
+          "keywords": "Attack, Magic, Ranged",
+          "type": "Action",
+          "distance": "Ranged 10",
+          "target": "2 creatures or objects",
+          "tier1": "3 damage",
+          "tier2": "5 damage",
+          "tier3": "6 damage"
+        },
         "KIT WARD: INVIGORATING WARD": "Your ward surrounds you with crackling energy.\n\nWhenever you take damage, you gain a bonus to damage equal to your highest characteristic score, which you apply to the next damage-dealing magic ability you use before the end of the encounter. This benefit is cumulative, so that you can accrue bonus damage multiple times, then expend it all on one use of an ability."
       },
       "WARD WEAVER": {
@@ -896,7 +1382,16 @@
           "Stability Bonus: +1",
           "Magic Distance: +5"
         ],
-        "SIGNATURE ABILITY: ENERGY SIPHON": "Absorbing psychic energy from another creature lets you shield yourself within it.\n\n**Keywords**: Attack, Magic, Ranged\n**Type**: Action\n**Distance**: Ranged 10\n**Target**: 1 creature\n**Power Roll** + Intuition:\n\n['11 or lower: 2 psychic damage; you gain damage immunity 1 until the end of your next turn', '12–16: 6 psychic damage; you gain damage immunity 3 until the end of your next turn', '17+: 9 psychic damage; you gain damage immunity 5 until the end of your next turn']",
+        "SIGNATURE ABILITY: ENERGY SIPHON": {
+          "flavor": "Absorbing psychic energy from another creature lets you shield yourself within it.",
+          "keywords": "Attack, Magic, Ranged",
+          "type": "Action",
+          "distance": "Ranged 10",
+          "target": "1 creature",
+          "tier1": "2 psychic damage; you gain damage immunity 1 until the end of your next turn",
+          "tier2": "6 psychic damage; you gain damage immunity 3 until the end of your next turn",
+          "tier3": "9 psychic damage; you gain damage immunity 5 until the end of your next turn"
+        },
         "KIT WARD: REPULSIVE WARD": "You have an invisible ward of magical force that extends 2 squares from you in all directions. When you or an ally within the area of your ward take damage from another creature’s melee ability, you can push that creature a number of squares equal to your highest characteristic score."
       },
       "CASTER KIT TABLE": "| Caster Kits    | Kit Armor | Implement | Stamina | Speed | Stability | Magical Damage | Magic Distance | Area |\n| -------------- | --------- | --------- | ------- | ----- | --------- | -------------- | -------------- | ---- |\n| Bloodpact      | None      | Metal     | +6      | —     | —         | +2/+2/+2       | +5             | —    |\n| Dancer         | None      | Glass     | —       | +2    | —         | +0/+1/+2       | —              | —    |\n| Frigid         | None      | Crystal   | +3      | —     | —         | —              | +7             | +1   |\n| Meditator      | Light     | Bone      | +6      | +1    | —         | —              | —              | —    |\n| Missile        | None      | Wood      | —       | —     | —         | +0/+1/+2       | +10            | —    |\n| Nature Calling | None      | Stone     | —       | —     | +2        | —              | +7             | —    |\n| Rook           | Heavy     | Bone      | +12     | —     | —         | —              | —              | —    |\n| Spellslinger   | None      | Metal     | —       | +1    | —         | +1/+1/+1       | +5             | —    |\n| Ward Weaver    | None      | Bone      | +6      | —     | +1        | —              | +5             | —    |"
