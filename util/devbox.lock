@@ -341,6 +341,119 @@
         }
       }
     },
+    "nodejs@18": {
+      "last_modified": "2024-08-31T10:12:23Z",
+      "plugin_version": "0.0.2",
+      "resolved": "github:NixOS/nixpkgs/5629520edecb69630a3f4d17d3d33fc96c13f6fe#nodejs_18",
+      "source": "devbox-search",
+      "version": "18.20.4",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/5k3b4l24qray412x35q95y067ll51rv5-nodejs-18.20.4",
+              "default": true
+            },
+            {
+              "name": "libv8",
+              "path": "/nix/store/8caswslyz5x5y9sl44bx7vbdy67a92px-nodejs-18.20.4-libv8"
+            }
+          ],
+          "store_path": "/nix/store/5k3b4l24qray412x35q95y067ll51rv5-nodejs-18.20.4"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/577kjc9ygkxrfrbxillh7dgdhka8ic2w-nodejs-18.20.4",
+              "default": true
+            },
+            {
+              "name": "libv8",
+              "path": "/nix/store/nm6szz0g799gfpwhsnv14nmjvzk8mi0c-nodejs-18.20.4-libv8"
+            }
+          ],
+          "store_path": "/nix/store/577kjc9ygkxrfrbxillh7dgdhka8ic2w-nodejs-18.20.4"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/djai3vmv7w8aivdld68jcn04kw0j0b6s-nodejs-18.20.4",
+              "default": true
+            },
+            {
+              "name": "libv8",
+              "path": "/nix/store/g0prz3qlq0mmifmd9l1wikx7prgg02sb-nodejs-18.20.4-libv8"
+            }
+          ],
+          "store_path": "/nix/store/djai3vmv7w8aivdld68jcn04kw0j0b6s-nodejs-18.20.4"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/cs678lm3zzl18wnfr88sag2c0j3y5ya9-nodejs-18.20.4",
+              "default": true
+            },
+            {
+              "name": "libv8",
+              "path": "/nix/store/k1gnid54y4nw7kgysw9ik29as6wqak9k-nodejs-18.20.4-libv8"
+            }
+          ],
+          "store_path": "/nix/store/cs678lm3zzl18wnfr88sag2c0j3y5ya9-nodejs-18.20.4"
+        }
+      }
+    },
+    "pandoc@latest": {
+      "last_modified": "2024-09-05T02:32:14Z",
+      "resolved": "github:NixOS/nixpkgs/fcb54ddcc974cff59bdfb7c1ac9e080299763d2d#pandoc",
+      "source": "devbox-search",
+      "version": "3.1.11.1",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/0kn40sfk3615slq3ffpc9m3zv964zndl-pandoc-cli-3.1.11.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/0kn40sfk3615slq3ffpc9m3zv964zndl-pandoc-cli-3.1.11.1"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/rg7ml0znwjnv99wmjy9viqc97hjbqfxv-pandoc-cli-3.1.11.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/rg7ml0znwjnv99wmjy9viqc97hjbqfxv-pandoc-cli-3.1.11.1"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/0pnivvfk6bk0xfiy1x0qmllb5lmcx30l-pandoc-cli-3.1.11.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/0pnivvfk6bk0xfiy1x0qmllb5lmcx30l-pandoc-cli-3.1.11.1"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/8f6vsgv8v6am32m7frdq2ls8ifjfaxd4-pandoc-cli-3.1.11.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/8f6vsgv8v6am32m7frdq2ls8ifjfaxd4-pandoc-cli-3.1.11.1"
+        }
+      }
+    },
     "python@latest": {
       "last_modified": "2024-08-31T10:12:23Z",
       "plugin_version": "0.0.3",
