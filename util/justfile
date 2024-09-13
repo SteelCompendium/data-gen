@@ -4,7 +4,9 @@ generate_json:
     #!/usr/bin/env bash
     set -euo pipefail
     echo >&2 "[JUST] --- Generating json --- "
+
     md_to_json ../Rules/Draw\ Steel\ Rules.md > ../Rules/Draw\ Steel\ Rules.json
+
     temp=$(mktemp)
     just format_ability_json ../Rules/Draw\ Steel\ Rules.json > $temp
     mv $temp ../Rules/Draw\ Steel\ Rules.json
@@ -26,6 +28,7 @@ generate_abilities:
     generate_abilities_for_class "SHADOW"
     generate_abilities_for_class "TACTICIAN"
 
+# Parses all the ability value strings in a json file to be formatted as a json object
 format_ability_json json_path:
     #!/usr/bin/env python3
 
@@ -41,10 +44,9 @@ format_ability_json json_path:
         return False
 
     def ability_string_to_json(input_string):
-        # Extract the flavor text (everything before the keywords section)
-        # TODO - rename to description
-        flavor_match = re.search(r"^(.*?)(\[|\n\n)", input_string, re.M | re.S)
-        flavor = flavor_match.group(1) if flavor_match else None
+        # Extract the description text (everything before the keywords section)
+        description_match = re.search(r"^(.*?)(\[|\n\n)", input_string, re.M | re.S)
+        description = description_match.group(1) if description_match else None
 
         # Extract the keywords, type, distance, and target using regular expressions
         keywords_match = re.search(r"\*\*Keywords\**:\** ([^'\n\*]*)", input_string)
@@ -92,7 +94,7 @@ format_ability_json json_path:
 
         # Structure the data into a dictionary
         parsed_data = {
-            "flavor": flavor,
+            "description": description,
             "keywords": keywords,
             "type": action_type,
             "distance": distance,
@@ -127,69 +129,3 @@ format_ability_json json_path:
         data = json.load(data_file)
         updated = iterate_nested_json_for_loop(data)
         print(json.dumps(updated, indent=2, ensure_ascii=False))
-
-# Takes a string that is known to be a md_to_json ability and converts it into structured json
-ability_string_to_json input:
-    #!/usr/bin/env python3
-
-    import re
-    import json
-
-    input_string = """{{input}}"""
-
-    # Extract the flavor text (everything before the keywords section)
-    flavor_match = re.search(r"^(.*?)\[", input_string, re.M | re.S)
-    flavor = flavor_match.group(1) if flavor_match else None
-
-    # Extract the keywords, type, distance, and target using regular expressions
-    keywords_match = re.search(r"\*\*Keywords\**:\** ([^']*)", input_string)
-    keywords = keywords_match.group(1) if keywords_match else None
-
-    type_match = re.search(r"\*\*Type\**:\** ([^']*)", input_string)
-    action_type = type_match.group(1) if type_match else None
-
-    distance_match = re.search(r"\*\*Distance\**:\** ([^']*)", input_string)
-    distance = distance_match.group(1) if distance_match else None
-
-    target_match = re.search(r"\*\*Target\**:\** ([^']*)", input_string)
-    target = target_match.group(1) if target_match else None
-
-    # Extract the roll description
-    roll_match = re.search(r"\*\*(Power Roll \+ [^:]+)\*\*", input_string)
-    roll = roll_match.group(1) if roll_match else None
-
-    # Tiers
-    t1_match = re.search(r"11 or lower: ([^']*)", input_string)
-    t1 = t1_match.group(1) if t1_match else None
-    t2_match = re.search(r"12.16: ([^']*)", input_string)
-    t2 = t2_match.group(1) if t2_match else None
-    t3_match = re.search(r"17\+: ([^']*)", input_string)
-    t3 = t3_match.group(1) if t3_match else None
-
-    effect_match = re.search(r"\*\*Effect\**:\** ([^\*]*)", input_string)
-    effect = effect_match.group(1) if effect_match else None
-
-    spend_match = re.search(r"\*\*Spend (.+)\**:\** ([^\*]*)", input_string)
-    spend_cost = spend_match.group(1) if spend_match else None
-    spend_effect = spend_match.group(2) if spend_match else None
-
-    # Structure the data into a dictionary
-    parsed_data = {
-        "flavor": flavor,
-        "keywords": keywords,
-        "type": action_type,
-        "distance": distance,
-        "target": target,
-        "roll": roll,
-        "tier1": t1,
-        "tier2": t2,
-        "tier3": t3,
-        "effect": effect,
-        "spend_cost": spend_cost,
-        "spend_effect": spend_effect
-    }
-
-    # Filter out any fields with None values
-    parsed_data = {k: v.strip() for k, v in parsed_data.items() if v is not None}
-
-    print(json.dumps(parsed_data, indent=4))
