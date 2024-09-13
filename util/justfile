@@ -25,6 +25,7 @@ generate_html_pandoc:
     set -euo pipefail
 
     pandoc --wrap=none \
+        --self-contained \
         --section-divs \
         --template="template.html" \
         -f markdown_strict+header_attributes+yaml_metadata_block+pipe_tables \
@@ -36,7 +37,8 @@ generate_html_pandoc2:
     set -euo pipefail
 
     pandoc --wrap=none \
-        --template="nested_template.html" \
+        --standalone \
+        --section-divs \
         -o "../Rules/Draw Steel Rules.html" \
         "../Rules/Draw Steel Rules.md"
 
