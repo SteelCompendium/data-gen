@@ -2,7 +2,6 @@
 
 import os
 import argparse
-import yaml
 import frontmatter
 from tabulate import tabulate
 
@@ -20,25 +19,16 @@ def collect_abilities(root_dir):
     return abilities
 
 def build_table(abilities, columns):
-    # Filter abilities that have all the required columns
-    filtered_abilities = []
-    for ability in abilities:
-        if all(column in ability for column in columns):
-            filtered_abilities.append(ability)
-        else:
-            # You can choose to handle missing columns differently
-            # For now, we include abilities even if some columns are missing
-            filtered_abilities.append(ability)
-
     # Build table data
     table_data = []
-    for ability in filtered_abilities:
+    for ability in abilities:
         row = [ability.get(column, '') for column in columns]
         if row[0] != "":
             table_data.append(row)
 
+    header_values = [header.title() for header in columns]
     # Generate markdown table using tabulate
-    table = tabulate(table_data, headers=columns, tablefmt='github')
+    table = tabulate(table_data, headers=header_values, tablefmt='github')
     return table
 
 def main():
