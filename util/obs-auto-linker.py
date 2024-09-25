@@ -6,7 +6,7 @@ import inflect
 # List of notes that should NOT be linked TO in other files
 titles_to_skip = [
     "Ward",  # All the caster kits have "ward" in them, but there is a "ward" complication
-    "index"
+    "index"  # The class ability notes (index.md) should not be linked anywhere
 ]
 
 # These folders will not be linked TO AND FROM
@@ -118,7 +118,7 @@ def update_unlinked_references_in_file(file_path, note_titles):
 
             for form in forms:
                 # This regex looks for the form as a standalone word (case-insensitive), not inside existing links
-                pattern = r'(?<![\[\|])\b{}\b(?![\]\|])'.format(re.escape(form))
+                pattern = r'(?<![\[\|\w]){}(?![\]\|\w])'.format(re.escape(form))
 
                 # Define a replacement function to handle casing and create alias if needed
                 def replace_with_link(match):
