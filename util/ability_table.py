@@ -26,7 +26,7 @@ def build_table(abilities, columns):
         if row[0] != "":
             table_data.append(row)
 
-    header_values = [header.title() for header in columns]
+    header_values = [header.title().replace("_", " ") for header in columns]
     # Generate markdown table using tabulate
     table = tabulate(table_data, headers=header_values, tablefmt='github')
     return table
