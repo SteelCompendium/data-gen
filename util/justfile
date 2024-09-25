@@ -42,6 +42,7 @@ format_ability_json json_path:
 
     def ability_string_to_json(input_string):
         # Extract the flavor text (everything before the keywords section)
+        # TODO - rename to description
         flavor_match = re.search(r"^(.*?)(\[|\n\n)", input_string, re.M | re.S)
         flavor = flavor_match.group(1) if flavor_match else None
 
@@ -73,7 +74,6 @@ format_ability_json json_path:
         effect_match = re.search(r"\*\*Effect\**:\** (.*?)(\n\*\*|\Z)", input_string, re.M | re.S)
         effect = effect_match.group(1) if effect_match else None
 
-        #        alt_effect_matches = re.findall(r"\*\*Alternative Effect\**:\** (.*?)(\n\*\*|\Z)", input_string, re.M | re.S)
         alt_effect_matches = re.findall(r"\*\*Alternative Effect\*\*:\s*(.*?)(?=\n\*\*|\Z)", input_string, re.M | re.S)
         alt_effects = []
         for i, alt_effect in enumerate(alt_effect_matches, 1):

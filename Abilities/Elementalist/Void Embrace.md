@@ -15,3 +15,5 @@ You call on the void to swallow and spit out an ally.
 - **Target:** Self or 1 ally
 
 **Effect:** At any point during the move, you teleport the target a number of squares equal to your Reason.
+
+**Spend 1 Essence:** You teleport the target a number of squares equal to twice your Reason score instead.

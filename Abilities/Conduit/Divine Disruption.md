@@ -15,3 +15,5 @@ You sap the strength of an attacking enemy with divine energy.
 - **Target:** 1 enemy
 
 **Effect:** The attack takes a bane and the damage to one creature targeted by the attack is reduced by an amount equal to your Intuition.
+
+**Spend 1 Piety:** The attack has a double bane and the damage to one creature targeted by the attack is reduced by an amount equal to twice your Intuition score.

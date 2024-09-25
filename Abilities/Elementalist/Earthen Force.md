@@ -15,3 +15,5 @@ You imbue an attack with the strength of stone.
 - **Target:** Self or 1 ally
 
 **Effect:** The attack deals extra damage equal to 3 times your Reason score.
+
+**Spend 1 Essence:** The attack deals extra damage equal to 4 times your Reason score instead and pushes the target a number of squares equal to your Reason score.
