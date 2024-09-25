@@ -1,5 +1,7 @@
 ---
+title_raw: Cult Victim
 title: Cult Victim
+name_raw: Cult Victim
 name: Cult Victim
 type: complications
 ---

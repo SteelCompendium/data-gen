@@ -65,16 +65,6 @@ title_case_headers_in_md() {
 build_and_apply_frontmatter() {
     local md_file_path="${1:-}"
 
-    local title
-    title="$(sed -nE "s/^#\s+(.*)/\1/p" "$md_file_path" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
-    local name
-    name="$(echo "$title" | sed -E 's/([^\(]+).*/\1/g' | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
-    local cost
-    cost="$(echo "$title" | sed -E 's/[^\(]+\(([^\)]+)\)/\1/g' | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
-    if [ "$cost" == "$title" ]; then
-        cost=""
-    fi
-
     # Figure out the directory this is in (relative to project root)
     local root_dir=$(git rev-parse --show-toplevel)
     local relative_path="$(realpath -s --relative-to="$root_dir" "$md_file_path")"
@@ -94,50 +84,9 @@ build_and_apply_frontmatter() {
         subtype=""
     fi
 
-    # this is temporary - similar regex is used in format_ability_tables. It is VERY slow
-    local ability_kv_pairs
-    ability_kv_pairs="$(sed -nE "s/^\-?\s*\*\*([^:\*]+?)\**:\**\s*(\S.*)?\s*$/\1: \2/p" "$md_file_path")"
-    if [ -n "${ability_kv_pairs:-}" ]; then
-        local keywords
-        keywords="$(echo "$ability_kv_pairs" | awk -F: '/^Keywords:/ { print $2 }' | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
-        local ability_type
-        ability_type="$(echo "$ability_kv_pairs" | awk -F: '/^Type:/ { print $2 }' | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
-        local distance
-        distance="$(echo "$ability_kv_pairs" | awk -F: '/^Distance:/ { print $2 }' | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
-        local target
-        target="$(echo "$ability_kv_pairs" | awk -F: '/^Target:/ { print $2 }' | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
-        local trigger
-        trigger="$(echo "$ability_kv_pairs" | awk -F: '/^Trigger:/ { print $2 }' | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
-    fi
-
     frontmatter_path="$(mktemp)"
-    echo "---
-title: \"${title:-}\"
-name: \"${name:-}\"
-type: \"${type:-}\"" >> "$frontmatter_path"
-    if [ -n "${cost:-}" ]; then
-        echo "cost: \"${cost}\"" >> "$frontmatter_path"
-    fi
-    if [ -n "${subtype:-}" ]; then
-        echo "subtype: \"${subtype}\"" >> "$frontmatter_path"
-    fi
-    if [ -n "${keywords:-}" ]; then
-        echo "keywords: \"${keywords}\"" >> "$frontmatter_path"
-        echo "keyword_list: [${keywords}]" >> "$frontmatter_path"
-    fi
-    if [ -n "${ability_type:-}" ]; then
-        echo "ability_type: \"${ability_type}\"" >> "$frontmatter_path"
-    fi
-    if [ -n "${distance:-}" ]; then
-        echo "distance: \"${distance}\"" >> "$frontmatter_path"
-    fi
-    if [ -n "${target:-}" ]; then
-        echo "target: \"${target}\"" >> "$frontmatter_path"
-    fi
-    if [ -n "${trigger:-}" ]; then
-        echo "trigger: \"${trigger}\"" >> "$frontmatter_path"
-    fi
-    echo "---" >> "$frontmatter_path"
+    local frontmatter
+    python3 ability.py -f "$md_file_path" --type "$type" --subtype "$subtype" -o frontmatter > "$frontmatter_path"
 
     cat "$frontmatter_path" | cat - "$md_file_path" > temp && mv temp "$md_file_path"
 }

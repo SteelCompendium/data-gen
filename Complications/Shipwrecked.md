@@ -1,5 +1,7 @@
 ---
+title_raw: Shipwrecked
 title: Shipwrecked
+name_raw: Shipwrecked
 name: Shipwrecked
 type: complications
 ---

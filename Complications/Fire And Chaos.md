@@ -1,5 +1,7 @@
 ---
+title_raw: Fire And Chaos
 title: Fire And Chaos
+name_raw: Fire And Chaos
 name: Fire And Chaos
 type: complications
 ---

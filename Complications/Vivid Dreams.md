@@ -1,5 +1,7 @@
 ---
+title_raw: Vivid Dreams
 title: Vivid Dreams
+name_raw: Vivid Dreams
 name: Vivid Dreams
 type: complications
 ---

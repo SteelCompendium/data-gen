@@ -1,5 +1,7 @@
 ---
+title_raw: Ward
 title: Ward
+name_raw: Ward
 name: Ward
 type: complications
 ---

@@ -1,5 +1,7 @@
 ---
+title_raw: Primordial Sickness
 title: Primordial Sickness
+name_raw: Primordial Sickness
 name: Primordial Sickness
 type: complications
 ---

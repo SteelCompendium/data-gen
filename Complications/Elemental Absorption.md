@@ -1,5 +1,7 @@
 ---
+title_raw: Elemental Absorption
 title: Elemental Absorption
+name_raw: Elemental Absorption
 name: Elemental Absorption
 type: complications
 ---
