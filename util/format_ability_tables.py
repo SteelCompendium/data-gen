@@ -64,8 +64,9 @@ def update_ability_tables(file_path):
         target = key_values.get('Target', '')
 
         table = (
-            f'| **Keywords:** {keywords} | **Type:** {type_} |\n'
+            f'|  |  |\n'
             f'| :{"-" * max(len(keywords) + 18, 35)} | :{"-" * max(len(type_) + 14, 32)} |\n'
+            f'| **Keywords:** {keywords} | **Type:** {type_} |\n'
             f'| **Distance:** {distance} | **Target:** {target} |'
         )
 
