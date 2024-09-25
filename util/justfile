@@ -48,25 +48,44 @@ generate_abilities:
     abilities_path="../Abilities"
 
     # Conduit
-    just generate_section "$abilities_path/Conduit" "//section[@id='conduit-abilities']//section[@class='level6']"
+    rm -rf "$abilities_path/Conduit"
+    #just generate_section "$abilities_path/Conduit" "//section[@id='conduit-abilities']//section[@class='level6']"
+    just generate_section "$abilities_path/Conduit/Signature Abilities" "//section[@id='conduit-abilities']//section[@id='signature-ability']//section[@class='level6']"
+    just generate_section "$abilities_path/Conduit/3-Piety Abilities" "//section[@id='conduit-abilities']//section[@id='piety-abilities']//section[@class='level6']"
+    just generate_section "$abilities_path/Conduit/5-Piety Abilities" "//section[@id='conduit-abilities']//section[@id='piety-abilities-1']//section[@class='level6']"
     just generate_section "$abilities_path/Conduit/Triggered Actions" "//section[@id='conduit']//section[@id='triggered-action']//section[@class='level5']"
 
     # Elementalist
-    just generate_section "$abilities_path/Elementalist" "//section[@id='elementalist-abilities']//section[@class='level6']"
+    rm -rf "$abilities_path/Elementalist"
+    #just generate_section "$abilities_path/Elementalist" "//section[@id='elementalist-abilities']//section[@class='level6']"
+    just generate_section "$abilities_path/Elementalist/Signature Abilities" "//section[@id='elementalist-abilities']//section[@id='signature-ability-1']//section[@class='level6']"
+    just generate_section "$abilities_path/Elementalist/3-Essence Abilities" "//section[@id='elementalist-abilities']//section[@id='essence-abilities']//section[@class='level6']"
+    just generate_section "$abilities_path/Elementalist/5-Essence Abilities" "//section[@id='elementalist-abilities']//section[@id='essence-abilities-1']//section[@class='level6']"
     just generate_section "$abilities_path/Elementalist/Triggered Actions" "//section[@id='elementalist']//section[@id='specialization-triggered-action']//section[@class='level5']"
 
     # Fury
-    just generate_section "$abilities_path/Fury" "//section[@id='fury-abilities']//section[@class='level6']"
+    rm -rf "$abilities_path/Fury"
+    #just generate_section "$abilities_path/Fury" "//section[@id='fury-abilities']//section[@class='level6']"
+    just generate_section "$abilities_path/Fury/Signature Abilities" "//section[@id='fury-abilities']//section[@id='signature-ability-2']//section[@class='level6']"
+    just generate_section "$abilities_path/Fury/3-Rage Abilities" "//section[@id='fury-abilities']//section[@id='rage-abilities']//section[@class='level6']"
+    just generate_section "$abilities_path/Fury/5-Rage Abilities" "//section[@id='fury-abilities']//section[@id='rage-abilities-1']//section[@class='level6']"
     just generate_section "$abilities_path/Fury/Triggered Actions" "//section[@id='fury']//section[@id='aspect-triggered-action']//section[@class='level5']"
     rm "$abilities_path/Fury/Triggered Actions/Fury Triggered Actions.md"
 
     # Shadow
-    just generate_section "$abilities_path/Shadow" "//section[@id='shadow-abilities']//section[@class='level6']"
+    #just generate_section "$abilities_path/Shadow" "//section[@id='shadow-abilities']//section[@class='level6']"
+    rm -rf "$abilities_path/Shadow"
+    just generate_section "$abilities_path/Shadow/Signature Abilities" "//section[@id='shadow-abilities']//section[@id='signature-ability-7']//section[@class='level6']"
+    just generate_section "$abilities_path/Shadow/3-Insight Abilities" "//section[@id='shadow-abilities']//section[@id='insight-abilities']//section[@class='level6']"
+    just generate_section "$abilities_path/Shadow/5-Insight Abilities" "//section[@id='shadow-abilities']//section[@id='insight-abilities-1']//section[@class='level6']"
     just generate_section "$abilities_path/Shadow/Triggered Actions" "//section[@id='shadow']//section[@id='college-triggered-action']//section[@class='level5']"
     rm "$abilities_path/Shadow/Triggered Actions/Shadow Triggered Actions.md"
 
     # Tactician
-    just generate_section "$abilities_path/Tactician" "//section[@id='tactician-abilities']//section[@class='level6']"
+    rm -rf "$abilities_path/Tactician"
+    #just generate_section "$abilities_path/Tactician" "//section[@id='tactician-abilities']//section[@class='level6']"
+    just generate_section "$abilities_path/Tactician/3-Focus Abilities" "//section[@id='tactician-abilities']//section[@id='focus-abilities']//section[@class='level6']"
+    just generate_section "$abilities_path/Tactician/5-Focus Abilities" "//section[@id='tactician-abilities']//section[@id='focus-abilities-1']//section[@class='level6']"
     just generate_section "$abilities_path/Tactician/Triggered Actions" "//section[@id='tactician']//section[@id='doctrine-triggered-action']//section[@class='level5']"
     rm "$abilities_path/Tactician/Triggered Actions/Tactician Triggered Actions.md"
 
