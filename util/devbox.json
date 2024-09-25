@@ -4,6 +4,7 @@
     "bash@latest",
     "python@latest",
     "just@latest",
+    "jq@latest"
   ],
   "shell": {
     "init_hook": [
@@ -12,7 +13,7 @@
       "pip install markdown-to-json"
     ],
     "scripts": {
-      "convert_md_to_json": "python3 markdown_to_json.py"
+      "generate_json": "just generate_json"
     }
   }
 }
