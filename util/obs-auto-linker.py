@@ -5,7 +5,8 @@ import inflect
 
 # List of notes that should NOT be linked TO in other files
 titles_to_skip = [
-    "Ward"  # All the caster kits have "ward" in them, but there is a "ward" complication
+    "Ward",  # All the caster kits have "ward" in them, but there is a "ward" complication
+    "index"
 ]
 
 # These folders will not be linked TO AND FROM

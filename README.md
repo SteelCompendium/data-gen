@@ -21,7 +21,6 @@ Draw Steel Compendium is an independent product published under the DRAW STEEL C
 - [[Hide|hide]] and sneak, cover, concealment
 - adventuring - falling, suffocating
 - statblocks
-- Setup custom domain on site
 - Class ability tables
   - cost, range, target, etc as columns
 - auto-link files to handle plural words
@@ -31,3 +30,4 @@ Draw Steel Compendium is an independent product published under the DRAW STEEL C
 - Make Classes directory
   - Abilities in here should just reference the `Abilities/*` files they need
     - This isnt generic markdown, obsidian-only
+- Looks into mdformat plugins to see if anything is useful (https://github.com/executablebooks/mdformat)

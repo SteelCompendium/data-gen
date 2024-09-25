@@ -16,6 +16,7 @@
       "if [ \"$(type -t \"source\")\" = \"builtin\" ]; then clear -x; source bin/furc; fi",
       ". $VENV_DIR/bin/activate",
       "pip install markdown-to-json",
+      "pip install tabulate PyYAML python-frontmatter",
       "pip install lxml",
       "pip install inflect",
       "pip install mdformat mdformat-wikilink mdformat-tables mdformat-frontmatter"
