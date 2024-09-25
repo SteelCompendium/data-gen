@@ -25,3 +25,9 @@ Draw Steel Compendium is an independent product published under the DRAW STEEL C
 - Class ability tables
   - cost, range, target, etc as columns
 - auto-link files to handle plural words
+- abilities in markdown and json form
+  - List them flat in directory/json
+  - "tag" them for sorting/filtering ("Shadow", "1st-level", "College of Black Ash")
+- Make Classes directory
+  - Abilities in here should just reference the `Abilities/*` files they need
+    - This isnt generic markdown, obsidian-only
