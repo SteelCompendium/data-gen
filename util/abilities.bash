@@ -4,14 +4,15 @@ set -euo pipefail
 generate_abilities_for_class() {
     local class="${1:-}"
 
-    local folder_name
-    folder_name="$(title_case "$class")"
+    local class_title
+    class_title="$(title_case "$class")"
     local folder_path
-    folder_path="../Abilities/${folder_name}"
+    folder_path="../Abilities/${class_title}"
     mkdir -p "$folder_path"
 
     local links="$(mktemp)"
 
+    # Add abilities
     abilities_types="$(jq -rc ".${class}[\"1ST-LEVEL FEATURES\"][\"${class} ABILITIES\"] | to_entries | .[]" '../Rules/Draw Steel Rules.json')"
     echo "$abilities_types" | while read -r ability_type; do
         local type_raw
@@ -36,7 +37,26 @@ generate_abilities_for_class() {
         fi
     done
 
-    generate_ability_index_markdown "${folder_name} Ability Index" "$(cat "$links")" > "$folder_path/_${folder_name} Ability Index.md"
+    # Add Triggered Actions
+    triggered_actions="$(jq -rc ".${class}[\"1ST-LEVEL FEATURES\"] | to_entries[] | select(.key | contains(\"TRIGGERED ACTION\")) | .value | to_entries[]" '../Rules/Draw Steel Rules.json')"
+    echo "$triggered_actions" | while read -r triggered_action; do
+        name="$(jq -r '.key' <(echo "$triggered_action"))"
+        value="$(jq -r '.value' <(echo "$triggered_action"))"
+
+        # Some classes have a special subheading
+        if [[ "$name" =~ "TRIGGERED ACTION" ]]; then
+            continue;
+        fi
+
+        local filename
+        filename="$(title_case "$name" | sed 's/(.*)//g' | xargs)"
+        local ability_path="$folder_path/${filename}.md"
+        ability_to_markdown "$name" "$value" "$class" "Triggered Action" > "$ability_path"
+        echo "${filename}.md" >> "$links"
+    done
+
+    # Build index note for the class
+    generate_ability_index_markdown "${class_title} Ability Index" "$(cat "$links")" > "$folder_path/_${class_title} Ability Index.md"
 }
 
 ability_to_markdown() {
