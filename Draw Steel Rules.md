@@ -1,8 +1,4 @@
----
-aliases: 
-tags: 
----
-# WHAT IS THIS GAME?
+## WHAT IS THIS GAME?
 
 This is a game about fighting monsters. About larger-than-life, extraordinary heroes plunging into battle against terrifying, monstrous enemies.
 
@@ -14,9 +10,9 @@ You can fight monsters in a dungeon, but the game is not about dungeons. Lots of
 
 It’s not a wilderness exploration game, aka a hex crawl. It’s not about surviving in extreme weather, getting lost, or trying to navigate your way back to safety.
 
-You can fight monsters in the wilderness, even run a whole campaign in the wilderness, but this game is not about the wilderness. We love games that focus on that fantasy, like Forbidden Lands.
+You can fight monsters in the wilderness, even run a whole campaign in the wilderness, but this game is not about the wilderness. We love games that focus on that fantasy, like *Forbidden Lands*.
 
-You can run adventures with horror themes, but this is not a horror roleplaying game like Call of Cthulhu. Your sessions can and will feature comedy, but this isn’t a comedy RPG like Paranoia.
+You can run adventures with horror themes, but this is not a horror roleplaying game like *Call of Cthulhu*. Your sessions can and will feature comedy, but this isn’t a comedy RPG like *Paranoia*.
 
 We genuinely love all those games. But we love them because they focus on specific genres of gameplay and deliver on them really well.
 
@@ -26,35 +22,85 @@ But “heroic fantasy” is still a little too broad for our purposes, so we add
 
 These terms are just guidelines. A vibe. But we find them useful when trying to choose between different features. “Both of these ideas are cool, but which is the most cinematic? The most heroic?”
 
-## TACTICAL
+So let’s talk about what we mean when we use these terms.
+
+### TACTICAL
 
 Strategy is: “What are we trying to do?” Break a siege, free a prisoner, rescue a captive, steal a tome of ancient lore. Strategy is about long-term goals.
 
 Tactics is about: “How are we going to do that?” We’re going to … surround them! Sneak around them! Pick them off one by one! Kill their leader first. Kill their priest first! “No resurrections!”
 
-In a tactical game, positioning matters. So our game is played on a grid. Effects and distances are measured in squares. This means everyone is looking at the same problem, and there is no ambiguity regarding where the heroes and villains are in relation to each other.
+In a tactical game, positioning matters. So our game is played on a grid. Effects and distances are measured in squares. This means everyone is looking at the same problem, and there is no ambiguity regarding where the heroes and villains are in relation to each other. The hobgoblin troopers are setting themselves up in a line to stop our tactician and fury from getting into melee with the hobgoblin war mage. We can all see that happening, and can talk about what we’re going to do to stop it.
 
-## HEROIC
+That means teamwork matters. That’s why initiative works the way it does—to encourage the players to plan! “Okay, you use Concussive Slam on that trooper, it’ll push him back, and on my turn I can use Phalanx Forward to get us all into melee with the death captain.”
+
+We think focusing on teamwork also makes the game more heroic! :D
+
+In a tactical game, you have many choices each round. You are never reduced to just swinging your sword. You have options. If we do a good job, you don’t feel like you outlasted your opponents because you wore their hit points down before they could reduce yours to 0—you feel like you beat those hobgoblins! Through stealth and sorcery, coordination and ferocity!
+
+As you play with the same group of characters, you learn what they can all do. You discover synergies, “combos.” Some of them intended by the designers, some not! You start to learn these unique characters, and rely on them to do their cool things. It’s a great feeling when another player comes up with a cool plan that relies on your unique abilities.
+
+You learn which characters are the “squishies” who need to be protected or healed. You learn which characters can push themselves right to the edge and keep fighting. “Don’t worry about healing Barlaca. She’s our fury. She’s happier with 3 Stamina.”
+
+Our game is not about tactics. It’s not a war game. But it is tactical.
+
+### HEROIC
 
 Our game is definitely about heroism! :D
 
-For us, this means a couple of things. It means we don’t assume your character is primarily motivated by greed. They might be! But we don’t assume that. Instead, we assume you’re going to do the right thing. It might take some convincing, and there might be some reluctant heroes in your party, but that’s part of the fun!
+For us, this means a couple of things. It means we don’t assume your character is primarily motivated by greed. They might be! But we don’t assume that. Instead we assume you’re going to do the right thing. It might take some convincing, and there might be some reluctant heroes in your party, but that’s part of the fun!
 
-## CINEMATIC
+You should absolutely be able to run a *Chain of Acheron*-style campaign where the heroes are hard-bitten mercenaries in a morally ambiguous world. But that’s not the baseline assumption. The fiction and adventures that inspire us feature epic villains trying to remake the world in their image, and the dashing, unyielding heroes who strive against them even in the face of impossible odds.
+
+So that’s one component of the heroic keyword. But another component, equally important, is what kinds of things happen “on-screen,” so to speak. This is very closely related to the cinematic keyword.
+
+For instance, you never see Indiana Jones having to find a local sporting goods store because he needs to stock up on ammo. You never see Katniss Everdeen have to stop and take a shower because she stinks.
+
+These things do happen. No one watching *Raiders of the Lost Ark* thinks that Indy’s gun is magical and doesn’t need bullets—but we just don’t need to see Indy doing that stuff. We don’t need to waste time on it.
+
+### CINEMATIC
 
 Closely tied to the heroic keyword, the cinematic keyword is about how we like powers and abilities with a strong visual component. You can imagine your character doing or saying these things. “In All This Confusion” is a good name for the shadow’s ability to slip out of melee and retreat to safety. The text of the ability says how it works, but the name creates a visual that explains how it’s working.
 
-## FANTASY
+When Sir Vanazor the dragon knight fury leaps onto a goblin war spider, cleaving through the goblins riding the creature in a single turn, you can see it in your mind. It feels like a movie. It doesn’t feel simply as if you rolled well, but like an epic scene, complete with slow motion and a Carpenter Brut soundtrack.
+
+You should imagine your tactician character leading the battle, granting your allies free attacks, extra maneuvers. Coordinating the battle. That’s what the name implies. And if we’ve done a good job, when you read the character’s abilities, you think, “Yes! This is what I was imagining! I can’t wait to do this!”
+
+### FANTASY
 
 Just … you know … it’s got dragons and stuff. :D
 
 It’s worth mentioning—while everyone basically already knows what fantasy means in this context, we do imagine it a little more broadly than your average classical medieval fantasy. We like that stuff! Vasloria is our medieval European fantasy analog with knights on horseback and wizards in towers. But we also like high fantasy urban intrigue, and so we’re developing Capital, the City of the Great Game, the Greatest City In This or Any Age. Vasloria is mostly humans and elves and orcs and dwarves, but Capital has dozens, hundreds of different ancestries in it.
 
-## IF YOU'RE COMING FROM D20 FANTASY...
+Looking back at movies like Star Wars and the work of artists like Chris Foss, that ’70s stuff now seems explicitly fantastical. There’s nothing scientific or even plausible about a lightsaber or a John Berkey spaceship. But damn, they look cool!
+
+So our setting includes the timescape—our multiverse, of which the world of Orden containing Capital and Vasloria is only one part. The timescape is more explicitly “space fantasy.”
+
+These core rules mostly cover the classic fantasy stuff. But we think Capital and the timescape will help us deliver a game where more people can see their fantasy in our worlds.
+
+For us, fantasy includes magic, like wizards casting spells, and psionics, the natural and focused ability some creatures have to manipulate and warp reality with their minds. You know, telekinesis and telepathy! Jean Grey style! Although heroes have a few of these options in the core rules, you’ll see more psionics in later products.
+
+### IF YOU’RE COMING FROM D20 FANTASY…
 
 If you’ve most often played medieval fantasy RPGs that use a d20 and have Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma as primary creature statistics, you’re going to notice a lot of similarities between that style of game and Draw Steel. But as talked about above, our game is explicitly heroic and tactical, and it includes our own ideas of what a fantasy world should include. As such, you’ll definitely notice some differences. We might use similar terminology for rules, but our use of those game terms might mean different things, because we’re trying to support a specific style of play and there are only so many words that make sense to use with a fantasy game in the English language.
 
-# THE BASICS
+Here are a few key distinctions between this game and typical d20 fantasy that you’ll notice right away. These aren’t the only distinctions, but they’re the most obvious:
+
+- **Attacks automatically deal damage.** You can still have a bad turn! A tier one result is not awesome, but at least you’re making progress. The trick is: who’s making progress faster? You or the monsters? Since there’s no “I miss, next” in this game, fights tend to be short. 5 rounds is a long fight. Because everyone’s always doing damage!
+
+- **You don’t need to rest all the time.** Most d20 fantasy games are games of attrition. Your spell slots and other features dwindle as the adventuring day goes on. In Draw Steel, you need to rest to regain your Stamina and Recoveries (the stat that determine how robust you are in combat). But all characters earn the ability to use their magic and other awesome abilities as they adventure, encouraging you to press on heroically.
+
+- **Character options are different.** We very strongly recommend you start by looking through the character creation section before you decide what you want to play. You can’t just assume the conduit is “basically a cleric.” In some ways it is! But in other ways it’s very different. You may have some cool character archetype you love to play in d20 Fantasy and you’re dying to see how it works in *Draw Steel*, but you’ll have a lot more fun if you start by browsing the Ancestries and Class sections and being inspired. Once you know how the game works, you’ll have a better handle on how to build your favorite character in here.
+
+- **Smaller bonuses and penalties** *Draw Steel* is built around the roll of two ten-sided dice to produce three possible outcomes. On the surface, this might not seem that different from rolling a twenty-sided die and having two outcomes, but we’ve run the math. A lot. A bonus of +1 or penalty of −2 is significant in *Draw Steel*, much more so than in a typical d20 fantasy game. That means you should feel pretty good attempting most power rolls—the rolls you make to determine success out of combat—if you have a decent characteristic bonus on those rolls. And if you have a specific skill that applies to a power roll made as a test outside of combat, you’ll do even better.
+
+- **Our game has a lot of skills** Your character can make use of a long list of skills, but we don’t expect you to memorize that list. We get into why there are so many skills in the *Tests* chapter, but the short version is that we think having a lot of skills allows you to create more distinct and specialized heroes, which supports the sort of gameplay we want to see in *Draw Steel*. And skills in *Draw Steel* aren’t tied to characteristics. If you’re trying to lose someone in a crowd? You can use Presence to Hide! Why not?
+
+- **We won’t be able to point out every difference.** Beyond what’s noted here, don’t assume that these rules work like any d20 fantasy game you’ve played. We don’t have the space to point out every exception. So if you’re in doubt about how something works, put d20 fantasy out of your mind and read our rules without those assumptions, and you’ll find that things make better sense. If you’re still confused, stop by the MCDM Discord and ask. We’ve got tons of awesome community members ready to help!
+
+- **We don’t expect you to do everything to the letter.** This is actually one thing *Draw Steel* does have in common with d20 fantasy. This is a big book of rules! Don’t stress if you need to look something up or make a ruling about an edge case on the fly. If everyone’s having fun, you’re doing it right.
+
+## THE BASICS
 
 The flow of playing Draw Steel is like playing any other tabletop roleplaying game with a Director (also called a Game Master or GM in other games). Play is a conversation between the Director and the heroes that describes the story. The Director sets the scene, describing the important elements of the environment that the heroes would notice.
 
@@ -176,33 +222,49 @@ An archer standing on a castle wall fires down into a throng of enemies, hitting
 
 ### EDGE
 
-An edge represents a situational advantage a hero or an enemy has when making a power roll. For example, a standing hero who makes a melee attack against a prone creature gains an edge on the power roll for their attack.
+An edge represents a situational advantage a hero or an enemy has when making a power roll. For example, a standing hero who makes a melee attack against a prone creature gains an edge on the power roll for their attack. A pair of magic gloves that makes your hands sticky might grant you an edge when making a power roll to climb walls!
 
 When you make a power roll with a single edge, you add 2 to the roll. If you make a power roll with two or more edges, you have a double edge. This means you don’t add anything to the power roll, but the result of the roll automatically improves one tier (to a maximum of tier 3).
 
 ### BANE
 
-A bane represents a situational disadvantage a hero or an enemy has when making a power roll. For example, if you make an attack while prone, the power roll for the attack takes a bane.
+A bane represents a situational disadvantage a hero or an enemy has when making a power roll. For example, if you make an attack while prone, the power roll for the attack takes a bane. A rainstorm might give you a bane on a power roll made to climb an outdoor wall because the weather makes the stone surface extra slick.
 
 When you make a power roll with a single bane, you subtract 2 from the roll. If you make a power roll with two or more banes, you have a double bane. This means you don’t subtract anything from the power roll, but the result of the roll automatically decreases one tier (to a minimum of tier 1).
 
-## ROLLING WITH EDGES AND BANES
+### ROLLING WITH EDGES AND BANES
 
-Under certain circumstances, you might have one or more edges and banes on the same roll. In general, edges and banes cancel each other out, resolving as follows:
+Under certain circumstances, you might have one or more edges and banes on the same roll. For instance, you might take a bane when weakened by poison, even as you gain an edge for attacking a prone creature. In general, edges and banes cancel each other out, resolving as follows:
 
 - If you have an edge and a bane, or if you have a double edge and a double bane, the roll is made as usual without any edges or banes.
-- If you have a double edge and just one bane, the roll is made with one edge.
-- If you have a double bane and just one edge, the roll is made with one bane.
+- If you have a double edge and just one bane, the roll is made with one edge, regardless of how many single edge instances contribute to the double edge.
+- If you have a double bane and just one edge, the roll is made with one bane, regardless of how many single bane instances contribute to the double bane.
 
-### HERO TOKENS
+### WHEN TO USE EDGES AND BANES
 
-When players roleplay their heroes well or take big risks, the Director can reward them with hero tokens. Hero tokens are given out by the Director one at a time, either to an individual player or to the group as a whole. They can be tracked using poker chips, stones, or other markers, and are shared by all players.
+The rules tell you when to modify a roll with an edge or a bane. The Director can also modify rolls with edges and banes as a response to narrative or environmental circumstances. For instance, no rule specifically says that rain imposes a bane on power rolls made to climb a stone wall. But it makes sense that rainy conditions should make climbing that wall harder, so a Director should absolutely do so!
+
+### WHY CAP?
+
+We capped edges and banes at a maximum of two each for several reasons, including thinking about the narrative of those penalties. Every little advantage or disadvantage in a heroic story has diminishing returns, acknowledging that a creature can only benefit or be hindered by short-term circumstances so much. For example, a character who is prone and weakened by poison already finds it difficult to attack—so that becoming restrained by a net can’t really make it harder.
+
+We also liked capping edges and banes at two because it keeps play quick. It’s nice to not need to count beyond two positive or negative circumstances in a battle with a lot of effects flying around.
+
+## BONUSES AND PENALTIES
+
+While edges and banes cover most circumstantial effects that can have an impact on a power roll, a few rules add numeric bonuses or penalties to power rolls. Bonus and penalty values are specified in the rules that impose them, and are calculated independently of edges and banes, and before edges and banes are factored into a power roll. There is no limit to the number of bonuses or penalties that can apply to a power roll, and bonuses and penalties always add together.
+
+Though it might sound as if the math with bonuses and penalties can get confusing, fear not! Bonuses and penalties are rare except in the case of skills, which appear on your character sheet (see Skills for more information).
+
+## HERO TOKENS
+
+When players roleplay their heroes well or take big risks, the Director can reward them with the potential to restore vitality when it’s needed, in the form of hero tokens. Hero tokens are given out by the Director one at a time, either to an individual player or to the group as a whole. They can be tracked using poker chips, stones, or other markers, and are then shared by all players.
 
 Whenever hero tokens are available, you can spend a hero token on your turn or whenever you take damage (no action required). When you do, you regain Stamina equal to your recovery value without spending a Recovery. A hero token benefits only one creature at a time, and you can’t spend more than one hero token per turn.
 
 Players can also be awarded hero tokens as part of a test’s outcome when they succeed in a task with a reward (see Tests). Unless the Director decides otherwise, unused hero tokens disappear at the end of a session.
 
-## FOR THE DIRECTOR: AWARDING HERO TOKENS
+### FOR THE DIRECTOR: AWARDING HERO TOKENS
 
 You can award hero tokens to the players for taking risks with their heroes beyond what the game typically expects of them. For instance, battling a group of monsters is part of the game and doesn’t earn a hero token. However, the following sorts of activities might:
 
@@ -261,8 +323,17 @@ Whenever you finish a respite (see Respite), your Victories are converted into E
 
 We’re still figuring out rules for encounter building, but here are some general guidelines.
 
-- A successful combat in which the party’s objectives are achieved earns the heroes 1 Victory. Particularly hard encounters are worth 2 Victories when completed.
-- A successful negotiation or montage test should earn the heroes 1 Victory. Other noncombat challenges are left to the Director’s discretion.
+A successful combat in which the party’s objectives are achieved earns the heroes 1 Victory. Particularly hard encounters are worth 2 Victories when completed. We’ll have better guidelines on this topic in the future, but for now, consider tough boss battles worth 2 Victories.
+
+A successful negotiation or montage test should earn the heroes 1 Victory. Other noncombat challenges are left to the Director’s discretion, but consider the following guidelines to help you determine when awarding 1 Victory is warranted:
+
+- If the heroes overcome a complicated trap that requires more than one test to find and disarm, award them 1 Victory.
+- If the heroes investigate a series of clues in a mystery, award 1 Victory when they solve the mystery.
+- If the heroes solve a complicated puzzle that requires them to use resources or would take most people at least 10 minutes to complete, award them a Victory.
+- If the heroes achieve a major story goal that accomplishes a quest (such as saving a prince trapped by an evil baroness or stopping a necromancer from performing a world-ending ritual), award them 1 Victory.
+- If the heroes use clever thinking to easily and surprisingly overcome or bypass a combat encounter, a negotiation, a montage test, a trap, a puzzle, or some other challenge that would award them 1 or more Victories in a more difficult fashion, award them 1 Victory. Clever thinking is just as worthy of a Victory—if not more so!
+
+At the Director’s discretion, particularly hard negotiations, puzzles, mysteries, and other noncombat challenges can be worth 2 Victories.
 
 ## EXPERIENCE
 
@@ -347,6 +418,14 @@ The Great Houses, Capital’s ancient noble families, reluctantly share power wi
 The Great Game is espionage, and House Alvaro are the best players in the world. Led by Duke Prospero, House Alvaro sponsors the Imperial University, the greatest center of learning in the world. Nobles from across Orden, including from lands as far away as Vanigar, send their children to learn diplomacy and statecraft at the university. The greatest spies in the world are all graduates of the Actian School, one of the university’s many colleges, which once doubled as the intelligence agency of Capital’s late prince.
 
 House Vorona runs the city’s navy, the largest military organization of any kind in Orden. Their engineers perfected the secret of blackpowder and guard it jealously.
+
+The Imperial Navy’s canons protect trade across Orden, placing Capital at the center of international affairs. Vorona’s Far Mariners, aka the marines, are the closest thing to a citywide law enforcement organization. Each Great House is expected to police its own district.
+
+Duke Marco Vorona sponsors the Imperial War College, also known as the Academy. A prestigious institution rivaling any college of the Imperial University, the Academy boasts graduates among all the noble families in Orden. This widespread allegiance creates a vast informal network in the city, referred to cynically as the Old Class Ring, that gives House Vorona access to intelligence that other factions can only dream of.
+
+House Navarr, the oldest of the Great Houses, enforces the law of the Church of Saint Ysabella the Pitiless, which theycall justice. The house is led by His Grace Orsino, Duke Navarr, archbishop of that most powerful church in the city. Under his rule, House Navarr consolidates a vast network of different churches and knights across the region under one elaborate system of patronage. 
+
+Arguably the most powerful Great House, House Valetta controls the city’s tax collectors, known as the Arbitros Fiat. Valetta is led by the Duchess Lenore, who opened theCodex Mortis while in mourning for her assassinated husband Maximo, speaking a ritual from that ancient necromantic artifact that should have returned her love to life. Instead, she brought about the Lilac Night, which transformed everyone in her district into undead—including herself. The Duchess Lenore is now an immortal vampire queen, a dead lady ruling over a dead city.
 
 ### THE POWER OF THE GUILDS
 
@@ -778,8 +857,6 @@ The largest extant population of draconians is the remnants of the Dragon Phalan
 Knighthood was a title carried by every member of that first generation of dragon knights. Within the Dragon Phalanx were shadows, censors, tacticians, and elementalists. Members of virtually every heroic vocation could be found in one of the eight dragonflights that made up the phalanx. For over thirty years, these heroes were symbols of justice, protecting the weak from the strong, and standing between the common folk and those who sought power over others. Those who grew up in that place and time could never have imagined any other way of life.
 
 Then Ajax came.
-
----
 
 ### ON THE DRAGON KNIGHTS
 
@@ -1947,20 +2024,6 @@ A hero’s culture describes the beliefs, customs, values, and way of life held 
 
 For our purposes, a hero’s culture represents people, not a place. Yes, you might have grown up in the city of Capital, but your culture is more specific than that. One hero’s culture might be House Alvaro, a noble house in Capital where they were raised. Another’s culture could be a group or organization that moves around, such as a band of pirates or a secret order of sorcerers sworn to protect books of fell magic. It helps to get specific when thinking about your culture, and working with the four aspects of a culture can help you do that: language, environment, organization, and upbringing.
 
-## CULTURE
-
-What makes a hero? Is their desire to stand up for the innocent and protect others somehow innate? Are they born knowing that tyrants must fall? Does a higher power instill the idea that sometimes those least deserving of compassion are those who need it most?
-
-No. A hero’s life experience teaches them right from wrong—and that experience starts with the culture that raised them.
-
-> (Playtest note: Sample cultures are coming.)
-
-### CREATING A CULTURE
-
-A hero’s culture describes the beliefs, customs, values, and way of life held by the community in which they were raised. This community provides life experiences that give a character some of their game statistics. Even if a hero doesn’t share their culture’s values, those values shaped their early development and way of life. In fact, some people become heroes primarily from the rejection of the ways of their culture.
-
-For our purposes, a hero’s culture represents people, not a place. Yes, you might have grown up in the city of Capital, but your culture is more specific than that. One hero’s culture might be House Alvaro, a noble house in Capital where they were raised. Another’s culture could be a group or organization that moves around, such as a band of pirates or a secret order of sorcerers sworn to protect books of fell magic. It helps to get specific when thinking about your culture, and working with the four aspects of a culture can help you do that: language, environment, organization, and upbringing.
-
 ### USING CULTURE
 
 Directors can use the rules in this section to build cultures that players can choose for their characters. Players can use these rules to build a unique culture or modify an existing culture for their character, working with the Director to find a right place for that culture within the world of the campaign’s world. The Vasloria Cultures table provides a cultural breakdown for Vasloria, the game’s medieval European fantasy analog.
@@ -2876,13 +2939,13 @@ As an elementalist, you gain the following features.
 
 Through your studies, you know and can manipulate the seven primal elements of the timescape:
 
-- **Air**: The element of movement. Air abilities allow you to manipulate speed, quickness, flight, and breath.
-- **Earth**: The element of permanence. Earth abilities create and shape physical terrain in a permanent way, and bolster the strength and hardiness of allies.
-- **Fire**: The element of destruction. Fire abilities harm enemies and objects.
-- **Green**: The element of creation and growth. Green abilities make and manipulate plants, fungi, and other forms of life to hamper foes and nourish your allies.
-- **Rot**: The element of death. Rot abilities decay and debuff enemies.
-- **Void**: The element of the unknown. Void abilities warp space and reality, allowing you to teleport, create illusions, and make things incorporeal.
-- **Water**: The element of change. Water abilities enhance what your allies can do, and alter the abilities of your enemies for the worse.
+- **Air** is the element of movement. Air abilities allow you to manipulate speed, quickness, flight, and breath.
+- **Earth** is the element of permanence. Earth abilities create and shape physical terrain in a permanent way, and bolster the strength and hardiness of allies.
+- **Fire** is the element of destruction. Fire abilities harm enemies and objects.
+- **Green** is the element of creation and growth. Green abilities make and manipulate plants, fungi, and other forms of life to hamper foes and nourish your allies.
+- **Rot** is the element of death. Rot abilities decay and debuff enemies.
+- **Void** is the element of the unknown. Void abilities warp space and reality, allowing you to teleport, create illusions, and make things incorporeal.
+- **Water** is the element of change. Water abilities enhance what your allies can do, and alter the abilities of your enemies for the worse.
 
 Heroic abilities that include your specialization’s keyword have their initial essence cost reduced by 1 (to a minimum of 1). This reduced cost doesn’t apply to abilities you gain because of your specialization, such as Manipulate Earth or Void Sight.
 
@@ -5310,8 +5373,8 @@ You unleash a blast of frigid air to freeze and hinder your foes.
 
 Your ward covers your body in ice, and grants you the following benefits:
 
-- **Cold and Fire Immunity**: You have cold and fire immunity equal to your highest characteristic score.
-- **Cold Damage**: When a creature damages you with a melee ability, they take cold damage equal to your highest characteristic score.
+- You have cold immunity and fire immunity equal to your highest characteristic score.
+- When a creature damages you with a melee ability, they take cold damage equal to your highest characteristic score.
 
 ### MEDITATOR
 
