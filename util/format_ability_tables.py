@@ -70,7 +70,7 @@ def update_ability_tables(file_path):
         )
 
         # Insert the table into the content
-        content = content[:insert_position] + table + '\n' + content[insert_position:]
+        content = content[:insert_position] + "<!-- @nosort -->\n" + table + '\n' + content[insert_position:]
 
         # Only write changes if there are any updates
         if content != original_content:

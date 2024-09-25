@@ -110,7 +110,7 @@ generate_index directory_path:
     index_path="{{directory_path}}/index.md"
     echo "# $index_name Abilities" > "$index_path"
     echo "" >> "$index_path"
-    python3 ability_table.py "{{directory_path}}" -c name cost distance target >> "$index_path"
+    python3 ability_table.py "{{directory_path}}" -c name kind cost distance target >> "$index_path"
 
 generate_movement:
     #!/usr/bin/env bash

@@ -13,7 +13,8 @@ Draw Steel Compendium is an independent product published under the DRAW STEEL C
 
 ### Bugfixes
 
-- 
+- Auto-links dont work with punctuation
+  - See fury index page
 
 ### Features
 
@@ -21,9 +22,6 @@ Draw Steel Compendium is an independent product published under the DRAW STEEL C
 - [[Hide|hide]] and sneak, cover, concealment
 - adventuring - falling, suffocating
 - statblocks
-- Class ability tables
-  - cost, range, target, etc as columns
-- auto-link files to handle plural words
 - abilities in markdown and json form
   - List them flat in directory/json
   - "tag" them for sorting/filtering (`["Shadow", "1st-level", "College of Black Ash"]`)

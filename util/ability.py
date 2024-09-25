@@ -42,6 +42,9 @@ def extract_information(md_content, args):
     if args.subtype:
         frontmatter['subtype'] = args.subtype.strip()
 
+    if args.kind:
+        frontmatter['kind'] = args.kind.strip()
+
     # Extract ability key-value pairs
     ability_kv_pairs = re.findall(
         r'^\-?\s*\*\*([^:\*]+?)\**:\**\s*(\S.*?)\s*$',
@@ -83,6 +86,7 @@ def main():
     group.add_argument('-f', '--file', help='Path to the markdown file.')
     parser.add_argument('-t', '--type', help='Type value.')
     parser.add_argument('--subtype', help='Subtype value.')
+    parser.add_argument('-k', '--kind', help='Kind value (triggered, signature, etc).')
     parser.add_argument('-o', '--output-format', choices=['json', 'yaml', 'frontmatter'], default='yaml', help='Output format (json, yaml, or frontmatter).')
     args = parser.parse_args()
 

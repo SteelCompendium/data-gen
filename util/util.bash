@@ -82,11 +82,20 @@ build_and_apply_frontmatter() {
     subtype="$(echo "$subtype_raw" | sed -E 's/([A-Z])/\L\1/g' | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
     if [ "$subtype_raw" == "$(basename "$md_file_path")" ]; then
         subtype=""
+        kind=""
+    else
+        local kind_raw
+        kind_raw="$(realpath -s --relative-to="$root_dir/$type_raw/$subtype_raw" "$md_file_path" | awk -F'/' '{ print $1 }')"
+        local kind
+        kind="$(echo "$kind_raw" | sed -E 's/([A-Z])/\L\1/g' | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
+        if [ "$kind_raw" == "$(basename "$md_file_path")" ]; then
+            kind=""
+        fi
     fi
 
     frontmatter_path="$(mktemp)"
     local frontmatter
-    python3 ability.py -f "$md_file_path" --type "$type" --subtype "$subtype" -o frontmatter > "$frontmatter_path"
+    python3 ability.py -f "$md_file_path" --type "$type" --subtype "$subtype" --kind "$kind" -o frontmatter > "$frontmatter_path"
 
     cat "$frontmatter_path" | cat - "$md_file_path" > temp && mv temp "$md_file_path"
 }
