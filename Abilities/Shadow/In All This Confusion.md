@@ -9,16 +9,10 @@ cost: ""
 
 You teleport away in a plume of black smoke to avoid danger.
 
-
 - **Keywords:** Magic
-
 - **Type:** Triggered
-
 - **Distance:** Self
-
 - **Target:** Self
-
-- **Trigger:** You take damage.
 
 **Effect:** You teleport up to 4 squares, halve the triggering damage, and don’t suffer any effect associated with the damage.
 
