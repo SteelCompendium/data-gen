@@ -1,0 +1,3 @@
+generate_json: 
+	md_to_json ../Draw\ Steel\ Rules.md > ../Draw\ Steel\ Rules.json
+
