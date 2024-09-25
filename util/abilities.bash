@@ -93,11 +93,11 @@ ability_to_markdown() {
         cost=""
     fi
 
-    # Format ability content
+    # Format ability if json, otherwise just do your best
     if [[ "$value_raw" == *{* ]]; then
-    #        echo >&2 "$value_raw"
         content="$(ability_json_to_markdown "$value_raw")"
     else
+        echo >&2 "[WARN] Parsing ability $name_raw content raw"
         content="$(ability_content_to_markdown "$value_raw")"
     fi
 
