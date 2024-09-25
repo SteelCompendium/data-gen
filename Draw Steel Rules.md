@@ -22,8 +22,6 @@ But “heroic fantasy” is still a little too broad for our purposes, so we add
 
 These terms are just guidelines. A vibe. But we find them useful when trying to choose between different features. “Both of these ideas are cool, but which is the most cinematic? The most heroic?”
 
----
-
 ## TACTICAL
 
 Strategy is: “What are we trying to do?” Break a siege, free a prisoner, rescue a captive, steal a tome of ancient lore. Strategy is about long-term goals.
@@ -32,21 +30,15 @@ Tactics is about: “How are we going to do that?” We’re going to … surrou
 
 In a tactical game, positioning matters. So our game is played on a grid. Effects and distances are measured in squares. This means everyone is looking at the same problem, and there is no ambiguity regarding where the heroes and villains are in relation to each other.
 
----
-
 ## HEROIC
 
 Our game is definitely about heroism! :D
 
 For us, this means a couple of things. It means we don’t assume your character is primarily motivated by greed. They might be! But we don’t assume that. Instead, we assume you’re going to do the right thing. It might take some convincing, and there might be some reluctant heroes in your party, but that’s part of the fun!
 
----
-
 ## CINEMATIC
 
 Closely tied to the heroic keyword, the cinematic keyword is about how we like powers and abilities with a strong visual component. You can imagine your character doing or saying these things. “In All This Confusion” is a good name for the shadow’s ability to slip out of melee and retreat to safety. The text of the ability says how it works, but the name creates a visual that explains how it’s working.
-
----
 
 ## FANTASY
 
@@ -54,13 +46,9 @@ Just … you know … it’s got dragons and stuff. :D
 
 It’s worth mentioning—while everyone basically already knows what fantasy means in this context, we do imagine it a little more broadly than your average classical medieval fantasy. We like that stuff! Vasloria is our medieval European fantasy analog with knights on horseback and wizards in towers. But we also like high fantasy urban intrigue, and so we’re developing Capital, the City of the Great Game, the Greatest City In This or Any Age. Vasloria is mostly humans and elves and orcs and dwarves, but Capital has dozens, hundreds of different ancestries in it.
 
----
-
 ## IF YOU'RE COMING FROM D20 FANTASY...
 
 If you’ve most often played medieval fantasy RPGs that use a d20 and have Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma as primary creature statistics, you’re going to notice a lot of similarities between that style of game and Draw Steel. But as talked about above, our game is explicitly heroic and tactical, and it includes our own ideas of what a fantasy world should include. As such, you’ll definitely notice some differences. We might use similar terminology for rules, but our use of those game terms might mean different things, because we’re trying to support a specific style of play and there are only so many words that make sense to use with a fantasy game in the English language.
-
----
 
 # THE BASICS
 
@@ -106,8 +94,6 @@ At some point, a player will have their hero attempt a task that has a risk of f
 
 **Director**: Draw steel!
 
----
-
 ## CHARACTERISTICS
 
 Each creature in the game has five characteristics that represent their capacity to interact with other creatures and the environment.
@@ -132,13 +118,9 @@ Intuition (INU) represents instincts and experience. A creature’s ability to h
 
 Presence (PRS) represents force of personality. A creature’s ability to lie to a judge, convince a crowd to join a revolution, impress a queen at a royal banquet, or cast a magic spell by singing a song is determined by Presence.
 
----
-
 ### CHARACTERISTIC SCORES
 
 Each characteristic has a score that runs from −5 to +5. The higher a score, the more impact the creature has with that characteristic. A baby bunny rabbit would have a Might score of −5, while an ancient dragon would have a Might score of 5. The average human has a score of 0 in all their characteristics. Characteristic scores are added to power rolls—the dice rolls you make whenever your character attempts a task with an uncertain outcome (see Power Rolls).
-
----
 
 ## DICE
 
@@ -147,8 +129,6 @@ This game uses ten-sided dice (also called d10s). Each player and the Director s
 ### D3S
 
 On rare occasions, the rules ask a player to roll one or more three-sided dice (also called d3s). If you don’t have a d3, you can roll a six-sided die instead, treating a roll of 1–2 as a 1, a roll of 3–4 as a 2, and a roll of 5–6 as a 3.
-
----
 
 ## POWER ROLLS
 
@@ -162,13 +142,9 @@ The game uses three types of power rolls:
 - **Resistance Roll**: Made to avoid harmful effects.
 - **Test**: Made outside of using your abilities to affect or interact with the world around you.
 
----
-
 ### MAKING A POWER ROLL
 
 When you make a power roll, you roll two ten-sided dice (sometimes noted as 2d10 in the rules) and add one of your characteristics. The characteristic you add depends on the kind of roll you’re making, as outlined in Abilities and Tests.
-
----
 
 ### POWER ROLL OUTCOMES
 
@@ -178,23 +154,17 @@ The result of a power roll determines your outcome tier—three levels that dete
 - **Tier 2**: A result of 12 to 16. The average result.
 - **Tier 3**: A result of 17 or higher. The best result.
 
----
-
 ### DOWNGRADE A POWER ROLL
 
 Whenever you make a power roll, you can downgrade it to select the result of a lower tier. For instance, if an ability has a tier 3 result that lets you impose the restrained condition on a creature, but the tier 2 result for that ability lets you impose the slowed condition, you can use the tier 2 result if you would rather have the creature slowed than restrained.
 
 If you downgrade a critical hit, you still get the extra action benefit of the critical hit (see Critical Hit in Abilities).
 
----
-
 ### NATURAL RESULT
 
 The result of your power roll before your characteristic or any other modifiers are applied is called the natural result. The rules often refer to this as “rolling a natural X,” where X is the result of the roll. For example, if you get a 20 on the power roll before adding your characteristic, this is called rolling a natural 20.
 
 Whenever you roll a natural 19 or 20 on a power roll, you always achieve the tier 3 result, no matter what characteristic is added to the roll.
-
----
 
 ## EDGES AND BANES
 
@@ -206,15 +176,11 @@ An edge represents a situational advantage a hero or an enemy has when making a 
 
 When you make a power roll with a single edge, you add 2 to the roll. If you make a power roll with two or more edges, you have a double edge. This means you don’t add anything to the power roll, but the result of the roll automatically improves one tier (to a maximum of tier 3).
 
----
-
 ### BANE
 
 A bane represents a situational disadvantage a hero or an enemy has when making a power roll. For example, if you make an attack while prone, the power roll for the attack takes a bane.
 
 When you make a power roll with a single bane, you subtract 2 from the roll. If you make a power roll with two or more banes, you have a double bane. This means you don’t subtract anything from the power roll, but the result of the roll automatically decreases one tier (to a minimum of tier 1).
-
----
 
 ## ROLLING WITH EDGES AND BANES
 
@@ -224,8 +190,6 @@ Under certain circumstances, you might have one or more edges and banes on the s
 - If you have a double edge and just one bane, the roll is made with one edge.
 - If you have a double bane and just one edge, the roll is made with one bane.
 
----
-
 ### HERO TOKENS
 
 When players roleplay their heroes well or take big risks, the Director can reward them with hero tokens. Hero tokens are given out by the Director one at a time, either to an individual player or to the group as a whole. They can be tracked using poker chips, stones, or other markers, and are shared by all players.
@@ -233,8 +197,6 @@ When players roleplay their heroes well or take big risks, the Director can rewa
 Whenever hero tokens are available, you can spend a hero token on your turn or whenever you take damage (no action required). When you do, you regain Stamina equal to your recovery value without spending a Recovery. A hero token benefits only one creature at a time, and you can’t spend more than one hero token per turn.
 
 Players can also be awarded hero tokens as part of a test’s outcome when they succeed in a task with a reward (see Tests). Unless the Director decides otherwise, unused hero tokens disappear at the end of a session.
-
----
 
 ## FOR THE DIRECTOR: AWARDING HERO TOKENS
 
@@ -245,21 +207,15 @@ You can award hero tokens to the players for taking risks with their heroes beyo
 - The group is presented with an easy way out of a difficult situation that involves lying, cheating, stealing, or the like, but they take the more arduous and honorable path.
 - A hero gives away an important resource, such as a Healing Potion, to help another creature in need.
 
----
-
 ## GAME OF EXCEPTIONS
 
 This game has a fair number of rules. But it also has plenty of character options, specialized equipment, and other game elements that let you break those rules. This is on purpose! Breaking the rules allows heroes to feel special and makes their foes seem extra dangerous.
 
 If you’re not sure what to do when two rules come into conflict with each other, remember that a specific exception always beats a more general rule. The Director has the final say in how rules are adjudicated.
 
----
-
 ## ALWAYS ROUND DOWN
 
 There are times when the rules tell you to divide a number in half. Whenever you divide an odd number in half and it results in a decimal, round the result down to the nearest whole number. For instance, if you have a speed of 7 and become slowed (a condition that halves your speed), then your speed becomes 3.
-
----
 
 ## CREATURES AND OBJECTS
 
@@ -269,13 +225,9 @@ When a creature dies, their body becomes an object, and can be affected by abili
 
 The game sometimes refers to “unattended objects,” which are objects that aren’t held, worn, or controlled by a creature. Whenever an ability affects objects, it affects only unattended objects unless the Director determines otherwise.
 
----
-
 ## PCS AND NPCS
 
 Two types of characters inhabit the world of the game— the player characters (also called PCs or heroes) who are created and controlled by the players, and nonplayer characters (NPCs) created and controlled by the Director. NPCs can include any of the game’s monsters, but when the rules refer to NPCs, they generally do so in the context of interacting with them outside of combat.
-
----
 
 ## BUILDING A HEROIC NARRATIVE
 
@@ -284,8 +236,6 @@ The game takes place in a series of scenes with the heroes as the main character
 This game is built so that each adventure you play and each battle you fight gets more exciting as it goes on. In fantastic tales, the heroes and their foes both grow in power over the course of an adventure. But it isn’t time alone that grows a hero’s capabilities. Rather, it’s the adrenaline that comes from battle, the danger of the hero’s profession, and the pressure to save the world that pushes a character to do the impossible. Each small act of heroism gives a hero the confidence and bravery to perform legendary feats against all odds.
 
 The things a hero can achieve at the end of the story are far more daring and impactful than what they do at the start, and the final showdown against a villain’s forces is more deadly and desperate than the first. The rules of the game help build a heroic narrative in this same fashion, making use of the four most important mechanics for building heroic narratives: Victories, Experience, Heroic Resources, and Recoveries.
-
----
 
 ### VICTORIES
 
@@ -303,8 +253,6 @@ When your hero successfully overcomes a big challenge that doesn’t involve com
 
 Whenever you finish a respite (see Respite), your Victories are converted into Experience.
 
----
-
 ### FOR THE DIRECTOR: AWARDING VICTORIES
 
 We’re still figuring out rules for encounter building, but here are some general guidelines.
@@ -312,15 +260,11 @@ We’re still figuring out rules for encounter building, but here are some gener
 - A successful combat in which the party’s objectives are achieved earns the heroes 1 Victory. Particularly hard encounters are worth 2 Victories when completed.
 - A successful negotiation or montage test should earn the heroes 1 Victory. Other noncombat challenges are left to the Director’s discretion.
 
----
-
 ## EXPERIENCE
 
 Victories temporarily increase a hero’s power during an adventure, but Experience (or XP) permanently improves their capabilities. Each time you finish a respite (see below), you gain XP equal to your Victories, then your Victories drop to 0. In other words, your Victories are converted to XP when you finish a respite.
 
 For more information on how XP increases your hero’s power, see Heroic Advancement.
-
----
 
 ## HEROIC RESOURCES
 
@@ -330,13 +274,9 @@ Some classes, such as the tactician and the fury, generate and use Heroic Resour
 
 Your hero’s class description has more information about how to use your Heroic Resource.
 
----
-
 ## BAGS OF RATS AIN’T HEROIC
 
 Some players might think that quickly starting a fight with some bar patrons or carrying around a bag of rats is a good way to gather up those sweet, sweet Victories and Heroic Resources. Those strategies don’t work! The rules of the game exist to help you tell a cool heroic fantasy story, not so you can try to be clever and exploit them by harming innocent rats to “win.” In order to generate Victories and Heroic Resources, you must face and overcome challenges worthy of a hero!
-
----
 
 ## RECOVERIES
 
@@ -344,21 +284,15 @@ Each hero has a limited number of Recoveries that they can use to heal themself.
 
 When you spend a Recovery, you regain Stamina equal to your recovery value, which is one-third your Stamina maximum.
 
----
-
 ### SPENDING RECOVERIES
 
 During combat encounters and similarly dangerous situations when time is tracked in rounds (see Combat), you can use the Catch Breath action to regain Stamina. See Catch Breath in Actions for more information. Some heroes have abilities that allow them or their allies to spend more Recoveries without using the Catch Breath action.
 
 Outside of combat and other dangerous situations, you can spend Recoveries freely.
 
----
-
 ### REGAINING RECOVERIES
 
 You regain all lost Recoveries when you finish a respite (see Respite).
-
----
 
 ## RESPITE
 
@@ -368,15 +302,11 @@ When you finish a respite, you regain all your Recoveries and Stamina, and your 
 
 The standard eightish hours of sleep one gets at night doesn’t count as a respite. The rules assume that all heroes take the time to sleep, eat, and take care of all the other functions necessary for life even if they aren’t engaged in a respite.
 
----
-
 ## ORDEN AND THE TIMESCAPE
 
 A new game demands new worlds! Welcome to the timescape—a collection of worlds spanning high fantasy, dark fantasy, and even space fantasy! We sincerely hope you take these rules and adapt them to your own world, or adapt your world to these rules, or something in between!
 
 Our tour begins on the world of Orden, the Prime Manifold—a realm of elves, dwarves, humans, orcs, dragons, and more. But human civilization and politics dominate here, especially in the great city of Capital, a hotbed of urban fantasy intrigue.
-
----
 
 ## VASLORIA
 
@@ -384,13 +314,9 @@ A forested medieval and feudal land, Vasloria holds few cities—just towns and 
 
 When Omund was betrayed by Mandrake, a captain of the Dragon Phalanx, his castle fell to Ajax the Invincible—now called the Overlord and the Iron Saint. Ajax’s wizard Mortum unlocked the secret of the ancient flying cities of the sky elves to raise the Chrysopolis, Ajax’s city-fortress in the sky.
 
----
-
 ## CAPITAL
 
 The Greatest City in This or Any Age! City of the Great Game! Located west across the Bale Sea from Vasloria on the eastern coast of Rioja, Capital is not only the largest city in Orden. It’s the largest city there has ever been—larger than the fabled steel dwarf capital of Kalas Valiar, larger even than Alloy, the City at the Center of the Timescape. Capital is the exception to many rules.
-
----
 
 ## THE GREAT HOUSES
 
@@ -400,13 +326,9 @@ The Great Houses, Capital’s ancient noble families, reluctantly share power wi
 
 The Great Game is espionage, and House Alvaro are the best players in the world. Led by Duke Prospero, House Alvaro sponsors the Imperial University, the greatest center of learning in the world. Nobles from across Orden, including from lands as far away as Vanigar, send their children to learn diplomacy and statecraft at the university. The greatest spies in the world are all graduates of the Actian School, one of the university’s many colleges, which once doubled as the intelligence agency of Capital’s late prince.
 
----
-
 ### House Vorona
 
 House Vorona runs the city’s navy, the largest military organization of any kind in Orden. Their engineers perfected the secret of blackpowder and guard it jealously. The Imperial Navy’s cannons protect trade across Orden, placing Capital at the center of international affairs. Vorona’s Far Mariners, aka the marines, are the closest thing to a citywide law enforcement organization.
-
----
 
 ## THE POWER OF THE GUILDS
 
@@ -416,13 +338,9 @@ After the Lilac Night, with the city no longer able to rely on House Valetta to 
 
 The Fulcrum controls the Trade Integrity Board, which sets lending rates and leads trade negotiations between Capital and other governments in Orden. It was that guild that convinced the late prince to switch the city to paper money. As a result, Capital is the first and only city in Orden to have a robust monetary policy.
 
----
-
 ### The Broadsheet Guild
 
 The Broadsheet Guild, formally known as the Font, publishes the thrice-daily news sheets that everyone in the city reads. Guildmaster Inān al-Adwiyya uses a vast network of young people called the Paperfeathers to deliver and sell the broadsheets throughout the city. Lady al-Adwiyya knows almost everything happening anywhere in Capital.
-
----
 
 ## THE MYRIAD WORLDS OF THE TIMESCAPE
 
@@ -430,13 +348,9 @@ Orden is only one world in the timescape! Each star in the night sky is another 
 
 The lower worlds lack the energy necessary for such extraordinary technology to function, and so rely on magic to break the rules.
 
----
-
 ### On Quintessence
 
 On Quintessence, the lowest of the upper worlds, proteans and memonek alike rub shoulders with devils, fire dwarves, and even humans in Quintessence’s capital city of Alloy, the City at the Center of the Timescape. The Free City of Alloy, also known as the City of Brass, is the gateway to the timescape. People traveling to or from the upper and lower worlds meet here to trade goods and information, free from the inflexible laws of UNISOL.
-
----
 
 ## THE TIMESCAPE IN YOUR GAME
 
@@ -444,13 +358,9 @@ We use the timescape and its medieval fantasyland Orden as the default setting p
 
 If you’re the Director, you can use as many or as few of the details of the timescape as you like. You might wish to create your own world within the timescape, or use a setting you’ve created that exists outside of the official MCDM manifolds. You can use details from settings published by other companies. There are no rules when it comes to world-building. Feel free to take what you like from this book and change the rest.
 
----
-
 ## MAKING A HERO
 
 If you’re not the Director, then you create and play one of the main characters in the game’s story—a hero. Your hero is a person motivated to fight forces of evil to protect the innocent, but each hero has their own personal reason for doing so. You don’t have to be a pure beacon of good. Heroes have flaws and are complex, just like people in the real world. But your hero should be someone who isn’t afraid to battle monsters for altruistic reasons.
-
----
 
 ### YOUR FIRST SESSION
 
@@ -464,13 +374,9 @@ The Director should make an agenda for a campaign’s first session—often call
 - Make heroes! Once everyone understands what the campaign is about, it’s the perfect time to get into character creation.
 - The Director runs an encounter to kick off the campaign.
 
----
-
 ## STEP-BY-STEP HERO MAKING
 
 Use the following step-by-step guide to create a hero. These steps are presented in what we believe is the best way to approach making your first hero for *Draw Steel*. That said, the order of the steps is still a suggestion, not a hard and fast rule.
-
----
 
 ### 1. THINK
 
@@ -484,37 +390,25 @@ The first thing you should do is think about the kind of hero you want to make. 
 - What people, places, and objects are important to you?
 - How will your hero complement the strengths and weaknesses of the other heroes?
 
----
-
 ### 2. ANCESTRY
 
 Choose your hero’s humanoid ancestry from among the range of ancestries available in the game—devil, dragon knight, dwarf, hakaan, high elf, human, memonek, orc, polder, revenant, time raider, or wode elf.
-
----
 
 ### 3. CULTURE
 
 Create your hero’s culture. Although ancestry gives your hero a number of physiological benefits, your culture describes the community that raised you and gives you languages and skills.
 
----
-
 ### 4. CAREER
 
 Choose your hero’s career, which describes what you did for a living before you became a hero. Your career gives you skills and a title, and might also give you languages, Renown, or knowledge for crafting and research.
-
----
 
 ### 5. CLASS
 
 Choose your hero’s class. This choice has the biggest impact on how your hero interacts with the rules of the game, especially the rules for combat. Your class provides your characteristic scores and Stamina, in addition to skills, several abilities, and other benefits.
 
----
-
 ### 6. KIT
 
 Choose your hero’s kit. Your kit provides you with equipment and a fighting style that grants a signature ability and bonuses to one or more of your game statistics.
-
----
 
 ### 7. ADD FREE STRIKES
 
@@ -522,19 +416,13 @@ Every hero has the ability to make free strikes under certain circumstances—ex
 
 #TODO - add free strikes
 
----
-
 ### 8. COMPLICATION
 
 Your hero experienced an event that has left them with a benefit and a drawback. Complications are optional, so check with your Director to make sure your game is using them.
 
----
-
 ### 9. DETERMINE DETAILS
 
 Once you’ve created your hero, it’s time to determine the additional details of their backstory, appearance, and personality. How do the events of their culture, career, inciting incident, and class tie together into a cohesive narrative?
-
----
 
 ### 10. MAKE CONNECTIONS
 
@@ -549,21 +437,15 @@ Ask the Director if all the heroes start the campaign knowing each other. If the
 - Another hero creates food, music, clothing, trinkets, or something else that you enjoy. Who is that hero and what do they make?
 - Another hero is teaching you a new skill. Who is it, and what are they teaching you?
 
----
-
 ## CHOOSING SKILLS
 
 This game has lots of skills, and lots of opportunities during character creation to gain them. We recommend recording a list of all the skills you might gain from the different steps of the character creation process, then making your choices at the end of that process rather than flipping back and forth through the book.
 
 If you gain the same specific skill from two different sources (for instance, from a career and a class), you can pick a different skill from the same skill group.
 
----
-
 ## CHANGING CHARACTER OPTIONS
 
 If you pick a skill, ability, class, or any other option that you end up not liking after using it in the game—even your character’s ancestry—you can always freely change that option between game sessions. If you want to change an option during a session, ask your Director. If they say it’s fine to swap that option out for something else, go for it.
-
----
 
 # Heroic Advancement
 
@@ -643,15 +525,11 @@ The law of unintended consequences applies to the just and the unjust alike.
 
 Usually, when some powerful being tries to create an intelligent people, it’s for less than virtuous reasons. The synliroi are responsible for several intelligent species in the timescape, each an attempt to create a perfectly obedient servitor species. The most notorious example are the kuran’zoi, the time raiders who rebelled almost immediately and carry a burning hate for the voiceless talkers to this day.
 
----
-
 ### Starting Size and Speed
 
 Unless otherwise noted, a character from any of these ancestries is size 1M and has a speed of 5.
 
 Where an ancestry provides you with an ability, see the Abilities section for details on the ability format.
-
----
 
 ### Devil
 
@@ -660,8 +538,6 @@ Where an ancestry provides you with an ability, see the Abilities section for de
 “You know, I have a rather interesting story about that...”
 
 The native ancestry of the Seven Cities of Hell, devils are humanoids with red or blue skin expressed in a wide variety of hues, from bright crimson to deep purple. Each devil is born with some hellmark—horns, a tail, cloven hooves, a forked tongue, fanged incisors, or even wings.
-
----
 
 ### On Devils
 
@@ -722,8 +598,6 @@ The two of them stood there, frozen in the middle of the street for a few moment
 #TODO 
 
 Then the devil turned and ran away as quickly as he could.
-
----
 
 “And that’s how I ended up here!” Riyalkin toasted his dinner companion. “Now, after years of obscurity, a legendary hero!”
 
@@ -1400,8 +1274,6 @@ The native denizens of Axiom, the Plane of Uttermost Law, memonek dwell in a lan
 
 The minds of memonek are highly ordered. Their reason is their great pride. But when descending to the lower planes, including a manifold like Orden where law and chaos mix, a sickness comes over them—an uncontrollable sensation called … emotion.
 
----
-
 ### ON MEMONEK
 
 “You want to tell me what just happened?” Sir John asked.
@@ -1648,8 +1520,6 @@ The polder looked at the high elf and nodded, impressed. Test passed.
 
 31  
 **Draw Steel © 2024 MCDM Productions, LLC**
-
----
 
 “Okay. Well, if you’ve already got a candidate, I could get things started. The other half is: we need a good story—short, punchy. Something that’ll catch on, needs to be easy to relate to, but bigger than life. A tax. A toll! Bridge toll, classic. An ogre … no, three ogres. Yeah, three is better. Three ogres in Ajax’s livery. A lone figure standing against them. See? Easy.”
 
@@ -2523,8 +2393,6 @@ Choose a creature within 10 squares of you. You can slide that creature a number
 
 Your attacks deal extra damage equal to twice your Intuition score until the end of your next turn.
 
----
-
 ### 1ST-LEVEL DOMAIN FEATURE
 
 You gain a domain feature from one of your domains, as shown on the 1st-Level Conduit Domain Features table. Additionally, you gain a skill from the chosen domain, selected from the skill group indicated on the table.
@@ -2545,8 +2413,6 @@ You gain a domain feature from one of your domains, as shown on the 1st-Level Co
 | Sun       | Inner Light             | Lore            |
 | Trickery  | Divine Thievery         | Intrigue        |
 | War       | Ritual of Preparation   | Exploration     |
-
----
 
 #### ALERTNESS WARD
 
@@ -2973,8 +2839,6 @@ Whenever you take damage while you have an active persistent ability, you must m
 - 12–16: If you have only one persistent ability active, it remains active. Otherwise, you lose one active persistent ability of your choice.  
 - 17+: All your active persistent abilities remain active.
 
----
-
 #### PRACTICAL MAGIC
 
 You have the following ability:
@@ -3005,8 +2869,6 @@ Your elementalist specialization grants you a feature, as shown on the 1st-Level
 | Fire           | Melt               |
 | Green          | Speech of the Wild |
 | Void           | Void Sense         |
-
----
 
 #### MANIPULATE EARTH
 
@@ -3202,8 +3064,6 @@ A beam of energy corrupts and hinders whatever it touches.
 - 12–16: 6 corruption damage; slowed (EoT)  
 - 17+: 9 corruption damage; slowed (EoT)
 
----
-
 ### HEROIC ABILITIES
 
 You channel a range of heroic abilities, all of them fueled by your essence.
@@ -3211,8 +3071,6 @@ You channel a range of heroic abilities, all of them fueled by your essence.
 #### 3-ESSENCE ABILITIES
 
 Choose one heroic ability from the following options, each of which costs 3 essence to use.
-
----
 
 ##### BURN! (3 ESSENCE)
 
@@ -3230,8 +3088,6 @@ Fire engulfs a target of your choice and burns at your command.
 
 **Persistent 1**: If the target is within distance at the start of your turn, make a power roll for this ability again.
 
----
-
 ##### INVIGORATING GROWTH (3 ESSENCE)
 
 Mushrooms erupt from a foe, sapping their vitality to spread strengthening spores.
@@ -3247,8 +3103,6 @@ Mushrooms erupt from a foe, sapping their vitality to spread strengthening spore
 - 17+: 14 poison damage  
 
 **Effect**: The mushrooms can be removed by the target or by an adjacent creature as an action. While the mushrooms are on the target, each of your allies adjacent to the target gains an edge on attacks against them.
-
----
 
 ##### PUNCH THE EARTH (3 ESSENCE)
 
@@ -3266,8 +3120,6 @@ You slam the ground, which buckles out from you in every direction.
 
 **Effect**: You must be touching the ground or floor to use this ability. The surface beneath the area becomes difficult terrain for your enemies.
 
----
-
 ##### STARE INTO THE ABYSS (3 ESSENCE)
 
 You open a rift into the void to harry your enemies.
@@ -3284,13 +3136,9 @@ You open a rift into the void to harry your enemies.
 
 **Persistent 1**: At the start of your turn, you can use this ability again as a maneuver without spending essence.
 
----
-
 #### 5-ESSENCE ABILITIES
 
 Choose one heroic ability from the following options, each of which costs 5 essence to use.
-
----
 
 ##### CONFLAGRATION (5 ESSENCE)
 
@@ -3308,8 +3156,6 @@ A storm of fire descends upon your enemies.
 
 **Persistent 2**: At the start of your turn, you can use this ability again as a maneuver without spending essence.
 
----
-
 ##### INCORPOREALNESS (5 ESSENCE)
 
 The material substance of a creature shreds away at your command.
@@ -3322,8 +3168,6 @@ The material substance of a creature shreds away at your command.
 **Effect**: Until the start of your next turn, the target has damage immunity 5 and can move through 1 square of solid matter once per turn. If the target ends their turn inside solid matter, they are shunted out into the space where they entered it and this effect ends.
 
 **Persistent 1**: The effect lasts until the start of your next turn.
-
----
 
 ##### NOURISHING RAIN (5 ESSENCE)
 
@@ -4841,8 +4685,6 @@ A stab, and a few quick, careful steps back.
 - 12–16: 9 damage; you shift up to 2 squares
 - 17+: 13 damage; you shift up to 3 squares
 
----
-
 ### GUISARMIER
 
 The Guisarmier kit is for those who want to use a polearm for extended reach and still gain the extra protection of armor. This is the kit that allows you to become the ultimate halberd, longspear, or glaive fighter.
@@ -4870,8 +4712,6 @@ In your hands, the haft is as good as the head.
 - 11 or lower: 4 damage
 - 12–16: 6 damage
 - 17+: 8 damage
-
----
 
 ### MARTIAL ARTIST
 
@@ -4901,8 +4741,6 @@ You feint to move your enemies into perfect position.
 - 12–16: 9 damage; you swap places with the target
 - 17+: 12 damage; you swap places with the target, then slide the target 2 squares  
 **Effect:** If you roll a 12 or better and can’t swap places with the target because one or both of you is too big to fit into the swapped space, you both remain in your original spaces and the target takes 2 extra damage.
-
----
 
 ### MOUNTAIN
 
@@ -4961,8 +4799,6 @@ The faster you move, the harder you hit.
 - 17+: 16 damage  
 **Effect:** You can move up to 3 squares straight toward the target before this attack. You deal extra damage equal to the distance moved this way.
 
----
-
 ### PUGILIST
 
 Meant for brawlers and boxers, the Pugilist kit gives you access to a melee fighting style that boosts your Stamina and damage while allowing you to float like a butterfly. If you want to be a tough, strong hero who doles out punishment with your fists, then this kit is for you.
@@ -4992,8 +4828,6 @@ Keeping your enemies stumbling around the battlefield is second nature to you.
 - 17+: 13 damage; slide 2  
 **Effect:** You can shift into any square your target leaves after you slide them.
 
----
-
 ### RAIDER
 
 The Raider kit keeps you protected while granting you full mobility, providing a boost to speed and distance that lets you run around the battlefield like a Viking warrior.
@@ -5022,8 +4856,6 @@ In your hands, a shield isn’t just for protection.
 - 11 or lower: 4 damage; push 1
 - 12–16: 8 damage; push 2
 - 17+: 11 damage; push 3; prone if the target is your size or smaller
-
----
 
 ### RANGER
 
@@ -5063,8 +4895,6 @@ A well-placed shot leaves your enemy struggling to move.
 - 12–16: 7 damage; slowed (EoT)
 - 17+: 10 damage; slowed (EoE)
 
----
-
 ### RAPID-FIRE
 
 The Rapid-Fire kit is for archers who want to deal maximum damage by shooting as many arrows as possible into nearby enemies. With this kit, your fighting technique focuses on peppering foes at medium range.
@@ -5094,8 +4924,6 @@ When you fire two arrows back to back, both hit their mark.
 - 12–16: 6 damage
 - 17+: 7 damage
 
----
-
 ### RETIARIUS
 
 The retiarius is often depicted as a lightly armored warrior with a net in one hand and a trident in the other, and this kit gives you the equipment and fighting technique to make that happen. Tie up your foe with a net and then poke them to death!
@@ -5124,8 +4952,6 @@ The well-thrown net that follows your main attack leaves your foes right where y
 - 11 or lower: 4 damage
 - 12–16: 7 damage; slowed (EoT)
 - 17+: 10 damage; restrained (EoT)
-
----
 
 ### SHINING ARMOR
 
@@ -5183,8 +5009,6 @@ Breathe… aim… wait… then strike!
 - 17+: 14 damage  
 **Effect:** If you don’t take a move action this turn, you gain an edge on this attack.
 
----
-
 ### STICK AND ROBE
 
 Armed with a simple reach weapon, often a quarterstaff, heroes using the Stick and Robe kit are highly mobile thanks to their light armor. This allows them to make maximum use of their weapon’s length.
@@ -5214,8 +5038,6 @@ When your stick speaks, your enemy moves.
 - 12–16: 8 damage; slide 1
 - 17+: 11 damage; slide 3
 
----
-
 ### SWASHBUCKLER
 
 If you want to be mobile and deal a lot of damage with melee attacks, then you should reach for the Swashbuckler kit. This is a great kit for heroes who want to be master duelists.
@@ -5244,8 +5066,6 @@ All combat is a dance—and you’ll be the one leading.
 - 12–16: 10 damage; push 1
 - 17+: 14 damage; push 2  
 **Effect:** You can shift into any square your target leaves after you force move them with this ability.
-
----
 
 ### WHIRLWIND
 
@@ -6097,8 +5917,6 @@ When interpreting the outcome of a group test, the Director first determines if 
 - If the heroes succeeded and half or more of them obtained a reward from the test, the Director gives the group a collective reward and ignores any consequences incurred in the test. This collective reward should be equivalent to earning two individual rewards. In fact, it could be two consumable items, juicy pieces of information, or hero tokens. However, it could also be something more tailored to the task. For instance, if the heroes earn a collective reward while sneaking through the camp of an enemy army, the Director might allow them to sabotage a bunch of war engines or steal a few horses on their way out.
 - If the heroes failed the group test and more than half of them incurred a consequence as a result, the Director gives the group a collective consequence and ignores any earned rewards. This collective consequence should affect everyone. An easy option is for the stress of failing the test to cause each hero to take a bane on their next power roll or for the Director to gain 2 VP per hero at the start of the next combat encounter, but the consequence could also be tailored to the task. For instance, if the heroes fail in their attempt to sneak through the camp of an enemy army, they’re spotted and the camp immediately goes on alert as waves of enemies attack them.
 - If fewer than half the heroes get a consequence or reward on their individual tests, then the group test simply succeeds or fails.
-
----
 
 ### MONTAGE TESTS
 
