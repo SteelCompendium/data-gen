@@ -13,6 +13,7 @@ You help keep your side in motion as attacks rain down on your foes.
 - **Type:** Triggered
 - **Distance:** Self or Ranged 10
 - **Target:** You or an ally
+- **Trigger:** A nontarget ally is about to make an attack.
 
 **Effect:** The target can shift up to 2 squares before the attack resolves. After the attack resolves, both the original attacker and the target can shift up to 2 squares.
 

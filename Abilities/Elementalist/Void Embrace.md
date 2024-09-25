@@ -13,6 +13,7 @@ You call on the void to swallow and spit out an ally.
 - **Type:** Triggered
 - **Distance:** Self or Ranged 5
 - **Target:** Self or 1 ally
+- **Trigger:** The target starts their turn or moves.
 
 **Effect:** At any point during the move, you teleport the target a number of squares equal to your Reason.
 
