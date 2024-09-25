@@ -6,7 +6,7 @@
     "just@latest",
     "jq@latest",
     "pandoc@latest",
-    "html-tidy@latest"
+    "html-tidy@latest",
   ],
   "env": {
     "DEVBOX_COREPACK_ENABLED": "true"
@@ -21,7 +21,7 @@
       "pip install mdformat mdformat-wikilink mdformat-tables mdformat-frontmatter"
     ],
     "scripts": {
-      "generate": "just generate",
+      "generate":      "just generate",
       "generate_json": "just generate_json",
       "generate_html": "just generate_html_pandoc"
     }

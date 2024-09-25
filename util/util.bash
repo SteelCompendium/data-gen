@@ -36,6 +36,7 @@ html_to_md() {
     # Cleanup the markdown files
     reduce_headers_in_md "${h_folder_path}/${markdown_filename}"
     title_case_headers_in_md "${h_folder_path}/${markdown_filename}"
+    # TODO - the format_ability_tables should probably go here?
     build_and_apply_frontmatter "${h_folder_path}/${markdown_filename}"
 
     # Delete html file
@@ -93,17 +94,47 @@ build_and_apply_frontmatter() {
         subtype=""
     fi
 
+    # this is temporary - the same regex is used in format_ability_tables. It is VERY slow
+    local ability_kv_pairs
+    ability_kv_pairs="$(sed -nE "s/^\-?\s*\*\*([^:\*]+?)\**:\**\s*(\S.*)?\s*$/\1: \2/p" "$md_file_path")"
+    if [ -n "${ability_kv_pairs:-}" ]; then
+        local keywords
+        keywords="$(echo "$ability_kv_pairs" | awk -F: '/^Keywords:/ { print $2 }' | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
+        local ability_type
+        ability_type="$(echo "$ability_kv_pairs" | awk -F: '/^Type:/ { print $2 }' | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
+        local distance
+        distance="$(echo "$ability_kv_pairs" | awk -F: '/^Distance:/ { print $2 }' | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
+        local target
+        target="$(echo "$ability_kv_pairs" | awk -F: '/^Target:/ { print $2 }' | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
+        local trigger
+        trigger="$(echo "$ability_kv_pairs" | awk -F: '/^Trigger:/ { print $2 }' | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
+    fi
+
     frontmatter_path="$(mktemp)"
     echo "---
-title: \"${title}\"
-name: \"${name}\"
-type: \"${type}\"" >> "$frontmatter_path"
-
-    if [ -n "$cost" ]; then
+title: \"${title:-}\"
+name: \"${name:-}\"
+type: \"${type:-}\"" >> "$frontmatter_path"
+    if [ -n "${cost:-}" ]; then
         echo "cost: \"${cost}\"" >> "$frontmatter_path"
     fi
-    if [ -n "$subtype" ]; then
+    if [ -n "${subtype:-}" ]; then
         echo "subtype: \"${subtype}\"" >> "$frontmatter_path"
+    fi
+    if [ -n "${keywords:-}" ]; then
+        echo "keywords: \"${keywords}\"" >> "$frontmatter_path"
+    fi
+    if [ -n "${ability_type:-}" ]; then
+        echo "ability_type: \"${ability_type}\"" >> "$frontmatter_path"
+    fi
+    if [ -n "${distance:-}" ]; then
+        echo "distance: \"${distance}\"" >> "$frontmatter_path"
+    fi
+    if [ -n "${target:-}" ]; then
+        echo "target: \"${target}\"" >> "$frontmatter_path"
+    fi
+    if [ -n "${trigger:-}" ]; then
+        echo "trigger: \"${trigger}\"" >> "$frontmatter_path"
     fi
     echo "---" >> "$frontmatter_path"
 

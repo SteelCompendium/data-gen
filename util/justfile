@@ -95,6 +95,17 @@ generate_abilities:
     # Common Actions
     just generate_section "$abilities_path/Common Actions" "//section[@id='combat']//section[@id='actions']//section[@class='level4']"
 
+generate_index directory_path:
+    #!/usr/bin/env bash
+    set -euo pipefail
+
+    index_name=$(basename "{{directory_path}}")
+    echo >&2 "[JUST] Generating index for $index_name"
+
+    index_path="{{directory_path}}/index.md"
+
+
+
 generate_movement:
     #!/usr/bin/env bash
     set -euo pipefail
@@ -196,6 +207,7 @@ generate_negotiation:
     just generate_section "$negotiation_path/Motivations and Pitfalls" "$xpath"
     rm "$negotiation_path/Motivations and Pitfalls/Npcs Change Over Time.md"
 
+# Generate markdown files for all matches of an xpath (via html)
 generate_section destination_path xpath skip_delete="true":
     #!/usr/bin/env bash
     set -euo pipefail
@@ -211,6 +223,7 @@ generate_section destination_path xpath skip_delete="true":
     python3 ./query.py "{{xpath}}" "../Rules/Draw Steel Rules.html" "{{destination_path}}"
     html_folder_to_md "{{destination_path}}"
 
+# Converts unordered lists for ability keywords, type, distance, and targets into a markdown table
 format_ability_tables:
     #!/usr/bin/env bash
     set -euo pipefail
@@ -218,6 +231,7 @@ format_ability_tables:
 
     python3 format_ability_tables.py "../"
 
+# Generale formatting on generated markdown files (mdformat)
 format_markdown:
     #!/usr/bin/env bash
     set -euo pipefail
@@ -229,6 +243,7 @@ format_markdown:
         fi
     done
 
+# Generates links between markdown files
 auto_link:
     #!/usr/bin/env bash
     set -euo pipefail
