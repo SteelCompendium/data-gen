@@ -20,6 +20,8 @@ Draw Steel Compendium is an independent product published under the DRAW STEEL C
 - Keywords tables in "linked" rules doc
 - [[Hide|hide]] and sneak, cover, concealment
 - adventuring - falling, suffocating
-- negotiation (at least motivations and pitfalls)
 - statblocks
 - Setup custom domain on site
+- Class ability tables
+  - cost, range, target, etc as columns
+- auto-link files to handle plural words

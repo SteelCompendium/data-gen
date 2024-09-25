@@ -17,10 +17,10 @@ What You Need to Play
 
 This adventure comes with a full set of pregenerated heroes:
 
-- **Conduit:** A priest who heals allies and smites enemies with divine power.
+- **Conduit:** A priest who [[Heal|heals]] allies and smites enemies with divine power.
 - **Elementalist:** A mage who harnesses the elements of creation to devastate foes.
 - **Fury:** A warrior who can hit hard and soak up damage thanks to their growing rage in battle.
-- **Shadow:** A sneaky assassin who teleports around the battlefield.
+- **Shadow:** A sneaky assassin who [[Teleport|teleports]] around the battlefield.
 - **Tactician:** A strategist and protector who inspires allies to be more effective.
 
 ## Adventure Formatting
@@ -173,11 +173,11 @@ By the time the heroes reach the deck, the threat is clear:
 
 _Another ship sails dangerously close to the Revelation, its crew gleefully loading ballistae with flaming bolts. Three such bolts already stick into the hull above the waterline, wooden planks beginning to smolder. The other ship’s black sails billow violently in the rough wind. These are pirates, and they’re here to raise hell._
 
-_Two gangplanks are lowered between the ships, a ragtag group of raiders sprinting across to terrorize [[Frightened|frightened]] passengers attempting to flee the deck._
+_Two gangplanks are lowered between the ships, a ragtag group of [[Raider|raiders]] sprinting across to terrorize [[Frightened|frightened]] passengers attempting to flee the deck._
 
 Use the Pirate Attack Map for this encounter.
 
-Three groups of [[Human|human]] pirates have crossed the gangplanks by the time the characters arrive on the scene: a scoundrel captain and two guards, a brawler captain and two raiders, and three archers. The pirates want the passengers’ valuables, not their lives, but they’re not above using [[Human|human]] shields or gravely wounding innocents if the heroes take them on.
+Three groups of [[Human|human]] pirates have crossed the gangplanks by the time the characters arrive on the scene: a scoundrel captain and two guards, a brawler captain and two [[Raider|raiders]], and three archers. The pirates want the passengers’ valuables, not their lives, but they’re not above using [[Human|human]] shields or gravely wounding innocents if the heroes take them on.
 
 Both of the heavy wooden gangplanks can be lifted and shoved off the ship’s rail with a medium Might test, letting it tumble into the sea and preventing more pirates from crossing over on it (see Villain Power below). Each gangplank also has Stamina 10 and fire weakness 5 if attacked or caught in a damaging area effect. If a gangplank is pushed away from the ship or destroyed, any creature standing on it falls into the sea, 3 squares below deck level.
 
@@ -185,9 +185,9 @@ Four civilians remain on the deck at the start of the fight, each a noncombatant
 
 #### TACTICS
 
-The brawler attempts to [[Grab|grab]] the nearest noncombatant as a shield, leaving nearby heroes to deal with the raiders. The scoundrel and their guards select the nearest hero and focus attacks on them, attempting to pick characters off one by one. The archers make ranged attacks from the back ranks, doing their best to stay out of melee.
+The brawler attempts to [[Grab|grab]] the nearest noncombatant as a shield, leaving nearby heroes to deal with the [[Raider|raiders]]. The scoundrel and their guards select the nearest hero and focus attacks on them, attempting to pick characters off one by one. The archers make ranged attacks from the back ranks, doing their best to stay out of melee.
 
-At the start of each round, if at least one gangplank is still up, a group of two raiders appears at the far end of a gangplank and prepares to board on their turn.
+At the start of each round, if at least one gangplank is still up, a group of two [[Raider|raiders]] appears at the far end of a gangplank and prepares to board on their turn.
 
 #### VILLAIN POWER
 
@@ -251,7 +251,7 @@ _Everyone helps in the effort to save the ship, from the captain, to all able pa
 
 If the heroes earn a partial success, they stabilize the ship, but many crew and passengers are injured. Fighting the fire is exhausting work, and each hero takes a bane on their next power roll.
 
-_Water flooding the cargo hold stops the fire even as you get the leaks repaired, but renders much of the black powder useless. The ship won’t blow, but it isn’t moving very quickly either. A fortunate breeze allows the Revelation to creep ever closer to port. Some members of the crew send lifeboats out ahead with passengers, but Captain Oriel remains with her ship until it crawls up to the docks._
+_Water flooding the cargo hold stops the fire even as you get the leaks repaired, but renders much of the black powder useless. The ship won’t blow, but it isn’t moving very quickly either. A fortunate breeze allows the Revelation to creep ever closer to port. Some members of the crew send lifeboats out ahead with passengers, but Captain Oriel remains with her ship until it [[Crawl|crawls]] up to the docks._
 
 ##### TOTAL FAILURE
 
@@ -290,7 +290,7 @@ Even as the heroes and Captain Oriel step onto the docks alongside the ship’s 
 
 Coriad and Tyria both caught sight of the Revelation’s misfortune while on patrol above the city, though they were unable to reach the ship during the pirate attack. After ensuring that everyone is safe, they demand an explanation.
 
-*Two humans riding giant hawks fitted with saddles and bridles descend to the docks as you arrive. Concern is etched on their faces as they see the damaged ship. “Is everyone safe? We can help with the wounded. And what happened here?” These are Hawklords, the elite guards of Ajax the Invincible, and agents of the Overlord’s authority.*
+*Two [[Human|humans]] riding giant hawks fitted with saddles and bridles descend to the docks as you arrive. Concern is etched on their faces as they see the damaged ship. “Is everyone safe? We can help with the wounded. And what happened here?” These are Hawklords, the elite guards of Ajax the Invincible, and agents of the Overlord’s authority.*
 
 #### INITIAL QUESTIONING
 

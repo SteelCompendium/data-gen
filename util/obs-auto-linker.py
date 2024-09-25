@@ -1,6 +1,7 @@
 import os
 import re
 import sys
+import inflect
 
 # List of notes that should NOT be linked TO in other files
 titles_to_skip = [
@@ -16,6 +17,8 @@ folders_to_skip = [
     "Negotiation/Motivations and Pitfalls" # "Power" is one of the motivations which will link to every Power Roll
 ]
 
+p = inflect.engine()
+
 def find_markdown_files(directory):
     """Find all markdown files in a given directory."""
     markdown_files = []
@@ -24,7 +27,6 @@ def find_markdown_files(directory):
         def should_skip():
             for to_skip in folders_to_skip:
                 if f"../{to_skip}" in root:
-                    print(f"../{to_skip} is in {root}")
                     return True
             return False
         if should_skip():
@@ -98,21 +100,36 @@ def update_unlinked_references_in_file(file_path, note_titles):
             if title.lower() == os.path.splitext(os.path.basename(file_path))[0].lower():
                 continue
 
-            # This regex looks for the note title as a standalone word (case-insensitive), not inside existing links
-            # Negative lookbehind ensures the match is not preceded by [[ or |
-            # Negative lookahead ensures the match is not followed by ]] or |
-            pattern = r'(?<![\[\|])\b{}\b(?![\]\|])'.format(re.escape(title))
+            forms = set()
+            forms.add(title)
 
-            # Define a replacement function to handle casing and create alias if needed
-            def replace_with_link(match):
-                found_text = match.group(0)
-                if found_text != title:
-                    # If the found text case doesn't match the title, create an alias
-                    return f'[[{title}|{found_text}]]'
-                return f'[[{title}]]'
+            # Generate singular and plural forms using inflect
+            singular_form = p.singular_noun(title)
+            if singular_form and singular_form.lower() != title.lower():
+                forms.add(singular_form)
 
-            # Replace any found references with Obsidian-style links, handling case and alias
-            content = re.sub(pattern, replace_with_link, content, flags=re.IGNORECASE)
+            plural_form = p.plural(title)
+            if plural_form and plural_form.lower() != title.lower():
+                forms.add(plural_form)
+
+            # Convert forms to list and sort by length in descending order
+            forms = sorted(forms, key=len, reverse=True)
+
+            for form in forms:
+                # This regex looks for the form as a standalone word (case-insensitive), not inside existing links
+                pattern = r'(?<![\[\|])\b{}\b(?![\]\|])'.format(re.escape(form))
+
+                # Define a replacement function to handle casing and create alias if needed
+                def replace_with_link(match):
+                    found_text = match.group(0)
+                    if found_text != title:
+                        # If the found text case doesn't match the title, create an alias
+                        return f'[[{title}|{found_text}]]'
+                    return f'[[{title}]]'
+
+                # Replace any found references with Obsidian-style links, handling case and alias
+                content = re.sub(pattern, replace_with_link, content, flags=re.IGNORECASE)
+
             content = remove_links_in_headers_and_frontmatter(content)
 
         # Only write changes if there are any updates
