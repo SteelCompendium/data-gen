@@ -114,7 +114,7 @@ ability_json_to_markdown() {
     local content_path
     content_path="$(mktemp)"
 
-    ability_field_to_markdown "" "flavor" "" "$value_raw" >> $content_path
+    ability_field_to_markdown "" "description" "" "$value_raw" >> $content_path
 
     ability_field_to_markdown "\n- **Keywords:** " "keywords" "" "$value_raw" >> $content_path
     ability_field_to_markdown "- **Type:** " "type" "" "$value_raw" >> $content_path
