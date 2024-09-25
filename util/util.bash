@@ -94,7 +94,7 @@ build_and_apply_frontmatter() {
         subtype=""
     fi
 
-    # this is temporary - the same regex is used in format_ability_tables. It is VERY slow
+    # this is temporary - similar regex is used in format_ability_tables. It is VERY slow
     local ability_kv_pairs
     ability_kv_pairs="$(sed -nE "s/^\-?\s*\*\*([^:\*]+?)\**:\**\s*(\S.*)?\s*$/\1: \2/p" "$md_file_path")"
     if [ -n "${ability_kv_pairs:-}" ]; then
@@ -123,6 +123,7 @@ type: \"${type:-}\"" >> "$frontmatter_path"
     fi
     if [ -n "${keywords:-}" ]; then
         echo "keywords: \"${keywords}\"" >> "$frontmatter_path"
+        echo "keyword_list: [${keywords}]" >> "$frontmatter_path"
     fi
     if [ -n "${ability_type:-}" ]; then
         echo "ability_type: \"${ability_type}\"" >> "$frontmatter_path"
