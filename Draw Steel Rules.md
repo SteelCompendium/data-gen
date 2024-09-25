@@ -87,17 +87,11 @@ If you’ve most often played medieval fantasy RPGs that use a d20 and have Stre
 Here are a few key distinctions between this game and typical d20 fantasy that you’ll notice right away. These aren’t the only distinctions, but they’re the most obvious:
 
 - **Attacks automatically deal damage.** You can still have a bad turn! A tier one result is not awesome, but at least you’re making progress. The trick is: who’s making progress faster? You or the monsters? Since there’s no “I miss, next” in this game, fights tend to be short. 5 rounds is a long fight. Because everyone’s always doing damage!
-
 - **You don’t need to rest all the time.** Most d20 fantasy games are games of attrition. Your spell slots and other features dwindle as the adventuring day goes on. In Draw Steel, you need to rest to regain your Stamina and Recoveries (the stat that determine how robust you are in combat). But all characters earn the ability to use their magic and other awesome abilities as they adventure, encouraging you to press on heroically.
-
 - **Character options are different.** We very strongly recommend you start by looking through the character creation section before you decide what you want to play. You can’t just assume the conduit is “basically a cleric.” In some ways it is! But in other ways it’s very different. You may have some cool character archetype you love to play in d20 Fantasy and you’re dying to see how it works in *Draw Steel*, but you’ll have a lot more fun if you start by browsing the Ancestries and Class sections and being inspired. Once you know how the game works, you’ll have a better handle on how to build your favorite character in here.
-
 - **Smaller bonuses and penalties** *Draw Steel* is built around the roll of two ten-sided dice to produce three possible outcomes. On the surface, this might not seem that different from rolling a twenty-sided die and having two outcomes, but we’ve run the math. A lot. A bonus of +1 or penalty of −2 is significant in *Draw Steel*, much more so than in a typical d20 fantasy game. That means you should feel pretty good attempting most power rolls—the rolls you make to determine success out of combat—if you have a decent characteristic bonus on those rolls. And if you have a specific skill that applies to a power roll made as a test outside of combat, you’ll do even better.
-
 - **Our game has a lot of skills** Your character can make use of a long list of skills, but we don’t expect you to memorize that list. We get into why there are so many skills in the *Tests* chapter, but the short version is that we think having a lot of skills allows you to create more distinct and specialized heroes, which supports the sort of gameplay we want to see in *Draw Steel*. And skills in *Draw Steel* aren’t tied to characteristics. If you’re trying to lose someone in a crowd? You can use Presence to Hide! Why not?
-
 - **We won’t be able to point out every difference.** Beyond what’s noted here, don’t assume that these rules work like any d20 fantasy game you’ve played. We don’t have the space to point out every exception. So if you’re in doubt about how something works, put d20 fantasy out of your mind and read our rules without those assumptions, and you’ll find that things make better sense. If you’re still confused, stop by the MCDM Discord and ask. We’ve got tons of awesome community members ready to help!
-
 - **We don’t expect you to do everything to the letter.** This is actually one thing *Draw Steel* does have in common with d20 fantasy. This is a big book of rules! Don’t stress if you need to look something up or make a ruling about an edge case on the fly. If everyone’s having fun, you’re doing it right.
 
 ## THE BASICS
@@ -423,7 +417,7 @@ The Imperial Navy’s canons protect trade across Orden, placing Capital at the 
 
 Duke Marco Vorona sponsors the Imperial War College, also known as the Academy. A prestigious institution rivaling any college of the Imperial University, the Academy boasts graduates among all the noble families in Orden. This widespread allegiance creates a vast informal network in the city, referred to cynically as the Old Class Ring, that gives House Vorona access to intelligence that other factions can only dream of.
 
-House Navarr, the oldest of the Great Houses, enforces the law of the Church of Saint Ysabella the Pitiless, which theycall justice. The house is led by His Grace Orsino, Duke Navarr, archbishop of that most powerful church in the city. Under his rule, House Navarr consolidates a vast network of different churches and knights across the region under one elaborate system of patronage. 
+House Navarr, the oldest of the Great Houses, enforces the law of the Church of Saint Ysabella the Pitiless, which theycall justice. The house is led by His Grace Orsino, Duke Navarr, archbishop of that most powerful church in the city. Under his rule, House Navarr consolidates a vast network of different churches and knights across the region under one elaborate system of patronage.
 
 Arguably the most powerful Great House, House Valetta controls the city’s tax collectors, known as the Arbitros Fiat. Valetta is led by the Duchess Lenore, who opened theCodex Mortis while in mourning for her assassinated husband Maximo, speaking a ritual from that ancient necromantic artifact that should have returned her love to life. Instead, she brought about the Lilac Night, which transformed everyone in her district into undead—including herself. The Duchess Lenore is now an immortal vampire queen, a dead lady ruling over a dead city.
 
@@ -492,6 +486,7 @@ Use the following step-by-step guide to create a hero. These steps are presented
 Many players like to build a hero from the backstory up, making ancestry and culture ideal first choices. However, some players like to start more in the present, choosing an inciting incident and a class—the choices with the most potential impact on what your character can do in the game—and then going back and figuring out where their hero came from. There’s no wrong way to do it!
 
 You’ll want a character sheet to fill out while you make your hero.
+
 *(Playtest note: The character sheet is still to come.)*
 
 #### 1. THINK
@@ -523,6 +518,7 @@ Choose your hero’s career, which describes what you did for a living before yo
 #### 5. CLASS
 
 Choose your hero’s class. This choice has the biggest impact on how your hero interacts with the rules of the game, especially the rules for combat. Your class provides your characteristic scores and Stamina, in addition to skills, several abilities, and other benefits. You can be a censor, conduit, elementalist, fury, null, shadow, tactician, talent, or troubadour. See *Classes* for more information.
+
 *(Playtest note: The currently available classes are the conduit, elementalist, fury, shadow, and tactician, each of which includes only 1st-level features.)*
 
 #### 6. KIT
@@ -693,6 +689,7 @@ Where an ancestry provides you with an ability, see *Abilities* for details of t
 ## DEVIL
 
 “Go to hell!”
+
 “You know, I have a rather interesting story about that…”
 
 The native ancestry of the Seven Cities of Hell, devils are humanoids with red or blue skin expressed in a wide variety of hues, from bright crimson to deep purple. Each devil is born with some hellmark—horns, a tail, cloven hooves, a forked tongue, fanged incisors, or even wings.
@@ -995,6 +992,7 @@ The legacy of the Dragon Phalanx lives in you. Choose one of the following benef
 ## DWARF
 
 “Remember, we are dwarves. Our strength is the strength of the earth. The strength of the marble column that rises to the heavens. The strength of the granite foundation that reaches deep into the ground. But what is the value of strength if it is not used in service of justice?”
+
 —Zarok the Lawgiver, Hero, Dwarves 232
 
 Possessed of a strength that belies their size, dwarves have flesh infused with stone—a silico-organic hybrid making them physically denser than other humanoids. They enjoy a reputation in Orden as savvy engineers and technologists thanks to the lore they inherited from their elder siblings, the long-extinct steel dwarves.
@@ -1004,6 +1002,7 @@ Dwarves are the children of the elder god Ord, and a common phrase among dwarves
 ### ON DWARVES
 
 There’s nothing a team of dwarves can’t do! Five dwarves alone can easily kill a dragon. Ten dragons![^1] Why, Vorka the Fell-Handed alone slew five dragons at the Siege of Var Loska before succumbing to her wounds. One dwarf! Think what a small, dedicated party of dwarves could do!
+
 There aren’t many of the great dragons left, alas, so we must … I mean, dwarves must content themselves with fighting lesser evils. Necromancers, tyrants. Folks who cheat at dice.
 
 Dwarves take the long view. Well, so do elves, but elves seem more interested in preserving things. Dwarves want to make things! Improve the world! “The world is fine the way it is …” Shut up! No it’s not! The world is full of pain, misery, injustice. We cannot make a perfect world, but we can strive to improve the one we’ve got!
@@ -1043,21 +1042,25 @@ Your heavy stone body and connection to the earth makes it difficult for others 
 You can carve a magic rune onto your skin. The rune you carve determines the benefit you receive. You can change or remove this rune with 10 minutes of work while not engaged in combat.
 
 - **Detection:** Pick a specific type of creature, such as “goblins” or “humans” or an object, such as “magic swords” or “potions.” Your rune glows softly when you are within 20 squares of a chosen creature or object, regardless of line of effect. You can change the type of creature as a maneuver.
-
 - **Light:** Your skin sheds light for 10 squares. You can turn this on and off as a maneuver.
-
 - **Voice:** As a maneuver, you can communicate telepathically with another willing creature you have met before whose name you name, who can speak and understand a language you know, and is within 1 mile of you. You and the creature can respond to one another as if having a normal conversation. You can change the person you communicate with by changing the rune.
 
 ## ELF, WODE
 
 See you the wood so dark and deep,
+
 Where runs the fox and hare?
+
 You know now why your mother weeps.
+
 Your father’s bones lie there.
 
 See you the river clear and sweet
+
 So beautiful and fair?
+
 Follow it in and you may meet
+
 The Queen of Dark and Air.
 
 Children of the sylvan celestials and masters of the elf-haunted forests called wodes, wode elves see all forests as their domain by birthright. They know and enjoy their reputation among humans for snatching children who wander too far into the woods. Humans should fear the trees.
@@ -1543,16 +1546,19 @@ Each orc has within them a fire that causes their veins to glow once blood is dr
 ### ON ORCS
 
 What a world we have made.
+
 Indeed, what a marvel!
 
 It is a marvel now, with the dragons and celestials, elementals and terrans.
 
 It is unseemly. It was better before things started talking.
+
 And having opinions. About our creation. About us!
 
 Oh, I don’t know. I thought I agreed, but then look you what our sibling Ord has made. A fine people, these elementals. They make marvels. Ord made them, and now they make miracles.
 
 We make marvels. The world is a miracle, and enough.
+
 Yes. But still. I think I might try my hand at children. It seems a worthy pursuit.
 
 Heed the lesson of our Shamèd Brother. It was better before the coming of the terrans. Before the coming of war.
@@ -1576,6 +1582,7 @@ Look where that got him.
 Hush, you. We should not be too hard on our Brother In Mourning. He has paid for his hubris. My children would love the world more than lore. That is my answer.
 
 They seem a fine people, if you ask me.
+
 And there they are, look at them! Kul, your thoughts made real! Only in the world a little while, and already growing, learning.
 
 Ah! My children! So fierce and unyielding. I see you lead short lives, like the terrans. Perhaps this is good.
@@ -1595,12 +1602,15 @@ And will they know you?
 If they wish. Much as I agreed with…the Father of Men…I find worship unseemly.
 
 Agreed.
+
 Agreed!
 
 Let me introduce myself, at least.
 
 Ahem.
+
 “Hear me, kanin! This world we made is yours, as much as it is anyone’s. You belong here.
+
 “Know that you are my children, the children of Kul, he who put fire within the world. And there is fire in you. And though the world and fate and baser minds may conspire to destroy your light, you will survive. And more than survive, you will thrive. And in thriving, you will conquer!”
 
 ### ORC BENEFITS
@@ -1646,6 +1656,7 @@ The three peasants—Jago, his wife Sarah, and his sister Beth—sat together wa
 “Really? That’s weird. I’m from Tor, I’ve been all over—just never met a polder before.”
 
 Jackson looked at his friend, the high elf void mage. “Am I crazy?”
+
 “You’re not crazy,” Embers smiled. She was enjoying watching two of her friends get to know each other.
 
 “John’s just never run into one, it seems.”
@@ -1691,6 +1702,7 @@ John took a deep breath and came back to reality. “Well. If we could be picky,
 The polder looked at the high elf and nodded, impressed. Test passed.
 
 31
+
 **Draw Steel © 2024 MCDM Productions, LLC**
 
 “Okay. Well, if you’ve already got a candidate, I could get things started. The other half is: we need a good story—short, punchy. Something that’ll catch on, needs to be easy to relate to, but bigger than life. A tax. A toll! Bridge toll, classic. An ogre … no, three ogres. Yeah, three is better. Three ogres in Ajax’s livery. A lone figure standing against them. See? Easy.”
@@ -1895,7 +1907,9 @@ Your supernatural gifts allow you to influence other undead. You gain an edge on
 ## TIME RAIDER
 
 “I fear no living thing, but the time raiders.”
+
 —Chief Executive Admiral Lithiri Aswandala
+
 Commander of the HOV First Get Behind Them Memonek
 
 The original servitor species of the synliiroi—evil psions with near god-like power—the kuran’zoi liberated themselves during the First Psychic War. In the centuries since, they built their own culture and civilization as nomads of the timescape. The exonym “time raiders” was given to them by denizens of the lower worlds who, seeing the advanced technology they wield, concluded they must be from the future.
@@ -2171,6 +2185,7 @@ If the culture you create doesn’t grant a skill that you want, check with your
 ## CAREER
 
 Hero isn’t a job. It’s a calling. But before you answered that call, you had a different job or vocation that paid the bills. Thank the gods for that, because the experience you gained in that career is now helping you save lives and slay monsters.
+
 (Playtest note: Eight careers are detailed below, with more coming.)
 
 ### CAREER QUESTIONS
@@ -2200,6 +2215,7 @@ Some careers provide project points that you can put toward research and craftin
 #### CAREER TITLE
 
 Your career provides you with a common title. See Titles for more information.
+
 (Playtest note: The Titles section is still to come.)
 
 ### INCITING INCIDENT
@@ -2207,6 +2223,7 @@ Your career provides you with a common title. See Titles for more information.
 Each career has a list of inciting incidents, each of which suggests a potential reason why you gave up your career, turned away from a possibly comfortable and reliable living, and took up the sword (or axe or wand) to become an adventuring hero. Each inciting incident represents a life-changing event that might have motivated you to change course, becoming a person who risks it all to save others.
 
 You can roll for or choose an inciting incident from the table that accompanies each career. You can also use the table as inspiration and work with your Director to come up with a unique inciting incident of your own.
+
 (Playtest note: There are currently three inciting incidents for each career. More are coming.)
 
 #### WHAT WAS TAKEN FROM YOU?
@@ -2428,7 +2445,9 @@ You gain the following career benefits:
 ## CLASSES
 
 (Playtest note: Introduction to come.)
+
 Your class provides you with most of your abilities. For details on the ability format, see Abilities.
+
 (Playtest note: The currently available classes are the conduit, elementalist, fury, shadow, and tactician, each of which includes only 1st-level features.)
 
 ## CONDUIT
@@ -2463,7 +2482,9 @@ As a conduit, you gain the following features.
 #### DEITY AND DOMAINS
 
 Choose a god or saint who you revere from the Conduit Deities table, or ask your Director about the deities in your campaign world. With the Director’s permission, you can also create your own deity, and can choose four domains to be part of their portfolio.
+
 After choosing your deity, pick two domains from their portfolio. Your choice of domains determines many of the features you’ll gain from this class.
+
 (Playtest note: More gods and saints are coming, along with their descriptions.)
 
 ### CONDUIT DEITIES
@@ -2480,7 +2501,9 @@ After choosing your deity, pick two domains from their portfolio. Your choice of
 #### PIETY
 
 Your deity grants you a Heroic Resource called piety to fuel your abilities. You use piety to heal and empower your allies, and to unleash your deity’s power upon your foes.
+
 Outside of combat and other dangerous situations tracked in turns and rounds, you have piety equal to your Victories. If you lose some or all of this piety outside of combat, it takes you 1 minute to regain it.
+
 When a combat encounter begins, you keep any piety you had outside of combat. At the start of each of your turns during combat, you gain 2 piety. You can also use the Prayer ability to gain additional piety. When combat ends, you once again have piety equal to your Victories.
 
 #### PRAYER
@@ -4773,7 +4796,9 @@ For example, the Shining Armor Kit has a +2/+2/+2 melee weapon damage bonus, inc
 ### DISTANCE BONUS
 
 If you have a martial kit, its distance bonus increases the distance of your abilities with the Ranged and Weapon keywords.
+
 If you have a caster kit, its distance bonus increases the distance of your abilities with the Magic and Ranged keywords.
+
 A distance bonus doesn’t increase the size of any ability’s area of effect.
 
 ### REACH BONUS
@@ -5294,10 +5319,15 @@ You wield an implement of metal, such as a tome or a crown.
 #### SIGNATURE ABILITY: DRAIN
 
 You drain the energy from your target and revitalize your senses.
+
 **Keywords**: Attack, Magic, Melee
+
 **Type**: Action
+
 **Distance**: Reach
+
 **Target**: 1 creature
+
 **Power Roll** + Reason, Intuition, or Presence:
 
 - 11 or lower: 5 corruption damage
@@ -5324,10 +5354,15 @@ You don a tiny implement of glass such as a pendant or an anklet.
 #### SIGNATURE ABILITY: TARANTELLA VOLLEY
 
 Visible energy sparks off you to wash across a nearby foe, who you invite to dance with you.
+
 **Keywords**: Attack, Magic, Melee
+
 **Type**: Action
+
 **Distance**: Reach 2
+
 **Target**: 1 creature or object
+
 **Power Roll** + Agility, Intuition, or Presence:
 
 - 11 or lower: 2 damage
@@ -5359,10 +5394,15 @@ You wield an implement of crystal, such as a staff or a wand.
 #### SIGNATURE ABILITY: FROZEN EXPLOSION
 
 You unleash a blast of frigid air to freeze and hinder your foes.
+
 **Keywords**: Area, Magic, Ranged
+
 **Type**: Action
+
 **Distance**: 3 cube within 12
+
 **Target**: All enemies
+
 **Power Roll** + Reason, Intuition, or Presence:
 
 - 11 or lower: 2 cold damage
@@ -5392,10 +5432,15 @@ You wear light armor and wield an implement of bone such as a staff or a skull.
 #### SIGNATURE ABILITY: BOUNTIFUL DECAY
 
 Your curse causes a foe’s flesh to rot off as spores that aid your allies.
+
 **Keywords**: Attack, Magic, Ranged
+
 **Type**: Action
+
 **Distance**: Ranged 5
+
 **Target**: 1 creature
+
 **Power Roll** + Reason, Intuition, or Presence:
 
 - 11 or lower: 2 corruption damage; a hero within distance can make a resistance roll to end an effect
@@ -5425,10 +5470,15 @@ You wield an implement of wood such as an orb or a hooked rod.
 #### SIGNATURE ABILITY: SPIKE!
 
 You lob your implement at high speed toward your opponent, unleashing a chaotic flare of magic.
+
 **Keywords**: Attack, Magic, Ranged
+
 **Type**: Action
+
 **Distance**: Ranged 15
+
 **Target**: 1 creature or object
+
 **Power Roll** + Reason, Intuition, or Presence:
 
 - 11 or lower: 2 fire damage
@@ -5459,10 +5509,15 @@ You wield an implement of stone, such as a club or a crown.
 #### SIGNATURE ABILITY: LIGHTNING SPARK
 
 You call forth a small bolt of lightning, then hurl it at your foe.
+
 **Keywords**: Attack, Magic, Ranged
+
 **Type**: Action
+
 **Distance**: Ranged 12
+
 **Target**: 1 creature or object
+
 **Power Roll** + Reason, Intuition, or Presence:
 
 - 11 or lower: 2 lightning damage
@@ -5491,10 +5546,15 @@ You wear heavy armor and wield an implement of bone, such as a scepter or a staf
 #### SIGNATURE ABILITY: BLESSED LIGHT
 
 Burning radiance falls upon your foe, outlining them with a holy glow.
+
 **Keywords**: Attack, Magic, Ranged
+
 **Type**: Action
+
 **Distance**: Ranged 5
+
 **Target**: 1 creature or object
+
 **Power Roll** + Reason, Intuition, or Presence:
 
 - 11 or lower: 2 holy damage; the next attack against the target has an edge
@@ -5525,10 +5585,15 @@ You wield an implement of metal, such as a knife or a scepter.
 #### SIGNATURE ABILITY: SPLIT BEAM
 
 Two beams of supernatural force lance out at your command.
+
 **Keywords**: Attack, Magic, Ranged
+
 **Type**: Action
+
 **Distance**: Ranged 10
+
 **Target**: 2 creatures or objects
+
 **Power Roll** + Reason, Intuition, or Presence:
 
 - 11 or lower: 3 damage
@@ -5538,6 +5603,7 @@ Two beams of supernatural force lance out at your command.
 #### KIT WARD: INVIGORATING WARD
 
 Your ward surrounds you with crackling energy.
+
 Whenever you take damage, you gain a bonus to damage equal to your highest characteristic score, which you apply to the next damage-dealing magic ability you use before the end of the encounter. This benefit is cumulative, so that you can accrue bonus damage multiple times, then expend it all on one use of an ability.
 
 ### WARD WEAVER
@@ -5557,10 +5623,15 @@ You wield an implement of stone such as a wand or pendant.
 #### SIGNATURE ABILITY: ENERGY SIPHON
 
 Absorbing psychic energy from another creature lets you shield yourself within it.
+
 **Keywords**: Attack, Magic, Ranged
+
 **Type**: Action
+
 **Distance**: Ranged 10
+
 **Target**: 1 creature
+
 **Power Roll** + Intuition:
 
 - 11 or lower: 2 psychic damage; you gain damage immunity 1 until the end of your next turn
@@ -5604,36 +5675,47 @@ Many of the details of each complication are purposefully left vague, so that yo
 ### DETERMINE COMPLICATION
 
 You can choose your character’s complication, or you can roll on the Complications table.
+
 (Playtest note: More complications are coming.)
 
 #### CULT VICTIM
 
 Cultists captured you while raiding your home, then began an unholy ritual to turn your body into an undead spirit. The ritual failed, but your body became infused with corrupted magic, turning you partially incorporeal.
+
 **Benefit**: Once per turn, you can move through a solid mundane object no more than 1 square thick. If you end your turn inside the object, you take 5 damage and are shunted out into the space where you entered the object.
+
 **Drawback**: Your body is more susceptible to negative energy. You have corruption weakness 5.
 
 #### DEVIL DEAL
 
 Your ancestors made a deal with an archdevil that has tied you to that fiend’s service. When you first learned of this deal, you were taken to the Seven Cities of Hell, where some of the timescape’s best minds taught you the ways of battle or magic. The archdevil allows you to use these gifts as you will … until they require a favor from you.
+
 **Benefit**: Whenever you are present for a battle in which all the creatures on one side are not surprised, your side goes first on a result of 4 or greater on the d10 roll (see Determine Who Goes First in Combat Round).
+
 **Drawback**: The archdevil occasionally asks you to defeat enemies on their behalf. If you refuse, your fiendish patron sends devils after you and those you care about.
 
 #### ELEMENTAL ABSORPTION
 
 When an evil mage threatened someone you loved, you blocked your foe’s summoning of an elemental creature by absorbing their magic with your body. You are now infused with the power of that elemental—and they’re not happy about it.
+
 **Benefit**: Your Stamina increases by 6 at 1st level, then increases by an additional 1 each time you gain a new level.
+
 **Drawback**: When you are dying, your possessing elemental takes control of your body. The elemental yearns for destruction, causing you to attack the closest creature they notice without regard for your desires or your body’s safety.
 
 #### FIRE AND CHAOS
 
 A great monster who breathed fire burned your home to the ground. While everything around you was consumed, you somehow stood strong amid the inferno, your body adapting to ignore the effects of the flames.
+
 **Benefit**: You have fire immunity 5.
+
 **Drawback**: You have cold weakness 5.
 
 #### PRIMORDIAL SICKNESS
 
 You once contracted a terrible illness for which no one could find a cure. You sought out a primordial swamp said to be either incredibly poisonous or miraculously salubrious. It turned out to be both, keeping your illness at bay while corrupting your body with its unnatural energy.
+
 **Benefit**: You have poison immunity 5 and corruption immunity 5.
+
 **Drawback**: The number of Recoveries you have is reduced by 1.
 
 #### PUNISHMENT CURSE
@@ -5646,25 +5728,33 @@ Through ignorance, fear, spite, or selfishness, you refused to help someone in n
 #### SHIPWRECKED
 
 You are the sole survivor of a shipwreck that left you stranded on a remote and inhospitable island for years. Your struggle to survive there granted you insight into the natural world but distanced you from who you once were.
+
 **Benefit**: You gain two skills from the exploration skill group.
+
 **Drawback**: You have forgotten one language you know.
 
 #### VIVID DREAMS
 
 You broke a magic amulet that immersed your mind in weird magic. This magic has given you the power of premonition, but you struggle to control this new gift. Whenever you take a respite, make a Reason power roll to determine whether you gain this complication’s benefit or drawback.
+
 **Benefit**: On a 12 to 16, you experience a vision of an event currently happening in your world. The vision lasts for just a few seconds, but the information you glean is helpful to you. On a 17 or higher, you receive a full minute or more of the scene.
+
 **Drawback**: On an 11 or lower, you receive a painful vision that is fractal and inscrutable. When the respite ends, you immediately lose 1 Recovery.
 
 #### WARD
 
 Your childhood sweetheart was royalty, and the two of you stayed close throughout the years. When your former sweetheart died, you swore an oath to dedicate your life to become a tutor for their child, advising them in the ways of being a benevolent monarch.
+
 **Benefit**: You know how to talk to monarchs, aristocrats, and other wealthy leaders. When you engage with any such NPC during a negotiation, their patience increases by 1 (to a maximum of 5).
+
 **Drawback**: Your royal ward regularly calls upon you for advice and takes that advice to heart—for better or for worse.
 
 #### WAR OF THE GUILDS
 
 Being in the wrong place at the wrong time saw you caught in the middle of a conflict between two warring thieves’ guilds. Whether by choice or by accident, you wound up helping one faction at the expense of the other.
+
 **Benefit**: Having gained the favor of the faction you helped, you can call on its members three times for favors. If a favor is reasonable and within the faction’s power to grant, they’ll do it, no questions asked.
+
 **Drawback**: The faction you wronged hates you, and its members would love to see you pay for your transgression.
 
 ### COMPLICATIONS
@@ -5793,7 +5883,7 @@ Common consequences for failing a test include the following:
 - Thinking you know something that you don’t
 - Getting stuck in a situation that must be resolved with a negotiation or a montage test that you didn’t need to make before
 
-In lieu of other consequences, the Director has the option to gain 2 additional Villain Power (VP), a resource their creatures use in combat, at the start of the next combat  encounter.
+In lieu of other consequences, the Director has the option to gain 2 additional Villain Power (VP), a resource their creatures use in combat, at the start of the next combat encounter.
 
 ### FAILURE
 
@@ -5925,7 +6015,7 @@ We made the decision to have a lot of specific skills based on our design goals.
 
 Since players don’t need to be worried about their characters covering a wide spread of skills, they’re free to choose the skills they think fit their heroes best and are the most fun to work with. In this way, you can get pretty specific with the hero you want to make. Maybe you’re thinking about an elementalist who has a gymnastic background in jumping and tumbling, and who also studied religion and blacksmithing. You can make that in our game! Having a specific backstory is part of cinematic storytelling.
 
-Our rules for skills allow for them to be flexibly applied to any test that is appropriate for the skill. This encourages clever thinking. A player can ask the Director, “I want to impress the duke with a story about how I ascended the sheer Cliffs of Azgahnan. Can I use my Climb skill to get a +2 bonus to my Presence test?” That’s great! Getting creative like that is a lot of fun. It paints a visual picture and it’s tactical thinking! However, if the skills in a game are too broad in the kinds of activities they represent, that sometimes encourages players to find a way to apply the  same skill over and over again with as many tests as possible. This isn’t fun for anyone, and doesn’t make a very compelling story.
+Our rules for skills allow for them to be flexibly applied to any test that is appropriate for the skill. This encourages clever thinking. A player can ask the Director, “I want to impress the duke with a story about how I ascended the sheer Cliffs of Azgahnan. Can I use my Climb skill to get a +2 bonus to my Presence test?” That’s great! Getting creative like that is a lot of fun. It paints a visual picture and it’s tactical thinking! However, if the skills in a game are too broad in the kinds of activities they represent, that sometimes encourages players to find a way to apply the same skill over and over again with as many tests as possible. This isn’t fun for anyone, and doesn’t make a very compelling story.
 
 ## SKILL GROUPS
 
@@ -6132,7 +6222,6 @@ An individual character can’t use the same skill more than once in a montage t
 
 In general, when a hero makes a test as part of a montage test, they should choose new obstacles to overcome that haven’t already been tackled as part of the test. If the heroes are chasing a thief through the marketplace and one of them has already distracted the pack of stray dogs with a deft hand and a piece of meat, additional tests made to distract the animals don’t count toward the result of the montage test.
 
-
 When it fits the scenario, the Director can adjust this restriction. If part of a montage test involves searching for people trapped in a burning building, the Director is likely to allow multiple tests to fight or avoid the fire, since this will happen throughout the montage test, not just once.
 
 ### DIRECTOR CAN INTRODUCE MORE CHALLENGES
@@ -6228,7 +6317,7 @@ Many abilities and other options refer to creatures, objects, or spaces that are
 
 ### FALLING
 
-When you fall 2 or more squares, you take 2 damage for  each square you fall, then you land prone. When you fall,  you reduce the effective height of the fall by a number of squares equal to your Agility score. Falling into liquid that is at least 1 square deep reduces the effective height of a fall by 4 squares.
+When you fall 2 or more squares, you take 2 damage for each square you fall, then you land prone. When you fall, you reduce the effective height of the fall by a number of squares equal to your Agility score. Falling into liquid that is at least 1 square deep reduces the effective height of a fall by 4 squares.
 
 Falling is not forced movement, but being force moved downward is considered falling (see Forced Movement in Combat). Movement from falling doesn’t provoke opportunity attacks (see Opportunity Attacks).
 
@@ -6293,7 +6382,7 @@ Most languages have colloquial or casual names. For instance, many people in Ord
 #### VASLORIA LANGUAGES BY ANCESTRY
 
 | **Ancestry**      | **Language**       | **Notes**                                                            |
-|-------------------| ------------------ |----------------------------------------------------------------------|
+| ----------------- | ------------------ | -------------------------------------------------------------------- |
 | Angulotls         | Filliaric          | Offshoot of Cyllinric                                                |
 | Demons            | Proto-Ctholl       |                                                                      |
 | Devils            | Anjal              | Language of contract law                                             |
@@ -6322,16 +6411,16 @@ Most languages have colloquial or casual names. For instance, many people in Ord
 #### VASLORIA HUMAN LANGUAGES
 
 | **Region** | **Language** |
-| --------- | ----------- |
-| The Gol   | Uvalic      |
-| Higara    | Higaran     |
-| Ix        | Oaxuatl     |
-| Khemhara  | Khemharic   |
-| Koursir   | Khoursirian |
-| Phaedros  | Phaedran    |
-| Rioja     | Riojan      |
-| Vanigar   | Vaniric     |
-| Vasloria  | Vaslorian   |
+| ---------- | ------------ |
+| The Gol    | Uvalic       |
+| Higara     | Higaran      |
+| Ix         | Oaxuatl      |
+| Khemhara   | Khemharic    |
+| Koursir    | Khoursirian  |
+| Phaedros   | Phaedran     |
+| Rioja      | Riojan       |
+| Vanigar    | Vaniric      |
+| Vasloria   | Vaslorian    |
 
 #### LANGUAGE USAGE
 
@@ -6412,7 +6501,9 @@ When you attract a new follower, you decide on their name and ancestry, and choo
 #### ARTISAN
 
 Artisans are crafting experts who can contribute to your research and crafting projects (see Research and Crafting).
+
 *(Playtest note: The Research and Crafting section is still to come.)*
+
 An artisan can contribute one project roll per day to a project you choose while they remain at your stronghold, provided they have access to the necessary materials.
 
 When you recruit an artisan, choose four skills from the crafting skill group that they know. An artisan has a Might or Agility score of 1 (your choice), a Reason score of 1, and a 0 in all other characteristics. They know Caelian and two other languages of your choice.
@@ -6425,13 +6516,14 @@ When you recruit a sage, choose four skills from the lore skill group that they 
 
 ### SPECIFIC USES FOR RENOWN
 
-The Director can use Renown as a tool that determines how much access heroes have to exclusive places in the campaign’s world, or how much power they wield in organizations of which they are members. The rules for  using Renown in such ways is in the For the Director section.
+The Director can use Renown as a tool that determines how much access heroes have to exclusive places in the campaign’s world, or how much power they wield in organizations of which they are members. The rules for using Renown in such ways is in the For the Director section.
 
 *(Playtest note: This section is yet to come.)*
 
 ### SUPERNATURAL AND MUNDANE
 
 The word **supernatural** is used to describe abilities, creatures, and objects that are magical or psionic in nature.
+
 The word **mundane** is used to describe attacks, creatures, and objects that aren’t magical or psionic.
 
 ### SUFFOCATING
@@ -7709,7 +7801,7 @@ If an argument uses one of the NPC’s pitfalls, it automatically fails and the 
 
 ### RENOWN AND NEGOTIATION
 
-During a negotiation, an NPC has an Impression score that determines the amount of Renown needed to influence them (see Renown). This score only matters if the NPC knows of the heroes. A dragon who slumbered away the last hundred years and was just woken up to negotiate can’t be influenced by a hero’s Renown. (By the way, it’s a terrible idea to wake a dragon, even if they do know you’re famous.) If the NPC does know of the hero and has an Impression that is equal to or lower than the hero’s Renown, the NPC can be influenced by that hero. 
+During a negotiation, an NPC has an Impression score that determines the amount of Renown needed to influence them (see Renown). This score only matters if the NPC knows of the heroes. A dragon who slumbered away the last hundred years and was just woken up to negotiate can’t be influenced by a hero’s Renown. (By the way, it’s a terrible idea to wake a dragon, even if they do know you’re famous.) If the NPC does know of the hero and has an Impression that is equal to or lower than the hero’s Renown, the NPC can be influenced by that hero.
 
 The higher an NPC’s Impression, the harder they are to influence with Renown. A small-time brigand has a lower Impression score than a monarch who meets with powerful and famous people all the time. The **NPCs and Impression** table provides examples of different archetypical NPC Impression scores. If a creature has a level, then their Impression equals their level unless the Director deems otherwise.
 
