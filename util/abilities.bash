@@ -114,13 +114,22 @@ ability_json_to_markdown() {
     local content_path
     content_path="$(mktemp)"
 
-    ability_field_to_markdown "" "description" "" "$value_raw" >> $content_path
+    ability_field_to_markdown "*" "description" "*" "$value_raw" >> $content_path
 
-    ability_field_to_markdown "\n- **Keywords:** " "keywords" "" "$value_raw" >> $content_path
-    ability_field_to_markdown "- **Type:** " "type" "" "$value_raw" >> $content_path
-    ability_field_to_markdown "- **Distance:** " "distance" "" "$value_raw" >> $content_path
-    ability_field_to_markdown "- **Target:** " "target" "" "$value_raw" >> $content_path
-    ability_field_to_markdown "- **Trigger:** " "trigger" "" "$value_raw" >> $content_path
+    echo "" >> $content_path
+
+    local keywords="$(ability_field_to_markdown "" "keywords" "" "$value_raw")"
+    local type="$(ability_field_to_markdown "" "type" "" "$value_raw")"
+    local distance="$(ability_field_to_markdown "" "distance" "" "$value_raw")"
+    local target="$(ability_field_to_markdown "" "target" "" "$value_raw")"
+
+    if [ -n "$keywords" ] || [ -n "$type" ] || [ -n "$distance" ] || [ -n "$target" ]; then
+        echo "| **Keywords:** ${keywords} | **Type:** ${type} |" >> $content_path
+        echo "| :-- | :-- |" >> $content_path
+        echo "| **Distance:** ${distance} | **Target:** ${target} |" >> $content_path
+    fi
+
+    ability_field_to_markdown "\n**Trigger:** " "trigger" "" "$value_raw" >> $content_path
 
     ability_field_to_markdown "\n**" "roll" "**" "$value_raw" >> $content_path
 
@@ -189,7 +198,6 @@ ability_content_to_markdown() {
     done
     cat "$content_path"
 }
-
 
 # Prints out markdown for an "index" note of abilities
 generate_ability_index_markdown() {
