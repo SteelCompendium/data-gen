@@ -116,7 +116,7 @@ A hero who can playfully catch the bird’s attention (for example, through song
 
 If the bird got the attention of any passenger, that passenger reports the disturbance, with word quickly reaching Captain Oriel. Because Samuel doesn’t have enough coin to pay the pet fee, she leads him to the deck, hands him a rag, and tells him to get swabbing. Samuel’s sentence lasts one day for each disturbance his bird caused. Even at 1st level, any of the heroes has access to enough wealth to pay the fee for Samuel if they wish to. This way, he won’t have to stay buttoned up to the throat for the rest of the voyage.
 
-#### HINTS OF HOLD
+##### HINTS OF HOLD
 
 > You can let Private Stoneheart lead the heroes toward the cargo hold (see What’s in the Hold? below) so they can observe that the entryway is watched by two guards. The guards care little for the nonsense of this vignette as long as the heroes (and the bird!) don’t try to enter the hold.
 
@@ -136,7 +136,7 @@ If half or more heroes succeed on this test, Percival comes to them at the end o
 
 Another passenger frowns. *“Textiles? The captain herself told me it was spices.”*
 
-#### REASONING OUT OF REASON
+##### REASONING OUT OF REASON
 
 > If a player wants to use a different characteristic for this test, such as Agility to cook many meals at once, or Intuition to recall a family recipe, you can let them roll with that instead if you like! As the Director, it’s up to you.
 
