@@ -26,14 +26,7 @@ generate_abilities_for_class() {
         if [ "$type" != "Heroic Abilities" ] && [ "$type" != "Kit Signature Ability" ]; then
             abilities_json="$(echo "$abilities_raw" | jq -rc '. | to_entries | .[]')"
             echo "$abilities_json" | while read -r ability; do
-                name="$(jq -r '.key' <(echo "$ability"))"
-                value="$(jq -r '.value' <(echo "$ability"))"
-
-                local filename
-                filename="$(title_case "$name" | sed 's/(.*)//g' | xargs)"
-                local ability_path="$folder_path/${filename}.md"
-                ability_to_markdown "$name" "$value" "$class" "$type" > "$ability_path"
-                echo "${filename}.md" >> "$links"
+                ability_entry_to_markdown "$ability" "$class" "$type" "$folder_path" "$links"
             done
         fi
     done
@@ -41,24 +34,40 @@ generate_abilities_for_class() {
     # Add Triggered Actions
     triggered_actions="$(jq -rc ".${class}[\"1ST-LEVEL FEATURES\"] | to_entries[] | select(.key | contains(\"TRIGGERED ACTION\")) | .value | to_entries[]" '../Rules/Draw Steel Rules.json')"
     echo "$triggered_actions" | while read -r triggered_action; do
-        name="$(jq -r '.key' <(echo "$triggered_action"))"
-        value="$(jq -r '.value' <(echo "$triggered_action"))"
-
-        # Some classes have a special subheading
-        if [[ "$name" =~ "TRIGGERED ACTION" ]]; then
-            continue;
-        fi
-
-        local filename
-        filename="$(title_case "$name" | sed 's/(.*)//g' | xargs)"
-        local ability_path="$folder_path/${filename}.md"
-        ability_to_markdown "$name" "$value" "$class" "Triggered Action" > "$ability_path"
-        echo "${filename}.md" >> "$links"
+        ability_entry_to_markdown "$triggered_action" "$class" "Triggered Action" "$folder_path" "$links"
     done
 
     # Build index note for the class
     generate_ability_index_markdown "${class_title} Ability Index" "$(cat "$links")" > "$folder_path/_${class_title} Ability Index.md"
 }
+
+ability_entry_to_markdown() {
+    # json of the ability, expected to have `key` and `value` fields
+    local ability_kv="${1:-}"
+    # Name of the source the grants the ability (class, kit,etc)
+    local source_name="${2:-}"
+    # Type of the ability (triggered action, etc)
+    local ability_type="${3:-}"
+    # path to the ability folder to dump the ability
+    local ability_folder_path="${4:-}"
+    # path the to links directory to add this ability filename to
+    local links_path="${5:-}"
+
+    name="$(jq -r '.key' <(echo "$ability_kv"))"
+    value="$(jq -r '.value' <(echo "$ability_kv"))"
+
+    # Some classes have a special subheadings, skip them
+    if [[ "$name" =~ "TRIGGERED ACTION" ]]; then
+        return
+    fi
+
+    local filename
+    filename="$(title_case "$name" | sed 's/(.*)//g' | xargs)"
+    local ability_path="${ability_folder_path}/${filename}.md"
+    ability_to_markdown "$name" "$value" "$source_name" "$ability_type" > "$ability_path"
+    echo "${filename}.md" >> "$links"
+}
+
 
 # Prints out markdown for an ability
 ability_to_markdown() {
