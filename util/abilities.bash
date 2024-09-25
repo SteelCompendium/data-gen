@@ -4,6 +4,14 @@ set -euo pipefail
 generate_abilities_for_class() {
     local class="${1:-}"
 
+    local folder_name
+    folder_name="$(title_case "$class")"
+    local folder_path
+    folder_path="../Abilities/${folder_name}"
+    mkdir -p "$folder_path"
+
+    local links="$(mktemp)"
+
     abilities_types="$(jq -rc ".${class}[\"1ST-LEVEL FEATURES\"][\"${class} ABILITIES\"] | to_entries | .[]" '../Draw Steel Rules.json')"
     echo "$abilities_types" | while read -r ability_type; do
         local type_raw
@@ -21,13 +29,15 @@ generate_abilities_for_class() {
 
                 local filename
                 filename="$(title_case "$name" | sed 's/(.*)//g' | xargs)"
-                local folder
-                folder="$(title_case "$class")"
-                mkdir -p "../Abilities/${folder}"
-                ability_to_markdown "$name" "$value" "$class" "$type" > "../Abilities/${folder}/${filename}.md"
+                local ability_path="$folder_path/${filename}.md"
+                ability_to_markdown "$name" "$value" "$class" "$type" > "$ability_path"
+                echo "${filename}.md" >> "$links"
             done
         fi
     done
+
+    generate_ability_index_markdown "$class" "$(cat "$links")" > "$folder_path/_${folder_name} Ability Index.md"
+
 }
 
 ability_to_markdown() {
@@ -81,6 +91,23 @@ ability_to_markdown() {
 
     # TODO - format the markdown with a linter
     echo -e "$markdown"
+}
+
+generate_ability_index_markdown() {
+    local title="${1:-}"
+    local links="${2:-}"
+    local markdown_path
+    markdown_path="$(mktemp)"
+    echo "# $title" >> "$markdown_path"
+    echo "" >> "$markdown_path"
+
+    echo -e "$links" | while read -r link; do
+        local name
+        name="$(echo "$link" | sed 's/.md//g')"
+        echo "- [$name]($link)" >> "$markdown_path"
+    done
+
+    cat "$markdown_path"
 }
 
 # Source: https://stackoverflow.com/a/76503202
