@@ -565,75 +565,94 @@ Some games don’t track XP or goals at all. The heroes simply gain a level when
 
 ## ANCESTRIES
 
-Fantastic peoples inhabit the worlds of **Draw Steel**. Among them are devils, dwarves, elves, time raiders—even humans with their ability to sense the supernatural. Your hero is one of these folks! The fantastic ancestry you choose bestows benefits that come from your anatomy and physiology. This choice doesn’t grant you cultural benefits, like crafting or lore skills. While many game settings have cultures made of mostly one ancestry, other cultures and worlds have a cosmopolitan mix of peoples. 
+Fantastic peoples inhabit the worlds of *Draw Steel*. Among them are devils, dwarves, elves, time raiders—even humans with their ability to sense the supernatural.
+
+Your hero is one of these folks! The fantastic ancestry you choose bestows benefits that come from your anatomy and physiology. This choice doesn’t grant you cultural benefits, like crafting or lore skills. While many game settings have cultures made of mostly one ancestry, other cultures and worlds have a cosmopolitan mix of peoples.
 
 Ancestry describes how you were born. Culture (in the next chapter) describes how you grew up. If you want to be a wode elf who was raised in a forest among other wode elves, you can do that! If you want to play a wode elf who was raised in an underground city of dwarves, humans, and orcs, you can do that too!
 
 ### ON THE ORIGIN OF SPECIES
 
-Orden is a fantasy world. It works on principles similar to those many people throughout history believed governed the real world: “I dunno, a god did it probably.”
+Orden is a fantasy world. It works on principles similar to those many people throughout history believed governed the real world. "I dunno, a god did it probably."
 
-Humans, elves, orcs, dwarves, dragons—all have creator gods, the elder gods, four of whom made the world for some reason. Maybe they were bored.
+Humans, elves, orcs, dwarves, dragons—all have creator gods—the elder gods, four of whom made the world for some reason. Maybe they were bored.
 
 The fashion among those gods for creating new, intelligent species petered after the orcs. Once humans came along and invented war, it stopped being fun.
 
-It may be that all species were created by gods. That’s certainly what a lot of people throughout our own history assumed. Orden has no Darwin and probably never will. There’s still inheritance, though. People expect children to look like their parents, but there aren’t evolutionary pressures except on a very local scale.
+It may be all species were created by gods. That’s certainly what a lot of people throughout our own history assumed. Orden has no Darwin and probably won’t ever. There’s still inheritance. People expect children to look like their parents, but there aren’t evolutionary pressures except on a very local scale.
 
-In a world where powerful, world-altering magics are available, mortals sometimes try to recreate the gods' efforts. Some succeed, and new intelligent, speaking peoples are born.
+And in a world where powerful, world-altering magics are available, mortals sometimes try to recreate the gods' efforts. Some succeed, and new intelligent, speaking peoples are born.
 
 However, mortals are not gods and lack their ineffable wisdom. They are, in fact, very effable. Many have sought the power to create. It is available to any sorcerer of near-godlike power with the right rituals, though these days that power is very obscure. Creating new intelligent species was easier for mortal wizards back in the youth of the world when magic was friskier.
 
-In every instance in recorded history, attempts by mortals to make obedient servitor species backfire. The steel dwarves worked marvels with valiar, the truemetal, and the miracle mineral prismacore that grants objects a semblance of life. Eventually, their science and magics produced the omnivok, machines that were self-aware. Perhaps uniquely, when the dwarves realized they had created beings equal to themselves, they stopped their work and gave their creation full rights and independence, preferring to work with them rather than attempt—and inevitably fail—to be their masters.
+In every instance in recorded history, attempts by mortals to make obedient servitor species backfire. The steel dwarves worked marvels with valiar, the truemetal, and the miracle mineral prismacore that grants objects a semblance of life. Eventually, their science and magics produced the omnivok, machines that were self-aware. Perhaps uniquely, when the dwarves realized they had created beings equal to themselves, they stopped their work and gave their creation full rights and independence, preferring to work with them rather than attempt, and inevitably fail, to be their masters.
 
-Normally, it doesn’t work out that nicely. Even with the best of intentions, things go awry. The Dragon Phalanx were created by Good King Omund’s wizard, Vitae, to be the perfect knights, dispensing justice throughout the lands. But the same sorceries that grant self-awareness also grant independence. Agency. And though they enjoyed thirty years of peace and justice, eventually the dragon knights were betrayed by one of their own, seduced by the power offered by Ajax.
+Normally, it doesn’t work out that nicely. Even with the best of intentions, things go awry. The Dragon Phalanx were created by Good King Omund’s wizard Vitae to be the perfect knights, dispensing justice throughout the lands. But the same sorceries that grant self-awareness also grant independence. Agency. And though they enjoyed thirty years of peace and justice, eventually the dragon knights were betrayed by one of their own, seduced by the power offered by Ajax.
 
 The law of unintended consequences applies to the just and the unjust alike.
 
-Usually, when some powerful being tries to create an intelligent people, it’s for less than virtuous reasons. The synliroi are responsible for several intelligent species in the timescape, each an attempt to create a perfectly obedient servitor species. The most notorious example are the kuran’zoi, the time raiders who rebelled almost immediately and carry a burning hate for the voiceless talkers to this day.
+Usually when some powerful being tries to create an intelligent people, it’s for less than virtuous reasons. The synliroi are responsible for several intelligent species in the timescape, each an attempt to create a perfectly obedient servitor species. The most notorious example are the kuran’zoi, the time raiders who rebelled almost immediately and carry a burning hate for the voiceless talkers to this day.
 
-### Starting Size and Speed
+A perhaps less egregious use of this power is called quickening. Used when a powerful mage lives in and amongst some clever species just on the cusp of self-awareness. These instances, which are much more numerous than creating a new species from whole cloth, are more like the concept of uplifting found in science fiction. The mage or witch or shaman didn’t create anything. They just gave these cute, clever, frog-things a little boost. A little nudge. And suddenly there are angualotls walking around having conversations with each other, wondering when someone will invent a fabric that doesn’t get moldy in the swamp.
+
+This also carries serious ethical repercussions! “You didn’t create angualotls! You screwed up some perfectly good frogs! Look at them, you gave them anxiety!”
+
+This is only how it works on Orden. You may have completely different explanations for why there are several different intelligent species walking around in your world. Or no explanation! Or competing and irreconcilable theories on the matter! Use whatever inspires you.
+
+At the end of the day, if you throw out all of this and replace it with something you made up, it will be better. Because it’s *yours*!
+
+### STARTING SIZE AND SPEED
 
 Unless otherwise noted, a character from any of these ancestries is size 1M and has a speed of 5.
 
-Where an ancestry provides you with an ability, see the Abilities section for details on the ability format.
+Where an ancestry provides you with an ability, see *Abilities* for details of the ability format.
 
-### Devil
+## DEVIL
 
-“Go to hell!”
-
-“You know, I have a rather interesting story about that...”
+“Go to hell!”  
+“You know, I have a rather interesting story about that…”
 
 The native ancestry of the Seven Cities of Hell, devils are humanoids with red or blue skin expressed in a wide variety of hues, from bright crimson to deep purple. Each devil is born with some hellmark—horns, a tail, cloven hooves, a forked tongue, fanged incisors, or even wings.
 
-### On Devils
+## HELL
 
-Adelard scuttled across the floor of his basement, a heavy tome clutched in one hand, his index finger marking a page. Occasionally, he would stop, open the book, consult a diagram, look at the chalk markings he’d made on the floor, tilt his head, then bend down and refine or rub out an esoteric symbol.
+Hell is dominated by the Seven Cities of Hell, each ruled by a different archdevil who constantly plots and schemes against the others in the hope of ascending to the Throne of Hell.
+
+Those devils who join “the trade,” as their civil service is called, spend their days in bureaucratic service, hoping or scheming for promotion. Devils looking for a quick path up the bureaucratic ladder sign up for the Exchange, whereby mortals in the mundane world who perform the right rituals can summon a devil, who bargains with the supplicant on behalf of their archdevil. Archdevils can grant temporary worldly power in exchange for a supplicant’s soul, with the summoned devil acting as the broker.
+
+On rare occasions, the summoning goes wrong and the supplicant dies before the deal can be struck, stranding the summoned devil on Orden permanently. Some stranded devils seek to return to Hell, but most prefer life in Orden, where the phrase “stabbed in the back by a colleague” is usually a metaphor.
+
+The majority of devils in Orden are not from, nor have ever been to, the Seven Cities. They are descendants of devils who were stranded in the mundane world decades, centuries, even millennia ago.
+
+### ON DEVILS
+
+Adelard scuttled across the floor of his basement, a heavy tome clutched in one hand, his index finger marking a page. Occasionally he would stop, open the book, consult a diagram, look at the chalk markings he’d made on the floor, tilt his head, then bend down and refine or rub out an esoteric symbol.
 
 One of the red candles suddenly guttered out, making the small room noticeably darker. “Damn and blast!” he hissed. Then he relit it from another candle.
 
-Then he relit it from another candle.  Stepping back to admire his handiwork, Adelard crossed his arms and nodded. He’d spent his last coppers on the candles—they weren’t cheap. And he feared the skull might be fake, but did it matter? The book just said a skull—it didn’t even specify a human skull! Did it matter if it was real? It was probably real. What kind of market was there for replica skulls? But it was awfully cheap. Anyway, did it matter? How would the ritual know if the skull was real?
+Stepping back to admire his handiwork, Adelard crossed his arms and nodded. He’d spent his last coppers on the candles—they weren’t cheap. And he feared the skull might be fake, but did it matter? The book just said *a skull*—it didn’t even specify a human skull! Did it matter if it was real? It was probably real. What kind of market was there for replica skulls? But it was awfully cheap. Anyway, did it matter? How would the ritual know if the skull was real?
 
 He was wittering, putting off the inevitable. He pulled himself together. It was either going to work, or it wasn’t, and wittering wasn’t going to help. He opened the book and turned the page—then began to speak the ritual.
 
-Moments later, the candles flared, there was a burst of flame, and acrid brimstone filled his nostrils. When the smoke cleared … there was a devil standing in his basement—dark purple skin, horns, even a twitching tail.
+Moments later, the candles flared, there was a burst of flame, and acrid brimstone filled his nostrils. When the smoke cleared… there was a devil standing in his basement—dark purple skin, horns, even a twitching tail.
 
-“Aha! Yes, finally.” It rubbed its hands together. “It’s about time,” the creature said, pulling on the bottom of his waistcoat to straighten it. “Now then! How does it go? Oh, yes.” He cleared his throat. “On behalf of my lord, his grace Archduke Dispater, Lord of Dis, I am empowered to offer you …” But his speech fell on deaf ears.
+“Aha! Yes, finally.” It rubbed its hands together. “It’s about time,” the creature said, pulling on the bottom of his waistcoat to straighten it. “Now then! How does it go? Oh, yes.” He cleared his throat. “On behalf of my lord, his grace Archduke Dispater, Lord of Dis, I am empowered to offer you…”
 
-“It worked!” Adelard said, holding his clenched fists up. “Ahahaha! It worked! Finally, after years! I will have my revenge! Hahaha … !” *cough* *cough* Adelard was suddenly gripped by a coughing fit, but he kept crowing.
+But his speech fell on deaf ears.
 
-“Dismiss me from service, will they?! *cough* Old and useless … am I?! I’ll show them!” He coughed again, fighting to breathe now. “I will hex them and torture them until they …” 
+“It worked!” Adelard said, holding his clenched fists up. “Ahahaha! It worked! Finally, after years! I will have my revenge! Hahaha…!” *cough* *cough* Adelard was suddenly gripped by a coughing fit, but he kept crowing. “Dismiss me from service, will they?! *cough* Old and useless… am I?! I’ll show them!” He coughed again, fighting to breathe now. “I will hex them and torture them until they…”
 
-He stopped cavorting and capering, and his eyes went wide. “Until they … until …” He clutched his chest.
+He stopped cavorting and capering, and his eyes went wide. “Until they… until…” He clutched his chest.
 
 “Uh-oh,” the devil said, genuinely worried.
 
 “HNNG!” Adelard grunted. Then he collapsed to the ground, curled into a fetal position, obviously in immense pain.
 
-“Nono. Nurse!” the devil called out. “Doctor!? Is anyone … you should lie down. Well, you are lying down. Do some … some deep-breathing exercises. Have a cup of tea! That always …” 
+“Nono. Nurse!” the devil called out. “Doctor!? Is anyone… you should lie down. Well, you are lying down. Do some… some deep-breathing exercises. Have a cup of tea! That always…”
 
 Adelard gasped one last time and uncurled, muscles relaxed. Eyes open but unseeing.
 
-“… calms me down,” the devil said quietly.
+“…calms me down,” the devil said quietly.
 
 Suddenly, the candles were extinguished as one, plunging the room into pitch-blackness. The devil’s hellsight meant this was only a minor inconvenience for him. “Um,” he said to the empty room. “Uh-oh.”
 
@@ -641,13 +660,13 @@ He poked the tip of his boot at the chalk symbol surrounding him on the floor. N
 
 He walked out of the circle. Nothing happened. No one, it seemed, cared.
 
-A few moments later, the door to a small home, little more than a wooden shack, on the outskirts of a small village opened. A well-dressed devil peeked out and then slowly emerged, stepping onto the dirt road that led through the center of the village. A keep stood atop a hill in the distance.
+A few moments later, the door to a small home, little more than a wooden shack on the outskirts of a small village, opened. A well-dressed devil peeked out and then slowly emerged, stepping onto the dirt road that led through the center of the village. A keep stood atop a hill in the distance.
 
 “Ah,” the devil said.
 
 A wide woman dressed in wool, carrying a pile of clean clothes, saw him and stopped in her tracks, her mouth open.
 
-“Oh! Good day to you madam, I wonder if you could tell me …”
+“Oh! Good day to you, madam, I wonder if you could tell me…”
 
 “AAAHHHHH!!!” she screamed. For quite a long time. Then she dropped her laundry and ran.
 
@@ -661,13 +680,11 @@ A young man in a low, stone building saw this exchange, grabbed what looked like
 
 The two of them stood there, frozen in the middle of the street for a few moments.
 
-#TODO 
-
 Then the devil turned and ran away as quickly as he could.
 
 “And that’s how I ended up here!” Riyalkin toasted his dinner companion. “Now, after years of obscurity, a legendary hero!”
 
-“Legendarily vain,” his dinner guest teased with a smile. 
+“Legendarily vain,” his dinner guest teased with a smile.
 
 “Simply playing my part, darling. People expect a certain amount of vanity in a troubadour, don’t they?”
 
@@ -675,12 +692,13 @@ She laughed. “Riyalkin the Red Pen is every bit as advertised.”
 
 “Thank you. And besides, accusations of vanity are a bit rich coming from my leading lady.”
 
-“Not all actors are vain.” She took offense beautifully. “Just 
-the good ones.” She sipped her drink.
+“Not all actors are vain.” She took offense beautifully. “Just the good ones.” She sipped her drink.
 
-“Well then, you must be very vain indeed,” the devil said. “Anyway, does that answer your question?”
+“Well then, you must be very vain indeed,” the devil said.
 
-“Mostly. Do they speak Caelian in hell?” 
+“Anyway, does that answer your question?”
+
+“Mostly. Do they speak Caelian in hell?”
 
 “What a good question. Unless it’s very old, the ritual usually grants knowledge of the summoner’s language. I gather in the bad old days, we used to just show up in a cloud of brimstone and gabble at people. I’m sure it was impressive, but what did it achieve? Not very professional, I can tell you that.”
 
@@ -688,7 +706,7 @@ the good ones.” She sipped her drink.
 
 He waggled his eyebrows. “Style counts for something.”
 
-“But wait, that was …” She did some quick mental math. “Fifteen years ago?”
+“But wait, that was….” She did some quick mental math. “Fifteen years ago?”
 
 “Well, I was an accountant here in Capital for several years in between.”
 
@@ -698,7 +716,7 @@ Riyalkin shrugged. “It’s what I did before. I’m moderately good at it.”
 
 “And how does one go from being an alien accountant to a famous troubadour?”
 
-“Well …” Riyalkin seemed uncomfortable suddenly. “It’s just that … the thing is, accountancy in the Seven Cities is just so much more interesting than it is here. Plotting and scheming, always on the lookout for an assassin, people constantly trying to claw their way up the ladder, usually over your dead body. And I guess I just … missed the excitement.”
+“Well…” Riyalkin seemed uncomfortable suddenly. “It’s just that… the thing is, accountancy in the Seven Cities is just so much more interesting than it is here. Plotting and scheming, always on the lookout for an assassin, people constantly trying to claw their way up the ladder, usually over your dead body. And I guess I just… missed the excitement.”
 
 “The excitement of being an accountant.”
 
@@ -706,65 +724,58 @@ Riyalkin shrugged. “It’s what I did before. I’m moderately good at it.”
 
 She blushed in spite of herself and raised her own glass in a toast.
 
-"You ilver-tongue devil."
+“You silver-tongued devil.”
 
-## Devil Benefits
+### DEVIL BENEFITS
 
-As a devil character, you have the following benefits.
+As a devil character, you have the following benefits:
 
-### Fiendish Features
+#### FIENDISH FEATURES
 
-When you create a devil character, you have 3 fiend points, which you use to select a number of the following features:
+When you create a devil character, you have 3 fiend points, which you use to select a number of the following features.
 
-#### Barbed Tail (1 Fiend Point)
+- **BARBED TAIL (1 FIEND POINT):**  
+  Your pointy tail allows you to punctuate all your actions. Once per round, you can deal 1 extra damage on a melee attack or free strike.
 
-Your pointy tail allows you to punctuate all your actions. Once per round, you can deal 1 extra damage on a melee attack or free strike.
+- **BEAST LEGS (2 FIEND POINTS):**  
+  Your powerful legs improve your speed by 1.
 
-#### Beast Legs (2 Fiend Points)
+- **EXPOSED SKELETON (2 FIEND POINTS):**  
+  Your bones are visible and hardened above your skin, granting you Weapon immunity 2.
 
-Your powerful legs improve your speed by 1.
+- **GLOWING EYES (1 FIEND POINT):**  
+  Your eyes are a solid, vibrant color that flares to show your excitement or rage. Whenever you take damage from a creature, you can use a triggered action to curse that creature for daring to do you harm. The creature takes 1d10 psychic damage.
 
-#### Exposed Skeleton (2 Fiend Points)
+- **HELLSIGHT (1 POINT):**  
+  Your eyes let you see through the dark, fog, and other types of concealment. You don’t take a bane on attacks against concealed, unhidden creatures.
 
-Your bones are visible and hardened above your skin, granting you Weapon immunity 2.
+- **HORNS (1 FIEND POINT):**  
+  Your cherished horns are a hardened representation of your force of will, granting you an edge on Presence resistance rolls.
 
-#### Glowing Eyes (1 Fiend Point)
+- **PREHENSILE TAIL (2 FIEND POINTS):**  
+  Your prehensile tail allows you to challenge foes on all sides. You can’t be flanked.
 
-Your eyes are a solid, vibrant color that flares to show your excitement or rage. Whenever you take damage from a creature, you can use a triggered action to curse that creature for daring to do you harm. The creature takes 1d10 psychic damage.
+- **WINGS (2 FIEND POINTS):**  
+  You possess wings powerful enough to take you airborne. As a maneuver, you can switch between walking and flying when you are touching the ground, or vice versa when you are within 1 square of the ground. While flying, your stability drops to 0 and you have damage weakness 5. While using your wings to fly, you can stay aloft for a number of rounds equal to your Might (minimum of 1 round) before you fall prone.
 
-#### Hellsight (1 Point)
+- **SILVER TONGUE:**  
+  You can twist how your words are perceived to get a better read on people. You gain an edge when attempting to discover an NPC’s motivations and pitfalls during negotiations (see *Negotiation*).
 
-Your eyes let you see through the dark, fog, and other types of concealment. You don’t take a bane on attacks against concealed, unhidden creatures.
+## DRAGON KNIGHT
 
-#### Horns (1 Fiend Point)
-
-Your cherished horns are a hardened representation of your force of will, granting you an edge on Presence resistance rolls.
-
-#### Prehensile Tail (2 Fiend Points)
-
-Your prehensile tail allows you to challenge foes on all sides. You can’t be flanked.
-
-#### Wings (2 Fiend Points)
-
-You possess wings powerful enough to take you airborne. As a maneuver, you can switch between walking and flying when you are touching the ground, or vice versa when you are within 1 square of the ground. While flying, your stability drops to 0 and you have damage weakness 5. While using your wings to fly, you can stay aloft for a number of rounds equal to your Might (minimum of 1 round) before you fall prone.
-
-### Silver Tongue
-
-You can twist how your words are perceived to get a better read on people. You gain an edge when attempting to discover an NPC’s motivations and pitfalls during negotiations.
-
-## Dragon Knight
-
-“I thought the dragon knights would save us, but even they couldn’t stop Ajax. Now the roads aren’t safe. People are taken from their homes without cause or warning, never to return. I don’t know what’s going to happen now, except everyone’s afraid all the time.
+“I thought the dragon knights would save us, but even they couldn’t stop Ajax. Now the roads aren’t safe. People are taken from their homes without cause or warning, never to return. I don’t know what’s going to happen now, except everyone’s afraid all the time.”
 
 “I think things are going to get a lot worse before they get better.”
 
-The Ritual of Dracogenesis that grants the power to create a generation of dragon knights—also known as draconians or wyrmwights—is obscure and supremely difficult for even an experienced sorcerer to master. Small populations of draconians in Khemhara, Higara, and Khorshir attest to this. Descendants of original generations created millennia ago by powerful wizards, they have never been numerous. A typical clutch yields only a single egg. After only a few generations, these draconians begin to show new adaptations like feathers or frilled ridges.
+The **Ritual of Dracogenesis** that grants the power to create a generation of dragon knights—also known as draconians or wyrmwights—is obscure and supremely difficult for even an experienced sorcerer to master. Small populations of draconians in Khemhara, Higara, and Khorshir attest to this. Descendants of original generations created millennia ago by powerful wizards, they have never been numerous. A typical clutch yields only a single egg. After only a few generations, these draconians begin to show new adaptations like feathers or frilled ridges.
 
 The largest extant population of draconians is the remnants of the Dragon Phalanx in Vasloria. Created by Good King Omund’s wizard Vitae, the Dragon Phalanx once numbered several thousand of the king’s greatest knights, ensuring the rule of law across the land.
 
-Knighthood was a title carried by every member of that first generation of dragon knights. Within the Dragon Phalanx were shadows, censors, tacticians, and elementalists. Members of virtually every heroic vocation could be found in one of the eight dragonflights that made up the phalanx. For over thirty years, these heroes were symbols of justice, protecting the weak from the strong, and standing between the common folk and those who sought power over others. Those who grew up in that place and time could never have imagined any other way of life. 
+Knighthood was a title carried by every member of that first generation of dragon knights. Within the Dragon Phalanx were shadows, censors, tacticians, and elementalists. Members of virtually every heroic vocation could be found in one of the eight dragonflights that made up the phalanx. For over thirty years, these heroes were symbols of justice, protecting the weak from the strong, and standing between the common folk and those who sought power over others. Those who grew up in that place and time could never have imagined any other way of life.
 
 Then Ajax came.
+
+---
 
 ### ON THE DRAGON KNIGHTS
 
@@ -776,13 +787,15 @@ The three human bandits took a step back. One of the dwarves just sneered—then
 
 “Don’t be cowards now!” the other dwarf said, a hint of joy in his voice. “Look what a prize we have caught!”
 
-“We didn’t …” one bandit said, shaking. “We didn’t know …”
+“We didn’t…” one bandit said, shaking. “We didn’t know…”
 
 Looking at the dragon knight, the other bandit added quickly, “We didn’t know there was one of you here.”
 
-The draconian didn’t move. Didn’t give any indication he heard the man. Just stared unblinking at the lead dwarf. “Think of the bounty,” the dwarf hissed to the humans, but he kept his eye on the draconian. “We’ll all be rich.”
+The draconian didn’t move. Didn’t give any indication he heard the man. Just stared unblinking at the lead dwarf.
 
-“I don’t …” One of the bandits dropped her sword and held her hands up as she backed away from the group toward the exit. “I don’t need it that bad,” she said. Then she turned and ran out the door. Her human compatriots followed.
+“Think of the bounty,” the dwarf hissed to the humans, but he kept his eye on the draconian. “We’ll all be rich.”
+
+“I don’t…” One of the bandits dropped her sword and held her hands up as she backed away from the group toward the exit. “I don’t need it that bad,” she said. Then she turned and ran out the door. Her human compatriots followed.
 
 The two dwarves surveyed the tavern. The people were now all facing them. A few had stood up. They weren’t afraid anymore.
 
@@ -790,7 +803,9 @@ The two dwarves surveyed the tavern. The people were now all facing them. A few 
 
 As one, the people in the tavern turned to look with undisguised awe at the dragon knight. He noticed this, ducked his head to avoid their gaze. “Show’s over,” he growled, then he turned to go back to his seat in the rear.
 
-“Thank you,” the woman behind the bar said. “Thank you for …” She stopped when she saw the draconian was ignoring her.
+“Thank you,” the woman behind the bar said. “Thank you for…”
+
+She stopped when she saw the draconian was ignoring her.
 
 A short, doughty, middle-aged man stood up, and two equally doughty women at the same table stood up with him. “Excuse me, sir knight,” the man said as the dragon knight walked past their table.
 
@@ -820,13 +835,13 @@ The man held out his hand. The dragon knight looked at it for a moment before re
 
 “These people need help. I said I’d find it. Heard a rumor someone matching your description was holed up here having a drinking contest with Mr. John Barleycorn.”
 
-The draconian sniffed, released John’s hand, and looked at the three peasants. “Why do you people need me? You’re in the company of Sir John, Commander of the Fifth...”
+The draconian sniffed, released John’s hand, and looked at the three peasants. “Why do you people need me? You’re in the company of Sir John, Commander of the Fifth …”
 
 “Just John,” Sir John said, holding a hand up. “The new baron stripped me of my title. My lands.”
 
 “I didn’t know that.” The draconian’s voice softened. “I’m sorry.”
 
-“I’ll be fine. But these people...” John said, gesturing to the three older peasants. Vaantikalisax waved him to silence.
+“I’ll be fine. But these people…” John said, gesturing to the three older peasants. Vaantikalisax waved him to silence.
 
 “Sure,” he said. “But why me?”
 
@@ -844,7 +859,7 @@ Vaantikalisax said nothing. The inn had mostly gone back to its business but the
 
 “No, that’s not how it starts. But I have this feeling that’s how it’ll end.”
 
-“What does your oath say? ‘Even should the sun stop in the sky, even should the night—’”
+“What does your oath say? ‘Even should the sun stop in the sky, even should the night—’ ”
 
 “John,” the dragon knight said, his voice suddenly sad. Exasperated. “You don’t want to quote my oath to me. You really don’t. I liked serving with you. I have fond memories of that time—of you. Don’t spoil it.” He looked at his friend, the three peasants, then shook his head and turned to leave the inn.
 
@@ -854,40 +869,52 @@ The dragon knight stopped and spun around. Everyone in the inn was watching the 
 
 “The people need leadership,” John said as he looked at all the folk watching.
 
-Vaantikalisax’s reptile eyes flashed in anger. “They had it. Thirty years, and what did it amount to?! I watched Ajax... I watched him...” The dragon knight’s eyes flinched. His clawed hands tightened on his mace and shield. “I watched the oath... fail.”
+Vaantikalisax’s reptile eyes flashed in anger. “They had it. Thirty years, and what did it amount to?! I watched Ajax… I watched him…” The dragon knight’s eyes flinched. His clawed hands tightened on his mace and shield. “I watched the oath… fail.”
 
-### Dragon Knight Benefits
+“Vaant… Vaant, the Dragon Phalanx didn’t fail. You were betrayed. It was Mandrake! One of your own, don’t you get it? You’re just as fallible as the rest of us. You were never ‘incorruptible.’ It’s just what we wanted to believe. You’re just people—like the rest of us.”
 
-As a dragon knight character, you have the following benefits.
+The dragon knight looked at the people around him, at the three peasants desperate for someone, anyone, to help them. Then he looked back to his friend.
 
-#### Wyrmplate
+“Exactly,” Vaantikalisax said. Then he turned and left the inn.
+
+### DRAGON KNIGHT BENEFITS
+
+As a dragon knight character, you have the following benefits:
+
+#### WYRMPLATE
 
 Your hardened scales grant you immunity 5 to one of the following damage types: cold, corruption, fire, lightning, or poison. You can change your damage immunity type while out of combat (no action required).
 
-#### Knighthood
+#### KNIGHTHOOD
 
-The legacy of the Dragon Phalanx lives in you. Choose one of the following benefits:
+The legacy of the Dragon Phalanx lives in you. Choose one of the following benefits.
 
-- **Draconian Rush:** As a maneuver, you can fly in a straight line up to your speed. Until you reach level 6, you must end your turn on a solid surface or fall, then fall prone.
-- **Draconian Guard:** When you or a creature adjacent to you is attacked, you can use a triggered action to swing your wings around and guard against the blow, reducing any damage from the attack by an amount equal to your level + your Victories.
-- **Draconian Pride:** You can use the following ability:
+- **DRACONIAN RUSH:**  
+  As a maneuver, you can fly in a straight line up to your speed. Until you reach level 6, you must end your turn on a solid surface or fall, then fall prone.
 
-  - **Draconian Pride:** You let loose a mighty roar to repel your foes and shake their spirits.  
-    **Keywords:** Area, Magic  
-    **Type:** Action  
-    **Distance:** 2 burst  
-    **Target:** All enemies  
-    **Power Roll + Might or Presence:**  
-    - 11 or lower: 2 damage; push 1  
-    - 12–16: 4 damage; push 3  
-    - 17+: 7 damage; push 5; frightened (EoT)  
-    **Effect:** You have a bane on the power roll for this ability when you use it in consecutive rounds of the same encounter.
+- **DRACONIAN GUARD:**  
+  When you or a creature adjacent to you is attacked, you can use a triggered action to swing your wings around and guard against the blow, reducing any damage from the attack by an amount equal to your level + your Victories.
 
-## Dwarf
+- **DRACONIAN PRIDE:**  
+  You can use the following ability:
 
-“Remember, we are dwarves. Our strength is the strength of the earth. The strength of the marble column that rises to the heavens. The strength of the granite foundation that reaches deep into the ground. But what is the value of strength if it is not used in service of justice?”
+  **DRACONIAN PRIDE**  
+  You let loose a mighty roar to repel your foes and shake their spirits.  
+  **Keywords:** Area, Magic  
+  **Type:** Action  
+  **Distance:** 2 burst  
+  **Target:** All enemies  
+  **Power Roll + Might or Presence:**
+  - 11 or lower: 2 damage; push 1
+  - 12–16: 4 damage; push 3
+  - 17+: 7 damage; push 5; frightened (EoT)
 
-— Zarok the Lawgiver, Hero, Dwarves 232
+  **Effect:** You have a bane on the power roll for this ability when you use it in consecutive rounds of the same encounter.
+
+## DWARF
+
+“Remember, we are dwarves. Our strength is the strength of the earth. The strength of the marble column that rises to the heavens. The strength of the granite foundation that reaches deep into the ground. But what is the value of strength if it is not used in service of justice?”  
+—Zarok the Lawgiver, Hero, Dwarves 232
 
 Possessed of a strength that belies their size, dwarves have flesh infused with stone—a silico-organic hybrid making them physically denser than other humanoids. They enjoy a reputation in Orden as savvy engineers and technologists thanks to the lore they inherited from their elder siblings, the long-extinct steel dwarves.
 
