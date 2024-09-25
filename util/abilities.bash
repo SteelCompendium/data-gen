@@ -84,29 +84,15 @@ ability_to_markdown() {
     fi
 
     # Format ability content
-#    local content_path
-#    content_path="$(mktemp)"
-#    echo "$value_raw" | while read -r val_line; do
-#        # Handle embedded json arrays (ability keywords, etc)
-#        if [[ "$val_line" =~ ^\[.*\]$ ]]; then
-#            echo "$val_line" | sed "s/'/\"/g" | jq -c '.[]' | while read item; do
-#                local item_val
-#                item_val="$(echo "$item" | sed -e 's/^"//' -e 's/"$//')"
-#                echo "\n- ${item_val}" >> "$content_path"
-#            done
-#        elif [[ "$val_line" =~ ^\-\s*\[.*\]$ ]]; then
-#            echo "$val_line" | sed "s/^-\s*//g" | sed "s/'/\"/g" | jq -c '.[]' | while read item; do
-#                local item_val
-#                item_val="$(echo "$item" | sed -e 's/^"//' -e 's/"$//')"
-#                echo "\n- ${item}" >> "$content_path"
-#            done
-#        else
-#            echo "${val_line}" >> "$content_path"
-#        fi
-#    done
+    if [[ "$value_raw" == *{* ]]; then
+    #        echo >&2 "$value_raw"
+        content="$(ability_json_to_markdown "$value_raw")"
+    else
+        content="$(ability_content_to_markdown "$value_raw")"
+    fi
 
-    local content
-    content="$(format_ability_json_value "$value_raw")"
+#    local content
+#    content="$(format_ability_json_value "$value_raw")"
 
     # Build markdown
     markdown="---"
@@ -124,22 +110,97 @@ ability_to_markdown() {
     echo -e "$markdown"
 }
 
-# Takes json value from md_to_json and converts to something more useful
-# This assumes the data is known to be in ability format
-format_ability_json_value() {
-    # Json string of an ability
-    local value="${1:-}"
-
+ability_json_to_markdown() {
+    local value_raw="${1:-}"
     local content_path
     content_path="$(mktemp)"
-    echo -e "$value" | while read -r line; do
 
+    flavor="$(echo "$value_raw" | jq -r '.flavor // empty')"
+    if [ -n "$flavor" ]; then
+        echo "${flavor}" >> $content_path
+        echo "" >> $content_path
+    fi
 
-        echo "$line" >> "$content_path"
-    done
+    keywords="$(echo "$value_raw" | jq -r '.keywords // empty')"
+    if [ -n "$keywords" ]; then
+        echo "- **Keywords:** ${keywords}" >> $content_path
+    fi
+
+    type="$(echo "$value_raw" | jq -r '.type // empty')"
+    if [ -n "$type" ]; then
+        echo "- **Type:** ${type}" >> $content_path
+    fi
+
+    distance="$(echo "$value_raw" | jq -r '.distance // empty')"
+    if [ -n "$distance" ]; then
+        echo "- **Distance:** ${distance}" >> $content_path
+    fi
+
+    target="$(echo "$value_raw" | jq -r '.target // empty')"
+    if [ -n "$target" ]; then
+        echo "- **Target:** ${target}" >> $content_path
+    fi
+
+    roll="$(echo "$value_raw" | jq -r '.roll // empty')"
+    if [ -n "$roll" ]; then
+        echo "" >> $content_path
+        echo "**${roll}**" >> $content_path
+    fi
+
+    tier1="$(echo "$value_raw" | jq -r '.tier1 // empty')"
+    if [ -n "$tier1" ]; then
+        echo "- **11 or lower:** ${tier1}" >> $content_path
+    fi
+
+    tier2="$(echo "$value_raw" | jq -r '.tier2 // empty')"
+    if [ -n "$tier2" ]; then
+        echo "- **12-16:** ${tier2}" >> $content_path
+    fi
+
+    tier3="$(echo "$value_raw" | jq -r '.tier3 // empty')"
+    if [ -n "$tier3" ]; then
+        echo "- **17+:** ${tier3}" >> $content_path
+    fi
+
+    effect="$(echo "$value_raw" | jq -r '.effect // empty')"
+    if [ -n "$effect" ]; then
+        echo "" >> $content_path
+        echo "**Effect:** ${effect}" >> $content_path
+    fi
+
+    # TODO - alt effects
+    # TODO - spend
+    # TODO - persistent
 
     cat "$content_path"
 }
+
+ability_content_to_markdown() {
+    local value_raw="${1:-}"
+
+    local content_path
+    content_path="$(mktemp)"
+    echo "$value_raw" | while read -r val_line; do
+        # Handle embedded json arrays (ability keywords, etc)
+        if [[ "$val_line" =~ ^\[.*\]$ ]]; then
+            echo "$val_line" | sed "s/'/\"/g" | jq -c '.[]' | while read item; do
+                local item_val
+                item_val="$(echo "$item" | sed -e 's/^"//' -e 's/"$//')"
+                echo "\n- ${item_val}" >> "$content_path"
+            done
+        elif [[ "$val_line" =~ ^\-\s*\[.*\]$ ]]; then
+            echo "$val_line" | sed "s/^-\s*//g" | sed "s/'/\"/g" | jq -c '.[]' | while read item; do
+                local item_val
+                item_val="$(echo "$item" | sed -e 's/^"//' -e 's/"$//')"
+                echo "\n- ${item}" >> "$content_path"
+            done
+        else
+            echo "${val_line}" >> "$content_path"
+        fi
+    done
+    cat "$content_path"
+}
+
 
 # Prints out markdown for an "index" note of abilities
 generate_ability_index_markdown() {
