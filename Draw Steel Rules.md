@@ -304,43 +304,53 @@ The standard eightish hours of sleep one gets at night doesn’t count as a resp
 
 ## ORDEN AND THE TIMESCAPE
 
-A new game demands new worlds! Welcome to the timescape—a collection of worlds spanning high fantasy, dark fantasy, and even space fantasy! We sincerely hope you take these rules and adapt them to your own world, or adapt your world to these rules, or something in between!
+A new game demands new worlds! Welcome to the timescape—a collection of worlds spanning high fantasy, dark fantasy, and even space fantasy! We sincerely hope you take these rules and adapt them to your own world, or adapt your world to these rules, or something in between! 
 
 Our tour begins on the world of Orden, the Prime Manifold—a realm of elves, dwarves, humans, orcs, dragons, and more. But human civilization and politics dominate here, especially in the great city of Capital, a hotbed of urban fantasy intrigue.
 
-## VASLORIA
+Orden contains seven major regions, the largest of which is Vasloria.
+
+### VASLORIA
 
 A forested medieval and feudal land, Vasloria holds few cities—just towns and villages. Western Vasloria, including most of Aendrim and Corwell and parts of Graid, was until recently ruled by Good King Omund. His draconian knights, the Dragon Phalanx, protected the weak from the strong, dispensing justice throughout the land. But Omund died fifteen years ago—and so died the rule of law in Vasloria. Now, forests claim towns and roads once held safe under his rule. The woods are dangerous, their only law that of tooth and claw.
 
 When Omund was betrayed by Mandrake, a captain of the Dragon Phalanx, his castle fell to Ajax the Invincible—now called the Overlord and the Iron Saint. Ajax’s wizard Mortum unlocked the secret of the ancient flying cities of the sky elves to raise the Chrysopolis, Ajax’s city-fortress in the sky.
 
-## CAPITAL
+Ajax abolished all faiths and temples in Vasloria. He executed the dukes who served King Omund loyally, leaving only the three surviving baronies of Dalrath, Bedegar, and Tor to hold human civilization together. Once, the people of all the lands of Vasloria were loose allies. There was trade between humans, elves, dwarves, and orcs.
+
+Now there is only suspicion.
+
+The high elves of the Fallen City, once the sky elf city of Irranys, pay tribute to Ajax with ancient artifacts they plunder from their ruined home. The wode elves of the Orchid Court, lacking any centralized government or cities, refuse to bow to the Iron Saint.
+
+The dwarves of Kal Kalavar pay tribute in prisoners they abduct from among those foolish enough to travel the roads unescorted—prisoners who serve Ajax as forced labor or are fed into the Body Banks. Brooding under the mountains in their fabled Hanging City of Kal Kalavar, the stone dwarves do not like this deal with the Overlord, but they lack the power—or perhaps the will—to rebel.
+
+The Hawklords of the High Aerie now act as Ajax’s royal guard. Mounted on their giant hawks, these human warriors project Ajax’s power, enforce his tyrannical order, and extend his influence into every corner of the wilderness. Their mastery of the air means that any revolt or rebellion is seen and crushed quickly.
+
+The Dragon Phalanx is broken now, its knights scattered. Ajax has placed a high bounty on their heads. Some folk still see Omund’s knights as symbols of justice, heroes of a lost age before might made right. But in every town, every village, there are always desperate people willing to collect the bounty, summoning the Hawklords to pluck any dragon knight foolish enough to travel without a disguise away to the Chrysopolis.
+
+The peoples of Dalrath, Bedegar, and Tor, isolated and outnumbered, desperately fight a losing battle against the encroaching wilderness. Law dies. Chaos thrives.
+
+### CAPITAL
 
 The Greatest City in This or Any Age! City of the Great Game! Located west across the Bale Sea from Vasloria on the eastern coast of Rioja, Capital is not only the largest city in Orden. It’s the largest city there has ever been—larger than the fabled steel dwarf capital of Kalas Valiar, larger even than Alloy, the City at the Center of the Timescape. Capital is the exception to many rules.
 
-## THE GREAT HOUSES
+It is a city of playwrights and opera, of spies and sorcery. Famed throughout the world as a city of high magic where flying tapestries act as taxis. But the reality of living in Capital is somewhat more mundane, for only the very wealthy can afford such luxuries.
 
-The Great Houses, Capital’s ancient noble families, reluctantly share power with the upstart guilds who think that their vast wealth entitles them to rule. The members of the Great Houses are proud of their city, and believe to anyone, from anywhere, should be able to come to Capital and earn a living, own property, expect justice. They just don’t think anyone else should be able to rule. The guilds of the city, by contrast, are more egalitarian, more democratic, largely obsessed with accruing wealth—and caring little for the welfare of the city or its people.
+#### THE GREAT HOUSES
 
-### House Alvaro
+The Great Houses, Capital’s ancient noble families, reluctantly share power with the upstart guilds who think that their vast wealth entitles them to rule. The members of the Great Houses are proud of their city, and believe anyone, from anywhere, should be able to come to Capital and earn a living, own property, and expect justice. They just don’t think anyone else should be able to rule. The guilds of the city, by contrast, are more egalitarian, more democratic, largely obsessed with accruing wealth—and caring little for the welfare of the city or its people.
 
 The Great Game is espionage, and House Alvaro are the best players in the world. Led by Duke Prospero, House Alvaro sponsors the Imperial University, the greatest center of learning in the world. Nobles from across Orden, including from lands as far away as Vanigar, send their children to learn diplomacy and statecraft at the university. The greatest spies in the world are all graduates of the Actian School, one of the university’s many colleges, which once doubled as the intelligence agency of Capital’s late prince.
 
-### House Vorona
+House Vorona runs the city’s navy, the largest military organization of any kind in Orden. Their engineers perfected the secret of blackpowder and guard it jealously.
 
-House Vorona runs the city’s navy, the largest military organization of any kind in Orden. Their engineers perfected the secret of blackpowder and guard it jealously. The Imperial Navy’s cannons protect trade across Orden, placing Capital at the center of international affairs. Vorona’s Far Mariners, aka the marines, are the closest thing to a citywide law enforcement organization.
+### THE POWER OF THE GUILDS
 
-## THE POWER OF THE GUILDS
-
-After the Lilac Night, with the city no longer able to rely on House Valetta to deliver the taxes it collected, Lady Shirome bought Great House status for the Fulcrum—the city’s assayer’s guild she controls—along with the Broadsheet Guild and the Farrier’s Guild.
-
-### The Fulcrum
-
-The Fulcrum controls the Trade Integrity Board, which sets lending rates and leads trade negotiations between Capital and other governments in Orden. It was that guild that convinced the late prince to switch the city to paper money. As a result, Capital is the first and only city in Orden to have a robust monetary policy.
-
-### The Broadsheet Guild
+After the Lilac Night, with the city no longer able to rely on House Valetta to deliver the taxes it collected, Lady Shirome bought Great House status for the Fulcrum—the city’s assayer’s guild she controls—along with the Broadsheet Guild and the Farrier’s Guild. The Fulcrum controls the Trade Integrity Board, which sets lending rates and leads trade negotiations between Capital and other governments in Orden. It was that guild that convinced the late prince to switch the city to paper money. As a result, Capital is the first and only city in Orden to have a robust monetary policy.
 
 The Broadsheet Guild, formally known as the Font, publishes the thrice-daily news sheets that everyone in the city reads. Guildmaster Inān al-Adwiyya uses a vast network of young people called the Paperfeathers to deliver and sell the broadsheets throughout the city. Lady al-Adwiyya knows almost everything happening anywhere in Capital.
+
+The Farrier’s Guild, popularly known as the Rasp, controls transport throughout the city. The guild is led by Lord Kashimir, a heliox from the planar gateway city of Alloy. It was he who introduced the flying tapestries that metaphorically shrank Capital, allowing the rich and powerful to cross the thirteen-mile-wide city in just a few minutes. He also created the Kites, couriers famous for being able to get a message to anywhere in Capital in only a few hours. His monopoly on importing flying tapestries from Alloy gives Lord Kashimir enormous power, and he is not shy about wanting more.
 
 ## THE MYRIAD WORLDS OF THE TIMESCAPE
 
@@ -348,19 +358,37 @@ Orden is only one world in the timescape! Each star in the night sky is another 
 
 The lower worlds lack the energy necessary for such extraordinary technology to function, and so rely on magic to break the rules.
 
-### On Quintessence
+On Axiom, the Plane of Uttermost Law, the memonek live on a world teeming with complex, inorganic life. UNISOL, the Universal Solar League, ensures and protects trade across the upper worlds, defending the star freighters from pirates such as the time raiders and the infamous Sunrunners on their legendary ship the K.R.A.D Fearless.
+
+Meanwhile, on Proteus, the Sea of Eternal Change, the formless proteans rebelled against the synlirii who once ruled the plane of uttermost chaos, exiling the voiceless talkers to the World Below. Now the masters of their world, the proteans take to the stars in their living change-ships, hurling their small fleet against what they perceive as the tyrannical might of UNISOL.
 
 On Quintessence, the lowest of the upper worlds, proteans and memonek alike rub shoulders with devils, fire dwarves, and even humans in Quintessence’s capital city of Alloy, the City at the Center of the Timescape. The Free City of Alloy, also known as the City of Brass, is the gateway to the timescape. People traveling to or from the upper and lower worlds meet here to trade goods and information, free from the inflexible laws of UNISOL.
 
-## THE TIMESCAPE IN YOUR GAME
+Traveling downward from Quintessence, one arrives on Orden, the Plane of Gods and Sorcery, highest of the lower worlds where magic rules. The gods, forbidden from interfering directly in a world with such a low energy state, rely on saints to enact their will. The technology from the upper worlds does not function down here, unless powered by a strong psionic mind, or the miracle mineral prismacore.
 
-We use the timescape and its medieval fantasyland Orden as the default setting presented in these books. Doing so makes it easier for us as designers to marry our design with real examples from a real (imaginary) fantasy world. We also think it’s easier for you to take the names for places, languages, and gods, and replace them with your own.
+Almost coterminous with Orden is its sister-plane, the World Below, and the Dark Under All. This plane of exiles is ruled by A Lie Cloaked In Star’s Silver—the Queen of Night, and the first of the Three Sisters Below. The World Below is a land of vast caves and sunless seas. There are no stars here, no sky, but only endless caves and warrens. Some of those are vast enough to hold entire cities, including Or-Mazaar, the City of the Black Star, from where the Queen of Night rules.
 
-If you’re the Director, you can use as many or as few of the details of the timescape as you like. You might wish to create your own world within the timescape, or use a setting you’ve created that exists outside of the official MCDM manifolds. You can use details from settings published by other companies. There are no rules when it comes to world-building. Feel free to take what you like from this book and change the rest.
+The power of the World Below wanes, even as the power of Equinox rises. Also known as Dusk, this smaller parasitic manifold is home to the exiled shadow elves and ruled by the Queen of Shadows, third of the Three Sisters Below. She plots to return her people to their homeland in Orden, and to escape the twisted shadow world.
+
+The last plane of law, the Seven Cities of Hell, is among the lowest of the lower planes. A realm of devils proud of their civilization, the Seven Cities are each ruled by an archduke who schemes to ascend to the Throne of Hell. Living in a world of bureaucratic law, the devil denizens of Hell have little interest in the other planes. Life is so much more interesting down here. The seven dukes of Hell conspired together once, agreeing to create the Order of Desolation, also known as the illriggers. Doing so was meant to extend their power into the timescape, and to defend the Seven Cities from the demon hordes below.
+
+The demons of the Abyssal Waste, the lowest plane, claw and scramble over each other, competing for souls in this heat-blasted desert under a baleful, giant orange sun. Mindless collections of organs, claws, and teeth, demons collect souls until they reach sentience, gaining identity and the blessing of memory. These demons will do anything to escape upward out of the wasteland, lest they lose their collected souls, lose their identities, and fall into that mindless state called lethe.
+
+At the center of the Abyssal Waste lies the Necropolitan Ruin, the Last City. A great city of the dead, the site is ruled by Khorsekef, once the Infinite Pharaoh of the desert wasteland of Khemhara, now the Ultralich. Khorsekef intends to return to Orden and sit once again on his throne in the grand Heliopolis at the center of Khemhara—and he has a plan …
+
+### THE TIMESCAPE IN YOUR GAME
+
+We use the timescape and its medieval fantasy land Orden as the default setting presented in these books. Doing so makes it easier for us as designers to marry our design with real examples from a real (imaginary) fantasy world. We also think it’s easier for you to take the names for places, languages, and gods, and replace them with your own. We might reference some hero or villain, saint or god, whose name makes you think, “Well, I don’t have that in my setting.” If we do a good job, though, you might be inspired to say, “But that makes me think …” And being inspired is part of the fun!
+
+If you’re the Director, you can use as many or as few of the details of the timescape as you like. You might wish to create your own world within the timescape, or use a setting you’ve created that exists outside of the official MCDM manifolds. You can use details from settings published by other companies. There are no rules when it comes to world-building. Feel free to take what you like from this book and change the rest. For example, you might not care for our dwarves having literal stone skin. That’s fine. You can make them fleshy, stout, bearded folk, or mohawked, barrel-chested punk rockers, or anything else you wish. As long as you’re running a heroic fantasy campaign about fighting monsters, then the game’s rules are still likely to serve your narrative even if that narrative deviates from ours.
+
+If you’re a player, ask your Director about the setting where the game takes place and discuss with them the sort of hero you want to create. Maybe you want to play a more traditional gruff and bearded dwarf rather than go all short and stony. An open dialogue and honest discussion with your Director can lead to everyone getting what they want out of the game.
 
 ## MAKING A HERO
 
-If you’re not the Director, then you create and play one of the main characters in the game’s story—a hero. Your hero is a person motivated to fight forces of evil to protect the innocent, but each hero has their own personal reason for doing so. You don’t have to be a pure beacon of good. Heroes have flaws and are complex, just like people in the real world. But your hero should be someone who isn’t afraid to battle monsters for altruistic reasons.
+If you’re not the Director, then you create and play one of the main characters in the game’s story—a hero. Your hero is a person motivated to fight forces of evil to protect the innocent, but each hero has their own personal reason for doing so. You don’t have to be a pure beacon of good. Heroes have flaws and are complex, just like people in the real world. But your hero should be someone who isn’t afraid to battle monsters for altruistic reasons. If you’re only interested in playing a money-grubbing sellsword, you can achieve that with these rules, but you’ll likely be happier playing another game.
+
+The hero you create will be roleplayed by you. Often when referring to your hero, the rules use second-person pronouns (you/your) for shorthand, only making a distinction between you and your hero when that distinction is important.
 
 ### YOUR FIRST SESSION
 
@@ -368,17 +396,22 @@ Getting together with your friends to make characters can be a lot of fun. Many 
 
 The Director should make an agenda for a campaign’s first session—often called “session zero”—which can include any of the following items:
 
-- The Director and players talk about the safety tools they want to employ at the game table (whether physical or virtual), so that everyone has a good time and understands which topics should be avoided in the game’s narrative and which should be embraced.
+- The Director and players talk about the safety tools they want to employ at the game table (whether physical or virtual), so that everyone has a good time and understands which topics should be avoided in the game’s narrative and which should be embraced. For more information, check out the MCDM Tabletop Safety Toolkit at mcdm.gg/SafetyToolkit, which includes advice for running a successful session zero.
 - The Director discusses the campaign’s world and the major story themes they want to introduce into the game.
-- The players get a chance to tell the Director what they would like to see in the campaign.
-- Make heroes! Once everyone understands what the campaign is about, it’s the perfect time to get into character creation.
-- The Director runs an encounter to kick off the campaign.
+- The players get a chance to tell the Director what they would like to see in the campaign. This can include anything from “I’d love to play out some chase scenes!” to “I want to explore themes of loss and grief.” These wishes should be starting points for a conversation. If not all players are comfortable with certain themes or content requested by other players, then session zero is a great time to discuss that and come to a consensus about what everyone wants out of the game.
+- Make heroes! Once everyone understands what the campaign is about, it’s the perfect time to get into character creation. When a group of players make heroes together, they can tie backstories together and strategize to build a tactically dominant party both in and out of combat.
+- The Director runs an encounter to kick off the campaign. If all the players have the time, it’s totally worth it to get some play in during the first session, even if it’s just a quick brawl in a tavern with some cultists! Giving the players a little action lets them see what the game is all about—and leaves them excited for the next session.
 
-## STEP-BY-STEP HERO MAKING
+### STEP-BY-STEP HERO MAKING
 
 Use the following step-by-step guide to create a hero. These steps are presented in what we believe is the best way to approach making your first hero for *Draw Steel*. That said, the order of the steps is still a suggestion, not a hard and fast rule.
 
-### 1. THINK
+Many players like to build a hero from the backstory up, making ancestry and culture ideal first choices. However, some players like to start more in the present, choosing an inciting incident and a class—the choices with the most potential impact on what your character can do in the game—and then going back and figuring out where their hero came from. There’s no wrong way to do it!
+
+You’ll want a character sheet to fill out while you make your hero.  
+*(Playtest note: The character sheet is still to come.)*
+
+#### 1. THINK
 
 The first thing you should do is think about the kind of hero you want to make. Ask yourself the following questions:
 
@@ -390,43 +423,70 @@ The first thing you should do is think about the kind of hero you want to make. 
 - What people, places, and objects are important to you?
 - How will your hero complement the strengths and weaknesses of the other heroes?
 
-### 2. ANCESTRY
+#### 2. ANCESTRY
 
-Choose your hero’s humanoid ancestry from among the range of ancestries available in the game—devil, dragon knight, dwarf, hakaan, high elf, human, memonek, orc, polder, revenant, time raider, or wode elf.
+Choose your hero’s humanoid ancestry from among the range of ancestries available in the game—devil, dragon knight, dwarf, hakaan, high elf, human, memonek, orc, polder, revenant, time raider, or wode elf. Future supplements will introduce additional ancestries you can choose from. See *Ancestries* for more information.
 
-### 3. CULTURE
+*(Playtest note: A selection of the game’s full range of ancestries are currently available, some of which feature lore entries.)*
 
-Create your hero’s culture. Although ancestry gives your hero a number of physiological benefits, your culture describes the community that raised you and gives you languages and skills.
+#### 3. CULTURE
 
-### 4. CAREER
+Create your hero’s culture. Although ancestry gives your hero a number of physiological benefits, your culture describes the community that raised you and gives you languages and skills. See *Culture* for more information.
 
-Choose your hero’s career, which describes what you did for a living before you became a hero. Your career gives you skills and a title, and might also give you languages, Renown, or knowledge for crafting and research.
+#### 4. CAREER
 
-### 5. CLASS
+Choose your hero’s career, which describes what you did for a living before you became a hero. Your career gives you skills and a title, and might also give you languages, Renown, or knowledge for crafting and research. See *Careers* for more information.
 
-Choose your hero’s class. This choice has the biggest impact on how your hero interacts with the rules of the game, especially the rules for combat. Your class provides your characteristic scores and Stamina, in addition to skills, several abilities, and other benefits.
+#### 5. CLASS
 
-### 6. KIT
+Choose your hero’s class. This choice has the biggest impact on how your hero interacts with the rules of the game, especially the rules for combat. Your class provides your characteristic scores and Stamina, in addition to skills, several abilities, and other benefits. You can be a censor, conduit, elementalist, fury, null, shadow, tactician, talent, or troubadour. See *Classes* for more information.  
+*(Playtest note: The currently available classes are the conduit, elementalist, fury, shadow, and tactician, each of which includes only 1st-level features.)*
+
+#### 6. KIT
 
 Choose your hero’s kit. Your kit provides you with equipment and a fighting style that grants a signature ability and bonuses to one or more of your game statistics.
 
-### 7. ADD FREE STRIKES
+#### 7. ADD FREE STRIKES
 
-Every hero has the ability to make free strikes under certain circumstances—extra attacks that don’t require your action. You can also make a free strike as an action on your turn, though you’ll usually have better options for your action.
+Every hero has the ability to make free strikes under certain circumstances—extra attacks that don’t require your action. (You can also make a free strike as an action on your turn, though you’ll usually have better options for your action.) Your class might grant you free strike options, but each character also has two standard free strikes.
 
-#TODO - add free strikes
+A melee weapon free strike is a melee attack made with an unarmed strike or improvised weapon. A ranged weapon free strike is a ranged attack made with an improvised weapon.
 
-### 8. COMPLICATION
+##### MELEE WEAPON FREE STRIKE
 
-Your hero experienced an event that has left them with a benefit and a drawback. Complications are optional, so check with your Director to make sure your game is using them.
+- **Keywords:** Attack, Melee, Weapon  
+- **Type:** Action  
+- **Distance:** Reach 1  
+- **Target:** 1 creature or object  
+- **Power Roll + Might or Agility:**  
+  - 11 or lower: 2 damage  
+  - 12–16: 6 damage  
+  - 17+: 9 damage  
 
-### 9. DETERMINE DETAILS
+##### RANGED WEAPON FREE STRIKE
 
-Once you’ve created your hero, it’s time to determine the additional details of their backstory, appearance, and personality. How do the events of their culture, career, inciting incident, and class tie together into a cohesive narrative?
+- **Keywords:** Attack, Ranged, Weapon  
+- **Type:** Action  
+- **Distance:** Ranged 5  
+- **Target:** 1 creature or object  
+- **Power Roll + Might or Agility:**  
+  - 11 or lower: 2 damage  
+  - 12–16: 5 damage  
+  - 17+: 8 damage  
 
-### 10. MAKE CONNECTIONS
+See *Free Strikes* for more information on using free strikes, and see *Abilities* for information on the ability format.
 
-Ask the Director if all the heroes start the campaign knowing each other. If they do, talk to the other players and build some connections between your heroes.
+#### 8. COMPLICATION
+
+Your hero experienced an event that has left them with a benefit and a drawback. Complications are optional, so check with your Director to make sure your game is using them. See *Complications* for more information.
+
+#### 9. DETERMINE DETAILS
+
+Once you’ve created your hero, it’s time to determine the additional details of their backstory, appearance, and personality. How do the events of their culture, career, inciting incident, and class tie together into a cohesive narrative? What’s their name? What do they look like? Do they have any cool scars? Any dope tattoos? Do they still sleep with their teddy bear? These sorts of details can help define a well-rounded hero.
+
+#### 10. MAKE CONNECTIONS
+
+Ask the Director if all the heroes start the campaign knowing each other. If they do, talk to the other players and build some connections between your heroes. If you like, you can use the following prompts to make those connections, or to come up with prompts of your own:
 
 - While fighting a monster, another hero saved your life. What were you battling and who saved you?
 - In your group, who looks after everyone’s health and well-being and makes sure that all the characters get along? If it’s not you, how do you view this other hero?
@@ -437,73 +497,79 @@ Ask the Director if all the heroes start the campaign knowing each other. If the
 - Another hero creates food, music, clothing, trinkets, or something else that you enjoy. Who is that hero and what do they make?
 - Another hero is teaching you a new skill. Who is it, and what are they teaching you?
 
-## CHOOSING SKILLS
+Answer these questions with the other players present, and be sure to get a player’s approval if your answer makes use of their character.
+
+### CHOOSING SKILLS
 
 This game has lots of skills, and lots of opportunities during character creation to gain them. We recommend recording a list of all the skills you might gain from the different steps of the character creation process, then making your choices at the end of that process rather than flipping back and forth through the book.
 
-If you gain the same specific skill from two different sources (for instance, from a career and a class), you can pick a different skill from the same skill group.
+If you gain the same specific skill from two different sources (for instance, from a career and a class), you can pick a different skill from the same skill group. See *Skills* for more information.
 
-## CHANGING CHARACTER OPTIONS
+### CHANGING CHARACTER OPTIONS
 
 If you pick a skill, ability, class, or any other option that you end up not liking after using it in the game—even your character’s ancestry—you can always freely change that option between game sessions. If you want to change an option during a session, ask your Director. If they say it’s fine to swap that option out for something else, go for it.
 
-# Heroic Advancement
+## HEROIC ADVANCEMENT
 
-Your character’s heroic advancement is marked by level. Each time you gain a new level in your class, your Stamina increases, and you gain new features or abilities according to your class’s advancement, as detailed in [Classes](#Classes).
+Your character’s heroic advancement is marked by level. Each time you gain a new level in your class, your Stamina increases, and you gain new features or abilities according to your class’s advancement, as detailed in *Classes*.
 
-In the standard setup for the game, heroes gain Experience each time they finish a respite. When you gain sufficient Experience, you gain a level during the same respite (see [Building a Heroic Narrative](#Building-a-Heroic-Narrative)). The Heroic Advancement table shows how much Experience (XP) you need to advance from one level to the next. The amount of Experience you gain is cumulative.
+In the standard setup for the game, heroes gain Experience each time they finish a respite. When you gain sufficient Experience, you gain a level during the same respite (see *Building a Heroic Narrative*). The Heroic Advancement table shows how much Experience (XP) you need to advance from one level to the next. The amount of Experience you gain is cumulative.
 
-| XP      | Level |
-|---------|-------|
-| 0–9     | 1     |
-| 10–24   | 2     |
-| 25–39   | 3     |
-| 40–54   | 4     |
-| 55–69   | 5     |
-| 70–84   | 6     |
-| 85–99   | 7     |
-| 100–114 | 8     |
-| 115–129 | 9     |
-| 130+    | 10    |
+### HEROIC ADVANCEMENT TABLE
 
-## Alternative Advancement
+| XP Range | Level |
+| -------- | ----- |
+| 0–9      | 1     |
+| 10–24    | 2     |
+| 25–39    | 3     |
+| 40–54    | 4     |
+| 55–69    | 5     |
+| 70–84    | 6     |
+| 85–99    | 7     |
+| 100–114  | 8     |
+| 115–129  | 9     |
+| 130+     | 10    |
+
+### ALTERNATIVE ADVANCEMENT
 
 Though many games might advance using the standard setup for heroic advancement, the Director can decide that their game uses different advancement. Check with your Director to see what method of advancement they plan to use.
 
-### Adjusted XP Advancement
+#### ADJUSTED XP ADVANCEMENT
 
-Some Directors prefer that heroes level up faster or slower to suit the pace of their story. The Adjusted XP Advancement table is set up for campaigns where heroes advance at double or half the usual pace. Directors can also create their own customized pace for XP-based advancement.
+Some Directors prefer that heroes level up faster or slower to suit the pace of their story. The *Adjusted XP Advancement* table is set up for campaigns where heroes advance at double or half the usual pace. Directors can also create their own customized pace for XP-based advancement.
+
+##### ADJUSTED XP ADVANCEMENT TABLE
 
 | Level | XP for Double Speed | XP for Half Speed |
-|-------|---------------------|------------------|
-| 1     | 0–4                 | 0–19             |
-| 2     | 5–12                | 20–49            |
-| 3     | 13–20               | 50–79            |
-| 4     | 21–28               | 80–109           |
-| 5     | 29–36               | 110–139          |
-| 6     | 37–43               | 140–169          |
-| 7     | 44–51               | 170–199          |
-| 8     | 52–58               | 200–229          |
-| 9     | 59–65               | 230–259          |
-| 10    | 66+                 | 260+             |
+| ----- | ------------------- | ----------------- |
+| 1     | 0–4                 | 0–19              |
+| 2     | 5–12                | 20–49             |
+| 3     | 13–20               | 50–79             |
+| 4     | 21–28               | 80–109            |
+| 5     | 29–36               | 110–139           |
+| 6     | 37–43               | 140–169           |
+| 7     | 44–51               | 170–199           |
+| 8     | 52–58               | 200–229           |
+| 9     | 59–65               | 230–259           |
+| 10    | 66+                 | 260+              |
 
-### Milestone
+#### MILESTONE
 
 Rather than tracking XP, some games see the heroes advance in level when they achieve a particular story milestone. For example, when a party defeats the main villain of an adventure and foils their dastardly plot, each hero gains a level for achieving this objective, no matter how many or few obstacles they faced along the way.
 
-For many Directors using milestone advancement, the end of each adventure within a campaign serves as a milestone for leveling up. The Director can share these milestones with the players to encourage them to work toward particular goals and to engage with the story and world the Director has prepared. For example, in a campaign where the heroes have to face nine evil mages, it makes sense that each time the heroes defeat a mage, they gain a level. The Director should keep milestone goals flexible, though. Defeating a mage could mean stopping them with violence, using negotiation to make them stand down, or anything else that thwarts their evil plans.
+For many Directors using milestone advancement, the end of each adventure within a campaign serves as a milestone for leveling up. The Director can share these milestones with the players to encourage them to work toward particular goals, and to engage with the story and world the Director has prepared. For example, in a campaign where the heroes have to face nine evil mages, it makes sense that each time the heroes defeat a mage, they gain a level. The Director should keep milestone goals flexible, though. Defeating a mage could mean stopping them with violence, using negotiation to make them stand down, or anything else that thwarts their evil plans.
 
-### Director Says So
+### DIRECTOR SAYS SO
 
 Some games don’t track XP or goals at all. The heroes simply gain a level whenever the Director decides it’s appropriate for the story.
 
-# Ancestries
+## ANCESTRIES
 
 Fantastic peoples inhabit the worlds of **Draw Steel**. Among them are devils, dwarves, elves, time raiders—even humans with their ability to sense the supernatural. Your hero is one of these folks! The fantastic ancestry you choose bestows benefits that come from your anatomy and physiology. This choice doesn’t grant you cultural benefits, like crafting or lore skills. While many game settings have cultures made of mostly one ancestry, other cultures and worlds have a cosmopolitan mix of peoples. 
 
 Ancestry describes how you were born. Culture (in the next chapter) describes how you grew up. If you want to be a wode elf who was raised in a forest among other wode elves, you can do that! If you want to play a wode elf who was raised in an underground city of dwarves, humans, and orcs, you can do that too!
 
-## On the Origin of Species
+### ON THE ORIGIN OF SPECIES
 
 Orden is a fantasy world. It works on principles similar to those many people throughout history believed governed the real world: “I dunno, a god did it probably.”
 
