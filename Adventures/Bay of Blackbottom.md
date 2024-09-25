@@ -63,8 +63,6 @@ Just before the Revelation gets to Blackbottom harbor, pirates waylay the ship a
 
 When the Revelation (or what remains of it) arrives in Blackbottom, members of the Hawklords who patrol the city question Captain Oriel and the heroes. The heroes can attempt to smooth things over for the captain in negotiations if they wish.
 
-When the Revelation (or what remains of it) arrives in Blackbottom, members of the Hawklords who patrol the city question Captain Oriel and the heroes. The heroes can attempt to smooth things over for the captain in negotiations if they wish.
-
 ## ACT 1: ANCHORS AWEIGH
 
 In this act, the heroes establish their reasons for taking on the job, get to know each other, and get to know the passengers and crew aboard the Revelation.
