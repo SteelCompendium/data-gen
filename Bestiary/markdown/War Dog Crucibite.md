@@ -1,23 +1,22 @@
 #### WAR DOG CRUCIBITE
 
-| WAR DOG CRUCIBITE | **Level 1 Artillery** |
-|:-------------------------------------------------- | -------------------------:|
-| *Humanoid, War Dog* | **EV 10** |
-| **Stamina**: 15 | **Immunity**: Psychic 3 |
-| **Speed**: 5 | **Size**: 1M / Stability 0 |
-|  | **Free Strike**: 2 |
+| WAR DOG CRUCIBITE   |      **Level 1 Artillery** |
+| :------------------ | -------------------------: |
+| *Humanoid, War Dog* |                  **EV 10** |
+| **Stamina**: 15     |    **Immunity**: Psychic 3 |
+| **Speed**: 5        | **Size**: 1M / Stability 0 |
+|                     |         **[[Free Strike]]**: 2 |
 
 | **Might**: +0 | **Agility**: +1 | **Reason**: +0 | **Intuition**: +0 | **Presence**: +0 |
-| --------- | ----------- | ---------- | ------------- | ------------ |
-|  |  |  |  |  |
+| ------------- | --------------- | -------------- | ----------------- | ---------------- |
+|               |                 |                |                   |                  |
 
 **Flamebelcher (Action)** ◆ 2d10 + 1 ◆ Signature
 
-**Keywords**: Area, Weapon
-
-**Distance**: 5 × 1 line
-
-**Target**: Each creature and object
+|                             |                                               |
+| :-------------------------- | :-------------------------------------------- |
+| **Keywords:** Magic, Ranged | **Type:**                                     |
+| **Distance:** Ranged 10     | **Target:** One war dog with a loyalty collar |
 
 - ✦ ≤11: 2 fire damage
 - ★ 12–16: 5 fire damage
@@ -29,15 +28,8 @@
 
 **Posthumous Promotion (Maneuver)**
 
-**Keywords**: Magic, Ranged
-
-**Distance**: Ranged 10
-
-**Target**: One war dog with a loyalty collar
-
 **Effect**: The target’s loyalty collar detonates, killing them instantly.
 
 **Loyalty Collar**
 
 When the crucibite dies, they explode, dealing 1d6 damage to each adjacent enemy.
-

@@ -18,6 +18,7 @@ generate:
 
     # Generate Bestiary files
     just generate_bestiary
+    just format_bestiary
 
     # Rewrite keyword-type-distance-target data to markdown tables
     just format_ability_tables
@@ -281,8 +282,6 @@ generate_bestiary:
     echo >&2 "[JUST] --- Generating Bestiary --- "
     rm -rf "../Bestiary"
     python3 extract_statblocks.py "../Rules/Draw Steel Bestiary.md"
-
-    just format_bestiary
 
 # Formats markdown in the bestiary folder
 format_bestiary:

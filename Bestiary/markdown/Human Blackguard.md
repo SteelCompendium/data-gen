@@ -1,26 +1,28 @@
 #### HUMAN BLACKGUARD
 
-| HUMAN BLACKGUARD | **Level 1 Boss** |
-|:-------------------------------------------------- | -------------------------:|
-| *Human, Humanoid* | **EV 38** |
-| **Stamina**: 80 | **Immunity**: Magic 2, Psionic 2 |
-| **Speed**: 5 | **Size**: 1M / Stability 2 |
-|  | **Free Strike**: 4 |
+| [[Human|HUMAN]] BLACKGUARD  |                 **Level 1 Boss** |
+| :---------------- | -------------------------------: |
+| *[[Human]], Humanoid* |                        **EV 38** |
+| **Stamina**: 80   | **Immunity**: Magic 2, Psionic 2 |
+| **Speed**: 5      |       **Size**: 1M / Stability 2 |
+|                   |               **[[Free Strike]]**: 4 |
 
 | **Might** +2 | **Agility** +2 | **Reason** +2 | **Intuition** +0 | **Presence** +2 |
-| -------- | ---------- | --------- | ------------ | ----------- |
-|  |  |  |  |  |
+| ------------ | -------------- | ------------- | ---------------- | --------------- |
+|              |                |               |                  |                 |
 
 **Zweihander (Action)** ◆ 2d10 + 2 ◆ Signature
 
 Keywords: Attack, Melee, Weapon
 Distance: Reach 1
 Target: Each adjacent enemy
-- ✦ ≤11: 4 damage
-- ★ 12–16: 7 damage; slowed (EoT)
-- ✸ 17+: 10 damage; slowed (MGT ends)
 
-Effect: An ally within 10 squares of the blackguard can make a free strike.
+- ✦ ≤11: 4 damage
+- ★ 12–16: 7 damage; [[Slowed|slowed]] (EoT)
+- ✸ 17+: 10 damage; [[Slowed|slowed]] (MGT ends)
+
+Effect: An ally within 10 squares of the blackguard can make a [[Free Strike|free strike]].
+
 - **1 VP:** The ally can use their signature action instead.
 
 **You! (Maneuver)**
@@ -35,7 +37,7 @@ Effect: The target is marked until the start of the blackguard’s next turn. Th
 
 At the end of their turn, the blackguard can take 5 damage to end one EoE effect affecting them. This damage can’t be reduced in any way.
 
-**Parry! (Triggered Action)**
+**[[Parry]]! (Triggered Action)**
 
 Keywords: Melee, Weapon
 Distance: Reach 1
@@ -66,5 +68,4 @@ Keywords: Area, Magic, Ranged, Weapon
 Distance: 3 cube within 5
 Target: Each enemy in the cube
 
-Effect: The blackguard makes a Zweihander attack against each enemy in the area, making one power roll against all targets. Additionally, each ally within 5 squares of the area can make a free strike against any enemy in the area.
-
+Effect: The blackguard makes a Zweihander attack against each enemy in the area, making one power roll against all targets. Additionally, each ally within 5 squares of the area can make a [[Free Strike|free strike]] against any enemy in the area.

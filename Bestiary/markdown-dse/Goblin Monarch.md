@@ -1,6 +1,6 @@
 # Goblin Monarch
 
-~~~ds-statblock
+```ds-statblock
 name: Goblin Monarch
 ancestry:
 - Goblin
@@ -42,7 +42,7 @@ abilities:
   - Ranged
   distance: Ranged 20
   target: Special
-  effect: Two goblin runners appear in unoccupied spaces.
+  effect: Two [[Goblin Runner|goblin runners]] appear in unoccupied spaces.
 - name: Meat Shield
   type: Triggered Action
   keywords:
@@ -58,7 +58,7 @@ abilities:
   - Area
   distance: 10 burst
   target: Each ally
-  effect: Each target can move up to their speed or make a free strike.
+  effect: Each target can move up to their speed or make a [[Free Strike|free strike]].
 - name: Focus Fire
   type: Villain Action
   cost: 2 VP
@@ -75,6 +75,6 @@ abilities:
   - Area
   distance: 10 burst
   target: Each ally
-  effect: Each target can make a free strike that deals an extra 1 damage.
+  effect: Each target can make a [[Free Strike|free strike]] that deals an extra 1 damage.
 
-~~~
+```
