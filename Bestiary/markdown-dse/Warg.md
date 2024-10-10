@@ -1,6 +1,6 @@
 # Warg
 
-```ds-statblock
+~~~ds-statblock
 name: Warg
 ancestry:
 - Animal
@@ -19,7 +19,7 @@ agility: 1
 intuition: 0
 traits:
 - name: Mounted Charger
-  effect: If a warg used as a mount [[Charge|charges]], their rider gains an edge on melee attacks
+  effect: If a warg used as a mount charges, their rider gains an edge on melee attacks
     until the end of their turn.
 - name: Shared Crafty
   effect: If the warg’s rider has the Crafty trait, the warg also has the Crafty trait.
@@ -30,7 +30,7 @@ abilities:
   cost: Signature
   keywords:
   - Attack
-  - [[Charge]]
+  - Charge
   - Melee
   - Weapon
   distance: Reach 1
@@ -44,4 +44,4 @@ abilities:
   target: Self
   effect: The warg moves up to their speed.
 
-```
+~~~

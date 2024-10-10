@@ -1,10 +1,10 @@
 # Time Raider Tyrannis
 
-```ds-statblock
-name: [[Time Raider]] Tyrannis
+~~~ds-statblock
+name: Time Raider Tyrannis
 ancestry:
 - Humanoid
-- [[Time Raider]]
+- Time Raider
 roles:
 - Boss
 level: 3
@@ -12,7 +12,7 @@ ev: 54
 stamina: 120
 immunities:
 - Psychic 7
-speed: 10 ([[Fly|fly]], [[Teleport|teleport]])
+speed: 10 (fly, teleport)
 size: '2'
 stability: 0
 free_strike: 5
@@ -50,4 +50,4 @@ abilities:
   type: Villain Action
   cost: 3 VP
 
-```
+~~~

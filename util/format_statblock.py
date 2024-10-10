@@ -52,7 +52,7 @@ def process_block(block_lines):
     # Build the markdown table
     table_lines = []
     table_lines.append(f'| {name} | {level.strip()} |')
-    table_lines.append('|:---------------------------------------------------- | -------------------------:|')
+    table_lines.append('|:-------------------------------------------------- | -------------------------:|')
     table_lines.append(f'| {type_line} | {ev} |')
 
     for left, right in item_pairs:
@@ -72,10 +72,49 @@ def process_block(block_lines):
     else:
         ability_table = []
 
+    # Process other content (abilities, maneuvers, etc.)
+    processed_other_content = process_other_content(other_content)
+
     # Combine all lines, including other content
-    result_lines = [f'#### {name}', ''] + table_lines + [''] + ability_table + [''] + other_content + ['']
+    result_lines = [f'#### {name}', ''] + table_lines + [''] + ability_table + [''] + processed_other_content + ['']
 
     return result_lines
+
+def process_other_content(other_content):
+    result = []
+    i = 0
+    while i < len(other_content):
+        line = other_content[i]
+
+        # Check if line is an ability start (e.g., starts and ends with '**')
+        ability_start_match = re.match(r'\*\*.*\*\*.*', line)
+        if ability_start_match:
+            # Insert empty line before ability, unless it's the first line
+            if result and result[-1] != '':
+                result.append('')
+
+            # Add the ability name line
+            result.append(line)
+
+            # Insert empty line after ability name line
+            result.append('')
+
+            i += 1
+        else:
+            # If line starts with 'Effect:' or 'Effect', add empty line before
+            if line.strip().startswith('Effect:') or line.strip().startswith('Effect'):
+                if result and result[-1] != '':
+                    result.append('')
+                result.append(line)
+            else:
+                result.append(line)
+            i += 1
+
+    # Remove any extra empty lines at the end
+    while result and result[-1] == '':
+        result.pop()
+
+    return result
 
 def main():
     if len(sys.argv) != 2:
