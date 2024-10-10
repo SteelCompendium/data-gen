@@ -281,3 +281,16 @@ generate_bestiary:
     echo >&2 "[JUST] --- Generating Bestiary --- "
     rm -rf "../Bestiary"
     python3 extract_statblocks.py "../Rules/Draw Steel Bestiary.md"
+
+    just format_bestiary
+
+# Formats markdown in the bestiary folder
+format_bestiary:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    echo >&2 "[JUST] --- Formatting Bestiary --- "
+    for file in ../Bestiary/markdown/* ; do
+        python3 format_statblock.py "$file"
+    done
+
+
