@@ -15,9 +15,12 @@ bestiary_markdown_source_path := data_gen_root_path / "Rules" / "Draw Steel Best
 
 rules_html_path := data_gen_root_path / "Rules" / "Draw Steel Rules.html"
 
+
 generate:
     # Convert the Rules markdown to html so it can be parsed with xpath
     just generate_html_pandoc
+
+    just _delete_dir_except_git "{{rules_markdown_output_path}}"
 
     # Generate sections from the Rules html
     just generate_abilities
@@ -311,4 +314,17 @@ format_bestiary:
         python3 format_statblock.py "$file"
     done
 
-
+# deletes all the (non-hidden) files in a directory
+_delete_dir_except_git dir_to_delete:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    tempdir="$(mktemp -d)"
+    echo "$tempdir"
+    # add a dummy file to avoid crashing in case the dir is empty
+    touch "{{dir_to_delete}}/dummy.txt"
+    mv "{{dir_to_delete}}"/* "${tempdir}/"
+    # by default dotglob will prevent hidden files from being included in * wildcard globs
+    if [ -d "${tempdir}/.git" ]; then
+        mv "${tempdir}/.git" "{{dir_to_delete}}"
+    fi
+    rm -rf "$tempdir"
