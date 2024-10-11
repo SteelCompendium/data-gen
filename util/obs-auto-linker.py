@@ -28,7 +28,6 @@ def find_markdown_files(directory):
         def should_skip():
             for to_skip in folders_to_skip:
                 if f"{directory}/{to_skip}" in root:
-                    print(f"{directory}/{to_skip} is in {root}")
                     return True
             return False
         if should_skip():
