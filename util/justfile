@@ -1,5 +1,18 @@
 export PATH := "./node_modules/.bin:" + env_var('PATH')
 
+data_root_path := "{{justfile_directory}}/../.."
+
+unified_markdown_output_path := "{{data_root_path}}/data-todo-md"
+rules_markdown_output_path := "{{data_root_path}}/data-rules-md"
+bestiary_markdown_output_path := "{{data_root_path}}/data-bestiary-md"
+bestiary_yaml_output_path := "{{data_root_path}}/data-bestiary-yaml"
+
+# TODO - should these inputs move out of the repo?
+rules_markdown_source_path := "{{justfile_directory}}/../Rules/Draw Steel Rules.md"
+bestiary_markdown_source_path := "{{justfile_directory}}/../Rules/Draw Steel Bestiary.md"
+
+rules_html_path := "{{justfile_directory}}/../Rules/Draw Steel Rules.html"
+
 generate:
     # Convert the Rules markdown to html so it can be parsed with xpath
     just generate_html_pandoc
@@ -38,25 +51,25 @@ generate_html_pandoc:
     pandoc --wrap=none \
         --standalone \
         --section-divs \
-        -o "../Rules/Draw Steel Rules.html" \
-        "../Rules/Draw Steel Rules.md"
+        -o "{{rules_html_path}}" \
+        "{{rules_markdown_source_path}}"
 
     # avoiding some cdata mess
-    sed -i 's/<style>/<style type="text\/css">/g' "../Rules/Draw Steel Rules.html"
+    sed -i 's/<style>/<style type="text\/css">/g' "{{rules_html_path}}"
 
     # tidy up the html
-    tidy -i "../Rules/Draw Steel Rules.html" > .tmp || true
-    mv .tmp "../Rules/Draw Steel Rules.html"
+    tidy -i "{{rules_html_path}}" > .tmp || true
+    mv .tmp "{{rules_html_path}}"
 
     # Replace html entities
-    sed -i 's/&#8220;/"/g; s/&#8221;/"/g; s/&amp;/&/g; s/&lt;/</g; s/&gt;/>/g; s/\&nbsp\;/ /g;' "../Rules/Draw Steel Rules.html"
-    sed -i "s/&#8217;/'/g; s/’/'/g;" "../Rules/Draw Steel Rules.html"
+    sed -i 's/&#8220;/"/g; s/&#8221;/"/g; s/&amp;/&/g; s/&lt;/</g; s/&gt;/>/g; s/\&nbsp\;/ /g;' "{{rules_html_path}}"
+    sed -i "s/&#8217;/'/g; s/’/'/g;" "{{rules_html_path}}"
 
 generate_abilities:
     #!/usr/bin/env bash
     set -euo pipefail
 
-    abilities_path="../Abilities"
+    abilities_path="{{rules_markdown_output_path}}/Abilities"
 
     # Conduit
     rm -rf "$abilities_path/Conduit"
@@ -127,7 +140,7 @@ generate_movement:
     #!/usr/bin/env bash
     set -euo pipefail
 
-    movement_path="../Movement"
+    movement_path="{{rules_markdown_output_path}}/Movement"
 
     xpath="//section[@id='combat']//section[@id='movement']//section[@class='level4']"
     just generate_section "$movement_path" "$xpath"
@@ -141,18 +154,18 @@ generate_kits:
     #!/usr/bin/env bash
     set -euo pipefail
 
-    martial_path="../Kits/Martial Kits"
+    martial_path="{{rules_markdown_output_path}}/Kits/Martial Kits"
     xpath="//section[@id='kits']//section[@id='martial-kits']//section[@class='level4']"
     just generate_section "$martial_path" "$xpath"
 
-    caster_path="../Kits/Caster Kits"
+    caster_path="{{rules_markdown_output_path}}/Kits/Caster Kits"
     xpath="//section[@id='kits']//section[@id='caster-kits']//section[@class='level4']"
     just generate_section "$caster_path" "$xpath"
 
 generate_ancestries:
     #!/usr/bin/env bash
     set -euo pipefail
-    ancestries_path="../Ancestries"
+    ancestries_path="{{rules_markdown_output_path}}/Ancestries"
     xpath="//section[@id='ancestries']//section[@class='level3']"
     just generate_section "$ancestries_path" "$xpath"
 
@@ -163,7 +176,7 @@ generate_ancestries:
 generate_careers:
     #!/usr/bin/env bash
     set -euo pipefail
-    careers_path="../Careers"
+    careers_path="{{rules_markdown_output_path}}/Careers"
     xpath="//section[@id='career-1']//section[@class='level3']"
     just generate_section "$careers_path" "$xpath"
 
@@ -175,7 +188,7 @@ generate_careers:
 generate_cultures:
     #!/usr/bin/env bash
     set -euo pipefail
-    cultures_path="../Cultures"
+    cultures_path="{{rules_markdown_output_path}}/Cultures"
 
     xpath="//section[@id='culture-1']//section[@id='culture-benefits']//section[@id='environment']//section[@class='level6']"
     just generate_section "$cultures_path/Environments" "$xpath"
@@ -192,7 +205,7 @@ generate_cultures:
 generate_complications:
     #!/usr/bin/env bash
     set -euo pipefail
-    complications_path="../Complications"
+    complications_path="{{rules_markdown_output_path}}/Complications"
     xpath="//section[@id='complications']//section[@id='determine-complication']//section[@class='level4']"
     just generate_section "$complications_path" "$xpath"
     rm "${complications_path}/Complications Table.md"
@@ -200,7 +213,7 @@ generate_complications:
 generate_skills:
     #!/usr/bin/env bash
     set -euo pipefail
-    skills_path="../Skills"
+    skills_path="{{rules_markdown_output_path}}/Skills"
     xpath="//section[@id='tests']//section[@id='skill-groups']//section[@class='level5']"
     just generate_section "$skills_path" "$xpath"
 
@@ -211,7 +224,7 @@ generate_skills:
 generate_conditions:
     #!/usr/bin/env bash
     set -euo pipefail
-    conditions_path="../Conditions"
+    conditions_path="{{rules_markdown_output_path}}/Conditions"
     xpath="//section[@id='abilities']//section[@id='conditions']//section[@class='level4']"
     just generate_section "$conditions_path" "$xpath"
 
@@ -219,7 +232,7 @@ generate_negotiation:
     #!/usr/bin/env bash
     set -euo pipefail
 
-    negotiation_path="../Negotiation"
+    negotiation_path="{{rules_markdown_output_path}}/Negotiation"
     xpath="//section[@id='list-of-motivations-and-pitfalls']//section[@class='level5']"
     just generate_section "$negotiation_path/Motivations and Pitfalls" "$xpath"
     rm "$negotiation_path/Motivations and Pitfalls/Npcs Change Over Time.md"
@@ -237,7 +250,7 @@ generate_section destination_path xpath skip_delete="true":
         echo "SKIP DELETE"
     fi
 
-    python3 ./query.py "{{xpath}}" "../Rules/Draw Steel Rules.html" "{{destination_path}}"
+    python3 ./query.py "{{xpath}}" "{{rules_html_path}}" "{{destination_path}}"
     html_folder_to_md "{{destination_path}}"
 
 # Converts unordered lists for ability keywords, type, distance, and targets into a markdown table
@@ -246,7 +259,8 @@ format_ability_tables:
     set -euo pipefail
     echo >&2 "[JUST] --- Formatting ability tables --- "
 
-    python3 format_ability_tables.py "../"
+    python3 format_ability_tables.py "{{rules_markdown_output_path}}/"
+    python3 format_ability_tables.py "{{bestiary_markdown_output_path}}/"
 
 # Generale formatting on generated markdown files (mdformat)
 format_markdown:
@@ -254,10 +268,11 @@ format_markdown:
     set -euo pipefail
     echo >&2 "[JUST] --- Formatting Markdown --- "
     mdformat --version
-    for dir in ../*/ ; do
-        if [ "$dir" != "../Rules/" ] && [ "$dir" != "../util/" ]; then
-            mdformat "$dir"
-        fi
+    for dir in {{rules_markdown_output_path}}/*/ ; do
+        mdformat "$dir"
+    done
+    for dir in {{bestiary_markdown_output_path}}/*/ ; do
+        mdformat "$dir"
     done
 
 # Generates links between markdown files
@@ -268,11 +283,13 @@ auto_link:
 
     # Prepare the linked rules file
     mkdir -p "../Formatted"
-    cp "../Rules/Draw Steel Rules.md" "../Formatted/Formatted Draw Steel Rules.md"
+    cp "{{rules_markdown_source_path}}" "../Formatted/Formatted Draw Steel Rules.md"
 
-    python3 obs-auto-linker.py ../
+    # TODO - this is not going to link the bestiary, is that okay?
+    python3 obs-auto-linker.py {{rules_markdown_output_path}}/
 
-    mv "../Formatted/Formatted Draw Steel Rules.md" "../Rules/Draw Steel Rules - Linked.md"
+    mv "../Formatted/Formatted Draw Steel Rules.md" "{{rules_markdown_source_path}}/Draw Steel Rules.md"
+    # TODO - the original Draw Steel Rules should also move over
     rm -rf "../Formatted"
 
 # Generates the Bestiary folder
@@ -280,14 +297,16 @@ generate_bestiary:
     #!/usr/bin/env bash
     set -euo pipefail
     echo >&2 "[JUST] --- Generating Bestiary --- "
+    # TODO - clean out the dir
     rm -rf "../Bestiary"
-    python3 extract_statblocks.py "../Rules/Draw Steel Bestiary.md"
+    python3 extract_statblocks.py "{{bestiary_markdown_source_path}}" "{{rules_markdown_output_path}}/raw" "{{rules_markdown_output_path}}/dse" "{{bestiary_yaml_output_path}}"
 
 # Formats markdown in the bestiary folder
 format_bestiary:
     #!/usr/bin/env bash
     set -euo pipefail
     echo >&2 "[JUST] --- Formatting Bestiary --- "
+    # TODO - configurable dir
     for file in ../Bestiary/markdown/* ; do
         python3 format_statblock.py "$file"
     done

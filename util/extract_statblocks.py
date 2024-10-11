@@ -11,7 +11,6 @@ import yaml
 # Does not modify the original markdown file.
 ############################################################################################################
 
-
 def has_statblock_stuff(markdown_line):
     return any(word in markdown_line for word in ["Speed", "Level", "EV", "Size", "Free Strike"])
 
@@ -92,11 +91,14 @@ def get_statblock_name(statblock_text):
     return None
 
 def main():
-    if len(sys.argv) != 2:
-        print("Usage: python extract_statblocks.py <input_markdown_file>")
+    if len(sys.argv) != 5:
+        print("Usage: python extract_statblocks.py <input_markdown_file> <md_output_dir> <md_dse_output_dir> <yaml_output_dir>")
         sys.exit(1)
 
     input_markdown_file = sys.argv[1]
+    markdown_output_dir = sys.argv[2]
+    markdown_statblock_output_dir = sys.argv[3]
+    yaml_output_dir = sys.argv[4]
 
     # Read the input markdown file
     with open(input_markdown_file, 'r', encoding='utf-8') as f:
@@ -106,9 +108,6 @@ def main():
     statblocks = extract_statblocks(markdown_text)
 
     # Ensure output directories exist
-    markdown_output_dir = os.path.join('..', 'Bestiary', 'markdown')
-    yaml_output_dir = os.path.join('..', 'Bestiary', 'yaml')
-    markdown_statblock_output_dir = os.path.join('..', 'Bestiary', 'markdown-dse')
     os.makedirs(markdown_output_dir, exist_ok=True)
     os.makedirs(yaml_output_dir, exist_ok=True)
     os.makedirs(markdown_statblock_output_dir, exist_ok=True)
