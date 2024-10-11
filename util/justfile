@@ -1,3 +1,5 @@
+#!/usr/bin/env just --justfile
+
 export PATH := "./node_modules/.bin:" + env_var('PATH')
 
 data_gen_root_path := justfile_directory() / ".."
@@ -14,7 +16,6 @@ rules_markdown_source_path := data_gen_root_path / "Rules" / "Draw Steel Rules.m
 bestiary_markdown_source_path := data_gen_root_path / "Rules" / "Draw Steel Bestiary.md"
 
 rules_html_path := data_gen_root_path / "Rules" / "Draw Steel Rules.html"
-
 
 generate:
     # Convert the Rules markdown to html so it can be parsed with xpath
@@ -44,8 +45,17 @@ generate:
     # Linting and formatting of markdown
     just format_markdown
 
+    # TODO - this doesnt belong here?
+    # copy the rules and bestiary to output so they can be auto-linked
+    mkdir -p "{{rules_markdown_output_path}}/Rules"
+    cp "{{rules_markdown_source_path}}" "{{rules_markdown_output_path}}/Rules/Draw Steel Rules.md"
+    cp "{{bestiary_markdown_source_path}}" "{{bestiary_markdown_output_path}}/Draw Steel Bestiary.md"
+
     # link up all the files with obsidian-style links
     just auto_link
+
+    # Input docs belong in the outputs for use
+    just copy_inputs_to_outputs
 
 generate_html_pandoc:
     #!/usr/bin/env bash
@@ -284,16 +294,8 @@ auto_link:
     set -euo pipefail
     echo >&2 "[JUST] --- Linking generated notes to each other --- "
 
-    # Prepare the linked rules file
-    mkdir -p "../Formatted"
-    cp "{{rules_markdown_source_path}}" "../Formatted/Formatted Draw Steel Rules.md"
-
     # TODO - this is not going to link the bestiary, is that okay?
     python3 obs-auto-linker.py {{rules_markdown_output_path}}/
-
-    mv "../Formatted/Formatted Draw Steel Rules.md" "{{rules_markdown_output_path}}/Draw Steel Rules.md"
-    rm -rf "../Formatted"
-    # TODO - the original Draw Steel Rules should also move over
 
 # Generates the Bestiary folder
 generate_bestiary:
@@ -314,6 +316,13 @@ format_bestiary:
         python3 format_statblock.py "$file"
     done
 
+copy_inputs_to_outputs:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    cp "{{rules_markdown_source_path}}" "{{rules_markdown_output_path}}/Rules/Draw Steel Rules (raw).md"
+    cp "{{rules_html_path}}" "{{rules_markdown_output_path}}/Rules"
+    cp "{{bestiary_markdown_source_path}}" "{{bestiary_markdown_output_path}}/Draw Steel Bestiary (raw).md"
+
 # deletes all the (non-hidden) files in a directory
 _delete_dir_except_git dir_to_delete:
     #!/usr/bin/env bash
@@ -328,3 +337,4 @@ _delete_dir_except_git dir_to_delete:
         mv "${tempdir}/.git" "{{dir_to_delete}}"
     fi
     rm -rf "$tempdir"
+
