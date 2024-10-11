@@ -27,7 +27,7 @@ def find_markdown_files(directory):
     for root, _, files in os.walk(directory):
         def should_skip():
             for to_skip in folders_to_skip:
-                if f"../{to_skip}" in root:
+                if f"/{to_skip}" in root:
                     return True
             return False
         if should_skip():

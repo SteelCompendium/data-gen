@@ -56,6 +56,7 @@ generate:
     mkdir -p "{{rules_markdown_output_path}}/Rules"
     cp "{{rules_markdown_source_path}}" "{{rules_markdown_output_path}}/Rules/Draw Steel Rules.md"
     cp "{{bestiary_markdown_source_path}}" "{{bestiary_markdown_output_path}}/Draw Steel Bestiary.md"
+    # TODO - the Adventures?
 
     # link up all the files with obsidian-style links
     just auto_link
