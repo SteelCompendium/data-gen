@@ -297,9 +297,9 @@ generate_bestiary:
     #!/usr/bin/env bash
     set -euo pipefail
     echo >&2 "[JUST] --- Generating Bestiary --- "
-    rm -rf "{{bestiary_markdown_output_path}}"
-    rm -rf "{{bestiary_markdown_dse_output_path}}"
-    rm -rf "{{bestiary_yaml_output_path}}"
+    rm -rf "{{bestiary_markdown_output_path}}/*.md"
+    rm -rf "{{bestiary_markdown_dse_output_path}}/*.md"
+    rm -rf "{{bestiary_yaml_output_path}}/*.yaml"
     python3 extract_statblocks.py "{{bestiary_markdown_source_path}}" "{{bestiary_markdown_output_path}}" "{{bestiary_markdown_dse_output_path}}" "{{bestiary_yaml_output_path}}"
 
 # Formats markdown in the bestiary folder
