@@ -64,34 +64,29 @@ title_case_headers_in_md() {
 
 build_and_apply_frontmatter() {
     local md_file_path="${1:-}"
+    md_file_path=$(realpath "$md_file_path")
 
     # Figure out the directory this is in (relative to project root)
-    local root_dir=$(git rev-parse --show-toplevel)
+    local md_dir=$(dirname "$md_file_path")
+    local root_dir=$(cd "$md_dir" && git rev-parse --show-toplevel)
     local relative_path="$(realpath -s --relative-to="$root_dir" "$md_file_path")"
 
-    # type is the first directory under the root
-    local type_raw
-    type_raw=$(echo "$relative_path" | awk -F'/' '{ print $1 }' )
-    local type
-    type="$(echo "$type_raw" | sed -E 's/([A-Z])/\L\1/g' | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
+    local taxonomy="$(dirname "$relative_path")"
 
-    # subtype is the second directory under the root (if applicable)
-    local subtype_raw
-    subtype_raw="$(realpath -s --relative-to="$root_dir/$type_raw" "$md_file_path" | awk -F'/' '{ print $1 }')"
+    # type is the first directory under the root
+    local type
+    type=$(echo "$taxonomy" | awk -F'/' '{ print $1 }' )
+    type="$(echo "$type" | sed -E 's/([A-Z])/\L\1/g' | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
+
+    # subtype is the second directory under the root
     local subtype
-    subtype="$(echo "$subtype_raw" | sed -E 's/([A-Z])/\L\1/g' | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
-    if [ "$subtype_raw" == "$(basename "$md_file_path")" ]; then
-        subtype=""
-        kind=""
-    else
-        local kind_raw
-        kind_raw="$(realpath -s --relative-to="$root_dir/$type_raw/$subtype_raw" "$md_file_path" | awk -F'/' '{ print $1 }')"
-        local kind
-        kind="$(echo "$kind_raw" | sed -E 's/([A-Z])/\L\1/g' | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
-        if [ "$kind_raw" == "$(basename "$md_file_path")" ]; then
-            kind=""
-        fi
-    fi
+    subtype=$(echo "$taxonomy" | awk -F'/' '{ print $2 }' )
+    subtype="$(echo "$subtype" | sed -E 's/([A-Z])/\L\1/g' | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
+
+    # kind is the third directory under the root
+    local kind
+    kind=$(echo "$taxonomy" | awk -F'/' '{ print $3 }' )
+    kind="$(echo "$kind" | sed -E 's/([A-Z])/\L\1/g' | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
 
     frontmatter_path="$(mktemp)"
     local frontmatter
