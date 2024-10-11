@@ -1,17 +1,19 @@
 export PATH := "./node_modules/.bin:" + env_var('PATH')
 
-data_root_path := "{{justfile_directory}}/../.."
+data_gen_root_path := justfile_directory() / ".."
+data_root_path := data_gen_root_path / ".."
 
-unified_markdown_output_path := "{{data_root_path}}/data-todo-md"
-rules_markdown_output_path := "{{data_root_path}}/data-rules-md"
-bestiary_markdown_output_path := "{{data_root_path}}/data-bestiary-md"
-bestiary_yaml_output_path := "{{data_root_path}}/data-bestiary-yaml"
+unified_markdown_output_path := data_root_path / "data-todo-md"
+rules_markdown_output_path := data_root_path / "data-rules-md"
+bestiary_markdown_output_path := data_root_path / "data-bestiary-md"
+bestiary_markdown_dse_output_path := data_root_path / "data-bestiary-md-dse"
+bestiary_yaml_output_path := data_root_path / "data-bestiary-yaml"
 
 # TODO - should these inputs move out of the repo?
-rules_markdown_source_path := "{{justfile_directory}}/../Rules/Draw Steel Rules.md"
-bestiary_markdown_source_path := "{{justfile_directory}}/../Rules/Draw Steel Bestiary.md"
+rules_markdown_source_path := data_gen_root_path / "Rules" / "Draw Steel Rules.md"
+bestiary_markdown_source_path := data_gen_root_path / "Rules" / "Draw Steel Bestiary.md"
 
-rules_html_path := "{{justfile_directory}}/../Rules/Draw Steel Rules.html"
+rules_html_path := data_gen_root_path / "Rules" / "Draw Steel Rules.html"
 
 generate:
     # Convert the Rules markdown to html so it can be parsed with xpath
@@ -271,9 +273,7 @@ format_markdown:
     for dir in {{rules_markdown_output_path}}/*/ ; do
         mdformat "$dir"
     done
-    for dir in {{bestiary_markdown_output_path}}/*/ ; do
-        mdformat "$dir"
-    done
+    mdformat "{{bestiary_markdown_output_path}}"
 
 # Generates links between markdown files
 auto_link:
@@ -288,26 +288,26 @@ auto_link:
     # TODO - this is not going to link the bestiary, is that okay?
     python3 obs-auto-linker.py {{rules_markdown_output_path}}/
 
-    mv "../Formatted/Formatted Draw Steel Rules.md" "{{rules_markdown_source_path}}/Draw Steel Rules.md"
-    # TODO - the original Draw Steel Rules should also move over
+    mv "../Formatted/Formatted Draw Steel Rules.md" "{{rules_markdown_output_path}}/Draw Steel Rules.md"
     rm -rf "../Formatted"
+    # TODO - the original Draw Steel Rules should also move over
 
 # Generates the Bestiary folder
 generate_bestiary:
     #!/usr/bin/env bash
     set -euo pipefail
     echo >&2 "[JUST] --- Generating Bestiary --- "
-    # TODO - clean out the dir
-    rm -rf "../Bestiary"
-    python3 extract_statblocks.py "{{bestiary_markdown_source_path}}" "{{rules_markdown_output_path}}/raw" "{{rules_markdown_output_path}}/dse" "{{bestiary_yaml_output_path}}"
+    rm -rf "{{bestiary_markdown_output_path}}"
+    rm -rf "{{bestiary_markdown_dse_output_path}}"
+    rm -rf "{{bestiary_yaml_output_path}}"
+    python3 extract_statblocks.py "{{bestiary_markdown_source_path}}" "{{bestiary_markdown_output_path}}" "{{bestiary_markdown_dse_output_path}}" "{{bestiary_yaml_output_path}}"
 
 # Formats markdown in the bestiary folder
 format_bestiary:
     #!/usr/bin/env bash
     set -euo pipefail
     echo >&2 "[JUST] --- Formatting Bestiary --- "
-    # TODO - configurable dir
-    for file in ../Bestiary/markdown/* ; do
+    for file in {{bestiary_markdown_output_path}}/*.md ; do
         python3 format_statblock.py "$file"
     done
 
