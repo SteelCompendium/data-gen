@@ -307,7 +307,7 @@ auto_link:
     echo >&2 "[JUST] --- Linking generated notes to each other --- "
 
     # TODO - this is not going to link the bestiary, is that okay?
-    python3 obs-auto-linker.py {{rules_markdown_output_path}}/
+    python3 obs-auto-linker.py {{rules_markdown_output_path}}
 
 # Generates the Bestiary folder
 generate_bestiary:

@@ -28,6 +28,7 @@ def find_markdown_files(directory):
         def should_skip():
             for to_skip in folders_to_skip:
                 if f"{directory}/{to_skip}" in root:
+                    print(f"Skipping auto-link on {root} ({to_skip})")
                     return True
             return False
         if should_skip():
