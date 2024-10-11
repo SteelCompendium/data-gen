@@ -344,8 +344,10 @@ build_unified_repos:
     cp -R "{{rules_markdown_output_path}}"/* "{{unified_markdown_output_path}}"
     cp -R "{{bestiary_markdown_output_path}}"/* "{{unified_markdown_output_path}}/Bestiary"
 
-    # TODO - dse
-    #    just _delete_dir_except_git "{{unified_markdown_dse_output_path}}"
+    just _delete_dir_except_git "{{unified_markdown_dse_output_path}}"
+    mkdir -p "{{unified_markdown_dse_output_path}}/Bestiary"
+    cp -R "{{rules_markdown_output_path}}"/* "{{unified_markdown_dse_output_path}}"
+    cp -R "{{bestiary_markdown_dse_output_path}}"/* "{{unified_markdown_dse_output_path}}/Bestiary"
 
 # deletes all the (non-hidden) files in a directory
 _delete_dir_except_git dir_to_delete:
