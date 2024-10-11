@@ -9,6 +9,7 @@ data_root_path := data_gen_root_path / ".."
 # Input/source files
 rules_markdown_source_path := data_gen_root_path / "Rules" / "Draw Steel Rules.md"
 bestiary_markdown_source_path := data_gen_root_path / "Rules" / "Draw Steel Bestiary.md"
+adventure_dir_markdown_source_path := data_gen_root_path / "Adventures"
 
 # Unified output dirs
 unified_markdown_output_path := data_root_path / "data-md"
@@ -56,7 +57,7 @@ generate:
     mkdir -p "{{rules_markdown_output_path}}/Rules"
     cp "{{rules_markdown_source_path}}" "{{rules_markdown_output_path}}/Rules/Draw Steel Rules.md"
     cp "{{bestiary_markdown_source_path}}" "{{bestiary_markdown_output_path}}/Draw Steel Bestiary.md"
-    # TODO - the Adventures?
+    cp -R "{{adventure_dir_markdown_source_path}}" "{{rules_markdown_output_path}}"
 
     # link up all the files with obsidian-style links
     just auto_link

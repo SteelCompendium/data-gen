@@ -5,6 +5,9 @@ import argparse
 import frontmatter
 from tabulate import tabulate
 
+# This file is used to build a markdown table containing all the abilities included in a dir
+# Used for building a table of class abilities
+
 def collect_abilities(root_dir):
     abilities = []
     for dirpath, dirnames, filenames in os.walk(root_dir):
