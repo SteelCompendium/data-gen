@@ -5,16 +5,22 @@ export PATH := "./node_modules/.bin:" + env_var('PATH')
 data_gen_root_path := justfile_directory() / ".."
 data_root_path := data_gen_root_path / ".."
 
-unified_markdown_output_path := data_root_path / "data-todo-md"
+# TODO - should these inputs move out of the repo?
+# Input/source files
+rules_markdown_source_path := data_gen_root_path / "Rules" / "Draw Steel Rules.md"
+bestiary_markdown_source_path := data_gen_root_path / "Rules" / "Draw Steel Bestiary.md"
+
+# Unified output dirs
+unified_markdown_output_path := data_root_path / "data-md"
+unified_markdown_dse_output_path := data_root_path / "data-md-dse"
+# Rules output dirs
 rules_markdown_output_path := data_root_path / "data-rules-md"
+# Bestiary output dirs
 bestiary_markdown_output_path := data_root_path / "data-bestiary-md"
 bestiary_markdown_dse_output_path := data_root_path / "data-bestiary-md-dse"
 bestiary_yaml_output_path := data_root_path / "data-bestiary-yaml"
 
-# TODO - should these inputs move out of the repo?
-rules_markdown_source_path := data_gen_root_path / "Rules" / "Draw Steel Rules.md"
-bestiary_markdown_source_path := data_gen_root_path / "Rules" / "Draw Steel Bestiary.md"
-
+# Special files
 rules_html_path := data_gen_root_path / "Rules" / "Draw Steel Rules.html"
 
 generate:
@@ -56,6 +62,11 @@ generate:
 
     # Input docs belong in the outputs for use
     just copy_inputs_to_outputs
+
+    # At this point, all the files are generated
+
+    # copy the rules and bestiary to the unified repos
+    just build_unified_repos
 
 generate_html_pandoc:
     #!/usr/bin/env bash
@@ -322,6 +333,17 @@ copy_inputs_to_outputs:
     cp "{{rules_markdown_source_path}}" "{{rules_markdown_output_path}}/Rules/Draw Steel Rules (raw).md"
     cp "{{rules_html_path}}" "{{rules_markdown_output_path}}/Rules"
     cp "{{bestiary_markdown_source_path}}" "{{bestiary_markdown_output_path}}/Draw Steel Bestiary (raw).md"
+
+build_unified_repos:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    just _delete_dir_except_git "{{unified_markdown_output_path}}"
+    mkdir -p "{{unified_markdown_output_path}}/Bestiary"
+    cp -R "{{rules_markdown_output_path}}"/* "{{unified_markdown_output_path}}"
+    cp -R "{{bestiary_markdown_output_path}}"/* "{{unified_markdown_output_path}}/Bestiary"
+
+    # TODO - dse
+    #    just _delete_dir_except_git "{{unified_markdown_dse_output_path}}"
 
 # deletes all the (non-hidden) files in a directory
 _delete_dir_except_git dir_to_delete:
