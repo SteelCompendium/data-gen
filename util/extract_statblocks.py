@@ -149,9 +149,10 @@ def main():
         yaml_filename = f"{name}.md"
         yaml_filepath = os.path.join(markdown_statblock_output_dir, yaml_filename)
         with open(yaml_filepath, 'w', encoding='utf-8') as yaml_file:
-            file_content = f"# {name}"
-            file_content += "\n"
-            file_content += "\n~~~ds-statblock"
+            file_content = ""
+            # file_content = f"# {name}"
+            # file_content += "\n"
+            file_content += "~~~ds-statblock"
             file_content += f"\n{yaml_string}"
             file_content += "\n~~~"
             yaml_file.write(file_content)
