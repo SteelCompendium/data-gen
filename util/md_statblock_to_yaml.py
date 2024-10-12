@@ -35,9 +35,9 @@ def parse_markdown_statblock(markdown_text):
     data['stability'] = ''
     data['free_strike'] = ''
     data['might'] = ''
+    data['intuition'] = ''
     data['agility'] = ''
     data['reason'] = ''
-    data['intuition'] = ''
     data['presence'] = ''
     data['traits'] = []
     data['abilities'] = []
@@ -164,7 +164,7 @@ def parse_ability(lines, index):
 
         # Break if the line is the start of a new ability or trait
         if line.startswith('**') and ('◆' in line or re.search(r'\((Action|Maneuver|Triggered Action|Villain Action.*)\)', line)):
-            break  # Start of next ability
+            break
         elif line.startswith('**') and line.endswith('**') and '◆' not in line:
             break  # Start of a trait
         elif line.startswith('- **'):
@@ -217,18 +217,40 @@ def parse_ability(lines, index):
 
         # Tiers or Additional Options
         if line.startswith('-'):
-            option_match = re.match(r'-\s*\*\*(.+?)\*\*:\s*(.+)', line)
-            if option_match:
-                key = option_match.group(1).strip().lower().replace(' ', '_')
-                value = option_match.group(2).strip()
-                ability[key] = value
+            # First, check if it's a tiered result line
+            tier_match = re.match(r'-\s*([✦★✸])\s*(.+?):\s*(.+)', line)
+            if tier_match:
+                symbol = tier_match.group(1)
+                threshold = tier_match.group(2).strip()
+                description = tier_match.group(3).strip()
+                # Collect continuation lines
                 i += 1
+                while i < len(lines) and not lines[i].strip().startswith(('-', '**', 'Effect:', 'Special:')):
+                    description += ' ' + lines[i].strip()
+                    i += 1
+                # Map symbol to tier
+                if symbol == '✦':
+                    ability['t1'] = description
+                elif symbol == '★':
+                    ability['t2'] = description
+                elif symbol == '✸':
+                    ability['t3'] = description
+                continue
             else:
-                # Additional effect without specific format
-                i += 1
-            continue
+                # Check for additional options
+                option_match = re.match(r'-\s*\*\*(.+?)\*\*:\s*(.+)', line)
+                if option_match:
+                    key = option_match.group(1).strip().lower().replace(' ', '_')
+                    value = option_match.group(2).strip()
+                    ability[key] = value
+                    i += 1
+                    continue
+                else:
+                    # Additional effect without specific format
+                    i += 1
+                    continue
 
-        # Unknown line, increment
+        # Unknown line, increment i to avoid infinite loop
         i += 1
 
     return ability, i
