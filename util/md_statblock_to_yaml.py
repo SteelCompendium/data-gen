@@ -1,10 +1,6 @@
 import re
 import yaml
 
-# General purpose of this file is to pass a markdown string containing a statblock and it returns the parsed
-# yaml of the statblock data.
-############################################################################################################
-
 def parse_header(markdown_text):
     """
     Extracts the name of the statblock from the header.
@@ -17,290 +13,264 @@ def parse_header(markdown_text):
             return name.title()
     return None
 
-def parse_basic_stats(section_text):
-    data = {}
-
-    lines = section_text.strip().split('\n')
-
-    # Initialize variables
-    data['ancestry'] = []
-    data['roles'] = []
-
-    for line in lines:
-        line = line.strip()
-        if line.startswith('**') and line.endswith('**'):
-            # It's a bolded line without colon
-            # Check if it's 'Level X Role'
-            match = re.match(r'\*\*Level (\d+) (.+)\*\*', line)
-            if match:
-                level = int(match.group(1))
-                roles = match.group(2).split(' ')
-                roles = [role.strip() for role in roles]
-                data['level'] = level
-                data['roles'] = roles
-            elif line.startswith('**EV'):
-                # Parse EV
-                match = re.match(r'\*\*EV (\d+)\*\*', line)
-                if match:
-                    ev = int(match.group(1))
-                    data['ev'] = ev
-            else:
-                # Maybe it's a trait or ability
-                # For now, ignore
-                pass
-        elif line.startswith('*') and line.endswith('*'):
-            # Ancestry
-            ancestry = line.strip('*').split(',')
-            ancestry = [a.strip() for a in ancestry]
-            data['ancestry'] = ancestry
-        elif line.startswith('**') and '**' in line[2:]:
-            # It's a bolded keyword with a colon
-            # For example, '**Stamina**: 120'
-            match = re.match(r'\*\*(.+?)\*\*:\s*(.+)', line)
-            if match:
-                key = match.group(1).strip().lower().replace(' ', '_')
-                value = match.group(2).strip()
-                if key in ['stamina', 'free_strike']:
-                    data[key] = int(value)
-                elif key == 'immunity' or key == 'immunities':
-                    immunities = [s.strip() for s in value.split(',')]
-                    data['immunities'] = immunities
-                elif key == 'size':
-                    # Parse size and stability
-                    if '/' in value:
-                        size_part, stability_part = value.split('/')
-                        size = size_part.strip()
-                        stability = stability_part.strip()
-                        if 'Stability' in stability:
-                            stability = stability.replace('Stability', '').strip()
-                        data['size'] = size
-                        data['stability'] = int(stability)
-                    else:
-                        data['size'] = value
-                else:
-                    data[key] = value
-        else:
-            # Maybe other lines
-            pass
-
-    return data
-
-def parse_characteristics(section_text):
-    data = {}
-
-    lines = section_text.strip().split('\n')
-
-    for line in lines:
-        line = line.strip()
-        if line.startswith('- **') and '**' in line[3:]:
-            # Parse characteristic
-            match = re.match(r'- \*\*(.+?)\*\* ([+-]?\d+)', line)
-            if match:
-                key = match.group(1).strip().lower()
-                value = int(match.group(2))
-                data[key] = value
-    return data
-
-def parse_ability(section_text):
-    ability = {}
-
-    lines = section_text.strip().split('\n')
-
-    # First line is ability name and other info
-    first_line = lines[0].strip()
-
-    # Extract name, type, roll, cost
-    # Try to match different patterns
-    # Pattern 1: **Name (Type)** ◆ Roll ◆ Cost
-    pattern1 = r'\*\*(.+?)\s*\((.+?)\)\*\*\s*◆\s*(.+?)\s*◆\s*(.+)'
-    # Pattern 2: **Name (Type)** ◆ Roll
-    pattern2 = r'\*\*(.+?)\s*\((.+?)\)\*\*\s*◆\s*(.+)'
-    # Pattern 3: **Name (Type)**
-    pattern3 = r'\*\*(.+?)\s*\((.+?)\)\*\*'
-    # Pattern 4: **Name** ◆ Roll ◆ Cost
-    pattern4 = r'\*\*(.+?)\*\*\s*◆\s*(.+?)\s*◆\s*(.+)'
-    # Pattern 5: **Name** ◆ Roll
-    pattern5 = r'\*\*(.+?)\*\*\s*◆\s*(.+)'
-    # Pattern 6: **Name**
-    pattern6 = r'\*\*(.+?)\*\*'
-
-    match = re.match(pattern1, first_line)
-    if match:
-        ability['name'] = match.group(1).strip()
-        ability['type'] = match.group(2).strip()
-        ability['roll'] = match.group(3).strip()
-        ability['cost'] = match.group(4).strip()
-    else:
-        match = re.match(pattern2, first_line)
-        if match:
-            ability['name'] = match.group(1).strip()
-            ability['type'] = match.group(2).strip()
-            ability['roll'] = match.group(3).strip()
-        else:
-            match = re.match(pattern3, first_line)
-            if match:
-                ability['name'] = match.group(1).strip()
-                ability['type'] = match.group(2).strip()
-            else:
-                match = re.match(pattern4, first_line)
-                if match:
-                    ability['name'] = match.group(1).strip()
-                    ability['roll'] = match.group(2).strip()
-                    ability['cost'] = match.group(3).strip()
-                else:
-                    match = re.match(pattern5, first_line)
-                    if match:
-                        ability['name'] = match.group(1).strip()
-                        ability['roll'] = match.group(2).strip()
-                    else:
-                        match = re.match(pattern6, first_line)
-                        if match:
-                            ability['name'] = match.group(1).strip()
-
-    # After setting 'type', check for 'Villain Action N'
-    if 'type' in ability:
-        type_str = ability['type']
-        villain_action_match = re.match(r'Villain Action\s*(\d+)', type_str)
-        if villain_action_match:
-            n = int(villain_action_match.group(1))
-            ability['type'] = 'Villain Action'  # Normalize type
-            ability['cost'] = f'{n} VP'
-
-    # Now process the rest of the lines
-    i = 1
-    while i < len(lines):
-        line = lines[i].strip()
-        if line.startswith('Keywords:'):
-            keywords_line = line[len('Keywords:'):].strip()
-            keywords = [k.strip() for k in keywords_line.split(',')]
-            ability['keywords'] = keywords
-        elif line.startswith('Distance:'):
-            distance = line[len('Distance:'):].strip()
-            ability['distance'] = distance
-        elif line.startswith('Target:'):
-            target = line[len('Target:'):].strip()
-            ability['target'] = target
-        elif line.startswith('Trigger:'):
-            trigger = line[len('Trigger:'):].strip()
-            ability['trigger'] = trigger
-        elif line.startswith('Effect:'):
-            effect_line = line[len('Effect:'):].strip()
-            effect = effect_line
-            # Check if next lines are continuation of effect
-            i += 1
-            while i < len(lines) and not lines[i].strip().startswith('-'):
-                effect += ' ' + lines[i].strip()
-                i += 1
-            ability['effect'] = effect
-            continue  # We've already incremented i
-        elif line.startswith('-'):
-            # Tiers or additional effects
-            if line.startswith('- **'):
-                # Additional effect with cost
-                match = re.match(r'- \*\*(.+?)\*\*:\s*(.+)', line)
-                if match:
-                    cost = match.group(1).strip()
-                    additional_effect = match.group(2).strip()
-                    # Check if next lines are continuation
-                    i += 1
-                    while i < len(lines) and not lines[i].strip().startswith('-'):
-                        additional_effect += ' ' + lines[i].strip()
-                        i += 1
-                    if 'additional_effects' not in ability:
-                        ability['additional_effects'] = []
-                    ability['additional_effects'].append({'cost': cost, 'effect': additional_effect})
-                    continue  # Already incremented i
-            else:
-                # Tier lines may start with '- ✦', '- ★', '- ✸', or '- ≤11:'
-                # Match lines like '- ✦ ≤11: description' or '- ≤11: description'
-                match = re.match(r'-\s*([✦★✸])?\s*(.+?):\s*(.+)', line)
-                if match:
-                    symbol = match.group(1)
-                    threshold = match.group(2).strip()
-                    description = match.group(3).strip()
-                    # Process description continuation
-                    i += 1
-                    while i < len(lines) and not lines[i].strip().startswith('-'):
-                        description += ' ' + lines[i].strip()
-                        i += 1
-                    # Map threshold to tier
-                    if symbol == '✦' or '≤11' in threshold or '≤ 11' in threshold:
-                        ability['t1'] = description
-                    elif symbol == '★' or '12–16' in threshold or '12-16' in threshold:
-                        ability['t2'] = description
-                    elif symbol == '✸' or '17+' in threshold:
-                        ability['t3'] = description
-                    else:
-                        # Store threshold and description as is
-                        if 'tiers' not in ability:
-                            ability['tiers'] = []
-                        ability['tiers'].append({'threshold': f"{threshold}", 'description': description})
-                    continue  # Already incremented i
-                else:
-                    # Maybe it's an additional effect without cost
-                    pass
-        else:
-            # Other lines, maybe continuation of previous
-            i += 1
-            continue
-        i += 1
-
-    return ability
-
 def parse_markdown_statblock(markdown_text):
-    # Initialize the data dictionary
     data = {}
+    lines = markdown_text.strip().split('\n')
 
-    # Extract the name from the header
+    # Process the header
     name = parse_header(markdown_text)
     if name:
         data['name'] = name
 
-    # Remove the header line from the markdown_text
-    markdown_text = '\n'.join(markdown_text.strip().split('\n')[1:])
+    # Initialize variables (forcing everything for ordering)
+    data['ancestry'] = []
+    data['roles'] = []
+    data['level'] = ''
+    data['ev'] = ''
+    data['stamina'] = ''
+    data['immunities'] = []
+    data['weaknesses'] = []
+    data['speed'] = ''
+    data['size'] = ''
+    data['stability'] = ''
+    data['free_strike'] = ''
+    data['might'] = ''
+    data['intuition'] = ''
+    data['agility'] = ''
+    data['reason'] = ''
+    data['presence'] = ''
+    data['traits'] = []
+    data['abilities'] = []
 
-    # Split the markdown into sections separated by blank lines
-    sections = re.split(r'\n\s*\n', markdown_text.strip())
+    i = 0
 
-    # The first section is basic stats
-    basic_stats_section = sections[0]
-
-    # Parse basic stats
-    data.update(parse_basic_stats(basic_stats_section))
-
-    # The next section(s) may be characteristics or abilities
-    abilities = []
-    for section in sections[1:]:
-        section = section.strip()
-        if not section:
+    while i < len(lines):
+        line = lines[i].strip()
+        if not line:
+            i += 1
             continue
-        if section.startswith('- **'):
-            # This is characteristics section
-            data.update(parse_characteristics(section))
-        elif section.startswith('**'):
-            # This is an ability or trait
-            # Check if it's a trait (no parentheses in the title)
-            first_line = section.split('\n')[0]
-            if '(' in first_line and ')' in first_line:
-                # It's an ability
-                ability = parse_ability(section)
-                abilities.append(ability)
-            else:
-                # It's a trait
-                lines = section.strip().split('\n')
-                trait_name = lines[0].strip('*').strip()
-                trait_effect = ' '.join(lines[1:]).strip()
-                if 'traits' not in data:
-                    data['traits'] = []
-                data['traits'].append({'name': trait_name, 'effect': trait_effect})
-        else:
-            # Unknown section
-            pass
 
-    if abilities:
-        data['abilities'] = abilities
+        # Level and Role
+        match = re.match(r'\*\*Level\s+(\d+)\s+(.+)\*\*', line)
+        if match:
+            data['level'] = int(match.group(1))
+            roles = match.group(2).split()
+            data['roles'] = [role.strip() for role in roles]
+            i += 1
+            continue
+
+        # Ancestry line '*Ancestry*' (ensure line starts and ends with a single asterisk)
+        if line.startswith('*') and line.endswith('*') and line.count('*') == 2:
+            ancestry = line.strip('*').split(',')
+            data['ancestry'] = [a.strip() for a in ancestry]
+            i += 1
+            continue
+
+        # EV line '**EV XX**'
+        match = re.match(r'\*\*EV\s*(\d+)\*\*', line)
+        if match:
+            data['ev'] = int(match.group(1))
+            i +=1
+            continue
+
+        # Basic stat line '**Key**: Value'
+        match = re.match(r'\*\*(.+?)\*\*:\s*(.+)', line)
+        if match:
+            key = match.group(1).strip().lower().replace(' ', '_')
+            value = match.group(2).strip()
+            if key in ['stamina', 'free_strike']:
+                data[key] = int(value)
+            elif key == 'speed':
+                data[key] = value
+            elif key == 'size':
+                if '/' in value:
+                    size_part, stability_part = value.split('/')
+                    data['size'] = size_part.strip()
+                    stability_match = re.search(r'Stability\s*([+-−]?\d+)', stability_part)
+                    if stability_match:
+                        data['stability'] = int(stability_match.group(1).replace('−', '-'))
+                else:
+                    data['size'] = value
+            else:
+                data[key] = value
+            i +=1
+            continue
+
+        # Characteristic line '- **Characteristic** +/-N'
+        match = re.match(r'-\s*\*\*(.+?)\*\*\s*([+-−]?\d+)', line)
+        if match:
+            key = match.group(1).strip().lower()
+            value = match.group(2).replace('−', '-')
+            data[key] = int(value)
+            i +=1
+            continue
+
+        # Ability line: Lines that contain '◆' are abilities
+        if line.startswith('**') and '◆' in line:
+            ability, new_i = parse_ability(lines, i)
+            data['abilities'].append(ability)
+            i = new_i
+            continue
+
+        # Trait line: Lines that start and end with '**' but do not contain '◆'
+        if line.startswith('**') and line.endswith('**') and '◆' not in line:
+            trait, new_i = parse_trait(lines, i)
+            data['traits'].append(trait)
+            i = new_i
+            continue
+
+        # Unknown line, skip
+        i +=1
 
     return data
+
+def parse_ability(lines, index):
+    ability = {}
+    i = index
+
+    first_line = lines[i].strip()
+
+    # Pattern: '**Name (Type)** ◆ Roll ◆ Cost'
+    match = re.match(r'\*\*(.+?)\s*(?:\((.+?)\))?\*\*\s*◆\s*(.+?)\s*◆\s*(.+)', first_line)
+    if match:
+        ability['name'] = match.group(1).strip()
+        if match.group(2):
+            ability['type'] = match.group(2).strip()
+        ability['roll'] = match.group(3).strip()
+        ability['cost'] = match.group(4).strip()
+    else:
+        # Pattern: '**Name (Type)** ◆ Roll'
+        match = re.match(r'\*\*(.+?)\s*(?:\((.+?)\))?\*\*\s*◆\s*(.+)', first_line)
+        if match:
+            ability['name'] = match.group(1).strip()
+            if match.group(2):
+                ability['type'] = match.group(2).strip()
+            ability['roll'] = match.group(3).strip()
+        else:
+            # Pattern: '**Name (Type)**'
+            match = re.match(r'\*\*(.+?)\s*\((.+?)\)\*\*', first_line)
+            if match:
+                ability['name'] = match.group(1).strip()
+                ability['type'] = match.group(2).strip()
+            else:
+                # Pattern: '**Name**'
+                match = re.match(r'\*\*(.+?)\*\*', first_line)
+                if match:
+                    ability['name'] = match.group(1).strip()
+
+    i += 1
+
+    # Now process the rest of the lines
+    while i < len(lines):
+        line = lines[i].strip()
+        if not line:
+            i +=1
+            continue
+
+        if line.startswith('**') and ('◆' in line or '◆' not in line):
+            # Start of next ability or trait
+            break
+        if line.startswith('- **'):
+            # Start of characteristics
+            break
+
+        # Keywords
+        if line.startswith('Keywords:'):
+            keywords_line = line[len('Keywords:'):].strip()
+            ability['keywords'] = [k.strip() for k in keywords_line.split(',')]
+            i += 1
+            continue
+
+        # Distance
+        if line.startswith('Distance:'):
+            ability['distance'] = line[len('Distance:'):].strip()
+            i += 1
+            continue
+
+        # Target
+        if line.startswith('Target:'):
+            ability['target'] = line[len('Target:'):].strip()
+            i += 1
+            continue
+
+        # Trigger
+        if line.startswith('Trigger:'):
+            ability['trigger'] = line[len('Trigger:'):].strip()
+            i += 1
+            continue
+
+        # Effect
+        if line.startswith('Effect:'):
+            effect_lines = [line[len('Effect:'):].strip()]
+            i += 1
+            while i < len(lines) and not lines[i].strip().startswith('-') and not lines[i].strip().startswith('**') and not lines[i].strip().startswith('Special:'):
+                effect_lines.append(lines[i].strip())
+                i += 1
+            ability['effect'] = ' '.join(effect_lines)
+            continue
+
+        # Special
+        if line.startswith('Special:'):
+            special_lines = [line[len('Special:'):].strip()]
+            i += 1
+            while i < len(lines) and not lines[i].strip().startswith('-') and not lines[i].strip().startswith('**') and not lines[i].strip().startswith('Effect:'):
+                special_lines.append(lines[i].strip())
+                i += 1
+            ability['special'] = ' '.join(special_lines)
+            continue
+
+        # Tiers
+        if line.startswith('-'):
+            while i < len(lines) and lines[i].strip().startswith('-'):
+                tier_line = lines[i].strip()
+                tier_match = re.match(r'-\s*([✦★✸])?\s*(.+?):\s*(.+)', tier_line)
+                if tier_match:
+                    symbol = tier_match.group(1)
+                    threshold = tier_match.group(2).strip()
+                    description = tier_match.group(3).strip()
+                    # Collect continuation lines
+                    i += 1
+                    while i < len(lines) and not lines[i].strip().startswith('-') and not lines[i].strip().startswith('**') and not lines[i].strip().startswith('Effect:') and not lines[i].strip().startswith('Special:'):
+                        description += ' ' + lines[i].strip()
+                        i += 1
+                    # Map symbol to tier
+                    if symbol == '✦':
+                        ability['t1'] = description
+                    elif symbol == '★':
+                        ability['t2'] = description
+                    elif symbol == '✸':
+                        ability['t3'] = description
+                    else:
+                        if 'tiers' not in ability:
+                            ability['tiers'] = []
+                        ability['tiers'].append({'threshold': threshold, 'description': description})
+                else:
+                    i += 1
+            continue
+
+        # Unknown line, increment
+        i += 1
+
+    return ability, i
+
+def parse_trait(lines, index):
+    trait = {}
+    i = index
+    trait_lines = []
+    trait_name_line = lines[i].strip()
+    trait['name'] = trait_name_line.strip('*').strip()
+    i += 1
+    while i < len(lines):
+        line = lines[i].strip()
+        if line.startswith('**') and ('◆' in line or '◆' not in line):
+            break
+        elif line.startswith('- **'):
+            break
+        else:
+            trait_lines.append(line)
+            i += 1
+    trait['effect'] = ' '.join(trait_lines).strip()
+    return trait, i
 
 def process_markdown(markdown_text):
     """
