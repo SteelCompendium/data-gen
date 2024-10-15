@@ -329,6 +329,7 @@ format_bestiary:
         python3 format_statblock.py "$file"
     done
 
+# Some of the inputs (markdown, html) need to be copied to the output dir
 copy_inputs_to_outputs:
     #!/usr/bin/env bash
     set -euo pipefail
@@ -348,6 +349,10 @@ build_unified_repos:
     mkdir -p "{{unified_markdown_dse_output_path}}/Bestiary"
     cp -R "{{rules_markdown_output_path}}"/* "{{unified_markdown_dse_output_path}}"
     cp -R "{{bestiary_markdown_dse_output_path}}"/* "{{unified_markdown_dse_output_path}}/Bestiary"
+
+    # auto-link the unified repos
+    python3 obs-auto-linker.py {{unified_markdown_output_path}}
+    python3 obs-auto-linker.py {{unified_markdown_dse_output_path}}
 
 # deletes all the (non-hidden) files in a directory
 _delete_dir_except_git dir_to_delete:
