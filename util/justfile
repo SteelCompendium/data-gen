@@ -31,6 +31,7 @@ generate:
     just _delete_dir_except_git "{{rules_markdown_output_path}}"
 
     # Generate sections from the Rules html
+    just generate_classes
     just generate_abilities
     just generate_movement
     just generate_kits
@@ -92,6 +93,17 @@ generate_html_pandoc:
     # Replace html entities
     sed -i 's/&#8220;/"/g; s/&#8221;/"/g; s/&amp;/&/g; s/&lt;/</g; s/&gt;/>/g; s/\&nbsp\;/ /g;' "{{rules_html_path}}"
     sed -i "s/&#8217;/'/g; s/’/'/g;" "{{rules_html_path}}"
+
+generate_classes:
+    #!/usr/bin/env bash
+    set -euo pipefail
+
+    classes_path="{{rules_markdown_output_path}}/Classes"
+    just generate_section "$classes_path/Conduit" "//section[@id='conduit']"
+    just generate_section "$classes_path/Elementalist" "//section[@id='elementalist']"
+    just generate_section "$classes_path/Fury" "//section[@id='fury']"
+    just generate_section "$classes_path/Shadow" "//section[@id='shadow']"
+    just generate_section "$classes_path/Tactician/" "//section[@id='tactician']"
 
 generate_abilities:
     #!/usr/bin/env bash
