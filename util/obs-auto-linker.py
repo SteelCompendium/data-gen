@@ -125,8 +125,8 @@ def update_unlinked_references_in_file(file_path, note_titles):
                 def replace_with_link(match):
                     found_text = match.group(0)
                     if found_text != title:
-                        # If the found text case doesn't match the title, create an alias
-                        return f'[[{title}|{found_text}]]'
+                        # If the found text case doesn't match the title, create an alias. Escape the pipe in case we are in table
+                        return f'[[{title}\\|{found_text}]]'
                     return f'[[{title}]]'
 
                 # Replace any found references with Obsidian-style links, handling case and alias
