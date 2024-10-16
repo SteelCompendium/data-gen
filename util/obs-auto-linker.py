@@ -96,7 +96,11 @@ def update_unlinked_references_in_file(file_path, note_titles):
         # Sort note titles by length in descending order
         note_titles = sorted(note_titles, key=len, reverse=True)
 
-        # For each title, replace unlinked occurrences with links
+        # Split content into lines for line-by-line processing
+        lines = content.split('\n')
+        in_frontmatter = False
+
+        # For each title, prepare regex patterns and replacement functions
         for title in note_titles:
             # Don't add links to self
             if title.lower() == os.path.splitext(os.path.basename(file_path))[0].lower():
@@ -117,34 +121,50 @@ def update_unlinked_references_in_file(file_path, note_titles):
             # Convert forms to list and sort by length in descending order
             forms = sorted(forms, key=len, reverse=True)
 
+            # Compile regex patterns for all forms
+            patterns = []
             for form in forms:
                 # This regex looks for the form as a standalone word (case-insensitive), not inside existing links
-                pattern = r'(?<![\[\|\w]){}(?![\]\|\w])'.format(re.escape(form))
+                pattern = re.compile(r'(?<![\[\|\w]){}(?![\]\|\w])'.format(re.escape(form)), flags=re.IGNORECASE)
+                patterns.append((form, pattern))
 
-                # Define a replacement function to handle casing and create alias if needed
-                def replace_with_link(match):
-                    found_text = match.group(0)
-                    # Get the start position of the match
-                    match_start = match.start()
-                    # Find the start of the line
-                    line_start = content.rfind('\n', 0, match_start) + 1
-                    line_end = content.find('\n', match_start)
-                    if line_end == -1:
-                        line_end = len(content)
-                    line = content[line_start:line_end]
-                    if found_text != title:
-                        link = f'[[{title}|{found_text}]]'
-                    else:
-                        link = f'[[{title}]]'
-                    if line.strip().startswith('|'):
-                        # We are in a table row, escape '|' in link
-                        link = link.replace('|', '\\|')
-                    return link
+            # Process each line individually
+            for i, line in enumerate(lines):
+                # Skip processing in frontmatter and headers
+                if line.lstrip().startswith('---'):
+                    # Toggle frontmatter state
+                    in_frontmatter = not in_frontmatter
+                    continue
+                if in_frontmatter or line.lstrip().startswith('#'):
+                    continue
 
-                # Replace any found references with Obsidian-style links, handling case and alias
-                content = re.sub(pattern, replace_with_link, content, flags=re.IGNORECASE)
+                # Check if the line is a table row
+                is_table_row = line.strip().startswith('|')
 
-            content = remove_links_in_headers_and_frontmatter(content)
+                # Apply replacements for each pattern
+                for form, pattern in patterns:
+                    def replace_with_link(match):
+                        found_text = match.group(0)
+                        if found_text != title:
+                            # If the found text case doesn't match the title, create an alias
+                            link = f'[[{title}|{found_text}]]'
+                        else:
+                            link = f'[[{title}]]'
+                        if is_table_row:
+                            # Escape '|' in link if inside a table row
+                            link = link.replace('|', '\\|')
+                        return link
+
+                    # Replace any found references with Obsidian-style links
+                    line = pattern.sub(replace_with_link, line)
+
+                lines[i] = line
+
+        # Reconstruct content from processed lines
+        content = '\n'.join(lines)
+
+        # Remove links in headers and frontmatter
+        content = remove_links_in_headers_and_frontmatter(content)
 
         # Only write changes if there are any updates
         if content != original_content:
