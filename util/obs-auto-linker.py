@@ -124,10 +124,22 @@ def update_unlinked_references_in_file(file_path, note_titles):
                 # Define a replacement function to handle casing and create alias if needed
                 def replace_with_link(match):
                     found_text = match.group(0)
+                    # Get the start position of the match
+                    match_start = match.start()
+                    # Find the start of the line
+                    line_start = content.rfind('\n', 0, match_start) + 1
+                    line_end = content.find('\n', match_start)
+                    if line_end == -1:
+                        line_end = len(content)
+                    line = content[line_start:line_end]
                     if found_text != title:
-                        # If the found text case doesn't match the title, create an alias. Escape the pipe in case we are in table
-                        return f'[[{title}\\|{found_text}]]'
-                    return f'[[{title}]]'
+                        link = f'[[{title}|{found_text}]]'
+                    else:
+                        link = f'[[{title}]]'
+                    if line.strip().startswith('|'):
+                        # We are in a table row, escape '|' in link
+                        link = link.replace('|', '\\|')
+                    return link
 
                 # Replace any found references with Obsidian-style links, handling case and alias
                 content = re.sub(pattern, replace_with_link, content, flags=re.IGNORECASE)
@@ -141,6 +153,7 @@ def update_unlinked_references_in_file(file_path, note_titles):
             print(f"Updated links in file: {file_path}")
     except Exception as e:
         print(f"Error processing file {file_path}: {e}")
+
 
 def update_all_notes(directory):
     """Update all notes in the Obsidian vault directory."""
