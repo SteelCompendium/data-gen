@@ -28,6 +28,7 @@ bestiary_html_path := data_gen_root_path / "Rules" / "Draw Steel Bestiary.html"
 generate:
     # Convert the Rules markdown to html so it can be parsed with xpath
     just generate_html_pandoc "{{rules_markdown_source_path}}" "{{rules_html_path}}"
+    just generate_html_pandoc "{{bestiary_markdown_source_path}}" "{{bestiary_html_path}}"
 
     just _delete_dir_except_git "{{rules_markdown_output_path}}"
 
@@ -47,6 +48,7 @@ generate:
     # Generate Bestiary files
     just generate_bestiary
     just format_bestiary
+    just generate_villain_powers
 
     # Rewrite keyword-type-distance-target data to markdown tables
     just format_ability_ktdt_tables
@@ -186,7 +188,7 @@ generate_movement:
     xpath="//section[@id='combat']//section[@id='movement']//section[@class='level4']"
     just generate_section "$movement_path" "$xpath"
     xpath="//section[@id='combat']//section[@id='movement-types']//section[@class='level5']"
-    just generate_section "$movement_path" "$xpath" "skip_delete"
+    just generate_section "$movement_path" "$xpath" "{{rules_html_path}}" "skip_delete"
 
     rm "${movement_path}/Cant Exceed Speed.md"
     rm "${movement_path}/Movement Types.md"
@@ -278,8 +280,20 @@ generate_negotiation:
     just generate_section "$negotiation_path/Motivations and Pitfalls" "$xpath"
     rm "$negotiation_path/Motivations and Pitfalls/Npcs Change Over Time.md"
 
+generate_villain_powers:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    rm -rf "{{bestiary_markdown_output_path}}"/*.html
+    vp_dpath="{{bestiary_markdown_output_path}}"
+    just generate_section "$vp_dpath" "//section[@id='demons']//section[@id='demon-villain-power']" "{{bestiary_html_path}}" "skip_delete"
+    just generate_section "$vp_dpath" "//section[@id='goblins']//section[@id='goblin-villain-power']" "{{bestiary_html_path}}" "skip_delete"
+    just generate_section "$vp_dpath" "//section[@id='humans']//section[@id='human-villain-power']" "{{bestiary_html_path}}" "skip_delete"
+    just generate_section "$vp_dpath" "//section[@id='radenwights']//section[@id='radenwight-villain-power']" "{{bestiary_html_path}}" "skip_delete"
+    just generate_section "$vp_dpath" "//section[@id='time-raiders']//section[@id='time-radier-villain-power']" "{{bestiary_html_path}}" "skip_delete"
+    just generate_section "$vp_dpath" "//section[@id='war-dogs']//section[@id='war-dog-villain-power']" "{{bestiary_html_path}}" "skip_delete"
+
 # Generate markdown files for all matches of an xpath (via html)
-generate_section destination_path xpath skip_delete="true":
+generate_section destination_path xpath src_html_fpath=rules_html_path skip_delete="true":
     #!/usr/bin/env bash
     set -euo pipefail
     echo >&2 "[JUST] --- Generating {{destination_path}} --- "
@@ -291,7 +305,7 @@ generate_section destination_path xpath skip_delete="true":
         echo "SKIP DELETE"
     fi
 
-    python3 ./query.py "{{xpath}}" "{{rules_html_path}}" "{{destination_path}}"
+    python3 ./query.py "{{xpath}}" "{{src_html_fpath}}" "{{destination_path}}"
     html_folder_to_md "{{destination_path}}"
 
 # Converts unordered lists for ability keywords, type, distance, and targets into a markdown table
@@ -349,6 +363,7 @@ copy_inputs_to_outputs:
     cp "{{rules_markdown_source_path}}" "{{rules_markdown_output_path}}/Rules/Draw Steel Rules (raw).md"
     cp "{{rules_html_path}}" "{{rules_markdown_output_path}}/Rules"
     cp "{{bestiary_markdown_source_path}}" "{{bestiary_markdown_output_path}}/Draw Steel Bestiary (raw).md"
+    cp "{{bestiary_html_path}}" "{{bestiary_markdown_output_path}}"
 
 build_unified_repos:
     #!/usr/bin/env bash
