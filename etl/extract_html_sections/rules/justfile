@@ -1,0 +1,197 @@
+#!/usr/bin/env just --justfile
+
+run rules_html_fpath rules_html_sections_dpath:
+    just _extract_classes "{{rules_html_fpath}}" "{{rules_html_sections_dpath}}"
+    just _extract_abilities "{{rules_html_fpath}}" "{{rules_html_sections_dpath}}"
+    just _extract_movement "{{rules_html_fpath}}" "{{rules_html_sections_dpath}}"
+    just _extract_kits "{{rules_html_fpath}}" "{{rules_html_sections_dpath}}"
+    just _extract_ancestries "{{rules_html_fpath}}" "{{rules_html_sections_dpath}}"
+    just _extract_careers "{{rules_html_fpath}}" "{{rules_html_sections_dpath}}"
+    just _extract_cultures "{{rules_html_fpath}}" "{{rules_html_sections_dpath}}"
+    just _extract_complications "{{rules_html_fpath}}" "{{rules_html_sections_dpath}}"
+    just _extract_conditions "{{rules_html_fpath}}" "{{rules_html_sections_dpath}}"
+    just _extract_skills "{{rules_html_fpath}}" "{{rules_html_sections_dpath}}"
+    just _extract_negotiation "{{rules_html_fpath}}" "{{rules_html_sections_dpath}}"
+
+_extract_classes rules_html_fpath rules_html_sections_dpath:
+    #!/usr/bin/env bash
+    set -euo pipefail
+
+    classes_path="{{rules_markdown_output_path}}/Classes"
+    just _extract_section "$classes_path/Conduit" "//section[@id='conduit']"
+    just _extract_section "$classes_path/Elementalist" "//section[@id='elementalist']"
+    just _extract_section "$classes_path/Fury" "//section[@id='fury']"
+    just _extract_section "$classes_path/Shadow" "//section[@id='shadow']"
+    just _extract_section "$classes_path/Tactician/" "//section[@id='tactician']"
+
+_extract_abilities rules_html_fpath rules_html_sections_dpath:
+    #!/usr/bin/env bash
+    set -euo pipefail
+
+    abilities_path="{{rules_markdown_output_path}}/Abilities"
+
+    # Conduit
+    rm -rf "$abilities_path/Conduit"
+    #just _extract_section "$abilities_path/Conduit" "//section[@id='conduit-abilities']//section[@class='level6']"
+    just _extract_section "$abilities_path/Conduit/Signature Abilities" "//section[@id='conduit-abilities']//section[@id='signature-ability']//section[@class='level6']"
+    just _extract_section "$abilities_path/Conduit/3-Piety Abilities" "//section[@id='conduit-abilities']//section[@id='piety-abilities']//section[@class='level6']"
+    just _extract_section "$abilities_path/Conduit/5-Piety Abilities" "//section[@id='conduit-abilities']//section[@id='piety-abilities-1']//section[@class='level6']"
+    just _extract_section "$abilities_path/Conduit/Triggered Actions" "//section[@id='conduit']//section[@id='triggered-action']//section[@class='level5']"
+    just _extract_index "$abilities_path/Conduit"
+
+    # Elementalist
+    rm -rf "$abilities_path/Elementalist"
+    #just _extract_section "$abilities_path/Elementalist" "//section[@id='elementalist-abilities']//section[@class='level6']"
+    just _extract_section "$abilities_path/Elementalist/Signature Abilities" "//section[@id='elementalist-abilities']//section[@id='signature-ability-1']//section[@class='level6']"
+    just _extract_section "$abilities_path/Elementalist/3-Essence Abilities" "//section[@id='elementalist-abilities']//section[@id='essence-abilities']//section[@class='level6']"
+    just _extract_section "$abilities_path/Elementalist/5-Essence Abilities" "//section[@id='elementalist-abilities']//section[@id='essence-abilities-1']//section[@class='level6']"
+    just _extract_section "$abilities_path/Elementalist/Triggered Actions" "//section[@id='elementalist']//section[@id='specialization-triggered-action']//section[@class='level5']"
+    just _extract_index "$abilities_path/Elementalist"
+
+    # Fury
+    rm -rf "$abilities_path/Fury"
+    #just _extract_section "$abilities_path/Fury" "//section[@id='fury-abilities']//section[@class='level6']"
+    just _extract_section "$abilities_path/Fury/Signature Abilities" "//section[@id='fury-abilities']//section[@id='signature-ability-2']//section[@class='level6']"
+    just _extract_section "$abilities_path/Fury/3-Rage Abilities" "//section[@id='fury-abilities']//section[@id='rage-abilities']//section[@class='level6']"
+    just _extract_section "$abilities_path/Fury/5-Rage Abilities" "//section[@id='fury-abilities']//section[@id='rage-abilities-1']//section[@class='level6']"
+    just _extract_section "$abilities_path/Fury/Triggered Actions" "//section[@id='fury']//section[@id='aspect-triggered-action']//section[@class='level5']"
+    rm "$abilities_path/Fury/Triggered Actions/Fury Triggered Actions.md"
+    just _extract_index "$abilities_path/Fury"
+
+    # Shadow
+    #just _extract_section "$abilities_path/Shadow" "//section[@id='shadow-abilities']//section[@class='level6']"
+    rm -rf "$abilities_path/Shadow"
+    just _extract_section "$abilities_path/Shadow/Signature Abilities" "//section[@id='shadow-abilities']//section[@id='signature-ability-7']//section[@class='level6']"
+    just _extract_section "$abilities_path/Shadow/3-Insight Abilities" "//section[@id='shadow-abilities']//section[@id='insight-abilities']//section[@class='level6']"
+    just _extract_section "$abilities_path/Shadow/5-Insight Abilities" "//section[@id='shadow-abilities']//section[@id='insight-abilities-1']//section[@class='level6']"
+    just _extract_section "$abilities_path/Shadow/Triggered Actions" "//section[@id='shadow']//section[@id='college-triggered-action']//section[@class='level5']"
+    rm "$abilities_path/Shadow/Triggered Actions/Shadow Triggered Actions.md"
+    just _extract_index "$abilities_path/Shadow"
+
+    # Tactician
+    rm -rf "$abilities_path/Tactician"
+    #just _extract_section "$abilities_path/Tactician" "//section[@id='tactician-abilities']//section[@class='level6']"
+    just _extract_section "$abilities_path/Tactician/3-Focus Abilities" "//section[@id='tactician-abilities']//section[@id='focus-abilities']//section[@class='level6']"
+    just _extract_section "$abilities_path/Tactician/5-Focus Abilities" "//section[@id='tactician-abilities']//section[@id='focus-abilities-1']//section[@class='level6']"
+    just _extract_section "$abilities_path/Tactician/Triggered Actions" "//section[@id='tactician']//section[@id='doctrine-triggered-action']//section[@class='level5']"
+    rm "$abilities_path/Tactician/Triggered Actions/Tactician Triggered Actions.md"
+    just _extract_index "$abilities_path/Tactician"
+
+    # Common Maneuvers
+    just _extract_section "$abilities_path/Common Maneuvers" "//section[@id='combat']//section[@id='maneuvers']//section[@class='level4']"
+
+    # Common Actions
+    just _extract_section "$abilities_path/Common Actions" "//section[@id='combat']//section[@id='actions']//section[@class='level4']"
+
+_extract_index directory_path rules_html_fpath rules_html_sections_dpath:
+    #!/usr/bin/env bash
+    set -euo pipefail
+
+    index_name=$(basename "{{directory_path}}")
+    echo >&2 "[JUST] Generating index for $index_name"
+
+    index_path="{{directory_path}}/index.md"
+    echo "# $index_name Abilities" > "$index_path"
+    echo "" >> "$index_path"
+    python3 ability_table.py "{{directory_path}}" -c name kind cost ability_type distance target >> "$index_path"
+
+_extract_movement rules_html_fpath rules_html_sections_dpath:
+    #!/usr/bin/env bash
+    set -euo pipefail
+
+    movement_path="{{rules_markdown_output_path}}/Movement"
+
+    xpath="//section[@id='combat']//section[@id='movement']//section[@class='level4']"
+    just _extract_section "$movement_path" "$xpath"
+    xpath="//section[@id='combat']//section[@id='movement-types']//section[@class='level5']"
+    just _extract_section "$movement_path" "$xpath" "{{rules_html_path}}" "skip_delete"
+
+    rm "${movement_path}/Cant Exceed Speed.md"
+    rm "${movement_path}/Movement Types.md"
+
+_extract_kits rules_html_fpath rules_html_sections_dpath:
+    #!/usr/bin/env bash
+    set -euo pipefail
+
+    martial_path="{{rules_markdown_output_path}}/Kits/Martial Kits"
+    xpath="//section[@id='kits']//section[@id='martial-kits']//section[@class='level4']"
+    just _extract_section "$martial_path" "$xpath"
+
+    caster_path="{{rules_markdown_output_path}}/Kits/Caster Kits"
+    xpath="//section[@id='kits']//section[@id='caster-kits']//section[@class='level4']"
+    just _extract_section "$caster_path" "$xpath"
+
+_extract_ancestries rules_html_fpath rules_html_sections_dpath:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    ancestries_path="{{rules_markdown_output_path}}/Ancestries"
+    xpath="//section[@id='ancestries']//section[@class='level3']"
+    just _extract_section "$ancestries_path" "$xpath"
+
+    # removes any extra sections
+    rm "${ancestries_path}/Starting Size And Speed.md"
+    rm "${ancestries_path}/On The Origin Of Species.md"
+
+_extract_careers rules_html_fpath rules_html_sections_dpath:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    careers_path="{{rules_markdown_output_path}}/Careers"
+    xpath="//section[@id='career-1']//section[@class='level3']"
+    just _extract_section "$careers_path" "$xpath"
+
+    # removes any extra sections
+    rm "${careers_path}/Career Benefits.md"
+    rm "${careers_path}/Career Questions.md"
+    rm "${careers_path}/Inciting Incident.md"
+
+_extract_cultures rules_html_fpath rules_html_sections_dpath:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    cultures_path="{{rules_markdown_output_path}}/Cultures"
+
+    xpath="//section[@id='culture-1']//section[@id='culture-benefits']//section[@id='environment']//section[@class='level6']"
+    just _extract_section "$cultures_path/Environments" "$xpath"
+
+    xpath="//section[@id='culture-1']//section[@id='culture-benefits']//section[@id='organization']//section[@class='level5']"
+    just _extract_section "$cultures_path/Organizations" "$xpath"
+
+    xpath="//section[@id='culture-1']//section[@id='culture-benefits']//section[@id='upbringing']//section[@class='level5']"
+    just _extract_section "$cultures_path/Upbringing" "$xpath"
+
+    # removes any extra sections
+    rm "${cultures_path}/Upbringing/But I Really Want Alertness.md"
+
+_extract_complications rules_html_fpath rules_html_sections_dpath:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    complications_path="{{rules_markdown_output_path}}/Complications"
+    xpath="//section[@id='complications']//section[@id='determine-complication']//section[@class='level4']"
+    just _extract_section "$complications_path" "$xpath"
+    rm "${complications_path}/Complications Table.md"
+
+_extract_skills rules_html_fpath rules_html_sections_dpath:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    skills_path="{{rules_markdown_output_path}}/Skills"
+    xpath="//section[@id='tests']//section[@id='skill-groups']//section[@class='level5']"
+    just _extract_section "$skills_path" "$xpath"
+
+    # removes any extra sections
+    rm "${skills_path}/Are All Skills Equal?.md"
+    rm "${skills_path}/For The Director: Make Your Own Skills.md"
+
+_extract_conditions rules_html_fpath rules_html_sections_dpath:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    conditions_path="{{rules_markdown_output_path}}/Conditions"
+    xpath="//section[@id='abilities']//section[@id='conditions']//section[@class='level4']"
+    just _extract_section "$conditions_path" "$xpath"
+
+_extract_negotiation rules_html_fpath rules_html_sections_dpath:
+    #!/usr/bin/env bash
+    set -euo pipefail
+
+    negotiation_path="{{rules_markdown_output_path}}/Negotiation"
+    xpath="//section[@id='list-of-motivations-and-pitfalls']//section[@class='level5']"
+    just _extract_section "$negotiation_path/Motivations and Pitfalls" "$xpath"
+    rm "$negotiation_path/Motivations and Pitfalls/Npcs Change Over Time.md"

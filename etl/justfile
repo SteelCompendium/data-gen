@@ -1,0 +1,36 @@
+# Global dirs
+data_gen_root_dpath := justfile_directory() / ".."
+data_root_dpath := data_gen_root_dpath / ".."
+staging_dpath := data_root_dpath / "staging"
+staging_rules_dpath := staging_dpath / "rules"
+staging_bestiary_dpath := staging_dpath / "bestiary"
+
+# Input/source files
+rules_markdown_source_path := data_gen_root_dpath / "Rules" / "Draw Steel Rules.md"
+bestiary_markdown_source_path := data_gen_root_dpath / "Rules" / "Draw Steel Bestiary.md"
+adventure_dir_markdown_source_path := data_gen_root_dpath / "Adventures"
+
+clean_and_prep:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    if [ -d "{{staging_dpath}}" ]; then
+        rm -rf "{{staging_dpath}}"
+    fi
+    mkdir -p "{{staging_dpath}}"
+
+gen: clean_and_prep
+    #!/usr/bin/env bash
+    set -euo pipefail
+    just gen_rules
+
+gen_rules:
+    #!/usr/bin/env bash
+    set -euo pipefail
+
+    rules_html_fpath="{{staging_rules_dpath}}/html/Draw Steel Rules.html"
+    just -f md_to_html/justfile run "{{rules_markdown_source_path}}" "$rules_html_fpath"
+
+    rules_html_sections_dpath="{{staging_rules_dpath}}/html_sections"
+    just -f extract_html_sections/rules/justfile run "$rules_html_fpath" "$rules_html_sections_dpath"
+
+    just -f html-sections-to-md/justfile run output.html
