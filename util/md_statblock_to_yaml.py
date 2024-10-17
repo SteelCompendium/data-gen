@@ -154,6 +154,7 @@ def parse_ability(lines, index):
             ability['type'] = 'Villain Action'
 
     i += 1
+    effects = []
 
     # Now process the rest of the lines
     while i < len(lines):
@@ -195,26 +196,6 @@ def parse_ability(lines, index):
             i += 1
             continue
 
-        # Effect
-        if line.startswith('Effect:'):
-            effect_lines = [line[len('Effect:'):].strip()]
-            i += 1
-            while i < len(lines) and not lines[i].strip().startswith(('**', 'Special:', '-')):
-                effect_lines.append(lines[i].strip())
-                i += 1
-            ability['effect'] = ' '.join(effect_lines)
-            continue
-
-        # Special
-        if line.startswith('Special:'):
-            special_lines = [line[len('Special:'):].strip()]
-            i += 1
-            while i < len(lines) and not lines[i].strip().startswith(('**', 'Effect:', '-')):
-                special_lines.append(lines[i].strip())
-                i += 1
-            ability['special'] = ' '.join(special_lines)
-            continue
-
         # Tiers or Additional Options
         if line.startswith('-'):
             # First, check if it's a tiered result line
@@ -250,8 +231,27 @@ def parse_ability(lines, index):
                     i += 1
                     continue
 
+        # Effects
+        effect_match = re.match(r'(.+?):\s*(.+)', line)
+        if effect_match:
+            effect = {}
+            effect["name"] = effect_match.group(1).strip()
+            # TODO - cost?
+            effect_lines = [effect_match.group(2).strip()]
+            i += 1
+            while i < len(lines) and not lines[i].strip().startswith(('**', 'Special:', 'Effect:', '-')):
+                effect_lines.append(lines[i].strip())
+                i += 1
+
+            effect["effect"] = ' '.join(effect_lines)
+            effects.append(effect)
+            continue
+
         # Unknown line, increment i to avoid infinite loop
         i += 1
+
+    if len(effects) > 0:
+        ability["effects"] = effects
 
     return ability, i
 
