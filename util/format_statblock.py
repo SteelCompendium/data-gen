@@ -1,6 +1,10 @@
 import re
 import sys
 
+# Formatting and cleanup on statblocks
+# Converts ktdt tables, characteristic tables, cleans up newlines, etc
+########################################################################################################################
+
 def process_block(block_lines):
     # Extract the name from the '#### ' line
     name_line = block_lines[0]

@@ -2,6 +2,9 @@ import os
 import re
 import sys
 
+# Converts unordered lists for ability keywords, type, distance, and targets into a markdown table
+########################################################################################################################
+
 def find_markdown_files(directory):
     """Find all markdown files in a given directory."""
     markdown_files = []
@@ -91,7 +94,7 @@ def update_all_notes(directory):
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print("Usage: python format_ability_tables.py <directory_path>")
+        print("Usage: python format_ability_KTDT_tables.py <directory_path>")
         sys.exit(1)
 
     vault_directory = sys.argv[1]

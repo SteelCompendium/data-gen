@@ -23,10 +23,11 @@ bestiary_yaml_output_path := data_root_path / "data-bestiary-yaml"
 
 # Special files
 rules_html_path := data_gen_root_path / "Rules" / "Draw Steel Rules.html"
+bestiary_html_path := data_gen_root_path / "Rules" / "Draw Steel Bestiary.html"
 
 generate:
     # Convert the Rules markdown to html so it can be parsed with xpath
-    just generate_html_pandoc
+    just generate_html_pandoc "{{rules_markdown_source_path}}" "{{rules_html_path}}"
 
     just _delete_dir_except_git "{{rules_markdown_output_path}}"
 
@@ -48,7 +49,7 @@ generate:
     just format_bestiary
 
     # Rewrite keyword-type-distance-target data to markdown tables
-    just format_ability_tables
+    just format_ability_ktdt_tables
 
     # Linting and formatting of markdown
     just format_markdown
@@ -71,7 +72,7 @@ generate:
     # copy the rules and bestiary to the unified repos
     just build_unified_repos
 
-generate_html_pandoc:
+generate_html_pandoc md_src_fpath html_dest_fpath:
     #!/usr/bin/env bash
     set -euo pipefail
     echo >&2 "[JUST] --- Generating html --- "
@@ -80,19 +81,19 @@ generate_html_pandoc:
     pandoc --wrap=none \
         --standalone \
         --section-divs \
-        -o "{{rules_html_path}}" \
-        "{{rules_markdown_source_path}}"
+        -o "{{html_dest_fpath}}" \
+        "{{md_src_fpath}}"
 
     # avoiding some cdata mess
-    sed -i 's/<style>/<style type="text\/css">/g' "{{rules_html_path}}"
+    sed -i 's/<style>/<style type="text\/css">/g' "{{html_dest_fpath}}"
 
     # tidy up the html
-    tidy -i "{{rules_html_path}}" > .tmp || true
-    mv .tmp "{{rules_html_path}}"
+    tidy -i "{{html_dest_fpath}}" > .tmp || true
+    mv .tmp "{{html_dest_fpath}}"
 
     # Replace html entities
-    sed -i 's/&#8220;/"/g; s/&#8221;/"/g; s/&amp;/&/g; s/&lt;/</g; s/&gt;/>/g; s/\&nbsp\;/ /g;' "{{rules_html_path}}"
-    sed -i "s/&#8217;/'/g; s/’/'/g;" "{{rules_html_path}}"
+    sed -i 's/&#8220;/"/g; s/&#8221;/"/g; s/&amp;/&/g; s/&lt;/</g; s/&gt;/>/g; s/\&nbsp\;/ /g;' "{{html_dest_fpath}}"
+    sed -i "s/&#8217;/'/g; s/’/'/g;" "{{html_dest_fpath}}"
 
 generate_classes:
     #!/usr/bin/env bash
@@ -294,13 +295,13 @@ generate_section destination_path xpath skip_delete="true":
     html_folder_to_md "{{destination_path}}"
 
 # Converts unordered lists for ability keywords, type, distance, and targets into a markdown table
-format_ability_tables:
+format_ability_ktdt_tables:
     #!/usr/bin/env bash
     set -euo pipefail
     echo >&2 "[JUST] --- Formatting ability tables --- "
 
-    python3 format_ability_tables.py "{{rules_markdown_output_path}}/"
-    python3 format_ability_tables.py "{{bestiary_markdown_output_path}}/"
+    python3 format_ability_ktdt_tables.py "{{rules_markdown_output_path}}/"
+    python3 format_ability_ktdt_tables.py "{{bestiary_markdown_output_path}}/"
 
 # Generale formatting on generated markdown files (mdformat)
 format_markdown:

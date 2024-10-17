@@ -19,11 +19,8 @@ def main():
     with open(args.html_path, 'r', encoding='utf-8') as f:
         tree = html.parse(f)
 
-    # XPath expression to find all the level5 sections under triggered-action
-    xpath_expr = args.xpath
-
     # Find all matching sections
-    sections = tree.xpath(xpath_expr)
+    sections = tree.xpath(args.xpath)
 
     # Iterate over the sections and save each one
     for section in sections:
