@@ -32,6 +32,7 @@ _gen_frontmatter md_fpath root_dpath:
     kind=$(echo "$taxonomy" | awk -F'/' '{ print $3 }' )
     kind="$(echo "$kind" | sed -E 's/([A-Z])/\L\1/g' | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
 
+    # Important: this helper is expecting ktdt data to NOT be in table form!
     frontmatter_path="$(mktemp)"
     python3 ability.py -f "$md_file_path" --type "$type" --subtype "$subtype" --kind "$kind" -o "frontmatter" > "$frontmatter_path"
 

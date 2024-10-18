@@ -13,6 +13,6 @@ run md_src_dpath md_dest_dpath:
 
     # All of these transform the markdown files in-place
     just -f convert_headers_title_case/justfile run "{{md_dest_dpath}}"
-    just -f convert_ktdt_tables/justfile run "{{md_dest_dpath}}"
     just -f reduce_header_levels/justfile run "{{md_dest_dpath}}"
     just -f frontmatter/justfile run "{{md_dest_dpath}}"
+    just -f convert_ktdt_tables/justfile run "{{md_dest_dpath}}"
