@@ -1,4 +1,4 @@
-log_prefix := "[JUST][format_md][mdformat]"
+log_prefix := "[JUST][format_md][generate_ability_index]"
 
 run md_src_dpath:
     #!/usr/bin/env bash
