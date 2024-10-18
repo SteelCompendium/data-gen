@@ -1,0 +1,13 @@
+log_prefix := "[JUST][link_md]"
+
+# Generates links between markdown files in a directory (in-place operation)
+run md_src_dpath md_dest_dpath:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    echo >&2 "{{log_prefix}} --- Formatting markdown --- "
+    echo >&2 "{{log_prefix}} MD unlinked source: {{md_src_dpath}}"
+    echo >&2 "{{log_prefix}} MD linked dest: {{md_dest_dpath}}"
+
+    mkdir -p "{{md_dest_dpath}}"
+    cp -R "{{md_src_dpath}}"/* "{{md_dest_dpath}}"
+    python3 obs-auto-linker.py {{md_dest_dpath}}

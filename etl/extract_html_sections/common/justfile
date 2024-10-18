@@ -13,5 +13,4 @@ extract_section destination_path xpath src_html_fpath skip_delete="true":
     fi
 
     python3 ./query.py "{{xpath}}" "{{src_html_fpath}}" "{{destination_path}}"
-    # TODO - move this
-    #html_folder_to_md "{{destination_path}}"
+

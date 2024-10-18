@@ -1,6 +1,6 @@
 #!/usr/bin/env just --justfile
 
-log_prefix := "[JUST][md_to_html]"
+log_prefix := "[JUST][extract_html_sections]"
 
 run rules_html_fpath rules_html_sections_dpath:
     just _extract_classes "{{rules_html_fpath}}" "{{rules_html_sections_dpath}}"
@@ -39,7 +39,8 @@ _extract_abilities rules_html_fpath rules_html_sections_dpath:
     just -f "../common/justfile" extract_section "$abilities_path/Conduit/3-Piety Abilities" "//section[@id='conduit-abilities']//section[@id='piety-abilities']//section[@class='level6']" "{{rules_html_fpath}}"
     just -f "../common/justfile" extract_section "$abilities_path/Conduit/5-Piety Abilities" "//section[@id='conduit-abilities']//section[@id='piety-abilities-1']//section[@class='level6']" "{{rules_html_fpath}}"
     just -f "../common/justfile" extract_section "$abilities_path/Conduit/Triggered Actions" "//section[@id='conduit']//section[@id='triggered-action']//section[@class='level5']" "{{rules_html_fpath}}"
-    just _extract_index "$abilities_path/Conduit"
+    # TODO
+    #just _extract_index "$abilities_path/Conduit"
 
     # Elementalist
     rm -rf "$abilities_path/Elementalist"
@@ -48,7 +49,8 @@ _extract_abilities rules_html_fpath rules_html_sections_dpath:
     just -f "../common/justfile" extract_section "$abilities_path/Elementalist/3-Essence Abilities" "//section[@id='elementalist-abilities']//section[@id='essence-abilities']//section[@class='level6']" "{{rules_html_fpath}}"
     just -f "../common/justfile" extract_section "$abilities_path/Elementalist/5-Essence Abilities" "//section[@id='elementalist-abilities']//section[@id='essence-abilities-1']//section[@class='level6']" "{{rules_html_fpath}}"
     just -f "../common/justfile" extract_section "$abilities_path/Elementalist/Triggered Actions" "//section[@id='elementalist']//section[@id='specialization-triggered-action']//section[@class='level5']" "{{rules_html_fpath}}"
-    just _extract_index "$abilities_path/Elementalist"
+    # TODO
+    #just _extract_index "$abilities_path/Elementalist"
 
     # Fury
     rm -rf "$abilities_path/Fury"
@@ -57,8 +59,9 @@ _extract_abilities rules_html_fpath rules_html_sections_dpath:
     just -f "../common/justfile" extract_section "$abilities_path/Fury/3-Rage Abilities" "//section[@id='fury-abilities']//section[@id='rage-abilities']//section[@class='level6']" "{{rules_html_fpath}}"
     just -f "../common/justfile" extract_section "$abilities_path/Fury/5-Rage Abilities" "//section[@id='fury-abilities']//section[@id='rage-abilities-1']//section[@class='level6']" "{{rules_html_fpath}}"
     just -f "../common/justfile" extract_section "$abilities_path/Fury/Triggered Actions" "//section[@id='fury']//section[@id='aspect-triggered-action']//section[@class='level5']" "{{rules_html_fpath}}"
-    rm "$abilities_path/Fury/Triggered Actions/Fury Triggered Actions.md"
-    just _extract_index "$abilities_path/Fury"
+    rm "$abilities_path/Fury/Triggered Actions/FURY_TRIGGERED_ACTIONS.html"
+    # TODO
+    #just _extract_index "$abilities_path/Fury"
 
     # Shadow
     #just -f "../common/justfile" extract_section "$abilities_path/Shadow" "//section[@id='shadow-abilities']//section[@class='level6']"
@@ -67,8 +70,9 @@ _extract_abilities rules_html_fpath rules_html_sections_dpath:
     just -f "../common/justfile" extract_section "$abilities_path/Shadow/3-Insight Abilities" "//section[@id='shadow-abilities']//section[@id='insight-abilities']//section[@class='level6']" "{{rules_html_fpath}}"
     just -f "../common/justfile" extract_section "$abilities_path/Shadow/5-Insight Abilities" "//section[@id='shadow-abilities']//section[@id='insight-abilities-1']//section[@class='level6']" "{{rules_html_fpath}}"
     just -f "../common/justfile" extract_section "$abilities_path/Shadow/Triggered Actions" "//section[@id='shadow']//section[@id='college-triggered-action']//section[@class='level5']" "{{rules_html_fpath}}"
-    rm "$abilities_path/Shadow/Triggered Actions/Shadow Triggered Actions.md"
-    just _extract_index "$abilities_path/Shadow"
+    rm "$abilities_path/Shadow/Triggered Actions/SHADOW_TRIGGERED_ACTIONS.html"
+    # TODO
+    #just _extract_index "$abilities_path/Shadow"
 
     # Tactician
     rm -rf "$abilities_path/Tactician"
@@ -76,8 +80,9 @@ _extract_abilities rules_html_fpath rules_html_sections_dpath:
     just -f "../common/justfile" extract_section "$abilities_path/Tactician/3-Focus Abilities" "//section[@id='tactician-abilities']//section[@id='focus-abilities']//section[@class='level6']" "{{rules_html_fpath}}"
     just -f "../common/justfile" extract_section "$abilities_path/Tactician/5-Focus Abilities" "//section[@id='tactician-abilities']//section[@id='focus-abilities-1']//section[@class='level6']" "{{rules_html_fpath}}"
     just -f "../common/justfile" extract_section "$abilities_path/Tactician/Triggered Actions" "//section[@id='tactician']//section[@id='doctrine-triggered-action']//section[@class='level5']" "{{rules_html_fpath}}"
-    rm "$abilities_path/Tactician/Triggered Actions/Tactician Triggered Actions.md"
-    just _extract_index "$abilities_path/Tactician"
+    rm "$abilities_path/Tactician/Triggered Actions/TACTICIAN_TRIGGERED_ACTIONS.html"
+    # TODO
+    #just _extract_index "$abilities_path/Tactician"
 
     # Common Maneuvers
     just -f "../common/justfile" extract_section "$abilities_path/Common Maneuvers" "//section[@id='combat']//section[@id='maneuvers']//section[@class='level4']" "{{rules_html_fpath}}"
@@ -109,8 +114,8 @@ _extract_movement rules_html_fpath rules_html_sections_dpath:
     xpath="//section[@id='combat']//section[@id='movement-types']//section[@class='level5']"
     just -f "../common/justfile" extract_section "$movement_path" "$xpath" "{{rules_html_fpath}}" "skip_delete"
 
-    rm "${movement_path}/Cant Exceed Speed.md"
-    rm "${movement_path}/Movement Types.md"
+    rm "${movement_path}/CAN'T_EXCEED_SPEED.html"
+    rm "${movement_path}/MOVEMENT_TYPES.html"
 
 _extract_kits rules_html_fpath rules_html_sections_dpath:
     #!/usr/bin/env bash
@@ -132,8 +137,8 @@ _extract_ancestries rules_html_fpath rules_html_sections_dpath:
     just -f "../common/justfile" extract_section "$ancestries_path" "$xpath" "{{rules_html_fpath}}"
 
     # removes any extra sections
-    rm "${ancestries_path}/Starting Size And Speed.md"
-    rm "${ancestries_path}/On The Origin Of Species.md"
+    rm "${ancestries_path}/STARTING_SIZE_AND_SPEED.html"
+    rm "${ancestries_path}/ON_THE_ORIGIN_OF_SPECIES.html"
 
 _extract_careers rules_html_fpath rules_html_sections_dpath:
     #!/usr/bin/env bash
@@ -143,9 +148,9 @@ _extract_careers rules_html_fpath rules_html_sections_dpath:
     just -f "../common/justfile" extract_section "$careers_path" "$xpath" "{{rules_html_fpath}}"
 
     # removes any extra sections
-    rm "${careers_path}/Career Benefits.md"
-    rm "${careers_path}/Career Questions.md"
-    rm "${careers_path}/Inciting Incident.md"
+    rm "${careers_path}/CAREER_BENEFITS.html"
+    rm "${careers_path}/CAREER_QUESTIONS.html"
+    rm "${careers_path}/INCITING_INCIDENT.html"
 
 _extract_cultures rules_html_fpath rules_html_sections_dpath:
     #!/usr/bin/env bash
@@ -162,7 +167,7 @@ _extract_cultures rules_html_fpath rules_html_sections_dpath:
     just -f "../common/justfile" extract_section "$cultures_path/Upbringing" "$xpath" "{{rules_html_fpath}}"
 
     # removes any extra sections
-    rm "${cultures_path}/Upbringing/But I Really Want Alertness.md"
+    rm "${cultures_path}/Upbringing/BUT_I_REALLY_WANT_ALERTNESS.html"
 
 _extract_complications rules_html_fpath rules_html_sections_dpath:
     #!/usr/bin/env bash
@@ -170,7 +175,7 @@ _extract_complications rules_html_fpath rules_html_sections_dpath:
     complications_path="{{rules_html_sections_dpath}}/Complications"
     xpath="//section[@id='complications']//section[@id='determine-complication']//section[@class='level4']"
     just -f "../common/justfile" extract_section "$complications_path" "$xpath" "{{rules_html_fpath}}"
-    rm "${complications_path}/Complications Table.md"
+    rm "${complications_path}/COMPLICATIONS_TABLE.html"
 
 _extract_skills rules_html_fpath rules_html_sections_dpath:
     #!/usr/bin/env bash
@@ -180,8 +185,8 @@ _extract_skills rules_html_fpath rules_html_sections_dpath:
     just -f "../common/justfile" extract_section "$skills_path" "$xpath" "{{rules_html_fpath}}"
 
     # removes any extra sections
-    rm "${skills_path}/Are All Skills Equal?.md"
-    rm "${skills_path}/For The Director: Make Your Own Skills.md"
+    rm "${skills_path}/ARE_ALL_SKILLS_EQUAL?.html"
+    rm "${skills_path}/FOR_THE_DIRECTOR:_MAKE_YOUR_OWN_SKILLS.html"
 
 _extract_conditions rules_html_fpath rules_html_sections_dpath:
     #!/usr/bin/env bash
@@ -197,4 +202,4 @@ _extract_negotiation rules_html_fpath rules_html_sections_dpath:
     negotiation_path="{{rules_html_sections_dpath}}/Negotiation"
     xpath="//section[@id='list-of-motivations-and-pitfalls']//section[@class='level5']"
     just -f "../common/justfile" extract_section "$negotiation_path/Motivations and Pitfalls" "$xpath" "{{rules_html_fpath}}"
-    rm "$negotiation_path/Motivations and Pitfalls/Npcs Change Over Time.md"
+    rm "$negotiation_path/Motivations and Pitfalls/NPCS_CHANGE_OVER_TIME.html"

@@ -1,0 +1,38 @@
+log_prefix := "[JUST][format_md][frontmatter]"
+
+run md_src_dpath:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    echo >&2 "{{log_prefix}}"
+
+    # Walk through all MD files in the source directory
+    find "{{md_src_dpath}}" -type f -name "*.md" | while read -r md_file_path; do
+        just _gen_frontmatter "$md_file_path" "{{md_src_dpath}}"
+    done
+
+_gen_frontmatter md_fpath root_dpath:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    md_file_path=$(realpath "{{md_fpath}}")
+
+    # Figure out the directory this is in (relative to project root)
+    relative_path="$(realpath -s --relative-to="{{root_dpath}}" "$md_file_path")"
+
+    taxonomy="$(dirname "$relative_path")"
+
+    # type is the first directory under the root
+    type=$(echo "$taxonomy" | awk -F'/' '{ print $1 }' )
+    type="$(echo "$type" | sed -E 's/([A-Z])/\L\1/g' | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
+
+    # subtype is the second directory under the root
+    subtype=$(echo "$taxonomy" | awk -F'/' '{ print $2 }' )
+    subtype="$(echo "$subtype" | sed -E 's/([A-Z])/\L\1/g' | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
+
+    # kind is the third directory under the root
+    kind=$(echo "$taxonomy" | awk -F'/' '{ print $3 }' )
+    kind="$(echo "$kind" | sed -E 's/([A-Z])/\L\1/g' | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
+
+    frontmatter_path="$(mktemp)"
+    python3 ability.py -f "$md_file_path" --type "$type" --subtype "$subtype" --kind "$kind" -o "frontmatter" > "$frontmatter_path"
+
+    cat "$frontmatter_path" | cat - "$md_file_path" > temp && mv temp "$md_file_path"

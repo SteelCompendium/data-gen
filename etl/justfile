@@ -27,10 +27,27 @@ gen_rules:
     #!/usr/bin/env bash
     set -euo pipefail
 
+    # Convert OG markdown to html
     rules_html_fpath="{{staging_rules_dpath}}/html/Draw Steel Rules.html"
     just -f md_to_html/justfile run "{{rules_markdown_source_path}}" "$rules_html_fpath"
 
+    # extract out sections using html xpath
     rules_html_sections_dpath="{{staging_rules_dpath}}/html_sections"
     just -f extract_html_sections/rules/justfile run "$rules_html_fpath" "$rules_html_sections_dpath"
 
-    just -f html-sections-to-md/justfile run output.html
+    # Convert html sections to md sections
+    rules_md_sections_dpath="{{staging_rules_dpath}}/md_sections"
+    just -f html_sections_to_md/justfile run "$rules_html_sections_dpath" "$rules_md_sections_dpath"
+
+    # Transform the MD section files to make them usable
+    rules_md_sections_formatted_dpath="{{staging_rules_dpath}}/md_sections_formatted"
+    just -f format_md/justfile run "$rules_md_sections_dpath" "$rules_md_sections_formatted_dpath"
+
+    # Link MD section files to each other
+    rules_md_sections_formatted_linked_dpath="{{staging_rules_dpath}}/md_sections_formatted_linked"
+    just -f link_md/justfile run "$rules_md_sections_formatted_dpath" "$rules_md_sections_formatted_linked_dpath"
+
+    # Format/Lint the linked markdown files
+    just -f mdformat/justfile run "$rules_md_sections_formatted_linked_dpath"
+    # TODO - I should format the unlinked files?
+

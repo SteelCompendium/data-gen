@@ -1,0 +1,8 @@
+log_prefix := "[JUST][format_md][convert_ktdt_tables]"
+
+run md_src_dpath:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    echo >&2 "{{log_prefix}}"
+
+    python3 format_ability_ktdt_tables.py "{{md_src_dpath}}"
