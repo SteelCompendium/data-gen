@@ -58,9 +58,12 @@ gen_rules_md:
     md_sections_formatted_dpath="{{staging_rules_dpath}}/md_sections_formatted"
     just -f format_md/justfile run "$md_sections_dpath" "$md_sections_formatted_dpath"
 
+    # Build the ability index tables
+    just -f generate_ability_index/justfile run "${md_sections_formatted_dpath}/Abilities"
+
     # Add the original rules MD file to the output so it can be linked and formatted
     # TODO - I would like this to go through the formatting steps, but it crashes on frontmatter gen
-    cp "{{rules_markdown_source_path}}" "$md_sections_dpath"
+    cp "{{rules_markdown_source_path}}" "$md_sections_formatted_dpath"
 
     # Link MD section files to each other
     just -f link_md/justfile run "$md_sections_formatted_dpath" "{{staging_rules_linked_dpath}}"
