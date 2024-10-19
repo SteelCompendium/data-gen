@@ -9,10 +9,6 @@ adventure_dir_markdown_source_path := data_gen_root_dpath / "Adventures"
 
 # Staging dirs
 staging_dpath := data_root_dpath / "staging"
-staging_rules_dpath := staging_dpath / "rules"
-staging_rules_linked_dpath := staging_rules_dpath / "md_sections_formatted_linked"
-staging_bestiary_dpath := staging_dpath / "bestiary"
-staging_bestiary_linked_dpath := staging_bestiary_dpath / "md_sections_formatted_linked"
 
 clean_and_prep:
     #!/usr/bin/env bash
@@ -22,130 +18,16 @@ clean_and_prep:
     fi
     mkdir -p "{{staging_dpath}}"
 
-gen: clean_and_prep
-    #!/usr/bin/env bash
-    set -euo pipefail
-    just gen_rules
-    just gen_bestiary
-
-    # unified
+gen: clean_and_prep gen_rules gen_bestiary
+    # TODO - unified
     # TODO - moving adventures out of rules and into separate execution
     #cp -R "{{data_gen_root_dpath}}/Adventures" "$dest_dir"
 
 gen_rules:
-    #!/usr/bin/env bash
-    set -euo pipefail
-    just gen_rules_md
-    just assemble_rules
+    just -f rules.justfile gen_rules
 
-gen_rules_md:
-    #!/usr/bin/env bash
-    set -euo pipefail
-
-    # Convert OG markdown to html
-    html_fpath="{{staging_rules_dpath}}/html/Draw Steel Rules.html"
-    just -f md_to_html/justfile run "{{rules_markdown_source_path}}" "$html_fpath"
-
-    # extract out sections using html xpath
-    html_sections_dpath="{{staging_rules_dpath}}/html_sections"
-    just -f extract_html_sections/rules/justfile run "$html_fpath" "$html_sections_dpath"
-
-    # Convert html sections to md sections
-    md_sections_dpath="{{staging_rules_dpath}}/md_sections"
-    just -f html_sections_to_md/justfile run "$html_sections_dpath" "$md_sections_dpath"
-
-    # Transform the MD section files to make them usable
-    md_sections_formatted_dpath="{{staging_rules_dpath}}/md_sections_formatted"
-    just -f format_md/justfile run "$md_sections_dpath" "$md_sections_formatted_dpath"
-
-    # Build the ability index tables
-    just -f generate_ability_index/justfile run "${md_sections_formatted_dpath}/Abilities"
-
-    # Add the original rules MD file to the output so it can be linked and formatted
-    # TODO - I would like this to go through the formatting steps, but it crashes on frontmatter gen
-    cp "{{rules_markdown_source_path}}" "$md_sections_formatted_dpath"
-
-    # Link MD section files to each other
-    just -f link_md/justfile run "$md_sections_formatted_dpath" "{{staging_rules_linked_dpath}}"
-
-    # Format/Lint the linked markdown files
-    just -f mdformat/justfile run "{{staging_rules_linked_dpath}}"
-    # TODO - I should format the unlinked files?
-
-assemble_rules:
-    #!/usr/bin/env bash
-    set -euo pipefail
-    echo >&2 "--- Assembling Rules --- "
-    dest_dir="{{data_root_dpath}}/data-rules-md"
-    just _delete_dir_except_git "$dest_dir"
-    cp -R "{{staging_rules_linked_dpath}}"/* "$dest_dir"
-    cp "{{rules_markdown_source_path}}" "${dest_dir}/Draw Steel Rules (original).md"
-
-gen_bestiary: clean_and_prep
-    #!/usr/bin/env bash
-    set -euo pipefail
-    just gen_bestiary_md
-    just assemble_bestiary
-
-gen_bestiary_md:
-    #!/usr/bin/env bash
-    set -euo pipefail
-
-    # Convert OG markdown to html
-    html_fpath="{{staging_bestiary_dpath}}/html/Draw Steel Bestiary.html"
-    just -f md_to_html/justfile run "{{bestiary_markdown_source_path}}" "$html_fpath"
-
-    # extract out sections using html xpath
-    html_sections_dpath="{{staging_bestiary_dpath}}/html_sections"
-    just -f extract_html_sections/bestiary/justfile run "$html_fpath" "$html_sections_dpath"
-
-    # Convert html sections to md sections
-    md_sections_dpath="{{staging_bestiary_dpath}}/md_sections"
-    just -f html_sections_to_md/justfile run "$html_sections_dpath" "$md_sections_dpath"
-
-    # Transform the MD section files to make them usable
-    md_sections_formatted_dpath="{{staging_bestiary_dpath}}/md_sections_formatted"
-    just -f format_md/justfile run "$md_sections_dpath" "$md_sections_formatted_dpath"
-
-    # Extract statblocks
-    # TODO - statblocks dir hierarchy needs overhaul?
-    just -f extract_statblocks/justfile run "{{bestiary_markdown_source_path}}" "$md_sections_formatted_dpath"
-
-    # Format the statblock MD
-    just -f format_statblock_md/justfile run "${md_sections_formatted_dpath}/md"
-    just -f format_statblock_md/justfile run "${md_sections_formatted_dpath}/md-dse"
-    # The ktdt formatter will only replace a single table in the file which wont work for statblocks
-    #just -f format_md/convert_ktdt_tables/justfile run "${md_sections_formatted_dpath}/md"
-    #just -f format_md/convert_ktdt_tables/justfile run "${md_sections_formatted_dpath}/md-dse"
-
-    just -f yaml_statblock_to_md/justfile run "${md_sections_formatted_dpath}/yaml" "${md_sections_formatted_dpath}/yaml-md"
-
-    # Link MD section files to each other
-    just -f link_md/justfile run "$md_sections_formatted_dpath" "{{staging_bestiary_linked_dpath}}"
-
-    # Format/Lint the linked markdown files
-    just -f mdformat/justfile run "{{staging_bestiary_linked_dpath}}"
-    # TODO - I should format the unlinked files?
-
-assemble_bestiary:
-    #!/usr/bin/env bash
-    set -euo pipefail
-    echo >&2 "--- Assembling Bestiary --- "
-    dest_md_dir="{{data_root_dpath}}/data-bestiary-md"
-    just _delete_dir_except_git "$dest_md_dir"
-    cp -R "{{staging_bestiary_linked_dpath}}"/yaml-md/* "$dest_md_dir"
-    cp -R "{{staging_bestiary_linked_dpath}}"/*.md "$dest_md_dir"
-    cp "{{bestiary_markdown_source_path}}" "${dest_md_dir}/Draw Steel Bestiary (original).md"
-
-    dest_md_dse_dir="{{data_root_dpath}}/data-bestiary-md-dse"
-    just _delete_dir_except_git "$dest_md_dse_dir"
-    cp -R "{{staging_bestiary_linked_dpath}}"/md-dse/* "$dest_md_dse_dir"
-    cp -R "{{staging_bestiary_linked_dpath}}"/*.md "$dest_md_dse_dir"
-    cp "{{bestiary_markdown_source_path}}" "${dest_md_dse_dir}/Draw Steel Bestiary (original).md"
-
-    dest_yaml_dir="{{data_root_dpath}}/data-bestiary-yaml"
-    just _delete_dir_except_git "$dest_yaml_dir"
-    cp -R "{{staging_bestiary_linked_dpath}}"/yaml/* "$dest_yaml_dir"
+gen_bestiary:
+    just -f bestiary.justfile gen_bestiary
 
 # deletes all the (non-hidden) files in a directory
 _delete_dir_except_git dir_to_delete:
@@ -161,4 +43,3 @@ _delete_dir_except_git dir_to_delete:
         mv "${tempdir}/.git" "{{dir_to_delete}}"
     fi
     rm -rf "$tempdir"
-
