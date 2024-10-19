@@ -74,7 +74,7 @@ an adventure or campaign. Because of this, they get special abilities called vil
 A creature with villain actions always has three. Each villain action can be used only once per encounter, and no
 more than one villain action can be used per round. A creature can use a villain action at the end of any other
 creature’s turn during combat. Villain actions are numbered and intended to be used in a specific order that creates a
-logicalencounter flow and cinematic arc, but you can use them in any order you choose.
+logical encounter flow and cinematic arc, but you can use them in any order you choose.
 
 The first villain action is an opener, which shows the heroes they’re not battling a typical creature. Openers
 generally deal some damage, summon a lackey or three, buff the boss, debuff the heroes, or move the creature into an

@@ -92,9 +92,11 @@ def parse_markdown_statblock(markdown_text):
                 else:
                     data['size'] = value
             elif key in ['immunity', 'immunities']:
-                # Parse the immunities
                 immunities = [s.strip() for s in value.split(',')]
                 data['immunities'] = immunities
+            elif key in ['weakness', 'weaknesses']:
+                weaknesses = [s.strip() for s in value.split(',')]
+                data['weaknesses'] = weaknesses
             else:
                 data[key] = value
             i += 1
@@ -135,23 +137,17 @@ def parse_ability(lines, index):
     first_line = lines[i].strip()
 
     # Patterns to match
-    match = re.match(r'\*\*(.+?)\s*(?:\((.+?)\))?\*\*(?:\s*◆\s*(.+?)\s*◆\s*(.+))?', first_line)
+    match = re.match(r'\*\*(.+?)(?:\s*\((.+?)\))?\*\*(?:\s*◆\s*(.+?)\s*◆\s*(.+)|\s*◆\s*(.+))?', first_line)
+
     if match:
         ability['name'] = match.group(1).strip()
         if match.group(2):
             ability['type'] = match.group(2).strip()
-        if match.group(3):
+        if match.group(3) and match.group(4):
             ability['roll'] = match.group(3).strip()
-        if match.group(4):
             ability['cost'] = match.group(4).strip()
-
-    # Handle Villain Action cost
-    if 'type' in ability and 'Villain Action' in ability['type']:
-        villain_action_match = re.match(r'Villain Action\s*(\d+)', ability['type'])
-        if villain_action_match:
-            n = int(villain_action_match.group(1))
-            ability['cost'] = f'{n} VP'
-            ability['type'] = 'Villain Action'
+        elif match.group(5):
+            ability['cost'] = match.group(5).strip()
 
     i += 1
     effects = []
@@ -209,12 +205,12 @@ def parse_ability(lines, index):
                 while i < len(lines) and not lines[i].strip().startswith(('-', '**', 'Effect:', 'Special:')):
                     description += ' ' + lines[i].strip()
                     i += 1
-                # Map symbol to tier
-                if symbol == '✦':
+                # Map symbol to tier - jk, cant do this because RR are backwards
+                if threshold == '≤11':
                     ability['t1'] = description
-                elif symbol == '★':
+                elif threshold == '12–16':
                     ability['t2'] = description
-                elif symbol == '✸':
+                elif threshold == '17+':
                     ability['t3'] = description
                 continue
             else:

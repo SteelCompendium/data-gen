@@ -22,7 +22,8 @@
       "pip install mdformat mdformat-wikilink mdformat-tables mdformat-frontmatter"
     ],
     "scripts": {
-      "gen": "just gen"
+      "gen": "just gen",
+      "gen_bestiary": "just gen_bestiary"
     }
   }
 }
