@@ -13,7 +13,7 @@ clean_and_prep:
     fi
     mkdir -p "{{staging_dpath}}"
 
-gen: clean_and_prep gen_rules gen_bestiary gen_adventures gen_unified
+gen: clean_and_prep gen_rules gen_bestiary gen_adventures gen_unified gen_unified_dse
 
 gen_rules:
     just -f rules.justfile gen_rules
@@ -26,6 +26,9 @@ gen_adventures:
 
 gen_unified:
     just -f unified.justfile gen_unified
+
+gen_unified_dse:
+    just -f unified-dse.justfile gen_unified_dse
 
 # deletes all the (non-hidden) files in a directory
 _delete_dir_except_git dir_to_delete:
