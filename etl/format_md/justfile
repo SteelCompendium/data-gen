@@ -3,7 +3,7 @@ log_prefix := "[JUST][format_md]"
 run md_src_dpath md_dest_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
-    echo >&2 "{{log_prefix}} --- Formatting markdown --- "
+    echo >&2 "{{log_prefix}} --- Transforming markdown --- "
     echo >&2 "{{log_prefix}} MD unformatted source: {{md_src_dpath}}"
     echo >&2 "{{log_prefix}} MD Formatted dest: {{md_dest_dpath}}"
 

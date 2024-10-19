@@ -1,0 +1,12 @@
+#!/usr/bin/env just --justfile
+
+run html_fpath html_sections_dpath:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    vp_dpath="{{html_sections_dpath}}"
+    just -f "../common/justfile" extract_section "$vp_dpath" "//section[@id='demons']//section[@id='demon-villain-power']" "{{html_fpath}}" "skip_delete"
+    just -f "../common/justfile" extract_section "$vp_dpath" "//section[@id='goblins']//section[@id='goblin-villain-power']" "{{html_fpath}}" "skip_delete"
+    just -f "../common/justfile" extract_section "$vp_dpath" "//section[@id='humans']//section[@id='human-villain-power']" "{{html_fpath}}" "skip_delete"
+    just -f "../common/justfile" extract_section "$vp_dpath" "//section[@id='radenwights']//section[@id='radenwight-villain-power']" "{{html_fpath}}" "skip_delete"
+    just -f "../common/justfile" extract_section "$vp_dpath" "//section[@id='time-raiders']//section[@id='time-radier-villain-power']" "{{html_fpath}}" "skip_delete"
+    just -f "../common/justfile" extract_section "$vp_dpath" "//section[@id='war-dogs']//section[@id='war-dog-villain-power']" "{{html_fpath}}" "skip_delete"
