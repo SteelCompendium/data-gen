@@ -48,14 +48,14 @@ gen_bestiary_md:
     # TODO - statblocks dir hierarchy needs overhaul?
     just -f extract_statblocks/justfile run "{{bestiary_markdown_source_path}}" "$md_sections_formatted_dpath"
 
-    # Format the statblock MD
-    just -f format_statblock_md/justfile run "${md_sections_formatted_dpath}/md"
-    just -f format_statblock_md/justfile run "${md_sections_formatted_dpath}/md-dse"
-    # The ktdt formatter will only replace a single table in the file which wont work for statblocks
-    #just -f format_md/convert_ktdt_tables/justfile run "${md_sections_formatted_dpath}/md"
-    #just -f format_md/convert_ktdt_tables/justfile run "${md_sections_formatted_dpath}/md-dse"
+    # Note: from here on out we are ignoring the `.../md` dir since its crap.  Converting the yaml is better
 
+    # Convert yaml statblocks to markdown
     just -f yaml_statblock_to_md/justfile run "${md_sections_formatted_dpath}/yaml" "${md_sections_formatted_dpath}/yaml-md"
+
+    # Add the original bestiary MD file to the output so it can be linked and formatted
+    # TODO - I would like this to go through the formatting steps
+    cp "{{bestiary_markdown_source_path}}" "$md_sections_formatted_dpath"
 
     # Link MD section files to each other
     just -f link_md/justfile run "$md_sections_formatted_dpath" "{{staging_bestiary_linked_dpath}}"

@@ -57,7 +57,8 @@ def main():
     header_cells = []
     for char in chars:
         value = data.get(char, '')
-        header_cells.append(f"**{char.capitalize()}** +{value}")
+        value = f"+{value}" if value and int(value) > 0 else value
+        header_cells.append(f"**{char.capitalize()}** {value}")
 
     header_row = '| ' + ' | '.join(header_cells) + ' |'
     separator_row = '| ' + ' | '.join(['------------'] * len(chars)) + ' |'

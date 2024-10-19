@@ -21,7 +21,7 @@ know.Creatures who don’t know any languages don’t have this entry.
 ### KEYWORDS
 
 Each creature has one or more keywords. These keywords don’t necessarily mean anything on their own, but special
-rulesmight apply to them. For instance, a creature with the Goblin keyword benefits from and can contribute to goblin
+rules might apply to them. For instance, a creature with the Goblin keyword benefits from and can contribute to goblin
 VillainPower abilities (see below).
 
 ### ENCOUNTER VALUE
@@ -361,8 +361,6 @@ the heroes’ encounter strength (abbreviated ES).
 To calculate a group’s ES, first determine each hero’s encounter worth. This starts at a baseline of 12, then you add 3
 for each level of the hero. For instance, a 3rd-level hero has an encounter worth of 21 (12 + 3 + 3 +3). Then add the
 encounter worth of all heroes together, and that’s your ES. For instance, a group of five 3rd-level heroes has an ES of
-
-105.
 
 #### FACTOR IN VICTORIES
 
