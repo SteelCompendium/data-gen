@@ -3,8 +3,6 @@ import re
 import sys
 
 # Converts unordered lists for ability keywords, type, distance, and targets into a markdown table
-# IMPORTANT: this only replaces the first table in the file
-# TODO - fix above
 ########################################################################################################################
 
 def find_markdown_files(directory):
@@ -40,7 +38,7 @@ def update_ability_tables(file_path):
         positions_to_remove = []
 
         # Define the pattern to match key-value pairs at the start of a line
-        pattern = r'^\-?\s*\**(.+?)\**:\**\s*(.+)$'
+        pattern = r'^\-?\s*\*\*(.+?)\**:\**\s*(.+)$'
 
         # Find all matches
         for match in re.finditer(pattern, content, flags=re.MULTILINE):

@@ -23,6 +23,7 @@
     ],
     "scripts": {
       "gen": "just gen",
+      "gen_rules": "just gen_rules",
       "gen_bestiary": "just gen_bestiary"
     }
   }
