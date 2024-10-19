@@ -12,7 +12,7 @@ run html_src_dpath md_dest_dpath:
     md_dest_dpath="{{md_dest_dpath}}"
 
     # Get title_case util
-    source ../../util/util.bash
+    source ./util.bash
 
     # Ensure source directory exists
     if [ ! -d "$html_src_dir" ]; then
