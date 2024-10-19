@@ -493,6 +493,54 @@
           "store_path": "/nix/store/56f5biib7sbgwy0mma0hww54n04qbggr-python3-3.13.0"
         }
       }
+    },
+    "rsync@latest": {
+      "last_modified": "2024-09-10T15:01:03Z",
+      "resolved": "github:NixOS/nixpkgs/5ed627539ac84809c78b2dd6d26a5cebeb5ae269#rsync",
+      "source": "devbox-search",
+      "version": "3.3.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/nayhcjy81hacq0zx5cq6kvv0ny66ylkl-rsync-3.3.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/nayhcjy81hacq0zx5cq6kvv0ny66ylkl-rsync-3.3.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/pvcf55z7zsxq9pcrca9i51nbv0jmsy9w-rsync-3.3.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/pvcf55z7zsxq9pcrca9i51nbv0jmsy9w-rsync-3.3.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/2zpkq1gkbyz1h9pngq4l6snqfj81ra9s-rsync-3.3.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/2zpkq1gkbyz1h9pngq4l6snqfj81ra9s-rsync-3.3.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/y1ba7s3v10jb1lxrf1zki19mcn6fkwbr-rsync-3.3.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/y1ba7s3v10jb1lxrf1zki19mcn6fkwbr-rsync-3.3.0"
+        }
+      }
     }
   }
 }

@@ -6,7 +6,8 @@
     "just@latest",
     "jq@latest",
     "pandoc@latest",
-    "html-tidy@latest"
+    "html-tidy@latest",
+    "rsync@latest"
   ],
   "env": {
     "DEVBOX_COREPACK_ENABLED": "true"
@@ -22,9 +23,11 @@
       "pip install mdformat mdformat-wikilink mdformat-tables mdformat-frontmatter"
     ],
     "scripts": {
-      "gen": "just gen",
-      "gen_rules": "just gen_rules",
-      "gen_bestiary": "just gen_bestiary"
+      "gen":            "just gen",
+      "gen_rules":      "just gen_rules",
+      "gen_bestiary":   "just gen_bestiary",
+      "gen_adventures": "just gen_adventures",
+      "gen_unified":    "just gen_unified"
     }
   }
 }

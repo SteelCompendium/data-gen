@@ -2,11 +2,6 @@
 data_gen_root_dpath := justfile_directory() / ".."
 data_root_dpath := data_gen_root_dpath / ".."
 
-# Input/source files
-rules_markdown_source_path := data_gen_root_dpath / "Rules" / "Draw Steel Rules.md"
-bestiary_markdown_source_path := data_gen_root_dpath / "Rules" / "Draw Steel Bestiary.md"
-adventure_dir_markdown_source_path := data_gen_root_dpath / "Adventures"
-
 # Staging dirs
 staging_dpath := data_root_dpath / "staging"
 
@@ -18,16 +13,19 @@ clean_and_prep:
     fi
     mkdir -p "{{staging_dpath}}"
 
-gen: clean_and_prep gen_rules gen_bestiary
-    # TODO - unified
-    # TODO - moving adventures out of rules and into separate execution
-    #cp -R "{{data_gen_root_dpath}}/Adventures" "$dest_dir"
+gen: clean_and_prep gen_rules gen_bestiary gen_adventures gen_unified
 
 gen_rules:
     just -f rules.justfile gen_rules
 
 gen_bestiary:
     just -f bestiary.justfile gen_bestiary
+
+gen_adventures:
+    just -f adventures.justfile gen_adventures
+
+gen_unified:
+    just -f unified.justfile gen_unified
 
 # deletes all the (non-hidden) files in a directory
 _delete_dir_except_git dir_to_delete:

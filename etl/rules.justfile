@@ -18,7 +18,7 @@ clean_and_prep:
     fi
     mkdir -p "{{staging_rules_dpath}}"
 
-gen_rules:
+gen_rules: clean_and_prep
     #!/usr/bin/env bash
     set -euo pipefail
     just -f {{justfile()}} gen_rules_md
