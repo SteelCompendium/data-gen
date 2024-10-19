@@ -109,12 +109,13 @@ gen_bestiary_md:
 
     # Extract statblocks
     # TODO - statblocks dir hierarchy needs overhaul?
-    # TODO - This should go through transforms? (above)
     just -f extract_statblocks/justfile run "{{bestiary_markdown_source_path}}" "$md_sections_formatted_dpath"
 
     # Format the statblock MD
     just -f format_statblock_md/justfile run "${md_sections_formatted_dpath}/md"
     just -f format_statblock_md/justfile run "${md_sections_formatted_dpath}/md-dse"
+    just -f format_md/convert_ktdt_tables/justfile run "${md_sections_formatted_dpath}/md"
+    just -f format_md/convert_ktdt_tables/justfile run "${md_sections_formatted_dpath}/md-dse"
 
     # Link MD section files to each other
     just -f link_md/justfile run "$md_sections_formatted_dpath" "{{staging_bestiary_linked_dpath}}"

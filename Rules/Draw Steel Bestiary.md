@@ -2395,11 +2395,11 @@ At the start of any time raider’s turn, you can spend VP to activate one of th
 **Size**: 1M / Stability 0
 **Free Strike**: 2
 
-- **Might**: +2
-- **Agility**: +2
-- **Reason**: +2
-- **Intuition**: +1
-- **Presence**: −1
+- **Might** +2
+- **Agility** +2
+- **Reason** +2
+- **Intuition** +1
+- **Presence** −1
 
 **Brutal Flail (Action)** ◆ 2d10 + 2 ◆ Signature
 Keywords: Attack, Melee, Psionic, Weapon
@@ -2424,10 +2424,10 @@ The archon doesn’t take a bane on attacks against concealed creatures.
 **Size**: 1M / Stability 0
 **Free Strike**: 2
 
-- **Might**: +2
-- **Agility**: +1
-- **Reason**: +2
-- **Presence**: +1
+- **Might** +2
+- **Agility** +1
+- **Reason** +2
+- **Presence** +1
 
 **Fifth Fist (Action)** ◆ 2d10 + 2 ◆ Signature
 Keywords: Attack, Melee, Psionic, Weapon
@@ -2452,10 +2452,10 @@ The myriad doesn’t take a bane on attacks against concealed creatures.
 **Size**: 1M / Stability 0
 **Free Strike**: 5
 
-- **Might**: +0
-- **Agility**: +2
-- **Reason**: +2
-- **Presence**: +0
+- **Might** +0
+- **Agility** +2
+- **Reason** +2
+- **Presence** +0
 
 **Serrated Saber (Action)** ◆ 2d10 + 2 ◆ Signature
 Keywords: Attack, Melee, Psionic, Weapon
@@ -2494,10 +2494,10 @@ While any time raider starts their turn with line of effect to the armiger, that
 **Size**: 1L / Stability 3
 **Free Strike**: 5
 
-- **Might**: +0
-- **Agility**: +2
-- **Reason**: +2
-- **Presence**: +0
+- **Might** +0
+- **Agility** +2
+- **Reason** +2
+- **Presence** +0
 
 **Sunderbuss (Action)** ◆ 2d10 + 2 ◆ Signature
 Keywords: Area, Psionic, Ranged, Weapon
@@ -2530,11 +2530,11 @@ The cannonfall doesn’t take a bane on attacks against concealed creatures.
 **Size**: 1M / Stability 0
 **Free Strike**: 5
 
-- **Might**: +0
-- **Agility**: +2
-- **Reason**: +2
-- **Intuition**: +2
-- **Presence**: +2
+- **Might** +0
+- **Agility** +2
+- **Reason** +2
+- **Intuition** +2
+- **Presence** +2
 
 **Blaster Volley (Action)** ◆ 2d10 + 2 ◆ Signature
 Keywords: Attack, Ranged, Psionic, Weapon
@@ -2566,11 +2566,11 @@ The helix doesn’t take a bane on attacks against concealed creatures.
 **Size**: 1M / Stability 0
 **Free Strike**: 5
 
-- **Might**: +0
-- **Agility**: +2
-- **Reason**: +2
-- **Intuition**: +2
-- **Presence**: +1
+- **Might** +0
+- **Agility** +2
+- **Reason** +2
+- **Intuition** +2
+- **Presence** +1
 
 **Golden Sickles (Action)** ◆ 2d10 + 2 ◆ Signature
 Keywords: Attack, Melee, Psionic, Weapon
@@ -2602,11 +2602,11 @@ The hijack doesn’t take a bane on attacks against concealed creatures.
 **Size**: 2 / Stability 2
 **Free Strike**: 5
 
-- **Might**: +2
-- **Agility**: +0
-- **Reason**: +2
-- **Intuition**: +2
-- **Presence**: +1
+- **Might** +2
+- **Agility** +0
+- **Reason** +2
+- **Intuition** +2
+- **Presence** +1
 
 **Repelling Psihander (Action)** ◆ 2d10 + 2 ◆ Signature
 Keywords: Attack, Melee, Psionic, Weapon
@@ -2642,11 +2642,11 @@ The mind punk doesn’t take a bane on attacks against concealed creatures.
 **Size**: 1M / Stability 0
 **Free Strike**: 5
 
-- **Might**: +1
-- **Agility**: +2
-- **Reason**: +2
-- **Intuition**: +1
-- **Presence**: +0
+- **Might** +1
+- **Agility** +2
+- **Reason** +2
+- **Intuition** +1
+- **Presence** +0
 
 **Golden Scythe (Action)** ◆ 2d10 + 2 ◆ Signature
 Keywords: Attack, Melee, Psionic, Weapon
@@ -2681,11 +2681,11 @@ The nemesis doesn’t take a bane on attacks against concealed creatures.
 **Size**: 2 / Stability 3
 **Free Strike**: 5
 
-- **Might**: +1
-- **Agility**: +1
-- **Reason**: +2
-- **Intuition**: +1
-- **Presence**: +0
+- **Might** +1
+- **Agility** +1
+- **Reason** +2
+- **Intuition** +1
+- **Presence** +0
 
 **Psionic Slam (Action)** ◆ 2d10 + 2 ◆ Signature
 Keywords: Attack, Melee, Psionic
@@ -2723,11 +2723,11 @@ The vertex doesn’t take a bane on attacks against concealed creatures.
 **Size**: 2 / Stability 0
 **Free Strike**: 5
 
-- **Might**: +0
-- **Agility**: +3
-- **Reason**: +3
-- **Intuition**: +1
-- **Presence**: +0
+- **Might** +0
+- **Agility** +3
+- **Reason** +3
+- **Intuition** +1
+- **Presence** +0
 
 **Gatling Blaster (Action)** ◆ 2d10 + 3 ◆ Signature
 Keywords: Attack, Melee, Ranged, Psionic, Weapon
@@ -2823,11 +2823,11 @@ Target: Each creature
 **Size**: 1M / Stability 0
 **Free Strike**: 2
 
-- **Might**: +0
-- **Agility**: +1
-- **Reason**: +0
-- **Intuition**: +0
-- **Presence**: +0
+- **Might** +0
+- **Agility** +1
+- **Reason** +0
+- **Intuition** +0
+- **Presence** +0
 
 **Daggers (Action)** ◆ 2d10 + 1 ◆ Signature
 Keywords: Attack, Melee, Ranged, Weapon
@@ -2852,11 +2852,11 @@ When the commando dies, they explode, dealing 1d6 damage to each adjacent enemy.
 **Size**: 1M / Stability 0
 **Free Strike**: 2
 
-- **Might**: +1
-- **Agility**: +0
-- **Reason**: +0
-- **Intuition**: +0
-- **Presence**: +0
+- **Might** +1
+- **Agility** +0
+- **Reason** +0
+- **Intuition** +0
+- **Presence** +0
 
 **Blade (Action)** ◆ 2d10 + 1 ◆ Signature
 Keywords: Attack, Charge, Melee, Ranged, Weapon
@@ -2881,11 +2881,11 @@ When the conscript dies, they explode, dealing 1d6 damage to each adjacent enemy
 **Size**: 1M / Stability 0
 **Free Strike**: 2
 
-- **Might**: +0
-- **Agility**: +1
-- **Reason**: +0
-- **Intuition**: +0
-- **Presence**: +0
+- **Might** +0
+- **Agility** +1
+- **Reason** +0
+- **Intuition** +0
+- **Presence** +0
 
 **Bolt Launcher (Action)** ◆ 2d10 + 1 ◆ Signature
 Keywords: Attack, Ranged, Weapon
@@ -2910,11 +2910,11 @@ When the sharpshooter dies, they explode, dealing 1d6 damage to each adjacent en
 **Size**: 1M / Stability 0
 **Free Strike**: 2
 
-- **Might**: +1
-- **Agility**: +0
-- **Reason**: +0
-- **Intuition**: +0
-- **Presence**: +0
+- **Might** +1
+- **Agility** +0
+- **Reason** +0
+- **Intuition** +0
+- **Presence** +0
 
 **Daggers (Action)** ◆ 2d10 + 1 ◆ Signature
 Keywords: Attack, Melee, Weapon
@@ -2941,11 +2941,11 @@ When the tetherite dies, they explode, dealing 1d6 damage to each adjacent enemy
 **Size**: 1M / Stability 0
 **Free Strike**: 2
 
-- **Might**: +0
-- **Agility**: +1
-- **Reason**: +0
-- **Intuition**: +0
-- **Presence**: +1
+- **Might** +0
+- **Agility** +1
+- **Reason** +0
+- **Intuition** +0
+- **Presence** +1
 
 **Synlirii Grafts (Action)** ◆ 2d10 + 1 ◆ Signature
 Keywords: Area, Psionic
@@ -2982,11 +2982,11 @@ When the cognivite dies, they explode, dealing 1d6 damage to each adjacent enemy
 **Size**: 1M / Stability 0
 **Free Strike**: 2
 
-- **Might**: +0
-- **Agility**: +1
-- **Reason**: +0
-- **Intuition**: +0
-- **Presence**: +0
+- **Might** +0
+- **Agility** +1
+- **Reason** +0
+- **Intuition** +0
+- **Presence** +0
 
 **Flamebelcher (Action)** ◆ 2d10 + 1 ◆ Signature
 Keywords: Area, Weapon
@@ -3018,11 +3018,11 @@ When the crucibite dies, they explode, dealing 1d6 damage to each adjacent enemy
 **Size**: 1M / Stability 0
 **Free Strike**: 3
 
-- **Might**: +1
-- **Agility**: +1
-- **Reason**: +0
-- **Intuition**: +0
-- **Presence**: +0
+- **Might** +1
+- **Agility** +1
+- **Reason** +0
+- **Intuition** +0
+- **Presence** +0
 
 **Chainsaw Whip (Action)** ◆ 2d10 + 1 ◆ Signature
 Keywords: Attack, Melee, Weapon
@@ -3053,11 +3053,11 @@ When the eviscerite dies, they explode, dealing 1d6 damage to each adjacent enem
 **Size**: 1M / Stability 0
 **Free Strike**: 3
 
-- **Might**: +0
-- **Agility**: +1
-- **Reason**: +0
-- **Intuition**: +0
-- **Presence**: +0
+- **Might** +0
+- **Agility** +1
+- **Reason** +0
+- **Intuition** +0
+- **Presence** +0
 
 **Corrupted Ash Daggers (Action)** ◆ 2d10 + 1 ◆ Signature
 Keywords: Attack, Melee, Ranged, Weapon
@@ -3095,11 +3095,11 @@ When the portalite dies, they explode, dealing 1d6 damage to each adjacent enemy
 **Size**: 1M / Stability 0
 **Free Strike**: 4
 
-- **Might**: +2
-- **Agility**: +0
-- **Reason**: +0
-- **Intuition**: +0
-- **Presence**: +0
+- **Might** +2
+- **Agility** +0
+- **Reason** +0
+- **Intuition** +0
+- **Presence** +0
 
 **Several Arms (Action)** ◆ 2d10 + 2 ◆ Signature
 Keywords: Attack, Melee, Weapon
@@ -3132,11 +3132,11 @@ When the amalgamite dies, they explode, dealing 1d6 damage to each adjacent enem
 **Size**: 1M / Stability 0
 **Free Strike**: 2
 
-- **Might**: +0
-- **Agility**: +1
-- **Reason**: +0
-- **Intuition**: +0
-- **Presence**: +0
+- **Might** +0
+- **Agility** +1
+- **Reason** +0
+- **Intuition** +0
+- **Presence** +0
 
 **Caustic Detonator (Action) ◆ MGT RR ◆ Signature**
 Keywords: Magic, Ranged, Resistance
@@ -3168,11 +3168,11 @@ When the phosphorite dies, they explode, dealing 1d6 damage to each adjacent ene
 **Size**: 1M / Stability 0
 **Free Strike**: 3
 
-- **Might**: +1
-- **Agility**: +0
-- **Reason**: +0
-- **Intuition**: +0
-- **Presence**: +0
+- **Might** +1
+- **Agility** +0
+- **Reason** +0
+- **Intuition** +0
+- **Presence** +0
 
 **Command Saber (Action)** ◆ 2d10 + 1 ◆ Signature
 Keywords: Attack, Melee, Weapon
@@ -3207,11 +3207,11 @@ When the subcommander dies, they explode, dealing 1d6 damage to each adjacent en
 **Size**: 1M / Stability 0
 **Free Strike**: 2
 
-- **Might**: +0
-- **Agility**: +1
-- **Reason**: +0
-- **Intuition**: +0
-- **Presence**: +1
+- **Might** +0
+- **Agility** +1
+- **Reason** +0
+- **Intuition** +0
+- **Presence** +1
 
 **Plaguecaster (Action) ◆ INU RR ◆ Signature**
 Keywords: Area, Magic, Ranged, Resistance
@@ -3242,11 +3242,11 @@ When the pestilite dies, they explode, dealing 1d6 damage to each adjacent enemy
 **Size**: 1M / Stability 2
 **Free Strike**: 5
 
-- **Might**: +2
-- **Agility**: +2
-- **Reason**: +2
-- **Intuition**: +2
-- **Presence**: +2
+- **Might** +2
+- **Agility** +2
+- **Reason** +2
+- **Intuition** +2
+- **Presence** +2
 
 **Conditioning Spear (Action) ◆ 2d10 + 2 ◆ Signature**
 Keywords: Attack, Melee, Ranged, Weapon
