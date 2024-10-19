@@ -26,7 +26,7 @@ gen: clean_and_prep
     #!/usr/bin/env bash
     set -euo pipefail
     just gen_rules
-    just gen_bestiary_md
+    just gen_bestiary
 
     # unified
     # TODO - moving adventures out of rules and into separate execution
@@ -109,8 +109,12 @@ gen_bestiary_md:
 
     # Extract statblocks
     # TODO - statblocks dir hierarchy needs overhaul?
-    # TODO - This should go through transforms (above)
+    # TODO - This should go through transforms? (above)
     just -f extract_statblocks/justfile run "{{bestiary_markdown_source_path}}" "$md_sections_formatted_dpath"
+
+    # Format the statblock MD
+    just -f format_statblock_md/justfile run "${md_sections_formatted_dpath}/md"
+    just -f format_statblock_md/justfile run "${md_sections_formatted_dpath}/md-dse"
 
     # Link MD section files to each other
     just -f link_md/justfile run "$md_sections_formatted_dpath" "{{staging_bestiary_linked_dpath}}"
@@ -123,7 +127,19 @@ assemble_bestiary:
     #!/usr/bin/env bash
     set -euo pipefail
     echo >&2 "--- Assembling Bestiary (TODO) --- "
+    dest_md_dir="{{data_root_dpath}}/data-bestiary-md"
+    just _delete_dir_except_git "$dest_md_dir"
+    cp -R "{{staging_bestiary_linked_dpath}}"/md/* "$dest_md_dir"
+    cp "{{bestiary_markdown_source_path}}" "${dest_md_dir}/Draw Steel Bestiary (original).md"
 
+    dest_md_dse_dir="{{data_root_dpath}}/data-bestiary-md-dse"
+    just _delete_dir_except_git "$dest_md_dse_dir"
+    cp -R "{{staging_bestiary_linked_dpath}}"/md-dse/* "$dest_md_dse_dir"
+    cp "{{bestiary_markdown_source_path}}" "${dest_md_dse_dir}/Draw Steel Bestiary (original).md"
+
+    dest_yaml_dir="{{data_root_dpath}}/data-bestiary-yaml"
+    just _delete_dir_except_git "$dest_yaml_dir"
+    cp -R "{{staging_bestiary_linked_dpath}}"/yaml/* "$dest_yaml_dir"
 
 # deletes all the (non-hidden) files in a directory
 _delete_dir_except_git dir_to_delete:
