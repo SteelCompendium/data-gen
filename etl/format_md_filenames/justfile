@@ -1,0 +1,26 @@
+log_prefix := "[JUST][format_md_filenames]"
+
+run md_src_dpath:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    echo >&2 "{{log_prefix}}"
+
+    # Get title_case util
+    source ./util.bash
+
+    # Walk through all MD files in the source directory
+    find "{{md_src_dpath}}" -type f -name "*.md" | while read -r md_fpath; do
+        # Compute relative path from source directory
+        rel_path="${md_fpath#{{md_src_dpath}}/}"
+
+        # Get the destination directory path
+        dest_dir="{{md_src_dpath}}/$(dirname "$rel_path")"
+
+        # Build filename
+        src_filename="$(basename "$md_fpath")"
+        markdown_filename=$(echo "$src_filename" | sed -e 's/_/ /g' -e "s/’//g" -e "s/'//g")
+        markdown_filename="$(title_case "$markdown_filename")"
+
+        # Rename file
+        mv "$md_fpath" "${dest_dir}/${markdown_filename}"
+    done

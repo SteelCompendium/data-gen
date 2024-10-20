@@ -55,23 +55,15 @@ def process_section(section_element, parent_id, output_dir):
             else:
                 # Remove the child section from the current section
                 section_copy.remove(child)
-                # Insert a link to the child section
-                if has_separate_child_sections:
-                    # Child section is in a subdirectory
-                    link_href = f'./{child_id}/{child_id}.html'
-                else:
-                    # Child section is in the same directory
-                    link_href = f'./{child_id}.html'
-                link = html.Element('a', href=link_href)
-                # Use the child header's text as the link text
+                # Insert the name of the child section
                 header = child.xpath('.//h1|.//h2|.//h3|.//h4|.//h5|.//h6')
                 if header:
-                    link.text = header[0].text_content()
+                    section_name = header[0].text_content()
                 else:
-                    link.text = child_id
-                # Ensure whitespace before the link by wrapping it in a <p> tag
+                    section_name = child_id
+                # Ensure whitespace before the section name by wrapping it in a <p> tag
                 p = html.Element('p')
-                p.append(link)
+                p.text = section_name
                 section_copy.append(p)
                 # Process the child section recursively
                 process_section(child, current_id, output_path)

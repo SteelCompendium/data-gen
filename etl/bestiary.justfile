@@ -40,6 +40,9 @@ gen_bestiary_md:
     md_sections_dpath="{{staging_bestiary_dpath}}/md_sections"
     just -f html_sections_to_md/justfile run "$html_sections_dpath" "$md_sections_dpath"
 
+    # Rename markdown to cleanup (same dir)
+    just -f format_md_filenames/justfile run "$md_sections_dpath"
+
     # Transform the MD section files to make them usable
     md_sections_formatted_dpath="{{staging_bestiary_dpath}}/md_sections_formatted"
     mkdir -p "$md_sections_formatted_dpath"

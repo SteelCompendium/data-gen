@@ -36,11 +36,15 @@ gen_rules_md:
     html_sections_dpath="{{staging_rules_dpath}}/html_sections"
     just -f extract_html_sections/rules/justfile run "$html_fpath" "$html_sections_dpath"
 
+    # Split up entire hierarchy of sections
     just -f split_html_sections/justfile run "$html_fpath" "${html_sections_dpath}/ClassesSplit"
 
     # Convert html sections to md sections
     md_sections_dpath="{{staging_rules_dpath}}/md_sections"
     just -f html_sections_to_md/justfile run "$html_sections_dpath" "$md_sections_dpath"
+
+    # Rename markdown to cleanup (same dir)
+    just -f format_md_filenames/justfile run "$md_sections_dpath"
 
     # Transform the MD section files to make them usable
     md_sections_formatted_dpath="{{staging_rules_dpath}}/md_sections_formatted"

@@ -11,9 +11,6 @@ run html_src_dpath md_dest_dpath:
     html_src_dir="{{html_src_dpath}}"
     md_dest_dpath="{{md_dest_dpath}}"
 
-    # Get title_case util
-    source ./util.bash
-
     # Ensure source directory exists
     if [ ! -d "$html_src_dir" ]; then
         echo "Source directory does not exist: $html_src_dir"
@@ -32,12 +29,9 @@ run html_src_dpath md_dest_dpath:
         dest_dir="$md_dest_dpath/$(dirname "$rel_path")"
         mkdir -p "$dest_dir"
 
-        # Original filename
+        # Build filename
         src_filename="$(basename "$html_file")"
-
-        # Build the Markdown filename, formatted
-        markdown_filename=$(echo "$src_filename" | sed -e 's/\.html$/\.md/' -e 's/_/ /g' -e "s/’//g" -e "s/'//g")
-        markdown_filename="$(title_case "$markdown_filename")"
+        markdown_filename=$(echo "$src_filename" | sed -e 's/\.html$/\.md/')
 
         # Convert HTML to Markdown
         pandoc --wrap=none --standalone \
