@@ -90,19 +90,6 @@ _extract_abilities rules_html_fpath rules_html_sections_dpath:
     # Common Actions
     just -f "../common/justfile" extract_section "$abilities_path/Common Actions" "//section[@id='combat']//section[@id='actions']//section[@class='level4']" "{{rules_html_fpath}}"
 
-# TODO - this doesnt belong here
-#_extract_index directory_path rules_html_fpath rules_html_sections_dpath:
-#    #!/usr/bin/env bash
-#    set -euo pipefail
-#
-#    index_name=$(basename "{{directory_path}}")
-#    echo >&2 "[JUST] Generating index for $index_name"
-#
-#    index_path="{{directory_path}}/index.md"
-#    echo "# $index_name Abilities" > "$index_path"
-#    echo "" >> "$index_path"
-#    python3 ability_table.py "{{directory_path}}" -c name kind cost ability_type distance target >> "$index_path"
-
 _extract_movement rules_html_fpath rules_html_sections_dpath:
     #!/usr/bin/env bash
     set -euo pipefail

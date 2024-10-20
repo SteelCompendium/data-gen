@@ -1,0 +1,12 @@
+#!/usr/bin/env just --justfile
+
+log_prefix := "[JUST][extract_html_sections]"
+
+run html_fpath html_sections_dpath:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    echo >&2 "{{log_prefix}} --- Splitting HTML sections --- "
+    echo >&2 "{{log_prefix}} HTML source file: {{html_fpath}}"
+    echo >&2 "{{log_prefix}} HTML section dest dir: {{html_sections_dpath}}"
+
+    python split_html_sections.py "{{html_fpath}}" "//section[@id='conduit']" "{{html_sections_dpath}}"
