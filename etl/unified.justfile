@@ -5,8 +5,7 @@ data_root_dpath := data_gen_root_dpath / ".."
 # Input/source files
 rules_md_source_dpath := data_root_dpath / "data-rules-md"
 bestiary_md_source_dpath := data_root_dpath / "data-bestiary-md"
-# TODO - change this to data-adventures-md when its made, this is fragile as heck
-adventures_md_source_dpath := data_root_dpath / "staging" / "adventures" / "md_sections_formatted_linked"
+adventures_md_source_dpath := data_root_dpath / "data-adventures-md"
 
 # Staging dirs
 staging_dpath := data_root_dpath / "staging"
@@ -54,3 +53,4 @@ assemble_unified:
     dest_dir="{{data_root_dpath}}/data-md"
     just _delete_dir_except_git "$dest_dir"
     cp -R "{{staging_unified_linked_dpath}}"/* "$dest_dir"
+    just _add_license "$dest_dir"

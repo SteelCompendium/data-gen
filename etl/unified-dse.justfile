@@ -54,3 +54,4 @@ assemble_unified:
     dest_dir="{{data_root_dpath}}/data-md-dse"
     just _delete_dir_except_git "$dest_dir"
     cp -R "{{staging_unified_linked_dpath}}"/* "$dest_dir"
+    just _add_license "$dest_dir"

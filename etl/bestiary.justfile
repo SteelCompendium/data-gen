@@ -80,13 +80,16 @@ assemble_bestiary:
     cp -R "{{staging_bestiary_linked_dpath}}"/yaml-md/* "$dest_md_dir"
     cp -R "{{staging_bestiary_linked_dpath}}"/*.md "$dest_md_dir"
     cp "{{bestiary_markdown_source_path}}" "${dest_md_dir}/Draw Steel Bestiary (original).md"
+    just _add_license "$dest_md_dir"
 
     dest_md_dse_dir="{{data_root_dpath}}/data-bestiary-md-dse"
     just _delete_dir_except_git "$dest_md_dse_dir"
     cp -R "{{staging_bestiary_linked_dpath}}"/md-dse/* "$dest_md_dse_dir"
     cp -R "{{staging_bestiary_linked_dpath}}"/*.md "$dest_md_dse_dir"
     cp "{{bestiary_markdown_source_path}}" "${dest_md_dse_dir}/Draw Steel Bestiary (original).md"
+    just _add_license "$dest_md_dse_dir"
 
     dest_yaml_dir="{{data_root_dpath}}/data-bestiary-yaml"
     just _delete_dir_except_git "$dest_yaml_dir"
     cp -R "{{staging_bestiary_linked_dpath}}"/yaml/* "$dest_yaml_dir"
+    just _add_license "$dest_yaml_dir"

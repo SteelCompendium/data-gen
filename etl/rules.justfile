@@ -73,3 +73,4 @@ assemble_rules:
     just _delete_dir_except_git "$dest_dir"
     cp -R "{{staging_rules_linked_dpath}}"/* "$dest_dir"
     cp "{{rules_markdown_source_path}}" "${dest_dir}/Draw Steel Rules (original).md"
+    just _add_license "$dest_dir"

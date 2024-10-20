@@ -45,8 +45,7 @@ assemble_adventures:
     #!/usr/bin/env bash
     set -euo pipefail
     echo >&2 "--- Assembling Adventures --- "
-    # TODO - need to make data-adventures-md repo
-#    dest_dir="{{data_root_dpath}}/data-adventures-md"
-#    just _delete_dir_except_git "$dest_dir"
-#    cp -R "{{staging_adventures_linked_dpath}}"/* "$dest_dir"
-#    cp "{{adventures_markdown_source_dpath}}" "${dest_dir}/"
+    dest_dir="{{data_root_dpath}}/data-adventures-md"
+    just _delete_dir_except_git "$dest_dir"
+    cp -R "{{staging_adventures_linked_dpath}}"/* "$dest_dir"
+    just _add_license "$dest_dir"
