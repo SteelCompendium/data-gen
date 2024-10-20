@@ -42,7 +42,14 @@ gen_rules_md:
 
     # Transform the MD section files to make them usable
     md_sections_formatted_dpath="{{staging_rules_dpath}}/md_sections_formatted"
-    just -f format_md/justfile run "$md_sections_dpath" "$md_sections_formatted_dpath"
+    mkdir -p "$md_sections_formatted_dpath"
+    cp -R "$md_sections_dpath"/* "$md_sections_formatted_dpath"
+
+    # Transform the markdown files in-place
+    just -f convert_md_headers_title_case/justfile run "$md_sections_formatted_dpath"
+    just -f reduce_header_levels/justfile run "$md_sections_formatted_dpath"
+    just -f frontmatter/justfile run "$md_sections_formatted_dpath"
+    just -f convert_ktdt_tables/justfile run "$md_sections_formatted_dpath"
 
     # Build the ability index tables
     just -f generate_ability_index/justfile run "${md_sections_formatted_dpath}/Abilities"
