@@ -48,7 +48,7 @@ gen_bestiary_md:
     # Transform the markdown files in-place
     just -f convert_md_headers_title_case/justfile run "$md_sections_formatted_dpath"
     just -f reduce_header_levels/justfile run "$md_sections_formatted_dpath"
-    just -f frontmatter/justfile run "$md_sections_formatted_dpath"
+    #just -f frontmatter/justfile run "$md_sections_formatted_dpath"
     just -f convert_ktdt_tables/justfile run "$md_sections_formatted_dpath"
 
     # Extract statblocks
