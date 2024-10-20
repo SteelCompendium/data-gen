@@ -60,6 +60,9 @@ gen_bestiary_md:
     # Convert yaml statblocks to markdown
     just -f yaml_statblock_to_md/justfile run "${md_sections_formatted_dpath}/yaml" "${md_sections_formatted_dpath}/yaml-md"
 
+    # Convert yaml statblocks to json
+    just -f yaml_to_json/justfile run "${md_sections_formatted_dpath}/yaml" "${md_sections_formatted_dpath}/json"
+
     # Add the original bestiary MD file to the output so it can be linked and formatted
     # TODO - I would like this to go through the formatting steps
     cp "{{bestiary_markdown_source_path}}" "$md_sections_formatted_dpath"
@@ -93,3 +96,8 @@ assemble_bestiary:
     just _delete_dir_except_git "$dest_yaml_dir"
     cp -R "{{staging_bestiary_linked_dpath}}"/yaml/* "$dest_yaml_dir"
     just _add_license "$dest_yaml_dir"
+
+    dest_json_dir="{{data_root_dpath}}/data-bestiary-json"
+    just _delete_dir_except_git "$dest_json_dir"
+    cp -R "{{staging_bestiary_linked_dpath}}"/json/* "$dest_json_dir"
+    just _add_license "$dest_json_dir"

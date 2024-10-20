@@ -42,6 +42,8 @@ _delete_dir_except_git dir_to_delete:
     # by default dotglob will prevent hidden files from being included in * wildcard globs
     if [ -d "${tempdir}/.git" ]; then
         mv "${tempdir}/.git" "{{dir_to_delete}}"
+    fi
+    if [ -f "${tempdir}/README.md" ]; then
         mv "${tempdir}/README.md" "{{dir_to_delete}}"
     fi
     rm -rf "$tempdir"
