@@ -33,10 +33,11 @@ run html_src_dpath md_dest_dpath:
         src_filename="$(basename "$html_file")"
         markdown_filename=$(echo "$src_filename" | sed -e 's/\.html$/\.md/')
 
-        # Convert HTML to Markdown
+        # Convert HTML to Markdown with link adjustment
         pandoc --wrap=none --standalone \
             --from=html \
             --to=markdown_strict+pipe_tables \
+            --lua-filter=change_links.lua \
             -o "$dest_dir/$markdown_filename" \
             "$html_file"
     done
