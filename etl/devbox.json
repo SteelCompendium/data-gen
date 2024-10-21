@@ -24,11 +24,11 @@
       "pip install mdformat mdformat-wikilink mdformat-tables mdformat-frontmatter"
     ],
     "scripts": {
-      "gen":            "just gen",
-      "gen_rules":      "just gen_rules",
-      "gen_bestiary":   "just gen_bestiary",
-      "gen_adventures": "just gen_adventures",
-      "gen_unified":    "just gen_unified"
+      "gen":            "time just gen",
+      "gen_rules":      "time just gen_rules",
+      "gen_bestiary":   "time just gen_bestiary",
+      "gen_adventures": "time just gen_adventures",
+      "gen_unified":    "time just gen_unified"
     }
   }
 }

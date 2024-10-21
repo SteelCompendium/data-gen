@@ -76,11 +76,7 @@ def process_section(section_element, parent_id, output_dir):
         # Output as a single file in the output_dir
         output_path = output_dir
 
-    # Create the output file
-    if has_separate_child_sections:
-        output_file = os.path.join(output_path, 'index.html')
-    else:
-        output_file = os.path.join(output_path, f"{section_name}.html")
+    output_file = os.path.join(output_path, f"{section_name}.html")
 
     # Make a copy of the section element for output
     section_copy = copy.deepcopy(section_element)
@@ -100,7 +96,7 @@ def process_section(section_element, parent_id, output_dir):
                 child_is_directory = will_output_as_directory(child, child_id)
                 # Insert a link to the child section
                 if child_is_directory:
-                    link_href = f'./{child_name}/index.html'
+                    link_href = f'./{child_name}/{child_name}.html'
                 else:
                     link_href = f'./{child_name}.html'
                 link = html.Element('a', href=link_href)
