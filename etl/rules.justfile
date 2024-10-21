@@ -37,7 +37,7 @@ gen_rules_md:
     just -f extract_html_sections/rules/justfile run "$html_fpath" "$html_sections_dpath"
 
     # Split up entire hierarchy of sections
-    just -f split_html_sections/justfile run "$html_fpath" "${html_sections_dpath}/ClassesSplit"
+    just -f split_html_sections/justfile run "$html_fpath" "${html_sections_dpath}/Classes"
 
     # Convert html sections to md sections
     md_sections_dpath="{{staging_rules_dpath}}/md_sections"
