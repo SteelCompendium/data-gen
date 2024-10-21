@@ -20,24 +20,15 @@ def slugify(value):
 
     # Replace whitespace single space
     value = re.sub(r'[\s]+', ' ', value)
-    return value.title()
+    value = title_case(value)
+    return value
 
-def title_case_filename(filename):
-    # Split the filename and extension
-    name, ext = os.path.splitext(filename)
-    # Split the name into words, including non-alphanumeric characters
-    words = re.split(r'(\W+)', name)
-    capitalized_words = []
-    for word in words:
-        if word.isalpha():
-            capitalized_words.append(word.capitalize())
-        elif word.isdigit():
-            capitalized_words.append(word)
-        else:
-            capitalized_words.append(word)
-    new_name = ''.join(capitalized_words)
-    # Return the new filename with the extension in lowercase
-    return new_name + ext.lower()
+def title_case(s):
+    # Split the string by whitespace and hyphens
+    words = re.split(r'(\s+|-)', s)
+
+    # Capitalize each word and join back, keeping separators
+    return ''.join([word.capitalize() if word.isalnum() else word for word in words])
 
 def get_section_name(section_element):
     """
