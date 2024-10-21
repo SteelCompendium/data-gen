@@ -18,6 +18,8 @@ def slugify(value):
     # Replace whitespace and hyphens with a single hyphen
     #value = re.sub(r'[-\s]+', '-', value)
 
+    # Replace whitespace single space
+    value = re.sub(r'[\s]+', ' ', value)
     return value.title()
 
 def title_case_filename(filename):
@@ -159,8 +161,8 @@ def main():
     section_element = section_elements[0]
 
     # Clear the output directory if it exists
-    if os.path.exists(output_dir):
-        shutil.rmtree(output_dir)
+    # if os.path.exists(output_dir):
+    #     shutil.rmtree(output_dir)
 
     # Create the output directory
     os.makedirs(output_dir, exist_ok=True)
