@@ -1,6 +1,6 @@
 #!/usr/bin/env just --justfile
 
-log_prefix := "[JUST][extract_html_sections]"
+log_prefix := "[JUST][split_html_sections]"
 
 run html_fpath html_sections_dpath:
     #!/usr/bin/env bash

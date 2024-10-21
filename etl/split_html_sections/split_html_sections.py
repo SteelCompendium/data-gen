@@ -14,10 +14,7 @@ def slugify(value):
     # Normalize unicode characters
     value = unicodedata.normalize('NFKD', value).encode('ascii', 'ignore').decode('ascii')
     # Remove invalid characters
-    #value = re.sub(r'[^\w\s-]', '', value).strip().lower()
-    # Replace whitespace and hyphens with a single hyphen
-    #value = re.sub(r'[-\s]+', '-', value)
-
+    value = re.sub(r'[^\w\s\-()]', '', value)
     # Replace whitespace single space
     value = re.sub(r'[\s]+', ' ', value)
     value = title_case(value)
