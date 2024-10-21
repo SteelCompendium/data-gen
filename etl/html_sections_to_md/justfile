@@ -11,6 +11,13 @@ run html_src_dpath md_dest_dpath:
     html_src_dir="{{html_src_dpath}}"
     md_dest_dpath="{{md_dest_dpath}}"
 
+    # Source: https://stackoverflow.com/a/42943426
+    # I dont understand why this works, but it works
+    title_case() {
+        set ${*,,}
+        echo ${*^}
+    }
+
     # Ensure source directory exists
     if [ ! -d "$html_src_dir" ]; then
         echo "Source directory does not exist: $html_src_dir"
@@ -31,7 +38,10 @@ run html_src_dpath md_dest_dpath:
 
         # Build filename
         src_filename="$(basename "$html_file")"
-        markdown_filename=$(echo "$src_filename" | sed -e 's/\.html$/\.md/')
+
+        # Build the Markdown filename, formatted
+        markdown_filename=$(echo "$src_filename" | sed -e 's/\.html$/\.md/' -e 's/_/ /g' -e "s/’//g" -e "s/'//g")
+        markdown_filename="$(title_case "$markdown_filename")"
 
         # Convert HTML to Markdown with link adjustment
         pandoc --wrap=none --standalone \
