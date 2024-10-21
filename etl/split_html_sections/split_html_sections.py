@@ -2,10 +2,57 @@ import os
 import sys
 import shutil
 import copy
+import re
+import unicodedata
 from lxml import html, etree
 
+def slugify(value):
+    """
+    Converts a string to a filesystem-safe slug.
+    """
+    value = str(value)
+    # Normalize unicode characters
+    value = unicodedata.normalize('NFKD', value).encode('ascii', 'ignore').decode('ascii')
+    # Remove invalid characters
+    #value = re.sub(r'[^\w\s-]', '', value).strip().lower()
+    # Replace whitespace and hyphens with a single hyphen
+    #value = re.sub(r'[-\s]+', '-', value)
+
+    return value.title()
+
+def title_case_filename(filename):
+    # Split the filename and extension
+    name, ext = os.path.splitext(filename)
+    # Split the name into words, including non-alphanumeric characters
+    words = re.split(r'(\W+)', name)
+    capitalized_words = []
+    for word in words:
+        if word.isalpha():
+            capitalized_words.append(word.capitalize())
+        elif word.isdigit():
+            capitalized_words.append(word)
+        else:
+            capitalized_words.append(word)
+    new_name = ''.join(capitalized_words)
+    # Return the new filename with the extension in lowercase
+    return new_name + ext.lower()
+
+def get_section_name(section_element):
+    """
+    Extracts and sanitizes the first header's text from a section element.
+    """
+    header = section_element.xpath('.//h1|.//h2|.//h3|.//h4|.//h5|.//h6')
+    if header:
+        header_text = header[0].text_content()
+        return slugify(header_text)
+    else:
+        # Fallback to 'section' if no header is found
+        return 'section'
+
 def will_output_as_directory(section_element, current_id):
-    # Determine whether the section has any child sections that will be output separately
+    """
+    Determines whether a section will be output as a directory based on its child sections.
+    """
     has_separate_child_sections = False
     for child in section_element:
         if child.tag == 'section':
@@ -16,14 +63,13 @@ def will_output_as_directory(section_element, current_id):
     return has_separate_child_sections
 
 def process_section(section_element, parent_id, output_dir):
-    # Get the current section's id
+    # Get the current section's id and name
     current_id = section_element.get('id', '')
+    section_name = get_section_name(section_element)
 
     # Determine whether to embed or output separately
-    # If current_id == parent_id + '-1', then embed
     if parent_id and current_id == parent_id + '-1':
         # Embed the section
-        # Process child sections recursively
         for child in section_element:
             if child.tag == 'section':
                 process_section(child, current_id, output_dir)
@@ -33,20 +79,18 @@ def process_section(section_element, parent_id, output_dir):
     has_separate_child_sections = will_output_as_directory(section_element, current_id)
     if has_separate_child_sections:
         # Output as separate directory
-        # Create a directory for the section
-        section_dir = os.path.join(output_dir, current_id)
+        section_dir = os.path.join(output_dir, section_name)
         os.makedirs(section_dir, exist_ok=True)
         output_path = section_dir
     else:
         # Output as a single file in the output_dir
-        section_dir = output_dir
         output_path = output_dir
 
     # Create the output file
     if has_separate_child_sections:
         output_file = os.path.join(output_path, 'index.html')
     else:
-        output_file = os.path.join(output_path, f"{current_id}.html")
+        output_file = os.path.join(output_path, f"{section_name}.html")
 
     # Make a copy of the section element for output
     section_copy = copy.deepcopy(section_element)
@@ -55,9 +99,9 @@ def process_section(section_element, parent_id, output_dir):
     for child in list(section_copy):
         if child.tag == 'section':
             child_id = child.get('id', '')
+            child_name = get_section_name(child)
             if current_id and child_id == current_id + '-1':
                 # Embed the child section
-                # Process the child section recursively
                 process_section(child, current_id, output_path)
             else:
                 # Remove the child section from the current section
@@ -66,16 +110,16 @@ def process_section(section_element, parent_id, output_dir):
                 child_is_directory = will_output_as_directory(child, child_id)
                 # Insert a link to the child section
                 if child_is_directory:
-                    link_href = f'./{child_id}/index.html'
+                    link_href = f'./{child_name}/index.html'
                 else:
-                    link_href = f'./{child_id}.html'
+                    link_href = f'./{child_name}.html'
                 link = html.Element('a', href=link_href)
                 # Use the child header's text as the link text
                 header = child.xpath('.//h1|.//h2|.//h3|.//h4|.//h5|.//h6')
                 if header:
                     link.text = header[0].text_content()
                 else:
-                    link.text = child_id
+                    link.text = child_name
 
                 # Append the link to the section
                 p = html.Element('p')
