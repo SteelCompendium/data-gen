@@ -17,6 +17,9 @@ def slugify(value):
     value = re.sub(r'[^\w\s\-()]', '', value)
     # Replace whitespace single space
     value = re.sub(r'[\s]+', ' ', value)
+    # Some abilities have costs in the name, remove the cost
+    value = re.sub(r'\s+\(.+\)', '', value)
+    # Title case
     value = title_case(value)
     return value
 
