@@ -95,14 +95,9 @@ def update_unlinked_references_in_file(file_path, note_titles):
         content = read_file_with_encoding_fallback(file_path)
         original_content = content
 
-        # Sort note titles by length in descending order
-        note_titles = sorted(note_titles, key=len, reverse=True)
+        # Build a mapping of forms to titles and create a regex pattern
+        form_to_title = {}
 
-        # Split content into lines for line-by-line processing
-        lines = content.split('\n')
-        in_frontmatter = False
-
-        # For each title, prepare regex patterns and replacement functions
         for title in note_titles:
             # Don't add links to self
             if title.lower() == os.path.splitext(os.path.basename(file_path))[0].lower():
@@ -120,33 +115,81 @@ def update_unlinked_references_in_file(file_path, note_titles):
             if plural_form and plural_form.lower() != title.lower():
                 forms.add(plural_form)
 
-            # Convert forms to list and sort by length in descending order
-            forms = sorted(forms, key=len, reverse=True)
-
-            # Compile regex patterns for all forms
-            patterns = []
+            # Add the forms to the dict
             for form in forms:
-                # This regex looks for the form as a standalone word (case-insensitive), not inside existing links
-                pattern = re.compile(r'(?<![\[\|\w]){}(?![\]\|\w])'.format(re.escape(form)), flags=re.IGNORECASE)
-                patterns.append((form, pattern))
+                form_lower = form.lower()
+                if form_lower not in form_to_title:
+                    form_to_title[form_lower] = title  # Map form to the original title
 
-            # Process each line individually
-            for i, line in enumerate(lines):
-                # Skip processing in frontmatter and headers
-                if line.lstrip().startswith('---'):
-                    # Toggle frontmatter state
-                    in_frontmatter = not in_frontmatter
-                    continue
-                if in_frontmatter or line.lstrip().startswith('#'):
-                    continue
+        # Create a regex pattern that matches any of the forms
+        forms = sorted(form_to_title.keys(), key=len, reverse=True)
+        pattern = re.compile(r'(?<![\[\|\w])({})(?![\]\|\w])'.format('|'.join(map(re.escape, forms))), flags=re.IGNORECASE)
 
-                # Check if the line is a table row
-                is_table_row = line.strip().startswith('|')
+        # Split content into lines for line-by-line processing
+        lines = content.split('\n')
+        in_frontmatter = False
 
-                # Apply replacements for each pattern
-                for form, pattern in patterns:
+        for i in range(len(lines)):
+            line = lines[i]
+
+            # Skip processing in frontmatter and headers
+            if line.lstrip().startswith('---'):
+                # Toggle frontmatter state
+                in_frontmatter = not in_frontmatter
+                lines[i] = line
+                continue
+            if in_frontmatter or line.lstrip().startswith('#'):
+                lines[i] = line
+                continue
+
+            # Check if the line is a table row
+            is_table_row = line.strip().startswith('|')
+
+            # Find markdown links in the line
+            link_spans = [(m.start(), m.end()) for m in re.finditer(r'\[.*?\]\(.*?\)', line)]
+
+            # Get non-link spans
+            non_link_spans = []
+            last_end = 0
+            for start, end in sorted(link_spans):
+                if last_end < start:
+                    non_link_spans.append((last_end, start))
+                last_end = end
+            if last_end < len(line):
+                non_link_spans.append((last_end, len(line)))
+
+            # Create spans with flags
+            spans = []
+            for start, end in link_spans:
+                spans.append((start, end, 'link'))
+            for start, end in non_link_spans:
+                spans.append((start, end, 'non_link'))
+
+            # Sort spans
+            spans.sort(key=lambda x: x[0])
+
+            # Process spans
+            new_line = ''
+            for span in spans:
+                start, end, span_type = span
+                segment = line[start:end]
+
+                if span_type == 'link':
+                    # Append the segment unmodified
+                    new_line += segment
+                else:
+                    # Apply replacements to segment
                     def replace_with_link(match):
                         found_text = match.group(0)
+                        form_lower = found_text.lower()
+
+                        # Get the corresponding title
+                        title = form_to_title.get(form_lower, None)
+
+                        if title is None:
+                            return found_text
+
+                        # Determine the replacement link
                         if found_text != title:
                             # If the found text case doesn't match the title, create an alias
                             link = f'[[{title}|{found_text}]]'
@@ -157,10 +200,11 @@ def update_unlinked_references_in_file(file_path, note_titles):
                             link = link.replace('|', '\\|')
                         return link
 
-                    # Replace any found references with Obsidian-style links
-                    line = pattern.sub(replace_with_link, line)
+                    segment = pattern.sub(replace_with_link, segment)
+                    new_line += segment
 
-                lines[i] = line
+            # Update the line
+            lines[i] = new_line
 
         # Reconstruct content from processed lines
         content = '\n'.join(lines)
