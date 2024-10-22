@@ -15,7 +15,9 @@ folders_to_skip = [
     "Cultures", # Nothing should link TO these (headers), but the other way makes a lot of bad links
     "Skills", # Nothing should link TO these (headers), but the other way makes a lot of bad links
     "util", # shouldnt need to link anything in here
-    "Negotiation/Motivations and Pitfalls" # "Power" is one of the motivations which will link to every Power Roll
+    "Negotiation/Motivations and Pitfalls", # "Power" is one of the motivations which will link to every Power Roll
+    # TODO - I do want to auto-link these files, need to update some regexes below
+    "Classes" # Classes has links already predefined that are in the []() form, skip it
 ]
 
 p = inflect.engine()
