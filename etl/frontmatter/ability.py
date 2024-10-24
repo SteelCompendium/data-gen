@@ -6,6 +6,13 @@ import re
 import json
 import yaml
 
+def title_case(s):
+    # Split the string by whitespace and hyphens
+    words = re.split(r'(\s+|-)', s)
+
+    # Capitalize each word and join back, keeping separators
+    return ''.join([word.capitalize() if word.isalnum() else word for word in words])
+
 def extract_information(md_content, args):
     frontmatter = {}
 
@@ -14,7 +21,7 @@ def extract_information(md_content, args):
     if title_match:
         title = title_match.group(1).strip()
         frontmatter['title_raw'] = title
-        frontmatter['title'] = title.title()
+        frontmatter['title'] = title_case(title)
     else:
         print('Error: No H1 header found in the markdown content to extract the title.')
         sys.exit(1)
@@ -24,10 +31,10 @@ def extract_information(md_content, args):
     if name_match:
         name = name_match.group(1).strip()
         frontmatter['name_raw'] = name
-        frontmatter['name'] = name.title()
+        frontmatter['name'] = title_case(name)
     else:
         frontmatter['name_raw'] = frontmatter['title_raw']
-        frontmatter['name'] = frontmatter['title_raw'].title()
+        frontmatter['name'] = title_case(frontmatter['title_raw'])
 
     # Extract the cost (text inside parentheses in the title)
     cost_match = re.match(r'.*\(([^\)]+)\)', frontmatter['title'])
