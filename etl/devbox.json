@@ -1,34 +1,35 @@
 {
-  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.11.0/.schema/devbox.schema.json",
-  "packages": [
-    "bash@latest",
-    "python@latest",
-    "just@latest",
-    "jq@latest",
-    "pandoc@latest",
-    "html-tidy@latest",
-    "rsync@latest",
-    "yq-go@latest"
-  ],
-  "env": {
-    "DEVBOX_COREPACK_ENABLED": "true"
-  },
-  "shell": {
-    "init_hook": [
-      "if [ \"$(type -t \"source\")\" = \"builtin\" ]; then clear -x; source bin/furc; fi",
-      ". $VENV_DIR/bin/activate",
-      "pip install markdown-to-json",
-      "pip install tabulate PyYAML python-frontmatter",
-      "pip install lxml",
-      "pip install inflect",
-      "pip install mdformat mdformat-wikilink mdformat-tables mdformat-frontmatter"
+    "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.11.0/.schema/devbox.schema.json",
+    "packages": [
+        "bash@latest",
+        "python@latest",
+        "just@latest",
+        "jq@latest",
+        "pandoc@latest",
+        "html-tidy@latest",
+        "rsync@latest",
+        "yq-go@latest"
     ],
-    "scripts": {
-      "gen":            "time just gen",
-      "gen_rules":      "time just gen_rules",
-      "gen_bestiary":   "time just gen_bestiary",
-      "gen_adventures": "time just gen_adventures",
-      "gen_unified":    "time just gen_unified"
+    "env": {
+        "DEVBOX_COREPACK_ENABLED": "true"
+    },
+    "shell": {
+        "init_hook": [
+            "if [ \"$(type -t \"source\")\" = \"builtin\" ]; then clear -x; source bin/furc; fi",
+            ". $VENV_DIR/bin/activate",
+            "pip install markdown-to-json",
+            "pip install tabulate PyYAML python-frontmatter",
+            "pip install lxml",
+            "pip install inflect",
+            "pip install mdformat mdformat-wikilink mdformat-tables mdformat-frontmatter"
+        ],
+        "scripts": {
+            "gen": "time just gen",
+            "gen_rules": "time just gen_rules",
+            "gen_bestiary": "time just gen_bestiary",
+            "gen_adventures": "time just gen_adventures",
+            "gen_unified": "time just gen_unified",
+            "switch_repos_to": "just switch_repos_to $@"
+        }
     }
-  }
 }
