@@ -30,6 +30,9 @@ def title_case(s):
     # Capitalize each word and join back, keeping separators
     return ''.join([word.capitalize() if word.isalnum() else word for word in words])
 
+def should_embed(current_id, parent_id):
+    return parent_id and (current_id == parent_id + '-1' or current_id.startswith(parent_id))
+
 def get_section_name(section_element):
     """
     Extracts and sanitizes the first header's text from a section element.
@@ -50,7 +53,7 @@ def will_output_as_directory(section_element, current_id):
     for child in section_element:
         if child.tag == 'section':
             child_id = child.get('id', '')
-            if not (current_id and child_id == current_id + '-1'):
+            if not should_embed(child_id, current_id):
                 has_separate_child_sections = True
                 break
     return has_separate_child_sections
@@ -61,7 +64,7 @@ def process_section(section_element, parent_id, output_dir):
     section_name = get_section_name(section_element)
 
     # Determine whether to embed or output separately
-    if parent_id and current_id == parent_id + '-1':
+    if should_embed(current_id, parent_id):
         # Embed the section
         for child in section_element:
             if child.tag == 'section':
@@ -89,7 +92,7 @@ def process_section(section_element, parent_id, output_dir):
         if child.tag == 'section':
             child_id = child.get('id', '')
             child_name = get_section_name(child)
-            if current_id and child_id == current_id + '-1':
+            if should_embed(child_id, current_id):
                 # Embed the child section
                 process_section(child, current_id, output_path)
             else:
