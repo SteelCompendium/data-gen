@@ -21,65 +21,26 @@ _extract_classes rules_html_fpath rules_html_sections_dpath:
 
     classes_path="{{rules_html_sections_dpath}}/Classes Single Page"
     # delete dir on first one, keep on others
+    just -f "../common/justfile" extract_section "$classes_path" "//section[@id='censor']" "{{rules_html_fpath}}"
     just -f "../common/justfile" extract_section "$classes_path" "//section[@id='conduit']" "{{rules_html_fpath}}"
     just -f "../common/justfile" extract_section "$classes_path" "//section[@id='elementalist']" "{{rules_html_fpath}}" "skip_delete"
     just -f "../common/justfile" extract_section "$classes_path" "//section[@id='fury']" "{{rules_html_fpath}}" "skip_delete"
+    just -f "../common/justfile" extract_section "$classes_path" "//section[@id='null']" "{{rules_html_fpath}}" "skip_delete"
     just -f "../common/justfile" extract_section "$classes_path" "//section[@id='shadow']" "{{rules_html_fpath}}" "skip_delete"
     just -f "../common/justfile" extract_section "$classes_path" "//section[@id='tactician']" "{{rules_html_fpath}}" "skip_delete"
+    just -f "../common/justfile" extract_section "$classes_path" "//section[@id='talent']" "{{rules_html_fpath}}" "skip_delete"
+    just -f "../common/justfile" extract_section "$classes_path" "//section[@id='troubadour']" "{{rules_html_fpath}}" "skip_delete"
 
 _extract_abilities rules_html_fpath rules_html_sections_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
 
     abilities_path="{{rules_html_sections_dpath}}/Abilities"
-    #
-    #    # Conduit
-    #    rm -rf "$abilities_path/Conduit"
-    #    #just -f "../common/justfile" extract_section "$abilities_path/Conduit" "//section[@id='conduit-abilities']//section[@class='level6']"
-    #    just -f "../common/justfile" extract_section "$abilities_path/Conduit/Signature Abilities" "//section[@id='conduit-abilities']//section[@id='signature-ability']//section[@class='level6']" "{{rules_html_fpath}}"
-    #    just -f "../common/justfile" extract_section "$abilities_path/Conduit/3-Piety Abilities" "//section[@id='conduit-abilities']//section[@id='piety-abilities']//section[@class='level6']" "{{rules_html_fpath}}"
-    #    just -f "../common/justfile" extract_section "$abilities_path/Conduit/5-Piety Abilities" "//section[@id='conduit-abilities']//section[@id='piety-abilities-1']//section[@class='level6']" "{{rules_html_fpath}}"
-    #    just -f "../common/justfile" extract_section "$abilities_path/Conduit/Triggered Actions" "//section[@id='conduit']//section[@id='triggered-action']//section[@class='level5']" "{{rules_html_fpath}}"
-    #
-    #    # Elementalist
-    #    rm -rf "$abilities_path/Elementalist"
-    #    #just -f "../common/justfile" extract_section "$abilities_path/Elementalist" "//section[@id='elementalist-abilities']//section[@class='level6']"
-    #    just -f "../common/justfile" extract_section "$abilities_path/Elementalist/Signature Abilities" "//section[@id='elementalist-abilities']//section[@id='signature-ability-1']//section[@class='level6']" "{{rules_html_fpath}}"
-    #    just -f "../common/justfile" extract_section "$abilities_path/Elementalist/3-Essence Abilities" "//section[@id='elementalist-abilities']//section[@id='essence-abilities']//section[@class='level6']" "{{rules_html_fpath}}"
-    #    just -f "../common/justfile" extract_section "$abilities_path/Elementalist/5-Essence Abilities" "//section[@id='elementalist-abilities']//section[@id='essence-abilities-1']//section[@class='level6']" "{{rules_html_fpath}}"
-    #    just -f "../common/justfile" extract_section "$abilities_path/Elementalist/Triggered Actions" "//section[@id='elementalist']//section[@id='specialization-triggered-action']//section[@class='level5']" "{{rules_html_fpath}}"
-    #
-    #    # Fury
-    #    rm -rf "$abilities_path/Fury"
-    #    #just -f "../common/justfile" extract_section "$abilities_path/Fury" "//section[@id='fury-abilities']//section[@class='level6']"
-    #    just -f "../common/justfile" extract_section "$abilities_path/Fury/Signature Abilities" "//section[@id='fury-abilities']//section[@id='signature-ability-2']//section[@class='level6']" "{{rules_html_fpath}}"
-    #    just -f "../common/justfile" extract_section "$abilities_path/Fury/3-Rage Abilities" "//section[@id='fury-abilities']//section[@id='rage-abilities']//section[@class='level6']" "{{rules_html_fpath}}"
-    #    just -f "../common/justfile" extract_section "$abilities_path/Fury/5-Rage Abilities" "//section[@id='fury-abilities']//section[@id='rage-abilities-1']//section[@class='level6']" "{{rules_html_fpath}}"
-    #    just -f "../common/justfile" extract_section "$abilities_path/Fury/Triggered Actions" "//section[@id='fury']//section[@id='aspect-triggered-action']//section[@class='level5']" "{{rules_html_fpath}}"
-    #    rm "$abilities_path/Fury/Triggered Actions/Fury Triggered Actions.html"
-    #
-    #    # Shadow
-    #    #just -f "../common/justfile" extract_section "$abilities_path/Shadow" "//section[@id='shadow-abilities']//section[@class='level6']"
-    #    rm -rf "$abilities_path/Shadow"
-    #    just -f "../common/justfile" extract_section "$abilities_path/Shadow/Signature Abilities" "//section[@id='shadow-abilities']//section[@id='signature-ability-7']//section[@class='level6']" "{{rules_html_fpath}}"
-    #    just -f "../common/justfile" extract_section "$abilities_path/Shadow/3-Insight Abilities" "//section[@id='shadow-abilities']//section[@id='insight-abilities']//section[@class='level6']" "{{rules_html_fpath}}"
-    #    just -f "../common/justfile" extract_section "$abilities_path/Shadow/5-Insight Abilities" "//section[@id='shadow-abilities']//section[@id='insight-abilities-1']//section[@class='level6']" "{{rules_html_fpath}}"
-    #    just -f "../common/justfile" extract_section "$abilities_path/Shadow/Triggered Actions" "//section[@id='shadow']//section[@id='college-triggered-action']//section[@class='level5']" "{{rules_html_fpath}}"
-    #    rm "$abilities_path/Shadow/Triggered Actions/Shadow Triggered Actions.html"
-    #
-    #    # Tactician
-    #    rm -rf "$abilities_path/Tactician"
-    #    #just -f "../common/justfile" extract_section "$abilities_path/Tactician" "//section[@id='tactician-abilities']//section[@class='level6']"
-    #    just -f "../common/justfile" extract_section "$abilities_path/Tactician/3-Focus Abilities" "//section[@id='tactician-abilities']//section[@id='focus-abilities']//section[@class='level6']" "{{rules_html_fpath}}"
-    #    just -f "../common/justfile" extract_section "$abilities_path/Tactician/5-Focus Abilities" "//section[@id='tactician-abilities']//section[@id='focus-abilities-1']//section[@class='level6']" "{{rules_html_fpath}}"
-    #    just -f "../common/justfile" extract_section "$abilities_path/Tactician/Triggered Actions" "//section[@id='tactician']//section[@id='doctrine-triggered-action']//section[@class='level5']" "{{rules_html_fpath}}"
-    #    rm "$abilities_path/Tactician/Triggered Actions/Tactician Triggered Actions.html"
 
-    # Common Maneuvers
-    just -f "../common/justfile" extract_section "$abilities_path/Common Maneuvers" "//section[@id='combat']//section[@id='maneuvers']//section[@class='level4']" "{{rules_html_fpath}}"
-
-    # Common Actions
-    just -f "../common/justfile" extract_section "$abilities_path/Common Actions" "//section[@id='combat']//section[@id='actions']//section[@class='level4']" "{{rules_html_fpath}}"
+    # Common Maneuvers, actions, and move actions
+    just -f "../common/justfile" extract_section "$abilities_path/Common Maneuvers" "//section[@id='combat']//section[@id='maneuvers']//section[@class='level3']" "{{rules_html_fpath}}"
+    just -f "../common/justfile" extract_section "$abilities_path/Common Actions" "//section[@id='combat']//section[@id='actions']//section[@class='level3']" "{{rules_html_fpath}}"
+    just -f "../common/justfile" extract_section "$abilities_path/Common Move Actions" "//section[@id='combat']//section[@id='move-actions']//section[@class='level3']" "{{rules_html_fpath}}"
 
 _extract_movement rules_html_fpath rules_html_sections_dpath:
     #!/usr/bin/env bash
@@ -87,9 +48,9 @@ _extract_movement rules_html_fpath rules_html_sections_dpath:
 
     movement_path="{{rules_html_sections_dpath}}/Movement"
 
-    xpath="//section[@id='combat']//section[@id='movement']//section[@class='level4']"
+    xpath="//section[@id='combat']//section[@id='movement']//section[@class='level3']"
     just -f "../common/justfile" extract_section "$movement_path" "$xpath" "{{rules_html_fpath}}"
-    xpath="//section[@id='combat']//section[@id='movement-types']//section[@class='level5']"
+    xpath="//section[@id='combat']//section[@id='movement-types']//section[@class='level4']"
     just -f "../common/justfile" extract_section "$movement_path" "$xpath" "{{rules_html_fpath}}" "skip_delete"
 
     rm "${movement_path}/CanT Exceed Speed.html"
@@ -99,19 +60,15 @@ _extract_kits rules_html_fpath rules_html_sections_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
 
-    martial_path="{{rules_html_sections_dpath}}/Kits/Martial Kits"
-    xpath="//section[@id='kits']//section[@id='martial-kits']//section[@class='level4']"
+    martial_path="{{rules_html_sections_dpath}}/Kits"
+    xpath="//section[@id='kits']//section[@id='kits-a-to-z']//section[@class='level3']"
     just -f "../common/justfile" extract_section "$martial_path" "$xpath" "{{rules_html_fpath}}"
-
-    caster_path="{{rules_html_sections_dpath}}/Kits/Caster Kits"
-    xpath="//section[@id='kits']//section[@id='caster-kits']//section[@class='level4']"
-    just -f "../common/justfile" extract_section "$caster_path" "$xpath" "{{rules_html_fpath}}"
 
 _extract_ancestries rules_html_fpath rules_html_sections_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
     ancestries_path="{{rules_html_sections_dpath}}/Ancestries"
-    xpath="//section[@id='ancestries']//section[@class='level3']"
+    xpath="//section[@id='ancestries']//section[@class='level2']"
     just -f "../common/justfile" extract_section "$ancestries_path" "$xpath" "{{rules_html_fpath}}"
 
     # removes any extra sections
@@ -122,7 +79,7 @@ _extract_careers rules_html_fpath rules_html_sections_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
     careers_path="{{rules_html_sections_dpath}}/Careers"
-    xpath="//section[@id='career-1']//section[@class='level3']"
+    xpath="//section[@id='career-1']//section[@class='level2']"
     just -f "../common/justfile" extract_section "$careers_path" "$xpath" "{{rules_html_fpath}}"
 
     # removes any extra sections
@@ -135,13 +92,13 @@ _extract_cultures rules_html_fpath rules_html_sections_dpath:
     set -euo pipefail
     cultures_path="{{rules_html_sections_dpath}}/Cultures"
 
-    xpath="//section[@id='culture-1']//section[@id='culture-benefits']//section[@id='environment']//section[@class='level6']"
+    xpath="//section[@id='culture-1']//section[@id='culture-benefits']//section[@id='environment']//section[@class='level4']"
     just -f "../common/justfile" extract_section "$cultures_path/Environments" "$xpath" "{{rules_html_fpath}}"
 
-    xpath="//section[@id='culture-1']//section[@id='culture-benefits']//section[@id='organization']//section[@class='level5']"
+    xpath="//section[@id='culture-1']//section[@id='culture-benefits']//section[@id='organization']//section[@class='level4']"
     just -f "../common/justfile" extract_section "$cultures_path/Organizations" "$xpath" "{{rules_html_fpath}}"
 
-    xpath="//section[@id='culture-1']//section[@id='culture-benefits']//section[@id='upbringing']//section[@class='level5']"
+    xpath="//section[@id='culture-1']//section[@id='culture-benefits']//section[@id='upbringing']//section[@class='level4']"
     just -f "../common/justfile" extract_section "$cultures_path/Upbringing" "$xpath" "{{rules_html_fpath}}"
 
     # removes any extra sections
@@ -151,15 +108,14 @@ _extract_complications rules_html_fpath rules_html_sections_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
     complications_path="{{rules_html_sections_dpath}}/Complications"
-    xpath="//section[@id='complications']//section[@id='determine-complication']//section[@class='level4']"
+    xpath="//section[@id='complications']//section[@id='determine-complication']//section[@class='level3']"
     just -f "../common/justfile" extract_section "$complications_path" "$xpath" "{{rules_html_fpath}}"
-    rm "${complications_path}/Complications Table.html"
 
 _extract_skills rules_html_fpath rules_html_sections_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
     skills_path="{{rules_html_sections_dpath}}/Skills"
-    xpath="//section[@id='tests']//section[@id='skill-groups']//section[@class='level5']"
+    xpath="//section[@id='tests']//section[@id='skill-groups']//section[@class='level4']"
     just -f "../common/justfile" extract_section "$skills_path" "$xpath" "{{rules_html_fpath}}"
 
     # removes any extra sections
@@ -170,7 +126,7 @@ _extract_conditions rules_html_fpath rules_html_sections_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
     conditions_path="{{rules_html_sections_dpath}}/Conditions"
-    xpath="//section[@id='abilities']//section[@id='conditions']//section[@class='level4']"
+    xpath="//section[@id='abilities']//section[@id='conditions']//section[@class='level3']"
     just -f "../common/justfile" extract_section "$conditions_path" "$xpath" "{{rules_html_fpath}}"
 
 _extract_negotiation rules_html_fpath rules_html_sections_dpath:
@@ -178,6 +134,7 @@ _extract_negotiation rules_html_fpath rules_html_sections_dpath:
     set -euo pipefail
 
     negotiation_path="{{rules_html_sections_dpath}}/Negotiation"
-    xpath="//section[@id='list-of-motivations-and-pitfalls']//section[@class='level5']"
+    xpath="//section[@id='list-of-motivations-and-pitfalls']//section[@class='level4']"
     just -f "../common/justfile" extract_section "$negotiation_path/Motivations and Pitfalls" "$xpath" "{{rules_html_fpath}}"
-    rm "$negotiation_path/Motivations and Pitfalls/Npcs Change Over Time.html"
+
+# TODO - perks, downtime stuff, titles

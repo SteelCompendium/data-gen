@@ -86,6 +86,15 @@ def extract_information(md_content, args):
 
     return frontmatter
 
+def read_file_with_encoding_fallback(file_path):
+    """Read file with a fallback for encoding issues."""
+    try:
+        with open(file_path, 'r', encoding='utf-8') as file:
+            return file.read()
+    except UnicodeDecodeError:
+        with open(file_path, 'r', encoding='ISO-8859-1') as file:
+            return file.read()
+
 def main():
     parser = argparse.ArgumentParser(description='Parse a markdown file or string and extract frontmatter.')
     group = parser.add_mutually_exclusive_group(required=True)
@@ -101,8 +110,7 @@ def main():
         md_content = args.string
     elif args.file:
         try:
-            with open(args.file, 'r', encoding='utf-8') as f:
-                md_content = f.read()
+            md_content = read_file_with_encoding_fallback(args.file)
         except FileNotFoundError:
             print(f'Error: File "{args.file}" not found.')
             sys.exit(1)

@@ -9,8 +9,12 @@ run html_fpath html_sections_dpath:
     echo >&2 "{{log_prefix}} HTML source file: {{html_fpath}}"
     echo >&2 "{{log_prefix}} HTML section dest dir: {{html_sections_dpath}}"
 
+    python split_html_sections.py "{{html_fpath}}" "//section[@id='censor']" "{{html_sections_dpath}}"
     python split_html_sections.py "{{html_fpath}}" "//section[@id='conduit']" "{{html_sections_dpath}}"
     python split_html_sections.py "{{html_fpath}}" "//section[@id='elementalist']" "{{html_sections_dpath}}"
     python split_html_sections.py "{{html_fpath}}" "//section[@id='fury']" "{{html_sections_dpath}}"
+    python split_html_sections.py "{{html_fpath}}" "//section[@id='null']" "{{html_sections_dpath}}"
     python split_html_sections.py "{{html_fpath}}" "//section[@id='shadow']" "{{html_sections_dpath}}"
     python split_html_sections.py "{{html_fpath}}" "//section[@id='tactician']" "{{html_sections_dpath}}"
+    python split_html_sections.py "{{html_fpath}}" "//section[@id='talent']" "{{html_sections_dpath}}"
+    python split_html_sections.py "{{html_fpath}}" "//section[@id='troubadour']" "{{html_sections_dpath}}"
