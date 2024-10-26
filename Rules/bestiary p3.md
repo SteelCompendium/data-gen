@@ -1,52 +1,54 @@
-# CREATURE STATS 
+# INTRO
+
+## CREATURE STATS 
 
 Most of the information presented in a creature’s stat block is self-explanatory, and matches the statistics of hero player characters. However, a few differences are worth noting.
 
 **(Playtest note:** Right now, creatures are color coded, but this won’t be the only way we indicate different features. Icons are coming too. What are presented in this packet are temporary playtest stat blocks until we get real layout.)
 
-## FOR THE DIRECTOR
+### FOR THE DIRECTOR
 
 The information in this Bestiary playtest packet is for the Director, and all references to “you” in the packet refer to the director. If you’re a player who isn’t planning on also running games, you should stop reading now so your foes’ abilities remain a surprise.
 
-## LANGUAGES
+### LANGUAGES
 
 If a creature knows at least one language, their stat block has a **Languages** entry that shows the languages they know. Creatures who don’t know any languages don’t have this entry.
 
-## KEYWORDS
+### KEYWORDS
 
 Each creature has one or more keywords. These keywords don’t necessarily mean anything on their own, but special rules might apply to them. For instance, a creature with the **Goblin** keyword benefits from and can contribute to goblin **Villain Power** abilities (see below).
 
-## ENCOUNTER VALUE
+### ENCOUNTER VALUE
 
 Each Director-controlled creature has an **encounter value** (abbreviated **EV**) that is used in building encounters. See **Encounter Building** for more information.
 
-## CREATURE FREE STRIKES
+### CREATURE FREE STRIKES
 
 When a Director-controlled creature makes a free strike, they don’t roll. Instead, their stat block features a **Free Strike** stat representing the amount of damage they deal with a melee free strike with a distance of **reach 1** or the creature’s signature action, whichever is higher. This is also the amount of damage they deal with a ranged free strike with a distance equal to **5** or the range of the creature’s signature action, whichever is higher. A creature’s free strike has the **Attack** keyword and any of the following words found in their signature action: **Magic**, **Psionic**, or **Weapon**. Additionally, if the creature’s signature action deals damage with a type, the free strike also uses that type. If the creature’s signature action deals more than one type of damage, the Director decides which damage type the creature’s free strike uses when the attack is made.
 
 Creature free strikes are a static number for two reasons. First, it keeps gameplay fast. You don’t have to stop play to roll dice, and there’s no chance of a creature rolling a critical hit and bogging things down further when it isn’t their turn. Second, by keeping these static values relatively low, heroes are encouraged to take more risks when it really counts, even if that might result in them taking damage from a free strike.
 
-## CREATURE OPPORTUNITY ATTACKS
+#### CREATURE OPPORTUNITY ATTACKS
 
 Even though a Director-controlled creature doesn’t have to roll when they make a free strike, if they have a **bane** on attacks against a creature, they still can’t make an opportunity attack against them.
 
-## SIGNATURE ACTION
+### SIGNATURE ACTION
 
 Every creature has a **signature action**, which is the first action that appears in their stat block.
 
-## TRAITS
+### TRAITS
 
 Many creatures have **traits**, which are features that don’t require an action, maneuver, or triggered action to activate, such as the goblin monarch’s **Crafty** trait.
 
-## MALICE ABILITIES
+### MALICE ABILITIES
 
 Many creatures have abilities and features that require a resource called **malice** to activate. See **Malice** for more information.
 
-## END EFFECT
+### END EFFECT
 
 Certain creatures have the ability to take damage in order to end one **EoE** (end of encounter) effect currently affecting them. The damage the creature takes to end the effect can’t be reduced in any way.
 
-## VILLAIN ACTIONS
+### VILLAIN ACTIONS
 
 The solo and leader creatures presented in this book are designed to be fought in climactic battles at the end of an adventure or campaign. Because of this, they get special abilities called **villain actions**.
 
@@ -60,55 +62,55 @@ The third and final villain action is an **ultimate move** or “ult”—a show
 
 If you have more than two creatures with villain actions in an encounter (which should be a rare, if at all occurrence), only one villain action total may be used per round.
 
-## RESISTANCE ROLL ABILITIES
+### RESISTANCE ROLL ABILITIES
 
 Some creature abilities say “[Characteristic Abbreviation] RR” instead of providing a dice equation. This means that instead of the creature rolling when the ability is used, the target of the ability must make a resistance roll with the indicated characteristic against the ability’s effects.
 
-## CREATURE ROLES
+### CREATURE ROLES
 
 A creature’s role describes its function in combat in a general sense. Roles are descriptive, and most don’t follow special rules—they simply help you build encounters and use creatures effectively in combat. **(Playtest note:** A lot more guidance for using roles in building encounters is coming.)
 
-### AMBUSHER
+#### AMBUSHER
 
 Ambushers are melee warriors who can slip by beefier heroes to reach squishier targets in the back lines.
 
-### ARTILLERY
+#### ARTILLERY
 
 Artillery creatures fight best from afar, and can use their most powerful abilities at great distance.
 
-### LEADER
+#### LEADER
 
 Leader creatures are powerful commanders who often serve as villains at the climax of adventures and campaigns. They have better Stamina and damage output than other creatures, and often aid those creatures—or can sacrifice lesser allies for their own benefit.
 
-### BRUTE
+#### BRUTE
 
 Brutes are hardy creatures who have lots of Stamina and deal lots of damage. They have abilities and traits that make them difficult to ignore and hard to get away from, and that let them push enemies around.
 
-### CONTROLLER
+#### CONTROLLER
 
 Controllers are creatures who change the battlefield, often with magic or psionics. They reposition foes and alter terrain to make it more advantageous for their allies. Controllers are often on the squishier side, so they need some protection!
 
-### DEFENDER
+#### DEFENDER
 
 Defenders are tough creatures able to take a lot of damage, and who can force enemies to attack them instead of squishier targets. Defenders often act in squads with allies who have lower Stamina, such as controllers and hexers.
 
-### HARRIER
+#### HARRIER
 
 Harriers are mobile warriors who make definitive use of hit-and-run tactics. Their traits allow them to make the most of their positioning on the battlefield.
 
-### HEXER
+#### HEXER
 
 Hexers specialize in debuffing enemies with conditions and other effects. They are generally squishy and rely on allies to help defend them.
 
-### MOUNT
+#### MOUNT
 
 Mounts are mobile creatures meant to be ridden in combat, and who make their riders even more dangerous. Mounts act at the same time as their riders.
 
-### SOLO
+#### SOLO
 
 A solo creature is an action-oriented creature capable of taking on the player characters on their own, or with the backup of just a handful of underlings. **(Playtest note:** There are no solo creatures in this packet.)
 
-### SUPPORT
+#### SUPPORT
 
 Support creatures specialize in aiding their allies, providing buffs, healing, movement, or action options.
 
@@ -134,39 +136,39 @@ Each squad of minions shares a **Stamina pool**, with initial Stamina equal to e
 
 Because minion Stamina is tracked as a pool, minions can’t be winded and can’t regain Stamina during a battle.
 
-## DROPPING ONE MINION
+#### DROPPING ONE MINION
 
 Whenever a minion squad’s Stamina pool is reduced by an amount equal to an individual minion’s Stamina, one minion dies or otherwise gets taken out of the fight. If a squad of goblin snipers has its Stamina pool reduced to 15, then the minion who took the damage that reduced the pool dies. When the Stamina pool hits 10, 5, and finally 0, another minion in the squad dies. If multiple minions take the damage that results in the pool dropping low enough to kill one minion, the creature who dealt the damage to the minions decides which of those minions dies.
 
-## DROPPING MULTIPLE MINIONS
+#### DROPPING MULTIPLE MINIONS
 
 If a single attack reduces a minion squad’s Stamina pool by an amount of damage equal to the Stamina of multiple minions, multiple minions are taken out by the damage. Start with minions who took the damage first. If all those minions are eliminated and there is still more damage to account for, the minions nearest to the ones who were taken out suffer the same fate.
 
 For instance, if one goblin sniper takes 12 damage from a fury’s **Brutal Slam** ability, that sniper dies and another nearby sniper also gets taken out. Allow the player to narrate how their hero takes out additional minions killed by a single attack. Maybe each minion is within striking distance of the hero, who makes multiple brutal weapon attacks with a single action. Maybe the body of the original target is hurled into an unfortunate ally. Maybe additional minions affected by a single attack pass out from fright! Taking out multiple minions is a chance to play up the cinematic part of the game.
 
-## DAMAGING MULTIPLE MINIONS
+#### DAMAGING MULTIPLE MINIONS
 
 Minion squads are particularly susceptible to damage-dealing area abilities and attacks that target multiple creatures, because the minion squad’s Stamina pool takes damage each time an individual minion takes damage. If three goblin minions are hit with a conduit’s **Lightfall** ability that deals 4 holy damage to each target in its area, the minion pool loses 12 Stamina!
 
-## PREPPING MINION STAMINA POOLS
+#### PREPPING MINION STAMINA POOLS
 
 When you’re preparing a battle with minions, it helps to take a moment and write out the different amounts of damage at which a minion squad suffers a loss of one of their minions. For instance, a squad of goblin snipers loses a minion when they take a total of 5, 10, 15, and 20 damage. If you do the math before combat starts (or take a quick moment to jot it down during a pause in combat), it’ll help things run smoothly.
 
-## DIFFERENT MINION STRENGTHS
+### DIFFERENT MINION STRENGTHS
 
 Some minions are stronger than others. This lets you create squads of differing numbers of minions to keep the heroes on their toes as you build encounters that fit your needs. Some minions attack and die in droves, such as the lowly pitling demon with Stamina 4. Others might be able to absorb the damage of one or two signature actions before they drop, such as the radenwight ratagast with Stamina 12. Both are level 1 minions, but their EVs are different. Fewer ratagasts can and should be used in a battle as compared to pitlings, and the heroes will need to use their best abilities to kill several of those more powerful minions at once.
 
-## ACTING TOGETHER
+### ACTING TOGETHER
 
 When minions act, each minion in the squad must use their action in concert. This is because minions have squad attacks that require participation from all minions, requiring all individual attacks to happen at the same time. Like all creatures, an individual minion—or all the minions in a squad—can elect to take no action on a turn.
 
-## MINION ACTION ECONOMY
+#### MINION ACTION ECONOMY
 
 Minion turns are meant to be short. On their turn, each minion can take only a move action and an action, a move action and a maneuver, or two move actions.
 
 Minions can make opportunity attacks, but they typically don’t have bespoke triggered actions, keeping them easy to run.
 
-## SQUAD ACTION
+#### SQUAD ACTION
 
 Each minion has a **signature action** that is an attack ability targeting one creature. When multiple minions in a squad use their signature action on a turn, make one roll for the whole squad. Each minion must target a different creature with their signature action. Many minion signature actions benefit from the squad being close together, so don’t spread them out too far!
 
@@ -174,25 +176,25 @@ If a squad has minions who don’t use their signature action, those minions can
 
 If a minion squad gets a critical hit with their signature action, then all the minions who participated in using the action can use the action again.
 
-## TRACKING SQUADS
+#### TRACKING SQUADS
 
 If you use multiple squads made up of the same type of minions in an encounter—for instance, two squads of goblin spinecleavers—it’s important to make it easy for the players to tell the squads apart. You can use different miniatures for each squad, or give each squad’s miniatures an indicator (a colored magnet, ring, sticker, and so forth) to help you and your players keep track of which minions are part of the same squad as they start moving around on the battlefield. Many online virtual tabletops have tools for adding colors or textures to icons that make tracking different squads easy.
 
-## ATTACHED CAPTAIN
+### ATTACHED CAPTAIN
 
 Any non-mount creature who speaks a language a squad of minions can understand can be attached to that squad as a captain. Captains aren’t necessarily strategic leaders with brilliant strategies. Sometimes they’re just powerful creatures who bully, inspire, or have some supernatural influence that drives other creatures to action.
 
 A squad of minions can only have one captain, and a creature can’t be captain to more than one squad of minions.
 
-## SEPARATE ACTIONS AND STAMINA
+#### SEPARATE ACTIONS AND STAMINA
 
 A captain takes their turn at the same time as the members of their squad but isn’t limited in their action options as minions are. A captain’s Stamina isn’t added to a minion squad’s Stamina pool and is tracked as for any other creature in combat.
 
-## CAPTAIN BENEFITS
+#### CAPTAIN BENEFITS
 
 While a minion squad has a captain, each minion in the squad gains a **+1 bonus to speed**. Additionally, the captain gains an **edge on attacks** against creatures who are adjacent to one or more of their minions.
 
-## I AM THE CAPTAIN NOW
+#### I AM THE CAPTAIN NOW
 
 If a squad of minions loses their captain, a new allied creature can become that squad’s captain at the start of the round.
 
@@ -312,7 +314,9 @@ Specific types of monsters sometimes have other ways they can spend malice, typi
 
 You won’t be able to spend your malice on every single option a given encounter has to offer. It’s totally up to you how you deploy malice. You can spend it on smaller, but still impactful, features each round. You can save it up and use it on some very dramatic abilities. You can spend it on the same feature that uses all your malice each round and then forget about it until the next. Do whatever is most fun for you and your players in a given encounter.
 
-# ANKHEG
+# BESTIARY
+
+## ANKHEG
 
 Pebbles click as the ground quivers. A spray of rock and earth shatters the afternoon’s peace, and an ankheg blooms from the earth. Their mandibles drip sizzling acid as a talon impales their next meal: sometimes a fat sheep, other times a shepherd.  
   
@@ -336,8 +340,11 @@ At the start of any ankheg’s turn, you can spend malice to activate one of the
 
 - **Earth Sink (7 Malice)**: The area of the encounter map slowly sinks into the ground. Each creature who starts their turn on the ground and can’t burrow must spend 1 extra square of movement to leave their starting position, or 2 squares if they start their turn prone or restrained. A creature who starts and ends their turn in the same space and can’t burrow is restrained by the ground (save ends).  
 
-#### ANKHEG LEVEL 1 SOLO  
+### STATBLOCKS
 
+#### ANKHEG 
+
+**LEVEL 1 SOLO**  
 *Monster*  
 **EV 60**  
 **Stamina**: 120  
@@ -427,7 +434,7 @@ Target: Each creature in the burst
   - ★ 12–16: 7 acid damage; M3 bleeding (save ends)  
   - ✸ 17+: 10 acid damage; M4 bleeding (save ends)  
 
-#### BASILISKS
+## BASILISKS
 
 They’re great guard dogs. You just gotta raise ’em from eggs. No, no. Don’t look her in the eye. She turned the tax collector to stone the other day when he tried to pet her. She’s just a big softie, really.  
 
@@ -466,7 +473,11 @@ At the start of a basilisk’s turn, you can spend malice to activate one of the
 
 - **Walleye (7 Malice)**: A basilisk spews reflective spittle across an adjacent 3 × 3 segment of wall. Whenever the basilisk uses their petrifying eye beams ability targeting an affected square, the distance of the ability increases to include a 15 × 3 line within 1 of the wall.  
 
-#### BASILISK LEVEL 1 BRUTE  
+### STATBLOCKS
+
+#### BASILISK 
+
+**LEVEL 1 BRUTE**  
 *Basilisk, Monster*  
 **EV 32**  
 **Stamina**: 70  
@@ -518,7 +529,9 @@ Target: All enemies in the burst
 **Calcifying Presence**  
 The area within 3 squares of the basilisk is considered difficult terrain for enemies.  
 
-#### BASILISK TONGUESNAPPER LEVEL 1 HEXER  
+#### BASILISK TONGUESNAPPER 
+
+**LEVEL 1 HEXER**  
 *Basilisk, Monster*  
 **EV 26**  
 **Stamina**: 50  
@@ -572,7 +585,7 @@ Target: All enemies in the burst
 **Petrifying Fumes**  
 A creature that starts their turn adjacent to the tonguesnapper is M2 slowed (save ends).  
 
-#### BREDBEDDLE
+## BREDBEDDLE
 
 In their true forms, bredbeddles are ogre-sized, headless giants. Forever searching for their missing heads, they are drawn to populous lands, where they decapitate passers-by and magically adopt their victims’ forms.  
 
@@ -595,7 +608,11 @@ At the start of any bredbeddle’s turn, you can spend malice to activate one of
 
 - **Green Phantom (7 Malice)**: A phantom second bredbeddle phases into view, appearing in an unoccupied space anywhere on the encounter map, then vanishing at the end of the round. The phantom bredbeddle shares the original bredbeddle’s statistics and current Stamina, has magic immunity 10, and can fly. The phantom bredbeddle can take turns and use the bredbeddle’s abilities, but can’t take any villain actions. Only one phantom bredbeddle can be active during an encounter.  
 
-#### BREDBEDDLE LEVEL 3 SOLO  
+### STATBLOCKS
+
+#### BREDBEDDLE 
+
+**LEVEL 3 SOLO**  
 *Giant*  
 **EV 88**  
 **Stamina**: 240  
@@ -686,7 +703,7 @@ Target: Four creatures
   - ★ 12–16: 4 damage; bleeding (save ends) or M3 beheaded (see Lop)  
   - ✸ 17+: 5 damage; bleeding (save ends) or M4 beheaded (see Lop)  
 
-#### BUGBEARS
+## BUGBEARS
 
 The early goblins that first stepped foot into the wode never stepped out with the same two feet. Their bodies experienced (and still experience) what is now known as "The Büggey," rapidly shifting into wild new shapes and forms over the course of a few centuries. Their heads swelled into gourds and then morphed into lion faces. Their limbs stretched and swelled. They grew incredibly tall and then shrank back down. And by this point, they’ve turned every color of the rainbow.  
 
@@ -715,7 +732,11 @@ At the start of a bugbear’s turn, you can spend malice to activate one of the 
 
 - **Büggaboo (7 Malice)**: A bugbear infuses the battle map with Büggey magic until the end of the encounter. All bugbears and their allies have their speed doubled and gain the climb keyword to their speed. All affected creatures then move up to their speed.  
 
-#### BUGBEAR CHANNELER LEVEL 2 CONTROLLER  
+### STATBLOCKS
+
+#### BUGBEAR CHANNELER 
+
+**LEVEL 2 CONTROLLER**  
 *Bugbear, Goblin, Humanoid*  
 **EV 30**  
 **Stamina**: 60  
@@ -776,7 +797,9 @@ Target: 1 ally
 Trigger: The target takes non-fire damage.  
   - Effect: The channeler covers the target in thorns and halves the damage. If the damage was caused by a melee attack, the attacker takes 5 damage.  
 
-#### BUGBEAR COMMANDER LEVEL 2 SUPPORT  
+#### BUGBEAR COMMANDER 
+
+**LEVEL 2 SUPPORT**  
 *Bugbear, Goblin, Humanoid*  
 **EV 32**  
 **Stamina**: 70  
@@ -827,7 +850,9 @@ Trigger: The target is force moved into a square adjacent to the commander.
 **The Commander’s Watching**  
 While an ally has line of effect to the commander, the ally can end one condition afflicting them at the start of their turn.  
 
-#### BUGBEAR ROUGHNECK LEVEL 2 BRUTE  
+#### BUGBEAR ROUGHNECK 
+
+**LEVEL 2 BRUTE**  
 *Bugbear, Goblin, Humanoid*  
 **EV 36**  
 **Stamina**: 80  
@@ -886,7 +911,9 @@ Target: Self
 Trigger: The roughneck is vertically moved by another creature.  
   - Effect: The roughneck uses their Haymaker ability against a creature or object within reach at the end of the movement.  
 
-#### BUGBEAR SNEAK LEVEL 2 AMBUSHER  
+#### BUGBEAR SNEAK 
+
+**LEVEL 2 AMBUSHER**  
 *Bugbear, Goblin, Humanoid*  
 **EV 34**  
 **Stamina**: 70  
@@ -947,7 +974,7 @@ Target: 1 enemy
 Trigger: A target attacks the sneak.  
   - Effect: The sneak chooses an enemy within distance of the attack. The attack targets that enemy instead.  
 
-#### CHIMERA
+## CHIMERA
 
 Massive flexing claws. Lashing draconic tail. Nimble leathery wings. And not one, but three menacing heads: a snarling lion, a helix-horned ram, and a dragon with fire sparking in its throat. Many see the chimera as an aggressor, but few know its origins as a divine guardian.  
 
@@ -969,7 +996,11 @@ At the start of a chimera’s turn, you can spend malice to activate one of the 
 - **Unstable Terrain (5 Malice):** The chimera shakes the crowd, causing loose rocks or debris to appear. Create three Size 1L stone objects anywhere on the battlefield. Each creature adjacent to one of the objects when it appears takes A2 5 damage.  
 - **Ashen Clouds (7 Malice):** Until the beginning of the chimera’s next turn, the entire battle map is concealed by a thick cloud of ash. The chimera ignores concealment. Each enemy R1 can’t establish line of effect beyond 3 squares until the cloud dissipates. The potency of this feature increases each time it’s used.  
 
-#### CHIMERA LEVEL 3 SOLO
+### STATBLOCKS
+
+#### CHIMERA 
+
+**LEVEL 3 SOLO**
 
 **Monster EV 88**  
 **Stamina:** 240  
@@ -1053,7 +1084,7 @@ Distance: Self
 Target: Self  
 Effect: The chimera uses Roar. The chimera then shifts their speed and can make a free strike against each enemy who comes within 1 of them during the move. When the chimera ends this movement, they use Dragon’s Eruption.  
 
-#### DEMONS
+## DEMONS
 
 Demons spawn in the Abyssal Wasteland, where evil and chaos meet. These creatures of incarnate evil crave violence and suffering in the way most other creatures need food. A demon cares only for themself, and they torture and tear apart lesser demons for fun.  
 
@@ -1092,7 +1123,11 @@ At the start of any demon’s turn, you can spend malice to activate one of the 
 - **Abyssal Rift (5 Malice):** Two size 2 rifts to the Abyssal Wasteland appear at locations of your choosing. Each demon within 5 squares of a rift has an edge on their attacks. Any demon can use an abyssal rift as a portal to another abyssal rift in the encounter, moving into any space in one rift and appearing immediately in any unoccupied space in the other rift. Any non-demon creature who enters the rift for the first time in a round or starts their turn there takes corruption damage equal to the level of the highest-level demon within 20 squares of a rift. An abyssal rift is an immovable object that has Stamina 25, weapon immunity 5, and holy weakness 5. As a maneuver, a creature with the Magic or Psionics skill can make a hard Reason or Intuition test while adjacent to a rift to destabilize it. On a success, the rift closes. On a failure with a consequence, the rift regains 5 Stamina. If no demons are within 20 squares of the rift, it closes.  
 - **Abyssal Evolution (7 Malice):** A demon minion of your choice turns into a non-minion demon of the same level.  
 
-#### DEMON ENSNARER LEVEL 1 BRUTE MINION
+### STATBLOCKS
+
+#### DEMON ENSNARER 
+
+**LEVEL 1 BRUTE MINION**
 
 **Demon, Planar EV 6**  
 **Stamina:** 10  
@@ -1119,8 +1154,9 @@ Target: One creature or object per minion
 **Soulsight**  
 Each creature within 2 of the ensnarer can’t be hidden from them.  
 
-#### DEMON FRENZIED LEVEL 1 HARRIER MINION
+#### DEMON FRENZIED 
 
+**LEVEL 1 HARRIER MINION**
 **Demon, Planar EV 4**  
 **Stamina:** 8  
 **Weakness:** Holy 3  
@@ -1145,8 +1181,9 @@ Target: One creature or object per minion
 **Soulsight**  
 Each creature within 2 of the frenzied can’t be hidden from them.  
 
-#### DEMON PITLING LEVEL 1 ARTILLERY MINION
+#### DEMON PITLING 
 
+**LEVEL 1 ARTILLERY MINION**
 **Demon, Planar EV 2**  
 **Stamina:** 4  
 **Weakness:** Holy 3  
@@ -1174,8 +1211,9 @@ Any enemy who has three or more pitlings within 2 squares of them can’t regain
 **Soulsight**  
 Each creature within 2 of the pitling can’t be hidden from them.  
 
-#### DEMON RUINANT LEVEL 1 HARRIER
+#### DEMON RUINANT 
 
+**LEVEL 1 HARRIER**
 **Demon, Planar EV 10**  
 **Stamina:** 20  
 **Weakness:** Holy 3  
@@ -1211,8 +1249,9 @@ While winded, the ruinant has an edge on attacks, and attacks have an edge again
 **Soulsight**  
 Each creature within 2 of the ruinant can’t be hidden from them.  
 
-#### DEMON TORLAS LEVEL 1 CONTROLLER
+#### DEMON TORLAS 
 
+**LEVEL 1 CONTROLLER**
 **Demon, Planar EV 9**  
 **Stamina:** 15  
 **Weakness:** Holy 3  
@@ -1247,8 +1286,9 @@ While winded, the torlas has an edge on attacks, and attacks have an edge agains
 **Soulsight**  
 Each creature within 2 of the torlas can’t be hidden from them.  
 
-#### DEMON BENDRAK LEVEL 2 HEXER
+#### DEMON BENDRAK 
 
+**LEVEL 2 HEXER**
 **Demon, Planar EV 11**  
 **Stamina:** 20  
 **Weakness:** Holy 3  
@@ -1283,8 +1323,9 @@ While winded, the bendrak has an edge on attacks, and attacks have an edge again
 **Soulsight**  
 Each creature within 2 of the bendrak can’t be hidden from them.  
 
-#### DEMON REMASCH LEVEL 2 AMBUSHER
+#### DEMON REMASCH 
 
+**LEVEL 2 AMBUSHER**
 **Demon, Planar EV 13**  
 **Stamina:** 25  
 **Weakness:** Holy 3  
@@ -1319,8 +1360,9 @@ While winded, the remasch has an edge on attacks, and attacks have an edge again
 **Soulsight**  
 Each creature within 2 of the remasch can’t be hidden from them.  
 
-#### DEMON MUCERON LEVEL 3 BRUTE
+#### DEMON MUCERON 
 
+**LEVEL 3 BRUTE**
 **Demon, Planar EV 18**  
 **Stamina:** 45  
 **Weakness:** Holy 3  
@@ -1355,8 +1397,9 @@ While winded, the muceron has an edge on attacks, and attacks have an edge again
 **Soulsight**  
 Each creature within 2 of the muceron can’t be hidden from them.  
 
-#### DEMON CHOROGAUNT LEVEL 3 LEADER
+#### DEMON CHOROGAUNT 
 
+**LEVEL 3 LEADER**
 **Demon, Planar EV 36**  
 **Stamina:** 90  
 **Weakness:** Holy 3  
@@ -1424,15 +1467,15 @@ Effect: The chorogaunt shifts up to their speed, makes an Agonizing Harmony atta
 Possessed of a strength that belies their size, dwarven flesh is infused with stone—a silico-organic hybrid making them physically denser than humans or elves. They enjoy a reputation in Orden as savvy engineers and technologists thanks to the lore they inherited from their elder siblings, the long-extinct steel dwarves.  
 They are the children of the elder god Ord. A common phrase among the dwarves is “Ord made the world.” Their way of saying, “What will be, will be.” Dwarves take great pride in knowing that along with Aan, Eth, and Kul, their god created the mundane world, and many dwarves leave their homes to see the world and seek glory in Ord’s name.  
 
-## THE PRESS GANGS OF KAS KALAVAR  
+### THE PRESS GANGS OF KAS KALAVAR  
 
 Before Ajax came to power, the dwarves of Kas Kalavar were renowned for their disciplined constabulary. The constables were kind, kept the order, and kept the city safe. But now, the dwarves of Kas Kalavar have submitted to Ajax’s rule and pay him tribute in prisoners. Ajax has need for bodies, either as forced labor or to be used to make war dogs and grant eternal life. Most dwarves do not like this deal, but the Press Gangs of Kas Kalavar are committed to their work.  
 
-## MARAUDER LORD  
+### MARAUDER LORD  
 
 The dwarven marauder lord has in their possession a salvaged valok communication array, which they wear like a mohawk on their head. The array gives them access to magnetomancy, allowing them to shape and levitate metal, including multiple axes in battle.  
 
-## DWARF MALICE  
+### DWARF MALICE  
 
 At the start of a dwarf’s turn, you can spend malice to activate one of the following features.  
 
@@ -1449,6 +1492,8 @@ At the start of a dwarf’s turn, you can spend malice to activate one of the fo
   - ✦ 17: No effect  
 
   **Effect**: The snaring line remains until the end of the encounter. An enemy that moves into an affected square for the first time on their turn must roll resistance.  
+  
+### STATBLOCKS
 
 #### DWARF DRIVER  
 
@@ -1898,7 +1943,7 @@ Target: special
 - **Might** +2  
 - **Agility** 0  
 - **Reason** −2  
-- **Intuition** —  
+- **Intuition** 0  
 - **Presence** −2  
 
 **Grasping Claws (Action)** ◆ 2d10 + 2 ◆ Signature  
@@ -1926,7 +1971,7 @@ Three of the battle walker's size 1 allies can occupy the same space while ridin
 **Mobile Prison Harness**  
 Slowed or restrained creatures adjacent to the battle walker become restrained (save ends) and have a bane on their resistance rolls. Adjacent restrained creatures are automatically moved with the battle walker, ignoring stability.  
 
-#### ELVES, HIGH
+## ELVES, HIGH
 
 The children of the solar celestials. The high elves were created to tend to the sun elves as librarians and heralds. They sequester themselves away from the world, remembering a better age before the arrival of war.
 
@@ -1942,11 +1987,11 @@ Unseen Hands Will Illuminate Their Unchanged Minds are a sect of high elf radica
 **SURROUND AND SUPPRESS**  
 Foes that threaten high elf armies are dealt with quickly and entirely. They take advantage of each other’s magic to corral enemies together and throw huge waves of destruction upon them. Wyrds ensure there’s no escape, warping the environment into treacherous pits and, eventually, graveyards.
 
-#### HIGH ELF LANGUAGES
+### HIGH ELF LANGUAGES
 
 Most high elves speak Caelian and Hyrallic.
 
-#### HIGH ELF MALICE
+### HIGH ELF MALICE
 
 At the start of a high elf’s turn, you can spend malice to activate one of the following features.
 
@@ -1964,6 +2009,8 @@ At the start of a high elf’s turn, you can spend malice to activate one of the
     Effect: The high elf chooses damage type and condition afflicted from one of the following pairs: cold and slowed, poison and weakened, or corruption and frightened of the high elf.
 
 - **In Defiance of Time (7 Malice):** Until the end of the round, all high elves have their speed increased by 4. When a high elf uses an ability against an enemy, each high elf adjacent to the enemy can make a free strike against them.
+
+### STATBLOCKS
 
 #### CRADLE CROW
 
@@ -2032,7 +2079,7 @@ On their turn, the mote can choose to die to revive a dead cradle crow, cradle h
 - **Might** 0  
 - **Agility** +2  
 - **Reason** +1  
-- **Intuition** —  
+- **Intuition** 0  
 - **Presence** 0  
 
 **Heavy Arrow (Action)** ◆ 2d10 + 2 ◆ Signature  
@@ -2090,7 +2137,7 @@ At the start of their turn, the scribe can turn the duration of one save ends ef
 - **Might** +2  
 - **Agility** 0  
 - **Reason** 0  
-- **Intuition** —  
+- **Intuition** 0  
 - **Presence** +2  
 
 **Book Wall (Action)** ◆ Signature  
@@ -2159,7 +2206,7 @@ At the start of their turn, the scribe can turn the duration of one save ends ef
 - **Might** +2  
 - **Agility** 0  
 - **Reason** +1  
-- **Intuition** —  
+- **Intuition** 0  
 - **Presence** +1  
 
 **Heartpiercer (Action)** ◆ 2d10 + 2 ◆ Signature  
@@ -2195,7 +2242,7 @@ At the start of their turn, the deathtouch can turn the duration of one save end
 - **Might** 0  
 - **Agility** 0  
 - **Reason** +2  
-- **Intuition** —  
+- **Intuition** +2  
 - **Presence** +2  
 
 **Awash (Action)** ◆ 2d10 + 2 ◆ Signature  
@@ -2304,7 +2351,7 @@ At the start of their turn, the wyrd can turn the duration of one save ends effe
 - **Might** 0  
 - **Agility** +2  
 - **Reason** 0  
-- **Intuition** —  
+- **Intuition** 0  
 - **Presence** +1  
 
 **Sweeping Blade (Action)** ◆ 2d10 + 2 ◆ Signature  
@@ -2342,7 +2389,7 @@ At the start of their turn, the zephyr can turn the duration of one save ends ef
 - **Might** +2  
 - **Agility** +2  
 - **Reason** 0  
-- **Intuition** —  
+- **Intuition** 0  
 - **Presence** +1  
 
 **Radiant Charge (Action)** ◆ 2d10 + 2 ◆ Signature  
@@ -2386,7 +2433,7 @@ If the cradle horse’s rider has the Otherworldly Grace trait, it also gains th
 - **Might** 0  
 - **Agility** +2  
 - **Reason** +3  
-- **Intuition** —  
+- **Intuition** +2  
 - **Presence** +3  
 
 **Lightning Rod (Action)** ◆ 2d10 + 3 ◆ Signature  
@@ -2443,21 +2490,21 @@ Effect: Each target radiates wisps of magic and makes a free strike that has the
 **Otherworldly Grace**  
 At the start of their turn, the ordinator can turn the duration of one save ends effect they suffer from into EoT.
 
-#### ELVES, WODE
+## ELVES, WODE
 
 Children of the Sylvan Celestials, masters of the elf-haunted forests called wodes, these elves see all forests as their domain by birthright. They know and enjoy their reputation among humans as snatching children who wander too far into the woods. Humans should fear the trees.
 
 Their natural ability to mask their presence, called glamor, complements their guerilla style of fighting, striking quickly from cover and then melding back into the underbrush. These traits also make those few who dwell in human cities naturally adept at urban warfare.
 
-#### WODEWORKING
+### WODEWORKING
 
 Wode elves know a secret technique to use the trees of the wode to craft materials as strong as metal and to create magical constructs that act as servitor creatures, including their mounts.
 
-#### WODE ELF LANGUAGES
+### WODE ELF LANGUAGES
 
 Most wode elves speak Caelian and Yllyric.
 
-#### WODE ELF MALICE
+### WODE ELF MALICE
 
 At the start of a wode elf’s turn, you can spend malice to activate one of the following features.
 
@@ -2467,6 +2514,8 @@ At the start of a wode elf’s turn, you can spend malice to activate one of the
   - ✸ ≤11: 5 damage; restrained (save ends)
   - ★ 12–16: restrained (EoT)
   - ✦ 17+: no effect
+
+### STATBLOCKS
 
 #### WODE ELF LOOKOUT
 
@@ -2556,7 +2605,6 @@ Target: 1 creature or object per minion
 
 **Hunter’s Glamor**  
 The scout immediately hides at the end of their turn, even if they are observed.
-
 
 #### WODE ELF YEOMAN
 
@@ -2979,23 +3027,23 @@ The wodenelg’s rider has **+3** to Stability.
 **Shared Glamor**  
 If the wodenelg’s rider has the Masking Glamor or Hunter’s Glamor trait, they also gain the trait’s benefits.
 
-#### FOSSIL CRYPTIC
+## FOSSIL CRYPTIC
 
 The cave-diving humans who first found fossil cryptics initially thought those beings were fossilized, reanimated skeletons of creatures predating recorded history. When the explorers’ priest presented a holy symbol and attempted to turn the cryptics, he learned these fossilized bones aren’t mindless undead—and seconds later, he wound up crushed to death by a pillar of stone.
 
-#### PRIMAL SENTRIES
+### PRIMAL SENTRIES
 
 In truth, these living fossil amalgamations are inhabited by elemental spirits. Fossil cryptics are found in places of otherworldly beauty with a connection to an elemental plane of Quintessence—often in caves that have remained untouched for eons or whose tunnels are laced with veins of priceless metal in exquisite fractal patterns. The elemental spirits from that plane inhabit the fossils of creatures who once protected the site, carrying on their legacy. Archaeologists, miners, and others who disturb a cryptic’s domain are ground into dust and subsumed into the cryptic’s own form.
 
-#### BONES OF THE EARTH
+### BONES OF THE EARTH
 
 Though fossil cryptics vary wildly in their chosen shape and form, all contain a central cluster of fossils atop a churning column of rock and metal. With malleable limbs extending from their earthy core, cryptics move with unsettling quickness.
 
-#### ANCIENT INTELLIGENCE
+### ANCIENT INTELLIGENCE
 
 Fossil cryptics often warn trespassers to leave their domains, speaking threats in ancient languages before attacking. Should trespassers persist, cryptics weaponize columns of stone at range and can manipulate the ground around them, pushing and pulling friend and foe alike into the best positions for a battle.
 
-#### FOSSIL CRYPTIC MALICE
+### FOSSIL CRYPTIC MALICE
 
 At the start of any cryptic’s turn, you can spend malice to activate one of the following features:
 
@@ -3007,6 +3055,8 @@ At the start of any cryptic’s turn, you can spend malice to activate one of th
   - ✸ ≤11: Slowed (EoT); the target’s stability is reduced by 3 (EoT).
   - ★ 12–16: The target’s speed is reduced by 2 (EoT) and their stability is reduced by 1 (EoT).
   - ✦ 17+: No effect
+
+### STATBLOCKS
 
 #### FOSSIL CRYPTIC
 
@@ -3127,7 +3177,7 @@ Target: Two creatures or objects on the ground
 - ★ 12–16: 3 damage; vertical slide 4  
 - ✸ 17+: 4 damage; the target is restrained against the ceiling (save ends)
 
-### GNOLLS
+## GNOLLS
 
 **Edacity.** The gnolls are marked by their hyena faces and their endless appetites. These fiends carry with them the evil legacy of their late demon lord creator. Originally from the Abyssal Wasteland, gnolls quickly spread across the timescape, and they thrive in deserts, plains, and other sparsely populated places. Though a gnoll’s muzzle is just as likely to be bloodied by carrion as by prey, their hunting packs hunger for violence, and they eagerly hunt travelers and raid settlements. The pack’s eerie war cry, a wild cackle, presages a night of battle and terror.
 
@@ -3172,6 +3222,8 @@ At the start of a gnoll’s turn, you can spend malice to activate one of the fo
 
 - **Echoes of Laughter (7 Malice):** The battlemap is encased in a soundscape of laughter and howling. Enemies have a bane on the first power roll they make during a round. Whenever a gnoll is killed, this effect is suppressed until the start of the next round.
 
+### STATBLOCKS
+
 #### ABYSSAL HYENA
 
 **Level 2 Brute Minion**  
@@ -3213,7 +3265,7 @@ When the abyssal hyena is reduced to 0 Stamina, they make a free strike before d
 - **Might** +2  
 - **Agility** 0  
 - **Reason** +1  
-- **Intuition** —  
+- **Intuition** 0  
 - **Presence** −2  
 
 **Chain Shotput (Action)** ◆ 2d10 + 2 ◆ Signature  
@@ -3241,7 +3293,7 @@ Whenever an ally within 5 is reduced to 0 Stamina, the flingflail archer moves u
 - **Might** +2  
 - **Agility** +1  
 - **Reason** −1  
-- **Intuition** —  
+- **Intuition** 0  
 - **Presence** 0  
 
 **Wizard Ripper (Action)** ◆ 2d10 + 2 ◆ Signature  
@@ -3383,7 +3435,7 @@ Whenever an ally within 5 is reduced to 0 Stamina, the abyssal summoner moves up
 - **Might** +2  
 - **Agility** +1  
 - **Reason** 0  
-- **Intuition** —  
+- **Intuition** 0  
 - **Presence** +1  
 
 **Three-Tail Flail (Action)** ◆ 2d10 + 2 ◆ Signature  
@@ -3420,7 +3472,7 @@ Whenever an ally within 5 is reduced to 0 Stamina, the bonesplitter moves up to 
 - **Might** 0  
 - **Agility** 0  
 - **Reason** +2  
-- **Intuition** —  
+- **Intuition** +2  
 - **Presence** +2  
 
 **Moment of Brutality (Action)** ◆ 2d10 + 2 ◆ Signature  
@@ -3461,7 +3513,7 @@ Whenever an ally within 5 is reduced to 0 Stamina, the cackler moves up to their
 - **Might** +1  
 - **Agility** +2  
 - **Reason** 0  
-- **Intuition** —  
+- **Intuition** 0  
 - **Presence** +1  
 
 **Fury Flail (Action)** ◆ 2d10 + 2 ◆ Signature  
@@ -3499,7 +3551,7 @@ Whenever an ally within 7 is reduced to 0 Stamina, the marauder moves up to thei
 - **Might** +2  
 - **Agility** −1  
 - **Reason** −3  
-- **Intuition** —  
+- **Intuition** 0  
 - **Presence** −1  
 
 **Gore (Action)** ◆ 2d10 + 2 ◆ Signature  
@@ -3592,7 +3644,7 @@ Target: Self and all allies
 
 Effect: Each target moves up to their speed and makes a free strike. Creatures that take damage from this villain action are also knocked prone.
 
-### GOBLINS
+## GOBLINS
 
 As with all humanoid ancestries, different types of goblins and goblin cultures can be found across many lands, each with their own ideals. Known among themselves as *rogabrin*, meaning “more of us” in their language, goblins are one of the most numerous humanoids in the world. They can be found in every environment humans occupy and in places many other humanoids avoid, including deep cave systems.
 
@@ -3636,6 +3688,8 @@ At the start of any goblin’s turn, you can spend malice to activate one of the
   - ✦ ≤11: 5 poison; weakened until mist disappears
   - ★ 12–16: Weakened until mist disappears
   - ✸ 17+: No effect
+
+### STATBLOCKS
 
 #### GOBLIN RUNNER  
   
@@ -4098,7 +4152,7 @@ If a warg used as a mount charges, their rider gains an edge on melee attacks un
 **Shared Crafty**  
 If the warg’s rider has the Crafty trait, the warg also has the Crafty trait.
 
-### GRIFFONS
+## GRIFFONS
 
 With the head, front legs, and wings of a bird and the powerful body and haunches of a feline, the griffon hunts anything they desire—even other predators—though they prefer to eat birds, fish, and herd animals. Griffons sometimes misjudge their prey and attack humanoids passing through their mountain or forest territories. They also fiercely defend themselves against anyone who threatens or gets too close to their nests.
 
@@ -4135,6 +4189,8 @@ At the start of a griffon’s turn, you can spend malice to activate one of the 
   - ✦ 17+: No effect
   
 - **Wildwinds (7 Malice):** Winds bluster and blow throughout the battle map. Until the end of the encounter, each creature that cannot fly or is not mounted on a flying creature has their stability reduced by 5, and forced movement effects targeting them increase by 3 squares.
+
+### STATBLOCKS
 
 #### GRIFFON  
   
@@ -4256,31 +4312,31 @@ Creatures have a bane on power rolls that could knock the griffon prone.
 **Banded Predator**  
 The griffon is hidden whenever they have cover or concealment.
 
-#### HAGS
+## HAGS
 
 **When fear of death or hunger for power grips a mortal spellcaster, often a druid or a witch, they might forge a pact with an evil archfey. The mortal becomes a hag—aged, clawed, and cruel—another ruthlessly powerful fey in their own right. In exchange, hags use their magic to bring about the misery that their archfey wills.**
 
-#### HIDING IN PLAIN SIGHT
+### HIDING IN PLAIN SIGHT
 
 Though hags typically appear as older humanoid women, their true form is as vicious and nasty as their nature. They prefer to show the world a charitable face, but the general wisdom concerning hags is that the more beautiful their appearance, the deeper the rot within. However, this theory has never been confirmed, as few who see a hag’s true form live to tell the tale.
 
-#### DEALMAKERS AND HEART-BREAKERS
+### DEALMAKERS AND HEART-BREAKERS
 
 As old age can’t kill them, the oldest hags accumulate swathes of knowledge, magic, and repute over time. They are happy to share their wares … for the right price. Rather than ask for paltry coin, a hag usually bargains for something dear to the customer—perhaps their ability to love, the sound of their child’s laugh, or their left pinky toe. Adding insult to injury, those who deal with hags almost always discover the product is worse than advertised. Mortals should pay close attention to the precise wording of their agreements, lest they end up with a hex they thought would be a gift. Such curses often lead to the corruption of good but desperate folk, and some get so twisted up in fey deals that they become hags themselves.
 
-#### WHAT’S IN A NAME?
+### WHAT’S IN A NAME?
 
 Hags give themselves whimsical names, and older hags often select monikers like Auntie, Granny, or Nanny. Such relatable names help entice their favorite prey: the innocent. Who would fear Granny Gumdrops or Auntie Twothumbs?
 
-#### LOYAL UNDERLINGS
+### LOYAL UNDERLINGS
 
 Hags are treacherous by nature, and they only recruit creatures they trust to be loyal underlings. Most of these creatures lack sapience (such as animals, constructs, and undead), though hags sometimes command weaker fey who are too scared to betray them.
 
-#### HAG LANGUAGES
+### HAG LANGUAGES
 
 Most hags speak Caelian, Anjal, Khelt, and Yllyric, but often go on to learn several more.
 
-#### HAG MALICE
+### HAG MALICE
 
 At the start of a hag’s turn, you can spend malice to activate one of the following features:
 
@@ -4308,3 +4364,6 @@ At the start of a hag’s turn, you can spend malice to activate one of the foll
   - ✦ ≤11: 6 damage; push 3; M2 prone  
   - ★ 12–16: 10 damage; push 4; M3 prone  
   - ✸ 17: 13 damage; push 5; M4 prone
+
+### STATBLOCKS
+
