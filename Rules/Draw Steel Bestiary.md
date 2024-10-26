@@ -322,13 +322,16 @@ Pebbles click as the ground quivers. A spray of rock and earth shatters the afte
   
 An ankheg is a chitinous, burrowing monstrosity larger than a horse. Their hooked claws and serrated mandibles are fearsome weapons, but even more dangerous is the stream of caustic spittle they use to dissolve their prey.  
   
-**PASTORAL PEST**  
+### PASTORAL PEST
+
 Although ankhegs can be found anywhere, they are a particular plague in settled lands. Ankhegs hunt alone, lurking a few feet below roadways and pastures. When their sensitive antennae detect movement above, they burst from the earth, dragging living prey into their tunnels to be devoured. These hit-and-run tactics make ankhegs virtually impossible to eradicate—unless they have the bad luck to ambush a party of well-armed adventurers. Many communities pay a handsome bounty for a slain ankheg.  
   
-**TERROR OF THE THAW**  
+### TERROR OF THE THAW
+
 Ankhegs are a year-round menace in the warmest lands. In temperate places, ankhegs hibernate during the winter, granting farmers a season of peace … but this respite is paid for on the first thaw of spring, when every ankheg awakens ravenous on the same day and bursts from the ground to feed.  
 
-**ANKHEG MALICE**  
+### ANKHEG MALICE
+
 At the start of any ankheg’s turn, you can spend malice to activate one of the following features.  
 
 - **Burning Maw (3 Malice)**: The ankheg dribbles acid over their mandibles, and deals 8 acid damage the next time they use their Bite ability before the end of their turn.  
@@ -438,26 +441,32 @@ Target: Each creature in the burst
 
 They’re great guard dogs. You just gotta raise ’em from eggs. No, no. Don’t look her in the eye. She turned the tax collector to stone the other day when he tried to pet her. She’s just a big softie, really.  
 
-**STONE COLD LOOKS**  
+### STONE COLD LOOKS  
+
 With eight legs, a scaled rough hide, and razor-sharp teeth coated in poison, the basilisk is a deadly threat—even aside from their petrifying eye beams. This dreadful creature can fell the mightiest of foes with a look, turning them into immobilized stone statues. Horrifyingly, the basilisk’s petrified prey remain aware of their fate and surroundings, trapping them in an unending nightmare.  
 
-**RAISING YOUNG**  
+### RAISING YOUNG
+
 Basilisks typically live in mated pairs and raise small clutches of younglings from the comforts of damp caves. Adults prefer to subsist on berries, fish, fowl, and carrion, resorting to eating their petrified victims only when starving. On the other hand, basilisk younglings can only eat petrified victims, and families of basilisk have been known to travel far from their nest to populated areas in search of prey for their babies.  
 
-**DANGEROUS SERVITORS**  
+### DANGEROUS SERVITORS  
+
 Crime lords and overminds seek basilisk eggs to raise and train as bodyguards and pets. Training is dangerous, and many handlers (and their unscrupulous colleagues) find themselves turned to stone as the basilisk escapes and runs amok.  
 
 Some creatures keep basilisks not for their terrifying abilities, but for their immunity to petrification. Medusas, largely due to their own limited options for companionship, commonly keep basilisks as pets. Both parties benefit from this symbiotic relationship, as the medusa feeds their own victims to the basilisk and their younglings.  
 
-**ALCHEMICAL PROPERTIES**  
+### ALCHEMICAL PROPERTIES
+
 Alchemists have discovered that after a basilisk eats petrified flesh, the basilisk’s gullet produces an oil that can be used to restore a petrified victim. Unsavory alchemists pay good money to those willing to steal a basilisk youngling from their nest.  
 
-**ALCHEMICAL INGREDIENTS**  
+### ALCHEMICAL INGREDIENTS
+
 After a basilisk dies, a creature can make a medium Reason test on the basilisk’s gullet. On a success, the creature creates 3 doses of salve. One dose of salve can be applied to a petrified creature as an action, and 1 minute after the salve is applied, the petrified condition ends for that creature.  
 
 On a success with a consequence, you produce 1 dose of salve but cannot extract more from the spent gullet without completing a Find A Cure project. On a failure with a consequence, you can only rely on completing a Find A Cure project to extract enough salve from the gullet.  
 
-**BASILISK MALICE**  
+### BASILISK MALICE
+
 At the start of a basilisk’s turn, you can spend malice to activate one of the following features.  
 
 - **Stone Swim (3 Malice)**: A basilisk acting this turn adds the burrow keyword to their movement and moves up to their speed. The basilisk can burrow into stone this way, including vertically. While burrowing, the basilisk has concealment.  
@@ -591,15 +600,18 @@ In their true forms, bredbeddles are ogre-sized, headless giants. Forever search
 
 Although bredbeddles have no traditional sensory organs of their own, they are keenly aware of their surroundings. Some lurk along dark country lanes in their monstrous true forms. Others walk disguised among crowds, dropping their facades only long enough to waylay a stranger and lop off their head.  
 
-**IMMORTAL WANDERERS**  
+### IMMORTAL WANDERERS
+
 Bredbeddles don’t age, and if they are slain, their bodies reform a few days later. Long ago, bredbeddles were giants who stood high among the nobility of giant kind. But when they declared themselves rulers of all giant kind, their kin thwarted the coup and beheaded the bredbeddles. Now these fallen nobles search the world for their missing heads, each wielding the axe that decapitated them. Many claim their heads are kept for safekeeping in some fire giant’s cellar to be returned after an indeterminate period of good behavior (which the bredbeddles have thus far not exhibited).  
 
-**GREEN WITH FRENZY**  
+### GREEN WITH FRENZY
+
 The longer a bredbeddle goes without a head, the more twisted and desperate their power grows. Their desire to be whole stretches out of their body in the form of shadowy dark-green ribbons, wrapping around and clinging to every surface they spill onto.  
 
 Travelers warn one another of roads rumored to be haunted by “wild green knights,” with many avoiding those routes for months. For no journey is worth losing your head over.  
 
-**BREDBEDDLE MALICE**  
+### BREDBEDDLE MALICE
+
 At the start of any bredbeddle’s turn, you can spend malice to activate one of the following features.  
 
 - **Engreen (3 Malice)**: The bredbeddle’s axe lengthens and turns a ghastly green, increasing the distance of the bredbeddle’s melee attack and the dimensions of their area abilities by 1 until the end of their turn.  
@@ -709,21 +721,26 @@ The early goblins that first stepped foot into the wode never stepped out with t
 
 Today they are known as the bugbears who stand tall, furry, and striped. Only the wode knows what tomorrow holds.  
 
-**THROWN INTO THE FRAY**  
+### THROWN INTO THE FRAY
+
 Bugbears seldom seek other civilizations for trade or allyship. They usually appear to defend their own homes or their neighbors' homes. This has given them a reputation of being covert, insurgent warriors, when in reality the bugbears fight to maintain their quiet solitude.  
 
 When the modern bugbear is compelled to take action, they take to the high ground and use their powerful arms to throw anything they can down at the problem. This includes daggers, heavy iron balls, each other, and sometimes throwing the enemy at the enemy.  
 
-**GOBLIN BOND**  
+### GOBLIN BOND
+
 Bugbears see themselves akin to both goblins and hobgoblins despite the three branching apart so dramatically. Bugbears themselves are already in a constant state of change, nearly to the point of being unable to recognize their own faces. This common philosophy of treating them all as fellow goblins provides a sense of grounding when cloistered bugbears come out of isolation, and it’s not uncommon to see bugbears work alongside groups of goblins or hobgoblins.  
 
-**BÜGGEY MAGIC**  
+### BÜGGEY MAGIC
+
 There exist bugbears that have learned to channel "the Büggey" within them into green shapechanging magic. These channelers reshape the reality around them and temporarily alter their foes as defensive tactics, providing ample warning to offenders that they are capable of far worse if they push onward. The Büggey magic also allows bugbears to hide their settlements behind dense thicket and jagged boulder fields.  
 
-**BUGBEAR LANGUAGES**  
+### BUGBEAR LANGUAGES
+
 Most bugbears speak Caelian and Szetch.  
 
-**BUGBEAR MALICE**  
+### BUGBEAR MALICE
+
 At the start of a bugbear’s turn, you can spend malice to activate one of the following features.  
 
 - **Grab Iron Ball (3 Malice)**: A bugbear acting this turn grabs an iron ball that they can use with their Throw ability. A creature hit by the iron ball takes 3 extra damage and is slowed (EoT).  
@@ -978,18 +995,22 @@ Trigger: A target attacks the sneak.
 
 Massive flexing claws. Lashing draconic tail. Nimble leathery wings. And not one, but three menacing heads: a snarling lion, a helix-horned ram, and a dragon with fire sparking in its throat. Many see the chimera as an aggressor, but few know its origins as a divine guardian.  
 
-**THE FIRST CHIMERA**  
+### THE FIRST CHIMERA
+
 The first chimera was a gift. A deity gave a devout queen this young guardian—one with the intelligence of a dragon, the bravery of a lion, and the tenacity of a ram. The queen raised the chimera to be a strong protector of not just her person, but of her people, who loved the chimera and their ruler. But neighboring lands feared the monstrosity. As a conquering force swept into the land, their first defilement of peace was slaughtering the chimera.  
 
 The queen’s resulting fury was said to be felt by the gods. As she screamed, a nearby volcano erupted, spewing basalt and chimeras over the land. With fiery might, the chimeras overtook the opposing army and dispersed. Each found a new territory and claimed the role of divine protector over that place, its inhabitants, and its treasures.  
 
-**TACTICAL WARRIORS**  
+### TACTICAL WARRIORS
+
 Chimeras have many ways to keep themselves and their charges from being cornered. The lion head snaps up enemies in massive jaws and hurls them away, the ram head pummels them to the ground, and the dragon head bathes them in fire. The sound of the three heads crying together can shake even the most stalwart warriors.  
 
-**ONE BEING, THREE HEADS**  
+### ONE BEING, THREE HEADS
+
 Unlike many other multiheaded creatures, a chimera has a single mind. Their heads work together, never snapping at one another over food, favors, or personality conflicts. The heads often express the chimera’s emotions in unison, braying together in times of battle or purring all at once to show affection.
 
-**CHIMERA MALICE**  
+### CHIMERA MALICE
+
 At the start of a chimera’s turn, you can spend malice to activate one of the following features.  
 
 - **Defensive Snapping (3 Malice):** The chimera takes up a defensive stance. Until the start of their next turn, the chimera can make a free strike against each enemy that comes within 2 of them.  
@@ -1090,13 +1111,16 @@ Demons spawn in the Abyssal Wasteland, where evil and chaos meet. These creature
 
 The bestial appearance of each demon is unique, composed of a chaotic arrangement of teeth, claws, and limbs meant for killing. Even demons of the same kind have unique features. One might bear an extra set of eyes or teeth, while another could have a human arm growing from their forehead.  
 
-**MORTAL ALLIANCES**  
+### MORTAL ALLIANCES
+
 Demons form temporary alliances with evil mortals in exchange for souls to consume. Such alliances create carnage with alarming efficiency, though they inevitably collapse when the demons decide to devour their foolish partners. The only creature who can truly keep a demon in line is a more powerful demon.  
 
-**SOUL REAVERS**  
+### SOUL REAVERS
+
 Demons feast not on food or water, but on souls. Souls fuel their anarchic powers, and while starved for souls, a demon can scarcely think. Whenever a demon kills a creature with a soul, they consume that soul and keep its energy within their body. A demon can then burn that soul energy to enact their most devastating abilities.  
 
-**DEMONIC HIERARCHY**  
+### DEMONIC HIERARCHY
+
 Mortal scholars have classified demons into ten categories, and the higher a demon’s category, the more powerful the fiend. Though demons don’t use these classifications themselves, this system reflects their hierarchy, as stronger demons bully the weak into service.  
 
 Each time a demon consumes a soul, there’s a chance they might evolve into a more powerful demon. The evolution from one category to the next can be instant, or it can take years. This inconsistency has led to much scholarly debate on whether all souls are equal, or whether demonic evolution is aided by the consumption of souls that are especially corrupt—or heroic.  
@@ -1113,10 +1137,12 @@ The following demons have been identified across categories 1-3:
 - **Mucerons** are the result of an ensnarer going through repeated demon evolutions to become a brutish creature, covered in several mouths that shoot out barbed tongues, pulling an enemy’s attention along with pulling them physically.  
 - **Chorogaunts** are terrifying demon leaders. Each is an amalgamation of several demon bodies formed into a mobile, living musical instrument. Several heads are arranged into a chorus embedded in the demon’s chest, and its ribs are upturned into a fleshy pipe organ. Their attacks entrance and confuse enemies, making them more vulnerable to other demons.  
 
-**DEMON LANGUAGES**  
+### DEMON LANGUAGES
+
 Demons speak Proto-Ctholl.  
 
-**DEMON MALICE**  
+### DEMON MALICE
+
 At the start of any demon’s turn, you can spend malice to activate one of the following features:  
 
 - **Soulburn (3 Malice):** Each demon acting this turn has an edge.  
@@ -1975,16 +2001,20 @@ Slowed or restrained creatures adjacent to the battle walker become restrained (
 
 The children of the solar celestials. The high elves were created to tend to the sun elves as librarians and heralds. They sequester themselves away from the world, remembering a better age before the arrival of war.
 
-**GLAMOROUS**  
+### GLAMOROUS
+
 The high elves are svelte and hold an unwavering poise worthy of a noble background. They also emit a glamor that allows them to take on any skin, hair, or eye color they desire. Each person sees this glamor slightly differently, emphasizing some details over others based on one's own values and fascinations.
 
-**CRADLES**  
+### CRADLES
+
 The high elves employ magical porcelain structures called cradles that can change their shape and fit into the upturned ruins of their homes. Some cradles utilize minor elementals to operate on their own and acclimate to changing environments. These structures are commonplace for magic research and archaeology, serving as hardy familiars and sturdy bookcases.
 
-**UNSEEN HANDS WILL ILLUMINATE THEIR UNCHANGED MINDS**  
+### UNSEEN HANDS WILL ILLUMINATE THEIR UNCHANGED MINDS
+
 Unseen Hands Will Illuminate Their Unchanged Minds are a sect of high elf radicals who believe they have stumbled upon sky elf texts detailing their downfall by the hands of the sun elves. The story surrounding their purported discoveries has twisted into a narrative decrying all modern society for benefiting from the lore accumulated in service to the sun elves. The sect hides among high elf society in plain sight, slowly manipulating nobles and reshaping the world as they see fit.
 
-**SURROUND AND SUPPRESS**  
+### SURROUND AND SUPPRESS
+
 Foes that threaten high elf armies are dealt with quickly and entirely. They take advantage of each other’s magic to corral enemies together and throw huge waves of destruction upon them. Wyrds ensure there’s no escape, warping the environment into treacherous pits and, eventually, graveyards.
 
 ### HIGH ELF LANGUAGES
@@ -4367,3 +4397,3471 @@ At the start of a hag’s turn, you can spend malice to activate one of the foll
 
 ### STATBLOCKS
 
+#### HAG OF THE GREEN AND ROT  
+  
+**Level 3 Solo**  
+*Fey, Hag*  
+**EV 88**  
+**Stamina**: 240  
+**Speed**: 5 (flying, hover)  
+**Size**: 1L / Stability 1  
+**Free Strike**: 6  
+  
+- **Might** +2  
+- **Agility** +1  
+- **Reason** +1  
+- **Intuition** +0  
+- **Presence** +3  
+  
+**Solo Monster**  
+The hag takes 2 turns each round, using two actions on each turn, and can act after an enemy's turn of their choice. While dazed, the hag can take one action and one maneuver per turn.  
+
+**End Effect**  
+At the end of their turn, the hag can take 5 damage to end one "save ends" effect affecting them. This damage can't be reduced in any way.  
+
+**Supernatural Resistance**  
+Magic and Psionic abilities used against the hag have a ban.  
+
+**Corrosive Claws (Action)** ◆ 2d10 + 3 ◆ Signature  
+Keywords: Attack, Melee, Weapon  
+Distance: Melee 1  
+Target: Two creatures or objects  
+
+- ✦ ≤11: 6 corruption damage; A2 weakened (save ends)  
+- ★ 12–16: 10 corruption damage; A3 weakened (save ends)  
+- ✸ 17+: 13 corruption damage; A4 weakened (save ends)  
+  Effect: A creature weakened by this ability takes 1d6 corruption damage at the start of each of their turns until the condition ends.  
+  
+**Soul Steal (Action)** ◆ 2d10 + 3  
+Keywords: Area, Magic  
+Distance: 5 cube within 1  
+Target: All enemies in the cube  
+
+- ✦ ≤11: 4 corruption damage  
+- ★ 12–16: 7 corruption damage; P2 target has a bane on power rolls (save ends)  
+- ✸ 17+: 10 corruption damage; P3 target has a double bane on power rolls (save ends)  
+  Effect: This ability has an edge against creatures with a soul. The hag regains Stamina equal to half the total damage dealt.  
+  
+**Shapeshifter (Maneuver)**  
+Keywords: Magic  
+Distance: Self  
+Target: Self  
+Effect: The hag alters their body to become any Size-1 creature, such as a house cat. If the hag uses this ability while outside of an enemy’s line of effect, the hag is considered hidden. The hag can return to their original form as a free maneuver.  
+5 Malice: The hag becomes a Size-2 creature instead, such as a bear. While in this form, the distance of their melee abilities increases by 1 and has reach.  
+  
+**Turned Upside Down (Triggered Action)** ◆ REA RR ◆ 2 Malice  
+Keywords: Area, Magic  
+Trigger: A creature hits Shtriga Nona with a melee attack.  
+Distance: 1 burst  
+Target: All enemies in the burst  
+
+- ✸ ≤11: Vertical slide 5; restrained (EoT)  
+- ★ 12–16: Slide 3; slowed (EoT)  
+- ✦ 17+: Slide 2  
+  Effect: A creature restrained by this ability that is force moved vertically is suspended in midair until the condition ends.  
+  
+**Snackies for Sweeties (Villain Action 1)** ◆ 2d10 + 3  
+Keywords: Area, Magic  
+Distance: 5 burst  
+Target: All creatures  
+Effect: The hag attaches an ornate explosive pastry to each target. Roll power at the end of the round, targeting each creature with a pastry attached to them and all creatures and objects within 2 of each pastry.  
+
+- ✦ ≤11: 4 poison damage; A2 bleeding (save ends)  
+- ★ 12–16: 6 poison damage; A3 bleeding (save ends)  
+- ✸ 17+: 4 poison damage; A4 bleeding (save ends)  
+  Special: An adjacent creature can attempt a hard Agility test to remove the pastry as a maneuver. On success, the pastry is destroyed without exploding. On failure, the hag rolls power for all pastries immediately.  
+  
+**Animal Alacrity (Villain Action 2)**  
+Keywords: Area, Melee, Weapon  
+Distance: 1 burst  
+Target: All enemies in the burst  
+Effect: The hag shifts up to their speed before using this action, makes a corrosive claws attack against each target, pushes each target 2 squares, and then shifts up to their speed again. The hag makes one power roll against all targets.  
+  
+**Open the Oven (Villain Action 3)** ◆ 2d10 + 3  
+Keywords: Area, Melee, Weapon  
+Distance: 5 cube within 1  
+Target: All creatures in the cube  
+
+- ✦ ≤11: 6 fire damage; A2 weakened (save ends)  
+- ★ 12–16: 10 fire damage; A3 weakened (save ends)  
+- ✸ 17+: 13 fire damage; A4 weakened (save ends)  
+  Effect: The hag turns the affected area into a roiling oven. The hag gains one edge on attacks and abilities against a creature each time they enter an affected square or start their turn there.
+
+## HUMANS
+
+Humans flourish in every habitable part of the world, from inviting coastal cities to unforgiving mountainous terrain. While most humans live quietly in peaceful communities, some are drawn to adventure by an unquenchable thirst for excitement or power.  
+
+### VILLAINS AND HEROES
+
+Recognizing their limited lifespan, humans often set their eyes on immortality. They unfurl empires at the tip of a sword, sacrifice lives to erect grand monuments, and even aspire to godhood, all in hopes their names will be remembered forever.  
+
+Violence and greed are close cousins in the human family. Those with power and wealth often strive for more by the sword. Others turn to theft, often driven to desperation by rapacious neighbors. Travelers in human lands are likely to encounter robbers and barons—both exact a toll.  
+
+Other humans pursue power more subtly, turning their cunning toward selfish ends. When ambitions exceed circumstances, there is always some ancient evil power to call on. Cultists seek dark desires in exchange for service, sacrificing to forbidden gods and courting apocalypse.  
+
+Fortunately, many humans devote themselves to righting wrongs and reshaping the world for the better. Heroes plunge themselves into danger time and time again, standing against natural and supernatural perils in pursuit of justice.  
+
+### RISKS AND REWARDS
+
+Humans devote as much attention to games and gambling as to more serious pursuits. Perhaps this competitive training explains their renowned knack for seizing the moment—knowing when to risk it all on a throw of the dice. Whether in sport or battle, humans quickly spot their opponent’s mistakes and seize the advantage.  
+
+Humans see unrealized potential everywhere, whether envisioning an untamed forest transformed into a prosperous village or an ancient dungeon yielding a chest full of coins. Pursuing such ambitions might end in catastrophe, but for these gamblers, it’s a game worth playing.  
+
+### SWORDS FOR HIRE
+
+With an appetite for warfare and gold, human adventurers are well represented in most mercenary bands. A human mercenary makes a stout ally… if you can afford their price.  
+
+### CONNECTED TO THE NATURAL WORLD
+
+Humans are connected to the natural world in a way that other species are not. As such, they have an uncanny knack for detecting when nearby creatures, objects, and phenomena are created by magic and psionics. This same sense allows them to resist supernatural abilities and effects.  
+
+### HUMAN LANGUAGES
+
+Most humans speak Caelian and one Vaslorian human language.  
+
+### HUMAN MALICE  
+
+At the start of any human’s turn, you can spend malice to activate one of the following features:  
+
+**Alchemical Device (3 Malice)**  
+A non-minion human acting this turn can use a maneuver to throw an alchemical device.  
+
+**Alchemical Device (Maneuver)** ◆ 2d10 + 2  
+Keywords: Area, Magic, Ranged  
+Distance: 3 cube within 10  
+Target: Each creature in the cube  
+
+- ✦ ≤11: 1 corruption damage; A1 slowed (save ends)  
+- ★ 12–16: 3 corruption damage; A2 slowed (save ends)  
+- ✸ 17+: 5 corruption damage; A3 restrained (save ends)  
+
+**Exploit Opening (5 VP)**  
+Each human acting this turn has edge until the end of their turn. They gain an additional edge whenever their ability or attack targets an enemy affected by a condition.  
+
+**Staying Power (7 VP)**  
+Each non-minion human in the encounter regains Stamina equal to 5 times their level.  
+
+### STATBLOCKS
+
+#### HUMAN APPRENTICE MAGE  
+  
+**Level 2 Controller Minion**  
+*Human, Humanoid*  
+**EV 6**  
+**Stamina**: 10  
+**Immunity**: Magic 2, Psionic 2  
+**Speed**: 5  
+**Size**: 1M / Stability 0  
+**Free Strike**: 2  
+  
+- **Might** +0  
+- **Agility** +1  
+- **Reason** +0  
+- **Intuition** +0  
+- **Presence** +2  
+  
+**Lightning Strike (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Magic, Ranged  
+Distance: Ranged 10  
+Target: One creature or object per minion  
+
+- ✦ ≤11: 2 lightning damage  
+- ★ 12–16: 4 lightning damage  
+- ✸ 17+: 5 lightning damage  
+  Effect: If the apprentice mage doesn’t use a maneuver or a move action this turn, the target is slowed (EoT).  
+  
+**Studied Supernatural Insight**  
+The apprentice can target supernatural creatures and objects within 10 squares, even if they don’t have line of effect.  
+  
+#### HUMAN ARCHER  
+  
+**Level 1 Artillery Minion**  
+*Human, Humanoid*  
+**EV 6**  
+**Stamina**: 8  
+**Immunity**: Magic 2, Psionic 2  
+**Speed**: 5  
+**Size**: 1M / Stability 0  
+**Free Strike**: 2  
+  
+- **Might** +0  
+- **Agility** +2  
+- **Reason** +0  
+- **Intuition** +0  
+- **Presence** +0  
+  
+**Crossbow (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Ranged, Weapon  
+Distance: Ranged 15  
+Target: One creature or object per minion  
+
+- ✦ ≤11: 2 damage  
+- ★ 12–16: 5 damage  
+- ✸ 17+: 6 damage  
+  
+**Supernatural Insight**  
+The archer can target supernatural creatures and objects within 5 squares, even if they don’t have line of effect.  
+  
+#### HUMAN DEATH ACOLYTE  
+  
+**Level 1 Hexer Minion**  
+*Human, Humanoid*  
+**EV 5**  
+**Stamina**: 8  
+**Immunity**: Magic 2, Psionic 2  
+**Speed**: 5  
+**Size**: 1M / Stability 0  
+**Free Strike**: 2  
+  
+- **Might** +0  
+- **Agility** +1  
+- **Reason** +0  
+- **Intuition** +0  
+- **Presence** +2  
+  
+**Necrotic Bolt (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Magic, Ranged  
+Distance: Ranged 10  
+Target: One creature or object per minion  
+
+- ✦ ≤11: 2 corruption damage  
+- ★ 12–16: 4 corruption damage  
+- ✸ 17+: 5 corruption damage  
+  Effect: A creature within 5 squares of the death acolyte regains 1 Stamina.  
+  
+**Supernatural Insight**  
+The death acolyte can target supernatural creatures and objects within 5 squares, even if they don’t have line of effect.  
+  
+#### HUMAN GUARD  
+  
+**Level 1 Brute Minion**  
+*Human, Humanoid*  
+**EV 6**  
+**Stamina**: 12  
+**Immunity**: Magic 2, Psionic 2  
+**Speed**: 5  
+**Size**: 1M / Stability 0  
+**Free Strike**: 2  
+  
+- **Might** +2  
+- **Agility** +0  
+- **Reason** +0  
+- **Intuition** +0  
+- **Presence** +0  
+  
+**Halberd (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Melee, Weapon  
+Distance: Melee 2  
+Target: One creature or object per minion  
+
+- ✦ ≤11: 2 damage  
+- ★ 12–16: 5 damage  
+- ✸ 17+: 6 damage  
+  Effect: If the guard is flanked, they can make a free strike against an additional target adjacent to them.  
+  
+**Supernatural Insight**  
+The guard can target supernatural creatures and objects within 5 squares, even if they don’t have line of effect.  
+  
+#### HUMAN RAIDER  
+  
+**Level 1 Harrier Minion**  
+*Human, Humanoid*  
+**EV 6**  
+**Stamina**: 10  
+**Immunity**: Magic 2, Psionic 2  
+**Speed**: 7  
+**Size**: 1M / Stability 0  
+**Free Strike**: 2  
+  
+- **Might** +0  
+- **Agility** +2  
+- **Reason** +0  
+- **Intuition** +0  
+- **Presence** +0  
+  
+**Handaxes (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Charge, Melee, Ranged, Weapon  
+Distance: Melee 1 or Ranged 5  
+Target: One creature or object per minion  
+
+- ✦ ≤11: 2 damage  
+- ★ 12–16: 4 damage  
+- ✸ 17+: 5 damage  
+  Effect: If this ability is used while Charging, the raider can make a ranged free strike with a distance of 5 before using the ability.  
+  
+**Supernatural Insight**  
+The raider can target supernatural creatures and objects within 5 squares, even if they don’t have line of effect.  
+  
+#### HUMAN ROGUE  
+  
+**Level 1 Ambusher Minion**  
+*Human, Humanoid*  
+**EV 7**  
+**Stamina**: 10  
+**Immunity**: Magic 2, Psionic 2  
+**Speed**: 7  
+**Size**: 1M / Stability 0  
+**Free Strike**: 2  
+  
+- **Might** +0  
+- **Agility** +2  
+- **Reason** +0  
+- **Intuition** +0  
+- **Presence** +1  
+  
+**Concealed Dagger (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Melee, Ranged, Weapon  
+Distance: Melee 1 or Ranged 5  
+Target: One creature or object per minion  
+
+- ✦ ≤11: 2 damage  
+- ★ 12–16: 5 damage  
+- ✸ 17+: 6 damage  
+  Effect: This attack has a double edge and an edge if the spy was disguised or hidden before using this ability.  
+  
+**Supernatural Insight**  
+The rogue can target supernatural creatures and objects within 5 squares, even if they don’t have line of effect.  
+
+#### HUMAN BRAWLER  
+  
+**Level 1 Brute**  
+*Human, Humanoid*  
+**EV 16**  
+**Stamina**: 40  
+**Immunity**: Magic 2, Psionic 2  
+**Speed**: 5  
+**Size**: 1M / Stability 0  
+**Free Strike**: 4  
+  
+- **Might** +2  
+- **Agility** +1  
+- **Reason** +0  
+- **Intuition** +0  
+- **Presence** +0  
+  
+**Haymaker (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Melee, Weapon  
+Distance: Melee 1  
+Target: One creature or object  
+
+- ✦ ≤11: 4 damage; M1 grabbed  
+- ★ 12–16: 7 damage; M2 grabbed  
+- ✸ 17+: 10 damage; M3 grabbed  
+  Effect: The target has a bane on attempts to escape the grab. The brawler has edge on this attack if the target is already grabbed.  
+  
+**Throw (Maneuver)** ◆ 1 Malice  
+Keywords: —  
+Distance: Melee 1  
+Target: One creature grabbed by the brawler  
+Effect: Push 5.  
+  
+**Shoot the Hostage**  
+The brawler takes half damage from attacks if they have a creature or object grabbed. The grabbed creature or object takes the other half of the damage.  
+  
+**Supernatural Insight**  
+The brawler can target supernatural creatures and objects within 5 squares, even if they don’t have line of effect.  
+  
+#### HUMAN DEATH CULTIST  
+  
+**Level 2 Support**  
+*Human, Humanoid*  
+**EV 16**  
+**Stamina**: 40  
+**Immunity**: Magic 2, Psionic 2  
+**Speed**: 5  
+**Size**: 1M / Stability 0  
+**Free Strike**: 4  
+  
+- **Might** +0  
+- **Agility** +1  
+- **Reason** +0  
+- **Intuition** +0  
+- **Presence** +2  
+  
+**Death Scythe (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Magic, Melee, Ranged, Weapon  
+Distance: Melee 1 or Ranged 10  
+Target: One creature or object  
+
+- ✦ ≤11: 4 corruption damage; I1 weakened (save ends)  
+- ★ 12–16: 7 corruption damage; I2 weakened (save ends)  
+- ✸ 17+: 10 corruption damage; I3 weakened (save ends)  
+  2 Malice: The death cultist regains Stamina equal to half the damage dealt by this ability.  
+  
+**Rise, My Minions (Maneuver)** ◆ 1 Malice per minion  
+Keywords: Area  
+Distance: 5 burst  
+Target: One or more dead minions  
+Special: Each target must have died during this encounter  
+Effect: Each target revives with their full Stamina. They immediately die at the end of the encounter or if the death cultist is killed. A target can be revived multiple times by this ability.  
+  
+**Supernatural Insight**  
+The death cultist can target supernatural creatures and objects within 5 squares, even if they don’t have line of effect.  
+  
+#### HUMAN KNAVE  
+  
+**Level 2 Defender**  
+*Human, Humanoid*  
+**EV 18**  
+**Stamina**: 50  
+**Immunity**: Magic 2, Psionic 2  
+**Speed**: 5  
+**Size**: 1M / Stability 0  
+**Free Strike**: 4  
+  
+- **Might** +2  
+- **Agility** +0  
+- **Reason** +1  
+- **Intuition** +0  
+- **Presence** +0  
+  
+**Morningstar & Javelin (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Melee, Ranged, Weapon  
+Distance: Melee 1 or Ranged 5  
+Target: One creature or object  
+
+- ✦ ≤11: 4 damage; M1 the target has a bane on their next attack  
+- ★ 12–16: 7 damage; M2 the target has a bane on their next attack  
+- ✸ 17+: 10 damage; M3 the target has a double bane on their next attack  
+  Effect: Taunted (EoT).  
+  
+**I’m Your Enemy**  
+The knave can make a free strike against an adjacent creature they have taunted whenever the creature deals damage to a creature other than the knave.  
+  
+**Overwhelm**  
+An enemy who starts their turn adjacent to the knave can’t shift.  
+  
+**Supernatural Insight**  
+The knave can target supernatural creatures and objects within 5 squares, even if they don’t have line of effect.  
+  
+#### HUMAN SCOUNDREL  
+  
+**Level 1 Ambusher**  
+*Human, Humanoid*  
+**EV 14**  
+**Stamina**: 30  
+**Immunity**: Magic 2, Psionic 2  
+**Speed**: 5  
+**Size**: 1M / Stability 0  
+**Free Strike**: 4  
+  
+- **Might** +0  
+- **Agility** +2  
+- **Reason** +0  
+- **Intuition** +0  
+- **Presence** +1  
+  
+**Rapier & Dagger (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Melee, Weapon  
+Distance: Melee 1  
+Target: One creature or object  
+
+- ✦ ≤11: 4 damage  
+- ★ 12–16: 7 damage  
+- ✸ 17+: 10 damage  
+  Effect: This ability has double edge if the scoundrel has an edge on the power roll.  
+  
+**Dagger Storm (Action)** ◆ 5 Malice  
+The scoundrel makes a Rapier & Dagger attack against three creatures or objects. They can shift 2 squares before or after each attack.  
+  
+**Supernatural Insight**  
+The scoundrel can target supernatural creatures and objects within 5 squares, even if they don’t have line of effect.  
+
+#### HUMAN STORM MAGE  
+  
+**Level 3 Controller**  
+*Human, Humanoid*  
+**EV 17**  
+**Stamina**: 40  
+**Immunity**: Magic 2, Psionic 2  
+**Speed**: 5  
+**Size**: 1M / Stability 0  
+**Free Strike**: 5  
+  
+- **Might** +0  
+- **Agility** +0  
+- **Reason** +2  
+- **Intuition** +0  
+- **Presence** +1  
+  
+**Lightning Bolt (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Magic, Ranged  
+Distance: Ranged 10  
+Target: One creature or object  
+
+- ✦ ≤11: 5 lightning damage  
+- ★ 12–16: 8 lightning damage  
+- ✸ 17+: 11 lightning damage  
+  5 Malice: The ability takes the Area keyword and becomes a 10 × 1 line that targets each creature in the area.  
+  
+**Gust of Wind (Maneuver)** ◆ MGT RR ◆ 3 Malice  
+Keywords: Area, Magic, Resistance  
+Distance: 5 cube within 1  
+Target: All creatures and objects  
+
+- ✸ ≤11: Slide 5; slowed (save ends)  
+- ★ 12–16: Slide 3; slowed (EoT)  
+- ✦ 17+: Slide 1  
+  Effect: The gust of wind disperses gas or vapor and extinguishes any flames, including persistent effects.  
+  
+**Arcane Shield**  
+The mage has triple edge against melee attacks and abilities. Whenever the mage takes damage from an enemy adjacent to them, the enemy takes 1 lightning damage and is pushed 2 squares.  
+  
+**Studied Supernatural Insight**  
+The storm mage can target supernatural creatures and objects within 10 squares, even if they don’t have line of effect.  
+  
+#### HUMAN TRICKSHOT  
+  
+**Level 1 Artillery**  
+*Human, Humanoid*  
+**EV 12**  
+**Stamina**: 20  
+**Immunity**: Magic 2, Psionic 2  
+**Speed**: 5  
+**Size**: 1M / Stability 0  
+**Free Strike**: 4  
+  
+- **Might** +0  
+- **Agility** +2  
+- **Reason** +0  
+- **Intuition** +1  
+- **Presence** +0  
+  
+**Trick Crossbow (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Ranged, Weapon  
+Distance: Melee 1 or Ranged 15  
+Target: One creature or object  
+
+- ✦ ≤11: 4 damage  
+- ★ 12–16: 7 damage  
+- ✸ 17+: 10 damage  
+  Effect: The trickshot ignores cover and concealment.  
+  3 Malice: The trickshot attacks an additional target.  
+  
+**Supernatural Insight**  
+The trickshot can target supernatural creatures and objects within 5 squares, even if they don’t have line of effect.  
+  
+#### HUMAN BLACKGUARD  
+  
+**Level 1 Leader**  
+*Human, Humanoid*  
+**EV 38**  
+**Stamina**: 80  
+**Immunity**: Magic 2, Psionic 2  
+**Speed**: 5  
+**Size**: 1M / Stability 2  
+**Free Strike**: 4  
+  
+- **Might** +3  
+- **Agility** +2  
+- **Reason** +2  
+- **Intuition** +0  
+- **Presence** +2  
+  
+**Zweihander Swing (Action)** ◆ 2d10 + 3 ◆ Signature  
+Keywords: Area, Melee, Weapon  
+Distance: 1 burst  
+Target: All enemies in the burst  
+
+- ✦ ≤11: 4 damage; M2 slowed (save ends)  
+- ★ 12–16: 7 damage; M3 slowed (save ends)  
+- ✸ 17+: 10 damage; M4 slowed (save ends)  
+  Effect: An ally within 10 squares of the blackguard can make a free strike.  
+  1 Malice: The ally can use their signature action instead.  
+  
+**You! (Maneuver)**  
+Keywords: —  
+Distance: Ranged 10  
+Target: One enemy  
+Effect: The target is marked until the start of the blackguard’s next turn. The blackguard and each of their allies gain an edge and advantage on attacks against targets marked by the blackguard.  
+  
+**End Effect**  
+At the end of their turn, the blackguard can take 5 damage to end one "save ends" effect affecting them. This damage can’t be reduced in any way.  
+  
+**Heightened Supernatural Insight**  
+The blackguard can target supernatural creatures and objects within 15 squares, even if they don’t have line of effect.  
+  
+**Parry! (Triggered Action)**  
+Keywords: —  
+Distance: Melee 1  
+Target: Self or one ally  
+Trigger: A creature targets the blackguard or an ally adjacent to the blackguard with an attack.  
+Effect: The triggering attack’s damage is halved.  
+  
+**Advance! (Villain Action 1)**  
+Keywords: —  
+Distance: Self  
+Target: Self  
+Effect: The blackguard shifts up to their speed. During or after this movement, they can use their Zweihander Swing ability twice.  
+  
+**Back! (Villain Action 2)**  
+Keywords: Area, Magic  
+Distance: 5 burst  
+Target: All enemies in the burst  
+Effect: Slide 5 squares.  
+  
+**I Can Throw My Blade and So Should You! (Villain Action 3)**  
+Keywords: Area, Magic, Ranged, Weapon  
+Distance: 3 cube within 5  
+Target: Each enemy in the cube  
+Effect: The blackguard uses their Zweihander Swing ability against each enemy in the area. Each ally within 5 squares of the area can make a free strike against any enemy in the area.  
+
+#### HUMAN BANDIT CHIEF  
+  
+**Level 3 Leader**  
+*Human, Humanoid*  
+**EV 54**  
+**Stamina**: 120  
+**Immunity**: Magic 2, Psionic 2  
+**Speed**: 5  
+**Size**: 1M / Stability 2  
+**Free Strike**: 5  
+  
+- **Might** +2  
+- **Agility** +3  
+- **Reason** +2  
+- **Intuition** +3  
+- **Presence** +2  
+  
+**Whip & Magic Longsword (Action)** ◆ 2d10 + 3 ◆ Signature  
+Keywords: Attack, Magic, Melee, Weapon  
+Distance: Melee 3  
+Target: Two enemies or objects  
+
+- ✦ ≤11: 5 damage; pull 1  
+- ★ 12–16: 9 damage; pull 2  
+- ✸ 17+: 12 damage; pull 3  
+  Effect: A target who is adjacent to the bandit chief after the attack is resolved takes double edge corruption damage.  
+  2 Malice: The bandit chief attacks an additional target.  
+  
+**Kneel, Peasant! (Maneuver)** ◆ 2d10 + 3  
+Keywords: Attack, Melee, Weapon  
+Distance: Melee 1  
+Target: One enemy or object  
+
+- ✦ ≤11: Push 1; M2 prone  
+- ★ 12–16: Push 2; M3 prone  
+- ✸ 17+: Push 4; M4 prone  
+  2 Malice: This ability targets each enemy adjacent to the bandit chief.  
+  
+**Bloodstones (Triggered Action)**  
+Keywords: Magic  
+Distance: Self  
+Target: Self  
+Trigger: The bandit chief makes a power roll.  
+Effect: The bandit chief takes 4 corruption damage and increases the result of the power roll by one tier.  
+  
+**End Effect**  
+At the end of their turn, the bandit chief can take 5 damage to end one "save ends" effect affecting them. This damage can’t be reduced in any way.  
+  
+**Heightened Supernatural Insight**  
+The bandit chief can target supernatural creatures and objects within 15 squares, even if they don’t have line of effect.  
+  
+**Shoot! (Villain Action 1)**  
+Keywords: Area  
+Distance: 10 burst  
+Target: All allies in the burst  
+Effect: Each target makes a ranged free strike.  
+  
+**Form Up! (Villain Action 2)**  
+Keywords: Area  
+Distance: 10 burst  
+Target: All allies in the burst  
+Effect: Each target shifts up to their speed. Until the end of the encounter, the bandit chief and all allies have triple edge while adjacent to a target.  
+  
+**Lead From the Front (Villain Action 3)**  
+Keywords: —  
+Distance: Self  
+Target: Self  
+Effect: Shift 10 squares. During or after this movement, the bandit chief can attack up to four targets with Whip & Magic Longsword. Each ally adjacent to a target can make a free strike against them.  
+  
+#### GIANT HAWK  
+  
+**Level 1 Mount**  
+*Animal*  
+**EV 13**  
+**Stamina**: 20  
+**Speed**: 7 (flying)  
+**Size**: 2 / Stability 0  
+**Free Strike**: 3  
+  
+- **Might** +2  
+- **Agility** +2  
+- **Reason** −3  
+- **Intuition** +1  
+- **Presence** −2  
+  
+**Talons (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Melee, Weapon  
+Distance: Melee 1  
+Target: One creature or object  
+
+- ✦ ≤11: 3 damage; M2 grabbed  
+- ★ 12–16: 5 damage; M3 grabbed  
+- ✸ 17+: 7 damage; grabbed  
+  
+**Dive (Maneuver)**  
+The hawk moves up to their speed.  
+  
+**Mounted Platform**  
+Any creature riding the hawk can make a free strike during or after the hawk’s movement.  
+
+## KOBOLDS  
+
+Kobold communities, called legions, are found in every biome and across the timescape. Gravitating toward powerful allies and defensible locations, kobolds are equally common in walled cities, secluded temples, subterranean tunnel-mazes, and dragon lairs. Most legions strive to be good neighbors or to go entirely unnoticed, but when a community falls under the sway of a malevolent wyrm or power-hungry centurion, they pose a significant threat.
+
+### DEFENSIVE MASTERS
+
+In a world filled with bigger, hungrier creatures, kobolds survived by becoming experts in collective defense. Kobold shield tactics are legendary; every warrior carries a shield into battle, and soldiers defend each other in tightly choreographed formations. More than a tool, a kobold’s shield is a symbol of their commitment to defending their legion, and they decorate these treasured possessions with battle trophies and illustrations of great deeds.
+
+Kobold legionaries may join worthy adventurers as retainers, lending their defensive prowess to their new allies as they ko-boldly go where no kobold has gone before.
+
+### UNCONVENTIONAL TACTICS
+
+Relentless innovators, kobolds can easily outsmart anyone who doesn’t take them seriously. Their foes haven’t experienced a true kobold battle until they survive exploding javelins or flaming nets. Kobold homes are protected with deadly hazards and ambush points. In open warfare, legions deploy mechanical dragons and flaming spike pit traps.
+
+### TINY DRAGONS
+
+Most kobolds believe their ancestors were created by powerful dragons—and with sharp, angular features and prominent dorsal crests, they certainly look the part! Newborn kobolds have brilliant chromatic, metallic, or crystalline scales; as kobolds age, their scales dim and mottle. Owing to a deep magical connection, a legion that lives under the patronage of a dragon adopts the color of their patron’s scales over several generations.
+
+### KOBOLD LANGUAGES
+
+Most kobolds speak Kethaic and can understand Caelian.
+
+### KOBOLD MALICE
+
+At the start of any kobold’s turn, you can spend malice to activate one of the following features.
+
+- **Maniple Tactics (3 Malice)**: Up to 3 kobolds make a free strike, swap positions with an adjacent kobold, and then that kobold makes a free strike.
+- **Set the Initiative (5 Malice)**: Two kobolds take their turns in a row.
+- **Shield Wall (7 Malice)**: Until the end of the round, all kobolds with *Shield? Shield!* have an additional effect.
+
+### STATBLOCKS
+
+#### KOBOLD PRINCEPS  
+  
+**Level 1 Support Minion**  
+*Humanoid, Kobold*  
+**EV 3**  
+**Stamina**: 5  
+**Speed**: 5  
+**Size**: 1S / Stability 0  
+**Free Strike**: 1  
+  
+- **Might** 0  
+- **Agility** +2  
+- **Reason** 0  
+- **Intuition** 0  
+- **Presence** 0  
+
+**Hasta (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Melee, Weapon  
+Distance: Melee 1  
+Target: 1 creature or object per minion  
+  
+- ✦ ≤11: 1 damage  
+- ★ 12–16: 2 damage  
+- ✸ 17: 3 damage  
+  Effect: 1 ally within 3 can shift 2.  
+  
+**Shield? Shield!**  
+The princeps has increased Stability by 1 and can act as cover for allies when adjacent to an ally who also has this trait.  
+
+#### KOBOLD SAGITTARIUS  
+  
+**Level 1 Artillery Minion**  
+*Humanoid, Kobold*  
+**EV 2**  
+**Stamina**: 4  
+**Speed**: 5  
+**Size**: 1S / Stability 0  
+**Free Strike**: 1  
+  
+- **Might** 0  
+- **Agility** +2  
+- **Reason** 0  
+- **Intuition** 0  
+- **Presence** 0  
+
+**Composite Bow (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Ranged, Weapon  
+Distance: Ranged 10  
+Target: 1 creature or object per minion  
+  
+- ✦ ≤11: 2 damage  
+- ★ 12–16: 3 damage  
+- ✸ 17: 4 damage  
+  Effect: The sagittarius has increased Stability while adjacent to an ally.  
+
+**Shield? Shield!**  
+The sagittarius has increased Stability by 1 and can act as cover for allies when adjacent to an ally who also has this trait.  
+
+#### KOBOLD TIRO  
+  
+**Level 1 Defender Minion**  
+*Humanoid, Kobold*  
+**EV 3**  
+**Stamina**: 8  
+**Speed**: 5  
+**Size**: 1S / Stability 0  
+**Free Strike**: 1  
+  
+- **Might** 0  
+- **Agility** +2  
+- **Reason** 0  
+- **Intuition** 0  
+- **Presence** 0  
+
+**Pugio (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Melee, Weapon  
+Distance: Melee 2  
+Target: 1 creature or object per minion  
+  
+- ✦ ≤11: 1 damage  
+- ★ 12–16: 2 damage; shift 1  
+- ✸ 17: 3 damage; shift 2  
+
+**Shield? Shield!**  
+The tiro has increased Stability by 1 and can act as cover for allies when adjacent to an ally who also has this trait.
+
+#### KOBOLD VELES  
+  
+**Level 1 Harrier Minion**  
+*Humanoid, Kobold*  
+**EV 3**  
+**Stamina**: 5  
+**Speed**: 6  
+**Size**: 1S / Stability 0  
+**Free Strike**: 1  
+  
+- **Might** 0  
+- **Agility** +2  
+- **Reason** 0  
+- **Intuition** 0  
+- **Presence** 0  
+
+**Pilum (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Melee, Ranged, Weapon  
+Distance: Melee 1 or Ranged 5  
+Target: 1 creature or object per minion  
+  
+- ✦ ≤11: 1 damage  
+- ★ 12–16: 2 damage  
+- ✸ 17: 3 damage  
+  Effect: All kobolds ignore opportunity attacks from the target until the start of the veles’ next turn.  
+
+**Shield? Shield!**  
+The veles has increased Stability by 1 and can act as cover for allies when adjacent to an ally who also has this trait.  
+
+#### KOBOLD ADEPTUS  
+  
+**Level 1 Artillery**  
+*Humanoid, Kobold*  
+**EV 8**  
+**Stamina**: 12  
+**Speed**: 5  
+**Size**: 1S / Stability 0  
+**Free Strike**: 1  
+  
+- **Might** 0  
+- **Agility** +1  
+- **Reason** +2  
+- **Intuition** 0  
+- **Presence** 0  
+
+**Shocking Bolt (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Magic, Ranged  
+Distance: Ranged 10  
+Target: 1 creature or object  
+  
+- ✦ ≤11: 2 lightning damage  
+- ★ 12–16: 5 lightning damage  
+- ✸ 17: 6 lightning damage  
+  Effect: The adeptus has an edge on the attack if the target is adjacent to another enemy. All enemies adjacent to the target take 1 lightning damage.  
+
+**Arcane Telum (Maneuver)** ◆ 2d10 + 1 ◆ 3 Malice  
+Keywords: Attack, Magic, Ranged  
+Distance: Ranged 15  
+Target: 3 creatures or objects  
+  
+- ✦ ≤11: 2 damage  
+- ★ 12–16: 5 damage  
+- ✸ 17: 6 damage  
+  Effect: This attack ignores all banes and hindrances.  
+
+**Shield? Shield!**  
+The adeptus has increased Stability by 1 and can act as cover for allies when adjacent to an ally who also has this trait.  
+
+#### KOBOLD ARTIFEX  
+  
+**Level 1 Controller**  
+*Humanoid, Kobold*  
+**EV 7**  
+**Stamina**: 12  
+**Speed**: 5  
+**Size**: 1S / Stability 0  
+**Free Strike**: 1  
+  
+- **Might** 0  
+- **Agility** +2  
+- **Reason** +1  
+- **Intuition** 0  
+- **Presence** 0  
+
+**Chain Hook (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Ranged, Weapon  
+Distance: Ranged 5  
+Target: 1 creature or object  
+  
+- ✦ ≤11: 2 damage; pull 1  
+- ★ 12–16: 4 damage; pull 2  
+- ✸ 17: 5 damage; pull 3  
+  Effect: If the target’s forced movement triggers a trap, the target has a bane on all resistance rolls against that trap.  
+
+**Activate Trap (Maneuver)**  
+Keywords: —  
+Distance: Ranged 10  
+Target: 1 trap or terrain object  
+  Effect: The trap or terrain object instantly triggers.  
+  3 Malice: The artifex can place a new trap in the encounter and instantly trigger it.  
+
+**Shield? Shield!**  
+The artifex has increased Stability by 1 and can act as cover for allies when adjacent to an ally who also has this trait.  
+
+#### KOBOLD LEGIONARY  
+  
+**Level 1 Defender**  
+*Humanoid, Kobold*  
+**EV 9**  
+**Stamina**: 20  
+**Speed**: 5  
+**Size**: 1S / Stability 0  
+**Free Strike**: 1  
+  
+- **Might** +2  
+- **Agility** +1  
+- **Reason** 0  
+- **Intuition** 0  
+- **Presence** 0  
+
+**Gladius (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Melee, Weapon  
+Distance: Melee 1  
+Target: 1 creature or object  
+  
+- ✦ ≤11: 2 damage  
+- ★ 12–16: 4 damage  
+- ✸ 17: 5 damage  
+  Effect: Taunted (EoT).  
+  3 Malice: The legionary and their squad can shift 2 before this attack is made.  
+
+**Shield Bash (Maneuver)**  
+Keywords: Attack, Melee, Weapon  
+Distance: Melee 1  
+Target: 1 creature or object  
+  
+- ✦ ≤11: 1 damage; push 1; 1 prone  
+- ★ 12–16: 2 damage; push 2; 2 prone  
+- ✸ 17: 3 damage; push 3; 3 prone  
+
+**Shield? Shield!**  
+The legionary has increased Stability by 1 and can act as cover for allies when adjacent to an ally who also has this trait.  
+
+#### KOBOLD SIGNIFIER  
+  
+**Level 1 Support**  
+*Humanoid, Kobold*  
+**EV 8**  
+**Stamina**: 15  
+**Speed**: 5  
+**Size**: 1S / Stability 0  
+**Free Strike**: 1  
+  
+- **Might** 0  
+- **Agility** +1  
+- **Reason** 0  
+- **Intuition** 0  
+- **Presence** +2  
+
+**Signum (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Melee, Weapon  
+Distance: Melee 1  
+Target: 1 creature or object  
+  
+- ✦ ≤11: 2 damage  
+- ★ 12–16: 4 damage  
+- ✸ 17: 5 damage  
+  Effect: An ally within 10 can shift their speed, as long as they end their movement adjacent to an ally.  
+  2+ Malice: 1 additional ally can shift for every 2 malice spent.  
+
+**Glory to the Legion (Maneuver)** ◆ 5 Malice  
+Keywords: Area  
+Distance: 5 burst  
+Target: All allies in the burst  
+  Effect: Each target regains 5 Stamina.  
+
+**Upholding High Standards**  
+Allies within 5 of the signifier have an edge and resistance. If the signifier is killed, a minion from their squad can retrieve the signum and replace their stat block with the signifier stat block.  
+
+**Shield? Shield!**  
+The signifier has increased Stability by 1 and can act as cover for allies when adjacent to an ally who also has this trait.  
+
+#### KOBOLD VENATOR  
+  
+**Level 1 Ambusher**  
+*Humanoid, Kobold*  
+**EV 9**  
+**Stamina**: 15  
+**Speed**: 5  
+**Size**: 1S / Stability 0  
+**Free Strike**: 1  
+  
+- **Might** 0  
+- **Agility** +2  
+- **Reason** 0  
+- **Intuition** 0  
+- **Presence** +1  
+
+**Dolobra & Net (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Melee, Weapon  
+Distance: Melee 1  
+Target: 1 creature or object  
+  
+- ✦ ≤11: 2 damage; 1 restrained (save ends)  
+- ★ 12–16: 5 damage; 2 restrained (save ends)  
+- ✸ 17: 6 damage; 3 restrained (save ends)  
+  3 Malice: Creatures and objects restrained by this ability take 2 fire damage at the start of each of their turns.  
+
+**Lost in the Crowd**  
+If the venator is adjacent to an ally, they can use the hide maneuver, even if observed.  
+
+**Not What I Seem**  
+The venator begins the encounter disguised as a minion from their squad. The venator has a double edge on their first attack of the encounter when they reveal themselves.  
+
+**Shield? Shield!**  
+The venator has increased Stability by 1 and can act as cover for allies when adjacent to an ally who also has this trait.  
+
+#### SHIELDSCALE DRANGOLIN  
+  
+**Level 1 Brute**  
+*Animal, Kobold*  
+**EV 16**  
+**Stamina**: 40  
+**Speed**: 7 (burrow)  
+**Size**: 3 / Stability 0  
+**Free Strike**: 4  
+  
+- **Might** +2  
+- **Agility** +1  
+- **Reason** -3  
+- **Intuition** 0  
+- **Presence** -2  
+
+**Fiery Claws (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Melee, Weapon  
+Distance: Melee 1  
+Target: 1 creature or object  
+  
+- ✦ ≤11: 4 fire damage  
+- ★ 12–16: 7 fire damage  
+- ✸ 17: 10 fire damage  
+
+**Drangolin Plume (Action)** ◆ 5 Malice  
+Keywords: —  
+Distance: Self  
+Target: Self  
+  Effect: The drangolin shifts their speed and makes a Fiery Claws attack against each creature who comes within 1 during the move. The drangolin makes one power roll against all targets.  
+
+**Erupt (Action)** ◆ 2d10 + 2 ◆ 3 Malice  
+Keywords: Attack, Melee, Weapon  
+Distance: 2 Burst (while burrowing)  
+Target: All creatures  
+  
+- ✦ ≤11: 4 damage; push 1; 1 prone  
+- ★ 12–16: 7 damage; push 3; 2 prone  
+- ✸ 17: 10 damage; push 5; 3 prone  
+  Effect: This attack has an edge against targets directly above the drangolin.  
+
+**Ash Shot**  
+An enemy adjacent to the drangolin has resistance and can’t be hidden.  
+
+#### TRAINED GELATINOUS CUBE  
+  
+**Level 1 Hexer**  
+*Animal, Kobold*  
+**EV 16**  
+**Stamina**: 20  
+**Immunity**: Acid 3, Weapon 3  
+**Speed**: 5  
+**Size**: 2 / Stability 2  
+**Free Strike**: 4  
+  
+- **Might** +2  
+- **Agility** -1  
+- **Reason** -3  
+- **Intuition** 0  
+- **Presence** -2  
+
+**Engulf (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Melee, Weapon  
+Distance: Melee 1  
+Target: 1 creature or object  
+  
+- ✦ ≤11: 3 acid damage; 1 dazed (save ends)  
+- ★ 12–16: 5 acid damage; 2 dazed (save ends)  
+- ✸ 17: 7 acid damage; 3 restrained (save ends)  
+  Effect: A size 2 or smaller creature restrained by this attack is pulled into one of the cube’s squares and moves with the cube. The creature takes 3 acid damage at the start of each of their turns while restrained. When restrained ends, the creature moves to the nearest unoccupied square adjacent to the cube.  
+  3 Malice: The cube attacks 1 additional target.  
+
+**You Didn’t Pay Attention! (Free Triggered Action)**  
+Keywords: —  
+Trigger: A creature moves or is force moved into the cube.  
+Distance: Self  
+Target: Self  
+  Effect: The cube uses Engulf with a double edge.  
+
+**Translucent Cube**  
+The cube completely occupies its space, blocking line of effect on enemy attacks and abilities. The cube is hidden until revealed.  
+
+#### KOBOLD CENTURION  
+  
+**Level 1 Leader**  
+*Humanoid, Kobold*  
+**EV 20**  
+**Stamina**: 50  
+**Speed**: 5  
+**Size**: 1S / Stability 2  
+**Free Strike**: 4  
+  
+- **Might** +2  
+- **Agility** +3  
+- **Reason** +2  
+- **Intuition** 0  
+- **Presence** +2  
+
+**Pilum (Action)** ◆ 2d10 + 3 ◆ Signature  
+Keywords: Attack, Melee, Ranged, Weapon  
+Distance: Melee 1 or Ranged 10  
+Target: 2 creatures or objects  
+  
+- ✦ ≤11: 2 damage; 2 weakened (save ends)  
+- ★ 12–16: 5 damage; 3 weakened (save ends)  
+- ✸ 17: 6 damage; 4 weakened (save ends)  
+  Effect: Any allies adjacent to a target of this attack can make a free strike.  
+  3 Malice: Targets weakened by this attack are now restrained while they are weakened.  
+
+**Concentrate All Fire on That Hero! (Maneuver)**  
+Keywords: —  
+Distance: Ranged 10  
+Target: One enemy  
+  Effect: The target is marked until the start of the centurion’s next turn. The centurion and each of their allies gain an edge and advantage on attacks against targets marked by the centurion.  
+  3+ Malice: The centurion targets 1 additional enemy for every 3 malice spent.  
+
+**Testudo! (Triggered Action)**  
+Keywords: Weapon  
+Trigger: A creature attacks the centurion or an ally.  
+Distance: 5 burst  
+Target: All allies in the burst  
+  Effect: Each target shifts 2 before the attack damage is resolved. All kobolds with *Shield? Shield!* gain increased resistance for this attack.  
+
+**Firetail Pilum (Villain Action 1)**  
+Keywords: Area, Weapon  
+Distance: 1 × 10 line within 1  
+Target: All enemies  
+  Effect: The centurion makes a pilum attack against each target with advantage. Targets take 2 fire damage at the start of each of their turns while weakened.  
+
+**Boom Pilum! (Villain Action 2)**  
+Keywords: Area, Weapon  
+Distance: 5 cube within 10  
+Target: All enemies in the cube  
+  Effect: The centurion makes a pilum attack against each target with a double edge. Each target is then pushed 3.  
+
+**Are You Not Entertained?! (Villain Action 3)**  
+Keywords: Attack, Ranged, Weapon  
+Distance: 10 burst  
+Target: All enemies in the burst  
+  Effect: Each target is taunted (3, save ends). For the rest of the encounter, the centurion has Weapon immunity 5. All allies within 10 of the centurion can make a free strike.  
+
+**End Effect**  
+At the end of their turn, the centurion can take 5 damage to end one save-ends effect affecting them. This damage can’t be reduced in any way.  
+
+**Shield? Shield!**  
+The centurion has increased Stability by 1 and can act as cover for allies when adjacent to an ally who also has this trait.  
+
+## LIGHTBENDERS  
+
+Lightbenders prowl deserts, plains, forests—any sunbathed wilderness. Their adaptations make them skilled daylight predators. This monstrous creature’s fur bends and refracts light from the surrounding environment, producing mirages that distract and confuse their prey—hence their name.
+
+### HIDDEN HUNTERS
+
+At a distance, a lightbender looks akin to a regular lion, but closer inspection reveals their glowing eyes, iridescent mane, and pair of lashing tails spiked with refractive crystals. The lightbender’s pelt magically warps light around them to disguise their movement, allowing them to teleport while leaving behind a past visual imprint. Unsuspecting prey rarely realize they’re staring at an afterimage of the lightbender until the fearsome creature pounces.
+
+#### PRIZED MANES
+
+Both male and female lightbenders have the distinctive mane, which is highly prized for its light-displacing qualities and can be fashioned into a mantle of the lightbender, though only a few mages possess the knowledge to do so.
+
+### PROTECTIVE COMPANIONS
+
+Though lightbenders are typically solitary creatures, they sometimes cross into another lightbender’s territory to help protect a newborn litter of kittens. A few people have succeeded in taming lightbenders as guards or hunting animals, and if treated well, they can make for loyal protectors, often viewing their smaller humanoid companions as surrogate kittens.
+
+### LIGHTBENDER MALICE
+
+At the start of a lightbender’s turn, you can spend Malice to activate one of the following features:
+
+- **Silent Prowl (3 Malice)**: A lightbender acting this turn adds the teleport keyword to their movement and can hide as a free maneuver until the start of their next turn.
+- **Duplicate (5 Malice)**: A lightbender acting this turn creates a duplicate lightbender in an unoccupied space adjacent to them. The duplicate has 1 Stamina and shares the lightbender’s speed and turn. Once per round, the lightbender can instantly trade places with a duplicate before or after using an ability.
+- **Everything The Light Touches (7 Malice)**: All lightbenders in the encounter shine radiantly and distort the senses of each enemy within 5 of one. Affected enemies must make a Reason resistance roll:  
+  - ✸ ≤11: The target can’t establish line of effect with any lightbenders (save ends).  
+  - ★ 12–16: The target can’t establish line of effect with any lightbenders (EoT).  
+  - ✦ 17: No effect.  
+
+### STATBLOCKS
+
+#### LIGHTBENDER  
+  
+**Level 3 Ambusher**  
+*Lightbender, Monster*  
+**EV 38**  
+**Stamina**: 80  
+**Speed**: 10  
+**Size**: 2 / Stability 1  
+**Free Strike**: 5  
+  
+- **Might** +2  
+- **Agility** +1  
+- **Reason** -3  
+- **Intuition** +0  
+- **Presence** -1  
+
+**Sucker Swipe (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Melee, Weapon  
+Distance: Melee 2  
+Target: 1 creature or object  
+  
+- ✦ ≤11: 8 damage  
+- ★ 12–16: 12 damage  
+- ✸ 17: 16 damage  
+  Effect: The lightbender has advantage on the attack if they would make it with an edge.  
+
+**Piercing Tails (Action)** ◆ 2d10 + 2  
+Keywords: Attack, Melee, Weapon  
+Distance: Melee 2  
+Target: 2 creatures or objects  
+  
+- ✦ ≤11: 6 damage; 1 bleeding (save ends)  
+- ★ 12–16: 10 damage; 2 bleeding (save ends)  
+- ✸ 17: 13 damage; 3 bleeding (save ends)  
+  Effect: A creature who is bleeding from this ability has a bane on tests to search for the lightbender until the condition ends.  
+
+**Hypnotic Mane (Maneuver)** ◆ INU RR ◆ 5 Malice  
+Keywords: Area, Magic, Resistance  
+Distance: 3 burst  
+Target: All enemies in the burst  
+  
+- ✸ ≤11: Dazed (save ends)  
+- ★ 12–16: Dazed (EoT)  
+- ✦ 17: No effect  
+  Effect: Targets dazed by this ability have a speed of 0 while dazed. If a dazed target takes damage or if someone else spends an action to shake the creature out of their stupor, the condition is removed.  
+
+**Stalker’s Afterimage (Triggered Action)**  
+Keywords: Magic  
+Trigger: The lightbender is damaged by an attack  
+Distance: Self  
+Target: Self  
+  Effect: The lightbender halves the damage, doesn’t suffer any associated effect, and teleports 5 squares. The lightbender immediately hides if they teleport into cover or concealment.  
+
+**Avoidance**  
+The lightbender always treats a save-ends effect as an EoT effect.  
+
+#### LIGHTBENDER POUNCER  
+  
+**Level 3 Harrier**  
+*Lightbender, Monster*  
+**EV 36**  
+**Stamina**: 70  
+**Speed**: 10  
+**Size**: 2 / Stability 1  
+**Free Strike**: 5  
+  
+- **Might** +2  
+- **Agility** +2  
+- **Reason** -3  
+- **Intuition** +0  
+- **Presence** -1  
+
+**Pounce (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Charge, Melee, Weapon  
+Distance: Melee 2  
+Target: 2 creatures or objects  
+  
+- ✦ ≤11: 5 damage; 1 prone  
+- ★ 12–16: 9 damage; 2 prone  
+- ✸ 17: 12 damage; 3 prone  
+  Effect: The pouncer makes a free strike against each target they have knocked prone.  
+
+**Sparkling Tail Whip (Action)** ◆ 2d10 + 2  
+Keywords: Area, Magic  
+Distance: 2 burst  
+Target: All enemies and objects in the burst  
+  
+- ✦ ≤11: 2 damage; 1 dazzled (save ends)  
+- ★ 12–16: 4 damage; 2 dazzled (save ends)  
+- ✸ 17: 6 damage; 3 dazzled (save ends)  
+  Effect: A dazzled creature has a bane on their attacks and can’t have line of effect to targets who aren’t adjacent to them.  
+
+**Illusory Feint (Maneuver)** ◆ REA RR ◆ 5 Malice  
+Keywords: Area, Magic, Resistance  
+Distance: 3 cube within 10  
+Target: All enemies in the cube  
+  
+- ✸ ≤11: Dazed (save ends)  
+- ★ 12–16: Dazed (EoT)  
+- ✦ 17: No effect  
+  Effect: Targets dazed by this ability have a speed of 0 while dazed. If a dazed target takes damage or if someone else spends an action to shake the creature out of their stupor, the condition is removed.  
+
+**Striking Afterimage (Triggered Action)**  
+Keywords: Magic  
+Trigger: The lightbender is damaged by an attack  
+Distance: Self  
+Target: Self  
+  Effect: The lightbender halves the damage, doesn’t suffer any associated effect, and teleports 5 squares. The pouncer makes a free strike if they teleport into a space adjacent to an enemy.  
+
+**Avoidance**  
+The pouncer always treats a save-ends effect as an EoT effect.  
+
+## LIZARDFOLK
+
+Lizardfolk prefer warm, tropical climates, but they’re willing to settle in any humid region—the more moisture in the air, the better. Even in colder climates, lizardfolk can be found in any sufficiently marshy environment. Bogs and wetlands are particularly common nesting grounds.
+
+Their scales protect both against weapons and the moisture in their native environments. Coloring and hue vary wildly with environment and diet.
+
+### HOMELAND PROTECTORS
+
+Lizardfolk aren’t especially hostile unless they feel their territory is threatened—which it often is. However, respectful travelers entering lizardfolk territory find no great hardship. Lizardfolk cultures often take up a specific trade, like boatmaking, fletching, weaving, or navigating, and they sell their services to travelers in need, including lizardfolk from other places.
+
+Adventurers cross paths with lizardfolk while trekking through their homelands. The reptilian humanoids watch travelers who skirt too close to sources of food and shelter, attacking those who take more than they need. Many lizardfolk dwell in caverns and abandoned ruins for protection. Treasure-seekers who delve into these places are typically given one warning before the attack begins.
+
+### FOCUSED AND LOYAL
+
+Most lizardfolk speak plainly, viewing blunt honesty as a sign of respect. When they make a vow or personal promise, they do all they can to honor that word. Lizardfolk who swear to destroy an enemy follow their quarry to the ends of the earth.
+
+### MARSHLAND TYRANTS
+
+In times of crisis, such as a food shortage, an evil lizardfolk leader can exploit the emergency, oppressing others in the name of defending their territory. But there are always other local lizardfolk tribes who oppose such aggressive, expansionist posturing; they often seek the aid of others who value freedom from tyranny.
+
+### LIZARDFOLK LANGUAGES
+
+Most lizardfolk speak Caelian and Khamish.
+
+### LIZARDFOLK MALICE
+
+At the start of a lizardfolk’s turn, you can spend malice to activate one of the following features.
+
+- **Net Trap (3 Malice):** One lizardfolk acting this turn can drop a net trap on a square during their movement. The net is hidden from enemies not in line of effect when the net is placed. When an enemy moves into a square with a net in it, they must make an Agility resistance roll. If the creature was unaware of the net, they make the roll with a bane:
+  - ✸ ≤11 Restrained (save ends)
+  - ★ 12–16 Restrained (EoT)
+  - ✦ 17 No effect
+  - A creature can use an action to free an adjacent target restrained by the trap.
+
+- **Water Pit (5 Malice):** A lizardfolk acting this turn unearths a 2 × 2 pit in the ground that fills up with water. A lizardfolk that exits the pit gains 10 temporary Stamina, regrows their tail, and ends one save ends effect affecting them. A creature with the Nature skill or the ability to burrow can make a hard Might or Reason test when adjacent to a pit to drain it. Success empties the pit of water. Failure with a consequence causes the creature to fall into the pit prone.
+
+- **Flood the Shores (7 Malice):** Waist-high water floods the entire battlemap. All lizardfolk submerged in water have their speed doubled while swimming and have **advantage**. The water drains at the end of the round if there are no open water pits on the battlemap.
+
+### STATBLOCKS
+
+#### LIZARDFOLK GRUNT
+
+**Level 1 Harrier Minion**  
+*Humanoid, Lizardfolk*  
+**EV 6**  
+**Stamina**: 10  
+**Speed**: 6 (swim)  
+**Size**: 1M / Stability 0  
+**Free Strike**: 2  
+
+- **Might** +1  
+- **Agility** +2  
+- **Reason** 0  
+- **Intuition** —  
+- **Presence** 0  
+
+**Snap and Toss (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Melee, Weapon  
+Distance: Melee 1  
+Target: 1 creature or object per minion  
+
+- ✦ ≤11: 2 damage  
+- ★ 12–16: 4 damage; slide 2  
+- ✸ 17: 5 damage; slide 4  
+
+**Reptilian Escape**  
+While the grunt still has a tail, whenever the grunt is grabbed, slowed, weakened, or knocked prone, the grunt can lose their tail to immediately end the effect and shift 2.  
+
+#### LIZARDFOLK SHELLGUARD
+
+**Level 1 Defender Minion**  
+*Humanoid, Lizardfolk*  
+**EV 7**  
+**Stamina**: 12  
+**Speed**: 5 (swim)  
+**Size**: 1L / Stability 1  
+**Free Strike**: 2  
+
+- **Might** +2  
+- **Agility** +1  
+- **Reason** 0  
+- **Intuition** —  
+- **Presence** 0  
+
+**Shield Smash (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Melee, Weapon  
+Distance: Melee 1  
+Target: 1 creature or object per minion  
+
+- ✦ ≤11: 2 damage  
+- ★ 12–16: 4 damage  
+- ✸ 17: 5 damage  
+
+Effect: All allies have **advantage** against the target’s next attack.  
+
+**Reptilian Escape**  
+While the shellguard still has a tail, whenever the shellguard is grabbed, slowed, weakened, or knocked prone, the shellguard can lose their tail to immediately end the effect and shift 2.  
+
+#### LIZARDFOLK TONGUER
+
+**Level 1 Artillery Minion**  
+*Humanoid, Lizardfolk*  
+**EV 6**  
+**Stamina**: 8  
+**Speed**: 5 (swim)  
+**Size**: 1S / Stability 0  
+**Free Strike**: 2  
+
+- **Might** 0  
+- **Agility** +2  
+- **Reason** 0  
+- **Intuition** +  
+- **Presence** 0  
+
+**Tonguelash (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Melee, Weapon  
+Distance: Melee 8  
+Target: 1 creature or object per minion  
+
+- ✦ ≤11: 2 damage; pull 1 or shift 1 towards target  
+- ★ 12–16: 5 damage; pull 2 or shift 2 towards target  
+- ✸ 17: 6 damage; pull 3 or shift 3 towards target  
+
+Effect: If the target ends up in a space adjacent to the tonguer, they are also grabbed.  
+
+**Reptilian Escape**  
+While the tonguer still has a tail, whenever the tonguer is grabbed, slowed, weakened, or knocked prone, the tonguer can lose their tail to immediately end the effect and shift 2.  
+
+#### LIZARDFOLK BLOODEYE
+
+**Level 1 Hexer**  
+*Humanoid, Lizardfolk*  
+**EV 11**  
+**Stamina**: 20  
+**Speed**: 5 (swim)  
+**Size**: 1M / Stability 0  
+**Free Strike**: 3  
+
+- **Might** +1  
+- **Agility** +1  
+- **Reason** 0  
+- **Intuition** +2  
+- **Presence** 0  
+
+**Bola Knock (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Ranged, Weapon  
+Distance: Ranged 5  
+Target: 1 creature or object  
+
+- ✦ ≤11: 3 damage  
+- ★ 12–16: 5 damage; A1 restrained (save ends)  
+- ✸ 17: 7 damage; A2 restrained (save ends)  
+
+**Bloodshot (Action)** ◆ 2d10 + 2 ◆ 2 Malice  
+Keywords: Attack, Ranged  
+Distance: Ranged 10  
+Target: 1 creature  
+
+- ✦ ≤11: 3 acid damage; M1 target can’t establish line of effect beyond 3 squares (save ends)  
+- ★ 12–16: 5 acid damage; M2 target can’t establish line of effect beyond 2 squares (save ends)  
+- ✸ 17: 7 acid damage; M3 target can’t establish line of effect beyond 1 square (save ends)  
+
+**Reptilian Escape**  
+While the bloodeye still has a tail, whenever the bloodeye is grabbed, slowed, weakened, or knocked prone, the bloodeye can lose their tail to immediately end the effect and shift 2.  
+
+#### LIZARDFOLK SCALETOOTH
+
+**Level 1 Brute**  
+*Humanoid, Lizardfolk*  
+**EV 16**  
+**Stamina**: 40  
+**Immunity**: weapon 3  
+**Speed**: 5 (swim)  
+**Size**: 1M / Stability 0  
+**Free Strike**: 5  
+
+- **Might** +2  
+- **Agility** +1  
+- **Reason** 0  
+- **Intuition** —  
+- **Presence** 0  
+
+**Razor Bite (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Melee, Weapon  
+Distance: Melee 1  
+Target: 1 creature or object  
+
+- ✦ ≤11: 5 damage; A1 bleeding (save ends)  
+- ★ 12–16: 9 damage; A2 bleeding (save ends)  
+- ✸ 17: 12 damage; A3 bleeding (save ends)  
+
+Effect: The potency of this attack increases by 1 if the target is grabbed by the scaletooth.  
+
+**Tail Whip (Action)** ◆ 2d10 + 2 ◆ 2 Malice  
+Keywords: Attack, Melee, Weapon  
+Distance: Melee 2  
+Target: 2 creatures or objects  
+
+- ✦ ≤11: 3 damage; slide 1; M1 grappled  
+- ★ 12–16: 5 damage; slide 2; M2 grappled  
+- ✸ 17: 6 damage; slide 3; M3 grappled if within 2 of the scaletooth  
+
+Effect: The scaletooth needs their tail to use this ability. The scaletooth can’t grapple more than one creature or object with this ability.  
+
+**Reptilian Escape**  
+While the scaletooth still has a tail, whenever the scaletooth is grabbed, slowed, weakened, or knocked prone, the scaletooth can lose their tail to immediately end the effect and shift 2.  
+
+#### LIZARDFOLK TERRORSOAR
+
+**Level 1 Harrier**  
+*Humanoid, Lizardfolk*  
+**EV 13**  
+**Stamina**: 30  
+**Speed**: 7 (swim)  
+**Size**: 1S / Stability 0  
+**Free Strike**: 5  
+
+- **Might** +1  
+- **Agility** +2  
+- **Reason** 0  
+- **Intuition** —  
+- **Presence** +1  
+
+**Glaive Rush (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Melee, Weapon  
+Distance: Melee 1  
+Target: 1 creature or object  
+
+- ✦ ≤11: 3 damage  
+- ★ 12–16: 5 damage  
+- ✸ 17: 7 damage; prone  
+
+Effect: The terrorsoar can shift 4 after using this ability if they are flying.  
+
+**Poison Blowdart (Action)** ◆ 2d10 + 2  
+Keywords: Attack, Ranged, Weapon  
+Distance: Ranged 5  
+Target: 1 creature or object  
+
+- ✦ ≤11: 2 damage; M1 weakened (save ends)  
+- ★ 12–16: 5 damage; M2 weakened (save ends)  
+- ✸ 17: 6 damage; M3 weakened (save ends)  
+
+Effect: A creature that ends their turn adjacent to a creature or object weakened by this ability is weakened (EoT).  
+
+**Glider**  
+The terrorsoar adds the flying keyword to their movement until the end of their next turn whenever they move at least 2 squares along the ground or fall at least 2 squares.  
+
+**Reptilian Escape**  
+While the terrorsoar still has a tail, whenever the terrorsoar is grabbed, slowed, weakened, or knocked prone, the terrorsoar can lose their tail to immediately end the effect and shift 2.  
+
+#### LIZARDFOLK DEATHREX
+
+**Level 1 Leader**  
+*Humanoid, Lizardfolk*  
+**EV 36**  
+**Stamina**: 60  
+**Speed**: 5 (climb, swim)  
+**Size**: 2 / Stability 2  
+**Free Strike**: 5  
+
+- **Might** +3  
+- **Agility** +2  
+- **Reason** 0  
+- **Intuition** +  
+- **Presence** +2  
+
+**Ripper Spear (Action)** ◆ 2d10 + 3 ◆ Signature  
+Keywords: Attack, Melee, Weapon  
+Distance: Melee 3  
+Target: 3 creatures or objects  
+
+- ✦ ≤11: 3 damage; pull 1; A2 bleeding (save ends)  
+- ★ 12–16: 7 damage; pull 1; A3 bleeding (save ends)  
+- ✸ 17: 10 damage; pull 2; A4 bleeding (save ends)  
+
+1 Malice: One target that is adjacent to the deathrex is grabbed by the deathrex’s mouth.  
+
+**Death Roll (Action)** ◆ 2d10 + 3 ◆ 3 Malice  
+Keywords: Attack, Melee, Weapon  
+Distance: Melee 1  
+Target: 1 grabbed creature or object  
+
+- ✦ ≤11: 5 damage; M2 dazed (save ends)  
+- ★ 12–16: 10 damage; M3 dazed (save ends)  
+- ✸ 17: 15 damage; M4 dazed (save ends)  
+
+Effect: The target is released from the grab and slides 5.  
+
+**Trundle (Maneuver)**  
+Keywords: —  
+Distance: Self  
+Target: Self  
+
+Effect: The deathrex moves up to their speed. The deathrex can make a free strike on each creature that makes an opportunity attack against them during this movement.  
+
+**Swat The Fly (Triggered Action)**  
+Keywords: —  
+Trigger: The target moves or shifts away from the deathrex.  
+Distance: Melee 1  
+Target: 1 adjacent creature or object  
+
+Effect: Slide 5.  
+
+**Snack Attack (Villain Action 1)**  
+Keywords: Area  
+Distance: Self and 10 burst  
+Target: Self and all allies in the burst  
+
+Effect: Each target moves up to their speed and makes a free strike. A target receives temporary Stamina equal to the amount of damage they dealt during this action.  
+
+**Shed Some Skin (Villain Action 2)**  
+Keywords: —  
+Distance: Self  
+Target: Self  
+
+Effect: The deathrex shifts up to their speed, leaving behind a skin shed duplicate in the space that they started in. The duplicate has 10 Stamina, has no villain actions, shares the rest of the deathrex’s characteristics, and takes their turn at the same time as the deathrex.  
+
+**Thresher Thrasher (Villain Action 3)**  
+Keywords: Area  
+Distance: Self and 10 burst  
+Target: Self and all allies in the burst  
+
+Effect: Each target moves up to their speed. Until the end of the encounter, when a creature enters or starts their turn adjacent to a target, the target can make a free strike against them.  
+
+**Rex Reptilian Escape**  
+While the deathrex still has a tail, whenever the deathrex is inflicted with an EoT or save ends effect, the deathrex can lose their tail to immediately end the effect and shift 2.  
+
+## MINOTAURS
+
+The fearsome minotaur is a study in contrasts. Their imposing humanoid body is muscular with patches of thick hair. Their head is that of a massive horned bull, and their soft eyes convey a soulful intelligence mingled with smoldering intensity.  
+
+### PRIMAL RAGE
+
+Minotaurs burn with fury. Some constantly desire to unleash this destructive energy on the world, and they attack anyone or anything that crosses their path. Others make it a point of pride to control their rage, only fighting when survival demands it.
+
+Regardless, once combat begins, minotaurs relish charging at foes with their great horns. In the heat of battle, a minotaur charges from one foe to the next, only retreating if victory is entirely impossible.  
+
+### LABYRINTHINE ORIGINS
+
+The first minotaur was once the human warrior Thesia “The Bull” Danaria, who dared challenge the Beast Lords of Kham. When her revolution was crushed, the Lords of Kham used their beastmagics to twist Thesia’s mortal body into a human-bull hybrid prone to fits of violent rage. The Beast Lords placed this minotaur at the center of a vast labyrinth and sent captured rebels to attack the monster.
+
+Many fell to Thesia’s anger—until a prisoner named Velathri took a chance, speaking to the minotaur instead of brandishing steel. He befriended Thesia, and in retribution, the Beast Lords made him a minotaur as well. This act was their undoing, for Thesia and Velathri fell in love. New minotaurs were born, and decades later, hundreds charged out of the maze together. These minotaurs reduced Kham to ruins, then they spread far and wide, fearing reprisal from neighboring lands. Even today, many minotaurs shun civilization, preferring to live in winding canyons, twisting ruins, bewildering dungeons, or other maze-like terrain where they can continue to hunt. However, a few can be found in nearly any terrain or settlement.  
+
+### DEEP BONDS
+
+Even evil minotaurs can be fiercely loyal friends, gladly charging into certain death for those they trust. These chosen friends never suffer the creature’s ire—but gods help them if they betray the minotaur.  
+
+### MINOTAUR MALICE
+
+At the start of a minotaur’s turn, you can spend malice to activate one of the following features.
+
+- **Bull Rush (3 Malice):** A minotaur acting this turn has their speed increased by 4 and ignores difficult terrain until the start of their next turn.
+
+- **Cut the Nonsense! (5 Malice):** Until the start of their next turn, a minotaur acting this turn has 🛡 and can use knockback as a free triggered action whenever an enemy enters a square adjacent to the minotaur.
+
+- **Bull’s Eye (7 Malice):** All minotaurs in the encounter fill the area with generations of feeling lost and isolated. Each enemy within 5 of a minotaur is teleported 5 and must make an Intuition resistance roll:
+  - ✸ ≤11: The target can’t establish line of effect beyond 3 squares and is frightened of all minotaurs (save ends).
+  - ★ 12-16: The target can’t establish line of effect beyond 3 squares (EoT).
+  - ✦ 17: No effect.
+
+### STATBLOCKS
+
+#### MINOTAUR
+
+**Level 3 Harrier**  
+*Minotaur, Monster*  
+**EV 36**  
+**Stamina**: 70  
+**Speed**: 8  
+**Size**: 2 / Stability 2  
+**Free Strike**: 5  
+
+- **Might** +2  
+- **Agility** +2  
+- **Reason** 0  
+- **Intuition** +  
+- **Presence** −1  
+
+**Flail and Blade (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Charge, Melee, Weapon  
+Distance: Melee 2  
+Target: 2 creatures or objects  
+
+- ✦ ≤11: 5 damage; push 1  
+- ★ 12–16: 9 damage; push 2  
+- ✸ 17: 12 damage; push 3  
+
+Effect: The minotaur shifts 3 after attacking.  
+
+**Primal Bay (Action)** ◆ 3 Malice  
+Keywords: —  
+Distance: Self  
+Target: Self  
+
+Effect: The minotaur has **resistance** and **advantage** until the end of their next turn. On their next turn, they have access to an additional maneuver.  
+
+**Goring Horns (Maneuver)** ◆ 2d10 + 2 ◆ 5 Malice  
+Keywords: Attack, Charge, Melee, Weapon  
+Distance: Melee 2  
+Target: 1 creature or object  
+
+- ✦ ≤11: 5 damage; I1 dazed (save ends)  
+- ★ 12–16: 9 damage; I2 dazed (save ends)  
+- ✸ 17: 12 damage; I3 dazed (save ends)  
+
+Effect: The potency of this ability increases by 1 if it’s used while charging.  
+
+**Retaliatory Gore (Triggered Action)**  
+Keywords: —  
+Trigger: The minotaur takes damage from a creature within 8.  
+Distance: Self  
+Target: Triggering creature  
+
+Effect: The minotaur charges the target using Flail and Blade or Goring Horns.  
+
+**Minotaur Sense**  
+The minotaur cannot get a result lower than tier 2 when making Tests to navigate, search, or seek.  
+
+#### MINOTAUR SUNDERER
+
+**Level 3 Brute**  
+*Minotaur, Monster*  
+**EV 40**  
+**Stamina**: 90  
+**Speed**: 6  
+**Size**: 2 / Stability 2  
+**Free Strike**: 6  
+
+- **Might** +2  
+- **Agility** +1  
+- **Reason** 0  
+- **Intuition** +  
+- **Presence** −1  
+
+**Spiked Maul (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Charge, Melee, Weapon  
+Distance: Melee 2  
+Target: 2 creatures or objects  
+
+- ✦ ≤11: 6 damage; pull 1  
+- ★ 12–16: 10 damage; pull 2  
+- ✸ 17: 13 damage; pull 3  
+
+Effect: A target is grabbed if they are pulled adjacent to the sunderer.  
+
+**Fearsome Bay (Action)** ◆ INU RR ◆ 5 Malice  
+Keywords: Area, Resistance  
+Distance: 3 burst  
+Target: All enemies in the burst  
+
+- ✸ ≤11: Frightened of the minotaur (save ends)  
+- ★ 12–16: Frightened of the minotaur (EoT)  
+- ✦ 17: No effect  
+
+Effect: The minotaur has **resistance** and **advantage** until the end of their next turn.  
+
+**Disemboweling Horns (Maneuver)** ◆ 2d10 + 2 ◆ 3 Malice  
+Keywords: Attack, Charge, Melee, Weapon  
+Distance: Melee 2  
+Target: 1 grabbed creature  
+
+- ✦ ≤11: 6 damage; push 1; M1 bleeding (save ends)  
+- ★ 12–16: 10 damage; push 3; M2 bleeding (save ends)  
+- ✸ 17: 13 damage; push 5; M3 bleeding (save ends)  
+
+Effect: The target takes 6 damage at the start of each of their turns while bleeding from this ability.  
+
+**Retaliatory Gore (Triggered Action)**  
+Keywords: —  
+Trigger: The sunderer takes damage from a creature within 6.  
+Distance: Self  
+Target: Triggering creature  
+
+Effect: The sunderer charges the target using Spiked Maul.  
+
+**Minotaur Sense**  
+The sunderer cannot get a result lower than tier 2 when making Tests to navigate, search, or seek.  
+
+## OGRES
+
+Massive and bull-necked with bulging muscle and flesh, most ogres indulge their every impulse because few can stop them. Though small for giants, ogres still outweigh and tower over humanoids. Most live in the wild where they can create their own rules and ways of life.  
+
+### EXTREME EMOTIONS
+
+Most ogres experience emotions at their extremes. Rarely are they simply bemused or cross; you’re more likely to find an ogre leaping with ecstatic joy over a trivial victory or screaming with murderous rage over everyday frustrations. These heightened feelings drive many ogres down selfish paths, and some take whatever they want from anyone too weak to protest. Other ogres can be manipulated into working for evil creatures who promise to meet their heart’s desire, be it food, riches, or friendship.
+
+Ogres who embrace good often dedicate themselves to inspiring causes, letting their emotions fuel their passion and dedication for protecting their chosen people or place.  
+
+### SAVORY STORIES
+
+Some ogres speak of a time when they shared vast wealth and riches, great homes made of hewn stone, and sumptuous feasts. These stories end tragically, each with a different villain—from deceptive mages to talking cats—swindling the ogres of what is rightfully theirs. The truth of such legends remains unknown, but many cruel ogres use them as an excuse for their selfish indulgences.  
+
+### ARISTOCRACY OF BULLIES
+
+When wicked ogres gather more food than they can stomach or riches than they can spend, they use the excess to tempt their kin into working for them. These petty rulers make other ogres grovel at their feet for table scraps, then send them out into the world to steal more. Many ogre communities form around these arrogant aristocrats—but few such leaders die of old age, as the ambition and emotions of their subjects bring about violent ends.  
+
+### OGRE LANGUAGES
+
+Most ogres speak Caelian and Kuric.  
+
+### OGRE MALICE
+
+At the start of an ogre’s turn, you can spend malice to activate one of the following features.
+
+- **Shockwave (3 Malice):** An ogre acting this turn jumps and lands on their rear, causing a 3 burst shockwave. Each size 1 creature in the affected area must make a Might or Agility resistance roll:
+  - ✸ ≤11: 5 damage; vertical push 3; prone
+  - ★ 12–16: 4 damage; vertical push 2
+  - ✦ 17: Push 1
+
+- **Bully (5 Malice):** All ogres shift up to their speed and make a free strike. The ogres prefer to gang up on the same target rather than pick different targets, if they can.
+
+- **Rampage (7 Malice):** All ogres have **resistance** and **advantage**, and heroic abilities that target an ogre have their costs reduced by 1 (to a minimum of 1) until the end of the round.  
+
+### STATBLOCKS
+
+#### OGRE GOON
+
+**Level 2 Brute**  
+*Giant, Ogre*  
+**EV 36**  
+**Stamina**: 80  
+**Speed**: 5  
+**Size**: 2 / Stability 4  
+**Free Strike**: 5  
+
+- **Might** +2  
+- **Agility** 0  
+- **Reason** −1  
+- **Intuition** —  
+- **Presence** −1  
+
+**Club Swing (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Charge, Melee, Weapon  
+Distance: Melee 2  
+Target: 2 creatures or objects  
+
+- ✦ ≤11: 5 damage; push 2  
+- ★ 12–16: 9 damage; push 4  
+- ✸ 17: 12 damage; push 6; prone  
+
+Effect: This attack deals **additional damage** to each creature and object that takes damage from any forced movement it causes.  
+
+**Grabby Hand (Maneuver)** ◆ 2d10 + 2  
+Keywords: Attack, Melee, Weapon  
+Distance: Melee 1  
+Target: 1 creature or object  
+
+- ✦ ≤11: 5 damage  
+- ★ 12–16: 9 damage; grabbed  
+- ✸ 17: 12 damage; grabbed  
+
+Effect: The goon can only have one target grabbed at a time.  
+1 Malice: The target has a bane on escaping the grab while the goon crushes the target in their hand.  
+
+**People Bowling (Maneuver)** ◆ 2d10 + 3 ◆ 3 Malice  
+Keywords: Area, Melee, Weapon  
+Distance: 6 × 1 Line (while grabbing a Size 1 creature or object)  
+Target: All creatures and objects  
+
+Effect: The goon hurls what’s in their hand down the line and rolls power. The hurled creature or object counts as a target and lands in the last square of the line (or nearest unoccupied square of the goon’s choice).  
+
+- ✦ ≤11: 3 damage  
+- ★ 12–16: 4 damage  
+- ✸ 17: 6 damage; prone  
+
+**Swat The Fly (Triggered Action)**  
+Keywords: —  
+Trigger: The target moves or shifts away from the goon.  
+Distance: Melee 1  
+Target: 1 adjacent creature or object  
+
+Effect: Slide 5.  
+
+**Defiant Anger**  
+The goon has Weapon immunity 2 while they are winded.  
+
+#### OGRE JUGGERNAUT
+
+**Level 2 Harrier**  
+*Giant, Ogre*  
+**EV 32**  
+**Stamina**: 70  
+**Speed**: 6  
+**Size**: 2 / Stability 2  
+**Free Strike**: 5  
+
+- **Might** +2  
+- **Agility** +1  
+- **Reason** −1  
+- **Intuition** —  
+- **Presence** −1  
+
+**Pitchfork Catapult (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Charge, Melee, Weapon  
+Distance: Melee 2  
+Target: 2 creatures or objects  
+
+- ✦ ≤11: 5 damage; A1 vertical slide 2  
+- ★ 12–16: 8 damage; A2 vertical push 3  
+- ✸ 17: 11 damage; A3 vertical slide 5  
+
+1 Malice: Each target is M2 bleeding (save ends).  
+
+**Earth Breaking Jump (Action)** ◆ 2d10 + 2  
+Keywords: Area, Melee, Weapon  
+Distance: 3 burst  
+Target: All creatures in the burst  
+
+Effect: The juggernaut leaps up to 6 squares before making the attack.  
+
+- ✦ ≤11: 3 damage; M1 prone  
+- ★ 12–16: 4 damage; push 2; M2 prone  
+- ✸ 17: 5 damage; push 4; M3 prone  
+
+**Horrible Bellow (Maneuver)** ◆ INU RR ◆ 2 Malice  
+Keywords: Area, Resistance  
+Distance: 3 burst  
+Target: All enemies in the burst  
+
+- ✸ ≤11: Frightened (save ends)  
+- ★ 12–16: Frightened (EoT)  
+- ✦ 17: No effect  
+
+Effect: Ogres have **advantage** on attacks against creatures frightened by this ability.  
+
+**Hrraaaaaagh! (Triggered Action)**  
+Keywords: —  
+Trigger: The juggernaut takes damage.  
+Distance: Melee 1  
+Target: 1 creature or object  
+
+Effect: The juggernaut moves up to their speed and makes a free strike.  
+
+**Destructive Path**  
+The juggernaut automatically destroys unattended, mundane size 1 objects in their path during their movement. They can break through any mundane wall made of wood, stone, or a similarly sturdy material in this way, so long as the wall is no more than 1 square thick.  
+
+**Defiant Anger**  
+The juggernaut has Weapon immunity 2 while they are winded.  
+
+## RADENWIGHTS
+
+Small, agile, and hardy, radenwights have the appearance of humanoid rodents. They’re often referred to as “ratfolk,” a name they don’t particularly mind but also don’t embrace. Should anyone ask, many radenwights speak of being a ratfolk when they’re alone, but always a radenwight when part of a group. Radenwight groups proudly call themselves a “meddle,” and have a knack for appearing where others hoped they wouldn’t or whenever they are least expected. Radenwight meddles can be found in the wilderness as easily as in any city, so long as there’s suitable work and excitement to keep the members of the meddle occupied. If radenwights’ enemies expect them to scurry away like rats, they will be painfully surprised to see the combined arrows, bodies, and blades of a meddle thrown against them all at once. Whatever radenwights do, they do it fearlessly, with deeply cherished values of bravery and fair play shining through even the most rakish and roguish of them. Radenwights aren’t above banditry if it would support the meddle, but they greatly prefer to overwhelm, knock down, and knock out their targets rather than engage in deadly violence. They prefer weapons of precision and look for opportunities to strike as they and their comrades create openings for one another.
+
+### BONDS AND BRAVADO
+
+It’s a big world out there for a bunch of small ratfolk, and radenwights learned long ago that trying to survive by running away or climbing to safety only gets you so far. Radenwights learn boldness from birth and are taught to hurl themselves fearlessly against any challenge that stands in their way. The key to this bravery is the intense bond of trust that exists between every radenwight, their comrades, and their community, and the knowledge that every other radenwight will act just as decisively as they do. In a scrap, it’s not one radenwight’s blade or arrow that brings down the foe, but the instant and instinctual follow-up from their fellows.
+
+### THE MAGIC OF MUSIC
+
+The pursuit of arcane studies is unusual among radenwights, though the community throws their support behind any child who happens to show that talent. Somewhat more common is the spontaneous discovery of magical aptitude through music, as the culture of radenwight meddles strongly emphasizes both music and dance. Radenwights are particularly drawn to flutes and panpipes, inspired by the legend of a flutist who enraptured an evil dragon while her meddle lined up a suitably sized boulder to be dropped from the cliff above.
+
+### THE GREAT MACLETTE
+
+The name Maclette is never uttered without "The Great" before it. The radenwight maestro leads his band in complex city-wide robberies that always seem to be one step ahead of any would-be ratcatchers. Some say Maclette leads his life of crime to provide for his meddle, while others claim he strives to be king of the criminal world. In truth, The Great Maclette finds beauty in the thrill of the heist. Robbery is as euphonious as music to his ears, and the maestro treats every operation like a new composition. As long as his band remains at large, he’ll always be looking to outdo himself with his next great masterpiece.
+
+### RADENWIGHT LANGUAGES
+
+Most radenwights speak Caelian and Szetch.
+
+### RADENWIGHT MALICE
+
+At the start of any radenwight’s turn, you can spend malice to activate one of the following features.
+
+- **Trouser Cut (3 Malice)**: A non-minion radenwight can use the following ability.  
+  **Trouser Cut (Action)** ◆ 2d10 + 2  
+  Keywords: Attack, Melee, Weapon  
+  Distance: Melee 1  
+  Target: One creature  
+
+  - ✦ ≤11: 5 damage; push 3  
+  - ★ 12–16: 10 damage; push 3; taunted (EoT)  
+  - ✸ 17+: 12 damage; push 5; taunted (EoT)  
+
+  Effect: If a target is wearing clothing covering the lower half of their body, they must use a maneuver to pull that clothing up before they can move.
+
+- **Rat Race (5 Malice)**: Each radenwight shifts up to their speed. Wherever a radenwight ends this movement adjacent to at least one other radenwight, they can make a melee free strike against each adjacent enemy.
+
+- **Song of the Rat Wall (7 Malice)**: A radenwight uses music to coordinate rats to form a 10' wall of living rats scurrying atop one another into unoccupied spaces anywhere on the encounter map. The wall doesn’t block line of effect for radenwights and their allies, but it does for other creatures, as the rats coordinate their movements with the radenwights. Each square of the wall has 10 Stamina. If the last radenwight in the encounter dies and the wall is still standing, the rats let out a hideous screech as they disperse. Each enemy on the encounter map must then make an Intuition resistance roll.
+
+  - ✸ ≤11: 10 sonic damage  
+  - ★ 12–16: 5 sonic damage  
+  - ✦ 17+: No effect  
+
+### STATBLOCKS
+
+#### RADENWIGHT MISCHIEVER
+
+**Level 1 Ambusher Minion**  
+*Humanoid, Radenwight*  
+**EV 7**  
+**Stamina**: 10  
+**Speed**: 7 (climb)  
+**Size**: 1S / Stability 0  
+**Free Strike**: 2  
+
+- **Might** −1  
+- **Agility** +2  
+- **Reason** +0  
+- **Intuition** +0  
+- **Presence** +0  
+
+**Dagger Dance (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Melee, Weapon  
+Distance: Melee 1 or Ranged 5  
+Target: One creature per minion  
+
+- ✦ ≤11: 2 damage  
+- ★ 12–16: 5 damage  
+- ✸ 17+: 6 damage  
+  Effect: If the mischief is hidden when they use this ability, they can target two creatures.  
+
+**Ready Rodent (Triggered Action)**  
+Keywords: Melee, Weapon  
+Distance: Melee 1  
+Target: One creature  
+Trigger: An ally deals damage to the target.  
+Effect: The mischief makes a free strike against the target.  
+
+#### RADENWIGHT RATAGAST
+
+**Level 1 Defender Minion**  
+*Humanoid, Radenwight*  
+**EV 7**  
+**Stamina**: 12  
+**Speed**: 6 (climb)  
+**Size**: 1S / Stability 0  
+**Free Strike**: 2  
+
+- **Might** −1  
+- **Agility** +1  
+- **Reason** +0  
+- **Intuition** +0  
+- **Presence** +2  
+
+**Stinky Glissando (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Magic, Melee  
+Distance: Melee 1  
+Target: One creature or object per minion  
+
+- ✦ ≤11: 2 poison damage  
+- ★ 12–16: 4 poison damage; taunted (EoT)  
+- ✸ 17+: 5 poison damage; taunted (EoT)  
+
+**Ready Rodent (Triggered Action)**  
+Keywords: Melee, Weapon  
+Distance: Melee 1  
+Target: One creature  
+Trigger: An ally deals damage to the target.  
+Effect: The ratagast makes a free strike against the target.  
+
+#### RADENWIGHT SWIFTPAW
+
+**Level 1 Harrier Minion**  
+*Humanoid, Radenwight*  
+**EV 6**  
+**Stamina**: 10  
+**Speed**: 7 (climb)  
+**Size**: 1S / Stability 0  
+**Free Strike**: 2  
+
+- **Might** +0  
+- **Agility** +2  
+- **Reason** +1  
+- **Intuition** +0  
+- **Presence** −1  
+
+**Rapier Flunge (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Melee, Weapon  
+Distance: Melee 1  
+Target: One creature or object per minion  
+
+- ✦ ≤11: 2 damage; slide 1; the swiftpaw can shift 1 square  
+- ★ 12–16: 4 damage; slide 2; the swiftpaw can shift 2 squares  
+- ✸ 17+: 5 damage; slide 3; the swiftpaw can shift 3 squares  
+
+**Ready Rodent (Triggered Action)**  
+Keywords: Melee, Weapon  
+Distance: Melee 1  
+Target: One creature  
+Trigger: An ally deals damage to the target.  
+Effect: The swiftpaw makes a free strike against the target.  
+
+#### RADENWIGHT REDEYE
+
+**Level 1 Artillery Minion**  
+*Humanoid, Radenwight*  
+**EV 6**  
+**Stamina**: 8  
+**Speed**: 5 (climb)  
+**Size**: 1S / Stability 0  
+**Free Strike**: 2  
+
+- **Might** +1  
+- **Agility** +2  
+- **Reason** −1  
+- **Intuition** +0  
+- **Presence** +0  
+
+**Eyes-On-Me Shot (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Ranged, Weapon  
+Distance: Ranged 10  
+Target: One creature or object per minion  
+
+- ✦ ≤11: 2 damage  
+- ★ 12–16: 5 damage  
+- ✸ 17+: 6 damage  
+  Effect: An ally of the redeye within 2 squares of the target can shift up to 2 squares.  
+
+**Ready Rodent (Triggered Action)**  
+Keywords: Melee, Weapon  
+Distance: Melee 1  
+Target: One creature  
+Trigger: An ally deals damage to the target.  
+Effect: The redeye makes a free strike against the target.  
+
+#### RADENWIGHT BRUXER
+
+**Level 1 Brute**  
+*Humanoid, Radenwight*  
+**EV 16**  
+**Stamina**: 40  
+**Speed**: 5 (climb)  
+**Size**: 1M / Stability 2  
+**Free Strike**: 5  
+
+- **Might** +2  
+- **Agility** +1  
+- **Reason** −1  
+- **Intuition** +0  
+- **Presence** +0  
+
+**Lockjaw (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Melee, Weapon  
+Distance: Melee 1  
+Target: One creature or object  
+
+- ✦ ≤11: 5 damage; M2 grabbed  
+- ★ 12–16: 9 damage; M3 grabbed  
+- ✸ 17+: 12 damage; grabbed  
+  Effect: While the target is grabbed, they take 2 damage at the start of each of the bruxer’s turns.  
+
+**Flurry of Bites (Action)** ◆ 2d10 + 2 ◆ 3 Malice  
+Keywords: Area, Weapon  
+Distance: 1 burst  
+Target: All enemies in the burst  
+
+- ✦ ≤11: 3 damage; A1 bleeding (save ends)  
+- ★ 12–16: 5 damage; A2 bleeding (save ends)  
+- ✸ 17+: 6 damage; A3 bleeding (save ends)  
+
+**Ready Rodent (Triggered Action)**  
+Keywords: Melee, Weapon  
+Distance: Melee 1  
+Target: One creature  
+Trigger: An ally deals damage to the target.  
+Effect: The bruxer makes a free strike against the target.  
+
+**Lockdown**  
+An enemy can’t shift while adjacent to the bruxer.  
+
+#### RADENWIGHT PIPER
+
+**Level 1 Support**  
+*Humanoid, Radenwight*  
+**EV 13**  
+**Stamina**: 30  
+**Speed**: 5 (climb)  
+**Size**: 1S / Stability 0  
+**Free Strike**: 2  
+
+- **Might** +0  
+- **Agility** +0  
+- **Reason** +0  
+- **Intuition** +2  
+- **Presence** +1  
+
+**Piercing Trill (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Magic, Melee, Ranged  
+Distance: Melee 1 or Ranged 10  
+Target: One creature or object  
+
+- ✦ ≤11: 3 sonic damage; push 1  
+- ★ 12–16: 5 sonic damage; push 3  
+- ✸ 17+: 7 sonic damage; push 4  
+  Effect: The piper or an ally within distance regains Stamina equal to half the damage dealt.  
+
+**Vivace Vivace! (Maneuver)** ◆ 3 Malice  
+Keywords: Area, Magic  
+Distance: 5 burst  
+Target: Each ally in the burst  
+Effect: Each target who has used their Ready Rodent ability since their last turn regains the use of their triggered action.  
+
+**Ready Rodent (Triggered Action)**  
+Keywords: Melee, Weapon  
+Distance: Melee 1  
+Target: One creature  
+Trigger: An ally deals damage to the target.  
+Effect: The piper makes a free strike against the target.  
+
+**Musical Suggestion**  
+At the end of the piper’s turn, they can choose an adjacent creature and slide them 2, ignoring stability.  
+
+#### RADENWIGHT RATCROBAT
+
+**Level 1 Harrier**  
+*Humanoid, Radenwight*  
+**EV 13**  
+**Stamina**: 30  
+**Speed**: 7 (climb)  
+**Size**: 1S / Stability 0  
+**Free Strike**: 5  
+
+- **Might** −1  
+- **Agility** +2  
+- **Reason** +0  
+- **Intuition** +0  
+- **Presence** +1  
+
+**En Garde! (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Melee, Weapon  
+Distance: Melee 1  
+Target: Two creatures or objects  
+
+- ✦ ≤11: 2 damage  
+- ★ 12–16: 5 damage  
+- ✸ 17+: 6 damage  
+  Effect: The ratcrobat can shift up to 2 squares after attacking the first target, then can shift 1 square after attacking the second target.  
+
+**Over Here, Thanks (Maneuver)**  
+Keywords: Melee  
+Distance: Melee 1  
+Target: One enemy  
+Effect: Slide 3; the ratcrobat can then shift into any of the squares the target left.  
+
+**Ready Rodent (Triggered Action)**  
+Keywords: Melee, Weapon  
+Distance: Melee 1  
+Target: One creature  
+Trigger: An ally deals damage to the target.  
+Effect: The ratcrobat makes a free strike against the target.  
+
+**Gymratstics**  
+The ratcrobat has an edge on attacks against larger creatures.  
+
+#### RADENWIGHT MAESTRO
+
+**Level 1 Leader**  
+*Humanoid, Radenwight*  
+**EV 38**  
+**Stamina**: 80  
+**Speed**: 5 (climb)  
+**Size**: 1S / Stability 1  
+**Free Strike**: 5  
+
+- **Might** −2  
+- **Agility** +2  
+- **Reason** +0  
+- **Intuition** +0  
+- **Presence** +3  
+
+**Cacophony (Action)** ◆ 2d10 + 3 ◆ Signature  
+Keywords: Area, Magic  
+Distance: 5 burst  
+Target: All enemies in the burst  
+
+- ✦ ≤11: 3 sonic damage; slide 1; the maestro can shift 1 square  
+- ★ 12–16: 5 sonic damage; slide 3; the maestro can shift 3 squares  
+- ✸ 17+: 7 sonic damage; slide 5; the maestro can shift 5 squares  
+  Effect: Each ally within distance can use Ready Rodent as a free triggered action once before the end of the round.  
+
+**Tempo Change (Maneuver)** ◆ PRS RR  
+Keywords: Magic, Ranged, Resistance  
+Distance: Ranged 10  
+Target: Two enemies  
+
+- ✸ ≤11: Slowed (save ends)  
+- ★ 12–16: Slowed (EoT)  
+- ✦ 17+: No effect  
+  3 Malice: Each ally within 3 of a target has their speed increased by 2 until the end of their next turn.  
+
+**Ever Ready Rodent (Free Triggered Action)** ◆ 2 Malice  
+Keywords: Magic, Melee, Ranged  
+Distance: Ranged 5  
+Target: One creature  
+Trigger: The target deals damage to an ally or takes damage from an ally.  
+Effect: The maestro makes a free strike against the target. The maestro can only use this ability once per turn.  
+
+**End Effect**  
+At the end of their turn, the maestro can take 5 damage to end one save ends effect affecting them. This damage can’t be reduced in any way.  
+
+**Overture (Villain Action 1)**  
+Keywords: Area  
+Distance: 10 burst  
+Target: All allies in the burst  
+Effect: Each target shifts up to their speed or takes the Defend action.  
+
+**Solo Act (Villain Action 2)**  
+Keywords: Ranged  
+Distance: Ranged 15  
+Target: One creature  
+Effect: Until the end of their next turn, the target gains invisibility, a boon, and their speed is doubled.  
+
+**Rondo of Rat (Villain Action 3)**  
+Keywords: Area  
+Distance: 10 burst  
+Target: All dead allies in the burst  
+Effect: Each target stands, makes a free strike, then collapses again. Allies of the targets can use Ready Rodent as a free triggered action once in conjunction with these free strikes.  
+
+
+## UNDEAD
+
+> CONTENT WARNING: BODY HORROR
+>
+> This section contains references to grisly body horror and viscera. To alleviate player discomfort, you can modify descriptions and abilities to be more incorporeal or spectral as needed.
+
+Some serve as mindless soldiers and workers under the control of a necromancer. Others rise when they die a bitter death in a place infused with cursed magic. For a few, it was a choice to become something other than a mortal. No matter the reason for their creation, all undead were once living creatures who walk the land after death in defiance of the natural order. 
+
+Rotting zombies, seductive vampires, wailing wraiths, and more undead stalk the widespread horror stories nobles and commoners alike tell each other around low-burning hearths. Even the most isolated hermits know that the dead can rise, eager to kill. These popular tales fuel many people’s fears of the undead. Mere rumors of a nearby ghoul pack can send an entire community into a panic. When open graves appear in the churchyard or a translucent spirit is spotted on the street, local leaders are quick to hire adventurers to deal with the threat.
+
+### DARK PLACES
+
+For many undead, sunlight is a nuisance that they naturally avoid. While it is rarely harmful to them, the sun’s golden rays make them uncomfortable and seem to shine far too bright to their dead eyes. Walking in the light of day also makes it easier for fearful mortals to spot an undead. Many undead avoid the sun entirely, hiding in tombs or ruins until nightfall when they can freely stalk their victims.
+
+### ENCOUNTERED TOGETHER
+
+Undead creatures are often encountered in groups that include more than just a single kind of creature. A necromancer might raise zombies, skeletons, and ghouls to protect their mansion, as each serves a different function as a guardian. A lich could have wraiths as messengers and wights as laboratory assistants. An ancient tomb might have mummies and vampires within. The undead don’t need to drink, eat, sleep, or breathe, and many share an affinity for lightless places, leading to these congregations.
+
+### CORPOREAL UNDEAD
+
+At their most innocuous, corporeal undead are a mockery of life, a body dragged along by unnatural strings. At their worst, they are a violent scourge hungry for slaughter, a perverse reflection of the mortal desire to exist for eternity. Ghouls, skeletons, wights, and zombies number among the lesser corporeal undead. Most lack a soul, and many can’t think beyond the orders of their creators (unlike more powerful corporeal undead, such as liches and vampires). Those who aren’t controlled by others typically have a singular focus: the destruction of all living things.
+
+The magic that animates a corpse removes the need for air, sleep, and sustenance. These spells also halt decay, preserving the undead at the stage of deterioration when magic touched them. While most corporeal undead are brought to unlife by a creator, there are tales of zombies suddenly rising from graveyards during rare astrological occurrences, skeletal soldiers emerging from mass graves on the anniversary of their death, and other seemingly spontaneous acts of necromancy.
+
+### INCORPOREAL UNDEAD
+
+Shadows. Specters. Wraiths. Spectral undead come in many forms. One might be formed by a person’s vile actions in life, while another could be a soul lost to a necromancer’s dark art. Powerful undead can even manifest these shadowy beings into existence through sheer will. Regardless of how they come to be, spectral undead are malice incarnate.
+
+Spectral undead who naturally formed from the souls of malicious, hate-filled humanoids usually haunt the places where they died, while those manifested by another being serve their creator. Left to their own devices, spectral undead stop at nothing to slaughter living creatures they encounter. Some even leave the places they haunt to stalk their quarry over miles of wilderness.
+
+### UNDEAD LANGUAGES
+
+Most undead creatures speak the languages they knew in life.
+
+### UNDEAD MALICE
+
+At the start of any undead creature’s turn, you can spend malice to activate one of the following features.
+
+- **Paranormal Fling (3 Malice)**: Up to three objects on the encounter map that aren’t held or tethered to the ground float 1 square off the ground. Each object is then pulled 5 squares toward the nearest enemy within 3 squares of the object.
+
+- **The Grasping, The Hungry (5 Malice)**: Ravenous and rotting undead arms burst forth from 9 connected squares of a vertical or horizontal surface. A creature who ends their turn adjacent to an affected vertical surface or within 1 square of an affected horizontal surface must make an Agility resistance roll:  
+
+  - ✸ ≤11: 5 damage; restrained (save ends)  
+  - ★ 12–16: 5 damage; restrained (EoT)  
+  - ✦ 17+: 5 damage  
+
+  Any creature who starts their turn restrained by the arms takes 1d6 damage.
+
+- **Dread March (7 Malice)**: Each undead creature in the encounter moves up to their speed and can make a free strike against two targets. If an undead creature is reduced to Stamina 0 during this dread march, they don’t die until their movement and attacks are resolved.
+
+#### INTENSITY TALLY
+
+At the end of each round, keep an intensity tally of the number of living heroes not adjacent to one or more undead creatures. When that number reaches the number of heroes in the encounter, you can spend 3 malice to activate the following feature.
+
+- **Ravenous Horde (3 Malice)**: Each living hero in the encounter is beset by two rotting zombies who burst out of unoccupied spaces 4 squares away. The number of rotting zombies increases to three per hero when three or fewer heroes remain alive in the encounter. Reset the intensity tally to 0.
+
+### STATBLOCKS
+
+#### CRAWLING CLAW
+
+**Level 1 Harrier Minion**  
+*Corporeal, Undead*  
+**EV 2**  
+**Stamina**: 5  
+**Immunity**: Corruption 2, Poison 2  
+**Speed**: 6 (climb)  
+**Size**: 1T / Stability 0  
+**Free Strike**: 1  
+
+- **Might** 0  
+- **Agility** +2  
+- **Reason** −5  
+- **Intuition** −1  
+- **Presence** −1  
+
+**Fingernails (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Melee, Weapon  
+Distance: Melee 1  
+Target: One creature or object per minion  
+
+- ✦ ≤11: 1 damage  
+- ★ 12–16: 2 damage  
+- ✸ 17+: 3 damage  
+  Effect: The crawling claw shifts a number of squares equal to the damage dealt.  
+
+**Disorganized**  
+The crawling claw can’t grant the flanking benefit to allies.  
+
+#### DECREPIT SKELETON
+
+**Level 1 Artillery Minion**  
+*Corporeal, Undead*  
+**EV 2**  
+**Stamina**: 4  
+**Immunity**: Corruption 2, Poison 2  
+**Speed**: 5  
+**Size**: 1M / Stability −2  
+**Free Strike**: 2  
+
+- **Might** 0  
+- **Agility** +2  
+- **Reason** −2  
+- **Intuition** +0  
+- **Presence** −2  
+
+**Bone Bow (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Ranged, Weapon  
+Distance: Ranged 10  
+Target: One creature or object per minion  
+
+- ✦ ≤11: 2 damage  
+- ★ 12–16: 3 damage  
+- ✸ 17+: 4 damage  
+  Effect: The decrepit skeleton chooses one other target within distance to take 1 damage.  
+
+**Bonetrops**  
+When the decrepit skeleton is reduced to Stamina 0, its space becomes difficult terrain. The first time any enemy enters this space, they take 1 damage.  
+
+#### ROTTING ZOMBIE
+
+**Level 1 Brute Minion**  
+*Corporeal, Undead*  
+**EV 4**  
+**Stamina**: 8  
+**Immunity**: Corruption 2, Poison 2  
+**Speed**: 6  
+**Size**: 1M / Stability 0  
+**Free Strike**: 2  
+
+- **Might** +2  
+- **Agility** −2  
+- **Reason** −5  
+- **Intuition** −2  
+- **Presence** −3  
+
+**Rotting Fist (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Melee, Weapon  
+Distance: Melee 1  
+Target: One creature or object per minion  
+
+- ✦ ≤11: 2 damage  
+- ★ 12–16: 3 damage; M1 slowed (save ends)  
+- ✸ 17+: 4 damage; M2 prone if size 1, slowed (save ends) otherwise  
+
+**Arise Together**  
+If the rotting zombie’s captain has the Arise trait, the zombie also gains the Arise trait.  
+
+#### SHADE
+
+**Level 1 Ambusher Minion**  
+*Incorporeal, Undead*  
+**EV 3**  
+**Stamina**: 5  
+**Immunity**: Corruption 2, Poison 2  
+**Speed**: 5 (fly)  
+**Size**: 1M / Stability 1  
+**Free Strike**: 2  
+
+- **Might** −5  
+- **Agility** +1  
+- **Reason** 0  
+- **Intuition** +0  
+- **Presence** +2  
+
+**Life Drain (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Melee, Weapon  
+Distance: Melee 1  
+Target: One creature or object per minion  
+
+- ✦ ≤11: 2 corruption damage  
+- ★ 12–16: 3 corruption damage  
+- ✸ 17+: 4 corruption damage; the target moves up to their speed away from all shades  
+
+**Corruptive Phasing**  
+The shade can move through other creatures and objects at normal speed. The first time in a round that the shade passes through a creature, that creature takes 2 corruption damage.  
+
+#### GHOUL
+
+**Level 1 Harrier**  
+*Corporeal, Undead*  
+**EV 8**  
+**Stamina**: 15  
+**Immunity**: Corruption 3, Poison 3  
+**Speed**: 7  
+**Size**: 1M / Stability 0  
+**Free Strike**: 3  
+
+- **Might** 0  
+- **Agility** +2  
+- **Reason** −2  
+- **Intuition** +0  
+- **Presence** −1  
+
+**Razor Claws (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Charge, Melee, Weapon  
+Distance: Melee 1  
+Target: One creature or object  
+
+- ✦ ≤11: 2 damage; M1 bleeding (save ends)  
+- ★ 12–16: 4 damage; M2 bleeding (save ends)  
+- ✸ 17+: 5 damage; M3 bleeding (save ends)  
+
+**Leap (Maneuver)**  
+Keywords: —  
+Distance: Self  
+Target: Self  
+Effect: The ghoul leaps 3 squares. If they land on a size 1 enemy, that enemy is knocked prone and the ghoul makes a free strike against them.  
+
+**Hunger**  
+If the ghoul charges, their speed increases by 2 until the end of their turn.  
+
+**Arise**  
+The first time the ghoul is reduced to Stamina 0 by damage that isn’t fire damage or holy damage and their body isn’t destroyed, they regain half their Stamina and fall prone.  
+
+#### SKELETON
+
+**Level 1 Artillery**  
+*Corporeal, Undead*  
+**EV 8**  
+**Stamina**: 12  
+**Immunity**: Corruption 3, Poison 3  
+**Speed**: 5  
+**Size**: 1M / Stability −2  
+**Free Strike**: 4  
+
+- **Might** 0  
+- **Agility** +1  
+- **Reason** +1  
+- **Intuition** +0  
+- **Presence** −1  
+
+**Bone Shards (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Melee, Ranged, Weapon  
+Distance: Melee 1 or Ranged 10  
+Target: One creature or object  
+
+- ✦ ≤11: 2 damage  
+- ★ 12–16: 5 damage  
+- ✸ 17+: 6 damage  
+  Effect: Until the start of the skeleton’s next turn, the target takes 2 damage the first time they move on their turn.  
+
+**Bone Spur (Maneuver)** ◆ 2d10 + 2 ◆ 2 Malice  
+Keywords: Area, Weapon  
+Distance: 1 burst  
+Target: Each enemy in the burst  
+
+- ✦ ≤11: 1 damage; M1 bleeding (save ends)  
+- ★ 12–16: 2 damage; M2 bleeding (save ends)  
+- ✸ 17+: 3 damage; M3 bleeding (save ends)  
+  Effect: Each target has a bane on their next attack until the start of the skeleton’s next turn.  
+
+**Arise**  
+The first time the skeleton is reduced to Stamina 0 by damage that isn’t fire damage or holy damage and their body isn’t destroyed, they regain half their Stamina and fall prone.  
+
+#### SPECTER
+
+**Level 1 Hexer**  
+*Incorporeal, Undead*  
+**EV 7**  
+**Stamina**: 12  
+**Immunity**: Corruption 3, Poison 3  
+**Speed**: 5 (fly)  
+**Size**: 1M / Stability 1  
+**Free Strike**: 2  
+
+- **Might** −5  
+- **Agility** +1  
+- **Reason** 0  
+- **Intuition** +0  
+- **Presence** +2  
+
+**Decaying Touch (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Magic, Melee  
+Distance: Melee 1  
+Target: One creature  
+
+- ✦ ≤11: 2 corruption damage; P1 weakened (save ends)  
+- ★ 12–16: 4 corruption damage; P2 weakened (save ends)  
+- ✸ 17+: 5 corruption damage; P3 weakened (save ends)  
+
+  2 Malice: The potency of this ability increases by 1. A living creature killed by this ability becomes a specter who appears in the target’s space under the Director's control.  
+
+**Hidden Movement (Maneuver)**  
+Keywords: —  
+Distance: Self  
+Target: Self  
+Effect: The specter turns invisible, moves up to their speed, and becomes visible again.  
+
+**Corruptive Phasing**  
+The specter can move through other creatures and objects at normal speed. The first time in a round that the specter passes through a creature, that creature takes 2 corruption damage.  
+
+#### UMBRAL STALKER
+
+**Level 1 Ambusher**  
+*Incorporeal, Undead*  
+**EV 9**  
+**Stamina**: 15  
+**Immunity**: Corruption 3, Poison 3  
+**Speed**: 7 (climb)  
+**Size**: 1M / Stability 1  
+**Free Strike**: 2  
+
+- **Might** 0  
+- **Agility** +2  
+- **Reason** 0  
+- **Intuition** +0  
+- **Presence** +1  
+
+**Chilling Grasp (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Magic, Melee  
+Distance: Melee 1  
+Target: One creature or object  
+
+- ✦ ≤11: 2 cold damage  
+- ★ 12–16: 5 cold damage  
+- ✸ 17+: 6 cold damage  
+  Effect: The shadow can shift up to 2 squares before or after this attack.  
+
+**Freezing Dark (Action)** ◆ 2d10 + 2 ◆ 3 Malice  
+Keywords: Area, Magic, Ranged  
+Distance: 3 cube within 1  
+Target: Each enemy in the cube  
+
+- ✦ ≤11: 1 cold damage  
+- ★ 12–16: 2 cold damage  
+- ✸ 17+: 3 cold damage  
+  Effect: Until the end of the umbral stalker’s next turn, the area is concealed and blocks line of effect for all enemies.  
+
+**Shadow Jump (Free Maneuver)** ◆ 1 Malice  
+The umbral stalker teleports to an unoccupied space in concealment within 10 squares.  
+
+**Corruptive Phasing**  
+The umbral stalker can move through other creatures and objects at normal speed. The first time in a round that the umbral stalker passes through a creature, that creature takes 2 corruption damage.  
+
+#### WIGHT
+
+**Level 1 Hexer**  
+*Corporeal, Undead*  
+**EV 7**  
+**Stamina**: 12  
+**Immunity**: Corruption 3, Poison 3  
+**Speed**: 5  
+**Size**: 1M / Stability 0  
+**Free Strike**: 2  
+
+- **Might** +2  
+- **Agility** +1  
+- **Reason** 0  
+- **Intuition** +0  
+- **Presence** +1  
+
+**Lifestealer Longsword (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Melee, Weapon  
+Distance: Melee 1  
+Target: One creature or object  
+
+- ✦ ≤11: 2 corruption damage  
+- ★ 12–16: 4 corruption damage; M1 slowed (save ends)  
+- ✸ 17+: 5 corruption damage; M2 slowed and weakened (save ends)  
+
+  Effect: The target appears to rapidly age each time they take damage from this attack. The target regains their former appearance when the wight is destroyed.  
+
+**Raise (Maneuver)** ◆ 3 Malice  
+Keywords: Magic, Ranged  
+Distance: Ranged 3  
+Target: One dead ally  
+Effect: The target revives with half their Stamina. The wight can’t use this maneuver again until they attack a creature with their lifestealer longsword.  
+
+**Arise**  
+The first time the wight is reduced to Stamina 0 by damage that isn’t fire damage or holy damage and their body isn’t destroyed, they regain half their Stamina and fall prone.  
+
+#### ZOMBIE
+
+**Level 1 Brute**  
+*Corporeal, Undead*  
+**EV 10**  
+**Stamina**: 20  
+**Immunity**: Corruption 3, Poison 3  
+**Speed**: 6  
+**Size**: 1M / Stability 1  
+**Free Strike**: 4  
+
+- **Might** +2  
+- **Agility** +1  
+- **Reason** −5  
+- **Intuition** −2  
+- **Presence** +1  
+
+**Clobber and Clutch (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Melee, Weapon  
+Distance: Melee 1  
+Target: One creature or object  
+
+- ✦ ≤11: 2 damage; M1 grabbed  
+- ★ 12–16: 5 damage; M2 grabbed  
+- ✸ 17+: 6 damage; grabbed  
+
+  Effect: A target who starts their turn grabbed by the zombie takes 2 corruption damage. If a creature takes 5 or more corruption damage this way, they become insatiably hungry for flesh. The target must complete the Find a Cure project to end this effect.  
+
+**Breakfall (Maneuver)** ◆ 2d10 + 2 ◆ 3 Malice  
+Keywords: Area, Resistance  
+Distance: 2 burst  
+Target: Each enemy in the burst  
+
+- ✦ ≤11: 2 corruption damage  
+- ★ 12–16: 3 corruption damage; M1 weakened (save ends)  
+- ✸ 17+: 4 corruption damage; M2 dazed (save ends)  
+
+**Arise**  
+The first time the zombie is reduced to Stamina 0 by damage that isn’t fire damage or holy damage and their body isn’t destroyed, they regain half their Stamina and fall prone.  
+
+**Endless Knight**  
+The zombie can take advantage of their Arise trait twice.  
+
+#### GHOST
+
+**Level 1 Leader**  
+*Incorporeal, Undead*  
+**EV 20**  
+**Stamina**: 40  
+**Immunity**: Corruption 5, Poison 5  
+**Speed**: 6 (fly)  
+**Size**: 1M / Stability 1  
+**Free Strike**: 2  
+
+- **Might** −2  
+- **Agility** +2  
+- **Reason** 0  
+- **Intuition** +0  
+- **Presence** +3  
+
+**Heat Death (Action)** ◆ 2d10 + 3 ◆ Signature  
+Keywords: Attack, Magic, Ranged  
+Distance: Ranged 5  
+Target: Two creatures  
+
+- ✦ ≤11: 2 cold damage; P2 slowed (save ends)  
+- ★ 12–16: 5 cold damage; P3 slowed (save ends)  
+- ✸ 17+: 6 cold damage; P2 slowed (save ends)  
+
+  Effect: The next attack made against a target has edge.  
+
+**Haunt (Maneuver)**  
+Keywords: Ranged  
+Distance: Ranged 8  
+Target: Self or one incorporeal ally  
+Effect: The target shifts up to their speed.  
+  2 Malice: The ghost chooses one additional target.  
+
+**Shriek (Triggered Action)** ◆ 1 Malice  
+Keywords: Magic  
+Distance: Melee 1  
+Target: The triggering creature  
+Trigger: A creature within distance targets the ghost with an attack.  
+Effect: The ghost has resistance against the attack, and the target takes 2 sonic damage.  
+
+**Phantom Flow**  
+Each incorporeal undead creature within 10 squares of the ghost ignores difficult terrain.  
+
+**Paranormal Activity (Villain Action 1)**  
+Keywords: Area, Magic  
+Distance: 5 burst  
+Target: Each size 1S or larger object in the burst  
+Effect: Each target floats 1 square into the air and is pulled 5 squares toward the nearest enemy within 3 squares of the target.  
+
+**Spirited Away (Villain Action 2)** ◆ PRS RR  
+Keywords: Area, Magic, Resistance  
+Distance: 5 burst  
+Target: Each enemy in the burst  
+
+- ✸ ≤11: Levitated (EoE) (see effect)  
+- ★ 12–16: Levitated (EoT)  
+- ✦ 17+: No effect  
+
+  Effect: A levitated target floats 1 square off the ground when they are first affected, then rises 1 square at the end of each of their turns. If a levitated target can’t already fly, they can fly but are slowed and weakened while flying in this way.  
+
+**Awful Wail (Villain Action 3)** ◆ 2d10 + 3  
+Keywords: Area, Magic, Resistance  
+Distance: 5 burst  
+Target: Each enemy in the burst  
+
+- ✦ ≤11: 2 sonic damage  
+- ★ 12–16: 5 sonic damage  
+- ✸ 17+: 5 sonic damage  
+
+  Effect: P3: The target is reduced to 1 Stamina if they have 2 or more Stamina after taking damage.  
+
+**Corruptive Phasing**  
+The ghost can move through other creatures and objects at normal speed. The first time in a round that the ghost passes through a creature, that creature takes 2 corruption damage.  
+
+## WAR DOGS
+
+> CONTENT WARNING: BRAINWASHING AND BODY HORROR
+>
+> War dogs are explicitly evil soldiers built from the body parts of  various humans. They are created brainwashed and indoctrinated  to carry out the vile orders of Ajax, a tyrant who wants to rule the  world. Check in with your players before running war dogs to  make sure that they’re okay with battling these brainwashed  soldiers with an appearance akin to Frankenstein’s monster if he  were built to be a shock troop. If anyone is uncomfortable, modify  the appearance and lore of the war dogs as you see fit. 
+
+**Ajax’s War Dogs**—brutal patchwork soldiers—owe their new lives to the Iron Saint, and fight for him fanatically. War Dog minions are the freshest recruits, possessing minimal patchwork qualities and generally treated as disposable. Those who survive a battle are rewarded with gifts from the Body Banks. Those who don’t survive become material for those Body Banks.
+
+### WAR DOG LANGUAGES
+
+Most war dogs speak Caelian and one Vaslorian human language.
+
+### WAR DOG MALICE
+
+At the start of any war dog’s turn, you can spend malice to activate one of the following features:
+
+- **Reconstitute (3 Malice)**: One war dog acting this turn tears apart a nearby corpse of a humanoid and incorporates its body parts into their own. The war dog regains Stamina equal to 5 times their level.
+- **Fire for Effect (5 Malice)**: One war dog acting this turn can use the following maneuver:
+  - **Fire for Effect (Maneuver)** ◆ AGL RR  
+    Keywords: Area, Magic, Ranged, Resistance  
+    Distance: 4 cube within 10  
+    Target: Each creature in the cube  
+    - ✸ ≤11: 7 fire damage; slowed (save ends)  
+    - ★ 12–16: 6 fire damage; slowed (EoT)  
+    - ✦ 17+: 3 fire damage  
+- **Fodder Run (7 Malice)**: Each war dog minion in the battle can shift up to their speed, make a free strike, and then die.
+
+### STATBLOCKS
+
+#### WAR DOG COMMANDO  
+  
+**Level 1 Ambusher Minion**  
+*Humanoid, War Dog*  
+**EV 5**  
+**Stamina**: 8  
+**Speed**: 5  
+**Size**: 1M / Stability 0  
+**Free Strike**: 2  
+  
+- **Might** +0  
+- **Agility** +2  
+- **Reason** +0  
+- **Intuition** +0  
+- **Presence** +0  
+  
+**Daggers (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Melee, Ranged, Weapon  
+Distance: Melee 1 or Ranged 5  
+Target: One creature per minion  
+  
+- ✦ ≤11: 2 damage  
+- ★ 12–16: 4 damage  
+- ✸ 17+: 5 damage  
+  Effect: The commando can use the Hide maneuver, even if observed.  
+  
+**Loyalty Collar**  
+When the commando dies, they explode, dealing 1d6 damage to each adjacent enemy.
+
+#### WAR DOG CONSCRIPT  
+  
+**Level 1 Harrier Minion**  
+*Humanoid, War Dog*  
+**EV 4**  
+**Stamina**: 8  
+**Speed**: 7  
+**Size**: 1M / Stability 0  
+**Free Strike**: 2  
+  
+- **Might** +2  
+- **Agility** +0  
+- **Reason** +0  
+- **Intuition** +0  
+- **Presence** +0  
+  
+**Blade (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Charge, Melee, Ranged, Weapon  
+Distance: Melee 1 or Ranged 5  
+Target: One creature per minion  
+  
+- ✦ ≤11: 2 damage  
+- ★ 12–16: 3 damage  
+- ✸ 17+: 4 damage  
+  Effect: If this ability is used as part of the Charge action, the conscript has **edge** on the attack.  
+  
+**Loyalty Collar**  
+When the conscript dies, they explode, dealing 1d6 damage to each adjacent enemy.
+
+#### WAR DOG SHARPSHOOTER  
+  
+**Level 1 Artillery Minion**  
+*Humanoid, War Dog*  
+**EV 4**  
+**Stamina**: 8  
+**Speed**: 7  
+**Size**: 1M / Stability 0  
+**Free Strike**: 2  
+  
+- **Might** +0  
+- **Agility** +2  
+- **Reason** +0  
+- **Intuition** +0  
+- **Presence** +0  
+  
+**Bolt Launcher (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Ranged, Weapon  
+Distance: Ranged 5  
+Target: One creature or object per minion  
+  
+- ✦ ≤11: 2 damage  
+- ★ 12–16: 3 damage  
+- ✸ 17+: 4 damage  
+  Effect: This ability ignores cover and concealment.  
+  
+**Loyalty Collar**  
+When the sharpshooter dies, they explode, dealing 1d6 damage to each adjacent enemy.
+
+#### WAR DOG TETHERITE  
+
+**Level 1 Brute Minion**  
+*Humanoid, War Dog*  
+**EV 6**  
+**Stamina**: 8  
+**Speed**: 5  
+**Size**: 1M / Stability 0  
+**Free Strike**: 2  
+
+- **Might** +2  
+- **Agility** +0  
+- **Reason** +0  
+- **Intuition** +0  
+- **Presence** +0  
+
+**Banded Dagger (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Melee, Weapon  
+Distance: Melee 2  
+Target: One creature or object per minion  
+
+- ✦ ≤11: 2 damage  
+- ★ 12–16: 4 damage  
+- ✸ 17+: 5 damage  
+
+**Tethered**  
+A captain attached to a tetherite squad has their Stability increased by the number of tetherites within 2 squares of them.  
+
+**Loyalty Collar**  
+When the tetherite dies, they explode, dealing 1d6 damage to each adjacent enemy.
+
+#### WAR DOG COGNIVITE  
+
+**Level 1 Defender**  
+*Humanoid, War Dog*  
+**EV 11**  
+**Stamina**: 25  
+**Immunity**: Psychic 3  
+**Speed**: 5 (fly)  
+**Size**: 1M / Stability 0  
+**Free Strike**: 2  
+
+- **Might** +0  
+- **Agility** +1  
+- **Reason** +0  
+- **Intuition** +0  
+- **Presence** +2  
+
+**Synlirii Grafts (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Area, Psionic  
+Distance: 1 burst  
+Target: Each enemy in the burst  
+
+- ✦ ≤11: 2 psychic damage; vertical slide 1  
+- ★ 12–16: 4 psychic damage; vertical slide 2  
+- ✸ 17+: 5 psychic damage; vertical slide 3  
+
+**Posthumous Promotion (Maneuver)**  
+Keywords: Magic, Ranged  
+Distance: Ranged 10  
+Target: One war dog with a loyalty collar  
+Effect: The target’s loyalty collar detonates, killing them instantly.  
+
+**The Voice (Maneuver)** ◆ 1 Malice  
+Keywords: Area, Psionic  
+Distance: 5 burst  
+Target: Each enemy in the burst  
+Effect: The cognivite chooses an ally within 10 squares, then chooses whether each target is taunted by the ally or the ally has **cover** whenever they’re attacked by a target until the start of the cognivite’s next turn.  
+
+**Loyalty Collar**  
+When the cognivite dies, they explode, dealing 1d6 damage to each adjacent enemy.
+
+#### WAR DOG CRUCIBITE  
+
+**Level 1 Artillery**  
+*Humanoid, War Dog*  
+**EV 10**  
+**Stamina**: 15  
+**Speed**: 5  
+**Size**: 1M / Stability 0  
+**Free Strike**: 2  
+
+- **Might** +0  
+- **Agility** +2  
+- **Reason** +0  
+- **Intuition** +0  
+- **Presence** +0  
+
+**Flamebelcher (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Area, Weapon  
+Distance: 5 × 1 line within 1  
+Target: All creatures and objects  
+
+- ✦ ≤11: 2 fire damage  
+- ★ 12–16: 5 fire damage  
+- ✸ 17+: 6 fire damage  
+  Effect: The area is covered in sticky fire until the start of the crucibite’s next turn. Whenever a creature enters the area for the first time in a round or starts their turn there, they take 2 fire damage.  
+  - 3 Malice: The area increases to a 10 × 1 line, and if any ally of the crucibite is in the area when it is created, the crucibite has **edge** on the ability.  
+
+**Posthumous Promotion (Maneuver)**  
+Keywords: Magic, Ranged  
+Distance: Ranged 10  
+Target: One war dog with a loyalty collar  
+Effect: The target’s loyalty collar detonates, killing them instantly.  
+
+**Loyalty Collar**  
+When the crucibite dies, they explode, dealing 1d6 damage to each adjacent enemy.
+
+#### WAR DOG EVISCERITE  
+
+**Level 1 Harrier**  
+*Humanoid, War Dog*  
+**EV 10**  
+**Stamina**: 20  
+**Speed**: 7  
+**Size**: 1M / Stability 0  
+**Free Strike**: 3  
+
+- **Might** +1  
+- **Agility** +2  
+- **Reason** +0  
+- **Intuition** +0  
+- **Presence** +0  
+
+**Chainsaw Whip (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Melee, Weapon  
+Distance: Melee 3  
+Target: One creature or object  
+
+- ✦ ≤11: 3 damage  
+- ★ 12–16: 5 damage; pull 1  
+- ✸ 17+: 7 damage; pull 2  
+  Effect: The eviscerite can grab a target pulled adjacent to them by this ability.  
+
+**Posthumous Promotion (Maneuver)**  
+Keywords: Magic, Ranged  
+Distance: Ranged 10  
+Target: One war dog with a loyalty collar  
+Effect: The target’s loyalty collar detonates, killing them instantly.  
+
+**Loyalty Collar**  
+When the eviscerite dies, they explode, dealing 1d6 damage to each adjacent enemy.
+
+#### WAR DOG PORTALITE  
+
+**Level 1 Ambusher**  
+*Humanoid, War Dog*  
+**EV 11**  
+**Stamina**: 20  
+**Speed**: 5 (teleport)  
+**Size**: 1M / Stability 0  
+**Free Strike**: 3  
+
+- **Might** +0  
+- **Agility** +2  
+- **Reason** +0  
+- **Intuition** +0  
+- **Presence** +0  
+
+**Corrupted Ash Daggers (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Melee, Ranged, Weapon  
+Distance: Melee 1 or Ranged 5  
+Target: One creature or object  
+
+- ✦ ≤11: 3 damage; slide 1  
+- ★ 12–16: 5 damage; slide 2  
+- ✸ 17+: 7 damage; slide 3  
+  Effect: The portalite has **edge** on the attack if an ally is adjacent to the target.  
+  - 1 Malice: The portalite teleports the target 3 squares before sliding them.  
+
+**Posthumous Promotion (Maneuver)**  
+Keywords: Magic, Ranged  
+Distance: Ranged 10  
+Target: One war dog with a loyalty collar  
+Effect: The target’s loyalty collar detonates, killing them instantly.  
+
+**Corrupted Ash Teleport (Maneuver)** ◆ 1 Malice  
+Keywords: Magic  
+Distance: Self  
+Target: Self  
+Effect: The portalite teleports up to 5 squares and has **edge** on attacks until the end of their turn.  
+
+**Loyalty Collar**  
+When the portalite dies, they explode, dealing 1d6 damage to each adjacent enemy.
+
+#### WAR DOG AMALGAMITE  
+
+**Level 2 Brute**  
+*Humanoid, War Dog*  
+**EV 15**  
+**Stamina**: 35  
+**Speed**: 5  
+**Size**: 2 / Stability 2  
+**Free Strike**: 4  
+
+- **Might** +2  
+- **Agility** +0  
+- **Reason** +0  
+- **Intuition** +0  
+- **Presence** +0  
+
+**Several Arms (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Melee, Weapon  
+Distance: Melee 2  
+Target: Two creatures or objects  
+
+- ✦ ≤11: 3 damage; A1 grabbed  
+- ★ 12–16: 4 damage; A2 grabbed  
+- ✸ 17+: 5 damage; A3 grabbed  
+  Special: The amalgamite can grab up to four creatures.  
+  - 5 Malice: The amalgamite deals an additional 4 damage to each creature they have grabbed and regains Stamina equal to the damage dealt.  
+
+**Posthumous Promotion (Maneuver)**  
+Keywords: Magic, Ranged  
+Distance: Ranged 10  
+Target: One war dog with a loyalty collar  
+Effect: The target’s loyalty collar detonates, killing them instantly.  
+
+**Loyalty Collar**  
+When the amalgamite dies, they explode, dealing 1d6 damage to each adjacent enemy.
+
+#### WAR DOG PHOSPHORITE  
+
+**Level 2 Hexer**  
+*Humanoid, War Dog*  
+**EV 10**  
+**Stamina**: 20  
+**Immunity**: Acid 3  
+**Speed**: 5  
+**Size**: 1M / Stability 0  
+**Free Strike**: 2  
+
+- **Might** +0  
+- **Agility** +1  
+- **Reason** +0  
+- **Intuition** +0  
+- **Presence** +0  
+
+**Caustic Detonator (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Magic, Ranged  
+Distance: Ranged 10  
+Target: One creature or object  
+Effect: A detonator attaches to the target. At the end of each round, roll a die. On an odd result, the detonator explodes, triggering the power roll.  
+
+- ✦ ≤11: 3 acid damage; M1 bleeding (save ends)  
+- ★ 12–16: 5 acid damage; M2 bleeding (save ends)  
+- ✸ 17+: 7 acid damage; M3 bleeding (save ends)  
+  Special: An adjacent creature can attempt an easy Agility test to remove the detonator as a maneuver. A failure does nothing, a success disarms and destroys the detonator, and a success with a reward allows the disarming creature to throw the detonator onto another target within 5 squares.  
+
+**Posthumous Promotion (Maneuver)**  
+Keywords: Magic, Ranged  
+Distance: Ranged 10  
+Target: One war dog with a loyalty collar  
+Effect: The target’s loyalty collar detonates, killing them instantly.  
+
+**Loyalty Collar**  
+When the phosphorite dies, they explode, dealing 1d6 damage to each adjacent enemy.
+
+#### WAR DOG SUBCOMMANDER  
+
+**Level 2 Support**  
+*Humanoid, War Dog*  
+**EV 12**  
+**Stamina**: 25  
+**Speed**: 5  
+**Size**: 1M / Stability 0  
+**Free Strike**: 3  
+
+- **Might** +2  
+- **Agility** +0  
+- **Reason** +0  
+- **Intuition** +0  
+- **Presence** +1  
+
+**Command Saber (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Attack, Melee, Weapon  
+Distance: Melee 1  
+Target: One creature or object  
+
+- ✦ ≤11: 3 damage  
+- ★ 12–16: 5 damage  
+- ✸ 17+: 7 damage  
+  Effect: An ally within 5 squares of the subcommander can make a free strike against the target.  
+
+**Posthumous Promotion (Maneuver)**  
+Keywords: Magic, Ranged  
+Distance: Ranged 10  
+Target: One war dog with a loyalty collar  
+Effect: The target’s loyalty collar detonates, killing them instantly.  
+
+**The Iron Saint Does Not Recognize Retreat**  
+Each ally within 5 squares of the subcommander adds 3 to their stability.  
+
+**Loyalty Collar**  
+When the subcommander dies, they explode, dealing 1d6 damage to each adjacent enemy.
+
+#### WAR DOG PESTILITE  
+
+**Level 3 Controller**  
+*Humanoid, War Dog*  
+**EV 13**  
+**Stamina**: 25  
+**Immunity**: Poison 3  
+**Speed**: 5  
+**Size**: 1M / Stability 0  
+**Free Strike**: 2  
+
+- **Might** +0  
+- **Agility** +1  
+- **Reason** +0  
+- **Intuition** +0  
+- **Presence** +2  
+
+**Plaguecaster (Action)** ◆ 2d10 + 2 ◆ Signature  
+Keywords: Area, Magic, Ranged, Resistance  
+Distance: 3 cube within 10  
+Target: Each creature in the cube  
+
+- ✦ ≤11: 2 poison damage; I1 frightened (save ends)  
+- ★ 12–16: 5 poison damage; I2 frightened (save ends)  
+- ✸ 17+: 8 poison damage; I3 frightened (save ends)  
+  Effect: The area is covered in a cloud of pestilence that lasts until the start of the pestilite’s next turn. Any creature who enters the area for the first time in a round or starts their turn there takes 2 poison damage.  
+
+**Posthumous Promotion (Maneuver)**  
+Keywords: Magic, Ranged  
+Distance: Ranged 10  
+Target: One war dog with a loyalty collar  
+Effect: The target’s loyalty collar detonates, killing them instantly.  
+
+**Loyalty Collar**  
+When the pestilite dies, they explode, dealing 1d6 damage to each adjacent enemy.
+
+#### WAR DOG GROUND COMMANDER  
+
+**Level 3 Leader**  
+*Humanoid, War Dog*  
+**EV 36**  
+**Stamina**: 90  
+**Speed**: 5  
+**Size**: 1M / Stability 2  
+**Free Strike**: 5  
+
+- **Might** +3  
+- **Agility** +2  
+- **Reason** +3  
+- **Intuition** +2  
+- **Presence** +2  
+
+**Conditioning Spear (Action)** ◆ 2d10 + 3 ◆ Signature  
+Keywords: Attack, Melee, Ranged, Weapon  
+Distance: Melee 1 or Ranged 5  
+Target: Two creatures or objects  
+
+- ✦ ≤11: 5 damage; pull 1  
+- ★ 12–16: 8 damage; pull 2  
+- ✸ 17+: 11 damage; pull 3  
+  Effect: One ally within 10 squares of the commander can make a free strike.  
+  - 1 Malice: A target who is adjacent to the ground commander after this ability is resolved is I3 grabbed (save ends). This grab can’t be escaped using the Escape Grab maneuver. The ground commander can grab up to two creatures at a time.  
+
+**Highest Posthumous Promotion (Maneuver)**  
+Keywords: Area, Magic  
+Distance: 10 burst  
+Target: Each war dog with a loyalty collar  
+Effect: The ground commander selects any number of targets’ loyalty collars and detonates them, killing the targets instantly.  
+
+**Final Orders (Triggered Action)**  
+Keywords: Magic, Ranged  
+Distance: Ranged 10  
+Target: One ally  
+Trigger: The target has a condition imposed on them, is force moved, or is killed.  
+Effect: The target can move up to their speed and make a free strike before the triggering effect happens.  
+
+**End Effect**  
+At the end of their turn, the ground commander can take 5 damage to end one save-ends effect affecting them. This damage can’t be reduced in any way.  
+
+**Loyalty Collar**  
+When the ground commander dies, they explode, dealing 2d6 damage to each adjacent enemy.  
+
+**Combined Arms (Villain Action 1)**  
+Keywords: Area  
+Distance: 10 burst  
+Target: Each ally  
+Effect: Each target can make a ranged free strike, then immediately use the Charge action.  
+
+**Make an Example of Them (Villain Action 2)**  
+Keywords: Magic, Ranged  
+Distance: Ranged 10  
+Target: One enemy  
+Effect: Each ally within 5 squares of the target can move up to their speed and make a free strike against the target. The target is then I3 frightened of the ground commander (save ends).  
+
+**Claim Them for the Body Banks (Villain Action 3)**  
+Keywords: Area, Magic  
+Distance: 10 burst  
+Target: Each ally  
+Effect: Each target can shift 2 and use the Grab maneuver. For the rest of the encounter, any enemy has a bane on the Escape Grab maneuver.
+
+## WEREWOLVES  
+
+When you see the blood in their eyes, the werewolf is already upon you.  
+
+Werewolves are shapeshifters filled with a need to rend and tear. They used to be ordinary humans, elves, polders, and the like. But when their feral compulsion takes control, they change into abominable beastmen and sometimes massive wolves.
+
+### HOWLING PRIMORDIAL CHAOS  
+
+Werewolves are swirling conductors of Primordial Chaos. Their bodies overflow with energy, almost painfully so. They shift and expand their forms into more beastlike shapes to best contain their power. And yet, one bite is all it takes for those ferocious forces to flow into its next host.
+
+### BROKERED OR CURSED  
+
+The curse of the werewolf is actively sought out by terrible nobles and rulers looking to extend their power and instill fear into their people. They secure deals with devils who can tap into the Primordial Chaos and unleash their beast, usually in exchange for relinquishing their legacy after they come to pass.
+
+Laypeople don’t have the luxury of a legacy, nor do they have councils that can help temper a werewolf. They know full well the horror of losing yourself to the beast and take action to rout out the threat of a werewolf among their own. Fear leaves them submissive to the demands of cursed kings, yet oppressive to their own accursed kin.
+
+### ON WIGHTS AND WERES  
+
+The powers that bore the werewolves were also harnessed and cultivated under the traditions of the stormwight furies. A werewolf’s ferocity cannot overcome the stormwight’s rage, nor can rage overpower ferocity. It’s not uncommon for werewolves to subconsciously treat encounters with stormwight furies as if they were sport.
+
+### WEREWOLF MALICE  
+
+At the start of a werewolf’s turn, you can spend malice to activate one of the following features:
+
+- **Blood In Their Eyes (3 Malice)**: The werewolf gains 10 temporary Stamina and their speed increases by 3 until the end of their turn. The werewolf can’t activate this power if they took any holy damage since the end of their previous turn.
+- **Accursed Mist (5 Malice)**: The battle map becomes hazy until the end of the round. The werewolf has **edge** and is concealed while in the mist. Any creatures that have 1 or more ferocity at the end of their turn while in the mist gain 2 ferocity.
+- **Moonfall (7 Malice)**: The encounter map turns to night and the moon appears impossibly big in the sky until the end of the encounter. The werewolf can take an additional maneuver on each of their turns while they have line of effect to the moon.
+
+### STATBLOCKS
+
+#### WEREWOLF  
+
+**Level 1 Solo**  
+*Beast, Humanoid*  
+**EV 60**  
+**Stamina**: 120  
+**Immunity**: weapon 5  
+**Speed**: 8  
+**Size**: 1M / Stability 0  
+**Free Strike**: 5  
+
+- **Might** +3  
+- **Agility** +2  
+- **Reason** −1  
+- **Intuition** +0  
+- **Presence** +1  
+
+**Solo Monster**  
+- **Solo Turns**: The werewolf takes 2 turns each round. They can use two actions on each of their turns and can take each turn after an enemy turn they choose. While dazed, the werewolf can take one action and one maneuver per turn.  
+- **End Effect**: The werewolf takes 5 damage and ends one EoE effect affecting them at the end of their turn.  
+
+**Shapeshifter**  
+The werewolf enters combat in their hybrid humanoid form. Their shape can’t change via any effects beyond their own ability.  
+
+**Ferocity**  
+The werewolf’s abilities are capable of inflicting ferocity points on non-stormwight enemies. If a creature has 10 or more ferocity at the start of their turn, they spend all their ferocity and either make a free strike at the nearest creature or shift up to their speed towards the nearest creature and take a free strike. Non-stormwight creatures that take damage in this way gain 1 ferocity. All accumulated ferocity disappears after completing a respite.  
+
+**Accursed Bite (Action)** ◆ 2d10 + 3 ◆ Signature  
+Keywords: Attack, Charge, Melee, Weapon  
+Distance: Melee 1  
+Target: 1 creature or object  
+
+- ✦ ≤11: 7 damage; 2 ferocity  
+- ★ 12–16: 10 damage; 4 ferocity  
+- ✸ 17: 13 damage; 5 ferocity  
+  - 2 Malice: The target has P0 lycanthropy. The potency of this attack increases by 1 each time the werewolf forces the same target to resist it.  
+  Effect: A creature afflicted with lycanthropy accumulates 2 ferocity at the end of each of their turns whenever they’re in combat. Their ferocity does not disappear after completing a respite; they must complete the Find a Cure project to end this condition.  
+
+**Claws (Action)** ◆ 2d10 + 3  
+Keywords: Attack, Melee, Weapon  
+Distance: Melee 1  
+Target: 4 creatures or objects  
+
+- ✦ ≤11: 3 damage  
+- ★ 12–16: 4 damage; 1 ferocity; M2 push 3  
+- ✸ 17: 5 damage; 3 ferocity; M3 vertical slide 3  
+
+**Berserker Slash (Action)** ◆ 5 Malice  
+Keywords: —  
+Distance: Self  
+Target: Self  
+Effect: The werewolf shifts up to their speed and makes a claw attack against each creature who comes within 1 of the werewolf during the move. The werewolf makes one power roll against all targets.  
+
+**Wall Leap (Maneuver)**  
+Keywords: —  
+Distance: Self  
+Target: Self  
+Effect: The werewolf leaps 4 squares. If they end this movement at a wall, the werewolf leaps off the wall 4 squares and makes a melee free strike.  
+
+**Facepalm and Head Slam (Triggered Action)** ◆ 2 Malice  
+Keywords: —  
+Trigger: The target declares a melee attack against the werewolf after charging or moving 3 or more squares in a straight line towards them.  
+Distance: Melee 1  
+Target: 1 creature  
+Effect: Target is knocked prone and takes 5 damage before the attack begins.  
+
+**Vukenstep**  
+The werewolf ignores difficult terrain.  
+
+**Howl (Villain Action 1)** ◆ INU RR  
+Keywords: Area, Resistance  
+Distance: 5 burst  
+Target: All enemies in the burst  
+
+- ✸ ≤11: Target moves up to their speed away from the werewolf; frightened (save ends)  
+- ★ 12–16: Frightened (EoT)  
+- ✦ 17: no effect  
+  Effect: Enemies that have 1 or more ferocity gain 4 ferocity and howl along with the werewolf.  
+
+**Full Wolf (Villain Action 2)**  
+Keywords: —  
+Distance: Self  
+Target: Self  
+Effect: The werewolf changes into a massive wolf, pushing adjacent creatures out of their way and moving into a square that can accommodate their new size. Until they die or the end of the encounter, their Speed is 10, their Size is 3, and their Stability is 2. Each of the werewolf’s attacks has **edge** and inflicts an additional 1 ferocity. The potency of the werewolf’s Accursed Bite increases by 1.  
+
+**Rampage (Villain Action 3)** ◆ 2d10 + 3  
+Keywords: Area, Melee, Weapon  
+Distance: 2 burst  
+Target: All creatures in the burst  
+
+- ✦ ≤11: 3 damage; 2 ferocity  
+- ★ 12–16: 4 damage; 4 ferocity  
+- ✸ 17: 5 damage; 8 ferocity; prone  
+  Effect: The werewolf shifts up to twice their speed either before or after the attack.
