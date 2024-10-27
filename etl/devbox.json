@@ -21,7 +21,7 @@
             "pip install tabulate PyYAML python-frontmatter",
             "pip install lxml",
             "pip install inflect",
-            "pip install mdformat mdformat-wikilink mdformat-tables mdformat-frontmatter"
+            "pip install mdformat mdformat-wikilink mdformat-tables mdformat-frontmatter mdformat-mkdocs"
         ],
         "scripts": {
             "gen": "time just gen",
