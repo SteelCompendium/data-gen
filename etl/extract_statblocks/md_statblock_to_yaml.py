@@ -202,13 +202,13 @@ def parse_ability(lines, index):
                 description = tier_match.group(3).strip()
                 # Collect continuation lines
                 i += 1
-                while i < len(lines) and not lines[i].strip().startswith(('-', '**', 'Effect:', 'Special:')):
+                while i < len(lines) and not lines[i].strip().startswith(('-', '**', 'Effect:', 'Special:')) and not re.match(r'(.+?):\s*(.+)', lines[i]):
                     description += ' ' + lines[i].strip()
                     i += 1
                 # Map symbol to tier - jk, cant do this because RR are backwards
                 if threshold == '≤11':
                     ability['t1'] = description
-                elif threshold == '12–16':
+                elif threshold == '12-16':
                     ability['t2'] = description
                 elif threshold == '17+':
                     ability['t3'] = description
@@ -235,7 +235,7 @@ def parse_ability(lines, index):
             # TODO - cost?
             effect_lines = [effect_match.group(2).strip()]
             i += 1
-            while i < len(lines) and not lines[i].strip().startswith(('**', 'Special:', 'Effect:', '-')):
+            while i < len(lines) and not lines[i].strip().startswith(('**', 'Special:', 'Effect:', '-')) and not re.match(r'(.+?):\s*(.+)', lines[i]):
                 effect_lines.append(lines[i].strip())
                 i += 1
 
