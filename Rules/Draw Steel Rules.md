@@ -1742,6 +1742,7 @@ You expel energy to damage your foes.
 - 12–16: 3 damage
 - 17+: 4 damage
 
+
 **Effect:** You choose the attack’s damage type from acid, cold, corruption, fire, lightning, or poison.
 
 ##### WINGS (COSTS 2 POINTS)
@@ -2966,6 +2967,7 @@ You gain the following ability:
 - **Distance:** Self
 - **Target:** Self
 
+
 **Effect:** You flatten yourself into a shadow against a wall or floor you are touching, and become hidden from any
 creature you have cover or concealment from, or who isn’t observing you. While in shadow form, you have full awareness
 of your surroundings, attacks against you and tests made to find you take a bane, and you can’t move or take actions or
@@ -3170,6 +3172,7 @@ A magical sigil you placed on a creature explodes with energy.
 - 11 or lower: 2 damage; slide 1
 - 12–16: 4 damage; slide 2
 - 17+: 6 damage; slide 3
+
 
 **Effect:** The sigil disappears from the creature.
 
@@ -3423,6 +3426,7 @@ You fill yourself or an ally with a burst of energy.
 - **Type:** Maneuver
 - **Distance:** Self or Melee 1
 - **Target:** Self or 1 ally
+
 
 **Effect:** The target’s speed increases by an amount equal to your Reason, Intuition, or Presence score (your choice)
 until the start of your next turn.
@@ -4340,7 +4344,8 @@ spent an amount of piety on it equal to your Victories.
 - **Distance:** Ranged 10
 - **Target:** 1 enemy
 
-- **Effect:** You bank 1 or more judgment on the target. While a creature has at least 1 judgment on it, any targets
+
+**Effect:** You bank 1 or more judgment on the target. While a creature has at least 1 judgment on it, any targets
   they attack gain (SHIELD).
 
 Each judgment banked on the judged creature increases the effectiveness of your censor abilities, indicated on your
@@ -4419,12 +4424,11 @@ You can channel your will to mend your wounds or the wounds of your allies. You 
 - **Target:** Self or 1 ally
 - **Trigger:** The target starts their turn.
 
-- **Effect:** You spend a Recovery without regaining Stamina. Instead, the target regains Stamina equal to your Recovery
-  value.
-    - **Spend 1 Judgment:** You can end one effect on the target that has a duration of EoT or is ended by a saving
-      throw, or a prone target can stand up.
-    - **Spend 3 Judgment:** If a judged creature is within 10 squares of you and you end one effect on the target, the
-      judged creature suffers P [average] the same effect removed from the target.
+**Effect:** You spend a Recovery without regaining Stamina. Instead, the target regains Stamina equal to your Recovery value.
+
+**Spend 1 Judgment:** You can end one effect on the target that has a duration of EoT or is ended by a saving throw, or a prone target can stand up.
+
+**Spend 3 Judgment:** If a judged creature is within 10 squares of you and you end one effect on the target, the judged creature suffers P [average] the same effect removed from the target.
 
 ### 1ST-LEVEL DOMAIN FEATURE
 
@@ -4498,7 +4502,8 @@ You gain the following ability:
 - **Distance:** Melee 1
 - **Target:** Special
 
-- **Effect:** You can speak to the corpse or head of a creature who has died within the last 24 hours and who can speak
+
+**Effect:** You can speak to the corpse or head of a creature who has died within the last 24 hours and who can speak
   a language you know. The target regards you as they would have in life, and you might need to make tests to influence
   them and convince them to speak with you. After 1 minute, the effect ends. You can’t use this ability on the same
   creature twice.
@@ -4516,7 +4521,8 @@ You gain the following ability:
 - **Distance:** Self
 - **Target:** Self
 
-- **Effect:** You create a mundane object no larger than size 1S. You can maintain a number of objects created this way
+
+**Effect:** You create a mundane object no larger than size 1S. You can maintain a number of objects created this way
   by you equal to your Presence score. You can destroy an object created this way by you with a thought, no matter how
   far you are from it (no action required).
 
@@ -4595,7 +4601,8 @@ Select one signature ability from the options below. Signature abilities can be 
 - 12-16: 4 psychic damage
 - 17+: 6 psychic damage
 
-- **Effect:** Until the end of the target’s next turn, they take (SURGE) psychic damage each time they willingly move closer
+
+**Effect:** Until the end of the target’s next turn, they take (SURGE) psychic damage each time they willingly move closer
   to you.
 
 ##### HALT, MISCREANT!
@@ -4626,7 +4633,8 @@ Select one signature ability from the options below. Signature abilities can be 
 - 12-16: 4 holy damage
 - 17+: 6 holy damage
 
-- **Effect:** All enemies adjacent to the target are pushed your Presence score away from the target.
+
+**Effect:** All enemies adjacent to the target are pushed your Presence score away from the target.
 
 #### HEROIC ABILITIES
 
@@ -4650,7 +4658,8 @@ Choose one heroic ability from the following options.
 - 12-16: 6 holy damage
 - 17+: 9 holy damage
 
-- **Effect:** Until the beginning of your next turn, you and all adjacent allies have (SHIELD) against the target’s attacks.
+
+**Effect:** Until the beginning of your next turn, you and all adjacent allies have (SHIELD) against the target’s attacks.
 
 ###### DRIVING ASSAULT (3 JUDGMENT)
 
@@ -4666,7 +4675,8 @@ Choose one heroic ability from the following options.
 - 12-16: 6 damage; push 3
 - 17+: 9 damage; push 5
 
-- **Effect:** You can shift your speed as long as you end that shift within distance of the target.
+
+**Effect:** You can shift your speed as long as you end that shift within distance of the target.
 
 ###### THE GODS PUNISH AND DEFEND (3 JUDGMENT)
 
@@ -4682,7 +4692,8 @@ Choose one heroic ability from the following options.
 - 12-16: 8 holy damage
 - 17+: 11 holy damage
 
-- **Effect:** Spend a Recovery and you or an ally within 10 squares of you regain Stamina equal to your Recovery value.
+
+**Effect:** Spend a Recovery and you or an ally within 10 squares of you regain Stamina equal to your Recovery value.
 
 ###### REPENT! (3 JUDGMENT)
 
@@ -4716,7 +4727,8 @@ Choose one heroic ability from the following options.
 - 12-16: 9 holy damage; grabbed
 - 17+: 12 holy damage; grabbed
 
-- **Effect:** If the target makes an attack while grabbed by you, they take (SURGE) holy damage. When the target makes an
+
+**Effect:** If the target makes an attack while grabbed by you, they take (SURGE) holy damage. When the target makes an
   attack while grabbed by you, you can spend 3 judgment to change the target of the attack to another target within the
   attack’s distance as a free triggered action.
 
@@ -4734,7 +4746,8 @@ Choose one heroic ability from the following options.
 - 12-16: 5 holy damage; each enemy within 2 of the target is P [weak] frightened (save ends)
 - 17+: 8 holy damage; each enemy within 2 of the target is P [weak] frightened (save ends)
 
-- **Effect:** Each enemy frightened by this ability is pushed 2 away from the target and takes (SURGE) psychic damage.
+
+**Effect:** Each enemy frightened by this ability is pushed 2 away from the target and takes (SURGE) psychic damage.
 
 ###### CENSORED (5 JUDGMENT)
 
@@ -4750,7 +4763,8 @@ Choose one heroic ability from the following options.
 - 12-16: 3 holy damage
 - 17+: 5 holy damage
 
-- **Effect:** If a non-boss or non-solo creature is winded after damage is resolved, they die.
+
+**Effect:** If a non-boss or non-solo creature is winded after damage is resolved, they die.
 
 ###### PURIFYING FIRE (5 JUDGMENT)
 
@@ -4766,7 +4780,8 @@ Choose one heroic ability from the following options.
 - 12-16: 9 holy damage; M [average] fire weakness 5 (save ends)
 - 17+: 12 holy damage; M [strong] fire weakness 7 (save ends)
 
-- **Effect:** While the target has fire weakness from this ability, you can choose to do fire damage instead of holy
+
+**Effect:** While the target has fire weakness from this ability, you can choose to do fire damage instead of holy
   damage to them when you use an ability.
 
 ## 2ND-LEVEL FEATURES
@@ -4841,7 +4856,8 @@ Choose one of the following abilities.
 - 12-16: 9 holy damage; P [average] frightened (save ends)
 - 17+: 12 holy damage; P [strong] frightened (save ends)
 
-- **Effect:** If the target is already frightened of you or another creature when you use this ability, they take (SURGE)(SURGE)
+
+**Effect:** If the target is already frightened of you or another creature when you use this ability, they take (SURGE)(SURGE)
   psychic damage.
 
 ##### REVELATOR (5 JUDGMENT)
@@ -4853,7 +4869,8 @@ Choose one of the following abilities.
 - **Distance:** 3 Burst
 - **Target:** All enemies
 
-- **Effect:** Each target takes (SURGE) holy damage. Any hidden enemies are automatically revealed and cannot hide again until
+
+**Effect:** Each target takes (SURGE) holy damage. Any hidden enemies are automatically revealed and cannot hide again until
   the beginning of your next turn.
 
 #### 2ND-LEVEL ORACLE ABILITIES
@@ -4870,7 +4887,8 @@ Choose one of the following abilities.
 - **Target:** Self or 1 ally
 - **Trigger:** An enemy within 10 starts their turn.
 
-- **Effect:** You spend a Recovery without regaining Stamina. Instead, the target regains Stamina equal to your Recovery
+
+**Effect:** You spend a Recovery without regaining Stamina. Instead, the target regains Stamina equal to your Recovery
   value. The target takes their turn immediately before the triggering enemy.
 
 ##### WITH MY BLESSING (5 JUDGMENT)
@@ -4882,7 +4900,8 @@ Choose one of the following abilities.
 - **Distance:** Ranged 10
 - **Target:** Self or 1 ally
 
-- **Effect:** The target can make a signature or heroic attack with a double edge as a free triggered action. They must
+
+**Effect:** The target can make a signature or heroic attack with a double edge as a free triggered action. They must
   still pay any Heroic Resources required.
 
 #### 2ND-LEVEL PARAGON ABILITIES
@@ -4898,7 +4917,8 @@ Choose one of the following abilities.
 - **Distance:** 3 Aura
 - **Target:** Self and all allies
 
-- **Effect:** Until the end of the encounter or you become dying, each target in the aura gains (SURGE) on attacks.
+
+**Effect:** Until the end of the encounter or you become dying, each target in the aura gains (SURGE) on attacks.
 
 ##### SENTENCED (5 JUDGMENT)
 
@@ -4914,7 +4934,8 @@ Choose one of the following abilities.
 - 12-16: 9 damage; P [average] restrained (save ends)
 - 17+: 12 damage; P [strong] restrained (save ends)
 
-- **Effect:** Your forced movement abilities can still move the target while they are restrained this way.
+
+**Effect:** Your forced movement abilities can still move the target while they are restrained this way.
 
 ## 3RD-LEVEL FEATURES
 
@@ -4938,7 +4959,8 @@ Choose one heroic ability from the following options.
 - **Distance:** 2 Aura
 - **Target:** All enemies
 
-- **Effect:** Until the end of the encounter or you are dying, when you begin your turn, each target takes (SURGE) holy damage
+
+**Effect:** Until the end of the encounter or you are dying, when you begin your turn, each target takes (SURGE) holy damage
   and (SURGE) additional holy damage if they are adjacent to another enemy. If a target is judged by you, they take an
   additional 2d6 holy damage if they are adjacent to another enemy.
 
@@ -4951,7 +4973,8 @@ Choose one heroic ability from the following options.
 - **Distance:** 2 Aura
 - **Target:** All enemies
 
-- **Effect:** Until the end of the encounter or you are dying, when a target uses an ability with the Magic keyword,
+
+**Effect:** Until the end of the encounter or you are dying, when a target uses an ability with the Magic keyword,
   they take (SURGE)(SURGE) holy damage. If a target is judged by you, they take an additional 2d6 holy damage.
 
 #### EDICT OF PURIFYING PACIFISM (7 JUDGMENT)
@@ -4963,7 +4986,8 @@ Choose one heroic ability from the following options.
 - **Distance:** 2 Aura
 - **Target:** All enemies
 
-- **Effect:** Until the end of the encounter or you are dying, when a target uses an ability with the Weapon keyword,
+
+**Effect:** Until the end of the encounter or you are dying, when a target uses an ability with the Weapon keyword,
   they take (SURGE)(SURGE) holy damage. If a target is judged by you, they take an additional 2d6 holy damage.
 
 #### EDICT OF STILLNESS (7 JUDGMENT)
@@ -4975,7 +4999,8 @@ Choose one heroic ability from the following options.
 - **Distance:** 2 Aura
 - **Target:** All enemies
 
-- **Effect:** Until the end of the encounter or you are dying, when a target is force moved they take (SURGE) holy damage. If
+
+**Effect:** Until the end of the encounter or you are dying, when a target is force moved they take (SURGE) holy damage. If
   the target moves on their own, they take (SURGE)(SURGE) holy damage. If a target is judged by you, they take an additional 1d6
   holy damage when they move on their own.
 
@@ -5207,7 +5232,8 @@ You commune with the lingering soul of the recently dead.
 - **Type:** Maneuver
 - **Distance:** Melee 1
 - **Target:** Special
-- **Effect:** You can speak to the corpse or head of a creature who has died within the last **24 hours** and who can
+
+**Effect:** You can speak to the corpse or head of a creature who has died within the last **24 hours** and who can
   speak a language you know. The target regards you as they would have in life, and you might need to make tests to
   influence them and convince them to speak with you. After **1 minute**, the effect ends. You can’t use this ability on
   the same creature twice.
@@ -5224,7 +5250,8 @@ Craft objects with the power of your mind!
 - **Type:** Maneuver
 - **Distance:** Self
 - **Target:** Self
-- **Effect:** You create a mundane object no larger than **size 1S**. You can maintain a number of objects created this
+
+**Effect:** You create a mundane object no larger than **size 1S**. You can maintain a number of objects created this
   way by you equal to your **Intuition score**. You can destroy an object created this way by you with a thought, no
   matter how far you are from it (no action required).
 
@@ -5276,7 +5303,8 @@ Your divine energy restores the righteous.
 - **Type:** Maneuver
 - **Distance:** Ranged 10
 - **Target:** Self or 1 ally
-- **Effect:** The target can spend **1 Recovery**.
+
+**Effect:** The target can spend **1 Recovery**.
 
 - **Spend Piety:** For each piety spent, you can choose one of the following enhancements:
     - You can target one additional ally within distance.
@@ -5303,7 +5331,8 @@ You unleash a blast of holy light upon your foe.
 - **12–16:** 4 damage
 - **17+:** 6 damage
 
-- **Effect:** The damage this ability deals can be holy damage.
+
+**Effect:** The damage this ability deals can be holy damage.
 
 ### TRIGGERED ACTION
 
@@ -5318,8 +5347,10 @@ You invigorate an attacking ally with divine energy.
 - **Distance:** Ranged 10
 - **Target:** 1 ally
 - **Trigger:** The target deals damage to another creature or object.
-- **Effect:** The damage gains **+1**. You gain **1 piety**.
-- **Spend 1 Piety:** The damage gains **+2**, and you gain no piety instead.
+
+**Effect:** The damage gains **+1**. You gain **1 piety**.
+
+**Spend 1 Piety:** The damage gains **+2**, and you gain no piety instead.
 
 #### WORD OF JUDGEMENT
 
@@ -5330,8 +5361,10 @@ Your holy word saps an attacking enemy’s strength.
 - **Distance:** Ranged 10
 - **Target:** 1 ally
 - **Trigger:** The target takes damage.
-- **Effect:** The target gains **+2** against the damage. You gain **1 piety**.
-- **Spend 1 Piety:** The target gains **+4** against the damage, and you gain no piety instead.
+
+**Effect:** The target gains **+2** against the damage. You gain **1 piety**.
+
+**Spend 1 Piety:** The target gains **+4** against the damage, and you gain no piety instead.
 
 ### PRAYER
 
@@ -5429,7 +5462,8 @@ You drain the energy from your target and revitalize yourself or an ally.
 - **12–16:** 3 corruption damage
 - **17+:** 5 corruption damage
 
-- **Effect:** You or an ally within distance can spend a Recovery.
+
+**Effect:** You or an ally within distance can spend a Recovery.
 
 ##### HOLY LASH
 
@@ -5461,7 +5495,8 @@ A rain of holy light scours your enemies and repositions your allies.
 - **12–16:** 2 holy damage
 - **17+:** 3 holy damage
 
-- **Effect:** You can teleport each ally in the area and yourself if you’re in the area to any unoccupied space within
+
+**Effect:** You can teleport each ally in the area and yourself if you’re in the area to any unoccupied space within
   the area.
 
 ##### SACRIFICIAL OFFER
@@ -5479,7 +5514,8 @@ Divine magic tears at your foe and defends a nearby friend.
 - **12–16:** 3 corruption damage
 - **17+:** 4 corruption damage
 
-- **Effect:** You or an ally within distance gains **+2** against the next attack until the start of your next turn.
+
+**Effect:** You or an ally within distance gains **+2** against the next attack until the start of your next turn.
 
 ##### STAGGERING CURSE
 
@@ -5511,7 +5547,8 @@ You utter a quick prayer that projects aggressive divine energy around a friend 
 - **12–16:** 5 holy damage
 - **17+:** 7 holy damage
 
-- **Effect:** You or an ally within distance gains Temporary Stamina equal to your **Intuition score**. This Temporary
+
+**Effect:** You or an ally within distance gains Temporary Stamina equal to your **Intuition score**. This Temporary
   Stamina disappears at the end of the encounter.
 
 ##### WITHER
@@ -5552,7 +5589,8 @@ You ask your saint for thunder and your prayer is answered.
 - **12–16:** 3 sonic damage; push 2
 - **17+:** 5 sonic damage; push 3
 
-- **Effect:** You can also push each willing ally in the area, and their stability doesn’t count against this forced
+
+**Effect:** You can also push each willing ally in the area, and their stability doesn’t count against this forced
   movement.
 
 ###### FONT OF WRATH (3 PIETY)
@@ -5564,7 +5602,8 @@ A brilliant column of holy light appears on the battlefield, striking out at nea
 - **Distance:** Ranged 10
 - **Target:** Special
 
-- **Effect:** You summon a spirit of **size 2** who can’t be harmed, and who appears in an unoccupied space within
+
+**Effect:** You summon a spirit of **size 2** who can’t be harmed, and who appears in an unoccupied space within
   distance. The spirit lasts until the end of your next turn. You and your allies can move through the spirit’s space,
   but enemies can’t. The first time on a turn that an enemy moves within **2 squares** of the spirit or starts their
   turn there, they take **2d6** holy damage.
@@ -5599,7 +5638,8 @@ A brilliant column of holy light appears on the battlefield, striking out at nea
 - **12–16:** 6 lightning damage
 - **17+:** 9 lightning damage
 
-- **Effect:** If the target deals damage to another creature, the target of this ability takes another **1d10 lightning
+
+**Effect:** If the target deals damage to another creature, the target of this ability takes another **1d10 lightning
   damage** (save ends).
 
 #### 5-PIETY ABILITIES
@@ -5654,7 +5694,8 @@ The heroes' armor glows with golden light, granting divine protection.
 - **12–16:** Gain 10 temporary Stamina
 - **17+:** Gain 15 temporary Stamina
 
-- **Effect:** This temporary Stamina disappears at the end of the encounter.
+
+**Effect:** This temporary Stamina disappears at the end of the encounter.
 
 ###### SERMON OF GRACE (5 PIETY)
 
@@ -5665,7 +5706,8 @@ You inspire your allies with tales of your saint's great deeds.
 - **Distance:** 3 burst
 - **Target:** All allies
 
-- **Effect:** Each target can spend a Recovery, end one effect that is ended by a saving throw or that ends at the end
+
+**Effect:** Each target can spend a Recovery, end one effect that is ended by a saving throw or that ends at the end
   of their turn, or use the Stand Up maneuver as a free triggered action.
 
 ## 2ND-LEVEL FEATURES
@@ -5719,7 +5761,8 @@ Your enemies suffer their fate; your allies, their destiny!
 - **Distance:** 2 aura
 - **Target:** Special
 
-- **Effect:** Choose one effect that lasts until the end of the encounter or you start dying:
+
+**Effect:** Choose one effect that lasts until the end of the encounter or you start dying:
     - Whenever you or an ally in the aura makes a power roll, they can roll three dice and choose which two to use.
     - Whenever an enemy in the aura makes a power roll, they must roll three dice and use the lowest two.
 
@@ -5732,7 +5775,8 @@ The gods grant insight revealing where best to strike your enemies.
 - **Distance:** Self and 3 Aura
 - **Target:** Self and all allies
 
-- **Effect:** Until the end of the encounter or you start dying, each target in the aura gains **+1** on their
+
+**Effect:** Until the end of the encounter or you start dying, each target in the aura gains **+1** on their
   abilities.
 
 #### DIVINE COMEDY (5 PIETY)
@@ -5744,7 +5788,8 @@ You may swap places.
 - **Distance:** 5 burst
 - **Target:** All allies
 
-- **Effect:** Each target can choose another creature within **5 squares** of them. They swap places with that creature.
+
+**Effect:** Each target can choose another creature within **5 squares** of them. They swap places with that creature.
   The creature they choose must be able to fit into the space they leave and vice versa.
 
 #### THE GODS COMMAND, YOU OBEY (5 PIETY)
@@ -5780,7 +5825,8 @@ Light shines at your command, burning your foes and blessing your allies.
 - **12–16:** 6 fire damage
 - **17+:** 10 fire damage
 
-- **Effect:** Each ally in the area deals **+1 fire damage** with their next attack made before the end of their next
+
+**Effect:** Each ally in the area deals **+1 fire damage** with their next attack made before the end of their next
   turn.
 
 #### NATURE JUDGES THEE (5 PIETY)
@@ -5807,7 +5853,8 @@ An ally gains strength from their friends.
 - **Distance:** Self or Ranged 10
 - **Target:** 2 allies, including self
 
-- **Effect:** Until the end of the encounter or the target starts dying, whenever the target starts their turn, they
+
+**Effect:** Until the end of the encounter or the target starts dying, whenever the target starts their turn, they
   gain a bonus to speed and damage equal to the number of allies within **10 squares** of them that lasts until the
   start of their next turn.
 
@@ -5820,7 +5867,8 @@ The gods reward those who smite their foes.
 - **Distance:** Ranged 10
 - **Target:** All allies
 
-- **Effect:** Until the start of your next turn, each time a target kills an enemy, they regain Stamina equal to **5 +
+
+**Effect:** Until the start of your next turn, each time a target kills an enemy, they regain Stamina equal to **5 +
   your Intuition score**.
 
 #### SACRED BOND (5 PIETY)
@@ -5832,7 +5880,8 @@ You forge a divine connection between two creatures.
 - **Distance:** Self or Ranged 10
 - **Target:** 2 allies, including self
 
-- **Effect:** Until the end of the encounter, whenever one target takes damage, the other can choose to take it instead
+
+**Effect:** Until the end of the encounter, whenever one target takes damage, the other can choose to take it instead
   as a free triggered action. The original target still suffers any effects associated with the damage. Additionally,
   whenever one target spends a Recovery, the other can also spend a Recovery as a free triggered action.
 
@@ -5860,7 +5909,8 @@ A marble statue of your patron rises from the earth.
 - **Distance:** Ranged 10
 - **Target:** Special
 
-- **Effect:** A **size 2** statue rises out of the ground in an unoccupied space within distance and lasts until the end
+
+**Effect:** A **size 2** statue rises out of the ground in an unoccupied space within distance and lasts until the end
   of the encounter. You and each ally within **3 squares** of the statue gain **+1** on their abilities. The statue is
   destroyed if it takes **20 or more damage**. It is immune to poison and psychic damage.
 
@@ -5873,7 +5923,8 @@ A holy light emits from your body, healing your allies.
 - **Distance:** 3 Aura
 - **Target:** All allies
 
-- **Effect:** Until the end of the encounter or you start dying, whenever a target starts their turn within the aura,
+
+**Effect:** Until the end of the encounter or you start dying, whenever a target starts their turn within the aura,
   they can spend a Recovery as no action.
 
 ## 3RD-LEVEL FEATURES
@@ -5910,7 +5961,8 @@ Your divine magic makes a creature appear as what your enemies fear most.
 - **12–16:** 9 psychic damage; [average] frightened (save ends)
 - **17+:** 13 psychic damage; [strong] frightened (save ends)
 
-- **Effect:** You choose a creature within 10 squares who the targets are frightened of.
+
+**Effect:** You choose a creature within 10 squares who the targets are frightened of.
 
 #### SAINT’S RAINMENT (7 PIETY)
 
@@ -5921,7 +5973,8 @@ An ally becomes the wearer of an empowered golden cloak.
 - **Distance:** Ranged 10
 - **Target:** 1 ally
 
-- **Effect:** The ally gains **+2** against attacks and **+1** on abilities until the end of the encounter.
+
+**Effect:** The ally gains **+2** against attacks and **+1** on abilities until the end of the encounter.
 
 #### SOUL SIPHON (7 PIETY)
 
@@ -5938,7 +5991,8 @@ A beam of energy connects a foe to a friend, draining life from one to heal the 
 - **12–16:** 10 corruption damage
 - **17+:** 15 corruption damage
 
-- **Effect:** One ally within distance can spend any number of Recoveries.
+
+**Effect:** One ally within distance can spend any number of Recoveries.
 
 #### WORDS OF WRATH AND GRACE (7 PIETY)
 
@@ -5955,7 +6009,8 @@ Your saint grants your enemies a vision of whatever they most fear.
 - **12–16:** 5 holy damage
 - **17+:** 7 holy damage
 
-- **Effect:** Each ally in the area can spend a Recovery.
+
+**Effect:** Each ally in the area can spend a Recovery.
 
 # ELEMENTALIST
 
@@ -6081,6 +6136,7 @@ You gain the following ability, which can be used as a ranged free strike:
 - 12–16: 4 damage
 - 17+: 6 damage
 
+
 **Effect:** When you make this attack, choose the damage type from one of the following options: acid, cold, corruption,
 fire, lightning, poison, or sonic.
 
@@ -6112,6 +6168,7 @@ You have the following ability:
 - **Type:** Maneuver
 - **Distance:** Self
 - **Target:** Self
+
 
 **Effect:** Choose one of the following effects:
 
@@ -6153,6 +6210,7 @@ You also gain the following ability.
 - **Distance:** Ranged 10
 - **Target:** Special
 
+
 **Effect:** For each Victory you have, you can target 1 creature. That creature gains the benefit of your *A Beyonding
 of Vision* feature until the end of your next turn, but doesn’t gain the use of *A Shared Revealing*.
 
@@ -6179,6 +6237,7 @@ You gain the following ability:
 - **Distance:** Melee 1
 - **Target:** Special
 
+
 **Effect:** You touch a square containing mundane dirt, stone, or metal and create a 5-square wall of the same material,
 which rises up out of the ground and must include the square you touched.
 
@@ -6200,6 +6259,7 @@ You gain the following ability:
 - **Type:** Action
 - **Distance:** Melee 1
 - **Target:** 1 mundane object
+
 
 **Effect:** You heat the target and cause it to combust and melt. If the object is larger than 1 square, then only the
 square of the object that you touch is destroyed.
@@ -6227,6 +6287,7 @@ Your specialization grants you a triggered action, as shown on the Elementalist 
 - **Target:** Self or 1 ally
 - **Trigger:** The target starts their turn.
 
+
 **Effect:** The target can spend a Recovery. You gain 1 essence.
 
 #### EXPLOSIVE ASSISTANCE
@@ -6239,8 +6300,10 @@ Your specialization grants you a triggered action, as shown on the Elementalist 
 - **Target:** Self or 1 ally
 - **Trigger:** The target force moves a creature or object.
 
+
 **Effect:** The distance of the forced movement is increased by a number of squares equal to your Reason score. You gain
 1 essence.
+
 
 **Spend 1 Essence:** The distance of the forced movement is increased by a number of squares equal to twice your Reason
 score instead. You gain no essence from using this triggered action.
@@ -6255,7 +6318,9 @@ score instead. You gain no essence from using this triggered action.
 - **Target:** Self or 1 ally
 - **Trigger:** The target makes a melee attack.
 
+
 **Effect:** The attack gains 1 surge. You gain 1 essence.
+
 
 **Spend 1 Essence:** The attack also pushes the target a number of squares equal to your Reason score after all its
 other effects are resolved. You gain no essence from using this triggered action.
@@ -6270,8 +6335,10 @@ other effects are resolved. You gain no essence from using this triggered action
 - **Target:** Self or 1 ally
 - **Trigger:** The target starts their turn or moves.
 
+
 **Effect:** At any point during the move, you teleport the target a number of squares equal to your Reason. You gain 1
 essence.
+
 
 **Spend 1 Essence:** You teleport the target a number of squares equal to twice your Reason score instead. You gain no
 essence from using this triggered action.
@@ -6374,6 +6441,7 @@ Select two signature abilities from the options below. Signature abilities can b
 - 12–16: 3 corruption damage
 - 17+: 4 corruption damage
 
+
 **Effect:** You or an ally within distance can end one effect that is ended by a saving throw or that ends at the end of
 their turn.
 
@@ -6407,6 +6475,7 @@ their turn.
 - 12–16: 5 corruption damage
 - 17+: 8 corruption damage
 
+
 **Effect:** You can teleport a number of squares equal to your Reason score.
 
 ##### THE GREEN WITHIN, THE GREEN WITHOUT
@@ -6423,6 +6492,7 @@ their turn.
 - 11 or lower: 2 damage
 - 12–16: 3 damage
 - 17+: 5 damage
+
 
 **Effect:** You slide a creature within 10 squares of the target up to 2 squares. If the creature is a willing ally, the
 forced movement ignores stability.
@@ -6472,6 +6542,7 @@ forced movement ignores stability.
 - 12–16: 3 damage
 - 17+: 5 damage
 
+
 **Effect:** The ground beneath the area becomes difficult terrain for your enemies.
 
 ##### VISCOUS FIRE
@@ -6512,6 +6583,7 @@ Choose one heroic ability from the following options, each of which costs 3 esse
 - 12–16: 4 psychic damage
 - 17+: 6 psychic damage
 
+
 **Persistent 1:** At the start of your turn, you can use your maneuver to use this ability again without spending
 essence.
 
@@ -6530,6 +6602,7 @@ essence.
 - 12–16: 8 fire damage
 - 17+: 11 fire damage
 
+
 **Persistent 1:** If the target is within distance at the start of your turn, make a power roll for this ability again.
 
 ###### INVIGORATING GROWTH (3 ESSENCE)
@@ -6546,6 +6619,7 @@ essence.
 - 11 or lower: 4 poison damage
 - 12–16: 7 poison damage
 - 17+: 11 poison damage
+
 
 **Effect:** The mushrooms can be removed by the target or by an adjacent creature as an action. While the mushrooms are
 on the target, each of your allies adjacent to the target gains 1 surge on attacks.
@@ -6564,6 +6638,7 @@ on the target, each of your allies adjacent to the target gains 1 surge on attac
 - 11 or lower: 3 damage
 - 12–16: 5 damage
 - 17+: 8 damage; M [strong] prone
+
 
 **Effect:** You must be touching the ground or floor to use this ability. The surface beneath the area becomes difficult
 terrain for your enemies.
@@ -6587,6 +6662,7 @@ Choose one heroic ability from the following options, each of which costs 5 esse
 - 12–16: 6 fire damage
 - 17+: 10 fire damage
 
+
 **Persistent 2:** At the start of your turn, you can use your maneuver to use this ability again without spending
 essence.
 
@@ -6598,6 +6674,7 @@ essence.
 - **Type:** Maneuver
 - **Distance:** Ranged 10
 - **Target:** Special
+
 
 **Effect:** You open two holes with 1-square openings that are 4 squares deep, which can be placed on any mundane
 surface within distance. You can place these holes next to each other to create fewer holes with wider openings. Make a
@@ -6611,6 +6688,7 @@ critical hit with this power because it uses a maneuver).
 - 12–16: The target falls into the hole.
 - 17+: The target falls into the hole and can’t reduce the height of the fall.
 
+
 **Persistent 1:** At the start of your turn, you open another hole.
 
 ###### NO MORE THAN A BREEZE (5 ESSENCE)
@@ -6622,9 +6700,11 @@ critical hit with this power because it uses a maneuver).
 - **Distance:** Self or Ranged 10
 - **Target:** Self or 1 ally
 
+
 **Effect:** Until the start of your next turn, the target has insubstantiality and can move through solid matter and
 ignores difficult terrain. If the target ends their turn inside solid matter, they are shunted out into the space where
 they entered it and this effect ends.
+
 
 **Persistent 1:** The effect lasts until the start of your next turn.
 
@@ -6642,6 +6722,7 @@ they entered it and this effect ends.
 - 11 or lower: 4 acid damage
 - 12–16: 6 acid damage
 - 17+: 10 acid damage
+
 
 **Effect:** You and each ally within distance can end one effect that is ended by a saving throw or that ends at the end
 of their turn.
@@ -6723,11 +6804,13 @@ You gain the following ability:
 - **Distance:** Ranged 10
 - **Target:** Special
 
+
 **Effect:** You open two size-1 portals in unoccupied spaces that last until the start of your next turn. Each portal
 must be placed at a height of no more than 1 square above ground. When you or an ally touches a portal, the creature can
 choose to be instantly teleported to an unoccupied space of their choice within 1 square of the other portal. If an
 enemy is forced moved into the portal, their forced movement ends and they emerge from the other portal in an unoccupied
 space of your choice.
+
 
 **Persistent 0:** If the portals are within distance at the start of your next turn, they remain open until the start of
 your next turn. Additionally, you can open another portal that is connected to the others. When three or more portals
@@ -6772,11 +6855,13 @@ Revitalizing plants and jagged stones grow, helping allies and hindering foes.
 - **Distance:** 3 Cube within 10  
 - **Target:** Special  
 - 
+
 **Effect:** Until the start of your next turn, the area gains the following effects:
 
 - You and allies in the area can take the Catch Breath action as a maneuver.
 - The area is difficult terrain for your enemies.
 - When an enemy enters the area for the first time on a turn or starts their turn there, they take (SURGE) damage.
+
 
 **Persistent 1:** The area remains until the start of your next turn. You can move the area up to 5 squares as a
 maneuver. This ability ends if you lose line of effect to its area.
@@ -6789,6 +6874,7 @@ Burrow into their brains and take control!
 - **Type:** Action  
 - **Distance:** Ranged 10  
 - **Target:** 1 creature  
+
 **Effect:** The target uses their signature ability, and you choose the target. Then roll power against the target.
 
 **Power Roll + Reason:**
@@ -6805,6 +6891,7 @@ Your ally disappears, then reappears in a burst of fire!
 - **Type:** Action  
 - **Distance:** Self or Ranged 10  
 - **Target:** Self or 1 ally  
+
 **Effect:** The target is teleported to another space within distance. Make one total power roll against each enemy
 adjacent to the target’s new space.
 
@@ -6871,6 +6958,7 @@ You can slip into the stone.
 - **Distance:** Self  
 - **Target:** Self
 
+
 **Effect:** Step into a mundane dirt, stone, or metal wall or object that is as large as you or larger. You can remain
 inside the wall or object for as long as you like. While inside the wall or object, you can observe events and speak to
 creatures outside of it, but you don’t have line of effect to anything outside the wall and vice versa. You can travel
@@ -6890,6 +6978,7 @@ You stir any wood's memory and learn what it has seen.
 - **Distance:** Melee 1  
 - **Target:** 1 mundane object made of wood
 
+
 **Effect:** You see and hear any events that have occurred within 10 squares of the object within the last 12 hours,
 perceiving those events from the object’s perspective.
 
@@ -6905,6 +6994,7 @@ With a flick of the wrist, you phase creatures out of existence.
 - **Type:** Action  
 - **Distance:** Ranged 10  
 - **Target:** Special
+
 
 **Effect:** Each target begins to fade from existence (save ends). While fading from existence, a target has bane on all
 power rolls. At the end of their first turn suffering this effect, they have a double bane on all power rolls. At the
@@ -6932,6 +7022,7 @@ An enormous fist rises from the ground to crush your foes.
 - 12-16: 9 damage; M [average] restrained (save ends)
 - 17+: 12 damage; M [strong] restrained (save ends)
 
+
 **Effect:** While the target is restrained, they take (SURGE)(SURGE) damage at the start of their turn.
 
 #### SWARM OF SPIRITS (7 ESSENCE)
@@ -6949,8 +7040,10 @@ Guardian animal spirits surround you.
 - 12-16: 6 damage
 - 17+: 9 damage
 
+
 **Effect:** Until the end of your next turn, each ally in your aura has an edge on resistance rolls and +1 on saving
 throws.
+
 
 **Persistent 1:** You can roll power against each enemy in your aura by making one power roll total, and the effect
 lasts until the start of your next turn.
@@ -6964,9 +7057,11 @@ A blazing, beautifully organized inferno.
 - **Distance:** 10 wall within 10  
 - **Target:** Special
 
+
 **Effect:** You can place this wall in occupied squares. The wall lasts until the start of your next turn. Creatures can
 enter and pass through this wall. When an enemy enters the wall for the first time on a turn or starts their turn there,
 they take (SURGE)(SURGE) fire damage.
+
 
 **Persistent 1:** The effect lasts until the start of your next turn, and you can add a number of squares to the wall
 equal to your Reason score.
@@ -7124,9 +7219,11 @@ In your anger, you revert to a more bestial form.
 - **Type:** Triggered  
 - **Distance:** Self  
 - **Target:** Self  
-**Trigger:** You lose Stamina and are not dying.  
+- **Trigger:** You lose Stamina and are not dying.  
+
 **Effect:** After damage is resolved, if your rage is high enough, you can enter your animal or hybrid form as a free
 triggered action. You gain temporary Stamina equal to your Might.  
+
 **Spend 3 Rage:** If you are not dying, you can spend a Recovery.
 
 #### LINES OF FORCE
@@ -7137,10 +7234,12 @@ You redirect the energy of motion.
 - **Type:** Triggered  
 - **Distance:** Self or Melee 1  
 - **Target:** Self or 1 creature  
-**Trigger:** The target is force moved.  
+- **Trigger:** The target is force moved.  
+
 **Effect:** You can select a new target of the same size or smaller within distance to be force moved instead and change
 the direction of that forced movement. Additionally, you can increase the forced move distance by a number of squares
 equal to your Might score.  
+
 **Spend 1 Rage:** You can increase the forced move distance by a number of squares equal to twice your Might score
 instead.
 
@@ -7152,9 +7251,11 @@ Elusive as a hummingbird.
 - **Type:** Triggered  
 - **Distance:** Melee 1  
 - **Target:** Self  
-**Trigger:** You are targeted by a damaging area of effect.  
+- **Trigger:** You are targeted by a damaging area of effect.  
+
 **Effect:** You shift up to 2 squares. If that moves you out of the area of effect, you ignore the attack. Otherwise,
 you take half damage.  
+
 **Spend 3 Rage:** You move a willing adjacent ally affected by the attack with you, applying the same outcome to them.
 
 ### MIGHTY LEAPS
@@ -7207,6 +7308,7 @@ Keeping in constant motion helps you slip out of reach after a brutal assault.
 - 12–16: 3 damage
 - 17+: 5 damage; A [strong] slowed (save ends)  
 
+
 **Effect:** You can shift 1 square after the attack is resolved.
 
 ##### IMPALED!
@@ -7238,6 +7340,7 @@ Your reckless assault leaves you tactically vulnerable.
 - 11 or lower: 3 damage
 - 12–16: 6 damage
 - 17+: 9 damage  
+
 
 **Effect:** You can choose to do (SURGE) to the target. If you do, the target gains (SURGE) on their next attack against you.
 
@@ -7279,6 +7382,7 @@ Your enemies will get out of your way—whether they want to or not.
 - 12–16: 5 damage; slide 3
 - 17+: 8 damage; slide 5
 
+
 **Effect:** When you force move the target, you can move into any square they leave. If you take damage from an
 opportunity attack by moving this way, the target takes the same amount and type of damage.
 
@@ -7290,6 +7394,7 @@ Teach them the folly of lining up for you.
 - **Type:** Action  
 - **Distance:** Self  
 - **Target:** Self  
+
 **Effect:** You move your speed in a straight line. You don’t treat enemy squares as difficult terrain for this move.
 You can end this move in a creature’s square and then move them to an adjacent unoccupied space. Make one total power
 roll against every enemy you moved through.
@@ -7299,6 +7404,7 @@ roll against every enemy you moved through.
 - 11 or lower: 2 damage
 - 12–16: 3 damage
 - 17+: 5 damage  
+
 
 **Effect:** The target takes an extra (SURGE) for every free strike you triggered from your move.
 
@@ -7316,6 +7422,7 @@ Hard for them to fight when they're busy holding in their giblets.
 - 11 or lower: 3 damage; M [weak] bleeding (save ends)
 - 12–16: 5 damage; M [average] bleeding (save ends)
 - 17+: 8 damage; M [average] bleeding (save ends)  
+
 
 **Effect:** The target takes (SURGE) whenever they fail a save for bleeding.
 
@@ -7338,6 +7445,7 @@ A mighty strike leaves your foe reeling.
 - 12–16: 6 damage; M [average] bleeding and weakened (save ends)
 - 17+: 10 damage; M [strong] bleeding and weakened (save ends)  
 
+
 **Effect:** You can choose to deal 1d6 damage to yourself to deal an extra 1d6 damage to the target.
 
 ###### MAKE PEACE WITH YOUR GOD! (5 RAGE)
@@ -7348,6 +7456,7 @@ Anger is an energy.
 - **Type:** Free maneuver  
 - **Distance:** Self  
 - **Target:** Self  
+
 **Effect:** The next attack you make this turn automatically achieves a tier 3 result and gains (SURGE).
 
 ###### THUNDER ROAR (5 RAGE)
@@ -7365,6 +7474,7 @@ A howl erupts from you that hurls your enemies back.
 - 12–16: 9 damage; push 4
 - 17+: 13 damage; push 6  
 
+
 **Effect:** Targets are pushed one at a time, starting with the target closest to you.
 
 ###### TO THE UTTERMOST END (5 RAGE)
@@ -7381,6 +7491,8 @@ You spend your life force to ensure their death.
 - 11 or lower: 7 damage
 - 12–16: 11 damage
 - 17+: 16 damage  
+
+
 **Spend 1 or More Additional Rage:** If you are winded, you can add 1d6 damage for each rage spent. If you are dying,
   you can add 1d10 damage for each rage spent. In either case, you then lose 1d6 Stamina.
 
@@ -7437,6 +7549,7 @@ You ready?
 - **Type:** Maneuver  
 - **Distance:** Melee 1  
 - **Target:** 1 willing ally  
+
 **Effect:** You vertically push 4 the target. The target can decline to use their Stability. At the end of the push, the
 target can make a free strike with (SURGE). You force move the target carefully enough that they do not take damage from the
 move.
@@ -7449,6 +7562,7 @@ It is easier to destroy than to create. Much easier, in fact!
 - **Type:** Maneuver  
 - **Distance:** Self  
 - **Target:** Self  
+
 **Effect:** You move up to your full speed in a straight line. You can move through mundane walls or other structures
 with each square counting as difficult terrain. Destroy each square of structure you move through and leave behind a
 square of difficult terrain. Make a power roll against every enemy you move past as part of this move.
@@ -7471,6 +7585,7 @@ Organizing your forces like feckless creatures of Law. Pitiful.
 - **Type:** Action  
 - **Distance:** Self  
 - **Target:** Self  
+
 **Effect:** Shift up to your speed. You can roll power once, targeting each enemy who you come adjacent to during the
 move.
 
@@ -7513,6 +7628,7 @@ I will hunt you down.
 - 11 or lower: 4 damage; I [weak] slowed (save ends)
 - 12–16: 6 damage; I [average] slowed (save ends)
 - 17+: 10 damage; I [strong] slowed (save ends)  
+
 
 **Effect:** The target can’t be hidden from you for 24 hours. For the rest of the encounter, whenever the target
   moves, you can move as a free triggered action.
@@ -7578,6 +7694,7 @@ Foes tremble at the sight of you.
 - **Type:** Maneuver  
 - **Distance:** Self  
 - **Target:** Self  
+
 **Effect:** Until the end of the encounter or you are dying, all enemies that start their turn adjacent to you are
 P [strong] frightened (EoT).
 
@@ -7589,6 +7706,7 @@ Fight or flight? FIGHT!!
 - **Type:** Maneuver  
 - **Distance:** Self  
 - **Target:** Self  
+
 **Effect:** Until the end of the encounter or you are dying, any creature you make a melee attack against is P [average]
 taunted (EoT). You do (SURGE)(SURGE) extra damage and increase effect potency by 1 against any taunted enemy.
 
@@ -7600,6 +7718,7 @@ See how useless their weapons are!
 - **Type:** Maneuver  
 - **Distance:** Self  
 - **Target:** Self  
+
 **Effect:** Until the end of the encounter you have (SHIELD)(SHIELD).
 
 #### YOU ARE ALREADY DEAD (7 RAGE)
@@ -7610,6 +7729,7 @@ Slash. Walk away.
 - **Type:** Action  
 - **Distance:** Melee 1  
 - **Target:** 1 creature  
+
 **Effect:** If the target is not a boss or solo creature, they die at the end of their next turn. If the target is a
 boss or solo creature, the next attack against them gains (SHIELD).
 
@@ -7645,10 +7765,12 @@ You assume the form of the animal who channels your rage.
 - **Type:** Maneuver  
 - **Distance:** Self  
 - **Target:** Self  
+
 **Effect:** You can shapeshift into the animal defined by your stormwight kit or back into your true form. While in
 animal form, you can’t use signature abilities or heroic abilities unless they have the Animal keyword. Additionally,
 you can both speak normally and speak to animals who share your form. If negotiation with an animal comes into play, you
 treat your Renown as 2 higher than usual while in your animal form.  
+
 **Spend 1 Rage:** As a free maneuver on your turn, you can shapeshift a second time, either into another animal form or
 back into your true form.
 
@@ -7767,6 +7889,7 @@ Foes who try to close around you do so at their peril.
 - 12–16: 5 damage
 - 17+: 6 damage  
 
+
 **Effect:** You can shift 2 before or after the attack.
 
 #### CROW GROWING RAGE
@@ -7827,6 +7950,7 @@ Your enemies try in vain to fall back from your pouncing attack.
 - 11 or lower: 4 damage
 - 12–16: 5 damage; push 1
 - 17+: 7 damage; push 2  
+
 
 **Effect:** You can shift the same number of squares that you pushed the target.
 
@@ -7988,6 +8112,7 @@ supernatural abilities that attempt to harm you and any allies within.
 - **Distance:** 1 aura  
 - **Target:** Self and all creatures
 
+
 **Effect:** Until you are dying, attacks with the Magic or Psionic keyword take a bane if they target a target within the
 aura or are made by an enemy within the aura. Resistance rolls against abilities with the Magic or Psionic keyword have
 an edge if they target a target within the aura or are used by an enemy within the aura. These effects increase to a
@@ -8005,7 +8130,8 @@ Your body has been trained to predict when attacks will happen before they happe
 - **Type:** Triggered  
 - **Distance:** Self  
 - **Target:** Self  
-**Trigger:** You take damage.  
+- **Trigger:** You take damage.  
+
 **Effect:** You gain (SHIELD) for the attack and reduce any potency of effects associated with the damage by 1.
 
 ### MASTERY
@@ -8149,6 +8275,7 @@ Select two signature abilities from the options below. Signature abilities can b
 - 12-16: 4 damage
 - 17+: 5 damage
 
+
 **Effect:** You can slide one adjacent enemy your Intuition score in squares.
 
 ##### FASTER THAN THE EYE
@@ -8165,6 +8292,7 @@ Select two signature abilities from the options below. Signature abilities can b
 - 11 or lower: 3 damage
 - 12-16: 4 damage
 - 17+: 5 damage
+
 
 **Effect:** You deal (SURGE) damage to an adjacent creature or object.
 
@@ -8251,6 +8379,7 @@ Choose one heroic ability from the following options.
 - 12-16: 10 damage
 - 17+: 13 damage
 
+
 **Effect:** You can shift half your speed, before or after you make the attack. You can use this ability instead of a
 free strike or a signature ability whenever an effect gives you one, though you still must pay its Discipline cost.
 
@@ -8262,6 +8391,7 @@ free strike or a signature ability whenever an effect gives you one, though you 
 - **Type:** Maneuver  
 - **Distance:** 2 burst  
 - **Target:** All enemies
+
 
 **Effect:** Each target takes (SURGE)(SURGE) psychic damage. Until the beginning of your next turn, your Null Field distance
 increases by 1, and each enemy that starts their turn in the aura takes your (SURGE) psychic damage.
@@ -8280,6 +8410,7 @@ increases by 1, and each enemy that starts their turn in the aura takes your (SU
 - 11 or lower: 6 damage
 - 12-16: 8 damage
 - 17+: 12 damage
+
 
 **Effect:** Until the beginning of your next turn, whenever the target moves, you can shift up to your speed as a free
 triggered action, as long as you end that shift adjacent to the target.
@@ -8318,6 +8449,7 @@ Choose one heroic ability from the following options.
 - 12-16: 12 psychic damage; M [average] weakened (save ends)
 - 17+: 16 psychic damage; M [strong] weakened (save ends)
 
+
 **Effect:** While weakened, the target takes (SURGE) psychic damage whenever they use an ability with the Magic keyword.
 
 ###### IMPART FORCE (5 DISCIPLINE)
@@ -8334,6 +8466,7 @@ Choose one heroic ability from the following options.
 - 11 or lower: push 3
 - 12-16: push 5
 - 17+: push 7
+
 
 **Effect:** You have an edge on this attack. The target takes 1 psychic damage for each square they move through.
 
@@ -8352,6 +8485,7 @@ Choose one heroic ability from the following options.
 - 12-16: 4 psychic damage; I [average] suffer effect and slowed (save ends) when returned
 - 17+: 6 psychic damage; I [strong] suffer effect and slowed (save ends) when returned
 
+
 **Effect:** The target is removed from the encounter until the end of their next turn, appearing where they were removed
 or in the closest available space of the Director’s choice.
 
@@ -8369,6 +8503,7 @@ or in the closest available space of the Director’s choice.
 - 11 or lower: 6 damage
 - 12-16: 9 damage
 - 17+: 13 damage
+
 
 **Effect:** You can take the Disengage move action as a free triggered action before or after you make this attack.
 
@@ -8431,6 +8566,7 @@ Choose one of the following abilities.
 - **Distance:** Self  
 - **Target:** Self
 
+
 **Effect:** You can use a signature or heroic ability with an attack action as a free triggered action. You have an edge
 on attack rolls with this action.
 
@@ -8479,6 +8615,7 @@ Choose one of the following abilities.
 - **Distance:** Self  
 - **Target:** Self
 
+
 **Effect:** Until the beginning of your next turn, your nullification aura distance increases by 1. Enemies treat the
 aura as difficult terrain, you and your allies benefit from concealment while in the aura, and enemies take (SURGE) cold
 damage when they start their turn in the aura.
@@ -8517,6 +8654,7 @@ Choose one of the following abilities.
 - 12-16: gain 15 Temporary Stamina
 - 17+: gain 20 Temporary Stamina
 
+
 **Effect:** While you have Temporary Stamina, you are immune to the negative effects of bleeding. This Temporary Stamina
 disappears at the end of the encounter.
 
@@ -8542,6 +8680,7 @@ Choose one heroic ability from the following options.
 - **Distance:** Self  
 - **Target:** Self
 
+
 **Effect:** Until the end of the encounter, the area of your null field increases to 2 aura, adds a bane to all enemy
 attacks in the aura, and you and all allies gain (SHIELD) while in the aura.
 
@@ -8553,6 +8692,7 @@ attacks in the aura, and you and all allies gain (SHIELD) while in the aura.
 - **Type:** Maneuver  
 - **Distance:** Self  
 - **Target:** Self
+
 
 **Effect:** Until the end of the encounter, the area of your null field increases to 2 aura. Enemies that enter your
 null field or begin their turn in it suffer I [average] bleeding (save ends). Allies that enter your null field or begin
@@ -8568,6 +8708,7 @@ encounter.
 - **Distance:** Self  
 - **Target:** Self
 
+
 **Effect:** Until the end of the encounter, the area of your null field increases to 2 aura. While affected by this
 aura, you and your allies ignore difficult terrain, reduce potency of enemy effects that target them by 1, and remove a
 condition or effect that is affecting them as a free triggered action at the beginning of their turns.
@@ -8580,6 +8721,7 @@ condition or effect that is affecting them as a free triggered action at the beg
 - **Type:** Maneuver  
 - **Distance:** Self  
 - **Target:** Self
+
 
 **Effect:** Until the end of the encounter, the area of your null field increases to 2 aura. Any attacks against enemies
 in the aura do (SURGE)(SURGE) psychic damage.
@@ -8694,9 +8836,11 @@ In a swirl of black ash, you step from one place to another.
 - **Distance:** Self  
 - **Target:** Self
 
+
 **Effect:** You teleport up to 5 squares. If you end this movement in concealment or cover, you can use the Hide
 maneuver even if you are observed. If you attack another creature while hidden from this ability or on the same turn
 after using this ability, the attack gains (SURGE).
+
 
 **Spend Insight:** You teleport 1 additional square for each insight spent.
 
@@ -8713,9 +8857,11 @@ Just a little poison goes a long way.
 - **Distance:** Self  
 - **Target:** Self
 
+
 **Effect:** You coat one of your weapons with a harmful poison. The next creature you damage with an ability that uses
 that weapon takes (SURGE) poison damage. The poison loses its potency after you damage the creature or at the end of the
 encounter.
+
 
 **Spend Insight:** For each insight you spend, add (SURGE) to the effect.
 
@@ -8731,6 +8877,7 @@ Taking on the illusory countenance of another creature gives you an advantage on
 - **Type:** Maneuver  
 - **Distance:** Self  
 - **Target:** Self
+
 
 **Effect:** Choose a creature whose size is no more than 1 greater than yours, and who is within 10 squares of you. Your
 body is covered in an illusion that makes you appear to be that creature. This illusion covers your entire body,
@@ -8767,7 +8914,8 @@ You sow a moment of confusion in combat, to your enemy’s peril.
 - **Distance:** Self  
 - **Target:** Self
 
-**Trigger:** An enemy attacks you.  
+- **Trigger:** An enemy attacks you.  
+
 **Effect:** You choose an enemy within distance of the attack. The attack targets that enemy instead.
 
 ##### DEFENSIVE ROLL
@@ -8779,10 +8927,12 @@ When an enemy attacks, you roll with the impact to reduce the harm.
 - **Distance:** Self  
 - **Target:** Self
 
-**Trigger:** Another creature damages you.  
+- **Trigger:** Another creature damages you.  
+
 **Effect:** You gain (SHIELD) against the triggering damage and then can shift up to 2 squares after the damage and its
 effects resolve. If you end this movement with concealment or cover, you can use the Hide maneuver even if you are
 observed.
+
 
 **Spend 1 Insight:** You gain (SHIELD)(SHIELD) against the triggering damage instead.
 
@@ -8795,9 +8945,11 @@ You vanish in a plume of black smoke to avoid danger.
 - **Distance:** Self  
 - **Target:** Self
 
-**Trigger:** You take damage.  
+- **Trigger:** You take damage.  
+
 **Effect:** You gain (SHIELD) against the triggering damage and then can teleport up to 4 squares after the damage and its
 effects resolve.
+
 
 **Spend Insight:** You teleport 1 additional square for each insight spent.
 
@@ -8815,7 +8967,8 @@ Keep up the attack. Never give them a moment's grace.
 - **Distance:** Self  
 - **Target:** Self
 
-**Trigger:** Another hero who didn’t use this ability to start their turn ends their turn.  
+- **Trigger:** Another hero who didn’t use this ability to start their turn ends their turn.  
+
 **Effect:** You take your turn after the triggering hero.
 
 ### KIT
@@ -8846,6 +8999,7 @@ Your precise strikes let your allies take advantage of a target’s agony.
 - 12–16: 4 damage
 - 17+: 6 damage; I [strong] prone
 
+
 **Effect:** The next ability that damages the target before the start of your next turn gains (SURGE).
 
 ##### I WORK BETTER ALONE
@@ -8862,6 +9016,7 @@ It's better, just you and me. Isn't it?
 - 11 or lower: 2 damage
 - 12–16: 5 damage
 - 17+: 7 damage
+
 
 **Effect:** If the target has no allies adjacent to them, you gain (SURGE) on the attack.
 
@@ -8880,6 +9035,7 @@ You fire a bolt at an enemy, distracting them long enough for an ally to stab th
 - 12–16: 5 damage
 - 17+: 8 damage
 
+
 **Effect:** If an ally is adjacent to the target, the target takes additional (SURGE) damage.
 
 ##### YOU WERE WATCHING THE WRONG ONE
@@ -8896,6 +9052,7 @@ They can't watch both of you at once.
 - 11 or lower: 3 damage
 - 12–16: 6 damage
 - 17+: 9 damage
+
 
 **Effect:** If you are flanking the target when you make this attack, choose one ally who is flanking with you. That
 ally has (SURGE) on melee attacks against the target until the end of the ally’s next turn, even if they are no longer
@@ -8923,6 +9080,7 @@ Your attack leaves them reeling, allowing you to follow up.
 - 11 or lower: 4 damage; slide 2
 - 12–16: 6 damage; slide 3
 - 17+: 10 damage; slide 5
+
 
 **Effect:** You can shift into squares the target leaves behind when you force move them.
 
@@ -8955,6 +9113,7 @@ Move unexpectedly, strike fast, and be gone!
 - 11 or lower: 5 damage
 - 12–16: 8 damage
 - 17+: 11 damage
+
 
 **Effect:** You can shift up to your speed. You can shift before or after your attack, or split your movement before and
 after your attack.
@@ -9002,6 +9161,7 @@ As you move across the battlefield, every foe within reach feels your wrath.
 - **Distance:** Self  
 - **Target:** Self
 
+
 **Effect:** You move up to your speed, and that movement doesn’t provoke opportunity attacks. You make one power roll
 that targets each enemy who becomes adjacent to you during the move.
 
@@ -9034,6 +9194,7 @@ They have no idea what the college taught you.
 - **Type:** Action  
 - **Distance:** Self  
 - **Target:** Self
+
 
 **Effect:** You make two signature attacks and each gains (SURGE).
 
@@ -9108,7 +9269,8 @@ Your foe made a big mistake.
 - **Distance:** Self  
 - **Target:** Special
 
-**Trigger:** You use In All This Confusion.  
+- **Trigger:** You use In All This Confusion.  
+
 **Effect:** You gain an additional (SHIELD) against the triggering attack. Before you teleport, you can make a free strike
 against a creature who damaged you to trigger In All This Confusion. After you teleport, you can spend a Recovery.
 
@@ -9124,6 +9286,7 @@ Explosives are best when they’re attached to an enemy.
 - **Type:** Action  
 - **Distance:** Ranged 10  
 - **Target:** 1 creature
+
 
 **Effect:** You attach a small bomb to a creature. If you are hidden from the creature, they don’t notice it and you
 remain hidden. If they notice the bomb, the creature can remove it as an action. At the end of your next turn, the bomb
@@ -9151,6 +9314,7 @@ Yellow, disgusting gas explodes from a bomb you toss.
 - 12-16: 5 poison damage
 - 17+: 7 poison damage
 
+
 **Effect:** The gas remains in the area until the end of the encounter. A creature who starts their turn in the area is
 M [average] weakened (save ends).
 
@@ -9173,6 +9337,7 @@ Illusory sounds make your foes reposition themselves as they cower or investigat
 - 12-16: slide 5
 - 17+: slide 7
 
+
 **Effect:** This movement ignores Stability. Instead, the forced movement is reduced by a number equal to the target’s
 Intuition score.
 
@@ -9183,7 +9348,8 @@ When your enemy strikes, you reveal you were in a different place all along.
 - **Keywords:** Attack, Melee, Ranged, Magic, Weapon  
 - **Type:** Free Triggered Action
 
-**Trigger:** You use Clever Trick.  
+- **Trigger:** You use Clever Trick.  
+
 **Effect:** Clever Trick doesn’t cost insight to use. The creature who attacked you actually just attacked an illusory
 image of you. You appear in an unoccupied space within 3 squares of that creature and can make a free strike against
 them and spend a Recovery.
@@ -9213,6 +9379,7 @@ You enter a flow state that makes you nearly impossible to pin down.
 - **Distance:** Self  
 - **Target:** Self
 
+
 **Effect:** Until the end of the encounter, whenever an enemy moves to a space adjacent to you or damages you, you can
 take the Disengage action as a free triggered action.
 
@@ -9230,6 +9397,7 @@ Why are you looking at ME?!
 - 11 or lower: 9 damage
 - 12-16: 13 damage
 - 17+: 18 damage
+
 
 **Effect:** The target is taunted by a willing ally of your choice within distance (EoT).
 
@@ -9408,8 +9576,10 @@ Your leadership thwarts an enemy or aids an ally.
 - **Type:** Triggered  
 - **Distance:** Ranged 10  
 - **Target:** Any creature  
-**Trigger:** The target makes an attack against another creature.  
+- **Trigger:** The target makes an attack against another creature.  
+
 **Effect:** Add or subtract (SURGE) to the attack.  
+
 **Spend 3 Focus:** Increase or decrease the potency of one effect from the attack.
 
 #### PARRY
@@ -9420,8 +9590,10 @@ Your quick reflexes cost an enemy the precision they seek.
 - **Type:** Triggered  
 - **Distance:** Self or Melee 1  
 - **Target:** Self or 1 ally  
-**Trigger:** A creature makes a Weapon attack against the target.  
+- **Trigger:** A creature makes a Weapon attack against the target.  
+
 **Effect:** The attack’s damage is reduced (SHIELD)(SHIELD).  
+
 **Spend 3 Focus:** Decrease the potency of all effects on the attack by 1.
 
 #### OVERWATCH
@@ -9432,8 +9604,10 @@ Under your direction, an ally waits for just the right moment to strike.
 - **Type:** Triggered  
 - **Distance:** Ranged 10  
 - **Target:** 1 enemy  
-**Trigger:** The target moves.  
+- **Trigger:** The target moves.  
+
 **Effect:** At any point during the target’s movement, one ally can make a free strike against the target.  
+
 **Spend 1 Focus:** The target is also R [average] slowed.
 
 ### FIELD ARSENAL
@@ -9474,8 +9648,10 @@ You draw your allies’ attention to a specific foe—with devastating effect.
 - **Type:** Maneuver  
 - **Distance:** Ranged 10  
 - **Target:** 1 creature  
+
 **Effect:** The target is marked by you until the start of your next turn. When attacking a marked target, you and each
 of your allies gain a damage surge (SURGE).  
+
 **Spend 1 Focus or More Focus:** You focus on understanding the tactics of your foe, countering their strengths and
 exploiting their weaknesses to enhance your squad.
 
@@ -9530,7 +9706,9 @@ Your foe left an opening. You point this out to an ally!
 - **Type:** Action  
 - **Distance:** Ranged 10  
 - **Target:** 1 ally  
+
 **Effect:** The target makes a signature attack as a free triggered action.  
+
 **Spend 5 Focus:** You target two allies instead of one.
 
 ### 1ST-LEVEL DOCTRINE FEATURES
@@ -9609,6 +9787,7 @@ On your command, you and your allies force back the enemy line.
 - **Type:** Maneuver  
 - **Distance:** Ranged 10  
 - **Target:** Self and 2 allies  
+
 **Effect:** Each target can move their speed.
 
 ##### 5-FOCUS ABILITIES
@@ -9632,6 +9811,7 @@ Choose one heroic ability from the following options, each of which costs 5 focu
 - 17+: 12 damage; two allies within 10 can each make a signature attack with an edge against the target as a free
   triggered action
 
+
 **Effect:** If an attack is left to be resolved and the target was reduced to 0 Stamina, the attacker can pick a
 different target.
 
@@ -9643,6 +9823,7 @@ Your attack demoralizes your foe. Your allies begin to think you can win.
 - **Type:** Action  
 - **Distance:** Melee 1 or Ranged 5  
 - **Target:** 1 creature or object  
+
 **Effect:** Mark the target.
 
 **Power Roll + Might:**
@@ -9650,6 +9831,7 @@ Your attack demoralizes your foe. Your allies begin to think you can win.
 - 11 or lower: 4 damage; R [weak] weakened (save ends)
 - 12–16: 6 damage; R [average] weakened (save ends)
 - 17+: 10 damage; R [strong] weakened (save ends)
+
 
 **Effect:** Each of your allies can spend a Recovery the first time they attack any target you’ve marked before the
 start of your next turn.
@@ -9662,6 +9844,7 @@ Your allies wait for your command—then unleash death!
 - **Type:** Maneuver  
 - **Distance:** Ranged 5  
 - **Target:** 3 allies  
+
 **Effect:** Each target can make a free strike.
 
 ###### THIS IS WHAT WE PLANNED FOR (5 FOCUS)
@@ -9672,6 +9855,7 @@ All those coordination drills you made them do finally pay off.
 - **Type:** Maneuver  
 - **Distance:** Ranged 10  
 - **Target:** 2 allies  
+
 **Effect:** Each target who hasn’t acted yet this round can take their turn in any order immediately after yours.
 
 ## 2ND-LEVEL FEATURES
@@ -9727,6 +9911,7 @@ Your unorthodox strategy causes enemies to lash out in fear, heedless of who the
 - **Type:** Maneuver  
 - **Distance:** Ranged 10  
 - **Target:** Up to 3 enemies  
+
 **Effect:** Mark each of the targets until the beginning of your next turn. You can choose to bank extra focus on these
 targets as part of this ability. Until the beginning of your next turn, whenever you or an ally makes an attack against
 any marked target, you can force the marked target to make a free strike against a creature within 5.
@@ -9739,6 +9924,7 @@ any marked target, you can force the marked target to make a free strike against
 - **Type:** Action  
 - **Distance:** Melee 1  
 - **Target:** 1 creature  
+
 **Effect:** You shift your speed directly toward an ally adjacent to the target and then swap locations with the ally,
 provided you can fit into each other’s spaces. The ally can spend a Recovery and you roll power against the target.
 
@@ -9767,6 +9953,7 @@ Your enemy will think twice about attacking your friend.
 - 12–16: 3 damage; R [average] frightened of an adjacent ally (save ends)
 - 17+: 5 damage; R [strong] frightened of an adjacent ally (save ends)
 
+
 **Effect:** An ally adjacent to the target can spend a Recovery.
 
 ##### THEIR TACTICS ARE SO PRIMITIVE (5 FOCUS)
@@ -9777,6 +9964,7 @@ All that time you spent studying ancient battles paid off!
 - **Type:** Maneuver  
 - **Distance:** Ranged 5  
 - **Target:** 3 enemies  
+
 **Effect:** You mark each of the targets until the beginning of your next turn. For the rest of the round, whenever you
 or an ally makes an attack, the attack can target an additional creature who is marked by you.
 
@@ -9792,7 +9980,8 @@ You prioritize saving an ally over your own safety.
 - **Type:** Triggered  
 - **Distance:** Ranged 5  
 - **Target:** 1 enemy  
-**Trigger:** The target attacks an ally.  
+- **Trigger:** The target attacks an ally.  
+
 **Effect:** You move toward the target, ending your move in the nearest square that puts the target adjacent to you if
 you can. The ally can spend a Recovery and an additional Recovery for each enemy you move past while moving to the
 target. Then make the following power roll against the target.
@@ -9811,6 +10000,7 @@ Together we are invincible!
 - **Type:** Maneuver  
 - **Distance:** Self and 1 burst  
 - **Target:** Self and all allies  
+
 **Effect:** Until the start of your next turn, targets have (SHIELD)(SHIELD) and a bonus to their Stability equal to your Might
 score.
 
@@ -9838,6 +10028,7 @@ Historians will write about this day.
 - **Type:** Maneuver  
 - **Distance:** Self  
 - **Target:** Self  
+
 **Effect:** Until the end of the encounter or you are dying, whenever you or an ally attacks a target marked by you,
 they do (SURGE)(SURGE).
 
@@ -9849,6 +10040,7 @@ The purpose of a charge is to break their morale, and force a retreat.
 - **Type:** Maneuver  
 - **Distance:** Self  
 - **Target:** Self  
+
 **Effect:** Until the end of the encounter, or you are dying, whenever you or an ally attacks a target marked by you,
 they can push the target 2, then shift 2. Allies can use signature attacks or heroic attacks as part of a charge against
 marked targets.
@@ -9861,6 +10053,7 @@ The tide begins to turn.
 - **Type:** Maneuver  
 - **Distance:** Self  
 - **Target:** Self  
+
 **Effect:** Until the end of the encounter, or you are dying, whenever you or an ally attacks a target marked by you,
 they are R [average] frightened of the attacker (save ends).
 
@@ -9872,6 +10065,7 @@ they are R [average] frightened of the attacker (save ends).
 - **Type:** Maneuver  
 - **Distance:** Self  
 - **Target:** Self  
+
 **Effect:** Until the end of the encounter or you are dying, whenever you or an ally attacks a target marked by you,
 they can spend a Recovery.
 
@@ -10024,7 +10218,9 @@ You gain access to the following maneuver:
 - **Distance:** Self or Ranged 10  
 - **Target:** Self or 1 creature
 
+
 **Effect:** The target can immediately shift a number of squares up to your Reason.  
+
 **Spend 3 Clarity:** The target can also take a maneuver.
 
 #### AGAIN
@@ -10039,8 +10235,9 @@ You gain access to the following triggered action:
 - **Type:** Triggered  
 - **Distance:** Self or Ranged 10  
 - **Target:** Self or 1 creature  
-**Trigger:** The target makes an attack. You can use this ability after seeing the result of the roll. You gain 1
+- **Trigger:** The target makes an attack. You can use this ability after seeing the result of the roll. You gain 1
 clarity.
+
 
 **Effect:** You force the target to reroll the power roll and use the new result, even if the original result was a
 critical hit.
@@ -10057,7 +10254,8 @@ You gain access to the following triggered action:
 - **Type:** Triggered  
 - **Distance:** Ranged 10  
 - **Target:** 1 creature  
-**Trigger:** The target deals damage to an ally.
+- **Trigger:** The target deals damage to an ally.
+
 
 **Effect:** The target takes half the damage they dealt in psychic damage. You gain 1 clarity.
 
@@ -10074,8 +10272,11 @@ You gain access to the following maneuver:
 - **Distance:** Self or Ranged 10  
 - **Target:** Self or a size 1 creature or object
 
+
 **Effect:** You slide the target a number of squares equal to your Reason score.  
+
 **Spend 2+ Clarity:** The size of the creature or object you can target increases by 1 for every 2 clarity you spend.  
+
 **Spend 3 Clarity:** You can slide the target vertically.
 
 #### REMOTE ASSISTANCE
@@ -10091,7 +10292,9 @@ You gain access to the following maneuver:
 - **Distance:** Ranged 10  
 - **Target:** 1 creature or object
 
+
 **Effect:** You use the Aid Attack maneuver on the target.  
+
 **Spend 3 Clarity:** You target 1 additional creature or object.
 
 #### REPEL
@@ -10106,7 +10309,8 @@ You gain access to the following triggered action:
 - **Type:** Triggered  
 - **Distance:** Self or Ranged 10  
 - **Target:** Self or 1 ally  
-**Trigger:** The target takes damage or is force moved.
+- **Trigger:** The target takes damage or is force moved.
+
 
 **Effect:** The target gains (SHIELD) against the damage, or the force movement distance is reduced by an amount equal to
 your Reason score. If they were both damaged and force moved, you choose which is affected. If any forced movement was
@@ -10192,6 +10396,7 @@ Select two signature abilities. Signature abilities can be used at will.
 - 12-16: 2 corruption damage; P [average] slowed (save ends)
 - 17+: 3 corruption damage; P [strong] slowed (save ends)
 
+
 **Effect:** The target takes 1 extra corruption damage for each time they are targeted by this ability within a single
 encounter.  
 **Strained:** You gain 1 clarity on a tier-2 or higher result.
@@ -10211,6 +10416,7 @@ encounter.
 - 12-16: 3 fire damage
 - 17+: 4 fire damage
 
+
 **Effect:** The column of fire lingers until the start of your next turn. A creature or object that enters or starts
 their turn in the affected area takes 2 fire damage.  
 **Strained:** The cube area increases by 2, but the fire immediately disappears at the end of your turn.
@@ -10229,6 +10435,7 @@ their turn in the affected area takes 2 fire damage.
 - 11 or lower: push 2
 - 12-16: push 4
 - 17+: push 6; prone
+
 
 **Effect:** You can choose to slide the target 2 before making the power roll.  
 **Strained:** You can’t use this ability’s additional effect, but the push can be vertical.
@@ -10265,6 +10472,7 @@ their turn in the affected area takes 2 fire damage.
 - 12-16: 3 damage; M [average] prone
 - 17+: 4 damage; M [strong] prone
 
+
 **Effect:** When targeting an object with a solid reflective surface, such as a mirror, a shield, or metal armor, you
 can choose an additional target within 3 of the reflective surface.  
 **Strained:** You have a (SURGE) on the attack. Enemies have a (SURGE) on attacks made against you until the start of your next
@@ -10285,6 +10493,7 @@ turn.
 - 12-16: 5 damage
 - 17+: 7 damage
 
+
 **Effect:** The next attack against the target has a (SURGE).  
 **Strained:** The attack deals an extra 3 damage to the target and yourself. This damage ignores your immunities.
 
@@ -10304,6 +10513,7 @@ Choose one heroic ability from the following options:
 - **Type:** Action  
 - **Distance:** Ranged 10  
 - **Target:** 1 ally or enemy
+
 
 **Effect:** An ally targeted by this ability gains Temporary Stamina equal to twice your Presence and ends one (EoT)
 or (save ends) effect affecting them. If you target an enemy, you make the following attack.
@@ -10329,6 +10539,7 @@ or (save ends) effect affecting them. If you target an enemy, you make the follo
 - 12-16: 5 damage; M [average] slowed (save ends)
 - 17+: 8 damage; M [strong] restrained (save ends)
 
+
 **Effect:** You can pull the target up to 2 squares. You can force move a target restrained by this ability, ignoring
 stability.
 
@@ -10340,6 +10551,7 @@ stability.
 - **Type:** Action  
 - **Distance:** Self or Melee 2  
 - **Target:** Self or 1 ally
+
 
 **Effect:** The target has (SHIELD) until the start of your next turn. Whenever the target takes damage while they have this
 effect, they can take a free strike against the source of the damage.
@@ -10359,6 +10571,7 @@ effect, they can take a free strike against the source of the damage.
 - 12-16: 6 special damage; R [average] target has special weakness 5 (save ends)
 - 17+: 9 special damage; R [strong] target has special weakness equal to 5 + your Reason (save ends)
 
+
 **Effect:** The target takes damage before receiving any special weakness effects. The weakness and damage type of this
 ability must be chosen from one of the following damage types: acid, corruption, or fire.
 
@@ -10375,6 +10588,7 @@ Choose one heroic ability from the following options:
 - **Distance:** Self or Ranged 10  
 - **Target:** Self or 1 ally
 
+
 **Effect:** The target uses an ability they’ve previously used this round without spending any heroic resources.  
 **Strained:** You take 1d6 damage and you are slowed (save ends).
 
@@ -10386,6 +10600,7 @@ Choose one heroic ability from the following options:
 - **Type:** Maneuver  
 - **Distance:** Self or Ranged 10  
 - **Target:** Self or 1 ally
+
 
 **Effect:** The target ignores difficult terrain and takes no damage from forced movement until the start of your next
 turn. When the target moves into a square while they have this effect, they can push one adjacent creature 2 squares.  
@@ -10401,6 +10616,7 @@ distance you are force moved (save ends).
 - **Distance:** Self or Ranged 10  
 - **Target:** Self or 1 ally
 
+
 **Effect:** The target’s stability increases by 5, and they have (SHIELD) and a (SURGE) on weapon attacks until the start of your
 next turn.  
 **Strained:** You cannot use maneuvers (save ends).
@@ -10413,6 +10629,7 @@ next turn.
 - **Type:** Maneuver  
 - **Distance:** Self or Ranged 10  
 - **Target:** Self or 1 ally
+
 
 **Effect:** The target’s speed increases by 3, and they have a double edge on their next power roll made before the
 start of your next turn. If the target gets a tier-3 result on the roll, you gain 1 clarity.  
@@ -10484,6 +10701,7 @@ Choose one of the following abilities:
 - 12-16: Target 3 creatures, one of which can be you
 - 17+: Target 4 creatures, one of which can be you
 
+
 **Effect:** Each target’s speed increases by 5 and they gain the use of an additional maneuver during their turn until
 the start of your next turn.  
 **Strained:** Your speed is halved until the end of the encounter.
@@ -10502,6 +10720,7 @@ the start of your next turn.
 - 11 or lower: Speed is halved; P [weak] slowed (save ends)
 - 12-16: Slowed (save ends); P [average] speed is 0 (save ends)
 - 17+: Slowed (save ends); P [strong] speed is 0 (save ends)
+
 
 **Effect:** Each target can’t use triggered actions while they are slowed by this ability.  
 **Strained:** The potency of this ability increases by 1. You take 1d6 damage. At the start of each round while a target
@@ -10544,6 +10763,7 @@ Choose one of the following abilities:
 - 12-16: 10 damage; M [average] prone
 - 17+: 14 damage; M [strong] prone can’t stand (save ends)
 
+
 **Effect:** A target made prone by this ability is lifted 2 squares into the air before falling immediately to the
 ground.  
 **Strained:** You take half the damage the target takes, including any damage from falling.
@@ -10585,6 +10805,7 @@ turn.
 - 12-16: Target shifts up to their speed and uses their signature ability against targets of your choice
 - 17+: Target moves up to their speed and uses their signature ability against targets of your choice
 
+
 **Effect:** You control the target’s movement. You can’t move the target in a way that puts them in harm’s way, such as
 off a cliff. However, you can move them in a way that provokes opportunity attacks.  
 **Strained:** You take 1d6 damage and you are weakened (EoT).
@@ -10618,6 +10839,7 @@ Choose one heroic ability from the following options:
 - 12-16: 5 corruption damage; removed from encounter (EoT); P [average] weakened (save ends)
 - 17+: 8 corruption damage; removed from encounter (EoT); P [strong] weakened (save ends)
 
+
 **Effect:** When a target removed from the encounter returns, they appear where they were removed or in the closest
 available space of the Director’s choice.  
 **Strained:** You take 2d6 damage and you grow visibly older (the equivalent of 10 human years). You gain 2 clarity on a
@@ -10631,6 +10853,7 @@ tier-3 result.
 - **Type:** Action  
 - **Distance:** Self  
 - **Target:** Self
+
 
 **Effect:** You create three size 1T orb objects that orbit your body. You have a (SHIELD) for each orb you have active.
 Whenever you take damage, you lose 1 orb.  
@@ -10654,6 +10877,7 @@ losing the orb after the attack.
 - **Distance:** 3 Aura  
 - **Target:** Self
 
+
 **Effect:** The aura lasts until the start of your next turn. Whenever an enemy targets an ally within the aura with a
 ranged ability, the ability is negated on the ally and reflected back at the enemy, dealing half damage and negating any
 additional effects.  
@@ -10674,6 +10898,7 @@ forget a memory.
 - 11 or lower: 4 damage; P [weak] dazed (save ends)
 - 12-16: 7 damage; P [average] dazed (save ends)
 - 17+: 11 damage; P [strong] dazed (save ends)
+
 
 **Effect:** After resolving the power roll, attacks and abilities used against the target have a (SURGE), and the target has a
 bane on presence tests until the end of the encounter.  
@@ -10790,7 +11015,8 @@ select from.
 - **Type:** Routine
 - **Distance:** 5 aura
 - **Target:** Self and all allies
-- **Effect:** Each target that starts their turn within the aura has their speed increased by 2 until the end of their
+
+**Effect:** Each target that starts their turn within the aura has their speed increased by 2 until the end of their
   turn.
 
 ### CLASS ACT FEATURES
@@ -10817,7 +11043,8 @@ You have access to the following routine to use with Curtain Call.
 - **Type:** Routine
 - **Distance:** 5 Aura
 - **Target:** Self and all allies
-- **Effect:** While this routine is active, targets that start their turn within the aura can automatically get the
+
+**Effect:** While this routine is active, targets that start their turn within the aura can automatically get the
   tier-3 result on one test made to jump, tumble, or climb during their movement until the end of their turn.
 
 #### BLOCKING
@@ -10832,7 +11059,8 @@ You have access to the following routine to use with Curtain Call.
 - **Type:** Routine
 - **Distance:** 2 aura
 - **Target:** Special
-- **Effect:** At the end of each round, you can choose a number of creatures equal to your Presence score within the
+
+**Effect:** At the end of each round, you can choose a number of creatures equal to your Presence score within the
   aura to be teleported to different, unoccupied squares within the aura. Targets can’t be moved into places where they
   would immediately get hurt, such as over a cliffside or on a bed of spikes, nor can they be moved in a way that would
   result in them suffering a condition, such as grappled or restrained, or other harmful effect.
@@ -10849,7 +11077,8 @@ You have the following ability.
 - **Type:** Maneuver
 - **Distance:** Ranged 10
 - **Target:** Special
-- **Effect:** Choose one of the following effects:
+
+**Effect:** Choose one of the following effects:
     - You herald a rousing tale of victory. An ally within distance has an edge on the next power roll they make before
       the start of your next turn.
     - You weave a tale of caution. An ally within distance has (SHIELD) on the next instance of damage they take until the
@@ -10887,7 +11116,8 @@ You have the following ability.
 - **Type:** Maneuver
 - **Distance:** Self
 - **Target:** Self
-- **Effect:** Your speed increases by 2 until the end of your turn. The next power roll you make this turn can’t be
+
+**Effect:** Your speed increases by 2 until the end of your turn. The next power roll you make this turn can’t be
   lower than tier-2.
     - **Spend 2 Drama:** Your speed, instead, increases by 4.
 
@@ -10903,7 +11133,8 @@ You have access to the following routines to use with Curtain Call.
 - **Type:** Routine
 - **Distance:** Ranged 10
 - **Target:** 1 creature
-- **Effect:** At the end of each round, roll power against a target. This ability ignores cover. You can’t target the
+
+**Effect:** At the end of each round, roll power against a target. This ability ignores cover. You can’t target the
   same creature twice with this effect.
 
 **Power Roll + Presence:**
@@ -10919,7 +11150,8 @@ You have access to the following routines to use with Curtain Call.
 - **Type:** Routine
 - **Distance:** 5 Aura
 - **Target:** Self and all allies
-- **Effect:** Each target that starts their turn within the aura has (SURGE) the next time they deal damage until the end of
+
+**Effect:** Each target that starts their turn within the aura has (SURGE) the next time they deal damage until the end of
   their turn.
 
 ### CLASS ACT TRIGGERED ACTION
@@ -10943,7 +11175,8 @@ Your class act grants you one of the following triggered actions as shown on the
 - **Distance:** Ranged 5
 - **Target:** 1 ally
 - **Trigger:** The target uses a non-area ability that targets an enemy.
-- **Effect:** The target chooses an additional target within Distance. They use the same power roll for all additional
+
+**Effect:** The target chooses an additional target within Distance. They use the same power roll for all additional
   targets. Any damage dealt to additional targets is now sonic damage.
     - **Spend 2 Drama:** The target chooses two additional targets instead of one.
 
@@ -10956,7 +11189,8 @@ Your class act grants you one of the following triggered actions as shown on the
 - **Distance:** Melee 1
 - **Target:** Self or 1 ally
 - **Trigger:** The target takes damage from a melee attack.
-- **Effect:** The target takes a free strike against the attacker.
+
+**Effect:** The target takes a free strike against the attacker.
     - **Spend 2 Drama:** The target can use a signature attack in place of the free strike.
 
 #### TURNABOUT IS FAIR PLAY
@@ -10968,7 +11202,8 @@ Your class act grants you one of the following triggered actions as shown on the
 - **Distance:** Ranged 10
 - **Target:** 1 creature
 - **Trigger:** The target makes an attack with at least one edge or a bane.
-- **Effect:** One of the attack’s edges becomes a bane or vice versa.
+
+**Effect:** One of the attack’s edges becomes a bane or vice versa.
     - **Spend 3 Drama:** One of the target’s attack’s edges becomes a double bane, or one of the attack’s banes becomes
       a double edge.
 
@@ -10997,8 +11232,10 @@ Select one signature ability from the options below. Signature abilities can be 
     - 11 or lower: 2 damage
     - 12-16: 3 damage
     - 17+: 5 damage
-- **Effect:** You shift 3 squares.
-    - **Spend 2+ Drama:** You can target 1 additional creature or object in range for every 2 drama you spend.
+
+**Effect:** You shift 3 squares.
+
+**Spend 2+ Drama:** You can target 1 additional creature or object in range for every 2 drama you spend.
 
 ##### CUTTING SARCASM
 
@@ -11025,7 +11262,8 @@ Select one signature ability from the options below. Signature abilities can be 
     - 11 or lower: 2 damage
     - 12-16: 5 damage
     - 17+: 7 damage
-- **Effect:** The target is taunted (EoT) by you or a willing adjacent ally.
+
+**Effect:** The target is taunted (EoT) by you or a willing adjacent ally.
 
 ##### WITTY BANTER
 
@@ -11039,8 +11277,10 @@ Select one signature ability from the options below. Signature abilities can be 
     - 11 or lower: 1 psychic damage
     - 12-16: 2 psychic damage
     - 17+: 3 psychic damage
-- **Effect:** An ally within 10 removes 1 condition or effect with a duration of EoT or save ends afflicting them.
-- **Spend 1 Drama:** That ally can also spend 1 Recovery.
+
+**Effect:** An ally within 10 removes 1 condition or effect with a duration of EoT or save ends afflicting them.
+
+**Spend 1 Drama:** That ally can also spend 1 Recovery.
 
 #### HEROIC ABILITIES
 
@@ -11062,7 +11302,8 @@ Choose one heroic ability from the following options.
     - 11 or lower: 4 sonic damage; P [weak] weakened (save ends)
     - 12-16: 6 sonic damage; P [average] weakened (save ends)
     - 17+: 10 sonic damage; P [strong] weakened (save ends)
-- **Effect:** The effects of the next ability the target uses before the start of your next turn are suppressed. Any
+
+**Effect:** The effects of the next ability the target uses before the start of your next turn are suppressed. Any
   effects listed within a result tier other than damage don’t occur. This doesn’t apply to ability effects that always
   happen regardless of the power roll.
 
@@ -11074,11 +11315,13 @@ Choose one heroic ability from the following options.
 - **Type:** Action
 - **Distance:** 2 Burst
 - **Target:** All enemies
-- **Power Roll + Presence:**
-    - 11 or lower: slide 1; I [weak] dazed (save ends)
-    - 12-16: slide 1; I [average] dazed (save ends)
-    - 17+: slide 2; I [strong] dazed (save ends)
-    - **Spend 2+ Drama:** The burst size is increased by 1 for every 2 drama you spend.
+
+**Power Roll + Presence:**
+- 11 or lower: slide 1; I [weak] dazed (save ends)
+- 12-16: slide 1; I [average] dazed (save ends)
+- 17+: slide 2; I [strong] dazed (save ends)
+
+**Spend 2+ Drama:** The burst size is increased by 1 for every 2 drama you spend.
 
 ###### QUICK REWRITE (3 DRAMA)
 
@@ -11092,7 +11335,8 @@ Choose one heroic ability from the following options.
     - 11 or lower: 2 damage; P [weak] slowed (save ends)
     - 12-16: 3 damage; P [average] slowed (save ends)
     - 17+: 4 damage; P [strong] restrained (save ends)
-- **Effect:** The area becomes difficult terrain for your enemies.
+
+**Effect:** The area becomes difficult terrain for your enemies.
 
 ###### UPSTAGE (3 DRAMA)
 
@@ -11102,7 +11346,8 @@ Choose one heroic ability from the following options.
 - **Type:** Maneuver
 - **Distance:** Self
 - **Target:** Self
-- **Effect:** You shift up to your speed. You make one power roll that targets each enemy who becomes adjacent to you
+
+**Effect:** You shift up to your speed. You make one power roll that targets each enemy who becomes adjacent to you
   during the move.
 
 **Power Roll + Agility or Presence:**
@@ -11135,7 +11380,8 @@ Choose one heroic ability from the following options.
 - **Type:** Maneuver
 - **Distance:** Self
 - **Target:** Self
-- **Effect:** You turn invisible and create a magical illusion of your corpse falling in your square. While invisible,
+
+**Effect:** You turn invisible and create a magical illusion of your corpse falling in your square. While invisible,
   your speed increases by 3 and you ignore difficult terrain. The illusion melts into the ground and your invisibility
   ends if the illusion is interacted with, you take damage, you perform an action or a maneuver, or at the end of your
   next turn.
@@ -11148,7 +11394,8 @@ Choose one heroic ability from the following options.
 - **Type:** Action
 - **Distance:** 3 Burst
 - **Target:** Self and all allies
-- **Effect:** Each willing target immediately teleports up to their speed. Teleported targets that were slowed are no
+
+**Effect:** Each willing target immediately teleports up to their speed. Teleported targets that were slowed are no
   longer slowed.
 
 ###### METHOD ACTING (5 DRAMA)
@@ -11163,7 +11410,8 @@ Choose one heroic ability from the following options.
     - 11 or lower: 7 damage; P [weak] weakened (save ends)
     - 12-16: 11 damage; P [average] weakened (save ends)
     - 17+: 16 damage; P [strong] weakened (save ends)
-- **Effect:** You can choose to be inflicted with bleeding (save ends) to deal an additional 5 corruption damage to the
+
+**Effect:** You can choose to be inflicted with bleeding (save ends) to deal an additional 5 corruption damage to the
   target.
 
 ## 2ND-LEVEL FEATURES
@@ -11239,7 +11487,8 @@ Choose one of the following abilities.
 - **Type:** Action
 - **Distance:** Self and Melee 1
 - **Target:** Self and 1 willing ally
-- **Effect:** The targets shift up to 5 squares, including vertically. The targets must end this movement adjacent to
+
+**Effect:** The targets shift up to 5 squares, including vertically. The targets must end this movement adjacent to
   each other and on solid ground. Each target can then take a free strike with (SURGE)(SURGE) against an enemy within reach.
 
 ##### EN GUARDE! (5 DRAMA)
@@ -11254,7 +11503,8 @@ Choose one of the following abilities.
     - 11 or lower: 7 damage; target can shift 3 and take a free strike against you
     - 12-16: 11 damage; target can shift 2 and take a free strike against you
     - 17+: 16 damage; target can shift 1
-- **Effect:** If the target shifts or takes a free strike against you during this ability, you can shift 3 and take a
+
+**Effect:** If the target shifts or takes a free strike against you during this ability, you can shift 3 and take a
   melee free strike against the target. If the target deals damage to you during this ability, you have (SURGE) on your free
   strike.
 
@@ -11270,7 +11520,8 @@ Choose one of the following abilities.
 - **Type:** Action
 - **Distance:** Special
 - **Target:** Special
-- **Effect:** You recreate and enact a non-Villain Action attack you have observed this round, using your Presence score
+
+**Effect:** You recreate and enact a non-Villain Action attack you have observed this round, using your Presence score
   for any power rolls and sonic damage for any damage dealt.
 
 ##### TOUGH CROWD (5 DRAMA)
@@ -11281,7 +11532,8 @@ Choose one of the following abilities.
 - **Type:** Maneuver
 - **Distance:** 3 Cube within 10
 - **Target:** Special
-- **Effect:** The affected area becomes haunted by a swirling horde of phantoms brutally dancing in a circle until the
+
+**Effect:** The affected area becomes haunted by a swirling horde of phantoms brutally dancing in a circle until the
   end of the encounter. An ally can enter a square of the area without spending movement. At the start of each of your
   turns, or once per round as a free triggered action whenever an enemy enters the area, you can target all enemies
   occupying a square of the area with the following power roll.
@@ -11305,7 +11557,8 @@ Choose one of the following abilities.
 - **Type:** Action
 - **Distance:** Ranged 10
 - **Target:** Special
-- **Effect:** Either a bystander within distance is uplifted by your magic, or a mysterious new hero appears in an
+
+**Effect:** Either a bystander within distance is uplifted by your magic, or a mysterious new hero appears in an
   unoccupied space to help out during the encounter. The target is controlled by you, has their own separate turn,
   shares your characteristics and your maximum Stamina, and uses your melee and ranged weapon free strikes to attack.
   When the target is reduced to 0 Stamina or at the end of the encounter, they retreat (or revert to a bystander). A
@@ -11319,7 +11572,8 @@ Choose one of the following abilities.
 - **Type:** Action
 - **Distance:** Ranged 10
 - **Target:** 1 dead enemy
-- **Effect:** The target comes back to life with half their Stamina as an ally under the Director’s control. The heroes
+
+**Effect:** The target comes back to life with half their Stamina as an ally under the Director’s control. The heroes
   can discuss with the Director when the target should take their turn each round. The target turns to dust and blows
   away at the end of the encounter.
 
@@ -11364,7 +11618,8 @@ You have access to two additional routines to use with Curtain Call.
 - **Type:** Routine
 - **Distance:** 5 Aura
 - **Target:** Self and all allies
-- **Effect:** While this routine is active, each target that starts their turn within the aura doesn't suffer a bane
+
+**Effect:** While this routine is active, each target that starts their turn within the aura doesn't suffer a bane
   when targeting concealed enemies. They can also search for hidden creatures as a free maneuver once during their turn.
 
 ##### "NEVERENDING HERO"
@@ -11375,7 +11630,8 @@ You have access to two additional routines to use with Curtain Call.
 - **Type:** Routine
 - **Distance:** 5 Aura
 - **Target:** Self and all allies
-- **Effect:** While this routine is active, each target that starts their turn dying within the aura has an edge on
+
+**Effect:** While this routine is active, each target that starts their turn dying within the aura has an edge on
   their power rolls and ignores the effects of bleeding until the end of their turn.
 
 ### 7-DRAMA ABILITY
@@ -11394,7 +11650,8 @@ Choose a new heroic ability from the following options.
     - 11 or lower: slide 3; P [weak] forced movement ignores stability
     - 12-16: slide 5; P [average] forced movement ignores stability
     - 17+: slide 7; P [strong] forced movement ignores stability
-- **Effect:** You can’t slide targets into other creatures or objects using this ability. Instead of sliding a target,
+
+**Effect:** You can’t slide targets into other creatures or objects using this ability. Instead of sliding a target,
   you can choose to swap their location with another target (provided each target can fit into the new space).
 
 #### INFERNAL GAVOTTE (7 DRAMA)
@@ -11409,7 +11666,8 @@ Choose a new heroic ability from the following options.
     - 11 or lower: 3 fire damage; A [weak] weakened (save ends)
     - 12-16: 5 fire damage; A [average] weakened (save ends)
     - 17+: 8 fire damage; A [strong] weakened (save ends)
-- **Effect:** Each ally in range can shift 2.
+
+**Effect:** Each ally in range can shift 2.
 
 #### VIRTUOSO'S SOLO (7 DRAMA)
 
@@ -11423,7 +11681,8 @@ Choose a new heroic ability from the following options.
     - 11 or lower: 9 damage
     - 12-16: 14 damage; push 3
     - 17+: 19 damage; push 5
-- **Effect:** You can choose to make the damage sonic damage. You can use this ability on the same target for the next
+
+**Effect:** You can choose to make the damage sonic damage. You can use this ability on the same target for the next
   two consecutive rounds without spending drama.
 
 #### WE MEET AT LAST, LET’S FINISH THIS (7 DRAMA)
@@ -11434,7 +11693,8 @@ Choose a new heroic ability from the following options.
 - **Type:** Maneuver
 - **Distance:** Line of effect
 - **Target:** 1 creature
-- **Effect:** Until the end of the encounter, both you and the target can target each other with abilities even if you
+
+**Effect:** Until the end of the encounter, both you and the target can target each other with abilities even if you
   would be out of distance. Secondary effects that grapple or force move the target don’t happen if you aren’t within
   the distance of the ability. On each of your turns, you can take a free maneuver to communicate a motivating or
   dispiriting message to the target, either giving them (SURGE)(SURGE) or a bane on the next attack they use before the start of
@@ -12852,6 +13112,7 @@ You gain the following ability.
 - **Target:** 1 ally who understands at least one language  
 
 You send a one-way telepathic message to a friend.  
+
 **Effect:** You send a telepathic message to the target that takes 10 seconds or less to speak.
 
 ### MYSTIC DABBLER
@@ -14317,6 +14578,7 @@ You attempt to grab a creature using the following ability:
 - **12–16:** You can grab the target, but if you do, they can make a melee free strike against you right before they become grabbed by you.
 - **17+:** The target is grabbed by you.
 
+
 **Effect:** You gain an edge on the power roll if the creature’s size is smaller than yours. You can grab only one creature at a time this way.
 
 ### HIDE
@@ -14338,6 +14600,7 @@ You attempt to shove an adjacent creature using the following ability:
 - **11 or lower:** Push 1
 - **12–16:** Push 2
 - **17+:** Push 3
+
 
 **Effect:** You gain an edge on the power roll if the creature’s size is smaller than yours.
 
@@ -15767,7 +16030,8 @@ A weapon imbued with an enhancement grants you special benefits while it is wiel
 - **Distance:** Melee 1
 - **Target:** 1 enemy
 - **Trigger:** The target moves into a space adjacent to you.
-- **Effect:** The target takes 1d6 damage.
+
+**Effect:** The target takes 1d6 damage.
 
 - **Chilling II:** Whenever you damage a creature using this weapon and obtain a tier 3 result on the power roll, that creature takes 2d6 psionic cold damage and is slowed (save ends).
 
@@ -16201,7 +16465,8 @@ A diamond-shaped dart holds a shimmering black vial at its core.
 - **Project Source:** Texts or lore in Szetch
 - **Project Roll Characteristic:** Agility or Intuition
 - **Project Goal:** 45 (yields 1d3 darts, or 3 darts if crafted by a shadow)
-- **Effect:** As a maneuver, you can make a ranged free strike using a black ash dart. The attack deals an extra 1 damage and adds the following effects to the tier results of the power roll:
+
+**Effect:** As a maneuver, you can make a ranged free strike using a black ash dart. The attack deals an extra 1 damage and adds the following effects to the tier results of the power roll:
   - 11 or lower: You can teleport the target up to 2 squares.
   - 12–16: You can teleport the target up to 4 squares.
   - 17+: You can teleport the target up to 6 squares.
@@ -16215,7 +16480,8 @@ A brittle glass tube with a ruby attached by a hinge as its topper.
 - **Project Source:** Text or lore in Proto-Chtoll
 - **Project Characteristic:** Agility or Reason
 - **Project Goal:** 45
-- **Effect:** After you damage an adjacent creature with blood, you can capture the target’s life essence in this vial (no action required). Record the damage you dealt. As a maneuver, you drink the contents of the vial to regain Stamina equal to half the amount of damage dealt. Alternatively, spend 1 Heroic Resource to regain Stamina equal to the full amount of damage dealt. Once you drink from the vial, it crumbles to dust.
+
+**Effect:** After you damage an adjacent creature with blood, you can capture the target’s life essence in this vial (no action required). Record the damage you dealt. As a maneuver, you drink the contents of the vial to regain Stamina equal to half the amount of damage dealt. Alternatively, spend 1 Heroic Resource to regain Stamina equal to the full amount of damage dealt. Once you drink from the vial, it crumbles to dust.
 
 #### CATAPULT DUST
 
@@ -16226,7 +16492,8 @@ A small leather pouch is filled with this fine blue powder.
 - **Project Source:** Texts or lore in Caelian
 - **Project Roll Characteristic:** Reason or Intuition
 - **Project Goal:** 45
-- **Effect:** Catapult Dust was developed as a cost-effective magical siege weapon. As an action, you pour the dust out in an adjacent, unoccupied space to fill an area as large as a 2-cube. At the start of your next turn, the ground or floor at the bottom of the area erupts violently upwards and in a direction of your choice. This launches any unattached objects in the area or creatures who have entered the area in an arc that is 6 + 1d6 squares long and 3 + 1d6 squares high.
+
+**Effect:** Catapult Dust was developed as a cost-effective magical siege weapon. As an action, you pour the dust out in an adjacent, unoccupied space to fill an area as large as a 2-cube. At the start of your next turn, the ground or floor at the bottom of the area erupts violently upwards and in a direction of your choice. This launches any unattached objects in the area or creatures who have entered the area in an arc that is 6 + 1d6 squares long and 3 + 1d6 squares high.
 
 #### GIANT’S-BLOOD FLAME
 
@@ -16237,7 +16504,8 @@ A small pot is filled with a viscous, ochre oil that smells of sulfur and burnt 
 - **Project Source:** Texts or lore in Caelian
 - **Project Roll Characteristic:** Reason or Intuition
 - **Project Goal:** 45
-- **Effect:** As a maneuver, you can coat a weapon in this oil and ignite it. The weapon burns persistently and without harming itself until it is extinguished as a maneuver. Whenever you use a weapon that is ignited this way with a damage-dealing weapon ability, you deal (SURGE) fire damage. Alternatively, you can use a maneuver to throw the pot up to 5 squares, coating 1 square and any creatures or objects in that square with a sticky, flammable oil. If the oil takes any fire damage, it burns persistently and deals 5 fire damage at the end of each of your turns to anything it has coated. A creature covered in the oil or who can reach it can use an action to extinguish the flames and end the effect.
+
+**Effect:** As a maneuver, you can coat a weapon in this oil and ignite it. The weapon burns persistently and without harming itself until it is extinguished as a maneuver. Whenever you use a weapon that is ignited this way with a damage-dealing weapon ability, you deal (SURGE) fire damage. Alternatively, you can use a maneuver to throw the pot up to 5 squares, coating 1 square and any creatures or objects in that square with a sticky, flammable oil. If the oil takes any fire damage, it burns persistently and deals 5 fire damage at the end of each of your turns to anything it has coated. A creature covered in the oil or who can reach it can use an action to extinguish the flames and end the effect.
 
 #### GROWTH POTION
 
@@ -16248,7 +16516,8 @@ This thick, green liquid tastes of licorice and potatoes.
 - **Project Source:** Texts or lore in Caelian
 - **Project Roll Characteristic:** Reason or Intuition
 - **Project Goal:** 45
-- **Effect:** As a maneuver, you can drink this potion or pour it over an object of size 2 or smaller, causing the target’s size to increase by 1. If you are the target, your current Stamina and Stability are doubled, you gain an edge on Might tests, and your weapon attacks gain (SURGE). You shrink back to your original size after 3 rounds, halving your current Stamina and Stability, and losing the potion’s other benefits. Objects maintain their new size permanently.
+
+**Effect:** As a maneuver, you can drink this potion or pour it over an object of size 2 or smaller, causing the target’s size to increase by 1. If you are the target, your current Stamina and Stability are doubled, you gain an edge on Might tests, and your weapon attacks gain (SURGE). You shrink back to your original size after 3 rounds, halving your current Stamina and Stability, and losing the potion’s other benefits. Objects maintain their new size permanently.
 
 #### HEALING POTION
 
@@ -16259,7 +16528,8 @@ Thick and red, this liquid tastes of sour beer.
 - **Project Source:** Texts or lore in Caelian
 - **Project Roll Characteristic:** Reason or Intuition
 - **Project Goal:** 45
-- **Effect:** When you drink this potion as a maneuver, you regain Stamina equal to your recovery value without spending a Recovery.
+
+**Effect:** When you drink this potion as a maneuver, you regain Stamina equal to your recovery value without spending a Recovery.
 
 #### IMP’S TONGUE
 
@@ -16270,7 +16540,8 @@ The tongue of an imp has been dried and preserved. Yuck.
 - **Project Source:** Texts or lore in Caelian
 - **Project Roll Characteristic:** Reason or Intuition
 - **Project Goal:** 45
-- **Effect:** As a maneuver, you can place the imp’s tongue on your own tongue, causing it to reconstitute and attach itself to your tongue. While attached, the Imp’s Tongue allows you to speak any language and understand any language spoken to you. This benefit ends after 1 hour when the tongue is absorbed into your body.
+
+**Effect:** As a maneuver, you can place the imp’s tongue on your own tongue, causing it to reconstitute and attach itself to your tongue. While attached, the Imp’s Tongue allows you to speak any language and understand any language spoken to you. This benefit ends after 1 hour when the tongue is absorbed into your body.
 
 #### LACHOMP TOOTH
 
@@ -16281,7 +16552,8 @@ A thumb-sized serrated tooth seems to scratch your flesh in some way whenever it
 - **Project Source:** Texts or lore in Caelian
 - **Project Roll Characteristic:** Reason or Intuition
 - **Project Goal:** 45 (yields 1d3 teeth)
-- **Effect:** As a maneuver, you attach a lachomp tooth to a weapon, allowing that weapon to supernaturally flicker in and out of reality. Your next attack using this weapon can tear through multiple targets in a line (for an attack at range) or surrounding you (for an attack within reach). The attack also adds the following effects to the tier results of the power roll:
+
+**Effect:** As a maneuver, you attach a lachomp tooth to a weapon, allowing that weapon to supernaturally flicker in and out of reality. Your next attack using this weapon can tear through multiple targets in a line (for an attack at range) or surrounding you (for an attack within reach). The attack also adds the following effects to the tier results of the power roll:
   - 11 or lower: You can affect one additional target with this attack.
   - 12–16: You can affect up to three additional targets with this attack.
   - 17+: You can affect up to seven additional targets with this attack.
@@ -16295,7 +16567,8 @@ A gold-rimmed, mirror-faced coin trembles in the hand as if it were repelled by 
 - **Project Source:** Texts or lore in Variac
 - **Project Roll Characteristic:** Reason or Intuition
 - **Project Goal:** 45
-- **Effect:** While the Mirror Token is on your person and you are targeted by a ranged attack, you can use a triggered action to crush the token and ignore the attack. Half the damage you would have taken and any effects of the attack are suffered by the attacker.
+
+**Effect:** While the Mirror Token is on your person and you are targeted by a ranged attack, you can use a triggered action to crush the token and ignore the attack. Half the damage you would have taken and any effects of the attack are suffered by the attacker.
 
 #### POCKET HOMUNCULUS
 
@@ -16306,7 +16579,8 @@ A densely interlocking sphere of mechanics and illusory elements designed to cre
 - **Project Source:** Texts or lore in Zaliac
 - **Project Characteristic:** Reason
 - **Project Goal:** 45
-- **Effect:** When activated, this item erupts in a bright flash, allowing you to shift 1 square without your enemies noticing your movement and your homunculus twin appears in an adjacent space. The homunculus is a creature with 15 Stamina, 0 in all characteristics, speed and stability equal to yours. They can’t use any abilities. They look indistinguishable from you, mimicking all your movements and speech. When you move, the homunculus moves with you, matching your pace. The homunculus crumbles to dust after 1 hour or when their Stamina is reduced to 0.
+
+**Effect:** When activated, this item erupts in a bright flash, allowing you to shift 1 square without your enemies noticing your movement and your homunculus twin appears in an adjacent space. The homunculus is a creature with 15 Stamina, 0 in all characteristics, speed and stability equal to yours. They can’t use any abilities. They look indistinguishable from you, mimicking all your movements and speech. When you move, the homunculus moves with you, matching your pace. The homunculus crumbles to dust after 1 hour or when their Stamina is reduced to 0.
   - You can use a maneuver to issue a telepathic command to your homunculus while they are within your line of effect. The homunculus performs the action to the best of their ability.
 
 #### PORTABLE CLOUD
@@ -16318,7 +16592,8 @@ This thin glass sphere holds a tiny roiling cloud.
 - **Project Source:** Texts or lore in Caelian
 - **Project Roll Characteristic:** Reason or Intuition
 - **Project Goal:** 30 or 45 (see below)
-- **Effect:** As a maneuver, you can throw this delicate glass sphere up to 5 squares, breaking it and creating a 4-cube of fog. The fog dissipates after 10 minutes or if a strong gust of wind created by a storm or magic passes through the area.
+
+**Effect:** As a maneuver, you can throw this delicate glass sphere up to 5 squares, breaking it and creating a 4-cube of fog. The fog dissipates after 10 minutes or if a strong gust of wind created by a storm or magic passes through the area.
   - **Noxious Cloud:** Filled with a green or putrid yellow haze, this sphere spreads a choking, foul-smelling mist when broken. Each creature who enters the cloud for the first time in a round or starts their turn there takes 5 poison damage. Additionally, creatures are weakened while in the fog. 
     - **Additional Item Prerequisites:** One ounce of undead flesh.
   - **Thunderhead Cloud:** Small lightning bolts arc around the black cloud in this sphere, which creates a 3-cube of cloud and lightning when broken. Each creature who enters the cloud for the first time in a round or starts their turn there takes 5 lightning damage. Additionally, creatures are slowed while in the cloud. 
@@ -16333,7 +16608,8 @@ A tiny compact of colorless powder with only the slightest astringent taste and 
 - **Project Source:** Text or lore in Caelian
 - **Project Roll Characteristic:** Reason
 - **Project Goal:** 45
-- **Effect:** As a maneuver, you can blow a dose of this powder at an adjacent, grabbed, restrained, or unconscious creature or sprinkle it onto food or drink. If a creature inhales or consumes a full dose of the powder, they must only speak true statements for the next hour. Additionally, creatures have an edge on Presence and Intuition tests to convince the target to speak or read their emotions. This rises to a double edge if the target doesn’t realize they’ve been dosed.
+
+**Effect:** As a maneuver, you can blow a dose of this powder at an adjacent, grabbed, restrained, or unconscious creature or sprinkle it onto food or drink. If a creature inhales or consumes a full dose of the powder, they must only speak true statements for the next hour. Additionally, creatures have an edge on Presence and Intuition tests to convince the target to speak or read their emotions. This rises to a double edge if the target doesn’t realize they’ve been dosed.
 
 #### SNAPDRAGON
 
@@ -16344,7 +16620,8 @@ This delicate orange blossom has a sickly-sweet smell.
 - **Project Source:** Text or lore in Yllyric
 - **Project Roll Characteristic:** Reason or Intuition
 - **Project Goal:** 45 (yields 1d6 + 1 snapdragons)
-- **Effect:** As a maneuver, you sniff a magical snapdragon blossom, causing it to wither and making your movements more forceful and explosive. The next damage-dealing ability you use deals (SURGE), and adds 2 squares to the distance of any forced movement the ability imposes. If the ability does not impose forced movement, you can push each creature targeted by the ability up to 2 squares.
+
+**Effect:** As a maneuver, you sniff a magical snapdragon blossom, causing it to wither and making your movements more forceful and explosive. The next damage-dealing ability you use deals (SURGE), and adds 2 squares to the distance of any forced movement the ability imposes. If the ability does not impose forced movement, you can push each creature targeted by the ability up to 2 squares.
 
 ## TRINKETS
 
@@ -16365,7 +16642,8 @@ This silky-blue hooded cloak is emblazoned with a golden Anjal sigil meaning “
 - **Project Source:** Licensing agreements in Anjal
 - **Project Roll Characteristic:** Reason or Intuition
 - **Project Goal:** 150
-- **Effect:** While worn, a blue cloak grants you cold immunity equal to your level. Additionally, when you are targeted by any effect that deals cold damage, you can use a triggered action to shift a number of squares equal to your level. If you do so, the cold immunity granted by the cloak becomes cold weakness with the same value until the end of the next round. You can’t use this triggered action again until this weakness ends.
+
+**Effect:** While worn, a blue cloak grants you cold immunity equal to your level. Additionally, when you are targeted by any effect that deals cold damage, you can use a triggered action to shift a number of squares equal to your level. If you do so, the cold immunity granted by the cloak becomes cold weakness with the same value until the end of the next round. You can’t use this triggered action again until this weakness ends.
 
 #### COLOR CLOAK (RED)
 
@@ -16376,7 +16654,8 @@ This woolen red hooded cloak is emblazoned with a golden Anjal sigil meaning “
 - **Project Source:** Licensing agreements in Anjal
 - **Project Roll Characteristic:** Reason or Intuition
 - **Project Goal:** 150
-- **Effect:** While worn, a red cloak grants you fire immunity equal to your level. Additionally, when you are targeted by any effect that deals fire damage, you can use a triggered action to reduce the damage to 0. If you do so, the fire immunity granted by this cloak becomes fire weakness with the same value until the end of the next round. You can’t use this triggered action again until this weakness ends.
+
+**Effect:** While worn, a red cloak grants you fire immunity equal to your level. Additionally, when you are targeted by any effect that deals fire damage, you can use a triggered action to reduce the damage to 0. If you do so, the fire immunity granted by this cloak becomes fire weakness with the same value until the end of the next round. You can’t use this triggered action again until this weakness ends.
 
 #### COLOR CLOAK (YELLOW)
 
@@ -16387,7 +16666,8 @@ This rubbery yellow hooded cloak is emblazoned with a golden Anjal sigil meaning
 - **Project Source:** Licensing agreements in Anjal
 - **Project Roll Characteristic:** Reason or Intuition
 - **Project Goal:** 150
-- **Effect:** While worn, a yellow cloak grants you lightning immunity equal to your level. Additionally, when you are targeted by any effect that deals lightning damage, you can use a triggered action to cause the next damage-dealing ability you use to deal extra lightning damage equal to your level. Once you deal this extra damage, your lightning immunity becomes lightning weakness with the same value until the end of the next round. You can’t use this triggered action again until this weakness ends.
+
+**Effect:** While worn, a yellow cloak grants you lightning immunity equal to your level. Additionally, when you are targeted by any effect that deals lightning damage, you can use a triggered action to cause the next damage-dealing ability you use to deal extra lightning damage equal to your level. Once you deal this extra damage, your lightning immunity becomes lightning weakness with the same value until the end of the next round. You can’t use this triggered action again until this weakness ends.
 
 #### DEADWEIGHT
 
@@ -16398,7 +16678,8 @@ Though this humanoid femur is coated in lead, it feels impossibly heavy for its 
 - **Project Source:** Texts or lore in Caelian
 - **Project Roll Characteristic:** Reason or Intuition
 - **Project Goal:** 150
-- **Effect:** While holding the Deadweight, you fall twice as fast, taking an extra 1 damage for each square you fall. However, while falling in this way, you can use any melee ability normally used as an action (no action required). Whether you use the ability while falling or when you hit the ground, it deals an extra 2 damage for each square you fall before using it.
+
+**Effect:** While holding the Deadweight, you fall twice as fast, taking an extra 1 damage for each square you fall. However, while falling in this way, you can use any melee ability normally used as an action (no action required). Whether you use the ability while falling or when you hit the ground, it deals an extra 2 damage for each square you fall before using it.
 
 #### DISPLACING REPLACEMENT BRACER
 
@@ -16409,7 +16690,8 @@ A wooden bangle etched with an ambigram sigil of the Zaliac word for “transfer
 - **Project Source:** Texts or lore in Zaliac
 - **Project Roll Characteristic:** Reason
 - **Project Goal:** 150
-- **Effect:** As a maneuver, you can transfer an object of size 1S or 1T held aloft in one hand with another object of the same size that is within 10 squares of you. The objects change locations instantaneously and without creating auditory or visual disturbances. If another creature is wearing or holding the object you transfer to your hand, they notice the transfer if their Intuition score is 3 or higher.
+
+**Effect:** As a maneuver, you can transfer an object of size 1S or 1T held aloft in one hand with another object of the same size that is within 10 squares of you. The objects change locations instantaneously and without creating auditory or visual disturbances. If another creature is wearing or holding the object you transfer to your hand, they notice the transfer if their Intuition score is 3 or higher.
 
 #### DIVINE VINE
 
@@ -16420,7 +16702,8 @@ A coil of emerald-green vines is topped with the jaws of an enormous Venus flytr
 - **Project Source:** Songs in Yllyric
 - **Project Roll Characteristic:** Reason or Presence
 - **Project Goal:** 100
-- **Effect:** As a maneuver, you call upon the Divine Vine in Yllyric, causing it to extend up to 5 squares from you and attach its jaws to a creature or object, allowing you to use the Grab maneuver at a distance. If the target is grabbed, you can choose to keep the divine vine extended, pull the target adjacent to you, or pull yourself adjacent to the target. The divine vine stays attached to the target until the vine is attacked, the target escapes your grab, or you call upon the vine to release the target (no action required).
+
+**Effect:** As a maneuver, you call upon the Divine Vine in Yllyric, causing it to extend up to 5 squares from you and attach its jaws to a creature or object, allowing you to use the Grab maneuver at a distance. If the target is grabbed, you can choose to keep the divine vine extended, pull the target adjacent to you, or pull yourself adjacent to the target. The divine vine stays attached to the target until the vine is attacked, the target escapes your grab, or you call upon the vine to release the target (no action required).
 
 #### FLAMESHADE GLOVES
 
@@ -16431,7 +16714,8 @@ A set of finely stitched gloves that make the wearer’s hands appear to flicker
 - **Project Source:** Texts or lore in Khelt
 - **Project Roll Characteristic:** Reason
 - **Project Goal:** 150
-- **Effect:** When wearing these gloves, use your movement to place one hand upon a mundane object. If the object is 1 square thick or thinner and has open space on the side, you pull your entire body through as though it were not there. If the object is mundane but too thick or has no open space on the other side, your hands get stuck inside the object. You can remove them by succeeding on a hard Might test made as an action.
+
+**Effect:** When wearing these gloves, use your movement to place one hand upon a mundane object. If the object is 1 square thick or thinner and has open space on the side, you pull your entire body through as though it were not there. If the object is mundane but too thick or has no open space on the other side, your hands get stuck inside the object. You can remove them by succeeding on a hard Might test made as an action.
 
 #### GECKO GLOVES
 
@@ -16442,7 +16726,8 @@ These scaled gloves have palms and fingers covered in near-invisible sticky hair
 - **Project Source:** Texts or lore in Caelian
 - **Project Roll Characteristic:** Reason or Intuition
 - **Project Goal:** 100
-- **Effect:** While you wear these gloves, your grip becomes all but impossible to break. You can’t be disarmed, you can’t lose your grip while climbing, and creatures grabbed by you take a bane on the resistance roll for the Escape Grab maneuver.
+
+**Effect:** While you wear these gloves, your grip becomes all but impossible to break. You can’t be disarmed, you can’t lose your grip while climbing, and creatures grabbed by you take a bane on the resistance roll for the Escape Grab maneuver.
 
 #### GYROTOQUE
 
@@ -16453,7 +16738,8 @@ A tight cap topped with a freely-spinning bauble.
 - **Project Source:** Texts or lore in Zaliac
 - **Project Roll Characteristic:** Reason
 - **Project Goal:** 150
-- **Effect:** When the bauble atop this cap is spun (no action required), the cap gains a momentum score equal to the number of squares you moved this turn. The score drops to 0 at the end of your next turn or the next time you spin the bauble to gain a momentum score. As a move action, you can spin the bauble in the opposite direction to instantly infuse yourself with the cap’s momentum. The next time you force move a creature before the end of your turn, the forced movement is increased by an amount equal to the cap’s momentum score. The stored momentum then disappears from the cap.
+
+**Effect:** When the bauble atop this cap is spun (no action required), the cap gains a momentum score equal to the number of squares you moved this turn. The score drops to 0 at the end of your next turn or the next time you spin the bauble to gain a momentum score. As a move action, you can spin the bauble in the opposite direction to instantly infuse yourself with the cap’s momentum. The next time you force move a creature before the end of your turn, the forced movement is increased by an amount equal to the cap’s momentum score. The stored momentum then disappears from the cap.
 
 #### HELLCHARGER HELM
 
@@ -16464,7 +16750,8 @@ A steel helm set with two curved ebony horns, with a crackling plume of fire flo
 - **Project Source:** Texts or lore in Anjal and Caelian
 - **Project Roll Characteristic:** Might or Reason
 - **Project Goal:** 150
-- **Effect:** Whenever you take the Charge action while wearing this helmet, your speed is increased by 5 until the end of your current turn. After charging, you can use the Knockback maneuver as a free maneuver, regardless of the target creature’s size.
+
+**Effect:** Whenever you take the Charge action while wearing this helmet, your speed is increased by 5 until the end of your current turn. After charging, you can use the Knockback maneuver as a free maneuver, regardless of the target creature’s size.
 
 #### MASK OF THE MANY
 
@@ -16475,7 +16762,8 @@ A plain white mask lined with soft black velvet—which smells faintly of blood.
 - **Project Source:** Texts or lore in Caelian
 - **Project Roll Characteristic:** Reason or Intuition
 - **Project Goal:** 150
-- **Effect:** When you wear this mask, you can use a maneuver to transform into any humanoid of equivalent size that you have previously seen. The humanoid’s appearance must reflect the last time you saw them, including whatever they were wearing. Your clothing and gear are transformed into the figure’s clothing and gear, absorbed into your body, or retain their original form, as you determine. If the figure possessed any treasures when you last saw them, they are duplicated as mundane copies while you are transformed.
+
+**Effect:** When you wear this mask, you can use a maneuver to transform into any humanoid of equivalent size that you have previously seen. The humanoid’s appearance must reflect the last time you saw them, including whatever they were wearing. Your clothing and gear are transformed into the figure’s clothing and gear, absorbed into your body, or retain their original form, as you determine. If the figure possessed any treasures when you last saw them, they are duplicated as mundane copies while you are transformed.
 
 #### QUANTUM SATCHEL
 
@@ -16486,7 +16774,8 @@ A woven metal drawstring seals this plain-looking leather bag, which is affixed 
 - **Project Source:** Texts or lore in Caelian
 - **Project Roll Characteristic:** Reason or Intuition
 - **Project Goal:** 150
-- **Effect:** When the broach is removed from this bag and placed in a container or room, it magically entangles that location to the bag. Any item that can be placed in the Quantum Satchel appears near to the broach and can be recovered by reaching inside while picturing the desired object. The capacity of the satchel is dictated by the size of the container or room where the entangled broach is. If an item is removed from the container or room containing the broach, it can’t be retrieved via the satchel.
+
+**Effect:** When the broach is removed from this bag and placed in a container or room, it magically entangles that location to the bag. Any item that can be placed in the Quantum Satchel appears near to the broach and can be recovered by reaching inside while picturing the desired object. The capacity of the satchel is dictated by the size of the container or room where the entangled broach is. If an item is removed from the container or room containing the broach, it can’t be retrieved via the satchel.
 
 #### UNBINDER BOOTS
 
@@ -16497,7 +16786,8 @@ A pair of ornately embroidered leather boots covered in images of broken chains.
 - **Project Source:** Texts or lore in Caelian
 - **Project Roll Characteristic:** Reason or Intuition
 - **Project Goal:** 150
-- **Effect:** These boots can temporarily unbind themselves from the chains of the earth, letting you move vertically 3 squares whenever you move forward. If this vertical movement doesn’t leave you in a position to grab onto something, or if you don’t have some ability to stay airborne, you fall.
+
+**Effect:** These boots can temporarily unbind themselves from the chains of the earth, letting you move vertically 3 squares whenever you move forward. If this vertical movement doesn’t leave you in a position to grab onto something, or if you don’t have some ability to stay airborne, you fall.
 
 ## LEVELED TREASURES
 
@@ -17265,7 +17555,8 @@ Choose one of the following benefits:
 - **Type:** 5 burst  
 - **Target:** All enemies hidden from you  
   
-- **Effect:** Each target is P [average] taunted (EoT). You know the locations of creatures taunted in this way.  
+
+**Effect:** Each target is P [average] taunted (EoT). You know the locations of creatures taunted in this way.  
 
 ### SHIP CAPTAIN
 
@@ -17319,7 +17610,8 @@ Choose one of the following benefits:
 - **Type:** 3 burst  
 - **Target:** All enemies 
 
-- **Effect:** Each undead creature in the area takes (SURGE) holy damage and is P [strong] frightened (save ends).  
+
+**Effect:** Each undead creature in the area takes (SURGE) holy damage and is P [strong] frightened (save ends).  
 
 ## PERKS AS TITLES
 
