@@ -7198,7 +7198,8 @@ Keeping in constant motion helps you slip out of reach after a brutal assault.
 - 11 or lower: 2 damage
 - 12–16: 3 damage
 - 17+: 5 damage; A [strong] slowed (save ends)  
-  **Effect:** You can shift 1 square after the attack is resolved.
+
+**Effect:** You can shift 1 square after the attack is resolved.
 
 ##### IMPALED!
 
@@ -7229,7 +7230,8 @@ Your reckless assault leaves you tactically vulnerable.
 - 11 or lower: 3 damage
 - 12–16: 6 damage
 - 17+: 9 damage  
-  **Effect:** You can choose to do (SURGE) to the target. If you do, the target gains (SURGE) on their next attack against you.
+
+**Effect:** You can choose to do (SURGE) to the target. If you do, the target gains (SURGE) on their next attack against you.
 
 #### HEROIC ABILITIES
 
@@ -7288,7 +7290,8 @@ roll against every enemy you moved through.
 - 11 or lower: 2 damage
 - 12–16: 3 damage
 - 17+: 5 damage  
-  **Effect:** The target takes an extra (SURGE) for every free strike you triggered from your move.
+
+**Effect:** The target takes an extra (SURGE) for every free strike you triggered from your move.
 
 ###### YOUR ENTRAILS ARE YOUR EXTRAILS! (3 RAGE)
 
@@ -7303,7 +7306,8 @@ Hard for them to fight when they're busy holding in their giblets.
 - 11 or lower: 3 damage; M [weak] bleeding (save ends)
 - 12–16: 5 damage; M [average] bleeding (save ends)
 - 17+: 8 damage; M [average] bleeding (save ends)  
-  **Effect:** The target takes (SURGE) whenever they fail a save for bleeding.
+
+**Effect:** The target takes (SURGE) whenever they fail a save for bleeding.
 
 ##### 5-RAGE ABILITIES
 
@@ -7322,7 +7326,8 @@ A mighty strike leaves your foe reeling.
 - 11 or lower: 4 damage; M [weak] bleeding and weakened (save ends)
 - 12–16: 6 damage; M [average] bleeding and weakened (save ends)
 - 17+: 10 damage; M [strong] bleeding and weakened (save ends)  
-  **Effect:** You can choose to deal 1d6 damage to yourself to deal an extra 1d6 damage to the target.
+
+**Effect:** You can choose to deal 1d6 damage to yourself to deal an extra 1d6 damage to the target.
 
 ###### MAKE PEACE WITH YOUR GOD! (5 RAGE)
 
@@ -7346,7 +7351,8 @@ A howl erupts from you that hurls your enemies back.
 - 11 or lower: 6 damage; push 2
 - 12–16: 9 damage; push 4
 - 17+: 13 damage; push 6  
-  **Effect:** Targets are pushed one at a time, starting with the target closest to you.
+
+**Effect:** Targets are pushed one at a time, starting with the target closest to you.
 
 ###### TO THE UTTERMOST END (5 RAGE)
 
@@ -7361,7 +7367,7 @@ You spend your life force to ensure their death.
 - 11 or lower: 7 damage
 - 12–16: 11 damage
 - 17+: 16 damage  
-  **Spend 1 or More Additional Rage:** If you are winded, you can add 1d6 damage for each rage spent. If you are dying,
+**Spend 1 or More Additional Rage:** If you are winded, you can add 1d6 damage for each rage spent. If you are dying,
   you can add 1d10 damage for each rage spent. In either case, you then lose 1d6 Stamina.
 
 ## 2ND-LEVEL FEATURES
@@ -7489,7 +7495,8 @@ I will hunt you down.
 - 11 or lower: 4 damage; I [weak] slowed (save ends)
 - 12–16: 6 damage; I [average] slowed (save ends)
 - 17+: 10 damage; I [strong] slowed (save ends)  
-  **Effect:** The target can’t be hidden from you for 24 hours. For the rest of the encounter, whenever the target
+
+**Effect:** The target can’t be hidden from you for 24 hours. For the rest of the encounter, whenever the target
   moves, you can move as a free triggered action.
 
 ##### VISCERAL ROAR (5 RAGE)
@@ -7736,7 +7743,8 @@ Foes who try to close around you do so at their peril.
 - 11 or lower: 4 damage
 - 12–16: 5 damage
 - 17+: 6 damage  
-  **Effect:** You can shift 2 before or after the attack.
+
+**Effect:** You can shift 2 before or after the attack.
 
 #### CROW GROWING RAGE
 
@@ -7796,7 +7804,8 @@ Your enemies try in vain to fall back from your pouncing attack.
 - 11 or lower: 4 damage
 - 12–16: 5 damage; push 1
 - 17+: 7 damage; push 2  
-  **Effect:** You can shift the same number of squares that you pushed the target.
+
+**Effect:** You can shift the same number of squares that you pushed the target.
 
 #### RAT GROWING RAGE
 
@@ -9347,13 +9356,14 @@ Your doctrine grants you a triggered action, as shown on the Tactician Triggered
 |------------|------------------|
 | Vanguard   | Parry            |
 | Mastermind | Overwatch        |
-| Insurgent  | Dirty Tricks     |
+| Insurgent  | Advanced Tactics |
 
 #### ADVANCED TACTICS
 
 Your leadership thwarts an enemy or aids an ally.
 
-**Keywords:** Ranged  
+**Keywords:** Ranged 
+**Keywords:** Ranged 
 **Type:** Triggered  
 **Distance:** Ranged 10  
 **Target:** Any creature  
@@ -17162,7 +17172,7 @@ Choose one of the following benefits:
 - **Everybody Move!:** When you use the Knockback maneuver, you can use it on one additional creature of your size or two additional smaller creatures.  
 - **Come Out to Play:** You gain the Come Out to Play ability, which can be paid for using the heroic resource of your class:  
 
-  **COSTS 1 HEROIC RESOURCE: COME OUT TO PLAY**  
+**COSTS 1 HEROIC RESOURCE: COME OUT TO PLAY**  
   *Keywords:* Area, Magic  
   *Type:* Maneuver  
   *Distance:* 5 burst  
@@ -17212,7 +17222,7 @@ Choose one of the following benefits:
 - **Divine Health:** You gain corruption immunity equal to your highest characteristic score. You can’t be turned into an undead creature.  
 - **Holy Terror:** You gain the Holy Terror ability, which can be paid for using the heroic resource of your class:  
 
-  **COSTS 3 HEROIC RESOURCES: HOLY TERROR**  
+**COSTS 3 HEROIC RESOURCES: HOLY TERROR**  
   *Return to your grave!*  
   *Keywords:* Area, Magic  
   *Type:* Action  
