@@ -1,6 +1,8 @@
 import re
 import yaml
 
+ability_start = r'\((Action|Maneuver|Triggered Action|Free Triggered Action|Villain Action.*|\d+\s+Malice)\)'
+
 def parse_header(markdown_text):
     """
     Extracts the name of the statblock from the header.
@@ -112,7 +114,7 @@ def parse_markdown_statblock(markdown_text):
             continue
 
         # Ability line: Identify abilities, including Villain Actions
-        if line.startswith('**') and ('◆' in line or re.search(r'\((Action|Maneuver|Triggered Action|Villain Action.*|\d+\s+Malice)\)', line)):
+        if line.startswith('**') and ('◆' in line or re.search(ability_start, line)):
             ability, new_i = parse_ability(lines, i)
             data['abilities'].append(ability)
             i = new_i
@@ -160,7 +162,7 @@ def parse_ability(lines, index):
             continue
 
         # Break if the line is the start of a new ability or trait
-        if line.startswith('**') and ('◆' in line or re.search(r'\((Action|Maneuver|Triggered Action|Villain Action.*|\d+\s+Malice)\)', line)):
+        if line.startswith('**') and ('◆' in line or re.search(ability_start, line)):
             break
         elif line.startswith('**') and line.endswith('**') and '◆' not in line:
             break  # Start of a trait
@@ -261,7 +263,7 @@ def parse_trait(lines, index):
     while i < len(lines):
         line = lines[i].strip()
         # Break if the line is the start of a new ability or trait
-        if line.startswith('**') and ('◆' in line or re.search(r'\((Action|Maneuver|Triggered Action|Villain Action.*|\d+\s+Malice)\)', line)):
+        if line.startswith('**') and ('◆' in line or re.search(ability_start, line)):
             break
         elif line.startswith('**') and line.endswith('**') and '◆' not in line:
             break  # Start of a new trait
