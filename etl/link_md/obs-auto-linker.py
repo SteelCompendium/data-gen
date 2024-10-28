@@ -212,11 +212,17 @@ def update_unlinked_references_in_file(file_path, note_titles):
         # Remove links in headers and frontmatter
         content = remove_links_in_headers_and_frontmatter(content)
 
-        # Only write changes if there are any updates
-        if content != original_content:
-            with open(file_path, 'w', encoding='utf-8') as file:
-                file.write(content)
-            print(f"Updated links in file: {file_path}")
+        # TODO - Rewriting all the files for now to force utf-8 encoding.  The below code should be used to optimize
+        #  when encoding isnt an issue.  Its something in the Perks section, extract_html_sections
+        with open(file_path, 'w', encoding='utf-8') as file:
+            file.write(content)
+        print(f"Updated links in file: {file_path}")
+
+        # # Only write changes if there are any updates
+        # if content != original_content:
+        #     with open(file_path, 'w', encoding='utf-8') as file:
+        #         file.write(content)
+        #     print(f"Updated links in file: {file_path}")
     except Exception as e:
         print(f"Error processing file {file_path}: {e}")
 

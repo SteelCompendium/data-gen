@@ -27,7 +27,7 @@ def main():
         # Extract the first header (h1 to h6) and clean it for the filename
         header = section.xpath('.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6]/text()')[0]
         header = header.title()
-        filename = re.sub('\\s*\\(.*\\)', '', ' '.join(header.split())).replace("’", "").replace("'","")
+        filename = re.sub('\\s*\\(.*\\)', '', ' '.join(header.split())).replace("’", "").replace("'","").replace("…","")
         filename = os.path.join(args.output_dir, filename)
 
         # Get the section content as HTML
