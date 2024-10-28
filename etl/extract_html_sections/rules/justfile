@@ -15,7 +15,7 @@ run rules_html_fpath rules_html_sections_dpath:
     just _extract_skills "{{rules_html_fpath}}" "{{rules_html_sections_dpath}}"
     just _extract_negotiation "{{rules_html_fpath}}" "{{rules_html_sections_dpath}}"
     just _extract_perks "{{rules_html_fpath}}" "{{rules_html_sections_dpath}}"
-#    just _extract_titles "{{rules_html_fpath}}" "{{rules_html_sections_dpath}}"
+    just _extract_titles "{{rules_html_fpath}}" "{{rules_html_sections_dpath}}"
 
 _extract_classes rules_html_fpath rules_html_sections_dpath:
     #!/usr/bin/env bash
