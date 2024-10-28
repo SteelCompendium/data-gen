@@ -14,6 +14,7 @@ run rules_html_fpath rules_html_sections_dpath:
     just _extract_conditions "{{rules_html_fpath}}" "{{rules_html_sections_dpath}}"
     just _extract_skills "{{rules_html_fpath}}" "{{rules_html_sections_dpath}}"
     just _extract_negotiation "{{rules_html_fpath}}" "{{rules_html_sections_dpath}}"
+    just _extract_perks "{{rules_html_fpath}}" "{{rules_html_sections_dpath}}"
 
 _extract_classes rules_html_fpath rules_html_sections_dpath:
     #!/usr/bin/env bash
@@ -136,5 +137,22 @@ _extract_negotiation rules_html_fpath rules_html_sections_dpath:
     negotiation_path="{{rules_html_sections_dpath}}/Negotiation"
     xpath="//section[@id='list-of-motivations-and-pitfalls']//section[@class='level4']"
     just -f "../common/justfile" extract_section "$negotiation_path/Motivations and Pitfalls" "$xpath" "{{rules_html_fpath}}"
+
+_extract_perks rules_html_fpath rules_html_sections_dpath:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    perks_path="{{rules_html_sections_dpath}}/Perks"
+    xpath="//section[@id='crafting-perks']//section[@class='level3']"
+    just -f "../common/justfile" extract_section "${perks_path}/Crafting Perks" "$xpath" "{{rules_html_fpath}}"
+    xpath="//section[@id='exploration-perks']//section[@class='level3']"
+    just -f "../common/justfile" extract_section "${perks_path}/Exploration Perks" "$xpath" "{{rules_html_fpath}}"
+    xpath="//section[@id='interpersonal-perks']//section[@class='level3']"
+    just -f "../common/justfile" extract_section "${perks_path}/Interpersonal Perks" "$xpath" "{{rules_html_fpath}}"
+    xpath="//section[@id='intrigue-perks']//section[@class='level3']"
+    just -f "../common/justfile" extract_section "${perks_path}/Intrigue Perks" "$xpath" "{{rules_html_fpath}}"
+    xpath="//section[@id='lore-perks']//section[@class='level3']"
+    just -f "../common/justfile" extract_section "${perks_path}/Lore Perks" "$xpath" "{{rules_html_fpath}}"
+    xpath="//section[@id='supernatural-perks']//section[@class='level3']"
+    just -f "../common/justfile" extract_section "${perks_path}/Supernatural Perks" "$xpath" "{{rules_html_fpath}}"
 
 # TODO - perks, downtime stuff, titles
