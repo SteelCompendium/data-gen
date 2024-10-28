@@ -21,7 +21,7 @@ def main():
 
     # Convert the name to uppercase for the header
     name = data.get('name', '').upper()
-    output(f"#### {name}\n")
+    output(f"### {name}\n")
 
     # Prepare the first table with stats
     level = data.get('level', '')
@@ -76,9 +76,9 @@ def main():
         cost = ability.get('cost', '')
         type = ability.get('type', '')
         if cost:
-            name_line = f"**{name} ({cost})**"
+            name_line = f"#### {name} ({cost})"
         else:
-            name_line = f"**{name}**"
+            name_line = f"#### {name}"
 
         output()
         output(name_line)
@@ -119,7 +119,7 @@ def main():
             if t1:
                 output(f"- ✦ ≤11: {t1}")
             if t2:
-                output(f"- ★ 12–16: {t2}")
+                output(f"- ★ 12-16: {t2}")
             if t3:
                 output(f"- ✸ 17+: {t3}")
 
@@ -128,13 +128,8 @@ def main():
         for effect in effects:
             effect_name = effect.get('name', '')
             effect_text = effect.get('effect', '')
-            if effect_name.lower() == 'effect':
-                output()
-                output(f"Effect: {effect_text}")
-            else:
-                output()
-                output(f"**{effect_name}**")
-                output(f"{effect_text}")
+            output()
+            output(f"**{effect_name}:** {effect_text}")
 
     # Process traits
     output()
