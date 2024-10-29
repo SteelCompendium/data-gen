@@ -69,14 +69,14 @@ def parse_markdown_statblock(markdown_text):
             continue
 
         # EV line '**EV XX**'
-        match = re.match(r'\*\*EV\s*(\d+)\*\*', line)
+        match = re.match(r'\*\*EV\s*\**(\d+)\*\*', line)
         if match:
             data['ev'] = int(match.group(1))
             i += 1
             continue
 
         # Basic stat line '**Key**: Value'
-        match = re.match(r'\*\*(.+?)\*\*:\s*(.+)', line)
+        match = re.match(r'\*\*(.+?)\**:\**\s*(.+)', line)
         if match:
             key = match.group(1).strip().lower().replace(' ', '_')
             value = match.group(2).strip()
