@@ -69,7 +69,7 @@ def parse_markdown_statblock(markdown_text):
             continue
 
         # EV line '**EV XX**'
-        match = re.match(r'\*\*EV\s*\**(\d+)\*\*', line)
+        match = re.match(r'\**EV[\s\*:]*(\d+)', line)
         if match:
             data['ev'] = int(match.group(1))
             i += 1
