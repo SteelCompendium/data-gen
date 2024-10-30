@@ -108,28 +108,26 @@ def main():
             output()
             output(f"Trigger: {trigger}")
 
-        # Print the roll and tiers if available
-        roll = ability.get('roll', '')
-        if roll:
-            output()
-            output(f"**{roll}**")
-            t1 = ability.get('t1', '')
-            t2 = ability.get('t2', '')
-            t3 = ability.get('t3', '')
-            if t1:
-                output(f"- ✦ ≤11: {t1}")
-            if t2:
-                output(f"- ★ 12-16: {t2}")
-            if t3:
-                output(f"- ✸ 17+: {t3}")
-
         # Print the effects
         effects = ability.get('effects', [])
         for effect in effects:
-            effect_name = effect.get('name', '')
-            effect_text = effect.get('effect', '')
-            output()
-            output(f"**{effect_name}:** {effect_text}")
+            if "name" in effect:
+                effect_name = effect.get('name', '')
+                effect_text = effect.get('effect', '')
+                output()
+                output(f"**{effect_name}:** {effect_text}")
+            elif "roll" in effect:
+                output()
+                output(f"**{effect.get('roll', '')}**")
+                t1 = effect.get('t1', '')
+                t2 = effect.get('t2', '')
+                t3 = effect.get('t3', '')
+                if t1:
+                    output(f"- ✦ ≤11: {t1}")
+                if t2:
+                    output(f"- ★ 12-16: {t2}")
+                if t3:
+                    output(f"- ✸ 17+: {t3}")
 
     # Process traits
     output()
