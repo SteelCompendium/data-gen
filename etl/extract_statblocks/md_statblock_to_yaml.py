@@ -149,7 +149,7 @@ def parse_ability(lines, index):
             ability['roll'] = match.group(3).strip()
             ability['cost'] = match.group(4).strip()
         elif match.group(5):
-            ability['cost'] = match.group(5).strip()
+            ability['roll'] = match.group(5).strip()
 
     i += 1
     effects = []
