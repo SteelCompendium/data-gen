@@ -139,7 +139,7 @@ def parse_ability(lines, index):
     first_line = lines[i].strip()
 
     # Patterns to match
-    match = re.match(r'\*\*(.+?)(?:\s*\((.+?)\))?\*\*(?:\s*◆\s*(.+?)\s*◆\s*(.+)|\s*◆\s*(.+))?', first_line)
+    match = re.match(r'\*\*(.+?)(?:\s*\((.+?)\))?\*\*(?:\s*◆\s*(.+?)\s*◆\s*(.+)|\s*◆\s*(.+RR)|\s*◆\s*(\d+d\d+.+)|\s*◆\s*(.+))?', first_line)
 
     if match:
         ability['name'] = match.group(1).strip()
@@ -150,6 +150,10 @@ def parse_ability(lines, index):
             ability['cost'] = match.group(4).strip()
         elif match.group(5):
             ability['roll'] = match.group(5).strip()
+        elif match.group(6):
+            ability['roll'] = match.group(6).strip()
+        elif match.group(7):
+            ability['cost'] = match.group(7).strip()
 
     i += 1
     effects = []
