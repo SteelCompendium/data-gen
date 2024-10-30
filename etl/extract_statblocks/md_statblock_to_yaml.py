@@ -251,6 +251,16 @@ def parse_ability(lines, index):
     if len(effects) > 0:
         ability["effects"] = effects
 
+    if "roll" in ability:
+        if "effects" not in ability:
+            ability["effects"] = []
+        powerRoll = {}
+        powerRoll["roll"] = ability["roll"]
+        powerRoll["t1"] = ability["t1"]
+        powerRoll["t2"] = ability["t2"]
+        powerRoll["t3"] = ability["t3"]
+        ability["effects"] = [powerRoll] + ability["effects"]
+
     return ability, i
 
 def parse_trait(lines, index):
