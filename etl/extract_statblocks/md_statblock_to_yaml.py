@@ -267,8 +267,9 @@ def parse_trait(lines, index):
             break
         elif line.startswith('**') and line.endswith('**') and '◆' not in line:
             break  # Start of a new trait
-        elif line.startswith('- **'):
-            break  # Start of characteristics
+        # See Fossil Cryptic which uses this format
+        # elif line.startswith('- **'):
+        #     break  # Start of characteristics
         else:
             trait_lines.append(line)
             i += 1
