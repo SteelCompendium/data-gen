@@ -264,6 +264,10 @@ def parse_ability(lines, index):
         powerRoll["t2"] = ability["t2"]
         powerRoll["t3"] = ability["t3"]
         ability["effects"] = [powerRoll] + ability["effects"]
+        del ability["roll"]
+        del ability["t1"]
+        del ability["t2"]
+        del ability["t3"]
 
     return ability, i
 
