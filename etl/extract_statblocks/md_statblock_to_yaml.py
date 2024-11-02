@@ -305,5 +305,5 @@ def process_markdown(markdown_text):
         str: The YAML representation of the statblock.
     """
     data = parse_markdown_statblock(markdown_text)
-    yaml_string = yaml.dump(data, sort_keys=False, allow_unicode=True)
+    yaml_string = yaml.dump(data, sort_keys=False, allow_unicode=True, default_style='"')
     return yaml_string
