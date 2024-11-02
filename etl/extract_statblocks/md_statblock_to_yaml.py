@@ -249,8 +249,13 @@ def parse_ability(lines, index):
             effects.append(effect)
             continue
 
-        # Unknown line, increment i to avoid infinite loop
+        # Unknown line, assumes its an effect
+        description = [line]
         i += 1
+        while i < len(lines) and not lines[i].strip().startswith(('**', 'Special:', 'Effect:', '-')) and not re.match(r'(.+?):\s*(.+)', lines[i]):
+            description.append(lines[i].strip())
+            i += 1
+        effects.append({"name": "Effect", "effect": ' '.join(description)})
 
     if len(effects) > 0:
         ability["effects"] = effects
