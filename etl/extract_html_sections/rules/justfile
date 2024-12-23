@@ -163,4 +163,4 @@ _extract_titles rules_html_fpath rules_html_sections_dpath:
     xpath="//section[@id='st-echelon-titles']//section[@class='level3']"
     just -f "../common/justfile" extract_section "${titles_path}" "$xpath" "{{rules_html_fpath}}"
 
-# TODO - downtime stuff, titles
+# TODO - downtime stuff, treasures
