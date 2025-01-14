@@ -18594,7 +18594,7 @@ All squares adjacent to your character cost 1 movement to move into. No, there i
 
 You can move freely through an allied creature's space. You can move through an enemy creature's space, but it counts as difficult terrain (see Difficult Terrain). You can't stop moving in any other creature's space, including making an strike or using an action or maneuver while in that space and then continuing your move.
 
-### CAN'T EXCEED SPEED
+## CAN'T EXCEED SPEED
 
 A single move or other effect can never allow a creature to move more squares than their speed, unless the effect specifically states otherwise. For example, a creature with a speed of 5 might have that speed reduced to 2 by the slowed condition. If an ally then targets them with an effect that allows them to move up to 3 squares, the creature can move only 2 squares because that's their current speed.
 
@@ -18602,11 +18602,11 @@ A single move or other effect can never allow a creature to move more squares th
 
 A creature can't move diagonally when doing so would allow them to cross the corner of a wall or other structure the fills the corner between your space and the space you are moving to. This rule applies only to moving by objects, not creatures.
 
-### SHIFTING
+## SHIFTING
 
 Shifting is a careful form of movement that allows your hero to move safely by dangerous foes. Certain abilities, features, and other rules allow you to shift a specific number of squares, sometimes up to your speed. Whenever you shift, creatures can't make opportunity attacks against you during your movement (see Free Strikes). You can't shift into difficult or damaging terrain.
 
-### MOVEMENT TYPES
+## MOVEMENT TYPES
 
 Creatures in the game can use eight types of movement: walk, burrow, climb, swim, jump, crawl, fly, and teleport.
 
@@ -18620,17 +18620,17 @@ A creature with "burrow" in their speed entry can move through dirt vertically o
 
 A creature who can't burrow can dig through soft, borrowable earth by spending 3 squares of movement for every 1 square they move.
 
-#### CLIMB OR SWIM
+### CLIMB OR SWIM
 
 If a creature's speed entry includes the word "climb," they can climb across vertical and horizontal surfaces at full speed. Likewise, if a creature has "swim" in their speed entry, they can swim in liquid at full speed.
 
 Creatures without those types of movement can still climb or swim when a rule allows them to move, but each square of climbing or swimming costs 2 squares of movement. If a surface is difficult to climb (for instance, a sheer cliff or ice-covered wall) or a liquid is hard to swim through (a raging river or whirlpool), the Director can call for a Might test. On a failure, a creature can't climb or swim but wastes no movement in the attempt. The Director can also impose other consequences to failure, such as being caught in the spinning current of a whirlpool.
 
-##### CLIMBING OTHER CREATURES
+#### CLIMBING OTHER CREATURES
 
 You can attempt to climb a creature whose size is greater than yours. If the creature is willing, you can climb them without any trouble. If the creature is unwilling, you make the following test:
 
-##### **Power Roll + Might or Agility:**
+#### **Power Roll + Might or Agility:**
 
 - *11 or lower:* You fail to climb the creature, and they can make a free strike against you.
 - *12–16:* You fail to climb the creature.
@@ -18638,7 +18638,7 @@ You can attempt to climb a creature whose size is greater than yours. If the cre
 
 While you climb or ride a creature, you gain an edge to melee abilities used against them. The creature can use a maneuver to attempt to knock you off. If you are knocked off a creature, you must make the following test:
 
-##### **Power Roll + Might or Agility:**
+#### **Power Roll + Might or Agility:**
 
 - *11 or lower:* You fall off the creature into an unoccupied adjacent space of your choice, taking falling damage and landing prone as usual (see Falling in Adventuring).
 - *12–16:* You slide down the creature into an unoccupied adjacent space of your choice and don't land prone.
@@ -18646,7 +18646,7 @@ While you climb or ride a creature, you gain an edge to melee abilities used aga
 
 If you are knocked prone while climbing or riding a creature, you fall and land prone in an adjacent space of your choice, taking damage as usual from the fall.
 
-#### JUMP
+### JUMP
 
 When an effect allows you to move, you can long jump a number of squares up to your Might or Agility score (your choice; minimum 1 square) without a test as part of that movement. If you move at least 2 squares in a straight line immediately before your jump, you can long jump 1 additional square.
 
@@ -18656,11 +18656,11 @@ The height of your jump is 1 square. If you move at least 2 squares in a straigh
 
 You can't jump farther or higher than the distance of the effect that allows you to move. You can't jump out of difficult or damaging terrain.
 
-#### CRAWL
+### CRAWL
 
 If you are prone (see Conditions), you can remain prone and crawl on the ground. Doing so costs you 1 additional square of movement for every square you crawl. If you intentionally want to crawl, you can fall prone as a free maneuver on your turn. While voluntarily prone, you can choose to stand as a free maneuver.
 
-#### FLY
+### FLY
 
 A creature who can fly can move through the air vertically or horizontally at full speed and stay still in midair. If a flying creature is knocked prone or has their speed reduced to 0, they fall (see Falling).
 
@@ -18680,7 +18680,7 @@ When you teleport, you move from one space to another space instantaneously. The
 - If you teleport while affected by the grabbed or restrained conditions, those conditions end for you.
 - When you teleport, you must leave the space when you start and enter a new one. You can't teleport and remain in the same space.
 
-### FALLING
+## FALLING
 
 When you fall 2 or more squares, you take 2 damage for each square you fall (to a maximum of 50 damage), then you land prone. When you fall, you reduce the effective height of the fall by a number of squares equal to your Agility score (minimum 0). Falling into liquid that is at least 1 square deep reduces the effective height of a fall by 4 squares.
 
@@ -18694,19 +18694,19 @@ If you land on another creature when you fall, that creature takes the same dama
 
 When you first fall from a great height, you fall 100 squares in the first round. At the end of each subsequent round that you remain falling, you fall another 100 squares.
 
-### DIFFICULT TERRAIN
+## DIFFICULT TERRAIN
 
 Areas of thick underbrush, rubble, spiderwebs, or other obstacles to movement create difficult terrain. It costs 1 additional square of movement to enter a square of difficult terrain.
 
-### DAMAGING TERRAIN
+## DAMAGING TERRAIN
 
 Areas of acid, fire, sharp rocks, lava, or any other terrain that causes damage to creatures who are in it is damaging terrain. The amount of damage caused by hazardous terrain is listed in the terrain's description or in the description of the effect that creates the terrain.
 
-### HIGH GROUND
+## HIGH GROUND
 
 When you use an ability against a creature or object while standing on ground and occupying a space that is fully above the space the target takes up, with the bottom of your space higher than the top of the target's space, you gain an edge on the power roll against that target. You can get this the benefit while climbing if your speed has the Climb keyword.
 
-### FORCED MOVEMENT
+## FORCED MOVEMENT
 
 Some actions and maneuvers allow you to push, pull, or slide another creature a specific distance across the battlefield. Collectively, these types of movement are called forced movement:
 
@@ -18718,7 +18718,7 @@ When you force move a target, you can always move that target fewer squares than
 
 Forced movement ignores difficult terrain and never provokes opportunity attacks. When you force move a target into damaging terrain or into terrain that produces an effect, they are affected as if they had moved into it willingly.
 
-#### VERTICAL
+### VERTICAL
 
 If a forced movement effect has the word "vertical" in front of it, then the forced movement can move a target up or down in addition to horizontally. For example, if a forced movement effect says "vertical push 5," then the creature targeted by the effect can be pushed up to 5 squares in any direction, as long as the forced movement is a straight line.
 
@@ -18730,7 +18730,7 @@ Though you can't push, pull, or slide a creature unless that forced movement spe
 
 When a larger creature force moves a smaller creature with a melee weapon ability, the force move distance is increased by 1. If a smaller creature force moves a larger creature with a melee weapon ability, the force move distance does not change.
 
-#### SLAMMING INTO CREATURES
+### SLAMMING INTO CREATURES
 
 When you force move a creature into another creature, the movement ends and both creatures take 1 damage for each square remaining in the first creature's forced movement. You can also force move an object into a creature. The object's movement ends and the creature takes 1 damage for each square remaining in the object's forced movement.
 
@@ -18750,7 +18750,7 @@ At the Director's discretion, mundane objects that are force moved into creature
 
 More fragile objects are destroyed after taking any damage.
 
-#### SLAMMING INTO OBJECTS
+### SLAMMING INTO OBJECTS
 
 When you force move a creature into a stationary object that is their size or larger and the object doesn't break (see below), the movement ends and the creature takes 2
 
@@ -18781,15 +18781,15 @@ Each creature has a stability that allows them to resist forced movement. When a
 
 A move action allows you to move around the battlefield. Sometimes you'll already be exactly where you want to be and not need to use a move action on your turn. That's okay! The decision to not move is just as tactical as the decision to move.
 
-### ADVANCE
+## ADVANCE
 
 When you take the Advance move action, you can move a number of squares up to your speed. You can break up this movement granted with your maneuver and action however you wish.
 
-### DISENGAGE
+## DISENGAGE
 
 When you take the Disengage move action, you can shift 1 square. Some class features, kits, or other rules let you shift more than 1 square when you take this move action, if they do, you can break up the movement granted by this move action with your maneuver and action however you wish.
 
-### RIDE
+## RIDE
 
 You can only take the Ride move action while mounted on another creature (see Mounted Combat). When take the Ride move action, you cause your mount to move up to their speed, taking you with them. Alternatively, you can use this move action to have your mount use the Disengage move action as a free triggered action. A mount can only be ridden with this move action once per round.
 
@@ -18799,17 +18799,17 @@ A maneuver typically involves less focus and exertion than an action. It can be 
 
 Sometimes you might not have anything you can do with your maneuver. That's totally fine! Often, the best thing to do on your turn is take an action and move on.
 
-### AID ATTACK
+## AID ATTACK
 
 Choose an enemy adjacent to you. The next ability power roll an ally who makes against that creature before the start of your next turn has an edge.
 
-### CATCH BREATH
+## CATCH BREATH
 
 By using the Catch Breath ,amuver, you spend a Recovery and regain Stamina in an amount equal to your recovery value.
 
 If you are dying (see Dying and Death in Stamina), you can't take the Catch Breath maneuver, but other creatures can help you spend recoveries.
 
-### ESCAPE GRAB
+## ESCAPE GRAB
 
 While you are grabbed by another creature (see Grab below), you can attempt to escape by making the following test (which can't have a skill applied). You take a bane on the roll if the creature's size is larger than yours.
 
@@ -18819,7 +18819,7 @@ While you are grabbed by another creature (see Grab below), you can attempt to e
 - *12–16:* You can escape the grab, but if you do, the creature grabbing you can make a melee free strike against you before you are no longer grabbed.
 - *17+:* You are no longer grabbed.
 
-### GRAB
+## GRAB
 
 You attempt to grab a creature using the following ability:
 
@@ -18835,11 +18835,11 @@ You attempt to grab a creature using the following ability:
 
 **Effect:** You gain an edge on the power roll if the creature's size is smaller than yours. You can grab only one creature at a time this way.
 
-### HIDE
+## HIDE
 
 Using the Hide maneuver, you attempt to hide from other creatures who aren't observing you while you have cover or concealment (see Hide and Sneak).
 
-### KNOCKBACK
+## KNOCKBACK
 
 You attempt to shove an adjacent creature using the following ability:
 
@@ -18857,21 +18857,21 @@ You attempt to shove an adjacent creature using the following ability:
 
 **Effect:** You gain an edge on the power roll if the creature's size is smaller than yours.
 
-### MAKE OR ASSIST A TEST
+## MAKE OR ASSIST A TEST
 
 Many tests are maneuvers if made in combat. Searching a chest with a Reason test, picking a door's lock with an Agility test, or lifting a portcullis with a Might test would all be maneuvers. Assisting a test is also a maneuver in combat.
 
 Complex or time-consuming tests might require an action if made in combat—or could take so long that they can't be made during combat at all. Other tests that take no time at all, such as a Reason test to recall lore about mummies, are usually free maneuvers in combat. The Director has the final say regarding which tests can be made as maneuvers.
 
-### SEARCH FOR HIDDEN CREATURES
+## SEARCH FOR HIDDEN CREATURES
 
 You can use this maneuver to attempt to search for creatures hidden from you (see Hide and Sneak).
 
-### STAND UP
+## STAND UP
 
 You can use this maneuver to stand up if you are prone, ending that condition. Alternatively, you can use this maneuver to make an adjacent prone creature stand up.
 
-### USE CONSUMABLE
+## USE CONSUMABLE
 
 Unless otherwise noted in a treasure's description, you can use a consumable treasure (see Treasures), such as a potion, with this maneuver. You can use this maneuver to administer a potion or other consumable that benefits the user to a willing, adjacent creature instead of yourself.
 
@@ -18883,19 +18883,19 @@ You can also use your action to catch your breath, help another creature regain 
 
 You can convert your action into a maneuver or move action.
 
-### CHARGE
+## CHARGE
 
 When you take the Charge action, you move up to your speed in a straight line without shifting, and can then make a melee free strike (see Free Strikes) against a creature when you end your move. You can't move through difficult terrain as part of your movement with this action. You can't climb, fly, or swim as part of this action unless you have that type of movement as a keyword in your speed.
 
-### DEFEND
+## DEFEND
 
 When you take the Defend action, all ability power rolls made against you have a double bane until the start of your next turn. You gain no benefit from this action while another creature is taunted by you (see Conditions).
 
-### FREE STRIKE
+## FREE STRIKE
 
 You can use this action to make a free strike (see Free Strikes). Most of the time, you'll want to use the more impactful actions found on your character sheet, just as the director will use the actions in a creature's stat block, but free strikes are always available for when all else fails. For instance, a fury who has no other options for ranged strikes might use the Ranged Weapon Free Strike ability with an improvised weapon when battling a flying creature.
 
-### HEAL
+## HEAL
 
 You use your action to employ medicine or inspiring words to make an adjacent creature feel better and stay in the fight. The creature can spend a Recovery to regain Stamina, or can make a saving throw against a "(save ends)" effect they are suffering.
 

@@ -24,7 +24,7 @@ _extract_classes rules_html_fpath rules_html_sections_dpath:
     classes_path="{{rules_html_sections_dpath}}/Classes Single Page"
     # delete dir on first one, keep on others
     just -f "../common/justfile" extract_section "$classes_path" "//section[@id='censor']" "{{rules_html_fpath}}"
-    just -f "../common/justfile" extract_section "$classes_path" "//section[@id='conduit']" "{{rules_html_fpath}}"
+    just -f "../common/justfile" extract_section "$classes_path" "//section[@id='conduit']" "{{rules_html_fpath}}" "skip_delete"
     just -f "../common/justfile" extract_section "$classes_path" "//section[@id='elementalist']" "{{rules_html_fpath}}" "skip_delete"
     just -f "../common/justfile" extract_section "$classes_path" "//section[@id='fury']" "{{rules_html_fpath}}" "skip_delete"
     just -f "../common/justfile" extract_section "$classes_path" "//section[@id='null']" "{{rules_html_fpath}}" "skip_delete"
