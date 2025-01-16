@@ -2,13 +2,14 @@
 data_gen_root_dpath := justfile_directory() / ".."
 data_root_dpath := data_gen_root_dpath / ".."
 
-# Input/source files
-rules_markdown_source_path := data_gen_root_dpath / "Rules" / "Draw Steel Rules.md"
 
 # Staging dirs
 staging_dpath := data_root_dpath / "staging"
 staging_rules_dpath := staging_dpath / "rules"
 staging_rules_linked_dpath := staging_rules_dpath / "md_sections_formatted_linked"
+
+# Input/source files
+rules_markdown_source_path := staging_dpath / "Draw Steel Rules.md"
 
 clean_and_prep:
     #!/usr/bin/env bash

@@ -17249,7 +17249,7 @@ Hell, where some of the timescape's best minds taught you the ways of battle or 
 
 **Drawback:** The archdevil occasionally asks you to defeat enemies on their behalf. If you refuse, your fiendish patron sends devils after you and those you care about.
 
-### INFERNAL CONTRACT … BUT, LIKE, BAD
+### INFERNAL CONTRACT... BUT, LIKE, BAD
 
 You made a deal with a devil—not a very good deal, but it wasn't a very good devil. Now it's too late for regrets. Your soul is forfeit unless you find a loophole or convince the devil to void the deal.
 

@@ -9,10 +9,11 @@ run md_src_fpath html_dest_fpath:
 
     mkdir -p "$(dirname "{{html_dest_fpath}}")"
 
-    # convert from markdown to html
+    # convert from markdown to html (-f markdown-smart to avoid making ellispses into ... and other smart things)
     pandoc --wrap=none \
         --standalone \
         --section-divs \
+        -f markdown-smart \
         -o "{{html_dest_fpath}}" \
         "{{md_src_fpath}}"
 

@@ -16,9 +16,17 @@ clean_and_prep:
 gen: clean_and_prep gen_rules gen_bestiary gen_adventures gen_unified gen_unified_dse
 
 gen_rules:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    cp "{{data_gen_root_dpath}}/Rules/Draw Steel Rules.md" "{{staging_dpath}}/Draw Steel Rules.md"
+    just -f preformat/justfile run "{{staging_dpath}}/Draw Steel Rules.md"
     just -f rules.justfile gen_rules
 
+# TODO - support bestiary
 gen_bestiary:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    exit
     just -f bestiary.justfile gen_bestiary
 
 gen_adventures:
