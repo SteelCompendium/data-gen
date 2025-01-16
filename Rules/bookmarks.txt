@@ -1,0 +1,2366 @@
+What Is This Game?
+    Tactical
+    Heroic
+    Cinematic
+    Fantasy
+    If Youre Coming From D20 Fantasy 
+The Basics
+    Characteristics
+        Might
+        Agility
+        Reason
+        Intuition
+        Presence
+        Characteristic Scores
+        Resisting Potencies
+            Your Potency
+            Adjusting Potencies
+    Dice
+        D3s
+        D100s
+    Power Rolls
+        Types of Power Rolls
+        Making a Power Roll
+            Power Roll Outcomes
+            Downgrade a Power Roll
+            Natural Result
+        Edges and Banes
+            Edge
+            Bane
+            Rolling with Edges and Banes
+            When to Use Edges and Banes
+            Why Cap?
+        Bonuses and Penalties
+        Automatic Tier Results
+    Hero Tokens
+        Earning Hero Tokens
+        Spending Hero Tokens
+    Game of Exceptions
+    Always Round Down
+    Creatures and Objects
+    Supernatural or Mundane
+    PCs and NPCs
+    Building a Heroic Narrative
+        Victories
+            Victories For Combat
+            Victories For Noncombat Challenges
+            Victories Reset
+        Experience
+        Heroic Resources
+            Bags of Rats Aint Heroic
+        Recoveries
+            Spending Recoveries
+            Regaining Recoveries
+        Respite
+    Orden and the Timescape
+        Vasloria
+        Capital
+            The Great Houses
+            The Power of the Guilds
+        The Myriad Worlds Of The Timescape
+            The Timescape in Your Game
+    Echelons of Play
+        1st Echelon (Levels 13)
+        2nd Echelon (Levels 46)
+        3rd Echelon (Levels 79)
+        4th Echelon (Level 10)
+Making a Hero
+    Your First Session
+    Step-by-Step Hero Making
+        1. Think
+            Ambition is Good!
+        2. Ancestry
+        3. Culture
+        4. Career
+            I Speak Their Language
+        5. Class
+        6. Kit
+        7. Add Free Strikes
+        8. Complication
+        9. Determine Details
+        10. Make Connections
+    Adventuring Gear
+        Choosing Skills
+    Changing Character Options
+        Option: Respite Ability Changes
+Heroic Advancement
+    Heroic Advancement
+    Alternative Advancement
+        Adjusted XP Advancement
+            Adjusted XP Advancement
+        Milestone
+        Director Says So
+Ancestries
+    On the Origin of Species
+    Measurements
+        Ancestry Measurements
+    Starting Size and Speed
+    Ancestry Trait
+    Devil
+        On Devils
+        Devil Traits
+            Signature Trait: Silver Tongue
+            Purchased Devil Traits
+                Barbed Tail (Costs 1 Point)
+                Beast Legs (Costs 1 Points)
+                Glowing Eyes (Costs 1 Point)
+                Hellsight (Costs 1 Point)
+                Impressive Horns (Costs 2 Point)
+                Prehensile Tail (Costs 2 Points)
+                Wings (Costs 2 Points)
+    Dragon Knight
+        On the Dragon Knights
+        Dragon Knight Traits
+            Signature Trait: Wyrmplate
+            Purchased Dragon Knight Traits
+                Draconian Guard (Costs 1 Point)
+                Prismatic Scales (Costs 1 Point)
+                Remember Your Oath (Costs 1 Points)
+                Draconian Pride (Costs 2 Points)
+                Dragon Breath (Costs 2 Points)
+                Wings (Costs 2 Points)
+    Dwarf
+        On Dwarves
+        Dwarf Traits
+            Signature Trait: Runic Carving
+            Purchased Dwarf Traits
+                Grounded (Costs 1 Point)
+                Stand Tough (Costs 1 Point)
+                Stone Singer (Costs 1 Point)
+                Great Fortitude (Costs 2 Points)
+                Spark Off Your Skin (Costs 2 Points)
+    Elf, Wode
+        On Wode Elves
+        Wode Elf Traits
+            Signature Trait: Wode Elf Glamor
+            Purchased Wode Elf Traits
+                Forest Walk (Costs 1 Point)
+                Revisit Memory (Costs 1 Point)
+                Swift (Costs 1 Point)
+                Otherworldly Grace (Costs 2 Points)
+                The Wode Defends (Costs 2 Points)
+    Elf, High
+        On High Elves
+        High Elf Traits
+            Signature Trait: High Elf Glamor
+            Purchased High Elf Traits
+                Graceful Retreat (Costs 1 Point)
+                High Senses (Costs 1 Point)
+                Revisit Memory (Costs 1 Point)
+                Otherworldly Grace (Costs 2 Points)
+                Unstoppable Mind (Costs 2 Points)
+    Hakaan
+        Hakaan Traits
+            Signature Trait: Big!
+            Purchased Hakaan Traits
+                All is a Feather (Costs 1 Point)
+                Forceful (Costs 1 Point)
+                Stand Tough (Costs 1 Point)
+                Great Fortitude (Costs 2 Points)
+                Doomsight (Costs 2 Points)
+    Human
+        On Humans
+        Human Traits
+            Signature Trait: Detect the Supernatural
+            Purchased Human Traits
+                Cant Take Hold (Costs 1 Point)
+                Perseverance (Costs 1 Point)
+                Resist the Unnatural (Costs 1 Point)
+                Determination (Costs 2 Points)
+                Staying Power (Costs 2 Points)
+    Memonek
+        On Memonek
+        Memonek Benefits
+            Signature Trait: Fall Lightly
+            Signature Trait: Lightweight
+            Purchased Memonek Traits
+                I Am Law (Costs 1 Point)
+                Systematic Mind (Costs 1 Point)
+                Unphased (Costs 1 Point)
+                Useful Emotion (Costs 1 Point)
+                Keeper of Order (Costs 2 Points)
+                Lightning Nimbleness (Costs 2 Points)
+                Nonstop (Costs 2 Points)
+    Orc
+        On Orcs
+        Orc Traits
+            Signature Trait: Relentless
+            Purchased Orc Traits
+                Bloodfire Rush (Costs 1 Point)
+                Grounded (Costs 1 Point)
+                Passionate Artisan (Costs 1 Point)
+                Glowing Recovery (Costs 2 Points)
+                Nonstop (Costs 2 Points)
+    Polder
+        On Polders
+        Polder Traits
+            Signature Trait: Shadowmeld
+            Signature Trait: Small!
+            Purchased Polder Traits
+                Corruption Immunity (Costs 1 Point)
+                Graceful Retreat (Costs 1 Point)
+                Polder Geist (Costs 1 Point)
+                Fearless (Costs 2 Points)
+                Nimblestep (Costs 2 Points)
+    Revenant
+        On Revenants
+        Revenant Traits
+            Signature Trait: Former Life
+            Signature Trait: Tough But Withered
+            Purchased Revenant Traits
+                Previous Life: 1 Point (Costs 1 Point)
+                Undead Influence (Costs 1 Point)
+                Bloodless (Costs 2 Points)
+                Previous Life: 2 Points (Costs 2 Points)
+                Vengeance Mark (Costs 2 Points)
+    Time Raider
+        On Time Raiders
+        Time Raider Traits
+            Signature Trait: Four Arms
+            Purchased Time Raider Traits
+                Beyondsight (Costs 1 Point)
+                Foresight (Costs 1 Point)
+                Psychic Scar (Costs 1 Point)
+                Psionic Gift (Costs 2 Points)
+                Unstoppable Mind (Costs 2 Points)
+Culture and Career
+    Culture
+        Using Culture
+            Typical Ancestry Cultures
+            Archetypical Cultures
+            Why Build a Culture?
+        Culture Benefits
+            Language
+            Environment
+                Nomadic
+                Rural
+                Secluded
+                Urban
+                Wilderness
+            Organization
+                Anarchic
+                Bureaucratic
+                Communal
+            Upbringing
+                Academic
+                Creative
+                Illegal
+                Labor
+                Martial
+                Noble
+                But I Really Want Alertness
+    Careers
+        Career Questions
+        Career Benefits
+            Skills
+            Languages
+            Renown
+            Wealth
+            Project Points
+            Perk
+        Inciting Incident
+            What Was Taken From You?
+        Agent
+            Agent Inciting Incidents
+        Aristocrat
+            Aristocrat Inciting Incidents
+        Artisan
+            Artisan Inciting Incidents
+        Beggar
+            Beggar Inciting Incidents
+        Criminal
+            Criminal Inciting Incidents
+        Disciple
+            Disciple Inciting Incidents
+        Explorer
+            Explorer Inciting Incidents
+        Farmer
+            Farmer Inciting Incidents
+        Gladiator
+            Gladiator Inciting Incidents
+        Laborer
+            Laborer Inciting Incidents
+        Mages Apprentice
+            Mages Apprentice Inciting Incidents
+        Performer
+            Performer Inciting Incidents
+        Politician
+            Politician Inciting Incidents
+        Sage
+            Sage Inciting Incidents
+        Sailor
+            Sailor Inciting Incidents
+        Soldier
+            Soldier Inciting Incidents
+        Warden
+            Warden Inciting Incidents
+        Watch Officer
+            Watch Officer Inciting Incidents
+    Languages
+        Caelian Empire
+        Extant Spoken Languages
+            Vasloria Languages by Ancestry
+            Vasloria Human Languages
+            Language Usage
+        Dead Languages
+            Dead Languages
+Classes
+    Abilities
+        Name and Story Text
+        Resource Cost
+        Ability Keywords
+            Area
+            Charge
+            Magic
+            Melee
+            Psionic
+            Ranged
+            Strike
+            Weapon
+                Its Not All Strikes!
+        Type
+            Trigger
+        Distance
+            Melee
+            Ranged
+            Melee or Ranged
+            Area Abilities
+            Self
+        Target
+            Creature
+            Object
+            Enemy
+            Ally
+            Self
+            All
+        Ability Roll
+            Characteristics and Damage
+            Abilities with Damage and Effects
+                Potency and Abilities
+                Surges and Abilities
+                During the Move
+                Rolled Damage
+            Critical Hit
+            Roll Against Multiple Creatures
+        Surges
+        Effect
+        Spend Resource
+        Stacking Unique Effects
+        Ending Effects
+            EoT
+            Save Ends
+            End of Encounter or Dying
+        Adjacent
+        Line of Effect
+        Straight Line
+        Ground
+        Conditions
+            Bleeding
+            Dazed
+            Frightened
+            Grabbed
+            Prone
+            Restrained
+            Slowed
+            Taunted
+            Weakened
+    Censor
+        Basics
+            Censor Advancement
+        1st-Level Features
+            Censor Order
+            Deity and Domains
+            Wrath
+                Wrath in Combat
+                Wrath Outside of Combat
+            Judgment
+                Judgment Order Benefit
+            Kit
+            My Life for Yours
+            1st-Level Domain Feature
+                1st-Level Censor Domain Features
+                Blessing of Compassion
+                Blessing of Comprehension
+                Blessing of Fortunate Weather
+                Faithful Friend
+                Grave Speech
+                Hands of the Maker
+                Inner Light
+                Inspired Deception
+                Oracular Visions
+                Protective Circle
+                Revitalizing Ritual
+                Sanctified Weapon
+            Censor Abilities
+                Signature Ability
+                Heroic Abilities
+                    3-Wrath Ability
+                5-Wrath Ability
+        2nd-Level Features
+            Perk
+            2nd-Level Order Features
+                2nd-Level Order Features
+                It Was Foretold
+                Judge of Character
+                Lead by Example
+                Saints Vigilance
+                A Sense For Truth
+                Stalwart Example
+            2nd-Level Order Ability
+                2nd-Level Exorcist Ability
+                2nd-Level Oracle Ability
+                2nd-Level Paragon Ability
+        3rd-Level Features
+            Look on my Work and Despair
+            7-Wrath Ability
+        4th-Level Features
+            Characteristic Increase
+            4th-Level Domain Feature
+                4th-Level Censor Domain Features
+                Blessing of Life
+                Blessing of Secrets
+                Invocation of the Heart
+                Impervious Touch
+                Improved Hands of the Maker
+                Improved Sanctified Weapon
+                Light of Revelation
+                Oracular warning
+                Séance
+                Saints Epiphany
+                Wode Road
+                Windwalk
+            Perk
+            Skill Increase
+            Wrath Beyond Wrath
+        5th-Level Features
+            5th-Level Order Feature
+                5th-Level Order Features
+                Evil Revealed
+                Prophecy
+                Stand Fast!
+            9-Wrath Abilities
+        6th-Level Features
+            Implement of Wrath
+            Perk
+            6th-Level Order Ability
+                6th-Level Exorcist Abilities
+                6th-Level Oracle Abilities
+                6th-Level Paragon Abilities
+        7th-Level Features
+            Characteristic Increase
+            7th-Level Domain Feature
+                7th-Level Censor Domain Features
+                Blessing of Iron
+                Covenant of the Heart
+                Divine Quartermaster
+                Font of Grace
+                Gods Library
+                Light of the Burning Sun
+                Natures Bounty
+                Ride the Lightning
+                Trinity of Trickery
+                Word of Death Deferred
+                Word of Fate Denied
+                Your Triumphs are Remembered
+            Focused Wrath
+            Skill Increase
+        8th-Level Features
+            8th-Level Order Feature
+                5th-Level Order Features
+                Demonologist
+                Timeless Insight
+                Vow
+            Perk
+            11-Wrath Abilities
+        9th-Level Features
+            Improved Implement of Wrath
+            9th-Level Aspect Ability
+                9th-Level Exorcist Abilities
+                9th-Level Oracle Abilities
+                9th-Level Paragon Abilities
+        10th-Level Features
+            Characteristic Increase
+            Perk
+            Templar
+            Virtue
+            Wrath of the Gods
+            Skill Increase
+    Conduit
+        Basics
+            Conduit Advancement
+        1st-Level Features
+            Deity and Domains
+            Piety
+                Piety in Combat
+                Piety Outside of Combat
+                Domain Piety and Effects
+                    Creation Domain Piety and Effect
+                    Death Domain Piety and Effect
+                    Fate Domain Piety and Effect
+                    Knowledge Domain Piety and Effect
+                    Life Domain Piety and Effect
+                    Love Domain Piety and Effect
+                    Nature Domain Piety and Effect
+                    Protection Domain Piety and Effect
+                    Storm Domain Piety and Effect
+                    Sun Domain Piety and Effect
+                    Trickery Domain Piety and Effect
+                    War Domain Piety and Effect
+            1st-Level Domain Feature
+                1st-Level Conduit Domain Features
+                Blessing of Compassion
+                Blessing of Comprehension
+                Blessing of Fortunate Weather
+                Faithful Friend
+                Grave Speech
+                Hands of the Maker
+                Inner Light
+                Inspired Deception
+                Oracular Visions
+                Protective Circle
+                Revitalizing Ritual
+                Sanctified Weapon
+            Healing Grace
+            Ray of Wrath
+            Triggered Action
+            Prayer
+                Prayer of Destruction
+                Prayer of Distance
+                Prayer of Speed
+                Prayer of Soldiers Skill
+                Prayer of Steel
+            Conduit Ward
+                Bastion Ward
+                Quickness Ward
+                Sanctuary Ward
+                Spirit Ward
+            Conduit Abilities
+                Signature Abilities
+                Heroic Abilities
+                    3-Piety Ability
+                    5-Piety Ability
+        2nd-Level Features
+            The Lists of Heaven
+            Perk
+            2nd-Level Domain Feature
+            2nd-Level Domain Ability
+                2nd-Level Conduit Domain Abilities
+        3rd-Level Features
+            Minor Miracle
+            7-Piety Ability
+        4th-Level Features
+            Blessed Domain
+            Characteristic Increase
+            4th-Level Domain Feature
+                4th-Level Conduit Domain Features
+                Blessing of Life
+                Blessing of Secrets
+                Impervious Touch
+                Improved Hands of the Maker
+                Improved Sanctified Weapon
+                Invocation of the Heart
+                Light of Revelation
+                Oracular warning
+                Saints Epiphany
+                Séance
+                Wode Road
+                Windwalk
+            Perk
+            Skill Increase
+        5th-Level Features
+            5th-Level Domain Feature
+            9-Piety Abilities
+        6th-Level Features
+            Burgeoning Saint
+            Perk
+            6th-Level Domain Abilities
+                6th-Level Conduit Domain Abilities
+        7th-Level Features
+            Characteristic Increase
+            7th-Level Domain Feature
+                7th-Level Conduit Domain Features
+                Blessing of Iron
+                Covenant of the Heart
+                Divine Quartermaster
+                Font of Grace
+                Gods Library
+                Light of the Burning Sun
+                Natures Bounty
+                Thunderstruck
+                Trinity of Trickery
+                Word of Death Deferred
+                Word of Fate Denied
+                Your Triumphs are Remembered
+            Faithfuls Reward
+            Skill Increase
+        8th-Level Features
+            8th-Level Domain Feature
+            Perk
+            11-Piety Abilities
+        9th-Level Features
+            Faiths Sword
+            Ordained
+            9th-Level Domain Abilities
+                9th-Level Conduit Domain Abilities
+        10th-Level Features
+            Avatar
+            Characteristic Increase
+            Divine Power
+            Most Pious
+            Perk
+            Skill Increase
+    Elementalist
+        Basics
+            Elementalist Advancement
+        1st-Level Features
+            Elemental Specialization
+                Earth: Acolyte of Earth
+                Fire: Acolyte of Fire
+                Green: Acolyte of the Green
+                Void: Acolyte of the Mystery
+            Essence
+                Essence in Combat
+                Essence Outside of Combat
+            Hurl Element
+            Persistent Magic
+            Practical Magic
+            1st-Level Specialization Feature
+                1st-Level Elemental Specialization Features
+                A Beyonding of Vision
+                It Is the Soul Which Hears
+                Motivate Earth
+                Return to Formlessness
+            Specialization Triggered Action
+                Specialization Triggered Actions
+            Enchantment
+                Enchantment of Battle
+                Enchantment of Celerity
+                Enchantment of Destruction
+                Enchantment of Distance
+                Enchantment of Permanence
+            Elementalist Ward
+                Ward of Delightful Consequences
+                Ward of Excellent Protection
+                Ward of Natures Affection
+                Ward of Surprising Reactivity
+            Elementalist Abilities
+                Signature Abilities
+                Heroic Abilities
+                    3-Essence Ability
+                    5-Essence Ability
+        2nd-Level Features
+            Perk
+            2nd-Level Specialization Feature
+                2nd-Level Specialization Features
+                Disciple of the Green
+                Disciple of Fire
+                Disciple of Earth
+                There is No Space Between
+                    Green Animal Forms
+            New 5-Essence Ability
+        3rd-Level Features
+            3rd-Level Specialization Feature
+                3rd-Level Specialization Features
+                A Conversation with Fire
+                Distance is Only Memory
+                The Earth Accepts Me
+                Remember Growth and Sun and Rain
+            7-Essence Ability
+        4th-Level Features
+            Characteristic Increase
+            Font of Essence
+            Mantle of Essence
+                Mantle of Essence Specialization Effects
+            Perk
+            Skill Increase
+        5th-Level Features
+            5th-Level Specialization Feature
+                5th-Level Elementalist Specialization Features
+                Hide of Tenfold Shields
+                The Mountain Does Not Move
+                Pierce the Veil of Substance
+                Smoldering Step
+            9-Essence Abilities
+        6th-Level Features
+            Perk
+            Wyrding
+            New 9-Essence Ability
+        7th-Level Features
+            Characteristic Increase
+            Mantle of Quintessence
+            Surging Essence
+            Skill Increase
+        8th-Level Features
+            Perk
+            8th-Level Specialization Feature
+                8th-Level Elementalist Specialization Features
+                Black Hole Star
+                Chimeric Manifestation
+                The Flame Primordial
+                Summon Source of Earth
+            Source of Earth Level 8 Brute
+            11-Essence Abilities
+        9th-Level Features
+            Grand Wyrding
+            11-Essence Ability
+        10th-Level Features
+            Characteristic Increase
+            Breath
+            Essential Being
+            One
+                Master of Earth
+                Master of Fire
+                Master of Green
+                Master of Void
+            Perk
+            Skill Increase
+    Fury
+        Basics
+            Fury Advancement
+        1st-Level Features
+            Primordial Aspect
+            Rage
+                Rage in Combat
+                Rage Outside of Combat
+            Growing Rage
+            1st-Level Aspect Features
+                1st-Level Aspect Features
+                Beast Shape
+                Kit
+                Primordial Cunning
+                    Primordial Cunning Growing Rage
+                Primordial Strength
+                    Primordial Strength Growing Rage
+                Relentless Hunter
+            Aspect Triggered Action
+                Aspect Triggered Actions
+            Mighty Leaps
+                Wheres My Maneuver?
+            Fury Abilities
+                Signature Ability
+                Heroic Abilities
+                    3-Rage Ability
+                    5-Rage Ability
+        2nd-Level Features
+            2nd-Level Aspect Feature
+                2nd-Level Aspect Features
+                Inescapable Wrath
+                Tooth and Claw
+                Unstoppable Force
+            Perk
+            2nd-Level Aspect Ability
+                2nd-Level Berserker Ability
+                2nd-Level Reaver Ability
+                2nd-Level Stormwight Ability
+        3rd-Level Features
+            3rd-Level Aspect Feature
+                3rd-Level Aspect Features
+                Immovable Object
+                Natures Knight
+                See Through Your Tricks
+            7-Rage Ability
+        4th-Level Features
+            Characteristic Increase
+            Damaging Rage
+            Growing Rage Improvement
+            Perk
+            Primordial Attunement
+            Primordial Strike
+            Skill Increase
+        5th-Level Features
+            5th-Level Aspect Feature
+                5th-Level Primordial Aspect Features
+                Bounder
+                Stormborn
+                Unfettered
+            9-Rage Abilities
+        6th-Level Features
+            Marauder of the Primordial Chaos
+            Perk
+            6th-Level Aspect Ability
+                6th-Level Berserker Abilities
+                6th-Level Reaver Abilities
+                6th-Level Stormwight Abilities
+        7th-Level Features
+            Characteristic Increase
+            Elemental Form
+            Greater Rage
+            Growing Rage Improvement
+            Skill Increase
+        8th-Level Features
+            8th-Level Aspect Feature
+                5th-Level Primordial Aspect Features
+                Menagerie
+                A Step Ahead
+                Strongest There Is
+            Perk
+            11-Rage Abilities
+        9th-Level Features
+            Harbinger of the Primordial Chaos
+            9th-Level Aspect Ability
+                9th-Level Berserker Abilities
+                9th-Level Reaver Abilities
+                9th-Level Stormwight Abilities
+        10th-Level Features
+            Chaos Incarnate
+            Characteristic Increase
+            Growing Rage Improvement
+            Perk
+            Primordial Power
+            Primordial Rage
+            Skill Increase
+        Stormwight Kits
+            Kit Features
+                Aspect Benefits and Animal Form
+                Aspect of the Wild
+                Primordial Storm
+                Equipment
+                Kit Bonuses
+                Growing Rage
+            Boren
+                Aspect Benefits
+                Animal Form: Bear
+                Hybrid Form: Bear
+                Primordial Storm: Blizzard
+                Kit Bonuses
+                Signature Ability
+                Growing Rage
+                    Boren Growing Rage
+            Corven
+                Aspect Benefits
+                Animal Form: Crow
+                Hybrid Form: Crow
+                Primordial Storm: Katabatic Wind
+                Kit Bonuses
+                Signature Ability
+                Growing Rage
+                    Corven Growing Rage
+            Raden
+                Aspect Benefits
+                Animal Form: Rat
+                Hybrid Form: Rat
+                Primordial Storm: Rat Flood
+                Kit Bonuses
+                Signature Ability
+                Growing Rage
+                    Raden Growing Rage
+            Vuken
+                Aspect Benefits
+                Animal Form: Wolf
+                Hybrid Form: Wolf
+                Primordial Storm: Lightning Storm
+                Kit Bonuses
+                Signature Ability
+                Growing Rage
+                    Vuken Growing Rage
+    Null
+        Basics
+            Null Advancement
+        1st-Level Features
+            Null Tradition
+            Discipline
+                Discipline in Combat
+                Discipline Outside of Combat
+            Null Field
+            Inertial Shield
+            Discipline Mastery
+                Chronokinetic Mastery
+                    Chronokinetic Mastery
+                Cryokinetic Mastery
+                    Cryokinetic Mastery
+                Metakinetic Mastery
+                    Metakinetic Mastery
+            Null Speed
+            Psionic Augmentation
+                Density Augmentation
+                Force Augmentation
+                Speed Augmentation
+            Psionic Martial Arts
+            Null Abilities
+                Signature Abilities
+                Heroic Abilities
+                    3-Discipline Ability
+                    5-Discipline Ability
+        2nd-Level Features
+            Perk
+            2nd-Level Tradition Feature
+                2nd-Level Tradition Features
+                Entropic Adaptability
+                Inertial Sink
+                Rapid Processing
+            2nd-Level Tradition Ability
+                2nd-Level Chronokinetic Ability
+                2nd-Level Cryokinetic Ability
+                2nd-Level Metakinetic Ability
+        3rd-Level Features
+            Psionic Leap
+            Reorder
+            7-Discipline Ability
+        4th-Level Features
+            Characteristic Increase
+            Discipline Mastery Improvement
+            Enhanced Null Field
+            Perk
+            Regenerative Field
+            Skill Increase
+        5th-Level Features
+            5th-Level Tradition Feature
+                5th-Level Tradition Features
+                Chilling Readiness
+                Inertial Fulcrum
+                Instant Action
+            9-Discipline Abilities
+        6th-Level Features
+            Elemental Absorption
+            Elemental Buffer
+            Perk
+            6th-Level Tradition Ability
+                6th-Level Chronokinetic Abilities
+                6th-Level Cryokinetic Abilities
+                6th-Level Metakinetic Abilities
+        7th-Level Features
+            Characteristic Increase
+            Discipline Mastery Improvement
+            Psi Boost
+                Sharpened Power (1 Discipline)
+                Heightened Power (1 Discipline)
+                Extended Power (1 Discipline)
+                Dynamic Power (1 Discipline)
+                Expanded Power (3 Discipline)
+                Shared Power (5 Discipline)
+                Magnified Power (5 Discipline)
+            Improved Body
+            Skill Increase
+        8th-Level Features
+            8th-Level Tradition Feature
+                5th-Level Tradition Features
+                Inertial Dampener
+                Shared Momentum
+                Synaptic Triage
+            Perk
+            11-Discipline Abilities
+        9th-Level Features
+            I am the Weapon
+            9th-Level Tradition Ability
+                9th-Level Chronokinetic Abilities
+                9th-Level Cryokinetic Abilities
+                9th-Level Metakinetic Abilities
+        10th-Level Features
+            Characteristic Increase
+            Discipline Mastery Improvement
+            Manifold Body
+            Manifold Resonance
+            Order
+            Perk
+            Skill Increase
+    Shadow
+        Basics
+            Shadow Advancement
+        1st-Level Features
+            Shadow College
+            Insight
+                Insight in Combat
+                Insight Outside of Combat
+            1st-Level College Features
+                1st-Level College Features
+                Black Ash Teleport
+                Coat the Blade
+                Im No Threat
+                Smoke Bomb
+            College Triggered Action
+                College Triggered Actions
+            Hesitation is Weakness
+            Kit
+            Shadow Abilities
+                Signature Ability
+                Heroic Abilities
+                    3-Insight Ability
+                    5-Insight Ability
+        2nd-Level Features
+            2nd-Level College Feature
+                2nd-Level College Features
+                Burning Ash
+                Friend!
+                Trained Assassin
+            Perk
+            2nd-Level College Ability
+                2nd-Level Black Ash Ability
+                2nd-Level Caustic Alchemy Ability
+                2nd-Level Harlequin Mask Ability
+        3rd-Level Features
+            Careful Observation
+            7-Insight Ability
+        4th-Level Features
+            Characteristic Increase
+            Keep It Down
+            Night Watch
+            Perk
+            Skill Increase
+            Your Pain My Gain
+        5th-Level Features
+            5th-Level College Feature
+                5th-Level Shadow College Features
+                Harlequin Gambit
+                Trail of Cinders
+                Volatile Reagents
+            9-Insight Abilities
+        6th-Level Features
+            Perk
+            Umbral Form
+            6th-Level College Ability
+                6th-Level Black Ash Abilities
+                6th-Level Caustic Alchemy Abilities
+                6th-Level Harlequin Mask Abilities
+        7th-Level Features
+            Characteristic Increase
+            Keen Insight
+            Skill Increase
+            Studied Observation
+            Ventriloquist
+        8th-Level Features
+            8th-Level College Feature
+                8th-Level Shadow College Features
+                Cinder Step
+                Parkour
+                Time Bomb
+            Perk
+            11-Insight Abilities
+        9th-Level Features
+            Gloom Squad
+            9th-Level College Ability
+                9th-Level Black Ash Abilities
+                9th-Level Caustic Alchemy Abilities
+                9th-Level Harlequin Mask Abilities
+        10th-Level Features
+            Characteristic Increase
+            Death Pool
+            Perk
+            Skill Increase
+            Studied Observation Improvement
+            Tricks
+            Vile Form
+    Tactician
+        Basics
+            Tactician Advancement
+        1st-Level Features
+            Tactical Doctrine
+            Focus
+                Focus in Combat
+                Focus Outside of Combat
+            1st-Level Doctrine Feature
+                1st-Level Doctrine Features
+                Commanding Presence
+                Covert Operations
+                Studied Commander
+            Doctrine Triggered Action
+                Doctrine Triggered Actions
+            Field Arsenal
+            Mark
+            Strike Now
+            Tactician Abilities
+                Kit Signature Ability
+                Heroic Abilities
+                    3-Focus Ability
+                    5-Focus Ability
+        2nd-Level Features
+            2nd-Level Doctrine Feature
+                2nd-Level Doctrine Features
+                Goaded
+                Infiltration Tactics
+                Melee Superiority
+            Perk
+            2nd-Level Doctrine Ability
+                2nd-Level Insurgent Ability
+                2nd-Level Mastermind Ability
+                2nd-Level Vanguard Ability
+        3rd-Level Features
+            Out of Position
+            7-Focus Ability
+        4th-Level Features
+            Characteristic Increase
+            Focus on Their Weaknesses
+            Improved Field Arsenal
+            Perk
+            Skill Increase
+        5th-Level Features
+            5th-Level Doctrine Feature
+                5th-Level Doctrine Features
+                Anticipation
+                Distracted
+                I predicted That
+                Leave No Trace
+                No, You Move
+                Shake it Off
+            9-Focus Abilities
+        6th-Level Features
+            Master of Arms
+            Perk
+            6th-Level Doctrine Ability
+                6th-Level Insurgent Abilities
+                6th-Level Mastermind Abilities
+                6th-Level Vanguard Abilities
+        7th-Level Features
+            Characteristic Increase
+            7th-Level Doctrine Feature
+                7th-Level Doctrine Features
+                Asymmetric Warfare
+                Grand Strategy
+                Shock and Awe
+            Heightened Focus
+            Seize the Initiative
+            Skill Increase
+        8th-Level Features
+            8th-Level Doctrine Feature
+                8th-Level Doctrine Features
+                Bait and Ambush
+                Pincer Movement
+                See Your Enemies Driven Before You
+            Perk
+            11-Focus Abilities
+        9th-Level Features
+            Grand Master of Arms
+            9th-Level Doctrine Ability
+                9th-Level Insurgent Abilities
+                9th-Level Mastermind Abilities
+                9th-Level Vanguard Abilities
+        10th-Level Features
+            Characteristic Increase
+            Perk
+            Stratagems
+            True Focus
+            Skill Increase
+            Warmaster
+    Talent
+        Basics
+            Talent Advancement
+        1st-Level Features
+            Talent Tradition
+            Clarity and Strain
+                Clarity in Combat
+                Clarity Outside of Combat
+            Mind Spike
+            Telepathic Speech
+            Tradition Features
+                1st-Level Tradition Features
+                Accelerate
+                Again
+                Feedback Loop
+                Minor Telekinesis
+                Remote Assistance
+                Repel
+            Psionic Augmentation
+                Battle Augmentation
+                Distance Augmentation
+                Density Augmentation
+                Force Augmentation
+                Speed Augmentation
+            Talent Ward
+                Entropy Ward
+                Repulsive Ward
+                Steel Ward
+                Vanishing Ward
+            Talent Abilities
+                Signature Abilities
+                Heroic Abilities
+                    3-Clarity Ability
+                    5-Clarity Ability
+        2nd-Level Features
+            Perk
+            2nd-Level Tradition Feature
+                2nd-Level Tradition Features
+                Ease the Hours
+                Ease the Mind
+                Ease Their Fall
+            2nd-Level Tradition Ability
+                2nd-Level Chronopathy Ability
+                2nd-Level Telekinesis Ability
+                2nd-Level Telepathy Ability
+        3rd-Level Features
+            Scan
+            7-Clarity Ability
+        4th-Level Features
+            Characteristic Increase
+            Mind Projection
+            Mind Recovery
+            Perk
+            Suspensor Field
+            Skill Increase
+        5th-Level Features
+            5th-Level Tradition Feature
+                Compulsion
+                Distortion Temporal
+                Kinetic Amplifier
+                Remote Amplification
+                Speed of Thought
+                Triangulate
+            9-Clarity Abilities
+                Exothermic Shield (9 Clarity)
+                Hypersonic (9 Clarity)
+                Mind Snare (9 Clarity)
+                Soulbound (9 Clarity)
+        6th-Level Features
+            Perk
+            Psi Boost
+                Sharpened Power (1 Clarity)
+                Heightened Power (1 Clarity)
+                Extended Power (1 Clarity)
+                Dynamic Power (1 Clarity)
+                Expanded Power (3 Clarity)
+                Shared Power (5 Clarity)
+                Magnified Power (5 Clarity)
+            9-Clarity Tradition Ability
+                Chronopathy Abilities
+                    Fate (9 Clarity)
+                    Stasis Field (9 Clarity)
+                Telekinesis Abilities
+                    Gravitic Well (9 Clarity)
+                    Greater Kinetic Grip (9 Clarity)
+                Telepathy Abilities
+                    Synaptic Conditioning (9 Clarity)
+                    Synaptic Vanishment (9 Clarity)
+        7th-Level Features
+            Ancestral Memory
+            Cascading Strain
+            Characteristic Increase
+            Lucid Mind
+            Skill Increase
+        8th-Level Features
+            Perk
+            8th-Level Tradition Feature
+                Doubling the Hours
+                Low Gravity
+                Levitation Field
+                    Levitation Field
+                Mindlink
+                Stasis Shield
+                    Stasis Shield (3 Clarity)
+                Universal Connection
+            11-Clarity Abilities
+                Doubt (11 Clarity)
+                Mindwipe (11 Clarity)
+                Rejuvenate (11 Clarity)
+                Steel (11 Clarity)
+        9th-Level Features
+            Fortress of Perfect Thought
+            11-Clarity Tradition Ability
+                Chronopathy Abilities
+                    Acceleration Field (11 Clarity)
+                    Borrow from the Future (11 Clarity)
+                Telekinesis Abilities
+                    Gravitic Nova (11 Clarity)
+                    Fulcrum (11 Clarity)
+                Telepathy Abilities
+                    Resonant Mind Spike (11 Clarity)
+                    Synaptic Terror (11 Clarity)
+        10th-Level Features
+            Characteristic Increase
+            Clear Mind
+            Omnisensory
+            Perk
+            Psion
+            Vision
+            Skill Increase
+    Troubadour
+        Basics
+            Troubadour Advancement
+        1st-Level Features
+            Troubadour Class Act
+            Drama
+                Drama in Combat
+                Drama Outside of Combat
+            Scene Partner
+            Curtain Call
+            1st-Level Class Act Features
+                1st-Level Class Act Features
+                Acrobatics
+                Blocking
+                Dramatic Monologue
+                Power Chord
+                Star Power
+                Virtuoso Routines
+            Class Act Triggered Action
+                Class Act Triggered Actions
+            Kit
+            Troubadour Abilities
+                Signature Ability
+                Heroic Abilities
+                    3-Drama Ability
+                5-Drama Ability
+        2nd-Level Features
+            Appeal to the Muses
+            Invocation
+                Allow Me to Introduce Tonights Players
+                Formal Introductions
+                My Reputation Precedes Me
+            Perk
+            2nd-Level Class Act Ability
+                2nd-Level Duelist Ability
+                2nd-Level Skald Ability
+                2nd-Level Virtuoso Ability
+        3rd-Level Features
+            3rd-Level Class Act Feature
+                3rd-Level Class Act Features
+                Foil
+                Recast a Supporting Part
+                Second Album
+            7-Drama Ability
+        4th-Level Features
+            Characteristic Increase
+            Melodrama
+            Perk
+            Zeitgeist
+                Foreshadowing
+                Hear Ye, Hear Ye!
+                Latest Goss
+            Skill Increase
+        5th-Level Features
+            5th-Level Class Act Features
+                Duelist Features
+                    Verbal Duel
+                    We Cant Be Upstaged!
+                Virtuoso Features
+                    Medley
+                    Witty Banter
+                Skald Features
+                    Fix it in Post
+                    Take Two!
+            9-Drama Abilities
+        6th-Level Features
+            Perk
+            Spotlight
+            6th-Level Class Act Ability
+                6th-Level Duelist Abilities
+                6th-Level Virtuoso Abilities
+                6th-Level Skald Abilities
+        7th-Level Features
+            Characteristic Increase
+            Auteur
+            Equal Billing
+            Skill Increase
+        8th-Level Features
+            8th-Level Class Act Features
+                8th-Level Class Act Features
+                Crowd Favorites
+                Deleted Scene
+                Masterwork
+            Perk
+            11-Drama Abilities
+        9th-Level Features
+            Roar of the Crowd
+            9th-Level Class Act Ability
+                9th-Level Duelist Abilities
+                9th-Level Virtuoso Abilities
+                9th-Level Skald Abilities
+        10th-Level Features
+            Characteristic Increase
+            Director Notes
+            Dramaturgy
+            Greatest of All Time
+            Perk
+            Skill Increase
+Kits
+    Changing Your Kit
+    Kit Equipment
+        Customizing Equipment Appearances
+        Kit Armor Categories
+            None
+            Light Armor
+            Medium Armor
+            Heavy Armor
+            Shield
+        Kit Weapon Categories
+            Bow
+            Ensnaring Weapon
+            Heavy Weapon
+            Light Weapon
+            Medium Weapon
+            Polearm
+            Unarmed Strike
+            Whip
+            Improvised Weapons
+        Kits and Treasures
+    Kit Bonuses and Traits
+        Stamina Bonus
+        Speed Bonus
+        Stability Bonus
+        Damage Bonuses
+            Melee Damage Bonus
+            Ranged Damage Bonus
+            Bonuses Across Tiers
+        Distance Bonus
+        Disengage Bonus
+    Kit Signature Ability
+        Optional Rule: Losing Equipment
+    Kits A to Z
+        Arcane Archer
+            Equipment
+            Kit Bonuses
+            Signature Ability
+        Battlemind
+            Equipment
+            Kit Bonuses
+            Signature Ability
+        Cloak and Dagger
+            Equipment
+            Kit Bonuses
+            Signature Ability
+        Dual Wielder
+            Equipment
+            Kit Bonuses
+            Signature Ability
+        Guisarmier
+            Equipment
+            Kit Bonuses
+            Signature Ability
+        Martial Artist
+            Equipment
+            Kit Bonuses
+            Signature Ability
+        Mountain
+            Equipment
+            Kit Bonuses
+            Signature Ability
+        Panther
+            Equipment
+            Kit Bonuses
+            Signature Ability
+        Pugilist
+            Equipment
+            Kit Bonuses
+            Signature Ability
+        Raider
+            Equipment
+            Kit Bonuses
+            Signature Ability
+        Ranger
+            Equipment
+            Kit Bonuses
+            Signature Ability
+        Rapid-Fire
+            Equipment
+            Kit Bonuses
+            Signature Ability
+        Retiarius
+            Equipment
+            Kit Bonuses
+            Signature Ability
+        Shining Armor
+            Equipment
+            Kit Bonuses
+            Signature Ability
+        Sniper
+            Equipment
+            Kit Bonuses
+            Signature Ability
+        Spellsword
+            Equipment
+            Kit Bonuses
+            Signature Ability
+        Stick and Robe
+            Equipment
+            Kit Bonuses
+            Signature Ability
+        Swashbuckler
+            Equipment
+            Kit Bonuses
+            Signature Ability
+        Sword and Board
+            Equipment
+            Kit Bonuses
+            Signature Ability
+        Warrior Priest
+            Equipment
+            Kit Bonuses
+            Signature Ability
+        Whirlwind
+            Equipment
+            Kit Bonuses
+            Signature Ability
+                Martial Kits
+Perks
+    Perk Types
+    Crafting Perks
+        Area of Expertise
+        Expert Artisan
+        Handy
+        Homesteader
+        Improvisation Creation
+        Inspired Artisan
+        Travelling Artisan
+    Exploration Perks
+        Brawny
+        Camouflage Hunter
+        Danger Sense
+        Friend Catapult
+        Ive Got You!
+        Monster Whisperer
+        Put Your Back Into It!
+        Survivalist
+        Teamwork
+        Team Leader
+        Wood Wise
+    Interpersonal Perks
+        Charming Liar
+        Cunning Plan
+        Dazzler
+        Engrossing Monologue
+        Fast Negotiator
+        Harmonizer
+        Lie Detector
+        Open Book
+        Pardon My Friend
+        Persistent
+        Power Player
+        So, Tell Me 
+        Spot the Tell
+    Intrigue Perks
+        Criminal Contacts
+        Forgettable Face
+        Gum Up the Works
+        Lucky Dog
+        Master of Disguise
+        Slipped Lead
+    Lore Perks
+        But I know Who Does
+        Eidetic Memory
+        Expert Sage
+        Ive Read About This Place
+        Linguist
+        Polymath
+        Specialist
+        Travelling Sage
+    Supernatural Perks
+        Arcane Trick
+        Creature Sense
+        Familiar
+        Familiar
+        Invisible Force
+        Psychic Whisper
+        Thingspeaker
+        Ritualist
+Complications
+    Benefit and Drawback
+    Modifying the Story
+    Determine Complication
+        Complications
+        Advanced Studies
+        Animal Form
+        Amnesia
+        Artifact Bonded
+        Antihero
+        Bereaved
+        Betrothed
+        Careful Curse
+        Chaos Touched
+        Chosen One
+        Consuming Interest
+            Study Lore
+        Corrupted Mentor
+        Coward
+        Crash Landed
+        Cult Victim
+        Curse of Immortality
+        Curse of Misfortune
+        Curse of Poverty
+        Cursed Weapon
+        Disgraced
+        Dragon Dreams
+        Elemental Inside
+        Evanesceria
+        Exile
+        Fallen Immortal
+        Famous Relative
+        Feytouched
+        Fiery Ideal
+        Fire and Chaos
+        Following in the Footsteps
+        Forbidden Romance
+        Frostheart
+        Getting Too Old for This
+        Gnoll-Bit
+        Greening
+        Grifter
+        Grounded
+        Guilty Conscience
+        Hawk Rider
+        Hears Voices
+        Host Body
+        Hunted
+        Hunter
+        Indebted
+        Infernal Contract
+        Infernal Contract  But, Like, Bad
+        Ivory Tower
+        Lightning Soul
+        Lifebonded
+        Loner
+        Lost in Time
+        Lost your Head
+        Lucky
+        Master Chef
+        Meddling Butler
+        Medium
+        Medusa Blood
+        Misunderstood
+        Mundane
+        Outlaw
+        Pirate
+        Preacher
+        Primordial Sickness
+        Prisoner of the Synlirii
+        Promising Apprentice
+        Psychic Eruption
+        Punishment Curse
+        Raised by Beasts
+        Refugee
+        Rival
+        Rogue Talent
+        Runaway
+        Searching for a Cure
+        Secret Identity
+        Self Taught
+        Sewer Folk
+        Shadow Born
+        Shared Spirit
+        Shattered Legacy
+        Shipwrecked
+        Siblings Shield
+        Silent Sentinel
+        Slight Case of Lycanthropy
+        Secret Twin
+        Stolen Face
+        Stone Cursed
+        Strange Inheritance
+        Stripped of Rank
+        Thrill Seeker
+        Vampire Sire
+        Vow of Honesty
+        Vow of Duty
+        Waking Dreams
+        War Dog Collar
+        War of Assassins
+        Ward
+        Waterborn
+        Wodewalker
+        Wrongly Imprisoned
+        Wrathful Spirit
+Tests
+    When to Make a Test
+        It Just Works!
+    How to Make a Test
+        Characteristics and Tests
+            Might Tests
+            Agility Tests
+            Reason Tests
+            Intuition Tests
+            Presence Tests
+            Influencing Player Character Actions with Tests
+        Test Difficulty
+            Test Difficulty Outcomes
+            Easy Tests
+            Medium Tests
+            Hard Tests
+            Natural 19 or 20: Success with a Reward
+        Test Outcomes
+            Failure with a Consequence
+            Failure
+            Success with a Consequence
+            Success
+            Success with a Reward
+            Option: Let Players Pitch Consequences and Rewards
+        How Long Does It Take?
+            Tests During Combat
+        Can I Try Again?
+    Heroes Make Tests
+        NPCs Roll for Deceptive Tasks
+        Optional Rule: Opposed Power Rolls
+    Reactive Tests
+        Directors Option: Secret Reactive Tests
+    Skills
+        Applying Skills
+            Justify the Skill
+            Mixing Characteristics and Skills
+        Many Specific Skills
+        Skill Groups
+            For the Director: Make Your Own Skills
+            Crafting Skills
+                Crafting Skills
+            Exploration Skills
+                Exploration Skills
+            Interpersonal Skills
+                Interpersonal Skills
+            Intrigue Skills
+                Intrigue Skills
+            Lore Skills
+                Lore Skills
+            Are All Skills Equal?
+    Example Tests
+    Assist a Test
+    Hide and Sneak
+        Hiding
+            Searching for Hidden Creatures
+        Sneaking
+    Group Tests
+        Group Test Difficulty
+        Making a Group Test
+        Group Test Outcome
+    Montage Tests
+        Time and Stakes
+        Director Sets the Scene
+        Individual Tests in Montage Tests
+        Cant Use the Same Skill Twice
+        New Challenges for Each Test
+        Director Can Introduce More Challenges
+        Total Successes and Failures
+        Limited Rounds
+        Montage Test Difficulty
+            Montage Test Difficulty
+        Montage Test Outcomes
+            Total Success
+            Partial Success
+            Total Failure
+        Sample Montage Test
+Combat
+    Set the Map
+        How Big Is a Square?
+        Size and Space
+            Creature and Object Sizes
+        Sides
+            NPC Allies
+    Combat Round
+        When Does Combat Start?
+        Determine Surprise
+        Determine Who Goes First
+        Creatures Take Turns
+            Determining Who Acts Next
+            Argument Timer
+            Alternative Initiative
+            Enemies Act In Groups
+        End of Round
+        Taking a Turn
+            Triggered Actions and Free Triggered Actions
+            Free Maneuvers
+            No-Action Activities
+    Movement
+        Cant Exceed Speed
+        Cant Cut Corners
+        Shifting
+        Movement Types
+            Walk
+            Burrow
+            Climb or Swim
+                Climbing Other Creatures
+            Jump
+            Crawl
+            Fly
+            Teleport
+        Falling
+            Falling onto another Creature
+            Falling Far
+        Difficult Terrain
+        Damaging Terrain
+        High Ground
+        Forced Movement
+            Vertical
+            Big vs Little
+            Slamming into Creatures
+            Tracking Object Forced-Movement Damage
+            Slamming into Objects
+            Hurling through Objects
+            Forced into a Fall
+            Stability
+    Move Actions
+        Advance
+        Disengage
+        Ride
+    Maneuvers
+        Aid Attack
+        Catch Breath
+        Escape Grab
+        Grab
+        Hide
+        Knockback
+        Make or Assist a Test
+        Search for Hidden Creatures
+        Stand Up
+        Use Consumable
+    Actions
+        Charge
+        Defend
+        Free Strike
+        Heal
+    Free Strikes
+        In Place of Signature or Heroic
+        Opportunity Attacks
+        Standard Free Strikes
+    Flanking
+    Cover
+    Concealment
+        Invisible Creatures
+    Damage
+        Strikes and Damage
+        Damage Types
+            Damage Immunity
+            Damage Weakness
+    Stamina
+        Recoveries and Recovery Value
+        Winded
+        Dying and Death
+        Director-Controlled Creatures
+            No Recoveries
+        Knocking Creatures Out
+            Unconscious
+        Temporary Stamina
+        Object Stamina
+    Underwater Combat
+    Suffocating
+    Mounted Combat
+    End of Combat
+        How Combat Ends
+            Fleeing Foes
+        Objective Endings
+            Diminish Numbers
+            Defeat Specific Foe
+            Get the Thing!
+            Destroy the Thing!
+            Save Another
+            Escort
+            Hold Them Off
+            Assault the Defenses
+            Stop the Action
+            Complete the Action
+        Dramatic Finish
+        Event Ending
+Negotiation
+    When to Negotiate
+        Limits of Negotiation
+        The Threat of Violence
+            Newgotiation
+    Negotiation Stats
+        Interest
+        Patience
+            Language and Patience
+        Motivations
+        Pitfalls
+        List of Motivations and Pitfalls
+            Benevolence
+            Discovery
+            Freedom
+            Greed
+            Higher Authority
+            Justice
+            Legacy
+            Peace
+            Power
+            NPCs Change Over Time
+            Protection
+            Revelry
+            Vengeance
+    Opening a Negotiation
+        Stop Combat, Start Negotiation
+        Starting Stats
+            Negotiation Starting Attitudes
+    Uncovering Motivations
+        Outside of Negotiation
+    Making Arguments
+        Appeal to Motivation
+            Appealing to Multiple Motivations
+        No Motivation or Pitfall
+            Everyone Can Participate
+        Caught in a Lie
+        Pitfall Used
+        Renown and Negotiation
+            NPCs and Impression
+            Fame or Infamy?
+            Influencing Tests
+    NPC Response and Offer
+        For the Director: Reasons for Deception
+        Interest 5 (Yes, and )
+        Interest 4 (Yes.)
+        Interest 3 (Yes, but )
+        Interest 2 (No, but )
+        Interest 1 (No.)
+        Interest 0 (No, and )
+    Keep Going or Stop
+    Sample Negotiation
+        Zolas Negotiation Stats
+            Zola Honeycut Negotiation Stats
+        Roleplaying Zola
+        Negotiation in Action
+Downtime Projects
+    Tracking Projects
+    Project Prerequisites
+        Item Prerequisites
+        Project Source
+            Search for Common Project Sources
+    Project Roll
+        Project Roll Edges and Banes
+        Skills and Project Rolls
+        Language and Project Rolls
+        Guides
+        For the Director: Project Events
+            When To Use Project Events
+            Roll for Event
+            Event Milestones
+                Suggested Event Milestones
+            Whenever You Want
+            Deploying Events
+    Crafting Projects
+        Build Airship
+        Build or Repair Road
+            Civilization Distance Project Goals
+            Build or Repair Road Events Prompts
+        Craft Teleportation Platform
+        Craft Treasure
+        Find a Cure
+        Imbue Treasure
+            Imbue Armor
+                1st-Level Armor Enhancement
+                1st-Level Armor Enhancements
+                5th-Level Armor Enhancement
+                5th-Level Armor Enhancements
+                9th-Level Armor Enhancement
+                9th-Level Armor Enhancements
+            Imbue Implement
+                1st-Level Implement Enhancement
+                1st-Level Implement Enhancements
+                5th-Level Implement Enhancement
+                5th-Level Implement Enhancements
+                9th-Level Implement Enhancement
+                9th-Level Implement Enhancements
+            Imbue Weapon
+                1st-Level Weapon Enhancement
+                1st-Level Weapon Enhancements
+                5th-Level Weapon Enhancement
+                5th-Level Weapon Enhancements
+                9th-Level Weapon Enhancement
+                9th-Level Weapon Enhancements
+                Crafting and Research Events Prompts
+    Research Projects
+        Discover Lore
+            Discover Lore Project Goals
+            Common Knowledge
+            Obscure Knowledge
+            Lost Knowledge
+            Forbidden Knowledge
+        Go Undercover
+        Hone Career Skills
+            Hone Career Skills Events Prompts
+        Learn From A Master
+            Master Teaching Project Goals
+            Hone Ability
+            Improve Control
+            Acquire Ability
+                Learn from a Master Events Prompts
+        Learn New Language
+        Learn New Recipe
+            Recipes
+    Other Projects
+        Community Service
+            Community Service Events Prompts
+        Fishing
+            Tackle
+            Fishing Events
+        Spend Time with Loved Ones
+            Spend Time with Loved Ones Events Prompts
+Rewards
+    Treasures
+        Found, Earned, or Crafted
+            Treasure Item Prerequisites
+            Wearing Treasures
+            Wielding Treasures
+                Treasures and Kits
+            Magic and Psionic Treasures
+            Stamina and Damage Bonuses
+        Consumables
+            1st-Echelon Consumables
+                Black Ash Dart
+                Blood Essence Vial
+                Catapult Dust
+                Giants-Blood Flame
+                Growth Potion
+                Healing Potion
+                Imps Tongue
+                Lachomp Tooth
+                Mirror Token
+                Pocket Homunculus
+                Portable Cloud
+                Professor Veratismos Quaff n Huff Snuff
+                Snapdragon
+            2nd-Echelon Consumables
+                Breath of Dawn
+                Bull Shot
+                Chocolate of Immovability
+                Concealment Potion
+                Purified Jelly
+                Scroll of Resurrection
+                Scroll of Shadow Friendship
+                Telemagnet
+                Vial of Ethereal Attack
+            3rd-Echelon Consumables
+                Anamorphic Larva
+                Bottled Paradox
+                GAllios Visiting Card
+                Personal Effigy
+                Stygian Liquor
+                Timesplitter
+                Ward Token
+                Wellness Tonic
+            4th-Echelon Consumables
+                Breath of Creation
+                Elixir of Saint Elspeth
+                Page from the Infinite Library: Solaris
+                Restorative of the Bright Court
+        Trinkets
+            1st-Echelon Trinkets
+                Color Cloak (Blue)
+                Color Cloak (Red)
+                Color Cloak (Yellow)
+                Deadweight
+                Displacing Replacement Bracer
+                Divine Vine
+                Flameshade Gloves
+                Gecko Gloves
+                Gyrotoque
+                Hellcharger Helm
+                Mask of the Many
+                Quantum Satchel
+                Unbinder Boots
+            2nd-Echelon Trinkets
+                Bastion Belt
+                Evilest Eye
+                Insightful Crown
+                Key of Inquiry
+                Mediators Charm
+                Necklace of the Bayou
+                Scannerstone
+                Stop-n-Go Coin
+            3rd-Echelon Trinkets
+                Bracers of Strife
+                Mask of Oversight
+                Mirage Band
+                Nullfield Resonator Ring
+                Shifting Ring
+            4th-Echelon Trinkets
+                Gravekeepers Lantern
+                Psi Blade
+        Leveled Treasures
+            Leveled Benefits
+            Carry Three Safely
+                You Dont Need Three
+            Leveled Armor Treasures
+                Adaptive Second Skin of Toxins
+                Chain of the Sea and Sky
+                Grand Scarab
+                Kings Roar
+                Kuranzoi Prismscale
+                Paper Trappings
+                Shrouded Memory
+                Spiny Turtle
+                Star-Hunter
+                Telekinetic Bulwark
+            Leveled Implement Treasures
+                Abjurers Bastion
+                Brittlebreaker
+                Chaldorb
+                Ether-Fueled Vessel
+                Foesense Lenses
+                Geometric Manipulator
+                Words Become Wonders at Next Breath
+            Leveled Weapon Treasures
+                Authoritys End
+                Blade of Quintessence
+                Blade of the Luxurious Fop
+                Displacer
+                Executioners Blade
+                Icemaker Maul
+                Knife of Nine
+                Lance of the Sundered Star
+                Molten Constrictor
+                Onerous Bow
+                Steeltongue
+                Third Eye Seeker
+                Thunderhead Bident
+                Wetwork
+            Other Leveled Treasures
+                Bloodbound Band
+                Bloody Hand Wraps
+                Lightning Treads
+                Revengers Wrap
+                Thief of Joy
+        Artifacts
+            Blade of a Thousand Years
+            Encepter
+            Mortal Coil
+    Titles
+        Title Requirements
+        Title Echelons
+        Customizing Titles
+        How Many Titles?
+        Title Benefits
+        Granting Titles
+            Optional rule: Players Choose Titles
+        1st Echelon Titles
+            Ancient Loremaster
+            Battleaxe Diplomat
+            Brawler
+            City Rat
+            Doomed
+            Dwarf Legionnaire
+            Elemental Dabbler
+            Faction Member
+            Local Hero
+            Mage Hunter
+            Marshal
+            Monster Bane
+            Owed a Favor
+            Presumed Dead
+            Ratcatcher
+            Saved For a Worse Fate
+            Ship Captain
+            Troupe Tactics
+            Wanted Dead or Alive
+            Zombie Slayer
+                Perks as Titles
+        2nd Echelon Titles
+            Arena Fighter
+            Armed and Dangerous
+            Awakened
+            Battlefield Commander
+            Blood Magic
+            Corsair
+            Faction Officer
+            Fae Friend
+            Giant Slayer
+            Godsworn
+            Heist Hero
+            Knight
+            Librarian
+            Special Agent
+                Boffin Properties
+            Sworn Hunter
+            Undead Slayed
+            Unstoppable
+        3rd Echelon Titles
+            Back from the Grave
+            Demon Slayer
+            Diabolist
+            Dragon Blooded
+            Fleet Admiral
+            Maestro
+            Master Crafter
+            Noble
+            Planar Voyager
+            Scarred
+            Siege Breaker
+            Teacher
+        4th Echelon Titles
+            Champion Competitor
+            Demigod
+            Enlightened
+            Forsaken
+            Monarch
+            Peacebringer
+            Reborn
+            Theoretical Warrior
+            Tireless
+            Unchained
+    Renown
+        Increasing Renown
+        Influence Negotiation
+        Attract Followers
+            Renown and Followers
+            Stronghold
+            Follower Types
+                Artisan
+                Retainers
+                Sage
+    Wealth
+        Gaining Wealth
+        Losing Wealth
+        Hero Wealth
+Gods and Religion
+    Churches and Temples
+    Interspecies Worship
+    Dark Gods and Evil Saints
+    Afterlife in Orden
+    Conduits and Censors
+        How To Use This Chapter
+    Val
+        Heroes of the Elves
+            A Sea of Suns
+            The Taste of Morning
+            Ripples of Honey on a Shore of Gold
+            Yllin Dyrvis
+            Thyll Hylacae
+            Illwyv li Orchiax
+    Ord
+        Heroes of the Dwarves
+            Zarok the Law-Giver
+            Valak-koth the Seeker
+            Stakros the Egineer
+    Kul
+        Heroes of the Orcs
+            Korvath who Slew a Thousand
+            Grole the One-Handed
+            Khravila who Ran Forty Leagues
+    Heroes of the Hakaan
+        Mahsiti the Weaver
+        Prexaspes the Stargazer
+        Atossa the Shepherd
+    Devil Gods
+        Saints of Hell
+            Thellasko the Great Designer
+            Uryal the Subtle
+            Kyruyalka the False Principle
+    Human Gods of Vasloria
+        Adûn
+            Gaed the Confessor
+            Gryffyn the Stout
+        Cavall
+            Llewellyn the Valiant
+            Gwenllian the Fell-Handed
+        Salorna
+            Draighen the Warden
+            Eriarwen the Wroth
+        The Black Brothers
+            Nikros
+                Pentalion the Paladin
+            Cyrvis
+                Eseld of the Eye
+    Timescape Space Gods
+        Lords of Law and Chaos
+        Heralds of the Space Gods
+        Religion in the Timescape
+        Nebular the Star Mother
+            The Choosing of Lady Magnetar
+        OV the Wave Pilot
+            The Choosing of Chokassa the Time Rider
+For the Director
+    Whats a Campaign?
+    Directors Role
+        First Time Running a Game
+            Personal Problems at the Table
+    Campaign Pitch
+        Opening Overview
+            Overview: Wards of the Last Emperor
+        Gameplay Breakdown
+            Gameplay Categories
+            Category Frequency
+            Breakdown: Wards of the Last Emperor
+        Player Buy-In
+            Buy-In: Wards of the Last Emperor
+        Player Option Restrictions
+        Presenting Multiple Pitches
+        Discussing the Pitch
+        Pitching Published Campaign
+    House Rules
+    Building the Campaign
+        Published Setting: Read
+        Building Your Own
+            Start Small
+            Vague for the Beyond
+            Campaign Styles
+            Echelon Outline
+        Complications and Campaigns
+    Creating Adventures
+        Player Ambition Writes Adventures
+        Villains
+            Villain Sins
+            Villain Goals
+            Stealing is Encouraged
+        Adventure Goal
+            Discovering the Goal
+            Complications and Adventures
+        Creating NPCs
+        Interesting Locations
+            General Locations
+            Specific Places
+        Plan Scenes
+        Adventure Outline
+    Creating Scenes
+        Creating and Running Combat
+        Creating and Running Exploration
+            Necessary and Unnecessary Information
+            Setting the Scene
+            Heroes Investigate
+            When to Call for a Test
+            Its Okay to Say No
+            Test Difficulty
+            Test Outcomes
+        Creating and Running Hazards
+            Activated Hazard Triggers
+            Hazard Damage
+                One-Time Hazard Deadliness
+                Perpetual Hazard Deadliness
+            Hazard Effects
+        Creating and Running Interaction
+        Creating and Running Negotiations
+            Plan the Outcomes
+            Hero Negotiation Stats
+            Heroes Must Initiate
+            Framework for Roleplaying
+            Chance for Recon
+            Roleplaying Negotiators
+            Sharing Interest and Patience
+            Sample Negotiators
+                Bandit Chief
+                Knight
+                Guildmaster
+                Warlord
+                Burgomaster
+                Virtuoso
+                High Priest
+                Duke
+                Dragon
+                Monarch
+                Lich
+                Deity
+        Creating and Running Montages
+            Preparing Montage Tests
+            Running Montage Tests
+            Montage Twist!
+            Example Montage Tests
+                Fight Fire
+                    Setting the Scene
+                    Montage Challenges
+                    Optional Twists
+                    Optional Twist
+                    Montage Test Outcomes
+                Infiltrate the Palace
+                    Setting the Scene
+                    Montage Challenges
+                    Optional Twist
+                    Montage Test Outcomes
+                Prepare For Battle
+                    Setting the Scene
+                    Montage Challenges
+                    Optional Twist
+                    Montage Test Outcomes
+                Track the Fugitive
+                    Setting the Scene
+                    Montage Challenges
+                    Optional Twist
+                    Montage Test Outcomes
+                Wilderness Race
+                    Setting the Scene
+                    Montage Challenges
+                    Optional Twist
+                    Montage Test Outcomes
+    Running Respites
+        Safe Place
+        Too Many Respites?
+        Project Events
+        Respites Between Sessions
+    Granting Rewards
+        Granting Treasures
+            Reskinning Treasures
+        Awarding Titles
+        Awarding Renown
+        Granting Wealth
+        Awarding Hero Tokens
+        Awarding Victories
+    Campaign: Session One
+        First, Business
+        Make Heroes
+        Start with a Bang

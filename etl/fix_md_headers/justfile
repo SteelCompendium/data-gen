@@ -1,0 +1,11 @@
+log_prefix := "[JUST][fix_headers]"
+
+# TODO - make the bookmarks file with
+# pdfcpu bookmarks list MCDM\ RPG\ Heroes\ Manuscript\ Pactreon\ Packet\ 4.pdf > bookmarks.txt
+run bookmarks_fpath md_src_fpath md_dest_fpath:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    echo >&2 "{{log_prefix}}"
+    python3 fix_headers.py "{{bookmarks_fpath}}" "{{md_src_fpath}}" "{{md_dest_fpath}}"
+    # Manual post-fix adjustments
+    # - skill group tables need to move from h4 to h5

@@ -38,6 +38,12 @@ gen_unified:
 gen_unified_dse:
     just -f unified-dse.justfile gen_unified_dse
 
+# make the headers match the bookmarks
+one_off_fix_headers_of_src:
+    # Generates the output doc in staging, then compare it, then copy it to src if its good
+    just -f fix_md_headers/justfile run "{{data_gen_root_dpath}}/Rules/bookmarks.txt" "{{data_gen_root_dpath}}/Rules/Draw Steel Rules.md" "{{staging_dpath}}/Draw Steel Rules.md"
+
+
 # deletes all the (non-hidden) files in a directory
 _delete_dir_except_git dir_to_delete:
     #!/usr/bin/env bash
