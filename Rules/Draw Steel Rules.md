@@ -18061,10 +18061,6 @@ Our rules for skills allow for them to be flexibly applied to any test that is a
 
 Skills are broken down into five groups: crafting, exploration, interpersonal, intrigue, and lore.
 
-#### **FOR THE DIRECTOR: MAKE YOUR OWN SKILLS**
-
-Directors should feel free to make their own skills that they feel are relevant and useful to their campaigns and adventures. For instance, the game doesn't have a Brewing skill for brewing ale or a Painting skill for making art because those aren't tasks that typically come up or require a test in a game about fighting monsters and saving the world. However, a Director could decide that their campaign involves poisoned barrels of ale and large amounts of counterfeit art, and that adding these two new skills to the game would make it more fun for the players. The Director simply needs to pick a group for these new skills—in this case, crafting makes sense. They then let the players know that they can swap out any crafting skill they have for these new skills.
-
 #### CRAFTING SKILLS
 
 Skills from the crafting skill group are used in the creation and appraisal of goods and for jury-rigging contraptions. They are especially useful during rests and downtime.
@@ -18073,7 +18069,7 @@ Rewards for tests made with crafting skills typically include having leftover ra
 
 Failure consequences for tests made with crafting skills typically include wasting rare materials used in the creation process, greatly overestimating or underestimating an item's value, and poorly jury-rigging a contraption so that it harms people (or at least the wrong people).
 
-##### **CRAFTING SKILLS**
+##### CRAFTING SKILLS
 
 | Skill | Use |
 | --- | --- |
@@ -18096,7 +18092,7 @@ Rewards for tests made with exploration skills typically include helping another
 
 Failure consequences for tests made with exploration skills include harming yourself, your gear, or your allies, becoming lost, or stumbling headlong into a hazard or a place you were trying to avoid.
 
-##### **EXPLORATION SKILLS**
+##### EXPLORATION SKILLS
 
 | Skill | Use |
 | --- | --- |
@@ -18124,7 +18120,7 @@ Rewards for tests made with interpersonal skills typically include gaining an ex
 
 Failure consequences for tests made with interpersonal skills include making the person you're interacting with angry, sad, embarrassed, offended, or otherwise upset or uncomfortable, which might cause them to ignore you, storm off, spread rumors about you, attack you, betray you, blackmail you, or otherwise attempt to harm you.
 
-##### **INTERPERSONAL SKILLS**
+##### INTERPERSONAL SKILLS
 
 | Skill | Use |
 | --- | --- |
@@ -18155,7 +18151,7 @@ Rewards for tests made with skills from this group typically include helping ano
 
 Failure consequences for tests made with intrigue skills include getting caught in the act or failing to notice a detail that places you in danger, such as triggering a trap or walking into an ambush.
 
-##### **INTRIGUE SKILLS**
+##### INTRIGUE SKILLS
 
 |  | Uses |
 | --- | --- |
@@ -18189,7 +18185,7 @@ Rewards for tests made with lore skills typically include learning an extra piec
 
 Failure consequences for tests made with lore skills typically include learning an incorrect piece of information that seems useful, but which actually makes things worse or wastes time. (It's fun to roleplay these sorts of moments, so lean in!) Alternatively, the Director can make medium and hard lore tests for each hero in secret and let the players know the narrative outcome without revealing the result of the dice.
 
-##### **LORE SKILLS**
+##### LORE SKILLS
 
 | Skill | Use |
 | --- | --- |
@@ -18214,6 +18210,10 @@ Failure consequences for tests made with lore skills typically include learning 
 | Strategy | Knowing about battle tactics and logistics |
 | Timescape | Knowing about the various planets of the |
 |  | timescape |
+
+#### **FOR THE DIRECTOR: MAKE YOUR OWN SKILLS**
+
+Directors should feel free to make their own skills that they feel are relevant and useful to their campaigns and adventures. For instance, the game doesn't have a Brewing skill for brewing ale or a Painting skill for making art because those aren't tasks that typically come up or require a test in a game about fighting monsters and saving the world. However, a Director could decide that their campaign involves poisoned barrels of ale and large amounts of counterfeit art, and that adding these two new skills to the game would make it more fun for the players. The Director simply needs to pick a group for these new skills—in this case, crafting makes sense. They then let the players know that they can swap out any crafting skill they have for these new skills.
 
 #### **ARE ALL SKILLS EQUAL?**
 
@@ -19380,10 +19380,6 @@ Arguments that appeal to a power motivation contend that working with the heroes
 - "Everyone knows you should be running the watch, Percy. The old lady's retiring, and our friend Baron Kuglar is naming the replacement. Now, you let us into the restricted armory, and we'll put in a good word."
 - "We know he's your brother, Your Highness, but he's older—first in line for the throne. If you help us prove he's in a cult, you become the favorite son."
 
-#### **NPCS CHANGE OVER TIME** 
-
-Just like the heroes, NPCs in negotiations are complex individuals who can change over time. It's possible that the heroes might have to negotiate with the same NPC for several different favors during the course of a campaign, over which time the NPC's motivations and pitfalls might change. If the heroes turn a bandit captain with the greed and power motivations into a temporary ally, that criminal might learn from them, changing their ways to rob only those who exploit the poor and giving those earnings to people in need. The next time the heroes negotiate with the bandit captain, they have the benevolence and protection motivations.
-
 #### PROTECTION
 
 An NPC with the protection motivation has land, people, information, items, or an organization they want protected above all else. Keeping their charge safe is a duty they hold dear, and aiding in that protection earns their favor. Most people have friends or family they wish to protect, but an NPC with the protection motivation believes in doing so above all else.
@@ -19419,6 +19415,10 @@ Arguments that appeal to the vengeance motivation contend that the NPC can gain 
 - "That prankster Huckable made your trousers tear at the last council meeting. Don't you want to pay him
 
 back? We can arrange a delicious prank at the next gathering, but we need you to guarantee the safety of the orc refugees."
+
+### **NPCS CHANGE OVER TIME**
+
+Just like the heroes, NPCs in negotiations are complex individuals who can change over time. It's possible that the heroes might have to negotiate with the same NPC for several different favors during the course of a campaign, over which time the NPC's motivations and pitfalls might change. If the heroes turn a bandit captain with the greed and power motivations into a temporary ally, that criminal might learn from them, changing their ways to rob only those who exploit the poor and giving those earnings to people in need. The next time the heroes negotiate with the bandit captain, they have the benevolence and protection motivations.
 
 ## OPENING A NEGOTIATION
 

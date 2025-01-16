@@ -81,7 +81,7 @@ _extract_careers rules_html_fpath rules_html_sections_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
     careers_path="{{rules_html_sections_dpath}}/Careers"
-    xpath="//section[@id='career-1']//section[@class='level2']"
+    xpath="//section[@id='careers']//section[@class='level2']"
     just -f "../common/justfile" extract_section "$careers_path" "$xpath" "{{rules_html_fpath}}"
 
     # removes any extra sections
@@ -94,17 +94,14 @@ _extract_cultures rules_html_fpath rules_html_sections_dpath:
     set -euo pipefail
     cultures_path="{{rules_html_sections_dpath}}/Cultures"
 
-    xpath="//section[@id='culture-1']//section[@id='culture-benefits']//section[@id='environment']//section[@class='level4']"
+    xpath="//section[@id='culture-benefits']//section[@id='environment']//section[@class='level4']"
     just -f "../common/justfile" extract_section "$cultures_path/Environments" "$xpath" "{{rules_html_fpath}}"
 
-    xpath="//section[@id='culture-1']//section[@id='culture-benefits']//section[@id='organization']//section[@class='level4']"
+    xpath="//section[@id='culture-benefits']//section[@id='organization']//section[@class='level4']"
     just -f "../common/justfile" extract_section "$cultures_path/Organizations" "$xpath" "{{rules_html_fpath}}"
 
-    xpath="//section[@id='culture-1']//section[@id='culture-benefits']//section[@id='upbringing']//section[@class='level4']"
+    xpath="//section[@id='culture-benefits']//section[@id='upbringing']//section[@class='level4']"
     just -f "../common/justfile" extract_section "$cultures_path/Upbringing" "$xpath" "{{rules_html_fpath}}"
-
-    # removes any extra sections
-    rm "${cultures_path}/Upbringing/But I Really Want Alertness.html"
 
 _extract_complications rules_html_fpath rules_html_sections_dpath:
     #!/usr/bin/env bash
@@ -113,24 +110,22 @@ _extract_complications rules_html_fpath rules_html_sections_dpath:
     xpath="//section[@id='complications']//section[@id='determine-complication']//section[@class='level3']"
     just -f "../common/justfile" extract_section "$complications_path" "$xpath" "{{rules_html_fpath}}"
 
-_extract_skills rules_html_fpath rules_html_sections_dpath:
-    #!/usr/bin/env bash
-    set -euo pipefail
-    skills_path="{{rules_html_sections_dpath}}/Skills"
-    xpath="//section[@id='tests']//section[@id='skill-groups']//section[@class='level4']"
-    just -f "../common/justfile" extract_section "$skills_path" "$xpath" "{{rules_html_fpath}}"
-
-    # removes any extra sections
-    rm "${skills_path}/Are All Skills Equal?.html"
-    rm "${skills_path}/For The Director: Make Your Own Skills.html"
-
 _extract_conditions rules_html_fpath rules_html_sections_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
     conditions_path="{{rules_html_sections_dpath}}/Conditions"
-    xpath="//section[@id='abilities']//section[@id='conditions']//section[@class='level3']"
+    xpath="//section[@id='conditions']//section[@class='level3']"
     just -f "../common/justfile" extract_section "$conditions_path" "$xpath" "{{rules_html_fpath}}"
 
+# Note: the original markdown needed to be adjusted to ensure the callouts arent picked up (which error)
+_extract_skills rules_html_fpath rules_html_sections_dpath:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    skills_path="{{rules_html_sections_dpath}}/Skills"
+    xpath="//section[@id='skill-groups']//section[@class='level5']"
+    just -f "../common/justfile" extract_section "$skills_path" "$xpath" "{{rules_html_fpath}}"
+
+# Note: the original markdown needed to be adjusted to ensure the callouts arent picked up (which error)
 _extract_negotiation rules_html_fpath rules_html_sections_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
