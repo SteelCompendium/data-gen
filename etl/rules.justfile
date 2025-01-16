@@ -2,13 +2,13 @@
 data_gen_root_dpath := justfile_directory() / ".."
 data_root_dpath := data_gen_root_dpath / ".."
 
-
 # Staging dirs
 staging_dpath := data_root_dpath / "staging"
 staging_rules_dpath := staging_dpath / "rules"
 staging_rules_linked_dpath := staging_rules_dpath / "md_sections_formatted_linked"
 
 # Input/source files
+rules_pdf_source_fpath := data_gen_root_dpath / "Rules" / "MCDM RPG Heroes Manuscript Pactreon Packet 4.pdf"
 rules_markdown_source_path := staging_dpath / "Draw Steel Rules.md"
 
 clean_and_prep:
@@ -29,7 +29,15 @@ gen_rules_md:
     #!/usr/bin/env bash
     set -euo pipefail
 
-    # Convert OG markdown to html
+    # Preformat the markdown to clean it up
+    just -f preformat/justfile run "{{staging_dpath}}/Draw Steel Rules.md"
+
+    # Fix the headers
+    corrected_headers_fpath="$(mktemp)"
+    just -f fix_md_headers/justfile run "{{rules_pdf_source_fpath}}" "{{rules_markdown_source_path}}" "$corrected_headers_fpath"
+    mv "$corrected_headers_fpath" "{{rules_markdown_source_path}}"
+
+    # Convert markdown to html
     html_fpath="{{staging_rules_dpath}}/html/Draw Steel Rules.html"
     just -f md_to_html/justfile run "{{rules_markdown_source_path}}" "$html_fpath"
 

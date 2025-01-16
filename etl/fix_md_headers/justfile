@@ -2,10 +2,19 @@ log_prefix := "[JUST][fix_headers]"
 
 # TODO - make the bookmarks file with
 # pdfcpu bookmarks list MCDM\ RPG\ Heroes\ Manuscript\ Pactreon\ Packet\ 4.pdf > bookmarks.txt
-run bookmarks_fpath md_src_fpath md_dest_fpath:
+run pdf_fpath md_src_fpath md_dest_fpath:
     #!/usr/bin/env bash
     set -euo pipefail
     echo >&2 "{{log_prefix}}"
-    python3 fix_headers.py "{{bookmarks_fpath}}" "{{md_src_fpath}}" "{{md_dest_fpath}}"
+
+    # Generate the bookmarks file
+    bookmarks_file="$(mktemp)"
+    echo >&2 "{{log_prefix}} bookmarks file: $bookmarks_file"
+    pdfcpu bookmarks list "{{pdf_fpath}}" > "$bookmarks_file"
+
+    # apply the bookmarks to the markdown file
+    python3 fix_headers.py "$bookmarks_file" "{{md_src_fpath}}" "{{md_dest_fpath}}"
+
     # Manual post-fix adjustments
     # - skill group tables need to move from h4 to h5
+

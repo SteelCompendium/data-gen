@@ -9,7 +9,8 @@
     "html-tidy@latest",
     "rsync@latest",
     "yq-go@latest",
-    "iconv@latest"
+    "iconv@latest",
+    "go@latest"
   ],
   "env": {
     "DEVBOX_COREPACK_ENABLED": "true"
@@ -22,7 +23,9 @@
       "pip install tabulate PyYAML python-frontmatter",
       "pip install lxml",
       "pip install inflect",
-      "pip install mdformat mdformat-wikilink mdformat-tables mdformat-frontmatter mdformat-mkdocs"
+      "pip install mdformat mdformat-wikilink mdformat-tables mdformat-frontmatter mdformat-mkdocs",
+      "go install github.com/pdfcpu/pdfcpu/cmd/pdfcpu@latest",
+      "PATH=$PATH:$(go env GOPATH)/bin"
     ],
     "scripts": {
       "gen":             "time just gen",

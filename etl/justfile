@@ -19,7 +19,6 @@ gen_rules:
     #!/usr/bin/env bash
     set -euo pipefail
     cp "{{data_gen_root_dpath}}/Rules/Draw Steel Rules.md" "{{staging_dpath}}/Draw Steel Rules.md"
-    just -f preformat/justfile run "{{staging_dpath}}/Draw Steel Rules.md"
     just -f rules.justfile gen_rules
 
 # TODO - support bestiary
