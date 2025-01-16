@@ -18749,7 +18749,7 @@ When you force move a target, you can always move that target fewer squares than
 
 Forced movement ignores difficult terrain and never provokes opportunity attacks. When you force move a target into damaging terrain or into terrain that produces an effect, they are affected as if they had moved into it willingly.
 
-### VERTICAL
+#### VERTICAL
 
 If a forced movement effect has the word "vertical" in front of it, then the forced movement can move a target up or down in addition to horizontally. For example, if a forced movement effect says "vertical push 5," then the creature targeted by the effect can be pushed up to 5 squares in any direction, as long as the forced movement is a straight line.
 
@@ -18812,7 +18812,7 @@ Each creature has a stability that allows them to resist forced movement. When a
 
 A move action allows you to move around the battlefield. Sometimes you'll already be exactly where you want to be and not need to use a move action on your turn. That's okay! The decision to not move is just as tactical as the decision to move.
 
-### ADVANCE
+### ADVANCEFor the Director
 
 When you take the Advance move action, you can move a number of squares up to your speed. You can break up this movement granted with your maneuver and action however you wish.
 
