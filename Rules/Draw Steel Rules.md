@@ -18065,7 +18065,7 @@ Skills are broken down into five groups: crafting, exploration, interpersonal, i
 
 Directors should feel free to make their own skills that they feel are relevant and useful to their campaigns and adventures. For instance, the game doesn't have a Brewing skill for brewing ale or a Painting skill for making art because those aren't tasks that typically come up or require a test in a game about fighting monsters and saving the world. However, a Director could decide that their campaign involves poisoned barrels of ale and large amounts of counterfeit art, and that adding these two new skills to the game would make it more fun for the players. The Director simply needs to pick a group for these new skills—in this case, crafting makes sense. They then let the players know that they can swap out any crafting skill they have for these new skills.
 
-### CRAFTING SKILLS
+#### CRAFTING SKILLS
 
 Skills from the crafting skill group are used in the creation and appraisal of goods and for jury-rigging contraptions. They are especially useful during rests and downtime.
 
@@ -18073,7 +18073,7 @@ Rewards for tests made with crafting skills typically include having leftover ra
 
 Failure consequences for tests made with crafting skills typically include wasting rare materials used in the creation process, greatly overestimating or underestimating an item's value, and poorly jury-rigging a contraption so that it harms people (or at least the wrong people).
 
-#### **CRAFTING SKILLS**
+##### **CRAFTING SKILLS**
 
 | Skill | Use |
 | --- | --- |
@@ -18096,7 +18096,7 @@ Rewards for tests made with exploration skills typically include helping another
 
 Failure consequences for tests made with exploration skills include harming yourself, your gear, or your allies, becoming lost, or stumbling headlong into a hazard or a place you were trying to avoid.
 
-#### **EXPLORATION SKILLS**
+##### **EXPLORATION SKILLS**
 
 | Skill | Use |
 | --- | --- |
@@ -18124,7 +18124,7 @@ Rewards for tests made with interpersonal skills typically include gaining an ex
 
 Failure consequences for tests made with interpersonal skills include making the person you're interacting with angry, sad, embarrassed, offended, or otherwise upset or uncomfortable, which might cause them to ignore you, storm off, spread rumors about you, attack you, betray you, blackmail you, or otherwise attempt to harm you.
 
-#### **INTERPERSONAL SKILLS**
+##### **INTERPERSONAL SKILLS**
 
 | Skill | Use |
 | --- | --- |
@@ -18155,7 +18155,7 @@ Rewards for tests made with skills from this group typically include helping ano
 
 Failure consequences for tests made with intrigue skills include getting caught in the act or failing to notice a detail that places you in danger, such as triggering a trap or walking into an ambush.
 
-#### **INTRIGUE SKILLS**
+##### **INTRIGUE SKILLS**
 
 |  | Uses |
 | --- | --- |
@@ -18189,7 +18189,7 @@ Rewards for tests made with lore skills typically include learning an extra piec
 
 Failure consequences for tests made with lore skills typically include learning an incorrect piece of information that seems useful, but which actually makes things worse or wastes time. (It's fun to roleplay these sorts of moments, so lean in!) Alternatively, the Director can make medium and hard lore tests for each hero in secret and let the players know the narrative outcome without revealing the result of the dice.
 
-#### **LORE SKILLS**
+##### **LORE SKILLS**
 
 | Skill | Use |
 | --- | --- |
