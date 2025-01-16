@@ -9,5 +9,16 @@ run md_src_dpath md_dest_dpath:
     echo >&2 "{{log_prefix}} MD linked dest: {{md_dest_dpath}}"
 
     mkdir -p "{{md_dest_dpath}}"
+
+    # Move everything to destination which will get updated in-place
     cp -R "{{md_src_dpath}}"/* "{{md_dest_dpath}}"
+
+    # convert everything to UTF-8
+    find {{md_dest_dpath}} -type f -name '*.md' -exec sh -c '
+      for file do
+        # Convert "file" in place, making a backup with a .bak extension
+        iconv -f WINDOWS-1252 -t UTF-8 "$file" -o "$file".temp && mv "$file".temp "$file"
+      done
+    ' sh {} +
+
     python3 obs-auto-linker.py {{md_dest_dpath}}
