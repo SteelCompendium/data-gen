@@ -13,3 +13,7 @@ run md_src_fpath:
 
     # convert everything to UTF-8
     iconv -f UTF-8 -t US-ASCII//TRANSLIT "{{md_src_fpath}}" -o "iconv.temp" && mv "iconv.temp" "{{md_src_fpath}}"
+
+    # Remove any bold formatting from headers
+    sed -i -E 's/^(#+)( +)\*\*(.*)\*\*/\1\2\3/' "{{md_src_fpath}}"
+
