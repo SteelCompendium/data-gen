@@ -3,7 +3,8 @@ data_gen_root_dpath := justfile_directory() / ".."
 data_root_dpath := data_gen_root_dpath / ".."
 
 # Input/source files
-bestiary_markdown_source_path := data_gen_root_dpath / "Rules" / "Draw Steel Bestiary.md"
+bestiary_pdf_source_fpath := data_gen_root_dpath / "Rules" / "MCDM RPG Monsters Manuscript Pactreon Packet 4.pdf"
+bestiary_markdown_source_path := staging_dpath / "Draw Steel Bestiary.md"
 
 # Staging dirs
 staging_dpath := data_root_dpath / "staging"
@@ -28,28 +29,33 @@ gen_bestiary_md:
     #!/usr/bin/env bash
     set -euo pipefail
 
+    # Fix the headers
+    corrected_headers_fpath="$(mktemp)"
+    just -f fix_md_headers/justfile run "{{bestiary_pdf_source_fpath}}" "{{bestiary_markdown_source_path}}" "$corrected_headers_fpath"
+    mv "$corrected_headers_fpath" "{{bestiary_markdown_source_path}}"
+
     # Convert OG markdown to html
     html_fpath="{{staging_bestiary_dpath}}/html/Draw Steel Bestiary.html"
     just -f md_to_html/justfile run "{{bestiary_markdown_source_path}}" "$html_fpath"
 
-    # extract out sections using html xpath
-    html_sections_dpath="{{staging_bestiary_dpath}}/html_sections"
-    just -f extract_html_sections/bestiary/justfile run "$html_fpath" "$html_sections_dpath"
-
-    # Convert html sections to md sections
-    md_sections_dpath="{{staging_bestiary_dpath}}/md_sections"
-    just -f html_sections_to_md/justfile run "$html_sections_dpath" "$md_sections_dpath"
-
-    # Transform the MD section files to make them usable
-    md_sections_formatted_dpath="{{staging_bestiary_dpath}}/md_sections_formatted"
-    mkdir -p "$md_sections_formatted_dpath"
-    cp -R "$md_sections_dpath"/* "$md_sections_formatted_dpath"
-
-    # Transform the markdown files in-place
-    just -f convert_md_headers_title_case/justfile run "$md_sections_formatted_dpath"
-    just -f reduce_header_levels/justfile run "$md_sections_formatted_dpath"
-    #just -f frontmatter/justfile run "$md_sections_formatted_dpath"
-    just -f convert_ktdt_tables/justfile run "$md_sections_formatted_dpath"
+    #    # extract out sections using html xpath
+    #    html_sections_dpath="{{staging_bestiary_dpath}}/html_sections"
+    #    just -f extract_html_sections/bestiary/justfile run "$html_fpath" "$html_sections_dpath"
+    #
+    #    # Convert html sections to md sections
+    #    md_sections_dpath="{{staging_bestiary_dpath}}/md_sections"
+    #    just -f html_sections_to_md/justfile run "$html_sections_dpath" "$md_sections_dpath"
+    #
+    #    # Transform the MD section files to make them usable
+    #    md_sections_formatted_dpath="{{staging_bestiary_dpath}}/md_sections_formatted"
+    #    mkdir -p "$md_sections_formatted_dpath"
+    #    cp -R "$md_sections_dpath"/* "$md_sections_formatted_dpath"
+    #
+    #    # Transform the markdown files in-place
+    #    just -f convert_md_headers_title_case/justfile run "$md_sections_formatted_dpath"
+    #    just -f reduce_header_levels/justfile run "$md_sections_formatted_dpath"
+    #    #just -f frontmatter/justfile run "$md_sections_formatted_dpath"
+    #    just -f convert_ktdt_tables/justfile run "$md_sections_formatted_dpath"
 
     # Extract statblocks
     # TODO - statblocks dir hierarchy needs overhaul?

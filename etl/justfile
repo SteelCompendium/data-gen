@@ -21,11 +21,10 @@ gen_rules:
     cp "{{data_gen_root_dpath}}/Rules/Draw Steel Rules.md" "{{staging_dpath}}/Draw Steel Rules.md"
     just -f rules.justfile gen_rules
 
-# TODO - support bestiary
 gen_bestiary:
     #!/usr/bin/env bash
     set -euo pipefail
-    exit
+    cp "{{data_gen_root_dpath}}/Rules/Draw Steel Bestiary.md" "{{staging_dpath}}/Draw Steel Bestiary.md"
     just -f bestiary.justfile gen_bestiary
 
 gen_adventures:
