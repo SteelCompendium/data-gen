@@ -1,3 +1,4 @@
+# THIS helper is deprecated - no need since the headers are fixed
 log_prefix := "[JUST][format_md][reduce_header_levels]"
 
 run md_src_dpath:
@@ -7,6 +8,7 @@ run md_src_dpath:
 
     # Walk through all MD files in the source directory
     find "{{md_src_dpath}}" -type f -name "*.md" | while read -r md_file_path; do
+        echo "$md_file_path"
         # Find the first header and count the number of # symbols
         first_header=$(grep --color=never -m 1 "^#" "$md_file_path" | sed -E 's/(#+).*/\1/')
         first_header_length=${#first_header}  # Get the length of the header (i.e., number of # symbols)

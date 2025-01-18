@@ -17,3 +17,75 @@ run md_src_fpath:
     # Remove any bold formatting from headers
     sed -i -E 's/^(#+)( +)\*\*(.*)\*\*/\1\2\3/' "{{md_src_fpath}}"
 
+    just _fix_ktdt "{{md_src_fpath}}"
+
+_fix_ktdt md_src_fpath:
+    #!/usr/bin/env python3
+    import re, sys
+
+    input_file = "{{md_src_fpath}}"
+
+    with open(input_file, "r", encoding="utf-8") as f:
+        text = f.read()
+
+    # In verbose mode, '#' starts a comment, so we must escape literal '#'
+    # Also: use (?x) to allow comments, plus (?i) ignore-case, plus (?s) to let '.' match newlines
+    pattern = re.compile(
+        r'''(?ixs)
+        # Optional heading markup like "##" (must escape the literal # when in verbose mode).
+        (?:\#{1,6}[ \t]+)?
+        # Optional table pipe "| "
+        (?:\|\s*)?
+        # Optional opening bold "**"
+        (?:\*\*)?
+        (Keywords|Type|Distance|Target|Trigger)  # Capture which key
+        (?:\*\*)?                                 # Optional closing bold "**"
+        \s*[:|]+\s*                               # One or more ":" or "|", plus optional spaces
+        (.*?)                                     # Capture everything until next key or EOF
+        (?=                                       # Lookahead for the next key or end-of-file:
+            (?:\#{1,6}[ \t]+)?                    #   optional heading markup
+            (?:\|\s*)?                            #   optional table pipe
+            (?:\*\*)?                             #   optional bold
+            (Keywords|Type|Distance|Target|Trigger)
+            (?:\*\*)?
+            \s*[:|]+
+            | \Z
+        )
+        ''',
+        # Flags are all included inline in (?ixs)
+    )
+
+    def replacer(match):
+        """
+        Called for each matched key-value pair. Ensures there's a newline
+        before **Key:** if not already at start-of-file or preceded by a newline.
+        """
+        key = match.group(1)  # The recognized key (e.g. Keywords, Type, etc., in any case)
+        val = match.group(2)  # The captured value text
+
+        # Normalize the key to Title-case, e.g., "keywords" -> "Keywords"
+        key = key.capitalize()
+
+        # Trim leading/trailing whitespace in the value
+        val = val.strip()
+
+        # Build the replacement text
+        new_text = f"**{key}:** {val}\n"
+
+        # If this match isn't at the start of the file, and the preceding character
+        # isn't already a newline, then prepend a newline so that this key starts
+        # on a new line.
+        start_idx = match.start()
+        if start_idx > 0:
+            # Check the character right before the match
+            if match.string[start_idx - 1] != '\n':
+                new_text = "\n" + new_text
+
+        return new_text
+
+    # Perform the substitution
+    result = pattern.sub(replacer, text)
+
+    # Write updated content back to the same file in-place
+    with open(input_file, "w", encoding="utf-8") as f:
+        f.write(result)

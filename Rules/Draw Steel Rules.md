@@ -21,6 +21,7 @@ Our game is heroic fantasy. That's its genre. Extraordinary people fighting drag
 But "heroic fantasy" is still a little too broad for our purposes, so we added two other keywords to explain how our game might be different from other games in this genre: tactical and cinematic.
 
 These terms are just guidelines. A vibe. But we find them useful when trying to choose between different features. "Both of these ideas are cool, but which is the most cinematic? The most heroic?"
+These terms are just guidelines. A vibe. But we find them useful when trying to choose between different features. "Both of these ideas are cool, but which is the most cinematic? The most heroic?"
 
 So let's talk about what we mean when we use these terms.
 
@@ -13413,11 +13414,10 @@ HOARFROST
 
 **Keywords:** Melee, Psionic, Telekinesis **Type:** Action **Distance:** Melee 3 **Target:** One size 1 creature or object
 
-- **Power Roll + Reason:**
+**Power Roll + Reason:**
 - *11 or lower:* **Push 3**
 - *12–16:* **Push 5**
-
-#### • *17+:* **Push 7; prone**
+- *17+:* **Push 7; prone**
 
 **Effect:** You can slide the target up to 2 squares before making the power roll.
 
@@ -13487,7 +13487,7 @@ KINETIC PULSE
 - *12–16:* 6 + P **damage**
 - *17+:* 9 + P **damage**
 
-#### **Effect:** You gain a surge.
+**Effect:** You gain a surge.
 
 **Strained:** The attack deals an extra 3 damage to the target and to you. The damage you take can't be reduced in any way.
 

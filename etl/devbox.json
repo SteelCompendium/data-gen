@@ -10,7 +10,8 @@
     "rsync@latest",
     "yq-go@latest",
     "iconv@latest",
-    "go@latest"
+    "go@latest",
+    "perl"
   ],
   "env": {
     "DEVBOX_COREPACK_ENABLED": "true"
