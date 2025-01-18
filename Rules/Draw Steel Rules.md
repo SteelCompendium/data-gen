@@ -12730,16 +12730,15 @@ Your specialization grants your choice of one of two abilities.
 
 Choose one of the following abilities.
 
-COORDINATED EXECUTION (9 FOCUS)
+###### COORDINATED EXECUTION (9 FOCUS)
 
 *You direct your ally to make a killing blow.*
 
-| Keywords: Ranged Type: Free Triggered Action |
-| --- |
-| Distance: Ranged 10 Target: 1 ally |
-| Trigger: An ally deals damage to a creature with an ability |
-
-while hidden.
+**Keywords:** Ranged 
+**Type:** Free Triggered Action
+**Distance:** Ranged 10 
+**Target:** 1 ally
+**Trigger:** An ally deals damage to a creature with an ability while hidden.
 
 **Effect**: If the target of the ally's ability is a non-leader or non-solo creature, they are reduced to 0 Stamina. If the target of the ally's ability is a minion, the entire squad is killed. If the target is a leader or a solo creature, the ally's ability power roll automatically achieves tier 3.
 
@@ -13709,8 +13708,7 @@ Choose one of the following abilities.
 
 **Power Roll + Reason:**
 
-#### • *11 or lower:* **6 + R damage; M** < weak**, prone**
-
+- *11 or lower:* **6 + R damage; M** < weak**, prone**
 - *12–16:* **10 + R damage; M** < average**, prone**
 - *17+:* **14 + R damage; M < strong, prone and can't stand (save ends)**
 
