@@ -28,62 +28,68 @@ _fix_ktdt md_src_fpath:
     with open(input_file, "r", encoding="utf-8") as f:
         text = f.read()
 
-    # In verbose mode, '#' starts a comment, so we must escape literal '#'
-    # Also: use (?x) to allow comments, plus (?i) ignore-case, plus (?s) to let '.' match newlines
+    # Regex with verbose mode:
+    #  - Must escape '#' as '\#' in verbose mode
+    #  - We gather up to the next key or end-of-file.
     pattern = re.compile(
         r'''(?ixs)
-        # Optional heading markup like "##" (must escape the literal # when in verbose mode).
-        (?:\#{1,6}[ \t]+)?
-        # Optional table pipe "| "
-        (?:\|\s*)?
-        # Optional opening bold "**"
-        (?:\*\*)?
-        (Keywords|Type|Distance|Target|Trigger)  # Capture which key
-        (?:\*\*)?                                 # Optional closing bold "**"
-        \s*[:|]+\s*                               # One or more ":" or "|", plus optional spaces
-        (.*?)                                     # Capture everything until next key or EOF
-        (?=                                       # Lookahead for the next key or end-of-file:
-            (?:\#{1,6}[ \t]+)?                    #   optional heading markup
-            (?:\|\s*)?                            #   optional table pipe
-            (?:\*\*)?                             #   optional bold
+        (?:\#{1,6}[ \t]+)?    # optional heading markdown (like "#### ")
+        (?:\|\s*)?            # optional pipe syntax "| "
+        (?:\*\*)?             # optional leading bold "**"
+        (Keywords|Type|Distance|Target|Trigger)
+        (?:\*\*)?             # optional closing bold
+        \s*[:|]+\s*           # delimiter: ":" or "|" (one or more), optional spaces
+        (.*?)                 # capture everything until next key/EOF
+        (?=
+            (?:\#{1,6}[ \t]+)?   # optional heading
+            (?:\|\s*)?           # optional pipe
+            (?:\*\*)?            # optional bold
             (Keywords|Type|Distance|Target|Trigger)
             (?:\*\*)?
             \s*[:|]+
-            | \Z
+            | \Z                 # or end of file
         )
         ''',
-        # Flags are all included inline in (?ixs)
+        # inline flags: i (ignore case), x (verbose), s (dot matches newlines)
     )
 
     def replacer(match):
         """
-        Called for each matched key-value pair. Ensures there's a newline
-        before **Key:** if not already at start-of-file or preceded by a newline.
+        For each matched key-value pair, do the following:
+          - Normalize the key to "Keywords", "Type", etc.
+          - Strip leading/trailing whitespace from the value.
+          - Remove any leading or trailing '**' from the value
+            (in case the user typed something like "**Keywords:** ** Melee...").
+          - Ensure there's a newline if needed before the replaced text.
         """
-        key = match.group(1)  # The recognized key (e.g. Keywords, Type, etc., in any case)
-        val = match.group(2)  # The captured value text
+        key = match.group(1)     # e.g. "Keywords", "type", "DISTANCE", etc.
+        val = match.group(2)     # everything up to the next key or EOF
 
-        # Normalize the key to Title-case, e.g., "keywords" -> "Keywords"
+        # Normalize key: e.g. "keywords" -> "Keywords"
         key = key.capitalize()
 
-        # Trim leading/trailing whitespace in the value
+        # Strip leading/trailing whitespace
         val = val.strip()
 
-        # Build the replacement text
+        # If there's a leading "**" in the captured value, remove it:
+        # e.g. "** Melee, Strike" -> "Melee, Strike"
+        val = re.sub(r'^\*\*\s*', '', val)
+        # If there's a trailing "**" in the captured value, remove it too
+        val = re.sub(r'\s*\*\*$', '', val)
+
+        # Build the new line: "**Key:** Value\n"
         new_text = f"**{key}:** {val}\n"
 
-        # If this match isn't at the start of the file, and the preceding character
-        # isn't already a newline, then prepend a newline so that this key starts
-        # on a new line.
+        # If the match isn't at the start of the file and the preceding
+        # character isn't a newline, add one so it starts on its own line
         start_idx = match.start()
         if start_idx > 0:
-            # Check the character right before the match
             if match.string[start_idx - 1] != '\n':
                 new_text = "\n" + new_text
 
         return new_text
 
-    # Perform the substitution
+    # Substitute in the entire file
     result = pattern.sub(replacer, text)
 
     # Write updated content back to the same file in-place
