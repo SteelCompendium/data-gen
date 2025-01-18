@@ -641,7 +641,7 @@ The simplest and most basic attack you can make, typically worse than every othe
 
 Free strikes also let you make strikes on your turn even if your hero isn't otherwise themed to do so. A bow-using wode elf can still stab an enemy with a dagger as a free strike, and a greataxe wielding orc fury can still pull out a hand axe and hurl it at a flying enemy staying annoyingly out of melee range as a free strike.
 
-MELEE WEAPON FREE STRIKE
+#### MELEE WEAPON FREE STRIKE
 
 **Keywords:** Charge, Melee, Strike, Weapon **Type:** Action **Distance:** Melee 1 **Target:** 1 creature or object
 
@@ -651,7 +651,7 @@ MELEE WEAPON FREE STRIKE
 - *12–16:* 5 **+ M or A damage**
 - *17+:* 7 **+ M or A damage**
 
-RANGED WEAPON FREE STRIKE
+#### RANGED WEAPON FREE STRIKE
 
 **Keywords:** Ranged, Strike, Weapon **Type:** Action **Distance:** Ranged 5 **Target:** 1 creature or object
 
