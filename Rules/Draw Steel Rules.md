@@ -6000,7 +6000,9 @@ Choose one heroic ability from the following options, each of which costs 3 piet
 - *12–16:* **6 + I holy damage;** A < average**, prone**
 - *17+:* **9 + I holy damage;** A < strong**, prone and can't stand (save ends)**
 
-VIOLENCE WILL NOT AID THEE (3 PIETY) *After some holy lightning, your enemy will think twice about their next attack.*
+VIOLENCE WILL NOT AID THEE (3 PIETY)
+
+*After some holy lightning, your enemy will think twice about their next attack.*
 
 **Keywords:** Magic, Ranged, Strike **Type:** Action **Distance:** Ranged 10 **Target:** One creature
 
@@ -6169,7 +6171,9 @@ NATURE JUDGES THEE (5 PIETY)
 - *12–16:* **3 damage;** A < average**, restrained (save ends)**
 - *17+:* **7 damage;** A < strong**, restrained (save ends)**
 
-OUR HEARTS, YOUR STRENGTH (5 PIETY) *An ally gains strength from their friends.*
+OUR HEARTS, YOUR STRENGTH (5 PIETY)
+
+*An ally gains strength from their friends.*
 
 **Keywords:** Magic, Ranged **Type:** Maneuver **Distance:** Ranged 10 **Target:** Self and one ally
 
@@ -7736,7 +7740,9 @@ Choose a new heroic ability from one of the following options, each of which cos
 
 **Persistent 1:** The area remains until the start of your next turn. You can move the area up to 5 squares as a maneuver. This ability ends if you lose line of effect to its area.
 
-SUBVERT THE GREEN WITHIN (5 ESSENCE) *Burrow into their brains and take control!*
+SUBVERT THE GREEN WITHIN (5 ESSENCE)
+
+*Burrow into their brains and take control!*
 
 **Keywords:** Green, Magic, Ranged, Strike, Void
 
@@ -8113,7 +8119,9 @@ Additionally, the target receives 1 additional Heroic Resource whenever they gai
 
 **Effect:** If the target falls and takes damage as if their Agility score were 0 immediately after being teleported, the damage they take from falling is fire damage, and each enemy within 3 of where the target lands takes the same damage. The ground within 3 of where the target lands becomes difficult terrain.
 
-THE WODE REMEMBERS AND RETURNS (9 ESSENCE) *You create a terrarium, from canopy above to underbrush below.*
+THE WODE REMEMBERS AND RETURNS (9 ESSENCE)
+
+*You create a terrarium, from canopy above to underbrush below.*
 
 **Keywords:** Area, Earth, Green, Magic, Void **Type:** Action **Distance:** 4 Burst **Target:** Special
 
@@ -8312,7 +8320,9 @@ Choose one heroic ability from the following options. Alternatively, you can cho
 
 **Persistent 2:** At the start of your turn, you can use this ability again as a maneuver without spending essence.
 
-THE GREEN DEFENDS ITS SERVANTS (11 ESSENCE) *A luminous green shield that shows its true beauty the more it cracks.*
+THE GREEN DEFENDS ITS SERVANTS (11 ESSENCE)
+
+*A luminous green shield that shows its true beauty the more it cracks.*
 
 **Keywords:** Green, Magic, Ranged **Type:** Maneuver **Distance:** Self or Ranged 10 **Target:** Self or 1 ally
 
@@ -8866,7 +8876,9 @@ Your primordial aspect grants your choice of one of two abilities.
 
 Choose one of the following abilities.
 
-SPECIAL DELIVERY (5 RAGE) *You ready?*
+SPECIAL DELIVERY (5 RAGE) 
+
+*You ready?*
 
 **Keywords:** Melee, Strike, Weapon **Type:** Maneuver **Distance:** Melee 1 **Target:** One willing ally
 
@@ -8992,13 +9004,17 @@ A DEMON UNLEASHED (7 RAGE)
 
 **Effect:** Until the end of the encounter or until you are dying, each enemy who starts their turn adjacent to you and has P **<** strong is frightened until the end of their turn.
 
-FACE THE STORM!(7 RAGE) *Fight or flight? FIGHT!!*
+FACE THE STORM!(7 RAGE)
+
+*Fight or flight? FIGHT!!*
 
 **Keywords:** Magic **Type:** Maneuver **Distance:** Self **Target:** Self
 
 **Effect:** Until the end of the encounter or until you are dying, each creature you make a melee strike against who has P **<** average is taunted until the end of their next turn. Additionally, against any enemy taunted by you, your abilities deal additional damage equal to twice your Might score and gain a +1 bonus to potency.
 
-STEELBREAKER (7 RAGE) *See how useless their weapons are*!
+STEELBREAKER (7 RAGE)
+
+*See how useless their weapons are*!
 
 **Keywords:** Magic **Type:** Maneuver
 
@@ -9162,7 +9178,9 @@ Your specialization grants your choice of one of two abilities.
 
 Choose one of the following abilities.
 
-AVALANCHE IMPACT (9 RAGE) *You leap, causing a shockwave that devastates foes.* **Keywords:** Area, Magic **Type:** Move **Distance:** Self **Target:** Self
+AVALANCHE IMPACT (9 RAGE)
+
+*You leap, causing a shockwave that devastates foes.* **Keywords:** Area, Magic **Type:** Move **Distance:** Self **Target:** Self
 
 **Effect:** You jump up to your maximum jump distance then roll power once against each creature adjacent to the space where you land.
 
@@ -9172,7 +9190,9 @@ AVALANCHE IMPACT (9 RAGE) *You leap, causing a shockwave that devastates foes.* 
 - *12-16:* **7 damage; push 2**
 - *17+:* **11 damage; push 3**
 
-FORCE OF STORMS (9 RAGE) *You strike an enemy hard enough to be a projectile that knocks a crowd of creatures around.*
+FORCE OF STORMS (9 RAGE)
+
+*You strike an enemy hard enough to be a projectile that knocks a crowd of creatures around.*
 
 **Keywords:** Melee, Strike, Weapon **Type:** Action **Distance:** Melee 1 **Target:** 1 creature
 
@@ -10390,7 +10410,9 @@ ENTROPIC FIELD (5 DISCIPLINE)
 
 Choose one of the following abilities.
 
-GRAVITIC STRIKE (5 DISCIPLINE) *Your fist projects gravitic force that pulls a distant enemy closer.*
+GRAVITIC STRIKE (5 DISCIPLINE)
+
+*Your fist projects gravitic force that pulls a distant enemy closer.*
 
 **Keywords:** Melee, Psionic, Strike, Weapon **Type:** Action **Distance:** Melee 3 **Target:** One creature
 
@@ -10430,7 +10452,9 @@ Each time you start your turn, you can use a free triggered action to end one ef
 
 Choose one heroic ability from the following options, each of which costs 7 discipline to use.
 
-ABSORPTION FIELD (7 DISCIPLINE) *Your null field absorbs kinetic energy.*
+ABSORPTION FIELD (7 DISCIPLINE)
+
+*Your null field absorbs kinetic energy.*
 
 **Keywords:** Psionic **Type:** Maneuver **Distance:** Self **Target:** Self
 
@@ -10893,7 +10917,9 @@ INERTIAL ABSORPTION (11 DISCIPLINE)
 
 **Effect:** You halve the damage, negate any effects on your associated with it, and gain three surges.
 
-REALITAS (11 DISCIPLINE) *Your essential hyperreality disrupts your enemy's connection to existence.*
+REALITAS (11 DISCIPLINE)
+
+*Your essential hyperreality disrupts your enemy's connection to existence.*
 
 **Keywords:** Melee, Psionic, Strike, Weapon **Type:** Action **Distance:** Melee 1 **Target:** 1 creature
 
@@ -11751,7 +11777,9 @@ Choose one of the following abilities.
 
 A creature that drinks a balanced concoction can spend up to 2 Recoveries and gains acid immunity, fire immunity, or poison immunity equal to your level until the end of the encounter.
 
-#### ONE VIAL MAKES YOU FASTER (9 INSIGHT) *The liquid is still and pale. It might have been meant for an*
+#### ONE VIAL MAKES YOU FASTER (9 INSIGHT)
+
+*The liquid is still and pale. It might have been meant for an*
 
 *explosive.*
 
@@ -12668,7 +12696,9 @@ You, or any allies adjacent to you, can spend 1d6 stamina during their turn to e
 
 Choose one heroic ability from the following options.
 
-SQUAD! GEAR CHECK!(9 FOCUS) *You distract a foe while your allies secure their defensive gear.*
+SQUAD! GEAR CHECK!(9 FOCUS)
+
+*You distract a foe while your allies secure their defensive gear.*
 
 **Keywords:** Melee, Strike, Weapon **Type:** Action **Distance:** Melee 1 **Target:** 1 creature
 
@@ -12898,11 +12928,15 @@ You gain any one perk of your choice. See Perks for more information.
 
 Choose one heroic ability from the following options.
 
-GO NOW AND SPEED WELL (11 FOCUS) *You direct an attack to strike true.* **Keywords:** Ranged **Type:** Action **Distance:** Ranged 10 **Target:** Self or 1 ally
+GO NOW AND SPEED WELL (11 FOCUS)
+
+*You direct an attack to strike true.* **Keywords:** Ranged **Type:** Action **Distance:** Ranged 10 **Target:** Self or 1 ally
 
 **Effect:** The target gains two surges and can use a signature or heroic ability as a free triggered action. They have a double edge on the power roll, ignore damage immunity, and increase the potency of effects by 1.
 
-FINISH THEM!(11 FOCUS) *You direct your ally to turn a devastating blow into a killing blow.*
+FINISH THEM!(11 FOCUS)
+
+*You direct your ally to turn a devastating blow into a killing blow.*
 
 **Keywords:** Ranged **Type:** Free Triggered Action **Distance:** Ranged 10 **Target:** 1 creature **Trigger**: A non-leader or non-solo target creature becomes winded.
 
@@ -12956,7 +12990,9 @@ Choose one of the following abilities.
 
 **Effect:** Each target gains two surges and uses a signature ability with an edge as a free triggered action. After resolving their ability power rolls, each target can shift 2 and become hidden, even without cover or concealment, and even if observed.
 
-THEIR LACK OF FOCUS IS THEIR UNDOING (11 FOCUS) *You trick your enemies into attacking each other and confused by the aftermath*
+THEIR LACK OF FOCUS IS THEIR UNDOING (11 FOCUS)
+
+*You trick your enemies into attacking each other and confused by the aftermath*
 
 **Keywords:** Area, Magic, Weapon **Type:** Action **Distance:** Ranged 10 **Target:** 3 enemy creatures
 
@@ -12972,7 +13008,9 @@ THEIR LACK OF FOCUS IS THEIR UNDOING (11 FOCUS) *You trick your enemies into att
 
 Choose one of the following abilities.
 
-BLOT OUT THE SUN!(11 FOCUS) *What makes a good soldier? The ability to fire four shots a* 
+BLOT OUT THE SUN!(11 FOCUS)
+
+*What makes a good soldier? The ability to fire four shots a* 
 
 *minute in any weather.* **Keywords:** Ranged, Strike, Weapon **Type:** Action **Distance:** 3 burst **Target:** Self and all allies
 
@@ -13516,7 +13554,9 @@ Choose one heroic ability from the following options, each of which costs 3 clar
 - *12–16***: 6 + P psychic damage; I** < average**, frightened (save ends)**
 - *17+:* **9 + P psychic damage; I** < strong**, frightened (save ends)**
 
-NOTHING EXCEEDS MY GRASP (3 CLARITY) *Be careful not to choke on your aspirations.* **Keywords:** Psionic, Ranged, Strike, Telekinesis
+NOTHING EXCEEDS MY GRASP (3 CLARITY)
+
+*Be careful not to choke on your aspirations.* **Keywords:** Psionic, Ranged, Strike, Telekinesis
 
 #### **Type:** Action **Distance:** Ranged 10 **Target:** One creature
 
@@ -14089,7 +14129,9 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-SYNAPTIC CONDITIONING (9 CLARITY) *It's a subtle mindset shift. It's not that they're your enemy you just don't like them!* **Keywords:** Psionic, Melee, Telepathy **Type:** Action **Distance:** Melee 2 **Target:** 1 creature
+SYNAPTIC CONDITIONING (9 CLARITY)
+
+*It's a subtle mindset shift. It's not that they're your enemy you just don't like them!* **Keywords:** Psionic, Melee, Telepathy **Type:** Action **Distance:** Melee 2 **Target:** 1 creature
 
 **Power Roll + Reason:**
 
@@ -14187,7 +14229,9 @@ one or more Recoveries, all linked creatures can spend a Recovery.
 
 You have the following triggered action.
 
-#### STASIS SHIELD (3 CLARITY) *You freeze time just long enough to bring the victim to safety!*
+#### STASIS SHIELD (3 CLARITY)
+
+*You freeze time just long enough to bring the victim to safety!*
 
 **Keywords:** Psionics, Ranged **Type:** Triggered **Distance:** Self or Ranged 10 **Target:** Self or 1 creature or object
 
@@ -14851,7 +14895,9 @@ Choose one heroic ability from the following options, each of which costs 5 dram
 - *12–16:* **The target can shift up to 2 squares and make a free strike with an edge.**
 - *17+:* **The target can shift up to 3 squares and make a free strike with and edge, then can spend a Recovery.**
 
-#### FAKE YOUR DEATH (5 DRAMA) *O happy dagger, this is thy sheath!*
+#### FAKE YOUR DEATH (5 DRAMA)
+
+*O happy dagger, this is thy sheath!*
 
 **Keywords:** Magic **Type:** Maneuver **Distance:** Self **Target:** Self
 
@@ -14925,7 +14971,9 @@ Your troubadour class act grants your choice of one of two abilities.
 
 Choose one of the following abilities.
 
-#### CLASSIC CHANDELIER STUNT (5 DRAMA) *Audiences love this bit.*
+#### CLASSIC CHANDELIER STUNT (5 DRAMA)
+
+*Audiences love this bit.*
 
 **Keywords:** Melee, Strike, Weapon **Type:** Action **Distance:** Melee 1 **Target:** Self and 1 willing ally
 
@@ -14971,7 +15019,9 @@ TWIST AT THE END (5 DRAMA)
 
 Choose one of the following abilities.
 
-ENCORE (5 DRAMA) *Again! Again!*
+ENCORE (5 DRAMA)
+
+*Again! Again!*
 
 **Keywords:** Magic, Strike **Type:** Action **Distance:** Special **Target:** Special
 
@@ -15468,7 +15518,9 @@ SAVED IN THE EDIT (11 DRAMA)
 - The target's stability increases and speed decreases by a number of squares equal to your Presence score.
 - The target's speed increases and stability decreases by a number of squares equal to your Presence score.
 
-THE SHOW MUST GO ON (11 DRAMA) *You shine a bright light on the players on the stage and compel them to finish the performance* 
+THE SHOW MUST GO ON (11 DRAMA)
+
+*You shine a bright light on the players on the stage and compel them to finish the performance* 
 
 **Keywords:** Area, Magic, Ranged **Type:** Maneuver **Distance:** 5 cube within 10 **Target:** All enemies
 
@@ -17441,7 +17493,9 @@ In times of stress, you get headaches. Psionic energy builds up in your mind unt
 
 **Benefit:** You gain the following heroic ability:
 
-#### PSYCHIC BLAST (COST: ALL YOUR HEROIC RESOURCES) *Psionic energy bursts from your body in an iridescent shimmer.*
+#### PSYCHIC BLAST (COST: ALL YOUR HEROIC RESOURCES)
+
+*Psionic energy bursts from your body in an iridescent shimmer.*
 
 **Keywords:** Area, Psionic **Type:** Action **Distance:** 3 burst **Target:** All creatures
 
@@ -19988,7 +20042,9 @@ You can craft the items found in Treasures. Each item notes its prerequisites, p
 
 ### FIND A CURE
 
-**Item Prerequisite:** Varies (see description) **Project Source:** None
+**Item Prerequisite:** Varies (see description)
+
+**Project Source:** None
 
 **Project Roll Characteristic:** Reason or Intuition **Project Goal:** Varies (see description)
 

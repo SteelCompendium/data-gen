@@ -12,9 +12,14 @@ run pdf_fpath md_src_fpath md_dest_fpath:
     echo >&2 "{{log_prefix}} bookmarks file: $bookmarks_file"
     pdfcpu bookmarks list "{{pdf_fpath}}" > "$bookmarks_file"
 
+    # TODO - fix the bookmarks encoding issues (this didnt work)
+    #iconv -f UTF-8 -t US-ASCII//TRANSLIT "$bookmarks_file" -o "iconv.temp" && mv "iconv.temp" "$bookmarks_file"
+
     # apply the bookmarks to the markdown file
     python3 fix_headers.py "$bookmarks_file" "{{md_src_fpath}}" "{{md_dest_fpath}}"
 
+    #cp "{{md_dest_fpath}}" "rules_before.md"
+    python fix_missing_headers.py "{{md_dest_fpath}}"
+
     # Manual post-fix adjustments
     # - skill group tables need to move from h4 to h5
-

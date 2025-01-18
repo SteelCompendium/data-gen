@@ -37,6 +37,11 @@ gen_rules_md:
     just -f fix_md_headers/justfile run "{{rules_pdf_source_fpath}}" "{{rules_markdown_source_path}}" "$corrected_headers_fpath"
     mv "$corrected_headers_fpath" "{{rules_markdown_source_path}}"
 
+    # Fix formatting before html conversion
+    corrected_formatting_fpath="$(mktemp)"
+    just -f fix_formatting/justfile run "{{rules_markdown_source_path}}" "$corrected_formatting_fpath"
+    mv "$corrected_formatting_fpath" "{{rules_markdown_source_path}}"
+
     # Convert markdown to html
     html_fpath="{{staging_rules_dpath}}/html/Draw Steel Rules.html"
     just -f md_to_html/justfile run "{{rules_markdown_source_path}}" "$html_fpath"
