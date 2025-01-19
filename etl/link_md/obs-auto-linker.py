@@ -6,7 +6,8 @@ import inflect
 # List of notes that should NOT be linked TO in other files
 titles_to_skip = [
     "Ward",  # All the caster kits have "ward" in them, but there is a "ward" complication
-    "index"  # The class ability notes (index.md) should not be linked anywhere
+    "index",  # The class ability notes (index.md) should not be linked anywhere
+    "Searching For A Cure" # this title breaks inflect library
 ]
 
 # These folders will not be linked TO AND FROM
@@ -107,13 +108,19 @@ def update_unlinked_references_in_file(file_path, note_titles):
             forms.add(title)
 
             # Generate singular and plural forms using inflect
-            singular_form = p.singular_noun(title)
-            if singular_form and singular_form.lower() != title.lower():
-                forms.add(singular_form)
+            try:
+                singular_form = p.singular_noun(title)
+                if singular_form and isinstance(singular_form, str) and singular_form.strip().lower() != title.lower():
+                    forms.add(singular_form)
+            except Exception as e:
+                print(f"Error generating singular form for '{title}' in file '{file_path}': {e}")
 
-            plural_form = p.plural(title)
-            if plural_form and plural_form.lower() != title.lower():
-                forms.add(plural_form)
+            try:
+                plural_form = p.plural(title)
+                if plural_form and isinstance(plural_form, str) and plural_form.strip().lower() != title.lower():
+                    forms.add(plural_form)
+            except Exception as e:
+                print(f"Error generating plural form for '{title}' in file '{file_path}': {e}")
 
             # Add the forms to the dict
             for form in forms:

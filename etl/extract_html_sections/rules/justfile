@@ -94,13 +94,13 @@ _extract_cultures rules_html_fpath rules_html_sections_dpath:
     set -euo pipefail
     cultures_path="{{rules_html_sections_dpath}}/Cultures"
 
-    xpath="//section[@id='culture-benefits']//section[@id='environment']//section[@class='level4']"
+    xpath="//section[@id='culture-benefits']//section[@id='environment']//section[@class='level5']"
     just -f "../common/justfile" extract_section "$cultures_path/Environments" "$xpath" "{{rules_html_fpath}}"
 
-    xpath="//section[@id='culture-benefits']//section[@id='organization']//section[@class='level4']"
+    xpath="//section[@id='culture-benefits']//section[@id='organization']//section[@class='level5']"
     just -f "../common/justfile" extract_section "$cultures_path/Organizations" "$xpath" "{{rules_html_fpath}}"
 
-    xpath="//section[@id='culture-benefits']//section[@id='upbringing']//section[@class='level4']"
+    xpath="//section[@id='culture-benefits']//section[@id='upbringing']//section[@class='level5']"
     just -f "../common/justfile" extract_section "$cultures_path/Upbringing" "$xpath" "{{rules_html_fpath}}"
 
 _extract_complications rules_html_fpath rules_html_sections_dpath:
@@ -114,7 +114,7 @@ _extract_conditions rules_html_fpath rules_html_sections_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
     conditions_path="{{rules_html_sections_dpath}}/Conditions"
-    xpath="//section[@id='conditions']//section[@class='level3']"
+    xpath="//section[@id='conditions']//section[@class='level4']"
     just -f "../common/justfile" extract_section "$conditions_path" "$xpath" "{{rules_html_fpath}}"
 
 # Note: the original markdown needed to be adjusted to ensure the callouts arent picked up (which error)
@@ -155,7 +155,13 @@ _extract_titles rules_html_fpath rules_html_sections_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
     titles_path="{{rules_html_sections_dpath}}/Titles"
-    xpath="//section[@id='st-echelon-titles']//section[@class='level3']"
-    just -f "../common/justfile" extract_section "${titles_path}" "$xpath" "{{rules_html_fpath}}"
+    xpath="//section[@id='st-echelon-titles']//section[@class='level4']"
+    just -f "../common/justfile" extract_section "${titles_path}/1st Echelon" "$xpath" "{{rules_html_fpath}}"
+    xpath="//section[@id='nd-echelon-titles']//section[@class='level4']"
+    just -f "../common/justfile" extract_section "${titles_path}/1st Echelon" "$xpath" "{{rules_html_fpath}}"
+    xpath="//section[@id='rd-echelon-titles']//section[@class='level4']"
+    just -f "../common/justfile" extract_section "${titles_path}/1st Echelon" "$xpath" "{{rules_html_fpath}}"
+    xpath="//section[@id='th-echelon-titles']//section[@class='level4']"
+    just -f "../common/justfile" extract_section "${titles_path}/1st Echelon" "$xpath" "{{rules_html_fpath}}"
 
 # TODO - downtime stuff, treasures

@@ -15831,23 +15831,23 @@ A complication is an optional feature you can take to enrich your hero's backsto
 
 While you may get to determine your hero's complication, it's your Director's right to determine how your complication affects the story, and you should be okay with that. Maybe you get a chance to remove your complication's drawback or it plays a big part of the campaign's narrative, or it may be you always have the complication's drawback looming over you, forcing you into hard decisions! Either option leads to great narratives, so embrace the control you give to the Director when you take a complication. The story will be richer for it!
 
-# BENEFIT AND DRAWBACK
+## BENEFIT AND DRAWBACK
 
 Your complication gives your hero both a benefit and a drawback. Some of these benefits and drawbacks are mechanical, while others are narrative. The benefit and drawback of a complication makes your connection to the game deeper and more interesting, and provides hooks to let the Director better draw your hero into the campaign's story.
 
 Not all complication benefits and drawbacks are created equal, but each benefit is balanced by its drawback. If you have a powerful positive side to your complication, be prepared to have an equally influential bit of negative backstory as well.
 
-#### MODIFYING THE STORY
+## MODIFYING THE STORY
 
 You can modify the narrative of a complication to better fit with your vision of your character's backstory —or change it entirely. For instance, if you choose Devil Deal as a complication, you can have your hero instead make that deal with an archfey or an undead general!
 
 Many of the details of each complication are purposefully left vague, so that you can connect it to the rest of your backstory. If your complication took place during "an attack" or "an accident," you decide the specific details of who or what attacked you, or what type of accident befell you. 
 
-DETERMINE COMPLICATION
+## DETERMINE COMPLICATION
 
 You can choose your character's complication, or you can roll on the Complications table.
 
-#### **COMPLICATIONS**
+### COMPLICATIONS
 
 | d100 | Complication |
 | --- | --- |
