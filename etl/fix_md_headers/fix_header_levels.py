@@ -35,26 +35,42 @@ def main():
                 # Clean the heading text to compare with bookmarks
                 heading_clean = clean_text(heading_text).lower().strip()
 
-                # Attempt exact match in bookmarks_map
+                # Attempt exact match in bookmarks_map first
                 if heading_clean in bookmarks_map:
-                    count = usage_count.get(heading_clean, 0)
-                    levels_list = bookmarks_map[heading_clean]
+                    # We found an exact match
+                    best_match_key = heading_clean
+                else:
+                    # Try fuzzy matching
+                    possible_matches = get_close_matches(
+                        heading_clean,
+                        bookmarks_map.keys(),
+                        n=1,         # Just get the single best match
+                        cutoff=0.8   # Adjust threshold as desired
+                    )
+                    if possible_matches:
+                        best_match_key = possible_matches[0]
+                    else:
+                        best_match_key = None
+
+                if best_match_key is not None:
+                    # Use the matched heading key (either exact or fuzzy) to get the heading levels
+                    count = usage_count.get(best_match_key, 0)
+                    levels_list = bookmarks_map[best_match_key]
 
                     if count < len(levels_list):
-                        # We still have an unused level in the list
                         desired_level = levels_list[count]
                     else:
                         # We've used up all known levels for this heading text;
                         # fall back to the *last* known level
                         desired_level = levels_list[-1]
 
-                    usage_count[heading_clean] = count + 1
+                    usage_count[best_match_key] = count + 1
 
                     new_hashes = "#" * desired_level
                     new_line = f"{new_hashes} {heading_text}\n"
                     fout.write(new_line)
                 else:
-                    # No match in bookmarks_map, just write out as-is
+                    # No match or fuzzy match found; just write out as-is
                     fout.write(line)
             else:
                 # Not a heading line
