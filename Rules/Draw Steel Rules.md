@@ -138,7 +138,7 @@ At some point, a player will have their hero attempt a task that has a risk of f
 
 **Director:** *Before anyone else can move, Linn's foot connects with one of the sigils. A burst of red lightning cracks from the place where her foot touched the floor, running to the walls and up to the ceiling.*
 
-#### **Matt:** *Oh, right. Necromancy.*
+**Matt:** *Oh, right. Necromancy.*
 
 **Grace:** *Yeah. Should have warned you.*
 
@@ -146,7 +146,7 @@ At some point, a player will have their hero attempt a task that has a risk of f
 
 **James:** *I think we found the Rotting Lords of Hell.*
 
-#### **Director:** *Draw steel!*
+**Director:** *Draw steel!*
 
 When combat begins, it's time to use a square-gridded map and miniatures to represent the position of the heroes relative to their enemies and the environment. The rules become a little more granular during combat to keep things interesting and fair, but the idea that the game is a conversation between the Director and the other players remains the same.
 

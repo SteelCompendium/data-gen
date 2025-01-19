@@ -55,7 +55,7 @@ _extract_movement rules_html_fpath rules_html_sections_dpath:
     xpath="//section[@id='combat']//section[@id='movement-types']//section[@class='level4']"
     just -f "../common/justfile" extract_section "$movement_path" "$xpath" "{{rules_html_fpath}}" "skip_delete"
 
-    rm "${movement_path}/CanT Exceed Speed.html"
+    #rm "${movement_path}/CanT Exceed Speed.html"
     rm "${movement_path}/Movement Types.html"
 
 _extract_kits rules_html_fpath rules_html_sections_dpath:
