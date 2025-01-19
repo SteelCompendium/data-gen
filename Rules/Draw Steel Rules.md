@@ -3659,7 +3659,7 @@ effect outside of combat again until you gain at least 1 Victory or finish a Res
 
 If you use an ability outside of combat that lets you spend unlimited wrath on its effect, you can use it as if you had spent an amount of wrath on it equal to your Victories. (Such abilities aren't part of the core rules for the censor but might appear in future products.)
 
-## JUDGMENT
+### JUDGMENT
 
 You pick out the enemies most worthy of your wrath and place a divine judgment upon them, censoring them with the power of your god. You have the following ability.
 
@@ -11877,7 +11877,7 @@ Choose one of the following abilities.
 
 **Mark Benefit:** For the rest of the encounter whenever you or an ally attacks a marked target, you can spend 2 focus to make the ability ignore damage immunity and deal additional damage equal to triple your Reason score.
 
-#### HUSTLE, SQUAD! HUSTLE!(9 FOCUS)
+### HUSTLE, SQUAD! HUSTLE!(9 FOCUS)
 
 *You and your allies coordinate to form a new battle line.*
 
