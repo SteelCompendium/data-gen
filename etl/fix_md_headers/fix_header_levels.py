@@ -2,7 +2,8 @@
 import sys
 import re
 import unicodedata
-from difflib import get_close_matches
+from collections import defaultdict
+from rapidfuzz import process, fuzz
 
 def main():
     if len(sys.argv) < 4:
@@ -20,11 +21,14 @@ def main():
     # We'll track how many times we've used each heading text so far
     usage_count = {}
 
+    # Prepare a list of cleaned bookmark keys for RapidFuzz
+    bookmark_keys = list(bookmarks_map.keys())
+
     # 2. Read the Markdown, fix headings
     with open(input_md_file, "r", encoding="utf-8", errors="replace") as fin, \
             open(output_md_file, "w", encoding="utf-8", errors="replace") as fout:
 
-        for line in fin:
+        for line_number, line in enumerate(fin, 1):
             # Check if this line is a heading of the form:
             # ## Some heading text
             match = re.match(r"^(#+)\s+(.*)$", line)
@@ -39,16 +43,16 @@ def main():
                 if heading_clean in bookmarks_map:
                     # We found an exact match
                     best_match_key = heading_clean
+                    match_score = 100  # Perfect match
                 else:
-                    # Try fuzzy matching
-                    possible_matches = get_close_matches(
+                    # Try fuzzy matching using RapidFuzz
+                    best_match, match_score, _ = process.extractOne(
                         heading_clean,
-                        bookmarks_map.keys(),
-                        n=1,         # Just get the single best match
-                        cutoff=0.8   # Adjust threshold as desired
+                        bookmark_keys,
+                        scorer=fuzz.token_sort_ratio
                     )
-                    if possible_matches:
-                        best_match_key = possible_matches[0]
+                    if match_score >= 80:  # Adjust threshold as desired
+                        best_match_key = best_match
                     else:
                         best_match_key = None
 
@@ -78,7 +82,6 @@ def main():
 
     print(f"Done. Wrote corrected headings to {output_md_file}.")
 
-
 def build_bookmarks_map(bookmarks_file):
     """
     Read pdfcpu bookmarks.txt output, detect indentation -> heading level.
@@ -90,8 +93,6 @@ def build_bookmarks_map(bookmarks_file):
          ...
        }
     """
-    from collections import defaultdict
-
     bookmarks_map = defaultdict(list)
 
     with open(bookmarks_file, "r", encoding="utf-8", errors="replace") as f:
@@ -110,7 +111,6 @@ def build_bookmarks_map(bookmarks_file):
             bookmarks_map[cleaned].append(level)
 
     return dict(bookmarks_map)
-
 
 def clean_text(text):
     """
@@ -136,7 +136,6 @@ def clean_text(text):
     # text = text.replace("“", '"').replace("”", '"')
 
     return text
-
 
 if __name__ == "__main__":
     main()

@@ -3403,7 +3403,7 @@ Unlike power rolls made as tests, ability rolls always do something useful when 
 - **Tier 2 (12***–***16):** The ability deals 6 + your Might score damage and pushes the target back 2 squares.
 - **Tier 3 (17 or more):** The ability deals 9 + your might score damage and pushes the target back 4 squares.
 
-# CHARACTERISTICS AND DAMAGE
+#### CHARACTERISTICS AND DAMAGE
 
 Certain abilities that deal damage list their damage as a number followed by a plus sign (+) and the letter M, A, R, I, or P. The indicated letter means you should also add your characteristic score to the damage dealt by the ability.
 
@@ -3423,7 +3423,7 @@ Some abilities, such as your free strikes, allow you to pick which characteristi
 
 The damage for these abilities increases at each echelon of play, since your characteristic scores improve each time you enter a new echelon.
 
-# ABILITIES WITH DAMAGE AND EFFECTS
+#### ABILITIES WITH DAMAGE AND EFFECTS
 
 Both strikes and area abilities deal damage and often have an additional effect on their target. The amount of damage and the strength of the effect are determined by the power roll.
 
@@ -3439,23 +3439,23 @@ Unless otherwise indicated, any effects that are determined by a power roll resu
 
 If an ability has multiple effects, they resolve in the order in which they are presented.
 
-## POTENCY AND ABILITIES
+##### POTENCY AND ABILITIES
 
 If an ability effect has a potency, it is listed in the ability. See The Basics for more information.
 
-## SURGES AND ABILITIES
+##### SURGES AND ABILITIES
 
 Surges can be spent to increase the damage dealt by an ability or increase an ability's potency. See The Basics for more information.
 
-## "DURING THE MOVE"
+##### "DURING THE MOVE"
 
 Certain ability effects allow you to move and affect other creatures or objects during that move, such as the shadow's Blade Dance ability. For such abilities, the move begins in the space you first leave when you begin the move, and ends in the last space you move into.
 
-## "ROLLED DAMAGE"
+##### "ROLLED DAMAGE"
 
 Some treasures and other effects affected **rolled damage**, a term that refers to the variable damage that is determined by making an ability power roll. Some abilities or ability effects deal damage without requiring a power roll—that is not rolled damage.
 
-# CRITICAL HIT
+#### CRITICAL HIT
 
 When you make an ability power roll as part of an strike or action and the total of the roll is 19 or 20 before adding your characteristic (a natural 19 or natural 20), you score a critical hit. This allows you to immediately take an additional action after resolving the power roll, whether or not it's your turn and even if you are dazed (see Conditions).
 
@@ -23088,7 +23088,7 @@ Some of them take it more seriously than others though. People in the most dista
 
 Like all peoples of Orden, the people of Vasloria are well aware there are other gods and they do not particularly think their gods are *better*, just, "These are the local ones who matter to us." A priest of Cavall who journeyed far from Corwell and found themselves in the distant desert land Khemhara could still act as a Conduit of St. Llewellyn the Valiant, but they would look around the Heliopolis and see the animal-headed gods of the Khemharans and the astonishing feats of masonry and astronomy the Khemharans achieved and think "Well. Obviously the gods of Vasloria aren't that big a deal here, but these gods certainly are!" The peoples of each region of Orden tend to prefer their own gods because they understand them best, not because they think they are "more powerful."
 
-# ADÛN
+### ADÛN
 
 **Domains:** Creation, Life, Love, Protection
 
