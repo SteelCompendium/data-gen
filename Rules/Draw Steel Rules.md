@@ -5077,7 +5077,7 @@ Power Roll + Might:
 
 **Effect:** Until the end of the counter or you become dying, the target has damage weakness 10.
 
-### EDICT OF UNYIELDING RESOLVE (11 WRATH)
+###### EDICT OF UNYIELDING RESOLVE (11 WRATH)
 
 *You and your allies are clad in shimmering armor.*
 
@@ -5091,19 +5091,19 @@ Power Roll + Might:
 
 **Effect:** Until the end of the encounter or you become dying, each target in the aura gains 10 Temporary Stamina at the beginning of their turns.
 
-### 10TH-LEVEL FEATURES
+##### 10TH-LEVEL FEATURES
 
 As a 10th-level censor, you gain the following features.
 
-#### CHARACTERISTIC INCREASE
+###### CHARACTERISTIC INCREASE
 
 Your Might and Presence scores increase to 5.
 
-#### PERK
+###### PERK
 
 You gain a crafting, lore, or supernatural perk of your choice. See Perks for more information.
 
-#### TEMPLAR
+###### TEMPLAR
 
 You are now the ultimate representation of your god's justice in the timescape. When you take a respite, you can open a portal to rest in the presence of your deity and bring along any allies. When you do, you can ask your deity 3 questions, which the Director must answer honestly (though they may answer cryptically and not completely) if your deity knows the answer to the questions. Additionally, you can emerge from your respite in any location in the timescape where someone worships your deity.
 
@@ -5111,7 +5111,7 @@ Your god will also give you a priority target to enact justice on. You are your 
 
 Whenever you use the Judgment maneuver you can use a Conduit Domain Effect as a free triggered action, including an effect from a domain you access with Ardor.
 
-#### VIRTUE
+###### VIRTUE
 
 You gain an epic resource called virtue. When you take a Respite, you gain virtue equal to the XP you gain. You can spend Virtue as if it were wrath on abilities you have.
 
@@ -5119,11 +5119,11 @@ You can spend 3 virtue to gain access to a single domain from your deity that yo
 
 Virtue remains until you spend it.
 
-#### WRATH OF THE GODS
+###### WRATH OF THE GODS
 
 When you gain focus at the start of your turn, you gain 4 wrath instead of 3.
 
-#### SKILL INCREASE
+###### SKILL INCREASE
 
 You gain one skill of your choice.
 
