@@ -3735,9 +3735,9 @@ If a judged creature uses an action and you have line of effect to them, you can
 
 When the judged creature is reduced to 0 Stamina, you can use a free triggered action to use this ability against a new target within distance.
 
-In addition, you can spend 1 judgment to take one of the following free triggered actions. You can't use more than one instance of a benefit per
+In addition, you can spend 1 judgment to take one of the following free triggered actions. You can't use more than one instance of a benefit per trigger.
 
-**Trigger:** - When an adjacent judged target shifts, you can make a melee free strike against them. The target doesn't shift and their speed becomes 0 until the end of this turn.
+- When an adjacent judged target shifts, you can make a melee free strike against them. The target doesn't shift and their speed becomes 0 until the end of this turn.
 - When a judged target makes a power roll, you can add a bane to the roll.
 - When a judged target within distance uses an ability with a potency against another creature, you reduce the potency of the ability by 1 for that creature (to a minimum of 0).
 
@@ -4386,7 +4386,6 @@ You gain the following ability.
 **Keywords:** | Magic
 
 **Type:** | Maneuver |
-| --- | --- | --- | --- |
 **Distance:** | Self and 3 aura
 
 **Target:** | Self and all allies |
@@ -4485,7 +4484,6 @@ Choose one heroic ability from the following options.
 **Keywords:** | Ranged
 
 **Type:** | Action |
-| --- | --- | --- | --- |
 **Distance:** | Ranged 10
 
 **Target:** | Self or 1 ally |
@@ -4498,7 +4496,6 @@ Choose one heroic ability from the following options.
 **Keywords:** | Area
 
 **Type:** | Maneuver |
-| --- | --- | --- | --- |
 **Distance:** | 1 burst
 
 **Target:** | Self and all allies |
