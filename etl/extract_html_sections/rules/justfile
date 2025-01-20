@@ -158,10 +158,10 @@ _extract_titles rules_html_fpath rules_html_sections_dpath:
     xpath="//section[@id='st-echelon-titles']//section[@class='level4']"
     just -f "../common/justfile" extract_section "${titles_path}/1st Echelon" "$xpath" "{{rules_html_fpath}}"
     xpath="//section[@id='nd-echelon-titles']//section[@class='level4']"
-    just -f "../common/justfile" extract_section "${titles_path}/1st Echelon" "$xpath" "{{rules_html_fpath}}"
+    just -f "../common/justfile" extract_section "${titles_path}/2nd Echelon" "$xpath" "{{rules_html_fpath}}"
     xpath="//section[@id='rd-echelon-titles']//section[@class='level4']"
-    just -f "../common/justfile" extract_section "${titles_path}/1st Echelon" "$xpath" "{{rules_html_fpath}}"
+    just -f "../common/justfile" extract_section "${titles_path}/3rd Echelon" "$xpath" "{{rules_html_fpath}}"
     xpath="//section[@id='th-echelon-titles']//section[@class='level4']"
-    just -f "../common/justfile" extract_section "${titles_path}/1st Echelon" "$xpath" "{{rules_html_fpath}}"
+    just -f "../common/justfile" extract_section "${titles_path}/4th Echelon" "$xpath" "{{rules_html_fpath}}"
 
 # TODO - downtime stuff, treasures

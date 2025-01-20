@@ -7,7 +7,9 @@ import inflect
 titles_to_skip = [
     "Ward",  # All the caster kits have "ward" in them, but there is a "ward" complication
     "index",  # The class ability notes (index.md) should not be linked anywhere
-    "Searching For A Cure" # this title breaks inflect library
+    # these titles break the inflect library
+    "Searching For A Cure",
+    "Saved For A Worse Fate"
 ]
 
 # These folders will not be linked TO AND FROM
