@@ -48,17 +48,16 @@ _fix_ktdt md_src_fpath md_dest_fpath:
         key = match.group(1)     # e.g. "Keywords", "type", "DISTANCE", etc.
         val = match.group(2)     # everything up to the next key or EOF
 
-        # Normalize key: e.g. "keywords" -> "Keywords"
+        # Cleanup key
+        #key = key.replace('|', '')
         key = key.capitalize()
 
-        # Strip leading/trailing whitespace
+        # Cleanup value
         val = val.strip()
-
-        # If there's a leading "**" in the captured value, remove it:
-        # e.g. "** Melee, Strike" -> "Melee, Strike"
         val = re.sub(r'^\*\*\s*', '', val)
-        # If there's a trailing "**" in the captured value, remove it too
         val = re.sub(r'\s*\*\*$', '', val)
+        val = re.sub(r'^\s*\|\s*', '', val)
+        val = re.sub(r'\s*\|\s*$', '', val)
 
         # Build the new line: "**Key:** Value\n"
         new_text = f"**{key}:** {val}\n\n"
