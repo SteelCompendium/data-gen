@@ -3855,8 +3855,6 @@ You gain the following ability.
 **Keywords:** Magic
 
 **Type:** Maneuver 
-| --- | --- | --- | ---
-
 
 **Distance:** Melee 1
 
@@ -4661,8 +4659,6 @@ Choose one of the following abilities.
 **Keywords:** Aura, Magic
 
 **Type:** Maneuver 
-| --- | --- | --- | ---
-
 
 **Distance:** 3 aura
 
@@ -4677,8 +4673,6 @@ Choose one of the following abilities.
 **Keywords:** Magic, Ranged
 
 **Type:** Maneuver 
-| --- | --- | --- | ---
-
 
 **Distance:** Ranged 10
 
@@ -4896,8 +4890,6 @@ Choose one heroic ability from the following options.
 **Keywords:** Melee, Strike, Weapon
 
 **Type:** Action 
-| --- | --- | --- | ---
-
 
 **Distance:** Melee 1
 
@@ -4917,8 +4909,6 @@ Power Roll + Might:
 **Keywords:** Ranged, Strike, Weapon
 
 **Type:** Action 
-| --- | --- | --- | ---
-
 
 **Distance:** Ranged 10
 
@@ -4997,8 +4987,6 @@ Choose one of the following abilities.
 **Keywords:** Melee, Strike, Weapon
 
 **Type:** Action 
-| --- | --- | --- | ---
-
 
 **Distance:** Melee 1
 
@@ -5351,8 +5339,6 @@ You gain the following ability.
 **Keywords:** Magic
 
 **Type:** Action 
-| --- | --- | --- | ---
-
 
 **Distance:** Self
 
@@ -5391,8 +5377,6 @@ You gain the following ability.
 **Keywords:** Magic
 
 **Type:** Maneuver 
-| --- | --- | --- | ---
-
 
 **Distance:** Self
 
@@ -5592,8 +5576,6 @@ Power Roll + Intuition:
 **Keywords:** Magic, Melee, Strike
 
 **Type:** Action 
-| --- | --- | --- | ---
-
 
 **Distance:** Melee 1
 
@@ -5647,8 +5629,6 @@ Power Roll + Intuition:
 **Keywords:** Magic, Ranged, Strike
 
 **Type:** Action 
-| --- | --- | --- | ---
-
 
 **Distance:** Ranged 10
 
@@ -5957,8 +5937,6 @@ Choose one of your domains. You gain an ability from that domain as shown on the
 **Keywords:** Magic, Ranged, Strike
 
 **Type:** Action 
-| --- | --- | --- | ---
-
 
 **Distance:** Ranged 10
 
@@ -6074,12 +6052,9 @@ Power Roll + Intuition:
 **Keywords:** Magic, Ranged 
 | --- | ---
 
-
 **Distance:** Ranged 10
 
-
 **Type:** Maneuver
-
 
 **Target:** Special 
 
@@ -6416,8 +6391,6 @@ Choose one of your domains. You gain an ability from it as shown on the 6th-Leve
 **Keywords:** Area, Magic
 
 **Type:** Maneuver 
-| --- | --- | --- | ---
-
 
 **Distance:** 4 Aura
 
@@ -6432,8 +6405,6 @@ Choose one of your domains. You gain an ability from it as shown on the 6th-Leve
 **Keywords:** Magic, Ranged, Strike
 
 **Type:** Action 
-| --- | --- | --- | ---
-
 
 **Distance:** Ranged 5
 
@@ -6580,8 +6551,6 @@ Power Roll + Intuition:
 **Keywords:** Magic, Area, Ranged
 
 **Type:** Action 
-| --- | --- | --- | ---
-
 
 **Distance:** 10 x 2 line within 5
 
@@ -6760,7 +6729,6 @@ Choose one heroic ability from the following options.
 **Type:** Action 
 | --- | ---
 
-
 **Distance:** Self or Ranged 10
 
 **Target:** Self or 1 ally 
@@ -6782,7 +6750,6 @@ Choose one heroic ability from the following options.
 
 **Type:** Maneuver 
 | --- | ---
-
 
 **Distance:** Self and 5 aura
 
@@ -7022,13 +6989,10 @@ Power Roll + Intuition:
 **Keywords:** Magic, Ranged
 
 **Type:** Free Triggered Action 
-| --- | --- | --- | ---
-
 
 **Distance:** Ranged 10
 
 **Target:** 1 enemy
-
 
 **Trigger:** The target dies.  
 
@@ -7316,8 +7280,6 @@ You gain the following ability.
 **Keywords:** Fire, Magic, Melee
 
 **Type:** Action 
-| --- | --- | --- | ---
-
 
 **Distance:** Melee 1
 
@@ -7363,13 +7325,10 @@ Your elemental specialization grants you a triggered action as shown on the Spec
 **Keywords:** Fire, Magic, Ranged
 
 **Type:** Triggered 
-| --- | --- | --- | ---
-
 
 **Distance:** Ranged 10
 
 **Target:** Self or one ally
-
 
 **Trigger:** The target force moves a creature or object.
 
@@ -7839,30 +7798,28 @@ At the start of each of your turns while the portals are active, you can open a 
 
 ###### GREEN ANIMAL FORMS
 
-| Animal
-
-**Type:** Level | Temporary Stamina | Speed | Size | Stability Bonus | Melee Damage Bonus | Special |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Canine | 2nd | 5 | 7 | 1M | +0 | +1/+1/+1 | "You gain an edge on tests that involve smell." |
-| Fish | 2nd | 0 | 5 (swim only) | 1T | +0 | +0/+0/+0 | "You can breathe in water but can't breathe outside of it." |
-| Rodent | 2nd | 0 | 5 (climb) | 1T | +0 | +0/+0/+0 | "You gain an edge on tests that involve smell." |
-| Bird | 3rd | 0 | 5 (fly) | 1T | +0 | +0/+0/+0 | "-" |
-| Great cat | 3rd | 5 | 6 (climb) | 2 | +0 | +1/+1/+1 | "As a maneuver, jump up to 3 squares in any direction. If you land on an enemy of your size or smaller, that enemy is knocked prone and you can make a melee free strike against them as part of the maneuver." |
-| Giant frog | 4th | 5 | 5 (swim) | 2 | +0 | +0/+0/+0 | "Your melee free strike has a distance of melee 3. When you take the Advance move action, you can high or long jump up to half your speed in addition to your normal speed." |
-| Horse | 4th | 5 | 8 | 2 | +1 | +0/+0/+0 | "You can use the Charge action as a maneuver. You can't use two Charge actions on the same turn." |
-| Mohler | 4th | 0 | 7 (burrow) | 1S | +1 | +0/+0/+0 | "You gain a melee distance bonus of +1." |
-| Bear | 5th | 10 | 5 (climb) | 2 | +1 | +2/+2/+2 | "You gain a melee distance bonus of +1." |
-| Giant bird | 5th | 0 | 7 (fly) | 2 | +0 | +1/+1/+1 | "After making a melee free strike, you can shift up to 3 squares." |
-| Giant salamander | 6th | 5 | 5 | 1L | +3 | +2/+2/+2 | "Your melee free strike deals fire damage. You have fire immunity 3." |
-| Giant spider | 6th | 0 | 5 (climb) | 2 | +0 | +0/+1/+2 | "You have a double edge on melee free strikes against creatures you are hidden from." |
-| Giant snake | 7th | 5 | 5 | 3 | +0 | +0/+1/+2 | "Whenever you obtain a tier 2 or tier 3 result on a melee free strike, you can automatically grab the target. While grabbed this way, the target takes 2 damage at the start of each of their turns." |
-| Kangaroo | 7th | 0 | 7 | 1L | +1 | +0/+0/+4 | "If you get a critical hit with a melee free strike, the target is dazed (save ends). When you take the Advance move action, you can high or long jump up to half your speed in addition to your normal speed." |
-| Spiny armadillo | 7th | 10 | 5 | 1M | +2 | +0/+0/+0 | "Whenever you take damage from an adjacent creature's melee ability, that creature takes 3 damage." |
-| Ostrich | 8th | 0 | 10 | 2 | +0 | +1/+1/+1 | "Your movement does not provoke opportunity strikes." |
-| Shark | 8th | 0 | 8 (swim only) | 2 | +0 | +2/+2/+2 | "You can breathe in water but can't breathe outside of it. Additionally, you have an edge on strikes against targets who are bleeding or winded." |
-| Giant octopus | 9th | 5 | 5 (swim) | 3 | +2 | +0/+0/+0 | "You can breathe in water. Additionally, you can target two creatures or objects with your melee free strike, and a target of your melee free strike is grabbed by you on a tier 2 or tier 3 result. You can have up to eight creatures grabbed." |
-| Rhinoceros | 9th | 10 | 8 | 2 | +5 | +2/+2/+2 | "Whenever you make a melee free strike as part of the Charge action, it gains an edge." |
-| King terror lizard | 10th | 20 | 5 | 4 | +3 | +2/+2/+2 | "Your melee free strike is a 1 burst with the Area keyword and the Strike keyword." |
+| Animal | Level | Temporary Stamina | Speed | Size | Stability Bonus | Melee Damage Bonus | Special |
+| --- |-------| --- | --- | --- | --- | --- | --- |
+| Canine | 2nd   | 5 | 7 | 1M | +0 | +1/+1/+1 | "You gain an edge on tests that involve smell." |
+| Fish | 2nd   | 0 | 5 (swim only) | 1T | +0 | +0/+0/+0 | "You can breathe in water but can't breathe outside of it." |
+| Rodent | 2nd   | 0 | 5 (climb) | 1T | +0 | +0/+0/+0 | "You gain an edge on tests that involve smell." |
+| Bird | 3rd   | 0 | 5 (fly) | 1T | +0 | +0/+0/+0 | "-" |
+| Great cat | 3rd   | 5 | 6 (climb) | 2 | +0 | +1/+1/+1 | "As a maneuver, jump up to 3 squares in any direction. If you land on an enemy of your size or smaller, that enemy is knocked prone and you can make a melee free strike against them as part of the maneuver." |
+| Giant frog | 4th   | 5 | 5 (swim) | 2 | +0 | +0/+0/+0 | "Your melee free strike has a distance of melee 3. When you take the Advance move action, you can high or long jump up to half your speed in addition to your normal speed." |
+| Horse | 4th   | 5 | 8 | 2 | +1 | +0/+0/+0 | "You can use the Charge action as a maneuver. You can't use two Charge actions on the same turn." |
+| Mohler | 4th   | 0 | 7 (burrow) | 1S | +1 | +0/+0/+0 | "You gain a melee distance bonus of +1." |
+| Bear | 5th   | 10 | 5 (climb) | 2 | +1 | +2/+2/+2 | "You gain a melee distance bonus of +1." |
+| Giant bird | 5th   | 0 | 7 (fly) | 2 | +0 | +1/+1/+1 | "After making a melee free strike, you can shift up to 3 squares." |
+| Giant salamander | 6th   | 5 | 5 | 1L | +3 | +2/+2/+2 | "Your melee free strike deals fire damage. You have fire immunity 3." |
+| Giant spider | 6th   | 0 | 5 (climb) | 2 | +0 | +0/+1/+2 | "You have a double edge on melee free strikes against creatures you are hidden from." |
+| Giant snake | 7th   | 5 | 5 | 3 | +0 | +0/+1/+2 | "Whenever you obtain a tier 2 or tier 3 result on a melee free strike, you can automatically grab the target. While grabbed this way, the target takes 2 damage at the start of each of their turns." |
+| Kangaroo | 7th   | 0 | 7 | 1L | +1 | +0/+0/+4 | "If you get a critical hit with a melee free strike, the target is dazed (save ends). When you take the Advance move action, you can high or long jump up to half your speed in addition to your normal speed." |
+| Spiny armadillo | 7th   | 10 | 5 | 1M | +2 | +0/+0/+0 | "Whenever you take damage from an adjacent creature's melee ability, that creature takes 3 damage." |
+| Ostrich | 8th   | 0 | 10 | 2 | +0 | +1/+1/+1 | "Your movement does not provoke opportunity strikes." |
+| Shark | 8th   | 0 | 8 (swim only) | 2 | +0 | +2/+2/+2 | "You can breathe in water but can't breathe outside of it. Additionally, you have an edge on strikes against targets who are bleeding or winded." |
+| Giant octopus | 9th   | 5 | 5 (swim) | 3 | +2 | +0/+0/+0 | "You can breathe in water. Additionally, you can target two creatures or objects with your melee free strike, and a target of your melee free strike is grabbed by you on a tier 2 or tier 3 result. You can have up to eight creatures grabbed." |
+| Rhinoceros | 9th   | 10 | 8 | 2 | +5 | +2/+2/+2 | "Whenever you make a melee free strike as part of the Charge action, it gains an edge." |
+| King terror lizard | 10th  | 20 | 5 | 4 | +3 | +2/+2/+2 | "Your melee free strike is a 1 burst with the Area keyword and the Strike keyword." |
 
 #### NEW 5-ESSENCE ABILITY
 
@@ -8429,7 +8386,6 @@ You gain the following ability:
 **Type:** Action 
 | --- | ---
 
-
 **Distance:** Ranged 10
 
 **Target:** Special 
@@ -8493,7 +8449,6 @@ Choose one heroic ability from the following options.
 **Type:** Action 
 | --- | ---
 
-
 **Distance:** 5 cube within 10
 
 **Target:** All enemies 
@@ -8514,8 +8469,6 @@ o *11 or lower*: 7 **fire damage; Director loses 2 Malice**
 **Keywords:** Area, Magic, Ranged, Void
 
 **Type:** Action 
-| --- | ---
-
 
 **Distance:** Ranged 10
 
@@ -8527,8 +8480,13 @@ o *11 or lower*: 7 **fire damage; Director loses 2 Malice**
 
 *You stomp your foot and quake the whole world over.*
 
-|
-|  |
+**Keywords:** Area, Earth, Magic
+
+**Type:** Action
+
+**Distance:** 5 burst
+
+**Target:** All enemies
 
 **Power Roll + Reason:**
 
@@ -8580,8 +8538,6 @@ Power Roll + Reason:
 **Keywords:** Green, Magic, Ranged
 
 **Type:** Maneuver 
-| --- | --- | --- | ---
-
 
 **Distance:** Self or Ranged 10
 
@@ -8598,8 +8554,6 @@ Power Roll + Reason:
 **Keywords:** Magic, Void
 
 **Type:** Action 
-| --- | --- | --- | ---
-
 
 **Distance:** Self
 
@@ -8838,13 +8792,11 @@ Your primordial aspect grants you a triggered action as shown on the Aspect Trig
 
 **Type:** triggered
 
-
 **Distance:** 
 
 **Target:** 
 
-
-**Trigger:**  You lose Stamina and are not dying.
+**Trigger:** You lose Stamina and are not dying.
 
 **Effect:** After the triggering effect is resolved, you can use a free triggered action to enter your animal form or hybrid form. You gain temporary Stamina equal to your Might score.
 
@@ -8857,13 +8809,10 @@ Your primordial aspect grants you a triggered action as shown on the Aspect Trig
 **Keywords:** Magic, Melee
 
 **Type:** Triggered 
-| --- | --- | --- | ---
-
 
 **Distance:** Melee 1
 
 **Target:** Self or one creature
-
 
 **Trigger:** The target would be force moved.
 
@@ -9009,8 +8958,6 @@ Power Roll + Might:
 **Keywords:** Melee, Strike, Weapon
 
 **Type:** Action 
-| --- | --- | --- | ---
-
 
 **Distance:** Melee 1
 
@@ -9030,8 +8977,6 @@ Power Roll + Might:
 **Keywords:** Melee, Weapon
 
 **Type:** Action 
-| --- | --- | --- | ---
-
 
 **Distance:** Self
 
@@ -9128,8 +9073,6 @@ Power Roll + Might:
 **Keywords:** Melee, Strike, Weapon
 
 **Type:** Action 
-| --- | --- | --- | ---
-
 
 **Distance:** Melee 1
 
@@ -9247,8 +9190,6 @@ Power Roll + Might:
 **Keywords:** Melee, Strike, Weapon
 
 **Type:** Action 
-| --- | --- | --- | ---
-
 
 **Distance:** Melee 1
 
@@ -9750,8 +9691,6 @@ Choose one heroic ability from the following options.
 **Keywords:** Magic
 
 **Type:** Maneuver 
-| --- | --- | --- | ---
-
 
 **Distance:** Self
 
@@ -9836,8 +9775,6 @@ Choose one of the following abilities.
 **Keywords:** Area, Magic, Weapon
 
 **Type:** Action 
-| --- | --- | --- | ---
-
 
 **Distance:** 3 burst
 
@@ -10399,8 +10336,6 @@ You project a psionic field of order around your body, dampening the effects of 
 **Keywords:** Psionic
 
 **Type:** Maneuver 
-| --- | --- | --- | ---
-
 
 **Distance:** 1 aura
 
@@ -10427,13 +10362,10 @@ Your instincts for danger let you predict attacks before they happen.
 **Keywords:** Psionic
 
 **Type:** Triggered 
-| --- | --- | --- | ---
-
 
 **Distance:** Self
 
 **Target:** Self
-
 
 **Trigger:** You take damage.  
 
@@ -10968,8 +10900,6 @@ Power Roll + Agility:
 **Keywords:** Psionic
 
 **Type:** Maneuver 
-| --- | --- | --- | ---
-
 
 **Distance:** Self
 
@@ -11219,7 +11149,6 @@ Choose one of the following abilities.
 **Type:** Action 
 | --- | ---
 
-
 **Distance:** Self
 
 **Target:** Self
@@ -11452,8 +11381,6 @@ Power Roll + Agility:
 **Keywords:** Area, Psionic
 
 **Type:** Action 
-| --- | --- | --- | ---
-
 
 **Distance:** 3 cube within 1
 
@@ -11548,7 +11475,6 @@ You become the coldest thing in the timescape.
 
 **Type:** Maneuver
 
-
 **Distance:** Self
 
 **Target:** Self 
@@ -11591,13 +11517,10 @@ Choose one of the following abilities.
 **Keywords:** Psionic
 
 **Type:** Free triggered 
-| --- | --- | --- | ---
-
 
 **Distance:** Self
 
 **Target:** Self
-
 
 **Trigger:** Another creature damages you with an ability.
 
@@ -11860,16 +11783,12 @@ Your shadow college grants you a triggered action as shown on the College Trigge
 **Keywords:** Magic
 
 **Type:** Triggered 
-| --- | --- | --- | ---
-
 
 **Distance:** Self
 
 **Target:** Self
 
-
-**Trigger:** An enemy targets you with a strike 
-
+**Trigger:** An enemy targets you with a strike
 
 **Trigger:** An enemy targets you with a strike.
 
@@ -11883,13 +11802,9 @@ Your shadow college grants you a triggered action as shown on the College Trigge
 
 **Type:** Triggered
 
-
-**Distance:** Self 
+**Distance:** Self
 
 **Target:** Self
-
-
-
 
 **Trigger:** Another creature damages you.
 
@@ -11904,8 +11819,6 @@ Your shadow college grants you a triggered action as shown on the College Trigge
 **Keywords:** Magic
 
 **Type:** Triggered 
-| --- | --- | --- | ---
-
 
 **Distance:** Self
 
@@ -12040,8 +11953,6 @@ Choose one heroic ability from the following options, each of which costs 3 insi
 **Keywords:** Melee, Strike, Weapon
 
 **Type:** Action 
-| --- | --- | --- | ---
-
 
 **Distance:** Melee 1
 
@@ -12078,8 +11989,6 @@ Power Roll + Agility:
 **Keywords:** Melee, Strike, Weapon
 
 **Type:** Action 
-| --- | --- | --- | ---
-
 
 **Distance:** Melee 1
 
@@ -12173,8 +12082,6 @@ Power Roll + Agility:
 **Keywords:** Magic, Melee, Ranged
 
 **Type:** Action 
-| --- | --- | --- | ---
-
 
 **Distance:** Self; see below
 
@@ -12844,8 +12751,6 @@ Power Roll + Agility:
 **Keywords:** Magic
 
 **Type:** Action 
-| --- | --- | --- | ---
-
 
 **Distance:** Self
 
@@ -13170,13 +13075,10 @@ Your tactical doctrine grants you a triggered action as shown on the Doctrine Tr
 **Keywords:** Ranged
 
 **Type:** Triggered 
-| --- | --- | --- | ---
-
 
 **Distance:** Ranged 10
 
 **Target:** Any creature
-
 
 **Trigger:** The target deals damage to another creature.
 
@@ -13365,7 +13267,6 @@ Power Roll + Might:
 
 **Type:** Maneuver
 
-
 **Distance:** Ranged 10
 
 **Target:** Self and two allies 
@@ -13421,8 +13322,6 @@ Power Roll + Might:
 **Keywords:** Ranged, Weapon
 
 **Type:** Maneuver 
-| --- | --- | --- | ---
-
 
 **Distance:** Ranged 5
 
@@ -13795,7 +13694,6 @@ Power Roll + Might:
 
 **Type:** Action
 
-
 **Distance:** Ranged 10
 
 **Target:** 1 ally 
@@ -13868,7 +13766,6 @@ Choose one of the following abilities.
 **Keywords:** Ranged
 
 **Type:** Maneuver
-
 
 **Distance:** Ranged 10
 
@@ -14058,8 +13955,7 @@ Choose one heroic ability from the following options.
 
 **Keywords:** Ranged
 
-**Type:**  Action
-
+**Type:** Action
 
 **Distance:** Ranged 10
 
@@ -14425,13 +14321,10 @@ You gain the following ability.
 **Keywords:** Psionic, Ranged
 
 **Type:** Triggered 
-| --- | --- | --- | ---
-
 
 **Distance:** Ranged 10
 
 **Target:** One creature
-
 
 **Trigger:** The target deals damage to an ally.
 
@@ -14562,9 +14455,7 @@ Select two signature abilities from the following options. Signature abilities c
 **Type:** Action 
 | --- | ---
 
-
 **Distance:** Ranged 10
-
 
 **Target:** One creature or object 
 
@@ -14913,8 +14804,7 @@ Choose one of the following abilities.
 
 **Keywords:** Chronopathy, Psionic, Ranged
 
-**Type:** Maneuver 
-
+**Type:** Maneuver
 
 **Distance:** Ranged 10
 
@@ -15538,8 +15428,6 @@ You have the following ability.
 **Keywords:** Area, Psionics
 
 **Type:** Maneuver 
-| --- | --- | --- | ---
-
 
 **Distance:** 3 burst
 
@@ -16025,8 +15913,6 @@ You gain the following ability.
 **Keywords:** Magic, Ranged
 
 **Type:** Maneuver 
-| --- | --- | --- | ---
-
 
 **Distance:** Ranged 10
 
@@ -16239,8 +16125,6 @@ Power Roll + Presence:
 **Keywords:** Melee, Strike, Weapon
 
 **Type:** Action 
-| --- | --- | --- | ---
-
 
 **Distance:** Melee 1
 
@@ -16346,8 +16230,6 @@ Power Roll + Presence:
 **Keywords:** Melee, Strike, Weapon
 
 **Type:** Maneuver 
-| --- | --- | --- | ---
-
 
 **Distance:** Self; see below
 
@@ -16518,8 +16400,6 @@ Choose one of the following abilities.
 **Keywords:** Magic, Ranged
 
 **Type:** Action 
-| --- | --- | --- | ---
-
 
 **Distance:** Ranged 10
 
@@ -16566,8 +16446,6 @@ Choose one of the following abilities.
 **Keywords:** Area, Magic, Ranged
 
 **Type:** Maneuver 
-| --- | --- | --- | ---
-
 
 **Distance:** 3 cube within 10
 
@@ -17134,8 +17012,6 @@ Choose one heroic ability from the following options.
 **Keywords:** Magic
 
 **Type:** Maneuver 
-| --- | --- | --- | ---
-
 
 **Distance:** Self
 
@@ -18863,8 +18739,6 @@ Your mentor taught you everything, and you trusted them implicitly--until they w
 **Keywords:** Magic
 
 **Type:** Maneuver 
-| --- | --- | --- | ---
-
 
 **Distance:** Self
 
@@ -19238,13 +19112,11 @@ You can see ghosts and spirits that others just don't sense. They're constantly 
 
 **Benefit and Drawback:** Incorporeal undead within 10 squares of you can communicate telepathically with you. Additionally, you can use the Contact Spirits ability.
 
-CONTACT SPIRITS
-
+#### CONTACT SPIRITS
 
 **Keywords:** Magic
 
 **Type:** Action
-
 
 **Distance:** Self
 
@@ -25094,8 +24966,6 @@ COSTS 5 HEROIC RESOURCES: KNIGHTLY CHALLENGE *Have at thee!*
 **Keywords:** Melee, Strike, Weapon
 
 **Type:** Action 
-| --- | --- | --- | ---
-
 
 **Distance:** Melee 1
 
