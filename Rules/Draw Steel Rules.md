@@ -11202,13 +11202,13 @@ IT WAS ME ALL ALONG (11 INSIGHT)
 
 Your Umbral Form ability is now called Ville Form. You've gained full control over your shadow creature form and can deactivate it at will (no action required). Additionally, you are always in concealment while in this form, keeping you wreathed in darkness, and enemies no longer have an edge on strikes against you because of the form.
 
-# TACTICIAN
+## TACTICIAN
 
 Strategist. Defender. Leader. With sword in hand, you lead allies into the maw of battle, barking out commands that inspire your fellow heroes to move faster and strike more precisely. All the while, you stand between your compatriots and death, taunting the followers of evil to best you if they can.
 
 As a tactician, you have abilities that heal your allies and grant them increased damage, movement, and attacks.
 
-# BASICS
+### BASICS
 
 **Starting Characteristics:** You start with a Might of 2 and a Reason of 2, and can choose one of the following arrays for your other characteristics scores:
 
@@ -11246,11 +11246,11 @@ As a tactician, you have abilities that heal your allies and grant them increase
 | 9th | Grand Master of Arms, Doctrine Ability | 3, 5, 7, 9, 11 | 5, 9, 11 |
 | 10th | Characteristic Increase, Perk, Stratagems, True Focus, Skill Increase, Warmaster | 3, 5, 7, 9, 11 | 5, 9, 11 |
 
-# 1ST-LEVEL FEATURES
+### 1ST-LEVEL FEATURES
 
 As a tactician, you gain the following features.
 
-# TACTICAL DOCTRINE
+#### TACTICAL DOCTRINE
 
 Warfare is as old as civilization—and perhaps even older. As battle became ever more developed and complex, military leaders invented tactical doctrine, outlining how combatants should be structured, used, and deployed. Doctrine can be learned at war colleges passing on ancient martial traditions, or directly through blood and sweat on the battlefield. Whatever path brought you to your mastery of tactics of historical significance, you choose a tactical doctrine from the following options, each of which grants you a skill (*Quick Build:* Vanguard):
 
@@ -11260,25 +11260,25 @@ Warfare is as old as civilization—and perhaps even older. As battle became eve
 
 Your choice of tactical doctrine determines many of the features you'll gain from this class.
 
-# FOCUS
+#### FOCUS
 
 The ring of steel panics others but brings order to your mind, granting you a Heroic Resource called focus.
 
-## FOCUS IN COMBAT
+##### FOCUS IN COMBAT
 
 At the start of a combat encounter or some other stressful situation tracked in combat rounds (as determined by the Director), you gain focus equal to your Victories. At the start of each of your turns during combat, you gain 2 focus. Additionally, the first time each round that you or an ally damages a target you have marked, you gain 1 focus. The first time in a round that an ally within 10 squares of you uses a heroic ability, you gain 1 focus. You lose any remaining focus at the end of the encounter.
 
-## FOCUS OUTSIDE OF COMBAT
+##### FOCUS OUTSIDE OF COMBAT
 
 Though you can't gain focus outside of combat, you can use your heroic abilities and effects that cost focus without spending it. Whenever you use an ability or effect outside of combat that costs focus, you can't use that same ability or effect outside of combat again until you gain at least 1 Victory or finish a Respite.
 
 If you use an ability outside of combat that lets you spend unlimited focus on its effect, such as Mark, you can use it as if you had spent an amount of focus on it equal to your Victories.
 
-# 1ST-LEVEL DOCTRINE FEATURE
+#### 1ST-LEVEL DOCTRINE FEATURE
 
 Your chosen tactical doctrine grants you a feature as shown on the 1st-Level Doctrine Features table.
 
-#### **1ST-LEVEL DOCTRINE FEATURES**
+##### **1ST-LEVEL DOCTRINE FEATURES**
 
 | Doctrine | Feature |
 | --- | --- |
@@ -11286,15 +11286,15 @@ Your chosen tactical doctrine grants you a feature as shown on the 1st-Level Doc
 | Mastermind | Studied Commander |
 | Vanguard | Commanding Presence |
 
-### COMMANDING PRESENCE
+##### COMMANDING PRESENCE
 
 You command any room you walk into. While you are present, each hero with you is treated as having a Renown 2 higher than usual for the purpose of negotiations. Additionally, each hero with you has a double edge on tests made to stop combat and start a negotiation with the other side.
 
-## COVERT OPERATIONS
+##### COVERT OPERATIONS
 
 While in your presence or working according to your plans, each of your allies gains an edge on tests with any skill from the intrigue skill group. Additionally, you can use the Lead skill to assist on any test made with a skill from the intrigue group. At the Director's discretion, you and your allies can use skills from the intrigue skill group to attempt research or reconnaissance during a negotiation instead of outside of negotiation.
 
-## STUDIED COMMANDER
+##### STUDIED COMMANDER
 
 Your encyclopedic knowledge of the history of battle lets you apply that knowledge to current challenges. While you are with them, any hero treats the Discover Lore project related to a war or battle as one category cheaper. This makes projects seeking common lore free, but such projects still require a respite activity to complete. (See Downtime Projects for more information.)
 
@@ -11312,11 +11312,11 @@ The following test results apply to a negotiation:
 
 You can make this test only once for any encounter or negotiation.
 
-# DOCTRINE TRIGGERED ACTION
+#### DOCTRINE TRIGGERED ACTION
 
 Your tactical doctrine grants you a triggered action as shown on the Doctrine Triggered Actions table.
 
-#### **DOCTRINE TRIGGERED ACTIONS**
+##### **DOCTRINE TRIGGERED ACTIONS**
 
 | Doctrine | Triggered Action |
 | --- | --- |
@@ -11324,7 +11324,7 @@ Your tactical doctrine grants you a triggered action as shown on the Doctrine Tr
 | Mastermind | Overwatch |
 | Vanguard | Parry |
 
-#### ADVANCED TACTICS
+##### ADVANCED TACTICS
 
 *Your leadership aids an ally.*
 
@@ -11337,7 +11337,7 @@ Your tactical doctrine grants you a triggered action as shown on the Doctrine Tr
 
 **Spend 1 Focus:** If any effect of the damage has a potency effect, you increase the potency by 1.
 
-OVERWATCH
+##### OVERWATCH
 
 *Under your direction, an ally waits for just the right moment to strike.*
 
@@ -11347,7 +11347,7 @@ OVERWATCH
 
 **Spend 1 Focus:** If the target has R **<** average, they are also slowed (EoT).
 
-#### PARRY
+##### PARRY
 
 *Your quick reflexes cost an enemy the precision they seek.*
 
@@ -11357,7 +11357,7 @@ OVERWATCH
 
 **Spend 1 Focus:** The target can shift a number of squares equal to your Reason score.
 
-# FIELD ARSENAL
+#### FIELD ARSENAL
 
 You have drilled with a broad array of weapons and have developed techniques to optimize their use. Whenever you select or change your kit, you can select an additional kit and gain the benefits of both kits, including both their
 
@@ -11378,11 +11378,11 @@ For example, if you take the Shining Armor and Sniper kits, you gain the followi
 
 Kit signature abilities already have their bonuses applied. For example, you might take the Martial Artist kit, which gives a melee weapon damage bonus of +2/+2/+2, and the Mountain kit, which gives a melee weapon damage bonus of +0/+0/+4. If you choose to use the Mountain kit's damage bonus, then the Battle Grace signature ability from the Martial Artist kit loses the +2/+2/+2 bonus from that kit, reducing its usual 5/8/11 damage for its tier 1, tier 2, and tier 3 results to 3/6/9. It then gains the +0/+0/+4 of the Mountain kit, to deal 3/6/13 damage.
 
-# MARK
+#### MARK
 
 You know how to focus the attention of your allies as you push them toward victory. You have the following ability.
 
-### MARK
+##### MARK
 
 *You draw your allies' attention to a specific foe—with devastating effect.*
 
@@ -11403,11 +11403,11 @@ In addition, you can spend 1 focus to take one of the following free triggered a
 
 - The damage dealer can shift up to a number of squares equal to your Reason score.
 
-# STRIKE NOW
+#### STRIKE NOW
 
 Your skill at commanding your allies in combat grants you the following ability.
 
-#### "STRIKE NOW!"
+##### "STRIKE NOW!"
 
 *Your foe left an opening. You point this out to an ally!* **Keywords:** Ranged **Type:** Action **Distance:** Ranged 10 **Target:** One ally
 
@@ -11415,19 +11415,19 @@ Your skill at commanding your allies in combat grants you the following ability.
 
 **Spend 5 Focus:** You target two allies instead of one.
 
-# TACTICIAN ABILITIES
+#### TACTICIAN ABILITIES
 
 You are a formidable combatant in your own right, but your greatest strength in battle is the ability to make your allies even more formidable. You know a range of abilities that shape the scope of your control of the battlefield.
 
-## KIT SIGNATURE ABILITY
+##### KIT SIGNATURE ABILITY
 
 Your additional kit from your Field Arsenal feature grants you a second signature ability. Signature abilities can be used at will.
 
-## HEROIC ABILITIES
+##### HEROIC ABILITIES
 
 Your heroic abilities cover a range of combat tactics, all of which require focus to use.
 
-##### 3-FOCUS ABILITY
+###### 3-FOCUS ABILITY
 
 Choose one heroic ability from the following options, each of which costs 3 focus to use. (*Quick Build:* Inspiring Strike)
 
