@@ -28,6 +28,44 @@ gen_rules: clean_and_prep
 gen_rules_md:
     #!/usr/bin/env bash
     set -euo pipefail
+    
+    # Convert markdown to html
+    html_fpath="{{staging_rules_dpath}}/html/Draw Steel Rules.html"
+    just -f md_to_html/justfile run "{{staging_dpath}}/Draw Steel Rules.md" "$html_fpath"
+
+    # extract out sections using html xpath
+    html_sections_dpath="{{staging_rules_dpath}}/html_sections"
+    just -f extract_html_sections/rules/justfile run "$html_fpath" "$html_sections_dpath"
+
+    # Convert html sections to md sections
+    md_sections_dpath="{{staging_rules_dpath}}/md_sections"
+    just -f html_sections_to_md/justfile run "$html_sections_dpath" "$md_sections_dpath"
+
+    # Transform the MD section files to make them usable
+    md_sections_formatted_dpath="{{staging_rules_dpath}}/md_sections_formatted"
+    mkdir -p "$md_sections_formatted_dpath"
+    cp -R "$md_sections_dpath"/* "$md_sections_formatted_dpath"
+
+    # Transform the markdown files in-place
+    just -f frontmatter/justfile run "$md_sections_formatted_dpath"
+    
+    # Build the ability index tables
+    just -f generate_ability_index/justfile run "${md_sections_formatted_dpath}/Abilities"
+
+    # Add the original rules MD file to the output so it can be linked and formatted
+    # TODO - I would like this to go through the formatting steps, but it crashes on frontmatter gen
+    cp "{{rules_markdown_source_path}}" "$md_sections_formatted_dpath"
+
+    # Link MD section files to each other
+    #just -f link_md/justfile run "$md_sections_formatted_dpath" "{{staging_rules_linked_dpath}}"
+
+    # Format/Lint the linked markdown files
+    just -f mdformat/justfile run "{{staging_rules_linked_dpath}}"
+    # TODO - I should format the unlinked files?
+
+gen_rules_md_legacy:
+    #!/usr/bin/env bash
+    set -euo pipefail
 
     # Preformat the markdown to clean it up
     just -f preformat/justfile run "{{staging_dpath}}/Draw Steel Rules.md"
@@ -52,7 +90,7 @@ gen_rules_md:
 
     # Split up entire hierarchy of sections
     # TODO - use this for sections...?
-    just -f split_html_sections/justfile run "$html_fpath" "${html_sections_dpath}/Classes"
+    #just -f split_html_sections/justfile run "$html_fpath" "${html_sections_dpath}/Classes"
 
     # Convert html sections to md sections
     md_sections_dpath="{{staging_rules_dpath}}/md_sections"

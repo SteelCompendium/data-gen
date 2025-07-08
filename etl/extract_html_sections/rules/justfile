@@ -3,6 +3,7 @@
 log_prefix := "[JUST][extract_html_sections]"
 
 run rules_html_fpath rules_html_sections_dpath:
+    just _extract_chapters "{{rules_html_fpath}}" "{{rules_html_sections_dpath}}"
     just _extract_classes "{{rules_html_fpath}}" "{{rules_html_sections_dpath}}"
     just _extract_abilities "{{rules_html_fpath}}" "{{rules_html_sections_dpath}}"
     just _extract_movement "{{rules_html_fpath}}" "{{rules_html_sections_dpath}}"
@@ -16,12 +17,34 @@ run rules_html_fpath rules_html_sections_dpath:
     just _extract_negotiation "{{rules_html_fpath}}" "{{rules_html_sections_dpath}}"
     just _extract_perks "{{rules_html_fpath}}" "{{rules_html_sections_dpath}}"
     just _extract_titles "{{rules_html_fpath}}" "{{rules_html_sections_dpath}}"
+    just _extract_treasures "{{rules_html_fpath}}" "{{rules_html_sections_dpath}}"
+
+_extract_chapters rules_html_fpath rules_html_sections_dpath:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    chapters_path="{{rules_html_sections_dpath}}/Chapters"
+    # delete dir on first one, keep on others
+    just -f "../common/justfile" extract_section "$chapters_path" "//section[@id='introduction']" "{{rules_html_fpath}}"
+    just -f "../common/justfile" extract_section "$chapters_path" "//section[@id='the-basics']" "{{rules_html_fpath}}" "skip_delete"
+    just -f "../common/justfile" extract_section "$chapters_path" "//section[@id='making-a-hero']" "{{rules_html_fpath}}" "skip_delete"
+    just -f "../common/justfile" extract_section "$chapters_path" "//section[@id='ancestries']" "{{rules_html_fpath}}" "skip_delete"
+    just -f "../common/justfile" extract_section "$chapters_path" "//section[@id='background']" "{{rules_html_fpath}}" "skip_delete"
+    just -f "../common/justfile" extract_section "$chapters_path" "//section[@id='classes']" "{{rules_html_fpath}}" "skip_delete"
+    just -f "../common/justfile" extract_section "$chapters_path" "//section[@id='kits']" "{{rules_html_fpath}}" "skip_delete"
+    just -f "../common/justfile" extract_section "$chapters_path" "//section[@id='perks']" "{{rules_html_fpath}}" "skip_delete"
+    just -f "../common/justfile" extract_section "$chapters_path" "//section[@id='complications']" "{{rules_html_fpath}}" "skip_delete"
+    just -f "../common/justfile" extract_section "$chapters_path" "//section[@id='tests']" "{{rules_html_fpath}}" "skip_delete"
+    just -f "../common/justfile" extract_section "$chapters_path" "//section[@id='combat']" "{{rules_html_fpath}}" "skip_delete"
+    just -f "../common/justfile" extract_section "$chapters_path" "//section[@id='negotiation']" "{{rules_html_fpath}}" "skip_delete"
+    just -f "../common/justfile" extract_section "$chapters_path" "//section[@id='downtime-projects']" "{{rules_html_fpath}}" "skip_delete"
+    just -f "../common/justfile" extract_section "$chapters_path" "//section[@id='rewards']" "{{rules_html_fpath}}" "skip_delete"
+    just -f "../common/justfile" extract_section "$chapters_path" "//section[@id='gods-and-religion']" "{{rules_html_fpath}}" "skip_delete"
+    just -f "../common/justfile" extract_section "$chapters_path" "//section[@id='for-the-director']" "{{rules_html_fpath}}" "skip_delete"
 
 _extract_classes rules_html_fpath rules_html_sections_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
-
-    classes_path="{{rules_html_sections_dpath}}/Classes Single Page"
+    classes_path="{{rules_html_sections_dpath}}/Classes"
     # delete dir on first one, keep on others
     just -f "../common/justfile" extract_section "$classes_path" "//section[@id='censor']" "{{rules_html_fpath}}"
     just -f "../common/justfile" extract_section "$classes_path" "//section[@id='conduit']" "{{rules_html_fpath}}" "skip_delete"
@@ -36,10 +59,7 @@ _extract_classes rules_html_fpath rules_html_sections_dpath:
 _extract_abilities rules_html_fpath rules_html_sections_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
-
     abilities_path="{{rules_html_sections_dpath}}/Abilities"
-
-    # Common Maneuvers, actions, and move actions
     just -f "../common/justfile" extract_section "$abilities_path/Common Maneuvers" "//section[@id='combat']//section[@id='maneuvers']//section[@class='level5']" "{{rules_html_fpath}}"
     just -f "../common/justfile" extract_section "$abilities_path/Common Actions" "//section[@id='combat']//section[@id='main-actions']//section[@class='level5']" "{{rules_html_fpath}}"
     just -f "../common/justfile" extract_section "$abilities_path/Common Move Actions" "//section[@id='combat']//section[@id='move-actions']//section[@class='level5']" "{{rules_html_fpath}}"
@@ -197,4 +217,4 @@ _extract_treasures rules_html_fpath rules_html_sections_dpath:
     xpath="//section[@id='artifacts']//section[@class='level6']"
     just -f "../common/justfile" extract_section "${treasures_path}/Artifacts" "$xpath" "{{rules_html_fpath}}"
     
-# TODO - downtime stuff, treasures
+# TODO - downtime stuff
