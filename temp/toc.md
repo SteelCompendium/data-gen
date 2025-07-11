@@ -94,7 +94,7 @@
 ###### Milestone Advancement
 ###### Director Says So
 
-# ANCESTRIES
+# Ancestries
 > Other Sections
 #### On the Origin of Species
 #### Names by Ancestry
@@ -259,7 +259,7 @@
 ###### Unstoppable Mind (2 Points)
 
 # Background
-## CULTURE
+## Culture
 #### Using Culture
 #### Why Build a Culture?
 #### Culture Benefits
@@ -286,7 +286,7 @@
 ###### Extant Languages
 ###### Language Usage
 ###### Dead Languages
-## CAREERS
+## Careers
 #### Career Questions
 #### Career Benefits
 ##### Skills
@@ -558,7 +558,7 @@
 ##### Virtue
 ##### Wrath of the Gods
 
-# CONDUIT
+# Conduit
 #### Basics
 #### 1st-Level Features
 ##### Deity and Domains
@@ -750,7 +750,7 @@
 ##### Perk
 ##### Skill
 
-# ELEMENTALIST
+# Elementalist
 #### Basics
 #### 1st-Level Features
 ##### Elemental Specialization
@@ -1083,7 +1083,7 @@
 ######## Unbalancing Attack
 ###### Growing Ferocity
 
-#  NULL
+#  Null
 #### Basics
 #### 1st-Level Features
 ##### Null Tradition
@@ -1225,7 +1225,7 @@
 ##### Perk
 ##### Skill
 
-# SHADOW
+# Shadow
 #### Basics
 #### 1st-Level Features
 ##### Shadow College
@@ -1487,7 +1487,7 @@
 ##### True Focus
 ##### Warmaster
 
-# TALENT
+# Talent
 #### Basics
 #### 1st-Level Features
 ##### Talent Tradition
@@ -1648,7 +1648,7 @@
 ##### Skill
 ##### Vision
 
-# TROUBADOUR
+# Troubadour
 #### Basics
 #### 1st-Level Features
 ##### Troubadour Class Act
@@ -2117,7 +2117,7 @@
 ##### Wrathful Spirit
 ##### Wrongly Imprisoned
 
-# TESTS
+# Tests
 #### When to Make a Test
 ##### It Just Works!
 #### How to Make a Test
@@ -2421,8 +2421,8 @@
 ##### Fishing
 ##### Spend Time With Loved Ones
 
-# REWARDS
-## TREASURES
+# Rewards
+## Treasures
 #### Found, Earned, or Crafted
 ##### What Does This Treasure Do?
 > Treasure Item Prerequisite
