@@ -12,41 +12,70 @@ run input_md_path output_md_path:
         content = f.read()
 
     new_content_parts = []
-    last_end = 0
+    in_power_roll_section = False
+    power_roll_lines = []
 
-    # This regex finds all power roll sections. It captures:
-    # 1. Any text on the same line preceding "Power Roll..." (for inline cases)
-    # 2. The attribute (e.g., "Might", "Agility")
-    # 3. The body of the power roll text itself
-    # The lookahead at the end stops the match before the next heading or ** block.
-    pattern = re.compile(
-        r'^(.*?)(?:####\s*)?Power Roll \+ (\w+):(.*?)(?=^#|^\*\*|\Z)',
-        re.MULTILINE | re.DOTALL
-    )
+    for line in content.splitlines():
+        if "Power Roll +" in line and not in_power_roll_section:
+            # If we were in a section, process it before starting a new one
+            if power_roll_lines:
+                # Process the collected power roll section
+                attribute_match = re.search(r'Power Roll \+ (\w+)', power_roll_lines[0])
+                attribute = attribute_match.group(1) if attribute_match else ""
+                
+                body = "\n".join(power_roll_lines)
+                
+                effect_match = re.search(r'(\*\*Effect:.*)', body, re.IGNORECASE | re.DOTALL)
+                effect_text_cleaned = None
+                if effect_match:
+                    effect_text_raw = effect_match.group(1).strip()
+                    effect_text_cleaned = re.sub(r'\s+', ' ', effect_text_raw).strip()
+                    body = body[:effect_match.start()]
 
-    for match in pattern.finditer(content):
-        # Append the content since the last match
-        new_content_parts.append(content[last_end:match.start()])
+                cleaned_body = re.sub(r'\s+', ' ', re.sub(r'\n\s*-\s*|\n', ' ', body)).strip()
 
-        preceding_text = match.group(1)
-        attribute = match.group(2)
-        body = match.group(3)
+                tier1_text, tier2_text, tier3_text = None, None, None
+                tier1_match = re.search(r'á(.*?)(?=é|í|$)', cleaned_body)
+                if tier1_match: tier1_text = tier1_match.group(1).strip()
+                tier2_match = re.search(r'é(.*?)(?=í|$)', cleaned_body)
+                if tier2_match: tier2_text = tier2_match.group(1).strip()
+                tier3_match = re.search(r'í(.*?$)', cleaned_body)
+                if tier3_match: tier3_text = tier3_match.group(1).strip()
 
-        # If there was text before "Power Roll" on the line, it's an inline case.
-        # Add that text back, ensuring it's on its own line.
-        if preceding_text.strip():
-            new_content_parts.append(preceding_text.strip() + "\n\n")
+                formatted_block = [f"**Power Roll + {attribute}:**"]
+                if tier1_text: formatted_block.append(f"- **≤11:** {tier1_text}")
+                if tier2_text: formatted_block.append(f"- **12-16:** {tier2_text}")
+                if tier3_text: formatted_block.append(f"- **17+:** {tier3_text}")
+                
+                if effect_text_cleaned:
+                    if any([tier1_text, tier2_text, tier3_text]):
+                        formatted_block.append("")
+                    formatted_block.append(effect_text_cleaned)
+                
+                new_content_parts.append("\n".join(formatted_block))
+                
+                # Reset for next section
+                power_roll_lines = []
 
-        # Normalize the body: remove heading markers, newlines, list markers, and collapse spaces.
-        body = re.sub(r'#+\s*', '', body)
+            in_power_roll_section = True
+            power_roll_lines.append(line)
+        elif in_power_roll_section:
+            power_roll_lines.append(line)
+        else:
+            new_content_parts.append(line)
 
+    # Process any remaining power roll section at the end of the file
+    if in_power_roll_section and power_roll_lines:
+        attribute_match = re.search(r'Power Roll \+ (\w+)', power_roll_lines[0])
+        attribute = attribute_match.group(1) if attribute_match else ""
+        
+        body = "\n".join(power_roll_lines)
+        
         effect_match = re.search(r'(\*\*Effect:.*)', body, re.IGNORECASE | re.DOTALL)
         effect_text_cleaned = None
         if effect_match:
             effect_text_raw = effect_match.group(1).strip()
-            # Clean up newlines and spaces in the captured effect text
             effect_text_cleaned = re.sub(r'\s+', ' ', effect_text_raw).strip()
-            # Remove effect from body so it's not processed with tiers
             body = body[:effect_match.start()]
 
         cleaned_body = re.sub(r'\s+', ' ', re.sub(r'\n\s*-\s*|\n', ' ', body)).strip()
@@ -59,25 +88,19 @@ run input_md_path output_md_path:
         tier3_match = re.search(r'í(.*?$)', cleaned_body)
         if tier3_match: tier3_text = tier3_match.group(1).strip()
 
-        # Build the formatted output string
         formatted_block = [f"**Power Roll + {attribute}:**"]
         if tier1_text: formatted_block.append(f"- **≤11:** {tier1_text}")
         if tier2_text: formatted_block.append(f"- **12-16:** {tier2_text}")
         if tier3_text: formatted_block.append(f"- **17+:** {tier3_text}")
+        
         if effect_text_cleaned:
-            formatted_block.append("")
+            if any([tier1_text, tier2_text, tier3_text]):
+                formatted_block.append("")
             formatted_block.append(effect_text_cleaned)
         
         new_content_parts.append("\n".join(formatted_block))
 
-        last_end = match.end()
-
-    # Append any remaining content after the last match
-    new_content_parts.append(content[last_end:])
-
-    final_content = "".join(new_content_parts)
-
-    # Ensure there's a single trailing newline
+    final_content = "\n".join(new_content_parts)
     final_content = final_content.rstrip() + '\n'
 
     with open('{{output_md_path}}', 'w', encoding='utf-8') as f:
