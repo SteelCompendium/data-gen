@@ -24,4 +24,4 @@ You gain one interpersonal, lore, or supernatural perk of your choice.
 
 Your censor order grants your choice of one of two heroic abilities.
 
-#### 6th-Level Exorcist Abilities 
+#### 6th-Level Exorcist Abilities

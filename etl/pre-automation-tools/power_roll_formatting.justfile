@@ -46,7 +46,8 @@ run input_md_path output_md_path:
     power_roll_lines = []
     blank_line_count = 0
 
-    for line in content.splitlines():
+    lines = content.splitlines()
+    for i, line in enumerate(lines):
         is_heading = line.strip().startswith("#")
         is_blank = line.strip() == ""
 
@@ -57,10 +58,26 @@ run input_md_path output_md_path:
             power_roll_lines = [line]
             blank_line_count = 0
         elif in_power_roll_section:
-            if is_heading or (is_blank and blank_line_count > 0):
+            # A power roll section ends if we hit a heading.
+            # It also ends if we hit a blank line that is either
+            # followed by a heading, or is the second consecutive blank line.
+            should_terminate = False
+            if is_heading:
+                should_terminate = True
+            elif is_blank:
+                next_line_is_heading = False
+                if i + 1 < len(lines):
+                    if lines[i+1].strip().startswith('#'):
+                        next_line_is_heading = True
+                
+                if next_line_is_heading or blank_line_count > 0:
+                    should_terminate = True
+
+            if should_terminate:
                 new_content_parts.append(process_power_roll_section(power_roll_lines))
                 in_power_roll_section = False
                 power_roll_lines = []
+                # The line that terminates the section is passed through.
                 new_content_parts.append(line)
             else:
                 power_roll_lines.append(line)

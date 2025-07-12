@@ -3,4 +3,4 @@
 **Power Roll + Intuition:**
 - **≤11:** 2 + I damage
 - **12-16:** 4 + I damage
-- **17+:** 6 + I damage 
+- **17+:** 6 + I damage
