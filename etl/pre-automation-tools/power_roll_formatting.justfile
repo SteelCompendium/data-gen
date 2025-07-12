@@ -39,6 +39,16 @@ run input_md_path output_md_path:
 
         # Normalize the body: remove heading markers, newlines, list markers, and collapse spaces.
         body = re.sub(r'#+\s*', '', body)
+
+        effect_match = re.search(r'(\*\*Effect:.*)', body, re.IGNORECASE | re.DOTALL)
+        effect_text_cleaned = None
+        if effect_match:
+            effect_text_raw = effect_match.group(1).strip()
+            # Clean up newlines and spaces in the captured effect text
+            effect_text_cleaned = re.sub(r'\s+', ' ', effect_text_raw).strip()
+            # Remove effect from body so it's not processed with tiers
+            body = body[:effect_match.start()]
+
         cleaned_body = re.sub(r'\s+', ' ', re.sub(r'\n\s*-\s*|\n', ' ', body)).strip()
 
         tier1_text, tier2_text, tier3_text = None, None, None
@@ -54,6 +64,9 @@ run input_md_path output_md_path:
         if tier1_text: formatted_block.append(f"- **≤11:** {tier1_text}")
         if tier2_text: formatted_block.append(f"- **12-16:** {tier2_text}")
         if tier3_text: formatted_block.append(f"- **17+:** {tier3_text}")
+        if effect_text_cleaned:
+            formatted_block.append("")
+            formatted_block.append(effect_text_cleaned)
         
         new_content_parts.append("\n".join(formatted_block))
 
@@ -69,7 +82,6 @@ run input_md_path output_md_path:
 
     with open('{{output_md_path}}', 'w', encoding='utf-8') as f:
         f.write(final_content)
-
 
 [no-cd]
 test:
