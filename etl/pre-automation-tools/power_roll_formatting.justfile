@@ -8,78 +8,19 @@ run input_md_path output_md_path:
     #!/usr/bin/env python3
     import re, sys
 
-    with open('{{input_md_path}}', 'r', encoding='utf-8') as f:
-        content = f.read()
-
-    new_content_parts = []
-    in_power_roll_section = False
-    power_roll_lines = []
-
-    for line in content.splitlines():
-        if "Power Roll +" in line and not in_power_roll_section:
-            # If we were in a section, process it before starting a new one
-            if power_roll_lines:
-                # Process the collected power roll section
-                attribute_match = re.search(r'Power Roll \+ (\w+)', power_roll_lines[0])
-                attribute = attribute_match.group(1) if attribute_match else ""
-                
-                body = "\n".join(power_roll_lines)
-                
-                effect_match = re.search(r'(\*\*Effect:.*)', body, re.IGNORECASE | re.DOTALL)
-                effect_text_cleaned = None
-                if effect_match:
-                    effect_text_raw = effect_match.group(1).strip()
-                    effect_text_cleaned = re.sub(r'\s+', ' ', effect_text_raw).strip()
-                    body = body[:effect_match.start()]
-
-                cleaned_body = re.sub(r'\s+', ' ', re.sub(r'\n\s*-\s*|\n', ' ', body)).strip()
-
-                tier1_text, tier2_text, tier3_text = None, None, None
-                tier1_match = re.search(r'á(.*?)(?=é|í|$)', cleaned_body)
-                if tier1_match: tier1_text = tier1_match.group(1).strip()
-                tier2_match = re.search(r'é(.*?)(?=í|$)', cleaned_body)
-                if tier2_match: tier2_text = tier2_match.group(1).strip()
-                tier3_match = re.search(r'í(.*?$)', cleaned_body)
-                if tier3_match: tier3_text = tier3_match.group(1).strip()
-
-                formatted_block = [f"**Power Roll + {attribute}:**"]
-                if tier1_text: formatted_block.append(f"- **≤11:** {tier1_text}")
-                if tier2_text: formatted_block.append(f"- **12-16:** {tier2_text}")
-                if tier3_text: formatted_block.append(f"- **17+:** {tier3_text}")
-                
-                if effect_text_cleaned:
-                    if any([tier1_text, tier2_text, tier3_text]):
-                        formatted_block.append("")
-                    formatted_block.append(effect_text_cleaned)
-                
-                new_content_parts.append("\n".join(formatted_block))
-                
-                # Reset for next section
-                power_roll_lines = []
-
-            in_power_roll_section = True
-            power_roll_lines.append(line)
-        elif in_power_roll_section:
-            power_roll_lines.append(line)
-        else:
-            new_content_parts.append(line)
-
-    # Process any remaining power roll section at the end of the file
-    if in_power_roll_section and power_roll_lines:
-        attribute_match = re.search(r'Power Roll \+ (\w+)', power_roll_lines[0])
+    def process_power_roll_section(lines):
+        if not lines:
+            return ""
+        attribute_match = re.search(r'Power Roll \+ (\w+)', lines[0])
         attribute = attribute_match.group(1) if attribute_match else ""
-        
-        body = "\n".join(power_roll_lines)
-        
+        body = "\n".join(lines)
         effect_match = re.search(r'(\*\*Effect:.*)', body, re.IGNORECASE | re.DOTALL)
         effect_text_cleaned = None
         if effect_match:
             effect_text_raw = effect_match.group(1).strip()
             effect_text_cleaned = re.sub(r'\s+', ' ', effect_text_raw).strip()
             body = body[:effect_match.start()]
-
         cleaned_body = re.sub(r'\s+', ' ', re.sub(r'\n\s*-\s*|\n', ' ', body)).strip()
-
         tier1_text, tier2_text, tier3_text = None, None, None
         tier1_match = re.search(r'á(.*?)(?=é|í|$)', cleaned_body)
         if tier1_match: tier1_text = tier1_match.group(1).strip()
@@ -87,18 +28,52 @@ run input_md_path output_md_path:
         if tier2_match: tier2_text = tier2_match.group(1).strip()
         tier3_match = re.search(r'í(.*?$)', cleaned_body)
         if tier3_match: tier3_text = tier3_match.group(1).strip()
-
         formatted_block = [f"**Power Roll + {attribute}:**"]
         if tier1_text: formatted_block.append(f"- **≤11:** {tier1_text}")
         if tier2_text: formatted_block.append(f"- **12-16:** {tier2_text}")
         if tier3_text: formatted_block.append(f"- **17+:** {tier3_text}")
-        
         if effect_text_cleaned:
             if any([tier1_text, tier2_text, tier3_text]):
                 formatted_block.append("")
             formatted_block.append(effect_text_cleaned)
-        
-        new_content_parts.append("\n".join(formatted_block))
+        return "\n".join(formatted_block)
+
+    with open('{{input_md_path}}', 'r', encoding='utf-8') as f:
+        content = f.read()
+
+    new_content_parts = []
+    in_power_roll_section = False
+    power_roll_lines = []
+    blank_line_count = 0
+
+    for line in content.splitlines():
+        is_heading = line.strip().startswith("#")
+        is_blank = line.strip() == ""
+
+        if "Power Roll +" in line and not in_power_roll_section:
+            if power_roll_lines:
+                new_content_parts.append(process_power_roll_section(power_roll_lines))
+            in_power_roll_section = True
+            power_roll_lines = [line]
+            blank_line_count = 0
+        elif in_power_roll_section:
+            if is_heading or (is_blank and blank_line_count > 0):
+                new_content_parts.append(process_power_roll_section(power_roll_lines))
+                in_power_roll_section = False
+                power_roll_lines = []
+                new_content_parts.append(line)
+            else:
+                power_roll_lines.append(line)
+            
+            if is_blank:
+                blank_line_count += 1
+            else:
+                blank_line_count = 0
+        else:
+            new_content_parts.append(line)
+
+    if in_power_roll_section and power_roll_lines:
+        new_content_parts.append(process_power_roll_section(power_roll_lines))
 
     final_content = "\n".join(new_content_parts)
     final_content = final_content.rstrip() + '\n'
