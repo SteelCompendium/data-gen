@@ -1,19 +1,30 @@
 # Usage: just remove_lines path/to/input.md path/to/output.md
+# ~/code/personal/steelCompendium $ just -f data-gen/etl/pre-automation-tools/remove_lines.justfile run data-gen/Rules/Draw\ Steel\ RC\ for\ Patrons.md data-gen/temp/removed_lines_output.md
+#
+# Removes a predefined set of lines that are not needed (images, copyright, etc)
+
+[no-cd]
 run input_md_path output_md_path:
     #!/usr/bin/env python3
     import re, sys
 
     # 1) Exact lines to remove
     remove_exact = {
-        "![crosshair icon](image-url)",
         "i",
+        "ii",
+        "iii",
+        "v",
         "iv",
-        "![A bullseye or crosshair symbol.](image-url)",
+        ".",
+        "⊕",
+        "Draw Steel",
     }
 
     # 2) Regex patterns to remove (full-line matches)
     remove_patterns = [
         re.compile(r'!\[\]\(_page_\d+_Picture_\d+\.jpeg\)'),
+        re.compile(r'!\[.*\]\(.*\)'),
+        re.compile(r'Chapter\s\d+'),
     ]
 
     # 3) Process file
