@@ -41,8 +41,8 @@ run input_md_path output_md_path:
                 else:
                     body = heading_content + content_after_first_line
 
-        attribute_match = re.search(r'Power Roll \+ (\w+)', body)
-        attribute = attribute_match.group(1) if attribute_match else ""
+        attribute_match = re.search(r'Power Roll \+ ([^:\n]+)', body)
+        attribute = attribute_match.group(1).strip() if attribute_match else ""
 
         # A more robust way to get tier text, ignoring all markdown noise
         temp_body = re.sub(r'#+\s*|[\n\r]\s*-\s*', ' ', body)
@@ -86,7 +86,7 @@ run input_md_path output_md_path:
         # and ending just before the next H2/H3 heading or the end of the file.
         # The lookahead is adjusted to not consume trailing whitespace.
         pattern = re.compile(
-            r"^[^\n]*Power Roll \+.*?(?=\s*^(?:##|###)[^#]|\Z)",
+            r"^[^\n]*Power Roll \+.*?(?=\s*^(?:##|###)[^#]|\s*^####\s+(?![áéí])|\Z)",
             re.MULTILINE | re.DOTALL
         )
         
