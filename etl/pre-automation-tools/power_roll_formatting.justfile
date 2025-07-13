@@ -43,18 +43,19 @@ run input_md_path output_md_path:
 
         attribute_match = re.search(r'Power Roll \+ ([^:\n]+)', body)
         attribute = attribute_match.group(1).strip() if attribute_match else ""
+        attribute = attribute.replace("*", "")
 
         # A more robust way to get tier text, ignoring all markdown noise
         temp_body = re.sub(r'#+\s*|[\n\r]\s*-\s*', ' ', body)
         temp_body = re.sub(r'\s+', ' ', temp_body)
 
-        tier1_match = re.search(r'á(.*?)(?=é|í|\**Effect:|$)', temp_body, re.IGNORECASE)
+        tier1_match = re.search(r'[á≤11](.*?)(?=é|í|\**Effect:|$)', temp_body, re.IGNORECASE)
         tier1 = tier1_match.group(1).strip() if tier1_match else None
         
-        tier2_match = re.search(r'é(.*?)(?=í|\**Effect:|$)', temp_body, re.IGNORECASE)
+        tier2_match = re.search(r'[é12\-16](.*?)(?=í|\**Effect:|$)', temp_body, re.IGNORECASE)
         tier2 = tier2_match.group(1).strip() if tier2_match else None
         
-        tier3_match = re.search(r'í(.*?)(?=\**Effect:|$)', temp_body, re.IGNORECASE)
+        tier3_match = re.search(r'[í17\+](.*?)(?=\**Effect:|$)', temp_body, re.IGNORECASE)
         tier3 = tier3_match.group(1).strip() if tier3_match else None
 
         effect_match = re.search(r'(\**Effect:.*)', body, re.IGNORECASE | re.DOTALL)

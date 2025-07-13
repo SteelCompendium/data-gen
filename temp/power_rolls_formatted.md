@@ -1457,8 +1457,8 @@ You have the following signature ability.
 
 **Power Roll + Might or Presence:**
 - **≤11:** 2 damage
-- **12-16:** 5 damage; push 1
-- **17+:** 7 damage; push 2
+- **12-16:** damage é 5 damage; push 1
+- **17+:** Might or Presence: á 2 damage é 5 damage; push 1 í 7 damage; push 2
 
 #### Dragon Breath (2 Points)
 
@@ -1474,8 +1474,8 @@ You have the following signature ability.
 
 **Power Roll + Might or Presence:**
 - **≤11:** 2 damage
-- **12-16:** 4 damage
-- **17+:** 6 damage
+- **12-16:** damage é 4 damage
+- **17+:** Might or Presence: á 2 damage é 4 damage í 6 damage
 
 Effect: You choose the ability's damage type from acid, cold, corruption, fire, lightning, or poison.
 
@@ -1775,8 +1775,8 @@ e Ranged 10 x One creature
 
 **Power Roll + Might or Agility:**
 - **≤11:** 2 + M or A damage; A<w slowed (save ends) |
-- **12-16:** 3 + M or A damage; A <v (save="" ends)<="" slowed="" th=""><th></th></v> | | |----------------------------------------------------------------------------|--| | | |
-- **17+:** 5 + M or A damage; A<s slowed (save ends) ![](_page_36_Picture_0.jpeg) C hildren of the solar celestials created to tend their libraries and attend to the true elves as heralds, high elf history describes a better age, before the coming of humans and war. A time when the celestials were still in the world, and all that mattered was art and beauty. In the millennia since their creators retired to Arcadia, the high elves built a civilization for themselves, primarily living in and among the fallen celestial sky cities. With no creators left to please, the elves continue as they did before—collecting lore and knowledge, worshipping art, and turning more inward and distrusting of outsiders with each generation.
+- **12-16:** + M or A damage; A<w slowed (save ends) | é 3 + M or A damage; A <v (save="" ends)<="" slowed="" th=""><th></th></v> | | |----------------------------------------------------------------------------|--| | | |
+- **17+:** Might or Agility: á 2 + M or A damage; A<w slowed (save ends) | é 3 + M or A damage; A <v (save="" ends)<="" slowed="" th=""><th></th></v> | | |----------------------------------------------------------------------------|--| | | | í 5 + M or A damage; A<s slowed (save ends) ![](_page_36_Picture_0.jpeg) C hildren of the solar celestials created to tend their libraries and attend to the true elves as heralds, high elf history describes a better age, before the coming of humans and war. A time when the celestials were still in the world, and all that mattered was art and beauty. In the millennia since their creators retired to Arcadia, the high elves built a civilization for themselves, primarily living in and among the fallen celestial sky cities. With no creators left to please, the elves continue as they did before—collecting lore and knowledge, worshipping art, and turning more inward and distrusting of outsiders with each generation.
 
 ## On High Elves
 
@@ -2707,6 +2707,10 @@ Additionally, you have the following signature ability. Signature abilities can 
 #### **
 
 **Power Roll + :**
+- **≤11:** px solid 000; border-radius:5px; padding:2px 6px;">≤11</span> | 3 + <b><span style="border:1px solid 000; padding:2px 6px;">R</span>, <span style="border:1px solid 000; padding:2px 6px;">I</span></b> or <b><span style="border:1px solid 000; padding:2px 6px;">P</span></b> damage; slide 1 | |---------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| | <span style="border:1px solid 000; border-radius:5px; padding:2px 6px;">12-16</span> | 5 + <b><span style="border:1px solid 000; padding:2px 6px;">R</span>, <span style="border:1px solid 000; padding:2px 6px;">I</span></b> or <b><span style="border:1px solid 000; padding:2px 6px;">P</span></b> damage; slide 2 | | <span style="border:1px solid 000; border-radius:5px; padding:2px 6px;">17+</span> | 7 + <b><span style="border:1px solid 000; padding:2px 6px;">R</span>, <span style="border:1px solid 000; padding:2px 6px;">I</span></b> or <b><span style="border:1px solid 000; padding:2px 6px;">P</span></b> damage; slide 3 |
+- **12-16:** px solid 000; border-radius:5px; padding:2px 6px;">≤11</span> | 3 + <b><span style="border:1px solid 000; padding:2px 6px;">R</span>, <span style="border:1px solid 000; padding:2px 6px;">I</span></b> or <b><span style="border:1px solid 000; padding:2px 6px;">P</span></b> damage; slide 1 | |---------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| | <span style="border:1px solid 000; border-radius:5px; padding:2px 6px;">12-16</span> | 5 + <b><span style="border:1px solid 000; padding:2px 6px;">R</span>, <span style="border:1px solid 000; padding:2px 6px;">I</span></b> or <b><span style="border:1px solid 000; padding:2px 6px;">P</span></b> damage; slide 2 | | <span style="border:1px solid 000; border-radius:5px; padding:2px 6px;">17+</span> | 7 + <b><span style="border:1px solid 000; padding:2px 6px;">R</span>, <span style="border:1px solid 000; padding:2px 6px;">I</span></b> or <b><span style="border:1px solid 000; padding:2px 6px;">P</span></b> damage; slide 3 |
+- **17+:** ** R**eason ,** I**ntuition or** P**resence:** | <span style="border:1px solid 000; border-radius:5px; padding:2px 6px;">≤11</span> | 3 + <b><span style="border:1px solid 000; padding:2px 6px;">R</span>, <span style="border:1px solid 000; padding:2px 6px;">I</span></b> or <b><span style="border:1px solid 000; padding:2px 6px;">P</span></b> damage; slide 1 | |---------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| | <span style="border:1px solid 000; border-radius:5px; padding:2px 6px;">12-16</span> | 5 + <b><span style="border:1px solid 000; padding:2px 6px;">R</span>, <span style="border:1px solid 000; padding:2px 6px;">I</span></b> or <b><span style="border:1px solid 000; padding:2px 6px;">P</span></b> damage; slide 2 | | <span style="border:1px solid 000; border-radius:5px; padding:2px 6px;">17+</span> | 7 + <b><span style="border:1px solid 000; padding:2px 6px;">R</span>, <span style="border:1px solid 000; padding:2px 6px;">I</span></b> or <b><span style="border:1px solid 000; padding:2px 6px;">P</span></b> damage; slide 3 |
+
 Effect: The sigil disappears from the creature. # TIME RAIDER T he original servitor species of the synliroi—evil psions with near godlike power—the kuran'zoi liberated themselves during the First Psychic War. In the centuries since, they built their own culture and civilization as nomads of the timescape. The exonym "time raiders" was given to them by denizens of the lower worlds who, seeing the advanced technology the kuran'zoi wield, concluded they must be from the future. Extraordinarily rare in Orden, time raiders thrive on the Sea of Stars, the Sea Between Worlds, where the winds of limbo roar. In place of eyes, kuran'zoi possess crystalline ocular sensors that grant them high-spectral vision and which are hardened against the extreme radiations encountered in the Sea of Stars, permitting them to operate freely outside their vessels with only their portable rebreathers. Time raiders also have two sets of arms, allowing them to wield melee weapons at the same time as ranged weapons. A single well-trained kuran'zoi is like a squad unto themself.
 
 ## On Time Raiders
@@ -2839,6 +2843,9 @@ Choose one signature ability from the following options. Signature abilities can
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
 | <span>Image: Range icon</span> Ranged 10                                                                                                                                                                                                                                                                                                                                                                                       | <span>Image: Target icon</span> One creature or object |
 **Power Roll + <span style="font-weight:**
+- **≤11:** 11</b> 2 + <span style="font-weight:bold;">R, I</span> or <span style="font-weight:bold;">P</span> damage;<br><b>12–16</b> 5 + <span style="font-weight:bold;">R, I</span> or <span style="font-weight:bold;">P</span> damage; push 1<br><b>≥17</b> 7 + <span style="font-weight:bold;">R, I</span> or <span style="font-weight:bold;">P</span> damage; push 2; <span style="font-weight:bold;">M &lt; STRONG</span> prone | |
+- **12-16:** weight:bold;">R</span>eason, <span style="font-weight:bold;">I</span>ntuition or <span style="font-weight:bold;">P</span>resence:</b> | | | <b>≤11</b> 2 + <span style="font-weight:bold;">R, I</span> or <span style="font-weight:bold;">P</span> damage;<br><b>12–16</b> 5 + <span style="font-weight:bold;">R, I</span> or <span style="font-weight:bold;">P</span> damage; push 1<br><b>≥17</b> 7 + <span style="font-weight:bold;">R, I</span> or <span style="font-weight:bold;">P</span> damage; push 2; <span style="font-weight:bold;">M &lt; STRONG</span> prone | |
+- **17+:** <span style="font-weight:bold;">R</span>eason, <span style="font-weight:bold;">I</span>ntuition or <span style="font-weight:bold;">P</span>resence:</b> | | | <b>≤11</b> 2 + <span style="font-weight:bold;">R, I</span> or <span style="font-weight:bold;">P</span> damage;<br><b>12–16</b> 5 + <span style="font-weight:bold;">R, I</span> or <span style="font-weight:bold;">P</span> damage; push 1<br><b>≥17</b> 7 + <span style="font-weight:bold;">R, I</span> or <span style="font-weight:bold;">P</span> damage; push 2; <span style="font-weight:bold;">M &lt; STRONG</span> prone | |
 
 #### **Psionic Bolt**
 
@@ -2849,6 +2856,8 @@ Choose one signature ability from the following options. Signature abilities can
 | e Ranged 10                                                                                 | x One creature or object |
 **Power Roll + Reason , Intuition or Presence:**
 - **≤11:** <br>2 + R , I or P psychic damage; slide 1 | |
+- **12-16:** + R , I or P psychic damage; slide 1 | |
+- **17+:** Reason , Intuition or Presence:<br>á<br>2 + R , I or P psychic damage; slide 1 | |
 
 #### **Minor Acceleration**
 
@@ -4416,8 +4425,8 @@ To keep things moving quickly and to make abilities easy to read during play, da
 
 **Power Roll + Might:**
 - **≤11:** 3 + M damage; push 1
-- **12-16:** 6 + M damage; push 2
-- **17+:** 9 + M damage; push 4 Unless otherwise indicated, any effects that are determined by a power roll's tier outcome occur after the power roll's damage has been dealt to all targets. If an ability creates multiple effects, those effects resolve in the order in which they are presented.
+- **12-16:** --------------------|--|--| |---------------------|--|--| á 3 + M damage; push 1 é 6 + M damage; push 2
+- **17+:** Might: | | | |---------------------|--|--| |---------------------|--|--| á 3 + M damage; push 1 é 6 + M damage; push 2 í 9 + M damage; push 4 Unless otherwise indicated, any effects that are determined by a power roll's tier outcome occur after the power roll's damage has been dealt to all targets. If an ability creates multiple effects, those effects resolve in the order in which they are presented.
 
 ## **"During the Move"**
 
@@ -4448,14 +4457,14 @@ As an example, consider the conduit's Judgment's Hammer ability, which has the f
 **Power Roll + :**
 - **≤11:** 3 + I holy damage; a<w, prone
 - **12-16:** 6 + I holy damage; a<v, prone
-- **17+:** 9 + I holy damage; a<s, prone and can't stand (save ends) At 1st level, a conduit uses their Intuition score to determine their potency values, and that score is 2. That gives the conduit the following potencies: Weak: 0 Average: 1 Strong: 2 When writing Judgment's Hammer on their character sheet, the conduit's player updates the damage and converts the weak, average, and strong potencies into their numerical values, knowing that those values won't change until the character hits 2nd echelon and their Intuition score becomes 3. That produces the following:
+- **17+:** ** I**ntuition:** á 3 + I holy damage; a<w, prone é 6 + I holy damage; a<v, prone í 9 + I holy damage; a<s, prone and can't stand (save ends) At 1st level, a conduit uses their Intuition score to determine their potency values, and that score is 2. That gives the conduit the following potencies: Weak: 0 Average: 1 Strong: 2 When writing Judgment's Hammer on their character sheet, the conduit's player updates the damage and converts the weak, average, and strong potencies into their numerical values, knowing that those values won't change until the character hits 2nd echelon and their Intuition score becomes 3. That produces the following:
 
 #### **
 
 **Power Roll + :**
 - **≤11:** 5 holy damage; a<0, prone
 - **12-16:** 8 holy damage; a<1, prone
-- **17+:** 11 holy damage; A<2, prone and can't stand (save ends) 74 Draw Steel This image contains only a graphic symbol resembling a crosshair or a target. There is no text present in the image to transcribe. Classes During a game session, the conduit uses Judgment's Hammer to target a bandit with an Agility score of 0. The ability thus has the following outcomes at each tier: With a tier 1 outcome (11 or lower), the ability deals 5 holy damage to the bandit. But the bandit resists the additional effect because they have Agility 0 (and therefore don't have an Agility of less than 0). With a tier 2 outcome (12–16), the ability deals 8 holy damage. But the bandit is also knocked prone, unable to resist the additional effect because they would need an Agility of 1 or higher to do so. If the bandit had Agility 1 or higher, they would have taken 8 holy damage but stayed standing. With a tier 3 outcome (17 or higher), the bandit takes 11 holy damage and is knocked flat and left struggling to stand, unable to resist the strong potency of the additional effect with a mere Agility 0.
+- **17+:** ** I**ntuition:** á 5 holy damage; a<0, prone é 8 holy damage; a<1, prone í 11 holy damage; A<2, prone and can't stand (save ends) 74 Draw Steel This image contains only a graphic symbol resembling a crosshair or a target. There is no text present in the image to transcribe. Classes During a game session, the conduit uses Judgment's Hammer to target a bandit with an Agility score of 0. The ability thus has the following outcomes at each tier: With a tier 1 outcome (11 or lower), the ability deals 5 holy damage to the bandit. But the bandit resists the additional effect because they have Agility 0 (and therefore don't have an Agility of less than 0). With a tier 2 outcome (12–16), the ability deals 8 holy damage. But the bandit is also knocked prone, unable to resist the additional effect because they would need an Agility of 1 or higher to do so. If the bandit had Agility 1 or higher, they would have taken 8 holy damage but stayed standing. With a tier 3 outcome (17 or higher), the bandit takes 11 holy damage and is knocked flat and left struggling to stand, unable to resist the strong potency of the additional effect with a mere Agility 0.
 
 #### Potency Presentation
 
@@ -4923,10 +4932,10 @@ Choose one signature ability from the following options. Signature abilities can
 
 Z cube within 1
 
-**Power Roll + P**resence**:**
+**Power Roll + Presence:**
 - **≤11:** 2 holy damage; push 1
-- **12-16:** 4 holy damage; push 2
-- **17+:** 6 holy damage; push 3
+- **12-16:** Power Roll + P**resence**: á 2 holy damage; push 1 é 4 holy damage; push 2
+- **17+:** P**resence**: á 2 holy damage; push 1 é 4 holy damage; push 2 í 6 holy damage; push 3
 
 #### **Every Step … Death!**
 
@@ -4936,10 +4945,10 @@ Z cube within 1
 
 e Ranged 10 x One creature
 
-**Power Roll + P**resence**:**
+**Power Roll + Presence:**
 - **≤11:** 5 + P psychic damage
 - **12-16:** 7 + P psychic damage
-- **17+:** 10+ P psychic damage
+- **17+:** P**resence**: á 5 + P psychic damage é 7 + P psychic damage í 10+ P psychic damage
 
 **Effect:** Each time the target willingly moves before the end of your next turn, they take 1 psychic damage for each square they move.
 
@@ -4952,16 +4961,20 @@ e Ranged 10 x One creature
 **Main action**
 One creature or objec
 
-**Power Roll + M**ight:**
+**Power Roll + Might:**
 - **≤11:** 2 + M holy damage; P<w, slowed (save ends)
-- **12-16:** 5 + M holy damage; P<v, slowed (save ends)
-- **17+:** 7 + M holy damage; P<s, slowed (save ends)
+- **12-16:** + M holy damage; P<w, slowed (save ends) é 5 + M holy damage; P<v, slowed (save ends)
+- **17+:** M**ight:** á 2 + M holy damage; P<w, slowed (save ends) é 5 + M holy damage; P<v, slowed (save ends) í 7 + M holy damage; P<s, slowed (save ends)
 
 #### **Your Allies Cannot Save You!**
 
 *Your magic strike turns your foe's guilt into a burst of holy power.*
 
 **Power Roll + Might | Result                   |:**
+- **≤11:** 11 | 3 + <b>M</b> holy damage | | 12–16 | 5 + <b>M</b> holy damage | | 17+ | 8 + <b>M</b> holy damage |
+- **12-16:** -------------------|--------------------------| | ≤11 | 3 + <b>M</b> holy damage | | 12–16 | 5 + <b>M</b> holy damage | | 17+ | 8 + <b>M</b> holy damage |
+- **17+:** Might | Result | |--------------------|--------------------------| | ≤11 | 3 + <b>M</b> holy damage | | 12–16 | 5 + <b>M</b> holy damage | | 17+ | 8 + <b>M</b> holy damage |
+
 **Effect:** Each enemy adjacent to the target is pushed away from the target up to a number of squares equal to your Presence score.
 
 #### Heroic Abilities
@@ -4981,7 +4994,11 @@ Choose one heroic ability from the following options, each of which costs 3 wrat
 **Main action**
 One creature or object
 
-**Power Roll + M**ight:**
+**Power Roll + Might:**
+- **≤11:** 11 | 3 + <b>M</b> holy damage | |-------|--------------------------| | 12-16 | 6 + <b>M</b> holy damage | | 17+ | 9 + <b>M</b> holy damage |
+- **12-16:** 1 | 3 + <b>M</b> holy damage | |-------|--------------------------| | 12-16 | 6 + <b>M</b> holy damage | | 17+ | 9 + <b>M</b> holy damage |
+- **17+:** M**ight:** | ≤11 | 3 + <b>M</b> holy damage | |-------|--------------------------| | 12-16 | 6 + <b>M</b> holy damage | | 17+ | 9 + <b>M</b> holy damage |
+
 **Effect:** Until the start of your next turn, enemies take a bane on ability rolls made against you or any ally adjacent to you.
 
 #### **Driving Assault (3 Wrath)**
@@ -4994,7 +5011,11 @@ One creature or object
 
 One creature or object
 
-**Power Roll + M**ight:**
+**Power Roll + Might:**
+- **≤11:** 11 | 3 + <b>M</b> damage; push 1 | |-------|-----------------------------| | 12–16 | 6 + <b>M</b> damage; push 3 | | 17+ | 9 + <b>M</b> damage; push 5 |
+- **12-16:** 1 | 3 + <b>M</b> damage; push 1 | |-------|-----------------------------| | 12–16 | 6 + <b>M</b> damage; push 3 | | 17+ | 9 + <b>M</b> damage; push 5 |
+- **17+:** M**ight:** | ≤11 | 3 + <b>M</b> damage; push 1 | |-------|-----------------------------| | 12–16 | 6 + <b>M</b> damage; push 3 | | 17+ | 9 + <b>M</b> damage; push 5 |
+
 **Effect:** You can shift up to your speed. You must end this shift within distance of the target.
 
 #### **The Gods Punish and Defend (3 Wrath)**
@@ -5002,9 +5023,9 @@ One creature or object
 *You channel holy energy to smite a foe and heal an ally.*
 
 **Power Roll + <span style="border:**
-- **≤11:** 5 + M holy damage
-- **12-16:** 8 + M holy damage
-- **17+:** 11 + M holy damage
+- **≤11:** 6px;">▲ Melee 1</span><br><br><b>Power Roll + <span style="border:1px solid black;padding:2px;">M</span>ight:</b> | <b>Main action</b><br><span style="font-size:16px;">⌛ One creature or object</span> | |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------| |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------| á 5 + M holy damage
+- **12-16:** size:16px;">▲ Melee 1</span><br><br><b>Power Roll + <span style="border:1px solid black;padding:2px;">M</span>ight:</b> | <b>Main action</b><br><span style="font-size:16px;">⌛ One creature or object</span> | |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------| |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------| á 5 + M holy damage é 8 + M holy damage
+- **17+:** 6px;">▲ Melee 1</span><br><br><b>Power Roll + <span style="border:1px solid black;padding:2px;">M</span>ight:</b> | <b>Main action</b><br><span style="font-size:16px;">⌛ One creature or object</span> | |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------| |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------| á 5 + M holy damage é 8 + M holy damage í 11 + M holy damage
 
 **Effect:** You can spend a Recovery to allow yourself or one ally within 10 squares to regain Stamina equal to your recovery value.
 
@@ -5019,10 +5040,10 @@ One creature or object
 ![target icon](image)
 One creature
 
-**Power Roll + P**resence**:**
+**Power Roll + Presence:**
 - **≤11:** 5 + P holy damage; I<w, dazed (save ends)
 - **12-16:** 8 + P holy damage; I<v, dazed (save ends)
-- **17+:** 11+ P holy damage; I<s, dazed (save ends) ![](_page_84_Picture_67.jpeg) ![triangle icon](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAOCAMAAAACpiplAAAASFBMVEUAAABlZWVlZWVlZWVlZWVkZWVkZWV1dXVnZ2dlZWVkZWVkZWVkZWVkZWVkZWVkZWVkZWVkZWVkZWVlZWVkZWVkZWVlZWVkZWVkZWVkZWVkZWVkzkbgAAAACnRSTlMAcIdqn9xQbKm7xvM35pQAAABqSURBVAjXY2BgZGJAAQMtq6MrFyQnKBYWNTc/bFwwc8754CjszMLYVt3hDaQpGRpYbA5NSweM3BfsLH2MnDipcu8dIwDpYyMjNggcJKASRGDbQEAzLQAH+2TPlsAAAAASUVORK5CYII=) Melee 1 **Roll +** `M`**ight:** ![target symbol](image-url)
+- **17+:** P**resence**: á 5 + P holy damage; I<w, dazed (save ends) é 8 + P holy damage; I<v, dazed (save ends) í 11+ P holy damage; I<s, dazed (save ends) ![](_page_84_Picture_67.jpeg) ![triangle icon](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAOCAMAAAACpiplAAAASFBMVEUAAABlZWVlZWVlZWVlZWVkZWVkZWV1dXVnZ2dlZWVkZWVkZWVkZWVkZWVkZWVkZWVkZWVkZWVkZWVlZWVkZWVkZWVlZWVkZWVkZWVkZWVkZWVkzkbgAAAACnRSTlMAcIdqn9xQbKm7xvM35pQAAABqSURBVAjXY2BgZGJAAQMtq6MrFyQnKBYWNTc/bFwwc8754CjszMLYVt3hDaQpGRpYbA5NSweM3BfsLH2MnDipcu8dIwDpYyMjNggcJKASRGDbQEAzLQAH+2TPlsAAAAASUVORK5CYII=) Melee 1 **Roll +** `M`**ight:** ![target symbol](image-url)
 
 #### **5-Wrath Ability**
 
@@ -5036,6 +5057,10 @@ Choose one heroic ability from the following options, each of which costs 5 wrat
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------|
 | Melee 1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | <b>Main action</b><br>One creature |
 **Power Roll + <span style="border:**
+- **≤11:** px solid black; padding:0 2px;">M</span>ight:</b><br><b>≤11</b> 6 + <span style="border:1px solid black; padding:0 2px;">M</span> holy damage; grabbed<br><b>12–16</b> 9 + <span style="border:1px solid black; padding:0 2px;">M</span> holy damage; grabbed<br><b>17+</b> 13 + <span style="border:1px solid black; padding:0 2px;">M</span> holy damage; grabbed | | | <b>
+- **12-16:** px solid black; padding:0 2px;">M</span>ight:</b><br><b>≤11</b> 6 + <span style="border:1px solid black; padding:0 2px;">M</span> holy damage; grabbed<br><b>12–16</b> 9 + <span style="border:1px solid black; padding:0 2px;">M</span> holy damage; grabbed<br><b>17+</b> 13 + <span style="border:1px solid black; padding:0 2px;">M</span> holy damage; grabbed | | | <b>
+- **17+:** <span style="border:1px solid black; padding:0 2px;">M</span>ight:</b><br><b>≤11</b> 6 + <span style="border:1px solid black; padding:0 2px;">M</span> holy damage; grabbed<br><b>12–16</b> 9 + <span style="border:1px solid black; padding:0 2px;">M</span> holy damage; grabbed<br><b>17+</b> 13 + <span style="border:1px solid black; padding:0 2px;">M</span> holy damage; grabbed | | | <b>
+
 Effect:</b> If the target makes a strike against a creature while grabbed this way, you can spend 3 wrath to deal holy damage to them equal to your Presence score, then change the target of the strike to another target within the strike's distance. | | | <b>Behold the Face of Justice! (5 Wrath)</b><br><i>You attack a foe and your enemies behold a vision of the true nature of your resolve.</i> | | | Magic, Melee, Ranged, Strike, Weapon | | | Melee 1 or ranged 5 | <b>Main action</b><br>One creature | | <b>Power Roll + <span style="border:1px solid black; padding:0 2px;">M</span>ight:</b><br><b>≤11</b> 3 + <span style="border:1px solid black; padding:0 2px;">M</span> holy damage; if the target has <span style="border:1px solid black; padding:0 2px;">P &lt; WEAK</span> , each enemy within 2 squares of them is frightened of you (save ends)<br><b>12–16</b> 5 + <span style="border:1px solid black; padding:0 2px;">M</span> holy damage; if the target has <span style="border:1px solid black; padding:0 2px;">P &lt; AVERAGE</span> , each enemy within 2 squares of them is frightened of you (save ends)<br><b>17+</b> 8 + <span style="border:1px solid black; padding:0 2px;">M</span> holy damage; if the target has <span style="border:1px solid black; padding:0 2px;">P &lt; STRONG</span> , each enemy within 2 squares of them is frightened of you (save ends) | | | <b>Effect:</b> Each enemy frightened this way is pushed up to 2 squares away from the target and takes psychic damage equal to your Presence score. | | | <b>Censored (5 Wrath)</b> | | | <i>Judged and sentenced.</i> | |
 
 #### **Behold the Face of Justice! (5 Wrath)**
@@ -5047,10 +5072,10 @@ Effect:</b> If the target makes a strike against a creature while grabbed this w
 
 e Melee 1 x One creature
 
-**Power Roll + M**ight:**
+**Power Roll + Might:**
 - **≤11:** 2 + M holy damage
-- **12-16:** 3 + M holy damage
-- **17+:** 5 + M holy damage
+- **12-16:** + M holy damage é 3 + M holy damage
+- **17+:** M**ight:** á 2 + M holy damage é 3 + M holy damage í 5 + M holy damage
 
 **Effect:** When a target who is not a leader or solo creature is made winded by this ability, they are reduced to 0 Stamina. | Purifying Fire (5 Wrath) | | |----------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| | <i>The gods judge, fire cleanses.</i> | | | <b>Magic, Melee, Ranged, Strike, Weapon</b> | | | Melee 1 or ranged 5 | | | Main action | One creature | | <b>Power Roll + <span style="border:1px solid #000;padding:1px 4px;">Might</span>:</b> | | | $≤11$ | 5 + <span style="border:1px solid #000;padding:1px 4px;">M</span> holy damage; <span style="border:1px solid #000;background:#000;color:#fff;padding:1px 4px;">M &lt; WEAK</span> the target has fire weakness 3 (save ends) | | $12-16$ | 9 + <span style="border:1px solid #000;padding:1px 4px;">M</span> holy damage; <span style="border:1px solid #000;background:#000;color:#fff;padding:1px 4px;">M &lt; AVERAGE</span> the target has fire weakness 5 (save ends) | í 12 + M holy damage; M<s, the target has fire weakness 7 (save ends) **Effect:** While the target has fire weakness from this ability, you can choose to have your abilities deal fire damage to the target instead of holy damage. ![](_page_85_Picture_21.jpeg)
 
@@ -5114,10 +5139,10 @@ Choose one of the following abilities.
 
 e Ranged 10 x One creature
 
-**Power Roll + M**ight:**
+**Power Roll + Might:**
 - **≤11:** 8 + M holy damage; P<w, frightened (save ends)
 - **12-16:** 12 + M holy damage; P<v, frightened (save ends)
-- **17+:** 15 + M holy damage; P<s, frightened (save ends)
+- **17+:** M**ight:** á 8 + M holy damage; P<w, frightened (save ends) é 12 + M holy damage; P<v, frightened (save ends) í 15 + M holy damage; P<s, frightened (save ends)
 
 **Effect:** If the target is already frightened of you or another creature and this ability would frighten them again, they instead take psychic damage equal to twice your Presence score.
 
@@ -5183,10 +5208,10 @@ Choose one of the following abilities.
 |------------------------------|---------------------------------|
 | Image: triangle icon Melee 1 | Image: target icon One creature |
 
-**Power Roll + P**resence**:**
+**Power Roll + Presence:**
 - **≤11:** 5 + Pdamage; P<w, restrained (save ends)
 - **12-16:** 9 + Pdamage; P<v, restrained (save ends)
-- **17+:** 12 + P damage; P<s, restrained (save ends) If *damage*, **contents** restrained (save ends)
+- **17+:** P**resence**: á 5 + Pdamage; P<w, restrained (save ends) é 9 + Pdamage; P<v, restrained (save ends) í 12 + P damage; P<s, restrained (save ends) If *damage*, **contents** restrained (save ends)
 
 **Effect:** While the target is restrained this way, your abilities that impose forced movement can still move them.
 
@@ -5415,8 +5440,8 @@ The image contains a symbol that looks like a crosshair or target, with a black 
 
 **Power Roll + Presence:**
 - **≤11:** Each target gains 1 surge.
-- **12-16:** Each target gains 2 surges.
-- **17+:** Each target gains 3 surges. *You channel your god's will to overcome hardship and inflict pain.*
+- **12-16:** surge. é Each target gains 2 surges.
+- **17+:** Presence: á Each target gains 1 surge. é Each target gains 2 surges. í Each target gains 3 surges. *You channel your god's will to overcome hardship and inflict pain.*
 
 **Effect:** A target can end one effect on them that is ended by a saving throw or that ends at the end of their turn, or a prone target can stand up.
 
@@ -5435,8 +5460,8 @@ One creature
 
 **Power Roll + Might:**
 - **≤11:** 10 + M damage
-- **12-16:** 14 + M damage
-- **17+:** 20 + M damage
+- **12-16:** 0 + M damage é 14 + M damage
+- **17+:** Might: á 10 + M damage é 14 + M damage í 20 + M damage
 
 **Effect:** Until the end of the encounter, whenever any ally deals damage to a target judged by you, that ally gains 1 surge.
 
@@ -5450,8 +5475,8 @@ e Melee 1 x One creature
 
 **Power Roll + Might:**
 - **≤11:** 10 + M damage; you and each ally adjacent to you gain 10 temporary Stamina
-- **12-16:** 14 + M damage; you and each ally adjacent to you gain 15 temporary Stamina
-- **17+:** 20 + M damage; you and each ally adjacent to you gain 20 temporary Stamina
+- **12-16:** 0 + M damage; you and each ally adjacent to you gain 10 temporary Stamina é 14 + M damage; you and each ally adjacent to you gain 15 temporary Stamina
+- **17+:** Might: á 10 + M damage; you and each ally adjacent to you gain 10 temporary Stamina é 14 + M damage; you and each ally adjacent to you gain 15 temporary Stamina í 20 + M damage; you and each ally adjacent to you gain 20 temporary Stamina
 
 ## 6th-Level Features
 
@@ -5489,7 +5514,7 @@ Choose one of the following abilities.
 **Power Roll + Presence:**
 - **≤11:** 4 psychic damage; slide 3
 - **12-16:** 6 psychic damage; slide 5
-- **17+:** 8 psychic damage; slide 7
+- **17+:** Presence: á 4 psychic damage; slide 3 é 6 psychic damage; slide 5 í 8 psychic damage; slide 7
 
 #### **Pain of Your Own Making (9 Wrath)**
 
@@ -5518,7 +5543,7 @@ Choose one of the following abilities.
 **Power Roll + Presence:**
 - **≤11:** Slide 3; I<w, dazed (save ends)
 - **12-16:** Slide 5; I<v, dazed (save ends)
-- **17+:** Slide 7; I<s, dazed (save ends)
+- **17+:** Presence: á Slide 3; I<w, dazed (save ends) é Slide 5; I<v, dazed (save ends) í Slide 7; I<s, dazed (save ends)
 
 #### **Edict of Peace (9 Wrath)**
 
@@ -5547,8 +5572,8 @@ One creature
 
 **Power Roll + Might:**
 - **≤11:** 8 + M damage; as a free triggered action, one ally within 10 squares of the target can use a strike signature ability against the target
-- **12-16:** 12 + M damage; as a free triggered action, one ally within 10 squares of the target can use a strike signature ability that gains an edge against the target
-- **17+:** 16 + Mdamage; as a free triggered action, two allies within 10 squares of the target can each use a strike signature ability that gains an edge against the target
+- **12-16:** 0 squares of the target can use a strike signature ability against the target é 12 + M damage; as a free triggered action, one ally within 10 squares of the target can use a strike signature ability that gains an edge against the target
+- **17+:** Might: á 8 + M damage; as a free triggered action, one ally within 10 squares of the target can use a strike signature ability against the target é 12 + M damage; as a free triggered action, one ally within 10 squares of the target can use a strike signature ability that gains an edge against the target í 16 + Mdamage; as a free triggered action, two allies within 10 squares of the target can each use a strike signature ability that gains an edge against the target
 
 **Effect:** Each ally can shift up to 2 squares and gains 2 surges before making the strike.
 
@@ -5739,16 +5764,16 @@ Choose one heroic ability from the following options, each of which costs 11 wra
 #### **Excommunication (11 Wrath)**
 
 **Power Roll + Might:**
-- **≤11:** 9 + M damage; I<w, weakened (save ends)
-- **12-16:** 13 + M damage; I<v, weakened (save ends)
-- **17+:** 18 + Mdamage; I<s, weakened (save ends)
+- **≤11:** x One creature Power Roll + Might: á 9 + M damage; I<w, weakened (save ends)
+- **12-16:** x One creature Power Roll + Might: á 9 + M damage; I<w, weakened (save ends) é 13 + M damage; I<v, weakened (save ends)
+- **17+:** x One creature Power Roll + Might: á 9 + M damage; I<w, weakened (save ends) é 13 + M damage; I<v, weakened (save ends) í 18 + Mdamage; I<s, weakened (save ends)
 
 **Effect:** At the end of each of your turns, a target weakened this way deals holy damage equal to twice your Presence score to each enemy within 2 squares of them. Additionally, a target weakened this way can't be targeted by their allies' abilities. | Type | Ranged, Strike, Weapon | |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------| | Range | Ranged 10 | | Main Action | One creature | | Power Roll + <b>M</b> ight: | | |  | 10 + <b>M</b> damage | | 12-16 | 15 + <b>M</b> damage | | 17+ | 21 + <b>M</b> damage | | <b>Effect:</b> Until the end of the encounter, while the target is judged by you, you can choose to make them the source of any of your abilities. Additionally, the target counts as an ally for the purpose of flanking. | | | Melee, Strike, Weapon | Main action | |---------------------------------|-----------------------------------| | Image: Triangle icon<br>Melee 1 | Image: Clock icon<br>One creature | **Main action** One creature
 
 **Power Roll + Might:**
 - **≤11:** 9 + M damage; I<w, dazed (save ends)
 - **12-16:** 13 + M damage; I<v, dazed (save ends)
-- **17+:** 18 + Mdamage; I<s, dazed (save ends)
+- **17+:** Might: á 9 + M damage; I<w, dazed (save ends) é 13 + M damage; I<v, dazed (save ends) í 18 + Mdamage; I<s, dazed (save ends)
 
 **Effect:** At the end of each of your turns, a target dazed this way deals holy damage equal to twice your Presence score to each enemy within 2 squares of them. ![](_page_93_Picture_17.jpeg)
 
@@ -5798,7 +5823,7 @@ e Melee 1 x One creature
 **Power Roll + Might:**
 - **≤11:** 5 + M damage; P<w, the target is banished (save ends)
 - **12-16:** 8 + M damage; P<v, the target is banished (save ends)
-- **17+:** 11 + Mdamage; P<s, the target is banished (save ends)
+- **17+:** Might: á 5 + M damage; P<w, the target is banished (save ends) é 8 + M damage; P<v, the target is banished (save ends) í 11 + Mdamage; P<s, the target is banished (save ends)
 
 **Effect:** This ability gains an edge against demons, devils, undead, and creatures not native to your current world. If you know the target's true name, this ability has a double edge. While banished, the target is sent to another manifold in the timescape and removed from the encounter map. A banished target can do nothing but make saving throws, and takes 10 holy damage each time they do so. If the target is reduced to 0 Stamina while banished, they are lost to the timescape.
 
@@ -5814,6 +5839,9 @@ e Melee 1 x One creature
 | <span>17+</span>             | 13 + <b>P</b> psychic damage; <b style="background:black;color:white;">P &lt; STRONG.</b> frightened (save ends)  |
 
 **Power Roll + Presence:**
+- **12-16:** 5 psychic damage. If a target frightened this way is not a leader or solo creature and is winded, they are reduced to 0 Stamina.
+- **17+:** Presence:
+
 **Effect:** While frightened this way, if a target who is a leader or solo creature is winded, they take an extra 25 psychic damage. If a target frightened this way is not a leader or solo creature and is winded, they are reduced to 0 Stamina.
 
 #### 9th-Level Oracle Abilities
@@ -5861,6 +5889,10 @@ Choose one of the following abilities.
 | Image: Melee icon Melee 1 | Image: Clock icon One creature |
 
 **Power Roll + <b style="background:**
+- **≤11:** 11 | 13 + <b style="background:black;color:white;padding:0 2px;">M</b> holy damage | | 12–16 | 19 + <b style="background:black;color:white;padding:0 2px;">M</b> holy damage | | 17+ | 26 + <b style="background:black;color:white;padding:0 2px;">M</b> holy damage |
+- **12-16:** px;">M</b> ight: | | |---------------------------------------------------------------------------------|-------------------------------------------------------------------------------| | ≤11 | 13 + <b style="background:black;color:white;padding:0 2px;">M</b> holy damage | | 12–16 | 19 + <b style="background:black;color:white;padding:0 2px;">M</b> holy damage | | 17+ | 26 + <b style="background:black;color:white;padding:0 2px;">M</b> holy damage |
+- **17+:** <b style="background:black;color:white;padding:0 2px;">M</b> ight: | | |---------------------------------------------------------------------------------|-------------------------------------------------------------------------------| | ≤11 | 13 + <b style="background:black;color:white;padding:0 2px;">M</b> holy damage | | 12–16 | 19 + <b style="background:black;color:white;padding:0 2px;">M</b> holy damage | | 17+ | 26 + <b style="background:black;color:white;padding:0 2px;">M</b> holy damage |
+
 **Effect:** Until the end of the encounter or until you are dying, the target has damage weakness 10.
 
 #### **Edict of Unyielding Resolve (11 Wrath)**
@@ -6231,8 +6263,8 @@ You have the following ability, which can be used as a ranged free strike.
 
 **Power Roll + Intuition:**
 - **≤11:** 2 + I damage
-- **12-16:** 4 + I damage
-- **17+:** 6 + I damage
+- **12-16:** + I damage é 4 + I damage
+- **17+:** Intuition: á 2 + I damage é 4 + I damage í 6 + I damage
 
 **Effect:** You can have this ability deal holy damage.
 
@@ -6329,7 +6361,7 @@ e Ranged 10 x One creature or object
 **Power Roll + Intuition:**
 - **≤11:** 3 + I holy damage
 - **12-16:** 5 + I holy damage
-- **17+:** 8 + I holy damage
+- **17+:** Intuition: á 3 + I holy damage é 5 + I holy damage í 8 + I holy damage
 
 **Effect:** One ally within distance gains a number of surges equal to the tier outcome of your power roll.
 
@@ -6341,8 +6373,8 @@ e Ranged 10 x One creature or object
 
 **Power Roll + Intuition:**
 - **≤11:** 2 + I corruption damage
-- **12-16:** 5 + I corruption damage
-- **17+:** 7 + I corruption damage
+- **12-16:** + I corruption damage é 5 + I corruption damage
+- **17+:** Intuition: á 2 + I corruption damage é 5 + I corruption damage í 7 + I corruption damage
 
 **Effect:** You or one ally within distance can spend a Recovery.
 
@@ -6353,7 +6385,9 @@ e Ranged 10 x One creature or object
 #### **Magic, Ranged, Strike Main action** e Ranged 10 x One creature or object
 
 **Power Roll + Intuition:**
-- **17+:** 8 + I holy damage; vertical pull 4
+- **≤11:** 11 | 3 + Image: black square holy damage; vertical pull 2 | |-------|------------------------------------------------------| | 12–16 | 5 + Image: black square holy damage; vertical pull 3 |
+- **12-16:** 1 | 3 + Image: black square holy damage; vertical pull 2 | |-------|------------------------------------------------------| | 12–16 | 5 + Image: black square holy damage; vertical pull 3 |
+- **17+:** Intuition: | ≤11 | 3 + Image: black square holy damage; vertical pull 2 | |-------|------------------------------------------------------| | 12–16 | 5 + Image: black square holy damage; vertical pull 3 | í 8 + I holy damage; vertical pull 4
 
 #### **Lightfall**
 
@@ -6363,8 +6397,8 @@ e Ranged 10 x One creature or object
 
 **Power Roll + Intuition:**
 - **≤11:** 2 holy damage
-- **12-16:** 3 holy damage
-- **17+:** 5 holy damage
+- **12-16:** holy damage é 3 holy damage
+- **17+:** Intuition: á 2 holy damage é 3 holy damage í 5 holy damage
 
 **Effect:** You can teleport yourself and each ally in the area to unoccupied spaces in the area.
 
@@ -6377,6 +6411,10 @@ e Ranged 10 x One creature or object
 | Image: triangle burst icon<br>Ranged 10 |  | Image: stopwatch icon<br>One creature |
 
 **Power Roll + Intuition:**
+- **≤11:** 11 | 2 + <span>Image: black square with white I</span> corruption damage | |-------|---------------------------------------------------------------------| | 12–16 | 4 + <span>Image: black square with white I</span> corruption damage | | 17+ | 6 + <span>Image: black square with white I</span> corruption damage |
+- **12-16:** 1 | 2 + <span>Image: black square with white I</span> corruption damage | |-------|---------------------------------------------------------------------| | 12–16 | 4 + <span>Image: black square with white I</span> corruption damage | | 17+ | 6 + <span>Image: black square with white I</span> corruption damage |
+- **17+:** Intuition: | ≤11 | 2 + <span>Image: black square with white I</span> corruption damage | |-------|---------------------------------------------------------------------| | 12–16 | 4 + <span>Image: black square with white I</span> corruption damage | | 17+ | 6 + <span>Image: black square with white I</span> corruption damage |
+
 **Effect:** Choose yourself or one ally within distance. That character can impose a bane on one power roll made against them before the end of their next turn.
 
 #### **Staggering Curse**
@@ -6388,6 +6426,9 @@ e Ranged 10 x One creature or object
 | Image: Melee icon Melee 1 | Image: Target icon One creature or object |
 
 **Power Roll + Intuition:**
+- **≤11:** px solid; border-radius: 8px; padding:2px 8px;">≤11</span> | 3 + <span style="display:inline-block;width:14px;height:14px;background: 000;color: fff;text-align:center;vertical-align:middle;">■</span> holy damage; slide 1 | | <span style="border: 1px solid; border-radius: 8px; padding:2px 8px;">12–16</span> | 5 + <span style="display:inline-block;width:14px;height:14px;background: 000;color: fff;text-align:center;vertical-align:middle;">■</span> holy damage; slide 2 | | <span style="border: 1px solid; border-radius: 8px; padding:2px 8px;">17+</span> | 8 + <span style="display:inline-block;width:14px;height:14px;background: 000;color: fff;text-align:center;vertical-align:middle;">■</span> holy damage; slide 3 |
+- **12-16:** -----------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------| | <span style="border: 1px solid; border-radius: 8px; padding:2px 8px;">≤11</span> | 3 + <span style="display:inline-block;width:14px;height:14px;background: 000;color: fff;text-align:center;vertical-align:middle;">■</span> holy damage; slide 1 | | <span style="border: 1px solid; border-radius: 8px; padding:2px 8px;">12–16</span> | 5 + <span style="display:inline-block;width:14px;height:14px;background: 000;color: fff;text-align:center;vertical-align:middle;">■</span> holy damage; slide 2 | | <span style="border: 1px solid; border-radius: 8px; padding:2px 8px;">17+</span> | 8 + <span style="display:inline-block;width:14px;height:14px;background: 000;color: fff;text-align:center;vertical-align:middle;">■</span> holy damage; slide 3 |
+- **17+:** Intuition: | Range | Effect | |------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------| | <span style="border: 1px solid; border-radius: 8px; padding:2px 8px;">≤11</span> | 3 + <span style="display:inline-block;width:14px;height:14px;background: 000;color: fff;text-align:center;vertical-align:middle;">■</span> holy damage; slide 1 | | <span style="border: 1px solid; border-radius: 8px; padding:2px 8px;">12–16</span> | 5 + <span style="display:inline-block;width:14px;height:14px;background: 000;color: fff;text-align:center;vertical-align:middle;">■</span> holy damage; slide 2 | | <span style="border: 1px solid; border-radius: 8px; padding:2px 8px;">17+</span> | 8 + <span style="display:inline-block;width:14px;height:14px;background: 000;color: fff;text-align:center;vertical-align:middle;">■</span> holy damage; slide 3 |
 
 #### **Warrior's Prayer**
 
@@ -6400,14 +6441,14 @@ e Ranged 10 x One creature or object
 **Power Roll + Intuition:**
 - **≤11:** 3 + I holy damage
 - **12-16:** 6 + I holy damage
-- **17+:** 9 + I holy damage 6 + ▮ *Divine m* -- **Magic, R** The image contains a circular target-like symbol, with concentric circles and crosshair lines passing through the center. There is no text present in the image.
+- **17+:** Intuition: á 3 + I holy damage é 6 + I holy damage í 9 + I holy damage 6 + ▮ *Divine m* -- **Magic, R** The image contains a circular target-like symbol, with concentric circles and crosshair lines passing through the center. There is no text present in the image.
 
 ## on their next power roll é 5 + I corruption damage; P<v, the target takes a bane on their next power roll í 8 + I corruption damage; P<s, the target takes a bane on their next power roll Heroic Abilities You make use of a number of heroic abilities, all of which channel piety to empower them. **3-Piety Ability** Choose one heroic ability from the following options, each of which costs 3 piety to use. (*Quick Build:* Violence Will Not Aid Thee.) **Call the Thunder Down (3 Piety)** *You ask your saint for thunder and your prayer is answered.* **Area, Magic, Ranged Main action** e 3 cube within 10 x Each enemy in the area
 
 **Power Roll + Intuition:**
 - **≤11:** 2 sonic damage; push 1
-- **12-16:** 3 sonic damage; push 2
-- **17+:** 5 sonic damage; push 3
+- **12-16:** sonic damage; push 1 é 3 sonic damage; push 2
+- **17+:** Intuition: á 2 sonic damage; push 1 é 3 sonic damage; push 2 í 5 sonic damage; push 3
 
 **Effect:** You can push each willing ally in the area the same distance, ignoring stability. **Font of Wrath (3 Piety)** *A brilliant column of holy light appears on the battlefield, striking out at nearby enemies.* **Magic, Ranged Main action** e Ranged 10 x Special **Effect:** You summon a spirit of size 2 who can't be harmed, and who appears in an unoccupied space within distance. The spirit lasts until the end of your next turn. You and your allies can move through the spirit's space, but enemies can't. Any enemy who moves within 2 squares of the spirit for the first time in a combat round or starts their turn there takes holy damage equal to your Intuition score. **Judgment's Hammer (3 Piety)** *Your divine fury is a hammer that crashes down upon the unrighteous.* **Magic, Ranged, Strike Main action** e Ranged 10 x One creature or object Power Roll + Intuition: á 3 + I holy damage; A<w, prone é 6 + I holy damage; A<v, prone í 9 + I holy damage; A<s, prone and can't stand (save ends) (save ends). **5-Piety Ability** e Ranged 10 x One creature or object (save ends) (save ends) (save ends) e Ranged 10 x One creature stand up if prone. Draw Steel.indb 100 6/24/25 2:48 PM
 
@@ -6422,7 +6463,7 @@ e Ranged 10 x One creature or object
 **Power Roll + Intuition:**
 - **≤11:** 3 + I lightning damage
 - **12-16:** 6 + I lightning damage
-- **17+:** 9 + I lightning damage
+- **17+:** Intuition: á 3 + I lightning damage é 6 + I lightning damage í 9 + I lightning damage
 
 **Effect:** The first time on a turn that the target deals damage to another creature, the target of this ability takes 1d10 lightning damage Choose one heroic ability from the following options, each of which costs 5 piety to use. (*Quick Build:* Curse of Terror.)
 
@@ -6439,7 +6480,7 @@ e Ranged 10 x One creature or object
 **Power Roll + Intuition:**
 - **≤11:** 3 + I corruption damage; M<w, damage weakness 5
 - **12-16:** 6 + I corruption damage; M<v, damage weakness 5
-- **17+:** 9 + I corruption damage; M<s, damage weakness 5
+- **17+:** Intuition: á 3 + I corruption damage; M<w, damage weakness 5 é 6 + I corruption damage; M<v, damage weakness 5 í 9 + I corruption damage; M<s, damage weakness 5
 
 #### **Curse of Terror (5 Piety)**
 
@@ -6453,8 +6494,8 @@ One creature
 
 **Power Roll + Intuition:**
 - **≤11:** 6 + I holy damage; I<w, frightened (save ends)
-- **12-16:** 9 + I holy damage; I<v, frightened (save ends)
-- **17+:** 13 + I holy damage; I<s, frightened (save ends)
+- **12-16:** + I holy damage; I<w, frightened (save ends) é 9 + I holy damage; I<v, frightened (save ends)
+- **17+:** Intuition: á 6 + I holy damage; I<w, frightened (save ends) é 9 + I holy damage; I<v, frightened (save ends) í 13 + I holy damage; I<s, frightened (save ends)
 
 #### **Faith Is Our Armor (5 Piety)**
 
@@ -6473,7 +6514,7 @@ One creature
 **Power Roll + Intuition:**
 - **≤11:** The target gains 5 temporary Stamina.
 - **12-16:** The target gains 10 temporary Stamina.
-- **17+:** The target gains 15 temporary Stamina.
+- **17+:** Intuition: á The target gains 5 temporary Stamina. é The target gains 10 temporary Stamina. í The target gains 15 temporary Stamina.
 
 #### **Sermon of Grace (5 Piety)**
 
@@ -6490,7 +6531,9 @@ Draw Steel.indb
 **Wither**
 
 **Power Roll + Intuition:**
-- **≤11:** 3 + I corruption damage; P<w, the target takes a bane 100 Draw Steel
+- **≤11:** 0 x One creature or object á 3 + I corruption damage; P<w, the target takes a bane 100 Draw Steel
+- **12-16:** 0 x One creature or object á 3 + I corruption damage; P<w, the target takes a bane 100 Draw Steel
+- **17+:** Intuition: *A bolt of holy energy saps the life from a foe.* **Magic, Ranged, Strike Main action** e Ranged 10 x One creature or object á 3 + I corruption damage; P<w, the target takes a bane 100 Draw Steel
 
 ## 2nd-Level Features
 
@@ -6571,7 +6614,7 @@ e Ranged 10 x Self and each ally
 **Power Roll + Intuition:**
 - **≤11:** 4 + I holy damage; P<w, before taking damage, the target makes a free strike against a target you choose
 - **12-16:** 7 + I holy damage; P<v, before taking damage, the target uses an ability of your choice and you choose any targets for that ability
-- **17+:** 11 + I holy damage; P<s, before taking damage, the target shifts up to their speed to a location you choose, uses an ability of your choice, and you choose any targets for that ability
+- **17+:** Intuition: á 4 + I holy damage; P<w, before taking damage, the target makes a free strike against a target you choose é 7 + I holy damage; P<v, before taking damage, the target uses an ability of your choice and you choose any targets for that ability í 11 + I holy damage; P<s, before taking damage, the target shifts up to their speed to a location you choose, uses an ability of your choice, and you choose any targets for that ability
 
 #### **Morning Light (5 Piety)**
 
@@ -6582,7 +6625,7 @@ e Ranged 10 x Self and each ally
 **Power Roll + Intuition:**
 - **≤11:** 4 fire damage
 - **12-16:** 6 fire damage
-- **17+:** 10 fire damage
+- **17+:** Intuition: á 4 fire damage é 6 fire damage í 10 fire damage
 
 **Effect:** Each ally in the area deals fire damage equal to your Intuition score with their next strike made before the end of their next turn.
 
@@ -6595,22 +6638,22 @@ e Ranged 10 x Self and each ally
 | Image: Area icon<br>3 cube within 10                    | Image: Target icon<br>Each enemy in the area |
 **Power Roll + :**
 - **≤11:** 2 damage; A<w, restrained (save ends)
-- **12-16:** 3 damage; A<v, restrained (save ends)
-- **17+:** 7 damage; A<s, restrained (save ends) ![](https://via.placeholder.com/33x38)
+- **12-16:** damage; A<w, restrained (save ends) é 3 damage; A<v, restrained (save ends)
+- **17+:** </b> Image: Skill icon <b>Intuition:</b> | | á 2 damage; A<w, restrained (save ends) é 3 damage; A<v, restrained (save ends) í 7 damage; A<s, restrained (save ends) ![](https://via.placeholder.com/33x38)
 
 #### **Our Hearts Your Strength (5 Piety)** *An ally gains strength from their friends.* **Magic, Ranged Maneuver** e Ranged 10 x Self and one ally **Effect:** Until the end of the encounter or until the target is dying, at the start of each of the target's turns, they gain a bonus to speed and a bonus to rolled damage equal to the number of allies within 10 squares of them. This bonus lasts until the start of their next turn. **Reap (5 Piety)** *The gods reward those who smite their foes.* **Magic, Ranged Maneuver** e Ranged 10 x Each ally **Effect:** Until the start of your next turn, each time a target kills an enemy, they regain Stamina equal to 5 + your Intuition score. **Sacred Bond (5 Piety)** *You forge a divine connection between two creatures.* **Magic, Ranged Maneuver** e Ranged 10 x Self and one ally **Effect:** Until the end of the encounter, whenever one target takes damage, the other target can use a free triggered action to take the damage instead. The original target suffers any effects associated with the damage. Additionally, whenever one target spends a Recovery, the other target can use a free triggered action to spend a Recovery. **Saint's Tempest (5 Piety)** *A raging storm appears, striking your foes with lightning and throwing them around with wind.* **Area, Magic, Ranged Main action** e 3 cube within 10 x Each enemy in the area
 
 **Power Roll + Intuition:**
 - **≤11:** 2 lightning damage; vertical slide 1
-- **12-16:** 5 lightning damage; vertical slide 2
-- **17+:** 7 lightning damage; vertical slide 3 **Statue of Power (5 Piety)** *A marble statue of your deity rises from the earth.* **Magic, Ranged Maneuver** e Ranged 10 x Special
+- **12-16:** lightning damage; vertical slide 1 é 5 lightning damage; vertical slide 2
+- **17+:** Intuition: á 2 lightning damage; vertical slide 1 é 5 lightning damage; vertical slide 2 í 7 lightning damage; vertical slide 3 **Statue of Power (5 Piety)** *A marble statue of your deity rises from the earth.* **Magic, Ranged Maneuver** e Ranged 10 x Special
 
 **Effect:** A size 2 statue rises out of the ground in an unoccupied space within distance and lasts until the end of the encounter. While within 3 squares of the statue, you gain 1 surge at the start of each of your turns. Each ally within 3 squares of the statue gains this same benefit. The statue is destroyed if it takes 20 or more damage. It has immunity all to poison and psychic damage. **Wellspring of Grace (5 Piety)** *A holy light is emitted from your body, healing your allies.* **Area, Magic Main action** e 3 aura x Each ally in the area **Effect:** Until the end of the encounter or until you are dying, whenever a target starts their turn in the area, they can spend a Recovery. 3rd-Level Features As a 3rd-level conduit, you gain the following features. **Minor Miracle** As a respite activity, you can perform a religious ritual and beseech the gods to restore a dead creature to life. You must have at least half the creature's remains, and they must have died within the last 24 hours from an effect that isn't age related. The creature's soul must be willing to return to life for the ritual to work. If they are not willing, you instinctively understand that as you start the respite activity and can cease it immediately. A creature with a willing soul returns to life at the end of the respite with full Stamina and half their Recoveries. You regain only half your Recoveries at the end of the respite. **7-Piety Ability** Choose one heroic ability from the following options, each of which costs 7 piety to use. **Fear of the Gods (7 Piety)** *Your divine magic makes a creature appear as what your enemies fear most.* **Area, Magic, Ranged Main action** e 5 cube within 10 x Each enemy in the area Power Roll + Intuition: á 6 psychic damage; I<w, frightened (save ends) é 9 psychic damage; I<v, frightened (save ends) í 13 psychic damage; I<s, frightened (save ends) **Effect:** Each target is frightened of you or a creature you choose within distance. **Saint's Raiment (7 Piety)** *An ally becomes the wearer of an empowered golden cloak.* **Magic, Ranged Maneuver** e Ranged 10 x One ally **Effect:** The target gains 20 temporary Stamina and 3 surges. **Soul Siphon (7 Piety)** *A beam of energy connects a foe to a friend, draining life from one to heal the other.* **Magic, Ranged, Strike Main action** e Ranged 10 x One enemy Power Roll + Intuition: á 7 + I corruption damage é 10 + I corruption damage í 15 + I corruption damage **Effect:** One ally within distance can spend any number of Recoveries. There is no text present in the image. The image only contains a geometric black and white pattern. Draw Steel ![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Crosshair.svg/1200px-Crosshair.svg.png) *No text is present in the image; it is a graphical icon resembling a crosshair or target symbol.* There is no text present in the provided image. The image consists of a black circle with a crosshair overlay on it, resembling a target or scope reticle. There is no written or printed content to be represented in markdown. ![](_page_105_Picture_1.jpeg) **Area, Magic** **Area, Magic Main action** e 5 burst x Each enemy in the area
 
 **Power Roll + Intuition:**
 - **≤11:** 2 holy damage
-- **12-16:** 5 holy damage
-- **17+:** 7 holy damage 
+- **12-16:** holy damage é 5 holy damage
+- **17+:** Intuition: á 2 holy damage é 5 holy damage í 7 holy damage 
 
 ## 4th-Level Features
 
@@ -6749,7 +6792,7 @@ One creature
 **Power Roll + Intuition:**
 - **≤11:** 8 + I holy damage
 - **12-16:** 13 + I holy damage
-- **17+:** 17 + I holy damage
+- **17+:** Intuition: á 8 + I holy damage é 13 + I holy damage í 17 + I holy damage
 
 **Effect:** Until the end of the encounter, whenever you or any ally damages the target using an ability, that creature can spend a Recovery. If the target is reduced to 0 Stamina before the end of the encounter, you can use a free triggered action to move this effect to another creature within distance.
 
@@ -6766,7 +6809,7 @@ e 4 cube within 10 x Each enemy in the area
 **Power Roll + Intuition:**
 - **≤11:** 4 corruption damage; I<w, prone and can't stand (save ends)
 - **12-16:** 7 corruption damage; I<v, prone and can't stand (save ends)
-- **17+:** 11 corruption damage; I<s, prone and can't stand (save ends)
+- **17+:** Intuition: á 4 corruption damage; I<w, prone and can't stand (save ends) é 7 corruption damage; I<v, prone and can't stand (save ends) í 11 corruption damage; I<s, prone and can't stand (save ends)
 
 #### **Sanctuary (9 Piety)**
 
@@ -6849,7 +6892,7 @@ Choose one of your domains. You gain a heroic ability from that domain, as shown
 **Power Roll + Intuition:**
 - **≤11:** 8 + I damage; A<w, prone and restrained (save ends)
 - **12-16:** 12 + I damage; A<v, prone and restrained (save ends)
-- **17+:** 16 + I damage; A<s, prone and restrained (save ends)
+- **17+:** Intuition: á 8 + I damage; A<w, prone and restrained (save ends) é 12 + I damage; A<v, prone and restrained (save ends) í 16 + I damage; A<s, prone and restrained (save ends)
 
 #### **Blessing of the Midday Sun (9 Piety)**
 
@@ -6884,6 +6927,9 @@ O Three creatures
 **Effect:** You conjure a size 2 rolling machine that appears in an unoccupied space within distance. The machine has 50 Stamina and immunity all to poison and psychic damage. It disappears at the end of the encounter, if its Stamina drops to 0, or if you are dying. When the machine first appears, make the following power roll once, targeting each enemy adjacent to it.
 
 **Power Roll + <b>Intuition</b> |          |:**
+- **≤11:** 11 | 3 damage | | 12–16 | 5 damage | | 17+ | 8 damage | Once on each subsequent turn, you can use a free maneuver to move the machine a number of squares up to your Intuition score then repeat the power roll.
+- **12-16:** ------------------------------|----------| | ≤11 | 3 damage | | 12–16 | 5 damage | | 17+ | 8 damage | Once on each subsequent turn, you can use a free maneuver to move the machine a number of squares up to your Intuition score then repeat the power roll.
+- **17+:** <b>Intuition</b> | | |-------------------------------|----------| | ≤11 | 3 damage | | 12–16 | 5 damage | | 17+ | 8 damage | Once on each subsequent turn, you can use a free maneuver to move the machine a number of squares up to your Intuition score then repeat the power roll.
 
 #### **Invocation of Mystery (9 Piety)** *"Now you see us …"*
 
@@ -6907,8 +6953,8 @@ The image contains a black and white bullseye or crosshair symbol. There is no t
 
 **Power Roll + Intuition:**
 - **≤11:** 3 sonic damage; push 3
-- **12-16:** 6 sonic damage; push 5
-- **17+:** 9 sonic damage; push 7 **Special:** You can choose to have this ability deal damage to and push objects, and to deal damage to buildings.
+- **12-16:** Power Roll + Intuition: á 3 sonic damage; push 3 é 6 sonic damage; push 5
+- **17+:** Intuition: á 3 sonic damage; push 3 é 6 sonic damage; push 5 í 9 sonic damage; push 7 **Special:** You can choose to have this ability deal damage to and push objects, and to deal damage to buildings.
 
 #### **Lauded by God (9 Piety)**
 
@@ -6931,8 +6977,8 @@ e Three 10 × 1 lines within 1 x Each enemy in the area
 
 **Power Roll + Intuition:**
 - **≤11:** 6 lightning damage; push 1
-- **12-16:** 9 lightning damage; push 2
-- **17+:** 13 lightning damage; push 3
+- **12-16:** lightning damage; push 1 é 9 lightning damage; push 2
+- **17+:** Intuition: á 6 lightning damage; push 1 é 9 lightning damage; push 2 í 13 lightning damage; push 3
 
 **Effect:** The targets are force moved one at a time, starting with the target nearest to you, and can be pushed into other targets in the same line.
 
@@ -6955,7 +7001,7 @@ e Three 10 × 1 lines within 1 x Each enemy in the area
 **Power Roll + Intuition:**
 - **≤11:** 5 damage; M<w, prone and can't stand (save ends)
 - **12-16:** 8 damage; M<v, prone and can't stand (save ends)
-- **17+:** 11 damage; M<s, prone and can't stand (save ends)
+- **17+:** Intuition: á 5 damage; M<w, prone and can't stand (save ends) é 8 damage; M<v, prone and can't stand (save ends) í 11 damage; M<s, prone and can't stand (save ends)
 
 #### **Your Story Ends Here (9 Piety)**
 
@@ -6964,9 +7010,9 @@ e Three 10 × 1 lines within 1 x Each enemy in the area
 ## **Magic, Ranged, Strike Main action**
 
 **Power Roll + Intuition:**
-- **≤11:** 9 + I corruption damage; r<w, weakened (save ends)
-- **12-16:** 14 + I corruption damage; r<v, weakened
-- **17+:** 19 + I corruption damage; r<s, weakened (save ends)
+- **≤11:** 0 x One creature Power Roll + Intuition: á 9 + I corruption damage; r<w, weakened (save ends)
+- **12-16:** 0 x One creature Power Roll + Intuition: á 9 + I corruption damage; r<w, weakened (save ends) é 14 + I corruption damage; r<v, weakened
+- **17+:** 0 x One creature Power Roll + Intuition: á 9 + I corruption damage; r<w, weakened (save ends) é 14 + I corruption damage; r<v, weakened
 
 **Effect:** If this damage kills the target, you and each ally within distance can spend a Recovery. 106 ![target icon] One creature ge; `R < WEAK`, weakened (save ends) í 19 + I corruption damage; r<s, weakened (save ends) **Effect:** If this damage kills the target, you and each ally within distance can spend a Recovery. buildings. ⦿
 
@@ -7144,6 +7190,10 @@ Choose one heroic ability from the following options, each of which costs 11 pie
 | <span>Image: angled ruler icon</span> Ranged 10 | <span>Image: target icon</span> One creature or object |
 
 **Power Roll + Intuition:**
+- **≤11:** px solid 000; border-radius:5px; padding:1px 5px;">≤11</span> | 9 + <span>Image: black square</span> holy damage; slide 3 | |---------------------------------------------------------------------------------------|------------------------------------------------------------| | <span style="border:1px solid 000; border-radius:5px; padding:1px 5px;">12–16</span> | 13 + <span>Image: black square</span> holy damage; slide 4 | | <span style="border:1px solid 000; border-radius:5px; padding:1px 5px;">17+</span> | 18 + <span>Image: black square</span> holy damage; slide 6 |
+- **12-16:** px solid 000; border-radius:5px; padding:1px 5px;">≤11</span> | 9 + <span>Image: black square</span> holy damage; slide 3 | |---------------------------------------------------------------------------------------|------------------------------------------------------------| | <span style="border:1px solid 000; border-radius:5px; padding:1px 5px;">12–16</span> | 13 + <span>Image: black square</span> holy damage; slide 4 | | <span style="border:1px solid 000; border-radius:5px; padding:1px 5px;">17+</span> | 18 + <span>Image: black square</span> holy damage; slide 6 |
+- **17+:** Intuition: | <span style="border:1px solid 000; border-radius:5px; padding:1px 5px;">≤11</span> | 9 + <span>Image: black square</span> holy damage; slide 3 | |---------------------------------------------------------------------------------------|------------------------------------------------------------| | <span style="border:1px solid 000; border-radius:5px; padding:1px 5px;">12–16</span> | 13 + <span>Image: black square</span> holy damage; slide 4 | | <span style="border:1px solid 000; border-radius:5px; padding:1px 5px;">17+</span> | 18 + <span>Image: black square</span> holy damage; slide 6 |
+
 **Effect:** Each ally the target comes adjacent to during the forced movement can spend a Recovery.
 
 ## 9th-Level Features
@@ -7222,9 +7272,12 @@ On subsequent turns, you can use a main action to command the dragon to breathe 
 **Power Roll + Intuition:**
 - **≤11:** 5 fire damage
 - **12-16:** 9 fire damage
-- **17+:** 12 fire damage Additionally, you can use a maneuver to move the dragon up to their speed, or to make a melee weapon strike with their claw against an adjacent creature or object. The dragon can also make this strike as a free strike.
+- **17+:** Intuition: á 5 fire damage é 9 fire damage í 12 fire damage Additionally, you can use a maneuver to move the dragon up to their speed, or to make a melee weapon strike with their claw against an adjacent creature or object. The dragon can also make this strike as a free strike.
 
 **Power Roll + Intuition:**
+- **≤11:** 11 | 3 + Image: [black rectangle] damage | |-------|-------------------------------------| | 12–16 | 5 + Image: [black rectangle] damage | | 17+ | 8 + Image: [black rectangle] damage |
+- **12-16:** 1 | 3 + Image: [black rectangle] damage | |-------|-------------------------------------| | 12–16 | 5 + Image: [black rectangle] damage | | 17+ | 8 + Image: [black rectangle] damage |
+- **17+:** Intuition: | ≤11 | 3 + Image: [black rectangle] damage | |-------|-------------------------------------| | 12–16 | 5 + Image: [black rectangle] damage | | 17+ | 8 + Image: [black rectangle] damage |
 
 #### **Godstorm (11 Piety)**
 
@@ -7236,8 +7289,8 @@ On subsequent turns, you can use a main action to command the dragon to breathe 
 
 **Power Roll + Intuition:**
 - **≤11:** 2 lightning damage, 2 sonic damage
-- **12-16:** 3 lightning damage, 3 sonic damage
-- **17+:** 5 lightning damage, 5 sonic damage
+- **12-16:** lightning damage, 2 sonic damage é 3 lightning damage, 3 sonic damage
+- **17+:** Intuition: á 2 lightning damage, 2 sonic damage é 3 lightning damage, 3 sonic damage í 5 lightning damage, 5 sonic damage
 
 **Effect:** A raging storm fills the area until the end of the encounter or until you are dying. At the start of each of your turns, you can move the storm up to 5 squares (no action required). On subsequent turns while the storm is active, you can use a maneuver to make its power roll.
 
@@ -7262,7 +7315,7 @@ e 5 cube within 10 x Special
 **Power Roll + Intuition:**
 - **≤11:** 9 fire damage
 - **12-16:** 14 fire damage
-- **17+:** 19 fire damage **Thorn Cage (11 Piety)** *Vines burst forth from the ground and bind your foe, slowly closing around them.* **Magic, Ranged, Strike Main action** e Ranged 10 x One creature Power Roll + Intuition: á 10 + I damage; A<w, restrained (save ends) é 15 + I damage; A<v, restrained (save ends) í 21 + I damage; A<s, restrained (save ends)
+- **17+:** Intuition: á 9 fire damage é 14 fire damage í 19 fire damage **Thorn Cage (11 Piety)** *Vines burst forth from the ground and bind your foe, slowly closing around them.* **Magic, Ranged, Strike Main action** e Ranged 10 x One creature Power Roll + Intuition: á 10 + I damage; A<w, restrained (save ends) é 15 + I damage; A<v, restrained (save ends) í 21 + I damage; A<s, restrained (save ends)
 
 **Effect:** While restrained this way, the target takes 10 damage at the start of each of your turns. 10. **Avatar** **Radiance of Grace (11 Piety)** *Intense light is emitted from your body, healing your allies.*
 
@@ -7284,8 +7337,9 @@ e 5 cube within 10 x Special
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------|
 | Image: Ranged icon Ranged 10                                                                                                                                                                                                                                                                                 | Image: Target icon One creature or object |
 **Power Roll + Image:**
-- **12-16:** 15 + I corruption damage; A<v, weakened (save ends)
-- **17+:** 21 + I corruption damage; A<s, weakened (save ends)
+- **≤11:** px solid 000; padding:2px; border-radius:3px;">≤11</span> 10 + Image: Corruption die icon corruption damage;<br><span style="background:black; color:white; padding:1px 3px;">A &lt; WEAK</span> , weakened (save ends) | |
+- **12-16:** px solid 000; padding:2px; border-radius:3px;">≤11</span> 10 + Image: Corruption die icon corruption damage;<br><span style="background:black; color:white; padding:1px 3px;">A &lt; WEAK</span> , weakened (save ends) | | é 15 + I corruption damage; A<v, weakened (save ends)
+- **17+:** Image: Intuition icon Intuition:<br>Image:  icon <span style="border:1px solid 000; padding:2px; border-radius:3px;">≤11</span> 10 + Image: Corruption die icon corruption damage;<br><span style="background:black; color:white; padding:1px 3px;">A &lt; WEAK</span> , weakened (save ends) | | é 15 + I corruption damage; A<v, weakened (save ends) í 21 + I corruption damage; A<s, weakened (save ends)
 
 **Effect:** While weakened this way, the target has damage weakness
 
@@ -7441,10 +7495,10 @@ You have the following ability, which can be used as a ranged free strike.
 
 *You cast a ball of elemental energy at a foe.* **Magic, Ranged, Strike Main action** e Ranged 10 x One creature or object
 
-**Power Roll + R**eason:**
+**Power Roll + Reason:**
 - **≤11:** 2 + R damage
-- **12-16:** 4 + R damage
-- **17+:** 6 + R damage
+- **12-16:** + R damage é 4 + R damage
+- **17+:** R**eason:** á 2 + R damage é 4 + R damage í 6 + R damage
 
 **Effect:** When you make this strike, choose the damage type from one of the following options: acid, cold, corruption, fire, lightning, poison, or sonic.
 
@@ -7687,7 +7741,11 @@ Choose two signature abilities from the following options. Signature abilities c
 |------------------------------------------|-----------------------------------|
 | Image: [Ranged icon] Ranged 10           | Image: [Target icon] One creature |
 
-**Power Roll + R**eason:**
+**Power Roll + Reason:**
+- **≤11:** 11 | 2 + <b>R</b> | corruption damage | |-------|--------------|-------------------| | 12–16 | 4 + <b>R</b> | corruption damage | | 17+ | 6 + <b>R</b> | corruption damage |
+- **12-16:** 1 | 2 + <b>R</b> | corruption damage | |-------|--------------|-------------------| | 12–16 | 4 + <b>R</b> | corruption damage | | 17+ | 6 + <b>R</b> | corruption damage |
+- **17+:** R**eason:** | ≤11 | 2 + <b>R</b> | corruption damage | |-------|--------------|-------------------| | 12–16 | 4 + <b>R</b> | corruption damage | | 17+ | 6 + <b>R</b> | corruption damage |
+
 **Effect:** Choose yourself or one ally within distance. That character can end one effect on them that is ended by a saving throw or that ends at the end of their turn.
 
 #### **Bifurcated Incineration**
@@ -7698,10 +7756,10 @@ e Ranged 10 x Two creatures or objects
 
 **Fire, Magic, Ranged, Strike Main action**
 
-**Power Roll + R**eason:**
+**Power Roll + Reason:**
 - **≤11:** 2 fire damage
-- **12-16:** 4 fire damage
-- **17+:** 6 fire damage
+- **12-16:** fire damage é 4 fire damage
+- **17+:** R**eason:** á 2 fire damage é 4 fire damage í 6 fire damage
 
 #### **Grasp of Beyond**
 
@@ -7713,10 +7771,10 @@ e Ranged 10 x Two creatures or objects
 
 - One creature
 
-**Power Roll + R**eason:**
-- **≤11:** 2 + R fire damage; push 2
-- **12-16:** 5 + R fire damage; push 3
-- **17+:** 7 + R fire damage; push 4
+**Power Roll + Reason:**
+- **≤11:** 11 | 3 + <b style="background:black;color:white;padding:1px 4px;">R</b> corruption damage | |-------|--------------------------------------------------------------------------------------| | 12–16 | 6 + <b style="background:black;color:white;padding:1px 4px;">R</b> corruption damage | | 17+ | 9 + <b style="background:black;color:white;padding:1px 4px;">R</b> corruption damage |
+- **12-16:** 1 | 3 + <b style="background:black;color:white;padding:1px 4px;">R</b> corruption damage | |-------|--------------------------------------------------------------------------------------| | 12–16 | 6 + <b style="background:black;color:white;padding:1px 4px;">R</b> corruption damage | | 17+ | 9 + <b style="background:black;color:white;padding:1px 4px;">R</b> corruption damage |
+- **17+:** R**eason:** | ≤11 | 3 + <b style="background:black;color:white;padding:1px 4px;">R</b> corruption damage | |-------|--------------------------------------------------------------------------------------| | 12–16 | 6 + <b style="background:black;color:white;padding:1px 4px;">R</b> corruption damage | | 17+ | 9 + <b style="background:black;color:white;padding:1px 4px;">R</b> corruption damage |
 
 **Effect:** You can teleport up to a number of squares equal to your Reason score. ![](_page_119_Picture_1.jpeg) á 2 + R fire damage; push 2 é 5 + R fire damage; push 3 í 7 + R fire damage; push 4
 
@@ -7730,7 +7788,9 @@ Choose one heroic ability from the following options, each of which
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------|
 | <b>Area, Magic, Ranged, Void</b><br>▧ 3 cube within 10                                                                                                                                                                                                               | <b>Main action</b><br>🕒 Each enemy in the area |
 **Power Roll + <b>Reason</b>:**
-- **17+:** 8 damage; M<s, prone
+- **≤11:** 11: 2 psychic damage<br>12–16: 4 psychic damage<br>17+: 6 psychic damage | | | <b>Persistent 1:</b> At the start of your turn, you can use a maneuver to use this ability again without spending essence. | | | <b>The Flesh, a Crucible (3 Essence)</b><br><i>Fire engulfs your target and continues to churn.</i> | | | <b>Fire, Magic, Ranged, Strike</b><br>▧ Ranged 10 | <b>Main action</b><br>🕒 One creature or object | | Power Roll + <b>Reason</b> :<br>≤11: 5 + <b>R</b> fire damage<br>12–16: 8 + <b>R</b> fire damage<br>17+: 11 + <b>R</b> fire damage | | | <b>Persistent 1:</b> If the target is within distance at the start of your turn, you can make the power roll again without spending essence. | | | <b>Invigorating Growth (3 Essence)</b><br><i>Mushrooms erupt from a foe, sapping their vitality to spread strengthening spores.</i> | | | <b>Green, Magic, Ranged, Strike</b><br>▧ Ranged 10 | <b>Main action</b><br>🕒 One creature | | Power Roll + <b>Reason</b> :<br>≤11: 4 + <b>R</b> poison damage<br>12–16: 7 + <b>R</b> poison damage<br>17+: 11 + <b>R</b> poison damage | | | <b>
+- **12-16:** 1: 2 psychic damage<br>12–16: 4 psychic damage<br>17+: 6 psychic damage | | | <b>Persistent 1:</b> At the start of your turn, you can use a maneuver to use this ability again without spending essence. | | | <b>The Flesh, a Crucible (3 Essence)</b><br><i>Fire engulfs your target and continues to churn.</i> | | | <b>Fire, Magic, Ranged, Strike</b><br>▧ Ranged 10 | <b>Main action</b><br>🕒 One creature or object | | Power Roll + <b>Reason</b> :<br>≤11: 5 + <b>R</b> fire damage<br>12–16: 8 + <b>R</b> fire damage<br>17+: 11 + <b>R</b> fire damage | | | <b>Persistent 1:</b> If the target is within distance at the start of your turn, you can make the power roll again without spending essence. | | | <b>Invigorating Growth (3 Essence)</b><br><i>Mushrooms erupt from a foe, sapping their vitality to spread strengthening spores.</i> | | | <b>Green, Magic, Ranged, Strike</b><br>▧ Ranged 10 | <b>Main action</b><br>🕒 One creature | | Power Roll + <b>Reason</b> :<br>≤11: 4 + <b>R</b> poison damage<br>12–16: 7 + <b>R</b> poison damage<br>17+: 11 + <b>R</b> poison damage | | | <b>
+- **17+:** <b>Reason</b> :<br>≤11: 2 psychic damage<br>12–16: 4 psychic damage<br>17+: 6 psychic damage | | | <b>Persistent 1:</b> At the start of your turn, you can use a maneuver to use this ability again without spending essence. | | | <b>The Flesh, a Crucible (3 Essence)</b><br><i>Fire engulfs your target and continues to churn.</i> | | | <b>Fire, Magic, Ranged, Strike</b><br>▧ Ranged 10 | <b>Main action</b><br>🕒 One creature or object | | Power Roll + <b>Reason</b> :<br>≤11: 5 + <b>R</b> fire damage<br>12–16: 8 + <b>R</b> fire damage<br>17+: 11 + <b>R</b> fire damage | | | <b>Persistent 1:</b> If the target is within distance at the start of your turn, you can make the power roll again without spending essence. | | | <b>Invigorating Growth (3 Essence)</b><br><i>Mushrooms erupt from a foe, sapping their vitality to spread strengthening spores.</i> | | | <b>Green, Magic, Ranged, Strike</b><br>▧ Ranged 10 | <b>Main action</b><br>🕒 One creature | | Power Roll + <b>Reason</b> :<br>≤11: 4 + <b>R</b> poison damage<br>12–16: 7 + <b>R</b> poison damage<br>17+: 11 + <b>R</b> poison damage | | | <b>
 
 Effect:</b> Mushrooms cover the target's body. While the mushrooms are on the target, you and any ally adjacent to the target gain 1 surge whenever the target takes damage. The mushrooms can be removed by the target or an adjacent creature as a main action. | | | <b>Ripples in the Earth (3 Essence)</b><br><i>Like a stone was dropped into a pond, waves in the earth radiate from you.</i> | | | Earth, Magic, Ranged | Maneuver | | Image: Ranged icon Ranged 10 | Image: Special icon Special | í 8 damage; M<s, prone **Effect:** You must be touching the ground to use this ability. Additionally, you can choose a square of ground in the area that is unoccupied or is occupied by you or any ally. A pillar of earth rises out of the ground in that square, with a height in squares up to your Reason score. The pillar can't collide with any creatures or objects, nor can it force creatures raised by it to collide with other creatures or objects. ![A bold, black-and-white target symbol consisting of concentric circles and crosshairs. There is no text in this image.](image.png) There is no recognizable text to transcribe in this image. The image contains a symbol of concentric circles with four intersecting lines, often referred to as a "target" or "bullseye" symbol. There is no text present in the image.
 
@@ -7746,10 +7806,10 @@ Choose one heroic ability from the following options, each of which costs 5 esse
 
 e 3 cube within 10 x Each enemy in the area
 
-**Power Roll + R**eason:**
+**Power Roll + Reason:**
 - **≤11:** 4 fire damage
 - **12-16:** 6 fire damage
-- **17+:** 10 fire damage **Persistent 2:** At the start of your turn, you can use a maneuver to use this ability again without spending essence.
+- **17+:** R**eason:** á 4 fire damage é 6 fire damage í 10 fire damage **Persistent 2:** At the start of your turn, you can use a maneuver to use this ability again without spending essence.
 
 #### **Instantaneous Excavation (5 Essence)**
 
@@ -7759,10 +7819,10 @@ e 3 cube within 10 x Each enemy in the area
 
 **Effect:** You open up two holes with 1-square openings that are 4 squares deep, which can be placed on any mundane surface within distance. You can place these holes next to each other to create fewer holes with wider openings. When the holes open, make a separate power roll for each creature on the ground above a hole and small enough to fall in. (You can't score a critical hit with this ability because it uses a maneuver.)
 
-**Power Roll + R**eason:**
+**Power Roll + Reason:**
 - **≤11:** The target can shift 1 square from the edge of the hole to the nearest unoccupied space of their choice.
-- **12-16:** The target falls into the hole.
-- **17+:** The target falls into the hole and can't reduce the height of the fall. **Persistent 1:** At the start of your turn, you open another hole, making a power roll against each creature who could fall into the hole when it opens without spending essence.
+- **12-16:** square from the edge of the hole to the nearest unoccupied space of their choice. é The target falls into the hole.
+- **17+:** R**eason:** á The target can shift 1 square from the edge of the hole to the nearest unoccupied space of their choice. é The target falls into the hole. í The target falls into the hole and can't reduce the height of the fall. **Persistent 1:** At the start of your turn, you open another hole, making a power roll against each creature who could fall into the hole when it opens without spending essence.
 
 #### **No More Than a Breeze (5 Essence)**
 
@@ -7783,10 +7843,10 @@ Self or one ally
 
 **Area, Green, Magic, Ranged Main action** e 3 cube within 10 x Each enemy in the area
 
-**Power Roll + R**eason:**
+**Power Roll + Reason:**
 - **≤11:** 4 acid damage
 - **12-16:** 6 acid damage
-- **17+:** 10 acid damage
+- **17+:** R**eason:** á 4 acid damage é 6 acid damage í 10 acid damage
 
 **Effect:** You can end one effect on yourself that is ended by a saving throw or that ends at the end of your turn. Each ally in the area also gains this benefit.
 
@@ -7918,10 +7978,10 @@ e Ranged 10 x One creature
 
 **Effect:** The target uses their signature ability against a creature of your choice. This signature ability can target the creature even if it usually wouldn't. You then make a power roll against the target of this ability.
 
-**Power Roll + R**eason:**
+**Power Roll + Reason:**
 - **≤11:** 5 + R poison damage
 - **12-16:** 9 + R poison damage
-- **17+:** 12 + R poison damage
+- **17+:** R**eason:** á 5 + R poison damage é 9 + R poison damage í 12 + R poison damage
 
 #### **Translated Through Flame (5 Essence)**
 
@@ -7933,10 +7993,10 @@ e Ranged 10 x One creature
 
 **Effect:** The target is teleported to another space within distance. Make a power roll that affects each enemy adjacent to the target's new space.
 
-**Power Roll + R**eason:**
+**Power Roll + Reason:**
 - **≤11:** 3 fire damage
 - **12-16:** 5 fire damage
-- **17+:** 8 fire damage
+- **17+:** R**eason:** á 3 fire damage é 5 fire damage í 8 fire damage
 
 ## **Volcano's Embrace (5 Essence)**
 
@@ -7946,10 +8006,10 @@ e Ranged 10 x One creature
 |------------------------------------|----------------------------------|
 | Image: Ranged icon Ranged 10       | Image: Clock symbol One creature |
 
-**Power Roll + R**eason:**
+**Power Roll + Reason:**
 - **≤11:** 5 + R fire damage; A<w, restrained (save ends)
 - **12-16:** 9 + R fire damage; A<v, restrained (save ends)
-- **17+:** 12 + R fire damage; A<s, restrained (save ends)
+- **17+:** R**eason:** á 5 + R fire damage; A<w, restrained (save ends) é 9 + R fire damage; A<v, restrained (save ends) í 12 + R fire damage; A<s, restrained (save ends)
 
 ## 3rd-Level Features
 
@@ -8023,18 +8083,19 @@ Choose one heroic ability from the following options, each of which costs 7 esse
 
 **Special:** The number of creatures you target with this ability is determined by your power roll.
 
-**Power Roll + R**eason:**
-- **12-16:** Two creatures
-- **17+:** Three creatures
+**Power Roll + Reason:**
+- **≤11:** px solid 000; border-radius:5px; padding:2px 6px;"><math>≤11</math></span> | One creature | |--------------------------------------------------------------------------------------------------|--------------| |--------------------------------------------------------------------------------------------------|--------------|
+- **12-16:** px solid 000; border-radius:5px; padding:2px 6px;"><math>≤11</math></span> | One creature | |--------------------------------------------------------------------------------------------------|--------------| |--------------------------------------------------------------------------------------------------|--------------| é Two creatures
+- **17+:** R**eason:** | <span style="border:1px solid 000; border-radius:5px; padding:2px 6px;"><math>≤11</math></span> | One creature | |--------------------------------------------------------------------------------------------------|--------------| |--------------------------------------------------------------------------------------------------|--------------| é Two creatures í Three creatures
 
 **Effect:** Each target begins to fade from existence (save ends). On their first turn while fading from existence, a target takes a bane on power rolls. At the end of their first turn, they have a double bane on power rolls. At the end of their second turn, they fade from existence for 1 hour, after which they reappear in their original space or the nearest unoccupied space. The image displays a black crosshair or target symbol on a white background. There is no text present in the image. ![](_page_124_Picture_1.jpeg) **Area, Green, Magic Main action**
 
 ## e 3 aura x Each enemy in the area
 
-**Power Roll + R**eason:**
+**Power Roll + Reason:**
 - **≤11:** 3 damage
 - **12-16:** 6 damage
-- **17+:** 9 damage
+- **17+:** R**eason:** á 3 damage é 6 damage í 9 damage
 
 **Effect:** Until the end of your next turn, each ally in the area has each of their characteristic scores treated as 1 higher for the purpose of resisting potencies, and has a +1 bonus to saving throws. **Persistent 1:** You make the power roll again to target each enemy in the area without spending essence, and the effect lasts until the start of your next turn.
 
@@ -8160,10 +8221,10 @@ Choose one heroic ability from the following options, each of which costs 9 esse
 
 - One creature or object
 
-**Power Roll + R**eason:**
+**Power Roll + Reason:**
 - **≤11:** 8 + R fire damage
 - **12-16:** 13 + R fire damage
-- **17+:** 17 + R fire damage
+- **17+:** R**eason:** á 8 + R fire damage é 13 + R fire damage í 17 + R fire damage
 
 **Effect:** When the target ends their next turn, or if they drop to 0 Stamina before then, each enemy adjacent to them takes fire damage equal to twice your Reason score. Each affected enemy then gains this same effect.
 
@@ -8173,10 +8234,10 @@ Choose one heroic ability from the following options, each of which costs 9 esse
 
 #### **Area, Earth, Magic, Ranged Main action** e 4 cube within 10 x Each enemy in the area
 
-**Power Roll + R**eason:**
+**Power Roll + Reason:**
 - **≤11:** 2 damage
-- **12-16:** 5 damage
-- **17+:** 7 damage
+- **12-16:** damage é 5 damage
+- **17+:** R**eason:** á 2 damage é 5 damage í 7 damage
 
 **Effect:** The area lasts until the start of your next turn. It is difficult terrain for enemies, and you and your allies have concealment while in the area. **Persistent 1:** The area remains until the start of your next turn, and you can move it up to 5 squares (no action required). As a maneuver, you can make the power roll again without spending essence.
 
@@ -8186,10 +8247,10 @@ Choose one heroic ability from the following options, each of which costs 9 esse
 
 **Magic, Ranged, Strike, Void Main action** e Ranged 10 x One creature or object
 
-**Power Roll + R**eason:**
+**Power Roll + Reason:**
 - **≤11:** 9 + R corruption damage
 - **12-16:** 10 + R corruption damage; the target has line of effect only to creatures and objects within 4 squares of them until the start of your next turn
-- **17+:** 15 + R corruption damage; the target has line of effect only to adjacent creatures and objects until the start of your next turn **Persistent 1:** The target's limited line of effect lasts until the start of your next turn.
+- **17+:** R**eason:** á 9 + R corruption damage é 10 + R corruption damage; the target has line of effect only to creatures and objects within 4 squares of them until the start of your next turn í 15 + R corruption damage; the target has line of effect only to adjacent creatures and objects until the start of your next turn **Persistent 1:** The target's limited line of effect lasts until the start of your next turn.
 
 #### **Web of All That's Come Before (9 Essence)**
 
@@ -8199,10 +8260,10 @@ Choose one heroic ability from the following options, each of which costs 9 esse
 
 e 4 cube within 10 x Each enemy in the area
 
-**Power Roll + R**eason:**
+**Power Roll + Reason:**
 - **≤11:** 2 corruption damage; A<w, restrained (save ends)
-- **12-16:** 3 corruption damage; A<v, restrained (save ends) -
-- **17+:** 5 corruption damage; A<s, restrained (save ends)
+- **12-16:** corruption damage; A<w, restrained (save ends) é 3 corruption damage; A<v, restrained (save ends) -
+- **17+:** R**eason:** á 2 corruption damage; A<w, restrained (save ends) é 3 corruption damage; A<v, restrained (save ends) - í 5 corruption damage; A<s, restrained (save ends)
 
 **Effect:** The area is difficult terrain until the start of your next turn. Each enemy who ends their turn in the area is restrained (save ends). **Persistent 1:** The area remains until the start of your next turn. - 12–16 - 17+ **Effect:** T The image contains a black and white crosshair or target symbol. It does not contain any text to represent in markdown format.
 
@@ -8267,10 +8328,10 @@ Choose one heroic ability from the following options, each of which costs 9 esse
 |----------------------------------|---------------------------------------------|
 | Image: Ranged icon Ranged 10     | Image: Bullseye icon One creature or object |
 
-**Power Roll + R**eason:**
+**Power Roll + Reason:**
 - **≤11:** You teleport the target up to 4 squares.
 - **12-16:** You teleport the target up to 6 squares.
-- **17+:** You teleport the target up to 8 squares.
+- **17+:** R**eason:** á You teleport the target up to 4 squares. é You teleport the target up to 6 squares. í You teleport the target up to 8 squares.
 
 **Effect:** If the target is teleported to a space where they would fall, they immediately do so, treating the fall as if their Agility score were 0. The target takes fire damage from the fall, and each enemy within 3 squares of where they land takes the same amount of fire damage. The ground within 3 squares of where the target lands is difficult terrain.
 
@@ -8399,10 +8460,10 @@ Each enemy who ends their turn within 3 squares of the tree is restrained until 
 |----------------------------------------|-------------------------------------------|
 | Image: cube area icon 5 cube within 10 | Image: target icon Each enemy in the area |
 
-**Power Roll + R**eason:**
+**Power Roll + Reason:**
 - **≤11:** 7 fire damage; the Director loses 2 Malice (see *Draw Steel: Monsters*)
-- **12-16:** 10 fire damage; the Director loses 3 Malice
-- **17+:** 15 fire damage; the Director loses 4 Malice
+- **12-16:** Malice (see *Draw Steel: Monsters*) é 10 fire damage; the Director loses 3 Malice
+- **17+:** R**eason:** á 7 fire damage; the Director loses 2 Malice (see *Draw Steel: Monsters*) é 10 fire damage; the Director loses 3 Malice í 15 fire damage; the Director loses 4 Malice
 
 **Effect:** The Director's Malice can become negative as a result of this ability. | Source of Earth<br><span style="font-weight:normal;">Elemental</span> | | Level 8 Brute | | |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|-------------------|----------------------------------------------------------------------------------------------------| | <b>45</b><br><span style="font-weight:normal;">Stamina</span> | <b>Immunity:</b> —<br><b>Weakness:</b> — | | <b>5</b><br><span style="font-weight:normal;">Free Strike</span> | | <b>6</b><br><span style="font-weight:normal;">Speed</span> | <b>Movement:</b> Run, Fly, Hover, Teleport | | <b>Melee:</b> 2<br><b>Ranged:</b> 10 | | <b>2</b><br><span style="font-weight:normal;">Size</span> | <b>5</b><br><span style="font-weight:normal;">Stability</span> | | | | <b>M</b> ight +3 | <b>A</b> gility +1 | <b>R</b> eason -5 | <b>I</b> ntuition -5<br><b>P</b> resence -3 | | <b>⚔ Boulder Bash</b><br><span style="font-style:italic;">Melee, Ranged, Strike, Weapon</span><br><b>⚔</b> Melee 2 or ranged 10<br><span style="white-space:pre;"> &lt;11 5 damage; push 3<br/> 12–16 9 damage; push 4<br/> 17+ 12 damage; push 5 </span> | | | <b>Signature Action</b><br>2d10 +3<br><span style="font-size:smaller;">1 creature or object</span> |
 
@@ -8453,7 +8514,7 @@ The image provided contains a black-and-white graphic symbol (a target or crossh
 **Power Roll + :**
 - **≤11:** M<w, prone
 - **12-16:** M<v, prone
-- **17+:** M<s, prone
+- **17+:** R**eason:** á M<w, prone é M<v, prone í M<s, prone
 
 **Effect:** You create a fissure in the ground adjacent to you that is a 10 × 2 line and 6 squares deep. Each creature in the area who is prone and size 2 or smaller falls in. Other creatures can enter the fissure or can shift to the nearest unoccupied space of their choice outside it.
 
@@ -8479,10 +8540,10 @@ Choose one heroic ability from the following options, each of which costs 11 ess
 
 e 5 cube within 10 x Each enemy and object in the area
 
-**Power Roll + R**eason:**
+**Power Roll + Reason:**
 - **≤11:** 6 damage
-- **12-16:** 9 damage
-- **17+:** 13 damage **Persistent 2:** At the start of your turn, you can use a maneuver to use this ability again without spending essence. ![](_page_129_Picture_31.jpeg)
+- **12-16:** damage é 9 damage
+- **17+:** R**eason:** á 6 damage é 9 damage í 13 damage **Persistent 2:** At the start of your turn, you can use a maneuver to use this ability again without spending essence. ![](_page_129_Picture_31.jpeg)
 
 #### **The Green Defends Its Servants (11 Essence)**
 
@@ -8520,10 +8581,10 @@ Self or one ally
 
 ...B Recov
 
-**Power Roll + R**eason:**
+**Power Roll + Reason:**
 - **≤11:** 13 + R fire damage; I<w, dazed (save ends)
-- **12-16:** 18 + R fire damage; I<v, dazed (save ends)
-- **17+:** 25 + R fire damage; I<s, dazed (save ends)
+- **12-16:** 3 + R fire damage; I<w, dazed (save ends) é 18 + R fire damage; I<v, dazed (save ends)
+- **17+:** R**eason:** á 13 + R fire damage; I<w, dazed (save ends) é 18 + R fire damage; I<v, dazed (save ends) í 25 + R fire damage; I<s, dazed (save ends)
 
 **Effect:** This damage ignores immunity.
 
@@ -8816,8 +8877,8 @@ e Melee 1 x One creature or object
 
 **Power Roll + Might:**
 - **≤11:** 3 + M damage; push 1
-- **12-16:** 6 + M damage; push 2
-- **17+:** 9 + Mdamage; push 4
+- **12-16:** é 6 + M damage; push 2
+- **17+:** Might: á 3 + M damage; push 1 é 6 + M damage; push 2 í 9 + Mdamage; push 4
 
 #### **Hit and Run**
 
@@ -8827,8 +8888,8 @@ e Melee 1 x One creature or object
 
 **Power Roll + Might:**
 - **≤11:** 2 + M damage
-- **12-16:** 5 + M damage
-- **17+:** 7 + Mdamage; A<s, slowed (save ends)
+- **12-16:** + M damage é 5 + M damage
+- **17+:** Might: á 2 + M damage é 5 + M damage í 7 + Mdamage; A<s, slowed (save ends)
 
 **Effect:** You can shift 1 square.
 
@@ -8842,8 +8903,8 @@ e Melee 1 x One creature of your size or smaller
 
 **Power Roll + Might:**
 - **≤11:** 2 + M damage; M<w, grabbed
-- **12-16:** 5 + M damage; M<v, grabbed
-- **17+:** 7 + Mdamage; M<s, grabbed ![](_page_135_Picture_29.jpeg)
+- **12-16:** + M damage; M<w, grabbed é 5 + M damage; M<v, grabbed
+- **17+:** Might: á 2 + M damage; M<w, grabbed é 5 + M damage; M<v, grabbed í 7 + Mdamage; M<s, grabbed ![](_page_135_Picture_29.jpeg)
 
 #### **To the Death!**
 
@@ -8854,7 +8915,7 @@ e Melee 1 x One creature of your size or smaller
 **Power Roll + Might:**
 - **≤11:** 3 + M damage
 - **12-16:** 6 + M damage
-- **17+:** 9 + Mdamage
+- **17+:** Might: á 3 + M damage é 6 + M damage í 9 + Mdamage
 
 **Effect:** You gain 2 surges, and the target can make an opportunity attack against you as a free triggered action.
 
@@ -8880,6 +8941,9 @@ Choose one heroic ability from the following options, each of which costs 3 fero
 - **Affects:** Each enemy in the area
 
 **Power Roll + Might:**
+- **≤11:** 11: 5 damage 12–16: 8 damage; push 1 17+: 11 damage; push 3 --
+- **12-16:** 1: 5 damage 12–16: 8 damage; push 1 17+: 11 damage; push 3 --
+- **17+:** Might:** ≤11: 5 damage 12–16: 8 damage; push 1 17+: 11 damage; push 3 --
 
 ### Out of the Way! (3 Ferocity)
 
@@ -8893,6 +8957,10 @@ Choose one heroic ability from the following options, each of which costs 3 fero
 - **Affects:** One creature
 
 **Power Roll + Might:**
+- **≤11:** 11: 3 + M damage; slide 2 12–16: 5 + M damage; slide 3 17+: 8 + M damage; slide 5
+- **12-16:** 1: 3 + M damage; slide 2 12–16: 5 + M damage; slide 3 17+: 8 + M damage; slide 5
+- **17+:** Might:** ≤11: 3 + M damage; slide 2 12–16: 5 + M damage; slide 3 17+: 8 + M damage; slide 5
+
 **Effect:** When you slide the target, you can move into any square they leave. If you take damage from an opportunity attack by moving this way, the target takes the same damage. ---
 
 ### Tide of Death (3 Ferocity)
@@ -8909,6 +8977,9 @@ Choose one heroic ability from the following options, each of which costs 3 fero
 **Effect:** You move up to your speed in a straight line, and enemy squares are not difficult terrain for this movement. You can end this movement in a creature’s space and move them to an adjacent unoccupied space. You make one power roll that targets each enemy whose space you move through.
 
 **Power Roll + Might:**
+- **≤11:** 11: 2 damage 12–16: 3 damage 17+: 5 damage The last target you damage takes extra damage equal to your Might score for each opportunity attack you trigger during your move. --
+- **12-16:** 1: 2 damage 12–16: 3 damage 17+: 5 damage The last target you damage takes extra damage equal to your Might score for each opportunity attack you trigger during your move. --
+- **17+:** Might:** ≤11: 2 damage 12–16: 3 damage 17+: 5 damage The last target you damage takes extra damage equal to your Might score for each opportunity attack you trigger during your move. --
 
 ### Your Entrails Are Your Extrails! (3 Ferocity)
 
@@ -8922,6 +8993,10 @@ Choose one heroic ability from the following options, each of which costs 3 fero
 - **Affects:** One creature or object
 
 **Power Roll + Might:**
+- **≤11:** 11: 3 + M damage; M < WEAK, bleeding (save ends) 12–16: 5 + M damage; M < AVERAGE, bleeding (save ends) 17+: 8 + M damage; M < STRONG, bleeding (save ends)
+- **12-16:** 1: 3 + M damage; M < WEAK, bleeding (save ends) 12–16: 5 + M damage; M < AVERAGE, bleeding (save ends) 17+: 8 + M damage; M < STRONG, bleeding (save ends)
+- **17+:** Might:** ≤11: 3 + M damage; M < WEAK, bleeding (save ends) 12–16: 5 + M damage; M < AVERAGE, bleeding (save ends) 17+: 8 + M damage; M < STRONG, bleeding (save ends)
+
 **Effect:** While bleeding this way, the target takes damage equal to your Might score at the end of each of your turns. ---
 
 ### 5-Ferocity Ability
@@ -8945,7 +9020,7 @@ Anger is your energy.
 **Power Roll + Might:**
 - **≤11:** 4 + M damage; M<w, bleeding and weakened (save ends)
 - **12-16:** 6 + M damage; M<v, bleeding and weakened (save ends)
-- **17+:** 10 + Mdamage; M<s, bleeding and weakened (save ends)
+- **17+:** Might: á 4 + M damage; M<w, bleeding and weakened (save ends) é 6 + M damage; M<v, bleeding and weakened (save ends) í 10 + Mdamage; M<s, bleeding and weakened (save ends)
 
 **Effect:** You can deal 1d6 damage to yourself to deal an extra 1d6 damage to the target. **Make Peace With Your God! (5 Ferocity)** Make Peace with Your God! (5 re | — | <b>Free maneuver</b> | |--------------------------|---------------------------| | Image: [arrow icon] Self | Image: [target icon] Self | **Effect:** You gain 1 surge, and the next ability roll you make this turn automatically obtains a tier 3 outcome.
 
@@ -8959,8 +9034,8 @@ Anger is your energy.
 
 **Power Roll + Might:**
 - **≤11:** 6 damage; push 2
-- **12-16:** 9 damage; push 4
-- **17+:** 13 damage; push 6
+- **12-16:** damage; push 2 é 9 damage; push 4
+- **17+:** Might: á 6 damage; push 2 é 9 damage; push 4 í 13 damage; push 6
 
 **Effect:** The targets are force moved one at a time, starting with the target nearest to you, and can be pushed into other targets in the same line.
 
@@ -8971,7 +9046,9 @@ Anger is your energy.
 **Melee, Strike, Weapon Main action** e Melee 1 x One creature
 
 **Power Roll + Might:**
-- **17+:** 16 + Mdamage **Spend 1+ Ferocity:** While you are winded, this ability deals an extra 1d6 damage for each ferocity spent. While you are dying, it deals an extra 1d10 damage for each ferocity spent. In either case, you lose 1d6 Stamina after making this strike.
+- **≤11:** 11 | 7 + <b>M</b> damage | |-------|----------------------| | 12–16 | 11 + <b>M</b> damage |
+- **12-16:** 1 | 7 + <b>M</b> damage | |-------|----------------------| | 12–16 | 11 + <b>M</b> damage |
+- **17+:** Might: | ≤11 | 7 + <b>M</b> damage | |-------|----------------------| | 12–16 | 11 + <b>M</b> damage | í 16 + Mdamage **Spend 1+ Ferocity:** While you are winded, this ability deals an extra 1d6 damage for each ferocity spent. While you are dying, it deals an extra 1d10 damage for each ferocity spent. In either case, you lose 1d6 Stamina after making this strike.
 
 ## 2nd-Level Features
 
@@ -9042,8 +9119,8 @@ Additionally, you make one power roll that targets each enemy you move adjacent 
 
 **Power Roll + Might:**
 - **≤11:** Push 1
-- **12-16:** Push 2
-- **17+:** Push 3 ![](_page_137_Picture_28.jpeg)
+- **12-16:** é Push 2
+- **17+:** Might: á Push 1 é Push 2 í Push 3 ![](_page_137_Picture_28.jpeg)
 
 #### 2nd-Level Reaver Ability
 
@@ -9058,7 +9135,7 @@ Choose one of the following abilities.
 **Power Roll + Might:**
 - **≤11:** 3 + M damage; P<w, dazed and frightened (save ends)
 - **12-16:** 5 + M damage; P<v, dazed and frightened (save ends)
-- **17+:** 8 + M damage; P<s, dazed and frightened (save ends) **Phalanx-Breaker (5 Ferocity)** *Organizing your forces like feckless creatures of Law. Pitiful.* **Melee, Weapon Main action** e Self; see below x Self
+- **17+:** Might: á 3 + M damage; P<w, dazed and frightened (save ends) é 5 + M damage; P<v, dazed and frightened (save ends) í 8 + M damage; P<s, dazed and frightened (save ends) **Phalanx-Breaker (5 Ferocity)** *Organizing your forces like feckless creatures of Law. Pitiful.* **Melee, Weapon Main action** e Self; see below x Self
 
 **Effect:** You shift up to your speed and make one power roll that targets up to three enemies you move adjacent to during this shift. Power Roll + Might: - á 2 damage; A<w, dazed (save ends) - é 4 damage; A<v, dazed (save ends) - í 6 damage; A<s, dazed (save ends)
 
@@ -9076,8 +9153,8 @@ e 2 burst x Each enemy in the area
 
 **Power Roll + Might:**
 - **≤11:** 2 damage; push 1; M<w, dazed (save ends)
-- **12-16:** 5 damage; push 2; M<v, dazed (save ends)
-- **17+:** 7 damage; push 3; M<s, dazed (save ends)
+- **12-16:** damage; push 1; M<w, dazed (save ends) é 5 damage; push 2; M<v, dazed (save ends)
+- **17+:** Might: á 2 damage; push 1; M<w, dazed (save ends) é 5 damage; push 2; M<v, dazed (save ends) í 7 damage; push 3; M<s, dazed (save ends)
 
 **Effect:** This ability deals your primordial damage type (see Stormwight Kits).
 
@@ -9236,6 +9313,10 @@ Choose one heroic ability from the following options, each of which costs 9 fero
 ⚔️ Melee 1 🎯 One creature
 
 **Power Roll + `Might`:**
+- **≤11:** 11: 10 + `M` damage; `M < WEAK`, slowed (save ends) 12–16: 14 + `M` damage; `M < AVERAGE`, slowed (save ends) 17+: 20 + `M` damage; `M < STRONG`, slowed (save ends)
+- **12-16:** 1: 10 + `M` damage; `M < WEAK`, slowed (save ends) 12–16: 14 + `M` damage; `M < AVERAGE`, slowed (save ends) 17+: 20 + `M` damage; `M < STRONG`, slowed (save ends)
+- **17+:** `Might`:** ≤11: 10 + `M` damage; `M < WEAK`, slowed (save ends) 12–16: 14 + `M` damage; `M < AVERAGE`, slowed (save ends) 17+: 20 + `M` damage; `M < STRONG`, slowed (save ends)
+
 **Effect:** While slowed this way, the target takes 1 damage for every square they move, including from forced movement. ---
 
 ## My Turn! (9 Ferocity)
@@ -9251,6 +9332,10 @@ Choose one heroic ability from the following options, each of which costs 9 fero
 **Trigger:** A creature causes you to be winded or dying, or damages you while you are winded or dying.
 
 **Power Roll + `Might`:**
+- **≤11:** 11: 6 + `M` damage 12–16: 9 + `M` damage 17+: 13 + `M` damage
+- **12-16:** 1: 6 + `M` damage 12–16: 9 + `M` damage 17+: 13 + `M` damage
+- **17+:** `Might`:** ≤11: 6 + `M` damage 12–16: 9 + `M` damage 17+: 13 + `M` damage
+
 **Effect:** You can spend a Recovery. ---
 
 ## Rebounding Storm (9 Ferocity)
@@ -9264,6 +9349,10 @@ Choose one heroic ability from the following options, each of which costs 9 fero
 ⚔️ Melee 1 🎯 Two creatures or objects
 
 **Power Roll + `Might`:**
+- **≤11:** 11: 9 damage; push 3 12–16: 14 damage; push 5 17+: 19 damage; push 7
+- **12-16:** 1: 9 damage; push 3 12–16: 14 damage; push 5 17+: 19 damage; push 7
+- **17+:** `Might`:** ≤11: 9 damage; push 3 12–16: 14 damage; push 5 17+: 19 damage; push 7
+
 **Effect:** When a target would end this forced movement by colliding with a creature or object, they take damage as usual, then are pushed the remaining distance away from the creature or object in the direction they came from. As long as forced movement remains, this effect continues if the target collides with another creature or object. ---
 
 ## To Stone! (9 Ferocity)
@@ -9277,6 +9366,10 @@ Choose one heroic ability from the following options, each of which costs 9 fero
 ⚔️ Melee 1 🎯 One creature
 
 **Power Roll + `Might`:**
+- **≤11:** 11: 9 + `M` damage; `M < WEAK`, slowed (save ends) 12–16: 13 + `M` damage; `M < AVERAGE`, slowed (save ends) 17+: 18 + `M` damage; `M < STRONG`, restrained (save ends)
+- **12-16:** 1: 9 + `M` damage; `M < WEAK`, slowed (save ends) 12–16: 13 + `M` damage; `M < AVERAGE`, slowed (save ends) 17+: 18 + `M` damage; `M < STRONG`, restrained (save ends)
+- **17+:** `Might`:** ≤11: 9 + `M` damage; `M < WEAK`, slowed (save ends) 12–16: 13 + `M` damage; `M < AVERAGE`, slowed (save ends) 17+: 18 + `M` damage; `M < STRONG`, restrained (save ends)
+
 **Effect:** While the target is slowed this way, any other effect that would make the target slowed instead makes them restrained by this ability. Additionally, a creature who fails the saving throw while restrained this way is petrified until they are given a supernatural cure or you choose to reverse the effect (no action required).
 
 ## 6th-Level Features
@@ -9317,8 +9410,8 @@ Choose one of the following abilities.
 
 **Power Roll + Might:**
 - **≤11:** 4 damage; push 1
-- **12-16:** 7 damage; push 2
-- **17+:** 11 damage; push 3 The image contains a circular target or crosshair with a dot in the center. There is no text present in the image.
+- **12-16:** é 7 damage; push 2
+- **17+:** Might: á 4 damage; push 1 é 7 damage; push 2 í 11 damage; push 3 The image contains a circular target or crosshair with a dot in the center. There is no text present in the image.
 
 #### **Force of Storms (9 Ferocity)**
 
@@ -9329,7 +9422,7 @@ Choose one of the following abilities.
 **Power Roll + Might:**
 - **≤11:** 7 + M damage; push 3
 - **12-16:** 11 + M damage; push 5
-- **17+:** 16 + Mdamage; push 7
+- **17+:** Might: á 7 + M damage; push 3 é 11 + M damage; push 5 í 16 + Mdamage; push 7
 
 **Effect:** When the target ends this forced movement, each creature within 2 squares of the target is pushed 3 squares.
 
@@ -9362,7 +9455,7 @@ Choose one of the following abilities.
 **Power Roll + Might:**
 - **≤11:** 4 + M damage; P<w, frightened (save ends)
 - **12-16:** 6 + M damage; P<v, frightened (save ends)
-- **17+:** 10 + Mdamage; P<s, frightened (save ends) 10\* damage; ███████ frightened (save ends)
+- **17+:** Might: á 4 + M damage; P<w, frightened (save ends) é 6 + M damage; P<v, frightened (save ends) í 10 + Mdamage; P<s, frightened (save ends) 10\* damage; ███████ frightened (save ends)
 
 **Effect:** If a target who is not a leader or solo creature is winded by this strike, they are reduced to 0 Stamina and you choose an enemy within 5 squares of you. If that enemy has P<v, they are frightened of you (save ends).
 
@@ -9382,7 +9475,7 @@ ne creature
 **Power Roll + Might:**
 - **≤11:** 8 damage; M<w, grabbed
 - **12-16:** 13 damage; M<v, grabbed
-- **17+:** 17 damage; M<s, grabbed
+- **17+:** Might: á 8 damage; M<w, grabbed é 13 damage; M<v, grabbed í 17 damage; M<s, grabbed
 
 **Effect:** You can shift up to 4 squares, bringing the target with you. While grabbed this way, the target takes damage equal to twice your Might score at the start of each of your turns.
 
@@ -9481,8 +9574,8 @@ e Melee 1 x One creature
 
 **Power Roll + Might:**
 - **≤11:** 6 + M damage
-- **12-16:** 10 + M damage
-- **17+:** 14 + M damage
+- **12-16:** + M damage é 10 + M damage
+- **17+:** Might: á 6 + M damage é 10 + M damage í 14 + M damage
 
 **Effect:** If the target is a minion or is winded but isn't a leader or solo creature, they are reduced to 0 Stamina before this ability's damage is dealt. If the target is killed by this damage, you can deal any damage over what was required to kill them to another creature within 5 squares of the target.
 
@@ -9507,7 +9600,7 @@ e Melee 1 x One creature
 **Power Roll + Might:**
 - **≤11:** Any target whose Stamina is equal to or less than 8 dies.
 - **12-16:** Any target whose Stamina is equal to or less than 11 dies.
-- **17+:** Any target whose Stamina is equal to or less than 17 dies.
+- **17+:** Might: á Any target whose Stamina is equal to or less than 8 dies. é Any target whose Stamina is equal to or less than 11 dies. í Any target whose Stamina is equal to or less than 17 dies.
 
 ## 9th-Level Features
 
@@ -9538,7 +9631,7 @@ e 3 burst x Each enemy in the area
 **Power Roll + Might:**
 - **≤11:** </sup> 7 damage; push 3 <sup>
 - **12-16:** </sup> 10 damage; push 5 <sup>
-- **17+:** </sup> 15 damage; push 7 -
+- **17+:** Might: <sup>á</sup> 7 damage; push 3 <sup>é</sup> 10 damage; push 5 <sup>í</sup> 15 damage; push 7 -
 
 **Effect:** If this forced movement causes a target to be hurled through an object, that target takes an extra 10 damage.
 
@@ -9553,7 +9646,7 @@ Each enemy in the area
 **Power Roll + Might:**
 - **≤11:** </sup> 3 damage; vertical pull 3 <sup>
 - **12-16:** </sup> 5 damage; vertical pull 5 <sup>
-- **17+:** </sup> 8 damage; vertical pull 7
+- **17+:** Might: <sup>á</sup> 3 damage; vertical pull 3 <sup>é</sup> 5 damage; vertical pull 5 <sup>í</sup> 8 damage; vertical pull 7
 
 **Effect:** If this forced movement causes a target to slam into you, you take no damage from the collision and the target takes the damage you would have taken.
 
@@ -9569,11 +9662,14 @@ Choose one of the following abilities.
 |-----------------------------------------------------------------------------------------------|---------------------------------------------|
 | <span>Image: sword icon</span> Melee 1                                                        | <span>Image: clock icon</span> One creature |
 **Power Roll + <span style="background:**
+- **≤11:** px 4px;">M</span>ight:</b> | | **Main action** ![target icon](https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Target_icon.svg/24px-Target_icon.svg.png) One creature
+- **12-16:** px 4px;">M</span>ight:</b> | | **Main action** ![target icon](https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Target_icon.svg/24px-Target_icon.svg.png) One creature
+- **17+:** <span style="background:black;color:white;padding:1px 4px;">M</span>ight:</b> | | **Main action** ![target icon](https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Target_icon.svg/24px-Target_icon.svg.png) One creature
 
 **Power Roll + Might:**
 - **≤11:** 11 + M damage
-- **12-16:** 16 + M damage
-- **17+:** 21 + Mdamage
+- **12-16:** 1 + M damage é 16 + M damage
+- **17+:** Might: á 11 + M damage é 16 + M damage í 21 + Mdamage
 
 **Effect:** Choose acid, cold, corruption, fire, lightning, poison, or sonic damage. The target loses any damage immunity to the chosen type and gains weakness 10 to the chosen type (save ends).
 
@@ -9591,8 +9687,8 @@ Choose one of the following abilities.
 
 **Power Roll + Might:**
 - **≤11:** 12 + M damage
-- **12-16:** 18 + M damage
-- **17+:** 24 + Mdamage
+- **12-16:** 2 + M damage é 18 + M damage
+- **17+:** Might: á 12 + M damage é 18 + M damage í 24 + Mdamage
 
 **Effect:** Each enemy within 5 squares of you is distracted until the end of the round. While a creature is distracted this way, they can't take triggered actions or free triggered actions, ability rolls made against them gain an edge, and their characteristic scores are considered 1 lower for the purpose of resisting potencies. ![](_page_143_Picture_35.jpeg) 141 +-----+ | ● | | + | +-----+ ``` The image represents a circular target-like symbol, filled black in the center, with vertical and horizontal cross lines. Elementalist
 
@@ -9609,7 +9705,7 @@ Choose one of the following abilities.
 **Power Roll + Might:**
 - **≤11:** 4 psychic damage; any target who is a minion dies
 - **12-16:** 6 psychic damage; any target who is a minion is reduced to 0 Stamina, as does one winded target who is not a leader or solo creature
-- **17+:** 10 psychic damage; each target who is not a leader or solo creature is winded; any target who is a minion is reduced to 0 Stamina, as does one winded target who is not a leader or solo creature
+- **17+:** Might: á 4 psychic damage; any target who is a minion dies é 6 psychic damage; any target who is a minion is reduced to 0 Stamina, as does one winded target who is not a leader or solo creature í 10 psychic damage; each target who is not a leader or solo creature is winded; any target who is a minion is reduced to 0 Stamina, as does one winded target who is not a leader or solo creature
 
 #### **Deluge (11 Ferocity)**
 
@@ -9622,7 +9718,7 @@ Choose one of the following abilities.
 **Power Roll + Might:**
 - **≤11:** 7 damage
 - **12-16:** 10 damage
-- **17+:** 15 damage
+- **17+:** Might: á 7 damage é 10 damage í 15 damage
 
 **Effect:** This ability deals your primordial damage type and ignores damage immunity.
 
@@ -9756,8 +9852,8 @@ e Melee 1 x One creature or object
 
 **Power Roll + Might:**
 - **≤11:** 2 + M damage; M<w, grabbed
-- **12-16:** 5 + M damage; M<v, grabbed
-- **17+:** 11 + M damage; M<s, grabbed ![](_page_145_Picture_33.jpeg)
+- **12-16:** + M damage; M<w, grabbed é 5 + M damage; M<v, grabbed
+- **17+:** Might: á 2 + M damage; M<w, grabbed é 5 + M damage; M<v, grabbed í 11 + M damage; M<s, grabbed ![](_page_145_Picture_33.jpeg)
 
 #### Growing Ferocity
 
@@ -9812,8 +9908,8 @@ Your primordial damage type is fire.
 - e 1 burst x Each enemy in the area
 **Power Roll + Agility:**
 - **≤11:** 3 damage
-- **12-16:** 6 damage
-- **17+:** 8 damage
+- **12-16:** Power Roll + Agility: á 3 damage é 6 damage
+- **17+:** Agility: á 3 damage é 6 damage í 8 damage
 
 Effect: You can shift up to 2 squares before or after making the power roll.
 
@@ -9872,7 +9968,7 @@ Your primordial damage type is corruption.
 **Power Roll + Agility:**
 - **≤11:** 4 + A damage
 - **12-16:** 7 + A damage; push 1
-- **17+:** 9 + A damage; push 2
+- **17+:** Agility: á 4 + A damage é 7 + A damage; push 1 í 9 + A damage; push 2
 
 Effect: You can shift up to the same number of squares that you pushed the target.
 
@@ -9934,8 +10030,8 @@ e Melee 1 x One creature or object
 
 **Power Roll + Might:**
 - **≤11:** 4 + M damage; A<w, prone
-- **12-16:** 7 + M damage; A<v, prone
-- **17+:** 9 + M damage; A<s, prone
+- **12-16:** Power Roll + Might: á 4 + M damage; A<w, prone é 7 + M damage; A<v, prone
+- **17+:** Might: á 4 + M damage; A<w, prone é 7 + M damage; A<v, prone í 9 + M damage; A<s, prone
 
 #### Growing Ferocity
 
@@ -10197,7 +10293,7 @@ This image does not contain any text, only a graphic symbol. No further markdown
 **Power Roll + Agility:**
 - **≤11:** 3 damage
 - **12-16:** 4 damage
-- **17+:** 5 damage
+- **17+:** Agility: á 3 damage é 4 damage í 5 damage
 
 **Effect:** You can slide one adjacent enemy up to a number of squares equal to your Intuition score.
 
@@ -10211,8 +10307,8 @@ e Melee 1 xTwo creatures or objects
 
 **Power Roll + Agility:**
 - **≤11:** 4 damage
-- **12-16:** 5 damage
-- **17+:** 7 damage
+- **12-16:** Power Roll + Agility: á 4 damage é 5 damage
+- **17+:** Agility: á 4 damage é 5 damage í 7 damage
 
 **Effect:** You can deal damage equal to your Agility score to one creature or object adjacent to you.
 
@@ -10225,7 +10321,7 @@ e Melee 1 xTwo creatures or objects
 **Power Roll + Agility:**
 - **≤11:** 5 + A damage
 - **12-16:** 7 + A damage
-- **17+:** 10 + Adamage
+- **17+:** Agility: á 5 + A damage é 7 + A damage í 10 + Adamage
 
 **Effect:** You can shift up to half your speed before or after you make this strike.
 
@@ -10240,7 +10336,7 @@ e Melee 1 x One creature or object
 **Power Roll + Agility:**
 - **≤11:** 4 + A damage; A<w, grabbed
 - **12-16:** 7 + A damage; A<v, grabbed
-- **17+:** 9 + A damage; A<s, grabbed
+- **17+:** Agility: á 4 + A damage; A<w, grabbed é 7 + A damage; A<v, grabbed í 9 + A damage; A<s, grabbed
 
 #### **Kinetic Strike**
 
@@ -10251,7 +10347,7 @@ e Melee 1 x One creature or object
 **Power Roll + Agility:**
 - **≤11:** 4 + A damage; taunted (EoT)
 - **12-16:** 5 + A damage; taunted (EoT), slide 1
-- **17+:** 6 + A damage; taunted (EoT), slide 2
+- **17+:** Agility: á 4 + A damage; taunted (EoT) é 5 + A damage; taunted (EoT), slide 1 í 6 + A damage; taunted (EoT), slide 2
 
 #### **Magnetic Strike**
 
@@ -10263,8 +10359,8 @@ e Melee 2 x One creature
 
 **Power Roll + Agility:**
 - **≤11:** 5 + A psychic damage; vertical pull 1
-- **12-16:** 8 + A psychic damage; vertical pull 2
-- **17+:** 11 + A psychic damage; vertical pull 3
+- **12-16:** é 8 + A psychic damage; vertical pull 2
+- **17+:** Agility: á 5 + A psychic damage; vertical pull 1 é 8 + A psychic damage; vertical pull 2 í 11 + A psychic damage; vertical pull 3
 
 #### **Phase Inversion Strike**
 
@@ -10275,7 +10371,9 @@ e Melee 2 x One creature
 | Image: triangle ruler icon<br>Melee 1 | Image: target icon<br>One creature or object |
 
 **Power Roll + Agility:**
-- **17+:** 8 + Adamage; push 6
+- **≤11:** 11 | 4 + <b>A</b> damage; push 2 | |-------|-----------------------------| | 12–16 | 6 + <b>A</b> damage; push 4 |
+- **12-16:** 1 | 4 + <b>A</b> damage; push 2 | |-------|-----------------------------| | 12–16 | 6 + <b>A</b> damage; push 4 |
+- **17+:** Agility: | ≤11 | 4 + <b>A</b> damage; push 2 | |-------|-----------------------------| | 12–16 | 6 + <b>A</b> damage; push 4 | í 8 + Adamage; push 6
 
 **Effect:** Before the push is resolved, you teleport the target to a square adjacent to you and opposite the one they started in. If the target can't be teleported this way, you can't push them.
 
@@ -10288,8 +10386,8 @@ e Melee 2 x One creature
 | Image: [melee weapon icon] Melee 1                                                        | Image: [target icon] One creature or object |
 **Power Roll + <span style="background:**
 - **≤11:** 4 + A damage; A<w, weakened (save ends)
-- **12-16:** 7 + A damage; A<v, weakened (save ends)
-- **17+:** 9 + A damage; A<s, weakened (save ends)
+- **12-16:** px;">A</span>gility:</b> | | á 4 + A damage; A<w, weakened (save ends) é 7 + A damage; A<v, weakened (save ends)
+- **17+:** <span style="background: 000;color: fff;padding:2px;">A</span>gility:</b> | | á 4 + A damage; A<w, weakened (save ends) é 7 + A damage; A<v, weakened (save ends) í 9 + A damage; A<s, weakened (save ends)
 
 #### Heroic Abilities
 
@@ -10308,7 +10406,9 @@ Choose one heroic ability from the following options, each of which costs 3 disc
 | Image: melee triangle<br>Melee 1 | Image: target<br>One creature or object |
 
 **Power Roll + Agility:**
-- **17+:** 6 + A psychic damage; I<s, the target goes out of phase (save ends)
+- **≤11:** 11 | 7 + <b style="background-color:black;color:white;padding:1px 4px;">A</b> damage | |-------|----------------------------------------------------------------------------------| | 12-16 | 10 + <b style="background-color:black;color:white;padding:1px 4px;">A</b> damage | | 17+ | 13 + <b style="background-color:black;color:white;padding:1px 4px;">A</b> damage |
+- **12-16:** 1 | 7 + <b style="background-color:black;color:white;padding:1px 4px;">A</b> damage | |-------|----------------------------------------------------------------------------------| | 12-16 | 10 + <b style="background-color:black;color:white;padding:1px 4px;">A</b> damage | | 17+ | 13 + <b style="background-color:black;color:white;padding:1px 4px;">A</b> damage |
+- **17+:** Agility: | ≤11 | 7 + <b style="background-color:black;color:white;padding:1px 4px;">A</b> damage | |-------|----------------------------------------------------------------------------------| | 12-16 | 10 + <b style="background-color:black;color:white;padding:1px 4px;">A</b> damage | | 17+ | 13 + <b style="background-color:black;color:white;padding:1px 4px;">A</b> damage |
 
 **Effect:** You can shift up to half your speed before or after you make this strike. Additionally, whenever an effect lets you make a free strike or use a signature ability, you can use this ability instead, paying its discipline cost as usual. 150 Draw Steel ![](_page_153_Figure_0.jpeg) ![](_page_153_Figure_1.jpeg) í 6 + A psychic damage; I<s, the target goes out of phase (save ends) **Effect:** A target who goes out of phase is slowed, has their stability reduced by 2, and can't obtain a tier 3 outcome on ability rolls. Steel.indb 151 Draw Steel.indb 151 6/24/25 2:48 PM 151 Null ⊕ ![target symbol](image) ![](_page_154_Picture_1.jpeg)
 
@@ -10322,8 +10422,8 @@ Choose one heroic ability from the following options, each of which costs 3 disc
 
 **Power Roll + Agility:**
 - **≤11:** 6 damage
-- **12-16:** 9 damage
-- **17+:** 13 damage
+- **12-16:** damage é 9 damage
+- **17+:** Agility: á 6 damage é 9 damage í 13 damage
 
 **Effect:** You can take the Disengage move action as a free maneuver before or after you use this ability.
 
@@ -10386,8 +10486,8 @@ Choose one of the following abilities.
 
 **Power Roll + Agility:**
 - **≤11:** 8 + A damage; slide 1
-- **12-16:** 12 + A damage; slide 3
-- **17+:** 16 + A damage; slide 5 ![](_page_155_Figure_62.jpeg)
+- **12-16:** é 12 + A damage; slide 3
+- **17+:** Agility: á 8 + A damage; slide 1 é 12 + A damage; slide 3 í 16 + A damage; slide 5 ![](_page_155_Figure_62.jpeg)
 
 #### 2nd-Level Cryokinetic Ability
 
@@ -10403,8 +10503,8 @@ e 3 cube within 1 x Each enemy in the area
 
 **Power Roll + Agility:**
 - **≤11:** 6 cold damage; A<w, slowed (save ends)
-- **12-16:** 9 cold damage; A<v, slowed (save ends)
-- **17+:** 13 cold damage; A<s, slowed (save ends)
+- **12-16:** cold damage; A<w, slowed (save ends) é 9 cold damage; A<v, slowed (save ends)
+- **17+:** Agility: á 6 cold damage; A<w, slowed (save ends) é 9 cold damage; A<v, slowed (save ends) í 13 cold damage; A<s, slowed (save ends)
 
 #### **Heat Sink (5 Discipline)**
 
@@ -10429,7 +10529,7 @@ Choose one of the following abilities.
 **Power Roll + Agility:**
 - **≤11:** 8 + A psychic damage; vertical pull 3
 - **12-16:** 12 + A psychic damage; vertical pull 5
-- **17+:** 16 + A psychic damage; vertical pull 7
+- **17+:** Agility: á 8 + A psychic damage; vertical pull 3 é 12 + A psychic damage; vertical pull 5 í 16 + A psychic damage; vertical pull 7
 
 #### **Kinetic Shield (5 Discipline)**
 
@@ -10441,8 +10541,8 @@ Choose one of the following abilities.
 
 **Power Roll + Intuition:**
 - **≤11:** You gain 10 temporary Stamina.
-- **12-16:** You gain 15 temporary Stamina.
-- **17+:** You gain 20 temporary Stamina.
+- **12-16:** 0 temporary Stamina. é You gain 15 temporary Stamina.
+- **17+:** Intuition: á You gain 10 temporary Stamina. é You gain 15 temporary Stamina. í You gain 20 temporary Stamina.
 
 **Effect:** While you have temporary Stamina from this ability, you can't be made bleeding even while dying.
 
@@ -10580,6 +10680,10 @@ Choose one heroic ability from the following options, each of which costs 9 disc
 **Trigger:** The target moves or uses a main action.
 
 **Power Roll + Agility:**
+- **≤11:** px solid ccc; border-radius:8px; padding:2px 6px; font-size:90%">≤11</span> | 7 + <b>A</b> damage; <span style="background:black; color:white; font-weight:bold; padding:0 3px;">I &lt; WEAK.</span> restrained (save ends) | |-----------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------| | <span style="border:1px solid ccc; border-radius:8px; padding:2px 6px; font-size:90%">12–16</span> | 10 + <b>A</b> damage; <span style="background:black; color:white; font-weight:bold; padding:0 3px;">I &lt; AVERAGE.</span> restrained (save ends) | | <span style="border:1px solid ccc; border-radius:8px; padding:2px 6px; font-size:90%">17+</span> | 13 + <b>A</b> damage; <span style="background:black; color:white; font-weight:bold; padding:0 3px;">I &lt; STRONG.</span> restrained (save ends) |
+- **12-16:** px solid ccc; border-radius:8px; padding:2px 6px; font-size:90%">≤11</span> | 7 + <b>A</b> damage; <span style="background:black; color:white; font-weight:bold; padding:0 3px;">I &lt; WEAK.</span> restrained (save ends) | |-----------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------| | <span style="border:1px solid ccc; border-radius:8px; padding:2px 6px; font-size:90%">12–16</span> | 10 + <b>A</b> damage; <span style="background:black; color:white; font-weight:bold; padding:0 3px;">I &lt; AVERAGE.</span> restrained (save ends) | | <span style="border:1px solid ccc; border-radius:8px; padding:2px 6px; font-size:90%">17+</span> | 13 + <b>A</b> damage; <span style="background:black; color:white; font-weight:bold; padding:0 3px;">I &lt; STRONG.</span> restrained (save ends) |
+- **17+:** Agility: | <span style="border:1px solid ccc; border-radius:8px; padding:2px 6px; font-size:90%">≤11</span> | 7 + <b>A</b> damage; <span style="background:black; color:white; font-weight:bold; padding:0 3px;">I &lt; WEAK.</span> restrained (save ends) | |-----------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------| | <span style="border:1px solid ccc; border-radius:8px; padding:2px 6px; font-size:90%">12–16</span> | 10 + <b>A</b> damage; <span style="background:black; color:white; font-weight:bold; padding:0 3px;">I &lt; AVERAGE.</span> restrained (save ends) | | <span style="border:1px solid ccc; border-radius:8px; padding:2px 6px; font-size:90%">17+</span> | 13 + <b>A</b> damage; <span style="background:black; color:white; font-weight:bold; padding:0 3px;">I &lt; STRONG.</span> restrained (save ends) |
+
 **Effect:** This strike resolves before the triggering movement or main action.
 
 #### **Iron Grip (9 Discipline)**
@@ -10589,6 +10693,10 @@ Choose one heroic ability from the following options, each of which costs 9 disc
 | Melee, Psionic, Strike, Weapon<br><span style="font-style:italic;">Melee 1</span>                   |                                                                                      |   | Main action<br>One creature                                                           |         |
 |-----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|---|---------------------------------------------------------------------------------------|---------|
 **Power Roll + <span style="background-color:**
+- **≤11:** 11 | 10 + <span style="background-color:black;color:white;padding:0 4px;">A</span> damage | ; | <span style="background-color:black;color:white;padding:0 4px;">A &lt; WEAK</span> | grabbed | | 12–16 | 14 + <span style="background-color:black;color:white;padding:0 4px;">A</span> damage | ; | <span style="background-color:black;color:white;padding:0 4px;">A &lt; AVERAGE</span> | grabbed | | 17+ | 18 + <span style="background-color:black;color:white;padding:0 4px;">A</span> damage | ; | <span style="background-color:black;color:white;padding:0 4px;">A &lt; STRONG</span> | grabbed |
+- **12-16:** color:black;color:white;padding:0 4px;">A</span>gility:</b> | | | | | | ≤11 | 10 + <span style="background-color:black;color:white;padding:0 4px;">A</span> damage | ; | <span style="background-color:black;color:white;padding:0 4px;">A &lt; WEAK</span> | grabbed | | 12–16 | 14 + <span style="background-color:black;color:white;padding:0 4px;">A</span> damage | ; | <span style="background-color:black;color:white;padding:0 4px;">A &lt; AVERAGE</span> | grabbed | | 17+ | 18 + <span style="background-color:black;color:white;padding:0 4px;">A</span> damage | ; | <span style="background-color:black;color:white;padding:0 4px;">A &lt; STRONG</span> | grabbed |
+- **17+:** <span style="background-color:black;color:white;padding:0 4px;">A</span>gility:</b> | | | | | | ≤11 | 10 + <span style="background-color:black;color:white;padding:0 4px;">A</span> damage | ; | <span style="background-color:black;color:white;padding:0 4px;">A &lt; WEAK</span> | grabbed | | 12–16 | 14 + <span style="background-color:black;color:white;padding:0 4px;">A</span> damage | ; | <span style="background-color:black;color:white;padding:0 4px;">A &lt; AVERAGE</span> | grabbed | | 17+ | 18 + <span style="background-color:black;color:white;padding:0 4px;">A</span> damage | ; | <span style="background-color:black;color:white;padding:0 4px;">A &lt; STRONG</span> | grabbed |
+
 **Effect:** While grabbed this way, the target takes a bane on the Escape Grab maneuver. Each time they use that maneuver, they take damage equal to twice your Agility score.
 
 #### **Phase Leap (9 Discipline)**
@@ -10658,8 +10766,8 @@ Self
 
 **Power Roll + Agility:**
 - **≤11:** 6 damage; M<w, dazed
-- **12-16:** 8 damage; M<v, dazed
-- **17+:** 12 damage; M<s, dazed ![target-like symbol](image) *(The image consists of a circular target-like symbol with crosshairs, but contains no textual content.)* ![](_page_158_Picture_1.jpeg)
+- **12-16:** damage; M<w, dazed é 8 damage; M<v, dazed
+- **17+:** Agility: á 6 damage; M<w, dazed é 8 damage; M<v, dazed í 12 damage; M<s, dazed ![target-like symbol](image) *(The image consists of a circular target-like symbol with crosshairs, but contains no textual content.)* ![](_page_158_Picture_1.jpeg)
 
 #### 6th-Level Cryokinetic Abilities
 
@@ -10673,10 +10781,10 @@ Choose one of the following abilities.
 
 x Three creatures or objects
 
-**Power Roll + R**eason:**
+**Power Roll + Reason:**
 - **≤11:** Vertical slide 6
-- **12-16:** Vertical slide 8
-- **17+:** Vertical slide 10
+- **12-16:** é Vertical slide 8
+- **17+:** R**eason:** á Vertical slide 6 é Vertical slide 8 í Vertical slide 10
 
 **Effect:** The pillars vanish as soon as the effects of the forced movement are resolved.
 
@@ -10704,6 +10812,7 @@ Choose one of the following abilities.
 |-------------------------------------------------------------|---------------------------------------|
 | Image: triangular psionic icon<br>Self                      | Image: circular maneuver icon<br>Self |
 **Power Roll + :**
+- **17+:** </b> Image: intuition icon <b>Intuition:</b> | |
 
 ## á Vertical slide 5
 
@@ -10831,8 +10940,8 @@ Choose one heroic ability from the following options, each of which costs 11 dis
 
 **Power Roll + Agility:**
 - **≤11:** 13 + A damage; M<w, the target is suppressed (save ends)
-- **12-16:** 19 + A damage; M<v, the target is suppressed (save ends)
-- **17+:** 24 + Adamage; M<s, the target is suppressed (save ends)
+- **12-16:** Power Roll + Agility: á 13 + A damage; M<w, the target is suppressed (save ends) é 19 + A damage; M<v, the target is suppressed (save ends)
+- **17+:** Agility: á 13 + A damage; M<w, the target is suppressed (save ends) é 19 + A damage; M<v, the target is suppressed (save ends) í 24 + Adamage; M<s, the target is suppressed (save ends)
 
 **Effect:** While suppressed, a target takes psychic damage equal to twice your Intuition score at the start of their turns, whenever they use a supernatural ability, or whenever they use an ability that costs Malice.
 
@@ -10849,7 +10958,7 @@ Choose one heroic ability from the following options, each of which costs 11 dis
 **Power Roll + Agility:**
 - **≤11:** 9 + A damage; push 5; I<w, dazed (save ends)
 - **12-16:** 13 + A damage; push 7; I<v, dazed (save ends)
-- **17+:** 18 + Adamage; push 10; I<s, dazed (save ends)
+- **17+:** Agility: á 9 + A damage; push 5; I<w, dazed (save ends) é 13 + A damage; push 7; I<v, dazed (save ends) í 18 + Adamage; push 10; I<s, dazed (save ends)
 
 **Effect:** The target and each creature or object they collide with from this forced movement takes psychic damage equal to the total number of squares the target was force moved. While the target is dazed this way, they see glimpses of creatures from other parts of the timescape.
 
@@ -10863,8 +10972,8 @@ Choose one heroic ability from the following options, each of which costs 11 dis
 
 **Power Roll + Agility:**
 - **≤11:** 12 psychic damage; push 3
-- **12-16:** 17 psychic damage; push 5
-- **17+:** 23 psychic damage; push 7
+- **12-16:** 2 psychic damage; push 3 é 17 psychic damage; push 5
+- **17+:** Agility: á 12 psychic damage; push 3 é 17 psychic damage; push 5 í 23 psychic damage; push 7
 
 #### **Synaptic Anchor (11 Discipline)**
 
@@ -10907,7 +11016,7 @@ Choose one of the following abilities.
 **Power Roll + Intuition:**
 - **≤11:** I<w, the target loses their turn
 - **12-16:** I<v, the target loses their turn
-- **17+:** I<s, the target loses their turn
+- **17+:** Intuition: á I<w, the target loses their turn é I<v, the target loses their turn í I<s, the target loses their turn
 
 **Effect:** If the target loses their turn, the round continues as if they had acted. A target who doesn't lose their turn takes psychic damage equal to twice your Intuition score for each main action they take until the end of their next turn. | Time Loop (11 Discipline) | | |---------------------------|--| |---------------------------|--| *You show shadows what true speed is.* **Psionic Free triggered** e Self x Self **Trigger:** Another creature on the encounter map ends their turn. **Effect:** You take a bonus turn immediately after the triggering creature. This ability can be used only once per combat round.
 
@@ -10930,8 +11039,8 @@ Choose one of the following abilities.
 
 **Power Roll + Intuition:**
 - **≤11:** You gain 20 temporary Stamina.
-- **12-16:** You gain 30 temporary Stamina.
-- **17+:** You gain 40 temporary Stamina.
+- **12-16:** 0 temporary Stamina. é You gain 30 temporary Stamina.
+- **17+:** Intuition: á You gain 20 temporary Stamina. é You gain 30 temporary Stamina. í You gain 40 temporary Stamina.
 
 **Effect:** Until the end of the encounter or until you are dead, you become an avatar of uttermost cold. You gain immunity to all damage equal to the cold damage immunity granted by your Entropic Adaptability trait, you ignore the negative effects of dying, and you have a +2 bonus to potencies.
 
@@ -10944,6 +11053,9 @@ Choose one of the following abilities.
 e Melee 1 x One creature
 
 **Power Roll + Intuition:**
+- **12-16:** .
+- **17+:** Intuition:
+
 **Effect:** While restrained this way, the target takes cold damage equal to your Intuition score at the start of each of your turns. Additionally, whenever the target damages another creature while restrained this way, any potency associated with the damage is reduced by 2.
 
 #### 9th-Level Metakinetic Abilities
@@ -10975,7 +11087,7 @@ e Melee 1 x One creature
 **Power Roll + Agility:**
 - **≤11:** 7 + A psychic damage; I<w, dazed
 - **12-16:** 10 + A psychic damage; I<v, dazed
-- **17+:** 13 + A psychic damage; I<s, dazed
+- **17+:** Agility: á 7 + A psychic damage; I<w, dazed é 10 + A psychic damage; I<v, dazed í 13 + A psychic damage; I<s, dazed
 
 **Effect:** While dazed this way, the target takes psychic damage equal to twice your Intuition score at the start of each of your turns. If this ability causes a creature who is not a leader or solo creature to become winded, they are instead reduced to 0 Stamina. Any creature reduced to 0 Stamina by this ability is forgotten by all creatures of your level or lower in the timescape who are not present in the encounter. Loved ones of the forgotten creature retain a faint sense of melancholy. This effect can be reversed only at the Director's discretion.
 
@@ -11287,14 +11399,14 @@ One creature
 **Power Roll + Agility:**
 - **≤11:** 3 + A damage
 - **12-16:** 5 + A damage
-- **17+:** 8 + A damage; I<s, prone
+- **17+:** Agility: á 3 + A damage é 5 + A damage í 8 + A damage; I<s, prone
 
 Effect: One ally within 5 squares of the target gains 1 surge. ![](_page_165_Picture_50.jpeg) ![Target symbol](https://icons.iconarchive.com/icons/iconsmind/outline/64/Target-Market-icon.png) ![](_page_166_Picture_1.jpeg) targets up to three enemies who came adjacent to you during the move.
 
 **Power Roll + Agility:**
 - **≤11:** 3 damage
 - **12-16:** 6 damage
-- **17+:** 9 damage fl 6 + A damage; slide 3 í 10 + A damage; slide 5 them.
+- **17+:** Agility: á 3 damage é 6 damage í 9 damage fl 6 + A damage; slide 3 í 10 + A damage; slide 5 them.
 
 Effect: You can shift into any square the target leaves when you slide This image contains a black circle with a crosshair symbol over it. There is no text present to transcribe. ![black and white bullseye/target symbol](image) *No text present in the image.* | Setup (5 Insight) | | |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------| | <i>Your friends will thank you.</i> | | | <b>Ranged, Strike, Weapon</b><br>Image: Ranged icon Ranged 5 | <b>Main action</b><br>Image: Action icon One creature | | <b>Power Roll + <span style="border:1px solid black; padding: 1px;">A</span>gility:</b> | | | ≤11 6 + <span style="border:1px solid black; padding: 1px;">A</span> damage; <span style="background:black; color:white;">R &lt; WEAK.</span> the target has damage weakness 5 (save ends)<br>12–16 9 + <span style="border:1px solid black; padding: 1px;">A</span> damage; <span style="background:black; color:white;">R &lt; AVERAGE.</span> the target has damage weakness 5 (save ends)<br>17+ 13 + <span style="border:1px solid black; padding: 1px;">A</span> damage; <span style="background:black; color:white;">R &lt; STRONG.</span> the target has damage weakness 5 (save ends) | | | Shadowstrike (5 Insight) | | | <i>They have no idea what the college taught you.</i> | | | <b>Magic, Melee, Ranged</b><br>Image: Melee icon, Ranged icon Self; see below | <b>Main action</b><br>Image: Action icon Self | | <b>Effect:</b> You use a strike signature ability twice. | |
 
@@ -11352,8 +11464,8 @@ Choose one of the following abilities.
 
 **Power Roll + Agility:**
 - **≤11:** 6 + A damage; you can teleport the target 1 square
-- **12-16:** 10 + A damage; you can teleport the target up to 3 squares
-- **17+:** 14 + A damage; you can teleport the target up to 5 squares
+- **12-16:** + A damage; you can teleport the target 1 square é 10 + A damage; you can teleport the target up to 3 squares
+- **17+:** Agility: á 6 + A damage; you can teleport the target 1 square é 10 + A damage; you can teleport the target up to 3 squares í 14 + A damage; you can teleport the target up to 5 squares
 
 #### **Too Slow (5 Insight)**
 
@@ -11382,7 +11494,7 @@ Effect: You attach a small bomb to a creature. If you are hidden from the creatu
 **Power Roll + Agility:**
 - **≤11:** 4 + A fire damage
 - **12-16:** 7 + A fire damage
-- **17+:** 11 + A fire damage
+- **17+:** Agility: á 4 + A fire damage é 7 + A fire damage í 11 + A fire damage
 
 #### **Stink Bomb (5 Insight)**
 
@@ -11397,8 +11509,8 @@ e 3 cube within 10 x Each creature in the area
 
 **Power Roll + Agility:**
 - **≤11:** 2 poison damage
-- **12-16:** 5 poison damage
-- **17+:** 7 poison damage
+- **12-16:** poison damage é 5 poison damage
+- **17+:** Agility: á 2 poison damage é 5 poison damage í 7 poison damage
 
 Effect: The gas remains in the area until the end of the encounter. is weakened (save ends). Any creature who starts their turn in the area and has M<v The image appears to be completely blank and contains no visible text or content to reproduce in markdown.
 
@@ -11417,7 +11529,7 @@ e 3 cube within 10 x Each enemy in the area
 **Power Roll + Agility:**
 - **≤11:** Slide 4
 - **12-16:** Slide 5
-- **17+:** Slide 7
+- **17+:** Agility: á Slide 4 é Slide 5 í Slide 7
 
 Effect: This forced movement ignores stability. Instead, the forced movement is reduced by a number equal to the target's Intuition score.
 
@@ -11478,7 +11590,7 @@ li
 **Power Roll + Agility:**
 - **≤11:** 9 + A damage
 - **12-16:** 13 + A damage
-- **17+:** 18 + A damage
+- **17+:** Agility: á 9 + A damage é 13 + A damage í 18 + A damage
 
 Effect: The target is taunted by a willing ally within 5 squares of you until the end of the target's next turn.
 
@@ -11493,7 +11605,7 @@ Effect: The target is taunted by a willing ally within 5 squares of you until th
 **Power Roll + Agility:**
 - **≤11:** 8 + A damage; A<w, restrained (save ends)
 - **12-16:** 12 + A damage; A<v, restrained (save ends)
-- **17+:** 16 + A damage; A<s, restrained (save ends)
+- **17+:** Agility: á 8 + A damage; A<w, restrained (save ends) é 12 + A damage; A<v, restrained (save ends) í 16 + A damage; A<s, restrained (save ends)
 
 ## **Staggering Blow (7 Insight)**
 
@@ -11508,7 +11620,7 @@ Effect: The target is taunted by a willing ally within 5 squares of you until th
 **Power Roll + Agility:**
 - **≤11:** 7 + A damage; M<w, slowed (save ends)
 - **12-16:** 11 + A damage; M<v, prone and can't stand (save ends)
-- **17+:** 16 + A damage; M<s, prone and can't stand (save ends)
+- **17+:** Agility: á 7 + A damage; M<w, slowed (save ends) é 11 + A damage; M<v, prone and can't stand (save ends) í 16 + A damage; M<s, prone and can't stand (save ends)
 
 ## 4th-Level Features
 
@@ -11618,7 +11730,7 @@ Effect: You and the target are removed from the encounter map until the start of
 **Power Roll + Agility:**
 - **≤11:** 8 + A corruption damage
 - **12-16:** 13 + A corruption damage
-- **17+:** 17 + A corruption damage
+- **17+:** Agility: á 8 + A corruption damage é 13 + A corruption damage í 17 + A corruption damage
 
 #### **Shadowfall (9 Insight)**
 
@@ -11631,8 +11743,9 @@ Effect: You and the target are removed from the encounter map until the start of
 **Area, Melee, Weapon Main action** e 10 × 1 line within 1 x Each enemy in the area
 
 **Power Roll + Agility:**
-- **12-16:** 14 damage
-- **17+:** 20 damage
+- **≤11:** px solid 000; padding:2px;"><math>≤11</math></span> | 10 damage | |---------------------------------------------------------------------------|-----------| |---------------------------------------------------------------------------|-----------|
+- **12-16:** px solid 000; padding:2px;"><math>≤11</math></span> | 10 damage | |---------------------------------------------------------------------------|-----------| |---------------------------------------------------------------------------|-----------| é 14 damage
+- **17+:** Agility: | <span style="border:1px solid 000; padding:2px;"><math>≤11</math></span> | 10 damage | |---------------------------------------------------------------------------|-----------| |---------------------------------------------------------------------------|-----------| é 14 damage í 20 damage
 
 Effect: You disappear before making the power roll. After the power roll is resolved, you appear in the first unoccupied space at the far end of the line. ![target symbol](image-url)
 
@@ -11646,8 +11759,8 @@ e Melee 1 or ranged 5 x One creature
 
 **Power Roll + Agility:**
 - **≤11:** 10 + A damage; P<w, dazed (save ends)
-- **12-16:** 15 + A damage; P<v, dazed (save ends)
-- **17+:** 21 + A damage; P<s, dazed (save ends)
+- **12-16:** 0 + A damage; P<w, dazed (save ends) é 15 + A damage; P<v, dazed (save ends)
+- **17+:** Agility: á 10 + A damage; P<w, dazed (save ends) é 15 + A damage; P<v, dazed (save ends) í 21 + A damage; P<s, dazed (save ends)
 
 Effect: The target can't communicate with anyone until the end of the encounter.
 
@@ -11690,7 +11803,7 @@ e Melee 1 x One creature
 **Power Roll + Agility:**
 - **≤11:** 3 + A damage; vertical push 5
 - **12-16:** 6 + A damage; vertical push 10
-- **17+:** 9 + A damage; vertical push 15
+- **17+:** Agility: á 3 + A damage; vertical push 5 é 6 + A damage; vertical push 10 í 9 + A damage; vertical push 15
 
 Effect: A creature force moved by this ability must be moved straight upward.
 
@@ -11737,8 +11850,8 @@ A creature who drinks the potion receives benefits based on your power roll.
 
 **Power Roll + Agility:**
 - **≤11:** The creature's speed is increased by 2 until the end of the encounter.
-- **12-16:** The creature can fly until the end of the encounter.
-- **17+:** The creature turns invisible until the end of their next turn.
+- **12-16:** until the end of the encounter. é The creature can fly until the end of the encounter.
+- **17+:** Agility: á The creature's speed is increased by 2 until the end of the encounter. é The creature can fly until the end of the encounter. í The creature turns invisible until the end of their next turn.
 
 #### 6th-Level Harlequin Mask Abilities
 
@@ -11776,8 +11889,8 @@ enemies
 
 **Power Roll + Agility:**
 - **≤11:** 2 damage; if the target has R<w, before the damage is resolved, they make a free strike.
-- **12-16:** 5 damage; if the target has R<v, before the damage is resolved, they use a main action ability of your choice.
-- **17+:** 7 damage; if the target has R<s, before the damage is resolved, they can shift up to their speed and use a main action ability of your choice.
+- **12-16:** damage; if the target has R<w, before the damage is resolved, they make a free strike. é 5 damage; if the target has R<v, before the damage is resolved, they use a main action ability of your choice.
+- **17+:** Agility: á 2 damage; if the target has R<w, before the damage is resolved, they make a free strike. é 5 damage; if the target has R<v, before the damage is resolved, they use a main action ability of your choice. í 7 damage; if the target has R<s, before the damage is resolved, they can shift up to their speed and use a main action ability of your choice.
 
 Effect: You choose the new targets for the original target's free strike or ability. Additionally, if you are hidden or disguised, using this ability doesn't cause you to be revealed.
 
@@ -11866,6 +11979,10 @@ Choose one heroic ability from the following options, each of which costs 11 ins
 | Image: Melee icon Melee 1 | Image: Target icon One creature or object |
 
 **Power Roll + <b style="background:**
+- **≤11:** px solid black; border-radius:5px; padding:0 4px;">≤11</span> | 12 + <b style="background:black;color:white;padding:0 2px;">A</b> damage | | <span style="border:1px solid black; border-radius:5px; padding:0 4px;">12–16</span> | 18 + <b style="background:black;color:white;padding:0 2px;">A</b> damage | | <span style="border:1px solid black; border-radius:5px; padding:0 4px;">17+</span> | 24 + <b style="background:black;color:white;padding:0 2px;">A</b> damage |
+- **12-16:** px;">A</b> gility: | | |--------------------------------------------------------------------------------------|--------------------------------------------------------------------------| | <span style="border:1px solid black; border-radius:5px; padding:0 4px;">≤11</span> | 12 + <b style="background:black;color:white;padding:0 2px;">A</b> damage | | <span style="border:1px solid black; border-radius:5px; padding:0 4px;">12–16</span> | 18 + <b style="background:black;color:white;padding:0 2px;">A</b> damage | | <span style="border:1px solid black; border-radius:5px; padding:0 4px;">17+</span> | 24 + <b style="background:black;color:white;padding:0 2px;">A</b> damage |
+- **17+:** <b style="background:black;color:white;padding:0 2px;">A</b> gility: | | |--------------------------------------------------------------------------------------|--------------------------------------------------------------------------| | <span style="border:1px solid black; border-radius:5px; padding:0 4px;">≤11</span> | 12 + <b style="background:black;color:white;padding:0 2px;">A</b> damage | | <span style="border:1px solid black; border-radius:5px; padding:0 4px;">12–16</span> | 18 + <b style="background:black;color:white;padding:0 2px;">A</b> damage | | <span style="border:1px solid black; border-radius:5px; padding:0 4px;">17+</span> | 24 + <b style="background:black;color:white;padding:0 2px;">A</b> damage |
+
 Effect: A target who is not a minion, leader, or solo creature and who is winded after taking this damage is reduced to 0 Stamina.
 
 #### **Shadowgrasp (11 Insight)**
@@ -11878,8 +11995,8 @@ Effect: A target who is not a minion, leader, or solo creature and who is winded
 
 **Power Roll + Agility:**
 - **≤11:** 11 corruption damage; A<w, restrained (save ends)
-- **12-16:** 16 corruption damage; A<v, restrained (save ends)
-- **17+:** 21 corruption damage; A<s, restrained (save ends) ![](_page_171_Picture_65.jpeg) ![](_page_172_Picture_1.jpeg) *You make multiple strikes against a foe before they even notice they're* á 12 damage; M<w, slowed (save ends) **Speed of Shadows (11 Insight)** 12 damage; **M < NEAR** slowed (save ends) 12 damage; **M < AVERAGE** slowed (save ends) é 18 damage; M<v, slowed (save ends) í 24 damage; M<s, slowed (save ends) 9th-Level Features As a 9th-level shadow, you gain the following features.
+- **12-16:** 1 corruption damage; A<w, restrained (save ends) é 16 corruption damage; A<v, restrained (save ends)
+- **17+:** Agility: á 11 corruption damage; A<w, restrained (save ends) é 16 corruption damage; A<v, restrained (save ends) í 21 corruption damage; A<s, restrained (save ends) ![](_page_171_Picture_65.jpeg) ![](_page_172_Picture_1.jpeg) *You make multiple strikes against a foe before they even notice they're* á 12 damage; M<w, slowed (save ends) **Speed of Shadows (11 Insight)** 12 damage; **M < NEAR** slowed (save ends) 12 damage; **M < AVERAGE** slowed (save ends) é 18 damage; M<v, slowed (save ends) í 24 damage; M<s, slowed (save ends) 9th-Level Features As a 9th-level shadow, you gain the following features.
 
 ## **Gloom Squad**
 
@@ -11907,8 +12024,8 @@ Effect: You shift up to twice your speed, making one power roll that targets eac
 
 **Power Roll + Agility:**
 - **≤11:** An enemy takes 6 damage; an ally can teleport up to 3 squares.
-- **12-16:** An enemy takes 10 damage; an ally can teleport up to 5 squares.
-- **17+:** An enemy takes 14 damage; an ally can teleport up to 7 squares.
+- **12-16:** damage; an ally can teleport up to 3 squares. é An enemy takes 10 damage; an ally can teleport up to 5 squares.
+- **17+:** Agility: á An enemy takes 6 damage; an ally can teleport up to 3 squares. é An enemy takes 10 damage; an ally can teleport up to 5 squares. í An enemy takes 14 damage; an ally can teleport up to 7 squares.
 
 #### **Demon Door (11 Insight)**
 
@@ -11922,8 +12039,8 @@ Effect: You shift up to twice your speed, making one power roll that targets eac
 
 **Power Roll + Agility:**
 - **≤11:** 13 + A corruption damage; push 3
-- **12-16:** 18 + A corruption damage; push 5
-- **17+:** 25 + A corruption damage; push 7
+- **12-16:** 3 + A corruption damage; push 3 é 18 + A corruption damage; push 5
+- **17+:** Agility: á 13 + A corruption damage; push 3 é 18 + A corruption damage; push 5 í 25 + A corruption damage; push 7
 
 Effect: On a critical hit, the target is grabbed by the demon and pulled through the portal before it closes, never to be seen again.
 
@@ -11942,7 +12059,7 @@ Effect: Each enemy within 3 squares of the target who is not currently targeted 
 **Power Roll + Agility:**
 - **≤11:** 7 damage
 - **12-16:** 10 damage
-- **17+:** 15 damage
+- **17+:** Agility: Á 7 damage É 10 damage í 15 damage
 
 #### **To the Stars (11 Insight)**
 
@@ -11955,7 +12072,7 @@ Effect: Each enemy within 3 squares of the target who is not currently targeted 
 **Power Roll + Agility:**
 - **≤11:** 4 + A fire damage; vertical push 8
 - **12-16:** 7 + A fire damage; vertical push 10
-- **17+:** 11 + A fire damage; vertical push 15
+- **17+:** Agility: á 4 + A fire damage; vertical push 8 é 7 + A fire damage; vertical push 10 í 11 + A fire damage; vertical push 15
 
 Effect: The ground beneath a 3-cube area around the target's starting position is difficult terrain.
 
@@ -12285,10 +12402,10 @@ Choose one heroic ability from the following options, each of which costs 3 focu
 
 e Ranged 10 x Three allies
 
-**Power Roll + R**eason**:**
+**Power Roll + Reason:**
 - **≤11:** Each target gains 1 surge.
-- **12-16:** Each target gains 2 surges.
-- **17+:** Each target gains 3 surges.
+- **12-16:** surge. é Each target gains 2 surges.
+- **17+:** R**eason** á Each target gains 1 surge. é Each target gains 2 surges. í Each target gains 3 surges.
 
 #### **Concussive Strike (3 Focus)**
 
@@ -12301,7 +12418,7 @@ e Melee 1 or ranged 5 x One creature or object
 **Power Roll + Might:**
 - **≤11:** 3 + M damage; M<w, dazed (save ends)
 - **12-16:** 5 + M damage; M<v, dazed (save ends)
-- **17+:** 8 + M damage; M<s, dazed (save ends)
+- **17+:** Might: á 3 + M damage; M<w, dazed (save ends) é 5 + M damage; M<v, dazed (save ends) í 8 + M damage; M<s, dazed (save ends)
 
 #### **Inspiring Strike (3 Focus)**
 
@@ -12311,8 +12428,8 @@ e Melee 1 or ranged 5 x One creature or object
 
 **Power Roll + Might:**
 - **≤11:** 3 + M damage; you or one ally within 10 squares of you can spend a Recovery
-- **12-16:** 5 + M damage; you or one ally within 10 squares of you can spend a Recovery
-- **17+:** 8 + M damage; you and one ally within 10 squares of you can spend a Recovery, and each of you gains an edge on the next ability roll you make during the encounter
+- **12-16:** 0 squares of you can spend a Recovery é 5 + M damage; you or one ally within 10 squares of you can spend a Recovery
+- **17+:** Might: á 3 + M damage; you or one ally within 10 squares of you can spend a Recovery é 5 + M damage; you or one ally within 10 squares of you can spend a Recovery í 8 + M damage; you and one ally within 10 squares of you can spend a Recovery, and each of you gains an edge on the next ability roll you make during the encounter
 
 #### **Squad! Forward! (3 Focus)**
 
@@ -12338,8 +12455,8 @@ e Melee 1 or ranged 5 x One creature or object
 
 **Power Roll + Might:**
 - **≤11:** 5 + M damage; one ally within 10 squares of you can use a strike signature ability against the target as a free triggered action
-- **12-16:** 9 + M damage; one ally within 10 squares of you can use a strike signature ability that gains an edge against the target as a free triggered action
-- **17+:** 12 + M damage; two allies within 10 squares of you can each use a strike signature ability that gains an edge against the target as a free triggered action
+- **12-16:** 0 squares of you can use a strike signature ability against the target as a free triggered action é 9 + M damage; one ally within 10 squares of you can use a strike signature ability that gains an edge against the target as a free triggered action
+- **17+:** Might: á 5 + M damage; one ally within 10 squares of you can use a strike signature ability against the target as a free triggered action é 9 + M damage; one ally within 10 squares of you can use a strike signature ability that gains an edge against the target as a free triggered action í 12 + M damage; two allies within 10 squares of you can each use a strike signature ability that gains an edge against the target as a free triggered action
 
 Effect: If the target is reduced to 0 Stamina before one or both chosen allies has made their strike, the ally or allies can pick a different target.
 
@@ -12354,6 +12471,10 @@ Effect: If the target is reduced to 0 Stamina before one or both chosen allies h
 Effect: You mark the target.
 
 **Power Roll + Might:**
+- **≤11:** 11 | 4 + <b>M</b> damage; | <span style="background-color: black; color: white;"><b>R &lt; WEAK.</b></span> | weakened (save ends) | |-------|-----------------------|------------------------------------------------------------------------------------|----------------------| | 12–16 | 6 + <b>M</b> damage; | <span style="background-color: black; color: white;"><b>R &lt; AVERAGE.</b></span> | weakened (save ends) | | 17+ | 10 + <b>M</b> damage; | <span style="background-color: black; color: white;"><b>R &lt; STRONG.</b></span> | weakened (save ends) |
+- **12-16:** 1 | 4 + <b>M</b> damage; | <span style="background-color: black; color: white;"><b>R &lt; WEAK.</b></span> | weakened (save ends) | |-------|-----------------------|------------------------------------------------------------------------------------|----------------------| | 12–16 | 6 + <b>M</b> damage; | <span style="background-color: black; color: white;"><b>R &lt; AVERAGE.</b></span> | weakened (save ends) | | 17+ | 10 + <b>M</b> damage; | <span style="background-color: black; color: white;"><b>R &lt; STRONG.</b></span> | weakened (save ends) |
+- **17+:** Might: | ≤11 | 4 + <b>M</b> damage; | <span style="background-color: black; color: white;"><b>R &lt; WEAK.</b></span> | weakened (save ends) | |-------|-----------------------|------------------------------------------------------------------------------------|----------------------| | 12–16 | 6 + <b>M</b> damage; | <span style="background-color: black; color: white;"><b>R &lt; AVERAGE.</b></span> | weakened (save ends) | | 17+ | 10 + <b>M</b> damage; | <span style="background-color: black; color: white;"><b>R &lt; STRONG.</b></span> | weakened (save ends) |
+
 Effect: Before the start of your next turn, the first time any ally deals damage to any target marked by you, that ally can spend a Recovery.
 
 #### **Now! (5 Focus)**
@@ -12453,10 +12574,10 @@ Self
 
 Effect: You shift up to your speed directly toward an ally, ending adjacent to them, then swapping locations with that ally as long as you can fit into each other's spaces. The ally can spend a Recovery, and you can make the following weapon strike with a distance of melee 1 against a creature.
 
-**Power Roll + R**eason**:**
+**Power Roll + Reason:**
 - **≤11:** 2 + R damage; R<w, frightened (save ends)
-- **12-16:** 3 + R damage; R<v, frightened (save ends)
-- **17+:** 4 + R damage; R<s, frightened (save ends)
+- **12-16:** + R damage; R<w, frightened (save ends) é 3 + R damage; R<v, frightened (save ends)
+- **17+:** R**eason** á 2 + R damage; R<w, frightened (save ends) é 3 + R damage; R<v, frightened (save ends) í 4 + R damage; R<s, frightened (save ends)
 
 #### 2nd-Level Mastermind Ability
 
@@ -12470,9 +12591,10 @@ Choose one of the following abilities.
 
 e Ranged 5 x One creature
 
-**Power Roll + R**eason**:**
-- **12-16:** 9 + R damage; taunted (EoT)
-- **17+:** 12 + R damage; taunted (EoT)
+**Power Roll + Reason:**
+- **≤11:** px solid 000; border-radius: 8px; padding: 2px 6px;"><math>≤11</math></span> | 5 + <span style="border:1px solid 000; background: 222; color: fff; padding:2px 5px; font-weight:bold;">R</span> damage; taunted (EoT) | |----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------| |----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
+- **12-16:** px solid 000; border-radius: 8px; padding: 2px 6px;"><math>≤11</math></span> | 5 + <span style="border:1px solid 000; background: 222; color: fff; padding:2px 5px; font-weight:bold;">R</span> damage; taunted (EoT) | |----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------| |----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------| é 9 + R damage; taunted (EoT)
+- **17+:** R**eason** | <span style="border:1px solid 000; border-radius: 8px; padding: 2px 6px;"><math>≤11</math></span> | 5 + <span style="border:1px solid 000; background: 222; color: fff; padding:2px 5px; font-weight:bold;">R</span> damage; taunted (EoT) | |----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------| |----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------| é 9 + R damage; taunted (EoT) í 12 + R damage; taunted (EoT)
 
 Effect: One ally adjacent to the target can spend a Recovery. ![](_page_179_Picture_48.jpeg) ![Target symbol](image.png)
 
@@ -12507,7 +12629,7 @@ Effect: You move up to your speed toward the target, ending this movement adjace
 **Power Roll + Might:**
 - **≤11:** R<w, the target is frightened of the triggering ally (save ends)
 - **12-16:** R<v, the target is frightened of the triggering ally (save ends)
-- **17+:** R<s, the target is frightened of the triggering ally (save ends)
+- **17+:** Might: á R<w, the target is frightened of the triggering ally (save ends) é R<v, the target is frightened of the triggering ally (save ends) í R<s, the target is frightened of the triggering ally (save ends)
 
 #### **Squad! On Me! (5 Focus)**
 
@@ -12653,7 +12775,7 @@ Choose one heroic ability from the following options, each of which costs 9 focu
 **Power Roll + Might:**
 - **≤11:** 9 + M damage
 - **12-16:** 13 + M damage
-- **17+:** <sup>18</sup>**+** M damage
+- **17+:** Might: á 9 + M damage é 13 + M damage í<sup>18</sup>**+** M damage
 
 Effect: You and each ally adjacent to the target gain 10 temporary Stamina. **Squad! Remember Your Training! (9 Focus)** *You remind your allies how to best use their gear.* **Ranged Main action** e Ranged 10 x Self and two allies Effect: Each target gains 1 surge and can use a signature ability that has a double edge. ⊕ ![](_page_182_Picture_1.jpeg)
 
@@ -12721,8 +12843,8 @@ Effect: If the target of the triggering ability is not a leader or solo creature
 
 **Power Roll + Might:**
 - **≤11:** 6 + M damage; slide 1
-- **12-16:** 9 + M damage; slide 3
-- **17+:** <sup>13</sup>**+** M damage; slide 5
+- **12-16:** + M damage; slide 1 é 9 + M damage; slide 3
+- **17+:** Might: á 6 + M damage; slide 1 é 9 + M damage; slide 3 í<sup>13</sup>**+** M damage; slide 5
 
 Effect: If a target is force moved into another creature, they must make a free strike against that creature.
 
@@ -12766,7 +12888,9 @@ Choose one of the following abilities.
 | <b>Trigger:</b> A creature deals damage to the target.                                                                                                                                                                                                                                                                                                                                                                                                   |                                    |
 | <b>Effect:</b> The target takes half the damage. You then make a power roll<br>against the triggering creature.                                                                                                                                                                                                                                                                                                                                          |                                    |
 **Power Roll + Might:**
-- **17+:** 13 + M damage; two allies within 10 squares can use the Charge main action as a free triggered action, and can each use a melee strike signature ability that gains an edge instead of a free strike for the charge
+- **≤11:** 1 <span style="background: 222;color: fff;padding:2px 5px;border-radius:3px;">A &lt; WEAK</span> , dazed (save ends)<br>12-16 <span style="background: 222;color: fff;padding:2px 5px;border-radius:3px;">A &lt; AVERAGE</span> , dazed (save ends)<br>17+ <span style="background: 222;color: fff;padding:2px 5px;border-radius:3px;">A &lt; STRONG</span> , dazed (save ends)<br> | | | | | | <b>To Me Squad! (9 Focus)</b><br><i>You lead your allies in a charge.</i> | | | <b>Charge, Melee, Strike, Weapon</b><br>Melee 1 | <b>Main action</b><br>One creature | | <b>Power Roll + Might:</b><br>8;11 6 + <b>M</b> damage; one ally within 10 squares can use the Charge<br>main action as a free triggered action, and use make a melee<br>strike signature ability instead of a free strike for the charge<br>12-16 9 + <b>M</b> damage; one ally within 10 squares can use the Charge<br>main action as a free triggered action, and can use a melee<br>strike signature ability that gains an edge instead of a free | | strike for the charge
+- **12-16:** 1 <span style="background: 222;color: fff;padding:2px 5px;border-radius:3px;">A &lt; WEAK</span> , dazed (save ends)<br>12-16 <span style="background: 222;color: fff;padding:2px 5px;border-radius:3px;">A &lt; AVERAGE</span> , dazed (save ends)<br>17+ <span style="background: 222;color: fff;padding:2px 5px;border-radius:3px;">A &lt; STRONG</span> , dazed (save ends)<br> | | | | | | <b>To Me Squad! (9 Focus)</b><br><i>You lead your allies in a charge.</i> | | | <b>Charge, Melee, Strike, Weapon</b><br>Melee 1 | <b>Main action</b><br>One creature | | <b>Power Roll + Might:</b><br>8;11 6 + <b>M</b> damage; one ally within 10 squares can use the Charge<br>main action as a free triggered action, and use make a melee<br>strike signature ability instead of a free strike for the charge<br>12-16 9 + <b>M</b> damage; one ally within 10 squares can use the Charge<br>main action as a free triggered action, and can use a melee<br>strike signature ability that gains an edge instead of a free | | strike for the charge
+- **17+:** Might:</b><br>8;11 <span style="background: 222;color: fff;padding:2px 5px;border-radius:3px;">A &lt; WEAK</span> , dazed (save ends)<br>12-16 <span style="background: 222;color: fff;padding:2px 5px;border-radius:3px;">A &lt; AVERAGE</span> , dazed (save ends)<br>17+ <span style="background: 222;color: fff;padding:2px 5px;border-radius:3px;">A &lt; STRONG</span> , dazed (save ends)<br> | | | | | | <b>To Me Squad! (9 Focus)</b><br><i>You lead your allies in a charge.</i> | | | <b>Charge, Melee, Strike, Weapon</b><br>Melee 1 | <b>Main action</b><br>One creature | | <b>Power Roll + Might:</b><br>8;11 6 + <b>M</b> damage; one ally within 10 squares can use the Charge<br>main action as a free triggered action, and use make a melee<br>strike signature ability instead of a free strike for the charge<br>12-16 9 + <b>M</b> damage; one ally within 10 squares can use the Charge<br>main action as a free triggered action, and can use a melee<br>strike signature ability that gains an edge instead of a free | | strike for the charge í 13 + M damage; two allies within 10 squares can use the Charge main action as a free triggered action, and can each use a melee strike signature ability that gains an edge instead of a free strike for the charge
 
 Effect: If the target is hit with two or more strikes as part of this ability and they have R<s, they are dazed (save ends). If the target is reduced to 0 Stamina before one or both allies has made their strike, the ally or allies can pick a different target.
 
@@ -12897,8 +13021,8 @@ Effect: Each target gains 1 surge and can use a signature ability as a free trig
 
 **Power Roll + Might:**
 - **≤11:** 6 + M damage
-- **12-16:** 10 + M damage
-- **17+:** <sup>14</sup>**+** M damage
+- **12-16:** + M damage é 10 + M damage
+- **17+:** Might: á 6 + M damage é 10 + M damage í<sup>14</sup>**+** M damage
 
 Effect: One ally within 10 squares of you can use a heroic ability against the target as a free triggered action without spending any of their Heroic Resource, as long as they have enough Heroic Resource to pay for the ability. If the target is reduced to 0 Stamina before the chosen ally has used their ability, the ally can pick a different target.
 
@@ -12945,7 +13069,7 @@ Effect: Each target uses a signature ability against one or more targets of your
 **Power Roll + Might:**
 - **≤11:** R<w, dazed (save ends)
 - **12-16:** R<v, dazed (save ends)
-- **17+:** R<s, dazed (save ends) ![](_page_184_Picture_64.jpeg)
+- **17+:** Might: á R<w, dazed (save ends) é R<v, dazed (save ends) í R<s, dazed (save ends) ![](_page_184_Picture_64.jpeg)
 
 #### 9th-Level Mastermind Abilities
 
@@ -12983,6 +13107,10 @@ e Melee 1 x One creature
 Effect: You mark the target.
 
 **Power Roll + Might:**
+- **≤11:** 11</span> | 11 + <b>M</b> | damage | |--------------------|---------------|--------| | <span>12–16</span> | 16 + <b>M</b> | damage | | <span>17+</span> | 21 + <b>M</b> | damage |
+- **12-16:** 1</span> | 11 + <b>M</b> | damage | |--------------------|---------------|--------| | <span>12–16</span> | 16 + <b>M</b> | damage | | <span>17+</span> | 21 + <b>M</b> | damage |
+- **17+:** Might: | <span>≤11</span> | 11 + <b>M</b> | damage | |--------------------|---------------|--------| | <span>12–16</span> | 16 + <b>M</b> | damage | | <span>17+</span> | 21 + <b>M</b> | damage |
+
 Effect: If you use this ability as part of the Charge main action, enemies' spaces don't count as difficult terrain for your movement. Additionally, if you move through any creature's space, you can slide that creature 1 square out of the path of your charge.
 
 ## **That One Is Mine! (11 Focus)**
@@ -12996,7 +13124,7 @@ Effect: The target is marked by you.
 **Power Roll + Might:**
 - **≤11:** 8 + M damage
 - **12-16:** 13 + M damage
-- **17+:** <sup>17</sup>**+** M damage
+- **17+:** Might: á 8 + M damage é 13 + M damage í<sup>17</sup>**+** M damage
 
 Effect: Until the end of the encounter or until you are dying, you can use a signature or heroic ability instead of a free strike against any target marked by you.
 
@@ -13146,10 +13274,10 @@ You have the following ability, which can be used as a ranged free strike.
 
 **Psionic, Ranged, Strike, Telepathy Main action**  e Ranged 10 x One creature
 
-**Power Roll + R**eason**:**
+**Power Roll + Reason:**
 - **≤11:** 2 + R psychic damage
-- **12-16:** 4 + R psychic damage
-- **17+:** 6 + R psychic damage **Strained:** The target takes an extra 2 psychic damage. You also take 2 psychic damage that can't be reduced in any way.
+- **12-16:** + R psychic damage é 4 + R psychic damage
+- **17+:** R**eason** : á 2 + R psychic damage é 4 + R psychic damage í 6 + R psychic damage **Strained:** The target takes an extra 2 psychic damage. You also take 2 psychic damage that can't be reduced in any way.
 
 ## **Psionic Augmentation**
 
@@ -13325,8 +13453,8 @@ This image contains a symbol that looks like a circular target or a crosshair, w
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|
 **Power Roll + Presence:**
 - **≤11:** 2 + P corruption damage; P <w, (save="" ends)<br="" slowed="">
-- **12-16:** 3 + P corruption damage; P<v, (save="" ends)<br="" slowed="">
-- **17+:** 5+ P corruption damage; P<s, (save="" ends)<="" slowed="" td=""><td></td></s,></v,></w,> | | |
+- **12-16:** + P corruption damage; P <w, (save="" ends)<br="" slowed="">é 3 + P corruption damage; P<v, (save="" ends)<br="" slowed="">
+- **17+:** Presence:<br>á 2 + P corruption damage; P <w, (save="" ends)<br="" slowed="">é 3 + P corruption damage; P<v, (save="" ends)<br="" slowed="">í 5+ P corruption damage; P<s, (save="" ends)<="" slowed="" td=""><td></td></s,></v,></w,> | | |
 
 Effect: The target takes an extra 1 corruption damage for each addi<br>tional time they are targeted by this ability during the encounter. | | | Strained: You gain 1 clarity when you obtain a tier 2 or tier 3 out<br>come on the power roll. | | | Hoarfrost<br>You blast a foe with a pulse of cold energy. | | | Cryokinesis, Psionic, Ranged, Strike<br>e Ranged 10<br>Power Roll + Reason: | Main action<br>x One creature | | á 2 + R cold damage; M <w, (eot)<br="" slowed="">é 4 + R cold damage; M<v, (eot)<br="" slowed="">í 6 + R cold damage; M<s, (eot)<="" slowed="" td=""><td></td></s,></v,></w,> | | | Strained: You are slowed until the end of your next turn. Additional<br>ly, a target slowed by this ability is restrained instead. | | | Incinerate<br>The air erupts into a column of smokeless flame. | | | Area, Fire, Psionic, Pyrokinesis, Ranged | Main action | | e 3 cube within 10<br>Power Roll + Reason :<br>á 2 fire damage<br>é 4 fire damage<br>í 6 fire damage | x Each enemy in the area | | Effect: A column of fire remains in the area until the start of your<br>next turn. Each enemy who enters the area for the first time in a<br>combat round or starts their turn there takes 2 fire damage. | | | Strained: The size of the cube increases by 2, but the fire disappears<br>at the end of your turn. | | | Kinetic Grip<br>You lift and hurl your foe away from you. | | | Psionic, Ranged, Telekinesis<br>e Ranged 10 | Main action<br>x One creature or object | | Power Roll + Reason :<br>á Slide 2 + R<br>É Slide 4 + R<br>í Slide 6 + R; prone | yourself. | | | |
 
@@ -13336,10 +13464,10 @@ Effect: The target takes an extra 1 corruption damage for each addi<br>tional ti
 
 # **Area, Psionic, Telepathy Main action**  e 1 burst x Each enemy in the area
 
-**Power Roll + R**eason**:**
+**Power Roll + Reason:**
 - **≤11:** 2 psychic damage
-- **12-16:** 5 psychic damage; push 1
-- **17+:** 7 psychic damage; push 2 Strained: The size of the burst increases by 2, and you are bleeding until the start of your next turn.
+- **12-16:** psychic damage é 5 psychic damage; push 1
+- **17+:** R**eason** : á 2 psychic damage é 5 psychic damage; push 1 í 7 psychic damage; push 2 Strained: The size of the burst increases by 2, and you are bleeding until the start of your next turn.
 
 #### **Materialize**
 
@@ -13349,7 +13477,11 @@ Effect: The target takes an extra 1 corruption damage for each addi<br>tional ti
 |-------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
 |-------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
 
-**Power Roll + R**eason**:**
+**Power Roll + Reason:**
+- **≤11:** 11 | 3 + <b style="background:black;color:white;padding:2px 5px;">R</b> | damage | |-------|--------------------------------------------------------------------|--------| | 12–16 | 5 + <b style="background:black;color:white;padding:2px 5px;">R</b> | damage | | 17+ | 8 + <b style="background:black;color:white;padding:2px 5px;">R</b> | damage |
+- **12-16:** 1 | 3 + <b style="background:black;color:white;padding:2px 5px;">R</b> | damage | |-------|--------------------------------------------------------------------|--------| | 12–16 | 5 + <b style="background:black;color:white;padding:2px 5px;">R</b> | damage | | 17+ | 8 + <b style="background:black;color:white;padding:2px 5px;">R</b> | damage |
+- **17+:** R**eason** : | ≤11 | 3 + <b style="background:black;color:white;padding:2px 5px;">R</b> | damage | |-------|--------------------------------------------------------------------|--------| | 12–16 | 5 + <b style="background:black;color:white;padding:2px 5px;">R</b> | damage | | 17+ | 8 + <b style="background:black;color:white;padding:2px 5px;">R</b> | damage |
+
 Effect: A worthless size 1M object drops onto the target to deal the damage, then rolls into an adjacent unoccupied space of your choice. The object is made of wood, stone, or metal (your choice). Strained: The object explodes after the damage is dealt, and each creature adjacent to the target takes damage equal to your Reason score. You also take damage equal to your Reason score that can't be reduced in any way.
 
 #### **Optic Blast**
@@ -13358,7 +13490,11 @@ Effect: A worthless size 1M object drops onto the target to deal the damage, the
 |-----------------------------------------------|-----------------------------------------------------------|
 | Image: ruler triangle<br>Ranged 10            | Image: clock-like action symbol<br>One creature or object |
 
-**Power Roll + R**eason:**
+**Power Roll + Reason:**
+- **≤11:** 11 | 2 + <span style="background:black; color:white;">R</span> damage | <span style="background:black; color:white;">M &lt; WEAK</span> , prone | | 12-16 | 4 + <span style="background:black; color:white;">R</span> damage | <span style="background:black; color:white;">M &lt; AVERAGE</span> , prone | | 17+ | 6 + <span style="background:black; color:white;">R</span> damage | <span style="background:black; color:white;">M &lt; STRONG</span> , prone |
+- **12-16:** ------|------------------------------------------------------------------|----------------------------------------------------------------------------| | ≤11 | 2 + <span style="background:black; color:white;">R</span> damage | <span style="background:black; color:white;">M &lt; WEAK</span> , prone | | 12-16 | 4 + <span style="background:black; color:white;">R</span> damage | <span style="background:black; color:white;">M &lt; AVERAGE</span> , prone | | 17+ | 6 + <span style="background:black; color:white;">R</span> damage | <span style="background:black; color:white;">M &lt; STRONG</span> , prone |
+- **17+:** R**eason:** | Range | Damage | Condition | |-------|------------------------------------------------------------------|----------------------------------------------------------------------------| | ≤11 | 2 + <span style="background:black; color:white;">R</span> damage | <span style="background:black; color:white;">M &lt; WEAK</span> , prone | | 12-16 | 4 + <span style="background:black; color:white;">R</span> damage | <span style="background:black; color:white;">M &lt; AVERAGE</span> , prone | | 17+ | 6 + <span style="background:black; color:white;">R</span> damage | <span style="background:black; color:white;">M &lt; STRONG</span> , prone |
+
 Effect: When targeting an object with a solid reflective surface or a creature carrying or wearing such an object (such as a mirror, an unpainted metal shield, or shiny metal plate armor), you can target one additional creature or object within 3 squares of the first target. **Strained:** You gain 1 surge that you can use immediately, and you take damage equal to your Reason score that can't be reduced in any way.
 
 #### **Spirit Sword**
@@ -13370,8 +13506,10 @@ Effect: When targeting an object with a solid reflective surface or a creature c
 **Main action**
 One creature or object
 
-**Power Roll + P**resence**:**
-- **17+:** 9+ P damage
+**Power Roll + Presence:**
+- **≤11:** px solid 000; border-radius:8px; padding:1px 4px;">≤11</span> | 3 + <span style="background: 000;color: fff;font-weight:bold;padding:2px 4px;">P</span> | damage | |---------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|--------| | <span style="border:1px solid 000; border-radius:8px; padding:1px 4px;">12–16</span> | 6 + <span style="background: 000;color: fff;font-weight:bold;padding:2px 4px;">P</span> | damage |
+- **12-16:** px solid 000; border-radius:8px; padding:1px 4px;">≤11</span> | 3 + <span style="background: 000;color: fff;font-weight:bold;padding:2px 4px;">P</span> | damage | |---------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|--------| | <span style="border:1px solid 000; border-radius:8px; padding:1px 4px;">12–16</span> | 6 + <span style="background: 000;color: fff;font-weight:bold;padding:2px 4px;">P</span> | damage |
+- **17+:** P**resence**: | <span style="border:1px solid 000; border-radius:8px; padding:1px 4px;">≤11</span> | 3 + <span style="background: 000;color: fff;font-weight:bold;padding:2px 4px;">P</span> | damage | |---------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|--------| | <span style="border:1px solid 000; border-radius:8px; padding:1px 4px;">12–16</span> | 6 + <span style="background: 000;color: fff;font-weight:bold;padding:2px 4px;">P</span> | damage | í 9+ P damage
 
 Effect: You gain 1 surge. Strained: The target takes an extra 3 damage. You also take 3 damage that can't be reduced in any way. Draw Steel
 
@@ -13393,10 +13531,10 @@ e Ranged 10 x One creature
 
 Effect: If you target an ally, they gain temporary Stamina equal to three times your Presence score, and they can end one effect on them that is ended by a saving throw or that ends at the end of their turn. If you target an enemy, you make a power roll.
 
-**Power Roll + P**resence**:**
+**Power Roll + Presence:**
 - **≤11:** 3 + P psychic damage; I<w, frightened (save ends)
 - **12-16:** 6 + P psychic damage; I<v, frightened (save ends)
-- **17+:** 9+ P psychic damage; I<s, frightened (save ends)
+- **17+:** P**resence**: á 3 + P psychic damage; I<w, frightened (save ends) é 6 + P psychic damage; I<v, frightened (save ends) í 9+ P psychic damage; I<s, frightened (save ends)
 
 #### **Choke (3 Clarity)**
 
@@ -13404,10 +13542,10 @@ Effect: If you target an ally, they gain temporary Stamina equal to three times 
 
 **Psionic, Ranged**, **Strike, Telekinesis Main action**  e Ranged 10 x One creature
 
-**Power Roll + R**eason:**
+**Power Roll + Reason:**
 - **≤11:** 3 + R damage; M<w, slowed (save ends)
 - **12-16:** 5 + R damage; M<v, slowed (save ends)
-- **17+:** 8 + R damage; M<s, restrained (save ends)
+- **17+:** R**eason:** á 3 + R damage; M<w, slowed (save ends) é 5 + R damage; M<v, slowed (save ends) í 8 + R damage; M<s, restrained (save ends)
 
 Effect: You can vertical pull the target up to 2 squares. If the target is made restrained by this ability, this forced movement ignores their stability.
 
@@ -13433,10 +13571,10 @@ Effect: Ability rolls made against the target take a bane until the start of you
 
 Effect: Choose the damage type and the weakness for this ability from one of the following: acid, corruption, or fire. The target takes damage before this ability imposes any weakness.
 
-**Power Roll + R**eason:**
+**Power Roll + Reason:**
 - **≤11:** 3 + R damage; R<w, the target has weakness 5 (save ends)
 - **12-16:** 6 + R damage; R<v, the target has weakness 5 (save ends)
-- **17+:** 9 + R damage; R<s, the target has weakness equal to 5 + your Reason score (save ends) ⊕ ![](_page_192_Picture_1.jpeg)
+- **17+:** R**eason:** á 3 + R damage; R<w, the target has weakness 5 (save ends) é 6 + R damage; R<v, the target has weakness 5 (save ends) í 9 + R damage; R<s, the target has weakness equal to 5 + your Reason score (save ends) ⊕ ![](_page_192_Picture_1.jpeg)
 
 #### **5-Clarity Ability**
 
@@ -13537,10 +13675,10 @@ Choose one of the following abilities.
 
 #### **Chronopathy, Psionic, Ranged Maneuver**  e Ranged 10 x Special
 
-**Power Roll + P**resence**:**
+**Power Roll + Presence:**
 - **≤11:** You target two creatures, one of which can be you.
 - **12-16:** You target three creatures, one of which can be you.
-- **17+:** You target four creatures, one of which can be you.
+- **17+:** P**resence**: á You target two creatures, one of which can be you. é You target three creatures, one of which can be you. í You target four creatures, one of which can be you.
 
 Effect: Until the start of your next turn, each target gains a +5 bonus to speed, they can't be made dazed, and they can use an additional maneuver on their turn. If a target is already dazed, that condition ends for them. Strained: Your speed is halved until the end of the encounter.
 
@@ -13552,10 +13690,10 @@ Effect: Until the start of your next turn, each target gains a +5 bonus to speed
 
 e Ranged 10 x Three creatures or objects
 
-**Power Roll + P**resence**:**
+**Power Roll + Presence:**
 - **≤11:** The target's speed is halved (save ends), or if P <w, the target is slowed (save ends).
 - **12-16:** The target is slowed (save ends), or if P <v, the target's speed is 0 (save ends).
-- **17+:** The target is slowed (save ends), or if P <s, the target's speed is 0 (save ends).
+- **17+:** P**resence**: á The target's speed is halved (save ends), or if P <w, the target is slowed (save ends). é The target is slowed (save ends), or if P <v, the target's speed is 0 (save ends). í The target is slowed (save ends), or if P <s, the target's speed is 0 (save ends).
 
 Effect: A target can't use triggered actions while their speed is reduced this way. Strained: The potency of this ability increases by 1 and you take 1d6 damage. At the start of each combat round while any target is affected by this ability, you take 1d6 damage. You can end the effect on all affected targets at any time (no action required).
 
@@ -13569,10 +13707,10 @@ Choose one of the following abilities.
 
 **Area, Psionic, Telekinesis Main action**  e 1 burst x Each enemy in the area
 
-**Power Roll + R**eason**:**
+**Power Roll + Reason:**
 - **≤11:** 3 damage; vertical push 2
-- **12-16:** 6 damage; vertical push 4
-- **17+:** 9 damage; vertical push 6 Strained: The size of the burst increases by 1, and you are weakened until the end of your turn.
+- **12-16:** é 6 damage; vertical push 4
+- **17+:** R**eason** : á 3 damage; vertical push 2 é 6 damage; vertical push 4 í 9 damage; vertical push 6 Strained: The size of the burst increases by 1, and you are weakened until the end of your turn.
 
 #### **Levity and Gravity (5 Clarity)**
 
@@ -13582,10 +13720,10 @@ Choose one of the following abilities.
 
 - One creature or object
 
-**Power Roll + R**eason**:**
+**Power Roll + Reason:**
 - **≤11:** 6 + R damage; M<w, prone
-- **12-16:** 10 + R damage; M<v, prone
-- **17+:** 14 + R damage; M<s, prone and can't stand (save ends) Strained: You take half the damage the target takes.
+- **12-16:** + R damage; M<w, prone é 10 + R damage; M<v, prone
+- **17+:** R**eason** : á 6 + R damage; M<w, prone é 10 + R damage; M<v, prone í 14 + R damage; M<s, prone and can't stand (save ends) Strained: You take half the damage the target takes.
 
 #### 2nd-Level Telepathy Ability
 
@@ -13599,10 +13737,10 @@ Choose one of the following abilities.
 |-------------------------------------------|--------------------------------|
 | Image: Ranged icon Ranged 10              | Image: Clock icon One creature |
 
-**Power Roll + R**eason**:**
+**Power Roll + Reason:**
 - **≤11:** 6 + R psychic damage; I<w, slowed (save ends)
-- **12-16:** 10 + R psychic damage; I<v, weakened (save ends)
-- **17+:** 14 + R psychic damage; I<s, dazed (save ends) Strained: You start crying, and you can't use triggered actions or make free strikes until the end of the target's next turn.
+- **12-16:** + R psychic damage; I<w, slowed (save ends) é 10 + R psychic damage; I<v, weakened (save ends)
+- **17+:** R**eason** : á 6 + R psychic damage; I<w, slowed (save ends) é 10 + R psychic damage; I<v, weakened (save ends) í 14 + R psychic damage; I<s, dazed (save ends) Strained: You start crying, and you can't use triggered actions or make free strikes until the end of the target's next turn.
 
 #### **Synaptic Override (5 Clarity)**
 
@@ -13612,10 +13750,10 @@ Choose one of the following abilities.
 
 e Ranged 10 x One enemy
 
-**Power Roll + R**eason**:**
+**Power Roll + Reason:**
 - **≤11:** The target makes a free strike against one enemy of your choice.
 - **12-16:** The target shifts up to their speed and uses their signature ability against any enemies of your choice.
-- **17+:** The target moves up to their speed and uses their signature ability against any enemies of your choice.
+- **17+:** R**eason** : á The target makes a free strike against one enemy of your choice. é The target shifts up to their speed and uses their signature ability against any enemies of your choice. í The target moves up to their speed and uses their signature ability against any enemies of your choice.
 
 Effect: You control the target's movement. The target can't be moved in a way that would harm them (such as over a cliff), leave them dying, or result in them suffering a condition or other negative effect. However, you can move them to provoke opportunity attacks. Strained: You take 1d6 damage and are weakened until the end of your turn. This image appears to show a target or crosshair symbol in the corner. There is no readable text present in the image to be reproduced in markdown.
 
@@ -13639,10 +13777,10 @@ Choose one heroic ability from the following options, each of which costs 7 clar
 
 e Ranged 10 x One creature or object
 
-**Power Roll + P**resence**:**
+**Power Roll + Presence:**
 - **≤11:** 3 + P corruption damage; P<w, weakened (save ends)
 - **12-16:** 5 + P corruption damage; the target is flung through time, and if P <v, they are weakened (save ends)
-- **17+:** 8 + P corruption damage; the target is flung through time, and if P <s, they are weakened (save ends)
+- **17+:** P**resence**: á 3 + P corruption damage; P<w, weakened (save ends) é 5 + P corruption damage; the target is flung through time, and if P <v, they are weakened (save ends) í 8 + P corruption damage; the target is flung through time, and if P <s, they are weakened (save ends)
 
 Effect: A target who is flung through time is removed from the encounter map until the end of their next turn, reappearing in their original space or the nearest unoccupied space. Strained: You take 2d6 damage and permanently grow visibly older (the equivalent of 10 years for a human). If you obtain a tier 3 outcome on the power roll, you gain 2 clarity.
 
@@ -13658,10 +13796,10 @@ Effect: You create three size 1T orbs that orbit your body. Each orb gives you a
 
 Once on each of your turns, you can use a free maneuver to fire an orb at a creature or object within 5 squares as a ranged strike, losing the orb after the strike.
 
-**Power Roll + R**eason**:**
+**Power Roll + Reason:**
 - **≤11:** 2 damage
-- **12-16:** 3 damage
-- **17+:** 5 damage Strained: You create five orbs, and you are weakened while you have any orbs active.
+- **12-16:** damage é 3 damage
+- **17+:** R**eason** : á 2 damage é 3 damage í 5 damage Strained: You create five orbs, and you are weakened while you have any orbs active.
 
 #### **Reflector Field (7 Clarity)**
 
@@ -13684,9 +13822,10 @@ Strained: The size of the aura increases by 1. Whenever your aura reflects an ab
 ![target icon](icon)
 One creature
 
-**Power Roll + P**resence**:**
-- **12-16:** 10 + Pdamage; P<v, dazed (save ends)
-- **17+:** 14 + Pdamage; P<s, dazed (save ends)
+**Power Roll + Presence:**
+- **≤11:** 11 | 6 + <b>P</b> damage; <b>P</b> < <b>WEAK</b> . | dazed (save ends) | |-----|-----------------------------------------------|-------------------| |-----|-----------------------------------------------|-------------------|
+- **12-16:** 1 | 6 + <b>P</b> damage; <b>P</b> < <b>WEAK</b> . | dazed (save ends) | |-----|-----------------------------------------------|-------------------| |-----|-----------------------------------------------|-------------------| é 10 + Pdamage; P<v, dazed (save ends)
+- **17+:** P**resence**: | ≤11 | 6 + <b>P</b> damage; <b>P</b> < <b>WEAK</b> . | dazed (save ends) | |-----|-----------------------------------------------|-------------------| |-----|-----------------------------------------------|-------------------| é 10 + Pdamage; P<v, dazed (save ends) í 14 + Pdamage; P<s, dazed (save ends)
 
 Effect: The target takes a bane on Presence tests until the end of the encounter. Strained: The potency of this ability increases by 1. You take 2d6 damage and gain 3 surges that you can use immediately.
 
@@ -13799,10 +13938,10 @@ e 5 × 2 line within 1 x Each enemy in the area
 
 Effect: You teleport to a square on the opposite side of the area before making the power roll.
 
-**Power Roll + R**eason**:**
+**Power Roll + Reason:**
 - **≤11:** 12 sonic damage
-- **12-16:** 18 sonic damage
-- **17+:** 24 sonic damage Strained: If you obtain a tier 2 outcome or better, you are slowed until the end of your turn and each target is slowed until the end of their turn.
+- **12-16:** 2 sonic damage é 18 sonic damage
+- **17+:** R**eason** á 12 sonic damage é 18 sonic damage í 24 sonic damage Strained: If you obtain a tier 2 outcome or better, you are slowed until the end of your turn and each target is slowed until the end of their turn.
 
 #### **Mind Snare (9 Clarity)**
 
@@ -13812,10 +13951,10 @@ Effect: You teleport to a square on the opposite side of the area before making 
 |--------------------------------------------------------------------------------|----------------------------------------------------------------------|
 |--------------------------------------------------------------------------------|----------------------------------------------------------------------|
 
-**Power Roll + R**eason**:**
+**Power Roll + Reason:**
 - **≤11:** 10 + R psychic damage; R<w, slowed (save ends)
-- **12-16:** 14 + R psychic damage; R<v, slowed (save ends)
-- **17+:** 20 + R psychic damage; R<s, slowed (save ends)
+- **12-16:** 0 + R psychic damage; R<w, slowed (save ends) é 14 + R psychic damage; R<v, slowed (save ends)
+- **17+:** R**eason** á 10 + R psychic damage; R<w, slowed (save ends) é 14 + R psychic damage; R<v, slowed (save ends) í 20 + R psychic damage; R<s, slowed (save ends)
 
 Effect: While slowed this way, the target takes 3 psychic damage for each square they willingly leave. Strained: While slowed this way, the target instead takes 5 psychic damage for each square they willingly leave. You have a double bane on ability rolls made against the target while they are slowed this way.
 
@@ -13827,10 +13966,10 @@ Effect: While slowed this way, the target takes 3 psychic damage for each square
 
 e Ranged 10 x Two enemies
 
-**Power Roll + P**resence**:**
+**Power Roll + Presence:**
 - **≤11:** 8 damage; A<w, the target is stitched to the other target (save ends)
 - **12-16:** 13 damage; A<v, the target is stitched to the other target (save ends)
-- **17+:** 17 damage; A<s, the target is stitched to the other target (save ends)
+- **17+:** P**resence**: á 8 damage; A<w, the target is stitched to the other target (save ends) é 13 damage; A<v, the target is stitched to the other target (save ends) í 17 damage; A<s, the target is stitched to the other target (save ends)
 
 Effect: If any target becomes stitched to the other, both targets are stitched together. While stitched together, a target takes a bane on power rolls while not adjacent to a creature they're stitched to. Whenever a stitched target takes damage that wasn't dealt by or also taken by another stitched target, each other stitched target takes half the damage the initial target took. Strained: You target yourself and three enemies instead.
 
@@ -13901,10 +14040,10 @@ Effect: The target has damage weakness 5 until the end of your next turn. Whenev
 
 **Strained:** This ability gains the Strike keyword as the vision hurts the target's psyche. You make a power roll, then are weakened (save ends).
 
-**Power Roll + P**resence**:**
+**Power Roll + Presence:**
 - **≤11:** 8 + P psychic damage
 - **12-16:** 13 + P psychic damage
-- **17+:** 17+ P psychic damage
+- **17+:** P**resence**: á 8 + P psychic damage é 13 + P psychic damage í 17+ P psychic damage
 
 #### **Stasis Field (9 Clarity)**
 
@@ -13918,10 +14057,10 @@ Effect: The area is frozen in time until the start of your next turn. Each objec
 
 Make a power roll that targets each enemy in the area.
 
-**Power Roll + P**resence**:**
+**Power Roll + Presence:**
 - **≤11:** P<w, the target is slowed until the effect ends
 - **12-16:** P<v, the target's speed is 0 until the effect ends
-- **17+:** P<s, the target is restrained until the effect ends Strained: Any creature or object force moved in the area takes 2 corruption damage for each square of the area they enter. Creatures and objects restrained in the area can be force moved. You are restrained until the effect ends.
+- **17+:** P**resence**: á P<w, the target is slowed until the effect ends é P<v, the target's speed is 0 until the effect ends í P<s, the target is restrained until the effect ends Strained: Any creature or object force moved in the area takes 2 corruption damage for each square of the area they enter. Creatures and objects restrained in the area can be force moved. You are restrained until the effect ends.
 
 #### 6th-Level Telekinesis Abilities
 
@@ -13935,10 +14074,10 @@ Choose one of the following abilities.
 
 **Area, Psionic, Ranged, Telekinesis Main action** e 4 cube within 10 x Each enemy and object in the area
 
-**Power Roll + R**eason**:**
+**Power Roll + Reason:**
 - **≤11:** 6 damage; vertical pull 5 toward the center of the area
-- **12-16:** 9 damage; vertical pull 7 toward the center of the area
-- **17+:** 13 damage; vertical pull 10 toward the center of the area
+- **12-16:** damage; vertical pull 5 toward the center of the area é 9 damage; vertical pull 7 toward the center of the area
+- **17+:** R**eason** á 6 damage; vertical pull 5 toward the center of the area é 9 damage; vertical pull 7 toward the center of the area í 13 damage; vertical pull 10 toward the center of the area
 
 Effect: Targets closest to the center of the area are pulled first. Strained: The size of the area increases by 2. You also target yourself and each ally within distance.
 
@@ -13948,10 +14087,10 @@ Effect: Targets closest to the center of the area are pulled first. Strained: Th
 
 **Psionic, Ranged**, **Strike, Telekinesis Main action** e Ranged 10 x One creature or object
 
-**Power Roll + R**eason**:**
+**Power Roll + Reason:**
 - **≤11:** Slide 4 + R; M<w, the forced movement is vertical
 - **12-16:** Slide 8 + R; M<v, the forced movement is vertical
-- **17+:** Slide 12 + R; prone; M<s, the forced movement is Strained: The forced movement ignores stability. You take 2d6 damage and are weakened (save ends).
+- **17+:** R**eason** vertical á Slide 4 + R; M<w, the forced movement is vertical é Slide 8 + R; M<v, the forced movement is vertical í Slide 12 + R; prone; M<s, the forced movement is Strained: The forced movement ignores stability. You take 2d6 damage and are weakened (save ends).
 
 #### 6th-Level Telepathy Abilities
 
@@ -13965,10 +14104,10 @@ Choose one of the following abilities.
 |-----------------------------------------|------------------------------------|
 | Image: triangle with lines icon Melee 2 | Image: stopwatch icon One creature |
 
-**Power Roll + R**eason**:**
+**Power Roll + Reason:**
 - **≤11:** 10 psychic damage; the target takes a bane on ability rolls made to harm you or your allies (save ends)
-- **12-16:** 14 psychic damage; the target has a double bane on ability rolls made to harm you or your allies (save ends)
-- **17+:** 20 psychic damage; the target considers you and your allies to be their allies when using abilities and features (save ends) Strained: While the target is under this effect, you no longer consider your enemies to be your enemies when using your abilities and features.
+- **12-16:** 0 psychic damage; the target takes a bane on ability rolls made to harm you or your allies (save ends) é 14 psychic damage; the target has a double bane on ability rolls made to harm you or your allies (save ends)
+- **17+:** R**eason** á 10 psychic damage; the target takes a bane on ability rolls made to harm you or your allies (save ends) é 14 psychic damage; the target has a double bane on ability rolls made to harm you or your allies (save ends) í 20 psychic damage; the target considers you and your allies to be their allies when using abilities and features (save ends) Strained: While the target is under this effect, you no longer consider your enemies to be your enemies when using your abilities and features.
 
 #### **Synaptic Dissipation (9 Clarity)**
 
@@ -13983,10 +14122,10 @@ Special
 
 Effect: You target a number of creatures with this ability determined by the outcome of your power roll. You and your allies are invisible to each target until the start of your next turn.
 
-**Power Roll + R**eason**:**
+**Power Roll + Reason:**
 - **≤11:** Two creatures
 - **12-16:** Three creatures
-- **17+:** Five creatures **Strained:** The effect ends early if you take damage from an enemy's ability. ![](_page_198_Picture_0.jpeg)
+- **17+:** R**eason** á Two creatures é Three creatures í Five creatures **Strained:** The effect ends early if you take damage from an enemy's ability. ![](_page_198_Picture_0.jpeg)
 
 ## 7th-Level Features
 
@@ -14094,10 +14233,10 @@ Choose one heroic ability from the following options, each of which costs 11 cla
 
 e Ranged 10 x One creature or object
 
-**Power Roll + P**resence**:**
+**Power Roll + Presence:**
 - **≤11:** 10 + Pdamage; P<w, weakened (save ends)
-- **12-16:** 14 + Pdamage; P<v, weakened (save ends)
-- **17+:** 20+ Pdamage; P<s, weakened and slowed (save ends)
+- **12-16:** 0 + Pdamage; P<w, weakened (save ends) é 14 + Pdamage; P<v, weakened (save ends)
+- **17+:** P**resence**: á 10 + Pdamage; P<w, weakened (save ends) é 14 + Pdamage; P<v, weakened (save ends) í 20+ Pdamage; P<s, weakened and slowed (save ends)
 
 Effect: This ability gains an edge against a target with a soul (see *Draw Steel: Monsters*). After you make the power roll, you or one ally within distance have a double edge on the next power roll you make before the end of the encounter. Strained: You feel dispirited until you finish a respite. If you obtain a tier 3 outcome on the power roll, you and the target each have damage weakness 5 (save ends).
 
@@ -14111,10 +14250,10 @@ Effect: This ability gains an edge against a target with a soul (see *Draw Steel
 
 ⊙ One creature
 
-**Power Roll + R**eason**:**
+**Power Roll + Reason:**
 - **≤11:** 12 + R damage; R<w, the target takes a bane on their next power roll
-- **12-16:** 17 + R damage; R<v, the target takes a bane on power rolls (save ends)
-- **17+:** 23 + R damage; R<s, the target has a double bane on power rolls (save ends)
+- **12-16:** Power Roll + R**eason** á 12 + R damage; R<w, the target takes a bane on their next power roll é 17 + R damage; R<v, the target takes a bane on power rolls (save ends)
+- **17+:** R**eason** á 12 + R damage; R<w, the target takes a bane on their next power roll é 17 + R damage; R<v, the target takes a bane on power rolls (save ends) í 23 + R damage; R<s, the target has a double bane on power rolls (save ends)
 
 Effect: The target can't communicate with anyone until the end of the encounter. Strained: You take 3d6 damage.
 
@@ -14182,10 +14321,10 @@ Choose one of the following abilities.
 
 Effect: Each target can use any main action available to them as a free triggered action, but they lose their main action on their next turn. **Strained:** Make a power roll that targets you and each enemy within distance.
 
-**Power Roll + P**resence**:**
+**Power Roll + Presence:**
 - **≤11:** 4 corruption damage; slowed (save ends)
 - **12-16:** 6 corruption damage; slowed (save ends)
-- **17+:** 10 corruption damage; slowed (save ends)
+- **17+:** P**resence**: á 4 corruption damage; slowed (save ends) é 6 corruption damage; slowed (save ends) í 10 corruption damage; slowed (save ends)
 
 #### **Borrow From the Future (11 Clarity)**
 
@@ -14213,10 +14352,10 @@ Choose one of the following abilities.
 
 Effect: Make a power roll to determine the area of this ability. Each target is vertical pushed 6 squares. You can target only objects of size 1L or smaller.
 
-**Power Roll + R**eason**:**
+**Power Roll + Reason:**
 - **≤11:** 2 burst
-- **12-16:** 3 burst
-- **17+:** 4 burst Strained: You can choose to reduce the size of the burst by 2 (to a minimum of 1 burst) to give the forced movement distance a +2 bonus. You take half the total damage all targets take from forced movement. Draw Steel ![A circular target symbol with a crosshair, consisting of a black circle and intersecting vertical and horizontal lines. There is no text within the image.](attachment:image.png)
+- **12-16:** burst é 3 burst
+- **17+:** R**eason** á 2 burst é 3 burst í 4 burst Strained: You can choose to reduce the size of the burst by 2 (to a minimum of 1 burst) to give the forced movement distance a +2 bonus. You take half the total damage all targets take from forced movement. Draw Steel ![A circular target symbol with a crosshair, consisting of a black circle and intersecting vertical and horizontal lines. There is no text within the image.](attachment:image.png)
 
 #### **Gravitic Nova (11 Clarity)**
 
@@ -14228,10 +14367,10 @@ Effect: Make a power roll to determine the area of this ability. Each target is 
 
 **Area, Psionic, Telekinesis Main action** e 3 burst x Each enemy and object in the area
 
-**Power Roll + R**eason**:**
+**Power Roll + Reason:**
 - **≤11:** 6 damage; push 7
-- **12-16:** 9 damage; push 10
-- **17+:** 13 damage; push 15
+- **12-16:** damage; push 7 é 9 damage; push 10
+- **17+:** R**eason**: á 6 damage; push 7 é 9 damage; push 10 í 13 damage; push 15
 
 Effect: On a critical hit, the size of the area increases by 3, and this ability deals an extra 10 damage. Strained: You are weakened (save ends). If you scored a critical hit with this ability, you die.
 
@@ -14247,10 +14386,10 @@ Choose one of the following abilities.
 
 - One creature
 
-**Power Roll + R**eason**:**
+**Power Roll + Reason:**
 - **≤11:** 15 + R psychic damage
-- **12-16:** 24 + R psychic damage
-- **17+:** 28 + R psychic damage
+- **12-16:** 5 + R psychic damage é 24 + R psychic damage
+- **17+:** R**eason** á 15 + R psychic damage é 24 + R psychic damage í 28 + R psychic damage
 
 Effect: This ability ignores cover and concealment. Strained: The ability roll scores a critical hit on a natural 17 or higher. You take half the damage the target takes, and you can't reduce this damage in any way.
 
@@ -14264,10 +14403,10 @@ Effect: This ability ignores cover and concealment. Strained: The ability roll s
 
 Effect: You and each target ally can't obtain lower than a tier 2 outcome on power rolls until the start of your next turn. Each target enemy is affected by the ability's power roll.
 
-**Power Roll + R**eason**:**
+**Power Roll + Reason:**
 - **≤11:** R<w, frightened (save ends)
 - **12-16:** R<v, frightened (save ends)
-- **17+:** R<s, frightened (save ends) Strained: You can't use this ability if doing so would cause you to have negative clarity.
+- **17+:** R**eason** á R<w, frightened (save ends) é R<v, frightened (save ends) í R<s, frightened (save ends) Strained: You can't use this ability if doing so would cause you to have negative clarity.
 
 ## 10th-Level Features
 
@@ -14515,10 +14654,10 @@ You have the following ability.
 |------------------------------------|-------------------------------------------|
 | Image: triangle burst icon 2 burst | Image: target icon Each enemy in the area |
 
-**Power Roll + P**resence**:**
+**Power Roll + Presence:**
 - **≤11:** Push 1
-- **12-16:** Push 2
-- **17+:** Push 3
+- **12-16:** é Push 2
+- **17+:** P**resence**: á Push 1 é Push 2 í Push 3
 
 #### Star Power
 
@@ -14548,10 +14687,10 @@ e Ranged 10 x One creature
 
 Effect: At the end of each combat round while this performance is active, you can make a power roll against the target that ignores cover. You can't target the same creature twice with this effect.
 
-**Power Roll + P**resence**:**
+**Power Roll + Presence:**
 - **≤11:** Lightning damage equal to your level
 - **12-16:** Lightning damage equal to 5 + your level
-- **17+:** Lightning damage equal to 10 + your level
+- **17+:** P**resence**: á Lightning damage equal to your level é Lightning damage equal to 5 + your level í Lightning damage equal to 10 + your level
 
 #### **"Ballad of the Beast"**
 
@@ -14647,8 +14786,8 @@ e Melee 1 x Two creatures or objects
 
 **Power Roll + Agility:**
 - **≤11:** 2 damage
-- **12-16:** 5 damage
-- **17+:** 7 damage
+- **12-16:** damage é 5 damage
+- **17+:** Agility: á 2 damage é 5 damage í 7 damage
 
 Effect: You can shift up to 3 squares. Spend 2+ Drama: You can target one additional creature or object for every 2 drama spent.
 
@@ -14658,18 +14797,18 @@ Effect: You can shift up to 3 squares. Spend 2+ Drama: You can target one additi
 
 **Magic, Ranged**, **Strike, Weapon Main action** e Ranged 10 x One creature á 2 + P psychic damage; P<w, bleeding (save ends)
 
-**Power Roll + P**resence**:**
+**Power Roll + Presence:**
 - **12-16:** 5 + P psychic damage; P<v, bleeding (save ends)
-- **17+:** 7 + P psychic damage; P<s, bleeding (save ends)
+- **17+:** P**resence**: é 5 + P psychic damage; P<v, bleeding (save ends) í 7 + P psychic damage; P<s, bleeding (save ends)
 
 #### **Instigator**
 
 *I didn't do it! What?* **Melee, Strike, Weapon Main action** e Melee 1 x One creature
 
-**Power Roll + P**resence**:**
+**Power Roll + Presence:**
 - **≤11:** 3 + P damage
 - **12-16:** 6 + P damage
-- **17+:** 9+ P damage
+- **17+:** P**resence**: á 3 + P damage é 6 + P damage í 9+ P damage
 
 Effect: The target is taunted by you or a willing ally adjacent to you until the end of the target's next turn.
 
@@ -14684,10 +14823,10 @@ Effect: The target is taunted by you or a willing ally adjacent to you until the
 |------------------------------------------|--------------------------------------|
 | Image: triangle icon Melee 1 or ranged 5 | Image: clock arrow icon One creature |
 
-**Power Roll + P**resence**:**
+**Power Roll + Presence:**
 - **≤11:** 4 + P psychic damage
 - **12-16:** 5 + P psychic damage
-- **17+:** 7+ P psychic damage
+- **17+:** P**resence**: á 4 + P psychic damage é 5 + P psychic damage í 7+ P psychic damage
 
 Effect: One ally within 10 squares of you can end one effect on them that is ended by a saving throw or that ends at the end of their turn. Spend 1 Drama: The chosen ally can spend a Recovery.
 
@@ -14706,9 +14845,9 @@ Choose one heroic ability from the following options, each of which costs 3 dram
 | Magic, Melee, Ranged, Strike                                                                                                                    | Main action                               |
 |-------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------|
 **Power Roll + <span style="background:**
-- **≤11:** 7 + P sonic damage
-- **12-16:** 10 + P sonic damage
-- **17+:** 13 + P sonic damage
+- **≤11:** or ranged 10<br><br><b>Power Roll + <span style="background:black;color:white;padding:0 2px;">P</span>resence:</b> | Image: target icon One creature or object | á 7 + P sonic damage
+- **12-16:** or ranged 10<br><br><b>Power Roll + <span style="background:black;color:white;padding:0 2px;">P</span>resence:</b> | Image: target icon One creature or object | á 7 + P sonic damage é 10 + P sonic damage
+- **17+:** or ranged 10<br><br><b>Power Roll + <span style="background:black;color:white;padding:0 2px;">P</span>resence:</b> | Image: target icon One creature or object | á 7 + P sonic damage é 10 + P sonic damage í 13 + P sonic damage
 
 Effect: The first time the target uses an ability before the start of your next turn, any effects from the ability's tier outcomes other than damage are negated for all targets. Ability effects that always happen regardless of the power roll work as usual.
 
@@ -14725,10 +14864,10 @@ drama spent.
 
 **Area, Magic Main action** e 2 burst x Each enemy in the area
 
-**Power Roll + P**resence**:**
+**Power Roll + Presence:**
 - **≤11:** Slide 1; I<w, dazed (save ends)
-- **12-16:** Slide 1; I<v, dazed (save ends)
-- **17+:** Slide 2; I<s, dazed (save ends) Spend 2+ Drama: The size of the burst increases by 1 for every 2
+- **12-16:** ; I<w, dazed (save ends) é Slide 1; I<v, dazed (save ends)
+- **17+:** P**resence**: á Slide 1; I<w, dazed (save ends) é Slide 1; I<v, dazed (save ends) í Slide 2; I<s, dazed (save ends) Spend 2+ Drama: The size of the burst increases by 1 for every 2
 
 #### **Quick Rewrite (3 Drama)**
 
@@ -14736,10 +14875,10 @@ drama spent.
 
 #### **Area, Magic, Ranged Main action** e 3 cube within 10 x Each enemy in the area
 
-**Power Roll + P**resence**:**
+**Power Roll + Presence:**
 - **≤11:** 4 damage; P<w, slowed (save ends)
 - **12-16:** 5 damage; P<v, slowed (save ends)
-- **17+:** 6 damage; P<s, restrained (save ends)
+- **17+:** P**resence**: á 4 damage; P<w, slowed (save ends) é 5 damage; P<v, slowed (save ends) í 6 damage; P<s, restrained (save ends)
 
 Effect: The area is difficult terrain for enemies.
 
@@ -14756,7 +14895,7 @@ Effect: You shift up to your speed. You make one power roll that targets each en
 **Power Roll + Aor Presence:**
 - **≤11:** Taunted (EoT); A<w, prone
 - **12-16:** Taunted (EoT); A<v, prone
-- **17+:** Taunted (EoT); A<s, prone and can't stand (EoT) 204 ![Image: Target or bullseye symbol](image_url) *This image appears to depict a target or bullseye symbol with a crosshair overlay.* Draw Steel There is no visible text in the provided image. Choose one heroic ability from the following options, each of which costs 5 drama to use. (*Quick Build:* Dramatic Reversal.) | <b>Dramatic Reversal (5 Drama)</b> | | |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------| | <i>Give the audience a surprise.</i> | | | <b>Area, Magic</b><br>3 burst | <b>Main action</b><br>Self and each ally in the area | | <b>Power Roll + Presence:</b> | | | <b>&lt;11</b> The target can shift 1 square and make a free strike.<br><b>12–16</b> The target can shift up to 2 squares and make a free strike that gains an edge.<br><b>17+</b> The target can shift up to 3 squares and make a free strike that gains an edge, then can spend a Recovery. | | | | | | <b>Fake Your Death (5 Drama)</b> | | | <i>O happy dagger, this is thy sheath!</i> | | | <b>Magic</b><br>Self | <b>Maneuver</b><br>Self | | <b>
+- **17+:** Aor Presence: á Taunted (EoT); A<w, prone é Taunted (EoT); A<v, prone í Taunted (EoT); A<s, prone and can't stand (EoT) 204 ![Image: Target or bullseye symbol](image_url) *This image appears to depict a target or bullseye symbol with a crosshair overlay.* Draw Steel There is no visible text in the provided image. Choose one heroic ability from the following options, each of which costs 5 drama to use. (*Quick Build:* Dramatic Reversal.) | <b>Dramatic Reversal (5 Drama)</b> | | |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------| | <i>Give the audience a surprise.</i> | | | <b>Area, Magic</b><br>3 burst | <b>Main action</b><br>Self and each ally in the area | | <b>Power Roll + Presence:</b> | | | <b>&lt;11</b> The target can shift 1 square and make a free strike.<br><b>12–16</b> The target can shift up to 2 squares and make a free strike that gains an edge.<br><b>17+</b> The target can shift up to 3 squares and make a free strike that gains an edge, then can spend a Recovery. | | | | | | <b>Fake Your Death (5 Drama)</b> | | | <i>O happy dagger, this is thy sheath!</i> | | | <b>Magic</b><br>Self | <b>Maneuver</b><br>Self | | <b>
 
 Effect:</b> You turn invisible and create a magical illusion of your corpse falling in your space. While you are invisible, you gain a +3 bonus ... (text continues off the image) | | falling in your space. While you are invisible, you gain a +3 bonus to speed and you ignore difficult terrain. The illusion and your invisibility last until the end of your next turn, or until the illusion is interacted with, you take damage, or you use a main action or a maneuver.
 
@@ -14779,8 +14918,8 @@ Effect: Each target can teleport up to 5 squares. Any teleported target who was 
 | <span>Image: melee icon</span> Melee 1                 | <span>Image: target icon</span> One creature |
 **Power Roll + <span>Image:**
 - **≤11:** 6 + A damage; P<w, weakened (save ends)
-- **12-16:** 10 + A damage; P<v, weakened (save ends)
-- **17+:** 14 + A damage; P<s, weakened (save ends) 14 + **A** damage; **P < STRONG** weakened (save ends)
+- **12-16:** + A damage; P<w, weakened (save ends) é 10 + A damage; P<v, weakened (save ends)
+- **17+:** <span>Image: agility icon</span> Agility: | | á 6 + A damage; P<w, weakened (save ends) é 10 + A damage; P<v, weakened (save ends) í 14 + A damage; P<s, weakened (save ends) 14 + **A** damage; **P < STRONG** weakened (save ends)
 
 Effect: You can become bleeding (save ends) to deal an extra 5 corruption damage to the target.
 
@@ -14868,6 +15007,10 @@ Effect: Each target can shift up to 5 squares, including vertically, but must en
 |------------------------------------------------------------------------------------------------|------------------------------------------------------|
 | <b>Melee, Strike, Weapon</b><br>Image: melee weapon icon Melee 1                               | <b>Main action</b><br>Image: clock icon One creature |
 **Power Roll + <b>Agility</b>:**
+- **≤11:** 11 | 7 + <b>A</b> damage | | 12–16 | 11 + <b>A</b> damage | | 17+ | 16 + <b>A</b> damage |
+- **12-16:** 1 | 7 + <b>A</b> damage | | 12–16 | 11 + <b>A</b> damage | | 17+ | 16 + <b>A</b> damage |
+- **17+:** <b>Agility</b> : | | | ≤11 | 7 + <b>A</b> damage | | 12–16 | 11 + <b>A</b> damage | | 17+ | 16 + <b>A</b> damage |
+
 Effect: The target can make a melee free strike against you. If they do, you can make a melee free strike against the target.
 
 #### 2nd-Level Virtuoso Ability
@@ -14893,10 +15036,10 @@ Effect: You use an ability that you have observed being used this combat round. 
 
 Effect: The area is haunted by a swirling horde of phantoms until the end of the encounter. Allies can enter any square of the area without spending movement. At the end of each of your turns, you can make one power roll that targets each enemy in the area.
 
-**Power Roll + P**resence**:**
+**Power Roll + Presence:**
 - **≤11:** 5 corruption damage; M<w, pull 1 toward the center of the area
-- **12-16:** 9 corruption damage; M<v, pull 2 toward the center of the area
-- **17+:** 12 corruption damage; M<s, pull 3 toward the center of the area
+- **12-16:** toward the center of the area é 9 corruption damage; M<v, pull 2 toward the center of the area
+- **17+:** P**resence**: á 5 corruption damage; M<w, pull 1 toward the center of the area é 9 corruption damage; M<v, pull 2 toward the center of the area í 12 corruption damage; M<s, pull 3 toward the center of the area
 
 ## 3rd-Level Features
 
@@ -14957,10 +15100,10 @@ Choose one heroic ability from the following options, each of which costs 7 dram
 
 **Area, Magic Maneuver** e 4 burst x Each enemy in the area
 
-**Power Roll + P**resence**:**
+**Power Roll + Presence:**
 - **≤11:** Slide 3; P<w, this slide ignores the target's stability
 - **12-16:** Slide 5; P<v, this slide ignores the target's stability
-- **17+:** Slide 7; P<s, this slide ignores the target's stability ... Slide 7, **Ignore**: this slide ignores the target's stability
+- **17+:** P**resence**: á Slide 3; P<w, this slide ignores the target's stability é Slide 5; P<v, this slide ignores the target's stability í Slide 7; P<s, this slide ignores the target's stability ... Slide 7, **Ignore**: this slide ignores the target's stability
 
 Effect: Instead of sliding a target, you can swap their location with another target as long as each can fit into the other's space. You can't slide targets into other creatures or objects using this ability.
 
@@ -14972,10 +15115,10 @@ Effect: Instead of sliding a target, you can swap their location with another ta
 
 **Area, Magic, Melee, Weapon Main action** e 3 burst x Each enemy in the area
 
-**Power Roll + P**resence**:**
+**Power Roll + Presence:**
 - **≤11:** 5 fire damage; A<w, weakened (save ends)
 - **12-16:** 7 fire damage; A<v, weakened (save ends)
-- **17+:** 10 fire damage; A<s, weakened (save ends)
+- **17+:** P**resence**: á 5 fire damage; A<w, weakened (save ends) é 7 fire damage; A<v, weakened (save ends) í 10 fire damage; A<s, weakened (save ends)
 
 Effect: Each ally in the area can shift up to 2 squares. ![](_page_209_Picture_34.jpeg)
 
@@ -14985,10 +15128,10 @@ Effect: Each ally in the area can shift up to 2 squares. ![](_page_209_Picture_3
 
 **Magic, Melee, Ranged**, **Strike, Weapon Main action** e Melee 1 or ranged 10 x One creature or object
 
-**Power Roll + P**resence**:**
+**Power Roll + Presence:**
 - **≤11:** 5 + P damage
 - **12-16:** 8 + P damage; push 3
-- **17+:** 11 + P damage; push 5
+- **17+:** P**resence**: á 5 + P damage é 8 + P damage; push 3 í 11 + P damage; push 5
 
 Effect: You can choose to have this ability deal sonic damage instead of psychic damage. Additionally, you can use this ability against the same target for the next 2 combat rounds without spending drama.
 
@@ -15138,8 +15281,8 @@ e 3 burst x Each enemy in the area
 
 **Power Roll + Agility:**
 - **≤11:** 10 damage
-- **12-16:** 14 damage
-- **17+:** 20 damage
+- **12-16:** 0 damage é 14 damage
+- **17+:** Agility: á 10 damage é 14 damage í 20 damage
 
 Effect: Unless you score a critical hit, this ability can't reduce a non-minion target below 1 Stamina.
 
@@ -15169,10 +15312,10 @@ Effect: The target gains 20 temporary Stamina. Until the end of the encounter, w
 |---------------------------------|-----------------------------------------|
 | Image: Ranged icon<br>Ranged 10 | Image: Special/Maneuver icon<br>Special |
 
-**Power Roll + P**resence**:**
+**Power Roll + Presence:**
 - **≤11:** One ally within distance can take their turn immediately after yours.
 - **12-16:** Two allies within distance can take their turns immediately after yours in any order.
-- **17+:** Three allies within distance can take their turns immediately after yours in any order. One of those allies can have already taken a turn this combat round.
+- **17+:** P**resence**: á One ally within distance can take their turn immediately after yours. é Two allies within distance can take their turns immediately after yours in any order. í Three allies within distance can take their turns immediately after yours in any order. One of those allies can have already taken a turn this combat round.
 
 ## 6th-Level Features
 
@@ -15214,10 +15357,10 @@ Choose one of the following abilities.
 
 **Area, Magic Main action** e 5 burst x Each enemy in the area
 
-**Power Roll + P**resence**:**
+**Power Roll + Presence:**
 - **≤11:** 2 psychic damage; P<w, frightened (save ends)
-- **12-16:** 5 psychic damage; P<v, frightened (save ends)
-- **17+:** <sup>7</sup>damage; P<s, frightened (save ends)
+- **12-16:** psychic damage; P<w, frightened (save ends) é 5 psychic damage; P<v, frightened (save ends)
+- **17+:** P**resence**: á 2 psychic damage; P<w, frightened (save ends) é 5 psychic damage; P<v, frightened (save ends) í<sup>7</sup>damage; P<s, frightened (save ends)
 
 #### **You're All My Understudies (9 Drama)**
 
@@ -15242,8 +15385,8 @@ Choose one of the following abilities.
 | Image: melee icon Melee 1                              | Image: target icon One creature or object |
 **Power Roll + :**
 - **≤11:** 12 + A damage; M<w, bleeding (save ends)
-- **12-16:** 18 + A damage; M<v, bleeding (save ends)
-- **17+:** 24 + A damage; bleeding (EoT), or if M <s, bleeding (save ends)
+- **12-16:** in-a-box <b>Agility</b> : | | á 12 + A damage; M<w, bleeding (save ends) é 18 + A damage; M<v, bleeding (save ends)
+- **17+:** </b> Image: A-in-a-box <b>Agility</b> : | | á 12 + A damage; M<w, bleeding (save ends) é 18 + A damage; M<v, bleeding (save ends) í 24 + A damage; bleeding (EoT), or if M <s, bleeding (save ends)
 
 #### **Fight Choreography (9 Drama)**
 
@@ -15270,10 +15413,10 @@ Choose one of the following abilities.
 
 Effect: A prone target ignores this ability.
 
-**Power Roll + P**resence**:**
+**Power Roll + Presence:**
 - **≤11:** 7 sonic damage; P<w, prone
 - **12-16:** 10 sonic damage; P<v, prone
-- **17+:** 13 sonic damage; P<s, prone
+- **17+:** P**resence**: á 7 sonic damage; P<w, prone é 10 sonic damage; P<v, prone í 13 sonic damage; P<s, prone
 
 #### **Legendary Drum Fill (9 Drama)**
 
@@ -15425,10 +15568,10 @@ Effect: Until the end of the encounter, whenever you deal rolled damage to a cre
 
 Each enemy in the area
 
-**Power Roll + P**resence**:**
+**Power Roll + Presence:**
 - **≤11:** 6 damage; P<w, the target can't willingly leave the area (EoT)
-- **12-16:** 8 damage; P<v, the target can't willingly leave the area (save ends)
-- **17+:** 12 damage; the target can't willingly leave the area (EoT); if P<s, they can't willingly leave the area (save ends)
+- **12-16:** damage; P<w, the target can't willingly leave the area (EoT) é 8 damage; P<v, the target can't willingly leave the area (save ends)
+- **17+:** P**resence**: á 6 damage; P<w, the target can't willingly leave the area (EoT) é 8 damage; P<v, the target can't willingly leave the area (save ends) í 12 damage; the target can't willingly leave the area (EoT); if P<s, they can't willingly leave the area (save ends)
 
 Effect: Each ally within distance can't obtain lower than a tier 2 outcome on the next test they make before the start of your next turn.
 
@@ -15458,10 +15601,10 @@ Choose one of the following abilities.
 
 e Melee 1 or ranged 10 x One creature
 
-**Power Roll + P**resence**:**
+**Power Roll + Presence:**
 - **≤11:** The target takes a bane on ability rolls (save ends).
 - **12-16:** The target has a double bane on ability rolls (save ends).
-- **17+:** The target has a double bane on power rolls (save ends).
+- **17+:** P**resence**: á The target takes a bane on ability rolls (save ends). é The target has a double bane on ability rolls (save ends). í The target has a double bane on power rolls (save ends).
 
 Effect: Choose one ally within distance. While the target is affected by this ability, each time they use an ability, that ally can make a free strike against them after the ability is resolved.
 
@@ -15487,8 +15630,8 @@ Choose one of the following abilities.
 
 **Power Roll + Agility:**
 - **≤11:** 15 + A damage
-- **12-16:** 21 + A damage
-- **17+:** 28 + A damage; M<s, bleeding (save ends)
+- **12-16:** 5 + A damage é 21 + A damage
+- **17+:** Agility: á 15 + A damage é 21 + A damage í 28 + A damage; M<s, bleeding (save ends)
 
 Effect: This ability can't obtain better than a tier 2 outcome unless the target is at maximum distance. If you obtain a tier 3 outcome with a natural 17 or higher, you gain 3 surges that you can use immediately. *No, no. You don't die until the sequel.*
 
@@ -15496,10 +15639,10 @@ Effect: This ability can't obtain better than a tier 2 outcome unless the target
 
 Effect: Add your current Stamina to your target's current Stamina, then you have half that total Stamina and the target has the remainder. If either of you would gain more Stamina this way than their Stamina maximum, the difference in Stamina between what that creature would gain and their maximum is gained by the other creature. Neither of you can gain more Stamina than your maximum this way. You then make a power roll.
 
-**Power Roll + P**resence**:**
+**Power Roll + Presence:**
 - **≤11:** You and the target can each end one effect on yourselves that is ended by a saving throw or that ends at the end of your turns.
 - **12-16:** You and the target can end any effects on yourselves that are ended by a saving throw or that end at the end of your turns.
-- **17+:** You can choose any of the current effects on you and the target that are ended by a saving throw or that end at the end of your turns, apply the chosen effects to the target, and end the rest.
+- **17+:** P**resence**: á You and the target can each end one effect on yourselves that is ended by a saving throw or that ends at the end of your turns. é You and the target can end any effects on yourselves that are ended by a saving throw or that end at the end of your turns. í You can choose any of the current effects on you and the target that are ended by a saving throw or that end at the end of your turns, apply the chosen effects to the target, and end the rest.
 
 #### 9th-Level Virtuoso Abilities
 
@@ -15513,10 +15656,10 @@ Choose one of the following abilities.
 |---------------------------|-------------------------------------------|
 | Image: burst icon 5 burst | Image: target icon Each enemy in the area |
 
-**Power Roll + P**resence**:**
+**Power Roll + Presence:**
 - **≤11:** 8 sonic damage
 - **12-16:** 11 sonic damage
-- **17+:** 15 sonic damage
+- **17+:** P**resence**: á 8 sonic damage é 11 sonic damage í 15 sonic damage
 
 Effect: Each creature within distance gains a +5 bonus to speed until the end of their next turn. While under this effect, each target must use their full movement during their turn.
 
@@ -15530,8 +15673,10 @@ Effect: Each creature within distance gains a +5 bonus to speed until the end of
 
 One creature or object
 
-**Power Roll + P**resence**:**
-- **17+:** 22 + P sonic damage; push 15
+**Power Roll + Presence:**
+- **≤11:** 11 | 12 + <b>P</b> | sonic damage; push 5 | |-------|---------------|-----------------------| | 12–16 | 16 + <b>P</b> | sonic damage; push 10 |
+- **12-16:** 1 | 12 + <b>P</b> | sonic damage; push 5 | |-------|---------------|-----------------------| | 12–16 | 16 + <b>P</b> | sonic damage; push 10 |
+- **17+:** P**resence**: | ≤11 | 12 + <b>P</b> | sonic damage; push 5 | |-------|---------------|-----------------------| | 12–16 | 16 + <b>P</b> | sonic damage; push 10 | í 22 + P sonic damage; push 15
 
 Effect: Forced movement from this ability ignores stability. ![](_page_215_Picture_27.jpeg) # Troubad ou ![A black target or crosshair symbol.](image)
 
@@ -15742,7 +15887,7 @@ eRanged 15 x One creature or object
 **Power Roll + :**
 - **≤11:** 5 + A, R, I, or P fire damage
 - **12-16:** 7 + A, R, I, or P fire damage
-- **17+:** 10 + A, R, I, or P fire damage
+- **17+:** ** A**gility,** R**eason,** I**ntuition, or** P**resence:** á 5 + A, R, I, or P fire damage é 7 + A, R, I, or P fire damage í 10 + A, R, I, or P fire damage
 
 **Effect:** One creature or object of your choice within 2 squares of the target takes fire damage equal to the characteristic score used for this ability's power roll.
 
@@ -15770,10 +15915,10 @@ You wear light armor and wield a medium weapon.
 
 - One creature
 
-**Power Roll + M**ight,** R**eason,** I**ntuition or** P**resence:**
+**Power Roll + Might, Reason, Intuition or Presence:**
 - **≤11:** 5 + M, R, I, or P damage
 - **12-16:** 8 + M, R, I, or P damage
-- **17+:** 11 + M, R, I, or P damage
+- **17+:** M**ight,** R**eason,** I**ntuition or** P**resence:** á 5 + M, R, I, or P damage é 8 + M, R, I, or P damage í 11 + M, R, I, or P damage
 
 **Effect:** Until the end of the target's next turn, any forced movement that affects the target has its distance increased by 2.
 
@@ -15797,10 +15942,10 @@ You wear light armor and wield one or two light weapons.
 
 #### **Melee, Ranged, Strike, Weapon Main action** e Melee 1 or ranged 10 x One creature
 
-**Power Roll + M**ight or** A**gility:**
+**Power Roll + Might or Agility:**
 - **≤11:** 3 + M or A damage; you can shift 1 square
-- **12-16:** 6 + M or A damage; you can shift up to 2 squares
-- **17+:** 8 + M or A damage; you can shift up to 3 squares ![](_page_221_Picture_41.jpeg) ![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Registration_black_circle.svg/120px-Registration_black_circle.svg.png) *(This is a registration black circle/cross target symbol, often used in printing for alignment or calibration.)*
+- **12-16:** square é 6 + M or A damage; you can shift up to 2 squares
+- **17+:** M**ight or** A**gility:** á 3 + M or A damage; you can shift 1 square é 6 + M or A damage; you can shift up to 2 squares í 8 + M or A damage; you can shift up to 3 squares ![](_page_221_Picture_41.jpeg) ![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Registration_black_circle.svg/120px-Registration_black_circle.svg.png) *(This is a registration black circle/cross target symbol, often used in printing for alignment or calibration.)*
 
 ## **Dual Wielder**
 
@@ -15822,10 +15967,10 @@ You wear medium armor and wield a light weapon and a medium weapon.
 
 **Melee, Strike, Weapon Main action** e Melee 1 x Two creatures or objects
 
-**Power Roll + M**ight or** A**gility:**
+**Power Roll + Might or Agility:**
 - **≤11:** 4 damage
 - **12-16:** 6 damage
-- **17+:** 8 damage
+- **17+:** M**ight or** A**gility:** á 4 damage é 6 damage í 8 damage
 
 **Effect:** If you use this ability on your turn, you can use it against one target, then use your maneuver and your move action for that turn before using the ability against a second target. You still use the same power roll for both targets.
 
@@ -15849,10 +15994,10 @@ You wear medium armor and wield a polearm.
 
 **Melee, Strike, Weapon Main action** e Melee 2 x Two creatures or objects
 
-**Power Roll + M**ight or** A**gility:**
+**Power Roll + Might or Agility:**
 - **≤11:** 4 damage
 - **12-16:** 7 damage
-- **17+:** 9 damage
+- **17+:** M**ight or** A**gility:** á 4 damage é 7 damage í 9 damage
 
 ## **Martial Artist**
 
@@ -15876,10 +16021,10 @@ You wear no armor and wield only your unarmed strikes.
 
 **Melee, Strike, Weapon Main action** e Melee 1 x One creature
 
-**Power Roll + M**ight or** A**gility:**
+**Power Roll + Might or Agility:**
 - **≤11:** 5 + M or A damage
 - **12-16:** 8 + M or A damage; you can swap places with the target
-- **17+:** 11 + M or A damage; you can swap places with the target
+- **17+:** M**ight or** A**gility:** á 5 + M or A damage é 8 + M or A damage; you can swap places with the target í 11 + M or A damage; you can swap places with the target
 
 **Effect:** If you obtain a tier 2 or tier 3 outcome and can't swap places with the target because one or both of you is too big to fit into the swapped space, you both remain in your original spaces and the target takes 1 extra damage.
 
@@ -15908,10 +16053,10 @@ You wear heavy armor and wield a heavy weapon.
 ![target icon](IMAGE)
 One creature
 
-**Power Roll + M**ight or** A**gility:**
+**Power Roll + Might or Agility:**
 - **≤11:** 3 + M or A damage
 - **12-16:** 5 + M or A damage
-- **17+:** 13 + M or A damage
+- **17+:** M**ight or** A**gility:** á 3 + M or A damage é 5 + M or A damage í 13 + M or A damage
 
 **Effect:** If the target dealt damage to you since the end of your last turn, this strike deals additional damage equal to your Might or Agility score (your choice). Draw Steel ![A black and white target or crosshair symbol.](image-url) *No text present in the image. The image only contains a graphical target or crosshair symbol.*
 
@@ -15937,10 +16082,10 @@ You wear no armor and wield a heavy weapon.
 
 e Melee 1 x One creature or object
 
-**Power Roll + M**ight or** A**gility:**
+**Power Roll + Might or Agility:**
 - **≤11:** 3 + M or A damage
 - **12-16:** 6 + M or A damage
-- **17+:** 13 + M or A damage
+- **17+:** M**ight or** A**gility:** á 3 + M or A damage é 6 + M or A damage í 13 + M or A damage
 
 **Effect:** You can move up to 3 squares straight toward the target before this strike, which deals extra damage equal to the number of squares you move this way.
 
@@ -15966,10 +16111,10 @@ You wear no armor and wield only your unarmed strikes.
 
 (©) One creature
 
-**Power Roll + M**ight or** A**gility:**
+**Power Roll + Might or Agility:**
 - **≤11:** 3 + M or A damage
 - **12-16:** 6 + M or A damage; slide 1
-- **17+:** 8 + M or A damage; slide 2
+- **17+:** M**ight or** A**gility:** á 3 + M or A damage é 6 + M or A damage; slide 1 í 8 + M or A damage; slide 2
 
 **Effect:** You can shift into any square the target leaves after you slide them.
 
@@ -15993,10 +16138,10 @@ You wear light armor and wield a shield and a light weapon.
 
 #### **Melee, Ranged, Strike, Weapon Main action** e Melee 1 or ranged 10 x One creature
 
-**Power Roll + M**ight or** A**gility:**
+**Power Roll + Might or Agility:**
 - **≤11:** 3 + M or A damage
 - **12-16:** 6 + M or A damage
-- **17+:** 8 + M or A damage
+- **17+:** M**ight or** A**gility:** á 3 + M or A damage é 6 + M or A damage í 8 + M or A damage
 
 **Effect:** The target takes a bane on their next power roll made before the end of their next turn.
 
@@ -16020,10 +16165,10 @@ You wear medium armor and wield a bow and a medium weapon.
 
 **Ranged, Strike, Weapon Main action** e Ranged 10 x One creature
 
-**Power Roll + M**ight or** A**gility:**
+**Power Roll + Might or Agility:**
 - **≤11:** 3 + M or A damage; A<w , slowed (save ends)
 - **12-16:** 5 + M or A damage; A<v , slowed (save ends)
-- **17+:** 7 + M or A damage; A<s , slowed (save ends) The image shows a black circle with a crosshair overlay. There is no text present in the image.
+- **17+:** M**ight or** A**gility:** á 3 + M or A damage; A<w , slowed (save ends) é 5 + M or A damage; A<v , slowed (save ends) í 7 + M or A damage; A<s , slowed (save ends) The image shows a black circle with a crosshair overlay. There is no text present in the image.
 
 ## **Rapid-Fire**
 
@@ -16045,10 +16190,10 @@ You wear light armor and wield a bow.
 
 **Ranged, Strike, Weapon Main action** e Ranged 12 x Two creatures or objects
 
-**Power Roll + M**ight or** A**gility:**
+**Power Roll + Might or Agility:**
 - **≤11:** 4 damage
 - **12-16:** 6 damage
-- **17+:** 8 damage ![](_page_224_Picture_48.jpeg)
+- **17+:** M**ight or** A**gility:** á 4 damage é 6 damage í 8 damage ![](_page_224_Picture_48.jpeg)
 
 ## **Retiarius**
 
@@ -16070,8 +16215,10 @@ You wear light armor and wield several ensnaring weapons and a polearm.
 
 **Melee, Strike, Weapon Main action** e Melee 2 x One creature
 
-**Power Roll + M**ight or** A**gility:**
-- **17+:** 8 + M or A damage; A<s, restrained (EoT)
+**Power Roll + Might or Agility:**
+- **≤11:** 11 | 4 + <b>M</b> or <b>A</b> damage; <b>A &lt; WEAK</b> , slowed (EoT) | |-------|--------------------------------------------------------------------------| | 12–16 | 6 + <b>M</b> or <b>A</b> damage; <b>A &lt; AVERAGE</b> , slowed (EoT) | | 17+ | 8 + <b>M</b> or <b>A</b> damage; <b>A &lt; STRONG</b> , restrained (EoT) |
+- **12-16:** 1 | 4 + <b>M</b> or <b>A</b> damage; <b>A &lt; WEAK</b> , slowed (EoT) | |-------|--------------------------------------------------------------------------| | 12–16 | 6 + <b>M</b> or <b>A</b> damage; <b>A &lt; AVERAGE</b> , slowed (EoT) | | 17+ | 8 + <b>M</b> or <b>A</b> damage; <b>A &lt; STRONG</b> , restrained (EoT) |
+- **17+:** M**ight or** A**gility:** | ≤11 | 4 + <b>M</b> or <b>A</b> damage; <b>A &lt; WEAK</b> , slowed (EoT) | |-------|--------------------------------------------------------------------------| | 12–16 | 6 + <b>M</b> or <b>A</b> damage; <b>A &lt; AVERAGE</b> , slowed (EoT) | | 17+ | 8 + <b>M</b> or <b>A</b> damage; <b>A &lt; STRONG</b> , restrained (EoT) | í 8 + M or A damage; A<s, restrained (EoT)
 
 ## **Shining Armor**
 
@@ -16097,10 +16244,10 @@ You wear heavy armor and wield a shield and a medium weapon.
 
 ![target icon](https://dummyimage.com/16x16/000/fff.png&text=🎯) One creature
 
-**Power Roll + M**ight or** A**gility:**
+**Power Roll + Might or Agility:**
 - **≤11:** 5 + M or A damage
 - **12-16:** 8 + M or A damage
-- **17+:** 11 + M or A damage
+- **17+:** M**ight or** A**gility:** á 5 + M or A damage é 8 + M or A damage í 11 + M or A damage
 
 **Effect:** The target is taunted until the end of their next turn. 222 Draw Steel ![Target symbol](image-url)
 
@@ -16124,10 +16271,10 @@ You wear no armor and wield a bow.
 
 **Ranged, Strike, Weapon Main action** e Ranged 15 x One creature
 
-**Power Roll + M**ight or** A**gility:**
+**Power Roll + Might or Agility:**
 - **≤11:** 3 + M or A damage
 - **12-16:** 6 + M or A damage
-- **17+:** 13 + M or A damage
+- **17+:** M**ight or** A**gility:** á 3 + M or A damage é 6 + M or A damage í 13 + M or A damage
 
 **Effect:** If you don't take a move action this turn, this strike deals extra damage equal to your Might or Agility score (your choice).
 
@@ -16151,10 +16298,10 @@ You wear light armor and wield a polearm.
 
 **Melee, Strike, Weapon Main action**
 
-**Power Roll + M**ight or** A**gility:**
+**Power Roll + Might or Agility:**
 - **≤11:** 4 + M or A damage
 - **12-16:** 7 + M or A damage; slide 1
-- **17+:** 10 + M or A damage; slide 3
+- **17+:** M**ight or** A**gility:** á 4 + M or A damage é 7 + M or A damage; slide 1 í 10 + M or A damage; slide 3
 
 ## **Spellsword**
 
@@ -16178,10 +16325,10 @@ You wear light armor and wield a shield and a medium weapon.
 
 \*
 
-**Power Roll + M**ight,** R**eason,** I**ntuition or** P**resence:**
+**Power Roll + Might, Reason, Intuition or Presence:**
 - **≤11:** 5 + M, R, I, or P lightning damage
 - **12-16:** 8 + M, R, I, or P lightning damage
-- **17+:** 11 + M, R, I, or P lightning damage
+- **17+:** M**ight,** R**eason,** I**ntuition or** P**resence:** á 5 + M, R, I, or P lightning damage é 8 + M, R, I, or P lightning damage í 11 + M, R, I, or P lightning damage
 
 **Effect:** A creature or object of your choice within 2 squares of the target takes lightning damage equal to the characteristic score used for this ability's power roll.
 
@@ -16203,10 +16350,10 @@ You wear light armor and wield a medium weapon.
 
 **Melee, Strike, Weapon Main action** e Melee 1 x One creature
 
-**Power Roll + M**ight or** A**gility:**
+**Power Roll + Might or Agility:**
 - **≤11:** 5 + M or A damage
 - **12-16:** 7 + M or A damage; push 1
-- **17+:** 10 + M or A damage; push 2
+- **17+:** M**ight or** A**gility:** á 5 + M or A damage é 7 + M or A damage; push 1 í 10 + M or A damage; push 2
 
 **Effect:** You can shift into any square the target leaves after you push them. ![](_page_225_Picture_61.jpeg) 223 Kits e Melee 2 x One creature
 
@@ -16230,10 +16377,10 @@ You wear medium armor and wield a shield and a medium weapon.
 
 **Melee, Strike, Weapon Main action** e Melee 1 x One creature
 
-**Power Roll + M**ight or** A**gility:**
+**Power Roll + Might or Agility:**
 - **≤11:** 4 + M or A damage; push 1
-- **12-16:** 7 + M or A damage; push 2
-- **17+:** 9 + M or A damage; push 3; M<s, prone
+- **12-16:** é 7 + M or A damage; push 2
+- **17+:** M**ight or** A**gility:** á 4 + M or A damage; push 1 é 7 + M or A damage; push 2 í 9 + M or A damage; push 3; M<s, prone
 
 ## **Warrior Priest**
 
@@ -16257,10 +16404,10 @@ You wear heavy armor and wield a light weapon.
 
 e Melee 1 x One creature or object
 
-**Power Roll + M**ight,** R**eason,** I**ntuition or** P**resence:**
+**Power Roll + Might, Reason, Intuition or Presence:**
 - **≤11:** 3 + M, R, I, or P holy damage
 - **12-16:** 5 + M, R, I, or P holy damage
-- **17+:** 8 + M, R, I, or P holy damage
+- **17+:** M**ight,** R**eason,** I**ntuition or** P**resence:** á 3 + M, R, I, or P holy damage é 5 + M, R, I, or P holy damage í 8 + M, R, I, or P holy damage
 
 **Effect:** Until the end of the target's next turn, they have damage weakness equal to the characteristic score used for this ability's power roll.
 
@@ -16288,10 +16435,10 @@ You wear no armor and wield a whip.
 
 ![target icon](insert-image-link-here) One creature
 
-**Power Roll + M**ight or** A**gility:**
+**Power Roll + Might or Agility:**
 - **≤11:** 4 + M or A damage; vertical pull 1
-- **12-16:** 7 + M or A damage; vertical pull 2
-- **17+:** 10 + M or A damage; vertical pull 3
+- **12-16:** é 7 + M or A damage; vertical pull 2
+- **17+:** M**ight or** A**gility:** á 4 + M or A damage; vertical pull 1 é 7 + M or A damage; vertical pull 2 í 10 + M or A damage; vertical pull 3
 
 #### **Optional Rule: Losing Equipment**
 
@@ -17281,7 +17428,7 @@ You can perceive ghosts and spirits that others don't sense. These supernatural 
 **Power Roll + :**
 - **≤11:** You take corruption damage equal to 5 + your level.
 - **12-16:** The spirit of anyone you know of who has died speaks to you, provided they are on the same world as you. You learn how they died and can ask them one question, which they can answer truthfully or untruthfully. The spirit knows everything they knew in life, and is aware of events that took place in their immediate surroundings since their death.
-- **17+:** As tier 2, but you can ask three questions.
+- **17+:** ** I**ntuition or** P**resence:** á You take corruption damage equal to 5 + your level. é The spirit of anyone you know of who has died speaks to you, provided they are on the same world as you. You learn how they died and can ask them one question, which they can answer truthfully or untruthfully. The spirit knows everything they knew in life, and is aware of events that took place in their immediate surroundings since their death. í As tier 2, but you can ask three questions.
 
 **Effect:** If any sapient creatures have died nearby within the last 24 hours, you have a double bane on the power roll for this ability if any of those creatures were hostile to you, or a double edge if any of them were friendly to you. When you use this ability, you can't do so again until you earn 1 or more Victories.
 
@@ -17301,8 +17448,8 @@ Your mother and father never saw eye to eye. You know this because your father i
 
 **Power Roll + :**
 - **≤11:** 2 damage; M<w, slowed (save ends)
-- **12-16:** 4 damage; M<v, slowed (save ends)
-- **17+:** 6 damage; M<s, slowed (save ends)
+- **12-16:** damage; M<w, slowed (save ends) é 4 damage; M<v, slowed (save ends)
+- **17+:** ** M**ight or** P**resence:** á 2 damage; M<w, slowed (save ends) é 4 damage; M<v, slowed (save ends) í 6 damage; M<s, slowed (save ends)
 
 **Effect:** This ability has no effect on a creature who can't see you or who purposefully avoids looking at your eyes. A creature reduced to 0 Stamina by this ability is turned to inanimate stone. **Drawback:** Out of combat, you use your Stone Eyes ability on anyone who meets your gaze, whether you intend to or not. Your companions know not to make eye contact, but strangers are likely to trigger the ability unless you cover your eyes.
 
@@ -17388,8 +17535,8 @@ In times of stress, you get headaches. Psionic energy builds up in your mind unt
 
 **Power Roll + Highest Characteristic Score:**
 - **≤11:** 1 psychic damage for each Heroic Resource you spend, to a maximum equal to your level
-- **12-16:** 1 psychic damage for each Heroic Resource you spend, to a maximum equal to your level + your highest characteristic
-- **17+:** 1 psychic damage for each Heroic Resource you spend **Drawback:** Whenever you become bleeding, frightened, or weakened, you must use Psychic Blast as a free triggered action.
+- **12-16:** psychic damage for each Heroic Resource you spend, to a maximum equal to your level é 1 psychic damage for each Heroic Resource you spend, to a maximum equal to your level + your highest characteristic
+- **17+:** Highest Characteristic Score:** á 1 psychic damage for each Heroic Resource you spend, to a maximum equal to your level é 1 psychic damage for each Heroic Resource you spend, to a maximum equal to your level + your highest characteristic í 1 psychic damage for each Heroic Resource you spend **Drawback:** Whenever you become bleeding, frightened, or weakened, you must use Psychic Blast as a free triggered action.
 
 **Effect:** Using this ability costs all your Heroic Resource. **Power Roll + Highest Characteristic Score:** - á 1 psychic damage for each Heroic Resource you spend, to a maximum equal to your level - é 1 psychic damage for each Heroic Resource you spend, to a maximum equal to your level + your highest characteristic - í 1 psychic damage for each Heroic Resource you spend **Drawback:** Whenever you become bleeding, frightened, or weakened, you must use Psychic Blast as a free triggered action.
 
@@ -17437,8 +17584,8 @@ You are the only survivor of a cataclysmic psionic event—an experiment gone wr
 
 **Power Roll + :**
 - **≤11:** Push or pull 1
-- **12-16:** Push or pull 2
-- **17+:** Push or pull 3 **Drawback:** You have psychic weakness 5.
+- **12-16:** é Push or pull 2
+- **17+:** ** M**ight,** I**ntuition, or** P**resence:** á Push or pull 1 é Push or pull 2 í Push or pull 3 **Drawback:** You have psychic weakness 5.
 
 ## **Runaway**
 
@@ -17698,8 +17845,8 @@ You nearly lost your life at sea, but then you heard the voice. Someone—or som
 
 **Power Roll + your Highest Characteristic Score:**
 - **≤11:** 2 damage; push or pull 1
-- **12-16:** 5 damage; push or pull 2
-- **17+:** 7 damage; push or pull 3 When you woke, you discovered that a group of green elementalists had saved your life by infusing the regenerative bark of a tree to your body. **Benefit:** Your recovery value increases by an amount equal to your highest characteristic score. **Drawback:** You have fire weakness 5.
+- **12-16:** damage; push or pull 1 é 5 damage; push or pull 2
+- **17+:** your Highest Characteristic Score:**
 
 **Effect:** You can forgo dealing damage with this ability. á 2 damage; push or pull 1 é 5 damage; push or pull 2 í 7 damage; push or pull 3 When you woke, you discovered that a group of green elementalists had saved your life by infusing the regenerative bark of a tree to your body. **Benefit:** Your recovery value increases by an amount equal to your highest characteristic score. **Drawback:** You have fire weakness 5.
 
@@ -18706,8 +18853,8 @@ If a creature who can't burrow wants to dig into the ground, they can use the fo
 
 **Power Roll + :**
 - **≤11:** You can move 1 square into, out of, or through ground you are touching that can be burrowed through, and you are slowed and weakened (EoT).
-- **12-16:** You can use your main action this turn to move 1 square into, out of, or through ground you are touching that can be burrowed through, and you are slowed (EoT).
-- **17+:** You can move up to 1 square into, out of, or through ground you are touching that can be burrowed through.
+- **12-16:** square into, out of, or through ground you are touching that can be burrowed through, and you are slowed and weakened (EoT). é You can use your main action this turn to move 1 square into, out of, or through ground you are touching that can be burrowed through, and you are slowed (EoT).
+- **17+:** ** M**ight:** á You can move 1 square into, out of, or through ground you are touching that can be burrowed through, and you are slowed and weakened (EoT). é You can use your main action this turn to move 1 square into, out of, or through ground you are touching that can be burrowed through, and you are slowed (EoT). í You can move up to 1 square into, out of, or through ground you are touching that can be burrowed through.
 
 #### **Burrowing Forced Movement**
 
@@ -18734,14 +18881,14 @@ You can attempt to climb a creature whose size is greater than yours. If the cre
 **Power Roll + :**
 - **≤11:** You fail to climb the creature, and they can make a free strike against you.
 - **12-16:** You fail to climb the creature.
-- **17+:** You climb the creature. While you climb or ride a creature, you gain an edge on melee abilities used against them. The creature can use a maneuver to attempt to knock you off, forcing you to make the following test:
+- **17+:** ** M**ight or** A**gility:** á You fail to climb the creature, and they can make a free strike against you. é You fail to climb the creature. í You climb the creature. While you climb or ride a creature, you gain an edge on melee abilities used against them. The creature can use a maneuver to attempt to knock you off, forcing you to make the following test:
 
 #### **
 
 **Power Roll + :**
 - **≤11:** You fall off the creature into an unoccupied adjacent space of your choice, taking falling damage and landing prone as usual (see Falling below).
 - **12-16:** You slide down the creature into an unoccupied adjacent space of your choice and don't land prone.
-- **17+:** You continue to hold on to the creature. If you are knocked prone while climbing or riding a creature, you fall and land prone in an adjacent space of your choice, taking damage as usual from the fall.
+- **17+:** ** M**ight or** A**gility:** á You fall off the creature into an unoccupied adjacent space of your choice, taking falling damage and landing prone as usual (see Falling below). é You slide down the creature into an unoccupied adjacent space of your choice and don't land prone. í You continue to hold on to the creature. If you are knocked prone while climbing or riding a creature, you fall and land prone in an adjacent space of your choice, taking damage as usual from the fall.
 
 #### Jump
 
@@ -18754,7 +18901,7 @@ If you want to jump even longer or higher than your baseline jump allows, make a
 **Power Roll + :**
 - **≤11:** You don't jump any farther than your baseline jump allows.
 - **12-16:** You jump 1 square longer and higher than your baseline jump allows.
-- **17+:** You jump 2 squares longer and higher than your baseline jump allows. You can't jump farther or higher than the distance of the effect that allows you to move. You can't jump out of difficult terrain or damaging terrain (see below).
+- **17+:** ** M**ight or** A**gility:** á You don't jump any farther than your baseline jump allows. é You jump 1 square longer and higher than your baseline jump allows. í You jump 2 squares longer and higher than your baseline jump allows. You can't jump farther or higher than the distance of the effect that allows you to move. You can't jump out of difficult terrain or damaging terrain (see below).
 
 #### Crawl
 
@@ -19019,6 +19166,10 @@ A creature wanting to push an adjacent creature away from them can attempt to sh
 | Image: Melee Range Icon Melee 1                                                             |        |
 | <b>Maneuver</b> <span>Image: Stopwatch Icon</span> 1 creature                               |        |
 **Power Roll + <span style="background:**
+- **≤11:** 11</b> | Push 1 | | <b>12–16</b> | Push 2 | | <b>17+</b> | Push 3 |
+- **12-16:** px;">M</span> Might:</b> | | | <b>≤11</b> | Push 1 | | <b>12–16</b> | Push 2 | | <b>17+</b> | Push 3 |
+- **17+:** <span style="background:black;color:white;padding:2px;">M</span> Might:</b> | | | <b>≤11</b> | Push 1 | | <b>12–16</b> | Push 2 | | <b>17+</b> | Push 3 |
+
 **Effect:** You can usually target only creatures of your size or smaller. If your Might score is 2 or higher, you can target any creature with a size equal to or less than your Might score. ![](_page_276_Picture_0.jpeg)
 
 ## **Make or Assist a Test**
@@ -19622,8 +19773,8 @@ If an NPC isn't as forthcoming, or if the heroes want to learn one of the NPC's 
 
 **Power Roll + :**
 - **≤11:** The hero learns no information regarding the NPC's motivations or pitfalls, and the NPC realizes the hero is trying to read them and becomes annoyed. As a consequence, the NPC's patience is reduced by 1.
-- **12-16:** The hero learns no information regarding the NPC's motivations or pitfalls.
-- **17+:** The hero learns one of the NPC's motivations or pitfalls (their choice). After this test is made, the heroes can't make another test to determine the same NPC's motivations or pitfalls until they make an argument to the NPC or the negotiation ends.
+- **12-16:** . é The hero learns no information regarding the NPC's motivations or pitfalls.
+- **17+:** ** R**eason,** I**ntuition, or** P**resence:** á The hero learns no information regarding the NPC's motivations or pitfalls, and the NPC realizes the hero is trying to read them and becomes annoyed. As a consequence, the NPC's patience is reduced by 1. é The hero learns no information regarding the NPC's motivations or pitfalls. í The hero learns one of the NPC's motivations or pitfalls (their choice). After this test is made, the heroes can't make another test to determine the same NPC's motivations or pitfalls until they make an argument to the NPC or the negotiation ends.
 
 ## **Outside of Negotiation**
 
@@ -19653,8 +19804,8 @@ If an argument doesn't include a pitfall and appeals to one of the NPC's motivat
 
 **Power Roll + :**
 - **≤11:** The NPC's patience decreases by 1.
-- **12-16:** The NPC's interest increases by 1, and their patience decreases by 1.
-- **17+:** The NPC's interest increases by 1, and their patience doesn't change. At the Director's discretion, a particularly well-roleplayed or well-reasoned argument automatically counts as a tier 3 outcome without a test. Good roleplaying should be rewarded! If the heroes attempt to appeal to a motivation that's already been appealed to, the NPC's interest remains the same and their patience decreases by 1.
+- **12-16:** . é The NPC's interest increases by 1, and their patience decreases by 1.
+- **17+:** ** R**eason,** I**ntuition, or** P**resence:** á The NPC's patience decreases by 1. é The NPC's interest increases by 1, and their patience decreases by 1. í The NPC's interest increases by 1, and their patience doesn't change. At the Director's discretion, a particularly well-roleplayed or well-reasoned argument automatically counts as a tier 3 outcome without a test. Good roleplaying should be rewarded! If the heroes attempt to appeal to a motivation that's already been appealed to, the NPC's interest remains the same and their patience decreases by 1.
 
 #### **Appealing to Multiple Motivations**
 
@@ -19668,8 +19819,8 @@ If an argument doesn't include one of the NPC's motivations or pitfalls, the her
 
 **Power Roll + :**
 - **≤11:** The NPC's patience decreases by 1, and their interest decreases by 1.
-- **12-16:** The NPC's patience decreases by 1.
-- **17+:** The NPC's interest increases by 1, and their patience decreases by 1.
+- **12-16:** , and their interest decreases by 1. é The NPC's patience decreases by 1.
+- **17+:** ** R**eason,** I**ntuition, or** P**resence:** á The NPC's patience decreases by 1, and their interest decreases by 1. é The NPC's patience decreases by 1. í The NPC's interest increases by 1, and their patience decreases by 1.
 
 **Effect:** On a natural 19 or 20, the NPC's patience remains the same. If the heroes try to use the same argument without a pitfall or motivation twice, the test automatically obtains a tier 1 outcome.
 
@@ -20247,7 +20398,7 @@ You can use an absorbed ability as if you knew it, making power rolls for the ab
 **Power Roll + Your Highest Characteristic Score:**
 - **≤11:** 8 damage; push 3
 - **12-16:** 12 damage; push 4
-- **17+:** 15 damage; push 5 **Levitating:** On your turn, you can treat up to 5 consecutive squares of movement as flying movement. If you are still in midair at the end of your turn, you fall prone. **Magic Resistance II:** Your characteristic scores are treated as 2 higher (to a maximum of 3) for the purpose of resisting the potencies of magic abilities. This benefit replaces Magic Resistance I. ![](_page_299_Picture_32.jpeg) Draw Steel.indb 297 6/24/25 2:49 PM ⊕ This image contains a circular symbol with a crosshair design in the center. There is no text present in the image. ![A black and white target-like symbol with a filled black circle in the center, divided into four quadrants by crosshairs. There is no text present in the image.](image-url-placeholder) **Phasing II:** When you use the armor's Phasing I enhancement, you can move through 3 squares of solid matter per turn. **Psionic Resistance II:** Your characteristic scores are treated as 2 higher (to a maximum of 3) for the purpose of resisting the potencies of psionic abilities. This benefit replaces Psionic Resistance I. **Reactive:** Whenever you take damage, you have damage immunity 2 until the end of your next turn after the triggering damage is resolved. **Second Wind:** Whenever you become winded, you can use a free triggered action to spend a Recovery. **Shattering:** Whenever an enemy scores a critical hit against you, they take 10 sonic damage. **Tempest II:** When you use the armor's Tempest I enhancement, the affected creature takes 8 lightning damage and you push them up to 3 squares.
+- **17+:** Your Highest Characteristic Score:** á 8 damage; push 3 é 12 damage; push 4 í 15 damage; push 5 **Levitating:** On your turn, you can treat up to 5 consecutive squares of movement as flying movement. If you are still in midair at the end of your turn, you fall prone. **Magic Resistance II:** Your characteristic scores are treated as 2 higher (to a maximum of 3) for the purpose of resisting the potencies of magic abilities. This benefit replaces Magic Resistance I. ![](_page_299_Picture_32.jpeg) Draw Steel.indb 297 6/24/25 2:49 PM ⊕ This image contains a circular symbol with a crosshair design in the center. There is no text present in the image. ![A black and white target-like symbol with a filled black circle in the center, divided into four quadrants by crosshairs. There is no text present in the image.](image-url-placeholder) **Phasing II:** When you use the armor's Phasing I enhancement, you can move through 3 squares of solid matter per turn. **Psionic Resistance II:** Your characteristic scores are treated as 2 higher (to a maximum of 3) for the purpose of resisting the potencies of psionic abilities. This benefit replaces Psionic Resistance I. **Reactive:** Whenever you take damage, you have damage immunity 2 until the end of your next turn after the triggering damage is resolved. **Second Wind:** Whenever you become winded, you can use a free triggered action to spend a Recovery. **Shattering:** Whenever an enemy scores a critical hit against you, they take 10 sonic damage. **Tempest II:** When you use the armor's Tempest I enhancement, the affected creature takes 8 lightning damage and you push them up to 3 squares.
 
 #### **9th-Level Armor Enhancement**
 
@@ -20287,7 +20438,7 @@ Area, Magic
 **Power Roll + Your Highest Characteristic Score:**
 - **≤11:** 5 fire damage
 - **12-16:** 8 fire damage
-- **17+:** 11 fire damage **Invulnerable:** When an ability roll made against you obtains a tier 1 outcome, you can ignore its damage and effects. **Leyline Walker:** Once per turn as a move action, you can spend any amount of your movement to instead teleport that distance. **Life:** Whenever you would die, you can spend a Recovery to regain Stamina instead. If you have no Recoveries to spend, you die. **Magic Resistance III:** The benefit of the armor's Magic Resistance II enhancement extends to each ally within 3 squares of you. **Phasing III:** Your movement doesn't provoke opportunity attacks, and you can move through the space of any enemy as if they were an ally. You can't end your turn in an enemy's space. **Psionic Resistance III:** The benefit of the armor's Psionic Resistance II trait extends to each ally within 3 squares of you. **Temporal Flux:** Whenever you move out of a square, you can choose to leave an imprint behind that lasts until the end of the encounter, until your imprint takes 20 or more damage, or until you create a new imprint. The square is occupied by your imprint, and you can share that space with it. On your turn, you can teleport to the imprint's space as a free maneuver. When you are targeted by an ability, you can use a free triggered action to teleport to your imprint, and the power roll for the ability is treated as an 11. **Unbending:** You can't be subjected to forced movement unless you choose to be. Effects that ignore Stability also ignore this enhancement.
+- **17+:** Your Highest Characteristic Score:** á 5 fire damage é 8 fire damage í 11 fire damage **Invulnerable:** When an ability roll made against you obtains a tier 1 outcome, you can ignore its damage and effects. **Leyline Walker:** Once per turn as a move action, you can spend any amount of your movement to instead teleport that distance. **Life:** Whenever you would die, you can spend a Recovery to regain Stamina instead. If you have no Recoveries to spend, you die. **Magic Resistance III:** The benefit of the armor's Magic Resistance II enhancement extends to each ally within 3 squares of you. **Phasing III:** Your movement doesn't provoke opportunity attacks, and you can move through the space of any enemy as if they were an ally. You can't end your turn in an enemy's space. **Psionic Resistance III:** The benefit of the armor's Psionic Resistance II trait extends to each ally within 3 squares of you. **Temporal Flux:** Whenever you move out of a square, you can choose to leave an imprint behind that lasts until the end of the encounter, until your imprint takes 20 or more damage, or until you create a new imprint. The square is occupied by your imprint, and you can share that space with it. On your turn, you can teleport to the imprint's space as a free maneuver. When you are targeted by an ability, you can use a free triggered action to teleport to your imprint, and the power roll for the ability is treated as an 11. **Unbending:** You can't be subjected to forced movement unless you choose to be. Effects that ignore Stability also ignore this enhancement.
 
 #### Imbue Implement
 
@@ -20599,8 +20750,8 @@ Power Ball - You
 
 **Power Roll + Your Highest Characteristic Score:**
 - **≤11:** 7 fire damage
-- **12-16:** 11 fire damage
-- **17+:** 16 fire damage **Terrifying III:** Whenever you damage a creature with an ability using this weapon and obtain a tier 3 outcome, that creature takes 6 psychic damage and is frightened (save ends). This replaces the benefit of Terrifying II. **Thundering III:** Whenever you deal rolled damage to a creature using this weapon, you can vertical push that creature up to 5 squares and knock them prone after the other effects of the ability resolve. If the creature takes or deals damage as a result of this movement, they also take 5 thunder damage. This replaces the benefit of Thundering II. **Vengeance III:** Whenever you use a damage-dealing ability using this weapon against a creature who has dealt damage to you since the end of your last turn, the ability deals an extra 6 damage. This replaces the benefit of Vengeance II. **Windcutting:** Whenever you use a melee signature ability that normally targets one creature, you can take a bane on the ability to target each enemy in a cube 3 within distance. If your signature ability would normally cause its target to become grabbed or restrained, each target in the area is instead slowed until the end of their next turn. Steel.indb 303 ![](_page_305_Picture_24.jpeg)
+- **12-16:** Power Roll + Your Highest Characteristic Score: á 7 fire damage é 11 fire damage
+- **17+:** Your Highest Characteristic Score: á 7 fire damage é 11 fire damage í 16 fire damage **Terrifying III:** Whenever you damage a creature with an ability using this weapon and obtain a tier 3 outcome, that creature takes 6 psychic damage and is frightened (save ends). This replaces the benefit of Terrifying II. **Thundering III:** Whenever you deal rolled damage to a creature using this weapon, you can vertical push that creature up to 5 squares and knock them prone after the other effects of the ability resolve. If the creature takes or deals damage as a result of this movement, they also take 5 thunder damage. This replaces the benefit of Thundering II. **Vengeance III:** Whenever you use a damage-dealing ability using this weapon against a creature who has dealt damage to you since the end of your last turn, the ability deals an extra 6 damage. This replaces the benefit of Vengeance II. **Windcutting:** Whenever you use a melee signature ability that normally targets one creature, you can take a bane on the ability to target each enemy in a cube 3 within distance. If your signature ability would normally cause its target to become grabbed or restrained, each target in the area is instead slowed until the end of their next turn. Steel.indb 303 ![](_page_305_Picture_24.jpeg)
 
 #### **Crafting and Research Events**
 
@@ -21856,7 +22007,7 @@ e Melee 1 x One creature or object
 **Power Roll + Might or Agility:**
 - **≤11:** 3 psychic damage
 - **12-16:** 5 psychic damage; I<v , slowed (save ends)
-- **17+:** 8 psychic damage; I<s , slowed (save ends)
+- **17+:** Might or Agility:** á 3 psychic damage é 5 psychic damage; I<v , slowed (save ends) í 8 psychic damage; I<s , slowed (save ends)
 
 **Effect:** While slowed in this way, the target takes a bane on magic or psionic abilities.
 
@@ -22962,8 +23113,8 @@ Titles suitable for 2nd-echelon characters are presented in alphabetical order.
 
 **Power Roll + Might or Agility:**
 - **≤11:** 6 damage; I<w , slowed (save ends)
-- **12-16:** 10 damage; I<v , frightened (save ends)
-- **17+:** 14 damage; I<s , dazed (save ends)
+- **12-16:** damage; I<w , slowed (save ends) é 10 damage; I<v , frightened (save ends)
+- **17+:** Might or Agility:** á 6 damage; I<w , slowed (save ends) é 10 damage; I<v , frightened (save ends) í 14 damage; I<s , dazed (save ends)
 
 **Effect:** If you kill a non-minion opponent using this ability, each enemy within 3 squares of you is frightened (save ends). This image contains a black circle with a crosshair or target-like design over it. There is no textual content to transcribe or reproduce in markdown.
 
@@ -23081,7 +23232,7 @@ e Melee 1 x One creature
 **Power Roll + Might or Agility:**
 - **≤11:** 7 damage; M<w , prone and can't stand (save ends)
 - **12-16:** 11 damage; M<v , prone and can't stand (save ends)
-- **17+:** 16 damage; M<s , prone and can't stand (save ends) **Special:** If the target is size 2 or larger, you gain an edge on this ability. *Up the Beanstalk:* You have the Climb skill. If you already have this skill, you instead gain an edge on tests made using the Climb skill. While you're climbing a creature, the creature has a double bane on strikes against you and you have a double edge on tests made to stay on the creature.
+- **17+:** Might or Agility:** á 7 damage; M<w , prone and can't stand (save ends) é 11 damage; M<v , prone and can't stand (save ends) í 16 damage; M<s , prone and can't stand (save ends) **Special:** If the target is size 2 or larger, you gain an edge on this ability. *Up the Beanstalk:* You have the Climb skill. If you already have this skill, you instead gain an edge on tests made using the Climb skill. While you're climbing a creature, the creature has a double bane on strikes against you and you have a double edge on tests made to stay on the creature.
 
 ## **Godsworn**
 
@@ -23146,7 +23297,7 @@ e Melee 1 x One creature
 **Power Roll + :**
 - **≤11:** 7 damage; taunted (save ends)
 - **12-16:** 11 damage; taunted (save ends)
-- **17+:** 16 damage; taunted (save ends)
+- **17+:** ** M**ight or** A**gility:** á 7 damage; taunted (save ends) é 11 damage; taunted (save ends) í 16 damage; taunted (save ends)
 
 **Effect:** You can end the taunted condition on the target as a free maneuver. **Special:** If you take this title, you might occasionally be called upon to perform duties for the person who knighted you. Draw Steel REWARDS
 
@@ -23326,7 +23477,7 @@ REWARDS
 **Power Roll + Presence:**
 - **≤11:** You take 4 sonic damage unless you have the Performance skill.
 - **12-16:** 6 sonic damage; M<v , weakened (save ends)
-- **17+:** 10 sonic damage; M<s , weakened and bleeding (save ends)
+- **17+:** Presence:** á You take 4 sonic damage unless you have the Performance skill. é 6 sonic damage; M<v , weakened (save ends) í 10 sonic damage; M<s , weakened and bleeding (save ends)
 
 **Effect:** The soul of any creature killed by this ability is dragged to Hell. *Music of the Spheres:* As a main action, you sing or play a note as delicate and sharp as glass—and just as easily shattered. Until the start of your next turn, whenever a creature within 10 squares makes a strike, they take 8 sonic damage. Whenever you make a strike during that same period, you also take 8 sonic damage.
 
