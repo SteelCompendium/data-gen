@@ -86,7 +86,7 @@ run input_md_path output_md_path:
         # and ending just before the next H2/H3 heading or the end of the file.
         # The lookahead is adjusted to not consume trailing whitespace.
         pattern = re.compile(
-            r"^\s*.*Power Roll \+.*?(?=\s*^(?:##|###)[^#]|\Z)",
+            r"^[^\n]*Power Roll \+.*?(?=\s*^(?:##|###)[^#]|\Z)",
             re.MULTILINE | re.DOTALL
         )
         
