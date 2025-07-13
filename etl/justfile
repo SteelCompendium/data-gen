@@ -2,7 +2,9 @@
 # Modules
 ##################################################
 
-mod rules 'rules.just'
+mod heroes 'heroes.just'
+
+mod md_to_html 'md_to_html.just'
 
 ##################################################
 # Constants and env vars
@@ -30,13 +32,14 @@ clean_and_prep:
     fi
     mkdir -p "{{staging_dpath}}"
 
-gen: clean_and_prep gen_rules
+gen: clean_and_prep gen_heroes
 
-gen_rules:
+gen_heroes:
     #!/usr/bin/env bash
     set -euo pipefail
-    cp "{{data_gen_root_dpath}}/Rules/Draw Steel Heroes.md" "{{staging_dpath}}/Draw Steel Heroes.md"
-    just rules gen_rules
+    # TODO - im pretty sure this is used in assembly
+    #cp "{{data_gen_root_dpath}}/Rules/Draw Steel Heroes.md" "{{staging_dpath}}/Draw Steel Heroes.md"
+    just heroes gen "{{data_gen_root_dpath}}/Rules/Draw Steel Heroes.md"
 
 # deletes all the (non-hidden) files in a directory
 delete_dir_except_git dir_to_delete:
@@ -85,9 +88,6 @@ switch_repos_to branch:
 # Private Recipes
 ##################################################
 
-data_gen_root_dpath := justfile_directory() / ".."
-steel_compendium_root_dpath := data_gen_root_dpath / ".."
-
 # Prints the absolute path to the data-gen repo
 [private]
 _data_gen_dpath:
@@ -97,7 +97,7 @@ _data_gen_dpath:
 
 # Prints the absolute path to the Steel Compendium parent directory
 [private]
-_data_gen_dpath:
+_steel_compendium_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
     realpath "{{data_gen_root_dpath}}"

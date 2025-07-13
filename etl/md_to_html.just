@@ -4,8 +4,8 @@ run md_src_fpath html_dest_fpath:
     #!/usr/bin/env bash
     set -euo pipefail
     echo >&2 "{{log_prefix}} --- Converting markdown to html --- "
-    echo >&2 "{{log_prefix}} MD source: {{md_src_fpath}}"
-    echo >&2 "{{log_prefix}} HTML dest: {{html_dest_fpath}}"
+    echo >&2 "{{log_prefix}} MD source: '{{md_src_fpath}}'"
+    echo >&2 "{{log_prefix}} HTML dest: '{{html_dest_fpath}}'"
 
     mkdir -p "$(dirname "{{html_dest_fpath}}")"
 

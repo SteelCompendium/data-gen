@@ -31,10 +31,7 @@
     ],
     "scripts": {
       "gen":             "time just gen",
-      "gen_rules":       "time just gen_rules",
-      "gen_bestiary":    "time just gen_bestiary",
-      "gen_adventures":  "time just gen_adventures",
-      "gen_unified":     "time just gen_unified",
+      "gen_heroes":       "time just gen_heroes",
       "switch_repos_to": "just switch_repos_to $@"
     }
   }
