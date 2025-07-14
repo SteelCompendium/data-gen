@@ -73,9 +73,11 @@ add_license dir:
 switch_repos_to branch:
     #!/usr/bin/env bash
     set -euo pipefail
-    #cd "{{steel_compendium_root_dpath}}"
-
-    find "{{steel_compendium_root_dpath}}" -type d -name "data-*" | while read -r data_repo_dpath; do
+    find "{{steel_compendium_root_dpath}}" -maxdepth 1 -type d -name "data-*" | while read -r data_repo_dpath; do
+        # Skip the sdk
+        if [ "$data_repo_dpath" == "data-sdk-npm" ]; then
+            continue;
+        fi
         cd "$data_repo_dpath"
         if [ ! -d ".git" ]; then
             echo >&2 "Directory is not a git repo: $data_repo_dpath"
