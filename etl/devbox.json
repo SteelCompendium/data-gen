@@ -11,7 +11,8 @@
     "yq-go@latest",
     "iconv@latest",
     "go@latest",
-    "perl"
+    "perl",
+    "figlet@latest"
   ],
   "env": {
     "DEVBOX_COREPACK_ENABLED": "true"
@@ -31,7 +32,7 @@
     ],
     "scripts": {
       "gen":             "time just gen",
-      "gen_heroes":       "time just gen_heroes",
+      "gen_heroes":      "time just gen_heroes",
       "switch_repos_to": "just switch_repos_to $@"
     }
   }

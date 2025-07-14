@@ -4,6 +4,9 @@
 
 mod heroes 'heroes.just'
 
+mod extract_heroes_sections 'extract_heroes_sections.just'
+mod extract_html_sections 'extract_html_sections.just'
+mod lint 'lint.just'
 mod md_to_html 'md_to_html.just'
 
 ##################################################
@@ -109,3 +112,13 @@ _staging_dpath:
     set -euo pipefail
     mkdir -p "{{staging_dpath}}"
     realpath "{{staging_dpath}}"
+
+[private]
+_print_section name:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    echo
+    echo '{{name}}'
+    echo '============================================================'
+    echo
+

@@ -28,6 +28,11 @@ These terms are just guidelines. A vibe. But we find them useful when trying to 
 
 So let's talk about what we mean when we use these terms.
 
+| foo                     | bar |
+| --- | --- |
+| hey | yeah boi           |
+| hey | yeah boi           |
+
 ## Tactical
 
 Strategy is: "What are we trying to do?" Break a siege, free a prisoner, rescue a captive, steal a tome of ancient lore. Strategy is about long-term goals.

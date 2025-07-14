@@ -1,14 +1,14 @@
-log_prefix := "[JUST][format_md][mdformat]"
+log_prefix := "[JUST][lint]"
 
-run md_src_dpath:
+markdown md_src_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
-    echo >&2 "{{log_prefix}} --- Formatting Markdown --- "
-    echo >&2 "{{log_prefix}} MD source: {{md_src_dpath}}"
+    just _print_section "Linting markdown"
+    echo >&2 "    MD source: '{{md_src_dpath}}'"
     mdformat --version
 
     # convert everything to UTF-8
-    find {{md_src_dpath}} -type f -name '*.md' -exec sh -c '
+    find "{{md_src_dpath}}" -type f -name '*.md' -exec sh -c '
       for file do
         # Convert "file" in place, making a backup with a .bak extension
         echo "$file"
