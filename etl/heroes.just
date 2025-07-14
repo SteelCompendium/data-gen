@@ -35,25 +35,22 @@ gen_heroes_md_unlinked input_fpath output_dpath:
     just _print_section "Generating hero markdown"
     mkdir -p "{{heroes_unlinked_dpath}}"
 
-    # Convert markdown to html
+    # Sections: Convert markdown to html
     just _print_section "Converting MD to html"
     html_fpath="{{heroes_staging_dpath}}/1_html/Draw Steel Heroes.html"
     just md_to_html run "{{input_fpath}}" "$html_fpath"
 
-    # extract out sections using html xpath
+    # Sections: extract out sections using html xpath
     just _print_section "Extracting hero sections"
     html_sections_dpath="{{heroes_staging_dpath}}/2_html_sections"
     just extract_heroes_sections run "$html_fpath" "$html_sections_dpath"
 
-    #    # Convert html sections to md sections
-    #    md_sections_dpath="{{heroes_staging_dpath}}/3_md_sections"
-    #    just -f html_sections_to_md/justfile run "$html_sections_dpath" "$md_sections_dpath"
-    #
-    #    # Transform the MD section files to make them usable
-    #    md_sections_formatted_dpath="{{heroes_staging_dpath}}/md_sections_formatted"
-    #    mkdir -p "$md_sections_formatted_dpath"
-    #    cp -R "$md_sections_dpath"/* "$md_sections_formatted_dpath"
-    #
+    # Sections: Convert html sections to md sections
+    just _print_section "Converting html to md"
+    md_sections_dpath="{{heroes_staging_dpath}}/3_md_sections"
+    just html_to_md run "$html_sections_dpath" "$md_sections_dpath"
+
+
     #    # Transform the markdown files in-place
     #    just -f frontmatter/justfile run "$md_sections_formatted_dpath"
     #
@@ -63,8 +60,10 @@ gen_heroes_md_unlinked input_fpath output_dpath:
     #    # Add the original heroes MD file to the output so it can be linked and formatted
     #    # TODO - I would like this to go through the formatting steps, but it crashes on frontmatter gen
 
+    # Temp shim
     preformatted_dpath="{{heroes_staging_dpath}}/8_preformatted"
     mkdir -p "$preformatted_dpath"
+
     # Copy the original heroes markdown over to output dir
     cp "{{input_fpath}}" "${preformatted_dpath}/Draw Steel Heroes - Unlinked.md"
 
