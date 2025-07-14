@@ -45,6 +45,7 @@ run html_src_dpath md_dest_dpath:
             -o "$dest_dir/$markdown_filename" \
             "$html_file"
     done
+    rm -rf "$lua_filter_fpath"
 
 [private]
 write_lua_to_file fpath:
