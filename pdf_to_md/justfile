@@ -1,0 +1,52 @@
+##################################################
+# Constants and env vars
+##################################################
+
+data_gen_root_dpath := justfile_directory() / ".."
+steel_compendium_root_dpath := data_gen_root_dpath / ".."
+staging_dpath := data_gen_root_dpath / "staging" / "0_marker"
+
+open_ai_key := env_var("OPEN_AI_KEY")
+
+##################################################
+# Public Recipes
+##################################################
+
+export BASH_ENV := ".utils/.utilsrc"
+set shell := ["bash", "-c"]
+
+clean_and_prep:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    if [ -d "{{staging_dpath}}" ]; then
+        rm -rf "{{staging_dpath}}"
+    fi
+    mkdir -p "{{staging_dpath}}"
+
+convert_heroes pdf_fpath="Draw Steel Heroes.pdf":
+    #!/usr/bin/env bash
+    set -euo pipefail
+    just _convert "{{pdf_fpath}}" "true" "1-403" "{{staging_dpath}}"
+
+##################################################
+# Private Recipes
+##################################################
+
+[private]
+_convert pdf_fpath llm page_range output_dir:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    echo "Converting pages: '{{page_range}}'"
+    output_dir="{{output_dir}}_{{page_range}}"
+    if [ "{{llm}}" == "true" ]; then
+        marker_single "{{pdf_fpath}}" \
+            --use_llm \
+            --llm_service marker.services.openai.OpenAIService \
+            --openai_api_key "{{open_ai_key}}" \
+            --openai_model gpt-4.1 \
+            --page_range "{{page_range}}" \
+            --output_format markdown \
+            --output_dir "$output_dir"
+    else
+        marker_single "{{pdf_fpath}}" --page_range "{{page_range}}" --output_format markdown --output_dir "$output_dir"
+    fi

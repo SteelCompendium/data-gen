@@ -1,0 +1,26 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.11.0/.schema/devbox.schema.json",
+  "packages": [
+    "bash@latest",
+    "python@latest",
+    "mesa@latest",
+    "glib@latest",
+    "go@latest",
+    "just@latest"
+  ],
+  "env": {
+    "DEVBOX_COREPACK_ENABLED": "true"
+  },
+  "shell": {
+    "init_hook": [
+      "if [ \"$(type -t \"source\")\" = \"builtin\" ]; then clear -x; source bin/furc; fi",
+      ". $VENV_DIR/bin/activate",
+      "pip install marker-pdf==1.7.5",
+      "export LD_LIBRARY_PATH=/nix/store/r36cpvmkx54awprdj1fcm7kn5bqs43yb-libglvnd-1.7.0/lib/:/nix/store/jzh15bi6zablx3d9s928w3lgqy6and91-glib-2.74.3/lib/:$LD_LIBRARY_PATH",
+      "go install github.com/pdfcpu/pdfcpu/cmd/pdfcpu@latest"
+    ],
+    "scripts": {
+      "convert_heroes": "just convert_heroes"
+    }
+  }
+}

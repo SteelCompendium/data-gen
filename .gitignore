@@ -1,3 +1,4 @@
 /staging/
 /etl/.devbox/
 /etl/.venv/
+/pdf_to_md/*.pdf
