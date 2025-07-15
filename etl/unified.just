@@ -41,9 +41,9 @@ _gen_unified_md:
     # Unify sources. Use rsync to avoid .git dir
     just _print_section "Unified: Pulling sources to common dir ({{unified_unlinked_dpath}})"
     mkdir -p "{{unified_unlinked_dpath}}"
-    rsync -a "{{rules_md_source_dpath}}"/* "{{unified_unlinked_dpath}}/Rules" --exclude '.git'
-    rsync -a "{{bestiary_md_source_dpath}}"/* "{{unified_unlinked_dpath}}/Bestiary" --exclude '.git'
-    rsync -a "{{adventures_md_source_dpath}}"/* "{{unified_unlinked_dpath}}/Adventures" --exclude '.git'
+    rsync -a "{{rules_md_source_dpath}}"/* "{{unified_unlinked_dpath}}/Rules" --exclude '.git' --exclude 'LICENSE'
+    rsync -a "{{bestiary_md_source_dpath}}"/* "{{unified_unlinked_dpath}}/Bestiary" --exclude '.git' --exclude 'LICENSE'
+    rsync -a "{{adventures_md_source_dpath}}"/* "{{unified_unlinked_dpath}}/Adventures" --exclude '.git' --exclude 'LICENSE'
     # TODO - I should format the unlinked files?  They _should_ already be formatted...
 
     # TODO - add linking.  For now, just copy unlinked into fake linked dir
