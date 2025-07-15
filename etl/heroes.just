@@ -23,7 +23,12 @@ gen input_fpath:
     # TODO - just link_md_files ..., then change assemble_heroes to use heroes_linked_dpath
     just heroes assemble_heroes "{{heroes_unlinked_dpath}}"
 
+##################################################
+# Private Recipes
+##################################################
+
 # After heroes book markdown is fully cleaned up, will generate all markdown files
+[private]
 gen_heroes_md_unlinked input_fpath output_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
@@ -72,6 +77,7 @@ gen_heroes_md_unlinked input_fpath output_dpath:
     cp -R "$formatted_dpath"/* "{{output_dpath}}/"
 
 # Given a fully-generated directory of markdown, will auto-link files to itself
+[private]
 link_md_files:
     #!/usr/bin/env bash
     set -euo pipefail
@@ -79,6 +85,7 @@ link_md_files:
 #    # Link MD section files to each other
 #    #just -f link_md/justfile run "$md_sections_formatted_dpath" "{{staging_heroes_linked_dpath}}"
 
+[private]
 assemble_heroes src_dpath:
     #!/usr/bin/env bash
     set -euo pipefail

@@ -22,12 +22,18 @@ adventures_md_source_dpath := steel_compendium_dpath / "data-adventures-md"
 export BASH_ENV := ".utils/.utilsrc"
 set shell := ["bash", "-c"]
 
-gen_unified: (wipe unified_staging_dpath)
+gen_unified:
     #!/usr/bin/env bash
     set -euo pipefail
+    just _wipe_dir "{{unified_staging_dpath}}"
     just unified gen_unified_md
     just unified assemble_unified
 
+##################################################
+# Private Recipes
+##################################################
+
+[private]
 gen_unified_md:
     #!/usr/bin/env bash
     set -euo pipefail
@@ -52,6 +58,7 @@ gen_unified_md:
     #    just _print_section "Unified: Formatting unified, linked files"
     #    just lint markdown "{{unified_linked_dpath}}"
 
+[private]
 assemble_unified:
     #!/usr/bin/env bash
     set -euo pipefail
