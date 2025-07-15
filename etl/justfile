@@ -45,30 +45,7 @@ gen_heroes:
     #cp "{{data_gen_root_dpath}}/Rules/Draw Steel Heroes.md" "{{staging_dpath}}/Draw Steel Heroes.md"
     just heroes gen "{{data_gen_root_dpath}}/Rules/Draw Steel Heroes.md"
 
-# deletes all the (non-hidden) files in a directory
-delete_dir_except_git dir_to_delete:
-    #!/usr/bin/env bash
-    set -euo pipefail
-    tempdir="$(mktemp -d)"
-    echo "$tempdir"
-    # add a dummy file to avoid crashing in case the dir is empty
-    touch "{{dir_to_delete}}/dummy.txt"
-    mv "{{dir_to_delete}}"/* "${tempdir}/"
-    # by default dotglob will prevent hidden files from being included in * wildcard globs
-    if [ -d "${tempdir}/.git" ]; then
-        mv "${tempdir}/.git" "{{dir_to_delete}}"
-    fi
-    if [ -f "${tempdir}/README.md" ]; then
-        mv "${tempdir}/README.md" "{{dir_to_delete}}"
-    fi
-    rm -rf "$tempdir"
 
-add_license dir:
-    #!/usr/bin/env bash
-    set -euo pipefail
-    cd "{{dir}}"
-    # TODO - update this when final license is released
-    echo "The Steel Compendium is an independent product published under the DRAW STEEL Creator License and is not affiliated with MCDM Productions, LLC. DRAW STEEL © 2025 MCDM Productions, LLC." > LICENSE
 
 switch_repos_to branch:
     #!/usr/bin/env bash
@@ -107,7 +84,7 @@ _data_gen_dpath:
 _steel_compendium_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
-    realpath "{{data_gen_root_dpath}}"
+    realpath "{{steel_compendium_root_dpath}}"
 
 # Prints the absolute path to the staging directory
 [private]
@@ -126,3 +103,39 @@ _print_section name:
     echo '============================================================'
     echo
 
+[private]
+_wipe_dir dpath:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    just _print_section "Wiping directory '{{dpath}}'"
+    if [ -d "{{dpath}}" ]; then
+        rm -rf "{{dpath}}"
+    fi
+    mkdir -p "{{dpath}}"
+
+# deletes all the (non-hidden) files in a directory
+[private]
+_delete_dir_except_git dir_to_delete:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    tempdir="$(mktemp -d)"
+    echo "$tempdir"
+    # add a dummy file to avoid crashing in case the dir is empty
+    touch "{{dir_to_delete}}/dummy.txt"
+    mv "{{dir_to_delete}}"/* "${tempdir}/"
+    # by default dotglob will prevent hidden files from being included in * wildcard globs
+    if [ -d "${tempdir}/.git" ]; then
+        mv "${tempdir}/.git" "{{dir_to_delete}}"
+    fi
+    if [ -f "${tempdir}/README.md" ]; then
+        mv "${tempdir}/README.md" "{{dir_to_delete}}"
+    fi
+    rm -rf "$tempdir"
+
+# Adds the LICENSE file to a given directory
+_add_license dpath:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    cd "{{dpath}}"
+    # TODO - update this when final license is released
+    echo "The Steel Compendium is an independent product published under the DRAW STEEL Creator License and is not affiliated with MCDM Productions, LLC. DRAW STEEL © 2025 MCDM Productions, LLC." > LICENSE

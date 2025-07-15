@@ -15,19 +15,12 @@ heroes_linked_dpath := heroes_staging_dpath / "linked"
 export BASH_ENV := ".utils/.utilsrc"
 set shell := ["bash", "-c"]
 
-clean_and_prep:
+gen input_fpath:
     #!/usr/bin/env bash
     set -euo pipefail
-    rm -rf "{{heroes_staging_dpath}}"
-    mkdir -p "{{heroes_staging_dpath}}"
-
-gen input_fpath: clean_and_prep
-    #!/usr/bin/env bash
-    set -euo pipefail
+    just _wipe_dir "{{heroes_staging_dpath}}"
     just heroes gen_heroes_md_unlinked "{{input_fpath}}" "{{heroes_unlinked_dpath}}"
-
     # TODO - just link_md_files ..., then change assemble_heroes to use heroes_linked_dpath
-
     just heroes assemble_heroes "{{heroes_unlinked_dpath}}"
 
 # After heroes book markdown is fully cleaned up, will generate all markdown files
@@ -35,21 +28,21 @@ gen_heroes_md_unlinked input_fpath output_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
 
-    just _print_section "Generating hero markdown"
+    just _print_section "Heroes: Generating hero markdown"
     mkdir -p "{{heroes_unlinked_dpath}}"
 
     # Sections: Convert markdown to html
-    just _print_section "Converting MD to html"
+    just _print_section "Heroes: Converting MD to html"
     html_fpath="{{heroes_staging_dpath}}/1_html/Draw Steel Heroes.html"
     just md_to_html run "{{input_fpath}}" "$html_fpath"
 
     # Sections: extract out sections using html xpath
-    just _print_section "Extracting hero sections"
+    just _print_section "Heroes: Extracting hero sections"
     html_sections_dpath="{{heroes_staging_dpath}}/2_html_sections"
     just extract_heroes_sections run "$html_fpath" "$html_sections_dpath"
 
     # Sections: Convert html sections to md sections
-    just _print_section "Converting html to md"
+    just _print_section "Heroes: Converting html to md"
     md_sections_dpath="{{heroes_staging_dpath}}/3_md_sections"
     just html_to_md run "$html_sections_dpath" "$md_sections_dpath"
 
@@ -89,7 +82,7 @@ link_md_files:
 assemble_heroes src_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
-    just _print_section "Assembling heroes"
+    just _print_section "Heroes: Copying markdown to destination repo (data-rules-md)"
     dest_dir="$(just _steel_compendium_dpath)/data-rules-md"
     just _delete_dir_except_git "$dest_dir"
     cp -R "{{src_dpath}}"/* "$dest_dir"
