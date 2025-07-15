@@ -20,8 +20,8 @@ gen input_fpath:
     set -euo pipefail
     just _wipe_dir "{{heroes_staging_dpath}}"
     just heroes gen_heroes_md_unlinked "{{input_fpath}}" "{{heroes_unlinked_dpath}}"
-    # TODO - just link_md_files ..., then change assemble_heroes to use heroes_linked_dpath
-    just heroes assemble_heroes "{{heroes_unlinked_dpath}}"
+    # TODO - just link_md_files ..., then change to heroes_linked_dpath
+    just _copy_data_to_repo "{{heroes_unlinked_dpath}}" "data-rules-md"
 
 ##################################################
 # Private Recipes

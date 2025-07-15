@@ -22,18 +22,8 @@ gen input_fpath:
     # TODO - actually implement this
     mkdir -p "{{adventures_unlinked_dpath}}"
     echo "Adventures have not yet been converted. Sorry for the inconvenience." > "{{adventures_unlinked_dpath}}/adventures.md"
-    just adventures assemble_adventures "{{adventures_unlinked_dpath}}"
+    just _copy_data_to_repo "{{adventures_unlinked_dpath}}" "data-adventures-md"
 
 ##################################################
 # Private Recipes
 ##################################################
-
-[private]
-assemble_adventures src_dpath:
-    #!/usr/bin/env bash
-    set -euo pipefail
-    just _print_section "Adventures: Copying markdown to destination repo (data-adventures-md)"
-    dest_dir="$(just _steel_compendium_dpath)/data-adventures-md"
-    just _delete_dir_except_git "$dest_dir"
-    cp -R "{{src_dpath}}"/* "$dest_dir"
-    just _add_license "$dest_dir"

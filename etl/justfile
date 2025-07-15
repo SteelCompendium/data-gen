@@ -57,7 +57,7 @@ unify:
     #!/usr/bin/env bash
     set -euo pipefail
     just _print_title "Unify"
-    just unified gen_unified_md
+    just unified gen_unified
 
 switch_repos_to branch:
     #!/usr/bin/env bash
@@ -137,6 +137,17 @@ _wipe_dir dpath:
         rm -rf "{{dpath}}"
     fi
     mkdir -p "{{dpath}}"
+
+# Wipes a Steel Compendium data-* repo, copies data (markdown, etc) from a given dir into it, then adds LICENSE
+[private]
+_copy_data_to_repo src_dpath sc_repo_name:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    just _print_section "Copying data to destination repo ({{sc_repo_name}})"
+    dest_dir="{{steel_compendium_root_dpath}}/{{sc_repo_name}}"
+    just _delete_dir_except_git "$dest_dir"
+    cp -R "{{src_dpath}}"/* "$dest_dir"
+    just _add_license "$dest_dir"
 
 # deletes all the (non-hidden) files in a directory
 [private]

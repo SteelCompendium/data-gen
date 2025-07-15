@@ -22,18 +22,8 @@ gen input_fpath:
     # TODO - actually implement this
     mkdir -p "{{monsters_unlinked_dpath}}"
     echo "Monster book has not yet been converted. Sorry for the inconvenience." > "{{monsters_unlinked_dpath}}/monsters.md"
-    just monsters assemble_monsters "{{monsters_unlinked_dpath}}"
+    just _copy_data_to_repo "{{monsters_unlinked_dpath}}" "data-bestiary-md"
 
 ##################################################
 # Private Recipes
 ##################################################
-
-[private]
-assemble_monsters src_dpath:
-    #!/usr/bin/env bash
-    set -euo pipefail
-    just _print_section "Monsters: Copying markdown to destination repo (data-bestiary-md)"
-    dest_dir="$(just _steel_compendium_dpath)/data-bestiary-md"
-    just _delete_dir_except_git "$dest_dir"
-    cp -R "{{src_dpath}}"/* "$dest_dir"
-    just _add_license "$dest_dir"

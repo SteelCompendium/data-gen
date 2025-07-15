@@ -9,4 +9,5 @@ This is a mess, ill clean it up one day...
 3. Publish final chunks as they are completed to the site
 4. When markdown is fully converted and clean, run ETL E2E for sections, etc
 5. Move to monster book
+6. Move to adventures
 

@@ -26,20 +26,20 @@ gen_unified:
     #!/usr/bin/env bash
     set -euo pipefail
     just _wipe_dir "{{unified_staging_dpath}}"
-    just unified gen_unified_md
-    just unified assemble_unified
+    just unified _gen_unified_md
+    just _copy_data_to_repo "{{unified_linked_dpath}}" "data-md"
 
 ##################################################
 # Private Recipes
 ##################################################
 
 [private]
-gen_unified_md:
+_gen_unified_md:
     #!/usr/bin/env bash
     set -euo pipefail
 
     # Unify sources. Use rsync to avoid .git dir
-    just _print_section "Unified: Pulling sources to common dir"
+    just _print_section "Unified: Pulling sources to common dir ({{unified_unlinked_dpath}})"
     mkdir -p "{{unified_unlinked_dpath}}"
     rsync -a "{{rules_md_source_dpath}}"/* "{{unified_unlinked_dpath}}/Rules" --exclude '.git'
     rsync -a "{{bestiary_md_source_dpath}}"/* "{{unified_unlinked_dpath}}/Bestiary" --exclude '.git'
@@ -47,6 +47,7 @@ gen_unified_md:
     # TODO - I should format the unlinked files?  They _should_ already be formatted...
 
     # TODO - add linking.  For now, just copy unlinked into fake linked dir
+    mkdir -p "{{unified_linked_dpath}}"
     cp -R "{{unified_unlinked_dpath}}"/* "{{unified_linked_dpath}}"
 
     #    # Link MD section files to each other
@@ -57,13 +58,3 @@ gen_unified_md:
     #    # Format/Lint the linked markdown files
     #    just _print_section "Unified: Formatting unified, linked files"
     #    just lint markdown "{{unified_linked_dpath}}"
-
-[private]
-assemble_unified:
-    #!/usr/bin/env bash
-    set -euo pipefail
-    just _print_section "Unified: Copying markdown to destination repo (data-md)"
-    dest_dir="{{steel_compendium_dpath}}/data-md"
-    just _delete_dir_except_git "$dest_dir"
-    cp -R "{{unified_linked_dpath}}"/* "$dest_dir"
-    just _add_license "$dest_dir"
