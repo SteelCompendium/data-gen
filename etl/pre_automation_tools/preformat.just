@@ -1,10 +1,10 @@
 log_prefix := "[JUST][preformat]"
 
-run md_src_fpath:
+charset md_src_fpath:
     #!/usr/bin/env bash
     set -euo pipefail
     echo >&2 "{{log_prefix}} --- Pre-Formatting Markdown --- "
-    echo >&2 "{{log_prefix}} MD source: {{md_src_fpath}}"
+    echo >&2 "{{log_prefix}} MD source: '{{md_src_fpath}}'"
 
     # remove BOM
     LANG='en_US.UTF-8' sed -i '1s/^\xef\xbb\xbf//' "{{md_src_fpath}}"
@@ -14,6 +14,8 @@ run md_src_fpath:
     # convert everything to UTF-8
     iconv -f UTF-8 -t US-ASCII//TRANSLIT "{{md_src_fpath}}" -o "iconv.temp" && mv "iconv.temp" "{{md_src_fpath}}"
 
-    # TODO - this belongs in fix_md_headers
-    # Remove any bold formatting from headers
+# Remove any bold formatting from headers
+remove_bold_in_headers md_src_fpath:
+    #!/usr/bin/env bash
+    set -euo pipefail
     sed -i -E 's/^(#+)( +)\*\*(.*)\*\*/\1\2\3/' "{{md_src_fpath}}"
