@@ -8,6 +8,7 @@ This is a mess, ill clean it up one day...
 - Test deploy of the site main branch
 - get rid of the patron4 branch of the site
 - Make sure the data-* sites are cleaned out
+  - Still need to do -dse repos
 - Finish the ability prep
   - See below for frontmatter, indexing, wiring into repos
 - Wire in ability reader stuff from data-sdk-npm?
@@ -15,7 +16,6 @@ This is a mess, ill clean it up one day...
   - Finalize markdown format for statblocks
   - Verify markdown parser for statblocks in data-sdk-npm
   - Section extraction for monster book
-- 
 
 ## Plan for final PDF
 
