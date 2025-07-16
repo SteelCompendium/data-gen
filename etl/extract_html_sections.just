@@ -1,6 +1,9 @@
 log_prefix := "[JUST][extract_html_sections]"
 
+failed_extraction_fpath := source_dir() / "../staging/failed_extractions.txt"
+
 # Generate markdown files for all matches of an xpath (via html)
+# if `skip_delete` is `true`, deletes the `out_dpath`
 extract_section out_dpath xpath src_html_fpath skip_delete="true":
     #!/usr/bin/env bash
     set -euo pipefail
@@ -13,7 +16,7 @@ extract_section out_dpath xpath src_html_fpath skip_delete="true":
         echo >&2 "    Skipping delete on dir '{{out_dpath}}'"
     fi
 
-    just extract_html_sections _extract_section "{{xpath}}" "{{src_html_fpath}}" "{{out_dpath}}"
+    just -f "{{source_file()}}" _extract_section '{{xpath}}' '{{src_html_fpath}}' '{{out_dpath}}'
 
 _extract_section xpath src_html_fpath out_dpath:
     #!/usr/bin/env python3
@@ -48,3 +51,6 @@ _extract_section xpath src_html_fpath out_dpath:
             f_out.write(section_content)
 
     print(f'Extracted {len(sections)} sections.')
+    if len(sections) == 0:
+        with open("{{failed_extraction_fpath}}", 'a', encoding='utf-8') as f_out:
+            f_out.write("{{xpath}}\n")

@@ -182,3 +182,36 @@ expand_metadata ability_yml_fpath:
         yaml.dump(data, f, sort_keys=False, default_flow_style=False, indent=2)
 
     print(f"Successfully expanded metadata in '{{ability_yml_fpath}}'")
+
+# just -f headers_to_abilities.just extract_sections "abilities.yml" "../staging/heroes/1_html/Draw Steel Heroes.html" "../staging/abilities"
+extract_sections ability_fpath html_fpath output_dpath:
+    #!/usr/bin/env bash
+    set -euo pipefail
+
+    # Requires yq: https://github.com/mikefarah/yq
+    if ! command -v yq &> /dev/null; then
+        echo "yq could not be found, please install it to proceed." >&2
+        exit 1
+    fi
+
+    ability_fpath="{{ability_fpath}}"
+    html_fpath="{{html_fpath}}"
+    output_dpath="{{output_dpath}}"
+
+    # Use yq to output file_path, xpath, and header_path as tab-separated values for safe parsing
+    yq eval '.abilities[] | [.file_path, .xpath, .header_path] | @tsv' "$ability_fpath" | while IFS=$'\t' read -r file_path xpath header_path; do
+        if [ -z "$file_path" ] || [ -z "$xpath" ]; then
+            echo "Warning: Skipping ability with missing 'file_path' or 'xpath': $header_path" >&2
+            continue
+        fi
+
+        # make the destination path
+        output_file_path="$output_dpath/$file_path"
+        mkdir -p "$(dirname "$output_file_path")"
+
+        # Extract features and abilities
+        just extract_html_sections extract_section "$output_file_path" "$xpath" "$html_fpath" "false"
+    done
+
+    echo "Successfully extracted sections to '$output_dpath'"
+    echo "See failed extractions in staging/failed_extractions.txt"
