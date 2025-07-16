@@ -1,4 +1,39 @@
+# Given an input file of headers, will convert them to abilities.yml format for extraction
 #
+# just -f headers_to_abilities.just run ../Rules/toc.md abilities.yml
+#
+# headers_fpath expectation:
+# # Censor
+# ##### Basics
+# ##### 1st-Level Features
+# ###### Censor Order
+# ###### Deity and Domains
+# ###### Wrath
+# ####### Wrath in Combat
+# ####### Wrath Outside of Combat
+# ###### Judgment
+# ######### Judgment
+# ####### Judgment Order Benefit
+# ###### Kit
+# ###### My Life for Yours
+# ######### My Life for Yours (actual abilities at h8)
+#
+# output:
+# abilities:
+# - header_path: censor/1st-level-features/censor-order
+# - header_path: censor/1st-level-features/deity-and-domains
+# - header_path: censor/1st-level-features/wrath-in-combat
+# - header_path: censor/1st-level-features/wrath-outside-of-combat
+# - header_path: censor/1st-level-features/judgment-1
+# - header_path: censor/1st-level-features/judgment-order-benefit
+# - header_path: censor/1st-level-features/kit
+# - header_path: censor/1st-level-features/my-life-for-yours-1
+#
+run headers_fpath ability_yml_fpath:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    just -f "{{justfile()}}" convert "{{headers_fpath}}" "{{ability_yml_fpath}}"
+    just -f "{{justfile()}}" expand_metadata "{{ability_yml_fpath}}"
 
 convert headers_fpath ability_yml_fpath:
     #!/usr/bin/env python3
@@ -30,43 +65,55 @@ convert headers_fpath ability_yml_fpath:
         """
         Parses the document content and extracts ability paths.
         """
-        path_stack = []  # List of (text, level) tuples
-        output_abilities = []
-
+        all_headers = []
         for line in content.splitlines():
             level, text = parse_header(line)
-            if level is None:
-                continue
+            if level is not None:
+                all_headers.append({'level': level, 'text': text})
 
-            # As per the user's example, abilities are at header level 8.
-            is_ability_header = (level == 8)
+        path_stack = []
+        output_abilities = []
 
-            # Update path stack based on header level.
-            while path_stack and path_stack[-1][1] >= level:
+        for i, header in enumerate(all_headers):
+            level = header['level']
+            text = header['text']
+
+            while path_stack and path_stack[-1]['level'] >= level:
                 path_stack.pop()
 
-            parent_header_text = path_stack[-1][0] if path_stack else ""
-            path_stack.append((text, level))
+            is_leaf = (i == len(all_headers) - 1) or \
+                      (all_headers[i+1]['level'] <= level)
 
-            if is_ability_header:
-                h1 = next((item[0] for item in path_stack if item[1] == 1), None)
-                level_features = next((item[0] for item in path_stack if '-Level Features' in item[0]), None)
+            is_under_level_features = False
+            level_features_header_text = None
+            h1_text = None
 
+            for p_header in path_stack:
+                if p_header['level'] == 1:
+                    h1_text = p_header['text']
+                if '-Level Features' in p_header['text']:
+                    is_under_level_features = True
+                    level_features_header_text = p_header['text']
+
+            if is_under_level_features and is_leaf:
                 ability_name = text
                 kebab_ability_name = to_kebab_case(ability_name)
 
+                parent_header_text = path_stack[-1]['text'] if path_stack else ""
                 if ability_name == parent_header_text:
                     kebab_ability_name += "-1"
 
                 path_parts = []
-                if h1:
-                    path_parts.append(to_kebab_case(h1))
-                if level_features:
-                    path_parts.append(to_kebab_case(level_features))
+                if h1_text:
+                    path_parts.append(to_kebab_case(h1_text))
+                if level_features_header_text:
+                    path_parts.append(to_kebab_case(level_features_header_text))
                 path_parts.append(kebab_ability_name)
 
                 header_path = "/".join(path_parts)
                 output_abilities.append({'header_path': header_path})
+
+            path_stack.append(header)
 
         return {'abilities': output_abilities}
 
@@ -84,34 +131,50 @@ convert headers_fpath ability_yml_fpath:
 
     print(f"Successfully created '{{ability_yml_fpath}}'")
 
+expand_metadata ability_yml_fpath:
+    #!/usr/bin/env python3
 
-# Censor
-#### Basics
-#### 1st-Level Features
-##### Censor Order
-##### Deity and Domains
-##### Wrath
-###### Wrath in Combat
-###### Wrath Outside of Combat
-##### Judgment
-######## Judgment
-###### Judgment Order Benefit
-##### Kit
-##### My Life for Yours
-######## My Life for Yours
-##### 1st-Level Domain Feature
-###### Blessing of Compassion
-###### Blessing of Comprehension
-###### Blessing of Fortunate Weather
-#### 2nd-Level Features
-##### 2nd-Level Order Features
-###### It Was Foretold
-###### Judge of Character
-###### Lead by Example
-###### Saint's Vigilance
-###### A Sense for Truth
-###### Stalwart Icon
-##### 2nd-Level Order Ability
-###### 2nd-Level Exorcist Ability
-######## It Is Justice You Fear
-######## Revelator
+    import re
+    import yaml
+    import sys
+
+    def expand_ability_metadata(ability):
+        header_path = ability['header_path']
+        parts = header_path.split('/')
+
+        xpath_id_parts = [re.sub(r'^\d+', '', part) for part in parts]
+        xpath = "//" + "//".join([f"section[@id='{p}']" for p in xpath_id_parts])
+
+        new_ability = {
+            'header_path': header_path,
+            'xpath': xpath,
+            'class': parts[0]
+        }
+
+        level = None
+        for part in parts:
+            match = re.search(r'(\d+)(?:st|nd|rd|th)-level-features', part)
+            if match:
+                level = int(match.group(1))
+                break
+        if level is not None:
+            new_ability['level'] = level
+
+        new_ability['type'] = 'ability' if parts[-1].endswith('-1') else 'feature'
+
+        return new_ability
+
+    try:
+        with open("{{ability_yml_fpath}}", 'r') as f:
+            data = yaml.safe_load(f)
+    except FileNotFoundError:
+        print(f"Error: Input file not found at '{{ability_yml_fpath}}'", file=sys.stderr)
+        sys.exit(1)
+
+    if 'abilities' in data and isinstance(data['abilities'], list):
+        data['abilities'] = [expand_ability_metadata(ability) for ability in data['abilities']]
+
+    with open("{{ability_yml_fpath}}", 'w') as f:
+        yaml.dump(data, f, sort_keys=False, default_flow_style=False, indent=2)
+
+    print(f"Successfully expanded metadata in '{{ability_yml_fpath}}'")
