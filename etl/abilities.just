@@ -1,6 +1,7 @@
-# Given an input file of headers, will convert them to abilities.yml format for extraction
-#
-# just -f headers_to_abilities.just run ../Rules/toc.md abilities.yml
+# First convert the headers toc doc to abilities
+# just -f abilities.just generate_config ../Rules/toc.md abilities.yml
+# Then extract sections
+# just -f abilities.just extract_sections "abilities.yml" "../staging/heroes/1_html/Draw Steel Heroes.html" "../staging/abilities"
 #
 # headers_fpath expectation:
 # # Censor
@@ -28,13 +29,13 @@
 # - header_path: censor/1st-level-features/judgment-order-benefit
 # - header_path: censor/1st-level-features/kit
 # - header_path: censor/1st-level-features/my-life-for-yours-1
-#
-run headers_fpath ability_yml_fpath:
+generate_config headers_fpath ability_yml_fpath:
     #!/usr/bin/env bash
     set -euo pipefail
-    just -f "{{justfile()}}" convert "{{headers_fpath}}" "{{ability_yml_fpath}}"
-    just -f "{{justfile()}}" expand_metadata "{{ability_yml_fpath}}"
+    just -f "{{source_file()}}" convert "{{headers_fpath}}" "{{ability_yml_fpath}}"
+    just -f "{{source_file()}}" expand_metadata "{{ability_yml_fpath}}"
 
+# Given an input file of headers, will convert them to abilities.yml format for extraction
 convert headers_fpath ability_yml_fpath:
     #!/usr/bin/env python3
 
@@ -131,6 +132,8 @@ convert headers_fpath ability_yml_fpath:
 
     print(f"Successfully created '{{ability_yml_fpath}}'")
 
+# Takes a basic abilities.yml file and populates all the metadata
+# This is intentionally a separate step in case there needs to be some adjustment to the config before expansion
 expand_metadata ability_yml_fpath:
     #!/usr/bin/env python3
 
@@ -183,7 +186,8 @@ expand_metadata ability_yml_fpath:
 
     print(f"Successfully expanded metadata in '{{ability_yml_fpath}}'")
 
-# just -f headers_to_abilities.just extract_sections "abilities.yml" "../staging/heroes/1_html/Draw Steel Heroes.html" "../staging/abilities"
+# Given a fully expanded abilities.yml doc, extract all the abilities (and features)
+# just -f abilities.just extract_sections "abilities.yml" "../staging/heroes/1_html/Draw Steel Heroes.html" "../staging/abilities"
 extract_sections ability_fpath html_fpath output_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
