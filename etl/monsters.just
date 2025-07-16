@@ -22,7 +22,12 @@ gen input_fpath:
     # TODO - actually implement this
     mkdir -p "{{monsters_unlinked_dpath}}"
     echo "Monster book has not yet been converted. Sorry for the inconvenience." > "{{monsters_unlinked_dpath}}/monsters.md"
+
+    # TODO - I think I want to break up this repo into books to prepare for supplemental materials (so data-bestiary-md/monsters)
     just _copy_data_to_repo "{{monsters_unlinked_dpath}}" "data-bestiary-md"
+    just _copy_data_to_repo "{{monsters_unlinked_dpath}}" "data-bestiary-md-dse"
+    just _copy_data_to_repo "{{monsters_unlinked_dpath}}" "data-bestiary-json"
+    just _copy_data_to_repo "{{monsters_unlinked_dpath}}" "data-bestiary-yaml"
 
 ##################################################
 # Private Recipes
