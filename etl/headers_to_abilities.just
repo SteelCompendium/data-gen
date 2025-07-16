@@ -142,11 +142,15 @@ expand_metadata ability_yml_fpath:
         header_path = ability['header_path']
         parts = header_path.split('/')
 
+        file_path_components = [re.sub(r'(\d+)(St|Nd|Rd|Th)', lambda m: m.group(1) + m.group(2).lower(), p.replace('-', ' ').title()) for p in parts[:-1]]
+        file_path = "/".join(file_path_components)
+
         xpath_id_parts = [re.sub(r'^\d+', '', part) for part in parts]
         xpath = "//" + "//".join([f"section[@id='{p}']" for p in xpath_id_parts])
 
         new_ability = {
             'header_path': header_path,
+            'file_path': file_path,
             'xpath': xpath,
             'class': parts[0]
         }
