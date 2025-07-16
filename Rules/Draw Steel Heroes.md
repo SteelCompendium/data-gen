@@ -1,6 +1,6 @@
-# introduction
+# Introduction
 
-# What is this Game?
+## What is this Game?
 
 This is a game about fighting monsters. About larger-than-life, extraordinary heroes plunging into battle against terrifying, monstrous enemies.
 

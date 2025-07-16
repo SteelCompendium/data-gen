@@ -3,6 +3,7 @@
 log_prefix := "[JUST][extract_html_sections]"
 
 run heroes_html_fpath output_dpath:
+    echo "Extracting Hero sections from '{{heroes_html_fpath}}'"
     just extract_heroes_sections _extract_chapters "{{heroes_html_fpath}}" "{{output_dpath}}"
     just extract_heroes_sections _extract_classes "{{heroes_html_fpath}}" "{{output_dpath}}"
     just extract_heroes_sections _extract_abilities "{{heroes_html_fpath}}" "{{output_dpath}}"

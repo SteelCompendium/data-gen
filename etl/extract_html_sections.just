@@ -16,7 +16,7 @@ extract_section out_dpath xpath src_html_fpath skip_delete="true":
         echo >&2 "    Skipping delete on dir '{{out_dpath}}'"
     fi
 
-    just -f "{{source_file()}}" _extract_section '{{xpath}}' '{{src_html_fpath}}' '{{out_dpath}}'
+    just -f "{{source_file()}}" _extract_section "{{xpath}}" "{{src_html_fpath}}" "{{out_dpath}}"
 
 _extract_section xpath src_html_fpath out_dpath:
     #!/usr/bin/env python3
