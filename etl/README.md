@@ -4,6 +4,18 @@ This is a mess, ill clean it up one day...
 
 ## Things to do before pdf
 
+- The input heroes markdown needs converted headers - the h7 and h8 need to be brought down
+  - Need a plan for this...
+  - I need to support anchors to the H8, maybe they are supported by mkdocs.  If so, just need to style them with css
+    - Mkdocs will treat an H7 adn H8 as an H6 that starts with "#" or "##" - gross
+    - I tried adding <a> tags to the markdown. It doesnt get added to mkdocs ToC and its ugly (hidden) in obsidian
+    - I think the plan is to leave it bold in data-rules-md (etc)
+    - when it gets pulled over into compendium, replace the...
+      - There is no way to differentiate a regular bold from a h8
+    - I could add html comments to the line...
+    - In markdown (data-rules-md) I think its okay to just leave the H8 as bold and be done. 
+    - there is a separate dse repo to handle obsidian if I want to 
+    - the data-gen repo could push a modified version of data-md into compendium...
 - get rid of the patron4, backer, and patron branches of the site
 - Finish the ability prep
   - See below for frontmatter, indexing, wiring into repos
@@ -13,6 +25,8 @@ This is a mess, ill clean it up one day...
   - Verify markdown parser for statblocks in data-sdk-npm
   - Section extraction for monster book
 - data-md-dse code
+- Style the compendium site in likeness of the pdf (font and color)
+- Change discord nickname to `Xentis (Steel Compendium)`
 
 ## Plan for final PDF
 
@@ -49,4 +63,6 @@ This is a mess, ill clean it up one day...
   - [ ] Prepare the `data-bestiary-md-dse` repo (TODO - code)
   - [ ] Update DSE to `main` branch
 - [ ] Move to adventures (TODO - code)
-
+- [ ] Cards - would be nice to have some kind of downloadable card that people can pull into their tools.  
+  - [ ] Image
+  - [ ] html

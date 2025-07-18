@@ -65,8 +65,8 @@ gen_heroes_md_unlinked input_fpath output_dpath:
     preformatted_dpath="{{heroes_staging_dpath}}/8_preformatted"
     mkdir -p "$preformatted_dpath"
 
-    # Copy the original heroes markdown over to output dir
-    cp "{{input_fpath}}" "${preformatted_dpath}/Draw Steel Heroes - Unlinked.md"
+    # Cleanup the input markdown and move it to final location
+    just heroes input_md_cleanup "{{input_fpath}}" "${preformatted_dpath}/Draw Steel Heroes - Unlinked.md"
 
     # Format/Lint all markdown files
     formatted_dpath="{{heroes_staging_dpath}}/9_formatted"
@@ -75,6 +75,21 @@ gen_heroes_md_unlinked input_fpath output_dpath:
 
     # Finally, move to output dir
     cp -R "$formatted_dpath"/* "{{output_dpath}}/"
+
+input_md_cleanup input_fpath output_fpath:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    cp "{{input_fpath}}" "{{output_fpath}}"
+    just _print_section "Heroes: Cleaning up original heroes markdown file"
+
+    # Replace H7 headers with bold+span
+    echo >&2 "Replacing H7 headers"
+    sed -i -E 's/^####### (.*)$/**<span class="steel-compendium-h7">\1<\/span>**/g' "{{output_fpath}}"
+
+    # Replace H8 headers with bold+span
+    echo >&2 "Replacing H8 headers"
+    # TODO - consider adding `<a class="headerlink" id="scalar-assault-bold" href="scalar-assault-bold" title="Permanent link">&para;</a>`
+    sed -i -E 's/^######## (.*)$/**<span class="steel-compendium-ability">\1<\/span>**/g' "{{output_fpath}}"
 
 # Given a fully-generated directory of markdown, will auto-link files to itself
 [private]
