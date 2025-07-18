@@ -82,6 +82,15 @@ input_md_cleanup input_fpath output_fpath:
     cp "{{input_fpath}}" "{{output_fpath}}"
     just _print_section "Heroes: Cleaning up original heroes markdown file"
 
+    # Add frontmatter
+    tmp=$(mktemp)
+    {
+      echo '---'
+      echo 'title: Draw Steel Heroes'
+      echo '---'
+      cat "{{output_fpath}}"
+    } > "$tmp" && mv "$tmp" "{{output_fpath}}"
+
     # Replace H7 headers with bold+span
     echo >&2 "Replacing H7 headers"
     sed -i -E 's/^####### (.*)$/**<span class="steel-compendium-h7">\1<\/span>**/g' "{{output_fpath}}"
