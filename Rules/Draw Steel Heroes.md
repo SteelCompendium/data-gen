@@ -29,6 +29,10 @@ how cool are horizontal rules?
 
 content
 
+> This is a callout
+> 
+> This is some important thing to note to the reader.
+
 ####### This is an H7 Header
 
 content
