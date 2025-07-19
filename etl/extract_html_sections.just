@@ -37,7 +37,7 @@ _extract_section xpath src_html_fpath out_dpath:
     # Iterate over the sections and save each one
     for section in sections:
         # Extract the first header (h1 to h6) and clean it for the filename
-        header = section.xpath('.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::h7 or self::h8]/text()')[0]
+        header = section.xpath('.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::h7 or self::h8 or self::p]/text()')[0]
         header = header.title()
         filename = re.sub('\\s*\\(.*\\)', '', ' '.join(header.split())).replace("’", "").replace("'","").replace("…","")
         filename = os.path.join("{{out_dpath}}", filename)

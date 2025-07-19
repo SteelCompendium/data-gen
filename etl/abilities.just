@@ -1,7 +1,30 @@
+# Justfile module expected to be named "abilities"
+
+# Workflow
+# # Extract the full ToC from the (corrected) source doc
+# just -f pre_automation_tools/toc.just extract_from "../../Rules/Draw Steel Heroes.md" "../../Rules/toc.md"
+#
+# # Convert toc.md to abilities.yml config
+# just -f abilities.just  generate_config ../Rules/toc.md ../Rules/abilities.yml
+#
+# TODO - this step is not working
+# # Extract ability html from single html file (note, the html file needs to be generated. Run in devbox
+# devbox shell
+# just -f abilities.just extract_sections "../Rules/abilities.yml" "../staging/heroes/1_html/Draw Steel Heroes.html" "../staging/heroes/2_html_sections/Abilities"
+
+##################################################
+# Constants and env vars
+##################################################
+
+##################################################
+# Public Recipes
+##################################################
+
 # First convert the headers toc doc to abilities
-# just -f abilities.just generate_config ../Rules/toc.md abilities.yml
-# Then extract sections
-# just -f abilities.just extract_sections "abilities.yml" "../staging/heroes/1_html/Draw Steel Heroes.html" "../staging/abilities"
+# just -f abilities.just generate_config ../Rules/toc.md ../Rules/abilities.yml
+# Then extract sections (see just -f abilities.just extract_sections)
+#
+# This job is kinda expected to be run once (after the rules.md is done) and then the abilities.yml is used from then on
 #
 # headers_fpath expectation:
 # # Censor
@@ -33,7 +56,65 @@ generate_config headers_fpath ability_yml_fpath:
     #!/usr/bin/env bash
     set -euo pipefail
     just -f "{{source_file()}}" convert "{{headers_fpath}}" "{{ability_yml_fpath}}"
-    just -f "{{source_file()}}" expand_metadata "{{ability_yml_fpath}}"
+    just -f "{{source_file()}}" expand_config_metadata "{{ability_yml_fpath}}"
+
+# TODO - wire this in somewhere
+# Given a fully expanded abilities.yml doc, extract all the abilities (and features)
+extract_sections ability_fpath html_fpath output_dpath:
+    #!/usr/bin/env bash
+    set -euo pipefail
+
+    # Requires yq: https://github.com/mikefarah/yq
+    if ! command -v yq &> /dev/null; then
+        echo "yq could not be found, please install it to proceed." >&2
+        exit 1
+    fi
+
+    ability_fpath="{{ability_fpath}}"
+    html_fpath="{{html_fpath}}"
+    output_dpath="{{output_dpath}}"
+
+    # Use yq to output file_dpath, xpath, and header_path as tab-separated values for safe parsing
+    yq eval '.abilities[] | [.file_dpath, .xpath, .header_path, .class, .type, .level] | @tsv' "$ability_fpath" | \
+        while IFS=$'\t' read -r file_dpath xpath header_path class type level; do
+        if [ -z "$file_dpath" ] || [ -z "$xpath" ]; then
+            echo "Warning: Skipping ability with missing 'file_dpath' or 'xpath': $header_path" >&2
+            continue
+        fi
+
+        # make the destination path
+        ability_output_dpath="${output_dpath}/${file_dpath}"
+        mkdir -p "$ability_output_dpath"
+
+        tmp=$(mktemp -d)
+
+        # Extract features and abilities
+        just extract_html_sections extract_section "$tmp" "$xpath" "$html_fpath" "false"
+
+        # Prepend a comment with frontmatter.  Pandoc will pick this up and inject into markdown files
+        for file in "$tmp"/*; do
+            echo "adding frontmatter to $file"
+            {
+                echo "<!--"
+                echo "class: $class"
+                echo "type: $type"
+                echo "level: $level"
+                echo "-->"
+                cat "$file"
+            } > "${ability_output_dpath}/$(basename "$file")"
+        done
+
+        rm -rf "$tmp"
+    done
+
+    echo "Successfully extracted sections to '$output_dpath'"
+    echo "See failed extractions in staging/failed_extractions.txt"
+
+
+##################################################
+# Private Recipes
+##################################################
+
 
 # Given an input file of headers, will convert them to abilities.yml format for extraction
 convert headers_fpath ability_yml_fpath:
@@ -134,7 +215,7 @@ convert headers_fpath ability_yml_fpath:
 
 # Takes a basic abilities.yml file and populates all the metadata
 # This is intentionally a separate step in case there needs to be some adjustment to the config before expansion
-expand_metadata ability_yml_fpath:
+expand_config_metadata ability_yml_fpath:
     #!/usr/bin/env python3
 
     import re
@@ -145,15 +226,16 @@ expand_metadata ability_yml_fpath:
         header_path = ability['header_path']
         parts = header_path.split('/')
 
-        file_path_components = [re.sub(r'(\d+)(St|Nd|Rd|Th)', lambda m: m.group(1) + m.group(2).lower(), p.replace('-', ' ').title()) for p in parts[:-1]]
-        file_path = "/".join(file_path_components)
+        file_path_components = [re.sub(r'(\d+)(St|Nd|Rd|Th)\s', lambda m: m.group(1) + m.group(2).lower()+'-', p.replace('-', ' ').title()) for p in parts[:-1]]
+        file_dpath = "/".join(file_path_components)
 
         xpath_id_parts = [re.sub(r'^\d+', '', part) for part in parts]
         xpath = "//" + "//".join([f"section[@id='{p}']" for p in xpath_id_parts])
 
         new_ability = {
             'header_path': header_path,
-            'file_path': file_path,
+            'file_dpath': file_dpath,
+            'header_id': parts[-1],
             'xpath': xpath,
             'class': parts[0]
         }
@@ -185,37 +267,3 @@ expand_metadata ability_yml_fpath:
         yaml.dump(data, f, sort_keys=False, default_flow_style=False, indent=2)
 
     print(f"Successfully expanded metadata in '{{ability_yml_fpath}}'")
-
-# Given a fully expanded abilities.yml doc, extract all the abilities (and features)
-# just -f abilities.just extract_sections "abilities.yml" "../staging/heroes/1_html/Draw Steel Heroes.html" "../staging/abilities"
-extract_sections ability_fpath html_fpath output_dpath:
-    #!/usr/bin/env bash
-    set -euo pipefail
-
-    # Requires yq: https://github.com/mikefarah/yq
-    if ! command -v yq &> /dev/null; then
-        echo "yq could not be found, please install it to proceed." >&2
-        exit 1
-    fi
-
-    ability_fpath="{{ability_fpath}}"
-    html_fpath="{{html_fpath}}"
-    output_dpath="{{output_dpath}}"
-
-    # Use yq to output file_path, xpath, and header_path as tab-separated values for safe parsing
-    yq eval '.abilities[] | [.file_path, .xpath, .header_path] | @tsv' "$ability_fpath" | while IFS=$'\t' read -r file_path xpath header_path; do
-        if [ -z "$file_path" ] || [ -z "$xpath" ]; then
-            echo "Warning: Skipping ability with missing 'file_path' or 'xpath': $header_path" >&2
-            continue
-        fi
-
-        # make the destination path
-        output_file_path="$output_dpath/$file_path"
-        mkdir -p "$(dirname "$output_file_path")"
-
-        # Extract features and abilities
-        just extract_html_sections extract_section "$output_file_path" "$xpath" "$html_fpath" "false"
-    done
-
-    echo "Successfully extracted sections to '$output_dpath'"
-    echo "See failed extractions in staging/failed_extractions.txt"

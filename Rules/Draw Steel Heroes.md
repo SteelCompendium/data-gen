@@ -37,6 +37,8 @@ content
 
 content
 
+#### 1st-Level Features
+
 ######## This is an H8 Header (8 Cost)
 
 *You warp reality to grow a header for just a moment and make a single devastating attack.*

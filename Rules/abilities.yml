@@ -1,0 +1,8 @@
+abilities:
+- header_path: introduction/1st-level-features/this-is-an-h8-header-8-cost
+  file_dpath: Introduction/1st-Level Features
+  header_name: this-is-an-h8-header-8-cost
+  xpath: //section[@id='introduction']//section[@id='st-level-features']//section[@id='this-is-an-h8-header-8-cost']
+  class: introduction
+  level: 1
+  type: feature

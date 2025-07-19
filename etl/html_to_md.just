@@ -40,7 +40,7 @@ run html_src_dpath md_dest_dpath:
         # Convert HTML to Markdown with link adjustment
         pandoc --wrap=none --standalone \
             --from=html \
-            --to=markdown_strict+pipe_tables \
+            --to=markdown_strict+pipe_tables+yaml_metadata_block \
             --lua-filter="$lua_filter_fpath" \
             -o "$dest_dir/$markdown_filename" \
             "$html_file"

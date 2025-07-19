@@ -1,5 +1,6 @@
+# This recipe will attempt to "correct" the headers in a markdown document if you have a "truth" toc doc.
+# No idea if this is useful depending on whether its worth building the truth doc.
 # Usage: just run path/to/your-doc.md path/to/headers.md path/to/output.md
-
 run input_md_path headers_path output_md_path:
     #!/usr/bin/env python3
 
