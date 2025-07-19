@@ -36,15 +36,28 @@ gen_heroes_md_unlinked input_fpath output_dpath:
     just _print_section "Heroes: Generating hero markdown"
     mkdir -p "{{heroes_unlinked_dpath}}"
 
+    # Abilities: Extract Table of Contents from heroes.md
+    toc_fpath="{{heroes_staging_dpath}}/abilities/toc.md"
+    mkdir -p "$(dirname "$toc_fpath")"
+    just markdown extract_toc "{{input_fpath}}" "$toc_fpath"
+
+    # Abilities: Convert ToC into abilities.yml config
+    # (This is setup to be run as a separate step so that abilities.yml can be edited, but for now no edits are needed)
+    ability_config_fpath="{{heroes_staging_dpath}}/abilities/abilities.yml"
+    just abilities generate_config "$toc_fpath" "$ability_config_fpath"
+
     # Sections: Convert markdown to html
     just _print_section "Heroes: Converting MD to html"
     html_fpath="{{heroes_staging_dpath}}/1_html/Draw Steel Heroes.html"
-    just md_to_html run "{{input_fpath}}" "$html_fpath"
+    just markdown to_html "{{input_fpath}}" "$html_fpath"
 
     # Sections: extract out sections using html xpath
     just _print_section "Heroes: Extracting hero sections"
     html_sections_dpath="{{heroes_staging_dpath}}/2_html_sections"
     just extract_heroes_sections run "$html_fpath" "$html_sections_dpath"
+
+    # Ability Sections: extract out ability sections using abilities.yml config
+    just abilities extract_sections "$ability_config_fpath" "$html_fpath" "$html_sections_dpath/Abilities"
 
     # Sections: Convert html sections to md sections
     just _print_section "Heroes: Converting html to md"

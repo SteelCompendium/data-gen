@@ -2,12 +2,11 @@
 
 # Workflow
 # # Extract the full ToC from the (corrected) source doc
-# just -f pre_automation_tools/toc.just extract_from "../../Rules/Draw Steel Heroes.md" "../../Rules/toc.md"
+# just -f markdown.just extract_toc "../../Rules/Draw Steel Heroes.md" "../../Rules/toc.md"
 #
 # # Convert toc.md to abilities.yml config
 # just -f abilities.just  generate_config ../Rules/toc.md ../Rules/abilities.yml
 #
-# TODO - this step is not working
 # # Extract ability html from single html file (note, the html file needs to be generated. Run in devbox
 # devbox shell
 # just -f abilities.just extract_sections "../Rules/abilities.yml" "../staging/heroes/1_html/Draw Steel Heroes.html" "../staging/heroes/2_html_sections/Abilities"
