@@ -10,8 +10,8 @@ This is a mess, ill clean it up one day...
   - [x] Just noticed that the 8_preformatted and 9_formatted dirs look empty...
   - [ ] I feel like dumping toc and abilities.yml in staging/heroes/abilities is wrong...?
   - [x] make sure failed_extractions.txt is working
-  - [ ] print_section for ability stuff
-  - [ ] frontmatter should probably have ability name too. Maybe cost?
+  - [x] print_section for ability stuff
+  - [x] frontmatter should probably have ability name too. Maybe cost?
   - [ ] there is an extra log "adding frontmatter to..."
   - [ ] ability index
 - frontmatter generation for all files (more than abilities)
