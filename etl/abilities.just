@@ -94,11 +94,11 @@ extract_sections ability_fpath html_fpath output_dpath:
         for file in "$tmp"/*; do
             echo "adding frontmatter to $file"
             {
-                echo "<!--"
-                echo "class: $class"
-                echo "type: $type"
-                echo "level: $level"
-                echo "-->"
+                echo "<head>"
+                echo "  <meta name='class' content='$class' />"
+                echo "  <meta name='type' content='$type' />"
+                echo "  <meta name='level' content='$level' />"
+                echo "</head>"
                 cat "$file"
             } > "${ability_output_dpath}/$(basename "$file")"
         done
@@ -113,7 +113,6 @@ extract_sections ability_fpath html_fpath output_dpath:
 ##################################################
 # Private Recipes
 ##################################################
-
 
 # Given an input file of headers, will convert them to abilities.yml format for extraction
 convert headers_fpath ability_yml_fpath:
