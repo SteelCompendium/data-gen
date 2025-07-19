@@ -57,7 +57,6 @@ generate_config headers_fpath ability_yml_fpath:
     just -f "{{source_file()}}" convert "{{headers_fpath}}" "{{ability_yml_fpath}}"
     just -f "{{source_file()}}" expand_config_metadata "{{ability_yml_fpath}}"
 
-# TODO - wire this in somewhere
 # Given a fully expanded abilities.yml doc, extract all the abilities (and features)
 extract_sections ability_fpath html_fpath output_dpath:
     #!/usr/bin/env bash
@@ -73,39 +72,49 @@ extract_sections ability_fpath html_fpath output_dpath:
     html_fpath="{{html_fpath}}"
     output_dpath="{{output_dpath}}"
 
-    # Use yq to output file_dpath, xpath, and header_path as tab-separated values for safe parsing
-    yq eval '.abilities[] | [.file_dpath, .xpath, .header_path, .class, .type, .level] | @tsv' "$ability_fpath" | \
-        while IFS=$'\t' read -r file_dpath xpath header_path class type level; do
-        if [ -z "$file_dpath" ] || [ -z "$xpath" ]; then
+    # which keys to pull from the YAML
+    fields=(file_dpath xpath header_path name cost class type level)
+    # which to emit as <meta> (plus 'name' for filename)
+    meta_fields=(name cost class type level)
+
+    # Build the comma‑separated selector list, e.g. ".file_dpath,.xpath,…"
+    prefixed=()
+    for key in "${fields[@]}"; do
+        prefixed+=( ".${key}" )
+    done
+    # join with commas
+    comma_list="$(IFS=,; echo "${prefixed[*]}")"
+
+    mkdir -p "$output_dpath"
+    yq eval ".abilities[] | [${comma_list}] | @tsv" "$ability_fpath" | while IFS=$'\t' read -r "${fields[@]}"; do
+        if [[ -z "$file_dpath" || -z "$xpath" ]]; then
             echo "Warning: Skipping ability with missing 'file_dpath' or 'xpath': $header_path" >&2
             continue
         fi
 
-        # make the destination path
-        ability_output_dpath="${output_dpath}/${file_dpath}"
+        ability_output_dpath="$output_dpath/$file_dpath"
         mkdir -p "$ability_output_dpath"
 
-        tmp=$(mktemp -d)
+        tmpdir="$(mktemp -d)"
+        just extract_html_sections extract_section "$tmpdir" "$xpath" "$html_fpath" "false"
 
-        # Extract features and abilities
-        just extract_html_sections extract_section "$tmp" "$xpath" "$html_fpath" "false"
+        for htmlfile in "$tmpdir"/*; do
+            filename="$(basename "$htmlfile")"
+            name="${filename%.*}"
 
-        # Prepend a comment with frontmatter.  Pandoc will pick this up and inject into markdown files
-        for file in "$tmp"/*; do
-            echo "adding frontmatter to $file"
             {
                 echo "<head>"
-                echo "  <meta name='class' content='$class' />"
-                echo "  <meta name='type' content='$type' />"
-                echo "  <meta name='level' content='$level' />"
+                for key in "${meta_fields[@]}"; do
+                    printf "  <meta name=\"%s\" content=\"%s\" />\n" \
+                        "$key" "${!key}"
+                done
                 echo "</head>"
-                cat "$file"
-            } > "${ability_output_dpath}/$(basename "$file")"
+                cat "$htmlfile"
+            } > "$ability_output_dpath/$filename"
         done
 
-        rm -rf "$tmp"
+        rm -rf "$tmpdir"
     done
-
     echo "Successfully extracted sections to '$output_dpath'"
     echo "See failed extractions in staging/failed_extractions.txt"
 
@@ -191,7 +200,7 @@ convert headers_fpath ability_yml_fpath:
                 path_parts.append(kebab_ability_name)
 
                 header_path = "/".join(path_parts)
-                output_abilities.append({'header_path': header_path})
+                output_abilities.append({'header_path': header_path, 'full_header_name': ability_name})
 
             path_stack.append(header)
 
@@ -230,8 +239,20 @@ expand_config_metadata ability_yml_fpath:
         xpath_id_parts = [re.sub(r'^\d+', '', part) for part in parts]
         xpath = "//" + "//".join([f"section[@id='{p}']" for p in xpath_id_parts])
 
+        full_header_name = ability['full_header_name']
+        # capture header_name and cost
+        m = re.match(r'^(.*?)\s*\((.*?)\)\s*$', full_header_name)
+        if m:
+            header_name, cost = m.group(1), m.group(2)
+        else:
+            # fallback if it doesn’t match the "foo (8 bar)" form
+            header_name, cost = full_header_name, ''
+
         new_ability = {
             'header_path': header_path,
+            'full_header_name': full_header_name,
+            'name': header_name,
+            'cost': cost,
             'file_dpath': file_dpath,
             'header_id': parts[-1],
             'xpath': xpath,
