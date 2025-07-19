@@ -64,21 +64,17 @@ gen_heroes_md_unlinked input_fpath output_dpath:
     md_sections_dpath="{{heroes_staging_dpath}}/3_md_sections"
     just html_to_md run "$html_sections_dpath" "$md_sections_dpath"
 
-
+    # TODO - more frontmatter?  Ability index
     #    # Transform the markdown files in-place
     #    just -f frontmatter/justfile run "$md_sections_formatted_dpath"
     #
     #    # Build the ability index tables
     #    just -f generate_ability_index/justfile run "${md_sections_formatted_dpath}/Abilities"
-    #
-    #    # Add the original heroes MD file to the output so it can be linked and formatted
-    #    # TODO - I would like this to go through the formatting steps, but it crashes on frontmatter gen
 
-    # Temp shim
+    # Assemble all markdown together for final formatting, linking, etc
     preformatted_dpath="{{heroes_staging_dpath}}/8_preformatted"
     mkdir -p "$preformatted_dpath"
-
-    # Cleanup the input markdown and move it to final location
+    cp -R "$md_sections_dpath"/* "$preformatted_dpath"
     just heroes input_md_cleanup "{{input_fpath}}" "${preformatted_dpath}/Draw Steel Heroes - Unlinked.md"
 
     # Format/Lint all markdown files
