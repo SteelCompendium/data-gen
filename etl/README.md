@@ -4,24 +4,33 @@ This is a mess, ill clean it up one day...
 
 ## Things to do before pdf
 
-- [ ] Extracted ability pages should have a H1 (or something) header
-- [ ] frontmatter generation for all files (more than abilities)
-- indexes for resources (other than abilities)
-  - See "compendium/docs/Rules/Draw Steel Heroes - Unlinked.md" for example of custom name (frontmatter title)
-  - Basically anything generated from extract_sections should get an index
-    - Before this happens, that all needs frontmatter generation
-- auto-linking 
-  - Check index files
-- Wire in ability reader stuff from data-sdk-npm?
-- Prep monster book stuff
-  - Finalize markdown format for statblocks
-  - Verify markdown parser for statblocks in data-sdk-npm
-  - Section extraction for monster book
-- data-md-dse code to convert abilities/statblocks to dse-codeblocks
-- Change discord nickname to `Xentis (Steel Compendium)`
-- [ ] Ability cards repo?
-- Support XML in data-sdk-npm
-- documentation for data-sdk-npm
+- [ ] Abilities
+  - [ ] Extracted ability pages should have a H1 (or something) header
+  - [ ] Extract abilities into json/yaml/xml and moved into appropriate data-* repos
+  - [ ] Wire in ability reader stuff from data-sdk-npm?
+
+- [ ] Enhancements for mundance files
+  - [ ] frontmatter generation for all files (more than abilities)
+  - [ ] indexes for resources (other than abilities)
+    - See "compendium/docs/Rules/Draw Steel Heroes - Unlinked.md" for example of custom name (frontmatter title)
+    - Basically anything generated from extract_sections should get an index
+      - Before this happens, that all needs frontmatter generation
+
+- [ ] auto-linking 
+  - Check index files to verify they link
+
+- [ ] Prep monster book stuff
+  - [ ] Finalize markdown format for statblocks
+  - [ ] Verify markdown parser for statblocks in data-sdk-npm
+  - [ ] Section extraction for monster book
+
+- [ ] Draw Steel Elements plugin support
+  - [ ] data-md-dse code to convert abilities/statblocks to dse-codeblocks
+
+- [ ] Other
+  - [ ] Change discord nickname to `Xentis (Steel Compendium)`
+  - [ ] Ability cards repo?
+  - [ ] Support XML in data-sdk-npm
 
 ## Plan for final PDF
 

@@ -41,4 +41,6 @@ flowchart TB
     rules_md --> data_md["Repo: data-md"]
     bestiary_md --> data_md["Repo: data-md"]
     adventures_md --> data_md["Repo: data-md"]
+
+    data_md --> sc_site["SteelCompendium.io site"]
 ```
