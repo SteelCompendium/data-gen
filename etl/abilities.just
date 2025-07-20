@@ -105,7 +105,7 @@ extract_sections ability_fpath html_fpath output_dpath:
         tmpdir="$(mktemp -d)"
         just extract_html_sections extract_section "$tmpdir" "$xpath" "$html_fpath" "false"
 
-        # Apply metadata to html files that will convert to frontmatter
+        # Update each html file: Apply metadata (later frontmatter), update header formatting
         for htmlfile in "$tmpdir"/*; do
             filename="$(basename "$htmlfile")"
             # use basename sans extension as the 'name' meta
@@ -119,7 +119,7 @@ extract_sections ability_fpath html_fpath output_dpath:
                     fi
                 done
                 echo "</head>"
-                cat "$htmlfile"
+                just abilities replace_p_heading_with_h6 "$(cat "$htmlfile")"
             } > "$ability_output_dpath/$filename"
         done
 
@@ -319,3 +319,17 @@ expand_config_metadata ability_yml_fpath:
         yaml.dump(data, f, sort_keys=False, default_flow_style=False, indent=2)
 
     print(f"Successfully expanded metadata in '{{ability_yml_fpath}}'")
+
+# Given a string, replace any `<p class="heading">...</p>` with an `h6` instead
+replace_p_heading_with_h6 html_string:
+    #!/usr/bin/env python3
+    import re
+    html = """
+    {{html_string}}
+    """
+    pattern = re.compile(
+        r'<p(?P<attrs>[^>]*)\bclass="heading"(?P<rest>[^>]*)>(?P<inner>.*?)</p>',
+        re.DOTALL
+    )
+    new_html = pattern.sub(r'<h6\g<attrs> class="heading"\g<rest>>\g<inner></h6>', html)
+    print(new_html)
