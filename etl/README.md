@@ -5,11 +5,14 @@ This is a mess, ill clean it up one day...
 ## Things to do before pdf
 
 - [ ] Abilities
-  - [ ] Extracted ability pages should have a H1 (or something) header
-  - [ ] Extract abilities into json/yaml/xml and moved into appropriate data-* repos
+  - [ ] Extract abilities into json/yaml/xml and moved into appropriate data-* repos  
+    - `data-abilities-*` and/or `data-rules-*`?
+      - What else could be data units?  treasures, kits, perks, complications, etc?
   - [ ] Wire in ability reader stuff from data-sdk-npm?
+  - [ ] Fix abilityMarkdownReader to handle frontmatter
+  - [ ] Make sure sc-convert supports abilities and statblocks (should I add another flag)
 
-- [ ] Enhancements for mundance files
+- [ ] Enhancements for mundane files
   - [ ] frontmatter generation for all files (more than abilities)
   - [ ] indexes for resources (other than abilities)
     - See "compendium/docs/Rules/Draw Steel Heroes - Unlinked.md" for example of custom name (frontmatter title)
@@ -23,6 +26,8 @@ This is a mess, ill clean it up one day...
   - [ ] Finalize markdown format for statblocks
   - [ ] Verify markdown parser for statblocks in data-sdk-npm
   - [ ] Section extraction for monster book
+  - [ ] data-sdk-npm StatblockMarkdownReader needs to support frontmatter
+  - [ ] data-sdk-npm StatblockMarkdownReader needs to get wired into the cli
 
 - [ ] Draw Steel Elements plugin support
   - [ ] data-md-dse code to convert abilities/statblocks to dse-codeblocks
