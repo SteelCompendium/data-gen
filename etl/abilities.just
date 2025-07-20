@@ -98,6 +98,7 @@ extract_sections ability_fpath html_fpath output_dpath:
         tmpdir="$(mktemp -d)"
         just extract_html_sections extract_section "$tmpdir" "$xpath" "$html_fpath" "false"
 
+        # Apply metadata to html files that will convert to frontmatter
         for htmlfile in "$tmpdir"/*; do
             filename="$(basename "$htmlfile")"
             name="${filename%.*}"
@@ -285,7 +286,10 @@ expand_config_metadata ability_yml_fpath:
         if level is not None:
             new_ability['level'] = level
 
-        new_ability['type'] = 'ability' if parts[-1].endswith('-1') else 'feature'
+        # Old logic was to assume that all abilities will have a header before it with the exact same name
+        #new_ability['type'] = 'ability' if parts[-1].endswith('-1') else 'feature'
+        # New logic is to check to see if there is a cost?
+        new_ability['type'] = 'ability' if cost else 'feature'
 
         return new_ability
 

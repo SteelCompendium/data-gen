@@ -4,11 +4,11 @@ This is a mess, ill clean it up one day...
 
 ## Things to do before pdf
 
-- [ ] Update Compendium site to pull in index files
-  - check to see that they look good
-  - does the file hierarchy make sense?  needs custom name?
+- [ ] Looks like the frontmatter `type` is wrong (should be ability)
+- [ ] The features arent getting picked
+- [ ] Extracted ability pages should have a H1 (or something) header
 - [ ] I feel like dumping toc and abilities.yml in staging/heroes/abilities is wrong...?
-- frontmatter generation for all files (more than abilities)
+- [ ] frontmatter generation for all files (more than abilities)
 - indexes for resources (other than abilities)
   - See "compendium/docs/Rules/Draw Steel Heroes - Unlinked.md" for example of custom name (frontmatter title)
   - Basically anything generated from extract_sections should get an index
