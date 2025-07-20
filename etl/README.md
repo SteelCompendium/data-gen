@@ -4,22 +4,12 @@ This is a mess, ill clean it up one day...
 
 ## Things to do before pdf
 
-- Finish the ability prep
-  - [x] frontmatter in html
-  - [x] frontmatter in md
-  - [x] Just noticed that the 8_preformatted and 9_formatted dirs look empty...
-  - [ ] I feel like dumping toc and abilities.yml in staging/heroes/abilities is wrong...?
-  - [x] make sure failed_extractions.txt is working
-  - [x] print_section for ability stuff
-  - [x] frontmatter should probably have ability name too. Maybe cost?
-  - [x] there is an extra log "adding frontmatter to..."
-  - [ ] ability index
-    - [ ] index for each class with table. Columns: Name, level, type, cost
-    - [ ] is it useful to have an index for each level too (Censor/1st-level features/index.md)?
-    - [ ] Table `file_name` column should be a link, not plaintext
+- [ ] I feel like dumping toc and abilities.yml in staging/heroes/abilities is wrong...?
 - frontmatter generation for all files (more than abilities)
 - indexes for resources (other than abilities)
   - See "compendium/docs/Rules/Draw Steel Heroes - Unlinked.md" for example of custom name (frontmatter title)
+- auto-linking 
+  - Check index files
 - Wire in ability reader stuff from data-sdk-npm?
 - Prep monster book stuff
   - Finalize markdown format for statblocks
