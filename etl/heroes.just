@@ -38,14 +38,14 @@ gen_heroes_md_unlinked input_fpath output_dpath:
 
     # Abilities: Extract Table of Contents from heroes.md
     just _print_section "Heroes: Converting heroes markdown to Table of Contents"
-    toc_fpath="{{heroes_staging_dpath}}/abilities/toc.md"
+    toc_fpath="{{heroes_staging_dpath}}/0_abilities/toc.md"
     mkdir -p "$(dirname "$toc_fpath")"
     just markdown extract_toc "{{input_fpath}}" "$toc_fpath"
 
     # Abilities: Convert ToC into abilities.yml config
     # (This is setup to be run as a separate step so that abilities.yml can be edited, but for now no edits are needed)
     just _print_section "Heroes: Converting ToC to abilities config yaml"
-    ability_config_fpath="{{heroes_staging_dpath}}/abilities/abilities.yml"
+    ability_config_fpath="{{heroes_staging_dpath}}/0_abilities/abilities.yml"
     just abilities generate_config "$toc_fpath" "$ability_config_fpath"
 
     # Sections: Convert markdown to html

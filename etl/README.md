@@ -4,9 +4,7 @@ This is a mess, ill clean it up one day...
 
 ## Things to do before pdf
 
-- [ ] The features arent getting picked
 - [ ] Extracted ability pages should have a H1 (or something) header
-- [ ] I feel like dumping toc and abilities.yml in staging/heroes/abilities is wrong...?
 - [ ] frontmatter generation for all files (more than abilities)
 - indexes for resources (other than abilities)
   - See "compendium/docs/Rules/Draw Steel Heroes - Unlinked.md" for example of custom name (frontmatter title)
@@ -22,6 +20,8 @@ This is a mess, ill clean it up one day...
 - data-md-dse code to convert abilities/statblocks to dse-codeblocks
 - Change discord nickname to `Xentis (Steel Compendium)`
 - [ ] Ability cards repo?
+- Support XML in data-sdk-npm
+- documentation for data-sdk-npm
 
 ## Plan for final PDF
 
