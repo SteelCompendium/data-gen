@@ -7,6 +7,7 @@
 **Area, Magic Main Action** e 1 burst x Each enemy in the area
 
 **Power Roll + Might or Presence:**
+
 - **≤11:** 2 damage
 - **12-16:** 5 damage; push 1
 - **17+:** 7 damage; push 2

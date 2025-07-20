@@ -1,4 +1,5 @@
 **Power Roll + Might:**
+
 - **≤11:** 10 + M damage; you and each ally adjacent to you gain 10 temporary Stamina
 - **12-16:** 14 + M damage; you and each ally adjacent to you gain 15 temporary Stamina
 - **17+:** 20 + M damage; you and each ally adjacent to you gain 20 temporary Stamina
