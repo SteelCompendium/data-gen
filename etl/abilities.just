@@ -62,12 +62,6 @@ extract_sections ability_fpath html_fpath output_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
 
-    # Requires yq: https://github.com/mikefarah/yq
-    if ! command -v yq &> /dev/null; then
-        echo "yq could not be found, please install it to proceed." >&2
-        exit 1
-    fi
-
     ability_fpath="{{ability_fpath}}"
     html_fpath="{{html_fpath}}"
     output_dpath="{{output_dpath}}"
@@ -77,16 +71,29 @@ extract_sections ability_fpath html_fpath output_dpath:
     # which to emit as <meta> (plus 'name' for filename)
     meta_fields=(name cost class type level)
 
-    # Build the comma‑separated selector list, e.g. ".file_dpath,.xpath,…"
+    # Build the comma‑separated selector list, forcing missing keys → ""
     prefixed=()
     for key in "${fields[@]}"; do
-        prefixed+=( ".${key}" )
+        prefixed+=( "(.${key} // \"\")" )
     done
-    # join with commas
     comma_list="$(IFS=,; echo "${prefixed[*]}")"
 
     mkdir -p "$output_dpath"
-    yq eval ".abilities[] | [${comma_list}] | @tsv" "$ability_fpath" | while IFS=$'\t' read -r "${fields[@]}"; do
+
+    # Use ASCII unit separator (octal 037) to preserve empty TSV columns
+    yq eval ".abilities[] | [${comma_list}] | @tsv" "$ability_fpath" \
+    | tr '\t' '\037' \
+    | while IFS=$'\037' read -r -a vals; do
+        # now each empty field becomes an empty string in "${vals[@]}"
+        file_dpath="${vals[0]:-}"
+        xpath="${vals[1]:-}"
+        header_path="${vals[2]:-}"
+        name="${vals[3]:-}"
+        cost="${vals[4]:-}"
+        class="${vals[5]:-}"
+        type="${vals[6]:-}"
+        level="${vals[7]:-}"
+
         if [[ -z "$file_dpath" || -z "$xpath" ]]; then
             echo "Warning: Skipping ability with missing 'file_dpath' or 'xpath': $header_path" >&2
             continue
@@ -101,13 +108,15 @@ extract_sections ability_fpath html_fpath output_dpath:
         # Apply metadata to html files that will convert to frontmatter
         for htmlfile in "$tmpdir"/*; do
             filename="$(basename "$htmlfile")"
+            # use basename sans extension as the 'name' meta
             name="${filename%.*}"
-
             {
                 echo "<head>"
                 for key in "${meta_fields[@]}"; do
-                    printf "  <meta name=\"%s\" content=\"%s\" />\n" \
-                        "$key" "${!key}"
+                    val="${!key}"
+                    if [[ -n "$val" ]]; then
+                        printf '  <meta name="%s" content="%s" />\n' "$key" "$val"
+                    fi
                 done
                 echo "</head>"
                 cat "$htmlfile"
@@ -142,6 +151,9 @@ gen_index_for_each_dir_in dpath depth="0":
 ##################################################
 
 # Given an input file of headers, will convert them to abilities.yml format for extraction
+# IMPORTANT: abilities (H8s) assume that they each have a "useless" header before them which are ignored. This
+#   may be a problem if there are abilities under features.  If that is the case, I think I will need this code
+#   to ignore H8 as leaves (so that whatever header they are under gets treated as a leaf), but still include them
 convert headers_fpath ability_yml_fpath:
     #!/usr/bin/env python3
 

@@ -4,7 +4,6 @@ This is a mess, ill clean it up one day...
 
 ## Things to do before pdf
 
-- [ ] Looks like the frontmatter `type` is wrong (should be ability)
 - [ ] The features arent getting picked
 - [ ] Extracted ability pages should have a H1 (or something) header
 - [ ] I feel like dumping toc and abilities.yml in staging/heroes/abilities is wrong...?
