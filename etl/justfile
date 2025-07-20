@@ -11,6 +11,7 @@ mod abilities 'abilities.just'
 mod extract_heroes_sections 'extract_heroes_sections.just'
 mod extract_html_sections 'extract_html_sections.just'
 mod html_to_md 'html_to_md.just'
+mod index 'index.just'
 mod lint 'lint.just'
 mod markdown 'markdown.just'
 
@@ -117,13 +118,26 @@ _print_title name:
     echo
 
 [private]
-_print_section name:
+_print_header name:
     #!/usr/bin/env bash
     set -euo pipefail
     echo
     echo '{{name}}'
-    echo '=================================================='
+    echo '==========================================================================='
     echo
+
+[private]
+_print_section name:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    echo
+    name="{{name}}"
+    prefix="─── $name "
+    prefix_len=$(printf '%s' "$prefix" | wc -m)
+    pad_len=$(( 75 - prefix_len ))
+    if (( pad_len < 0 )); then pad_len=0; fi
+    pad=$(printf '%0.s─' $(seq 1 "$pad_len"))
+    printf '%s\n\n' "${prefix}${pad}"
 
 [private]
 _wipe_all:

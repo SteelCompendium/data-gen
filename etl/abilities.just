@@ -118,6 +118,23 @@ extract_sections ability_fpath html_fpath output_dpath:
     echo "Successfully extracted sections to '$output_dpath'"
     echo "See failed extractions in staging/failed_extractions.txt"
 
+# depth=0 means only the dirs in the dpath
+# depth=1 means nested children (one-level) are included as well
+gen_index_for_each_dir_in dpath depth="0":
+    #!/usr/bin/env bash
+    set -euo pipefail
+    just _print_section "Generating indexes"
+    echo >&2 "    Parent dpath:'{{dpath}}'"
+    echo >&2
+
+    find "{{dpath}}"/* -maxdepth '{{depth}}' -type d | while read -r to_index; do
+        index_fpath="${to_index}/Index.md"
+        # Remove and prefix path, remove leading '/', replace intermediate '/' with ': '
+        title="${to_index#{{dpath}}}"
+        title="${title#/}"
+        title="$(echo "$title" | sed -E 's|/|: |')"
+        just index gen "$to_index" "$index_fpath" "file_name cost level type" "$title"
+    done
 
 ##################################################
 # Private Recipes

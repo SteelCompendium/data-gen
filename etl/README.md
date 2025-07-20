@@ -12,8 +12,11 @@ This is a mess, ill clean it up one day...
   - [x] make sure failed_extractions.txt is working
   - [x] print_section for ability stuff
   - [x] frontmatter should probably have ability name too. Maybe cost?
-  - [ ] there is an extra log "adding frontmatter to..."
+  - [x] there is an extra log "adding frontmatter to..."
   - [ ] ability index
+    - [ ] index for each class with table. Columns: Name, level, type, cost
+    - [ ] is it useful to have an index for each level too (Censor/1st-level features/index.md)?
+    - [ ] Table `file_name` column should be a link, not plaintext
 - frontmatter generation for all files (more than abilities)
 - indexes for resources (other than abilities)
   - See "compendium/docs/Rules/Draw Steel Heroes - Unlinked.md" for example of custom name (frontmatter title)
@@ -24,6 +27,7 @@ This is a mess, ill clean it up one day...
   - Section extraction for monster book
 - data-md-dse code to convert abilities/statblocks to dse-codeblocks
 - Change discord nickname to `Xentis (Steel Compendium)`
+- [ ] Ability cards repo?
 
 ## Plan for final PDF
 
@@ -48,18 +52,23 @@ This is a mess, ill clean it up one day...
 - [ ] Publish final chunks as they are completed to the site (TODO - code for site to use main branch)
 - [ ] When markdown is fully converted and clean, run ETL E2E for sections, etc
 - [ ] Abilities
-   - [ ] Generate the `abilities.yml` file using `abilities.just`
-   - [ ] Extract ability sections (`abilities.just`)
-   - [ ] Frontmatter (TODO - code)
-   - [ ] Lint the abilities (TODO - code)
-   - [ ] Build ability indexes (TODO - code)
-   - [ ] Wire into the repos (TODO - code)
 - [ ] Move to monster book (TODO - code)
 - [ ] draw-steel-elements
   - [ ] Prepare the `data-md-dse` repo (TODO - code)
   - [ ] Prepare the `data-bestiary-md-dse` repo (TODO - code)
   - [ ] Update DSE to `main` branch
 - [ ] Move to adventures (TODO - code)
+
+### Guidance for chapter markdown cleanup
+
+- pre-cleanup (line removals, see what preformat.just does... maybe nothing)
+- do headers first
+  - Can go up to H7 (which will convert to bold)
+  - H8 is reserved for abilities (not features). Ever ability must be an H8 in order for ability automation to work
+- once headers are done, focus on the content
+  - power roll formatter
+  - line replacement
+- manual fixes from there
 
 ## Future
 
