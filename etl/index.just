@@ -37,7 +37,7 @@ gen to_index_dpath output_fpath space_separated_columns="file_name" title="":
         else
             title="{{title}}"
         fi
-        echo "# $title"
+        echo "# $title Index"
         echo
 
       # ─── header ─────────────────────────────────────────────────────────────

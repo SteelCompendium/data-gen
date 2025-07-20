@@ -4,10 +4,15 @@ This is a mess, ill clean it up one day...
 
 ## Things to do before pdf
 
+- [ ] Update Compendium site to pull in index files
+  - check to see that they look good
+  - does the file hierarchy make sense?  needs custom name?
 - [ ] I feel like dumping toc and abilities.yml in staging/heroes/abilities is wrong...?
 - frontmatter generation for all files (more than abilities)
 - indexes for resources (other than abilities)
   - See "compendium/docs/Rules/Draw Steel Heroes - Unlinked.md" for example of custom name (frontmatter title)
+  - Basically anything generated from extract_sections should get an index
+    - Before this happens, that all needs frontmatter generation
 - auto-linking 
   - Check index files
 - Wire in ability reader stuff from data-sdk-npm?
