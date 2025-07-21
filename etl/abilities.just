@@ -128,6 +128,17 @@ extract_sections ability_fpath html_fpath output_dpath:
     echo "Successfully extracted sections to '$output_dpath'"
     echo "See failed extractions in staging/failed_extractions.txt"
 
+convert_all md_dpath output_format output_dpath:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    # ignore index files
+
+    npx --package steel-compendium-sdk sc-convert \
+        --from markdown \
+        --to "{{output_format}}" \
+        --output "{{output_dpath}}" \
+        "{{md_dpath}}"
+
 # depth=0 means only the dirs in the dpath
 # depth=1 means nested children (one-level) are included as well
 gen_index_for_each_dir_in dpath depth="0":

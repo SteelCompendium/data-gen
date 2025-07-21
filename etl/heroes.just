@@ -70,23 +70,27 @@ gen_heroes_md_unlinked input_fpath output_dpath:
     # Abilities: Generate indexes for abilities (depth=1 so we index the "*-Level Features" dirs too)
     just abilities gen_index_for_each_dir_in "${md_sections_dpath}/Abilities" "1"
 
-    # TODO - more frontmatter?  Ability index
-    #    # Transform the markdown files in-place
-    #    just -f frontmatter/justfile run "$md_sections_formatted_dpath"
-    #
-    #    # Build the ability index tables
-    #    just -f generate_ability_index/justfile run "${md_sections_formatted_dpath}/Abilities"
-
     # Assemble all markdown together for final formatting, linking, etc
-    preformatted_dpath="{{heroes_staging_dpath}}/8_preformatted"
+    preformatted_dpath="{{heroes_staging_dpath}}/7_preformatted"
     mkdir -p "$preformatted_dpath"
     cp -R "$md_sections_dpath"/* "$preformatted_dpath"
     just heroes input_md_cleanup "{{input_fpath}}" "${preformatted_dpath}/Draw Steel Heroes - Unlinked.md"
 
     # Format/Lint all markdown files
-    formatted_dpath="{{heroes_staging_dpath}}/9_formatted"
+    formatted_dpath="{{heroes_staging_dpath}}/8_formatted_md"
     cp -R "$preformatted_dpath" "$formatted_dpath"
     just lint markdown "$formatted_dpath"
+
+    # Abilities: breakout into dedicated output repos
+    # TODO - should this move into a separate recipe or something?
+    # TODO - I think this does belong elsewhere.. I think it should pull data from data-rules-md and convert from there.
+    conversions_dpath="{{heroes_staging_dpath}}/9_conversions"
+    just abilities convert_all "${formatted_dpath}/Abilities" "json" "${conversions_dpath}/json"
+    just abilities convert_all "${formatted_dpath}/Abilities" "yaml" "${conversions_dpath}/yaml"
+    # Dont convert to markdown: you will lose frontmatter data
+    #just abilities convert_all "${formatted_dpath}/Abilities" "markdown" "${conversions_dpath}/markdown"
+
+    # TODO - auto-linker should go here (and format again after...?)
 
     # Finally, move to output dir
     cp -R "$formatted_dpath"/* "{{output_dpath}}/"

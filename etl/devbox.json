@@ -12,7 +12,8 @@
     "iconv@latest",
     "go@latest",
     "perl",
-    "figlet@latest"
+    "figlet@latest",
+    "nodejs@latest"
   ],
   "env": {
     "DEVBOX_COREPACK_ENABLED": "true"
