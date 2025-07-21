@@ -4,6 +4,7 @@
 # Constants and env vars
 ##################################################
 
+steel_compendium_dpath := `just _steel_compendium_dpath`
 heroes_staging_dpath := `just _staging_dpath` / "heroes"
 heroes_unlinked_dpath := heroes_staging_dpath / "unlinked"
 heroes_linked_dpath := heroes_staging_dpath / "linked"
@@ -21,6 +22,7 @@ gen input_fpath:
     just _wipe_dir "{{heroes_staging_dpath}}"
     just heroes gen_heroes_md_unlinked "{{input_fpath}}" "{{heroes_unlinked_dpath}}"
     # TODO - just link_md_files ..., then change to heroes_linked_dpath
+    just heroes convert_md_to_other_formats "{{heroes_unlinked_dpath}}"
     just _copy_data_to_repo "{{heroes_unlinked_dpath}}" "data-rules-md"
 
 ##################################################
@@ -81,20 +83,10 @@ gen_heroes_md_unlinked input_fpath output_dpath:
     cp -R "$preformatted_dpath" "$formatted_dpath"
     just lint markdown "$formatted_dpath"
 
-    # Abilities: breakout into dedicated output repos
-    # TODO - should this move into a separate recipe or something?
-    # TODO - I think this does belong elsewhere.. I think it should pull data from data-rules-md and convert from there.
-    conversions_dpath="{{heroes_staging_dpath}}/9_conversions"
-    just abilities convert_all "${formatted_dpath}/Abilities" "json" "${conversions_dpath}/json"
-    just abilities convert_all "${formatted_dpath}/Abilities" "yaml" "${conversions_dpath}/yaml"
-    # Dont convert to markdown: you will lose frontmatter data
-    #just abilities convert_all "${formatted_dpath}/Abilities" "markdown" "${conversions_dpath}/markdown"
-
-    # TODO - auto-linker should go here (and format again after...?)
-
     # Finally, move to output dir
     cp -R "$formatted_dpath"/* "{{output_dpath}}/"
 
+# Cleans up the original "Draw Steel Heroes.md" file for inclusion in data-md repo
 input_md_cleanup input_fpath output_fpath:
     #!/usr/bin/env bash
     set -euo pipefail
@@ -128,12 +120,16 @@ link_md_files:
 #    # Link MD section files to each other
 #    #just -f link_md/justfile run "$md_sections_formatted_dpath" "{{staging_heroes_linked_dpath}}"
 
-[private]
-assemble_heroes src_dpath:
+# Given a directory of (formatted) markdown files, converts them into json, yaml, etc
+convert_md_to_other_formats md_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
-    just _print_section "Heroes: Copying markdown to destination repo (data-rules-md)"
-    dest_dir="$(just _steel_compendium_dpath)/data-rules-md"
-    just _delete_dir_except_git "$dest_dir"
-    cp -R "{{src_dpath}}"/* "$dest_dir"
-    just _add_license "$dest_dir"
+    conversions_dpath="{{heroes_staging_dpath}}/9_conversions"
+
+    just abilities convert_all "{{md_dpath}}/Abilities" "json" "${conversions_dpath}/json"
+    just _copy_data_to_repo "${conversions_dpath}/json" "data-rules-json"
+
+    just abilities convert_all "{{md_dpath}}/Abilities" "yaml" "${conversions_dpath}/yaml"
+    just _copy_data_to_repo "${conversions_dpath}/yaml" "data-rules-yaml"
+    # Dont convert to markdown: you will lose frontmatter data
+
