@@ -54,7 +54,7 @@
 generate_config headers_fpath ability_yml_fpath:
     #!/usr/bin/env bash
     set -euo pipefail
-    just -f "{{source_file()}}" convert "{{headers_fpath}}" "{{ability_yml_fpath}}"
+    just -f "{{source_file()}}" build_ability_config "{{headers_fpath}}" "{{ability_yml_fpath}}"
     just -f "{{source_file()}}" expand_config_metadata "{{ability_yml_fpath}}"
 
 # Given a fully expanded abilities.yml doc, extract all the abilities (and features)
@@ -128,11 +128,11 @@ extract_sections ability_fpath html_fpath output_dpath:
     echo "Successfully extracted sections to '$output_dpath'"
     echo "See failed extractions in staging/failed_extractions.txt"
 
+# Converts ability markdown into another format (yaml, json, etc)
 convert_all md_dpath output_format output_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
-    # ignore index files
-
+    echo >&2 "Abilities: converting markdown to '{{output_format}}'"
     npx --package steel-compendium-sdk sc-convert \
         --from markdown \
         --to "{{output_format}}" \
@@ -165,7 +165,7 @@ gen_index_for_each_dir_in dpath depth="0":
 # IMPORTANT: abilities (H8s) assume that they each have a "useless" header before them which are ignored. This
 #   may be a problem if there are abilities under features.  If that is the case, I think I will need this code
 #   to ignore H8 as leaves (so that whatever header they are under gets treated as a leaf), but still include them
-convert headers_fpath ability_yml_fpath:
+build_ability_config headers_fpath ability_yml_fpath:
     #!/usr/bin/env python3
 
     import argparse

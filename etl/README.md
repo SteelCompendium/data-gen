@@ -5,12 +5,10 @@ This is a mess, ill clean it up one day...
 ## Things to do before pdf
 
 - [ ] Abilities
-  - [ ] Extract abilities into json/yaml/xml and moved into appropriate data-* repos  
-    - `data-abilities-*` and/or `data-rules-*`?
-      - What else could be data units?  treasures, kits, perks, complications, etc?
-  - [ ] Wire in ability reader stuff from data-sdk-npm?
-  - [ ] Fix abilityMarkdownReader to handle frontmatter
-  - [ ] Make sure sc-convert supports abilities and statblocks (should I add another flag)
+  - [x] Extract abilities into json/yaml/xml and moved into appropriate data-* repos
+  - [x] Wire in ability reader stuff from data-sdk-npm?
+  - [x] Fix abilityMarkdownReader to handle frontmatter
+  - [x] Make sure sc-convert supports abilities and statblocks (should I add another flag?)
 
 - [ ] Enhancements for mundane files
   - [ ] frontmatter generation for all files (more than abilities)

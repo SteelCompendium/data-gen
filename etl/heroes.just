@@ -124,12 +124,15 @@ link_md_files:
 convert_md_to_other_formats md_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
+
+    just _print_section "Heroes: Converting markdown into other formats"
     conversions_dpath="{{heroes_staging_dpath}}/9_conversions"
 
     just abilities convert_all "{{md_dpath}}/Abilities" "json" "${conversions_dpath}/json"
-    just _copy_data_to_repo "${conversions_dpath}/json" "data-rules-json"
-
     just abilities convert_all "{{md_dpath}}/Abilities" "yaml" "${conversions_dpath}/yaml"
-    just _copy_data_to_repo "${conversions_dpath}/yaml" "data-rules-yaml"
     # Dont convert to markdown: you will lose frontmatter data
+
+    just _copy_data_to_repo "${conversions_dpath}/json" "data-rules-json"
+    just _copy_data_to_repo "${conversions_dpath}/yaml" "data-rules-yaml"
+
 
