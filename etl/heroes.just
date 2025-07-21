@@ -128,8 +128,8 @@ convert_md_to_other_formats md_dpath:
     just _print_section "Heroes: Converting markdown into other formats"
     conversions_dpath="{{heroes_staging_dpath}}/9_conversions"
 
-    just abilities convert_all "{{md_dpath}}/Abilities" "json" "${conversions_dpath}/json"
-    just abilities convert_all "{{md_dpath}}/Abilities" "yaml" "${conversions_dpath}/yaml"
+    just abilities convert_all "{{md_dpath}}/Abilities" "json" "${conversions_dpath}/json/Abilities"
+    just abilities convert_all "{{md_dpath}}/Abilities" "yaml" "${conversions_dpath}/yaml/Abilities"
     # Dont convert to markdown: you will lose frontmatter data
 
     just _copy_data_to_repo "${conversions_dpath}/json" "data-rules-json"

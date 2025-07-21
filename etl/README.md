@@ -10,6 +10,16 @@ This is a mess, ill clean it up one day...
   - [x] Fix abilityMarkdownReader to handle frontmatter
   - [x] Make sure sc-convert supports abilities and statblocks (should I add another flag?)
 
+- [ ] Support XML in data-sdk-npm
+  - [ ] schema
+  - [ ] reader
+  - [ ] writer
+  - [ ] tests
+  - [ ] Add to cli
+  - [ ] Add to web-adapter site
+
+- [ ] data-sdk-npm is missing tests for json??? maybe yaml ability too?
+
 - [ ] Enhancements for mundane files
   - [ ] frontmatter generation for all files (more than abilities)
     - kit abilities should have a subtype or something?
@@ -17,6 +27,7 @@ This is a mess, ill clean it up one day...
     - See "compendium/docs/Rules/Draw Steel Heroes - Unlinked.md" for example of custom name (frontmatter title)
     - Basically anything generated from extract_sections should get an index
       - Before this happens, that all needs frontmatter generation
+  - [ ] More metadata/frontmatter in abilities
 
 - [ ] auto-linking 
   - Check index files to verify they link
@@ -34,7 +45,6 @@ This is a mess, ill clean it up one day...
 - [ ] Other
   - [ ] Change discord nickname to `Xentis (Steel Compendium)`
   - [ ] Ability cards repo?
-  - [ ] Support XML in data-sdk-npm
 
 ## Plan for final PDF
 
