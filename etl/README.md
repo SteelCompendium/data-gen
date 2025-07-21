@@ -18,7 +18,10 @@ This is a mess, ill clean it up one day...
   - [ ] Add to cli
   - [ ] Add to web-adapter site
 
-- [ ] data-sdk-npm is missing tests for json??? maybe yaml ability too?
+- [ ] data-sdk-npm 
+  - [ ] is missing tests for json??? maybe yaml ability too?
+  - [ ] Support metadata
+    - class, subclass, level, creature, etc
 
 - [ ] Enhancements for mundane files
   - [ ] frontmatter generation for all files (more than abilities)
@@ -28,6 +31,9 @@ This is a mess, ill clean it up one day...
     - Basically anything generated from extract_sections should get an index
       - Before this happens, that all needs frontmatter generation
   - [ ] More metadata/frontmatter in abilities
+    - [ ] add some kind of UUID (`book.type.hash` or something) 
+      - Fantasy Grounds needs an id in form `id-00001` and it doesnt support migrations afaik
+        - Because of this, I think we will need id override mapping support (if you find X, ignore and give id Y) 
 
 - [ ] auto-linking 
   - Check index files to verify they link

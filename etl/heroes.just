@@ -130,9 +130,11 @@ convert_md_to_other_formats md_dpath:
 
     just abilities convert_all "{{md_dpath}}/Abilities" "json" "${conversions_dpath}/json/Abilities"
     just abilities convert_all "{{md_dpath}}/Abilities" "yaml" "${conversions_dpath}/yaml/Abilities"
+    just abilities convert_all "{{md_dpath}}/Abilities" "xml" "${conversions_dpath}/xml/Abilities"
     # Dont convert to markdown: you will lose frontmatter data
 
     just _copy_data_to_repo "${conversions_dpath}/json" "data-rules-json"
     just _copy_data_to_repo "${conversions_dpath}/yaml" "data-rules-yaml"
+    just _copy_data_to_repo "${conversions_dpath}/xml" "data-rules-xml"
 
 
