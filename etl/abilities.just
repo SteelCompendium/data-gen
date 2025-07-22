@@ -67,9 +67,9 @@ extract_sections ability_fpath html_fpath output_dpath:
     output_dpath="{{output_dpath}}"
 
     # which keys to pull from the YAML
-    fields=(file_dpath xpath header_path name cost class type level)
+    fields=(file_dpath xpath header_path name cost cost_amount cost_resource class type level taxonomy)
     # which to emit as <meta> (plus 'name' for filename)
-    meta_fields=(name cost cost_amount cost_resource class type level)
+    meta_fields=(name cost cost_amount cost_resource class type level taxonomy)
 
     # Build the comma‑separated selector list, forcing missing keys → ""
     prefixed=()
@@ -79,6 +79,9 @@ extract_sections ability_fpath html_fpath output_dpath:
     comma_list="$(IFS=,; echo "${prefixed[*]}")"
 
     mkdir -p "$output_dpath"
+
+    # get the source from the input
+    source="$(yq eval ".source" "$ability_fpath")"
 
     # Use ASCII unit separator (octal 037) to preserve empty TSV columns
     yq eval ".abilities[] | [${comma_list}] | @tsv" "$ability_fpath" \
@@ -90,18 +93,12 @@ extract_sections ability_fpath html_fpath output_dpath:
         header_path="${vals[2]:-}"
         name="${vals[3]:-}"
         cost="${vals[4]:-}"
-        class="${vals[5]:-}"
-        type="${vals[6]:-}"
-        level="${vals[7]:-}"
-
-        # generate metadata values
-        if [[ $cost =~ ^([0-9\+]+)[[:space:]]+(.+)$ ]]; then
-          cost_amount="${BASH_REMATCH[1]}"
-          cost_resource="${BASH_REMATCH[2]}"
-        else
-          cost_amount=""
-          cost_resource="$cost"
-        fi
+        cost_amount="${vals[5]:-}"
+        cost_resource="${vals[6]:-}"
+        class="${vals[7]:-}"
+        type="${vals[8]:-}"
+        level="${vals[9]:-}"
+        taxonomy="${vals[10]:-}"
 
         if [[ -z "$file_dpath" || -z "$xpath" ]]; then
             echo "Warning: Skipping ability with missing 'file_dpath' or 'xpath': $header_path" >&2
@@ -174,7 +171,7 @@ gen_index_for_each_dir_in dpath depth="0":
 # IMPORTANT: abilities (H8s) assume that they each have a "useless" header before them which are ignored. This
 #   may be a problem if there are abilities under features.  If that is the case, I think I will need this code
 #   to ignore H8 as leaves (so that whatever header they are under gets treated as a leaf), but still include them
-build_ability_config headers_fpath ability_yml_fpath:
+build_ability_config headers_fpath ability_yml_fpath source="heroes":
     #!/usr/bin/env python3
 
     import argparse
@@ -254,7 +251,7 @@ build_ability_config headers_fpath ability_yml_fpath:
 
             path_stack.append(header)
 
-        return {'abilities': output_abilities}
+        return {'source': '{{source}}', 'abilities': output_abilities}
 
     try:
         with open("{{headers_fpath}}", 'r') as f:
@@ -298,15 +295,35 @@ expand_config_metadata ability_yml_fpath:
             # fallback if it doesn’t match the "foo (8 bar)" form
             header_name, cost = full_header_name, ''
 
+        # Cost sub values
+        cost_amount, cost_resource = "", ""
+        if cost:
+            m = re.match(r'^([0-9+]+)\s+(.+)$', cost.strip())
+            if m:
+                cost_amount, cost_resource = m.group(1), m.group(2)
+
+        # build taxonomy
+        taxonomy = header_path
+        if cost:
+            cost_slug = re.sub(r'[^a-z0-9]+', '-', cost.lower()).strip('-')
+            print(cost_slug)
+            path_parts = header_path.split('/')
+            # remove trailing "-<cost_slug>" if present
+            path_parts[-1] = re.sub(rf'-{re.escape(cost_slug)}$', '', path_parts[-1])
+            taxonomy = '/'.join(path_parts)
+
         new_ability = {
             'header_path': header_path,
             'full_header_name': full_header_name,
             'name': header_name,
             'cost': cost,
+            'cost_amount': cost_amount,
+            'cost_resource': cost_resource,
             'file_dpath': file_dpath,
             'header_id': parts[-1],
             'xpath': xpath,
-            'class': parts[0]
+            'class': parts[0],
+            'taxonomy': taxonomy
         }
 
         level = None

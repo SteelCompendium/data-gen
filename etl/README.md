@@ -4,13 +4,6 @@ This is a mess, ill clean it up one day...
 
 ## Things to do before pdf
 
-- [ ] ability `cost_amount` and `cost_resource` fields in metadata
-
-- [ ] data-sdk-npm 
-  - [ ] is missing tests for json??? maybe yaml ability too?
-  - [x] Support metadata
-    - class, subclass, level, creature, etc
-
 - [ ] Enhancements for mundane files
   - [ ] frontmatter generation for all files (more than abilities)
     - kit abilities should have a subtype or something?
