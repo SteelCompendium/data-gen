@@ -69,7 +69,7 @@ extract_sections ability_fpath html_fpath output_dpath:
     # which keys to pull from the YAML
     fields=(file_dpath xpath header_path name cost class type level)
     # which to emit as <meta> (plus 'name' for filename)
-    meta_fields=(name cost class type level)
+    meta_fields=(name cost cost_amount cost_resource class type level)
 
     # Build the comma‑separated selector list, forcing missing keys → ""
     prefixed=()
@@ -93,6 +93,15 @@ extract_sections ability_fpath html_fpath output_dpath:
         class="${vals[5]:-}"
         type="${vals[6]:-}"
         level="${vals[7]:-}"
+
+        # generate metadata values
+        if [[ $cost =~ ^([0-9\+]+)[[:space:]]+(.+)$ ]]; then
+          cost_amount="${BASH_REMATCH[1]}"
+          cost_resource="${BASH_REMATCH[2]}"
+        else
+          cost_amount=""
+          cost_resource="$cost"
+        fi
 
         if [[ -z "$file_dpath" || -z "$xpath" ]]; then
             echo "Warning: Skipping ability with missing 'file_dpath' or 'xpath': $header_path" >&2

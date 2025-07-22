@@ -4,13 +4,7 @@ This is a mess, ill clean it up one day...
 
 ## Things to do before pdf
 
-- [ ] Support XML in data-sdk-npm
-  - [x] schema
-  - [x] reader
-  - [x] writer
-  - [x] tests
-  - [x] Add to cli
-  - [ ] Add to web-adapter site
+- [ ] ability `cost_amount` and `cost_resource` fields in metadata
 
 - [ ] data-sdk-npm 
   - [ ] is missing tests for json??? maybe yaml ability too?
