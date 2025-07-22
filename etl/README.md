@@ -4,23 +4,17 @@ This is a mess, ill clean it up one day...
 
 ## Things to do before pdf
 
-- [ ] Abilities
-  - [x] Extract abilities into json/yaml/xml and moved into appropriate data-* repos
-  - [x] Wire in ability reader stuff from data-sdk-npm?
-  - [x] Fix abilityMarkdownReader to handle frontmatter
-  - [x] Make sure sc-convert supports abilities and statblocks (should I add another flag?)
-
 - [ ] Support XML in data-sdk-npm
-  - [ ] schema
-  - [ ] reader
-  - [ ] writer
-  - [ ] tests
-  - [ ] Add to cli
+  - [x] schema
+  - [x] reader
+  - [x] writer
+  - [x] tests
+  - [x] Add to cli
   - [ ] Add to web-adapter site
 
 - [ ] data-sdk-npm 
   - [ ] is missing tests for json??? maybe yaml ability too?
-  - [ ] Support metadata
+  - [x] Support metadata
     - class, subclass, level, creature, etc
 
 - [ ] Enhancements for mundane files
