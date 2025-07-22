@@ -14,7 +14,8 @@ This is a mess, ill clean it up one day...
   - [ ] More metadata/frontmatter in abilities
     - [ ] add some kind of UUID (`book.type.hash` or something) 
       - Fantasy Grounds needs an id in form `id-00001` and it doesnt support migrations afaik
-        - Because of this, I think we will need id override mapping support (if you find X, ignore and give id Y) 
+        - Because of this, I think we will need id override mapping support (if you find X, ignore and give id Y)
+      - dewy decimal system thing (monster book has more than 10 types of creatures)
 
 - [ ] auto-linking 
   - Check index files to verify they link

@@ -48,7 +48,7 @@ gen_heroes_md_unlinked input_fpath output_dpath:
     # (This is setup to be run as a separate step so that abilities.yml can be edited, but for now no edits are needed)
     just _print_section "Heroes: Converting ToC to abilities config yaml"
     ability_config_fpath="{{heroes_staging_dpath}}/0_abilities/abilities.yml"
-    just abilities generate_config "$toc_fpath" "$ability_config_fpath"
+    just ability_config generate_config "$toc_fpath" "$ability_config_fpath"
 
     # Sections: Convert markdown to html
     just _print_section "Heroes: Converting MD to html"
