@@ -66,22 +66,26 @@ extract_sections ability_fpath html_fpath output_dpath:
         tmpdir="$(mktemp -d)"
         just extract_html_sections extract_section "$tmpdir" "$xpath" "$html_fpath" "false"
 
+        # TODO - when I come back, seems like the better approach is to build up some yaml and send it in...
+
         # Update each html file: Apply metadata (later frontmatter), update header formatting
         for htmlfile in "$tmpdir"/*; do
             filename="$(basename "$htmlfile")"
             # use basename sans extension as the 'name' meta
             name="${filename%.*}"
-            {
-                echo "<head>"
-                for key in "${meta_fields[@]}"; do
-                    val="${!key}"
-                    if [[ -n "$val" ]]; then
-                        printf '  <meta name="%s" content="%s" />\n' "$key" "$val"
-                    fi
-                done
-                echo "</head>"
-                just abilities replace_p_heading_with_h6 "$(cat "$htmlfile")"
-            } > "$ability_output_dpath/$filename"
+            for key in "${meta_fields[@]}"; do
+                val="${!key}"
+                if [[ -n "$val" ]]; then
+                    tmp_fpath=$(mktemp)
+                    just html add_metadata "$key" "$val" "$htmlfile" "$tmp_fpath" && mv "$tmp_fpath" "$htmlfile"
+                    rm -f "$tmp_fpath"
+                fi
+            done
+
+            tmp_fpath=$(mktemp)
+            just abilities replace_p_heading_with_h6 "$(cat "$htmlfile")" > "$tmp_fpath"
+            mv "$tmp_fpath" "$ability_output_dpath/$filename"
+            rm -f "$tmp_fpath"
         done
 
         rm -rf "$tmpdir"

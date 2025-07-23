@@ -5,6 +5,7 @@ This is a mess, ill clean it up one day...
 ## Things to do before pdf
 
 - [ ] Enhancements for mundane files
+  - Question: should the hero-section extraction use a config like abilities.yml???
   - [ ] frontmatter generation for all files (more than abilities)
     - kit abilities should have a subtype or something?
   - [ ] indexes for resources (other than abilities)
@@ -80,3 +81,14 @@ This is a mess, ill clean it up one day...
 - [ ] Cards - would be nice to have some kind of downloadable card that people can pull into their tools.  
   - [ ] Image
   - [ ] html
+
+### Steel Compendium Decimal Classification
+
+~~source type (rules, bestiary)~~
+source publisher? (MCDM, 3rd party, homebrew?)
+source (Heroes, Monsters)
+source version (1)
+:
+delimeter (chapter, abilities, monster type)
+.
+(...)

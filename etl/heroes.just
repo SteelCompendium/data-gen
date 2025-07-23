@@ -67,7 +67,7 @@ gen_heroes_md_unlinked input_fpath output_dpath:
     # Sections: Convert html sections to md sections
     just _print_section "Heroes: Converting html to md"
     md_sections_dpath="{{heroes_staging_dpath}}/3_md_sections"
-    just html_to_md run "$html_sections_dpath" "$md_sections_dpath"
+    just html run "$html_sections_dpath" "$md_sections_dpath"
 
     # Abilities: Generate indexes for abilities (depth=1 so we index the "*-Level Features" dirs too)
     just abilities gen_index_for_each_dir_in "${md_sections_dpath}/Abilities" "1"
