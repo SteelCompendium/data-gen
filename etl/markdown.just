@@ -40,7 +40,7 @@ to_html md_src_fpath html_dest_fpath:
 # ######## This is an H7 Header
 # ######### This is an H8 Header (8 Cost)
 #
-# Usage: `just -f pre_automation_tools/toc.just extract_from "../../Rules/Draw Steel Heroes.md" "../../Rules/toc.md"`
+# Usage: `just -f pre_automation_tools/toc.just extract_from "../../input/heroes/Draw Steel Heroes.md" "../../input/heroes/toc.md"`
 extract_toc markdown_fpath output_fpath:
     #!/usr/bin/env bash
     set -euo pipefail

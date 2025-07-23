@@ -1,5 +1,5 @@
 # Usage: just run path/to/input.md path/to/output.md
-# ~/code/personal/steelCompendium $ just -f data-gen/etl/pre-automation-tools/power_roll_formatting.justfile run data-gen/Rules/Draw\ Steel\ RC\ for\ Patrons.md data-gen/temp/power_rolls_formatted.md
+# ~/code/personal/steelCompendium $ just -f data-gen/etl/pre-automation-tools/power_roll_formatting.justfile run data-gen/input/heroes/Draw\ Steel\ RC\ for\ Patrons.md data-gen/temp/power_rolls_formatted.md
 #
 # Formats 'Power Roll' sections from OCR'd markdown files.
 

@@ -41,7 +41,7 @@ gen_heroes:
     #!/usr/bin/env bash
     set -euo pipefail
     just _print_title "Heroes"
-    just heroes gen "{{data_gen_root_dpath}}/Rules/Draw Steel Heroes.md"
+    just heroes gen "{{data_gen_root_dpath}}/input/heroes/Draw Steel Heroes.md"
 
 gen_monsters:
     #!/usr/bin/env bash

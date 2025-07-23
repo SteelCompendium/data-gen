@@ -2,7 +2,7 @@
 
 # # Extract ability html from single html file (note, the html file needs to be generated. Run in devbox
 # devbox shell
-# just -f abilities.just extract_sections "../Rules/abilities.yml" "../staging/heroes/1_html/Draw Steel Heroes.html" "../staging/heroes/2_html_sections/Abilities"
+# just -f abilities.just extract_sections "../input/heroes/abilities.yml" "../staging/heroes/1_html/Draw Steel Heroes.html" "../staging/heroes/2_html_sections/Abilities"
 
 ##################################################
 # Constants and env vars

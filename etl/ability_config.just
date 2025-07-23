@@ -2,10 +2,10 @@
 
 # Workflow
 # # Extract the full ToC from the (corrected) source doc
-# just -f markdown.just extract_toc "../../Rules/Draw Steel Heroes.md" "../../Rules/toc.md"
+# just -f markdown.just extract_toc "../../input/heroes/Draw Steel Heroes.md" "../../input/heroes/toc.md"
 #
 # # Convert toc.md to abilities.yml config
-# just -f ability_config.just generate_config ../Rules/toc.md ../Rules/abilities.yml
+# just -f ability_config.just generate_config ../input/heroes/toc.md ../input/heroes/abilities.yml
 
 ##################################################
 # Constants and env vars
@@ -16,7 +16,7 @@
 ##################################################
 
 # First convert the headers toc doc to abilities
-# just -f abilities.just generate_config ../Rules/toc.md ../Rules/abilities.yml
+# just -f abilities.just generate_config ../input/heroes/toc.md ../input/heroes/abilities.yml
 # Then extract sections (see just -f abilities.just extract_sections)
 #
 # This job is kinda expected to be run once (after the rules.md is done) and then the abilities.yml is used from then on

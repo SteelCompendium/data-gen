@@ -1,5 +1,5 @@
 # Usage: just remove_lines path/to/input.md path/to/output.md
-# ~/code/personal/steelCompendium $ just -f data-gen/etl/pre-automation-tools/remove_lines.justfile run data-gen/Rules/Draw\ Steel\ RC\ for\ Patrons.md data-gen/temp/removed_lines_output.md
+# ~/code/personal/steelCompendium $ just -f data-gen/etl/pre-automation-tools/remove_lines.justfile run data-gen/input/heroes/Draw\ Steel\ RC\ for\ Patrons.md data-gen/temp/removed_lines_output.md
 #
 # Removes a predefined set of lines that are not needed (images, copyright, etc)
 
