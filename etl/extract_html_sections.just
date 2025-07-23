@@ -2,9 +2,48 @@ log_prefix := "[JUST][extract_html_sections]"
 
 failed_extraction_fpath := source_dir() / "../staging/failed_extractions.txt"
 
+##################################################
+# Public Recipes
+##################################################
+
+# Given a fully expanded config.yml doc, extract all the sections and apply generic metadata
+# See extract_section_config.just for info on config expectations
+extract_sections config_fpath html_fpath output_dpath:
+    #!/usr/bin/env python3
+    import yaml, subprocess, tempfile, sys
+    from pathlib import Path
+
+    cfg = yaml.safe_load(open("{{config_fpath}}"))
+    out_root = Path("{{output_dpath}}")
+    html = "{{html_fpath}}"
+
+    # TODO - globals? source?
+    KEYS = ["file_dpath","xpath","header_path","name","header_name","type","taxonomy"]
+
+    for s in cfg.get("sections", []):
+        file_dpath = s.get("file_dpath")
+        xpath = s.get("xpath")
+        if not file_dpath or not xpath:
+            print(f"Skipping section missing file_dpath/xpath: {s.get('header_path','')}", file=sys.stderr)
+            continue
+
+        ability_dir = out_root / file_dpath
+        ability_dir.mkdir(parents=True, exist_ok=True)
+
+        meta = {k: s.get(k, "") for k in KEYS}
+        with tempfile.NamedTemporaryFile("w", delete=False, suffix=".yml") as tmp:
+            yaml.safe_dump(meta, tmp, sort_keys=False)
+            meta_path = tmp.name
+
+        subprocess.run(["just", "extract_html_sections", "extract_section", str(ability_dir), xpath, html, "false", meta_path], check=True)
+
+    print(f"Successfully extracted sections to '{out_root}'")
+    print("See failed extractions in staging/failed_extractions.txt")
+
+
 # Generate markdown files for all matches of an xpath (via html)
 # if `skip_delete` is `true`, deletes the `out_dpath`
-extract_section out_dpath xpath src_html_fpath skip_delete="true":
+extract_section out_dpath xpath src_html_fpath skip_delete="true" metadata_yml_fpath="":
     #!/usr/bin/env bash
     set -euo pipefail
     echo >&2 ""
@@ -16,37 +55,72 @@ extract_section out_dpath xpath src_html_fpath skip_delete="true":
         echo >&2 "    Skipping delete on dir '{{out_dpath}}'"
     fi
 
-    just -f "{{source_file()}}" _extract_section "{{xpath}}" "{{src_html_fpath}}" "{{out_dpath}}"
+    just -f "{{source_file()}}" _extract_section "{{xpath}}" "{{src_html_fpath}}" "{{out_dpath}}" "{{metadata_yml_fpath}}"
 
-_extract_section xpath src_html_fpath out_dpath:
+##################################################
+# Private Recipes
+##################################################
+
+_extract_section xpath src_html_fpath out_dpath metadata_yml_fpath:
     #!/usr/bin/env python3
     import re
     import os
+    import yaml
     from lxml import etree, html
 
-    # Create the output directory if it doesn't exist
+    def build_meta_block(meta_dict):
+        lines = [f'  <meta name="{k}" content="{v}" />' for k, v in meta_dict.items() if v is not None]
+        return "<head>\n" + "\n".join(lines) + "\n</head>\n"
+
+    def inject_meta(section_html, meta_block):
+        # If there's already a <head>, drop metas right after the opening tag.
+        m = re.search(r'(<head[^>]*>)', section_html, flags=re.IGNORECASE)
+        if m:
+            insert_at = m.end()
+            return section_html[:insert_at] + "\n" + meta_block.replace("<head>", "").rstrip("\n") + "\n" + section_html[insert_at:]
+        else:
+            # Prepend a brand new head block
+            return meta_block + section_html
+
+    # Ensure output dir exists
     os.makedirs("{{out_dpath}}", exist_ok=True)
 
-    # Parse the HTML file
+    # Parse HTML
     with open("{{src_html_fpath}}", 'r', encoding='utf-8') as f:
         tree = html.parse(f)
 
-    # Find all matching sections
+    # Load metadata YAML
+    if "{{metadata_yml_fpath}}" != "":
+        with open("{{metadata_yml_fpath}}", 'r', encoding='utf-8') as m:
+            meta = yaml.safe_load(m) or {}
+    else:
+        meta = {}
+
+    meta_block = build_meta_block(meta)
+
+    # replace <p> header with h6
+    p_header_pattern = re.compile(
+        r'<p(?P<attrs>[^>]*)\bclass="heading"(?P<rest>[^>]*)>(?P<inner>.*?)</p>',
+        re.DOTALL
+    )
+
+    # Find sections
     sections = tree.xpath("{{xpath}}")
 
-    # Iterate over the sections and save each one
     for section in sections:
-        # Extract the first header (h1 to h6) and clean it for the filename
-        header = section.xpath('.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::h7 or self::h8 or self::p]/text()')[0]
-        header = header.title()
-        filename = re.sub('\\s*\\(.*\\)', '', ' '.join(header.split())).replace("’", "").replace("'","").replace("…","")
-        filename = os.path.join("{{out_dpath}}", filename)
+        # header text or first paragraph as fallback
+        header = section.xpath('.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::h7 or self::h8 or self::p]/text()')
+        header = (header[0] if header else "section").title()
 
-        # Get the section content as HTML
+        filename = re.sub(r'\s*\(.*\)', '', ' '.join(header.split()))
+        filename = filename.replace("’", "").replace("'", "").replace("…", "")
+        filename = os.path.join("{{out_dpath}}", filename) + ".html"
+
         section_content = etree.tostring(section, pretty_print=False, method="html").decode('utf-8')
+        section_content = inject_meta(section_content, meta_block)
+        # replace <p> header with h6
+        section_content = p_header_pattern.sub(r'<h6\g<attrs> class="heading"\g<rest>>\g<inner></h6>', section_content)
 
-        # Save as HTML
-        filename += ".html"
         with open(filename, 'w', encoding='utf-8') as f_out:
             f_out.write(section_content)
 

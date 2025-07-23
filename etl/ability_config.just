@@ -51,7 +51,7 @@ generate_config headers_fpath ability_yml_fpath:
     #!/usr/bin/env bash
     set -euo pipefail
     just -f "{{source_file()}}" build_ability_config "{{headers_fpath}}" "{{ability_yml_fpath}}"
-    just -f "{{source_file()}}" expand_config_metadata "{{ability_yml_fpath}}"
+    just extract_section_config expand_general "{{ability_yml_fpath}}"
 
 ##################################################
 # Private Recipes
@@ -137,11 +137,11 @@ build_ability_config headers_fpath ability_yml_fpath source="heroes":
                 path_parts.append(kebab_ability_name)
 
                 header_path = "/".join(path_parts)
-                output_abilities.append({'header_path': header_path, 'full_header_name': ability_name})
+                output_abilities.append({'header_path': header_path, 'header_name': ability_name})
 
             path_stack.append(header)
 
-        return {'source': '{{source}}', 'abilities': output_abilities}
+        return {'global': {'source': '{{source}}'}, 'sections': output_abilities}
 
     try:
         with open("{{headers_fpath}}", 'r') as f:
@@ -156,93 +156,3 @@ build_ability_config headers_fpath ability_yml_fpath source="heroes":
         yaml.dump(data, f, sort_keys=False)
 
     print(f"Successfully created '{{ability_yml_fpath}}'")
-
-# Takes a basic abilities.yml file and populates all the metadata
-# This is intentionally a separate step in case there needs to be some adjustment to the config before expansion
-expand_config_metadata ability_yml_fpath:
-    #!/usr/bin/env python3
-
-    import re
-    import yaml
-    import sys
-
-    def expand_ability_metadata(ability):
-        header_path = ability['header_path']
-        parts = header_path.split('/')
-
-        file_path_components = [re.sub(r'(\d+)(St|Nd|Rd|Th)\s', lambda m: m.group(1) + m.group(2).lower()+'-', p.replace('-', ' ').title()) for p in parts[:-1]]
-        file_dpath = "/".join(file_path_components)
-
-        xpath_id_parts = [re.sub(r'^\d+', '', part) for part in parts]
-        xpath = "//" + "//".join([f"section[@id='{p}']" for p in xpath_id_parts])
-
-        full_header_name = ability['full_header_name']
-        # capture header_name and cost
-        m = re.match(r'^(.*?)\s*\((.*?)\)\s*$', full_header_name)
-        if m:
-            header_name, cost = m.group(1), m.group(2)
-        else:
-            # fallback if it doesn’t match the "foo (8 bar)" form
-            header_name, cost = full_header_name, ''
-
-        # Cost sub values
-        cost_amount, cost_resource = "", ""
-        if cost:
-            m = re.match(r'^([0-9+]+)\s+(.+)$', cost.strip())
-            if m:
-                cost_amount, cost_resource = m.group(1), m.group(2)
-
-        # build taxonomy
-        taxonomy = header_path
-        if cost:
-            cost_slug = re.sub(r'[^a-z0-9]+', '-', cost.lower()).strip('-')
-            print(cost_slug)
-            path_parts = header_path.split('/')
-            # remove trailing "-<cost_slug>" if present
-            path_parts[-1] = re.sub(rf'-{re.escape(cost_slug)}$', '', path_parts[-1])
-            taxonomy = '/'.join(path_parts)
-
-        new_ability = {
-            'header_path': header_path,
-            'full_header_name': full_header_name,
-            'name': header_name,
-            'cost': cost,
-            'cost_amount': cost_amount,
-            'cost_resource': cost_resource,
-            'file_dpath': file_dpath,
-            'header_id': parts[-1],
-            'xpath': xpath,
-            'class': parts[0],
-            'taxonomy': taxonomy
-        }
-
-        level = None
-        for part in parts:
-            match = re.search(r'(\d+)(?:st|nd|rd|th)-level-features', part)
-            if match:
-                level = int(match.group(1))
-                break
-        if level is not None:
-            new_ability['level'] = level
-
-        # Old logic was to assume that all abilities will have a header before it with the exact same name
-        #new_ability['type'] = 'ability' if parts[-1].endswith('-1') else 'feature'
-        # New logic is to check to see if there is a cost?
-        new_ability['type'] = 'ability' if cost else 'feature'
-
-        return new_ability
-
-    try:
-        with open("{{ability_yml_fpath}}", 'r') as f:
-            data = yaml.safe_load(f)
-    except FileNotFoundError:
-        print(f"Error: Input file not found at '{{ability_yml_fpath}}'", file=sys.stderr)
-        sys.exit(1)
-
-    if 'abilities' in data and isinstance(data['abilities'], list):
-        data['abilities'] = [expand_ability_metadata(ability) for ability in data['abilities']]
-
-    with open("{{ability_yml_fpath}}", 'w') as f:
-        yaml.dump(data, f, sort_keys=False, default_flow_style=False, indent=2)
-
-    print(f"Successfully expanded metadata in '{{ability_yml_fpath}}'")

@@ -4,6 +4,9 @@ This is a mess, ill clean it up one day...
 
 ## Things to do before pdf
 
+- [ ] Build out a config for section extraction
+  - `just abilities replace_p_heading_with_h6 $html_file` needs to be called
+
 - [ ] Enhancements for mundane files
   - Question: should the hero-section extraction use a config like abilities.yml???
   - [ ] frontmatter generation for all files (more than abilities)

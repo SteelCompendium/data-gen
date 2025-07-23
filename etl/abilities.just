@@ -12,86 +12,14 @@
 # Public Recipes
 ##################################################
 
-# Given a fully expanded abilities.yml doc, extract all the abilities (and features)
-extract_sections ability_fpath html_fpath output_dpath:
+# this recipe assumes that there is already section-metadata applied to the frontmatter of the document
+# Note: these could be abilities or features (right?)
+gen_metadata md_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
-
-    ability_fpath="{{ability_fpath}}"
-    html_fpath="{{html_fpath}}"
-    output_dpath="{{output_dpath}}"
-
-    # which keys to pull from the YAML
-    fields=(file_dpath xpath header_path name cost cost_amount cost_resource class type level taxonomy)
-    # which to emit as <meta> (plus 'name' for filename)
-    meta_fields=(name cost cost_amount cost_resource class type level taxonomy)
-
-    # Build the comma‑separated selector list, forcing missing keys → ""
-    prefixed=()
-    for key in "${fields[@]}"; do
-        prefixed+=( "(.${key} // \"\")" )
+    find "{{md_dpath}}" -type f -name '*.md' | while read -r fpath; do
+        just abilities _gen_metadata "$fpath"
     done
-    comma_list="$(IFS=,; echo "${prefixed[*]}")"
-
-    mkdir -p "$output_dpath"
-
-    # get the source from the input
-    source="$(yq eval ".source" "$ability_fpath")"
-
-    # Use ASCII unit separator (octal 037) to preserve empty TSV columns
-    yq eval ".abilities[] | [${comma_list}] | @tsv" "$ability_fpath" \
-    | tr '\t' '\037' \
-    | while IFS=$'\037' read -r -a vals; do
-        # now each empty field becomes an empty string in "${vals[@]}"
-        file_dpath="${vals[0]:-}"
-        xpath="${vals[1]:-}"
-        header_path="${vals[2]:-}"
-        name="${vals[3]:-}"
-        cost="${vals[4]:-}"
-        cost_amount="${vals[5]:-}"
-        cost_resource="${vals[6]:-}"
-        class="${vals[7]:-}"
-        type="${vals[8]:-}"
-        level="${vals[9]:-}"
-        taxonomy="${vals[10]:-}"
-
-        if [[ -z "$file_dpath" || -z "$xpath" ]]; then
-            echo "Warning: Skipping ability with missing 'file_dpath' or 'xpath': $header_path" >&2
-            continue
-        fi
-
-        ability_output_dpath="$output_dpath/$file_dpath"
-        mkdir -p "$ability_output_dpath"
-
-        tmpdir="$(mktemp -d)"
-        just extract_html_sections extract_section "$tmpdir" "$xpath" "$html_fpath" "false"
-
-        # TODO - when I come back, seems like the better approach is to build up some yaml and send it in...
-
-        # Update each html file: Apply metadata (later frontmatter), update header formatting
-        for htmlfile in "$tmpdir"/*; do
-            filename="$(basename "$htmlfile")"
-            # use basename sans extension as the 'name' meta
-            name="${filename%.*}"
-            for key in "${meta_fields[@]}"; do
-                val="${!key}"
-                if [[ -n "$val" ]]; then
-                    tmp_fpath=$(mktemp)
-                    just html add_metadata "$key" "$val" "$htmlfile" "$tmp_fpath" && mv "$tmp_fpath" "$htmlfile"
-                    rm -f "$tmp_fpath"
-                fi
-            done
-
-            tmp_fpath=$(mktemp)
-            just abilities replace_p_heading_with_h6 "$(cat "$htmlfile")" > "$tmp_fpath"
-            mv "$tmp_fpath" "$ability_output_dpath/$filename"
-            rm -f "$tmp_fpath"
-        done
-
-        rm -rf "$tmpdir"
-    done
-    echo "Successfully extracted sections to '$output_dpath'"
-    echo "See failed extractions in staging/failed_extractions.txt"
 
 # Converts ability markdown into another format (yaml, json, etc)
 convert_all md_dpath output_format output_dpath:
@@ -126,16 +54,49 @@ gen_index_for_each_dir_in dpath depth="0":
 # Private Recipes
 ##################################################
 
-# Given a string, replace any `<p class="heading">...</p>` with an `h6` instead
-replace_p_heading_with_h6 html_string:
+_gen_metadata md_fpath:
     #!/usr/bin/env python3
-    import re
-    html = """
-    {{html_string}}
-    """
-    pattern = re.compile(
-        r'<p(?P<attrs>[^>]*)\bclass="heading"(?P<rest>[^>]*)>(?P<inner>.*?)</p>',
-        re.DOTALL
-    )
-    new_html = pattern.sub(r'<h6\g<attrs> class="heading"\g<rest>>\g<inner></h6>', html)
-    print(new_html)
+    import re, sys, pathlib
+    import yaml
+
+    path = pathlib.Path('{{md_fpath}}')
+    text = path.read_text(encoding="utf-8")
+
+    # Split frontmatter & body
+    m = re.match(r'^---\s*\n(.*?)\n---\s*\n?(.*)$', text, flags=re.S)
+    if m:
+        fm_text, body = m.group(1), m.group(2)
+        data = yaml.safe_load(fm_text) or {}
+    else:
+        data, body = {}, text
+
+    # cost and sub-values + type
+    assumed_type = 'feature'
+    m = re.match(r'^(.*?)\s*\((.*?)\)\s*$', data['header_name'])
+    if m:
+        data["cost"] = m.group(2)
+        m = re.match(r'^([0-9+]+)\s+(.+)$', data["cost"].strip())
+        if m:
+            data["cost_amount"], data["cost_resource"] = int(m.group(1)), m.group(2)
+            assumed_type = 'ability'
+
+    # level
+    match = re.search(r'(\d+)(?:st|nd|rd|th)-level-features', data['header_path'])
+    if match:
+        data['level'] = int(match.group(1))
+
+    # class
+    data['class'] = data['header_path'].split('/')[0].title()
+
+    # TODO - I might generate this ahead of time in the config?
+    # type
+    data['type'] = data.get('type') or assumed_type
+
+    # remove unneeded metadata
+    del data['header_path']
+    del data['xpath']
+
+    # Reassemble
+    new_fm = yaml.safe_dump(data, sort_keys=False).rstrip()
+    new_text = f"---\n{new_fm}\n---\n{body}"
+    path.write_text(new_text, encoding="utf-8")
