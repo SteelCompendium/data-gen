@@ -1,6 +1,7 @@
 global:
   source: heroes
   file_dpath: 'Careers'
+  type: career
 sections:
   - header_path: "careers-a-to-z"
     header_name: "Careers"

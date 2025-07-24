@@ -1,6 +1,7 @@
 global:
   source: heroes
   file_dpath: 'Negotiation'
+  type: motivation_or_pitfall
 sections:
   - header_path: "negotiation/list-of-motivations-and-pitfalls"
     header_name: "Motivations and Pitfalls"

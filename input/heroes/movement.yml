@@ -1,6 +1,7 @@
 global:
   source: heroes
   file_dpath: 'Movement'
+  type: movement
 sections:
   - header_path: "combat/movement"
     header_name: "Movement"

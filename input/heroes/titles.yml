@@ -1,6 +1,7 @@
 global:
   source: heroes
   file_dpath: 'Titles'
+  type: title
 sections:
   - header_path: 'titles/1st-echelon-titles'
     header_name: "1st Echelon Titles"

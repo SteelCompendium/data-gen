@@ -1,6 +1,7 @@
 global:
   source: heroes
   file_dpath: 'Kits'
+  type: kit
 sections:
   - header_path: "kits/kits-a-to-z"
     header_name: "Kits"

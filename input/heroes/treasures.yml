@@ -1,6 +1,7 @@
 global:
   source: heroes
   file_dpath: 'Treasures'
+  type: treasure
 sections:
     # Consumables
   - header_path: 'treasures/st-echelon-consumables'

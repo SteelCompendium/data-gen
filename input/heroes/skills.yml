@@ -1,6 +1,7 @@
 global:
   source: heroes
   file_dpath: 'Skills'
+  type: skill
 sections:
   - header_path: "skill-groups"
     header_name: "Skills"

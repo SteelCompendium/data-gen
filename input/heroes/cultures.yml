@@ -1,6 +1,7 @@
 global:
   source: heroes
   file_dpath: 'Cultures'
+  type: culture_benefit
 sections:
   - header_path: "culture-benefits/environment"
     header_name: "Environments"

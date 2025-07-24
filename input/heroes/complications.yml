@@ -1,6 +1,7 @@
 global:
   source: heroes
   file_dpath: 'Complications'
+  type: complication
 sections:
   - header_path: "complications/determine-complication"
     header_name: "Complications"

@@ -1,6 +1,7 @@
 global:
   source: heroes
   file_dpath: 'Perks'
+  type: perk
 sections:
   - header_path: 'crafting-perks'
     header_name: 'Crafting Perks'

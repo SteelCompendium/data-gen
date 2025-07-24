@@ -9,7 +9,6 @@ This is a mess, ill clean it up one day...
     - Looks like there is no github service desk
 
 - [ ] Enhancements for mundane files
-  - Question: should the hero-section extraction use a config like abilities.yml???
   - [ ] frontmatter generation for all files (more than abilities)
     - kit abilities should have a subtype or something?
   - [ ] indexes for resources (other than abilities)

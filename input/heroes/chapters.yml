@@ -1,6 +1,7 @@
 global:
   source: heroes
   file_dpath: 'Chapters'
+  type: chapter
 sections:
 - header_path: introduction
   header_name: Introduction
