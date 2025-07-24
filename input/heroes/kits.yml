@@ -1,0 +1,7 @@
+global:
+  source: heroes
+  file_dpath: 'Kits'
+sections:
+  - header_path: "kits/kits-a-to-z"
+    header_name: "Kits"
+    xpath: "//section[@id='kits']//section[@id='kits-a-to-z']//section[@class='level5']"

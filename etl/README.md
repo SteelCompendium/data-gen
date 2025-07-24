@@ -4,6 +4,10 @@ This is a mess, ill clean it up one day...
 
 ## Things to do before pdf
 
+- [ ] information about where to post bug reports on the site
+  - look into whether its possible to have something liek gitlab issue tracker thingy
+    - Looks like there is no github service desk
+
 - [ ] Enhancements for mundane files
   - Question: should the hero-section extraction use a config like abilities.yml???
   - [ ] frontmatter generation for all files (more than abilities)

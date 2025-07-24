@@ -43,6 +43,13 @@ expand_general config_fpath:
     import yaml
     import sys
 
+    def resovle(field_name, default_val, section, global_data):
+        if section.get(field_name) is not None:
+            return section[field_name]
+        if global_data.get(field_name) is not None:
+            return global_data[field_name]
+        return default_val
+
     # expects: header_path, full_header_name
     def expand_section_metadata(section, global_data):
         header_path = section['header_path']
@@ -87,11 +94,11 @@ expand_general config_fpath:
             **global_data,
             'header_path': header_path,
             'header_name': header_name,
-            'name': section.get('name') or name,
-            'file_dpath': section.get('file_dpath') or file_dpath,
-            'header_id': section.get('header_id') or parts[-1],
-            'xpath': section.get('xpath') or xpath,
-            'taxonomy': section.get('taxonomy') or taxonomy,
+            'name': resovle('name', name, section, global_data),
+            'file_dpath': resovle('file_dpath', file_dpath, section, global_data),
+            'header_id': resovle('header_id', parts[-1], section, global_data),
+            'xpath': resovle('xpath', xpath, section, global_data),
+            'taxonomy': resovle('taxonomy', taxonomy, section, global_data),
             'source': source
         }
         return new_section

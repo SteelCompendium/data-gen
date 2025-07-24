@@ -1,5 +1,6 @@
 global:
   source: heroes
+  file_dpath: "Classes"
 sections:
 - header_path: "censor"
   header_name: "Censor"

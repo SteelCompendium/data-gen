@@ -1,5 +1,6 @@
 global:
   source: heroes
+  file_dpath: 'Abilities'
 sections:
   - header_path: combat/maneuvers
     header_name: Maneuvers

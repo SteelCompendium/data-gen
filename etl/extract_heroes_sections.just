@@ -50,31 +50,29 @@ _expand_and_extract config_fpath html_fpath output_dpath:
 _extract_chapters heroes_html_fpath output_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
-    just extract_heroes_sections _expand_and_extract "{{input_dpath}}/chapters.yml" "{{heroes_html_fpath}}" "{{output_dpath}}/Chapters"
+    just extract_heroes_sections _expand_and_extract "{{input_dpath}}/chapters.yml" "{{heroes_html_fpath}}" "{{output_dpath}}"
 
 _extract_classes heroes_html_fpath output_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
-    just extract_heroes_sections _expand_and_extract "{{input_dpath}}/classes.yml" "{{heroes_html_fpath}}" "{{output_dpath}}/Classes"
+    just extract_heroes_sections _expand_and_extract "{{input_dpath}}/classes.yml" "{{heroes_html_fpath}}" "{{output_dpath}}"
 
 _extract_abilities heroes_html_fpath output_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
-    just extract_heroes_sections _expand_and_extract "{{input_dpath}}/common_abilities.yml" "{{heroes_html_fpath}}" "{{output_dpath}}/Abilities"
+    just extract_heroes_sections _expand_and_extract "{{input_dpath}}/common_abilities.yml" "{{heroes_html_fpath}}" "{{output_dpath}}"
 
 _extract_movement heroes_html_fpath output_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
-    just extract_heroes_sections _expand_and_extract "{{input_dpath}}/movement.yml" "{{heroes_html_fpath}}" "{{output_dpath}}/Movement"
+    just extract_heroes_sections _expand_and_extract "{{input_dpath}}/movement.yml" "{{heroes_html_fpath}}" "{{output_dpath}}"
     #rm "${movement_path}/CanT Exceed Speed.html"
     #rm "${movement_path}/Movement Types.html"
 
 _extract_kits heroes_html_fpath output_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
-    martial_path="{{output_dpath}}/Kits"
-    xpath="//section[@id='kits']//section[@id='kits-a-to-z']//section[@class='level5']"
-    just extract_html_sections extract_section "$martial_path" "$xpath" "{{heroes_html_fpath}}"
+    just extract_heroes_sections _expand_and_extract "{{input_dpath}}/kits.yml" "{{heroes_html_fpath}}" "{{output_dpath}}"
 
 _extract_ancestries heroes_html_fpath output_dpath:
     #!/usr/bin/env bash
