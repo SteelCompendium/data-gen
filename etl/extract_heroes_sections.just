@@ -1,6 +1,18 @@
-#!/usr/bin/env just --justfile
+# Justfile module expected to be named "extract_hero_sections"
+
+##################################################
+# Constants and env vars
+##################################################
 
 log_prefix := "[JUST][extract_html_sections]"
+
+input_dpath := `just _input_dpath` / 'heroes'
+heroes_staging_dpath := `just _staging_dpath` / "heroes"
+sections_staging_dpath := heroes_staging_dpath / "0_sections"
+
+##################################################
+# Public Recipes
+##################################################
 
 run heroes_html_fpath output_dpath:
     echo "Extracting Hero sections from '{{heroes_html_fpath}}'"
@@ -20,27 +32,25 @@ run heroes_html_fpath output_dpath:
     just extract_heroes_sections _extract_titles "{{heroes_html_fpath}}" "{{output_dpath}}"
     just extract_heroes_sections _extract_treasures "{{heroes_html_fpath}}" "{{output_dpath}}"
 
+##################################################
+# Private Recipes
+##################################################
+
+# helper to expand a config and then extract it
+_expand_and_extract config_fpath html_fpath output_dpath:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    mkdir -p "{{output_dpath}}"
+    mkdir -p "{{sections_staging_dpath}}"
+    expanded_config_fpath="{{sections_staging_dpath}}/$(basename "{{config_fpath}}")"
+    cp "{{input_dpath}}/chapters.yml" "$expanded_config_fpath"
+    just extract_section_config expand_general "$expanded_config_fpath"
+    just extract_html_sections extract_sections "$expanded_config_fpath" "{{html_fpath}}" "{{output_dpath}}"
+
 _extract_chapters heroes_html_fpath output_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
-    chapters_path="{{output_dpath}}/Chapters"
-    # delete dir on first one, keep on others
-    just extract_html_sections extract_section "$chapters_path" "//section[@id='introduction']" "{{heroes_html_fpath}}"
-    just extract_html_sections extract_section "$chapters_path" "//section[@id='the-basics']" "{{heroes_html_fpath}}" "skip_delete"
-    just extract_html_sections extract_section "$chapters_path" "//section[@id='making-a-hero']" "{{heroes_html_fpath}}" "skip_delete"
-    just extract_html_sections extract_section "$chapters_path" "//section[@id='ancestries']" "{{heroes_html_fpath}}" "skip_delete"
-    just extract_html_sections extract_section "$chapters_path" "//section[@id='background']" "{{heroes_html_fpath}}" "skip_delete"
-    just extract_html_sections extract_section "$chapters_path" "//section[@id='classes']" "{{heroes_html_fpath}}" "skip_delete"
-    just extract_html_sections extract_section "$chapters_path" "//section[@id='kits']" "{{heroes_html_fpath}}" "skip_delete"
-    just extract_html_sections extract_section "$chapters_path" "//section[@id='perks']" "{{heroes_html_fpath}}" "skip_delete"
-    just extract_html_sections extract_section "$chapters_path" "//section[@id='complications']" "{{heroes_html_fpath}}" "skip_delete"
-    just extract_html_sections extract_section "$chapters_path" "//section[@id='tests']" "{{heroes_html_fpath}}" "skip_delete"
-    just extract_html_sections extract_section "$chapters_path" "//section[@id='combat']" "{{heroes_html_fpath}}" "skip_delete"
-    just extract_html_sections extract_section "$chapters_path" "//section[@id='negotiation']" "{{heroes_html_fpath}}" "skip_delete"
-    just extract_html_sections extract_section "$chapters_path" "//section[@id='downtime-projects']" "{{heroes_html_fpath}}" "skip_delete"
-    just extract_html_sections extract_section "$chapters_path" "//section[@id='rewards']" "{{heroes_html_fpath}}" "skip_delete"
-    just extract_html_sections extract_section "$chapters_path" "//section[@id='gods-and-religion']" "{{heroes_html_fpath}}" "skip_delete"
-    just extract_html_sections extract_section "$chapters_path" "//section[@id='for-the-director']" "{{heroes_html_fpath}}" "skip_delete"
+    just extract_heroes_sections _expand_and_extract "{{input_dpath}}/chapters.yml" "{{heroes_html_fpath}}" "{{output_dpath}}/Chapters"
 
 _extract_classes heroes_html_fpath output_dpath:
     #!/usr/bin/env bash

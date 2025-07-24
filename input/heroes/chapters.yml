@@ -1,0 +1,35 @@
+global:
+  source: heroes
+sections:
+- header_path: introduction
+  header_name: Introduction
+- header_path: the-basics
+  header_name: The Basics
+- header_path: making-a-hero
+  header_name: Making a Hero
+- header_path: ancestries
+  header_name: Ancestries
+- header_path: background
+  header_name: Background
+- header_path: classes
+  header_name: Classes
+- header_path: kits
+  header_name: Kits
+- header_path: perks
+  header_name: Perks
+- header_path: complications
+  header_name: Complications
+- header_path: tests
+  header_name: Tests
+- header_path: combat
+  header_name: Combat
+- header_path: negotiation
+  header_name: Negotiation
+- header_path: downtime-projects
+  header_name: Downtime Projects
+- header_path: rewards
+  header_name: Rewards
+- header_path: gods-and-religion
+  header_name: Gods and Religion
+- header_path: for-the-director
+  header_name: For the Director

@@ -21,10 +21,10 @@ extract_sections config_fpath html_fpath output_dpath:
     KEYS = ["file_dpath","xpath","header_path","name","header_name","type","taxonomy"]
 
     for s in cfg.get("sections", []):
-        file_dpath = s.get("file_dpath")
+        file_dpath = s.get("file_dpath") or ""
         xpath = s.get("xpath")
-        if not file_dpath or not xpath:
-            print(f"Skipping section missing file_dpath/xpath: {s.get('header_path','')}", file=sys.stderr)
+        if not xpath:
+            print(f"Skipping section missing xpath in config: {s.get('header_path','')}", file=sys.stderr)
             continue
 
         ability_dir = out_root / file_dpath

@@ -24,6 +24,7 @@ mod markdown 'markdown.just'
 data_gen_root_dpath := justfile_directory() / ".."
 steel_compendium_root_dpath := data_gen_root_dpath / ".."
 staging_dpath := data_gen_root_dpath / "staging"
+input_dpath := data_gen_root_dpath / "input"
 
 ##################################################
 # Public Recipes
@@ -109,6 +110,14 @@ _staging_dpath:
     set -euo pipefail
     mkdir -p "{{staging_dpath}}"
     realpath "{{staging_dpath}}"
+
+# Prints the absolute path to the staging directory
+[private]
+_input_dpath:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    mkdir -p "{{input_dpath}}"
+    realpath "{{input_dpath}}"
 
 [private]
 _print_title name:
