@@ -1,0 +1,8 @@
+global:
+  source: heroes
+  file_dpath: 'Negotiation'
+sections:
+  - header_path: "negotiation/list-of-motivations-and-pitfalls"
+    header_name: "Motivations and Pitfalls"
+    file_dpath: 'Negotiation/Motivations and Pitfalls'
+    xpath: "//section[@id='list-of-motivations-and-pitfalls']//section[@class='level6']"

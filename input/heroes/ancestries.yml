@@ -1,0 +1,7 @@
+global:
+  source: heroes
+  file_dpath: 'Ancestries'
+sections:
+  - header_path: "ancestries"
+    header_name: "Ancestries"
+    xpath: "//section[@id='ancestries']//section[@class='level2']"

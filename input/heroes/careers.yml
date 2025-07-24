@@ -1,0 +1,7 @@
+global:
+  source: heroes
+  file_dpath: 'Careers'
+sections:
+  - header_path: "careers-a-to-z"
+    header_name: "Careers"
+    xpath: "//section[@id='careers-a-to-z']//section[@class='level4']"

@@ -1,0 +1,7 @@
+global:
+  source: heroes
+  file_dpath: 'Conditions'
+sections:
+  - header_path: "conditions"
+    header_name: "Conditions"
+    xpath: "//section[@id='conditions']//section[@class='level4']"

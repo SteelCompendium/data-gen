@@ -77,22 +77,14 @@ _extract_kits heroes_html_fpath output_dpath:
 _extract_ancestries heroes_html_fpath output_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
-    ancestries_path="{{output_dpath}}/Ancestries"
-    xpath="//section[@id='ancestries']//section[@class='level2']"
-    just extract_html_sections extract_section "$ancestries_path" "$xpath" "{{heroes_html_fpath}}"
-
-    # removes any extra sections
+    just extract_heroes_sections _expand_and_extract "{{input_dpath}}/ancestries.yml" "{{heroes_html_fpath}}" "{{output_dpath}}"
     #rm "${ancestries_path}/Starting Size And Speed.html"
     #rm "${ancestries_path}/On The Origin Of Species.html"
 
 _extract_careers heroes_html_fpath output_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
-    careers_path="{{output_dpath}}/Careers"
-    xpath="//section[@id='careers-a-to-z']//section[@class='level4']"
-    just extract_html_sections extract_section "$careers_path" "$xpath" "{{heroes_html_fpath}}"
-
-    # removes any extra sections
+    just extract_heroes_sections _expand_and_extract "{{input_dpath}}/careers.yml" "{{heroes_html_fpath}}" "{{output_dpath}}"
     # rm "${careers_path}/Career Benefits.html"
     # rm "${careers_path}/Career Questions.html"
     # rm "${careers_path}/Inciting Incident.html"
@@ -100,46 +92,29 @@ _extract_careers heroes_html_fpath output_dpath:
 _extract_cultures heroes_html_fpath output_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
-    cultures_path="{{output_dpath}}/Cultures"
-
-    xpath="//section[@id='culture-benefits']//section[@id='environment']//section[@class='level6']"
-    just extract_html_sections extract_section "$cultures_path/Environments" "$xpath" "{{heroes_html_fpath}}"
-
-    xpath="//section[@id='culture-benefits']//section[@id='organization']//section[@class='level6']"
-    just extract_html_sections extract_section "$cultures_path/Organizations" "$xpath" "{{heroes_html_fpath}}"
-
-    xpath="//section[@id='culture-benefits']//section[@id='upbringing']//section[@class='level6']"
-    just extract_html_sections extract_section "$cultures_path/Upbringing" "$xpath" "{{heroes_html_fpath}}"
+    just extract_heroes_sections _expand_and_extract "{{input_dpath}}/cultures.yml" "{{heroes_html_fpath}}" "{{output_dpath}}"
 
 _extract_complications heroes_html_fpath output_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
-    complications_path="{{output_dpath}}/Complications"
-    xpath="//section[@id='complications']//section[@id='determine-complication']//section[@class='level5']"
-    just extract_html_sections extract_section "$complications_path" "$xpath" "{{heroes_html_fpath}}"
+    just extract_heroes_sections _expand_and_extract "{{input_dpath}}/complications.yml" "{{heroes_html_fpath}}" "{{output_dpath}}"
 
 _extract_conditions heroes_html_fpath output_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
-    conditions_path="{{output_dpath}}/Conditions"
-    xpath="//section[@id='conditions']//section[@class='level4']"
-    just extract_html_sections extract_section "$conditions_path" "$xpath" "{{heroes_html_fpath}}"
+    just extract_heroes_sections _expand_and_extract "{{input_dpath}}/conditions.yml" "{{heroes_html_fpath}}" "{{output_dpath}}"
 
 # Note: the original markdown needed to be adjusted to ensure the callouts arent picked up (which error)
 _extract_skills heroes_html_fpath output_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
-    skills_path="{{output_dpath}}/Skills"
-    xpath="//section[@id='skill-groups']//section[@class='level6']"
-    just extract_html_sections extract_section "$skills_path" "$xpath" "{{heroes_html_fpath}}"
+    just extract_heroes_sections _expand_and_extract "{{input_dpath}}/skills.yml" "{{heroes_html_fpath}}" "{{output_dpath}}"
 
 # Note: the original markdown needed to be adjusted to ensure the callouts arent picked up (which error)
 _extract_negotiation heroes_html_fpath output_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
-    negotiation_path="{{output_dpath}}/Negotiation"
-    xpath="//section[@id='list-of-motivations-and-pitfalls']//section[@class='level6']"
-    just extract_html_sections extract_section "$negotiation_path/Motivations and Pitfalls" "$xpath" "{{heroes_html_fpath}}"
+    just extract_heroes_sections _expand_and_extract "{{input_dpath}}/negotiations.yml" "{{heroes_html_fpath}}" "{{output_dpath}}"
 
 _extract_perks heroes_html_fpath output_dpath:
     #!/usr/bin/env bash

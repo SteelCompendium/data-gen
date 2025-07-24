@@ -1,0 +1,7 @@
+global:
+  source: heroes
+  file_dpath: 'Complications'
+sections:
+  - header_path: "complications/determine-complication"
+    header_name: "Complications"
+    xpath: "//section[@id='complications']//section[@id='determine-complication']//section[@class='level5']"
