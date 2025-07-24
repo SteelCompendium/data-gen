@@ -65,12 +65,7 @@ _extract_abilities heroes_html_fpath output_dpath:
 _extract_movement heroes_html_fpath output_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
-    movement_path="{{output_dpath}}/Movement"
-    xpath="//section[@id='combat']//section[@id='movement']//section[@class='level5']"
-    just extract_html_sections extract_section "$movement_path" "$xpath" "{{heroes_html_fpath}}"
-    xpath="//section[@id='combat']//section[@id='movement-types']//section[@class='level6']"
-    just extract_html_sections extract_section "$movement_path" "$xpath" "{{heroes_html_fpath}}" "skip_delete"
-
+    just extract_heroes_sections _expand_and_extract "{{input_dpath}}/movement.yml" "{{heroes_html_fpath}}" "{{output_dpath}}/Movement"
     #rm "${movement_path}/CanT Exceed Speed.html"
     #rm "${movement_path}/Movement Types.html"
 
