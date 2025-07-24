@@ -6,7 +6,7 @@
 
 #global:
 #  source: heroes
-#  type: ability
+#  type: section
 #sections:
 ## sluggified path of headers
 #- header_path: introduction/1st-level-features/this-is-an-h8-header-8-energy
@@ -44,9 +44,15 @@ expand_general config_fpath:
     import sys
 
     # expects: header_path, full_header_name
-    def expand_ability_metadata(ability, global_data):
-        header_path = ability['header_path']
-        header_name = ability['header_name']
+    def expand_section_metadata(section, global_data):
+        header_path = section['header_path']
+        header_name = section['header_name']
+        if not header_path or not header_name:
+            print(f"Error: missing header_path or header_name: {section}", file=sys.stderr)
+            sys.exit(1)
+
+        print(f"expanding section config: {header_path}", file=sys.stderr)
+
         parts = header_path.split('/')
 
         # capture name and parens
@@ -77,18 +83,18 @@ expand_general config_fpath:
             path_parts[-1] = re.sub(rf'-{re.escape(parens_slug)}$', '', path_parts[-1])
             taxonomy = source + '/' + '/'.join(path_parts)
 
-        new_ability = {
+        new_section = {
             **global_data,
             'header_path': header_path,
             'header_name': header_name,
-            'name': ability.get('name') or name,
-            'file_dpath': ability.get('file_dpath') or file_dpath,
-            'header_id': ability.get('header_id') or parts[-1],
-            'xpath': ability.get('xpath') or xpath,
-            'taxonomy': ability.get('taxonomy') or taxonomy,
+            'name': section.get('name') or name,
+            'file_dpath': section.get('file_dpath') or file_dpath,
+            'header_id': section.get('header_id') or parts[-1],
+            'xpath': section.get('xpath') or xpath,
+            'taxonomy': section.get('taxonomy') or taxonomy,
             'source': source
         }
-        return new_ability
+        return new_section
 
     try:
         with open("{{config_fpath}}", 'r') as f:
@@ -98,7 +104,7 @@ expand_general config_fpath:
         sys.exit(1)
 
     if 'sections' in data and isinstance(data['sections'], list):
-        data['sections'] = [expand_ability_metadata(ability, data['global']) for ability in data['sections']]
+        data['sections'] = [expand_section_metadata(section, data['global']) for section in data['sections']]
 
     with open("{{config_fpath}}", 'w') as f:
         yaml.dump(data, f, sort_keys=False, default_flow_style=False, indent=2)

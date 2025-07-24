@@ -1,0 +1,22 @@
+global:
+  source: heroes
+sections:
+- header_path: "censor"
+  header_name: "Censor"
+- header_path: "conduit"
+  header_name: "Conduit"
+- header_path: "elementalist"
+  header_name: "Elementalist"
+- header_path: "fury"
+  header_name: "Fury"
+  # null gets read into python as `None`
+- header_path: "null"
+  header_name: "Null"
+- header_path: "shadow"
+  header_name: "Shadow"
+- header_path: "tactician"
+  header_name: "Tactician"
+- header_path: "talent"
+  header_name: "Talent"
+- header_path: "troubadour"
+  header_name: "Troubadour"

@@ -43,7 +43,7 @@ _expand_and_extract config_fpath html_fpath output_dpath:
     mkdir -p "{{output_dpath}}"
     mkdir -p "{{sections_staging_dpath}}"
     expanded_config_fpath="{{sections_staging_dpath}}/$(basename "{{config_fpath}}")"
-    cp "{{input_dpath}}/chapters.yml" "$expanded_config_fpath"
+    cp "{{config_fpath}}" "$expanded_config_fpath"
     just extract_section_config expand_general "$expanded_config_fpath"
     just extract_html_sections extract_sections "$expanded_config_fpath" "{{html_fpath}}" "{{output_dpath}}"
 
@@ -55,17 +55,7 @@ _extract_chapters heroes_html_fpath output_dpath:
 _extract_classes heroes_html_fpath output_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
-    classes_path="{{output_dpath}}/Classes"
-    # delete dir on first one, keep on others
-    just extract_html_sections extract_section "$classes_path" "//section[@id='censor']" "{{heroes_html_fpath}}"
-    just extract_html_sections extract_section "$classes_path" "//section[@id='conduit']" "{{heroes_html_fpath}}" "skip_delete"
-    just extract_html_sections extract_section "$classes_path" "//section[@id='elementalist']" "{{heroes_html_fpath}}" "skip_delete"
-    just extract_html_sections extract_section "$classes_path" "//section[@id='fury']" "{{heroes_html_fpath}}" "skip_delete"
-    just extract_html_sections extract_section "$classes_path" "//section[@id='null']" "{{heroes_html_fpath}}" "skip_delete"
-    just extract_html_sections extract_section "$classes_path" "//section[@id='shadow']" "{{heroes_html_fpath}}" "skip_delete"
-    just extract_html_sections extract_section "$classes_path" "//section[@id='tactician']" "{{heroes_html_fpath}}" "skip_delete"
-    just extract_html_sections extract_section "$classes_path" "//section[@id='talent']" "{{heroes_html_fpath}}" "skip_delete"
-    just extract_html_sections extract_section "$classes_path" "//section[@id='troubadour']" "{{heroes_html_fpath}}" "skip_delete"
+    just extract_heroes_sections _expand_and_extract "{{input_dpath}}/classes.yml" "{{heroes_html_fpath}}" "{{output_dpath}}/Classes"
 
 _extract_abilities heroes_html_fpath output_dpath:
     #!/usr/bin/env bash
