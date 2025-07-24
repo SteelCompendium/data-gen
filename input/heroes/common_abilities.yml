@@ -1,0 +1,12 @@
+global:
+  source: heroes
+sections:
+  - header_path: maneuvers
+    header_name: Maneuvers
+    xpath: "//section[@id='combat']//section[@id='maneuvers']//section[@class='level5']"
+  - header_path: main-actions
+    header_name: Main Actions
+    xpath: "//section[@id='combat']//section[@id='main-actions']//section[@class='level5']"
+  - header_path: move-actions
+    header_name: Move Actions
+    xpath: "//section[@id='combat']//section[@id='move-actions']//section[@class='level5']"

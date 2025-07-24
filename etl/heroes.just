@@ -62,7 +62,7 @@ gen_heroes_md_unlinked input_fpath output_dpath:
 
     # Ability Sections: extract out ability sections using abilities.yml config
     just _print_section "Heroes: Extracting ability and feature sections from html"
-    just extract_html_sections extract_sections "$ability_config_fpath" "$html_fpath" "$html_sections_dpath/Abilities"
+    just extract_html_sections extract_sections "$ability_config_fpath" "$html_fpath" "$html_sections_dpath/Abilities" "skip_delete"
 
     # Sections: Convert html sections to md sections
     just _print_section "Heroes: Converting html to md"

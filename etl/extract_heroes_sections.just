@@ -45,7 +45,7 @@ _expand_and_extract config_fpath html_fpath output_dpath:
     expanded_config_fpath="{{sections_staging_dpath}}/$(basename "{{config_fpath}}")"
     cp "{{config_fpath}}" "$expanded_config_fpath"
     just extract_section_config expand_general "$expanded_config_fpath"
-    just extract_html_sections extract_sections "$expanded_config_fpath" "{{html_fpath}}" "{{output_dpath}}"
+    just extract_html_sections extract_sections "$expanded_config_fpath" "{{html_fpath}}" "{{output_dpath}}" "skip_delete"
 
 _extract_chapters heroes_html_fpath output_dpath:
     #!/usr/bin/env bash
@@ -60,10 +60,7 @@ _extract_classes heroes_html_fpath output_dpath:
 _extract_abilities heroes_html_fpath output_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
-    abilities_path="{{output_dpath}}/Abilities"
-    just extract_html_sections extract_section "$abilities_path/Common Maneuvers" "//section[@id='combat']//section[@id='maneuvers']//section[@class='level5']" "{{heroes_html_fpath}}"
-    just extract_html_sections extract_section "$abilities_path/Common Actions" "//section[@id='combat']//section[@id='main-actions']//section[@class='level5']" "{{heroes_html_fpath}}"
-    just extract_html_sections extract_section "$abilities_path/Common Move Actions" "//section[@id='combat']//section[@id='move-actions']//section[@class='level5']" "{{heroes_html_fpath}}"
+    just extract_heroes_sections _expand_and_extract "{{input_dpath}}/common_abilities.yml" "{{heroes_html_fpath}}" "{{output_dpath}}/Abilities"
 
 _extract_movement heroes_html_fpath output_dpath:
     #!/usr/bin/env bash

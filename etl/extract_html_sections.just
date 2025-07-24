@@ -8,7 +8,7 @@ failed_extraction_fpath := source_dir() / "../staging/failed_extractions.txt"
 
 # Given a fully expanded config.yml doc, extract all the sections and apply generic metadata
 # See extract_section_config.just for info on config expectations
-extract_sections config_fpath html_fpath output_dpath:
+extract_sections config_fpath html_fpath output_dpath skip_delete="true":
     #!/usr/bin/env python3
     import yaml, subprocess, tempfile, sys
     from pathlib import Path
@@ -35,7 +35,7 @@ extract_sections config_fpath html_fpath output_dpath:
             yaml.safe_dump(meta, tmp, sort_keys=False)
             meta_path = tmp.name
 
-        subprocess.run(["just", "extract_html_sections", "extract_section", str(ability_dir), xpath, html, "false", meta_path], check=True)
+        subprocess.run(["just", "extract_html_sections", "extract_section", str(ability_dir), xpath, html, "{{skip_delete}}", meta_path], check=True)
 
     print(f"Successfully extracted sections to '{out_root}'")
     print("See failed extractions in staging/failed_extractions.txt")

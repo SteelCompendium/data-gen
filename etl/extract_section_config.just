@@ -51,7 +51,7 @@ expand_general config_fpath:
             print(f"Error: missing header_path or header_name: {section}", file=sys.stderr)
             sys.exit(1)
 
-        print(f"expanding section config: {header_path}", file=sys.stderr)
+        print(f"    Expanding section config: {header_path}", file=sys.stderr)
 
         parts = header_path.split('/')
 
