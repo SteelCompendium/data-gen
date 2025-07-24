@@ -1,0 +1,28 @@
+global:
+  source: heroes
+  file_dpath: 'Perks'
+sections:
+  - header_path: 'crafting-perks'
+    header_name: 'Crafting Perks'
+    xpath: "//section[@id='crafting-perks']//section[@class='level5']"
+    file_dpath: "Perks/Crafting Perks"
+  - header_path: 'exploration-perks'
+    header_name: 'Exploration Perks'
+    xpath: "//section[@id='exploration-perks']//section[@class='level5']"
+    file_dpath: "Perks/Exploration Perks"
+  - header_path: 'interpersonal-perks'
+    header_name: 'Interpersonal Perks'
+    xpath: "//section[@id='interpersonal-perks']//section[@class='level5']"
+    file_dpath: "Perks/Interpersonal Perks"
+  - header_path: 'intrigue-perks'
+    header_name: 'Intrigue Perks'
+    xpath: "//section[@id='intrigue-perks']//section[@class='level5']"
+    file_dpath: "Perks/Intrigue Perks"
+  - header_path: 'lore-perks'
+    header_name: 'Lore Perks'
+    xpath: "//section[@id='lore-perks']//section[@class='level5']"
+    file_dpath: "Perks/Lore Perks"
+  - header_path: 'supernatural-perks'
+    header_name: 'Supernatural Perks'
+    xpath: "//section[@id='supernatural-perks']//section[@class='level5']"
+    file_dpath: "Perks/Supernatural Perks"

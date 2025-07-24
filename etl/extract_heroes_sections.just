@@ -119,68 +119,15 @@ _extract_negotiation heroes_html_fpath output_dpath:
 _extract_perks heroes_html_fpath output_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
-    perks_path="{{output_dpath}}/Perks"
-    xpath="//section[@id='crafting-perks']//section[@class='level5']"
-    just extract_html_sections extract_section "${perks_path}/Crafting Perks" "$xpath" "{{heroes_html_fpath}}"
-    xpath="//section[@id='exploration-perks']//section[@class='level5']"
-    just extract_html_sections extract_section "${perks_path}/Exploration Perks" "$xpath" "{{heroes_html_fpath}}"
-    xpath="//section[@id='interpersonal-perks']//section[@class='level5']"
-    just extract_html_sections extract_section "${perks_path}/Interpersonal Perks" "$xpath" "{{heroes_html_fpath}}"
-    xpath="//section[@id='intrigue-perks']//section[@class='level5']"
-    just extract_html_sections extract_section "${perks_path}/Intrigue Perks" "$xpath" "{{heroes_html_fpath}}"
-    xpath="//section[@id='lore-perks']//section[@class='level5']"
-    just extract_html_sections extract_section "${perks_path}/Lore Perks" "$xpath" "{{heroes_html_fpath}}"
-    xpath="//section[@id='supernatural-perks']//section[@class='level5']"
-    just extract_html_sections extract_section "${perks_path}/Supernatural Perks" "$xpath" "{{heroes_html_fpath}}"
+    just extract_heroes_sections _expand_and_extract "{{input_dpath}}/perks.yml" "{{heroes_html_fpath}}" "{{output_dpath}}"
 
 _extract_titles heroes_html_fpath output_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
-    titles_path="{{output_dpath}}/Titles"
-    xpath="//section[@id='st-echelon-titles']//section[@class='level5']"
-    just extract_html_sections extract_section "${titles_path}/1st Echelon" "$xpath" "{{heroes_html_fpath}}"
-    xpath="//section[@id='nd-echelon-titles']//section[@class='level5']"
-    just extract_html_sections extract_section "${titles_path}/2nd Echelon" "$xpath" "{{heroes_html_fpath}}"
-    xpath="//section[@id='rd-echelon-titles']//section[@class='level5']"
-    just extract_html_sections extract_section "${titles_path}/3rd Echelon" "$xpath" "{{heroes_html_fpath}}"
-    xpath="//section[@id='th-echelon-titles']//section[@class='level5']"
-    just extract_html_sections extract_section "${titles_path}/4th Echelon" "$xpath" "{{heroes_html_fpath}}"
+    just extract_heroes_sections _expand_and_extract "{{input_dpath}}/titles.yml" "{{heroes_html_fpath}}" "{{output_dpath}}"
 
 _extract_treasures heroes_html_fpath output_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
-    treasures_path="{{output_dpath}}/Treasures"
-    
-    # Consumables
-    xpath="//section[@id='st-echelon-consumables']//section[@class='level6']"
-    just extract_html_sections extract_section "${treasures_path}/Consumables/1st Echelon Consumables" "$xpath" "{{heroes_html_fpath}}"
-    xpath="//section[@id='nd-echelon-consumables']//section[@class='level6']"
-    just extract_html_sections extract_section "${treasures_path}/Consumables/2nd Echelon Consumables" "$xpath" "{{heroes_html_fpath}}"
-    xpath="//section[@id='rd-echelon-consumables']//section[@class='level6']"
-    just extract_html_sections extract_section "${treasures_path}/Consumables/3rd Echelon Consumables" "$xpath" "{{heroes_html_fpath}}"
-    xpath="//section[@id='th-echelon-consumables']//section[@class='level6']"
-    just extract_html_sections extract_section "${treasures_path}/Consumables/4th Echelon Consumables" "$xpath" "{{heroes_html_fpath}}"
-
-    # Trinkets
-    xpath="//section[@id='st-echelon-trinkets']//section[@class='level6']"
-    just extract_html_sections extract_section "${treasures_path}/Trinkets/1st Echelon Trinkets" "$xpath" "{{heroes_html_fpath}}"
-    xpath="//section[@id='nd-echelon-trinkets']//section[@class='level6']"
-    just extract_html_sections extract_section "${treasures_path}/Trinkets/2nd Echelon Trinkets" "$xpath" "{{heroes_html_fpath}}"
-    xpath="//section[@id='rd-echelon-trinkets']//section[@class='level6']"
-    just extract_html_sections extract_section "${treasures_path}/Trinkets/3rd Echelon Trinkets" "$xpath" "{{heroes_html_fpath}}"
-    xpath="//section[@id='th-echelon-trinkets']//section[@class='level6']"
-    just extract_html_sections extract_section "${treasures_path}/Trinkets/4th Echelon Trinkets" "$xpath" "{{heroes_html_fpath}}"
-
-    # Leveled Treasures
-    xpath="//section[@id='leveled-armor-treasures']//section[@class='level6']"
-    just extract_html_sections extract_section "${treasures_path}/Leveled Treasures/Leveled Armor Treasures" "$xpath" "{{heroes_html_fpath}}"
-    xpath="//section[@id='leveled-implement-treasures']//section[@class='level6']"
-    just extract_html_sections extract_section "${treasures_path}/Leveled Treasures/Leveled Implement Treasures" "$xpath" "{{heroes_html_fpath}}"
-    xpath="//section[@id='leveled-weapon-treasures']//section[@class='level6']"
-    just extract_html_sections extract_section "${treasures_path}/Leveled Treasures/Leveled Weapon Treasures" "$xpath" "{{heroes_html_fpath}}"
-    xpath="//section[@id='other-leveled-treasures']//section[@class='level6']"
-    just extract_html_sections extract_section "${treasures_path}/Leveled Treasures/Other Leveled Treasures" "$xpath" "{{heroes_html_fpath}}"
-    xpath="//section[@id='artifacts']//section[@class='level6']"
-    just extract_html_sections extract_section "${treasures_path}/Artifacts" "$xpath" "{{heroes_html_fpath}}"
-    
+    just extract_heroes_sections _expand_and_extract "{{input_dpath}}/treasures.yml" "{{heroes_html_fpath}}" "{{output_dpath}}"
 # TODO - downtime stuff

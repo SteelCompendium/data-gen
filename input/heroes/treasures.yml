@@ -1,0 +1,63 @@
+global:
+  source: heroes
+  file_dpath: 'Treasures'
+sections:
+    # Consumables
+  - header_path: 'treasures/st-echelon-consumables'
+    header_name: '1st Echelon Consumables'
+    xpath: "//section[@id='st-echelon-consumables']//section[@class='level6']"
+    file_dpath: "Treasures/Consumables/1st Echelon Consumables"
+  - header_path: 'treasures/nd-echelon-consumables'
+    header_name: '2nd Echelon Consumables'
+    xpath: "//section[@id='nd-echelon-consumables']//section[@class='level6']"
+    file_dpath: "Treasures/Consumables/2nd Echelon Consumables"
+  - header_path: 'treasures/rd-echelon-consumables'
+    header_name: '3rd Echelon Consumables'
+    xpath: "//section[@id='rd-echelon-consumables']//section[@class='level6']"
+    file_dpath: "Treasures/Consumables/3rd Echelon Consumables"
+  - header_path: 'treasures/th-echelon-consumables'
+    header_name: '4th Echelon Consumables'
+    xpath: "//section[@id='th-echelon-consumables']//section[@class='level6']"
+    file_dpath: "Treasures/Consumables/4th Echelon Consumables"
+
+    # Trinkets
+  - header_path: 'treasures/st-echelon-trinkets'
+    header_name: '1st Echelon Trinkets'
+    xpath: "//section[@id='st-echelon-trinkets']//section[@class='level6']"
+    file_dpath: "Treasures/Trinkets/1st Echelon Trinkets"
+  - header_path: 'treasures/nd-echelon-trinkets'
+    header_name: '2nd Echelon Trinkets'
+    xpath: "//section[@id='nd-echelon-trinkets']//section[@class='level6']"
+    file_dpath: "Treasures/Trinkets/2nd Echelon Trinkets"
+  - header_path: 'treasures/rd-echelon-trinkets'
+    header_name: '3rd Echelon Trinkets'
+    xpath: "//section[@id='rd-echelon-trinkets']//section[@class='level6']"
+    file_dpath: "Treasures/Trinkets/3rd Echelon Trinkets"
+  - header_path: 'treasures/th-echelon-trinkets'
+    header_name: '4th Echelon Trinkets'
+    xpath: "//section[@id='th-echelon-trinkets']//section[@class='level6']"
+    file_dpath: "Treasures/Trinkets/4th Echelon Trinkets"
+
+    # Leveled Treasures
+  - header_path: 'treasures/leveled-armor-treasures'
+    header_name: 'Leveled Armor Treasures'
+    xpath: "//section[@id='leveled-armor-treasures']//section[@class='level6']"
+    file_dpath: "Treasures/Leveled Treasures/Leveled Armor Treasures"
+  - header_path: 'treasures/leveled-implement-treasures'
+    header_name: 'Leveled Implement Treasures'
+    xpath: "//section[@id='leveled-implement-treasures']//section[@class='level6']"
+    file_dpath: "Treasures/Leveled Treasures/Leveled Implement Treasures"
+  - header_path: 'treasures/leveled-weapon-treasures'
+    header_name: 'Leveled Weapon Treasures'
+    xpath: "//section[@id='leveled-weapon-treasures']//section[@class='level6']"
+    file_dpath: "Treasures/Leveled Treasures/Leveled Weapon Treasures"
+  - header_path: 'treasures/other-leveled-treasures'
+    header_name: 'Other Leveled Treasures'
+    xpath: "//section[@id='other-leveled-treasures']//section[@class='level6']"
+    file_dpath: "Treasures/Leveled Treasures/Other Leveled Treasures"
+
+  # Artifacts
+  - header_path: 'treasures/artifacts'
+    header_name: 'Artifacts'
+    xpath: "//section[@id='artifacts']//section[@class='level6']"
+    file_dpath: "Treasures/Artifacts"
