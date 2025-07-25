@@ -43,7 +43,8 @@ expand_general config_fpath:
     import yaml
     import sys
 
-    def resovle(field_name, default_val, section, global_data):
+    # when resolving a value: declared_field > global_field > generated_field
+    def resolve(field_name, default_val, section, global_data):
         if section.get(field_name) is not None:
             return section[field_name]
         if global_data.get(field_name) is not None:
@@ -78,7 +79,7 @@ expand_general config_fpath:
         xpath_id_parts = [re.sub(r'^\d+', '', part) for part in parts]
         xpath = "//" + "//".join([f"section[@id='{p}']" for p in xpath_id_parts])
 
-        source = global_data['source'] if global_data['source'] else 'unknown_source'
+        source = resolve('source', 'unknown_source', section, global_data)
 
         # Generate taxonomy
         taxonomy = header_path
@@ -94,12 +95,15 @@ expand_general config_fpath:
             **global_data,
             'header_path': header_path,
             'header_name': header_name,
-            'name': resovle('name', name, section, global_data),
-            'file_dpath': resovle('file_dpath', file_dpath, section, global_data),
-            'header_id': resovle('header_id', parts[-1], section, global_data),
-            'xpath': resovle('xpath', xpath, section, global_data),
-            'taxonomy': resovle('taxonomy', taxonomy, section, global_data),
-            'source': source
+            'name': resolve('name', name, section, global_data),
+            'file_dpath': resolve('file_dpath', file_dpath, section, global_data),
+            'header_id': resolve('header_id', parts[-1], section, global_data),
+            'xpath': resolve('xpath', xpath, section, global_data),
+            'taxonomy': resolve('taxonomy', taxonomy, section, global_data),
+
+            # additional (global, etc) metadata goes here
+            'type': resolve('type', '', section, global_data),
+            'source': source,
         }
         return new_section
 

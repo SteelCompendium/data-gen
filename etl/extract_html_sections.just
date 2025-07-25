@@ -17,7 +17,6 @@ extract_sections config_fpath html_fpath output_dpath skip_delete="true":
     out_root = Path("{{output_dpath}}")
     html = "{{html_fpath}}"
 
-    # TODO - globals? source?
     KEYS = ["file_dpath","xpath","header_path","name","header_name","type","taxonomy"]
 
     for s in cfg.get("sections", []):
