@@ -61,6 +61,7 @@ generate_config headers_fpath ability_yml_fpath:
 # IMPORTANT: abilities (H8s) assume that they each have a "useless" header before them which are ignored. This
 #   may be a problem if there are abilities under features.  If that is the case, I think I will need this code
 #   to ignore H8 as leaves (so that whatever header they are under gets treated as a leaf), but still include them
+# TODO - this source needs to move
 build_ability_config headers_fpath ability_yml_fpath source="mcdm.heroes.v1":
     #!/usr/bin/env python3
 
@@ -137,7 +138,12 @@ build_ability_config headers_fpath ability_yml_fpath source="mcdm.heroes.v1":
                 path_parts.append(kebab_ability_name)
 
                 header_path = "/".join(path_parts)
-                output_abilities.append({'header_path': header_path, 'header_name': ability_name})
+                output_abilities.append({
+                    'header_path': header_path,
+                    'section_name': 'TODO-ability section name',
+                    'item_name': ability_name,
+                    'item_id': to_kebab_case(ability_name)
+                })
 
             path_stack.append(header)
 

@@ -4,37 +4,37 @@ global:
   type: perk
 sections:
   - header_path: 'crafting-perks'
-    header_name: 'Crafting Perks'
+    section_name: 'Crafting Perks'
     xpath: "//section[@id='crafting-perks']//section[@class='level5']"
     file_dpath: "Perks/Crafting Perks"
     type: perk/crafting
 
   - header_path: 'exploration-perks'
-    header_name: 'Exploration Perks'
+    section_name: 'Exploration Perks'
     xpath: "//section[@id='exploration-perks']//section[@class='level5']"
     file_dpath: "Perks/Exploration Perks"
     type: perk/exploration
 
   - header_path: 'interpersonal-perks'
-    header_name: 'Interpersonal Perks'
+    section_name: 'Interpersonal Perks'
     xpath: "//section[@id='interpersonal-perks']//section[@class='level5']"
     file_dpath: "Perks/Interpersonal Perks"
     type: perk/interpersonal
 
   - header_path: 'intrigue-perks'
-    header_name: 'Intrigue Perks'
+    section_name: 'Intrigue Perks'
     xpath: "//section[@id='intrigue-perks']//section[@class='level5']"
     file_dpath: "Perks/Intrigue Perks"
     type: perk/intrigue
 
   - header_path: 'lore-perks'
-    header_name: 'Lore Perks'
+    section_name: 'Lore Perks'
     xpath: "//section[@id='lore-perks']//section[@class='level5']"
     file_dpath: "Perks/Lore Perks"
     type: perk/lore
 
   - header_path: 'supernatural-perks'
-    header_name: 'Supernatural Perks'
+    section_name: 'Supernatural Perks'
     xpath: "//section[@id='supernatural-perks']//section[@class='level5']"
     file_dpath: "Perks/Supernatural Perks"
     type: perk/supernatural

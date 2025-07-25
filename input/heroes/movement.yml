@@ -4,9 +4,9 @@ global:
   type: movement
 sections:
   - header_path: "combat/movement"
-    header_name: "Movement"
+    section_name: "Movement"
     xpath: "//section[@id='combat']//section[@id='movement']//section[@class='level5']"
 
   - header_path: "combat/movement-types"
-    header_name: "Movement Types"
+    section_name: "Movement Types"
     xpath: "//section[@id='combat']//section[@id='movement-types']//section[@class='level6']"

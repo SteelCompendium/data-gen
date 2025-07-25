@@ -51,12 +51,12 @@ expand_general config_fpath:
             return global_data[field_name]
         return default_val
 
-    # expects: header_path, full_header_name
+    # expects: header_path, section_name
     def expand_section_metadata(section, global_data):
         header_path = section['header_path']
-        header_name = section['header_name']
-        if not header_path or not header_name:
-            print(f"Error: missing header_path or header_name: {section}", file=sys.stderr)
+        section_name = section['section_name']
+        if not header_path or not section_name:
+            print(f"Error: missing header_path or section_name: {section}", file=sys.stderr)
             sys.exit(1)
 
         print(f"    Expanding section config: {header_path}", file=sys.stderr)
@@ -64,12 +64,12 @@ expand_general config_fpath:
         parts = header_path.split('/')
 
         # capture name and parens
-        m = re.match(r'^(.*?)\s*\((.*?)\)\s*$', header_name)
+        m = re.match(r'^(.*?)\s*\((.*?)\)\s*$', section_name)
         if m:
             name, parens = m.group(1), m.group(2)
         else:
             # fallback if it doesn’t match the "foo (8 bar)" form
-            name, parens = header_name, ''
+            name, parens = section_name, ''
 
         # Build file path (`s/-/ /g`, fix `1St` capitalization, title case)
         file_path_components = [re.sub(r'(\d+)(St|Nd|Rd|Th)\s', lambda m: m.group(1) + m.group(2).lower()+'-', p.replace('-', ' ').title()) for p in parts[:-1]]
@@ -94,13 +94,15 @@ expand_general config_fpath:
         new_section = {
             **global_data,
             'header_path': header_path,
-            'name': resolve('name', name, section, global_data),
+            'section_name': resolve('section_name', section_name, section, global_data),
             'file_dpath': resolve('file_dpath', file_dpath, section, global_data),
             'xpath': resolve('xpath', xpath, section, global_data),
             'taxonomy': resolve('taxonomy', taxonomy, section, global_data),
+            'item_name': resolve('item_name', None, section, global_data),
+            'item_id': resolve('item_id', None, section, global_data),
 
             # additional (global, etc) metadata goes here
-            'type': resolve('type', '', section, global_data),
+            'type': resolve('type', None, section, global_data),
             'source': source,
         }
         return new_section

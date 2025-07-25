@@ -4,5 +4,5 @@ global:
   type: kit
 sections:
   - header_path: "kits/kits-a-to-z"
-    header_name: "Kits"
+    section_name: "Kits"
     xpath: "//section[@id='kits']//section[@id='kits-a-to-z']//section[@class='level5']"

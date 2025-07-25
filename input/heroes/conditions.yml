@@ -4,5 +4,5 @@ global:
   type: condition
 sections:
   - header_path: "conditions"
-    header_name: "Conditions"
+    section_name: "Conditions"
     xpath: "//section[@id='conditions']//section[@class='level4']"

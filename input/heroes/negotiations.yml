@@ -4,6 +4,6 @@ global:
   type: motivation_or_pitfall
 sections:
   - header_path: "negotiation/list-of-motivations-and-pitfalls"
-    header_name: "Motivations and Pitfalls"
+    section_name: "Motivations and Pitfalls"
     file_dpath: 'Negotiation/Motivations and Pitfalls'
     xpath: "//section[@id='list-of-motivations-and-pitfalls']//section[@class='level6']"

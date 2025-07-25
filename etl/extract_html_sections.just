@@ -18,7 +18,7 @@ extract_sections config_fpath html_fpath output_dpath skip_delete="true":
     html = "{{html_fpath}}"
 
     # These will all get added to the output html as metadata
-    KEYS = ["file_dpath","xpath","header_path","name","header_name","type","taxonomy", "source", "item_id"]
+    KEYS = ["file_dpath","xpath","header_path","section_name","type","taxonomy", "source", "item_id", "item_name"]
 
     for s in cfg.get("sections", []):
         file_dpath = s.get("file_dpath") or ""
@@ -125,10 +125,10 @@ _extract_section xpath src_html_fpath out_dpath metadata_yml_fpath:
 
         # metadata (with item_id)
         section_meta = dict(meta)
-        section_meta['header_name'] = section_meta.get('header_name') or header
+        section_meta['item_name'] = section_meta.get('item_name') or header
         # TODO - this should move to post-extract metadata generation
         section_meta['item_id'] = section_meta.get('item_id') or to_kebab_case(header)
-        section_content = inject_meta(section_content, build_meta_block(meta))
+        section_content = inject_meta(section_content, build_meta_block(section_meta))
 
         # replace <p> header with h6
         section_content = p_header_pattern.sub(r'<h6\g<attrs> class="heading"\g<rest>>\g<inner></h6>', section_content)

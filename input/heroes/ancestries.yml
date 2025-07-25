@@ -4,5 +4,5 @@ global:
   type: ancestry
 sections:
   - header_path: "ancestries"
-    header_name: "Ancestries"
+    section_name: "Ancestries"
     xpath: "//section[@id='ancestries']//section[@class='level2']"

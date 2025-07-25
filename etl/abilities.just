@@ -72,7 +72,7 @@ _gen_metadata md_fpath:
 
     # cost and sub-values + type
     assumed_base_type = 'feature/trait'
-    m = re.match(r'^(.*?)\s*\((.*?)\)\s*$', data['header_name'])
+    m = re.match(r'^(.*?)\s*\((.*?)\)\s*$', data['item_name'])
     if m:
         data["cost"] = m.group(2)
         m = re.match(r'^([0-9+]+)\s+(.+)$', data["cost"].strip())
