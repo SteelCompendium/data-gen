@@ -74,7 +74,8 @@ gen_heroes_md_unlinked input_fpath output_dpath:
     just _print_section "Heroes: Generating ability metadata"
     just abilities gen_metadata "${md_sections_dpath}/Abilities"
 
-    # Sections: generate classification
+    # Sections: generate frontmatter and classification
+    just frontmatter process_all "${md_sections_dpath}"
     # TODO - avoid generating classification until source material (md) is final
     just sc_classification gen_frontmatter "${md_sections_dpath}" "{{input_dpath}}/classification.json"
 

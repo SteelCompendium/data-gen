@@ -93,10 +93,6 @@ _gen_metadata md_fpath:
     assumed_type = '/'.join([assumed_base_type, data['class'], level_feature])
     data['type'] = data.get('type') or assumed_type
 
-    # remove unneeded metadata
-    del data['header_path']
-    del data['xpath']
-
     # Reassemble
     new_fm = yaml.safe_dump(data, sort_keys=False).rstrip()
     new_text = f"---\n{new_fm}\n---\n{body}"
