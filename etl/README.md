@@ -88,11 +88,22 @@ This is a mess, ill clean it up one day...
 
 ### Steel Compendium Decimal Classification
 
+source:section:item
+
 ~~source type (rules, bestiary)~~
-source publisher? (MCDM, 3rd party, homebrew?)
-source (Heroes, Monsters)
-source version (1)
+(1) source publisher? (MCDM, 3rd party, homebrew?)
+(4) source (Heroes, Monsters)
+(2) source version (1)
 :
 delimeter (chapter, abilities, monster type)
-.
-(...)
+:
+item_index
+
+## example
+
+- chapter
+  - `1.1.1:1:001`
+  - `MCDM.Heroes.v1:chapters:introduction`
+- ability
+  - `1.1.1:2.1:001`
+  - `MCDM.Heroes.v1:abilities.censor:bash-in-the-face`

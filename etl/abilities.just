@@ -71,25 +71,26 @@ _gen_metadata md_fpath:
         data, body = {}, text
 
     # cost and sub-values + type
-    assumed_type = 'feature'
+    assumed_base_type = 'feature'
     m = re.match(r'^(.*?)\s*\((.*?)\)\s*$', data['header_name'])
     if m:
         data["cost"] = m.group(2)
         m = re.match(r'^([0-9+]+)\s+(.+)$', data["cost"].strip())
         if m:
             data["cost_amount"], data["cost_resource"] = int(m.group(1)), m.group(2)
-            assumed_type = 'ability'
+            assumed_base_type += '/ability'
 
     # level
-    match = re.search(r'(\d+)(?:st|nd|rd|th)-level-features', data['header_path'])
+    match = re.search(r'((\d+)(?:st|nd|rd|th)-level-feature)s', data['header_path'])
     if match:
-        data['level'] = int(match.group(1))
+        data['level'] = int(match.group(2))
+        level_feature = match.group(1)
 
     # class
-    data['class'] = data['header_path'].split('/')[0].title()
+    data['class'] = data['header_path'].split('/')[0]
 
-    # TODO - I might generate this ahead of time in the config?
     # type
+    assumed_type = '/'.join([assumed_base_type, data['class'], level_feature])
     data['type'] = data.get('type') or assumed_type
 
     # remove unneeded metadata
