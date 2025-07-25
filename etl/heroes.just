@@ -77,6 +77,7 @@ gen_heroes_md_unlinked input_fpath output_dpath:
     # Sections: generate frontmatter and classification
     just frontmatter process_all "${md_sections_dpath}"
     # TODO - avoid generating classification until source material (md) is final
+    rm -f "{{input_dpath}}/classification.json"
     just sc_classification gen_frontmatter "${md_sections_dpath}" "{{input_dpath}}/classification.json"
 
     # Abilities: Generate indexes for abilities (depth=1 so we index the "*-Level Features" dirs too)
