@@ -1,9 +1,5 @@
 # Justfile module expected to be named "extract_section_config"
 
-# TODO
-# - do I want an id generator???
-# - globals should get applied ot the metadata (liek source)
-
 #global:
 #  source: heroes
 #  type: section
@@ -12,16 +8,12 @@
 #- header_path: introduction/1st-level-features/this-is-an-h8-header-8-energy
 ## basename of sluggified path
 #  item_id: this-is-an-h8-header-8-energy
-## Full header name (with parens)
-#  header_name: This is an H8 Header (8 Energy)
 ## File name (header without parens)
-#  name: This is an H8 Header
+#  item_name: This is an H8 Header
 ## destination directory (unsluggified header path)
 #  file_dpath: Introduction/1st-Level Features
 ## xpath query location
 #  xpath: //section[@id='introduction']//section[@id='st-level-features']//section[@id='this-is-an-h8-header-8-energy']
-## header path without the parens
-#  taxonomy: introduction/1st-level-features/this-is-an-h8-header
 
 ##################################################
 # Constants and env vars
