@@ -61,7 +61,7 @@ generate_config headers_fpath ability_yml_fpath:
 # IMPORTANT: abilities (H8s) assume that they each have a "useless" header before them which are ignored. This
 #   may be a problem if there are abilities under features.  If that is the case, I think I will need this code
 #   to ignore H8 as leaves (so that whatever header they are under gets treated as a leaf), but still include them
-build_ability_config headers_fpath ability_yml_fpath source="heroes":
+build_ability_config headers_fpath ability_yml_fpath source="mcdm.heroes.v1":
     #!/usr/bin/env python3
 
     import argparse

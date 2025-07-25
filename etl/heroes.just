@@ -70,7 +70,9 @@ gen_heroes_md_unlinked input_fpath output_dpath:
     just html to_md "$html_sections_dpath" "$md_sections_dpath"
 
     # Abilities: generate metadata
+    just _print_section "Heroes: Generating ability metadata"
     just abilities gen_metadata "${md_sections_dpath}/Abilities"
+    just frontmatter_ids gen "${md_sections_dpath}/Abilities" "{{heroes_staging_dpath}}/ids.json"
 
     # Abilities: Generate indexes for abilities (depth=1 so we index the "*-Level Features" dirs too)
     just abilities gen_index_for_each_dir_in "${md_sections_dpath}/Abilities" "1"

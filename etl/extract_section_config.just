@@ -89,7 +89,7 @@ expand_general config_fpath:
             path_parts = header_path.split('/')
             # remove trailing "-<parens_slug>" if present
             path_parts[-1] = re.sub(rf'-{re.escape(parens_slug)}$', '', path_parts[-1])
-            taxonomy = source + '/' + '/'.join(path_parts)
+            taxonomy = source.replace('.', '/') + '/' + '/'.join(path_parts)
 
         new_section = {
             **global_data,

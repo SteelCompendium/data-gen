@@ -1,5 +1,5 @@
 global:
-  source: heroes
+  source: "mcdm.heroes.v1"
   file_dpath: 'Movement'
   type: movement
 sections:

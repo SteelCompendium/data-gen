@@ -71,14 +71,14 @@ _gen_metadata md_fpath:
         data, body = {}, text
 
     # cost and sub-values + type
-    assumed_base_type = 'feature'
+    assumed_base_type = 'feature/trait'
     m = re.match(r'^(.*?)\s*\((.*?)\)\s*$', data['header_name'])
     if m:
         data["cost"] = m.group(2)
         m = re.match(r'^([0-9+]+)\s+(.+)$', data["cost"].strip())
         if m:
             data["cost_amount"], data["cost_resource"] = int(m.group(1)), m.group(2)
-            assumed_base_type += '/ability'
+            assumed_base_type = 'feature/ability'
 
     # level
     match = re.search(r'((\d+)(?:st|nd|rd|th)-level-feature)s', data['header_path'])

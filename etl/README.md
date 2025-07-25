@@ -4,13 +4,7 @@ This is a mess, ill clean it up one day...
 
 ## Things to do before pdf
 
-- [ ] information about where to post bug reports on the site
-  - look into whether its possible to have something liek gitlab issue tracker thingy
-    - Looks like there is no github service desk
-
 - [ ] Enhancements for mundane files
-  - [ ] frontmatter generation for all files (more than abilities)
-    - kit abilities should have a subtype or something?
   - [ ] indexes for resources (other than abilities)
     - See "compendium/docs/Rules/Draw Steel Heroes - Unlinked.md" for example of custom name (frontmatter title)
     - Basically anything generated from extract_sections should get an index
