@@ -8,7 +8,7 @@
 # Public Recipes
 ##################################################
 
-gen md_dpath state_json_fpath:
+gen_frontmatter md_dpath state_json_fpath:
     #!/usr/bin/env python3
     import json
     import frontmatter
@@ -56,6 +56,7 @@ gen md_dpath state_json_fpath:
         post = frontmatter.load(md_path)
         src = post.get("source")  # e.g. "mcdm.heroes.v1"
         typ = post.get("type")    # e.g. "heroes/introduction/…"
+        itm = post.get("item_id")    # e.g. "heroes/introduction/…"
         if not src or not typ:
             return
 
@@ -75,8 +76,9 @@ gen md_dpath state_json_fpath:
         state["counters"][full_type_path] = cnt
 
         # 4) emit final id
-        post["scdc"] = f"{source_id}:{type_id}:{str(cnt).zfill(2)}"
-        post["scc"] = f"{src}:{typ}:{str(cnt).zfill(2)}"
+        cnt_id = str(cnt).zfill(2)
+        post["scdc"] = f"{source_id}:{type_id}:{cnt_id}"
+        post["scc"] = f"{src}:{'.'.join(type_comps)}:{itm}"
 
         # 5) overwrite the file in place
         md_path.write_text(frontmatter.dumps(post), encoding="utf-8")

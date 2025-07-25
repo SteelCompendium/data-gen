@@ -11,7 +11,7 @@
 ## sluggified path of headers
 #- header_path: introduction/1st-level-features/this-is-an-h8-header-8-energy
 ## basename of sluggified path
-#  header_id: this-is-an-h8-header-8-energy
+#  item_id: this-is-an-h8-header-8-energy
 ## Full header name (with parens)
 #  header_name: This is an H8 Header (8 Energy)
 ## File name (header without parens)
@@ -94,10 +94,8 @@ expand_general config_fpath:
         new_section = {
             **global_data,
             'header_path': header_path,
-            'header_name': header_name,
             'name': resolve('name', name, section, global_data),
             'file_dpath': resolve('file_dpath', file_dpath, section, global_data),
-            'header_id': resolve('header_id', parts[-1], section, global_data),
             'xpath': resolve('xpath', xpath, section, global_data),
             'taxonomy': resolve('taxonomy', taxonomy, section, global_data),
 

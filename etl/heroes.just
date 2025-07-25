@@ -5,6 +5,7 @@
 ##################################################
 
 steel_compendium_dpath := `just _steel_compendium_dpath`
+input_dpath := `just _input_dpath`
 heroes_staging_dpath := `just _staging_dpath` / "heroes"
 heroes_unlinked_dpath := heroes_staging_dpath / "unlinked"
 heroes_linked_dpath := heroes_staging_dpath / "linked"
@@ -72,7 +73,10 @@ gen_heroes_md_unlinked input_fpath output_dpath:
     # Abilities: generate metadata
     just _print_section "Heroes: Generating ability metadata"
     just abilities gen_metadata "${md_sections_dpath}/Abilities"
-    just frontmatter_ids gen "${md_sections_dpath}/Abilities" "{{heroes_staging_dpath}}/ids.json"
+
+    # Sections: generate classification
+    # TODO - avoid generating classification until source material (md) is final
+    just sc_classification gen_frontmatter "${md_sections_dpath}" "{{input_dpath}}/classification.json"
 
     # Abilities: Generate indexes for abilities (depth=1 so we index the "*-Level Features" dirs too)
     just abilities gen_index_for_each_dir_in "${md_sections_dpath}/Abilities" "1"
