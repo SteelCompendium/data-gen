@@ -140,7 +140,6 @@ build_ability_config headers_fpath ability_yml_fpath source="mcdm.heroes.v1":
                 header_path = "/".join(path_parts)
                 output_abilities.append({
                     'header_path': header_path,
-                    'section_name': 'TODO-ability section name',
                     'item_name': ability_name,
                     'item_id': to_kebab_case(ability_name)
                 })

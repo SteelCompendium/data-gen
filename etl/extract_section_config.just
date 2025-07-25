@@ -51,25 +51,16 @@ expand_general config_fpath:
             return global_data[field_name]
         return default_val
 
-    # expects: header_path, section_name
+    # expects: header_path
     def expand_section_metadata(section, global_data):
         header_path = section['header_path']
-        section_name = section['section_name']
-        if not header_path or not section_name:
-            print(f"Error: missing header_path or section_name: {section}", file=sys.stderr)
+        if not header_path :
+            print(f"Error: missing header_path: {section}", file=sys.stderr)
             sys.exit(1)
 
         print(f"    Expanding section config: {header_path}", file=sys.stderr)
 
         parts = header_path.split('/')
-
-        # capture name and parens
-        m = re.match(r'^(.*?)\s*\((.*?)\)\s*$', section_name)
-        if m:
-            name, parens = m.group(1), m.group(2)
-        else:
-            # fallback if it doesn’t match the "foo (8 bar)" form
-            name, parens = section_name, ''
 
         # Build file path (`s/-/ /g`, fix `1St` capitalization, title case)
         file_path_components = [re.sub(r'(\d+)(St|Nd|Rd|Th)\s', lambda m: m.group(1) + m.group(2).lower()+'-', p.replace('-', ' ').title()) for p in parts[:-1]]
@@ -84,7 +75,6 @@ expand_general config_fpath:
         new_section = {
             **global_data,
             'header_path': header_path,
-            'section_name': resolve('section_name', section_name, section, global_data),
             'file_dpath': resolve('file_dpath', file_dpath, section, global_data),
             'xpath': resolve('xpath', xpath, section, global_data),
             'item_name': resolve('item_name', None, section, global_data),
