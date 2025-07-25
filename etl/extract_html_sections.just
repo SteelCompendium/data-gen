@@ -18,7 +18,7 @@ extract_sections config_fpath html_fpath output_dpath skip_delete="true":
     html = "{{html_fpath}}"
 
     # These will all get added to the output html as metadata
-    KEYS = ["file_dpath","xpath","header_path","section_name","type","taxonomy", "source", "item_id", "item_name"]
+    KEYS = ["file_dpath","xpath","header_path","section_name","type", "source", "item_id", "item_name"]
 
     for s in cfg.get("sections", []):
         file_dpath = s.get("file_dpath") or ""

@@ -81,23 +81,12 @@ expand_general config_fpath:
 
         source = resolve('source', 'unknown_source', section, global_data)
 
-        # Generate taxonomy
-        taxonomy = header_path
-        if parens:
-            parens_slug = re.sub(r'[^a-z0-9]+', '-', parens.lower()).strip('-')
-            print(parens_slug)
-            path_parts = header_path.split('/')
-            # remove trailing "-<parens_slug>" if present
-            path_parts[-1] = re.sub(rf'-{re.escape(parens_slug)}$', '', path_parts[-1])
-            taxonomy = source.replace('.', '/') + '/' + '/'.join(path_parts)
-
         new_section = {
             **global_data,
             'header_path': header_path,
             'section_name': resolve('section_name', section_name, section, global_data),
             'file_dpath': resolve('file_dpath', file_dpath, section, global_data),
             'xpath': resolve('xpath', xpath, section, global_data),
-            'taxonomy': resolve('taxonomy', taxonomy, section, global_data),
             'item_name': resolve('item_name', None, section, global_data),
             'item_id': resolve('item_id', None, section, global_data),
 

@@ -4,6 +4,9 @@ This is a mess, ill clean it up one day...
 
 ## Things to do before pdf
 
+- [ ] classification
+  - The ids (count) increment on every run
+
 - [ ] Enhancements for mundane files
   - [ ] indexes for resources (other than abilities)
     - See "compendium/docs/Rules/Draw Steel Heroes - Unlinked.md" for example of custom name (frontmatter title)
