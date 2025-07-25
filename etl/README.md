@@ -6,17 +6,14 @@ This is a mess, ill clean it up one day...
 
 - [ ] classification
   - The ids (count) increment on every run
+  - reset the count on every run?
+    - theoretically okay?  Might need an override file...? would get complicated if hundreds of creatures need an off-by-one adjustment
 
 - [ ] Enhancements for mundane files
   - [ ] indexes for resources (other than abilities)
     - See "compendium/docs/Rules/Draw Steel Heroes - Unlinked.md" for example of custom name (frontmatter title)
     - Basically anything generated from extract_sections should get an index
       - Before this happens, that all needs frontmatter generation
-  - [ ] More metadata/frontmatter in abilities
-    - [ ] add some kind of UUID (`book.type.hash` or something) 
-      - Fantasy Grounds needs an id in form `id-00001` and it doesnt support migrations afaik
-        - Because of this, I think we will need id override mapping support (if you find X, ignore and give id Y)
-      - dewy decimal system thing (monster book has more than 10 types of creatures)
 
 - [ ] auto-linking 
   - Check index files to verify they link

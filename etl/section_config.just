@@ -1,4 +1,4 @@
-# Justfile module expected to be named "extract_section_config"
+# Justfile module expected to be named "section_config"
 
 #global:
 #  source: heroes

@@ -7,7 +7,7 @@ failed_extraction_fpath := source_dir() / "../staging/failed_extractions.txt"
 ##################################################
 
 # Given a fully expanded config.yml doc, extract all the sections and apply generic metadata
-# See extract_section_config.just for info on config expectations
+# See section_config.just for info on config expectations
 extract_sections config_fpath html_fpath output_dpath skip_delete="true":
     #!/usr/bin/env python3
     import yaml, subprocess, tempfile, sys

@@ -51,7 +51,7 @@ generate_config headers_fpath ability_yml_fpath:
     #!/usr/bin/env bash
     set -euo pipefail
     just -f "{{source_file()}}" build_ability_config "{{headers_fpath}}" "{{ability_yml_fpath}}"
-    just extract_section_config expand_general "{{ability_yml_fpath}}"
+    just section_config expand_general "{{ability_yml_fpath}}"
 
 ##################################################
 # Private Recipes

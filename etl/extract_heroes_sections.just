@@ -45,6 +45,6 @@ _expand_and_extract config_fpath html_fpath output_dpath:
     mkdir -p "{{sections_staging_dpath}}"
     expanded_config_fpath="{{sections_staging_dpath}}/$(basename "{{config_fpath}}")"
     cp "{{config_fpath}}" "$expanded_config_fpath"
-    just extract_section_config expand_general "$expanded_config_fpath"
+    just section_config expand_general "$expanded_config_fpath"
     just extract_html_sections extract_sections "$expanded_config_fpath" "{{html_fpath}}" "{{output_dpath}}" "skip_delete"
 
