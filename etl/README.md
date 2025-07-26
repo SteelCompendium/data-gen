@@ -4,19 +4,26 @@ This is a mess, ill clean it up one day...
 
 ## Things to do before pdf
 
-- add "feature_type" to frontmatter of abilities
+- [ ] metadata: there is metadata being generated all over the place
+  - extract_html_section makes the item_name and item_id (id should be moved out)
+  - Some is generated in section_config
+  - abilities and ability_config is its own mess
+  - frontmatter only deletes right now?
+
+- [ ] add "feature_type" to frontmatter of abilities
 
 - [ ] classification
-  - The ids (count) increment on every run
-  - reset the count on every run?
-    - theoretically okay?  Might need an override file...? would get complicated if hundreds of creatures need an off-by-one adjustment
+  - Bug: The ids (count) increment on every run 
+    - Need a way to preserve the count between runs
+    - reset the count on every run?
+      - theoretically okay?  Might need an override file...? would get complicated if hundreds of creatures need an off-by-one adjustment
 
 - [ ] Enhancements for mundane files
-  - [ ] unique frontmatter generation for each section (chapter=chapter_number)
-  - [ ] indexes for resources (other than abilities)
-    - See "compendium/docs/Rules/Draw Steel Heroes - Unlinked.md" for example of custom name (frontmatter title)
-    - Basically anything generated from extract_sections should get an index
-      - Before this happens, that all needs frontmatter generation
+  - [ ] unique frontmatter generation for each section (chapter=chapter_number) 
+  - [ ] Add front matter to index tables
+ 
+- [ ] Custom index name for mkdocs?
+  - See "compendium/docs/Rules/Draw Steel Heroes - Unlinked.md" for example of custom name (frontmatter title)
 
 - [ ] auto-linking 
   - Check index files to verify they link

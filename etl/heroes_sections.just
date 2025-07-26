@@ -16,28 +16,23 @@ sections_staging_dpath := heroes_staging_dpath / "0_sections"
 # TODO - Negotiation/Motivations adn Pitfalls not included
 section_list := '"Ancestries" "Careers" "Chapters" "Classes" "Complications" "Conditions" "Cultures" "Kits" "Movement" "Perks" "Skills" "Titles" "Treasures"'
 
+# abilities.yml missing
+section_config_yml_filenames := '"chapters.yml" "classes.yml" "common_abilities.yml" "movement.yml" "kits.yml" "ancestries.yml" "careers.yml" "cultures.yml" "complications.yml" "conditions.yml" "skills.yml" "negotiations.yml" "perks.yml" "titles.yml" "treasures.yml"'
+
 ##################################################
 # Public Recipes
 ##################################################
 
+# TODO - add downtime stuff
+# Extracts items from html using section_config.yml files
 extract heroes_html_fpath output_dpath:
+    #!/usr/bin/env bash
+    set -euo pipefail
     echo "Extracting Hero sections from '{{heroes_html_fpath}}'"
-    just heroes_sections _expand_and_extract "{{input_dpath}}/chapters.yml" "{{heroes_html_fpath}}" "{{output_dpath}}"
-    just heroes_sections _expand_and_extract "{{input_dpath}}/classes.yml" "{{heroes_html_fpath}}" "{{output_dpath}}"
-    just heroes_sections _expand_and_extract "{{input_dpath}}/common_abilities.yml" "{{heroes_html_fpath}}" "{{output_dpath}}"
-    just heroes_sections _expand_and_extract "{{input_dpath}}/movement.yml" "{{heroes_html_fpath}}" "{{output_dpath}}"
-    just heroes_sections _expand_and_extract "{{input_dpath}}/kits.yml" "{{heroes_html_fpath}}" "{{output_dpath}}"
-    just heroes_sections _expand_and_extract "{{input_dpath}}/ancestries.yml" "{{heroes_html_fpath}}" "{{output_dpath}}"
-    just heroes_sections _expand_and_extract "{{input_dpath}}/careers.yml" "{{heroes_html_fpath}}" "{{output_dpath}}"
-    just heroes_sections _expand_and_extract "{{input_dpath}}/cultures.yml" "{{heroes_html_fpath}}" "{{output_dpath}}"
-    just heroes_sections _expand_and_extract "{{input_dpath}}/complications.yml" "{{heroes_html_fpath}}" "{{output_dpath}}"
-    just heroes_sections _expand_and_extract "{{input_dpath}}/conditions.yml" "{{heroes_html_fpath}}" "{{output_dpath}}"
-    just heroes_sections _expand_and_extract "{{input_dpath}}/skills.yml" "{{heroes_html_fpath}}" "{{output_dpath}}"
-    just heroes_sections _expand_and_extract "{{input_dpath}}/negotiations.yml" "{{heroes_html_fpath}}" "{{output_dpath}}"
-    just heroes_sections _expand_and_extract "{{input_dpath}}/perks.yml" "{{heroes_html_fpath}}" "{{output_dpath}}"
-    just heroes_sections _expand_and_extract "{{input_dpath}}/titles.yml" "{{heroes_html_fpath}}" "{{output_dpath}}"
-    just heroes_sections _expand_and_extract "{{input_dpath}}/treasures.yml" "{{heroes_html_fpath}}" "{{output_dpath}}"
-    # TODO - downtime stuff
+    configs=( {{section_config_yml_filenames}} )
+    for config in "${configs[@]}"; do
+        just heroes_sections _expand_and_extract "{{input_dpath}}/${config}" "{{heroes_html_fpath}}" "{{output_dpath}}"
+    done
 
 # Generates an index.md file for each section
 gen_indexes root_dpath:
