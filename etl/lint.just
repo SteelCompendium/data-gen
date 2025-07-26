@@ -7,12 +7,8 @@ markdown md_src_dpath:
     echo >&2 "    MD source: '{{md_src_dpath}}'"
     mdformat --version
 
-    # convert everything to UTF-8
-    find "{{md_src_dpath}}" -type f -name '*.md' -exec sh -c '
-      for file do
-        # Convert "file" in place, making a backup with a .bak extension
-        echo "$file"
-        iconv -f UTF-8 -t UTF-8//TRANSLIT "$file" -o "$file".temp && mv "$file".temp "$file"
-      done
-    ' sh {} +
+    find "{{md_src_dpath}}" -type f -name '*.md' | while read -r fpath; do
+        echo "    $fpath"
+        iconv -f UTF-8 -t UTF-8//TRANSLIT "$fpath" -o "$fpath".temp && mv "$fpath".temp "$fpath"
+    done
     mdformat "{{md_src_dpath}}"

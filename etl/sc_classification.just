@@ -80,6 +80,7 @@ gen_frontmatter md_dpath state_json_fpath:
         cnt_id = str(cnt).zfill(2)
         post["scdc"] = f"{source_id}:{type_id}:{cnt_id}"
         post["scc"] = f"{src}:{'.'.join(type_comps)}:{itm}"
+        post["item_index"] = f"{cnt_id}"
 
         # 5) overwrite the file in place
         md_path.write_text(frontmatter.dumps(post), encoding="utf-8")

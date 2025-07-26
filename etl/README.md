@@ -4,6 +4,8 @@ This is a mess, ill clean it up one day...
 
 ## Things to do before pdf
 
+- add "feature_type" to frontmatter of abilities
+
 - [ ] classification
   - The ids (count) increment on every run
   - reset the count on every run?
