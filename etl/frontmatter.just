@@ -50,3 +50,24 @@ process md_fpath:
     new_fm = yaml.safe_dump(data, sort_keys=False).rstrip()
     new_text = f"---\n{new_fm}\n---\n{body}"
     path.write_text(new_text, encoding="utf-8")
+
+sort md_fpath:
+    #!/usr/bin/env python3
+    import re, sys, pathlib
+    import yaml
+
+    path = pathlib.Path('{{md_fpath}}')
+    text = path.read_text(encoding="utf-8")
+
+    # Split frontmatter & body
+    m = re.match(r'^---\s*\n(.*?)\n---\s*\n?(.*)$', text, flags=re.S)
+    if m:
+        fm_text, body = m.group(1), m.group(2)
+        data = yaml.safe_load(fm_text) or {}
+    else:
+        data, body = {}, text
+
+    # Reassemble, sorted
+    new_fm = yaml.safe_dump(data, sort_keys=True).rstrip()
+    new_text = f"---\n{new_fm}\n---\n{body}"
+    path.write_text(new_text, encoding="utf-8")
