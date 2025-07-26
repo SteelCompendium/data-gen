@@ -1,6 +1,6 @@
 # Justfile module expected to be named "section_indexing"
 
-# TODO - this file should merge with extract_heroes_sections
+# TODO - this file should merge with heroes_sections
 # TODO - frontmatter gen should also be in here?
 
 ##################################################
@@ -21,7 +21,7 @@ gen_all_sections root_dpath:
     # TODO - I could spell all these out, but I think I should connect it to the section.yml files?
     sections=( {{section_list}} )
     for section in "${sections[@]}"; do
-        just index gen "{{root_dpath}}/${section}" "{{root_dpath}}/${section}/Index.md" "file_name"
+        just index gen "{{root_dpath}}/${section}" "{{root_dpath}}/${section}/Index.md" "file_name" "$section"
     done
 
 ##################################################
