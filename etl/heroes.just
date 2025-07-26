@@ -59,7 +59,7 @@ gen_heroes_md_unlinked input_fpath output_dpath:
     # Sections: extract out sections using html xpath
     just _print_section "Heroes: Extracting hero sections"
     html_sections_dpath="{{heroes_staging_dpath}}/2_html_sections"
-    just extract_heroes_sections run "$html_fpath" "$html_sections_dpath"
+    just heroes_sections extract "$html_fpath" "$html_sections_dpath"
 
     # Ability Sections: extract out ability sections using abilities.yml config
     just _print_section "Heroes: Extracting ability and feature sections from html"
@@ -83,7 +83,7 @@ gen_heroes_md_unlinked input_fpath output_dpath:
     # Abilities: Generate indexes for abilities (depth=1 so we index the "*-Level Features" dirs too)
     just abilities gen_index_for_each_dir_in "${md_sections_dpath}/Abilities" "1"
     # Sections: Generate indexes
-    just section_indexing gen_all_sections "${md_sections_dpath}"
+    just heroes_sections gen_indexes "${md_sections_dpath}"
 
     # Assemble all markdown together for final formatting, linking, etc
     preformatted_dpath="{{heroes_staging_dpath}}/7_preformatted"

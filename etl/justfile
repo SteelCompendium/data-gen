@@ -2,23 +2,24 @@
 # Modules
 ##################################################
 
+# Top-level
 mod heroes 'heroes.just'
 mod monsters 'monsters.just'
 mod adventures 'adventures.just'
 mod unified 'unified.just'
 
+# utils
 mod abilities 'abilities.just'
 mod ability_config 'ability_config.just'
-mod extract_heroes_sections 'extract_heroes_sections.just'
 mod extract_html_sections 'extract_html_sections.just'
 mod frontmatter 'frontmatter.just'
+mod heroes_sections 'heroes_sections.just'
 mod html 'html.just'
 mod index 'index.just'
 mod lint 'lint.just'
 mod markdown 'markdown.just'
 mod sc_classification 'sc_classification.just'
 mod section_config 'section_config.just'
-mod section_indexing 'section_indexing.just'
 
 ##################################################
 # Constants and env vars
