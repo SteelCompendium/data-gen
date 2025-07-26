@@ -39,10 +39,6 @@ extract heroes_html_fpath output_dpath:
     just heroes_sections _expand_and_extract "{{input_dpath}}/treasures.yml" "{{heroes_html_fpath}}" "{{output_dpath}}"
     # TODO - downtime stuff
 
-##################################################
-# Public Recipes
-##################################################
-
 # Generates an index.md file for each section
 gen_indexes root_dpath:
     #!/usr/bin/env bash

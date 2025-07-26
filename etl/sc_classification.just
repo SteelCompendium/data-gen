@@ -1,4 +1,4 @@
-# Justfile module expected to be named "frontmatter_ids"
+# Justfile module expected to be named "sc_classification"
 
 ##################################################
 # Constants and env vars
@@ -8,6 +8,7 @@
 # Public Recipes
 ##################################################
 
+# generates classification fields in the frontmatter of all markdown files in the directory (recursive)
 gen_frontmatter md_dpath state_json_fpath:
     #!/usr/bin/env python3
     import json
