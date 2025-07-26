@@ -82,6 +82,8 @@ gen_heroes_md_unlinked input_fpath output_dpath:
 
     # Abilities: Generate indexes for abilities (depth=1 so we index the "*-Level Features" dirs too)
     just abilities gen_index_for_each_dir_in "${md_sections_dpath}/Abilities" "1"
+    # Sections: Generate indexes
+    just section_indexing gen_all_sections "${md_sections_dpath}"
 
     # Assemble all markdown together for final formatting, linking, etc
     preformatted_dpath="{{heroes_staging_dpath}}/7_preformatted"

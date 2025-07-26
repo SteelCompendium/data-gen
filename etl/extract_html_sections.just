@@ -109,34 +109,34 @@ _extract_section xpath src_html_fpath out_dpath metadata_yml_fpath:
         re.DOTALL
     )
 
-    # Find sections
-    sections = tree.xpath("{{xpath}}")
+    # Find items
+    items = tree.xpath("{{xpath}}")
 
-    for section in sections:
+    for item in items:
         # header text or first paragraph as fallback
-        header = section.xpath('.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::h7 or self::h8 or self::p]/text()')
-        header = (header[0] if header else "section").title()
+        header = item.xpath('.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::h7 or self::h8 or self::p]/text()')
+        header = (header[0] if header else "item").title()
 
         filename = re.sub(r'\s*\(.*\)', '', ' '.join(header.split()))
         filename = filename.replace("’", "").replace("'", "").replace("…", "")
         filename = os.path.join("{{out_dpath}}", filename) + ".html"
 
-        section_content = etree.tostring(section, pretty_print=False, method="html").decode('utf-8')
+        item_content = etree.tostring(item, pretty_print=False, method="html").decode('utf-8')
 
         # metadata (with item_id)
-        section_meta = dict(meta)
-        section_meta['item_name'] = section_meta.get('item_name') or header
+        item_meta = dict(meta)
+        item_meta['item_name'] = item_meta.get('item_name') or header
         # TODO - this should move to post-extract metadata generation
-        section_meta['item_id'] = section_meta.get('item_id') or to_kebab_case(header)
-        section_content = inject_meta(section_content, build_meta_block(section_meta))
+        item_meta['item_id'] = item_meta.get('item_id') or to_kebab_case(header)
+        item_content = inject_meta(item_content, build_meta_block(item_meta))
 
         # replace <p> header with h6
-        section_content = p_header_pattern.sub(r'<h6\g<attrs> class="heading"\g<rest>>\g<inner></h6>', section_content)
+        item_content = p_header_pattern.sub(r'<h6\g<attrs> class="heading"\g<rest>>\g<inner></h6>', item_content)
 
         with open(filename, 'w', encoding='utf-8') as f_out:
-            f_out.write(section_content)
+            f_out.write(item_content)
 
-    print(f'Extracted {len(sections)} sections.')
-    if len(sections) == 0:
+    print(f'Extracted {len(items)} items.')
+    if len(items) == 0:
         with open("{{failed_extraction_fpath}}", 'a', encoding='utf-8') as f_out:
             f_out.write("{{xpath}}\n")
