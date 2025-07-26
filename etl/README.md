@@ -10,6 +10,7 @@ This is a mess, ill clean it up one day...
     - theoretically okay?  Might need an override file...? would get complicated if hundreds of creatures need an off-by-one adjustment
 
 - [ ] Enhancements for mundane files
+  - [ ] unique frontmatter generation for each section (chapter=chapter_number)
   - [ ] indexes for resources (other than abilities)
     - See "compendium/docs/Rules/Draw Steel Heroes - Unlinked.md" for example of custom name (frontmatter title)
     - Basically anything generated from extract_sections should get an index

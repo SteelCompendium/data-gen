@@ -19,6 +19,11 @@ gen to_index_dpath output_fpath space_separated_columns="file_name" title="":
 
     echo >&2 "    Index generation: '{{to_index_dpath}}'"
     echo >&2 "    Index file: '{{output_fpath}}'"
+    if [ ! -d "{{to_index_dpath}}" ]; then
+        echo >&2 "    [WARNING] Cannot generate index: missing parent dpath '{{to_index_dpath}}'"
+        exit
+    fi
+
     dir="{{to_index_dpath}}"
     out="{{output_fpath}}"
 

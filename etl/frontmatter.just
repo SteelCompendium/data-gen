@@ -8,6 +8,7 @@
 # Public Recipes
 ##################################################
 
+# processes the frontmatter for all markdown files in a directory
 process_all md_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
@@ -15,6 +16,7 @@ process_all md_dpath:
         just frontmatter process "$fpath"
     done
 
+# Processes the frontmatter of a markdown file. Standard, common markdown edits.
 process md_fpath:
     #!/usr/bin/env python3
     import re, sys, pathlib

@@ -21,27 +21,8 @@ gen_all_sections root_dpath:
     # TODO - I could spell all these out, but I think I should connect it to the section.yml files?
     sections=( {{section_list}} )
     for section in "${sections[@]}"; do
-        just section_indexing gen_index "{{root_dpath}}/${section}"
+        just index gen "{{root_dpath}}/${section}" "{{root_dpath}}/${section}/Index.md" "file_name"
     done
-
-# depth=0 means only the dirs in the dpath
-# depth=1 means nested children (one-level) are included as well
-gen_index md_dpath depth="0":
-    #!/usr/bin/env bash
-    set -euo pipefail
-    just _print_section "Generating indexes"
-    echo >&2 "    Parent dpath: '{{md_dpath}}'"
-    echo >&2
-
-    if [ ! -d "{{md_dpath}}" ]; then
-        echo >&2 "    [WARNING] Cannot generate index: missing parent dpath '{{md_dpath}}'"
-        exit
-    fi
-
-    to_index="{{md_dpath}}"
-    index_fpath="${to_index}/Index.md"
-    title="$(basename "$to_index")"
-    just index gen "$to_index" "$index_fpath" "file_name" "$title"
 
 ##################################################
 # Private Recipes
