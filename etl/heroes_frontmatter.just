@@ -25,6 +25,28 @@ generate md_dpath:
     from pathlib import Path
     import frontmatter
 
+    def generate_for_abilities(rel_path: Path, metadata: dict, body: str) -> dict:
+        # cost and sub-values + type
+        assumed_base_type = 'feature/trait'
+        m = re.match(r'^(.*?)\s*\((.*?)\)\s*$', metadata['item_name'])
+        if m:
+            metadata["cost"] = m.group(2)
+            m = re.match(r'^([0-9+]+)\s+(.+)$', metadata["cost"].strip())
+            if m:
+                metadata["cost_amount"], metadata["cost_resource"] = int(m.group(1)), m.group(2)
+                assumed_base_type = 'feature/ability'
+
+        # level
+        match = re.search(r'((\d+)(?:st|nd|rd|th)-level-feature)s', metadata['header_path'])
+        if match:
+            metadata['level'] = int(match.group(2))
+            level_feature = match.group(1)
+
+        # class
+        metadata['class'] = metadata['header_path'].split('/')[0]
+
+        return metadata
+
     def generate_for_chapters(rel_path: Path, metadata: dict, body: str) -> dict:
         return {"chapter_num": int(metadata["item_index"])}
 
@@ -45,6 +67,7 @@ generate md_dpath:
 
     # TODO - make more metadata generators for different types when I have data
     DISPATCH = {
+        'Abilities': generate_for_abilities,
         'Chapters': generate_for_chapters,
         'Titles': generate_for_titles,
     }

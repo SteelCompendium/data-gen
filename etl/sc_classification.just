@@ -9,6 +9,8 @@
 ##################################################
 
 # generates classification fields in the frontmatter of all markdown files in the directory (recursive)
+# generates frontmatter `scdc`, `scc`, and `item_index`
+# Needs frontmatter `type`, `source`, and `item_id`
 gen_frontmatter md_dpath state_json_fpath:
     #!/usr/bin/env python3
     import json

@@ -138,10 +138,24 @@ build_ability_config headers_fpath ability_yml_fpath source="mcdm.heroes.v1":
                 path_parts.append(kebab_ability_name)
 
                 header_path = "/".join(path_parts)
+
+                # TODO - idk if I like this here, but `type` needs to be in metadata before classification
+                # type is generated here because its needed for classification
+                base_type = 'feature/trait'
+                m = re.match(r'^(.*?)\s*\(([0-9+]+)\s+(.+)\)\s*$', ability_name)
+                if m:
+                    base_type = 'feature/ability'
+                clazz = header_path.split('/')[0]
+                match = re.search(r'((\d+)(?:st|nd|rd|th)-level-feature)s', header_path)
+                if match:
+                    level_feature = match.group(1)
+                type = '/'.join([base_type, clazz, level_feature])
+
                 output_abilities.append({
                     'header_path': header_path,
                     'item_name': ability_name,
-                    'item_id': to_kebab_case(ability_name)
+                    'item_id': to_kebab_case(ability_name),
+                    'type': type,
                 })
 
             path_stack.append(header)

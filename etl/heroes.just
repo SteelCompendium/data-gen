@@ -70,17 +70,14 @@ gen_heroes_md_unlinked input_fpath output_dpath:
     md_sections_dpath="{{heroes_staging_dpath}}/3_md_sections"
     just html to_md "$html_sections_dpath" "$md_sections_dpath"
 
-    # Abilities: generate metadata
-    just _print_section "Heroes: Generating ability metadata"
-    just abilities gen_metadata "${md_sections_dpath}/Abilities"
-
     # Sections: generate frontmatter and classification
-    just frontmatter process_all "${md_sections_dpath}"
+    just _print_section "Heroes: Generating metadata (frontmatter)"
     # TODO - avoid generating classification.json until source material (md) is final
     rm -f "{{input_dpath}}/classification.json"
-    # TODO - merge these two?
+    # TODO - merge these three?
     just sc_classification gen_frontmatter "${md_sections_dpath}" "{{input_dpath}}/classification.json"
     just heroes_frontmatter generate "${md_sections_dpath}"
+    just frontmatter process_all "${md_sections_dpath}"
 
     # Abilities: Generate indexes for abilities (depth=1 so we index the "*-Level Features" dirs too)
     just abilities gen_index_for_each_dir_in "${md_sections_dpath}/Abilities" "1"
