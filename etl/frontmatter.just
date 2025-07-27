@@ -71,3 +71,32 @@ sort md_fpath:
     new_fm = yaml.safe_dump(data, sort_keys=True).rstrip()
     new_text = f"---\n{new_fm}\n---\n{body}"
     path.write_text(new_text, encoding="utf-8")
+
+## Prints the frontmatter yaml of a markdown file
+#_get md_fpath:
+#    #!/usr/bin/env python3
+#    import re, pathlib
+#    import yaml
+#    path = pathlib.Path('{{md_fpath}}')
+#    text = path.read_text(encoding="utf-8")
+#    # Split frontmatter & body
+#    m = re.match(r'^---\s*\n(.*?)\n---\s*\n?.*$', text, flags=re.S)
+#    print( m.group(1) if m else '')
+#
+## Sets the frontmatter on a markdown file (this replaces all existing frontmatter)
+## yaml_fpath is a file containing the new yaml
+#_set yaml_fpath md_fpath:
+#    #!/usr/bin/env python3
+#    import re, pathlib
+#    import yaml
+#
+#    # Read in markdown file, extract body
+#    path = pathlib.Path('{{md_fpath}}')
+#    file_text = path.read_text(encoding="utf-8")
+#    m = re.match(r'^---\s*\n.*?\n---\s*\n?(.*)$', file_text, flags=re.S)
+#    body = m.group(1) if m else ''
+#
+#    # Reassemble, injecting frontmatter
+#    yml_fm_text = pathlib.Path('{{yaml_fpath}}').read_text(encoding="utf-8")
+#    new_text = f"---\n{yml_fm_text}\n---\n{body}"
+#    path.write_text(new_text, encoding="utf-8")

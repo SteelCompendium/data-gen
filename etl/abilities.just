@@ -97,3 +97,38 @@ _gen_metadata md_fpath:
     new_fm = yaml.safe_dump(data, sort_keys=False).rstrip()
     new_text = f"---\n{new_fm}\n---\n{body}"
     path.write_text(new_text, encoding="utf-8")
+
+#_fm md_fpath:
+#    #!/usr/bin/env python3
+#    import re, subprocess, pathlib
+#    import yaml
+#
+#    path = pathlib.Path('{{md_fpath}}')
+#    text = path.read_text(encoding="utf-8")
+#
+#    # Split frontmatter & body
+#    m = re.match(r'^---\s*\n(.*?)\n---\s*\n?(.*)$', text, flags=re.S)
+#    if m:
+#        fm_text, body = m.group(1), m.group(2)
+#    else:
+#        fm_text, body = "", text
+#
+#    # edit the frontmatter
+#    result = subprocess.run(
+#        ["just", "{{source_file()}}", "_edit_fm", fm_text, body],
+#        capture_output = True,
+#        text = True,
+#        check=True)
+#
+#    print(f'fm: {result.stdout}')
+#
+#    # Reassemble
+#    #    new_text = f"---\n{new_fm}\n---\n{body}"
+#    #    path.write_text(new_text, encoding="utf-8")
+#
+#_edit_fm input_frontmatter_yml input_body:
+#    #!/usr/bin/env python3
+#    import yaml
+#    data = yaml.safe_load('''{{input_frontmatter_yml}}''') or {}
+#    data["foo"] = "bar"
+#    print(f"{yaml.safe_dump(data, sort_keys=False).rstrip()}")

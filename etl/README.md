@@ -10,6 +10,8 @@ This is a mess, ill clean it up one day...
   - abilities and ability_config is its own mess
   - frontmatter only deletes right now?
 
+- [ ] Remove `section_name` from section_cofnig.yml files
+
 - [ ] add "feature_type" to frontmatter of abilities
 
 - [ ] classification
