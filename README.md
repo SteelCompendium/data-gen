@@ -5,7 +5,20 @@ _Draw Steel Compendium is an independent product published under the DRAW STEEL 
 This repo does all the heavy lifting of converting packet docs (in markdown form) into alternate formats.  See the `etl`
 directory for the conversion logic.  It's a mess, good luck!
 
-## Data Flow
+Please use this [form to report bugs](https://docs.google.com/forms/d/e/1FAIpQLSc6m-pZ0NLt2EArE-Tcxr-XbAPMyhu40ANHJKtyRvvwBd2LSw/viewform?usp=sharing&ouid=105036387964900154878) if you find them!
+
+## Development 
+
+### Quick Start
+
+- Setup inputs: expected files
+  - `input/heroes/Draw Steel Heroes.md`
+  - Bunch of "section config" yaml files in `input/heroes/`
+- run `devbox run gen` to generate everything
+- `git push` all the `data-*` repos that have been updated
+- (in the `compendium` project run `just update` to update the website with new `data-*` repo commit)
+
+### Data Flow
 
 ```mermaid
 flowchart TB
@@ -40,4 +53,3 @@ flowchart TB
     data_md --> sc_site["SteelCompendium.io site"]
 ```
 
-Please use this [form to report bugs](https://docs.google.com/forms/d/e/1FAIpQLSc6m-pZ0NLt2EArE-Tcxr-XbAPMyhu40ANHJKtyRvvwBd2LSw/viewform?usp=sharing&ouid=105036387964900154878) if you find them!
