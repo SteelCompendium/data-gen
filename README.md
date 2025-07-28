@@ -9,7 +9,7 @@ directory for the conversion logic.  It's a mess, good luck!
 
 ```mermaid
 flowchart TB
-    pdf["PDF"] --> markdown["Markdown"]
+    pdf["PDF: Heroes Book"] --> markdown["Markdown: Heroes Book"]
     
     markdown --> html_chapters["HTML: Chapters"]
     markdown --> html_abilities["HTML: Abilities"]
@@ -19,22 +19,16 @@ flowchart TB
     
     html_chapters --> md_chapters["Markdown: Chapters"]
     html_abilities --> md_abilities["Markdown: Abilities"]
-    html_classes --> md_classes["Markdown: Classes"]
     html_dots --> md_dots["Markdown: ..."]
     html_kits --> md_kits["Markdown: Kits"]
-    html_perks --> md_perks["Markdown: Perks"]
     
     md_chapters --> md_chapters_formatted["Processed Markdown: Chapters"]
     md_abilities --> md_abilities_formatted["Processed Markdown: Abilities"]
-    md_classes --> md_classes_formatted["Processed Markdown: Classes"]
     md_dots --> md_dots_formatted["Processed Markdown: ..."]
     md_kits --> md_dots_formatted["Processed Markdown: Kits"]
-    md_perks --> md_kits_formatted["Processed Markdown: Perks"]
     
     md_chapters_formatted --> rules_md["Repo: data-rules-md"]
     md_abilities_formatted --> rules_md["Repo: data-rules-md"]
-    md_classes_formatted --> rules_md["Repo: data-rules-md"]
-    md_dots_formatted --> rules_md["Repo: data-rules-md"]
     md_dots_formatted --> rules_md["Repo: data-rules-md"]
     md_kits_formatted --> rules_md["Repo: data-rules-md"]
     
