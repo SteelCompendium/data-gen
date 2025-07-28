@@ -13,9 +13,8 @@ flowchart TB
     
     markdown --> html_chapters["HTML: Chapters"]
     markdown --> html_abilities["HTML: Abilities"]
-    markdown --> html_classes["HTML: Classes"]
     markdown --> html_dots["..."]
-    markdown --> html_perks["HTML: Perks"]
+    markdown --> html_kits["HTML: Kits"]
     
     html_chapters --> md_chapters["Markdown: Chapters"]
     html_abilities --> md_abilities["Markdown: Abilities"]
