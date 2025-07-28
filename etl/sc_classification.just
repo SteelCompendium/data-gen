@@ -80,8 +80,8 @@ gen_frontmatter md_dpath state_json_fpath:
 
         # 4) emit final id
         cnt_id = str(cnt).zfill(2)
-        post["scdc"] = f"{source_id}:{type_id}:{cnt_id}"
-        post["scc"] = f"{src}:{'.'.join(type_comps)}:{itm}"
+        post["scdc"] = [f"{source_id}:{type_id}:{cnt_id}"]
+        post["scc"] = [f"{src}:{'.'.join(type_comps)}:{itm}"]
         post["item_index"] = f"{cnt_id}"
 
         # 5) overwrite the file in place

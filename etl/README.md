@@ -7,7 +7,8 @@ This is a mess, ill clean it up one day...
 - [ ] metadata: there is metadata being generated all over the place
   - extract_html_section makes the item_name and item_id (id should be moved out)
   - Some is generated in section_config
-  - abilities and ability_config is its own mess
+  - ability_config has some too
+  - I think this this okay, so long as its documented
 
 - [ ] classification
   - [ ] `scc` and `scdc` metadata fields should be arrays because the same item can be categorized in multiple ways
@@ -95,9 +96,9 @@ In general, the classification system follows the following schema: `source:type
 
 **Components:**
 
-- **Source** is the document where the data is found.
-- **Type** is the categorization of the data.
-- **Item** is the instance of the data.
+- **Source** is the document where the facet is found.
+- **Type** is the categorization of the facet.
+- **Item** is the instance of the facet.
 
 Each of these "components" are separated by the `:` symbol. A component can expand indefinitely to represent as much 
 detail as needed and each "code" within a component is separated by a '.' symbol.  
@@ -115,7 +116,7 @@ The only fixed component code is the first which represents the source publisher
 
 The remaining codes are generated as needed.  A registration system will eventually be made to ensure global uniqueness.
 
-One data instance may be represented by multiple codes. For example, an ability can be categorized in multiple ways:
+One facet may be represented by multiple codes. For example, an ability can be categorized in multiple ways:
 
 - Categorized in a full list of all abilities: `mcdm.heroes.v1:abilities:gouge` (`1.1.1:2:138`)
   - "Gouge" is the 138th ability
