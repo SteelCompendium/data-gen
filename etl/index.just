@@ -32,16 +32,19 @@ gen to_index_dpath output_fpath space_separated_columns="file_name" title="":
 
     {
       # ─── pre-table content ──────────────────────────────────────────────────
-        echo "---"
-        echo "type: index"
-        echo "---"
-        echo
 
         if [ "{{title}}" == "" ]; then
             title="{{titlecase(file_stem(output_fpath))}}"
         else
             title="{{title}}"
         fi
+
+        echo "---"
+        echo "type: index"
+        echo "title: _${title} Index"
+        echo "---"
+        echo
+
         echo "# $title Index"
         echo
 

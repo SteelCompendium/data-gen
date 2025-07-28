@@ -4,17 +4,21 @@ This is a mess, ill clean it up one day...
 
 ## Things to do before pdf
 
-- [ ] classification
-  - Bug: The ids (count) increment on every run 
-    - Need a way to preserve the count between runs
-    - reset the count on every run?
-      - theoretically okay?  Might need an override file...? would get complicated if hundreds of creatures need an off-by-one adjustment
- 
+### Heroes
+
 - [ ] Custom index name for mkdocs?
   - See "compendium/docs/Rules/Draw Steel Heroes - Unlinked.md" for example of custom name (frontmatter title)
 
 - [ ] auto-linking 
   - Check index files to verify they link
+
+- [ ] classification
+  - Bug: The ids (count) increment on every run
+    - Need a way to preserve the count between runs
+    - reset the count on every run?
+      - theoretically okay?  Might need an override file...? would get complicated if hundreds of creatures need an off-by-one adjustment
+
+### Monsters
 
 - [ ] Prep monster book stuff
   - [ ] Finalize markdown format for statblocks
@@ -24,12 +28,11 @@ This is a mess, ill clean it up one day...
   - [ ] data-sdk-npm StatblockMarkdownReader needs to get wired into the cli
   - [ ] malice needs to be handled at all levels
 
+### Other
+
 - [ ] Draw Steel Elements plugin support
   - [ ] data-md-dse code to convert abilities/statblocks to dse-codeblocks
-
-- [ ] Other
-  - [ ] Change discord nickname to `Xentis (Steel Compendium)`
-  - [ ] Ability cards repo?
+- [ ] Ability cards
 
 ## Plan for final PDF
 
