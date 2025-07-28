@@ -4,23 +4,11 @@ This is a mess, ill clean it up one day...
 
 ## Things to do before pdf
 
-- [ ] metadata: there is metadata being generated all over the place
-  - extract_html_section makes the item_name and item_id (id should be moved out)
-  - Some is generated in section_config
-  - ability_config has some too
-  - I think this this okay, so long as its documented
-
 - [ ] classification
-  - [ ] `scc` and `scdc` metadata fields should be arrays because the same item can be categorized in multiple ways
-    - `abilities:368` == `abilities.censor:67` == `abilities.censor.by-level.4th:3`
   - Bug: The ids (count) increment on every run 
     - Need a way to preserve the count between runs
     - reset the count on every run?
       - theoretically okay?  Might need an override file...? would get complicated if hundreds of creatures need an off-by-one adjustment
-
-- [ ] Enhancements for mundane files
-  - [ ] unique frontmatter generation for each section (chapter=chapter_number) 
-  - [ ] Add front matter to index tables
  
 - [ ] Custom index name for mkdocs?
   - See "compendium/docs/Rules/Draw Steel Heroes - Unlinked.md" for example of custom name (frontmatter title)
@@ -47,6 +35,7 @@ This is a mess, ill clean it up one day...
 
 - [ ] Convert with marker, save to `Rules/Draw Steel Heroes_marker_full.md`
 - [ ] Split into Chapters, save each to `Rules/Draw Steel Heroes_wip_ch1.md`
+- [ ] COMMENT OUT CLASSIFICATION GENERATION
 - [ ] Work in chunks (each chapter) to get markdown fully cleaned up. When chapter is converted, move it into `Rules/Draw Steel Heroes.md`
   - [ ] Chapter 1
   - [ ] Chapter 2
@@ -83,6 +72,53 @@ This is a mess, ill clean it up one day...
   - power roll formatter
   - line replacement
 - manual fixes from there
+
+## Development
+
+### Metadata
+
+The generation of metadata is kinda all over the place.  Here are the high-level requirements
+
+- html section extraction (`extract_html_section.just`) requires `xpath` and `file_dpath`
+- expansion of section config `section_config.just` requires `header_path`
+
+There are several layers where metadata is generated:
+
+- `ability_config.just`
+  - requires
+    - toc markdown file
+  - generates
+    - `header_path`
+    - `item_name`
+    - `item_id`
+    - `type`
+    - `feature_type`
+
+- `section_config.just`
+  - requires
+    - `header_path`
+  - generates
+    - `xpath`
+
+- `extract_html_section.just`
+  - requires
+    - `xpath`
+    - `file_dpath`
+  - generates
+    - `item_name`
+    - `item_id`
+
+- `sc_classification.just`
+  - requires
+    - `source`
+    - `type`
+    - `item_id`
+  - generates
+    - `scc`
+    - `scdc`
+
+- heroes_frontmatter
+  - requires/generates type-specific frontmatter
 
 ## Future
 
