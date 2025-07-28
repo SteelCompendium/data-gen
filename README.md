@@ -24,7 +24,7 @@ flowchart TB
     md_chapters --> md_chapters_formatted["Processed Markdown: Chapters"]
     md_abilities --> md_abilities_formatted["Processed Markdown: Abilities"]
     md_dots --> md_dots_formatted["Processed Markdown: ..."]
-    md_kits --> md_dots_formatted["Processed Markdown: Kits"]
+    md_kits --> md_kits_formatted["Processed Markdown: Kits"]
     
     md_chapters_formatted --> rules_md["Repo: data-rules-md"]
     md_abilities_formatted --> rules_md["Repo: data-rules-md"]
