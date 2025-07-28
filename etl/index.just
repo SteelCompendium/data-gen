@@ -41,7 +41,7 @@ gen to_index_dpath output_fpath space_separated_columns="file_name" title="":
 
         echo "---"
         echo "type: index"
-        echo "title: _${title} Index"
+        echo "title: '_Index'"
         echo "---"
         echo
 
@@ -72,11 +72,11 @@ gen to_index_dpath output_fpath space_separated_columns="file_name" title="":
         printf '|'
         for c in "${cols[@]}"; do
           if [[ $c == file_name ]]; then
-              # For now we are going to leave these as the file name and assume the auto-linker will take care of it
             file_name=$(basename "$f")
+            url_encoded_filename=$(echo -n "$file_name" | jq -sRr @uri)
             name="${file_name%.*}"
-            val="$name"
-            #val="[${name}]('${file_name}')"
+            #val="$name"
+            val="[${name}]('${url_encoded_filename}')"
           else
             # grab `.key` from the front-matter, defaulting to "" if missing
             val=$(just index _get_frontmatter_value "$c" "$f")

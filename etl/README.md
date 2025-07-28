@@ -6,11 +6,17 @@ This is a mess, ill clean it up one day...
 
 ### Heroes
 
+- [ ] index files contain links to actual files
+  - I dont think im going to setup auto-linking before the pdf comes out, but I want the index files to work
+
 - [ ] Custom index name for mkdocs?
   - See "compendium/docs/Rules/Draw Steel Heroes - Unlinked.md" for example of custom name (frontmatter title)
 
-- [ ] auto-linking 
-  - Check index files to verify they link
+- [ ] Update mermaid diagram(s)
+
+- [ ] More ability metadata
+  - type (main action, triggered, etc)
+  - for this it might make sense to parse with the sdk and apply metadata from json data
 
 - [ ] classification
   - Bug: The ids (count) increment on every run
@@ -128,6 +134,8 @@ There are several layers where metadata is generated:
 - [ ] Cards - would be nice to have some kind of downloadable card that people can pull into their tools.  
   - [ ] Image
   - [ ] html
+- [ ] auto-linking
+
 
 ## Steel Compendium Decimal Classification
 
