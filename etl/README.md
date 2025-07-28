@@ -6,12 +6,6 @@ This is a mess, ill clean it up one day...[
 
 ### Heroes
 
-- [ ] index files contain links to actual files
-  - I dont think im going to setup auto-linking before the pdf comes out, but I want the index files to work
-
-- [ ] Custom index name for mkdocs?
-  - See "compendium/docs/Rules/Draw Steel Heroes - Unlinked.md" for example of custom name (frontmatter title)
-
 - Clean up the `static_content/docs/Rules/README.md` file (link to other stuff?)
 
 - [ ] Update mermaid diagram(s)
