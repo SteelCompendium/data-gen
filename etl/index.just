@@ -73,10 +73,10 @@ gen to_index_dpath output_fpath space_separated_columns="file_name" title="":
         for c in "${cols[@]}"; do
           if [[ $c == file_name ]]; then
             file_name=$(basename "$f")
-            url_encoded_filename=$(echo -n "$file_name" | jq -sRr @uri)
             name="${file_name%.*}"
+            url_encoded_name=$(echo -n "$name" | jq -sRr @uri)
             #val="$name"
-            val="[${name}](../${url_encoded_filename})"
+            val="[${name}](../${url_encoded_name})"
           else
             # grab `.key` from the front-matter, defaulting to "" if missing
             val=$(just index _get_frontmatter_value "$c" "$f")
