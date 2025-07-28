@@ -1,6 +1,6 @@
 # ETL Readme
 
-This is a mess, ill clean it up one day...
+This is a mess, ill clean it up one day...[
 
 ## Things to do before pdf
 
@@ -23,7 +23,7 @@ This is a mess, ill clean it up one day...
 - [ ] classification
   - Bug: The ids (count) increment on every run
     - Need a way to preserve the count between runs
-    - reset the count on every run?
+    - reset the count on every run?]()
       - theoretically okay?  Might need an override file...? would get complicated if hundreds of creatures need an off-by-one adjustment
 
 ### Monsters

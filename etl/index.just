@@ -41,7 +41,7 @@ gen to_index_dpath output_fpath space_separated_columns="file_name" title="":
 
         echo "---"
         echo "type: index"
-        echo "title: '_Index'"
+        echo "title: '📑 Index'"
         echo "---"
         echo
 
