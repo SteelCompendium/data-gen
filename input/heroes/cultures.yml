@@ -4,19 +4,16 @@ global:
   type: culture_benefit
 sections:
   - header_path: "culture-benefits/environment"
-    section_name: "Environments"
     file_dpath: 'Cultures/Environments'
     xpath: "//section[@id='culture-benefits']//section[@id='environment']//section[@class='level6']"
     type: culture_benefit/environment
 
   - header_path: "culture-benefits/organization"
-    section_name: "Organization"
     file_dpath: 'Cultures/Organization'
     xpath: "//section[@id='culture-benefits']//section[@id='organization']//section[@class='level6']"
     type: culture_benefit/organization
 
   - header_path: "culture-benefits/upbringing"
-    section_name: "Upbringing"
     file_dpath: 'Cultures/Upbringing'
     xpath: "//section[@id='culture-benefits']//section[@id='upbringing']//section[@class='level6']"
     type: culture_benefit/upbringing

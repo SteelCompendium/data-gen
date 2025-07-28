@@ -4,25 +4,21 @@ global:
   type: title
 sections:
   - header_path: 'titles/1st-echelon-titles'
-    section_name: "1st Echelon Titles"
     xpath: "//section[@id='st-echelon-titles']//section[@class='level5']"
     file_dpath: "Titles/1st Echelon"
     type: 'title/1st-echelon'
 
   - header_path: 'titles/2nd-echelon-titles'
-    section_name: "2nd Echelon Titles"
     xpath: "//section[@id='nd-echelon-titles']//section[@class='level5']"
     file_dpath: "Titles/2nd Echelon"
     type: 'title/2nd-echelon'
 
   - header_path: 'titles/3rd-echelon-titles'
-    section_name: "3rd Echelon Titles"
     xpath: "//section[@id='rd-echelon-titles']//section[@class='level5']"
     file_dpath: "Titles/3rd Echelon"
     type: 'title/3rd-echelon'
 
   - header_path: 'titles/4th-echelon-titles'
-    section_name: "4th Echelon Titles"
     xpath: "//section[@id='4th-echelon-titles']//section[@class='level5']"
     file_dpath: "Titles/4th Echelon"
     type: 'title/4th-echelon'

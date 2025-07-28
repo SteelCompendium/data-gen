@@ -4,5 +4,4 @@ global:
   type: career
 sections:
   - header_path: "careers-a-to-z"
-    section_name: "Careers"
     xpath: "//section[@id='careers-a-to-z']//section[@class='level4']"

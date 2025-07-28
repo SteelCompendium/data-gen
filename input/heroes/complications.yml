@@ -4,5 +4,4 @@ global:
   type: complication
 sections:
   - header_path: "complications/determine-complication"
-    section_name: "Complications"
     xpath: "//section[@id='complications']//section[@id='determine-complication']//section[@class='level5']"

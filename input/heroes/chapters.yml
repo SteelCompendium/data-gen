@@ -4,34 +4,19 @@ global:
   type: chapter
 sections:
 - header_path: introduction
-  section_name: Introduction
 - header_path: the-basics
-  section_name: The Basics
 - header_path: making-a-hero
-  section_name: Making a Hero
 - header_path: ancestries
-  section_name: Ancestries
 - header_path: background
-  section_name: Background
 - header_path: classes
-  section_name: Classes
 - header_path: kits
-  section_name: Kits
 - header_path: perks
-  section_name: Perks
 - header_path: complications
-  section_name: Complications
 - header_path: tests
-  section_name: Tests
 - header_path: combat
-  section_name: Combat
 - header_path: negotiation
-  section_name: Negotiation
 - header_path: downtime-projects
-  section_name: Downtime Projects
 - header_path: rewards
-  section_name: Rewards
 - header_path: gods-and-religion
-  section_name: Gods and Religion
 - header_path: for-the-director
   section_name: For the Director

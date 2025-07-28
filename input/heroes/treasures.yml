@@ -6,25 +6,21 @@ sections:
     # Consumables
     ###########################################################################################
   - header_path: 'treasures/1st-echelon-consumables'
-    section_name: '1st Echelon Consumables'
     xpath: "//section[@id='st-echelon-consumables']//section[@class='level6']"
     file_dpath: "Treasures/Consumables/1st Echelon Consumables"
     type: 'treasure/consumable/1st-echelon'
 
   - header_path: 'treasures/2nd-echelon-consumables'
-    section_name: '2nd Echelon Consumables'
     xpath: "//section[@id='nd-echelon-consumables']//section[@class='level6']"
     file_dpath: "Treasures/Consumables/2nd Echelon Consumables"
     type: 'treasure/consumable/2nd-echelon'
 
   - header_path: 'treasures/3rd-echelon-consumables'
-    section_name: '3rd Echelon Consumables'
     xpath: "//section[@id='rd-echelon-consumables']//section[@class='level6']"
     file_dpath: "Treasures/Consumables/3rd Echelon Consumables"
     type: 'treasure/consumable/3rd-echelon'
 
   - header_path: 'treasures/4th-echelon-consumables'
-    section_name: '4th Echelon Consumables'
     xpath: "//section[@id='th-echelon-consumables']//section[@class='level6']"
     file_dpath: "Treasures/Consumables/4th Echelon Consumables"
     type: 'treasure/consumable/4th-echelon'
@@ -32,25 +28,21 @@ sections:
     # Trinkets
     ###########################################################################################
   - header_path: 'treasures/st-echelon-trinkets'
-    section_name: '1st Echelon Trinkets'
     xpath: "//section[@id='st-echelon-trinkets']//section[@class='level6']"
     file_dpath: "Treasures/Trinkets/1st Echelon Trinkets"
     type: 'treasure/trinkets/1st-echelon'
 
   - header_path: 'treasures/nd-echelon-trinkets'
-    section_name: '2nd Echelon Trinkets'
     xpath: "//section[@id='nd-echelon-trinkets']//section[@class='level6']"
     file_dpath: "Treasures/Trinkets/2nd Echelon Trinkets"
     type: 'treasure/trinkets/2nd-echelon'
 
   - header_path: 'treasures/rd-echelon-trinkets'
-    section_name: '3rd Echelon Trinkets'
     xpath: "//section[@id='rd-echelon-trinkets']//section[@class='level6']"
     file_dpath: "Treasures/Trinkets/3rd Echelon Trinkets"
     type: 'treasure/trinkets/3rd-echelon'
 
   - header_path: 'treasures/th-echelon-trinkets'
-    section_name: '4th Echelon Trinkets'
     xpath: "//section[@id='th-echelon-trinkets']//section[@class='level6']"
     file_dpath: "Treasures/Trinkets/4th Echelon Trinkets"
     type: 'treasure/trinkets/4th-echelon'
@@ -58,25 +50,21 @@ sections:
     # Leveled Treasures
     ###########################################################################################
   - header_path: 'treasures/leveled-armor-treasures'
-    section_name: 'Leveled Armor Treasures'
     xpath: "//section[@id='leveled-armor-treasures']//section[@class='level6']"
     file_dpath: "Treasures/Leveled Treasures/Leveled Armor Treasures"
     type: 'treasure/leveled/armor'
 
   - header_path: 'treasures/leveled-implement-treasures'
-    section_name: 'Leveled Implement Treasures'
     xpath: "//section[@id='leveled-implement-treasures']//section[@class='level6']"
     file_dpath: "Treasures/Leveled Treasures/Leveled Implement Treasures"
     type: 'treasure/leveled/implement'
 
   - header_path: 'treasures/leveled-weapon-treasures'
-    section_name: 'Leveled Weapon Treasures'
     xpath: "//section[@id='leveled-weapon-treasures']//section[@class='level6']"
     file_dpath: "Treasures/Leveled Treasures/Leveled Weapon Treasures"
     type: 'treasure/leveled/weapon'
 
   - header_path: 'treasures/other-leveled-treasures'
-    section_name: 'Other Leveled Treasures'
     xpath: "//section[@id='other-leveled-treasures']//section[@class='level6']"
     file_dpath: "Treasures/Leveled Treasures/Other Leveled Treasures"
     type: 'treasure/leveled/other'
@@ -84,7 +72,6 @@ sections:
   # Artifacts
     ###########################################################################################
   - header_path: 'treasures/artifacts'
-    section_name: 'Artifacts'
     xpath: "//section[@id='artifacts']//section[@class='level6']"
     file_dpath: "Treasures/Artifacts"
     type: 'treasure/artifact'

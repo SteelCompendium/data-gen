@@ -4,21 +4,12 @@ global:
   type: class
 sections:
 - header_path: "censor"
-  section_name: "Censor"
 - header_path: "conduit"
-  section_name: "Conduit"
 - header_path: "elementalist"
-  section_name: "Elementalist"
 - header_path: "fury"
-  section_name: "Fury"
   # null gets read into python as `None`
 - header_path: "null"
-  section_name: "Null"
 - header_path: "shadow"
-  section_name: "Shadow"
 - header_path: "tactician"
-  section_name: "Tactician"
 - header_path: "talent"
-  section_name: "Talent"
 - header_path: "troubadour"
-  section_name: "Troubadour"

@@ -8,9 +8,6 @@ This is a mess, ill clean it up one day...
   - extract_html_section makes the item_name and item_id (id should be moved out)
   - Some is generated in section_config
   - abilities and ability_config is its own mess
-  - frontmatter only deletes right now?
-
-- [ ] Remove `section_name` from section_cofnig.yml files
 
 - [ ] add "feature_type" to frontmatter of abilities
 
