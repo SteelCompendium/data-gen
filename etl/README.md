@@ -12,6 +12,8 @@ This is a mess, ill clean it up one day...
 - [ ] Custom index name for mkdocs?
   - See "compendium/docs/Rules/Draw Steel Heroes - Unlinked.md" for example of custom name (frontmatter title)
 
+- Clean up the `static_content/docs/Rules/README.md` file (link to other stuff?)
+
 - [ ] Update mermaid diagram(s)
 
 - [ ] More ability metadata
