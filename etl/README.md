@@ -6,10 +6,6 @@ This is a mess, ill clean it up one day...[
 
 ### Heroes
 
-- Clean up the `static_content/docs/Rules/README.md` file (link to other stuff?)
-
-- [ ] Update mermaid diagram(s)
-
 - [ ] More ability metadata
   - type (main action, triggered, etc)
   - for this it might make sense to parse with the sdk and apply metadata from json data
