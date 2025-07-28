@@ -11,10 +11,12 @@ directory for the conversion logic.  It's a mess, good luck!
 flowchart TB
     pdf["PDF: Heroes Book"] --> markdown["Markdown: Heroes Book"]
     
-    markdown --> html_chapters["HTML: Chapters"]
-    markdown --> html_abilities["HTML: Abilities"]
-    markdown --> html_dots["..."]
-    markdown --> html_kits["HTML: Kits"]
+    markdown --> html["HTML: Heroes Book"]
+    
+    html --> html_chapters["HTML: Chapters"]
+    html --> html_abilities["HTML: Abilities"]
+    html --> html_dots["HTML: ..."]
+    html --> html_kits["HTML: Kits"]
     
     html_chapters --> md_chapters["Markdown: Chapters"]
     html_abilities --> md_abilities["Markdown: Abilities"]
