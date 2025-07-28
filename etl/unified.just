@@ -57,4 +57,4 @@ _gen_unified_md:
     #
     #    # Format/Lint the linked markdown files
     #    just _print_section "Unified: Formatting unified, linked files"
-    #    just lint markdown "{{unified_linked_dpath}}"
+    #    just markdown lint "{{unified_linked_dpath}}"

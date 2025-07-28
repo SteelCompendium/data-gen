@@ -28,6 +28,21 @@ to_html md_src_fpath html_dest_fpath:
     sed -i 's/&#8220;/"/g; s/&#8221;/"/g; s/&amp;/&/g; s/&lt;/</g; s/&gt;/>/g; s/\&nbsp\;/ /g;' "{{html_dest_fpath}}"
     sed -i "s/&#8217;/'/g; s/’/'/g;" "{{html_dest_fpath}}"
 
+# Formats all markdown files in the dir path
+lint md_src_dpath:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    just _print_section "Linting markdown"
+    echo >&2 "    MD source: '{{md_src_dpath}}'"
+    mdformat --version
+
+    find "{{md_src_dpath}}" -type f -name '*.md' | while read -r fpath; do
+        iconv -f UTF-8 -t UTF-8//TRANSLIT "$fpath" -o "$fpath".temp && mv "$fpath".temp "$fpath"
+        just frontmatter sort "$fpath"
+    done
+    mdformat "{{md_src_dpath}}"
+
+
 # Write out the table-of-contents (headers) of a markdown file
 #
 # Example output:
