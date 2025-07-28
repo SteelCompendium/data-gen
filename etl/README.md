@@ -9,9 +9,9 @@ This is a mess, ill clean it up one day...
   - Some is generated in section_config
   - abilities and ability_config is its own mess
 
-- [ ] add "feature_type" to frontmatter of abilities
-
 - [ ] classification
+  - [ ] `scc` and `scdc` metadata fields should be arrays because the same item can be categorized in multiple ways
+    - `abilities:368` == `abilities.censor:67` == `abilities.censor.by-level.4th:3`
   - Bug: The ids (count) increment on every run 
     - Need a way to preserve the count between runs
     - reset the count on every run?
@@ -89,24 +89,76 @@ This is a mess, ill clean it up one day...
   - [ ] Image
   - [ ] html
 
-### Steel Compendium Decimal Classification
+## Steel Compendium Decimal Classification
 
-source:section:item
+In general, the classification system follows the following schema: `source:type:item`
 
-~~source type (rules, bestiary)~~
-(1) source publisher? (MCDM, 3rd party, homebrew?)
-(4) source (Heroes, Monsters)
-(2) source version (1)
-:
-delimeter (chapter, abilities, monster type)
-:
-item_index
+**Components:**
 
-## example
+- **Source** is the document where the data is found.
+- **Type** is the categorization of the data.
+- **Item** is the instance of the data.
 
-- chapter
-  - `1.1.1:1:001`
-  - `MCDM.Heroes.v1:chapters:introduction`
-- ability
-  - `1.1.1:2.1:001`
-  - `MCDM.Heroes.v1:abilities.censor:bash-in-the-face`
+Each of these "components" are separated by the `:` symbol. A component can expand indefinitely to represent as much 
+detail as needed and each "code" within a component is separated by a '.' symbol.  
+
+The classification system exists in both a string and decimal form. In string form, each component must be in slug form.
+Allowed characters are `[a-zA-Z0-9-]` (subject to change, but keeping it simple for now).  In decimal form, 1-based 
+indexing is used and `0` represents the 10th position.  Padding a code is allowed as needed and there can be any number
+of digits in a code. 
+
+The only fixed component code is the first which represents the source publisher/producer:
+
+- `1` represents first-party MCDM
+- `2` represents any third-party producer
+- `3` - `0` are not yet allocated (and may never be)
+
+The remaining codes are generated as needed.  A registration system will eventually be made to ensure global uniqueness.
+
+One data instance may be represented by multiple codes. For example, an ability can be categorized in multiple ways:
+
+- Categorized in a full list of all abilities: `mcdm.heroes.v1:abilities:gouge` (`1.1.1:2:138`)
+  - "Gouge" is the 138th ability
+- Categorized in a list of fury abilities: `mcdm.heroes.v1:abilities.fury:gouge` (`1.1.1:2.4:28`)
+  - "Gouge" is also the 28th Fury ability
+- Categorized in a list of 2nd-level fury abilities: `mcdm.heroes.v1:abilities.fury.by-level.2nd:gouge` (`1.1.1:2.4.1.2:3`)
+  - "Gouge" is also the 3rd ability granted to the Fury at 2nd-level
+
+### Full example
+
+For these examples, we will assume that these items have already been through the registration process.  Note: these 
+classification codes are subject to change.
+
+In the first example, lets look at the entire first chapter of the first public release of the MCDM Heroes book.  
+
+| string-code  | decimal-code | Description                                                                                           |
+|--------------|--------------|-------------------------------------------------------------------------------------------------------|
+| `mcdm`       | `1`          | MCDM is the publisher of this book                                                                    |
+| `heroes`     | `1.1`        | The "Heroes" book is the first MCDM publication for Draw Steel                                        |
+| `v1`         | `1.1.1`      | "v1" is the first release of the Heroes book pdf (contrived example, actual versioning not yet known) |
+
+This builds our source component: `1.1.1` in decimal form or `mcdm.heroes.v1` in string form.  Likewise, the first 
+version of the Monster book would be represented as `1.2.1` in decimal form or `mcdm.monsters.v1` in string form.  
+
+To represent categorization of the first chapter (of the v1 heroes book), we need only a single code for categorization:
+
+| string-code | decimal-code | Description                                   |
+|-------------|--------------|-----------------------------------------------|
+| `chapters`  | `1`          | Registrar produced this categorization number |
+
+and we only need a single code for the item:
+
+| string-code    | decimal-code | Description                         |
+|----------------|--------------|-------------------------------------|
+| `introduction` | `1`          | "Introduction" is the first chapter |
+
+In this example, the chapter categorization is the first thing we registered and "Introduction" is the first chapter,
+so our final classification for the first chapter of the first release of the MCDM Heroes book is `1.1.1:1:1` in decimal 
+form and `mcdm.heroes.v1:chapters:introduction` in string form. 
+
+### Class Ability Example
+
+As another example, lets say we have an ability in the same Heroes book called "Bash in the Face" which is granted to 
+the "Censor" class.  In this case we use the same source (`1.1.1`), but the type is categorized as `abilities` with 
+sub-code `censor`. Finally, lets say this is the 12th ability that the Censor gets.  The classification would be 
+`1.1.1:2.1:12` in decimal form or `mcdm.heroes.v1:abilities.censor:bash-in-the-face` in string form.

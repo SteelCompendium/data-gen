@@ -62,19 +62,15 @@ expand_general config_fpath:
         xpath_id_parts = [re.sub(r'^\d+', '', part) for part in parts]
         xpath = "//" + "//".join([f"section[@id='{p}']" for p in xpath_id_parts])
 
-        source = resolve('source', 'unknown_source', section, global_data)
-
         new_section = {
             **global_data,
-            'header_path': header_path,
+            **section,
             'file_dpath': resolve('file_dpath', file_dpath, section, global_data),
             'xpath': resolve('xpath', xpath, section, global_data),
             'item_name': resolve('item_name', None, section, global_data),
             'item_id': resolve('item_id', None, section, global_data),
-
-            # additional (global, etc) metadata goes here
             'type': resolve('type', None, section, global_data),
-            'source': source,
+            'source': resolve('source', 'unknown_source', section, global_data),
         }
         return new_section
 

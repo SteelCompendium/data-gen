@@ -17,8 +17,9 @@ extract_sections config_fpath html_fpath output_dpath skip_delete="true":
     out_root = Path("{{output_dpath}}")
     html = "{{html_fpath}}"
 
+    # TODO - should this just automatically pull all metadata keys?  I think so
     # These will all get added to the output html as metadata
-    KEYS = ["file_dpath","xpath","header_path","type", "source", "item_id", "item_name"]
+    KEYS = ["file_dpath","xpath","header_path","type", "source", "item_id", "item_name", "feature_type"]
 
     for s in cfg.get("sections", []):
         file_dpath = s.get("file_dpath") or ""
