@@ -1,20 +1,24 @@
-## <span id="page-92-1"></span><span id="page-92-0"></span>CENSOR
+## Censor
 
-D **emons and deathless fear you. Criminals run from the sight of your shadow. Agents of chaos, blasphemers, and heretics tremble at the sound of your voice. You carry the power of the gods, armed with wrath and sent out into the world first to seek, then censor those whose actions—or even existence—are anathema to your church.**
+Demons and deathless fear you. Criminals run from the sight of your shadow. Agents of chaos, blasphemers, and heretics tremble at the sound of your voice. You carry the power of the gods, armed with wrath and sent out into the world first to seek, then censor those whose actions—or even existence—are anathema to your church.**
 
-**As a censor, you're at your best against the strongest foes. Your judgment terrifies heretics, stops enemies in their tracks, and even hurls them across the battlefield.**
+As a censor, you're at your best against the strongest foes. Your judgment terrifies heretics, stops enemies in their tracks, and even hurls them across the battlefield.
 
-> "We FIGHT! Until HELL!
+> "We FIGHT! 
+> 
+> Until HELL!
+> 
+> Is EMPTY!"
+> 
+> **Sir Vaantikalisax**
 
-Is EMPTY!" **Sir Vaantikalisax**
-
-## Basics
+### Basics
 
 **Starting Characteristics:** You start with a Might of 2 and a Presence of 2, and you can choose one of the following arrays for your other characteristic scores:
 
-- ¥ 2, −1, −1
-- ¥ 1, 1, −1
-- ¥ 1, 0, 0
+- 2, −1, −1
+- 1, 1, −1
+- 1, 0, 0
 
 **Weak Potency:** Presence − 2
 
@@ -26,15 +30,15 @@ Is EMPTY!" **Sir Vaantikalisax**
 
 **Stamina Gained at 2nd and Higher Levels:** 9
 
-#### **Recoveries:** 12
+**Recoveries:** 12
 
 **Skills:** Choose any two skills from the interpersonal or lore skill groups (see [Skills](#page-268-0) in Chapter 9: Tests). (*Quick Build:* Intimidate, Religion.)
 
-## 1st-Level Features
+### 1st-Level Features
 
 As a 1st-level censor, you gain the following features.
 
-## **Censor Order**
+#### Censor Order
 
 Censors are the will of their god made physically manifest, and you act as your god's agent in the world. As you shoulder that responsibility, you choose a censor order from the following options, each of which grants you a skill. (*Quick Build:* Paragon.)
 
@@ -44,13 +48,13 @@ Censors are the will of their god made physically manifest, and you act as your 
 
 Your censor order is your subclass, and your choice of order determines many of the features you'll gain as you gain new levels.
 
-## **Deity and Domains**
+#### Deity and Domains
 
 Choose a god or saint who your character reveres from Chapter 14: Gods and Religion, or ask your Director about the deities in your campaign world. With the Director's permission, you can also create your own deity and choose four domains to be part of their portfolio.
 
 After choosing your deity, pick one domain from their portfolio. Your choice of domain determines many of the features you'll gain from this class. (*Quick Build:* Cavall as deity and War as domain.)
 
-#### **Censor Advancement**
+###### Censor Advancement Table
 
 | Level | Features                                                                                                         | Abilities                    | Order<br>Abilities |
 |-------|------------------------------------------------------------------------------------------------------------------|------------------------------|--------------------|
@@ -65,11 +69,11 @@ After choosing your deity, pick one domain from their portfolio. Your choice of 
 | 9th   | Improved Implement of Wrath, Order Ability                                                                       | Signature, 3, 5,<br>7, 9, 11 | 5, 9, 11           |
 | 10th  | Characteristic Increase, Perk, Skill, Templar,<br>Virtue, Wrath of the Gods                                      | Signature, 3, 5,<br>7, 9, 11 | 5, 9, 11           |
 
-## <span id="page-93-0"></span>**Wrath**
+#### Wrath
 
 The power you serve grants you a Heroic Resource called wrath, fueling your abilities as you censor those your church deems to be heretics.
 
-#### Wrath in Combat
+##### Wrath in Combat
 
 At the start of a combat encounter or some other stressful situation tracked in combat rounds (as determined by the Director), you gain wrath equal to your Victories. At the start of each of your turns during combat, you gain 2 wrath.
 
@@ -77,60 +81,57 @@ Additionally, the first time each combat round that a creature judged by you (se
 
 You lose any remaining wrath at the end of the encounter.
 
-#### Wrath Outside of Combat
+##### Wrath Outside of Combat
 
 Though you can't gain wrath outside of combat, you can use your heroic abilities and effects that cost wrath without spending it. Whenever you use an ability or effect outside of combat that costs wrath, you can't use that same ability or effect outside of combat again until you earn 1 or more Victories or finish a respite.
 
 When you use an ability outside of combat that lets you spend unlimited wrath on its effect, you can use it as if you had spent an amount of wrath equal to your Victories. (Such abilities aren't part of the core rules for the censor, but they might appear in future products.)
 
-## <span id="page-94-0"></span>**Judgment**
+#### Judgment
 
 You pick out the enemies most worthy of your wrath and place a divine judgment upon them, censoring them with the power of your god. You have the following ability.
 
-#### **Judgment**
+######## Judgment
 
 *You utter a prayer that outlines your foe in holy energy.*
 
-#### **Magic, Ranged Maneuver**
+| **Magic, Ranged** |     **Maneuver** |
+|-------------------|-----------------:|
+| **📏 Ranged 10**  | **🎯 One enemy** |
 
-![triangle ruler icon] Ranged 10
-
-e Ranged 10 x One enemy
-
-Effect: The target is judged by you until the end of the encounter, you use this ability again, you willingly end this effect (no action required), or another censor judges the target.
-
+**Effect:** The target is judged by you until the end of the encounter, you use this ability again, you willingly end this effect (no action required), or another censor judges the target.
 Whenever a creature judged by you uses a main action and is within your line of effect, you can use a free triggered action to deal holy damage equal to twice your Presence score to them.
-
 When a creature judged by you is reduced to 0 Stamina, you can use a free triggered action to use this ability against a new target.
-
 Additionally, you can spend 1 wrath to take one of the following free triggered actions:
-
-- ¥ When an adjacent creature judged by you starts to shift, you make a melee free strike against them and their speed becomes 0 until the end of the current turn, preventing them from shifting.
-- ¥ When a creature judged by you within 10 squares makes a power roll, you cause them to take a bane on the roll.
-- ¥ When a creature judged by you within 10 squares uses an ability with a potency that targets only one creature, the potency is reduced by 1 for that creature.
-- ¥ If you damage a creature judged by you with a melee ability, the creature is taunted by you until the end of their next turn.
-
+- When an adjacent creature judged by you starts to shift, you make a melee free strike against them and their speed becomes 0 until the end of the current turn, preventing them from shifting.
+- When a creature judged by you within 10 squares makes a power roll, you cause them to take a bane on the roll.
+- When a creature judged by you within 10 squares uses an ability with a potency that targets only one creature, the potency is reduced by 1 for that creature.
+- If you damage a creature judged by you with a melee ability, the creature is taunted by you until the end of their next turn.
 You can choose only one free triggered action option at a time, even if multiple options are triggered by the same effect.
 
-#### Judgment Order Benefit
+##### Judgment Order Benefit
 
 The first time on a turn that you use your Judgment ability to judge a creature, you gain the following benefit based on your order:
 
-- ¥ **Exorcist:** You can teleport up to a number of squares equal to twice your Presence score. This movement must take you closer to the judged creature. You do not need line of effect to your destination.
-- ¥ **Oracle:** You can deal holy damage equal to twice your Presence score to the judged creature.
-- ¥ **Paragon:** You can vertical pull the judged creature up to a number of squares equal to twice your Presence score.
+- **Exorcist:** You can teleport up to a number of squares equal to twice your Presence score. This movement must take you closer to the judged creature. You do not need line of effect to your destination.
+- **Oracle:** You can deal holy damage equal to twice your Presence score to the judged creature.
+- **Paragon:** You can vertical pull the judged creature up to a number of squares equal to twice your Presence score.
 
-## **Kit**
+#### Kit
 
 You can use and gain the benefits of a kit. See [Chapter 6: Kits](#page-231-0) for more information. (*Quick Build:* Warrior Priest.)
 
-## **My Life for Yours**
+#### My Life for Yours
 
 You channel your will to mend your wounds or the wounds of your allies. You have the following ability.
 
-## **My Life for Yours**
+######## My Life for Yours
 
-*You channel some of your vitality into more resilience for you or an ally.* **Magic, Ranged Triggered** e Ranged 10 x Self or one ally
+*You channel some of your vitality into more resilience for you or an ally.* 
+
+| **Magic, Ranged** |           **Triggered** |
+|-------------------|------------------------:|
+| **📏 Ranged 10**  | **🎯 Self or one ally** |
 
 **Trigger:** The target starts their turn or takes damage.
 
@@ -138,13 +139,14 @@ You channel your will to mend your wounds or the wounds of your allies. You have
 
 **Spend 1 Wrath:** You can end one effect on the target that is ended by a saving throw or that ends at the end of their turn, or a prone target can stand up.
 
-## **1st-Level Domain Feature**
+#### 1st-Level Domain Feature
 
 You gain a domain feature from your domain, as shown on the 1st-Level Censor Domain Features table. Additionally, you gain a skill from your domain, chosen from the skill group indicated on the table.
 
-| 1st-Level Censor Domain Features |                               |               |
-|----------------------------------|-------------------------------|---------------|
+###### 1st-Level Censor Domain Features Table
+
 | Domain                           | Feature                       | Skill Group   |
+|----------------------------------|-------------------------------|---------------|
 | Creation                         | Hands of the Maker            | Crafting      |
 | Death                            | Grave Speech                  | Lore          |
 | Fate                             | Oracular Visions              | Lore          |
@@ -158,19 +160,17 @@ You gain a domain feature from your domain, as shown on the 1st-Level Censor Dom
 | Trickery                         | Inspired Deception            | Intrigue      |
 | War                              | Sanctified Weapon             | Exploration   |
 
-#### Blessing of Compassion
+##### Blessing of Compassion
 
 You exude a magic presence that can soothe those willing to socially engage with you. You gain an edge on any test made to assist another creature with a test.
 
 Additionally, when you are present at the start of a negotiation, one NPC of your choice has their patience increased by 1 (to a maximum of 5), and the first test made to influence them gains an edge.
 
-#### Blessing of Comprehension
+##### Blessing of Comprehension
 
 You can interpret diagrams and charts even if you don't understand the language associated with them. You are considered fluent in all languages for the purpose of understanding the project source for any crafting or research project (see [Chapter 12: Downtime Projects](#page-307-2)).
 
-# Censor
-
-#### Blessing of Fortunate Weather
+##### Blessing of Fortunate Weather
 
 Each time you finish a respite, you can decide the weather conditions within 100 squares. Until you finish another respite, the weather conditions you establish follow you through any mundane outdoor locations. Choose one of the following types of weather, each of which grants a benefit to you and your allies:
 
@@ -184,128 +184,129 @@ Each time you finish a respite, you can decide the weather conditions within 100
 
 If you are in the same area as a creature using this or a similar feature who has chosen a different weather effect, the features negate each other where their areas overlap.
 
-#### Faithful Friend
+##### Faithful Friend
 
 You have the following ability.
 
-## **Faithful Friend**
+######## Faithful Friend
 
 *An animal spirit is drawn to you, sharing their senses with you and serving you faithfully.*
 
-| Magic                     | Main action                |
-|---------------------------|----------------------------|
-| Image: magic icon<br>Self | Image: action icon<br>Self |
+| **Magic**   | **Main Action** |
+|-------------|----------------:|
+| **📏 Self** |     **🎯 Self** |
 
 **Effect:** You conjure a spirit that takes the form of any animal you have seen. The incorporeal animal has speed 5 and can fly, but can't physically interact with the world. While you are within 10 squares of the spirit, you automatically sense everything that type of animal would sense, in addition to sensing your own surroundings. You can dismiss the spirit at any time (no action required). If the spirit takes any damage, they are dismissed and you take 1d10 psychic damage that can't be reduced in any way.
 
-## Grave Speech
+##### Grave Speech
 
 You have the following ability.
 
-#### **Grave Speech**
+######## Grave Speech
 
 *You commune with the lingering soul of the recently dead.*
 
-**Mag**
-
-▲ Melee 1
-
-**Magic Maneuver**
-
-e Melee 1 x One dead creature
+| **Magic**      |             **Maneuver** |
+|----------------|-------------------------:|
+| **📏 Melee 1** | **🎯 One dead creature** |
 
 **Effect:** You can speak to the target if they are a creature who has died within the last 24 hours and who can speak a language you know, even if they are just a head. The target regards you as they would have in life, and you might need to make tests to influence them and convince them to speak with you. The trauma of dying can make a creature's memory of that event hazy, but the target otherwise knows all they knew in life. After 1 minute, the effect ends. You can't use this ability on the same creature twice.
 
-## Hands of the Maker
+##### Hands of the Maker
 
 You have the following ability.
 
-## **Hands of the Maker**
+######## Hands of the Maker
 
 *You craft objects with the power of your mind.*
 
-| Magic                           | Maneuver                         |
-|---------------------------------|----------------------------------|
-| Image: magic triangle icon Self | Image: maneuver target icon Self |
+| **Magic**   | **Manuever** |
+|-------------|------------:|
+| **📏 Self** | **🎯 Self** |
 
 **Effect:** You create a mundane object of size 1S or smaller. You can maintain a number of objects created this way equal to your Presence score. You can destroy an object created this way with a thought, no matter how far you are from it (no action required).
 
-## Inner Light
+##### Inner Light
 
 Each time you finish a respite, you can choose yourself or one ally who is also finishing a respite to gain the benefit of a divine ritual. You place a ray of morning light into the chosen character's soul, granting them a +1 bonus to saving throws that lasts until you finish another respite.
 
-#### Inspired Deception
+##### Inspired Deception
 
 The gods favor your thievery with magic. Whenever you make a test that uses a skill you have from the intrigue skill group, you can use Presence on the test instead of another characteristic.
 
-## Oracular Visions
+##### Oracular Visions
 
 Your deity rewards you with hazy visions of things to come. Each time you earn 1 or more Victories, you earn an equal number of fate points. Whenever you or a creature within 10 squares makes a test, you can spend 1 fate point to tap into a vision of the outcome, granting that creature an edge on the test. You lose any remaining fate points when you finish a respite.
 
-## Protective Circle
+##### Protective Circle
 
 You can spend 10 uninterrupted minutes to create a protective circle on the ground large enough to hold one size 1 creature. The circle lasts for 24 hours, until you create another, or until you dismiss it (no action required). Only creatures you designate at the time of drawing the circle can enter and exit the area. While in the protective circle, a creature can't be targeted by strikes.
 
-## Revitalizing Ritual
+##### Revitalizing Ritual
 
 Each time you finish a respite, you can choose yourself or one ally who is also finishing a respite to gain the benefit of a divine ritual. The chosen character gains a bonus to their recovery value equal to your level that lasts until you finish another respite.
 
-## Sanctified Weapon
+##### Sanctified Weapon
 
 As a respite activity, you can bless a weapon. Any creature who wields the weapon gains a +1 bonus to rolled damage with abilities that use the weapon. This benefit lasts until you finish another respite.
 
-![](_page_96_Picture_0.jpeg)
-
-## **Censor Abilities**
+#### Censor Abilities
 
 You use a blend of martial techniques and divine magic to attack your foes and defend your allies.
 
-## Signature Ability
+##### Signature Ability
 
 Choose one signature ability from the following options. Signature abilities can be used at will. (*Quick Build:* Your Allies Cannot Save You!)
 
-## **Back Blasphemer!**
+######## Back Blasphemer!
 
 *You channel power through your weapon to repel foes.*
 
-**Area, Magic, Melee, Weapon Main action**
+| **Area, Magic, Melee, Weapon** |               **Main Action** |
+|--------------------------------|------------------------------:|
+| **📏 2 cube within 1**         | **🎯 Each enemy in the area** |
 
-e 2 cube within 1 x Each enemy in the area
+**Power Roll + Presence:**
 
-## Power Roll + Presence:
+- **≤11:** 2 holy damage; push 1 
+- **12-16:** 4 holy damage; push 2 
+- **17+:** 6 holy damage; push 3 
 
-á 2 holy damage; push 1
-
-é 4 holy damage; push 2 í 6 holy damage; push 3
-
-## **Every Step … Death!**
+######## Every Step … Death!
 
 *You show your foe a glimpse of their fate after death.* **Magic, Ranged, Strike Main action**
 
-![triangle icon](image)
-Ranged 10
+| **Magic, Ranged, Strike** |               **Main Action** |
+|---------------------------|------------------------------:|
+| **📏 Ranged 10**          |           **🎯 One creature** |
 
-## e Ranged 10 x One creature
+**Power Roll + Presence:**
 
-#### Power Roll + Presence:
-
-- á 5 + P psychic damage
-- é 7 + P psychic damage
-
-í 10 + P psychic damage
+- **≤11:** 5 + P psychic damage   
+- **12-16:** 7 + P psychic damage 
+- **17+:** 10 + P psychic damage 
 
 **Effect:** Each time the target willingly moves before the end of your next turn, they take 1 psychic damage for each square they move.
 
-#### **Halt Miscreant!**
+######## Halt Miscreant!
 
 *You infuse your weapon with holy magic that makes it difficult for your foe to get away.*
 
-- **Melee, Strike, Weapon Main action** e Melee 1 x One creature or object Power Roll + Might**:**
-- á 2 + M holy damage; p<w , slowed (save ends)
-- é 5 + M holy damage; p<v , slowed (save ends)
-- í <sup>7</sup>**+** M holy damage; p<s , slowed (save ends)
+| **Melee, Strike, Weapon** |               **Main Action** |
+| -------------------------------- | -----------------------------:|
+| **📏 Melee 1**                   | **🎯 One creature or object** |
 
-## **Your Allies Cannot Save You!**
+**Power Roll + Might:**
+
+- **≤11:** 2 + M holy damage; P < WEAK, slowed (save ends)
+- **12-16:** 5 + M holy damage; P < AVERAGE, slowed (save ends)
+- **17+:** 7 + M holy damage; P < STRONG, slowed (save ends)
+
+----
+CHECKPOINT
+----
+
+######## Your Allies Cannot Save You!
 
 *Your magic strike turns your foe's guilt into a burst of holy power.*
 
@@ -326,7 +327,7 @@ Ranged 10
 
 You call upon a number of heroic abilities, all of them bound to your wrath.
 
-## **3-Wrath Ability**
+#### 3-Wrath Ability
 
 Choose one heroic ability from the following options, each of which costs 3 wrath to use. (*Quick Build:* The Gods Punish and Defend.)
 
@@ -397,7 +398,7 @@ Power Roll + Might**:**
 - é 8 + P holy damage; i<v , dazed (save ends)
 - í 11 + P holy damage; i<s , dazed (save ends)
 
-## **5-Wrath Ability**
+#### 5-Wrath Ability
 
 Choose one heroic ability from the following options, each of which costs 5 wrath to use. (*Quick Build:* Purifying Fire.)
 
@@ -463,11 +464,11 @@ Power Roll + Might**:**
 
 As a 2nd-level censor, you gain the following features.
 
-## **Perk**
+#### Perk
 
 You gain one interpersonal, lore, or supernatural perk of your choice. See [Chapter 7: Perks](#page-241-0).
 
-## **2nd-Level Order Features**
+#### 2nd-Level Order Features
 
 Your censor order grants you two features, as shown on the 2nd-Level Order Features table.
 
@@ -504,7 +505,7 @@ You are trained in secret techniques from your order that allow you to discern t
 
 You exhibit a small spark of your deity's power, causing creatures to trust or fear you, depending on what you need. You gain an edge on tests made to intimidate or persuade others.
 
-## **2nd-Level Order Ability**
+#### 2nd-Level Order Ability
 
 Your censor order grants your choice of one of two heroic abilities.
 
@@ -600,11 +601,11 @@ Choose one of the following abilities.
 
 As a 3rd-level censor, you gain the following features.
 
-## **Look On My Work and Despair**
+#### Look On My Work and Despair
 
 Your judgment has grown in divine power, instilling fear in those you condemn. Whenever you use your Judgment ability, you can spend 1 wrath, and if the target has p<v , they are frightened of you (save ends). Additionally, whenever a creature judged by you is reduced to 0 Stamina and you use Judgment as a free triggered action, if the new target has p<s , they are frightened of you (save ends). If the target is already frightened of you, they instead take holy damage equal to twice your Presence score.
 
-## **7-Wrath Ability**
+#### 7-Wrath Ability
 
 Choose one heroic ability from the following options, each of which costs 7 wrath to use.
 
@@ -650,23 +651,23 @@ Choose one heroic ability from the following options, each of which costs 7 wrat
 
 As a 4th-level censor, you gain the following features.
 
-## **Characteristic Increase**
+#### Characteristic Increase
 
 Your Might and Presence scores each increase to 3.
 
-## **Perk**
+#### Perk
 
 You gain one perk of your choice.
 
-## **Skill**
+#### Skill
 
 You gain one skill of your choice. See [Skills](#page-268-0) in Chapter 9: Tests.
 
-## **Wrath Beyond Wrath**
+#### Wrath Beyond Wrath
 
 The first time each combat round that you deal damage to a creature judged by you, you gain 2 wrath instead of 1.
 
-## **4th-Level Domain Feature**
+#### 4th-Level Domain Feature
 
 You gain a domain feature from your domain, as shown on the 4th-Level Censor Domain Features table.
 
@@ -696,7 +697,7 @@ Your divine presence causes those you deem worthy to recover quickly from a figh
 
 You have the following ability.
 
-## **Blessing of Secrets**
+#### Blessing of Secrets
 
 *You project an illusory aura that makes you and allies harder to notice.*
 
@@ -754,7 +755,7 @@ As a main action, you touch a living tree and make it part of a divine transport
 
 As a 5th-level censor, you gain the following features.
 
-## **5th-Level Order Feature**
+#### 5th-Level Order Feature
 
 Your censor order grants you a feature, as shown on the 5th-Level Order Features table.
 
@@ -779,7 +780,7 @@ You discard each roll as it is used, and each time you earn Victories, you add n
 
 Your divine spark grows in power, allowing you and your allies to focus and endure. At the start of each of your turns, you can spend 1d6 Stamina to end one effect on you that is ended by a saving throw or that ends at the end of your turn. Any ally who starts their turn within 5 squares of you can also spend Stamina to gain this benefit.
 
-## **9-Wrath Ability**
+#### 9-Wrath Ability
 
 Choose one heroic ability from the following options, each of which costs 9 wrath to use.
 
@@ -839,20 +840,20 @@ Power Roll + Might:
 
 As a 6th-level censor, you gain the following features.
 
-## **Implement of Wrath**
+#### Implement of Wrath
 
 Each time you finish a respite, you can choose one hero's weapon, including your own, to channel supernatural power as an implement of your god's wrath. The weapon becomes magic and gains the following benefits until your next respite:
 
-- ¥ Strikes with the weapon deal extra holy damage equal to the wielder's highest characteristic score.
-- ¥ Any creature struck by the weapon who has holy weakness and has p<s is frightened and weakened (save ends).
-- ¥ Any minion targeted by a strike using the weapon dies. That minion's Stamina maximum is removed from the minion Stamina pool before any damage is applied to the rest of the squad.
-- ¥ The weapon's wielder can't be made frightened.
+- Strikes with the weapon deal extra holy damage equal to the wielder's highest characteristic score.
+- Any creature struck by the weapon who has holy weakness and has p<s is frightened and weakened (save ends).
+- Any minion targeted by a strike using the weapon dies. That minion's Stamina maximum is removed from the minion Stamina pool before any damage is applied to the rest of the squad.
+- The weapon's wielder can't be made frightened.
 
-## **Perk**
+#### Perk
 
 You gain one interpersonal, lore, or supernatural perk of your choice.
 
-## **6th-Level Order Ability**
+#### 6th-Level Order Ability
 
 Your censor order grants your choice of one of two heroic abilities.
 
@@ -949,15 +950,15 @@ e Melee 1 x One creature
 
 As a 7th-level censor, you gain the following features.
 
-## **Characteristic Increase**
+#### Characteristic Increase
 
 Each of your characteristic scores increases by 1, to a maximum of 4.
 
-## **7th-Level Domain Feature**
+#### 7th-Level Domain Feature
 
 You gain a domain feature from your domain, as shown on the 7th-Level Censor Domain Features table.
 
-## **7th-Level Censor Domain Features**
+#### 7th-Level Censor Domain Features
 
 | Domain     | Feature                      |
 |------------|------------------------------|
@@ -982,7 +983,7 @@ The gods send divine favor to you and your allies. While you are not dying, enem
 
 You can maintain bonds with up to three willing creatures using your Invocation of the Heart feature. Additionally, you have the following ability.
 
-## **Guided to Your Side**
+#### Guided to Your Side
 
 *You concentrate on a friend and teleport to them.*
 
@@ -1014,11 +1015,11 @@ Sun infuses your body. Whenever you use an ability to deal rolled damage to anot
 
 When you finish a respite, you can prepare a magic meal using local flora for any companions who rested with you. Choose two of the following benefits for creatures who consume the meal:
 
-- ¥ Each creature gains immunity to acid, cold, corruption, fire, lightning, poison, or sonic damage equal to your level. You can choose this benefit twice, choosing a different damage immunity each time.
-- ¥ Each creature gains 20 temporary Stamina.
-- ¥ Each creature gains a +1 bonus to speed.
-- ¥ Each creature gains a +1 bonus to saving throws.
-- ¥ Each creature gains an edge on tests made to influence other creatures.
+- Each creature gains immunity to acid, cold, corruption, fire, lightning, poison, or sonic damage equal to your level. You can choose this benefit twice, choosing a different damage immunity each time.
+- Each creature gains 20 temporary Stamina.
+- Each creature gains a +1 bonus to speed.
+- Each creature gains a +1 bonus to saving throws.
+- Each creature gains an edge on tests made to influence other creatures.
 
 Each benefit lasts until the creature who gains it finishes another respite.
 
@@ -1052,11 +1053,11 @@ When an ally within 10 squares takes damage that would leave them dying, you can
 
 The gods allow you and your companions to bask in the glory of past successes. Whenever you finish a respite, you and any other heroes who rested with you regain 1 Victory after your Victories are converted to XP. This Victory isn't converted into XP at the end of a subsequent respite.
 
-## **Focused Wrath**
+#### Focused Wrath
 
 When you gain wrath at the start of each of your turns during combat, you gain 3 wrath instead of 2.
 
-## **Skill**
+#### Skill
 
 You gain one skill of your choice.
 
@@ -1066,11 +1067,11 @@ You gain one skill of your choice.
 
 As an 8th-level censor, you gain the following features.
 
-## **Perk**
+#### Perk
 
 You gain one perk of your choice.
 
-## **8th-Level Order Feature**
+#### 8th-Level Order Feature
 
 Your censor order grants you a feature, as shown on the 8th-Level Order Features table.
 
@@ -1093,7 +1094,7 @@ Your constant fragmentary visions become clearer, and can be honed to understand
 
 Your words take on the power of your deity, with all the authority that entails. If you convince a creature to take an oath, they can't break it for 7 days. If you take an oath, you can't break it for 7 days.
 
-## **11-Wrath Ability**
+#### 11-Wrath Ability
 
 Choose one heroic ability from the following options, each of which costs 11 wrath to use.
 
@@ -1158,15 +1159,15 @@ Power Roll + Presence**:**
 
 As a 9th-level censor, you gain the following features.
 
-## **Improved Implement of Wrath**
+#### Improved Implement of Wrath
 
 The weapon you target with your Implement of Wrath feature gains the following additional benefits:
 
-- ¥ The weapon's wielder and each ally adjacent to them gain a +2 bonus to saving throws.
-- ¥ At the end of each of the weapon wielder's turns, each ally adjacent to the wielder makes a saving throw against each effect on them that is ended by a saving throw.
-- ¥ The weapon's wielder has corruption immunity 10.
+- The weapon's wielder and each ally adjacent to them gain a +2 bonus to saving throws.
+- At the end of each of the weapon wielder's turns, each ally adjacent to the wielder makes a saving throw against each effect on them that is ended by a saving throw.
+- The weapon's wielder has corruption immunity 10.
 
-## **9th-Level Order Ability**
+#### 9th-Level Order Ability
 
 Your censor order grants your choice of one of two heroic abilities.
 
@@ -1271,19 +1272,19 @@ The image appears to be nearly blank or plain white/cream, without any discernib
 
 As a 10th-level censor, you gain the following features.
 
-## **Characteristic Increase**
+#### Characteristic Increase
 
 Your Might and Presence scores each increase to 5.
 
-## **Perk**
+#### Perk
 
 You gain one crafting, lore, or supernatural perk of your choice.
 
-## **Skill**
+#### Skill
 
 You gain one skill of your choice.
 
-## **Templar**
+#### Templar
 
 You are the ultimate representation of your god's justice in the timescape. Whenever you use your Judgment ability, you can use a free triggered action to use a conduit domain effect (see [Domain Piety and Effects](#page-110-0) in the [Conduit](#page-108-0) section) associated with your chosen domain, or a domain you access with virtue (see below). If the effect calls for the use of your Intuition score, you use your Presence score instead. If the effect uses your conduit level, use your censor level instead.
 
@@ -1293,7 +1294,7 @@ answer honestly if your deity knows the answers (though they might answer crypti
 
 While you rest in their presence, your god might also give you priority targets to enact justice upon. You and your allies each have a double edge on power rolls made against such targets. If you attempt to open a portal to your deity again before you have defeated your priority targets, you suffer your god's wrath, as determined by the Director.
 
-## **Virtue**
+#### Virtue
 
 You have an epic resource called virtue. Each time you finish a respite, you gain virtue equal to the XP you gain. You can spend virtue on your abilities as if it were wrath.
 
@@ -1301,7 +1302,7 @@ Additionally, you can spend 3 virtue to access one of your deity's domains that 
 
 Virtue remains until you spend it.
 
-## **Wrath of the Gods**
+#### Wrath of the Gods
 
 When you gain wrath at the start of each of your turns during combat, you gain 4 wrath instead of 3.
 
