@@ -1,4 +1,4 @@
-# <span id="page-144-1"></span><span id="page-144-0"></span>FURY
+# FURY
 
 Y **ou do not temper the heat of battle within you. You unleash it! Your experience in the wild taught you the secrets of predators, and now, like the raptor, the panther, the wolf, you channel unfettered anger into martial prowess. Primordial Chaos is your ally. Let others use finesse to clean up the wreckage left in your wake.**
 
@@ -42,7 +42,7 @@ You are a product of customs older than warfare, older than civilization, older 
 
 Your primordial aspect is your subclass, and your choice of aspect determines many of the features you'll gain as you gain new levels.
 
-## <span id="page-145-0"></span>**Ferocity**
+## **Ferocity**
 
 Within the heat of battle, your determination and anger grow, fueling a Heroic Resource called ferocity.
 
@@ -157,11 +157,11 @@ Your primordial aspect grants you a triggered action, as shown on the Aspect Tri
 
 *In your anger, you revert to a more bestial form.*
 
-Trigger: You lose Stamina and are not dying.
+**Trigger:** You lose Stamina and are not dying.
 
-Effect: You gain temporary Stamina equal to your Might score and can enter your animal form or hybrid form.
+**Effect:** You gain temporary Stamina equal to your Might score and can enter your animal form or hybrid form.
 
-Spend 1 Ferocity: If you are not dying, you can spend a Recovery.
+**Spend 1 Ferocity:** If you are not dying, you can spend a Recovery.
 
 #### **Lines of Force**
 
@@ -169,21 +169,21 @@ Spend 1 Ferocity: If you are not dying, you can spend a Recovery.
 | ----------------------------------|------------------------------------------|
 | Image: melee attack icon Melee 1 | Image: trigger icon Self or one creature |
 
-Trigger: The target would be force moved.
+**Trigger:** The target would be force moved.
 
-Effect: You can select a new target of the same size or smaller within distance to be force moved instead. You become the source of the forced movement, determine the new target's destination, and can push the target instead of using the original forced movement type. Additionally, the forced movement distance gains a bonus equal to your Might score.
+**Effect:** You can select a new target of the same size or smaller within distance to be force moved instead. You become the source of the forced movement, determine the new target's destination, and can push the target instead of using the original forced movement type. Additionally, the forced movement distance gains a bonus equal to your Might score.
 
-Spend 1 Ferocity: The forced movement distance gains a bonus equal to twice your Might score instead.
+**Spend 1 Ferocity:** The forced movement distance gains a bonus equal to twice your Might score instead.
 
 #### **Unearthly Reflexes**
 
 *You are as elusive as a hummingbird.*
 
-Trigger: You take damage.
+**Trigger:** You take damage.
 
-Effect: You take half the damage from the triggering effect and can shift up to a number of squares equal to your Agility score.
+**Effect:** You take half the damage from the triggering effect and can shift up to a number of squares equal to your Agility score.
 
-Spend 1 Ferocity: If the damage has any potency effects associated with it, the potency is reduced by 1 for you.
+**Spend 1 Ferocity:** If the damage has any potency effects associated with it, the potency is reduced by 1 for you.
 
 ## Fury
 
@@ -217,7 +217,9 @@ Choose one signature ability from the following options. Signature abilities can
 | --- | ---:|
 | **📏 Melee 1** | **🎯 One creature or object** |
 
-Power Roll + Might**:**
+
+
+**Power Roll + Might:**
 
 - **≤11:** 2 + M damage
 - **12-16:** 5 + M damage
@@ -267,7 +269,9 @@ Choose one heroic ability from the following options, each of which costs 3 fero
 | --- | ---:|
 | **📏 1 burst** | **🎯 Each enemy in the area** |
 
-#### Power Roll + Might**:**
+
+
+**Power Roll + Might:**
 
 - **≤11:** 5 damage
 - **12-16:** 8 damage; push 1
@@ -281,7 +285,9 @@ Choose one heroic ability from the following options, each of which costs 3 fero
 |-------------------------------------|------------------------------------------|
 | Image: Melee weapon icon<br>Melee 1 | Image: Clock/action icon<br>One creature |
 
-#### Power Roll + Might**:**
+
+
+**Power Roll + Might:**
 
 - **≤11:** 3 + M damage; slide 2
 - **12-16:** 5 + M damage; slide 3
@@ -299,13 +305,15 @@ Choose one heroic ability from the following options, each of which costs 3 fero
 
 **Effect:** You move up to your speed in a straight line, and enemy squares are not difficult terrain for this movement. You can end this movement in a creature's space and move them to an adjacent unoccupied space. You make one power roll that targets each enemy whose space you move through.
 
-Power Roll + Might**:**
+
+
+**Power Roll + Might:**
 
 - **≤11:** 2 damage
 - **12-16:** 3 damage
 - **17+:** 5 damage
 
-Effect: The last target you damage takes extra damage equal to your Might score for each opportunity attack you trigger during your move.
+**Effect:** The last target you damage takes extra damage equal to your Might score for each opportunity attack you trigger during your move.
 
 ## **Your Entrails Are Your Extrails! (3 Ferocity)**
 
@@ -315,7 +323,9 @@ Effect: The last target you damage takes extra damage equal to your Might score 
 | ---------------------------|-------------------------------------------|
 | Image: melee icon Melee 1 | Image: action icon One creature or object |
 
-Power Roll + Might**:**
+
+
+**Power Roll + Might:**
 
 - **≤11:** 3 + M damage; M < WEAK, bleeding (save ends)
 - **12-16:** 5 + M damage; M < AVERAGE, bleeding (save ends)
@@ -341,7 +351,9 @@ Choose one heroic ability from the following options, each of which costs 5 fero
 | Effect: You can deal 1d6 damage to yourself to deal an extra 1d6                                                                                                    |                                         | Berserker                                                                                                                                    | Unstoppable Force                                                        |  |  |
 | damage to the target.                                                                                                                                               |                                         | Reaver                                                                                                                                       | Inescapable Wrath                                                        |  |  |
 | Make Peace With Your God! (5 Ferocity)<br>Anger is your energy.                                                                                                     |                                         | Stormwight                                                                                                                                   | Tooth and Claw                                                           |  |  |
-| —                                                                                                                                                                   | Free maneuver                           |                                                                                                                                              |                                                                          |  |  |
+
+| **—** | **Free maneuver** |
+
 | e Self                                                                                                                                                              | x Self                                  |                                                                                                                                              | Inescapable Wrath                                                        |  |  |
 | Effect: You gain 1 surge, and the next ability roll you make this turn<br>automatically obtains a tier 3 outcome.                                                   |                                         | You have a bonus to speed equal to your Agility score, and you ignore<br>difficult terrain.                                                  |                                                                          |  |  |
 | Thunder Roar (5 Ferocity)                                                                                                                                           |                                         | Tooth and Claw                                                                                                                               |                                                                          |  |  |
@@ -618,7 +630,9 @@ Choose one heroic ability from the following options, each of which costs 9 fero
 
 **Trigger:** A creature causes you to be winded or dying, or damages you while you are winded or dying.
 
-## Power Roll + Might**:**
+
+
+**Power Roll + Might:**
 
 | ≤11   | 6 + <b style="background:black;color:white;padding:0 4px;">M** damage  |
 |-------|--------------------------------------------------------------------------|
@@ -635,7 +649,9 @@ Choose one heroic ability from the following options, each of which costs 9 fero
 | --- | ---:|
 | **📏 Melee 1** | **🎯 Two creatures or objects** |
 
-## Power Roll + Might**:**
+
+
+**Power Roll + Might:**
 
 - **≤11:** 9 damage; push 3
 - **12-16:** 14 damage; push 5
@@ -770,7 +786,9 @@ Mele
 | --- | ---:|
 | **📏 Melee 1** | **🎯 One creature** |
 
-#### Power Roll + Might**:**
+
+
+**Power Roll + Might:**
 
 - **≤11:** 8 damage; M < WEAK, grabbed
 - **12-16:** 13 damage; M < AVERAGE, grabbed
@@ -889,7 +907,9 @@ Power Roll + Might:
 
 **Effect:** You shift up to your speed. Each enemy you move adjacent to during this movement takes damage equal to twice your Might score. Then make one power roll that targets each enemy you move adjacent to during this shift. You gain 1 ferocity for each target who dies as a result of this ability (maximum 11 ferocity).
 
-#### Power Roll + Might**:**
+
+
+**Power Roll + Might:**
 
 - **≤11:** Any target whose Stamina is equal to or less than 8 dies.
 - **12-16:** Any target whose Stamina is equal to or less than 11 dies.
@@ -1217,7 +1237,7 @@ Your primordial damage type is fire.
 - **12-16:** 6 damage
 - **17+:** 8 damage
 
-Effect: You can shift up to 2 squares before or after making the power roll.
+**Effect:** You can shift up to 2 squares before or after making the power roll.
 
 ## Growing Ferocity
 
@@ -1277,7 +1297,7 @@ Your primordial damage type is corruption.
 - **12-16:** 7 + A damage; push 1
 - **17+:** 9 + A damage; push 2
 
-Effect: You can shift up to the same number of squares that you pushed the target.
+**Effect:** You can shift up to the same number of squares that you pushed the target.
 
 #### Growing Ferocity
 

@@ -64,6 +64,11 @@ run input_md_path output_md_path:
     text = re.sub( r'\s*\-? ?á ?', r'\n\n- **≤11:** ', text, flags=re.MULTILINE)
     text = re.sub( r'\s*\-? ?é ?', r'\n- **12-16:** ', text, flags=re.MULTILINE)
     text = re.sub( r'\s*\-? ?í ?', r'\n- **17+:** ', text, flags=re.MULTILINE)
+    # keywords
+    text = re.sub( r'^\**Trigger\**\:\**', r'**Trigger:**', text, flags=re.MULTILINE)
+    text = re.sub( r'^\**Effect\**\:\**', r'**Effect:**', text, flags=re.MULTILINE)
+    # remove spans
+    text = re.sub( r'\<span id\=\".*"\>\<\/span\>', r'', text, flags=re.MULTILINE)
 
     # write it all out at once
     with open(output_path, 'w', encoding='utf-8') as f:
