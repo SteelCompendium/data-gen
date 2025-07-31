@@ -1142,9 +1142,9 @@ See Free Strikes in Chapter 10: Combat for more information on using free strike
 
 ######## Melee Weapon Free Strike
 
-| **Charge, Melee, Stike, Weapon** |               **Main Action** |
-| -------------------------------- | -----------------------------:|
-| **📏 Melee 1**                   | **🎯 One creature or object** |
+| **Charge, Melee, Strike, Weapon**  |               **Main Action** |
+|------------------------------------|------------------------------:|
+| **📏 Melee 1**                     | **🎯 One creature or object** |
 
 **Power Roll + Might or Agility:**
 
@@ -1154,9 +1154,9 @@ See Free Strikes in Chapter 10: Combat for more information on using free strike
 
 ######## Ranged Weapon Free Strike
 
-| **Ranged, Stike, Weapon** |               **Main Action** |
-|---------------------------| -----------------------------:|
-| **📏 Ranged 5**           | **🎯 One creature or object** |
+| **Ranged, Strike, Weapon**  |               **Main Action** |
+|-----------------------------|------------------------------:|
+| **📏 Ranged 5**             | **🎯 One creature or object** |
 
 **Power Roll + Might or Agility:**
 
