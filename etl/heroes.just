@@ -138,9 +138,6 @@ convert_md_to_other_formats md_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
 
-    # TODO - add this back in
-    exit
-
     just _print_section "Heroes: Converting markdown into other formats"
     conversions_dpath="{{heroes_staging_dpath}}/9_conversions"
 
