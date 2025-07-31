@@ -55,9 +55,9 @@ run input_md_path output_md_path:
     # remove spans
     text = re.sub( r'\<span id\=\".*"\>\<\/span\>', r'', text, flags=re.MULTILINE)
     # weak, average, strong
-    text = re.sub( r'\s?<\s?w\s?,', r' < WEAK,', text, flags=re.MULTILINE)
-    text = re.sub( r'\s?<\s?v\s?,', r' < AVERAGE,', text, flags=re.MULTILINE)
-    text = re.sub( r'\s?<\s?s\s?,', r' < STRONG,', text, flags=re.MULTILINE)
+    text = re.sub( r'\s?<\s?w\s', r' < WEAK ', text, flags=re.MULTILINE)
+    text = re.sub( r'\s?<\s?v\s', r' < AVERAGE ', text, flags=re.MULTILINE)
+    text = re.sub( r'\s?<\s?s\s', r' < STRONG ', text, flags=re.MULTILINE)
     # char potency
     text = re.sub( r'm \<', r'M <', text, flags=re.MULTILINE)
     text = re.sub( r'a \<', r'A <', text, flags=re.MULTILINE)

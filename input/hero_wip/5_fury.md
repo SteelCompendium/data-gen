@@ -595,24 +595,23 @@ Choose one heroic ability from the following options, each of which costs 7 fero
 
 *See how useless their weapons are!*
 
-| **Magic** | **Maneuver** |
-| --- | ---:|
-| **📏 Self** | **🎯 Self** |
+| **Magic**   | **Maneuver** |
+|-------------|-------------:|
+| **📏 Self** |  **🎯 Self** |
 
 **Effect:** You gain 20 temporary Stamina.
 
 ######## You Are Already Dead (7 Ferocity)
 
-| <i>Slash. Walk away.</i>           |                                       |
-|------------------------------------|---------------------------------------|
+*Slash. Walk away.*
 
-| **Melee, Strike, Weapon** | **Main action** |
-
-| Melee 1 | One creature |
+| **Melee, Strike, Weapon** |     **Main action** |
+|---------------------------|--------------------:|
+| **📏 Melee 1**            | **🎯 One creature** |
 
 **Effect:** If the target is not a leader or solo creature, they are reduced to 0 Stamina at the end of their next turn. If the target is a leader or solo creature, you gain 3 surges and can make a melee free strike against them.
 
-## 4th-Level Features
+### 4th-Level Features
 
 As a 4th-level fury, you gain the following features.
 
@@ -644,9 +643,7 @@ You can manifest your ferocity directly as an elemental force created by the Pri
 
 You gain one skill of your choice. See Skills in Chapter 9: Tests.
 
-# Fury
-
-## 5th-Level Features
+### 5th-Level Features
 
 As a 5th-level fury, you gain the following features.
 
@@ -654,7 +651,7 @@ As a 5th-level fury, you gain the following features.
 
 Your primordial aspect grants you a feature, as shown on the 5th-Level Aspect Features table.
 
-#### 5th-Level Aspect Features
+###### 5th-Level Aspect Features Table
 
 | Aspect     | Feature    |
 |------------|------------|
@@ -662,15 +659,15 @@ Your primordial aspect grants you a feature, as shown on the 5th-Level Aspect Fe
 | Reaver     | Unfettered |
 | Stormwight | Stormborn  |
 
-## Bounder
+##### Bounder
 
 Your jump distance and height double (see Movement Types in Chapter 10: Combat). Additionally, when you fall, you reduce the effective height of your fall by a number of squares equal to your jump distance for the purpose of determining damage and whether you land prone (see Falling in Chapter 10). You are not prone after falling and landing on another creature.
 
-## Stormborn
+##### Stormborn
 
 You and each ally within 5 squares of you ignore negative effects from inclement weather, such as banes or environmental damage. Additionally, you can use the Blessing of Fortunate Weather feature as if you were a 1st-level conduit (see 1st-Level Domain Feature in the Conduit section).
 
-## Unfettered
+##### Unfettered
 
 At the start of your turn, you can end any restrained condition on you. Additionally, you have a double edge on tests made to escape being confined or imprisoned.
 
@@ -678,13 +675,15 @@ At the start of your turn, you can end any restrained condition on you. Addition
 
 Choose one heroic ability from the following options, each of which costs 9 ferocity to use.
 
-|######## Debilitating Strike (9 Ferocity) *You need just one blow to sabotage your target.* **Melee, Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Melee 1** | **🎯 One creature** |
+######## Debilitating Strike (9 Ferocity)
 
-| **Power Roll + Might:** |  |
-|----------------------------|--|
-|----------------------------|--|
+*You need just one blow to sabotage your target.* 
+
+| **Melee, Strike, Weapon** |     **Main action** |
+|---------------------------|--------------------:|
+| **📏 Melee 1**            | **🎯 One creature** |
+
+**Power Roll + Might:**
 
 - **≤11:** 10 + M damage; M < WEAK, slowed (save ends)
 - **12-16:** 14 + M damage; M < AVERAGE, slowed (save ends)
@@ -696,28 +695,17 @@ Choose one heroic ability from the following options, each of which costs 9 fero
 
 *You quickly strike back at a foe.*
 
-| **Melee, Strike, Weapon** | **Free triggered** |
-|------------------------------|-----------------------|
-|------------------------------|-----------------------|
-
-| <span>\</span> Melee 1 | <span>@</span> The triggering creature |
-|------------------------|----------------------------------------|
-|------------------------|----------------------------------------|
-
-
-| --- | ---:|
-| **📏 Melee 1** | **🎯 The triggering creature** |
+| **Melee, Strike, Weapon** |             **Free triggered** |
+|---------------------------|-------------------------------:|
+| **📏 Melee 1**            | **🎯 The triggering creature** |
 
 **Trigger:** A creature causes you to be winded or dying, or damages you while you are winded or dying.
 
-
-
 **Power Roll + Might:**
 
-| ≤11   | 6 + <b style="background:black;color:white;padding:0 4px;">M** damage  |
-|-------|--------------------------------------------------------------------------|
-| 12-16 | 9 + <b style="background:black;color:white;padding:0 4px;">M** damage  |
-| 17+   | 13 + <b style="background:black;color:white;padding:0 4px;">M** damage |
+ - **≤11:** 6 + M damage
+ - **12-16:** 9 + M damage
+ - **17+:** 13 + M damage
 
 **Effect:** You can spend a Recovery.
 
@@ -725,11 +713,9 @@ Choose one heroic ability from the following options, each of which costs 9 fero
 
 *You knock around enemies like playthings.*
 
-| **Melee, Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Melee 1** | **🎯 Two creatures or objects** |
-
-
+| **Melee, Strike, Weapon** |                 **Main action** |
+|---------------------------|--------------------------------:|
+| **📏 Melee 1**            | **🎯 Two creatures or objects** |
 
 **Power Roll + Might:**
 
@@ -743,15 +729,19 @@ Choose one heroic ability from the following options, each of which costs 9 fero
 
 *You channel the Primordial Chaos into blows that petrify your foe … literally.*
 
-| **Magic, Melee, Strike, Weapon** | **Main action** |
-| ------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-| <span>Image: triangular icon</span> Melee 1                                                          | <span>Image: circular timer icon</span> One creature                                                                          |
-| Power Roll + Might:                                                                                  |                                                                                                                               |
-| <span style="border:1px solid #000; border-radius:6px; padding:1px 5px; font-size:90%;">≤11</span>   | 9 + **M** damage; <span style="background:black; color:white; padding:0 2px;">M&lt;WEAK</span> , slowed (save ends)        |
-| <span style="border:1px solid #000; border-radius:6px; padding:1px 5px; font-size:90%;">12–16</span> | 13 + **M** damage; <span style="background:black; color:white; padding:0 2px;">M&lt;AVERAGE</span> , slowed (save ends)    |
-| <span style="border:1px solid #000; border-radius:6px; padding:1px 5px; font-size:90%;">17+</span>   | 18 + **M** damage; <span style="background:black; color:white; padding:0 2px;">M&lt;STRONG</span> , restrained (save ends) |
+| **Magic, Melee, Strike, Weapon** |     **Main action** |
+|----------------------------------|--------------------:|
+| **📏 Melee 1**                   | **🎯 One creature** |
+
+**Power Roll + Might:**
+
+- **≤11:** 9 + M damage; M < WEAK, slowed (save ends)
+- **12-16:** 13 + M damage; M < AVERAGE, slowed (save ends)
+- **17+:** 18 + M damage; M < STRONG, restrained (save ends)
 
 **Effect:** While the target is slowed this way, any other effect that would make the target slowed instead makes them restrained by this ability. Additionally, a creature who fails the saving throw while restrained this way is petrified until they are given a supernatural cure or you choose to reverse the effect (no action required).
+
+### 6th-Level Features
 
 As a 6th-level fury, you gain the following features.
 
@@ -775,7 +765,7 @@ You gain one crafting, exploration, or intrigue perk of your choice.
 
 Your primordial aspect grants your choice of one of two heroic abilities.
 
-### 6th-Level Berserker Abilities
+##### 6th-Level Berserker Abilities
 
 Choose one of the following abilities.
 
@@ -783,13 +773,13 @@ Choose one of the following abilities.
 
 *You leap and crash down, causing a shockwave that devastates foes.*
 
-| **Magic** | **Maneuver** |
-| -----------------------------|--------------------------------|
-| Image: magic symbol Self | Image: maneuver symbol Self |
+| **Magic**   | **Maneuver** |
+|-------------|-------------:|
+| **📏 Self** |  **🎯 Self** |
 
 **Effect:** You jump up to your maximum jump distance and make one power roll that targets each creature adjacent to the space where you land.
 
-#### Power Roll + Might:
+**Power Roll + Might:**
 
 - **≤11:** 4 damage; push 1
 - **12-16:** 7 damage; push 2
@@ -797,18 +787,13 @@ Choose one of the following abilities.
 
 ######## Force of Storms (9 Ferocity)
 
-*You strike an enemy hard enough to be a projectile that knocks a*
+*You strike an enemy hard enough to be a projectile that knocks a crowd of creatures around.*
 
-| <i>crowd of creatures around.</i> |                    |
-|-----------------------------------|--------------------|
-|                                   |                    |
-| **Melee, Strike, Weapon**      | **Main action** |
+| **Melee, Strike, Weapon** |     **Main action** |
+|---------------------------|--------------------:|
+| **📏 Melee 1**            | **🎯 One creature** |
 
-
-| --- | ---:|
-| **📏 Melee 1** | **🎯 One creature** |
-
-#### Power Roll + Might:
+**Power Roll + Might:**
 
 - **≤11:** 7 + M damage; push 3
 - **12-16:** 11 + M damage; push 5
@@ -816,7 +801,7 @@ Choose one of the following abilities.
 
 **Effect:** When the target ends this forced movement, each creature within 2 squares of the target is pushed 3 squares.
 
-#### 6th-Level Reaver Abilities
+##### 6th-Level Reaver Abilities
 
 Choose one of the following abilities.
 
@@ -825,22 +810,24 @@ Choose one of the following abilities.
 *Once you taste your foe's blood, you become more efficient and turn every killing blow into an opportunity.*
 
 | **Melee, Strike, Weapon** | **Free triggered** |
-| -------------------------------------------------|-------------------------------------|
-| <span>Image: melee triangle icon</span> Melee 1 | <span>Image: clock icon</span> Self |
+|---------------------------|-------------------:|
+| **📏 Melee 1**            |        **🎯 Self** |
 
-**Trigger:** You reduce a creature to 0 Stamina with a strike. **Effect:** You target a creature adjacent to you with the same strike, using the same power roll as the triggering strike.
+**Trigger:** You reduce a creature to 0 Stamina with a strike. 
+
+**Effect:** You target a creature adjacent to you with the same strike, using the same power roll as the triggering strike.
 
 ######## Seek and Destroy (9 Ferocity)
 
 *You break through the enemy lines to make an example.*
 
-| **Melee, Strike, Weapon** | **Main action** |
-| ---------------------------|---------------------------------|
-| Melee 1 | One creature |
+| **Melee, Strike, Weapon** |     **Main action** |
+|---------------------------|--------------------:|
+| **📏 Melee 1**            | **🎯 One creature** |
 
 **Effect:** You shift up to your speed.
 
-Power Roll + Might:
+**Power Roll + Might:**
 
 - **≤11:** 4 + M damage; P < WEAK, frightened (save ends)
 - **12-16:** 6 + M damage; P < AVERAGE, frightened (save ends)
@@ -848,11 +835,7 @@ Power Roll + Might:
 
 **Effect:** If a target who is not a leader or solo creature is winded by this strike, they are reduced to 0 Stamina and you choose an enemy within 5 squares of you. If that enemy has P < AVERAGE, they are frightened of you (save ends).
 
-Draw Steel
-
-## Fury
-
-#### 6th-Level Stormwight Abilities
+##### 6th-Level Stormwight Abilities
 
 Choose one of the following abilities.
 
@@ -860,13 +843,9 @@ Choose one of the following abilities.
 
 *You strike at the target like the ultimate predator you are.*
 
-Mele
-
-| **Magic, Melee, Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Melee 1** | **🎯 One creature** |
-
-
+| **Magic, Melee, Strike, Weapon** |     **Main action** |
+|----------------------------------|--------------------:|
+| **📏 Melee 1**                   | **🎯 One creature** |
 
 **Power Roll + Might:**
 
@@ -880,15 +859,15 @@ Mele
 
 *You focus your connection to the Primordial Chaos into a seething storm.*
 
-| **Area, Magic** | **Maneuver** |
-| --- | ---:|
-| **📏 3 aura** | **🎯 Each creature in the area** |
+| **Area, Magic** |                     **Maneuver** |
+|-----------------|---------------------------------:|
+| **📏 3 aura**   | **🎯 Each creature in the area** |
 
 **Effect:** Until the end of the encounter or until you are dying, each enemy target takes damage of your primordial damage type equal to twice your Might score at the end of each of your turns. Additionally, you can fly while the aura is active. Each ally target who starts or ends their turn in the area can also fly until the start of their next turn or until the effect ends.
 
 **Special:** When you use this ability outside of combat without spending ferocity, you must spend 1 uninterrupted minute summoning a primordial storm that fills the area, and you take 1d6 damage before the ability takes effect. The storm lasts for 1 hour or until a combat encounter begins.
 
-## 7th-Level Features
+### 7th-Level Features
 
 As a 7th-level fury, you gain the following features.
 
@@ -914,6 +893,8 @@ Your Growing Ferocity feature provides additional benefits when you have 10 or m
 
 You gain one skill of your choice.
 
+### 8th-Level Features
+
 As an 8th-level fury, you gain the following features.
 
 #### Perk
@@ -924,21 +905,23 @@ You gain one perk of your choice.
 
 Your primordial aspect grants you a feature, as shown on the 8th-Level Aspect Features table.
 
+###### 8th-Level Aspect Features Table
+
 | Aspect     | Feature            |
 |------------|--------------------|
 | Berserker  | Strongest There Is |
 | Reaver     | A Step Ahead       |
 | Stormwight | Menagerie          |
 
-## Menagerie
+##### Menagerie
 
 You can use all stormwight kits. During a respite, you can choose to swap your stormwight kit and still take another respite activity. Your Nature's Knight feature now lets you automatically sense the presence of animals within 1 mile of you. Additionally, whenever you make a test to track another creature, you can roll three dice and choose which two to use.
 
-#### A Step Ahead
+##### A Step Ahead
 
 You move with legendary grace. Whenever you make an Agility test, you can roll three dice and choose which two to use. Additionally, whenever you use the Disengage move action, the distance you can shift gains a bonus equal to your Agility score.
 
-#### Strongest There Is
+##### Strongest There Is
 
 Your strength is unmatched. Whenever you make a Might test, you can roll three dice and choose which two to use. Additionally, whenever you use the Knockback maneuver, the forced movement distance gains a bonus equal to your Might score.
 
@@ -950,32 +933,33 @@ Choose one heroic ability from the following options, each of which costs 11 fer
 
 *Your primordial energy makes for instant retribution.*
 
-| **Magic** | **Maneuver** |
-| ---------------------------|------------------------------|
-| Self | Self |
+| **Magic**   | **Maneuver** |
+|-------------|-------------:|
+| **📏 Self** |  **🎯 Self** |
 
 **Effect:** You gain 10 temporary Stamina. Additionally, choose acid, cold, corruption, fire, lightning, poison, or sonic damage. Until the end of the encounter or until you are dying, whenever an enemy damages you, they take 10 damage of the chosen type. If this damage reduces the enemy to 0 Stamina, you gain 10 temporary Stamina.
 
 ######## Overkill (11 Ferocity)
 
-| <i>You strike so no damage is wasted.</i> |                                      |
-|-------------------------------------------|--------------------------------------|
-| **Magic, Melee, Strike, Weapon**       | **Main action**                   |
-| Melee 1                 | One creature |
+*You strike so no damage is wasted.*
 
-Power Roll + Might:
+| **Magic, Melee, Strike, Weapon** |     **Main action** |
+|----------------------------------|--------------------:|
+| **📏 Melee 1**                   | **🎯 One creature** |
 
-- **≤11:** <sup>6</sup>**+** M damage
-- **12-16:** <sup>10</sup>**+** M damage
-- **17+:** <sup>14</sup>**+** M damage
+**Power Roll + Might:**
+
+- **≤11:** 6 + M damage
+- **12-16:** 10 + M damage
+- **17+:** 14 + M damage
 
 **Effect:** If the target is a minion or is winded but isn't a leader or solo creature, they are reduced to 0 Stamina before this ability's damage is dealt. If the target is killed by this damage, you can deal any damage over what was required to kill them to another creature within 5 squares of the target.
 
 ######## Primordial Rage (11 Ferocity)
 
-| **Magic** | **Maneuver** |
-| ---------------------------|------------------------------|
-| Self | Self |
+| **Magic**   | **Maneuver** |
+|-------------|-------------:|
+| **📏 Self** |  **🎯 Self** |
 
 **Effect:** Choose acid, cold, corruption, fire, lightning, poison, or sonic damage. Until the end of the encounter or until you are dying, you can choose one target of any ability you use, with that target taking an extra 15 damage of the chosen type. Additionally, whenever you gain ferocity from taking damage, the source of the damage takes 5 damage of the chosen type.
 
@@ -983,11 +967,11 @@ Power Roll + Might:
 
 *You won't escape your fate.*
 
-**Magic, Melee, Strike, Weapon Main action** e Self; see below x Self
+| **Magic, Melee, Strike, Weapon** | **Main action** |
+|----------------------------------|----------------:|
+| **📏 Self; see below**           |     **🎯 Self** |
 
 **Effect:** You shift up to your speed. Each enemy you move adjacent to during this movement takes damage equal to twice your Might score. Then make one power roll that targets each enemy you move adjacent to during this shift. You gain 1 ferocity for each target who dies as a result of this ability (maximum 11 ferocity).
-
-
 
 **Power Roll + Might:**
 
@@ -995,7 +979,7 @@ Power Roll + Might:
 - **12-16:** Any target whose Stamina is equal to or less than 11 dies.
 - **17+:** Any target whose Stamina is equal to or less than 17 dies.
 
-## 9th-Level Features
+### 9th-Level Features
 
 As a 9th-level fury, you gain the following features.
 
@@ -1007,7 +991,7 @@ You can create a temporary source of elemental power as a respite activity. This
 
 Your primordial aspect grants your choice of one of two heroic abilities.
 
-## 9th-Level Berserker Abilities
+##### 9th-Level Berserker Abilities
 
 Choose one of the following abilities.
 
@@ -1015,13 +999,11 @@ Choose one of the following abilities.
 
 *You use your weapon to create a destructive shockwave.*
 
-**Area, Mag**
+| **Area, Magic, Melee, Weapon** |               **Main action** |
+|--------------------------------|------------------------------:|
+| **📏 3 burst**                 | **🎯 Each enemy in the area** |
 
-| **Area, Magic, Melee, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 3 burst** | **🎯 Each enemy in the area** |
-
-Power Roll + Might:
+**Power Roll + Might:**
 
 - **≤11:** 7 damage; push 3
 - **12-16:** 10 damage; push 5
@@ -1029,15 +1011,15 @@ Power Roll + Might:
 
 **Effect:** If this forced movement causes a target to be hurled through an object, that target takes an extra 10 damage.
 
-**Primordial Vortex (11 Ferocity)**
+######## Primordial Vortex (11 Ferocity)
 
 *You channel the power of the Primordial Chaos to pull foes to you.*
 
-| **Area, Magic, Melee, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 3 burst** | **🎯 Each enemy in the area** |
+| **Area, Magic, Melee, Weapon** |               **Main action** |
+|--------------------------------|------------------------------:|
+| **📏 3 burst**                 | **🎯 Each enemy in the area** |
 
-#### Power Roll + Might:
+**Power Roll + Might:**
 
 - **≤11:** 3 damage; vertical pull 3
 - **12-16:** 5 damage; vertical pull 5
@@ -1045,22 +1027,23 @@ Power Roll + Might:
 
 **Effect:** If this forced movement causes a target to slam into you, you take no damage from the collision and the target takes the damage you would have taken.
 
-## 9th-Level Reaver Abilities
+##### 9th-Level Reaver Abilities
 
 Choose one of the following abilities.
 
-|######## Primordial Bane (11 Ferocity)                             |                                |
-|------------------------------------------------------------------|--------------------------------|
-| <i>You attune the target to be weaker to a specific element.</i> |                                |
-| **Magic, Melee, Strike, Weapon**                              | **Main action**             |
-| Melee 1                                        | One creature |
-| **Power Roll + Might:**                                       |                                |
+######## Primordial Bane (11 Ferocity)
 
-| ≤11   | 11 + **M** damage |
-|-------|----------------------|
-| 12–16 | 16 + **M** damage |
-|       |                      |
-- **17+:** 21 + M damage
+*You attune the target to be weaker to a specific element.*
+
+| **Magic, Melee, Strike, Weapon** |     **Main action** |
+|----------------------------------|--------------------:|
+| **📏 Melee 1**                   | **🎯 One creature** |
+
+**Power Roll + Might:**
+
+- **≤11:** 11 + M damage          
+- **12-16:** 16 + M damage 
+- **17+:** 21 + M damage 
 
 **Effect:** Choose acid, cold, corruption, fire, lightning, poison, or sonic damage. The target loses any damage immunity to the chosen type and gains weakness 10 to the chosen type (save ends).
 
@@ -1068,11 +1051,11 @@ Choose one of the following abilities.
 
 *You shock your foes with the brutality of your strike, resetting the balance of combat.*
 
-| **Melee, Strike, Weapon** | **Main action** |
-| ------------------------------|-----------------------------------------|
-| Melee 1 | One creature |
+| **Melee, Strike, Weapon** |     **Main action** |
+|---------------------------|--------------------:|
+| **📏 Melee 1**            | **🎯 One creature** |
 
-#### Power Roll + Might:
+**Power Roll + Might:**
 
 - **≤11:** 12 + M damage
 - **12-16:** 18 + M damage
@@ -1080,7 +1063,7 @@ Choose one of the following abilities.
 
 **Effect:** Each enemy within 5 squares of you is distracted until the end of the round. While a creature is distracted this way, they can't take triggered actions or free triggered actions, ability rolls made against them gain an edge, and their characteristic scores are considered 1 lower for the purpose of resisting potencies.
 
-## 9th-Level Stormwight Abilities
+##### 9th-Level Stormwight Abilities
 
 Choose one of the following abilities.
 
@@ -1088,13 +1071,11 @@ Choose one of the following abilities.
 
 *You unleash an otherworldly cry that rips through your enemies, killing the weakest of them.*
 
-**Area, Magi**
+| **Area, Magic** |               **Main action** |
+|-----------------|------------------------------:|
+| **📏 3 burst**  | **🎯 Each enemy in the area** |
 
-| **Area, Magic** | **Main action** |
-| --- | ---:|
-| **📏 3 burst** | **🎯 Each enemy in the area** |
-
-## Power Roll + Might:
+**Power Roll + Might:**
 
 - **≤11:** 4 psychic damage; any target who is a minion is reduced to 0 Stamina
 - **12-16:** 6 psychic damage; any target who is a minion is reduced to 0 Stamina, as does one winded target who is not a leader or solo creature
@@ -1104,25 +1085,19 @@ Choose one of the following abilities.
 
 *You summon your primordial storm.*
 
-| Area, Magic, Ranged               |
-|-----------------------------------|
-| $\blacktriangle$ 5 cube within 10 |
+| **Area, Magic, Ranged** |               **Main action** |
+|-------------------------|------------------------------:|
+| **📏 5 cube within 10** | **🎯 Each enemy in the area** |
 
-**Area, Magic, Ranged Main action** e 5 cube within 10 x Each enemy in the area
-
-## Power Roll + Might:
+**Power Roll + Might:**
 
 - **≤11:** 7 damage
 - **12-16:** 10 damage
 - **17+:** 15 damage
 
-$7^+$  15 damage
-
 **Effect:** This ability deals your primordial damage type and ignores damage immunity.
 
-Draw Steel
-
-## 10th-Level Features
+### 10th-Level Features
 
 As a 10th-level fury, you gain the following features.
 
@@ -1164,7 +1139,7 @@ Primordial power remains until you spend it.
 
 You gain one skill of your choice.
 
-## Stormwight Kits
+### Stormwight Kits
 
 The stormwight primordial aspect lets you channel your ferocity into the form of an animal and grants you knowledge of one stormwight kit of your choice. You can master additional stormwight kits through play, changing them out during a respite as with any other kit (see Chapter 6: Kits).
 
@@ -1172,47 +1147,43 @@ The stormwight primordial aspect lets you channel your ferocity into the form of
 
 All stormwight kits have the following features in common.
 
-#### Aspect Benefits and Animal Form
+##### Aspect Benefits and Animal Form
 
 Your primordial aspect benefits are always available to you, and you gain additional benefits while in the animal or hybrid form granted by your stormwight kit.
 
-#### Aspect of the Wild
+##### Aspect of the Wild
 
 You have the following ability.
 
-#### **Aspect of the Wild**
+######## Aspect of the Wild
 
 *You assume the form of the animal who channels your ferocity.*
 
-Magic
-
-Self
-
-| **Magic** | **Maneuver** |
-| --- | ---:|
-| **📏 Self** | **🎯 Self** |
+| **Magic**   | **Maneuver** |
+|-------------|-------------:|
+| **📏 Self** |  **🎯 Self** |
 
 **Effect:** You can shapeshift into the animal defined by your stormwight kit, into a hybrid form, or back into your true form. While in animal form or hybrid form, you can speak as you usually do, and you can also speak to animals who share your form. If you are in a negotiation with an animal while in animal form, you treat your Renown as 2 higher than usual.
 
 **Spend 1 Ferocity:** As a free maneuver, you can shapeshift a second time, either into another animal form, into your hybrid form, or back into your true form.
 
-#### Primordial Storm
+##### Primordial Storm
 
 Each stormwight kit is associated with a primordial storm, which channels a specific damage type used by some of your abilities.
 
-## Equipment
+##### Equipment
 
 You wear no armor and wield only your unarmed strikes—which become devastating natural weapons as your ferocity grows.
 
-#### Kit Bonuses
+##### Kit Bonuses
 
 These bonuses apply in your true form, your animal form, and your hybrid form. See Chapter 6: Kits for information on kit bonuses.
 
-#### Signature Ability
+##### Signature Ability
 
 You gain a new signature ability from your kit.
 
-#### Growing Ferocity
+##### Growing Ferocity
 
 Each stormwight kit grants a set of benefits for your Growing Ferocity feature.
 
@@ -1220,158 +1191,157 @@ Each stormwight kit grants a set of benefits for your Growing Ferocity feature.
 
 With this stormwight kit, you channel your primordial ferocity into the form of a bear, becoming large, durable, and imposing. Boren are tied to the craggy, rocky north, and this aspect is associated with the blizzard's bitter cold.
 
-#### Aspect Benefits
+##### Aspect Benefits
 
 Whenever you use forced movement to push a creature, you can pull that creature instead. Whenever you pull a creature adjacent to you and that creature has M < AVERAGE, you can use a free triggered action to make that creature grabbed by you.
 
-#### Animal Form: Bear
+##### Animal Form: Bear
 
 While you are in your bear form, your size is 2 and you gain a +1 bonus to distance with melee weapon abilities.
 
-#### Hybrid Form: Bear
+##### Hybrid Form: Bear
 
 While you are in your hybrid form, your size is 2 and you gain a +1 bonus to distance with melee weapon abilities. At 4th level, the first time you take hybrid form in an encounter, you gain 10 temporary Stamina.
 
-#### Primordial Storm: Blizzard
+##### Primordial Storm: Blizzard
 
 Your primordial damage type is cold.
 
-#### Kit Bonuses
+##### Kit Bonuses
 
 - **Stamina Bonus:** +9 per echelon
 - **Stability Bonus:** +2
 - **Melee Damage Bonus:** +0/+0/+4
 
-## Signature Ability
+##### Signature Ability
 
-#### **Bear Claws**
+######## Bear Claws
 
 *Attacks with your sharp and deadly claws grab the weak.*
 
-**Melee, Strike, Wea**
+| **Melee, Strike, Weapon** |               **Main action** |
+|---------------------------|------------------------------:|
+| **📏 Melee 1**            | **🎯 One creature or object** |
 
-| **Melee, Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Melee 1** | **🎯 One creature or object** |
+**Power Roll + Might:**
 
-Power Roll + Might:
-
-- **≤11:** <sup>2</sup>**+** M damage; M < WEAK, grabbed
+- **≤11:** 2 + M damage; M < WEAK, grabbed
 - **12-16:** 5 + M damage; M < AVERAGE, grabbed
 - **17+:** 11 + M damage; M < STRONG, grabbed
 
-## Growing Ferocity
+##### Growing Ferocity
 
 As your ferocity grows, you gain benefits as noted on the Boren Growing Ferocity table. Benefits are cumulative except where an improved benefit replaces a lesser benefit.
 
-**Boren Growing Ferocity**
+###### Boren Growing Ferocity Table
 
-| Ferocity        | Benefit                                                                                                                                                                                                                            |
-|-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 2               | You can have up to two creatures grabbed at a time. Additionally, whenever you make a strike against a creature you have grabbed, you gain 1 surge.                                                                          |
-| 4               | The first time you grab a creature on a turn, you gain 1 surge.                                                                                                                                                                    |
-| 6               | You gain an edge on the Grab and Knockback maneuvers.                                                                                                                                                                              |
-| 8 (4th level)   | The first time you grab a creature on a turn, you gain 2 surges instead of 1.                                                                                                                                                   |
-| 10 (7th level)  | You have a double edge on the Grab and Knockback maneuvers.                                                                                                                                                                        |
+| Ferocity        | Benefit                                                                                                                                                                                                                   |
+|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 2               | You can have up to two creatures grabbed at a time. Additionally, whenever you make a strike against a creature you have grabbed, you gain 1 surge.                                                                       |
+| 4               | The first time you grab a creature on a turn, you gain 1 surge.                                                                                                                                                           |
+| 6               | You gain an edge on the Grab and Knockback maneuvers.                                                                                                                                                                     |
+| 8 (4th level)   | The first time you grab a creature on a turn, you gain 2 surges instead of 1.                                                                                                                                             |
+| 10 (7th level)  | You have a double edge on the Grab and Knockback maneuvers.                                                                                                                                                               |
 | 12 (10th level) | Whenever you use a heroic ability, you gain 10 temporary Stamina. Additionally, whenever you have a creature grabbed, any ability roll made against that creature gains a bonus to its potency equal to your Might score. |
 
 #### Corven
 
 With this stormwight kit, you channel your primordial ferocity into the form of a crow, becoming stealthy and quick. Corven are tied to the mountain passes and the hot winds that flow through them. This aspect is associated with the warm and fast-rising anabatic wind.
 
-### Aspect Benefits
+##### Aspect Benefits
 
 You gain an edge on tests made to hide and sneak. Additionally, whenever you fall, you can use a free triggered action to use your Aspect of the Wild ability.
 
-## Animal Form: Crow
+##### Animal Form: Crow
 
 While you are in your crow form, your size is 1T and you can fly. You can use the Hide maneuver as a free maneuver, and you can use your allies as cover when you hide. You can't use any abilities while in this form except for Aspect of the Wild.
 
-#### Hybrid Form: Crow
+##### Hybrid Form: Crow
 
 While you are in your hybrid form, your size is your choice of 1S or 1M. At 4th level, you can fly.
 
-#### Primordial Storm: Anabatic Wind
+##### Primordial Storm: Anabatic Wind
 
 Your primordial damage type is fire.
 
-#### Kit Bonuses
+##### Kit Bonuses
 
 - **Stamina Bonus:** +3 per echelon
 - **Speed Bonus:** +3
 - **Melee Damage Bonus:** +2/+2/+2
 - **Disengage Bonus:** +1
 
-## Signature Ability
+##### Signature Ability
 
-#### **Wing Buffet**
+######## Wing Buffet
 
-| <i>Foes who try to close in around you do so at their peril.</i> |                                           |
-|------------------------------------------------------------------|-------------------------------------------|
+*Foes who try to close in around you do so at their peril.*
 
-| **Type** | **Main action** |
+| **Area, Melee, Weapon** |               **Main action** |
+|-------------------------|------------------------------:|
+| **📏 1 burst**          | **🎯 Each enemy in the area** |
 
-| **Area, Melee, Weapon** 1 burst          | Each enemy in the area |
-| Power Roll + Agility:                                            |                                           |
-| ≤11                                             | 3 damage                                  |
+**Power Roll + Agility:**
+
+- **≤11:** 3 damage
 - **12-16:** 6 damage
 - **17+:** 8 damage
 
 **Effect:** You can shift up to 2 squares before or after making the power roll.
 
-## Growing Ferocity
+##### Growing Ferocity
 
 As your ferocity grows, you gain benefits as noted on the Corven Growing Ferocity table. Benefits are cumulative except where an improved benefit replaces a lesser benefit.
 
-#### **Corven Growing Ferocity**
+###### Corven Growing Ferocity Table
 
-| Ferocity        | Benefit                                                                                                                                                 |
-|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 2               | Whenever you use the Disengage move action, the distance you can shift gains a bonus equal to your Agility score.                                    |
-| 4               | The first time you shift on a turn, you gain 1 surge.                                                                                                   |
-| 6               | You gain an edge on Agility tests, the Escape Grab maneuver, and the Knockback maneuver.                                                             |
-| 8 (4th level)   | The first time you shift on a turn, you gain 2 surges instead of 1.                                                                                     |
-| 10 (7th level)  | You have a double edge on Agility tests, the Escape Grab maneuver, and the Knockback maneuver.                                                       |
+| Ferocity        | Benefit                                                                                                                                           |
+|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+| 2               | Whenever you use the Disengage move action, the distance you can shift gains a bonus equal to your Agility score.                                 |
+| 4               | The first time you shift on a turn, you gain 1 surge.                                                                                             |
+| 6               | You gain an edge on Agility tests, the Escape Grab maneuver, and the Knockback maneuver.                                                          |
+| 8 (4th level)   | The first time you shift on a turn, you gain 2 surges instead of 1.                                                                               |
+| 10 (7th level)  | You have a double edge on Agility tests, the Escape Grab maneuver, and the Knockback maneuver.                                                    |
 | 12 (10th level) | Whenever you use a heroic ability, you gain 10 temporary Stamina. Additionally, the potency of any effects targeting you is reduced by 2 for you. |
-
-Draw Steel
 
 #### Raden
 
 With this stormwight kit, you channel your primordial ferocity into the form of a rat, becoming mobile and elusive. Raden are associated with the wild nature of the rat, before cities became their habitat. This aspect is associated with the rat flood—a surge of corrupted water that draws forth hordes of rats.
 
-#### Aspect Benefits
+##### Aspect Benefits
 
 You gain an edge on tests made to hide and sneak. Additionally, you ignore difficult terrain.
 
-#### Animal Form: Rat
+##### Animal Form: Rat
 
 While you are in your rat form, your size is 1T and you can automatically climb at full speed while moving. You can use the Hide maneuver as a free maneuver, you can use your allies as cover when you hide, and you can stay hidden while you move through squares occupied by any creature. Additionally, you gain an edge on tests made to climb other creatures. You can't use any abilities while in this form except for Aspect of the Wild.
 
-#### Hybrid Form: Rat
+##### Hybrid Form: Rat
 
 While you are in your hybrid form, your size is your choice of 1S or 1M. At 4th level, you can automatically climb at full speed while moving.
 
-#### Primordial Storm: Rat Flood
+##### Primordial Storm: Rat Flood
 
 Your primordial damage type is corruption.
 
-#### Kit Bonuses
+##### Kit Bonuses
 
 - **Stamina Bonus:** +3 per echelon
 - **Speed Bonus:** +3
 - **Melee Damage Bonus:** +2/+2/+2
 - **Disengage Bonus:** +1
 
-#### Signature Ability
+##### Signature Ability
 
-#### **Driving Pounce**
+######## Driving Pounce
 
-| **Your enemies try in vain to fall back from your pouncing attack.* **Melee, Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Melee 1** | **🎯 One creature or object** |
+*Your enemies try in vain to fall back from your pouncing attack.*
 
-#### Power Roll + Agility:
+| **Melee, Strike, Weapon** |               **Main action** |
+|---------------------------|------------------------------:|
+| **📏 Melee 1**            | **🎯 One creature or object** |
+
+**Power Roll + Agility:**
 
 - **≤11:** 4 + A damage
 - **12-16:** 7 + A damage; push 1
@@ -1379,67 +1349,69 @@ Your primordial damage type is corruption.
 
 **Effect:** You can shift up to the same number of squares that you pushed the target.
 
-#### Growing Ferocity
+##### Growing Ferocity
 
 As your ferocity grows, you gain benefits as noted on the Raden Growing Ferocity table. Benefits are cumulative except where an improved benefit replaces a lesser benefit.
 
-#### **Raden Growing Ferocity**
+###### Raden Growing Ferocity Table
 
-| Ferocity           | Benefit                                                                                                                                              |
-|--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 2                  | Whenever you use the Disengage move action, the distance you can shift gains a bonus equal to your Agility score.                                 |
-| 4                  | The first time you shift on a turn, you gain 1 surge.                                                                                                |
-| 6                  | You gain an edge on Agility tests, the Escape Grab maneuver, and the Knockback maneuver.                                                          |
-| 8 (4th level)      | The first time you shift on a turn, you gain 2 surges instead of 1.                                                                                  |
-| 10 (7th level)     | You have a double edge on Agility tests, the Escape Grab maneuver, and the Knockback maneuver                                                     |
+| Ferocity        | Benefit                                                                                                                                           |
+|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+| 2               | Whenever you use the Disengage move action, the distance you can shift gains a bonus equal to your Agility score.                                 |
+| 4               | The first time you shift on a turn, you gain 1 surge.                                                                                             |
+| 6               | You gain an edge on Agility tests, the Escape Grab maneuver, and the Knockback maneuver.                                                          |
+| 8 (4th level)   | The first time you shift on a turn, you gain 2 surges instead of 1.                                                                               |
+| 10 (7th level)  | You have a double edge on Agility tests, the Escape Grab maneuver, and the Knockback maneuver                                                     |
 | 12 (10th level) | Whenever you use a heroic ability, you gain 10 temporary Stamina. Additionally, the potency of any effects targeting you is reduced by 2 for you. |
 
 #### Vuken
 
 With this stormwight kit, you channel your primordial ferocity into the form of a wolf, becoming a fleet-footed hunter. Vuken are tied to forests and open steppes, and this aspect is associated with the thunderstorm.
 
-#### Aspect Benefits
+##### Aspect Benefits
 
 Whenever you use the Knockback maneuver, you can then use the Aid Attack maneuver as a free triggered action.
 
-#### Animal Form: Wolf
+##### Animal Form: Wolf
 
 While you are in your wolf form, your size is 1L, you have a +2 bonus to speed, and you ignore difficult terrain.
 
-## Hybrid Form: Wolf
+##### Hybrid Form: Wolf
 
 While you are in your hybrid form, your size is 1L, you have a +2 bonus to speed, and you ignore difficult terrain. At 4th level, the first time you take hybrid form in an encounter, you gain 10 temporary Stamina.
 
-#### Primordial Storm: Lightning Storm
+##### Primordial Storm: Lightning Storm
 
 Your primordial damage type is lightning.
 
-#### Kit Bonuses
+##### Kit Bonuses
 
 - **Stamina Bonus:** +9 per echelon
 - **Speed Bonus:** +2
 - **Melee Damage Bonus:** +2/+2/+2
 - **Disengage Bonus:** +1
 
-## Signature Ability
+##### Signature Ability
 
-#### **Unbalancing Attack**
+######## Unbalancing Attack
 
 *A wild assault forces your foe onto their back.*
 
-| ****Melee, Strike, Weapon**** | **Main action** |
-| ------------------------------|---------------------------------------------|
-| Image: [melee icon] Melee 1  | Image: [target icon] One creature or object |
+| **Melee, Strike, Weapon** |               **Main action** |
+|---------------------------|------------------------------:|
+| **📏 Melee 1**            | **🎯 One creature or object** |
 
-Power Roll + Might:
+**Power Roll + Might:**
 
-- **≤11:** <sup>4</sup>**+** M damage; A < WEAK, prone
+- **≤11:** 4 + M damage; A < WEAK, prone
 - **12-16:** 7 + M damage; A < AVERAGE, prone
-- **17+:** <sup>9</sup>**+** M damage; A < STRONG, prone
+- **17+:** 9 + M damage; A < STRONG, prone
 
-## Growing Ferocity
+##### Growing Ferocity
 
 As your ferocity grows, you gain benefits as noted on the Vuken Growing Ferocity table. Benefits are cumulative except where an improved benefit replaces a lesser benefit.
+
+###### Vulken Growing Ferocity Table
 
 | Ferocity        | Benefit                                                                                                                                                                                                                          |
 |-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
