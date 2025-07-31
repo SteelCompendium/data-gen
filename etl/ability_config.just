@@ -116,7 +116,7 @@ build_ability_config headers_fpath ability_yml_fpath source="mcdm.heroes.v1":
             h1_text = None
 
             for p_header in path_stack:
-                if p_header['level'] == 1:
+                if p_header['level'] == 2:
                     h1_text = p_header['text']
                 if '-Level Features' in p_header['text']:
                     is_under_level_features = True
