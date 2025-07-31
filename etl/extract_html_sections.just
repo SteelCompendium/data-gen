@@ -52,8 +52,8 @@ extract_section out_dpath xpath src_html_fpath skip_delete="true" metadata_yml_f
 
     if [ "{{skip_delete}}" == "true" ]; then
         rm -rf "{{out_dpath}}"
-    else
-        echo >&2 "    Skipping delete on dir '{{out_dpath}}'"
+    #else
+    #    echo >&2 "    Skipping delete on dir '{{out_dpath}}'"
     fi
 
     just -f "{{source_file()}}" _extract_section "{{xpath}}" "{{src_html_fpath}}" "{{out_dpath}}" "{{metadata_yml_fpath}}"
