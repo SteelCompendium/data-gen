@@ -8883,7 +8883,7 @@ You do not temper the heat of battle within you. You unleash it! Your experience
 
 As a 1st-level fury, you gain the following features.
 
-#### **Primordial Aspect**
+#### Primordial Aspect
 
 You are a product of customs older than warfare, older than civilization, older than most of the world. You have undergone a rite of passage that revealed the building blocks of the timescape—the Primordial Chaos—and that left an aspect of that chaos inside you. You choose a primordial aspect from the following options, each of which grants you a skill. (*Quick Build:* Berserker.)
 
