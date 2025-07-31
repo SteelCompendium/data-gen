@@ -1,0 +1,3 @@
+- Glossary links removed
+- span anchors removed
+- pg 72 diagrams removed
