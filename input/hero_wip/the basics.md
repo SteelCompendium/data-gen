@@ -223,23 +223,23 @@ Sometimes the rules tell you to divide a number in half. Whenever you divide an 
 
 When a creature dies, their body becomes an object, and is affected by abilities and other effects as an object, not a creature. For example, an elementalist can't use their Return to Formlessness ability to set an enemy cult leader on fire. But if that leader dies, the elementalist can immolate their body to prevent them from being raised as a powerful undead by the temple's magic.
 
-## <span id="page-20-4"></span>**Unattended Objects**
+#### Unattended Objects
 
 The game sometimes refers to "unattended objects," which are objects that aren't held, worn, or controlled by a creature. Whenever an ability or other effect targets objects, it affects only unattended objects unless the Director determines otherwise. Among other things, this prevents abilities from being used to damage a foe's armor, weapons, clothing, treasures, and so forth while those objects are worn or held.
 
-## <span id="page-20-2"></span>Supernatural or Mundane
+### Supernatural or Mundane
 
 The word supernatural is used to describe abilities, creatures, objects, and effects that are magic or psionic in nature. The word mundane is used to describe abilities, creatures, objects, and effects that aren't magic or psionic.
 
-## <span id="page-20-3"></span>PCs and NPCs
+### PCs and NPCs
 
 Two types of characters inhabit the world of the game—the player characters (also called PCs or heroes) who are created and controlled by the players, and nonplayer characters (NPCs) created and controlled by the Director. NPCs can include any of the game's monsters, but when the rules refer to NPCs, they generally do so in the context of interacting with them outside of combat.
 
-#### **Bags of Rats Ain't Heroic**
+> **Bags of Rats Ain't Heroic**
+>
+> Some players might think that quickly starting a fight with some bar patrons or carrying around a bag of rats is a good way to gather up those sweet, sweet Victories and Heroic Resources. Those strategies don't work! The rules of the game exist to help you tell a cool heroic fantasy story, not so you can try to be clever and exploit them by harming innocent rats to "win." In order to generate Victories and Heroic Resources, you must face and overcome challenges worthy of a hero!
 
-Some players might think that quickly starting a fight with some bar patrons or carrying around a bag of rats is a good way to gather up those sweet, sweet Victories and Heroic Resources. Those strategies don't work! The rules of the game exist to help you tell a cool heroic fantasy story, not so you can try to be clever and exploit them by harming innocent rats to "win." In order to generate Victories and Heroic Resources, you must face and overcome challenges worthy of a hero!
-
-## <span id="page-21-0"></span>Building a Heroic Narrative
+### Building a Heroic Narrative
 
 The game takes place in a series of scenes with the heroes as the main characters. An adventure is a collection of scenes that make up a story, with a beginning, middle, and end, and a campaign is a collection of adventures that tell the entire epic tale of a group of heroes. You can think of each adventure as a movie in a saga of films, a book in a series of novels, or a season of a television show. While many heroes have their stories told over the course of a campaign, some wrap up their careers in a single adventure that takes place in one game session, called a one-shot. You can think of a one-shot as a great stand-alone novella or movie.
 
@@ -247,51 +247,51 @@ This game is built so that each adventure you play and each battle you fight get
 
 The things a hero can achieve at the end of the story are far more daring and impactful than what they do at the start, and the final showdown against a villain's forces is more deadly and desperate than the first. The rules of the game help build a heroic narrative in this same fashion, making use of the four most important mechanics for building heroic narratives: Victories, Experience, Heroic Resources, and Recoveries.
 
-## <span id="page-21-5"></span>**Victories**
+#### Victories
 
 Victories measure your hero's increasing power over the course of an adventure, as they overcome battles and other challenges. At the start of an adventure, your hero has 0 Victories.
 
-## Victories For Combat
+##### Victories For Combat
 
 Each time your hero survives a combat encounter in which the party's objectives are achieved, you earn 1 Victory. The Director can decide that a trivially easy encounter doesn't earn the heroes a Victory, and can award additional Victories for particularly challenging encounters.
 
-## Victories For Noncombat Challenges
+##### Victories For Noncombat Challenges
 
 When your hero successfully overcomes a big challenge that doesn't involve combat, the Director can award you 1 Victory. Such challenges can include things such as a particularly complicated and deadly trap, a negotiation, a montage test, a complicated puzzle, or the execution of a clever idea that avoids a battle. Especially difficult challenges might earn you more than 1 Victory.
 
-## Victories Reset
+##### Victories Reset
 
 Whenever you finish a respite (see [Respite](#page-21-4) below), your Victories are converted into Experience.
 
-## <span id="page-21-1"></span>**Experience**
+#### Experience
 
 Victories temporarily increase a hero's power during an adventure, but Experience (abbreviated "XP") permanently improves their capabilities. Each time you finish a respite (see below), you gain XP equal to your Victories, then your Victories reset to 0. In other words, your Victories are converted to XP when you finish a respite.
 
 For more information on how XP increases your hero's power, see [Heroic Advancement](#page-32-1) in [Making a Hero](#page-29-1).
 
-## <span id="page-21-2"></span>**Heroic Resources**
+#### Heroic Resources
 
 Your hero has a Heroic Resource determined by your class, and which you manage during play. Earning your Heroic Resources can increase your hero's power, and you spend your Heroic Resources to activate your most powerful abilities.
 
 Your hero's class description has more information about how to use your Heroic Resource.
 
-## <span id="page-21-3"></span>**Recoveries**
+#### Recoveries
 
 Recoveries represent the number of times your hero can take a breather and keep fighting. Spending Recoveries lets you regain Stamina—the measure of any creature's physical vitality and capacity to shrug off or avoid damage (see [Stamina](#page-291-0) in [Combat](#page-279-4)). Running out of Recoveries means your hero has reached their uttermost limit.
 
 When you spend a Recovery, you regain Stamina equal to your **recovery value**, which is one-third your Stamina maximum. You can spend your Recoveries with a special maneuver (see below), or you might do so with a little supernatural help from a conduit, a boost of adrenaline from an allied tactician, or inspiration from your party's troubadour.
 
-## Spending Recoveries
+##### Spending Recoveries
 
 During combat encounters and similarly dangerous situations when time is tracked in rounds (see [Combat](#page-279-4)), you can use the Catch Breath maneuver to regain Stamina. (See [Catch Breath](#page-287-2) in [Maneuvers](#page-287-0) for more information.) Some heroes have abilities that allow them or their allies to spend more Recoveries without using the Catch Breath maneuver.
 
 Outside of combat and other dangerous situations, you can spend Recoveries freely.
 
-## Regaining Recoveries
+##### Regaining Recoveries
 
 You regain all lost Recoveries when you finish a respite (see below).
 
-## <span id="page-21-4"></span>**Respite**
+#### Respite
 
 A respite is a focused period of rest and recuperation that allows heroes to regain Stamina and Recoveries. During a respite, you must spend 24 hours uninterrupted and doing nothing but sleeping, eating, dressing your wounds, and recuperating. You can also undertake one respite activity, such as making a project roll (see [Downtime Projects](#page-307-2)) or changing your kit (see [Kits](#page-239-0)).
 
@@ -301,35 +301,31 @@ It is best to take a respite in a safe place where you aren't in a hostile envir
 
 The standard 8-or-so hours of sleep one gets at night doesn't count as a respite. The rules assume that all heroes take the time to sleep, eat, and take care of all the other functions necessary for life even if they aren't engaged in a respite.
 
-![](_page_22_Picture_0.jpeg)
-
-## <span id="page-22-0"></span>Echelons of Play
+### Echelons of Play
 
 The core gameplay experience of *Draw Steel* takes place over ten levels of play. At 1st level, player characters are already known as heroes and have the power to save their local village. By the time the characters are 10th level, people all over the world—maybe even across all worlds know the names of their saviors!
 
 Since this game encompasses power levels from hometown to demigods, the core experience has been divided into four different echelons. Each echelon determines the types of threats the heroes can take on, the stakes of their stories, and the rewards they receive at the various levels of play.
 
-## **1st Echelon (1st to 3rd Level)**
+#### 1st Echelon (1st to 3rd Level)
 
 The 1st echelon of play details the stories of characters of 1st to 3rd level. At this echelon, the characters are local heroes. They save lost caravans, besieged villages, and overlooked neighborhoods within cities. Characters battle bands of mortal humanoids—dwarves, elves, goblins, humans, kobolds, orcs, and more. They can also face off against the occasional larger monstrous threat, such as a bredbeddle, ogre, or chimera. Such creatures can threaten a small community but rarely have plans for world domination or the destruction of the timescape. However, any of these adversaries might work for or be manipulated by stronger threats as a foreshadowing of what awaits the heroes at higher echelons.
 
-## **2nd Echelon (4th to 6th Level)**
+#### 2nd Echelon (4th to 6th Level)
 
 The 2nd echelon of play covers 4th to 6th level. At this echelon, the heroes are now known throughout the wider region they serve. In Vasloria, this means the characters might save and be celebrated by an entire country. In Capital, their reputation and work could encompass several different neighborhoods of the enormous city. Heroes of the timescape might be known for saving a planet!
 
 Heroes in this echelon battle humanoids of great supernatural power, such as draconians, devils, and hobgoblins. They face bosses possessed of cunning and ambition as great as their terrible influence, such as medusas and overminds. Heroes at this level also face the humanoid threats of earlier levels, but those foes are villainous counterparts of equal power rather than bands of ruffians or marauding armies.
 
-## **3rd Echelon (7th to 9th Level)**
+#### 3rd Echelon (7th to 9th Level)
 
 The 3rd echelon of play covers 7th to 9th level. At this echelon, the heroes are saving and are known throughout the setting where they serve. Most folks in Vasloria, Capital, or across the larger timescape know of the heroes and are grateful for their efforts saving the continent, the entire city, or multiple worlds, respectively. Foes at this echelon include beings of great power such as giants, vampires, and valok.
 
-## **4th Echelon (10th Level)**
+#### 4th Echelon (10th Level)
 
 The 4th echelon of play explores the stories of characters of 10th level (and might even go beyond in future products). At this echelon, heroes are saving the entire timescape from threats such as liches, powerful dragons, and overlords like Ajax the Invincible.
 
-![](_page_23_Picture_0.jpeg)
-
-## <span id="page-24-1"></span><span id="page-24-0"></span>Orden and the Timescape
+### Orden and the Timescape
 
 A new game demands new worlds! Welcome to the timescape—a collection of worlds spanning high fantasy, dark fantasy, even space fantasy!
 
@@ -337,7 +333,7 @@ Our tour begins on the world of Orden, the prime manifold, where humans, elves, 
 
 Orden contains eight major regions, the largest of which is Vasloria.
 
-## <span id="page-24-2"></span>**Vasloria**
+#### Vasloria
 
 A forested, medieval, feudal land, Vasloria is peppered with few cities, mostly just towns and villages. While there will someday be nations here with proper borders, as of now in the Age of Chaos those nations are merely geographic areas with names people use to distinguish lands that share similar terrain and subcultures.
 
@@ -349,11 +345,9 @@ Scattered across it all, Vasloria boasts the densest collection of elf-haunted w
 
 Within the wodes, time misbehaves. Cause and effect are only distant cousins, as all lands were before Ord placed the dwarves in the world,
 
-![](_page_24_Picture_10.jpeg)
-
 imposing the Law of Time on Orden. Children's tales of villagers wandering into a wode and emerging unchanged 100 years later are based on real events. When pressed on how this "works," the elves look baffled. "How does what work?"
 
-#### Omund's Land
+##### Omund's Land
 
 Western Vasloria, including most of Aendrim and Corwell and parts of Graid, was until recently ruled by Good King Omund. His draconian knights, the Dragon Phalanx, protected the weak from the strong, dispensing justice. Omund's rule lasted 35 years and in his life this area was known as Omund's Land.
 
@@ -379,7 +373,7 @@ Now there is only suspicion.
 
 Isolated and outnumbered, the human baronies desperately fight a losing battle against the encroaching wilderness. Order dies. Chaos thrives.
 
-## <span id="page-25-0"></span>**Capital**
+#### Capital
 
 The Greatest City in This or Any Age! City of the Great Game! Located west across the Bale Sea from Vasloria, on the eastern coast of Rioja, Capital is not only the largest city in Orden—it's the largest city there has ever been. Larger than the fabled steel dwarf capital of Kalas Valiar, larger even than Alloy, the City at the Center of the Timescape. Capital is the exception to many rules.
 
@@ -401,8 +395,6 @@ Arguably the most powerful great house, **House Valetta** controls the Arbitros 
 
 After the Lilac Night, when the prince was no longer able to rely on House Valetta to deliver the taxes they collected, Lady Shirome
 
-![](_page_25_Picture_12.jpeg)
-
 coordinated with two other guilds to buy Great House status for themselves.
 
 Lady Shirome runs the city's assayers guild, **the Fulcrum**. The guild controls the Trade Integrity Board, which sets lending rates and leads trade negotiations between Capital and other governments in Orden. It was the Fulcrum that convinced the prince to switch the city to paper money. As a result, Capital is the first and only city in Orden to have a robust monetary policy.
@@ -415,9 +407,7 @@ Three years ago, the prince of Capital died leaving no heir or even a likely can
 
 Now the great game takes on a new meaning as the four great houses and three newly ascendant guilds jockey for position, each wanting to step into the power vacuum left by the dead prince. Everyone knows a war is coming, a war of succession that means fighting on the street. But each player in the game would much prefer it if someone *else* made the first move.
 
-<span id="page-26-1"></span>![](_page_26_Picture_0.jpeg)
-
-## <span id="page-26-0"></span>**The Myriad Worlds of the Timescape**
+#### The Myriad Worlds of the Timescape
 
 Orden is only one world in the timescape! Each star in the night sky is another, though this fact is not known to most people living on Orden. Old fashioned people still use the archaic term "plane" to describe these worlds, while sages use geometric formulae, describing these worlds they call "manifolds," but they all mean the same thing.
 
@@ -445,7 +435,7 @@ The demons of the Abyssal Waste, the lowest plane, claw and scramble over each o
 
 At the center of the Abyssal Waste lies the Necropolitan Ruin, the Last City, a city of the dead, ruled by Khorsekef, once the Infinite Pharaoh of Khemhara, now the Ultralich. Khorsekef intends to return to Orden and sit once again on his throne in the Heliopolis.
 
-## **Setting Design**
+#### Setting Design
 
 Orden and the timescape were both designed over the last 25 years to be an explicitly commercial setting. A product where you could find all the things everyone expects to find in a classic fantasy setting, with new takes on classic tropes and a little more "Why are things like this?" work done to ground everything and make things feel plausible. None of this makes Orden "better" than other settings, it just gives it character.
 
@@ -463,16 +453,14 @@ This lack of objective certainty not only makes it more fun for us to work on Or
 
 P.S. We use the phrase "Orden and the timescape" because Orden is, as it were, the star of the show. But Orden is very clearly only one world *in* the timescape. It's like those astronomy maps hanging on the wall in your grade school science class that said, "Earth and the solar system." Like that map, any map of the timescape will be an artist's interpretation, not drawn to scale, and never wholly accurate depending on what information you're looking for.
 
-#### **The Timescape in Your Game**
-
-We use the timescape and its medieval fantasyland Orden as the default setting presented in these books. Doing so makes it easier for us as designers to marry our design with real examples from a real (imaginary) fantasy world. We also think it's easier for you to take the names for places, languages, and gods, and replace them with your own. We might reference some hero or villain, saint or god, whose name makes you think, "Well, I don't have that in my setting." If we do a good job, though, you might be inspired to say, "But that makes me think …" And being inspired is part of the fun!
+> **The Timescape in Your Game**
+>
+> We use the timescape and its medieval fantasyland Orden as the default setting presented in these books. Doing so makes it easier for us as designers to marry our design with real examples from a real (imaginary) fantasy world. We also think it's easier for you to take the names for places, languages, and gods, and replace them with your own. We might reference some hero or villain, saint or god, whose name makes you think, "Well, I don't have that in my setting." If we do a good job, though, you might be inspired to say, "But that makes me think …" And being inspired is part of the fun!
 
 If you're the Director, you can use as many or as few of the details of the timescape as you like. You might wish to create your own world within the timescape, or use a setting you've created that exists outside of the official MCDM manifolds. You can use details from settings published by other companies. There are no rules when it comes to worldbuilding. Feel free to take what you like from this book and change the rest. For example, you might not care for our dwarves having literal stone skin. That's fine. You can make them fleshy, stout, bearded folk, or mohawked, barrel-chested punk rockers, or anything else you wish. As long as you're running a heroic fantasy campaign about fighting monsters, then the game's rules are still likely to serve your narrative even if that narrative deviates from ours.
 
 If you're a player, ask your Director about the setting where the game takes place and discuss with them the sort of hero you want to create. Maybe you want to play a more traditional gruff and bearded dwarf rather than go all short and stony. An open dialogue and honest discussion with your Director can lead to everyone getting what they want out of the game.
 
-#### **What's Next? Find Out on Patreon**
-
-While this book and *[Draw Steel: Monsters](https://mcdm.gg/DS-Monsters)* are both chock-full of character options and adventure ideas that could keep you playing *Draw Steel* for years, some folks want even more classes, ancestries, monsters, treasures, and encounters. You can find out what we're developing next, get a preview of that content, and read blog posts about the development of the game by joining the MCDM Patreon at *[mcdm.gg/Patreon](https://mcdm.gg/Patreon)*.
-
-![](_page_28_Picture_0.jpeg)
+> **What's Next? Find Out on Patreon**
+>
+> While this book and *[Draw Steel: Monsters](https://mcdm.gg/DS-Monsters)* are both chock-full of character options and adventure ideas that could keep you playing *Draw Steel* for years, some folks want even more classes, ancestries, monsters, treasures, and encounters. You can find out what we're developing next, get a preview of that content, and read blog posts about the development of the game by joining the MCDM Patreon at *[mcdm.gg/Patreon](https://mcdm.gg/Patreon)*.
