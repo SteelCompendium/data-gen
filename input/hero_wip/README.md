@@ -1,3 +1,6 @@
 - Glossary links removed
 - span anchors removed
 - pg 72 diagrams removed
+- Bunch of extra data in data formats
+  - ex: tables
+- data file names need to be cleaned of special characters (like `!`)
