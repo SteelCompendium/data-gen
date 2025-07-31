@@ -42,6 +42,14 @@ run input_md_path output_md_path:
         flags=re.MULTILINE
     )
 
+    # extra newline in tables
+    text = re.sub(
+        r'¥ ',
+        r'',
+        text,
+        flags=re.MULTILINE
+    )
+
     # write it all out at once
     with open(output_path, 'w', encoding='utf-8') as f:
         f.write(text)

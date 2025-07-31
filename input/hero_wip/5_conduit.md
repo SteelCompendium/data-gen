@@ -12,10 +12,10 @@ The power of the gods flows through you! As a vessel for divine power, you don't
 
 **Starting Characteristics:** You start with an Intuition of 2, and can choose one of the following arrays for your other characteristic scores:
 
-- ¥ 2, 2, −1, −1
-- ¥ 2, 1, 1, −1
-- ¥ 2, 1, 0, 0
-- ¥ 1, 1, 1, 0
+- 2, 2, −1, −1
+- 2, 1, 1, −1
+- 2, 1, 0, 0
+- 1, 1, 1, 0
 
 **Weak Potency:** Intuition - 2
 
@@ -35,13 +35,13 @@ The power of the gods flows through you! As a vessel for divine power, you don't
 
 As a conduit, you gain the following features.
 
-## **Deity and Domains**
+#### Deity and Domains
 
 Choose a god or saint who your character reveres from Chapter 14: Gods and Religion, or ask your Director about the deities in your campaign world. With the Director's permission, you can also create your own deity and choose four domains to be part of their portfolio.
 
 After choosing your deity, pick two domains from their portfolio. The two domains you pick make up your subclass, and your choice of domains determines many of the features you'll gain as you gain new levels. (*Quick Build:* Adûn for deity, and Life and Protection as domains.)
 
-## <span id="page-109-0"></span>**Piety**
+## **Piety**
 
 Your deity grants you a Heroic Resource called piety, letting you heal and empower your allies, and unleash holy power upon your foes.
 
@@ -51,13 +51,13 @@ At the start of a combat encounter or some other stressful situation tracked in 
 
 Additionally, you can gain more piety by praying to the gods—but beware! Doing so can easily draw their ire, as the gods hate to be annoyed. Before you roll to gain piety at the start of your turn, you can pray (no action required). If you do, your roll gains the following additional effects:
 
-- ¥ If the roll is a 1, you gain 1 additional piety but anger the gods! You take psychic damage equal to 1d6 + your level, which can't be reduced in any way.
-- ¥ If the roll is a 2, you gain 1 additional piety.
-- ¥ If the roll is a 3, you gain 2 additional piety and can activate a domain effect of your choice (see below).
+- If the roll is a 1, you gain 1 additional piety but anger the gods! You take psychic damage equal to 1d6 + your level, which can't be reduced in any way.
+- If the roll is a 2, you gain 1 additional piety.
+- If the roll is a 3, you gain 2 additional piety and can activate a domain effect of your choice (see below).
 
 You lose any remaining piety at the end of the encounter.
 
-## **Conduit Advancement**
+#### Conduit Advancement
 
 | Level | Features                                                                                                                               | Abilities                        | Domain<br>Abilities |
 |-------|----------------------------------------------------------------------------------------------------------------------------------------|----------------------------------|---------------------|
@@ -78,68 +78,64 @@ Though you can't gain piety outside of combat, you can use your heroic abilities
 
 When you use an ability outside of combat that lets you spend unlimited piety on its effect, such as Healing Grace, you can use it as if you had spent an amount of piety equal to your Victories.
 
-![](_page_109_Picture_32.jpeg)
-
-#### <span id="page-110-0"></span>Domain Piety and Effects
+#### Domain Piety and Effects
 
 Your choice of domains provides you with two additional ways to earn piety during combat, as triggered by specific events. You might even have a single event trigger both your piety effects. For example, the Sun domain grants piety when a nearby creature takes fire or holy damage, while the War domain grants piety when a nearby creature takes damage of 10 + your level or higher. If you have both those domains and a nearby creature takes an appropriate amount of fire damage, you gain piety from both your domains.
 
 Additionally, whenever you activate a domain effect by praying for piety, you can choose one of your domains and have that domain's prayer effect take effect immediately.
 
-#### **Creation Domain Piety and Effect**
+###### Creation Domain Piety and Effect
 
 - **Piety:** You gain 2 piety the first time in an encounter that a creature within 10 squares uses an area ability.
 - **Prayer Effect:** You summon the forces of creation and create a wall of stone within 10 squares whose size is 5 + your Intuition score. The wall lasts until the end of the encounter.
 
-#### **Death Domain Piety and Effect**
+###### Death Domain Piety and Effect
 
 - **Piety:** You gain 2 piety the first time in an encounter that a creature within 10 squares who isn't a minion is reduced to 0 Stamina, or the first time in an encounter that a solo creature within 10 squares becomes winded.
 - **Prayer Effect:** You inflict a deadly curse on up to two enemies within 10 squares of you. Each target takes corruption damage equal to twice your Intuition score.
 
-![](_page_110_Picture_9.jpeg)
-
-#### **Fate Domain Piety and Effect**
+###### Fate Domain Piety and Effect
 
 - **Piety:** You gain 2 piety the first time in an encounter that an ally within 10 squares obtains a tier 3 outcome on a power roll, or an enemy within 10 squares obtains a tier 1 outcome on a power roll.
 - **Prayer Effect:** You call on the forces of fate to create a reliable future. Choose a creature within 10 squares. That creature automatically obtains a tier 1 or tier 3 outcome (your choice) on their next power roll made before the end of the encounter.
 
-#### **Knowledge Domain Piety and Effect**
+###### Knowledge Domain Piety and Effect
 
 **Piety:** You gain 2 piety the first time in an encounter that the Director spends Malice (see *[Draw Steel: Monsters](https://mcdm.gg/DS-Monsters)*).
 
 **Prayer Effect:** Choose up to five allies within 10 squares of you, or choose yourself instead of one ally. Each target gains 1 surge.
 
-#### **Life Domain Piety and Effect**
+###### Life Domain Piety and Effect
 
 - **Piety:** You gain 2 piety the first time in an encounter that a creature within 10 squares regains Stamina.
 - **Prayer Effect:** Choose yourself or one ally within 10 squares. That character can spend a Recovery, can end one effect on them that is ended by a saving throw or that ends at the end of their turn, or can stand up if they are prone. Alternatively, you or one ally within 10 squares gains temporary Stamina equal to two times your Intuition score.
 
-#### **Love Domain Piety and Effect**
+###### Love Domain Piety and Effect
 
 - **Piety:** You gain 2 piety the first time in an encounter that you or any ally within 10 squares uses the Aid Attack maneuver or an ability that targets an ally.
 - **Prayer Effect:** Each ally within 10 squares of you gains temporary Stamina equal to two times your Intuition score.
 
-#### **Nature Domain Piety and Effect**
+###### Nature Domain Piety and Effect
 
 - **Piety:** You gain 2 piety the first time in an encounter that you or a creature within 10 squares takes acid, cold, fire, lightning, poison, or sonic damage.
 - **Prayer Effect:** Vines whip up from the floor or ground within 10 squares, wrapping around a number of creatures equal to your Intuition score. You can slide each creature up to a number of squares equal to your Intuition score. The vines then fade away.
 
-#### **Protection Domain Piety and Effect**
+###### Protection Domain Piety and Effect
 
 - **Piety:** You gain 2 piety the first time in an encounter that you or any ally within 10 squares gains temporary Stamina, or uses a triggered action to reduce incoming damage or to impose a bane or double bane on an enemy's power roll.
 - **Prayer Effect:** One ally within 10 squares gains temporary Stamina equal to four times your Intuition score.
 
-#### **Storm Domain Piety and Effect**
+###### Storm Domain Piety and Effect
 
 - **Piety:** You gain 2 piety the first time in an encounter that an enemy within 10 squares is force moved.
 - **Prayer Effect:** Each enemy in a 3 cube within 10 squares takes lightning damage equal to twice your Intuition score.
 
-#### **Sun Domain Piety and Effect**
+###### Sun Domain Piety and Effect
 
 - **Piety:** You gain 2 piety the first time in an encounter that an enemy within 10 squares takes fire or holy damage.
 - **Prayer Effect:** One enemy within 10 squares takes fire damage equal to three times your Intuition score.
 
-#### **Trickery Domain Piety and Effect**
+###### Trickery Domain Piety and Effect
 
 **Piety:** You gain 2 piety the first time in an encounter that you or a creature within 10 squares takes the Aid Attack or Hide maneuver.
 
@@ -147,12 +143,12 @@ Additionally, whenever you activate a domain effect by praying for piety, you ca
 
 # Conduit
 
-#### **War Domain Piety and Effect**
+###### War Domain Piety and Effect
 
 - **Piety:**You gain 2 piety the first time in an encounter that you or a creature within 10 squares takes damage greater than 10 + your level in a single turn.
 - **Prayer Effect:** Choose up to three allies within 10 squares of you, or choose yourself instead of one ally. Each target gains 2 surges.
 
-## **1st-Level Domain Feature**
+#### 1st-Level Domain Feature
 
 Choose one of your domains. You gain a domain feature for that domain, as shown on the 1st-Level Conduit Domain Features table. Additionally, you gain a skill from the chosen domain, selected from the skill group indicated on the table. (*Quick Build:* Revitalizing Ritual and the Heal skill from the Life domain.)
 
@@ -199,13 +195,13 @@ If you are in the same area as a creature using this or a similar feature who ha
 
 You have the following ability.
 
-## **Faithful Friend**
+#### Faithful Friend
 
 *An animal spirit is drawn to you, sharing their senses with you and serving you faithfully.*
 
 | **Magic** | **Main action** |
 | ------------------------------------|-------------------------------------|
-| Image: triangle magic icon<br>Self | Image: bullseye action icon<br>Self |
+| Self | Self |
 
 **Effect:** You conjure a spirit that takes the form of any animal you have seen. The incorporeal animal has speed 5 and can fly, but can't physically interact with the world. While you are within 10 squares of the spirit, you automatically sense everything that type of animal would sense, in addition to sensing your own surroundings. You can dismiss the spirit at any time (no action required). If the spirit takes any damage, they are dismissed and you take 1d10 psychic damage that can't be reduced in any way.
 
@@ -213,7 +209,7 @@ You have the following ability.
 
 You have the following ability.
 
-## **Grave Speech**
+#### Grave Speech
 
 *You commune with the lingering soul of the recently dead.*
 
@@ -227,17 +223,15 @@ You have the following ability.
 
 You have the following ability.
 
-## **Hands of the Maker**
+#### Hands of the Maker
 
 *You craft objects with the power of your mind.*
 
-| <b>Magic</b>                 | <b>Maneuver</b>            |
+| **Magic**                 | **Maneuver**            |
 |------------------------------|----------------------------|
-| Image: triangle icon<br>Self | Image: target icon<br>Self |
+| Self | Self |
 
 **Effect:** You create a mundane object of size 1S or smaller. You can maintain a number of objects created this way equal to your Intuition score. You can destroy an object created this way with a thought, no matter how far you are from it (no action required).
-
-![](_page_112_Picture_0.jpeg)
 
 #### Inner Light
 
@@ -263,32 +257,32 @@ Each time you finish a respite, you can choose yourself or one ally who is also 
 
 As a respite activity, you can bless a weapon. Any creature who wields the weapon gains a +1 bonus to rolled damage with abilities that use the weapon. This benefit lasts until you finish another respite.
 
-## **Healing Grace**
+#### Healing Grace
 
 You have the following ability, which you can use once on your turn.
 
-#### **Healing Grace**
+######## Healing Grace
 
 *Your divine energy restores the righteous.*
 
-| <b>Magic, Ranged</b>        | <b>Maneuver</b>                          |
+| **Magic, Ranged**        | **Maneuver**                          |
 |-----------------------------|------------------------------------------|
-| Image: ruler icon Ranged 10 | Image: clock arrow icon Self or one ally |
+| Ranged 10 | Self or one ally |
 
 **Effect:** The target can spend a Recovery.
 
 **Spend 1+ Piety:** For each piety spent, choose one of the following enhancements:
 
-- ¥ You can target one additional ally within distance.
-- ¥ You can end one effect on a target that is ended by a saving throw or that ends at the end of their turn.
-- ¥ A prone target can stand up.
-- ¥ A target can spend 1 additional Recovery.
+- You can target one additional ally within distance.
+- You can end one effect on a target that is ended by a saving throw or that ends at the end of their turn.
+- A prone target can stand up.
+- A target can spend 1 additional Recovery.
 
-## **Ray of Wrath**
+#### Ray of Wrath
 
 You have the following ability, which can be used as a ranged free strike.
 
-## **Ray of Wrath**
+#### Ray of Wrath
 
 *You unleash a blast of holy light upon your foe.*
 
@@ -296,37 +290,37 @@ You have the following ability, which can be used as a ranged free strike.
 | --- | ---:|
 | **📏 Ranged 10** | **🎯 One creature or object** |
 
-#### Power Roll + Intuition**:**
+**Power Roll + Intuition:**
 
-- á 2 + I damage
-- é 4 + I damage
-- í 6 + I damage
+- **≤11:**2 + I damage
+- **12-16:** 4 + I damage
+- **17+:** 6 + I damage
 
 **Effect:** You can have this ability deal holy damage.
 
-## **Triggered Action**
+#### Triggered Action
 
 Choose one of the following triggered actions. (*Quick Build:* Word of Guidance.)
 
-## **Word of Guidance**
+#### Word of Guidance
 
 *You invigorate an attacking ally with divine energy.*
 
-| <b>Magic, Ranged</b>            | <b>Triggered</b>                  |
+| **Magic, Ranged**            | **Triggered**                  |
 |---------------------------------|-----------------------------------|
-| Image: Ranged icon<br>Ranged 10 | Image: Triggered icon<br>One ally |
+| Ranged 10 | One ally |
 
 **Trigger:** The target makes an ability roll for a damage-dealing ability. **Effect:** The power roll gains an edge.
 
 **Spend 1 Piety:** The power roll has a double edge.
 
-## **Word of Judgment**
+#### Word of Judgment
 
 *Your holy word saps an attacking enemy's strength.*
 
 | **Magic, Ranged** | **Triggered** |
 | -----------------------------------|--------------------------------|
-| Image: triangle icon<br>Ranged 10 | Image: target icon<br>One ally |
+| Ranged 10 | One ally |
 
 **Trigger:** The target would take damage from an ability that uses a power roll.
 
@@ -334,11 +328,7 @@ Choose one of the following triggered actions. (*Quick Build:* Word of Guidance.
 
 **Spend 1 Piety:** The power roll has a double bane against the target.
 
-# Conduit
-
-99
-
-## **Prayer**
+#### Prayer
 
 Your god answers a prayer with enhancements to your body and mind. Choose one of the following prayers. You can change your prayer along with your ward (see Conduit Ward below) by praying to your god as a respite activity. (*Quick Build:* Prayer of Distance.)
 
@@ -364,7 +354,7 @@ Your god blesses your flesh and infuses it with divine quickness. You gain a +1 
 
 Your god fills your body with the light of creation, making you harder to hurt and move. You gain a +6 bonus to Stamina, and this bonus increases by 6 at 4th, 7th, and 10th levels. Additionally, you gain a +1 bonus to stability.
 
-## **Conduit Ward**
+#### Conduit Ward
 
 Your god grants you a ward that protects you from the faithless. Choose one of the following wards. You can change your ward along with your prayer (see Prayer above) by praying to your god as a respite activity. (*Quick Build:* Bastion Ward.)
 
@@ -384,7 +374,7 @@ In response to a foe's aggression, your god protects you. Whenever another creat
 
 Invisible spirits surround you if you are harmed. Whenever an adjacent creature deals damage to you, they take corruption damage equal to your Intuition score.
 
-## **Conduit Abilities**
+#### Conduit Abilities
 
 Your training and faith let you specialize in magic that buffs your allies, debuffs your foes, and allows you to hold your own in combat alongside your friends.
 
@@ -392,15 +382,15 @@ Your training and faith let you specialize in magic that buffs your allies, debu
 
 Choose two signature abilities from the following options. Signature abilities can be used at will. (*Quick Build:* Blessed Light, Staggering Curse.)
 
-## **Blessed Light**
+#### Blessed Light
 
 *Burning radiance falls upon your foe, transferring some of their energy to a nearby ally.*
 
-| <b>Magic, Ranged, Strike</b> | <b>Main action</b>                        |
+| **Magic, Ranged, Strike** | **Main action**                        |
 |------------------------------|-------------------------------------------|
-| Image: ruler icon Ranged 10  | Image: target icon One creature or object |
+| Ranged 10  | One creature or object |
 
-Power Roll + Intuition**:**
+**Power Roll + Intuition:**
 
 | ≤11   | 3 + Image: [black die icon] holy damage |
 |-------|-----------------------------------------|
@@ -409,23 +399,21 @@ Power Roll + Intuition**:**
 
 **Effect:** One ally within distance gains a number of surges equal to the tier outcome of your power roll.
 
-## **Drain**
+#### Drain
 
 *You drain the energy from your target to revitalize yourself or an ally.*
 
-| <b>Magic, Melee, Strike</b>                       | <b>Main action</b>                                     |
-|---------------------------------------------------|--------------------------------------------------------|
-| <span style="white-space:nowrap">🗡 Melee 1</span> | <span style="white-space:nowrap">⟳ One creature</span> |
+| **Magic, Melee, Strike**                      | **Main action**                                     |
+|--------------------------------------------------|--------------------------------------------------------|
+| Melee 1| <span style="white-space:nowrap">⟳ One creature|
 
 **Power Roll + Intuition:**
 
-| <span style="border:1px solid #000; border-radius:3px; padding:1px 4px; font-size:90%; background:#eee;">≤11</span> | 2 + <span style="border:1px solid #000; padding:1px 3px;">▮</span> corruption damage |
+| <span style="border:1px solid #000; border-radius:3px; padding:1px 4px; font-size:90%; background:#eee;">≤11| 2 + <span style="border:1px solid #000; padding:1px 3px;">▮corruption damage |
 |---------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
 |---------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
-
-é 5 + I corruption damage
-
-í 7 + I corruption damage
+- **12-16:** 5 + I corruption damage
+- **17+:** 7 + I corruption damage
 
 **Effect:** You or one ally within distance can spend a Recovery.
 
@@ -435,42 +423,37 @@ Power Roll + Intuition**:**
 
 | **Magic, Ranged, Strike** | **Main action** |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
-| <b>Image: Ranged icon</b> Ranged 10                                                                                                               | <b>Image: Target icon</b> One creature or object |
-| <b>Power Roll + Intuition:</b>                                                                                                                    |                                                  |
-| <span style="border:1px solid #ccc; padding:0 3px; border-radius:3px;">≤11</span> 3 + <b>Image: black square die</b> holy damage; vertical pull 2 |                                                  |
+| ** Ranged 10                                                                                                               | ** One creature or object |
+| **Power Roll + Intuition:**                                                                                                                    |                                                  |
+| <span style="border:1px solid #ccc; padding:0 3px; border-radius:3px;">≤113 + <b> holy damage; vertical pull 2 |                                                  |
+- **12-16:** 5 + I holy damage; vertical pull 3
+- **17+:** 8 + I holy damage; vertical pull 4
 
-- é 5 + I holy damage; vertical pull 3
-- í 8 + I holy damage; vertical pull 4
-
-## **Lightfall**
+#### Lightfall
 
 *A rain of holy light scours your enemies and repositions your allies.*
 
 | **Area, Magic** | **Main action** |
 | --------------------------------|-------------------------------------------|
-| Image: area burst icon 2 burst | Image: target icon Each enemy in the area |
+| 2 burst | Each enemy in the area |
 
-### Power Roll + Intuition**:**
+**Power Roll + Intuition:**
 
-- á 2 holy damage
-- é 3 holy damage
-- í 5 holy damage
+- **≤11:**2 holy damage
+- **12-16:** 3 holy damage
+- **17+:** 5 holy damage
 
 **Effect:** You can teleport yourself and each ally in the area to unoccupied spaces in the area.
-
-![](_page_114_Picture_0.jpeg)
 
 #### **Sacrificial Offer**
 
 *Divine magic tears at your foe and defends a nearby friend.* **Magic, Ranged, Strike Main action** e Ranged 10 x One creature
 
-#### Power Roll + Intuition**:**
+**Power Roll + Intuition:**
 
-á 2 + I corruption damage
-
-é 4 + I corruption damage
-
-í 6 + I corruption damage
+- **≤11:**2 + I corruption damage
+- **12-16:** 4 + I corruption damage
+- **17+:** 6 + I corruption damage
 
 **Effect:** Choose yourself or one ally within distance. That character can impose a bane on one power roll made against them before the end of their next turn.
 
@@ -482,10 +465,11 @@ Power Roll + Intuition**:**
 
 ## e Melee 1 x One creature or object
 
-- Power Roll + Intuition**:**
-- á 3 + I holy damage; slide 1
-- é 5 + I holy damage; slide 2
-- í 8 + I holy damage; slide 3
+**Power Roll + Intuition:**
+
+- **≤11:** 3 + I holy damage; slide 1
+- **12-16:** 5 + I holy damage; slide 2
+- **17+:** 8 + I holy damage; slide 3
 
 #### **Warrior's Prayer**
 
@@ -499,13 +483,12 @@ Power Roll + Intuition**:**
 
 ![target icon](https://upload.wikimedia.org/wikipedia/commons/3/38/Target_icon.svg) One creature
 
-#### Power Roll + Intuition**:**
+**Power Roll + Intuition:**
 
 | ≤11   | 3 + <b>[black die icon]</b> holy damage |
 |-------|-----------------------------------------|
 | 12-16 | 6 + <b>[black die icon]</b> holy damage |
-
-í 9 + I holy damage
+- **17+:** 9 + I holy damage
 
 **Effect:** You or one ally within distance gains temporary Stamina equal to your Intuition score.
 
@@ -515,12 +498,11 @@ Power Roll + Intuition**:**
 
 | Magic, Ranged, Strike                                                                                                                                |                                          |
 |------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|
-| Image: Ranged line icon Ranged 10                                                                                                                    | Image: Clock icon One creature or object |
+| Ranged 10                                                                                                                    | One creature or object |
 | Power Roll + Intuition:                                                                                                                              |                                          |
 | Image: Power Roll ≤11 symbol 3 + Image: d6 icon corruption damage;<br>Image: Black label "P<WEAK" , the target takes a bane on their next power roll |                                          |
-
-- é 5 + I corruption damage; p<v , the target takes a bane on their next power roll
-- í 8 + I corruption damage; p<s , the target takes a bane on their next power roll
+- **12-16:** 5 + I corruption damage; p<v , the target takes a bane on their next power roll
+- **17+:** 8 + I corruption damage; P < STRONG, the target takes a bane on their next power roll
 
 # Conduit
 
@@ -540,12 +522,11 @@ Choose one heroic ability from the following options, each of which costs 3 piet
 
 **Area, Magic, Ranged Main action** e 3 cube within 10 x Each enemy in the area
 
-#### Power Roll + Intuition**:**
+**Power Roll + Intuition:**
 
-á 2 sonic damage; push 1
-
-- é 3 sonic damage; push 2
-- í 5 sonic damage; push 3
+- **≤11:** 2 sonic damage; push 1
+- **12-16:** 3 sonic damage; push 2
+- **17+:** 5 sonic damage; push 3
 
 **Effect:** You can push each willing ally in the area the same distance, ignoring stability.
 
@@ -567,13 +548,11 @@ Choose one heroic ability from the following options, each of which costs 3 piet
 | --- | ---:|
 | **📏 Ranged 10** | **🎯 One creature or object** |
 
-## Power Roll + Intuition**:**
+**Power Roll + Intuition:**
 
-á 3 + I holy damage; a<w , prone
-
-é 6 + I holy damage; a<v , prone
-
-í 9 + I holy damage; a<s , prone and can't stand (save ends)
+- **≤11:** 3 + I holy damage; A < WEAK, prone
+- **12-16:** 6 + I holy damage; A < AVERAGE, prone
+- **17+:** 9 + I holy damage; A < STRONG, prone and can't stand (save ends)
 
 ## **Violence Will Not Aid Thee (3 Piety)**
 
@@ -583,16 +562,15 @@ Choose one heroic ability from the following options, each of which costs 3 piet
 | --- | ---:|
 | **📏 Ranged 10** | **🎯 One creature** |
 
-#### Power Roll + Intuition**:**
+**Power Roll + Intuition:**
 
-- á 3 + I lightning damage
-- é 6 + I lightning damage
-
-í 9 + I lightning damage
+- **≤11:** 3 + I lightning damage
+- **12-16:** 6 + I lightning damage
+- **17+:** 9 + I lightning damage
 
 **Effect:** The first time on a turn that the target deals damage to another creature, the target of this ability takes 1d10 lightning damage (save ends).
 
-## **5-Piety Ability**
+#### 5-Piety Ability
 
 Choose one heroic ability from the following options, each of which costs 5 piety to use. (*Quick Build:* Curse of Terror.)
 
@@ -604,25 +582,25 @@ Choose one heroic ability from the following options, each of which costs 5 piet
 | --- | ---:|
 | **📏 Ranged 10** | **🎯 One creature or object** |
 
-#### Power Roll + Intuition**:**
+**Power Roll + Intuition:**
 
-- á 3 + I corruption damage; m<w , damage weakness 5 (save ends)
-- é 6 + I corruption damage; m<v , damage weakness 5 (save ends)
-- í 9 + I corruption damage; m<s , damage weakness 5 (save ends)
+- **≤11:** 3 + I corruption damage; M < WEAK, damage weakness 5 (save ends)
+- **12-16:** 6 + I corruption damage; M < AVERAGE, damage weakness 5 (save ends)
+- **17+:** 9 + I corruption damage; M < STRONG, damage weakness 5 (save ends)
 
 ## **Curse of Terror (5 Piety)**
 
 *Fear of divine judgment overwhelms your foe.*
 
-| <b>Magic, Ranged, Strike</b> | <b>Main action</b>                   |
+| **Magic, Ranged, Strike** | **Main action**                   |
 |------------------------------|--------------------------------------|
-| Image: ranged icon Ranged 10 | Image: main action icon One creature |
+| Ranged 10 | One creature |
 
-## Power Roll + Intuition**:**
+**Power Roll + Intuition:**
 
-- á 6 + I holy damage; i<w , frightened (save ends)
-- é 9 + I holy damage; i<v , frightened (save ends)
-- í 13 + I holy damage; i<s , frightened (save ends)
+- **≤11:** 6 + I holy damage; I < WEAK, frightened (save ends)
+- **12-16:** 9 + I holy damage; I < AVERAGE, frightened (save ends)
+- **17+:** 13 + I holy damage; I < STRONG, frightened (save ends)
 
 ## **Faith Is Our Armor (5 Piety)**
 
@@ -630,13 +608,15 @@ Choose one heroic ability from the following options, each of which costs 5 piet
 
 | **Magic, Ranged** | **Maneuver** |
 | ---------------------------------------|--------------------------------|
-| Image: Ranged triangle icon Ranged 10 | Image: Target icon Four allies |
+| Ranged 10 | Four allies |
 
-**Effect:** You can target yourself instead of one ally with this ability. Power Roll + Intuition**:**
+**Effect:** You can target yourself instead of one ally with this ability.
 
-- á The target gains 5 temporary Stamina.
-- é The target gains 10 temporary Stamina.
-- í The target gains 15 temporary Stamina.
+**Power Roll + Intuition:**
+
+- **≤11:** The target gains 5 temporary Stamina.
+- **12-16:** The target gains 10 temporary Stamina.
+- **17+:** The target gains 15 temporary Stamina.
 
 ## **Sermon of Grace (5 Piety)**
 
@@ -644,9 +624,7 @@ Choose one heroic ability from the following options, each of which costs 5 piet
 
 | **Area, Magic** | **Main action** |
 | -------------------------------------------|--|-------------------------------------------------|
-| <b>Image: triangle burst icon</b> 4 burst |  | <b>Image: target icon</b> Each ally in the area |
-
-101
+| ** 4 burst |  | <b> Each ally in the area |
 
 **Effect:** Each target can spend a Recovery. Additionally, each target can use a free triggered action to end one effect on them that is ended by a saving throw or that ends at the end of their turn, or to stand up if prone.
 
@@ -654,23 +632,23 @@ Choose one heroic ability from the following options, each of which costs 5 piet
 
 As a 2nd-level conduit, you gain the following features.
 
-## **The Lists of Heaven**
+#### The Lists of Heaven
 
 Your deity is aware of your growing influence, making it easier to draw their attention and power when you heal your allies. Whenever you allow another creature to spend a Recovery, you can also spend a Recovery.
 
-## **Perk**
+#### Perk
 
 You gain one crafting, lore, or supernatural perk of your choice. See Chapter 7: Perks.
 
-## **2nd-Level Domain Feature**
+#### 2nd-Level Domain Feature
 
 You gain the 1st-level domain feature and ability to choose a skill for the domain you selected at 1st level but whose domain feature you didn't take at that level (see 1st-Level Domain Feature).
 
-## **2nd-Level Domain Ability**
+#### 2nd-Level Domain Ability
 
 Choose one of your domains. You gain a heroic ability from that domain, as shown on the 2nd-Level Conduit Domain Abilities table.
 
-## **2nd-Level Conduit Domain Abilities**
+#### 2nd-Level Conduit Domain Abilities
 
 | Domain     | Feature                      |
 |------------|------------------------------|
@@ -693,12 +671,12 @@ Choose one of your domains. You gain a heroic ability from that domain, as shown
 
 | **Magic, Ranged** | **Main action** |
 | --------------------------------------|-----------------------------------|
-| Image: triangle ruler icon Ranged 10 | Image: clock icon Three creatures |
+| Ranged 10 | Three creatures |
 
 **Effect:** You can target yourself instead of one creature with this ability. Choose one of the following effects, which lasts until the end of the encounter or until you are dying:
 
-- ¥ Whenever a target makes a power roll, they can roll three dice and choose which two rolls to use.
-- ¥ Whenever a target makes a power roll, they must roll three dice and use the lowest two rolls.
+- Whenever a target makes a power roll, they can roll three dice and choose which two rolls to use.
+- Whenever a target makes a power roll, they must roll three dice and use the lowest two rolls.
 
 ## **Blessing of Insight (5 Piety)**
 
@@ -724,33 +702,31 @@ Choose one of your domains. You gain a heroic ability from that domain, as shown
 
 *You speak with the voice of your saint, commanding your enemies.*
 
-| <b>Magic, Ranged, Strike</b> | <b>Main action</b>             |
+| **Magic, Ranged, Strike** | **Main action**             |
 |------------------------------|--------------------------------|
-| Image: range icon Ranged 10  | Image: clock icon One creature |
+| Ranged 10  | One creature |
 
-Power Roll + Intuition**:**
+**Power Roll + Intuition:**
 
-- á 4 + I holy damage; p<w , before taking damage, the target makes a free strike against a target you choose
-- é 7 + I holy damage; p<v , before taking damage, the target uses an ability of your choice and you choose any targets for that ability
-- í 11 + I holy damage; p<s , before taking damage, the target shifts up to their speed to a location you choose, uses an ability of your choice, and you choose any targets for that ability
+- **≤11:** 4 + I holy damage; P < WEAK, before taking damage, the target makes a free strike against a target you choose
+- **12-16:** 7 + I holy damage; P < AVERAGE, before taking damage, the target uses an ability of your choice and you choose any targets for that ability
+- **17+:** 11 + I holy damage; P < STRONG, before taking damage, the target shifts up to their speed to a location you choose, uses an ability of your choice, and you choose any targets for that ability
 
 ## **Morning Light (5 Piety)**
 
 *Light shines at your command, burning your foes and blessing your*
 
-| <b>Area, Magic</b>       | <b>Main action</b>                       |
+| **Area, Magic**       | **Main action**                       |
 |--------------------------|------------------------------------------|
-| Image: area icon 3 burst | Image: clock icon Each enemy in the area |
+| 3 burst | Each enemy in the area |
 
-#### Power Roll + Intuition**:**
+**Power Roll + Intuition:**
 
-| <span>≤11</span> | 4 fire damage |
+| ≤11| 4 fire damage |
 |------------------|---------------|
 |------------------|---------------|
-
-é 6 fire damage
-
-í 10 fire damage
+- **12-16:** 6 fire damage
+- **17+:** 10 fire damage
 
 **Effect:** Each ally in the area deals fire damage equal to your Intuition score with their next strike made before the end of their next turn.
 
@@ -759,15 +735,15 @@ Power Roll + Intuition**:**
 | <i>Mystical thorned vines appear at your bidding and bind your foes.</i> |                    |
 |--------------------------------------------------------------------------|--------------------|
 |                                                                          |                    |
-| <b>Area, Magic, Ranged</b>                                               | <b>Main action</b> |
+| **Area, Magic, Ranged**                                               | **Main action** |
 
 e 3 cube within 10 x Each enemy in the area
 
-### Power Roll + Intuition**:**
+**Power Roll + Intuition:**
 
-- á 2 damage; a<w , restrained (save ends)
-- é 3 damage; a<v , restrained (save ends)
-- í 7 damage; a<s , restrained (save ends)
+- **≤11:** 2 damage; A < WEAK, restrained (save ends)
+- **12-16:** 3 damage; A < AVERAGE, restrained (save ends)
+- **17+:** 7 damage; A < STRONG, restrained (save ends)
 
 # Conduit
 
@@ -815,11 +791,11 @@ e 3 cube within 10 x Each enemy in the area
 
 e 3 cube within 10 x Each enemy in the area
 
-## Power Roll + Intuition**:**
+**Power Roll + Intuition:**
 
-- á 2 lightning damage; vertical slide 1
-- é 5 lightning damage; vertical slide 2
-- í 7 lightning damage; vertical slide 3
+- **≤11:** 2 lightning damage; vertical slide 1
+- **12-16:** 5 lightning damage; vertical slide 2
+- **17+:** 7 lightning damage; vertical slide 3
 
 ## **Statue of Power (5 Piety)**
 
@@ -851,13 +827,13 @@ e 3 cube within 10 x Each enemy in the area
 
 As a 3rd-level conduit, you gain the following features.
 
-## **Minor Miracle**
+#### Minor Miracle
 
 As a respite activity, you can perform a religious ritual and beseech the gods to restore a dead creature to life. You must have at least half the creature's remains, and they must have died within the last 24 hours from an effect that isn't age related. The creature's soul must be willing to return to life for the ritual to work. If they are not willing, you instinctively understand that as you start the respite activity and can cease it immediately.
 
 A creature with a willing soul returns to life at the end of the respite with full Stamina and half their Recoveries. You regain only half your Recoveries at the end of the respite.
 
-## **7-Piety Ability**
+#### 7-Piety Ability
 
 Choose one heroic ability from the following options, each of which costs 7 piety to use.
 
@@ -869,11 +845,11 @@ Choose one heroic ability from the following options, each of which costs 7 piet
 
 e 5 cube within 10 x Each enemy in the area
 
-#### Power Roll + Intuition**:**
+**Power Roll + Intuition:**
 
-- á 6 psychic damage; i<w , frightened (save ends)
-- é 9 psychic damage; i<v , frightened (save ends)
-- í 13 psychic damage; i<s , frightened (save ends)
+- **≤11:** 6 psychic damage; I < WEAK, frightened (save ends)
+- **12-16:** 9 psychic damage; I < AVERAGE, frightened (save ends)
+- **17+:** 13 psychic damage; I < STRONG, frightened (save ends)
 
 **Effect:** Each target is frightened of you or a creature you choose within distance.
 
@@ -881,9 +857,9 @@ e 5 cube within 10 x Each enemy in the area
 
 *An ally becomes the wearer of an empowered golden cloak.*
 
-| <b>Magic, Ranged</b>                         | <b>Maneuver</b>                        |
+| **Magic, Ranged**                         | **Maneuver**                        |
 |----------------------------------------------|----------------------------------------|
-| Image: triangular "ranged" icon<br>Ranged 10 | Image: target "maneuver" icon One ally |
+| Ranged 10 | One ally |
 
 **Effect:** The target gains 20 temporary Stamina and 3 surges.
 
@@ -893,18 +869,18 @@ e 5 cube within 10 x Each enemy in the area
 
 **Magic, Ranged, Strike**
 
-▶ Ranged 10
+▶ **📏 Ranged 10**
 
 **Main action**
 
 ![target icon](icon)
 One enemy
 
-## Power Roll + Intuition**:**
+**Power Roll + Intuition:**
 
-- á 7 + I corruption damage
-- é 10 + I corruption damage
-- í 15 + I corruption damage
+- **≤11:** 7 + I corruption damage
+- **12-16:** 10 + I corruption damage
+- **17+:** 15 + I corruption damage
 
 **Effect:** One ally within distance can spend any number of Recoveries.
 
@@ -914,16 +890,15 @@ One enemy
 
 | **Area, Magic** | **Main action** |
 | ------------------------------|-------------------------------------------|
-| Image: triangle icon 5 burst | Image: target icon Each enemy in the area |
+| 5 burst | Each enemy in the area |
 
-## Power Roll + Intuition**:**
+**Power Roll + Intuition:**
 
-| <span>≤11</span> | 2 holy damage |
+| ≤11| 2 holy damage |
 |------------------|---------------|
 |------------------|---------------|
-
-- é 5 holy damage
-- í 7 holy damage
+- **12-16:** 5 holy damage
+- **17+:** 7 holy damage
 
 **Effect:** Each ally in the area can spend a Recovery.
 
@@ -954,34 +929,32 @@ ge
 | --- | ---:|
 | **📏 Ranged 10** | **🎯 One enemy** |
 
-![](_page_117_Picture_85.jpeg)
-
 As a 4th-level conduit, you gain the following features.
 
-## **Blessed Domain**
+#### Blessed Domain
 
 Whenever you gain piety from a domain feature, you gain 1 additional piety.
 
-## **Characteristic Increase**
+#### Characteristic Increase
 
 Your Intuition score increases to 3. Additionally, you can increase one of your characteristic scores by 1, to a maximum of 3.
 
-## **Perk**
+#### Perk
 
 You gain one perk of your choice.
 
-## **Skill**
+#### Skill
 
 You gain one skill of your choice. See Skills in Chapter 9: Tests.
 
-## **4th-Level Domain Feature**
+#### 4th-Level Domain Feature
 
 Choose one of your domains. You gain a domain feature for that domain, as shown on the 4th-Level Conduit Domain Features table.
 
 | Domain     | Feature                     |
 |------------|-----------------------------|
 | Creation   | Improved Hands of the Maker |
-| Death      | Séance                      |
+| Death      | S- **12-16:** ance                      |
 | Fate       | Oracular Warning            |
 | Knowledge  | Saint’s Epiphany            |
 | Life       | Blessing of Life            |
@@ -1001,7 +974,7 @@ Your divine presence causes those you deem worthy to recover quickly from a figh
 
 You have the following ability.
 
-## **Blessing of Secrets**
+#### Blessing of Secrets
 
 *You project an illusory aura that makes you and allies harder to notice.*
 
@@ -1025,11 +998,7 @@ Additionally, you can place this spell on a building or vehicle (or a similar st
 
 When you use your Hands of the Maker ability, you can create a mundane object that is size 2 or smaller.
 
-![](_page_118_Picture_28.jpeg)
-
 # Conduit
-
-105
 
 #### Improved Sanctified Weapon
 
@@ -1067,11 +1036,11 @@ As a main action, you touch a living tree and make it part of a divine transport
 
 As a 5th-level conduit, you gain the following features.
 
-## **5th-Level Domain Feature**
+#### 5th-Level Domain Feature
 
 You gain the 4th-level domain feature for the domain whose feature you didn't select at that level (see 4th-Level Domain Feature).
 
-## **9-Piety Ability**
+#### 9-Piety Ability
 
 Choose one heroic ability from the following options, each of which costs 9 piety to use.
 
@@ -1079,17 +1048,17 @@ Choose one heroic ability from the following options, each of which costs 9 piet
 
 | <i>You ignite a foe with holy radiance, rewarding allies who attack them.</i> |                                |
 |-------------------------------------------------------------------------------|--------------------------------|
-| <b>Magic, Ranged, Strike</b>                                                  |                                |
-| Image: Ranged icon Ranged 10                                                  | Image: Clock icon One creature |
-| <b>Power Roll + Intuition:</b>                                                |                                |
+| **Magic, Ranged, Strike**                                                  |                                |
+| Image: Ranged icon **📏 Ranged 10**                                                  | One creature |
+| **Power Roll + Intuition:**                                                |                                |
 
-| á |  |  |  | 8 + I holy damage |
+|
+
+- **≤11:** |  |  |  | 8 + I holy damage |
 |---|--|--|--|-------------------|
 |---|--|--|--|-------------------|
-
-é 13 + I holy damage
-
-í 17 + I holy damage
+- **12-16:** 13 + I holy damage
+- **17+:** 17 + I holy damage
 
 **Effect:** Until the end of the encounter, whenever you or any ally damages the target using an ability, that creature can spend a Recovery. If the target is reduced to 0 Stamina before the end of the encounter, you can use a free triggered action to move this effect to another creature within distance.
 
@@ -1099,13 +1068,13 @@ Choose one heroic ability from the following options, each of which costs 9 piet
 
 | **Area, Magic, Ranged** | **Main action** |
 | -------------------------------------|---------------------------------------------|
-| Image: [area icon] 4 cube within 10 | Image: [target icon] Each enemy in the area |
+| 4 cube within 10 | Each enemy in the area |
 
-## Power Roll + Intuition**:**
+**Power Roll + Intuition:**
 
-- á 4 corruption damage; i<w , prone and can't stand (save ends)
-- é 7 corruption damage; i<v , prone and can't stand (save ends)
-- í 11 corruption damage; i<s , prone and can't stand (save ends)
+- **≤11:** 4 corruption damage; I < WEAK, prone and can't stand (save ends)
+- **12-16:** 7 corruption damage; I < AVERAGE, prone and can't stand (save ends)
+- **17+:** 11 corruption damage; I < STRONG, prone and can't stand (save ends)
 
 ## **Sanctuary (9 Piety)**
 
@@ -1113,7 +1082,7 @@ Choose one heroic ability from the following options, each of which costs 9 piet
 
 | **Magic, Ranged** | **Maneuver** |
 | ---------------------------------------------|------------------------------------------------|
-| Image: [triangle with ruler icon] Ranged 10 | Image: [clockwise arrow icon] Self or one ally |
+| Image: [triangle with ruler icon] **📏 Ranged 10** | Self or one ally |
 
 **Effect:** The target is removed from the encounter map until the start of their next turn and can spend any number of Recoveries. At the start of their turn, the target reappears in the space they left or the nearest unoccupied space of their choice.
 
@@ -1123,30 +1092,30 @@ Choose one heroic ability from the following options, each of which costs 9 piet
 
 | **Magic, Ranged** | **Maneuver** |
 | -----------------------------------|------------------------------------------------|
-| Image: triangle icon<br>Ranged 10 | Image: circular arrow icon<br>Self or one ally |
+| **📏 Ranged 10** | Self or one ally |
 
 **Effect:** The first time the target is dying or winded before the end of the encounter, each enemy within 5 squares of them takes 15 holy damage.
 
 As a 6th-level conduit, you gain the following features.
 
-## **Burgeoning Saint**
+#### Burgeoning Saint
 
 You are infused with the power your deity reserves for their most worthy instruments. You have the following benefits:
 
-- ¥ You gain an edge on Presence tests made to interact with other creatures.
-- ¥ Whenever you deal damage to an enemy, you can spend a Recovery.
-- ¥ You have corruption immunity 10 or holy immunity 10 (your choice).
-- ¥ Your clothing and equipment changes in a way that reflects your status as your deity's chosen champion, such as ordinary robes turning into gold vestments or a simple dagger becoming a wicked blade with intricate etching.
+- You gain an edge on Presence tests made to interact with other creatures.
+- Whenever you deal damage to an enemy, you can spend a Recovery.
+- You have corruption immunity 10 or holy immunity 10 (your choice).
+- Your clothing and equipment changes in a way that reflects your status as your deity's chosen champion, such as ordinary robes turning into gold vestments or a simple dagger becoming a wicked blade with intricate etching.
 
-## **Perk**
+#### Perk
 
 You gain one crafting, lore, or supernatural perk of your choice.
 
-## **6th-Level Domain Ability**
+#### 6th-Level Domain Ability
 
 Choose one of your domains. You gain a heroic ability from that domain, as shown on the 6th-Level Conduit Domain Abilities table.
 
-## **6th-Level Conduit Domain Abilities**
+#### 6th-Level Conduit Domain Abilities
 
 | Domain     | Ability                    |
 |------------|----------------------------|
@@ -1183,12 +1152,11 @@ Choose one of your domains. You gain a heroic ability from that domain, as shown
 | --- | ---:|
 | **📏 Ranged 5** | **🎯 One creature** |
 
-#### Power Roll + Intuition**:**
+**Power Roll + Intuition:**
 
-á 8 + I damage; a<w , prone and restrained (save ends)
-
-- é 12 + I damage; a<v , prone and restrained (save ends)
-- í 16 + I damage; a<s , prone and restrained (save ends)
+- **≤11:** 8 + I damage; A < WEAK, prone and restrained (save ends)
+- **12-16:** 12 + I damage; A < AVERAGE, prone and restrained (save ends)
+- **17+:** 16 + I damage; A < STRONG, prone and restrained (save ends)
 
 ## **Blessing of the Midday Sun (9 Piety)**
 
@@ -1218,11 +1186,11 @@ Choose one of your domains. You gain a heroic ability from that domain, as shown
 
 | **Magic, Ranged** | **Main action** |
 | -------------------------------------------|----------------------------------------------|
-| <span>Image: Ranged icon</span> Ranged 10 | <span>Image: Main action icon</span> Special |
+| **📏 Ranged 10** | Special |
 
 **Effect:** You conjure a size 2 rolling machine that appears in an unoccupied space within distance. The machine has 50 Stamina and immunity all to poison and psychic damage. It disappears at the end of the encounter, if its Stamina drops to 0, or if you are dying. When the machine first appears, make the following power roll once, targeting each enemy adjacent to it.
 
-#### Power Roll + Intuition**:**
+**Power Roll + Intuition:**
 
 | ≤11   | 3 damage |
 |-------|----------|
@@ -1245,8 +1213,6 @@ Once on each subsequent turn, you can use a free maneuver to move the machine a 
 
 **Effect:** Each target is invisible until the start of your next turn.
 
-107
-
 ## **Invocation of Undoing (9 Piety)**
 
 *You utter a secret word of destruction known only to deities.*
@@ -1259,11 +1225,11 @@ Once on each subsequent turn, you can use a free maneuver to move the machine a 
 | --- | ---:|
 | **📏 4 burst** | **🎯 Each enemy in the area** |
 
-#### Power Roll + Intuition**:**
+**Power Roll + Intuition:**
 
-á 3 sonic damage; push 3 é 6 sonic damage; push 5
-
-í 9 sonic damage; push 7
+- **≤11:** 3 sonic damage; push 3
+- **12-16:** 6 sonic damage; push 5
+- **17+:** 9 sonic damage; push 7
 
 **Special:** You can choose to have this ability deal damage to and push objects, and to deal damage to buildings.
 
@@ -1273,7 +1239,7 @@ Once on each subsequent turn, you can use a free maneuver to move the machine a 
 
 | **Magic, Ranged** | **Maneuver** |
 | ---------------------------------|----------------------------------|
-| Image: Ranged icon<br>Ranged 10 | Image: Target icon<br>Two allies |
+| **📏 Ranged 10** | Two allies |
 
 **Effect:** Each target gains 3 of their Heroic Resource.
 
@@ -1287,13 +1253,11 @@ Once on each subsequent turn, you can use a free maneuver to move the machine a 
 
 **Area, Magic Main action** e Three 10 × 1 lines within 1 x Each enemy in the area
 
-#### Power Roll + Intuition**:**
+**Power Roll + Intuition:**
 
-á 6 lightning damage; push 1
-
-é 9 lightning damage; push 2
-
-í 13 lightning damage; push 3
+- **≤11:** 6 lightning damage; push 1
+- **12-16:** 9 lightning damage; push 2
+- **17+:** 13 lightning damage; push 3
 
 **Effect:** The targets are force moved one at a time, starting with the target nearest to you, and can be pushed into other targets in the same line.
 
@@ -1315,27 +1279,24 @@ Once on each subsequent turn, you can use a free maneuver to move the machine a 
 
 **Area, Magic, Ranged Main action** e 10 × 2 line within 5 x Each enemy in the area
 
-#### Power Roll + Intuition**:**
+**Power Roll + Intuition:**
 
-- á 5 damage; m<w , prone and can't stand (save ends)
-- é 8 damage; m<v , prone and can't stand (save ends)
-- í 11 damage; m<s , prone and can't stand (save ends)
-
-![](_page_121_Picture_34.jpeg)
+- **≤11:** 5 damage; M < WEAK, prone and can't stand (save ends)
+- **12-16:** 8 damage; M < AVERAGE, prone and can't stand (save ends)
+- **17+:** 11 damage; M < STRONG, prone and can't stand (save ends)
 
 ## **Your Story Ends Here (9 Piety)**
 
-| <b>Magic, Ranged, Strike</b>         |                                                                                                                                                       |
+| **Magic, Ranged, Strike**         |                                                                                                                                                       |
 |--------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Image: Ruler triangle icon Ranged 10 | Image: Stopwatch icon One creature                                                                                                                    |
+| Image: Ruler triangle icon **📏 Ranged 10** | One creature                                                                                                                    |
 | ≤11                                  | 9 + <b style="background:black;color:white">I</b> corruption damage; <b style="background:black;color:white">R&lt;WEAK</b> , weakened (save ends)     |
 | 12–16                                | 14 + <b style="background:black;color:white">I</b> corruption damage; <b style="background:black;color:white">R&lt;AVERAGE</b> , weakened (save ends) |
 
-Power Roll + Intuition**:**
+**Power Roll + Intuition:**
 
 **Effect:** If this damage kills the target, you and each ally within distance can spend a Recovery.
-
-í 19 + I corruption damage; r<s, weakened (save ends)
+- **17+:** 19 + I corruption damage; R < STRONG, weakened (save ends)
 
 10 ![target icon](icon) O
 
@@ -1343,7 +1304,7 @@ Power Roll + Intuition**:**
 
 **Magic, Ranged, Strike**
 
-![triangle icon] Ranged 10
+![triangle icon] **📏 Ranged 10**
 
 **Power Roll + Intuition:**
 
@@ -1353,23 +1314,23 @@ Power Roll + Intuition:
 
 As a 7th-level conduit, you gain the following features.
 
-## **Characteristic Increase**
+#### Characteristic Increase
 
 Each of your characteristic scores increases by 1, to a maximum of 4.
 
-## **Faithful's Reward**
+#### Faithful's Reward
 
 When you roll for piety at the start of your turn in combat, you gain 1d3 + 1 piety.
 
-## **Skill**
+#### Skill
 
 You gain one skill of your choice.
 
-## **7th-Level Domain Feature**
+#### 7th-Level Domain Feature
 
 Choose one of your domains. You gain a domain feature for that domain, as shown on the 7th-Level Conduit Domain Features table.
 
-## **7th-Level Conduit Domain Features**
+#### 7th-Level Conduit Domain Features
 
 | Domain     | Feature                      |
 |------------|------------------------------|
@@ -1394,13 +1355,13 @@ The gods send divine favor to you and your allies. While you are not dying, enem
 
 You can maintain bonds with up to three willing creatures using your Invocation of the Heart feature. Additionally, you have the following ability.
 
-## **Guided to Your Side**
+#### Guided to Your Side
 
 *You concentrate on a friend and teleport to them.*
 
 **Magic, Range**
 
-▵ Ranged 10
+▵ **📏 Ranged 10**
 
 | **Magic, Ranged** | **Main action** |
 | --- | ---:|
@@ -1428,11 +1389,11 @@ Sun infuses your body. Whenever you use an ability to deal rolled damage to anot
 
 When you finish a respite, you can prepare a magic meal using local flora for any companions who rested with you. Choose two of the following benefits for creatures who consume the meal:
 
-- ¥ Each creature gains immunity to acid, cold, corruption, fire, lightning, poison, or sonic damage equal to your level. You can choose this benefit twice, choosing a different damage immunity each time.
-- ¥ Each creature gains 20 temporary Stamina.
-- ¥ Each creature gains a +1 bonus to speed.
-- ¥ Each creature gains a +1 bonus to saving throws.
-- ¥ Each creature gains an edge on tests made to influence other creatures.
+- Each creature gains immunity to acid, cold, corruption, fire, lightning, poison, or sonic damage equal to your level. You can choose this benefit twice, choosing a different damage immunity each time.
+- Each creature gains 20 temporary Stamina.
+- Each creature gains a +1 bonus to speed.
+- Each creature gains a +1 bonus to saving throws.
+- Each creature gains an edge on tests made to influence other creatures.
 
 Each benefit lasts until the creature who gains it finishes another respite.
 
@@ -1441,8 +1402,6 @@ Each benefit lasts until the creature who gains it finishes another respite.
 Lightning and thunder infuse your body. Whenever you use an ability to deal lightning or sonic damage to another creature, you gain 1 surge. Additionally, if you use an ability that force moves a creature, the forced movement distance gains a bonus equal to your Intuition score.
 
 # Conduit
-
-109
 
 ## Trinity of Trickery
 
@@ -1478,15 +1437,15 @@ The gods allow you and your companions to bask in the glory of past successes. W
 
 As an 8th-level conduit, you gain the following features.
 
-## **Perk**
+#### Perk
 
 You gain one perk of your choice.
 
-## **8th-Level Domain Feature**
+#### 8th-Level Domain Feature
 
 You gain the 7th-level domain feature for the domain whose feature you didn't select at that level (see 7th-Level Domain Feature).
 
-## **11-Piety Ability**
+#### 11-Piety Ability
 
 Choose one heroic ability from the following options, each of which costs 11 piety to use.
 
@@ -1496,7 +1455,7 @@ Choose one heroic ability from the following options, each of which costs 11 pie
 
 | **Magic, Ranged** | **Main action** |
 | ----------------------------------------------|-------------------------------------------------|
-| Image: triangle with ruler icon<br>Ranged 10 | Image: clockwise arrow icon<br>Self or one ally |
+| **📏 Ranged 10** | Self or one ally |
 
 **Effect:** The target can spend any number of Recoveries, can end any effects on them that are ended by a saving throw or that end at the end of their turn, and can stand up if they are prone. Additionally, at the start of each of their turns until the end of the encounter or until they are dying, the target gains 3 surges.
 
@@ -1506,7 +1465,7 @@ Choose one heroic ability from the following options, each of which costs 11 pie
 
 | **Area, Magic** | **Maneuver** |
 | --------------------------------------|---------------------------------------------------------|
-| Image: triangle with lines<br>5 aura | Image: archery target<br>Self and each ally in the area |
+| 5 aura | Self and each ally in the area |
 
 **Effect:** Until the end of the encounter, any ability roll made against a target takes a bane and each target has damage immunity 5.
 
@@ -1523,32 +1482,30 @@ Choose one heroic ability from the following options, each of which costs 11 pie
 
 | **Magic, Ranged, Strike** | **Main action** |
 
-| Image: Ruler icon Ranged 10                                        | Image: Target icon One creature or object |
-| <b>Power Roll + Intuition:</b>                                     |                                           |
+| Image: Ruler icon **📏 Ranged 10**                                        | One creature or object |
+| **Power Roll + Intuition:**                                     |                                           |
 
-á 9 + I holy damage; slide 3
-
-é 13 + I holy damage; slide 4
-
-í 18 + I holy damage; slide 6
+- **≤11:** 9 + I holy damage; slide 3
+- **12-16:** 13 + I holy damage; slide 4
+- **17+:** 18 + I holy damage; slide 6
 
 **Effect:** Each ally the target comes adjacent to during the forced movement can spend a Recovery.
 
 As a 9th-level conduit, you gain the following features.
 
-## **Faith's Sword**
+#### Faith's Sword
 
 Each time you finish a respite, you can choose a willing hero ally who finished the respite with you. That ally gains the benefits of your Burgeoning Saint feature until you finish another respite. Additionally, you can spend piety as a free maneuver to give the hero 1 of their Heroic Resource for every 2 piety spent.
 
-## **Ordained**
+#### Ordained
 
 Your god elevates the power flowing through you. Your characteristic scores are treated as 1 higher for the purpose of resisting potencies. Additionally, while you have 5 or more Victories, you speak with the voice of your deity. You have a double edge on Presence tests made to influence other creatures.
 
-## **9th-Level Domain Ability**
+#### 9th-Level Domain Ability
 
 Choose one of your domains. You gain a heroic ability from that domain, as shown on the 9th-Level Conduit Domain Abilities table.
 
-## **9th-Level Conduit Domain Abilities**
+#### 9th-Level Conduit Domain Abilities
 
 | Domain     | Ability                  |
 |------------|--------------------------|
@@ -1571,7 +1528,7 @@ Choose one of your domains. You gain a heroic ability from that domain, as shown
 
 | **Magic, Ranged** | **Maneuver** |
 | ------------------------------------|----------------------------------|
-| Image: Ranged 10 icon<br>Ranged 10 | Image: One ally icon<br>One ally |
+| **📏 Ranged 10** | One ally |
 
 **Effect:** The target has an additional main action they can use on their next turn, and gains 3 of their Heroic Resource.
 
@@ -1592,7 +1549,7 @@ Choose one of your domains. You gain a heroic ability from that domain, as shown
 
 | **Area, Magic** | **Maneuver** |
 | --------------------------------------|-------------------------|
-| Image: triangle icon Self; see below | Image: target icon Self |
+| Self; see below | Self |
 
 **Effect:** Until the end of the encounter or until you are dying, no target can approach within 5 squares of you by moving or by being force moved by any enemy. Targets can be force moved closer to you by you or your allies, or can move closer because of your movement.
 
@@ -1602,23 +1559,25 @@ Choose one of your domains. You gain a heroic ability from that domain, as shown
 
 | **Magic, Ranged** | **Main action** |
 | ---------------------------------------------------|-----------------------------------------|
-| <span>Image: triangle ruler icon</span> Ranged 10 | <span>Image: target icon</span> Special |
+| **📏 Ranged 10** | Special |
 
 **Effect:** You conjure a size 4 dragon that appears in an unoccupied space within distance. The dragon has speed 6 and can fly, stability 4, 100 Stamina, immunity all to fire damage, and uses your characteristics. The dragon disappears at the end of the encounter, if their Stamina drops to 0, or if you are dying.
 
 On subsequent turns, you can use a main action to command the dragon to breathe magic fire in a 3 cube within 1 square of them. Make the following power roll targeting each enemy in the area.
 
-#### Power Roll + Intuition**:**
+**Power Roll + Intuition:**
 
-á 5 fire damage é 9 fire damage í 12 fire damage
+- **≤11:** 5 fire damage
+- **12-16:** 9 fire damage
+- **17+:** 12 fire damage
 
 Additionally, you can use a maneuver to move the dragon up to their speed, or to make a melee weapon strike with their claw against an adjacent creature or object. The dragon can also make this strike as a free strike.
 
-#### Power Roll + Intuition**:**
+**Power Roll + Intuition:**
 
-- á 3 + I damage
-- é 5 + I damage
-- í 8 + I damage
+- **≤11:** 3 + I damage
+- **12-16:** 5 + I damage
+- **17+:** 8 + I damage
 
 ## **Godstorm (11 Piety)**
 
@@ -1630,11 +1589,11 @@ Additionally, you can use a maneuver to move the dragon up to their speed, or to
 
 -) Each enemy in the area
 
-## Power Roll + Intuition**:**
+**Power Roll + Intuition:**
 
-- á 2 lightning damage, 2 sonic damage
-- é 3 lightning damage, 3 sonic damage
-- í 5 lightning damage, 5 sonic damage
+- **≤11:** 2 lightning damage, 2 sonic damage
+- **12-16:** 3 lightning damage, 3 sonic damage
+- **17+:** 5 lightning damage, 5 sonic damage
 
 **Effect:** A raging storm fills the area until the end of the encounter or until you are dying. At the start of each of your turns, you can move the storm up to 5 squares (no action required). On subsequent turns while the storm is active, you can use a maneuver to make its power roll.
 
@@ -1644,7 +1603,7 @@ Additionally, you can use a maneuver to move the dragon up to their speed, or to
 
 | **Area, Magic, Ranged** | **Main action** |
 | ------------------------------------|----------------------------|
-| Image: ruler icon 5 cube within 10 | Image: target icon Special |
+| 5 cube within 10 | Special |
 
 **Effect:** Until the end of the encounter or until you are dying, the area is filled with magic darkness that your enemies can't see through, but you and your allies can.
 
@@ -1678,11 +1637,11 @@ dying, and can be placed in occupied squares. Creatures can enter and pass throu
 
 **Area, Magic, Ranged Main action** e 5 cube within 10 x Each enemy in the area
 
-## Power Roll + Intuition**:**
+**Power Roll + Intuition:**
 
-á 9 fire damage
-
-é 14 fire damage í 19 fire damage
+- **≤11:** 9 fire damage
+- **12-16:** 14 fire damage
+- **17+:** 19 fire damage
 
 ## **Thorn Cage (11 Piety)**
 
@@ -1690,15 +1649,13 @@ dying, and can be placed in occupied squares. Creatures can enter and pass throu
 
 | **Magic, Ranged, Strike** | **Main action** |
 | -----------------------------|------------------------------------------|
-| Image: Ruler icon Ranged 10 | Image: Clockwise arrow icon One creature |
+| Image: Ruler icon **📏 Ranged 10** | One creature |
 
-#### Power Roll + Intuition**:**
+**Power Roll + Intuition:**
 
-á 10 + I damage; a<w , restrained (save ends)
-
-é 15 + I damage; a<v , restrained (save ends)
-
-í 21 + I damage; a<s , restrained (save ends)
+- **≤11:** 10 + I damage; A < WEAK, restrained (save ends)
+- **12-16:** 15 + I damage; A < AVERAGE, restrained (save ends)
+- **17+:** 21 + I damage; A < STRONG, restrained (save ends)
 
 **Effect:** While restrained this way, the target takes 10 damage at the start of each of your turns.
 
@@ -1709,7 +1666,7 @@ dying, and can be placed in occupied squares. Creatures can enter and pass throu
 
 | **Magic, Ranged** | **Free triggered** |
 
-| Image: Ranged icon Ranged 10             | Image: Target icon One creature |
+| Image: Ranged icon **📏 Ranged 10**             | One creature |
 
 **Trigger:** The target dies.
 
@@ -1719,15 +1676,15 @@ dying, and can be placed in occupied squares. Creatures can enter and pass throu
 
 *You utter a divine word that makes a foe brittle.*
 
-| <b>Magic, Ranged, Strike</b> | <b>Main action</b>                        |
+| **Magic, Ranged, Strike** | **Main action**                        |
 |------------------------------|-------------------------------------------|
-| Image: ranged icon Ranged 10 | Image: target icon One creature or object |
+| Image: ranged icon **📏 Ranged 10** | One creature or object |
 
-## Power Roll + Intuition**:**
+**Power Roll + Intuition:**
 
-- á 10 + I corruption damage; a<w , weakened (save ends)
-- é 15 + I corruption damage; a<v , weakened (save ends)
-- í 21 + I corruption damage; a<s , weakened (save ends)
+- **≤11:** 10 + I corruption damage; A < WEAK, weakened (save ends)
+- **12-16:** 15 + I corruption damage; A < AVERAGE, weakened (save ends)
+- **17+:** 21 + I corruption damage; A < STRONG, weakened (save ends)
 
 **Effect:** While weakened this way, the target has damage weakness 10.
 
@@ -1735,17 +1692,17 @@ dying, and can be placed in occupied squares. Creatures can enter and pass throu
 
 As a 10th-level conduit, you gain the following features.
 
-## **Avatar**
+#### Avatar
 
 You are now an avatar of your god! When you use your Prayer feature, you can be affected by up to three prayers at once, and you can change all those prayers and your ward as a respite activity. You can also use a maneuver to activate one of your domain effects (see Domain Piety and Effects) without needing to pray.
 
 Additionally, whenever you take a respite, you can open a portal to rest in the presence of your deity and bring along any allies. When you do, you can ask your deity three questions, which the Director must answer honestly if your deity knows the answers (though they might answer cryptically or incompletely). When you finish your respite, you and your allies can appear at any location in the timescape where someone worships your deity.
 
-## **Characteristic Increase**
+#### Characteristic Increase
 
 Your Intuition score increases to 5. Additionally, you can increase one of your characteristic scores by 1, to a maximum of 5.
 
-## **Divine Power**
+#### Divine Power
 
 You have an epic resource called divine power. Each time you finish a respite, you gain divine power equal to the XP you gain. You can spend divine power on your abilities as if it were piety.
 
@@ -1753,14 +1710,14 @@ Additionally, you can spend divine power as if it were piety to use any conduit 
 
 Divine power remains until you spend it.
 
-## **Most Pious**
+#### Most Pious
 
 When you roll for piety at the start of your turn in combat and you pray, you gain 1 additional piety.
 
-## **Perk**
+#### Perk
 
 You gain one crafting, lore, or supernatural perk of your choice.
 
-## **Skill**
+#### Skill
 
 You gain one skill of your choice.
