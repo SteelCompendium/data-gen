@@ -35,7 +35,7 @@ Air for movement. Earth for permanence. Fire for destruction. Water for change. 
 
 As a 1st-level elementalist, you gain the following features.
 
-## **Elemental Specialization**
+#### Elemental Specialization
 
 Through your studies, you know and can manipulate the seven primal elements of the timescape:
 
@@ -43,49 +43,48 @@ Through your studies, you know and can manipulate the seven primal elements of t
 - **Earth** is the element of permanence. Earth abilities bolster your body and grant the power to permanently create and shape physical terrain.
 - **Fire** is the element of destruction. Fire abilities devastate enemies and melt objects to slag.
 - **Green** is the element of creation and growth. Green abilities make and manipulate plants, fungi, and other forms of life to hamper foes and nourish your allies.
-
-**Rot** is the element of decay. Rot abilities harm and debuff enemies.
-
+- **Rot** is the element of decay. Rot abilities harm and debuff enemies.
 - **Void** is the element of the mystery. Void abilities warp space and reality, allowing you to teleport, create illusions, and make things incorporeal.
 - **Water** is the element of change. Water abilities enhance your allies' power, and alter your enemies' power for the worse.
 
 You choose an elemental specialization from the following options: earth, fire, green, or void. Your elemental specialization is your subclass, and your choice of specialization determines many of the features you'll gain as you gain new levels, including one of the following benefits. (Other elemental specializations will be featured in future products.) (*Quick Build:* Fire.)
 
-#### Earth: Acolyte of Earth
+##### Earth: Acolyte of Earth
 
 You harness the flow of earth magic to become harder to move. Whenever you use an ability that has the Earth and Magic keywords, your stability increases by 1 until the start of your next turn. This benefit is cumulative.
 
-| Elementalist Advancement |                                                                                                                                                                                                     |                                     |
-|--------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
-| Level                    | Features                                                                                                                                                                                            | Abilities                           |
-| 1st                      | Elemental Specialization, Essence, Hurl Element, Persistent Magic, Practical Magic, Specialization Feature, Specialization Triggered Action, Enchantment, Elementalist Ward, Elementalist Abilities | Two signature, 3, 5                 |
-| 2nd                      | Perk, Specialization Feature, New 5-Essence Ability                                                                                                                                                 | Two signature, 3, 5, 5              |
-| 3rd                      | Specialization Feature, 7-Essence Ability                                                                                                                                                           | Two signature, 3, 5, 5, 7           |
-| 4th                      | Characteristic Increase, Font of Essence, Mantle of Essence, Perk, Skill Increase                                                                                                                   | Two signature, 3, 5, 5, 7           |
-| 5th                      | Specialization Feature, 9-Essence Ability                                                                                                                                                           | Two signature, 3, 5, 5, 7, 9        |
-| 6th                      | Perk, Wyrding, New 9-Essence Ability                                                                                                                                                                | Two signature, 3, 5, 5, 7, 9, 9     |
-| 7th                      | Characteristic Increase, Mantle of Quintessence, Surging Essence, Skill Increase                                                                                                                    | Two signature, 3, 5, 5, 7, 9, 9     |
-| 8th                      | Perk, Specialization Feature, 11-Essence Ability                                                                                                                                                    | Two signature, 3, 5, 5, 7, 9, 9, 11 |
-| 9th                      | Grand Wyrding, New 11-Essence Ability                                                                                                                                                               | Two signature, 3, 5, 5, 7, 9, 9, 11 |
-| 10th                     | Characteristic Increase, Breath, Essential Being, One, Perk, Skill Increase                                                                                                                         | Two signature, 3, 5, 5, 7, 9, 9, 11 |
+###### Elementalist Advancement Table
 
-#### Fire: Acolyte of Fire
+| Level  | Features                                                                                                                                                                                            | Abilities                           |
+|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
+| 1st    | Elemental Specialization, Essence, Hurl Element, Persistent Magic, Practical Magic, Specialization Feature, Specialization Triggered Action, Enchantment, Elementalist Ward, Elementalist Abilities | Two signature, 3, 5                 |
+| 2nd    | Perk, Specialization Feature, New 5-Essence Ability                                                                                                                                                 | Two signature, 3, 5, 5              |
+| 3rd    | Specialization Feature, 7-Essence Ability                                                                                                                                                           | Two signature, 3, 5, 5, 7           |
+| 4th    | Characteristic Increase, Font of Essence, Mantle of Essence, Perk, Skill Increase                                                                                                                   | Two signature, 3, 5, 5, 7           |
+| 5th    | Specialization Feature, 9-Essence Ability                                                                                                                                                           | Two signature, 3, 5, 5, 7, 9        |
+| 6th    | Perk, Wyrding, New 9-Essence Ability                                                                                                                                                                | Two signature, 3, 5, 5, 7, 9, 9     |
+| 7th    | Characteristic Increase, Mantle of Quintessence, Surging Essence, Skill Increase                                                                                                                    | Two signature, 3, 5, 5, 7, 9, 9     |
+| 8th    | Perk, Specialization Feature, 11-Essence Ability                                                                                                                                                    | Two signature, 3, 5, 5, 7, 9, 9, 11 |
+| 9th    | Grand Wyrding, New 11-Essence Ability                                                                                                                                                               | Two signature, 3, 5, 5, 7, 9, 9, 11 |
+| 10th   | Characteristic Increase, Breath, Essential Being, One, Perk, Skill Increase                                                                                                                         | Two signature, 3, 5, 5, 7, 9, 9, 11 |
+
+##### Fire: Acolyte of Fire
 
 You become an expert at wielding destructive flames. Your abilities that have the Fire and Magic keywords gain a +1 bonus to rolled damage. Your Hurl Element ability (see below) also gains this bonus when you use it to deal fire damage.
 
-#### Green: Acolyte of the Green
+##### Green: Acolyte of the Green
 
 You harness the residual magic from your green spells to bolster yourself and your allies. Whenever you deal damage to one or more creatures using an ability that has the Green and Magic keywords and that costs essence to use (see below), you or one creature within 10 squares of you gains temporary Stamina equal to your Reason score.
 
-#### Void: Acolyte of the Mystery
+##### Void: Acolyte of the Mystery
 
 You use your immersion in the mystery of void magic to expand the reach of that magic better than other mages. The distance of all your abilities that have the Magic, Ranged, and Void keywords increases by 2 squares.
 
-## <span id="page-127-0"></span>**Essence**
+#### Essence
 
 You channel the substance of creation in the form of a Heroic Resource called essence, gathering and burning it to cast and maintain spells.
 
-## Essence in Combat
+##### Essence in Combat
 
 At the start of a combat encounter or some other stressful situation tracked in combat rounds (as determined by the Director), you gain essence equal to your Victories. At the start of each of your turns during combat, you gain 2 essence.
 
@@ -93,9 +92,7 @@ Additionally, the first time each combat round that you or a creature within 10 
 
 You lose any remaining essence at the end of the encounter.
 
-![](_page_128_Picture_0.jpeg)
-
-#### Essence Outside of Combat
+##### Essence Outside of Combat
 
 Though you can't gain essence outside of combat, you can use your heroic abilities and effects that cost essence without spending it. Whenever you use an ability or effect outside of combat that costs essence, you can't use that same ability or effect outside of combat again until you earn 1 or more Victories or finish a respite.
 
@@ -103,13 +100,23 @@ When you use a persistent ability outside of combat (see Persistent Magic below)
 
 When you use an ability outside of combat that lets you spend unlimited essence on its effect, you can use it as if you had spent an amount of essence equal to your Victories.
 
-## **Hurl Element**
+#### Hurl Element
 
 You have the following ability, which can be used as a ranged free strike.
 
-#### **Hurl Element** *You cast a ball of elemental energy at a foe.*
+===================================================================================================================================================================
 
-**Magic, Ranged, Strike Main action** e Ranged 10 x One creature or object Power Roll + Reason**:**
+
+
+
+
+######## Hurl Element
+
+*You cast a ball of elemental energy at a foe.*
+
+**Magic, Ranged, Strike Main action** e Ranged 10 x One creature or object
+
+**Power Roll + Reason:**
 
 - **≤11:** 2 + R damage
 - **12-16:** 4 + R damage
@@ -117,7 +124,7 @@ You have the following ability, which can be used as a ranged free strike.
 
 **Effect:** When you make this strike, choose the damage type from one of the following options: acid, cold, corruption, fire, lightning, poison, or sonic.
 
-## **Persistent Magic**
+#### Persistent Magic
 
 Some of your heroic abilities have a persistent effect entry. For example, the Instantaneous Excavation ability has an effect noted as "Persistent 1." Whenever you use a persistent ability, you decide whether you want to maintain it, and start doing so immediately after you first use the ability. If you maintain a persistent ability in combat, you reduce the amount of essence you earn at the start of your turn by an amount equal to the ability's persistent value, which enables the ability's persistent effect. All your active persistent abilities end at the end of the encounter.
 
@@ -127,11 +134,11 @@ If you maintain the same ability on several targets and the effect includes a po
 
 If you take damage equal to or greater than 5 times your Reason score in one turn, you stop maintaining any persistent abilities. For instance, if you have a Reason score of 2 and are maintaining Instantaneous Excavation, taking 10 or more damage in one turn causes you to stop maintaining the ability.
 
-## **Practical Magic**
+#### Practical Magic
 
 You have the following ability.
 
-## **Practical Magic**
+#### Practical Magic
 
 *Your mastery of elemental power lets you customize your conjurations.*
 
@@ -145,11 +152,11 @@ You have the following ability.
 - ¥ You choose a creature within the distance of your Hurl Element ability and one of the following damage types: acid, cold, corruption, fire, lightning, poison, or sonic. That creature takes damage of the chosen type equal to your Reason score.
 - ¥ You teleport up to a number of squares equal to your Reason score. If you choose this option, you can spend essence to teleport 1 additional square for each essence spent.
 
-## **1st-Level Specialization Feature**
+#### 1st-Level Specialization Feature
 
 Your elemental specialization grants you a feature, as shown on the 1st-Level Elemental Specialization Features table.
 
-## **1st-Level Elemental Specialization Features**
+#### 1st-Level Elemental Specialization Features
 
 | Specialization | Feature                    |
 |----------------|----------------------------|
@@ -188,7 +195,7 @@ Additionally, you can touch a living plant that is not a plant creature to commu
 
 You have the following ability.
 
-## **Motivate Earth**
+#### Motivate Earth
 
 *The earth rises, falls, or opens up at your command.*
 
@@ -222,7 +229,7 @@ Melee 1
 
 **Effect:** You heat the target and cause it to melt or combust, destroying it. If the object is larger than 1 square, then only the square of the object you touch is destroyed.
 
-## **Specialization Triggered Action**
+#### Specialization Triggered Action
 
 Your elemental specialization grants you a triggered action, as shown on the Specialization Triggered Actions table.
 
@@ -248,7 +255,7 @@ Your elemental specialization grants you a triggered action, as shown on the Spe
 
 **Spend 1+ Essence:** The target can spend an additional Recovery for each essence spent.
 
-## **Explosive Assistance**
+#### Explosive Assistance
 
 *You add a little magic to an ally's aggression at just the right time.*
 
@@ -262,7 +269,7 @@ Your elemental specialization grants you a triggered action, as shown on the Spe
 
 **Spend 1 Essence:** The forced movement distance gains a bonus equal to twice your Reason score instead.
 
-## **Skin Like Castle Walls**
+#### Skin Like Castle Walls
 
 *You cover yourself or an ally in protective stone.*
 
@@ -276,7 +283,7 @@ Your elemental specialization grants you a triggered action, as shown on the Spe
 
 **Spend 1 Essence:** If the damage has any potency effects associated with it, the potency is reduced by 1 for the target.
 
-## **Subtle Relocation**
+#### Subtle Relocation
 
 *You call on the void to swallow and spit out an ally.*
 
@@ -286,7 +293,7 @@ Your elemental specialization grants you a triggered action, as shown on the Spe
 
 **Spend 1 Essence:** You teleport the target up to a number of squares equal to twice your Reason score instead.
 
-## **Enchantment**
+#### Enchantment
 
 You weave an elemental enchantment into your body that enhances your statistics. Choose one of the following enchantments. You can change your enchantment and ward (see Elementalist Ward below) by performing a complex ritual as a respite activity. (*Quick Build:*  Enchantment of Destruction.)
 
@@ -312,7 +319,7 @@ You have a +2 bonus to the distance of your ranged magic abilities.
 
 You gain a +6 bonus to Stamina, and this bonus increases by 6 at 4th, 7th, and 10th levels. Additionally, you gain a +1 bonus to stability.
 
-## **Elementalist Ward**
+#### Elementalist Ward
 
 You create an invisible elemental ward that protects you. Choose one of the following wards. You can change your ward and enchantment (see above) by performing a complex ritual as a respite activity. (*Quick Build:*  Ward of Surprising Reactivity.)
 
@@ -332,7 +339,7 @@ The green energy writhing within your body allows you to produce powerful vines 
 
 You use the magic of fire to create a ward of explosive energy. Whenever an adjacent creature deals damage to you, you can use a free triggered action to push that creature up to a number of squares equal to twice your Reason score.
 
-## **Elementalist Abilities**
+#### Elementalist Abilities
 
 Your understanding of elemental magic grants you unique abilities, letting you damage, move, and debuff your enemies, empower your allies, and alter the terrain around you. You can select abilities from any elemental specialization to broaden your potential, or you can focus on abilities tied to your chosen specialization to establish your mastery of elemental power.
 
@@ -340,7 +347,7 @@ Your understanding of elemental magic grants you unique abilities, letting you d
 
 Choose two signature abilities from the following options. Signature abilities can be used at will. (*Quick Build:* Bifurcated Incineration, Viscous Fire.)
 
-## **Afflict a Bountiful Decay**
+#### Afflict a Bountiful Decay
 
 | <i>Your curse causes your foe’s flesh to rot off as spores that aid your allies.</i> |                                            |
 |--------------------------------------------------------------------------------------|--------------------------------------------|
@@ -398,23 +405,29 @@ Choose two signature abilities from the following options. Signature abilities c
 
 **Effect:** You slide one creature within 10 squares of the target up to 2 squares.
 
-![](_page_130_Picture_52.jpeg)
-
 #### **Meteoric Introduction**
 
-*You give your enemy a gentle tap—like an asteroid impact.*  **Earth, Magic, Melee, Strike Main action** e Melee 1 x One creature or object Power Roll + Reason**:**
+*You give your enemy a gentle tap—like an asteroid impact.*  **Earth, Magic, Melee, Strike Main action** e Melee 1 x One creature or object
+
+**Power Roll + Reason:**
 
 - **≤11:** 3 + R damage; push 2
 - **12-16:** 5 + R damage; push 3
-- **17+:** 8 + R damage; push 4 **Ray of Agonizing Self-Reflection** *You inflict pain and doubt in equal measure.* **Magic, Ranged, Strike, Void Main action** e Ranged 10 x One creature or object Power Roll + Reason**:**
+- **17+:** 8 + R damage; push 4 **Ray of Agonizing Self-Reflection** *You inflict pain and doubt in equal measure.* **Magic, Ranged, Strike, Void Main action** e Ranged 10 x One creature or object
+
+**Power Roll + Reason:**
 
 - **≤11:** 2 + R corruption damage; R < WEAK, slowed (save ends)
 - **12-16:** 4 + R corruption damage; R < AVERAGE, slowed (save ends)
-- **17+:** 6 + R corruption damage; r<s, slowed (save ends) **Unquiet Ground** *A sudden storm of detritus assaults your foes and leaves them struggling to move.* **Area, Earth, Magic, Ranged Main action** e 2 cube within 10 x Each enemy in the area Power Roll + Reason**:**
+- **17+:** 6 + R corruption damage; r<s, slowed (save ends) **Unquiet Ground** *A sudden storm of detritus assaults your foes and leaves them struggling to move.* **Area, Earth, Magic, Ranged Main action** e 2 cube within 10 x Each enemy in the area
+
+**Power Roll + Reason:**
 
 - **≤11:** 2 damage
 - **12-16:** 5 damage
-- **17+:** 7 damage **Effect:** The ground beneath the area is difficult terrain for enemies. **Viscous Fire** *A jet of heavy fire erupts where you strike.* **Fire, Magic, Ranged, Strike Main action** e Ranged 10 x One creature or object Power Roll + Reason**:**
+- **17+:** 7 damage **Effect:** The ground beneath the area is difficult terrain for enemies. **Viscous Fire** *A jet of heavy fire erupts where you strike.* **Fire, Magic, Ranged, Strike Main action** e Ranged 10 x One creature or object
+
+**Power Roll + Reason:**
 
 - **≤11:** 2 + R fire damage; push 2
 
@@ -491,8 +504,6 @@ e 3 cube within 10 x Each enemy in the area
 
 **Effect:** You must be touching the ground to use this ability. Additionally, you can choose a square of ground in the area that is unoccupied or is occupied by you or any ally. A pillar of earth rises out of the ground in that square, with a height in squares up to your Reason score. The pillar can't collide with any creatures or objects, nor can it force creatures raised by it to collide with other creatures or objects.
 
-![](_page_131_Picture_36.jpeg)
-
 #### **5-Essence Ability**
 
 Choose one heroic ability from the following options, each of which costs 5 essence to use. (*Quick Build:* Conflagration.)
@@ -559,11 +570,11 @@ Choose one heroic ability from the following options, each of which costs 5 esse
 
 As a 2nd-level elementalist, you gain the following features.
 
-## **Perk**
+#### Perk
 
 You gain one crafting, lore, or supernatural perk of your choice. See Chapter 7: Perks.
 
-## **2nd-Level Specialization Feature**
+#### 2nd-Level Specialization Feature
 
 Your elemental specialization grants you a feature, as shown on the 2nd-Level Elemental Specialization Features table.
 
@@ -634,7 +645,7 @@ You have the following ability.
 
 At the start of each of your turns while the portals are active, you can open a new portal connected to the others. If three or more portals are present, you and your allies choose which portal to emerge from when entering a portal, and a creature who force moves an enemy into a portal chooses that enemy's destination portal.
 
-## **New 5-Essence Ability**
+#### New 5-Essence Ability
 
 Choose one heroic ability from the following options, each of which costs 5 essence to use. Alternatively, you can choose one of the 5-essence abilities you didn't select at 1st level (see 1st-Level Features).
 
@@ -700,11 +711,11 @@ Choose one heroic ability from the following options, each of which costs 5 esse
 
 As a 3rd-level elementalist, you gain the following features.
 
-## **3rd-Level Specialization Feature**
+#### 3rd-Level Specialization Feature
 
 Your elemental specialization grants you a feature, as shown on the 3rd-Level Elemental Specialization Features table.
 
-## **3rd-Level Elemental Specialization Features**
+#### 3rd-Level Elemental Specialization Features
 
 | Specialization | Feature                          |
 |----------------|----------------------------------|
@@ -725,7 +736,7 @@ Each time you finish a respite, you can open a two-way portal that leads to any 
 
 You have the following ability.
 
-## **Earth Accepts Me**
+#### Earth Accepts Me
 
 *You can slip into the stone.*
 
@@ -747,7 +758,7 @@ You have the following ability.
 
 **Effect:** You see and hear any events that have occurred within 10 squares of the object within the last 12 hours, perceiving those events from the object's location as if you were there.
 
-## **7-Essence Ability**
+#### 7-Essence Ability
 
 Choose one heroic ability from the following options, each of which costs 7 essence to use.
 
@@ -818,19 +829,19 @@ Choose one heroic ability from the following options, each of which costs 7 esse
 
 As a 4th-level elementalist, you gain the following features.
 
-## **Characteristic Increase**
+#### Characteristic Increase
 
 Your Reason score increases to 3. Additionally, you can increase one of your characteristic scores by 1, to a maximum of 3.
 
-## **Font of Essence**
+#### Font of Essence
 
 The first time each combat round that you or a creature within 10 squares takes damage that isn't untyped or holy damage, you gain 2 essence instead of 1.
 
-## **Mantle of Essence**
+#### Mantle of Essence
 
 While you have 3 or more essence and are not dying, you exude an aura of magic whose distance is equal to your Reason score. The effects within the area of the aura are based on your specialization, as shown on the Mantle of Essence Specialization Effects table. You can activate and deactivate the aura at will (no action required).
 
-## **Mantle of Essence Specialization Effects**
+#### Mantle of Essence Specialization Effects
 
 | Specialization | Feature         |
 |----------------|-----------------|
@@ -855,11 +866,11 @@ At the end of each of your turns, you can push each enemy in the area up to a nu
 
 The area provides concealment for you and your allies.
 
-## **Perk**
+#### Perk
 
 You gain one perk of your choice.
 
-## **Skill**
+#### Skill
 
 You gain one skill of your choice. See Skills in Chapter 9: Tests.
 
@@ -867,11 +878,11 @@ You gain one skill of your choice. See Skills in Chapter 9: Tests.
 
 As a 5th-level elementalist, you gain the following features.
 
-## **5th-Level Specialization Feature**
+#### 5th-Level Specialization Feature
 
 Your elemental specialization grants you a feature, as shown on the 5th-Level Elemental Specialization Features table.
 
-## **5th-Level Elemental Specialization Features**
+#### 5th-Level Elemental Specialization Features
 
 | Specialization | Feature                      |
 |----------------|------------------------------|
@@ -906,7 +917,7 @@ Additionally, whenever you use a fire ability or are targeted by an ability that
 
 # Elementalist
 
-## **9-Essence Ability**
+#### 9-Essence Ability
 
 Choose one heroic ability from the following options, each of which costs 9 essence to use.
 
@@ -974,11 +985,11 @@ ELEMENTA
 
 As a 6th-level elementalist, you gain the following features.
 
-## **Perk**
+#### Perk
 
 You gain one crafting, lore, or supernatural perk of your choice.
 
-## **Wyrding**
+#### Wyrding
 
 You can spend 10 uninterrupted minutes to create a freeform magic spell for a variety of situations. Choose one of the following magical effects:
 
@@ -989,7 +1000,7 @@ You can spend 10 uninterrupted minutes to create a freeform magic spell for a va
 - ¥ You can preserve a corpse or up to 5 pounds of food for a week, or can cause a corpse or that amount of food to instantly rot.
 - ¥ You create a seal on a surface that can't be seen or felt by anyone but you. When a creature comes adjacent to the surface, you can see and hear through the seal for as long as the creature remains adjacent to it. When you create the seal, you can decide to limit the number of creatures who activate it by choosing a creature keyword (such as Undead) or a specific name (such as Ajax the Invincible) or organization (such as the Black Iron Pact). If you do, the seal alerts you only when creatures with the keyword, name, or organizational affiliation you provide pass by it. If you create a second seal, the first one disappears. You can dispel a seal at any time (no action required).
 
-## **New 9-Essence Ability**
+#### New 9-Essence Ability
 
 Choose one heroic ability from the following options, each of which costs 9 essence to use. Alternatively, you can choose one of the 9-assence abilities you didn't select at 5th level (see 5th-Level Features).
 
@@ -1053,21 +1064,21 @@ e Ranged 10 x Self or one ally
 
 As a 7th-level elementalist, you gain the following features.
 
-## **Characteristic Increase**
+#### Characteristic Increase
 
 Each of your characteristic scores increases by 1, to a maximum of 4.
 
-## **Mantle of Quintessence**
+#### Mantle of Quintessence
 
 Your Mantle of Essence feature no longer requires essence.
 
 Additionally, your Mantle of Essence now radiates magic that creates a calming air. Creatures in the area of the mantle's aura have their starting patience increased by 1 (to a maximum of 5) during any negotiation. While in the area, you and any ally gain an edge on tests that use the Handle Animals skill. If you have 5 or more Victories, the bonus to patience increases to 2 and tests that use the Handle Animals skill have a double edge.
 
-## **Surging Essence**
+#### Surging Essence
 
 When you gain essence at the start of each of your turns during combat, you gain 3 essence instead of 2.
 
-## **Skill**
+#### Skill
 
 You gain one skill of your choice.
 
@@ -1075,15 +1086,15 @@ You gain one skill of your choice.
 
 As an 8th-level elementalist, you gain the following features.
 
-## **Perk**
+#### Perk
 
 You gain one perk of your choice.
 
-## **8th-Level Specialization Feature**
+#### 8th-Level Specialization Feature
 
 Your elemental specialization grants you a feature, as shown on the 8th-Level Elemental Specialization Features table.
 
-## **8th-Level Elemental Specialization Features**
+#### 8th-Level Elemental Specialization Features
 
 | Specialization | Feature                |
 |----------------|------------------------|
@@ -1144,7 +1155,7 @@ The source starts an encounter at full Stamina, but maintains their current Stam
 
 A creature that has the Earth Accepts Me ability can use it as a free action to meld into the source.
 
-## **11-Essence Ability**
+#### 11-Essence Ability
 
 Choose one heroic ability from the following options, each of which costs 11 essence to use.
 
@@ -1164,7 +1175,7 @@ Each enemy who ends their turn within 3 squares of the tree is restrained until 
 
 *The fire burns hot enough to sear the face of any god watching.*
 
-## **Area, Fire, Magic, Ranged Main action**
+#### Area, Fire, Magic, Ranged Main action
 
 e 5 cube within 10 x Each enemy in the area
 
@@ -1206,13 +1217,13 @@ e Ranged 10 x Special
 
 As a 9th-level elementalist, you gain the following features.
 
-## **Grand Wyrding**
+#### Grand Wyrding
 
 You have mastered the magic of shaping a wyrd, and can use your Wyrding feature as a main action.
 
 Additionally, when you have 5 or more Victories, choose one of the following damage types: acid, cold, corruption, fire, lightning, poison, or sonic. You have immunity all to that type.
 
-## **New 11-Essence Ability**
+#### New 11-Essence Ability
 
 Choose one heroic ability from the following options, each of which costs 11 essence to use. Alternatively, you can choose one of the 11-essence abilities you didn't select at 8th level (see 8th-Level Features).
 
@@ -1268,21 +1279,21 @@ Choose one heroic ability from the following options, each of which costs 11 ess
 
 As a 10th-level elementalist, you gain the following features.
 
-## **Breath**
+#### Breath
 
 You have an epic resource called breath. Each time you finish a respite, you gain breath equal to the XP you gain. You can spend any number of breath to gain essence (no action required). When you do, 1 breath becomes 3 essence.
 
 Breath remains until you convert it to essence.
 
-## **Characteristic Increase**
+#### Characteristic Increase
 
 Your Reason score increases to 5. Additionally, you can increase one of your characteristic scores by 1, to a maximum of 5.
 
-## **Essential Being**
+#### Essential Being
 
 When you gain essence at the start of each of your turns during combat, you gain 4 essence instead of 3.
 
-## **One**
+#### One
 
 You become the embodiment of the element of your chosen specialization. Whenever you use magic, elemental motes flit around you and your skin changes to reflect your element, taking on an earthen or stony appearance for earth, appearing like flickering flame for fire, gaining a leaf pattern for green, and becoming a starry expanse for void. Additionally, you gain one of the following benefits, as shown on the One Specialization Features table.
 
@@ -1321,10 +1332,10 @@ Whenever you willingly move, you can teleport.
 
 Additionally, your mind is connected to the mystery and helps you find the answers you seek. You no longer require project sources for research projects. Whenever you use a respite activity to make a project roll for a research project, you automatically complete the project.
 
-## **Perk**
+#### Perk
 
 You gain one crafting, lore, or supernatural perk of your choice.
 
-## **Skill**
+#### Skill
 
 You gain one skill of your choice.
