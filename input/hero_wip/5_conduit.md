@@ -203,8 +203,8 @@ You have the following ability.
 
 *An animal spirit is drawn to you, sharing their senses with you and serving you faithfully.*
 
-| Magic                              | Main action                         |
-|------------------------------------|-------------------------------------|
+| **Magic** | **Main action** |
+| ------------------------------------|-------------------------------------|
 | Image: triangle magic icon<br>Self | Image: bullseye action icon<br>Self |
 
 **Effect:** You conjure a spirit that takes the form of any animal you have seen. The incorporeal animal has speed 5 and can fly, but can't physically interact with the world. While you are within 10 squares of the spirit, you automatically sense everything that type of animal would sense, in addition to sensing your own surroundings. You can dismiss the spirit at any time (no action required). If the spirit takes any damage, they are dismissed and you take 1d10 psychic damage that can't be reduced in any way.
@@ -217,7 +217,9 @@ You have the following ability.
 
 *You commune with the lingering soul of the recently dead.*
 
-**Magic Maneuver** e Melee 1 x One dead creature
+| **Magic** | **Maneuver** |
+| --- | ---:|
+| **📏 Melee 1** | **🎯 One dead creature** |
 
 **Effect:** You can speak to the target if they are a creature who has died within the last 24 hours and who can speak a language you know, even if they are just a head. The target regards you as they would have in life, and you might need to make tests to influence them and convince them to speak with you. The trauma of dying can make a creature's memory of that event hazy, but the target otherwise knows all they knew in life. After 1 minute, the effect ends. You can't use this ability on the same creature twice.
 
@@ -290,7 +292,9 @@ You have the following ability, which can be used as a ranged free strike.
 
 *You unleash a blast of holy light upon your foe.*
 
-**Magic, Ranged, Strike Main action** e Ranged 10 x One creature or object
+| **Magic, Ranged, Strike** | **Main action** |
+| --- | ---:|
+| **📏 Ranged 10** | **🎯 One creature or object** |
 
 #### Power Roll + Intuition**:**
 
@@ -320,8 +324,8 @@ Choose one of the following triggered actions. (*Quick Build:* Word of Guidance.
 
 *Your holy word saps an attacking enemy's strength.*
 
-| Magic, Ranged                     | Triggered                      |
-|-----------------------------------|--------------------------------|
+| **Magic, Ranged** | **Triggered** |
+| -----------------------------------|--------------------------------|
 | Image: triangle icon<br>Ranged 10 | Image: target icon<br>One ally |
 
 **Trigger:** The target would take damage from an ability that uses a power roll.
@@ -429,8 +433,8 @@ Power Roll + Intuition**:**
 
 *A tendril of divine energy shoots forth to draw in your foe.*
 
-| Magic, Ranged, Strike                                                                                                                             | Main action                                      |
-|---------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
+| **Magic, Ranged, Strike** | **Main action** |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
 | <b>Image: Ranged icon</b> Ranged 10                                                                                                               | <b>Image: Target icon</b> One creature or object |
 | <b>Power Roll + Intuition:</b>                                                                                                                    |                                                  |
 | <span style="border:1px solid #ccc; padding:0 3px; border-radius:3px;">≤11</span> 3 + <b>Image: black square die</b> holy damage; vertical pull 2 |                                                  |
@@ -442,8 +446,8 @@ Power Roll + Intuition**:**
 
 *A rain of holy light scours your enemies and repositions your allies.*
 
-| Area, Magic                    | Main action                               |
-|--------------------------------|-------------------------------------------|
+| **Area, Magic** | **Main action** |
+| --------------------------------|-------------------------------------------|
 | Image: area burst icon 2 burst | Image: target icon Each enemy in the area |
 
 ### Power Roll + Intuition**:**
@@ -474,7 +478,7 @@ Power Roll + Intuition**:**
 
 *A blast of judgment disorients your foe.*
 
-**Magic, Melee, Strike Main action**
+| **Magic, Melee, Strike** | **Main action** |
 
 ## e Melee 1 x One creature or object
 
@@ -487,7 +491,9 @@ Power Roll + Intuition**:**
 
 *Your quickly uttered prayer lends aggressive divine energy to a friend engaged in melee.*
 
-**Magic, Ranged, Strike Main action** e Ranged 10 x One creature
+| **Magic, Ranged, Strike** | **Main action** |
+| --- | ---:|
+| **📏 Ranged 10** | **🎯 One creature** |
 
 **Main action**
 
@@ -547,9 +553,9 @@ Choose one heroic ability from the following options, each of which costs 3 piet
 
 *A brilliant column of holy light appears on the battlefield, striking out at nearby enemies.*
 
-## **Magic, Ranged Main action**
-
-e Ranged 10 x Special
+| **Magic, Ranged** | **Main action** |
+| --- | ---:|
+| **📏 Ranged 10** | **🎯 Special** |
 
 **Effect:** You summon a spirit of size 2 who can't be harmed, and who appears in an unoccupied space within distance. The spirit lasts until the end of your next turn. You and your allies can move through the spirit's space, but enemies can't. Any enemy who moves within 2 squares of the spirit for the first time in a combat round or starts their turn there takes holy damage equal to your Intuition score.
 
@@ -557,9 +563,9 @@ e Ranged 10 x Special
 
 *Your divine fury is a hammer that crashes down upon the unrighteous.*
 
-**Magic, Ranged, Strike Main action**
-
-e Ranged 10 x One creature or object
+| **Magic, Ranged, Strike** | **Main action** |
+| --- | ---:|
+| **📏 Ranged 10** | **🎯 One creature or object** |
 
 ## Power Roll + Intuition**:**
 
@@ -573,7 +579,9 @@ e Ranged 10 x One creature or object
 
 *After some holy lightning, your enemy will think twice about their next attack.*
 
-**Magic, Ranged, Strike Main action** e Ranged 10 x One creature
+| **Magic, Ranged, Strike** | **Main action** |
+| --- | ---:|
+| **📏 Ranged 10** | **🎯 One creature** |
 
 #### Power Roll + Intuition**:**
 
@@ -592,9 +600,9 @@ Choose one heroic ability from the following options, each of which costs 5 piet
 
 *Cursed by you, your enemy takes more damage from your allies.*
 
-**Magic, Ranged, Strike Main action**
-
-e Ranged 10 x One creature or object
+| **Magic, Ranged, Strike** | **Main action** |
+| --- | ---:|
+| **📏 Ranged 10** | **🎯 One creature or object** |
 
 #### Power Roll + Intuition**:**
 
@@ -620,8 +628,8 @@ e Ranged 10 x One creature or object
 
 *The heroes' armor glows with golden light, granting divine protection.*
 
-| Magic, Ranged                         | Maneuver                       |
-|---------------------------------------|--------------------------------|
+| **Magic, Ranged** | **Maneuver** |
+| ---------------------------------------|--------------------------------|
 | Image: Ranged triangle icon Ranged 10 | Image: Target icon Four allies |
 
 **Effect:** You can target yourself instead of one ally with this ability. Power Roll + Intuition**:**
@@ -634,8 +642,8 @@ e Ranged 10 x One creature or object
 
 *You inspire your allies with tales of your saint's great deeds.*
 
-| Area, Magic                               |  | Main action                                     |
-|-------------------------------------------|--|-------------------------------------------------|
+| **Area, Magic** | **Main action** |
+| -------------------------------------------|--|-------------------------------------------------|
 | <b>Image: triangle burst icon</b> 4 burst |  | <b>Image: target icon</b> Each ally in the area |
 
 101
@@ -683,8 +691,8 @@ Choose one of your domains. You gain a heroic ability from that domain, as shown
 
 *Your enemies suffer their fate; your allies embrace their destiny!*
 
-| Magic, Ranged                        | Main action                       |
-|--------------------------------------|-----------------------------------|
+| **Magic, Ranged** | **Main action** |
+| --------------------------------------|-----------------------------------|
 | Image: triangle ruler icon Ranged 10 | Image: clock icon Three creatures |
 
 **Effect:** You can target yourself instead of one creature with this ability. Choose one of the following effects, which lasts until the end of the encounter or until you are dying:
@@ -696,9 +704,9 @@ Choose one of your domains. You gain a heroic ability from that domain, as shown
 
 *The gods grant insight revealing where best to strike your enemies.*
 
-**Magic, Ranged Maneuver**
-
-e Ranged 10 x Self and each ally
+| **Magic, Ranged** | **Maneuver** |
+| --- | ---:|
+| **📏 Ranged 10** | **🎯 Self and each ally** |
 
 **Effect:** Until the end of the encounter or until you are dying, each target gains 1 surge at the end of each of your turns.
 
@@ -706,9 +714,9 @@ e Ranged 10 x Self and each ally
 
 *You and your allies swap places to confound your foes.*
 
-**Area, Magic Maneuver**
-
-e 5 burst x Self and each ally in the area
+| **Area, Magic** | **Maneuver** |
+| --- | ---:|
+| **📏 5 burst** | **🎯 Self and each ally in the area** |
 
 **Effect:** Each target can choose another creature in the area, then swap places with that creature. The creature they choose must be able to fit into the space they leave and vice versa.
 
@@ -767,9 +775,9 @@ e 3 cube within 10 x Each enemy in the area
 
 *An ally gains strength from their friends.*
 
-**Magic, Ranged Maneuver**
-
-e Ranged 10 x Self and one ally
+| **Magic, Ranged** | **Maneuver** |
+| --- | ---:|
+| **📏 Ranged 10** | **🎯 Self and one ally** |
 
 **Effect:** Until the end of the encounter or until the target is dying, at the start of each of the target's turns, they gain a bonus to speed and a bonus to rolled damage equal to the number of allies within 10 squares of them. This bonus lasts until the start of their next turn.
 
@@ -777,11 +785,13 @@ e Ranged 10 x Self and one ally
 
 *The gods reward those who smite their foes.*
 
-## **Magic, Ranged Maneuver**
+| **Magic, Ranged** | **Maneuver** |
 
 ![triangular ruler icon] Ranged
 
-e Ranged 10 x Each ally
+
+| --- | ---:|
+| **📏 Ranged 10** | **🎯 Each ally** |
 
 **Effect:** Until the start of your next turn, each time a target kills an enemy, they regain Stamina equal to 5 + your Intuition score.
 
@@ -791,7 +801,9 @@ e Ranged 10 x Each ally
 
 **Magic, Rang**
 
-**Magic, Ranged Maneuver** e Ranged 10 x Self and one ally
+| **Magic, Ranged** | **Maneuver** |
+| --- | ---:|
+| **📏 Ranged 10** | **🎯 Self and one ally** |
 
 **Effect:** Until the end of the encounter, whenever one target takes damage, the other target can use a free triggered action to take the damage instead. The original target suffers any effects associated with the damage. Additionally, whenever one target spends a Recovery, the other target can use a free triggered action to spend a Recovery.
 
@@ -799,7 +811,7 @@ e Ranged 10 x Each ally
 
 *A raging storm appears, striking your foes with lightning and throwing them around with wind.*
 
-**Area, Magic, Ranged Main action**
+| **Area, Magic, Ranged** | **Main action** |
 
 e 3 cube within 10 x Each enemy in the area
 
@@ -813,9 +825,9 @@ e 3 cube within 10 x Each enemy in the area
 
 *A marble statue of your deity rises from the earth.*
 
-**Magic, Ranged Maneuver**
-
-e Ranged 10 x Special
+| **Magic, Ranged** | **Maneuver** |
+| --- | ---:|
+| **📏 Ranged 10** | **🎯 Special** |
 
 **Maneuver**
 
@@ -829,7 +841,9 @@ e Ranged 10 x Special
 
 **Area, Mag**
 
-**Area, Magic Main action** e 3 aura x Each ally in the area
+| **Area, Magic** | **Main action** |
+| --- | ---:|
+| **📏 3 aura** | **🎯 Each ally in the area** |
 
 **Effect:** Until the end of the encounter or until you are dying, whenever a target starts their turn in the area, they can spend a Recovery.
 
@@ -851,7 +865,7 @@ Choose one heroic ability from the following options, each of which costs 7 piet
 
 *Your divine magic makes a creature appear as what your enemies fear most.*
 
-**Area, Magic, Ranged Main action**
+| **Area, Magic, Ranged** | **Main action** |
 
 e 5 cube within 10 x Each enemy in the area
 
@@ -898,8 +912,8 @@ One enemy
 
 *Your saint grants your enemies a vision of pain and fills your allies with healing energy.*
 
-| Area, Magic                  | Main action                               |
-|------------------------------|-------------------------------------------|
+| **Area, Magic** | **Main action** |
+| ------------------------------|-------------------------------------------|
 | Image: triangle icon 5 burst | Image: target icon Each enemy in the area |
 
 ## Power Roll + Intuition**:**
@@ -936,7 +950,9 @@ ge
 
 7+` 15 + ![black square](https://via.placeholder.com/15/000000/000000?text=+) corruption damage
 
-**Magic, Ranged, Strike Main action** e Ranged 10 x One enemy
+| **Magic, Ranged, Strike** | **Main action** |
+| --- | ---:|
+| **📏 Ranged 10** | **🎯 One enemy** |
 
 ![](_page_117_Picture_85.jpeg)
 
@@ -993,7 +1009,9 @@ Magic
 
 ![triangle symbol] 3 aura
 
-**Magic Maneuver** e 3 aura x Self and each ally in the area
+| **Magic** | **Maneuver** |
+| --- | ---:|
+| **📏 3 aura** | **🎯 Self and each ally in the area** |
 
 **Effect:** Each creature in the area has a double edge on tests made to hide or sneak. The aura lasts until you end it (no action required) or until a target harms or deals damage to a creature or object.
 
@@ -1079,8 +1097,8 @@ Choose one heroic ability from the following options, each of which costs 9 piet
 
 *"If you won't kneel, the gods will make you."*
 
-| Area, Magic, Ranged                 | Main action                                 |
-|-------------------------------------|---------------------------------------------|
+| **Area, Magic, Ranged** | **Main action** |
+| -------------------------------------|---------------------------------------------|
 | Image: [area icon] 4 cube within 10 | Image: [target icon] Each enemy in the area |
 
 ## Power Roll + Intuition**:**
@@ -1093,8 +1111,8 @@ Choose one heroic ability from the following options, each of which costs 9 piet
 
 *You send yourself or an ally to a divine manifold to instantaneously regain health.*
 
-| Magic, Ranged                               | Maneuver                                       |
-|---------------------------------------------|------------------------------------------------|
+| **Magic, Ranged** | **Maneuver** |
+| ---------------------------------------------|------------------------------------------------|
 | Image: [triangle with ruler icon] Ranged 10 | Image: [clockwise arrow icon] Self or one ally |
 
 **Effect:** The target is removed from the encounter map until the start of their next turn and can spend any number of Recoveries. At the start of their turn, the target reappears in the space they left or the nearest unoccupied space of their choice.
@@ -1103,8 +1121,8 @@ Choose one heroic ability from the following options, each of which costs 9 piet
 
 *You infuse yourself or an ally with the retributive energy of the gods, waiting to be unleashed.*
 
-| Magic, Ranged                     | Maneuver                                       |
-|-----------------------------------|------------------------------------------------|
+| **Magic, Ranged** | **Maneuver** |
+| -----------------------------------|------------------------------------------------|
 | Image: triangle icon<br>Ranged 10 | Image: circular arrow icon<br>Self or one ally |
 
 **Effect:** The first time the target is dying or winded before the end of the encounter, each enemy within 5 squares of them takes 15 holy damage.
@@ -1151,7 +1169,9 @@ Choose one of your domains. You gain a heroic ability from that domain, as shown
 
 **Area, Magic**
 
-**Area, Magic Maneuver** e 4 aura x Each creature in the area
+| **Area, Magic** | **Maneuver** |
+| --- | ---:|
+| **📏 4 aura** | **🎯 Each creature in the area** |
 
 **Effect:** Until the end of the encounter or until you are dying, at the end of each of your turns, you can slide each creature in the area up to a number of squares equal to your Intuition score. This forced movement ignores stability for your allies.
 
@@ -1159,9 +1179,9 @@ Choose one of your domains. You gain a heroic ability from that domain, as shown
 
 *A greatsword streams down from the sky, threatening to pin your foe.*
 
-**Magic, Ranged, Strike Main action**
-
-e Ranged 5 x One creature
+| **Magic, Ranged, Strike** | **Main action** |
+| --- | ---:|
+| **📏 Ranged 5** | **🎯 One creature** |
 
 #### Power Roll + Intuition**:**
 
@@ -1174,9 +1194,9 @@ e Ranged 5 x One creature
 
 *Your body emits a heat that bakes your enemies and inspires your allies.*
 
-## **Area, Magic Maneuver**
-
-e 4 aura x Self and each creature in the area
+| **Area, Magic** | **Maneuver** |
+| --- | ---:|
+| **📏 4 aura** | **🎯 Self and each creature in the area** |
 
 **Effect:** Until the end of the encounter or until you are dying, each enemy in the area takes a bane on power rolls, and you and each ally in the area gain 1 surge at the end of each of your turns.
 
@@ -1186,7 +1206,9 @@ e 4 aura x Self and each creature in the area
 |---------------------------------------------|
 | Your allies are covered in spiritual armor. |
 
-e Ranged 10 x Three creatures
+
+| --- | ---:|
+| **📏 Ranged 10** | **🎯 Three creatures** |
 
 **Effect:** You can target yourself instead of one creature with this ability. Each target has damage immunity 5 until the start of your next turn.
 
@@ -1194,8 +1216,8 @@ e Ranged 10 x Three creatures
 
 *You conjure a whirring tank made of blades and metal.*
 
-| Magic, Ranged                             | Main action                                  |
-|-------------------------------------------|----------------------------------------------|
+| **Magic, Ranged** | **Main action** |
+| -------------------------------------------|----------------------------------------------|
 | <span>Image: Ranged icon</span> Ranged 10 | <span>Image: Main action icon</span> Special |
 
 **Effect:** You conjure a size 2 rolling machine that appears in an unoccupied space within distance. The machine has 50 Stamina and immunity all to poison and psychic damage. It disappears at the end of the encounter, if its Stamina drops to 0, or if you are dying. When the machine first appears, make the following power roll once, targeting each enemy adjacent to it.
@@ -1217,9 +1239,9 @@ Once on each subsequent turn, you can use a free maneuver to move the machine a 
 
 ![triangle icon](IMAGE_URL) 4 burst
 
-**Area, Magic Maneuver**
-
-e 4 burst x Self and each ally in the area
+| **Area, Magic** | **Maneuver** |
+| --- | ---:|
+| **📏 4 burst** | **🎯 Self and each ally in the area** |
 
 **Effect:** Each target is invisible until the start of your next turn.
 
@@ -1233,7 +1255,9 @@ e 4 burst x Self and each ally in the area
 
 ![](insert image of symbol here) 4 burst
 
-**Area, Magic Main action** e 4 burst x Each enemy in the area
+| **Area, Magic** | **Main action** |
+| --- | ---:|
+| **📏 4 burst** | **🎯 Each enemy in the area** |
 
 #### Power Roll + Intuition**:**
 
@@ -1247,8 +1271,8 @@ e 4 burst x Self and each ally in the area
 
 *You beseech the gods to give your allies what they need to win the day, and the gods answer.*
 
-| Magic, Ranged                   | Maneuver                         |
-|---------------------------------|----------------------------------|
+| **Magic, Ranged** | **Maneuver** |
+| ---------------------------------|----------------------------------|
 | Image: Ranged icon<br>Ranged 10 | Image: Target icon<br>Two allies |
 
 **Effect:** Each target gains 3 of their Heroic Resource.
@@ -1279,7 +1303,9 @@ e 4 burst x Self and each ally in the area
 
 **Area, Ma**
 
-**Area, Magic Main action** e 4 burst x Self and each ally in the area
+| **Area, Magic** | **Main action** |
+| --- | ---:|
+| **📏 4 burst** | **🎯 Self and each ally in the area** |
 
 **Effect:** Each target can spend any number of Recoveries. Additionally, each target can end one effect on themself that is ended by a saving throw or that ends at the end of their turn, or they can stand up if prone.
 
@@ -1376,7 +1402,9 @@ You can maintain bonds with up to three willing creatures using your Invocation 
 
 ▵ Ranged 10
 
-**Magic, Ranged Main action** e Ranged 10 x Self and each ally
+| **Magic, Ranged** | **Main action** |
+| --- | ---:|
+| **📏 Ranged 10** | **🎯 Self and each ally** |
 
 **Effect:** Each target is teleported to unoccupied spaces within 5 squares of a willing creature who you are bonded to with your Invocation of the Heart feature. You don't need line of effect to the bonded creature but you must be on the same world.
 
@@ -1426,7 +1454,9 @@ You have the following ability.
 
 Magic, Range
 
-**Magic, Ranged Maneuver** e Ranged 10 x Self or one ally
+| **Magic, Ranged** | **Maneuver** |
+| --- | ---:|
+| **📏 Ranged 10** | **🎯 Self or one ally** |
 
 **Effect:** You create two illusory duplicates of the target, which appear anywhere within distance. These duplicates last until the end of the encounter. On each of their turns, the target can move each duplicate up to their speed. If the target is targeted by an ability, they can use a free triggered action to switch places with a duplicate within their line of effect, making the duplicate the target of the ability instead. When either duplicate takes damage, it is destroyed.
 
@@ -1464,8 +1494,8 @@ Choose one heroic ability from the following options, each of which costs 11 pie
 
 *Your deity rewards you or an ally on the verge of defeat with a miracle burst of strength and resolve.*
 
-| Magic, Ranged                                | Main action                                     |
-|----------------------------------------------|-------------------------------------------------|
+| **Magic, Ranged** | **Main action** |
+| ----------------------------------------------|-------------------------------------------------|
 | Image: triangle with ruler icon<br>Ranged 10 | Image: clockwise arrow icon<br>Self or one ally |
 
 **Effect:** The target can spend any number of Recoveries, can end any effects on them that are ended by a saving throw or that end at the end of their turn, and can stand up if they are prone. Additionally, at the start of each of their turns until the end of the encounter or until they are dying, the target gains 3 surges.
@@ -1474,8 +1504,8 @@ Choose one heroic ability from the following options, each of which costs 11 pie
 
 *A protective aura defends your allies from harm.*
 
-| Area, Magic                          | Maneuver                                                |
-|--------------------------------------|---------------------------------------------------------|
+| **Area, Magic** | **Maneuver** |
+| --------------------------------------|---------------------------------------------------------|
 | Image: triangle with lines<br>5 aura | Image: archery target<br>Self and each ally in the area |
 
 **Effect:** Until the end of the encounter, any ability roll made against a target takes a bane and each target has damage immunity 5.
@@ -1490,7 +1520,9 @@ Choose one heroic ability from the following options, each of which costs 11 pie
 
 | <i>You conjure an angel who moves a foe and heals your allies.</i> |                                           |
 |--------------------------------------------------------------------|-------------------------------------------|
-| Magic, Ranged, Strike                                              | Main action                               |
+
+| **Magic, Ranged, Strike** | **Main action** |
+
 | Image: Ruler icon Ranged 10                                        | Image: Target icon One creature or object |
 | <b>Power Roll + Intuition:</b>                                     |                                           |
 
@@ -1537,8 +1569,8 @@ Choose one of your domains. You gain a heroic ability from that domain, as shown
 
 *You speak inspiring words to a friend and spur them to incredible feats.*
 
-| Magic, Ranged                      | Maneuver                         |
-|------------------------------------|----------------------------------|
+| **Magic, Ranged** | **Maneuver** |
+| ------------------------------------|----------------------------------|
 | Image: Ranged 10 icon<br>Ranged 10 | Image: One ally icon<br>One ally |
 
 **Effect:** The target has an additional main action they can use on their next turn, and gains 3 of their Heroic Resource.
@@ -1547,9 +1579,10 @@ Choose one of your domains. You gain a heroic ability from that domain, as shown
 
 *The gods know you must prevail, and they bless your fate.*
 
-e Ranged 10 x Self or one ally
+| **Magic, Ranged** | **Main action** |
+| --- | ---:|
+| **📏 Ranged 10** | **🎯 Self or one ally** |
 
-**Magic, Ranged Main action**
 
 **Effect:** Until the end of the encounter or until you are dying, each of the target's power rolls has its outcome improved by one tier.
 
@@ -1557,8 +1590,8 @@ e Ranged 10 x Self or one ally
 
 *A magic circle extends out from you, barring foes from getting close.*
 
-| Area, Magic                          | Maneuver                |
-|--------------------------------------|-------------------------|
+| **Area, Magic** | **Maneuver** |
+| --------------------------------------|-------------------------|
 | Image: triangle icon Self; see below | Image: target icon Self |
 
 **Effect:** Until the end of the encounter or until you are dying, no target can approach within 5 squares of you by moving or by being force moved by any enemy. Targets can be force moved closer to you by you or your allies, or can move closer because of your movement.
@@ -1567,8 +1600,8 @@ e Ranged 10 x Self or one ally
 
 *From nothing but divine will, you create a powerful ally.*
 
-| Magic, Ranged                                     | Main action                             |
-|---------------------------------------------------|-----------------------------------------|
+| **Magic, Ranged** | **Main action** |
+| ---------------------------------------------------|-----------------------------------------|
 | <span>Image: triangle ruler icon</span> Ranged 10 | <span>Image: target icon</span> Special |
 
 **Effect:** You conjure a size 4 dragon that appears in an unoccupied space within distance. The dragon has speed 6 and can fly, stability 4, 100 Stamina, immunity all to fire damage, and uses your characteristics. The dragon disappears at the end of the encounter, if their Stamina drops to 0, or if you are dying.
@@ -1609,8 +1642,8 @@ Additionally, you can use a maneuver to move the dragon up to their speed, or to
 
 *You summon darkness that thwarts only your foes.*
 
-| Area, Magic, Ranged                | Main action                |
-|------------------------------------|----------------------------|
+| **Area, Magic, Ranged** | **Main action** |
+| ------------------------------------|----------------------------|
 | Image: ruler icon 5 cube within 10 | Image: target icon Special |
 
 **Effect:** Until the end of the encounter or until you are dying, the area is filled with magic darkness that your enemies can't see through, but you and your allies can.
@@ -1623,7 +1656,9 @@ Additionally, you can use a maneuver to move the dragon up to their speed, or to
 
 **Magic, Range**
 
-**Magic, Ranged Main action** e Ranged 10 x Four allies
+| **Magic, Ranged** | **Main action** |
+| --- | ---:|
+| **📏 Ranged 10** | **🎯 Four allies** |
 
 **Effect:** You can target yourself instead of one ally with this ability. Each target can spend any number of Recoveries, can end any effects on them that are ended by a saving throw or that end at the end of their turn, and can stand up if they are prone.
 
@@ -1653,8 +1688,8 @@ dying, and can be placed in occupied squares. Creatures can enter and pass throu
 
 *Vines burst forth from the ground and bind your foe, slowly closing around them.*
 
-| Magic, Ranged, Strike       | Main action                              |
-|-----------------------------|------------------------------------------|
+| **Magic, Ranged, Strike** | **Main action** |
+| -----------------------------|------------------------------------------|
 | Image: Ruler icon Ranged 10 | Image: Clockwise arrow icon One creature |
 
 #### Power Roll + Intuition**:**
@@ -1671,7 +1706,9 @@ dying, and can be placed in occupied squares. Creatures can enter and pass throu
 
 | <i>Your death will fuel our victory.</i> |                                 |
 |------------------------------------------|---------------------------------|
-| Magic, Ranged                            | Free triggered                  |
+
+| **Magic, Ranged** | **Free triggered** |
+
 | Image: Ranged icon Ranged 10             | Image: Target icon One creature |
 
 **Trigger:** The target dies.
