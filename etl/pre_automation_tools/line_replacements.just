@@ -50,6 +50,10 @@ run input_md_path output_md_path:
     text = re.sub( r'^\d+\n*', r'', text, flags=re.MULTILINE)
     # html bold
     text = re.sub( r'\<\/?b\>', r'**', text, flags=re.MULTILINE)
+    # newlines
+    text = re.sub( r'\<br\>', r' ', text, flags=re.MULTILINE)
+    # remove spans
+    text = re.sub( r'\<span id\=\".*"\>\<\/span\>', r'', text, flags=re.MULTILINE)
     # weak, average, strong
     text = re.sub( r'\s?<\s?w\s?,', r' < WEAK,', text, flags=re.MULTILINE)
     text = re.sub( r'\s?<\s?v\s?,', r' < AVERAGE,', text, flags=re.MULTILINE)
@@ -67,8 +71,9 @@ run input_md_path output_md_path:
     # keywords
     text = re.sub( r'^\**Trigger\**\:\**', r'**Trigger:**', text, flags=re.MULTILINE)
     text = re.sub( r'^\**Effect\**\:\**', r'**Effect:**', text, flags=re.MULTILINE)
-    # remove spans
-    text = re.sub( r'\<span id\=\".*"\>\<\/span\>', r'', text, flags=re.MULTILINE)
+    # image text
+    text = re.sub( r'Image\: [^\|]*icon ', r'', text, flags=re.MULTILINE)
+
 
     # write it all out at once
     with open(output_path, 'w', encoding='utf-8') as f:
