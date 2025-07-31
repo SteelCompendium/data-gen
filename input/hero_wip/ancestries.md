@@ -404,7 +404,7 @@ Your prehensile tail allows you to challenge foes on all sides. You can't be fla
 
 You possess wings powerful enough to take you airborne. While using your wings to fly, you can stay aloft for a number of rounds equal to your Might score (minimum 1 round) before you fall. While using your wings to fly at 3rd level or lower, you have damage weakness 5.
 
-## DRAGON KNIGHT
+## Dragon Knight
 
 The ritual of Dracogenesis that grants the power to create a generation of dragon knights—also known as draconians or wyrmwights—is obscure and supremely difficult for even an experienced sorcerer to master. Small populations of draconians in Khemhara, Higara, and Khoursir attest to this. Descendants of original generations created millennia ago by powerful wizards, they have never been numerous. A typical clutch yields only a single egg. After only a few generations, these draconians begin to show new adaptations like feathers or frilled ridges.
 
@@ -558,15 +558,13 @@ As a maneuver, you can recite the following oath. Until the start of your next t
 
 You possess wings powerful enough to take you airborne. While using your wings to fly, you can stay aloft for a number of rounds equal to your Might score (minimum 1 round) before you fall. While using your wings to fly at 3rd level or lower, you have damage weakness 5.
 
-## DWARF
+## Dwarf
 
-![](_page_44_Picture_1.jpeg)
-
-P ossessed of a strength that belies their size, dwarves have flesh infused with stone—a silico-organic hybrid making them physically denser than other humanoids. They enjoy a reputation in Orden as savvy engineers and technologists thanks to the lore they inherited from their elder siblings, the long-extinct steel dwarves.
+Possessed of a strength that belies their size, dwarves have flesh infused with stone—a silico-organic hybrid making them physically denser than other humanoids. They enjoy a reputation in Orden as savvy engineers and technologists thanks to the lore they inherited from their elder siblings, the long-extinct steel dwarves.
 
 Dwarves are the children of the elder god Ord, and a common phrase among dwarves is "Ord made the world"—their way of saying, "What will be, will be." They take great pride in knowing that along with Aan, Eth, and Kul, their god created the mundane world, and many dwarves leave their homes to see the world and seek glory in Ord's name.
 
-## On Dwarves
+### On Dwarves
 
 "They can be stubborn," Embers said.
 
@@ -664,11 +662,11 @@ Dazar stared at the man, this knight of Tor, and looked at Embers quietly radiat
 
 John was grinning madly at Embers. She held up three fingers.
 
-## Dwarf Traits
+### Dwarf Traits
 
 Dwarf heroes have access to the following traits.
 
-## Signature Trait: Runic Carving
+#### Signature Trait: Runic Carving
 
 You can carve a rune onto your skin with 10 uninterrupted minutes of work, which is activated by the magic within your body. The rune you carve determines the benefit you receive, chosen from among the following:
 
@@ -680,37 +678,37 @@ You can carve a rune onto your skin with 10 uninterrupted minutes of work, which
 
 You can have one rune active at a time, and can change or remove a rune with 10 uninterrupted minutes of work.
 
-## Purchased Dwarf Traits
+#### Purchased Dwarf Traits
 
 You have 3 ancestry points to spend on the following traits. (*Quick Build:* Grounded, Spark Off Your Skin.)
 
-## Great Fortitude (2 Points)
+##### Great Fortitude (2 Points)
 
 Your hearty constitution prevents you from losing strength. You can't be made weakened.
 
-## Grounded (1 Point)
+##### Grounded (1 Point)
 
 Your heavy stone body and connection to the earth make it difficult for others to move you. You have a +1 bonus to stability.
 
-## Spark Off Your Skin (2 Points)
+##### Spark Off Your Skin (2 Points)
 
 Your stone skin affords you potent protection. You have a +6 bonus to Stamina, and that bonus increases by 6 at 4th, 7th, and 10th levels.
 
-## Stand Tough (1 Point)
+##### Stand Tough (1 Point)
 
 Your body is made to withstand the blows of your enemies. Your Might score is treated as 1 higher for the purpose of resisting potencies, and you gain an edge on Might tests when called for to resist environmental effects or a creature's traits or abilities.
 
-## Stone Singer (1 Point)
+##### Stone Singer (1 Point)
 
 You have a magic connection to the earth. When you spend 1 uninterrupted hour singing, you can reshape any unworked mundane stone within 3 squares. You can't destroy this stone, but you can move each square of it anywhere within 3 squares, piling it off to one side to dig a hole or building it up to create a wall.
 
-![](_page_46_Picture_0.jpeg)
+## Wode Elf
 
-<span id="page-46-0"></span>C hildren of the sylvan celestials and masters of the elf-haunted forests called wodes, wode elves see all forests as their domain by birthright. They know and enjoy their reputation among humans for snatching children who wander too far into the woods. Humans *should* fear the trees.
+Children of the sylvan celestials and masters of the elf-haunted forests called wodes, wode elves see all forests as their domain by birthright. They know and enjoy their reputation among humans for snatching children who wander too far into the woods. Humans *should* fear the trees.
 
 The wode elves' natural ability to mask their presence, called *glamor*, complements their guerilla style of fighting, letting them strike quickly from cover and then meld back into the underbrush. These traits also make the relatively few wode elves who dwell in cities naturally adept at urban warfare.
 
-## On Wode Elves
+### On Wode Elves
 
 "I'm scared," Wenna said. "We should go back." The forest felt as if it was closing in on them.
 
@@ -788,63 +786,63 @@ The children nodded. The elf, satisfied, marched off and they followed.
 
 Jeremy turned to Dade. "I feel like we're in a dream," he whispered. "You are!" their escort called out. "The wode is a dream! With a little luck, one you may soon wake safely from."
 
-## Wode Elf Traits
+### Wode Elf Traits
 
 Wode elf heroes have access to the following traits.
 
-## Signature Trait: Wode Elf Glamor
+#### Signature Trait: Wode Elf Glamor
 
 You can magically alter your appearance to better blend in with your surroundings. You gain an edge on tests made to hide and sneak, and tests made to search for you while you are hidden take a bane.
 
-## Purchased Wode Elf Traits
+#### Purchased Wode Elf Traits
 
 You have 3 ancestry points to spend on the following traits. (*Quick Build:* Swift, Otherworldly Grace.)
 
-## Forest Walk (1 Point)
+##### Forest Walk (1 Point)
 
 You can shift into and while within difficult terrain.
 
-## Quick and Brutal (1 Point)
+##### Quick and Brutal (1 Point)
 
 Whenever you score a critical hit, you can take an additional main action and an additional move action instead of just a main action.
 
-## Otherworldly Grace (2 Points)
+##### Otherworldly Grace (2 Points)
 
 Your elf body and mind can't be contained for long. Whenever you make a saving throw, you succeed on a roll of 5 or higher.
 
-## Revisit Memory (1 Point)
+##### Revisit Memory (1 Point)
 
 Accessing memories is as easy as living in the present for you. You gain an edge on tests made to recall lore.
 
-## Swift (1 Point)
+##### Swift (1 Point)
 
 You have speed 6.
 
-## The Wode Defends (2 Points)
+##### The Wode Defends (2 Points)
 
 You have the following signature ability. Signature abilities can be used at will.
 
-## The Wode Defends
+######## The Wode Defends
 
 *Thorny vines erupt from every surface and attempt to bind your foe.*
 
-#### **Magic, Ranged, Strike Main action** e Ranged 10 x One creature
+| **Magic, Ranged, Strike** |               **Main Action** |
+|---------------------------|------------------------------:|
+| **📏 Ranged 10**          |           **🎯 One creature** |
 
-**Power Roll** + Might or Agility**:**
+**Power Roll + Might or Agility:**
 
-- á 2 + M or A damage; a<w , slowed (save ends)
-- é 3 + M or A damage; a<v , slowed (save ends)
-- í 5 + M or A damage; a<s , slowed (save ends)
+- **≤11:** 2 + M or A damage; A < WEAK, slowed (save ends)
+- **12-16:** 3 + M or A damage; A < AVERAGE, slowed (save ends)
+- **17+:** 5 + M or A damage; A < STRONG, slowed (save ends)
 
-# HIGH ELF
+## High Elf
 
-![](_page_48_Picture_1.jpeg)
-
-C hildren of the solar celestials created to tend their libraries and attend to the true elves as heralds, high elf history describes a better age, before the coming of humans and war. A time when the celestials were still in the world, and all that mattered was art and beauty.
+Children of the solar celestials created to tend their libraries and attend to the true elves as heralds, high elf history describes a better age, before the coming of humans and war. A time when the celestials were still in the world, and all that mattered was art and beauty.
 
 In the millennia since their creators retired to Arcadia, the high elves built a civilization for themselves, primarily living in and among the fallen celestial sky cities. With no creators left to please, the elves continue as they did before—collecting lore and knowledge, worshipping art, and turning more inward and distrusting of outsiders with each generation.
 
-## On High Elves
+### On High Elves
 
 "They're so beautiful," Wenna said. "It's hard to imagine we're in danger."
 
@@ -878,8 +876,6 @@ Llyander turned to the children and smiled brilliantly, eyebrows waggling in a s
 
 The king stood up and a herald beside the throne announced, "Gather ye, and attend! The Lord of Fallen Irranys, Morning Dew on a Single Leaf Like a Tear from the Sun, speaks. And know his word is law!"
 
-35
-
 Lord Tear glided down the steps until he was standing, as tall as Llyander, before the children. His face was noble and beautiful. Wisps of silver-like strands of smoke spread across his golden skin. He seemed at once eternal and youthful.
 
 "You have heard many things about my people, but this above all you should know. We do not value lore for lore's sake, but beauty first and above all other things. And the truth, to us, is a kind of beauty. Thus do we find knowledge beautiful.
@@ -912,51 +908,45 @@ The king turned back to them. "Should any of you seek hidden lore or deep wisdom
 
 Llyander put their hands on their hips and regarded the children. "Not bad for your second quest. What shall you do for an encore?"
 
-![A brown diamond shape above a brown angular line.](attachment:image.png)
-
-## High Elf Traits
+### High Elf Traits
 
 High elf heroes have access to the following traits.
 
-## Signature Trait: High Elf Glamor
+#### Signature Trait: High Elf Glamor
 
 A magic glamor makes others perceive you as interesting and engaging, granting you an edge on Presence tests using the Flirt or Persuade skills. This glamor makes you appear and sound slightly different to each creature you meet, since what is engaging to one might be different for another. However, you never appear to be anyone other than yourself.
 
-## Purchased High Elf Traits
+#### Purchased High Elf Traits
 
 You have 3 ancestry points to spend on the following traits. (*Quick Build:* High Senses, Otherworldly Grace.)
 
-## Glamor of Terror (2 Points)
+##### Glamor of Terror (2 Points)
 
 When a foe strikes, you reverse the magic of your glamor to instill fear into their heart. Whenever you take damage from a creature, you can use a triggered action to make that creature frightened of you until the end of their next turn.
 
-#### Graceful Retreat (1 Point)
+##### Graceful Retreat (1 Point)
 
 You gain a +1 bonus to the distance you can shift when you take the Disengage move action.
 
-## High Senses (1 Point)
+##### High Senses (1 Point)
 
 Your senses are especially keen and perceptive. You gain an edge on tests made to notice threats.
 
-## Otherworldly Grace (2 Points)
+##### Otherworldly Grace (2 Points)
 
 Your elf body and mind can't be contained for long. Whenever you make a saving throw, you succeed on a roll of 5 or higher.
 
-#### Revisit Memory (1 Point)
+##### Revisit Memory (1 Point)
 
 Accessing memories is as easy as living in the present for you. You gain an edge on tests made to recall lore.
 
-#### Unstoppable Mind (2 Points)
+##### Unstoppable Mind (2 Points)
 
 Your mind allows you to maintain your focus in any situation. You can't be made dazed.
 
-## HAKAAN
+## Hakaan
 
-![](_page_50_Picture_1.jpeg)
-
-![](_page_50_Picture_2.jpeg)
-
-I n spite of their friendly, outgoing nature, the rare presence of a hakaan in human society is considered a harbinger. An omen of dark times.
+In spite of their friendly, outgoing nature, the rare presence of a hakaan in human society is considered a harbinger. An omen of dark times.
 
 Descended from a tribe of giants in upper Vanigar, the original Haka'an tribe made a bargain with Holkatya the Vanigar trickster god. They traded some of their gigantic size and strength for the ability to see the future.
 
@@ -968,7 +958,7 @@ But the only hakaan the average human meets is one trying to fulfill their doom.
 
 Humans in Vanigar have their own word for this concept of a personal fate. "Wyrd." Traditional hakaan sometimes refer to the Doomsight as "wyrdken."
 
-## On Hakaan
+### On Hakaan
 
 The gate, or door, or whatever it was started to close. With Dazar on the other side of it.
 
@@ -1052,23 +1042,23 @@ Ardashir grinned. "Strength alone is not enough." He assumed a fighting pose, ha
 
 "Well you can't ever be disarmed," John said. "That could be useful." Ardashir's smile was brilliant. "I suffice," he said.
 
-## Hakaan Traits
+### Hakaan Traits
 
 Hakaan heroes have access to the following traits.
 
-## Signature Trait: Big!
+#### Signature Trait: Big!
 
 Your stature reflects your giant forebears. Your size is 1L.
 
-## Purchased Hakaan Traits
+#### Purchased Hakaan Traits
 
 You have 3 ancestry points to spend on the following traits. (*Quick Build:* Doomsight, Forceful.)
 
-## All Is a Feather (1 Point)
+##### All Is a Feather (1 Point)
 
 You are exceptionally strong. You gain an edge on tests made to lift and haul heavy objects.
 
-#### Doomsight (2 Points)
+##### Doomsight (2 Points)
 
 Working with your Director, you can predetermine an encounter in which you will die. When that encounter begins, you become doomed. While doomed, you automatically obtain a tier 3 outcome on tests and ability rolls, and you don't die no matter how low your Stamina falls. You then die immediately at the end of the encounter, and can't be returned to life by any means.
 
@@ -1076,27 +1066,25 @@ If you don't predetermine your death encounter, you can choose to become doomed 
 
 Additionally, when your Stamina reaches the negative of your winded value and you are not doomed, you turn to rubble instead of experiencing death. You are unaware of your surroundings in this state, and you can't regain Stamina or have this effect undone in any way. After 12 hours, you regain Stamina equal to your recovery value.
 
-## Forceful (1 Point)
+##### Forceful (1 Point)
 
 Whenever you force move a creature or object, the forced movement distance gains a +1 bonus.
 
-#### Great Fortitude (2 Points)
+##### Great Fortitude (2 Points)
 
 Your hearty constitution prevents you from losing strength. You can't be made weakened.
 
-#### Stand Tough (1 Point)
+##### Stand Tough (1 Point)
 
 Your body is made to withstand the blows of your enemies. Your Might score is treated as 1 higher for the purpose of resisting potencies, and you gain an edge on Might tests when called for to resist environmental effects or a creature's traits or abilities.
 
-## HUMAN
+## Human
 
-![](_page_52_Picture_1.jpeg)
-
-H umans belong to the world in a way the other speaking peoples do not. You can sense the presence of the supernatural—that … oily smell in the air, as I've heard it described. And the presence of deathless causes the hairs on the back of your neck to stand up. Or why do you think graveyards affect you so? Whatever magic is, its grip on you is light. Whatever drives the deathless, your nature rebels against it.
+Humans belong to the world in a way the other speaking peoples do not. You can sense the presence of the supernatural—that … oily smell in the air, as I've heard it described. And the presence of deathless causes the hairs on the back of your neck to stand up. Or why do you think graveyards affect you so? Whatever magic is, its grip on you is light. Whatever drives the deathless, your nature rebels against it.
 
 "No one knows why this should be. We elves have no such senses. Nor do the elementals or the kanin … the dwarves and the orcs as you say. What is it that sets humans apart? I am an historian, not a physician. I cannot say. Perhaps some of you will one day find out and teach us all the reason."
 
-## On Humans
+### On Humans
 
 So, we arrive here at the end of your first semester of Human Culture. I hope to see you next year in the Caelian Empire course, and though it may be hard to believe now, I often see former students' names in our textbooks years later. Perhaps that will be some of you.
 
@@ -1132,49 +1120,45 @@ Stopping Ajax will require you to become something else. You must become heroes.
 
 Some of your names, I will see written in future textbooks. But some of your names, I will see written in the stars.
 
-## Human Traits
+### Human Traits
 
 Human heroes have access to the following traits.
 
-## Signature Trait: Detect the Supernatural
+#### Signature Trait: Detect the Supernatural
 
 As a maneuver, you can open your awareness to detect supernatural creatures and phenomena. Until the end of your next turn, you know the location of any supernatural object, or any undead, construct, or creature from another world within 5 squares, even if you don't have line of effect to that object or creature. You know if you're detecting an item or a creature, and you know the nature of any creature you detect.
 
-## Purchased Human Traits
+#### Purchased Human Traits
 
 You have 3 ancestry points to spend on the following traits. (*Quick Build:* Perseverance, Staying Power.)
 
-## Can't Take Hold (1 Point)
+##### Can't Take Hold (1 Point)
 
 Your connection to the natural world allows you to resist certain supernatural effects. You ignore temporary difficult terrain created by magic and psionic abilities. Additionally, when you are force moved by a magic or psionic ability, you can reduce the forced movement distance by 1.
 
-#### Determination (2 Points)
+##### Determination (2 Points)
 
 A tolerance for pain and distress allows you to push through difficult situations. If you are frightened, slowed, or weakened, you can use a maneuver to immediately end one of those conditions.
 
-## Perseverance (1 Point)
+##### Perseverance (1 Point)
 
 Giving up is for other people. You gain an edge on tests made using the Endurance skill. Additionally, when you are slowed, your speed is reduced to 3 instead of 2.
 
-## Resist the Unnatural (1 Point)
+##### Resist the Unnatural (1 Point)
 
 Your instinctive resilience protects you from injuries beyond the routine. Whenever you take damage that isn't untyped, you can use a triggered action to take half the damage.
 
-## Staying Power (2 Points)
+##### Staying Power (2 Points)
 
 Your human physiology allows you to fight, run, and stay awake longer than others. You increase your number of Recoveries by 2.
 
-![](_page_53_Picture_20.jpeg)
+## Memonek
 
-## MEMONEK
-
-![](_page_54_Picture_1.jpeg)
-
-T he native denizens of Axiom, the Plane of Uttermost Law, memonek dwell in a land with lakes and trees and birds and flowers. But on this alien world, the lakes are seas of mercury, the birds glitter with wings of glass stretched gossamer thin, and the flowers' petals are iridescent metal as flexible and fragile as any earthly rose.
+The native denizens of Axiom, the Plane of Uttermost Law, memonek dwell in a land with lakes and trees and birds and flowers. But on this alien world, the lakes are seas of mercury, the birds glitter with wings of glass stretched gossamer thin, and the flowers' petals are iridescent metal as flexible and fragile as any earthly rose.
 
 The minds of memonek are highly ordered. Their reason is their great pride. But when descending to the lower planes, including a manifold like Orden where law and chaos mix, a sickness comes over them—an uncontrollable sensation called emotion.
 
-## On Memonek
+### On Memonek
 
 "You want to tell me what just happened?" Sir John asked. Count Revile avoided his gaze, then turned and stamped across the bloody battlefield. "I'm fine!" Revile shouted, all evidence to the contrary.
 
@@ -1258,55 +1242,53 @@ John offered his hand. Revile shook it and then held it.
 
 "But there might be enough."
 
-## Memonek Traits
+### Memonek Traits
 
 Memonek heroes have access to the following traits.
 
-## Signature Trait: Fall Lightly
+#### Signature Trait: Fall Lightly
 
 Your silicone body is low in density. Whenever you fall, you reduce the distance of the fall by 2 squares.
 
-## Signature Trait: Lightweight
+#### Signature Trait: Lightweight
 
 Your body is light for a creature of your height. Whenever another creature attempts to force move you, you treat your size as one size smaller than it is.
 
-## Purchased Memonek Traits
+#### Purchased Memonek Traits
 
 You have 4 ancestry points to spend on the following traits. (*Quick Build:* Lightning Nimbleness, Nonstop.)
 
-## I Am Law (1 Point)
+##### I Am Law (1 Point)
 
 Your lawful nature and quick reflexes mean you give no quarter to creatures trying to get past you. Enemies can't move through your space unless you allow them to do so.
 
-## Keeper of Order (2 Points)
+##### Keeper of Order (2 Points)
 
 Your connection to Axiom, the plane of Uttermost Law, allows you to manage chaos around you. Once per round when you or an adjacent creature makes a power roll, you can use a free triggered action to remove an edge or a bane on the roll, to turn a double edge into an edge, or to turn a double bane into a bane.
 
-## Lightning Nimbleness (2 Points)
+##### Lightning Nimbleness (2 Points)
 
 You can push your body to move at incredible speeds. Your speed is 7.
 
-## Nonstop (2 Points)
+##### Nonstop (2 Points)
 
 Your connection to Axiom allows you to regulate your movement. You can't be made slowed.
 
-## Systematic Mind (1 Point)
+##### Systematic Mind (1 Point)
 
 You gain an edge on tests made to parse schematics, maps, and other systematic documents that aren't inherently chaotic. In addition, you treat any language you don't know as if you know a related language.
 
-## Unphased (1 Point)
+##### Unphased (1 Point)
 
 Your ordered mind can't be caught off guard. You can't be made surprised.
 
-## Useful Emotion (1 Point)
+##### Useful Emotion (1 Point)
 
 Velloparatha—the worldsickness—might hinder you, but you know how to turn your pain into something your enemies feel. At the start of any combat, you gain 1 surge.
 
-![](_page_56_Picture_0.jpeg)
+## Orc
 
-<span id="page-56-0"></span>![](_page_56_Picture_1.jpeg)
-
-A n anger that cannot be hidden. A fury that drives them in battle. Orcs are famed throughout the world as consummate warriors—a reputation that the peace-loving orcs find
+An anger that cannot be hidden. A fury that drives them in battle. Orcs are famed throughout the world as consummate warriors—a reputation that the peace-loving orcs find
 
 The fifth of the speaking peoples, orcs arrived on Orden after humans and elves. They made their homes in the borderlands between those two cultures, preferring the natural forests and avoiding the elf-haunted wodes. For generations, this put them directly in the path of humans who cut down the trees and built roads and farms.
 
@@ -1314,7 +1296,7 @@ Each orc has within them a fire that causes their veins to glow once blood is dr
 
 "Be thankful orcs do not hold grudges."
 
-## On Orcs
+### On Orcs
 
 The orc pulled her greataxe from the split skull of the newly dead ogre. Prone heroes scrambled to their feet. Dazar healed the wounded.
 
@@ -1361,8 +1343,6 @@ John saw the broken swords on her belt. "Five swords," he said. "Five broken swo
 "They couldn't kill me and I wouldn't yield." She looked at the group of them skeptically. "Four of you?"
 
 "We just got started," John said defensively. "And I'm working on a friend of mine. We'll see. One of the Storm Knights."
-
-43
 
 Khorva frowned. "I thought the Dragon Phalanx were dead."
 
@@ -1434,43 +1414,45 @@ felt like he learned something about the dwarf in that moment. He could hear tha
 
 "Well," she said. "What do we do next?"
 
+### Orc Traits
+
 Orc heroes have access to the following traits.
 
-## Signature Trait: Relentless
+#### Signature Trait: Relentless
 
 Whenever a creature deals damage to you that leaves you dying, you can make a free strike against any creature. If the creature is reduced to 0 Stamina by your strike, you can spend a Recovery.
 
-## Purchased Orc Traits
+#### Purchased Orc Traits
 
 You have 3 ancestry points to spend on the following traits. (*Quick Build:* Glowing Recovery, Grounded.)
 
-## Bloodfire Rush (1 Point)
+##### Bloodfire Rush (1 Point)
 
 The magic coursing through your veins makes you run faster in the heat of battle. The first time in any combat round that you take damage, you gain a +2 bonus to speed until the end of the round.
 
-## Glowing Recovery (2 Points)
+##### Glowing Recovery (2 Points)
 
 Your bloodfire allows you to regain your strength quicker than others. Whenever you use the Catch Breath maneuver, you can spend as many Recoveries as you like.
 
-## Grounded (1 Point)
+##### Grounded (1 Point)
 
 The magic in your blood makes it difficult for others to move you. You have a +1 bonus to stability.
 
-## Nonstop (2 Points)
+##### Nonstop (2 Points)
 
 Your bloodfire supplies you with a constant rush of adrenaline. You can't be made slowed.
 
-## Passionate Artisan (1 Point)
+##### Passionate Artisan (1 Point)
 
 When you are stirred by a passion for creation, your bloodfire allows you to work longer and harder. When you gain your initial skills from your career, culture, class, or other source, choose two skills from the crafting skill group, whether you have those skills or not. Whenever you make a project roll for a crafting project that uses these skills, you gain a +2 bonus to the roll.
 
-![](_page_58_Picture_0.jpeg)
+## Polder
 
-<span id="page-58-0"></span>A fter humans, polders are the most numerous and diverse ancestry in Orden. They are not humans, but they live in and among humans and share their gods and culture. Almost every human culture in Orden has a polder saint or a human saint venerated by polder.
+After humans, polders are the most numerous and diverse ancestry in Orden. They are not humans, but they live in and among humans and share their gods and culture. Almost every human culture in Orden has a polder saint or a human saint venerated by polder.
 
 Short, averaging 31/2 feet tall, the polders' origins are obscure. They are a young species who, like humans, have no single patron god. Their ability to *shadowmeld* means they enjoy a reputation as excellent spies and thieves. Many polders consider this a base slander and point out they're also famed as chefs, though polders can be found in every profession, especially in cities.
 
-## On Polders
+### On Polders
 
 The three peasants—Jago, his wife Sarah, and his sister Beth—sat together watching the three heroes talk in the crowded common room of the inn. Well, Jackson Bootblack seemed to be doing most of the talking.
 
@@ -1580,73 +1562,66 @@ The dragon knight stared at them for a moment, then turned back to his friend.
 
 "Maybe you're right," he said.
 
-## Polder Traits
+### Polder Traits
 
 Polder heroes have access to the following traits.
 
-## Signature Trait: Shadowmeld
+### Signature Trait: Shadowmeld
 
 You have the following ability.
 
-#### Shadowmeld
+######## Shadowmeld
 
 *You become an actual shadow.*
 
-**Magic Maneuver** e Self x Self
+| **Magic**   | **Main Action** |
+|-------------|----------------:|
+| **📏 Self** |     **🎯 Self** |
 
-**Maneuver**
-
-![target icon](icon) Self
-
-Effect: You flatten yourself into a shadow against a wall or floor you are touching, and become hidden from any creature you have cover or concealment from or who isn't observing you. While in shadow form, you have full awareness of your surroundings, and strikes made against you and tests made to search for you take a bane. You can't move or be force moved, and you can't take main actions or maneuvers except to exit this form or to direct creatures under your control, such as one you summon using an ability. Any ability or effect that targets more than 1 square affects you in this form only if it explicitly affects the surface you are flattened against. You can exit this form as a maneuver.
-
+**Effect:** You flatten yourself into a shadow against a wall or floor you are touching, and become hidden from any creature you have cover or concealment from or who isn't observing you. While in shadow form, you have full awareness of your surroundings, and strikes made against you and tests made to search for you take a bane. You can't move or be force moved, and you can't take main actions or maneuvers except to exit this form or to direct creatures under your control, such as one you summon using an ability. Any ability or effect that targets more than 1 square affects you in this form only if it explicitly affects the surface you are flattened against. You can exit this form as a maneuver.
 If the surface you are flattened against is destroyed, this ability ends and you take 1d6 damage that can't be reduced in any way.
 
-## Signature Trait: Small!
+#### Signature Trait: Small!
 
 Your diminutive stature lets you easily get out of—or into—trouble. Your size is 1S.
 
-## Purchased Polder Traits
+#### Purchased Polder Traits
 
 You have 4 ancestry points to spend on the following traits. (*Quick Build:* Corruption Immunity, Fearless, Graceful Retreat.)
 
-### Corruption Immunity (1 Point)
+##### Corruption Immunity (1 Point)
 
 Your innate shadow magic grants you resilience against the unnatural. You have corruption immunity equal to your level + 2.
 
-#### Fearless (2 Points)
+##### Fearless (2 Points)
 
 Courage is all you know. You can't be made frightened.
 
-## Graceful Retreat (1 Point)
+##### Graceful Retreat (1 Point)
 
 Your small size makes it easier for you to slip away from the fray. You gain a +1 bonus to the distance you can shift when you take the Disengage move action.
 
-#### Nimblestep (2 Points)
+##### Nimblestep (2 Points)
 
 A light step serves you well when speed is of the essence. You ignore the effects of difficult terrain and can move at full speed while sneaking.
 
-## Polder Geist (1 Point)
+##### Polder Geist (1 Point)
 
 Evading others' notice gives you freedom to move. At the start of each of your turns during combat, if no enemy has line of effect to you or if you are hidden from or have concealment from any enemy with line of effect to you, you gain a +3 bonus to speed until the end of your turn.
 
-#### Reactive Tumble (1 Point)
+##### Reactive Tumble (1 Point)
 
 Staying light on your feet lets you quickly get back into position. Whenever you are force moved, you can use a free triggered action to shift 1 square after the forced movement is resolved.
 
-## REVENANT
+## Revenant
 
-![](_page_60_Picture_1.jpeg)
-
-![](_page_60_Picture_2.jpeg)
-
-T he dead walk among us. Some of them are happier about it than others.
+The dead walk among us. Some of them are happier about it than others.
 
 Unlike the necromantic rituals that produce wights and wraiths and zombies, revenants rise from the grave through a combination of an unjust death and a burning desire for vengeance. Creatures sustained on pure will, they have no need of food or water or air—and, unlike their zombified cousins, they retain all their memories and personality from life.
 
 These revenants are rare. Many are hunted by ignorant villagers who see only their dead flesh and assume the worst. Those who survive the pitchfork brigade either choose a solitary life, often as a wandering soul seeking out living company yet constantly in fear of it, or they migrate to a metropolis such as Blackbottom or Capital, where lost souls gather to make a home.
 
-## On Revenants
+### On Revenants
 
 "I'm telling you, we are being *followed*."
 
@@ -1704,41 +1679,41 @@ Lady Filliamo shrugged. "I'm a knight of the church. Jurisdiction's for the city
 
 "*I deal in steel.*"
 
-## Revenant Traits
+### Revenant Traits
 
 Revenant heroes have access to the following traits.
 
-## Signature Trait: Former Life
+#### Signature Trait: Former Life
 
 Choose the ancestry you were before you died. Your size is that ancestry's size and your speed is 5. Unless you select one of the Previous Life traits (see below), you don't receive any other ancestral traits from your original ancestry.
 
-## Signature Trait: Tough But Withered
+#### Signature Trait: Tough But Withered
 
 Your undead body grants you immunity to cold, corruption, lightning, and poison damage equal to your level, but you have fire weakness 5. You can't suffocate, and you don't need to eat or drink to stay alive.
 
 Additionally, when your Stamina reaches the negative of your winded value, you become inert instead of dying. You fall prone and can't stand. You continue to observe your surroundings, but you can't speak, take main actions, maneuvers, move actions, or triggered actions. While inert this way, if you take any fire damage, your body is destroyed and you die. Otherwise, after 12 hours, you regain Stamina equal to your recovery value.
 
-## Purchased Revenant Traits
+##### Purchased Revenant Traits
 
 You have 2 ancestry points to spend on the following traits, or 3 ancestry points if your size is 1S. (*Quick Build:* Bloodless, plus Undead Influence if size 1S.)
 
-## Bloodless (2 Points)
+##### Bloodless (2 Points)
 
 For you, an open wound is indistinguishable from a scratch. You can't be made bleeding even while dying.
 
-## Previous Life: 1 Point (1 Point)
+##### Previous Life: 1 Point (1 Point)
 
 You select a purchased trait that costs 1 ancestry point from your previous ancestry. You can take this trait multiple times, selecting a different 1 point trait from your previous ancestry each time.
 
-## Previous Life: 2 Points (2 Points)
+##### Previous Life: 2 Points (2 Points)
 
 You select a purchased trait that costs 2 ancestry points from your previous ancestry.
 
-## Undead Influence (1 Point)
+##### Undead Influence (1 Point)
 
 Your supernatural gifts allow you to influence other undead. You gain an edge on Reason, Intuition, and Presence tests made to interact with undead creatures.
 
-## Vengeance Mark (2 Points)
+##### Vengeance Mark (2 Points)
 
 As a maneuver, you place a magic sigil on a creature within 10 squares. When you place a sigil, you decide where it appears on the creature's body, and whether the sigil is visible to only you or to all creatures.
 
@@ -1746,28 +1721,29 @@ You always know the direction to the exact location of a creature who bears one 
 
 Additionally, you have the following signature ability. Signature abilities can be used at will.
 
-## Detonate Sigil
+######## Detonate Sigil
 
-| <b>Magic, Ranged, Strike</b>                        | <b>Main action</b>                                    |
-|-----------------------------------------------------|-------------------------------------------------------|
-| Image: Ranged icon<br>Ranged 10                     | Image: Target icon<br>One creature bearing your sigil |
-| <b>Power Roll + Reason, Intuition, or Presence:</b> |                                                       |
+| **Magic, Ranged, Strike** |                        **Main Action** |
+|---------------------------|---------------------------------------:|
+| **📏 Ranged 10**          | **🎯 One creature bearing your sigil** |
 
-á 3 + R , I , or P damage; slide 1 é 5 + R , I , or P damage; slide 2
+**Power Roll + Reason, Intuition, or Presence:**
 
-í 7 + R , I , or P damage; slide 3
+- **≤11:** 3 + R , I , or P damage; slide 1
+- **12-16:** 5 + R , I , or P damage; slide 2
+- **17+:** 7 + R , I , or P damage; slide 3
 
-Effect: The sigil disappears from the creature.
+**Effect:** The sigil disappears from the creature.
 
-## TIME RAIDER
+## Time Raider
 
-T he original servitor species of the synliroi—evil psions with near godlike power—the kuran'zoi liberated themselves during the First Psychic War. In the centuries since, they built their own culture and civilization as nomads of the timescape. The exonym "time raiders" was given to them by denizens of the lower worlds who, seeing the advanced technology the kuran'zoi wield, concluded they must be from the future.
+The original servitor species of the synliroi—evil psions with near godlike power—the kuran'zoi liberated themselves during the First Psychic War. In the centuries since, they built their own culture and civilization as nomads of the timescape. The exonym "time raiders" was given to them by denizens of the lower worlds who, seeing the advanced technology the kuran'zoi wield, concluded they must be from the future.
 
 Extraordinarily rare in Orden, time raiders thrive on the Sea of Stars, the Sea Between Worlds, where the winds of limbo roar.
 
 In place of eyes, kuran'zoi possess crystalline ocular sensors that grant them high-spectral vision and which are hardened against the extreme radiations encountered in the Sea of Stars, permitting them to operate freely outside their vessels with only their portable rebreathers. Time raiders also have two sets of arms, allowing them to wield melee weapons at the same time as ranged weapons. A single well-trained kuran'zoi is like a squad unto themself.
 
-## On Time Raiders
+### On Time Raiders
 
 "You will tell me the location of the ship you came here in." Taxiarch Lycaon paced outside the ruined stone church. The four-armed woman with crystal eyes and flaming pink hair in a strip down the center of her shaved head sneered at him. She was chained to the ruin of a stone column outside the church.
 
@@ -1786,8 +1762,6 @@ He struck a casual, jaunty pose. "Where is your worldship?" he said in a more re
 The alien sighed. "'Blaap blaap blaap,'" she said. "You should hear yourself. Like barking *thrazz*, you sound to me. Who holds your leash I wonder? For surely a microbrain such as you could not command any more than these rabble." She nodded her head at the other twenty or so war dogs.
 
 Her taunts worked. Lycaon hauled back and punched the alien in the jaw. Her head smashed into the ruined column. She was dazed but she shook it off and laughed.
-
-49
 
 "Look how easily this one is goaded!" she said. She spat out dark-blue blood and turned to the peasants gathered. "You people! Why do you let yourselves be cowed by these … *bits*? Bits of people kludged together? Even the least of you is worth more than these."
 
@@ -1855,69 +1829,74 @@ At the sound, the orc dashed forward into a knot of wardog commandos, her axe al
 
 John hadn't hesitated, he'd already drawn his sword and falchion. "All right, you patchwork son of a bitch." He charged Lycaon who fumbled with the shortsword on his belt.
 
-## "Draw steel!"
-
-s
-
-## Time Raider Traits
+### Time Raider Traits
 
 Time raider heroes have access to the following traits.
 
-## Signature Trait: Psychic Scar
+#### Signature Trait: Psychic Scar
 
 Your mind is a formidable layer of defense. You have psychic immunity equal to your level.
 
-## Purchased Time Raider Traits
+#### Purchased Time Raider Traits
 
 You have 3 ancestry points to spend on the following traits. (*Quick Build:* Beyondsight, Psionic Gift with Psionic Bolt.)
 
-## Beyondsight (1 Point)
+##### Beyondsight (1 Point)
 
 As a maneuver, you can adjust your vision to allow you to see through mundane obstructions that are 1 square thick or less. While your vision is adjusted this way, you can't see the area within 1 square of you and you don't have line of effect to any creature or object in that area. You can restore your usual vision as a maneuver.
 
-## Foresight (1 Point)
+##### Foresight (1 Point)
 
 Your senses extend past mundane obscuration and the veil of the future alike. You automatically know the location of any creature with concealment who isn't hidden from you within 20, and you negate the usual bane on strikes against such creatures. Additionally, whenever you are targeted by a strike, you can use a triggered action to impose a bane on the power roll.
 
-#### Four-Armed Athletics (1 Point)
+##### Four-Armed Athletics (1 Point)
 
 Your unique physiology enhances your movement. You gain an edge on tests that use the Climb, Gymnastics, or Swim skills when you can use all your arms in the attempt.
 
-#### Four-Armed Martial Arts (2 Points)
+##### Four-Armed Martial Arts (2 Points)
 
 Your multiple arms let you take on multiple tasks at the same time. Whenever you use the Grab or Knockback maneuver against an adjacent creature, you can target one additional adjacent creature, using the same power roll for both targets. Additionally, you can have up to two creatures grabbed at a time.
 
-## Psionic Gift (2 Points)
+##### Psionic Gift (2 Points)
 
 Choose one signature ability from the following options. Signature abilities can be used at will.
 
-## Concussive Slam
+######## Concussive Slam
 
 *You slam an invisible force down upon the target.*
 
-| Psionic, Ranged, Strike                             | Main action                                  |
-|-----------------------------------------------------|----------------------------------------------|
-| Image: triangle ruler icon<br>Ranged 10             | Image: target icon<br>One creature or object |
-| <b>Power Roll + Reason, Intuition, or Presence:</b> |                                              |
+| **Psionic, Ranged, Strike**  | Main action                   |
+|------------------------------|-------------------------------|
+| **📏 Ranged 10**             | **🎯 One creature or object** |
 
-á 2 + R , I , or P damage; é 5 + R , I , or P damage; push 1
+**Power Roll + Reason, Intuition, or Presence:**
 
-í 7 + R , I , or P damage; push 2; m<s , prone
+- **≤11:** 2 + R , I , or P damage;
+- **12-16:** 5 + R , I , or P damage; push 1
+- **17+:** 7 + R , I , or P damage; push 2; M < STRONG, prone
 
-## Psionic Bolt
+######## Psionic Bolt
 
-| Power Roll | + R, I, or P psychic damage   | Effect  |
-|------------|-------------------------------|---------|
-| ≤11        | 2 + R, I, or P psychic damage | slide 1 |
-| 12–16      | 5 + R, I, or P psychic damage | slide 2 |
-| 17+        | 7 + R, I, or P psychic damage | slide 3 |
+*You shoot forth a purple beam of psychic force that moves your target.*
 
-| Psionic, Melee            | Maneuver                           |
-|---------------------------|------------------------------------|
-| Image: Melee icon Melee 1 | Image: Clock icon Self or one ally |
+| **Psionic, Ranged, Strike**  | Main action                   |
+|------------------------------|-------------------------------|
+| **📏 Ranged 10**             | **🎯 One creature or object** |
 
-Effect: The target gains a bonus to speed equal to your Reason, Intuition, or Presence score (your choice) until the start of your next turn.
+- **≤11:** 2 + R, I, or P psychic damage; slide 1       
+- **12-16:** 5 + R, I, or P psychic damage; slide 2
+- **17+:** 7 + R, I, or P psychic damage; slide 3
 
-## Unstoppable Mind (2 Points)
+######## Minor Acceleration
+
+*You fill yourself or an ally with a burst of speed.*
+
+| **Psionic, Melee** | Maneuver               |
+|-------------------|------------------------|
+| **📏 Melee 1**    | **🎯 Self or one ally** |
+
+**Effect:** The target gains a bonus to speed equal to your Reason, Intuition, or Presence score (your choice) until the start of your next turn.
+
+##### Unstoppable Mind (2 Points)
 
 Your mind allows you to maintain your focus in any situation. You can't be made dazed.
