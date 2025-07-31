@@ -80,7 +80,8 @@ gen_heroes_md_unlinked input_fpath output_dpath:
     just frontmatter process_all "${md_sections_dpath}"
 
     # Abilities: Generate indexes for abilities (depth=1 so we index the "*-Level Features" dirs too)
-    just abilities gen_index_for_each_dir_in "${md_sections_dpath}/Abilities" "1"
+    # TODO - add this back in
+    #just abilities gen_index_for_each_dir_in "${md_sections_dpath}/Abilities" "1"
     # Sections: Generate indexes
     just heroes_sections gen_indexes "${md_sections_dpath}"
 
@@ -136,6 +137,9 @@ link_md_files:
 convert_md_to_other_formats md_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
+
+    # TODO - add this back in
+    exit
 
     just _print_section "Heroes: Converting markdown into other formats"
     conversions_dpath="{{heroes_staging_dpath}}/9_conversions"
