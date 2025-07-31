@@ -54,6 +54,16 @@ run input_md_path output_md_path:
     text = re.sub( r'\s?<\s?w\s?,', r' < WEAK,', text, flags=re.MULTILINE)
     text = re.sub( r'\s?<\s?v\s?,', r' < AVERAGE,', text, flags=re.MULTILINE)
     text = re.sub( r'\s?<\s?s\s?,', r' < STRONG,', text, flags=re.MULTILINE)
+    # char potency
+    text = re.sub( r'm \<', r'M <', text, flags=re.MULTILINE)
+    text = re.sub( r'a \<', r'A <', text, flags=re.MULTILINE)
+    text = re.sub( r'p \<', r'P <', text, flags=re.MULTILINE)
+    text = re.sub( r'i \<', r'I <', text, flags=re.MULTILINE)
+    text = re.sub( r'r \<', r'R <', text, flags=re.MULTILINE)
+    # power roll tiers
+    text = re.sub( r'\s*\-? ?á ?', r'\n\n- **≤11:** ', text, flags=re.MULTILINE)
+    text = re.sub( r'\s*\-? ?é ?', r'\n- **12-16:** ', text, flags=re.MULTILINE)
+    text = re.sub( r'\s*\-? ?í ?', r'\n- **17+:** ', text, flags=re.MULTILINE)
 
     # write it all out at once
     with open(output_path, 'w', encoding='utf-8') as f:

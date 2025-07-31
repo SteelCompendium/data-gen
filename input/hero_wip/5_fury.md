@@ -205,11 +205,9 @@ Choose one signature ability from the following options. Signature abilities can
 | --- | ---:|
 | **📏 Melee 1** | **🎯 One creature or object Power Roll + Might**:**** |
 
-## á 3 + M damage; push 1
-
-é 6 + M damage; push 2
-
-í 9 + Mdamage; push 4
+- **≤11:** 3 + M damage; push 1
+- **12-16:** 6 + M damage; push 2
+- **17+:** 9 + Mdamage; push 4
 
 ## **Hit and Run**
 
@@ -221,11 +219,9 @@ Choose one signature ability from the following options. Signature abilities can
 
 Power Roll + Might**:**
 
-á 2 + M damage
-
-é 5 + M damage
-
-í 7 + Mdamage; a < STRONG, slowed (save ends)
+- **≤11:** 2 + M damage
+- **12-16:** 5 + M damage
+- **17+:** 7 + Mdamage; A < STRONG, slowed (save ends)
 
 **Effect:** You can shift 1 square.
 
@@ -237,19 +233,21 @@ Power Roll + Might**:**
 
 Power Roll + Might:
 
-- á 2 + M damage; m < WEAK, grabbed
-- é 5 + M damage; m < AVERAGE, grabbed
-- í 7 + Mdamage; m < STRONG, grabbed
+- **≤11:** 2 + M damage; M < WEAK, grabbed
+- **12-16:** 5 + M damage; M < AVERAGE, grabbed
+- **17+:** 7 + Mdamage; M < STRONG, grabbed
 
 ## **To the Death!**
 
 | **Your reckless assault leaves you tactically vulnerable.* **Melee, Strike, Weapon** | **Main action** |
 | --- | ---:|
-| **📏 Melee 1** | **🎯 One creature or object Power Roll + Might**:** á 3 + M damage** |
+| **📏 Melee 1** | **🎯 One creature or object Power Roll + Might**:**
 
-## é 6 + M damage
+- **≤11:** 3 + M damage** |
 
-í 9 + Mdamage
+##
+- **12-16:** 6 + M damage
+- **17+:** 9 + Mdamage
 
 **Effect:** You gain 2 surges, and the target can make an opportunity attack against you as a free triggered action.
 
@@ -271,9 +269,9 @@ Choose one heroic ability from the following options, each of which costs 3 fero
 
 #### Power Roll + Might**:**
 
-- á 5 damage
-- é 8 damage; push 1
-- í 11 damage; push 3
+- **≤11:** 5 damage
+- **12-16:** 8 damage; push 1
+- **17+:** 11 damage; push 3
 
 ## **Out of the Way! (3 Ferocity)**
 
@@ -285,8 +283,9 @@ Choose one heroic ability from the following options, each of which costs 3 fero
 
 #### Power Roll + Might**:**
 
-- á 3 + M damage; slide 2 é 5 + M damage; slide 3
-- í 8 + Mdamage; slide 5
+- **≤11:** 3 + M damage; slide 2
+- **12-16:** 5 + M damage; slide 3
+- **17+:** 8 + Mdamage; slide 5
 
 **Effect:** When you slide the target, you can move into any square they leave. If you take damage from an opportunity attack by moving this way, the target takes the same damage.
 
@@ -302,9 +301,9 @@ Choose one heroic ability from the following options, each of which costs 3 fero
 
 Power Roll + Might**:**
 
-- á 2 damage
-- é 3 damage
-- í 5 damage
+- **≤11:** 2 damage
+- **12-16:** 3 damage
+- **17+:** 5 damage
 
 Effect: The last target you damage takes extra damage equal to your Might score for each opportunity attack you trigger during your move.
 
@@ -318,9 +317,9 @@ Effect: The last target you damage takes extra damage equal to your Might score 
 
 Power Roll + Might**:**
 
-- á 3 + M damage; m < WEAK, bleeding (save ends)
-- é 5 + M damage; m < AVERAGE, bleeding (save ends)
-- í 8 + Mdamage; m < STRONG, bleeding (save ends)
+- **≤11:** 3 + M damage; M < WEAK, bleeding (save ends)
+- **12-16:** 5 + M damage; M < AVERAGE, bleeding (save ends)
+- **17+:** 8 + Mdamage; M < STRONG, bleeding (save ends)
 
 **Effect:** While bleeding this way, the target takes damage equal to your Might score at the end of each of your turns.
 
@@ -332,8 +331,12 @@ Choose one heroic ability from the following options, each of which costs 5 fero
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|--|--|
 | See how well they fight after you've bled them dry.<br>Melee, Strike, Weapon                                                                                        | Main action                             | Chapter 7: Perks.                                                                                                                            | You gain one crafting, exploration, or intrigue perk of your choice. See |  |  |
 | e Melee 1<br>Power Roll + Might:                                                                                                                                    | x One creature or object                | 2nd-Level Aspect Feature                                                                                                                     |                                                                          |  |  |
-| á<br>4 + M damage; m <w (save="" ,="" and="" bleeding="" ends)<br="" weakened="">é<br/>6 + M damage; m<v ,="" and="" bleeding="" weakened<br="">(save ends)</v></w> |                                         | Your primordial aspect grants you a feature, as shown on the 2nd-Level<br>Aspect Features table.                                             |                                                                          |  |  |
-| í<br>10 + Mdamage; m <s ,="" and="" bleeding="" td="" weakened<=""><td></td><td></td><td>2nd-Level Aspect Features</td></s>                                         |                                         |                                                                                                                                              | 2nd-Level Aspect Features                                                |  |  |
+|
+
+- **≤11:** <br>4 + M damage; M <w (save="" ,="" and="" bleeding="" ends)<br="" weakened="">
+- **12-16:** <br/>6 + M damage; M < AVERAGE,="" and="" bleeding="" weakened<br="">(save ends)</v></w> |                                         | Your primordial aspect grants you a feature, as shown on the 2nd-Level<br>Aspect Features table.                                             |                                                                          |  |  |
+|
+- **17+:** <br>10 + Mdamage; M < STRONG,="" and="" bleeding="" td="" weakened<=""><td></td><td></td><td>2nd-Level Aspect Features</td></s>                                         |                                         |                                                                                                                                              | 2nd-Level Aspect Features                                                |  |  |
 | (save ends)                                                                                                                                                         |                                         | Aspect                                                                                                                                       | Feature                                                                  |  |  |
 | Effect: You can deal 1d6 damage to yourself to deal an extra 1d6                                                                                                    |                                         | Berserker                                                                                                                                    | Unstoppable Force                                                        |  |  |
 | damage to the target.                                                                                                                                               |                                         | Reaver                                                                                                                                       | Inescapable Wrath                                                        |  |  |
@@ -345,9 +348,13 @@ Choose one heroic ability from the following options, each of which costs 5 fero
 | You unleash a howl that hurls your enemies back.                                                                                                                    |                                         | At the end of each of your turns, each enemy adjacent to you takes                                                                           |                                                                          |  |  |
 | Area, Melee, Weapon<br>e 5 × 1 line within 1                                                                                                                        | Main action<br>x Each enemy in the area |                                                                                                                                              | damage equal to your Might score.                                        |  |  |
 |                                                                                                                                                                     |                                         |                                                                                                                                              | Unstoppable Force                                                        |  |  |
-| Power Roll + Might:<br>á                                                                                                                                            |                                         | Whenever you use the Charge main action, you can use a strike<br>signature ability or a strike heroic ability instead of a free strike. Addi |                                                                          |  |  |
-| 6 damage; push 2<br>é<br>9 damage; push 4                                                                                                                           |                                         |                                                                                                                                              |                                                                          |  |  |
-| í<br>13 damage; push 6                                                                                                                                              |                                         |                                                                                                                                              | tionally, you can jump as part of your charge.                           |  |  |
+| Power Roll + Might:<br>
+
+- **≤11:**                                                                                                                                            |                                         | Whenever you use the Charge main action, you can use a strike<br>signature ability or a strike heroic ability instead of a free strike. Addi |                                                                          |  |  |
+| 6 damage; push 2<br>
+- **12-16:** <br>9 damage; push 4                                                                                                                           |                                         |                                                                                                                                              |                                                                          |  |  |
+|
+- **17+:** <br>13 damage; push 6                                                                                                                                              |                                         |                                                                                                                                              | tionally, you can jump as part of your charge.                           |  |  |
 | Effect: The targets are force moved one at a time, starting with the                                                                                                |                                         |                                                                                                                                              | 2nd-Level Aspect Ability                                                 |  |  |
 | target nearest to you, and can be pushed into other targets in the<br>same line.                                                                                    |                                         | Your primordial aspect grants your choice of one of two heroic abilities.                                                                    |                                                                          |  |  |
 | To the Uttermost End (5 Ferocity)                                                                                                                                   |                                         |                                                                                                                                              | 2nd-Level Berserker Ability                                              |  |  |
@@ -357,9 +364,13 @@ Choose one heroic ability from the following options, each of which costs 5 fero
 
 | **Power Roll + Might:                                                                                                                                                 |                                         | Melee, Weapon** | **Maneuver** |
 
-| á<br>7 + M damage                                                                                                                                                   |                                         | e Melee 1                                                                                                                                    | x One willing ally                                                       |  |  |
-| é<br>11 + M damage                                                                                                                                                  |                                         |                                                                                                                                              | Effect: You vertically push the target up to 4 squares. This forced      |  |  |
-| í<br>16 + Mdamage                                                                                                                                                   |                                         | movement ignores the target's stability, and the target takes no                                                                             |                                                                          |  |  |
+|
+
+- **≤11:** <br>7 + M damage                                                                                                                                                   |                                         | e Melee 1                                                                                                                                    | x One willing ally                                                       |  |  |
+|
+- **12-16:** <br>11 + M damage                                                                                                                                                  |                                         |                                                                                                                                              | Effect: You vertically push the target up to 4 squares. This forced      |  |  |
+|
+- **17+:** <br>16 + Mdamage                                                                                                                                                   |                                         | movement ignores the target's stability, and the target takes no                                                                             |                                                                          |  |  |
 
 **Spend 1+ Ferocity:** While you are winded, this ability deals an extra 1d6 damage for each ferocity spent. While you are dying, it deals an extra 1d10 damage for each ferocity spent. In either case, you lose 1d6 Stamina after making this strike.
 
@@ -403,9 +414,9 @@ Additionally, you make one power roll that targets each enemy you move adjacent 
 
 #### Power Roll + Might:
 
-- á Push 1
-- é Push 2
-- í Push 3
+- **≤11:** Push 1
+- **12-16:** Push 2
+- **17+:** Push 3
 
 ## 2nd-Level Reaver Ability
 
@@ -583,11 +594,9 @@ Choose one heroic ability from the following options, each of which costs 9 fero
 |----------------------------|--|
 |----------------------------|--|
 
-á 10 + M damage; m < WEAK, slowed (save ends)
-
-é 14 + M damage; m < AVERAGE, slowed (save ends)
-
-í 20 + Mdamage; m < STRONG, slowed (save ends)
+- **≤11:** 10 + M damage; M < WEAK, slowed (save ends)
+- **12-16:** 14 + M damage; M < AVERAGE, slowed (save ends)
+- **17+:** 20 + Mdamage; M < STRONG, slowed (save ends)
 
 **Effect:** While slowed this way, the target takes 1 damage for every square they move, including from forced movement.
 
@@ -628,9 +637,9 @@ Choose one heroic ability from the following options, each of which costs 9 fero
 
 ## Power Roll + Might**:**
 
-á 9 damage; push 3 é 14 damage; push 5
-
-í 19 damage; push 7
+- **≤11:** 9 damage; push 3
+- **12-16:** 14 damage; push 5
+- **17+:** 19 damage; push 7
 
 **Effect:** When a target would end this forced movement by colliding with a creature or object, they take damage as usual, then are pushed the remaining distance away from the creature or object in the direction they came from. As long as forced movement remains, this effect continues if the target collides with another creature or object.
 
@@ -654,7 +663,7 @@ As a 6th-level fury, you gain the following features.
 
 As your connection to the power of the Primordial Chaos grows ever stronger, you automatically sense any elemental creatures or magic sources of elemental power, such as a lava pool or a lake overlapping with Quintessence, within 1 mile of you.
 
-Additionally, you can speak with elemental creatures, and when you are in a negotiation with an elemental, you treat your Renown as 1 higher than usual. This stacks with the increase to your effective Renown provided by the Nature's Knight aspect feature (see 3rd-Level Features). When any elemental first becomes aware of you in combat, if they have p < AVERAGE, they are frightened of you (save ends).
+Additionally, you can speak with elemental creatures, and when you are in a negotiation with an elemental, you treat your Renown as 1 higher than usual. This stacks with the increase to your effective Renown provided by the Nature's Knight aspect feature (see 3rd-Level Features). When any elemental first becomes aware of you in combat, if they have P < AVERAGE, they are frightened of you (save ends).
 
 ## **Primordial Portal**
 
@@ -686,11 +695,9 @@ Choose one of the following abilities.
 
 #### Power Roll + Might:
 
-á 4 damage; push 1
-
-é 7 damage; push 2
-
-í 11 damage; push 3
+- **≤11:** 4 damage; push 1
+- **12-16:** 7 damage; push 2
+- **17+:** 11 damage; push 3
 
 ## **Force of Storms (9 Ferocity)**
 
@@ -707,9 +714,9 @@ Choose one of the following abilities.
 
 #### Power Roll + Might:
 
-á 7 + M damage; push 3 é 11 + M damage; push 5
-
-í 16 + Mdamage; push 7
+- **≤11:** 7 + M damage; push 3
+- **12-16:** 11 + M damage; push 5
+- **17+:** 16 + Mdamage; push 7
 
 **Effect:** When the target ends this forced movement, each creature within 2 squares of the target is pushed 3 squares.
 
@@ -739,11 +746,11 @@ Choose one of the following abilities.
 
 Power Roll + Might:
 
-- á 4 + M damage; p < WEAK, frightened (save ends)
-- é 6 + M damage; p < AVERAGE, frightened (save ends)
-- í 10 + Mdamage; p < STRONG, frightened (save ends)
+- **≤11:** 4 + M damage; P < WEAK, frightened (save ends)
+- **12-16:** 6 + M damage; P < AVERAGE, frightened (save ends)
+- **17+:** 10 + Mdamage; P < STRONG, frightened (save ends)
 
-**Effect:** If a target who is not a leader or solo creature is winded by this strike, they are reduced to 0 Stamina and you choose an enemy within 5 squares of you. If that enemy has p < AVERAGE, they are frightened of you (save ends).
+**Effect:** If a target who is not a leader or solo creature is winded by this strike, they are reduced to 0 Stamina and you choose an enemy within 5 squares of you. If that enemy has P < AVERAGE, they are frightened of you (save ends).
 
 Draw Steel
 
@@ -765,11 +772,9 @@ Mele
 
 #### Power Roll + Might**:**
 
-á 8 damage; m < WEAK, grabbed
-
-é 13 damage; m < AVERAGE, grabbed
-
-í 17 damage; m < STRONG, grabbed
+- **≤11:** 8 damage; M < WEAK, grabbed
+- **12-16:** 13 damage; M < AVERAGE, grabbed
+- **17+:** 17 damage; M < STRONG, grabbed
 
 **Effect:** You can shift up to 4 squares, bringing the target with you. While grabbed this way, the target takes damage equal to twice your Might score at the start of each of your turns.
 
@@ -862,8 +867,9 @@ Choose one heroic ability from the following options, each of which costs 11 fer
 
 Power Roll + Might:
 
-- á <sup>6</sup>**+** M damage é <sup>10</sup>**+** M damage
-- í <sup>14</sup>**+** M damage
+- **≤11:** <sup>6</sup>**+** M damage
+- **12-16:** <sup>10</sup>**+** M damage
+- **17+:** <sup>14</sup>**+** M damage
 
 **Effect:** If the target is a minion or is winded but isn't a leader or solo creature, they are reduced to 0 Stamina before this ability's damage is dealt. If the target is killed by this damage, you can deal any damage over what was required to kill them to another creature within 5 squares of the target.
 
@@ -885,9 +891,9 @@ Power Roll + Might:
 
 #### Power Roll + Might**:**
 
-- á Any target whose Stamina is equal to or less than 8 dies.
-- é Any target whose Stamina is equal to or less than 11 dies.
-- í Any target whose Stamina is equal to or less than 17 dies.
+- **≤11:** Any target whose Stamina is equal to or less than 8 dies.
+- **12-16:** Any target whose Stamina is equal to or less than 11 dies.
+- **17+:** Any target whose Stamina is equal to or less than 17 dies.
 
 ## 9th-Level Features
 
@@ -917,9 +923,9 @@ Choose one of the following abilities.
 
 Power Roll + Might:
 
-- á 7 damage; push 3
-- é 10 damage; push 5
-- í 15 damage; push 7
+- **≤11:** 7 damage; push 3
+- **12-16:** 10 damage; push 5
+- **17+:** 15 damage; push 7
 
 **Effect:** If this forced movement causes a target to be hurled through an object, that target takes an extra 10 damage.
 
@@ -933,9 +939,9 @@ Power Roll + Might:
 
 #### Power Roll + Might:
 
-- á 3 damage; vertical pull 3
-- é 5 damage; vertical pull 5
-- í 8 damage; vertical pull 7
+- **≤11:** 3 damage; vertical pull 3
+- **12-16:** 5 damage; vertical pull 5
+- **17+:** 8 damage; vertical pull 7
 
 **Effect:** If this forced movement causes a target to slam into you, you take no damage from the collision and the target takes the damage you would have taken.
 
@@ -954,8 +960,7 @@ Choose one of the following abilities.
 |-------|----------------------|
 | 12–16 | 16 + **M** damage |
 |       |                      |
-
-í 21 + Mdamage
+- **17+:** 21 + Mdamage
 
 **Effect:** Choose acid, cold, corruption, fire, lightning, poison, or sonic damage. The target loses any damage immunity to the chosen type and gains weakness 10 to the chosen type (save ends).
 
@@ -967,9 +972,11 @@ Choose one of the following abilities.
 | ------------------------------|-----------------------------------------|
 | Image: triangle icon Melee 1 | Image: circular arrow icon One creature |
 
-#### Power Roll + Might: á 12 + M damage é 18 + M damage
+#### Power Roll + Might:
 
-í 24 + Mdamage
+- **≤11:** 12 + M damage
+- **12-16:** 18 + M damage
+- **17+:** 24 + Mdamage
 
 **Effect:** Each enemy within 5 squares of you is distracted until the end of the round. While a creature is distracted this way, they can't take triggered actions or free triggered actions, ability rolls made against them gain an edge, and their characteristic scores are considered 1 lower for the purpose of resisting potencies.
 
@@ -989,9 +996,9 @@ Choose one of the following abilities.
 
 ## Power Roll + Might:
 
-- á 4 psychic damage; any target who is a minion is reduced to 0 Stamina
-- é 6 psychic damage; any target who is a minion is reduced to 0 Stamina, as does one winded target who is not a leader or solo creature
-- í 10 psychic damage; each target who is not a leader or solo creature is winded; any target who is a minion is reduced to 0 Stamina, as does one winded target who is not a leader or solo creature
+- **≤11:** 4 psychic damage; any target who is a minion is reduced to 0 Stamina
+- **12-16:** 6 psychic damage; any target who is a minion is reduced to 0 Stamina, as does one winded target who is not a leader or solo creature
+- **17+:** 10 psychic damage; each target who is not a leader or solo creature is winded; any target who is a minion is reduced to 0 Stamina, as does one winded target who is not a leader or solo creature
 
 ## **Deluge (11 Ferocity)**
 
@@ -1005,8 +1012,9 @@ Choose one of the following abilities.
 
 ## Power Roll + Might:
 
-- á 7 damage
-- é 10 damage í 15 damage
+- **≤11:** 7 damage
+- **12-16:** 10 damage
+- **17+:** 15 damage
 
 $7^+$  15 damage
 
@@ -1022,7 +1030,7 @@ As a 10th-level fury, you gain the following features.
 
 Your mastery of elemental forces protects and emboldens you. If you are a berserker or reaver, you have immunity to acid, cold, corruption, fire, lightning, poison, and sonic damage equal to twice your Might score. If you are a stormwight, your damage immunity from your Primordial Storm feature (see Stormwight Kits) increases to three times your Might score.
 
-When any elemental or any other creature whose abilities deal acid, cold, corruption, fire, lightning, poison, or sonic damage first becomes aware of you in combat, if they have p < STRONG, they are frightened of you (save ends).
+When any elemental or any other creature whose abilities deal acid, cold, corruption, fire, lightning, poison, or sonic damage first becomes aware of you in combat, if they have P < STRONG, they are frightened of you (save ends).
 
 Additionally, when you use Primordial Strike, you can spend up to 3 ferocity, gaining 1 surge per ferocity spent to use for that strike.
 
@@ -1114,7 +1122,7 @@ With this stormwight kit, you channel your primordial ferocity into the form of 
 
 #### Aspect Benefits
 
-Whenever you use forced movement to push a creature, you can pull that creature instead. Whenever you pull a creature adjacent to you and that creature has m < AVERAGE, you can use a free triggered action to make that creature grabbed by you.
+Whenever you use forced movement to push a creature, you can pull that creature instead. Whenever you pull a creature adjacent to you and that creature has M < AVERAGE, you can use a free triggered action to make that creature grabbed by you.
 
 #### Animal Form: Bear
 
@@ -1146,10 +1154,11 @@ Your primordial damage type is cold.
 | --- | ---:|
 | **📏 Melee 1** | **🎯 One creature or object** |
 
-Power Roll + Might: á <sup>2</sup>**+** M damage; m < WEAK, grabbed
+Power Roll + Might:
 
-- é 5 + M damage; m < AVERAGE, grabbed
-- í 11 + M damage; m < STRONG, grabbed
+- **≤11:** <sup>2</sup>**+** M damage; M < WEAK, grabbed
+- **12-16:** 5 + M damage; M < AVERAGE, grabbed
+- **17+:** 11 + M damage; M < STRONG, grabbed
 
 ## Growing Ferocity
 
@@ -1205,9 +1214,8 @@ Your primordial damage type is fire.
 | **Area, Melee, Weapon**<br>Image: burst icon 1 burst          | Image: target icon Each enemy in the area |
 | Power Roll + Agility:                                            |                                           |
 | Image: dice icon ≤11                                             | 3 damage                                  |
-
-- é 6 damage
-- í 8 damage
+- **12-16:** 6 damage
+- **17+:** 8 damage
 
 Effect: You can shift up to 2 squares before or after making the power roll.
 
@@ -1265,9 +1273,9 @@ Your primordial damage type is corruption.
 
 #### Power Roll + Agility:
 
-- á 4 + A damage
-- é 7 + A damage; push 1
-- í 9 + A damage; push 2
+- **≤11:** 4 + A damage
+- **12-16:** 7 + A damage; push 1
+- **17+:** 9 + A damage; push 2
 
 Effect: You can shift up to the same number of squares that you pushed the target.
 
@@ -1325,9 +1333,9 @@ Your primordial damage type is lightning.
 
 Power Roll + Might:
 
-- á<sup>4</sup>**+** M damage; a < WEAK, prone
-- é 7 + M damage; a < AVERAGE, prone
-- í<sup>9</sup>**+** M damage; a < STRONG, prone
+- **≤11:** <sup>4</sup>**+** M damage; A < WEAK, prone
+- **12-16:** 7 + M damage; A < AVERAGE, prone
+- **17+:** <sup>9</sup>**+** M damage; A < STRONG, prone
 
 ## Growing Ferocity
 
