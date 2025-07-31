@@ -42,13 +42,18 @@ run input_md_path output_md_path:
         flags=re.MULTILINE
     )
 
-    # extra newline in tables
-    text = re.sub(
-        r'¥ ',
-        r'',
-        text,
-        flags=re.MULTILINE
-    )
+    # bullets
+    text = re.sub( r'¥ ', r'', text, flags=re.MULTILINE)
+    # picture links
+    text = re.sub( r'\n\!\[\]\(.*\.jpeg\)\n', r'', text, flags=re.MULTILINE)
+    # page numbers
+    text = re.sub( r'^\d+\n*', r'', text, flags=re.MULTILINE)
+    # html bold
+    text = re.sub( r'\<\/?b\>', r'**', text, flags=re.MULTILINE)
+    # weak, average, strong
+    text = re.sub( r'\s?<\s?w\s?,', r' < WEAK,', text, flags=re.MULTILINE)
+    text = re.sub( r'\s?<\s?v\s?,', r' < AVERAGE,', text, flags=re.MULTILINE)
+    text = re.sub( r'\s?<\s?s\s?,', r' < STRONG,', text, flags=re.MULTILINE)
 
     # write it all out at once
     with open(output_path, 'w', encoding='utf-8') as f:

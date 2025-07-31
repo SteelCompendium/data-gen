@@ -10,9 +10,9 @@ Y **ou do not temper the heat of battle within you. You unleash it! Your experie
 
 **Starting Characteristics:** You start with a Might of 2 and an Agility of 2, and you can choose one of the following arrays for your other characteristic scores:
 
-- ¥ 2, −1, −1
-- ¥ 1, 1, −1
-- ¥ 1, 0, 0
+- 2, −1, −1
+- 1, 1, −1
+- 1, 0, 0
 
 **Weak Potency:** Might − 2
 
@@ -157,8 +157,6 @@ Your primordial aspect grants you a triggered action, as shown on the Aspect Tri
 
 *In your anger, you revert to a more bestial form.*
 
-![](_page_146_Picture_24.jpeg)
-
 Trigger: You lose Stamina and are not dying.
 
 Effect: You gain temporary Stamina equal to your Might score and can enter your animal form or hybrid form.
@@ -167,8 +165,8 @@ Spend 1 Ferocity: If you are not dying, you can spend a Recovery.
 
 #### **Lines of Force**
 
-| Magic, Melee                     | Triggered                                |
-|----------------------------------|------------------------------------------|
+| **Magic, Melee** | **Triggered** |
+| ----------------------------------|------------------------------------------|
 | Image: melee attack icon Melee 1 | Image: trigger icon Self or one creature |
 
 Trigger: The target would be force moved.
@@ -180,8 +178,6 @@ Spend 1 Ferocity: The forced movement distance gains a bonus equal to twice your
 #### **Unearthly Reflexes**
 
 *You are as elusive as a hummingbird.*
-
-![](_page_146_Picture_35.jpeg)
 
 Trigger: You take damage.
 
@@ -205,7 +201,9 @@ Choose one signature ability from the following options. Signature abilities can
 
 ## **Brutal Slam**
 
-*The heavy impact of your weapon attacks drives your foes ever back.* **Melee, Strike, Weapon Main action** e Melee 1 x One creature or object Power Roll + Might**:**
+| **The heavy impact of your weapon attacks drives your foes ever back.* **Melee, Strike, Weapon** | **Main action** |
+| --- | ---:|
+| **📏 Melee 1** | **🎯 One creature or object Power Roll + Might**:**** |
 
 ## á 3 + M damage; push 1
 
@@ -217,9 +215,9 @@ Choose one signature ability from the following options. Signature abilities can
 
 *Staying in constant motion helps you slip out of reach after a brutal assault.*
 
-**Melee, Strike, Weapon Main action**
-
-e Melee 1 x One creature or object
+| **Melee, Strike, Weapon** | **Main action** |
+| --- | ---:|
+| **📏 Melee 1** | **🎯 One creature or object** |
 
 Power Roll + Might**:**
 
@@ -227,23 +225,27 @@ Power Roll + Might**:**
 
 é 5 + M damage
 
-í 7 + Mdamage; a<s , slowed (save ends)
+í 7 + Mdamage; a < STRONG, slowed (save ends)
 
 **Effect:** You can shift 1 square.
 
 ## **Impaled!**
 
-*You skewer your enemy like a boar upon a spit.* **Melee, Strike, Weapon Main action** e Melee 1 x One creature of your size or smaller
+| **You skewer your enemy like a boar upon a spit.* **Melee, Strike, Weapon** | **Main action** |
+| --- | ---:|
+| **📏 Melee 1** | **🎯 One creature of your size or smaller** |
 
 Power Roll + Might:
 
-- á 2 + M damage; m<w , grabbed
-- é 5 + M damage; m<v , grabbed
-- í 7 + Mdamage; m<s , grabbed
+- á 2 + M damage; m < WEAK, grabbed
+- é 5 + M damage; m < AVERAGE, grabbed
+- í 7 + Mdamage; m < STRONG, grabbed
 
 ## **To the Death!**
 
-*Your reckless assault leaves you tactically vulnerable.* **Melee, Strike, Weapon Main action** e Melee 1 x One creature or object Power Roll + Might**:** á 3 + M damage
+| **Your reckless assault leaves you tactically vulnerable.* **Melee, Strike, Weapon** | **Main action** |
+| --- | ---:|
+| **📏 Melee 1** | **🎯 One creature or object Power Roll + Might**:** á 3 + M damage** |
 
 ## é 6 + M damage
 
@@ -263,7 +265,9 @@ Choose one heroic ability from the following options, each of which costs 3 fero
 
 *You hew about you with your mighty weapon, hurling enemies backward.*
 
-**Area, Melee, Weapon Main action** e 1 burst x Each enemy in the area
+| **Area, Melee, Weapon** | **Main action** |
+| --- | ---:|
+| **📏 1 burst** | **🎯 Each enemy in the area** |
 
 #### Power Roll + Might**:**
 
@@ -275,7 +279,7 @@ Choose one heroic ability from the following options, each of which costs 3 fero
 
 *Your enemies will clear your path—whether they want to or not.*
 
-| <b>Melee, Strike, Weapon</b>        | <b>Main action</b>                       |
+| **Melee, Strike, Weapon**        | **Main action**                       |
 |-------------------------------------|------------------------------------------|
 | Image: Melee weapon icon<br>Melee 1 | Image: Clock/action icon<br>One creature |
 
@@ -290,8 +294,8 @@ Choose one heroic ability from the following options, each of which costs 3 fero
 
 *Teach them the folly of lining up for you.*
 
-| Melee, Weapon                        | Main action                      |
-|--------------------------------------|----------------------------------|
+| **Melee, Weapon** | **Main action** |
+| --------------------------------------|----------------------------------|
 | Image: triangle icon Self; see below | Image: clockwise arrow icon Self |
 
 **Effect:** You move up to your speed in a straight line, and enemy squares are not difficult terrain for this movement. You can end this movement in a creature's space and move them to an adjacent unoccupied space. You make one power roll that targets each enemy whose space you move through.
@@ -308,17 +312,15 @@ Effect: The last target you damage takes extra damage equal to your Might score 
 
 *Hard for them to fight when they're busy holding in their giblets.*
 
-| Melee, Strike, Weapon     | Main action                               |
-|---------------------------|-------------------------------------------|
+| **Melee, Strike, Weapon** | **Main action** |
+| ---------------------------|-------------------------------------------|
 | Image: melee icon Melee 1 | Image: action icon One creature or object |
-
-133
 
 Power Roll + Might**:**
 
-- á 3 + M damage; m<w , bleeding (save ends)
-- é 5 + M damage; m<v , bleeding (save ends)
-- í 8 + Mdamage; m<s , bleeding (save ends)
+- á 3 + M damage; m < WEAK, bleeding (save ends)
+- é 5 + M damage; m < AVERAGE, bleeding (save ends)
+- í 8 + Mdamage; m < STRONG, bleeding (save ends)
 
 **Effect:** While bleeding this way, the target takes damage equal to your Might score at the end of each of your turns.
 
@@ -352,7 +354,9 @@ Choose one heroic ability from the following options, each of which costs 5 fero
 | You gut your life force to ensure a foe's demise.                                                                                                                   |                                         |                                                                                                                                              | Choose one of the following abilities.                                   |  |  |
 | Melee, Strike, Weapon                                                                                                                                               | Main action                             |                                                                                                                                              | Special Delivery (5 Ferocity)                                            |  |  |
 | e Melee 1                                                                                                                                                           | x One creature                          | You ready?                                                                                                                                   |                                                                          |  |  |
-| Power Roll + Might:                                                                                                                                                 |                                         | Melee, Weapon                                                                                                                                | Maneuver                                                                 |  |  |
+
+| **Power Roll + Might:                                                                                                                                                 |                                         | Melee, Weapon** | **Maneuver** |
+
 | á<br>7 + M damage                                                                                                                                                   |                                         | e Melee 1                                                                                                                                    | x One willing ally                                                       |  |  |
 | é<br>11 + M damage                                                                                                                                                  |                                         |                                                                                                                                              | Effect: You vertically push the target up to 4 squares. This forced      |  |  |
 | í<br>16 + Mdamage                                                                                                                                                   |                                         | movement ignores the target's stability, and the target takes no                                                                             |                                                                          |  |  |
@@ -374,7 +378,9 @@ Your primordial aspect grants your choice of one of two heroic abilities.
 | Special Delivery (5 Ferocity)    |                                    |
 |----------------------------------|------------------------------------|
 | <i>You ready?</i>                |                                    |
-| Melee, Weapon                    | Maneuver                           |
+
+| **Melee, Weapon** | **Maneuver** |
+
 | Image: Melee Weapon icon Melee 1 | Image: Swirl icon One willing ally |
 
 **Effect:** You vertically push the target up to 4 squares. This forced movement ignores the target's stability, and the target takes no damage from colliding with creatures or objects. At the end of this movement, the target can make a free strike that deals extra damage equal to your Might score.
@@ -383,7 +389,7 @@ Your primordial aspect grants your choice of one of two heroic abilities.
 
 *It's easier to destroy than to create. Much easier, in fact!*
 
-**Melee, Weapon Maneuver**
+| **Melee, Weapon** | **Maneuver** |
 
 e Self; see below x Self
 
@@ -405,21 +411,19 @@ Additionally, you make one power roll that targets each enemy you move adjacent 
 
 Choose one of the following abilities.
 
-| <b>Death … Death! (5 Ferocity)</b><br><i>Your unbridled rage strikes terror in their hearts.</i><br><br><b>Melee, Strike, Weapon</b> <span style="float:right;">Main action<br/>🕒 One creature</span><br><span>⚔️ Melee 1</span><br><br><b>Power Roll + Might:</b><br>≤11: 3 + M damage; P<WEAK> , dazed and frightened (save ends)<br>12–16: 5 + M damage; P<AVERAGE> , dazed and frightened (save ends)<br>17+: 8 + M damage; P<STRONG> , dazed and frightened (save ends)                                                                                               |                                                                                                     |
+| **Death … Death! (5 Ferocity)**<br><i>Your unbridled rage strikes terror in their hearts.</i><br><br>**Melee, Strike, Weapon** <span style="float:right;">Main action<br/>🕒 One creature</span><br><span>⚔️ Melee 1</span><br><br>**Power Roll + Might:**<br>≤11: 3 + M damage; P<WEAK> , dazed and frightened (save ends)<br>12–16: 5 + M damage; P<AVERAGE> , dazed and frightened (save ends)<br>17+: 8 + M damage; P<STRONG> , dazed and frightened (save ends)                                                                                               |                                                                                                     |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
-| <b>Phalanx-Breaker (5 Ferocity)</b><br><i>Organizing your forces like feckless creatures of Law. Pitiful.</i><br><br><b>Melee, Weapon</b> <span style="float:right;">Main action<br/>🕒 Self</span><br><span>⚔️ Self; see below</span><br><br><b>Effect:</b> You shift up to your speed and make one power roll that targets up to three enemies you move adjacent to during this shift.<br><br><b>Power Roll + Might:</b><br>≤11: 2 damage; A<WEAK> , dazed (save ends)<br>12–16: 4 damage; A<AVERAGE> , dazed (save ends)<br>17+: 6 damage; A<STRONG> , dazed (save ends) |                                                                                                     |
-| <b>2ND-LEVEL STORMWIGHT ABILITY</b><br>Choose one of the following abilities.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |                                                                                                     |
-| Area, Magic                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | Main action                                                                                         |
-| Image: triangle with 2 ("2 burst")                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | Image: target icon ("Each enemy in the area")                                                       |
-| ≤11                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | 2 damage; push 1; <b style="background:black;color:white;">M&lt;WEAK&gt;</b> , dazed (save ends)    |
-| 12–16                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | 5 damage; push 2; <b style="background:black;color:white;">M&lt;AVERAGE&gt;</b> , dazed (save ends) |
-| 17+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | 7 damage; push 3; <b style="background:black;color:white;">M&lt;STRONG&gt;</b> , dazed (save ends)  |
+| **Phalanx-Breaker (5 Ferocity)**<br><i>Organizing your forces like feckless creatures of Law. Pitiful.</i><br><br>**Melee, Weapon** <span style="float:right;">Main action<br/>🕒 Self</span><br><span>⚔️ Self; see below</span><br><br>**Effect:** You shift up to your speed and make one power roll that targets up to three enemies you move adjacent to during this shift.<br><br>**Power Roll + Might:**<br>≤11: 2 damage; A<WEAK> , dazed (save ends)<br>12–16: 4 damage; A<AVERAGE> , dazed (save ends)<br>17+: 6 damage; A<STRONG> , dazed (save ends) |                                                                                                     |
+| **2ND-LEVEL STORMWIGHT ABILITY**<br>Choose one of the following abilities.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |                                                                                                     |
 
-![](_page_149_Picture_14.jpeg)
+| **Area, Magic** | **Main action** |
+
+| Image: triangle with 2 ("2 burst")                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | Image: target icon ("Each enemy in the area")                                                       |
+| ≤11                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | 2 damage; push 1; <b style="background:black;color:white;">M&lt;WEAK&gt;** , dazed (save ends)    |
+| 12–16                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | 5 damage; push 2; <b style="background:black;color:white;">M&lt;AVERAGE&gt;** , dazed (save ends) |
+| 17+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | 7 damage; push 3; <b style="background:black;color:white;">M&lt;STRONG&gt;** , dazed (save ends)  |
 
 **Effect:** The target can't be hidden from you for 24 hours. Until the end of the encounter, whenever the target willingly moves, you can use a free triggered action to move.
-
-![](_page_149_Picture_16.jpeg)
 
 ## **Visceral Roar (5 Ferocity)**
 
@@ -470,13 +474,17 @@ Choose one heroic ability from the following options, each of which costs 7 fero
 
 **Magic**
 
-**Magic Maneuver** e Self x Self
+| **Magic** | **Maneuver** |
+| --- | ---:|
+| **📏 Self** | **🎯 Self** |
 
 **Effect:** Until the end of the encounter or until you are dying, each enemy who starts their turn adjacent to you and has p<s is frightened until the end of their turn.
 
 ## **Face the Storm! (7 Ferocity)**
 
-*Shocked in the face of your naked brutality, your enemy's instincts take over.* **Magic Maneuver** e Self x Self
+| **Shocked in the face of your naked brutality, your enemy's instincts take over.* **Magic** | **Maneuver** |
+| --- | ---:|
+| **📏 Self** | **🎯 Self** |
 
 **Effect:** Until the end of the encounter or until you are dying, each creature you make a melee strike against who has p<v is taunted until the end of their next turn. Additionally, when you use an ability that deals rolled damage against any enemy taunted by you, the ability deals extra damage equal to twice your Might score and increases its potency by 1.
 
@@ -484,7 +492,9 @@ Choose one heroic ability from the following options, each of which costs 7 fero
 
 *See how useless their weapons are!*
 
-**Magic Maneuver** e Self x Self
+| **Magic** | **Maneuver** |
+| --- | ---:|
+| **📏 Self** | **🎯 Self** |
 
 **Effect:** You gain 20 temporary Stamina.
 
@@ -492,7 +502,9 @@ Choose one heroic ability from the following options, each of which costs 7 fero
 
 | <i>Slash. Walk away.</i>           |                                       |
 |------------------------------------|---------------------------------------|
-| Melee, Strike, Weapon              | Main action                           |
+
+| **Melee, Strike, Weapon** | **Main action** |
+
 | Image: melee ruler icon<br>Melee 1 | Image: stopwatch icon<br>One creature |
 
 **Effect:** If the target is not a leader or solo creature, they are reduced to 0 Stamina at the end of their next turn. If the target is a leader or solo creature, you gain 3 surges and can make a melee free strike against them.
@@ -531,8 +543,6 @@ You gain one skill of your choice. See Skills in Chapter 9: Tests.
 
 # Fury
 
-137
-
 ## 5th-Level Features
 
 As a 5th-level fury, you gain the following features.
@@ -565,17 +575,19 @@ At the start of your turn, you can end any restrained condition on you. Addition
 
 Choose one heroic ability from the following options, each of which costs 9 ferocity to use.
 
-## **Debilitating Strike (9 Ferocity)** *You need just one blow to sabotage your target.* **Melee, Strike, Weapon Main action** e Melee 1 x One creature
+| **Debilitating Strike (9 Ferocity)** *You need just one blow to sabotage your target.* **Melee, Strike, Weapon** | **Main action** |
+| --- | ---:|
+| **📏 Melee 1** | **🎯 One creature** |
 
-| <b>Power Roll + Might:</b> |  |
+| **Power Roll + Might:** |  |
 |----------------------------|--|
 |----------------------------|--|
 
-á 10 + M damage; m<w , slowed (save ends)
+á 10 + M damage; m < WEAK, slowed (save ends)
 
-é 14 + M damage; m<v , slowed (save ends)
+é 14 + M damage; m < AVERAGE, slowed (save ends)
 
-í 20 + Mdamage; m<s , slowed (save ends)
+í 20 + Mdamage; m < STRONG, slowed (save ends)
 
 **Effect:** While slowed this way, the target takes 1 damage for every square they move, including from forced movement.
 
@@ -583,7 +595,7 @@ Choose one heroic ability from the following options, each of which costs 9 fero
 
 *You quickly strike back at a foe.*
 
-| <b>Melee, Strike, Weapon</b> | <b>Free triggered</b> |
+| **Melee, Strike, Weapon** | **Free triggered** |
 |------------------------------|-----------------------|
 |------------------------------|-----------------------|
 
@@ -591,16 +603,18 @@ Choose one heroic ability from the following options, each of which costs 9 fero
 |------------------------|----------------------------------------|
 |------------------------|----------------------------------------|
 
-e Melee 1 x The triggering creature
+
+| --- | ---:|
+| **📏 Melee 1** | **🎯 The triggering creature** |
 
 **Trigger:** A creature causes you to be winded or dying, or damages you while you are winded or dying.
 
 ## Power Roll + Might**:**
 
-| ≤11   | 6 + <b style="background:black;color:white;padding:0 4px;">M</b> damage  |
+| ≤11   | 6 + <b style="background:black;color:white;padding:0 4px;">M** damage  |
 |-------|--------------------------------------------------------------------------|
-| 12-16 | 9 + <b style="background:black;color:white;padding:0 4px;">M</b> damage  |
-| 17+   | 13 + <b style="background:black;color:white;padding:0 4px;">M</b> damage |
+| 12-16 | 9 + <b style="background:black;color:white;padding:0 4px;">M** damage  |
+| 17+   | 13 + <b style="background:black;color:white;padding:0 4px;">M** damage |
 
 **Effect:** You can spend a Recovery.
 
@@ -608,9 +622,9 @@ e Melee 1 x The triggering creature
 
 *You knock around enemies like playthings.*
 
-#### **Melee, Strike, Weapon Main action**
-
-e Melee 1 x Two creatures or objects
+| **Melee, Strike, Weapon** | **Main action** |
+| --- | ---:|
+| **📏 Melee 1** | **🎯 Two creatures or objects** |
 
 ## Power Roll + Might**:**
 
@@ -624,13 +638,13 @@ e Melee 1 x Two creatures or objects
 
 *You channel the Primordial Chaos into blows that petrify your foe … literally.*
 
-| Magic, Melee, Strike, Weapon                                                                         | Main action                                                                                                                   |
-|------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
+| **Magic, Melee, Strike, Weapon** | **Main action** |
+| ------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | <span>Image: triangular icon</span> Melee 1                                                          | <span>Image: circular timer icon</span> One creature                                                                          |
 | Power Roll + Might:                                                                                  |                                                                                                                               |
-| <span style="border:1px solid #000; border-radius:6px; padding:1px 5px; font-size:90%;">≤11</span>   | 9 + <b>M</b> damage; <span style="background:black; color:white; padding:0 2px;">M&lt;WEAK</span> , slowed (save ends)        |
-| <span style="border:1px solid #000; border-radius:6px; padding:1px 5px; font-size:90%;">12–16</span> | 13 + <b>M</b> damage; <span style="background:black; color:white; padding:0 2px;">M&lt;AVERAGE</span> , slowed (save ends)    |
-| <span style="border:1px solid #000; border-radius:6px; padding:1px 5px; font-size:90%;">17+</span>   | 18 + <b>M</b> damage; <span style="background:black; color:white; padding:0 2px;">M&lt;STRONG</span> , restrained (save ends) |
+| <span style="border:1px solid #000; border-radius:6px; padding:1px 5px; font-size:90%;">≤11</span>   | 9 + **M** damage; <span style="background:black; color:white; padding:0 2px;">M&lt;WEAK</span> , slowed (save ends)        |
+| <span style="border:1px solid #000; border-radius:6px; padding:1px 5px; font-size:90%;">12–16</span> | 13 + **M** damage; <span style="background:black; color:white; padding:0 2px;">M&lt;AVERAGE</span> , slowed (save ends)    |
+| <span style="border:1px solid #000; border-radius:6px; padding:1px 5px; font-size:90%;">17+</span>   | 18 + **M** damage; <span style="background:black; color:white; padding:0 2px;">M&lt;STRONG</span> , restrained (save ends) |
 
 **Effect:** While the target is slowed this way, any other effect that would make the target slowed instead makes them restrained by this ability. Additionally, a creature who fails the saving throw while restrained this way is petrified until they are given a supernatural cure or you choose to reverse the effect (no action required).
 
@@ -640,15 +654,13 @@ As a 6th-level fury, you gain the following features.
 
 As your connection to the power of the Primordial Chaos grows ever stronger, you automatically sense any elemental creatures or magic sources of elemental power, such as a lava pool or a lake overlapping with Quintessence, within 1 mile of you.
 
-Additionally, you can speak with elemental creatures, and when you are in a negotiation with an elemental, you treat your Renown as 1 higher than usual. This stacks with the increase to your effective Renown provided by the Nature's Knight aspect feature (see 3rd-Level Features). When any elemental first becomes aware of you in combat, if they have p<v , they are frightened of you (save ends).
+Additionally, you can speak with elemental creatures, and when you are in a negotiation with an elemental, you treat your Renown as 1 higher than usual. This stacks with the increase to your effective Renown provided by the Nature's Knight aspect feature (see 3rd-Level Features). When any elemental first becomes aware of you in combat, if they have p < AVERAGE, they are frightened of you (save ends).
 
 ## **Primordial Portal**
 
 As a main action, you can touch a magic source of elemental power and use it to create a portal to Quintessence. You can then use a main action to teleport yourself and any willing creatures within 10 squares of you through the portal and onto a safe island in Quintessence, or to teleport back again. You can maintain a number of portals equal to your Might score, each leading to the same safe island in Quintessence. If a portal in your network is destroyed, it is no longer part of the network. You can remove a portal from your network no matter your distance from it, including across different worlds (no action required).
 
 (Exploring Quintessence is possible from your island, but continued safety is not guaranteed.)
-
-![](_page_152_Picture_8.jpeg)
 
 ## **Perk**
 
@@ -666,8 +678,8 @@ Choose one of the following abilities.
 
 *You leap and crash down, causing a shockwave that devastates foes.*
 
-| Magic                       | Maneuver                       |
-|-----------------------------|--------------------------------|
+| **Magic** | **Maneuver** |
+| -----------------------------|--------------------------------|
 | Image: magic symbol<br>Self | Image: maneuver symbol<br>Self |
 
 **Effect:** You jump up to your maximum jump distance and make one power roll that targets each creature adjacent to the space where you land.
@@ -687,9 +699,11 @@ Choose one of the following abilities.
 | <i>crowd of creatures around.</i> |                    |
 |-----------------------------------|--------------------|
 |                                   |                    |
-| <b>Melee, Strike, Weapon</b>      | <b>Main action</b> |
+| **Melee, Strike, Weapon**      | **Main action** |
 
-e Melee 1 x One creature
+
+| --- | ---:|
+| **📏 Melee 1** | **🎯 One creature** |
 
 #### Power Roll + Might:
 
@@ -707,8 +721,8 @@ Choose one of the following abilities.
 
 *Once you taste your foe's blood, you become more efficient and turn every killing blow into an opportunity.*
 
-| Melee, Strike, Weapon                           | Free triggered                      |
-|-------------------------------------------------|-------------------------------------|
+| **Melee, Strike, Weapon** | **Free triggered** |
+| -------------------------------------------------|-------------------------------------|
 | <span>Image: melee triangle icon</span> Melee 1 | <span>Image: clock icon</span> Self |
 
 **Trigger:** You reduce a creature to 0 Stamina with a strike. **Effect:** You target a creature adjacent to you with the same strike, using the same power roll as the triggering strike.
@@ -717,25 +731,23 @@ Choose one of the following abilities.
 
 *You break through the enemy lines to make an example.*
 
-| Melee, Strike, Weapon     | Main action                     |
-|---------------------------|---------------------------------|
+| **Melee, Strike, Weapon** | **Main action** |
+| ---------------------------|---------------------------------|
 | Image: Melee icon Melee 1 | Image: Target icon One creature |
 
 **Effect:** You shift up to your speed.
 
 Power Roll + Might:
 
-- á 4 + M damage; p<w , frightened (save ends)
-- é 6 + M damage; p<v , frightened (save ends)
-- í 10 + Mdamage; p<s , frightened (save ends)
+- á 4 + M damage; p < WEAK, frightened (save ends)
+- é 6 + M damage; p < AVERAGE, frightened (save ends)
+- í 10 + Mdamage; p < STRONG, frightened (save ends)
 
-**Effect:** If a target who is not a leader or solo creature is winded by this strike, they are reduced to 0 Stamina and you choose an enemy within 5 squares of you. If that enemy has p<v , they are frightened of you (save ends).
+**Effect:** If a target who is not a leader or solo creature is winded by this strike, they are reduced to 0 Stamina and you choose an enemy within 5 squares of you. If that enemy has p < AVERAGE, they are frightened of you (save ends).
 
 Draw Steel
 
 ## Fury
-
-139
 
 #### 6th-Level Stormwight Abilities
 
@@ -747,15 +759,17 @@ Choose one of the following abilities.
 
 Mele
 
-**Magic, Melee, Strike, Weapon Main action** e Melee 1 x One creature
+| **Magic, Melee, Strike, Weapon** | **Main action** |
+| --- | ---:|
+| **📏 Melee 1** | **🎯 One creature** |
 
 #### Power Roll + Might**:**
 
-á 8 damage; m<w , grabbed
+á 8 damage; m < WEAK, grabbed
 
-é 13 damage; m<v , grabbed
+é 13 damage; m < AVERAGE, grabbed
 
-í 17 damage; m<s , grabbed
+í 17 damage; m < STRONG, grabbed
 
 **Effect:** You can shift up to 4 squares, bringing the target with you. While grabbed this way, the target takes damage equal to twice your Might score at the start of each of your turns.
 
@@ -763,9 +777,9 @@ Mele
 
 *You focus your connection to the Primordial Chaos into a seething storm.*
 
-**Area, Magic Maneuver**
-
-e 3 aura x Each creature in the area
+| **Area, Magic** | **Maneuver** |
+| --- | ---:|
+| **📏 3 aura** | **🎯 Each creature in the area** |
 
 **Effect:** Until the end of the encounter or until you are dying, each enemy target takes damage of your primordial damage type equal to twice your Might score at the end of each of your turns. Additionally, you can fly while the aura is active. Each ally target who starts or ends their turn in the area can also fly until the start of their next turn or until the effect ends.
 
@@ -796,10 +810,6 @@ Your Growing Ferocity feature provides additional benefits when you have 10 or m
 ## **Skill**
 
 You gain one skill of your choice.
-
-![](_page_153_Picture_31.jpeg)
-
-![](_page_154_Picture_0.jpeg)
 
 As an 8th-level fury, you gain the following features.
 
@@ -837,8 +847,8 @@ Choose one heroic ability from the following options, each of which costs 11 fer
 
 *Your primordial energy makes for instant retribution.*
 
-| Magic                     | Maneuver                     |
-|---------------------------|------------------------------|
+| **Magic** | **Maneuver** |
+| ---------------------------|------------------------------|
 | Image: magic icon<br>Self | Image: maneuver icon<br>Self |
 
 **Effect:** You gain 10 temporary Stamina. Additionally, choose acid, cold, corruption, fire, lightning, poison, or sonic damage. Until the end of the encounter or until you are dying, whenever an enemy damages you, they take 10 damage of the chosen type. If this damage reduces the enemy to 0 Stamina, you gain 10 temporary Stamina.
@@ -847,7 +857,7 @@ Choose one heroic ability from the following options, each of which costs 11 fer
 
 | <i>You strike so no damage is wasted.</i> |                                      |
 |-------------------------------------------|--------------------------------------|
-| <b>Magic, Melee, Strike, Weapon</b>       | <b>Main action</b>                   |
+| **Magic, Melee, Strike, Weapon**       | **Main action**                   |
 | Image: Melee icon Melee 1                 | Image: Main action icon One creature |
 
 Power Roll + Might:
@@ -859,8 +869,8 @@ Power Roll + Might:
 
 ## **Primordial Rage (11 Ferocity)**
 
-| Magic                     | Maneuver                     |
-|---------------------------|------------------------------|
+| **Magic** | **Maneuver** |
+| ---------------------------|------------------------------|
 | Image: Magic icon<br>Self | Image: Maneuver icon<br>Self |
 
 **Effect:** Choose acid, cold, corruption, fire, lightning, poison, or sonic damage. Until the end of the encounter or until you are dying, you can choose one target of any ability you use, with that target taking an extra 15 damage of the chosen type. Additionally, whenever you gain ferocity from taking damage, the source of the damage takes 5 damage of the chosen type.
@@ -901,7 +911,9 @@ Choose one of the following abilities.
 
 **Area, Mag**
 
-#### **Area, Magic, Melee, Weapon Main action** e 3 burst x Each enemy in the area
+| **Area, Magic, Melee, Weapon** | **Main action** |
+| --- | ---:|
+| **📏 3 burst** | **🎯 Each enemy in the area** |
 
 Power Roll + Might:
 
@@ -911,13 +923,13 @@ Power Roll + Might:
 
 **Effect:** If this forced movement causes a target to be hurled through an object, that target takes an extra 10 damage.
 
-![](_page_155_Picture_27.jpeg)
-
 **Primordial Vortex (11 Ferocity)**
 
 *You channel the power of the Primordial Chaos to pull foes to you.*
 
-**Area, Magic, Melee, Weapon Main action** e 3 burst x Each enemy in the area
+| **Area, Magic, Melee, Weapon** | **Main action** |
+| --- | ---:|
+| **📏 3 burst** | **🎯 Each enemy in the area** |
 
 #### Power Roll + Might:
 
@@ -931,16 +943,16 @@ Power Roll + Might:
 
 Choose one of the following abilities.
 
-| <b>Primordial Bane (11 Ferocity)</b>                             |                                |
+| **Primordial Bane (11 Ferocity)**                             |                                |
 |------------------------------------------------------------------|--------------------------------|
 | <i>You attune the target to be weaker to a specific element.</i> |                                |
-| <b>Magic, Melee, Strike, Weapon</b>                              | <b>Main action</b>             |
+| **Magic, Melee, Strike, Weapon**                              | **Main action**             |
 | Image: melee icon Melee 1                                        | Image: clock icon One creature |
-| <b>Power Roll + Might:</b>                                       |                                |
+| **Power Roll + Might:**                                       |                                |
 
-| ≤11   | 11 + <b>M</b> damage |
+| ≤11   | 11 + **M** damage |
 |-------|----------------------|
-| 12–16 | 16 + <b>M</b> damage |
+| 12–16 | 16 + **M** damage |
 |       |                      |
 
 í 21 + Mdamage
@@ -951,8 +963,8 @@ Choose one of the following abilities.
 
 *You shock your foes with the brutality of your strike, resetting the balance of combat.*
 
-| Melee, Strike, Weapon        | Main action                             |
-|------------------------------|-----------------------------------------|
+| **Melee, Strike, Weapon** | **Main action** |
+| ------------------------------|-----------------------------------------|
 | Image: triangle icon Melee 1 | Image: circular arrow icon One creature |
 
 #### Power Roll + Might: á 12 + M damage é 18 + M damage
@@ -971,7 +983,9 @@ Choose one of the following abilities.
 
 **Area, Magi**
 
-**Area, Magic Main action** e 3 burst x Each enemy in the area
+| **Area, Magic** | **Main action** |
+| --- | ---:|
+| **📏 3 burst** | **🎯 Each enemy in the area** |
 
 ## Power Roll + Might:
 
@@ -989,8 +1003,6 @@ Choose one of the following abilities.
 
 **Area, Magic, Ranged Main action** e 5 cube within 10 x Each enemy in the area
 
-141
-
 ## Power Roll + Might:
 
 - á 7 damage
@@ -1000,11 +1012,7 @@ $7^+$  15 damage
 
 **Effect:** This ability deals your primordial damage type and ignores damage immunity.
 
-![](_page_156_Picture_0.jpeg)
-
 Draw Steel
-
-142
 
 ## 10th-Level Features
 
@@ -1014,7 +1022,7 @@ As a 10th-level fury, you gain the following features.
 
 Your mastery of elemental forces protects and emboldens you. If you are a berserker or reaver, you have immunity to acid, cold, corruption, fire, lightning, poison, and sonic damage equal to twice your Might score. If you are a stormwight, your damage immunity from your Primordial Storm feature (see Stormwight Kits) increases to three times your Might score.
 
-When any elemental or any other creature whose abilities deal acid, cold, corruption, fire, lightning, poison, or sonic damage first becomes aware of you in combat, if they have p<s , they are frightened of you (save ends).
+When any elemental or any other creature whose abilities deal acid, cold, corruption, fire, lightning, poison, or sonic damage first becomes aware of you in combat, if they have p < STRONG, they are frightened of you (save ends).
 
 Additionally, when you use Primordial Strike, you can spend up to 3 ferocity, gaining 1 surge per ferocity spent to use for that strike.
 
@@ -1072,7 +1080,9 @@ Magic
 
 Self
 
-**Magic Maneuver** e Self x Self
+| **Magic** | **Maneuver** |
+| --- | ---:|
+| **📏 Self** | **🎯 Self** |
 
 **Effect:** You can shapeshift into the animal defined by your stormwight kit, into a hybrid form, or back into your true form. While in animal form or hybrid form, you can speak as you usually do, and you can also speak to animals who share your form. If you are in a negotiation with an animal while in animal form, you treat your Renown as 2 higher than usual.
 
@@ -1098,15 +1108,13 @@ You gain a new signature ability from your kit.
 
 Each stormwight kit grants a set of benefits for your Growing Ferocity feature.
 
-![](_page_157_Picture_24.jpeg)
-
 ## **Boren**
 
 With this stormwight kit, you channel your primordial ferocity into the form of a bear, becoming large, durable, and imposing. Boren are tied to the craggy, rocky north, and this aspect is associated with the blizzard's bitter cold.
 
 #### Aspect Benefits
 
-Whenever you use forced movement to push a creature, you can pull that creature instead. Whenever you pull a creature adjacent to you and that creature has m<v , you can use a free triggered action to make that creature grabbed by you.
+Whenever you use forced movement to push a creature, you can pull that creature instead. Whenever you pull a creature adjacent to you and that creature has m < AVERAGE, you can use a free triggered action to make that creature grabbed by you.
 
 #### Animal Form: Bear
 
@@ -1122,9 +1130,9 @@ Your primordial damage type is cold.
 
 #### Kit Bonuses
 
-- ¥ **Stamina Bonus:** +9 per echelon
-- ¥ **Stability Bonus:** +2
-- ¥ **Melee Damage Bonus:** +0/+0/+4
+- **Stamina Bonus:** +9 per echelon
+- **Stability Bonus:** +2
+- **Melee Damage Bonus:** +0/+0/+4
 
 ## Signature Ability
 
@@ -1134,12 +1142,14 @@ Your primordial damage type is cold.
 
 **Melee, Strike, Wea**
 
-**Melee, Strike, Weapon Main action** e Melee 1 x One creature or object
+| **Melee, Strike, Weapon** | **Main action** |
+| --- | ---:|
+| **📏 Melee 1** | **🎯 One creature or object** |
 
-Power Roll + Might: á <sup>2</sup>**+** M damage; m<w , grabbed
+Power Roll + Might: á <sup>2</sup>**+** M damage; m < WEAK, grabbed
 
-- é 5 + M damage; m<v , grabbed
-- í 11 + M damage; m<s , grabbed
+- é 5 + M damage; m < AVERAGE, grabbed
+- í 11 + M damage; m < STRONG, grabbed
 
 ## Growing Ferocity
 
@@ -1178,10 +1188,10 @@ Your primordial damage type is fire.
 
 #### Kit Bonuses
 
-- ¥ **Stamina Bonus:** +3 per echelon
-- ¥ **Speed Bonus:** +3
-- ¥ **Melee Damage Bonus:** +2/+2/+2
-- ¥ **Disengage Bonus:** +1
+- **Stamina Bonus:** +3 per echelon
+- **Speed Bonus:** +3
+- **Melee Damage Bonus:** +2/+2/+2
+- **Disengage Bonus:** +1
 
 ## Signature Ability
 
@@ -1189,8 +1199,10 @@ Your primordial damage type is fire.
 
 | <i>Foes who try to close in around you do so at their peril.</i> |                                           |
 |------------------------------------------------------------------|-------------------------------------------|
-| Type                                                             | Main action                               |
-| <b>Area, Melee, Weapon</b><br>Image: burst icon 1 burst          | Image: target icon Each enemy in the area |
+
+| **Type** | **Main action** |
+
+| **Area, Melee, Weapon**<br>Image: burst icon 1 burst          | Image: target icon Each enemy in the area |
 | Power Roll + Agility:                                            |                                           |
 | Image: dice icon ≤11                                             | 3 damage                                  |
 
@@ -1238,18 +1250,18 @@ Your primordial damage type is corruption.
 
 #### Kit Bonuses
 
-- ¥ **Stamina Bonus:** +3 per echelon
-- ¥ **Speed Bonus:** +3
-- ¥ **Melee Damage Bonus:** +2/+2/+2
-- ¥ **Disengage Bonus:** +1
+- **Stamina Bonus:** +3 per echelon
+- **Speed Bonus:** +3
+- **Melee Damage Bonus:** +2/+2/+2
+- **Disengage Bonus:** +1
 
 #### Signature Ability
 
 #### **Driving Pounce**
 
-*Your enemies try in vain to fall back from your pouncing attack.* **Melee, Strike, Weapon Main action**
-
-e Melee 1 x One creature or object
+| **Your enemies try in vain to fall back from your pouncing attack.* **Melee, Strike, Weapon** | **Main action** |
+| --- | ---:|
+| **📏 Melee 1** | **🎯 One creature or object** |
 
 #### Power Roll + Agility:
 
@@ -1296,10 +1308,10 @@ Your primordial damage type is lightning.
 
 #### Kit Bonuses
 
-- ¥ **Stamina Bonus:** +9 per echelon
-- ¥ **Speed Bonus:** +2
-- ¥ **Melee Damage Bonus:** +2/+2/+2
-- ¥ **Disengage Bonus:** +1
+- **Stamina Bonus:** +9 per echelon
+- **Speed Bonus:** +2
+- **Melee Damage Bonus:** +2/+2/+2
+- **Disengage Bonus:** +1
 
 ## Signature Ability
 
@@ -1307,15 +1319,15 @@ Your primordial damage type is lightning.
 
 *A wild assault forces your foe onto their back.*
 
-| <b>Melee, Strike, Weapon</b> | Main action                                 |
-|------------------------------|---------------------------------------------|
+| ****Melee, Strike, Weapon**** | **Main action** |
+| ------------------------------|---------------------------------------------|
 | Image: [melee icon] Melee 1  | Image: [target icon] One creature or object |
 
 Power Roll + Might:
 
-- á<sup>4</sup>**+** M damage; a<w , prone
-- é 7 + M damage; a<v , prone
-- í<sup>9</sup>**+** M damage; a<s , prone
+- á<sup>4</sup>**+** M damage; a < WEAK, prone
+- é 7 + M damage; a < AVERAGE, prone
+- í<sup>9</sup>**+** M damage; a < STRONG, prone
 
 ## Growing Ferocity
 
