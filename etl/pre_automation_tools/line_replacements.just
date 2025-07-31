@@ -29,7 +29,7 @@ run input_md_path output_md_path:
         r'^[\|#\s\*]+(.*?)[\|\s]+'
         r'(Main [aA]ction|Maneuver|Free [mM]aneuver|Triggered|Free [tT]riggered)'
         r'[\s\*\|]+$',
-        "\n" + r'| \1 | \2 |' + "\n",
+        "\n" + r'| **\1** | **\2** |' + "\n",
         text,
         flags=re.MULTILINE
     )
