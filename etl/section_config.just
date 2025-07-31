@@ -60,7 +60,7 @@ expand_general config_fpath:
 
         # Generate xpath from header path
         xpath_id_parts = [re.sub(r'^\d+', '', part) for part in parts]
-        xpath = "//" + "//".join([f"section[@id='{p}']" for p in xpath_id_parts])
+        xpath = "//" + "//".join([f"section[@id[starts-with(., '{p}')]]" for p in xpath_id_parts])
 
         new_section = {
             **global_data,
