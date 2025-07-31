@@ -26,7 +26,7 @@ clean_and_prep:
 convert_heroes pdf_fpath="Draw Steel Heroes.pdf":
     #!/usr/bin/env bash
     set -euo pipefail
-    just _convert "{{pdf_fpath}}" "true" "1-403" "{{staging_dpath}}"
+    just _convert "{{pdf_fpath}}" "true" "1-416" "{{staging_dpath}}"
 
 ##################################################
 # Private Recipes
