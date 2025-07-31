@@ -54,20 +54,20 @@ Within the heat of battle, your determination and anger grow, fueling a Heroic R
 
 ###### Fury Advancement Table
 
-| Level | Features                                                                                                                                 | Abilities                    | Aspect Abilities |
-|-------|------------------------------------------------------------------------------------------------------------------------------------------|------------------------------|------------------|
-| 1st   | Primordial Aspect, Ferocity, Growing Ferocity, Aspect Features, Aspect Triggered Action, Mighty Leaps, Fury Abilities           | Signature, 3, 5              | —                |
-| 2nd   | Perk, Aspect Feature, Aspect Ability                                                                                                     | Signature, 3, 5              | 5                |
-| 3rd   | Aspect Feature, 7-Ferocity Ability                                                                                                       | Signature, 3, 5, 7        | 5                |
+| Level | Features                                                                                                                        | Abilities                 | Aspect Abilities |
+|-------|---------------------------------------------------------------------------------------------------------------------------------|---------------------------|------------------|
+| 1st   | Primordial Aspect, Ferocity, Growing Ferocity, Aspect Features, Aspect Triggered Action, Mighty Leaps, Fury Abilities           | Signature, 3, 5           | —                |
+| 2nd   | Perk, Aspect Feature, Aspect Ability                                                                                            | Signature, 3, 5           | 5                |
+| 3rd   | Aspect Feature, 7-Ferocity Ability                                                                                              | Signature, 3, 5, 7        | 5                |
 | 4th   | Characteristic Increase, Damaging Ferocity, Growing Ferocity Improvement, Perk, Primordial Attunement, Primordial Strike, Skill | Signature, 3, 5, 7        | 5                |
-| 5th   | Aspect Feature, 9-Ferocity Ability                                                                                                       | Signature, 3, 5, 7, 9     | 5                |
-| 6th   | Marauder of the Primordial Chaos, Perk, Aspect Ability                                                                                | Signature, 3, 5, 7, 9     | 5, 9             |
-| 7th   | Characteristic Increase, Elemental Form, Greater Ferocity, Growing Ferocity Improvement, Skill                                     | Signature, 3, 5, 7, 9     | 5, 9             |
-| 8th   | Perk, Aspect Feature, 11-Ferocity Ability                                                                                             | Signature, 3, 5, 7, 9, 11 | 5, 9             |
-| 9th   | Harbinger of the Primordial Chaos, Aspect Ability                                                                                     | Signature, 3, 5, 7, 9, 11 | 5, 9, 11         |
+| 5th   | Aspect Feature, 9-Ferocity Ability                                                                                              | Signature, 3, 5, 7, 9     | 5                |
+| 6th   | Marauder of the Primordial Chaos, Perk, Aspect Ability                                                                          | Signature, 3, 5, 7, 9     | 5, 9             |
+| 7th   | Characteristic Increase, Elemental Form, Greater Ferocity, Growing Ferocity Improvement, Skill                                  | Signature, 3, 5, 7, 9     | 5, 9             |
+| 8th   | Perk, Aspect Feature, 11-Ferocity Ability                                                                                       | Signature, 3, 5, 7, 9, 11 | 5, 9             |
+| 9th   | Harbinger of the Primordial Chaos, Aspect Ability                                                                               | Signature, 3, 5, 7, 9, 11 | 5, 9, 11         |
 | 10th  | Chaos Incarnate, Characteristic Increase, Growing Ferocity Improvement, Perk, Primordial Ferocity, Primordial Power, Skill      | Signature, 3, 5, 7, 9, 11 | 5, 9, 11         |
 
-#### Ferocity in Combat
+##### Ferocity in Combat
 
 At the start of a combat encounter or some other stressful situation tracked in combat rounds (as determined by the Director), you gain ferocity equal to your Victories. At the start of each of your turns during combat, you gain 1d3 ferocity.
 
@@ -75,7 +75,7 @@ Additionally, the first time each combat round that you take damage, you gain 1 
 
 You lose any remaining ferocity at the end of the encounter.
 
-#### Ferocity Outside of Combat
+##### Ferocity Outside of Combat
 
 Though you can't gain ferocity outside of combat, you can use your heroic abilities and effects that cost ferocity without spending it. Whenever you use an ability or effect outside of combat that costs ferocity, you can't use that same ability or effect outside of combat again until you earn 1 or more Victories or finish a respite.
 
@@ -87,32 +87,33 @@ You gain certain benefits in combat based on the amount of ferocity you have (se
 
 Some Growing Ferocity benefits can be applied only if you are a specific level or higher, with the level of those benefits noted in the various Growing Ferocity tables in this section.
 
-#### **Berserker Growing Ferocity**
+###### Berserker Growing Ferocity Table
 
-| Ferocity        | Benefit                                                                                                                                                                                                                                 |
-|-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 2               | Whenever you use the Knockback maneuver, the forced movement distance gains a bonus equal to your Might score.                                                                                                                       |
-| 4               | The first time you push a creature on a turn, you gain 1 surge.                                                                                                                                                                         |
-| 6               | You gain an edge on Might tests and the Knockback maneuver.                                                                                                                                                                             |
-| 8 (4th level)   | The first time you push a creature on a turn, you gain 2 surges.                                                                                                                                                                        |
-| 10 (7th level)  | You have a double edge on Might tests and the Knockback maneuver.                                                                                                                                                                    |
+| Ferocity        | Benefit                                                                                                                                                                                                                        |
+|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 2               | Whenever you use the Knockback maneuver, the forced movement distance gains a bonus equal to your Might score.                                                                                                                 |
+| 4               | The first time you push a creature on a turn, you gain 1 surge.                                                                                                                                                                |
+| 6               | You gain an edge on Might tests and the Knockback maneuver.                                                                                                                                                                    |
+| 8 (4th level)   | The first time you push a creature on a turn, you gain 2 surges.                                                                                                                                                               |
+| 10 (7th level)  | You have a double edge on Might tests and the Knockback maneuver.                                                                                                                                                              |
 | 12 (10th level) | Whenever you use a heroic ability, you gain 10 temporary Stamina. Additionally, whenever you make a power roll that imposes forced movement on a target, the forced movement distance gains a bonus equal to your Might score. |
 
-| Reaver Growing Ferocity |                                                                                                                                                                                                                                           |
-|-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Ferocity                | Benefit                                                                                                                                                                                                                                   |
-| 2                       | Whenever you use the Knockback maneuver, the forced movement distance gains a bonus equal to your Agility score.                                                                                                                       |
-| 4                       | The first time you slide a creature on a turn, you gain 1 surge.                                                                                                                                                                          |
-| 6                       | You gain an edge on Agility tests and the Knockback maneuver.                                                                                                                                                                             |
-| 8 (4th level)           | The first time you slide a creature on a turn, you gain 2 surges.                                                                                                                                                                         |
-| 10 (7th level)          | You have a double edge on Agility tests and the Knockback maneuver.                                                                                                                                                                    |
-| 12 (10th level)         | Whenever you use a heroic ability, you gain 10 temporary Stamina. Additionally, whenever you make a power roll that imposes forced movement on a target, the forced movement distance gains a bonus equal to your Agility score. |
+###### Reaver Growing Ferocity Table
+
+| Ferocity        | Benefit                                                                                                                                                                                                                          |
+|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 2               | Whenever you use the Knockback maneuver, the forced movement distance gains a bonus equal to your Agility score.                                                                                                                 |
+| 4               | The first time you slide a creature on a turn, you gain 1 surge.                                                                                                                                                                 |
+| 6               | You gain an edge on Agility tests and the Knockback maneuver.                                                                                                                                                                    |
+| 8 (4th level)   | The first time you slide a creature on a turn, you gain 2 surges.                                                                                                                                                                |
+| 10 (7th level)  | You have a double edge on Agility tests and the Knockback maneuver.                                                                                                                                                              |
+| 12 (10th level) | Whenever you use a heroic ability, you gain 10 temporary Stamina. Additionally, whenever you make a power roll that imposes forced movement on a target, the forced movement distance gains a bonus equal to your Agility score. |
 
 #### 1st-Level Aspect Features
 
 Your primordial aspect grants you two features, as shown on the 1st-Level Aspect Features table.
 
-#### **1st-Level Aspect Features**
+###### 1st-Level Aspect Features Tables
 
 | Aspect     | Feature                        |
 |------------|--------------------------------|
@@ -120,27 +121,27 @@ Your primordial aspect grants you two features, as shown on the 1st-Level Aspect
 | Reaver     | Kit, Primordial Cunning        |
 | Stormwight | Beast Shape, Relentless Hunter |
 
-#### Beast Shape
+##### Beast Shape
 
 You can use and gain the benefits of a stormwight kit (see Stormwight Kits). Your stormwight kit grants you a number of benefits, including benefits tied to your Growing Ferocity feature.
 
-#### Kit
+##### Kit
 
 You can use and gain the benefits of a kit. See Chapter 6: Kits for more information. (*Quick Build:* Panther.)
 
-#### Primordial Cunning
+##### Primordial Cunning
 
 You are never surprised. Additionally, whenever you would push a target with forced movement, you can slide them instead.
 
 As your ferocity grows, you gain benefits as noted on the Reaver Growing Ferocity table. Benefits are cumulative except where an improved benefit replaces a lesser benefit.
 
-#### Primordial Strength
+##### Primordial Strength
 
 Whenever you damage an object with a weapon strike, the strike deals extra damage equal to your Might score. Additionally, whenever you push another creature into an object, the creature takes extra damage equal to your Might score.
 
 As your ferocity grows, you gain benefits as noted on the Berserker Growing Ferocity table. Benefits are cumulative except where an improved benefit replaces a lesser benefit.
 
-#### Relentless Hunter
+##### Relentless Hunter
 
 You gain an edge on tests made using the Track skill.
 
@@ -148,16 +149,21 @@ You gain an edge on tests made using the Track skill.
 
 Your primordial aspect grants you a triggered action, as shown on the Aspect Triggered Actions table.
 
-| Aspect Triggered Actions |                    |
-|--------------------------|--------------------|
+###### Aspect Triggered Actions Table
+
 | Aspect                   | Triggered Action   |
+|--------------------------|--------------------|
 | Berserker                | Lines of Force     |
 | Reaver                   | Unearthly Reflexes |
 | Stormwight               | Furious Change     |
 
-#### Furious Change
+######## Furious Change
 
 *In your anger, you revert to a more bestial form.*
+
+| **-**            |    **Triggered** |
+|------------------|-----------------:|
+| **📏 Ranged 10** | **🎯 One enemy** |
 
 **Trigger:** You lose Stamina and are not dying.
 
@@ -165,11 +171,11 @@ Your primordial aspect grants you a triggered action, as shown on the Aspect Tri
 
 **Spend 1 Ferocity:** If you are not dying, you can spend a Recovery.
 
-#### **Lines of Force**
+######## Lines of Force
 
-| **Magic, Melee** | **Triggered** |
-| ----------------------------------|------------------------------------------|
-| Melee 1 | Self or one creature |
+| **Magic, Melee** |               **Triggered** |
+|------------------|----------------------------:|
+| **📏 Melee 1**   | **🎯 Self or one creature** |
 
 **Trigger:** The target would be force moved.
 
@@ -177,17 +183,20 @@ Your primordial aspect grants you a triggered action, as shown on the Aspect Tri
 
 **Spend 1 Ferocity:** The forced movement distance gains a bonus equal to twice your Might score instead.
 
-#### **Unearthly Reflexes**
+######## Unearthly Reflexes
 
 *You are as elusive as a hummingbird.*
+
+| **-**       | **Triggered** |
+|-------------|--------------:|
+| **📏 Self** |    **🎯 Self** |
+
 
 **Trigger:** You take damage.
 
 **Effect:** You take half the damage from the triggering effect and can shift up to a number of squares equal to your Agility score.
 
 **Spend 1 Ferocity:** If the damage has any potency effects associated with it, the potency is reduced by 1 for you.
-
-## Fury
 
 #### Mighty Leaps
 
@@ -197,69 +206,75 @@ You can't obtain lower than a tier 2 outcome on any Might test made to jump (see
 
 You specialize in dealing massive damage on the battlefield, and have mastered unique martial abilities that allow you to strike hard and keep moving.
 
-## Signature Ability
+##### Signature Ability
 
 Choose one signature ability from the following options. Signature abilities can be used at will. (*Quick Build:* To the Death!)
 
-#### Brutal Slam
+######## Brutal Slam
 
-| **The heavy impact of your weapon attacks drives your foes ever back.* **Melee, Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Melee 1** | **🎯 One creature or object Power Roll + Might**:**** |
+*The heavy impact of your weapon attacks drives your foes ever back.*
+
+| **Melee, Strike, Weapon** |                **Main action** |
+|---------------------------|-------------------------------:|
+| **📏 Melee 1**            |  **🎯 One creature or object** |
+
+**Power Roll + Might:**
 
 - **≤11:** 3 + M damage; push 1
 - **12-16:** 6 + M damage; push 2
-- **17+:** 9 + Mdamage; push 4
+- **17+:** 9 + M damage; push 4
 
-#### Hit and Run
+######## Hit and Run
 
 *Staying in constant motion helps you slip out of reach after a brutal assault.*
 
-| **Melee, Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Melee 1** | **🎯 One creature or object** |
-
-
+| **Melee, Strike, Weapon** |               **Main action** |
+|---------------------------|------------------------------:|
+| **📏 Melee 1**            | **🎯 One creature or object** |
 
 **Power Roll + Might:**
 
 - **≤11:** 2 + M damage
 - **12-16:** 5 + M damage
-- **17+:** 7 + Mdamage; A < STRONG, slowed (save ends)
+- **17+:** 7 + M damage; A < STRONG, slowed (save ends)
 
 **Effect:** You can shift 1 square.
 
-#### Impaled!
+######## Impaled!
 
-| **You skewer your enemy like a boar upon a spit.* **Melee, Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Melee 1** | **🎯 One creature of your size or smaller** |
+*You skewer your enemy like a boar upon a spit.*
 
-Power Roll + Might:
+| **Melee, Strike, Weapon** |                             **Main action** |
+|---------------------------|--------------------------------------------:|
+| **📏 Melee 1**            | **🎯 One creature of your size or smaller** |
+
+**Power Roll + Might:**
 
 - **≤11:** 2 + M damage; M < WEAK, grabbed
 - **12-16:** 5 + M damage; M < AVERAGE, grabbed
-- **17+:** 7 + Mdamage; M < STRONG, grabbed
+- **17+:** 7 + M damage; M < STRONG, grabbed
 
-#### To the Death!
+######## To the Death!
 
-| **Your reckless assault leaves you tactically vulnerable.* **Melee, Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Melee 1** | **🎯 One creature or object Power Roll + Might**:**
+*Your reckless assault leaves you tactically vulnerable.*
 
-- **≤11:** 3 + M damage** |
+| **Melee, Strike, Weapon** |               **Main action** |
+|---------------------------|------------------------------:|
+| **📏 Melee 1**            | **🎯 One creature or object** |
 
-##
+**Power Roll + Might:**
+
+- **≤11:** 3 + M damage**
 - **12-16:** 6 + M damage
-- **17+:** 9 + Mdamage
+- **17+:** 9 + M damage
 
 **Effect:** You gain 2 surges, and the target can make an opportunity attack against you as a free triggered action.
 
-## Heroic Abilities
+##### Heroic Abilities
 
 You fight with an array of heroic abilities, all of which cost ferocity to fuel them.
 
-#### 3-Ferocity Ability
+###### 3-Ferocity Ability
 
 Choose one heroic ability from the following options, each of which costs 3 ferocity to use. (*Quick Build:* Back!)
 
@@ -267,11 +282,9 @@ Choose one heroic ability from the following options, each of which costs 3 fero
 
 *You hew about you with your mighty weapon, hurling enemies backward.*
 
-| **Area, Melee, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 1 burst** | **🎯 Each enemy in the area** |
-
-
+| **Area, Melee, Weapon** |               **Main action** |
+|-------------------------|------------------------------:|
+| **📏 1 burst**          | **🎯 Each enemy in the area** |
 
 **Power Roll + Might:**
 
@@ -283,17 +296,15 @@ Choose one heroic ability from the following options, each of which costs 3 fero
 
 *Your enemies will clear your path—whether they want to or not.*
 
-| **Melee, Strike, Weapon**        | **Main action**                       |
-|-------------------------------------|------------------------------------------|
-| Melee 1 | One creature |
-
-
+| **Melee, Strike, Weapon** |     **Main action** |
+|---------------------------|--------------------:|
+| **📏 Melee 1**            | **🎯 One creature** |
 
 **Power Roll + Might:**
 
 - **≤11:** 3 + M damage; slide 2
 - **12-16:** 5 + M damage; slide 3
-- **17+:** 8 + Mdamage; slide 5
+- **17+:** 8 + M damage; slide 5
 
 **Effect:** When you slide the target, you can move into any square they leave. If you take damage from an opportunity attack by moving this way, the target takes the same damage.
 
@@ -301,13 +312,11 @@ Choose one heroic ability from the following options, each of which costs 3 fero
 
 *Teach them the folly of lining up for you.*
 
-| **Melee, Weapon** | **Main action** |
-| --------------------------------------|----------------------------------|
-| Self; see below | Self |
+| **Melee, Weapon**      | **Main action** |
+|------------------------|----------------:|
+| **📏 Self; see below** |     **🎯 Self** |
 
 **Effect:** You move up to your speed in a straight line, and enemy squares are not difficult terrain for this movement. You can end this movement in a creature's space and move them to an adjacent unoccupied space. You make one power roll that targets each enemy whose space you move through.
-
-
 
 **Power Roll + Might:**
 
@@ -321,92 +330,121 @@ Choose one heroic ability from the following options, each of which costs 3 fero
 
 *Hard for them to fight when they're busy holding in their giblets.*
 
-| **Melee, Strike, Weapon** | **Main action** |
-| ---------------------------|-------------------------------------------|
-| Melee 1 | One creature or object |
-
-
+| **Melee, Strike, Weapon** |               **Main action** |
+|---------------------------|------------------------------:|
+| **📏 Melee 1**            | **🎯 One creature or object** |
 
 **Power Roll + Might:**
 
 - **≤11:** 3 + M damage; M < WEAK, bleeding (save ends)
 - **12-16:** 5 + M damage; M < AVERAGE, bleeding (save ends)
-- **17+:** 8 + Mdamage; M < STRONG, bleeding (save ends)
+- **17+:** 8 + M damage; M < STRONG, bleeding (save ends)
 
 **Effect:** While bleeding this way, the target takes damage equal to your Might score at the end of each of your turns.
 
-#### **5-Ferocity Ability**
+###### 5-Ferocity Ability
 
 Choose one heroic ability from the following options, each of which costs 5 ferocity to use. (*Quick Build:* Blood for Blood!)
 
-| Blood for Blood! (5 Ferocity)                                                                                                                                       |                                         |                                                                                                                                              |                                                                          |  |  |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|--|--|
-| See how well they fight after you've bled them dry. Melee, Strike, Weapon                                                                                        | Main action                             | Chapter 7: Perks.                                                                                                                            | You gain one crafting, exploration, or intrigue perk of your choice. See |  |  |
-| e Melee 1 Power Roll + Might:                                                                                                                                    | x One creature or object                | 2nd-Level Aspect Feature                                                                                                                     |                                                                          |  |  |
-|
+######## Blood for Blood! (5 Ferocity)
 
-- **≤11:**  4 + M damage; M <w (save="" ,="" and="" bleeding="" ends)<br="" weakened="">
-- **12-16:** <br/>6 + M damage; M < AVERAGE,="" and="" bleeding="" weakened<br="">(save ends)</v></w> |                                         | Your primordial aspect grants you a feature, as shown on the 2nd-Level Aspect Features table.                                             |                                                                          |  |  |
-|
-- **17+:**  10 + Mdamage; M < STRONG,="" and="" bleeding="" td="" weakened<=""><td></td><td></td><td>2nd-Level Aspect Features</td></s>                                         |                                         |                                                                                                                                              | 2nd-Level Aspect Features                                                |  |  |
-| (save ends)                                                                                                                                                         |                                         | Aspect                                                                                                                                       | Feature                                                                  |  |  |
-| Effect: You can deal 1d6 damage to yourself to deal an extra 1d6                                                                                                    |                                         | Berserker                                                                                                                                    | Unstoppable Force                                                        |  |  |
-| damage to the target.                                                                                                                                               |                                         | Reaver                                                                                                                                       | Inescapable Wrath                                                        |  |  |
-| Make Peace With Your God! (5 Ferocity) Anger is your energy.                                                                                                     |                                         | Stormwight                                                                                                                                   | Tooth and Claw                                                           |  |  |
+*See how well they fight after you've bled them dry.*
 
-| **—** | **Free maneuver** |
+| **Melee, Strike, Weapon**   |               **Main action** |
+|-----------------------------|------------------------------:|
+| **📏 Melee 1**              | **🎯 One creature or object** |
 
-| e Self                                                                                                                                                              | x Self                                  |                                                                                                                                              | Inescapable Wrath                                                        |  |  |
-| Effect: You gain 1 surge, and the next ability roll you make this turn automatically obtains a tier 3 outcome.                                                   |                                         | You have a bonus to speed equal to your Agility score, and you ignore difficult terrain.                                                  |                                                                          |  |  |
-| Thunder Roar (5 Ferocity)                                                                                                                                           |                                         | Tooth and Claw                                                                                                                               |                                                                          |  |  |
-| You unleash a howl that hurls your enemies back.                                                                                                                    |                                         | At the end of each of your turns, each enemy adjacent to you takes                                                                           |                                                                          |  |  |
-| Area, Melee, Weapon e 5 × 1 line within 1                                                                                                                        | Main action x Each enemy in the area |                                                                                                                                              | damage equal to your Might score.                                        |  |  |
-|                                                                                                                                                                     |                                         |                                                                                                                                              | Unstoppable Force                                                        |  |  |
-| Power Roll + Might: 
+**Power Roll + Might:**
 
-- **≤11:**                                                                                                                                            |                                         | Whenever you use the Charge main action, you can use a strike signature ability or a strike heroic ability instead of a free strike. Addi |                                                                          |  |  |
-| 6 damage; push 2 
-- **12-16:**  9 damage; push 4                                                                                                                           |                                         |                                                                                                                                              |                                                                          |  |  |
-|
-- **17+:**  13 damage; push 6                                                                                                                                              |                                         |                                                                                                                                              | tionally, you can jump as part of your charge.                           |  |  |
-| Effect: The targets are force moved one at a time, starting with the                                                                                                |                                         |                                                                                                                                              | 2nd-Level Aspect Ability                                                 |  |  |
-| target nearest to you, and can be pushed into other targets in the same line.                                                                                    |                                         | Your primordial aspect grants your choice of one of two heroic abilities.                                                                    |                                                                          |  |  |
-| To the Uttermost End (5 Ferocity)                                                                                                                                   |                                         |                                                                                                                                              | 2nd-Level Berserker Ability                                              |  |  |
-| You gut your life force to ensure a foe's demise.                                                                                                                   |                                         |                                                                                                                                              | Choose one of the following abilities.                                   |  |  |
-| Melee, Strike, Weapon                                                                                                                                               | Main action                             |                                                                                                                                              | Special Delivery (5 Ferocity)                                            |  |  |
-| e Melee 1                                                                                                                                                           | x One creature                          | You ready?                                                                                                                                   |                                                                          |  |  |
+- **≤11:** 4 + M damage; M < WEAK, bleeding and weakened (save ends)
+- **12-16:** 6 + M damage; M < AVERAGE, bleeding and weakened (save ends) 
+- **17+:** 10 + M damage; M < STRONG, bleeding and weakened (save ends)
 
-| **Power Roll + Might:                                                                                                                                                 |                                         | Melee, Weapon** | **Maneuver** |
+**Effect:** You can deal 1d6 damage to yourself to deal an extra 1d6 damage to the target.
 
-|
+######## Make Peace With Your God! (5 Ferocity)
 
-- **≤11:**  7 + M damage                                                                                                                                                   |                                         | e Melee 1                                                                                                                                    | x One willing ally                                                       |  |  |
-|
-- **12-16:**  11 + M damage                                                                                                                                                  |                                         |                                                                                                                                              | Effect: You vertically push the target up to 4 squares. This forced      |  |  |
-|
-- **17+:**  16 + Mdamage                                                                                                                                                   |                                         | movement ignores the target's stability, and the target takes no                                                                             |                                                                          |  |  |
+*Anger is your energy.*
 
+| **-**       | **Free maneuver** |
+|-------------|------------------:|
+| **📏 Self** |       **🎯 Self** |
+
+**Effect:** You gain 1 surge, and the next ability roll you make this turn automatically obtains a tier 3 outcome.
+
+######## Thunder Roar (5 Ferocity)
+
+*You unleash a howl that hurls your enemies back.*
+
+| **Area, Melee, Weapon**  |               **Main action** |
+|--------------------------|------------------------------:|
+| **📏 5x1 line within 1** | **🎯 Each enemy in the area** |
+
+**Effect:** The targets are force moved one at a time, starting with the target nearest to you, and can be pushed into other targets in the same line.
+
+######## To the Uttermost End (5 Ferocity)
+
+*You gut your life force to ensure a foe's demise.*
+
+| **Melee, Strike, Weapon** |     **Main action** |
+|---------------------------|--------------------:|
+| **📏 Melee 1**            | **🎯 One creature** |
+
+**Power Roll + Might:**
+
+- **≤11:** 7 + M damage
+- **12-16:** 11 + M damage
+- **17+:** 16 + M damage
+  
 **Spend 1+ Ferocity:** While you are winded, this ability deals an extra 1d6 damage for each ferocity spent. While you are dying, it deals an extra 1d10 damage for each ferocity spent. In either case, you lose 1d6 Stamina after making this strike.
 
-## 2nd-Level Features
+### 2nd-Level Features
 
 As a 2nd-level fury, you gain the following features.
 
 #### Perk
 
-You gain one crafting, exploration, or intrigue perk of your choice. See
+You gain one crafting, exploration, or intrigue perk of your choice. See [Chapter 7: Perks](#dead-link)
 
-Your primordial aspect grants you a feature, as shown on the 2nd-Level
+#### 2nd-Level Aspect Feature
+
+Your primordial aspect grants you a feature, as shown on the 2nd-Level Aspect Features table.
+
+###### 2nd-Level Aspect Features Table
+
+| Aspect     | Feature           |
+|------------|-------------------|
+| Berserker  | Unstoppable Force |
+| Reaver     | Inescapable Wrath |
+| Stormwight | Tooth and Claw    |
+
+##### Inescapable Wrath
+
+You have a bonus to speed equal to your Agility score, and you ignore difficult terrain.
+
+##### Tooth and Claw
+
+At the end of each of your turns, each enemy adjacent to you takes damage equal to your Might score.
+
+##### Unstoppable Force
+
+Whenever you use the Charge main action, you can use a strike signature ability or a strike heroic ability instead of a free strike. Additionally, you can jump as part of your charge.
+
+### 2nd-Level Aspect Ability
 
 Your primordial aspect grants your choice of one of two heroic abilities.
 
-| Special Delivery (5 Ferocity)    |                                    |
-|----------------------------------|------------------------------------|
-| <i>You ready?</i>                |                                    |
+##### 2nd-Level Berserker Ability                                           
 
-| **Melee, Weapon** | **Maneuver** |
+Choose one of the following abilities.
 
-| Melee 1 | One willing ally |
+######## Special Delivery (5 Ferocity)
+
+*You ready?*
+
+| **Melee, Weapon** |            **Maneuver** |
+|-------------------|------------------------:|
+| **📏 Melee 1**    | **🎯 One willing ally** |
 
 **Effect:** You vertically push the target up to 4 squares. This forced movement ignores the target's stability, and the target takes no damage from colliding with creatures or objects. At the end of this movement, the target can make a free strike that deals extra damage equal to your Might score.
 
@@ -414,39 +452,70 @@ Your primordial aspect grants your choice of one of two heroic abilities.
 
 *It's easier to destroy than to create. Much easier, in fact!*
 
-| **Melee, Weapon** | **Maneuver** |
-
-e Self; see below x Self
-
-**Maneuver**
-
-![target icon](icon) Self
+| **Melee, Weapon**      | **Maneuver** |
+|------------------------|-------------:|
+| **📏 Self; see below** |  **🎯 Self** |
 
 **Effect:** You move up to your speed in a straight line. During this movement, you can move through mundane structures, including walls, which are difficult terrain for you. You automatically destroy each square of structure you move through and leave behind a square of difficult terrain.
-
 Additionally, you make one power roll that targets each enemy you move adjacent to during this movement.
 
-#### Power Roll + Might:
+**Power Roll + Might:**
 
 - **≤11:** Push 1
 - **12-16:** Push 2
 - **17+:** Push 3
 
-## 2nd-Level Reaver Ability
+##### 2nd-Level Reaver Ability
 
 Choose one of the following abilities.
 
-|######## Death … Death! (5 Ferocity) <i>Your unbridled rage strikes terror in their hearts.</i>  **Melee, Strike, Weapon** <span style="float:right;">Main action<br/>🕒 One creature</span> <span>⚔️ Melee 1</span>  **Power Roll + Might:** ≤11: 3 + M damage; P<WEAK> , dazed and frightened (save ends) 12–16: 5 + M damage; P<AVERAGE> , dazed and frightened (save ends) 17+: 8 + M damage; P<STRONG> , dazed and frightened (save ends)                                                                                               |                                                                                                     |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
-|######## Phalanx-Breaker (5 Ferocity) <i>Organizing your forces like feckless creatures of Law. Pitiful.</i>  **Melee, Weapon** <span style="float:right;">Main action<br/>🕒 Self</span> <span>⚔️ Self; see below</span>  **Effect:** You shift up to your speed and make one power roll that targets up to three enemies you move adjacent to during this shift.  **Power Roll + Might:** ≤11: 2 damage; A<WEAK> , dazed (save ends) 12–16: 4 damage; A<AVERAGE> , dazed (save ends) 17+: 6 damage; A<STRONG> , dazed (save ends) |                                                                                                     |
-| **2ND-LEVEL STORMWIGHT ABILITY** Choose one of the following abilities.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |                                                                                                     |
+######## Death … Death! (5 Ferocity)
 
-| **Area, Magic** | **Main action** |
+*Your unbridled rage strikes terror in their hearts.*
 
-| Image: triangle with 2 ("2 burst")                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | ("Each enemy in the area")                                                       |
-| ≤11                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | 2 damage; push 1; <b style="background:black;color:white;">M&lt;WEAK&gt;** , dazed (save ends)    |
-| 12–16                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | 5 damage; push 2; <b style="background:black;color:white;">M&lt;AVERAGE&gt;** , dazed (save ends) |
-| 17+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | 7 damage; push 3; <b style="background:black;color:white;">M&lt;STRONG&gt;** , dazed (save ends)  |
+| **Melee, Strike, Weapon** |     **Main action** |
+|---------------------------|--------------------:|
+| **📏 Melee 1**            | **🎯 One creature** |
+
+ **Power Roll + Might:**
+ 
+- **≤11:** 3 + M damage; P < WEAK, dazed and frightened (save ends) 
+- **12-16:** 5 + M damage; P < AVERAGE, dazed and frightened (save ends) 
+- **17+:** 8 + M damage; P < STRONG, dazed and frightened (save ends)
+
+######## Phalanx-Breaker (5 Ferocity)
+
+*Organizing your forces like feckless creatures of Law. Pitiful.*
+
+| **Melee, Weapon**      | **Main action** |
+|------------------------|----------------:|
+| **📏 Self; see below** |     **🎯 Self** |
+
+**Effect:** You shift up to your speed and make one power roll that targets up to three enemies you move adjacent to during this shift.  
+
+**Power Roll + Might:** 
+
+- **≤11:** 2 damage; A < WEAK, dazed (save ends) 
+- **12-16:** 4 damage; A < AVERAGE, dazed (save ends) 
+- **17+:** 6 damage; A < STRONG, dazed (save ends)
+
+##### 2nd-Level Stormwight Ability
+
+Choose one of the following abilities.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |                                                                                                     |
+
+######## Apex Predator
+
+*I will hunt you down.*
+
+| **Melee, Strike, Weapon** |     **Main action** |
+|---------------------------|--------------------:|
+| **📏 Melee 1**            | **🎯 One creature** |
+
+**Power Roll + Might:**
+
+- **≤11:** 4 damage; I < WEAK, slowed (save ends)
+- **12-16:** 6 damage; I < AVERAGE, slowed (save ends)
+- **17+:** 10 damage; I < STRONG, slowed (save ends)
 
 **Effect:** The target can't be hidden from you for 24 hours. Until the end of the encounter, whenever the target willingly moves, you can use a free triggered action to move.
 
@@ -454,11 +523,19 @@ Choose one of the following abilities.
 
 *The sound of the storm within you staggers your opponents.*
 
-#### Power Roll + Might:
+| **Area, Magic** |               **Main action** |
+|-----------------|------------------------------:|
+| **📏 2 burst**  | **🎯 Each enemy in the area** |
+
+**Power Roll + Might:**
+
+- **≤11:** 2 damage; push 1; M < WEAK, dazed (save ends)
+- **12-16:** 5 damage; push 2; M < AVERAGE, dazed (save ends)
+- **17+:** 7 damage; push 3; M < STRONG, dazed (save ends)
 
 **Effect:** This ability deals your primordial damage type (see Stormwight Kits).
 
-## 3rd-Level Features
+### 3rd-Level Features
 
 As a 3rd-level fury, you gain the following features.
 
@@ -466,26 +543,27 @@ As a 3rd-level fury, you gain the following features.
 
 Your primordial aspect grants you a feature, as shown on the 3rd-Level Aspect Features table.
 
-| 3rd-Level Aspect Features |                          |
-|---------------------------|--------------------------|
+###### 3rd-Level Aspect Features Table
+
 | Aspect                    | Feature                  |
+|---------------------------|--------------------------|
 | Berserker                 | Immovable Object         |
 | Reaver                    | See Through Their Tricks |
 | Stormwight                | Nature’s Knight          |
 
-## Immovable Object
+##### Immovable Object
 
 You add your level to your effective size for the purpose of interacting with creatures and objects, including determining whether you can lift an object, are affected by forced movement, and so forth. This has no effect on whether you can be grabbed.
 
 Additionally, you have a bonus to stability equal to your Might score.
 
-## Nature's Knight
+##### Nature's Knight
 
 You can speak with animals and elementals. Additionally, you automatically sense the presence of animals and elementals within 10 squares of you, even if they are hidden.
 
 When you are in a negotiation with an animal or elemental, you treat your Renown as 1 higher than usual. This stacks with the increase to your effective Renown in a negotiation with an animal of your type while in animal form (see Stormwight Kits).
 
-## See Through Their Tricks
+##### See Through Their Tricks
 
 You have a double edge on tests made to search for hidden creatures, discern hidden motives, or detect lies. You also have a double edge on tests made to gamble!
 
@@ -497,21 +575,21 @@ Choose one heroic ability from the following options, each of which costs 7 fero
 
 *Foes tremble at the sight of you.*
 
-**Magic**
+| **Magic**   | **Maneuver** |
+|-------------|-------------:|
+| **📏 Self** |  **🎯 Self** |
 
-| **Magic** | **Maneuver** |
-| --- | ---:|
-| **📏 Self** | **🎯 Self** |
-
-**Effect:** Until the end of the encounter or until you are dying, each enemy who starts their turn adjacent to you and has p<s is frightened until the end of their turn.
+**Effect:** Until the end of the encounter or until you are dying, each enemy who starts their turn adjacent to you and has P < STRONG is frightened until the end of their turn.
 
 ######## Face the Storm! (7 Ferocity)
 
-| **Shocked in the face of your naked brutality, your enemy's instincts take over.* **Magic** | **Maneuver** |
-| --- | ---:|
-| **📏 Self** | **🎯 Self** |
+*Shocked in the face of your naked brutality, your enemy's instincts take over.*
 
-**Effect:** Until the end of the encounter or until you are dying, each creature you make a melee strike against who has p<v is taunted until the end of their next turn. Additionally, when you use an ability that deals rolled damage against any enemy taunted by you, the ability deals extra damage equal to twice your Might score and increases its potency by 1.
+| **Magic**   | **Maneuver** |
+|-------------|-------------:|
+| **📏 Self** |  **🎯 Self** |
+
+**Effect:** Until the end of the encounter or until you are dying, each creature you make a melee strike against who has P < AVERAGE is taunted until the end of their next turn. Additionally, when you use an ability that deals rolled damage against any enemy taunted by you, the ability deals extra damage equal to twice your Might score and increases its potency by 1.
 
 ######## Steelbreaker (7 Ferocity)
 
@@ -610,7 +688,7 @@ Choose one heroic ability from the following options, each of which costs 9 fero
 
 - **≤11:** 10 + M damage; M < WEAK, slowed (save ends)
 - **12-16:** 14 + M damage; M < AVERAGE, slowed (save ends)
-- **17+:** 20 + Mdamage; M < STRONG, slowed (save ends)
+- **17+:** 20 + M damage; M < STRONG, slowed (save ends)
 
 **Effect:** While slowed this way, the target takes 1 damage for every square they move, including from forced movement.
 
@@ -734,7 +812,7 @@ Choose one of the following abilities.
 
 - **≤11:** 7 + M damage; push 3
 - **12-16:** 11 + M damage; push 5
-- **17+:** 16 + Mdamage; push 7
+- **17+:** 16 + M damage; push 7
 
 **Effect:** When the target ends this forced movement, each creature within 2 squares of the target is pushed 3 squares.
 
@@ -766,7 +844,7 @@ Power Roll + Might:
 
 - **≤11:** 4 + M damage; P < WEAK, frightened (save ends)
 - **12-16:** 6 + M damage; P < AVERAGE, frightened (save ends)
-- **17+:** 10 + Mdamage; P < STRONG, frightened (save ends)
+- **17+:** 10 + M damage; P < STRONG, frightened (save ends)
 
 **Effect:** If a target who is not a leader or solo creature is winded by this strike, they are reduced to 0 Stamina and you choose an enemy within 5 squares of you. If that enemy has P < AVERAGE, they are frightened of you (save ends).
 
@@ -982,7 +1060,7 @@ Choose one of the following abilities.
 |-------|----------------------|
 | 12–16 | 16 + **M** damage |
 |       |                      |
-- **17+:** 21 + Mdamage
+- **17+:** 21 + M damage
 
 **Effect:** Choose acid, cold, corruption, fire, lightning, poison, or sonic damage. The target loses any damage immunity to the chosen type and gains weakness 10 to the chosen type (save ends).
 
@@ -998,7 +1076,7 @@ Choose one of the following abilities.
 
 - **≤11:** 12 + M damage
 - **12-16:** 18 + M damage
-- **17+:** 24 + Mdamage
+- **17+:** 24 + M damage
 
 **Effect:** Each enemy within 5 squares of you is distracted until the end of the round. While a creature is distracted this way, they can't take triggered actions or free triggered actions, ability rolls made against them gain an edge, and their characteristic scores are considered 1 lower for the purpose of resisting potencies.
 
