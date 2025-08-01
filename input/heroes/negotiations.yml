@@ -5,4 +5,4 @@ global:
 sections:
   - header_path: "negotiation/list-of-motivations-and-pitfalls"
     file_dpath: 'Negotiation/Motivations and Pitfalls'
-    xpath: "//section[@id='list-of-motivations-and-pitfalls']//section[@class='level6']"
+    xpath: "//section[@id='list-of-motivations-and-pitfalls']//section[@class='level5']"

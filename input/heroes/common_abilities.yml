@@ -4,13 +4,13 @@ global:
   type: common_ability
 sections:
   - header_path: combat/maneuvers
-    xpath: "//section[@id='combat']//section[@id='maneuvers']//section[@class='level5']"
+    xpath: "//section[@id='combat']//section[@id='maneuvers']//section[@class='level4']"
     type: "common_ability/maneuver"
 
   - header_path: combat/main-actions
-    xpath: "//section[@id='combat']//section[@id='main-actions']//section[@class='level5']"
+    xpath: "//section[@id='combat']//section[@id='main-actions']//section[@class='level4']"
     type: "common_ability/main_action"
 
   - header_path: combat/move-actions
-    xpath: "//section[@id='combat']//section[@id='move-actions']//section[@class='level5']"
+    xpath: "//section[@id='combat']//section[@id='move-actions']//section[@class='level4']"
     type: "common_ability/move_action"
