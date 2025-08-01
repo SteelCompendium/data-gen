@@ -50,13 +50,13 @@ When you make a project roll using a skill from the crafting skill group, you ca
 
 On any day when you don't take a respite, you can spend 1 uninterrupted hour working on a crafting project using a skill you have from the crafting skill group. If you do so, you gain 1d10 project points toward that project.
 
-> **Perks and Tests**
-> 
-> The existence of specific perks doesn't mean that a hero can't attempt the task related to a perk without having that perk. Aside from supernatural perks, a Director can always allow a hero to attempt a mundane task mentioned in a perk by making a test. Perks are special because they allow a hero to attempt a specific task without a test, and often give a better result than a successful test—or even a test with a reward would give.
-> 
-> For example, can a hero catch a falling ally if they don't have the I've Got You perk? A Director can absolutely allow it, but might decide that the hero needs to succeed on a Might test to accomplish the task, using a main action or maneuver to prepare for it. Being able to catch an ally automatically as a free triggered action is what the perk gets you!
+#### Perks and Tests
 
-### Exploration Perks
+The existence of specific perks doesn't mean that a hero can't attempt the task related to a perk without having that perk. Aside from supernatural perks, a Director can always allow a hero to attempt a mundane task mentioned in a perk by making a test. Perks are special because they allow a hero to attempt a specific task without a test, and often give a better result than a successful test—or even a test with a reward would give.
+
+For example, can a hero catch a falling ally if they don't have the I've Got You perk? A Director can absolutely allow it, but might decide that the hero needs to succeed on a Might test to accomplish the task, using a main action or maneuver to prepare for it. Being able to catch an ally automatically as a free triggered action is what the perk gets you!
+
+## Exploration Perks
 
 This section presents exploration perks in alphabetical order.
 
@@ -100,7 +100,7 @@ When you take your first turn during any montage test, you can both make a test 
 
 When you make a test using a skill from the exploration skill group and at least one of the d10s rolled is a 1, you can reroll one d10. You can use this perk only once per test.
 
-### Interpersonal Perks
+## Interpersonal Perks
 
 This section presents interpersonal perks in alphabetical order.
 
@@ -111,6 +111,8 @@ If you fail a test using the Lie skill, you don't suffer any consequences associ
 #### Dazzler
 
 Whenever a creature watches you sing, dance, or perform a role (as an actor, not just in disguise) for 1 uninterrupted minute or more, you gain an edge on any test made to influence that creature for 1 hour after the performance ends.
+
+# Perks
 
 #### Engrossing Monologue
 
@@ -144,7 +146,7 @@ Whenever you succeed on a Presence test to influence one or more creatures, you 
 
 Whenever you make a test to read a person and obtain a tier 3 outcome, you notice several tells that give away their true feelings. Any test you make to read that person in the future gains an edge.
 
-### Intrigue Perks
+## Intrigue Perks
 
 This section presents intrigue perks in alphabetical order.
 
@@ -172,7 +174,7 @@ You can don or remove a disguise as part of any test you make using the Hide ski
 
 You gain an edge on tests made to escape bonds. Given 1 uninterrupted minute, you can escape any mundane bonds without making a test. Additionally, it's not immediately obvious when you've escaped bonds until you do something that makes it clear you have done so (cast them off, use an ability that harms one or more creatures, and so forth).
 
-### Lore Perks
+## Lore Perks
 
 This section presents lore perks in alphabetical order.
 
@@ -214,7 +216,7 @@ You are a leading expert on a particular subject. Choose one skill you have from
 
 On any day when you don't take a respite, you can spend 1 uninterrupted hour working on a research project using a skill you have from the lore skill group. If you do so, you gain 1d10 project points toward that project.
 
-### Supernatural Perks
+## Supernatural Perks
 
 This section presents supernatural perks in alphabetical order.
 
@@ -222,15 +224,14 @@ This section presents supernatural perks in alphabetical order.
 
 You have the following ability.
 
-######## Arcane Trick
+#### Arcane Trick
 
 *You cast an entertaining spell that creates a minor but impressive magical effect.*
 
-| **Magic**              | **Main Action** |
-|------------------------|----------------:|
-| **📏 Self; see below** |     **🎯 Self** |
+**Magic Main action** eSelf; see below xSelf
 
 **Effect:** Choose one of the following effects:
+
 - You teleport a size 1S or smaller object adjacent to you into an unoccupied space adjacent to you.
 - Until the start of your next turn, a part of your body shoots a shower of harmless noisy sparks that light up each square adjacent to you.
 - You ignite or snuff out (your choice) every mundane light source of 1L or smaller adjacent to you.
@@ -253,24 +254,6 @@ The familiar can hold small objects in their mouth or claws, but can't perform a
 
 If your familiar is destroyed, you can restore them as a respite activity, or by spending a Recovery as a main action to bring them back into existence in an unoccupied space adjacent to you.
 
-###### Familiar Statblock
-
-| **Familiar**               | Level - -           |
-|:---------------------------|:--------------------|
-| **Ancestry:** Familiar     | **EV:** -           |
-| **Stamina:** 2x your level | **Immunity:** -     |
-| **Speed:** 5               | **Weakness:** -     |
-| **Movement:** -            | **With Captain:** - |
-| **Might:** -3              | **Free Strike:** 5  |
-| **Agility:** +2            | **Melee:** -        |
-| **Reason:** 0              | **Ranged:** -       |
-| **Intuition:** 0           | **Size:** 1T        |
-| **Presence:** +1           | **Stability:** 0    |
-
-**Telepathic**
-
-While you and your familiar are within 10 squares of each other, you can communicate telepathically and share each other’s senses. While sharing senses, each of you also benefits from your own senses at the same time.
-
 #### Invisible Force
 
 You have the following ability.
@@ -279,9 +262,13 @@ You have the following ability.
 
 *You manipulate a tiny object with your mind.*
 
-| **Psionic, Ranged** |              **Maneuver** |
-|---------------------|--------------------------:|
-| **📏 Ranged 10**    | **🎯 One size 1T object** |
+**Psionic, Rang**
+
+![ruler icon] Ranged 10
+
+| **Psionic, Ranged** | **Maneuver** |
+| --- | ---:|
+| **📏 Ranged 10** | **🎯 One size 1T object** |
 
 **Effect:** You can grab or manipulate the target object with your mind, moving the object up to a number of squares equal to your Reason, Intuition, or Presence score (your choice). You can use this ability to turn doorknobs, pull levers, and so forth. You can manipulate any small movable piece of a larger object as long as the piece is unattended and size 1T. You can't use this ability to break a smaller piece off a larger object.
 
@@ -293,9 +280,9 @@ You have the following ability.
 
 *You send a one-way telepathic message to a friend.*
 
-| **Psionic, Ranged** |    **Maneuver** |
-|---------------------|----------------:|
-| **📏 Ranged 10**    | **🎯 One ally** |
+| Psionic, Ranged                |
+|--------------------------------|
+| Ranged 10 |
 
 **Effect:** As long as the target understands one or more languages, you send a telepathic message to them that takes 10 seconds or less to speak. The target knows who the message is from and can decide to ignore it and subsequent messages.
 
@@ -312,3 +299,4 @@ When you hold an object in your hand for 1 uninterrupted minute, you can sense w
 - How long has it been since the object was held by the person whose emotion lingers on it?
 
 After asking one question, you can choose to delve deeper by asking one additional question from the list, but you are then overcome with emotions that do not belong to you. You take a bane on Intuition and Presence tests until you finish a respite, and you can't use this perk again while you suffer this bane.
+
