@@ -5,3 +5,6 @@
   - ex: tables
 - data file names need to be cleaned of special characters (like `!`)
 - deal with all the issues in failed extractions
+- go through the toc and figure out what other dedicated pages i want
+  - wealth
+  - renown
