@@ -33,7 +33,7 @@ Subtlety is your art, the tip of the blade your brush. You studied at a secret c
 
 As a 1st-level shadow, you gain the following features.
 
-## **Shadow College**
+#### Shadow College
 
 Shadow colleges are secret institutions that turn ordinary folk into something else. Finding a college is the first step in a rigorous initiation process that tests the mettle of an applicant. Even those who make the cut often wash out—or are kicked out—as the master shadows who teach stealth, magic, and assassination to their students are often less than gentle in their approach.
 
@@ -45,7 +45,7 @@ You graduated from a shadow college chosen from the following options, each of w
 
 Your shadow college is your subclass, and your choice of college determines many of the features you'll gain as you gain new levels.
 
-#### **Shadow Advancement**
+#### Shadow Advancement
 
 | Level | Features                                                                                                                     | Abilities                    | College Abilities |
 |-------|------------------------------------------------------------------------------------------------------------------------------|------------------------------|-------------------|
@@ -60,7 +60,7 @@ Your shadow college is your subclass, and your choice of college determines many
 | 9th   | Gloom Squad, College Ability                                                                                                 | Signature, 3, 5, 7, 9, 11 | 5, 9, 11          |
 | 10th  | Characteristic Increase, Death Pool, Perk, Skill, Careful Observation Improvement, Improved Umbral Form, Subterfuge | Signature, 3, 5, 7, 9, 11 | 5, 9, 11          |
 
-## **Insight**
+#### Insight
 
 By observing your enemy, you learn how to use their weaknesses against them, building up a Heroic Resource called insight.
 
@@ -80,7 +80,7 @@ Although you can't gain insight outside of combat, you can use your heroic abili
 
 When you use an ability outside of combat that lets you spend unlimited insight on its effect, such as Black Ash Teleport, you can use it as if you had spent an amount of insight equal to your Victories.
 
-## **1st-Level College Features**
+#### 1st-Level College Features
 
 Your shadow college grants you one or two features, as shown on the 1st-Level College Features table.
 
@@ -94,7 +94,7 @@ Your shadow college grants you one or two features, as shown on the 1st-Level Co
 
 You have the following ability.
 
-#### **Black Ash Teleport**
+#### Black Ash Teleport
 
 *In a swirl of black ash, you step from one place to another.*
 
@@ -110,7 +110,7 @@ Spend 1+ Insight: You teleport 1 additional square for each insight spent.
 
 You have the following ability.
 
-#### **Coat the Blade**
+#### Coat the Blade
 
 poison damage.
 
@@ -126,7 +126,7 @@ Spend 1+ Insight: For each insight you spend, you gain 1 additional surge.
 
 You have the following ability.
 
-#### **I'm No Threat**
+#### I'm No Threat
 
 *Taking on an illusory countenance gives you an advantage on subterfuge.*
 
@@ -144,7 +144,7 @@ Spend 1 Insight: Choose a creature whose size is no more than 1 greater than you
 
 You always carry a supply of smoke bombs to use for distractions and easy getaways. You can use the Hide maneuver even if you are observed and don't initially have cover or concealment. When you do so, you can shift a number of squares equal to your Agility score. If you end this movement with cover or concealment, you are automatically hidden.
 
-## **College Triggered Action**
+#### College Triggered Action
 
 Your shadow college grants you a triggered action, as shown on the College Triggered Actions table.
 
@@ -154,7 +154,7 @@ Your shadow college grants you a triggered action, as shown on the College Trigg
 | Caustic Alchemy | Defensive Roll        |
 | Harlequin Mask  | Clever Trick          |
 
-#### **Clever Trick (1 Insight)**
+######## Clever Trick (1 Insight)
 
 *You sow a moment of confusion in combat, to your enemy's peril.*
 
@@ -168,7 +168,7 @@ Your shadow college grants you a triggered action, as shown on the College Trigg
 
 # Shadow
 
-#### **Defensive Roll**
+######## Defensive Roll
 
 *When an enemy attacks, you roll with the impact to reduce the harm.*
 
@@ -182,13 +182,13 @@ Your shadow college grants you a triggered action, as shown on the College Trigg
 
 Spend 1 Insight: The potency of any effects associated with the damage are reduced by 1 for you.
 
-#### **In All This Confusion**
+######## In All This Confusion
 
 *You vanish in a plume of black smoke to avoid danger.*
 
 | **Magic** | **Triggered** |
 | ----------------------------------------------|-----------------------------------------------|
-| <span>Image: Magic triangle icon</span> Self | <span>Image: Triggered swirl icon</span> Self |
+| Self | Self |
 
 **Trigger:** You take damage.
 
@@ -196,11 +196,11 @@ Spend 1 Insight: The potency of any effects associated with the damage are reduc
 
 Spend 1+ Insight: You teleport 1 additional square for each insight spent.
 
-## **Hesitation Is Weakness**
+#### Hesitation Is Weakness
 
 You have the following ability.
 
-#### **Hesitation Is Weakness (1 Insight)**
+######## Hesitation Is Weakness (1 Insight)
 
 *Keep up the attack. Never give them a moment's grace.*
 
@@ -212,11 +212,11 @@ You have the following ability.
 
 **Effect:** You take your turn after the triggering hero.
 
-## **Kit**
+#### Kit
 
 You can use and gain the benefits of a kit. See Chapter 6: Kits for more information. (*Quick Build:* Cloak and Dagger.)
 
-## **Shadow Abilities**
+#### Shadow Abilities
 
 You specialize in dealing damage, then getting out of harm's way before the inevitable counterattack. You know a number of unique martial abilities that define your presence on the battlefield.
 
@@ -224,7 +224,7 @@ You specialize in dealing damage, then getting out of harm's way before the inev
 
 Choose one signature ability from the following options. Signature abilities can be used at will. (*Quick Build:* Teamwork Has Its Place.)
 
-## **Gasping in Pain**
+#### Gasping in Pain
 
 *Your precise strikes let your allies take advantage of a target's agony.*
 
@@ -240,7 +240,7 @@ Choose one signature ability from the following options. Signature abilities can
 
 **Effect:** One ally within 5 squares of the target gains 1 surge.
 
-## **I Work Better Alone**
+#### I Work Better Alone
 
 | <i>"It's better, just you and me. Isn't it?"</i>             |                                    |
 |--------------------------------------------------------------|------------------------------------|
@@ -254,7 +254,7 @@ Choose one signature ability from the following options. Signature abilities can
 
 **Effect:** If the target has none of your allies adjacent to them, you gain 1 surge before making the power roll.
 
-## **Teamwork Has Its Place**
+#### Teamwork Has Its Place
 
 *You attack an enemy as an ally exposes their weakness.*
 
@@ -262,17 +262,16 @@ Choose one signature ability from the following options. Signature abilities can
 
 ## Power Roll + Agility**:**
 
-| <span>≤11</span>   | 3 + <b style="background:black;color:white;padding:2px 6px;">A** damage |
+| ≤11   | 3 + <b style="background:black;color:white;padding:2px 6px;">A** damage |
 |--------------------|---------------------------------------------------------------------------|
-| <span>12-16</span> | 6 + <b style="background:black;color:white;padding:2px 6px;">A** damage |
-| <span>17+</span>   | 9 + <b style="background:black;color:white;padding:2px 6px;">A** damage |
+| 12-16 | 6 + <b style="background:black;color:white;padding:2px 6px;">A** damage |
+| 17+   | 9 + <b style="background:black;color:white;padding:2px 6px;">A** damage |
 
 **Effect:** If any ally is adjacent to the target, you gain 1 surge before making the power roll.
 
-## **You Were Watching the Wrong One**
+#### You Were Watching the Wrong One
 
 *They can't watch both of you at once.*
-
 
 | --- | ---:|
 | **📏 Melee 1** | **🎯 One creature** |
@@ -288,11 +287,11 @@ Choose one signature ability from the following options. Signature abilities can
 
 A range of heroic abilities define your combat prowess, all of which make use of your insight.
 
-## **3-Insight Ability**
+#### 3-Insight Ability
 
 Choose one heroic ability from the following options, each of which costs 3 insight to use. (*Quick Build:* Get In Get Out.)
 
-## **Disorienting Strike (3 Insight)**
+######## Disorienting Strike (3 Insight)
 
 *Your attack leaves them reeling, allowing you to follow up.*
 
@@ -302,9 +301,9 @@ Choose one heroic ability from the following options, each of which costs 3 insi
 
 ## Power Roll + Agility**:**
 
-| <span style="border:1px solid #000; border-radius:6px; padding:2px 6px;">≤11</span>   | 4 + <span style="border:1px solid #000; background:#000; color:#fff; padding:2px 5px;">A</span> damage; slide 2 |
+| <span style="border:1px solid #000; border-radius:6px; padding:2px 6px;">≤11   | 4 + <span style="border:1px solid #000; background:#000; color:#fff; padding:2px 5px;">A damage; slide 2 |
 |---------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| <span style="border:1px solid #000; border-radius:6px; padding:2px 6px;">12-16</span> | 6 + <span style="border:1px solid #000; background:#000; color:#fff; padding:2px 5px;">A</span> damage; slide 3 |
+| <span style="border:1px solid #000; border-radius:6px; padding:2px 6px;">12-16 | 6 + <span style="border:1px solid #000; background:#000; color:#fff; padding:2px 5px;">A damage; slide 3 |
 - **17+:** 10 + A damage; slide 5
 
 **Effect:** You can shift into any square the target leaves when you slide them.
@@ -319,7 +318,7 @@ e
 
 | **Melee, Strike, Weapon** | **Main action** |
 
-#### **One Hundred Throats (5 Insight)**
+######## One Hundred Throats (5 Insight)
 
 *As you move across the battlefield, every foe within reach feels your wrath.*
 
@@ -337,7 +336,7 @@ Power Roll + Agility**:**
 - **12-16:** 6 damage
 - **17+:** 9 damage
 
-## **Setup (5 Insight)**
+######## Setup (5 Insight)
 
 | **Your friends will thank you.* **Ranged, Strike, Weapon** | **Main action** |
 | --- | ---:|
@@ -349,7 +348,7 @@ Power Roll + Agility**:**
 - **12-16:** 9 + A damage; R < AVERAGE , the target has damage weakness 5 (save ends)
 - **17+:** 13 + A damage; R < STRONG , the target has damage weakness 5 (save ends)
 
-#### **Shadowstrike (5 Insight)**
+######## Shadowstrike (5 Insight)
 
 *They have no idea what the college taught you.*
 
@@ -363,11 +362,11 @@ Power Roll + Agility**:**
 
 As a 2nd-level shadow, you gain the following features.
 
-## **Perk**
+#### Perk
 
 You gain one exploration, interpersonal, or intrigue perk of your choice. See Chapter 7: Perks.
 
-## **2nd-Level College Feature**
+#### 2nd-Level College Feature
 
 Your shadow college grants you a feature, as shown on the 2nd-Level College Features table.
 
@@ -396,7 +395,7 @@ Draw Steel
 
 # Shadow
 
-## **2nd-Level College Ability**
+#### 2nd-Level College Ability
 
 Your shadow college grants your choice of one of two heroic abilities.
 
@@ -410,7 +409,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-## **Sticky Bomb (5 Insight)**
+######## Sticky Bomb (5 Insight)
 
 *Explosives are best when they're attached to an enemy.*
 
@@ -426,7 +425,7 @@ Choose one of the following abilities.
 - **12-16:** 7 + A fire damage
 - **17+:** 11 + A fire damage
 
-## **Stink Bomb (5 Insight)**
+######## Stink Bomb (5 Insight)
 
 *Putrid yellow gas explodes from a bomb you toss.*
 
@@ -448,7 +447,7 @@ Power Roll + Agility**:**
 
 Choose one of the following abilities.
 
-## **Machinations of Sound (5 Insight)**
+######## Machinations of Sound (5 Insight)
 
 *Illusory sounds make your foes reposition themselves as they cower or investigate the disturbance.*
 
@@ -456,14 +455,14 @@ Choose one of the following abilities.
 
 Power Roll + Agility**:**
 
-| <span>≤11</span>   | Slide 4 |
+| ≤11   | Slide 4 |
 |--------------------|---------|
-| <span>12–16</span> | Slide 5 |
-| <span>17+</span>   | Slide 7 |
+| 12–16 | Slide 5 |
+| 17+   | Slide 7 |
 
 **Effect:** This forced movement ignores stability. Instead, the forced movement is reduced by a number equal to the target's Intuition score.
 
-## **So Gullible (5 Insight)**
+######## So Gullible (5 Insight)
 
 *When your enemy strikes, you reveal you were in a different place all along.*
 
@@ -479,26 +478,25 @@ Power Roll + Agility**:**
 
 As a 3rd-level shadow, you gain the following features.
 
-## **Careful Observation**
+#### Careful Observation
 
 You have the following ability.
 
-#### **Careful Observation**
+######## Careful Observation
 
 *A moment of focus leaves a foe firmly in your sights.*
 
 | **Ranged** | **Maneuver** |
-
 | --- | ---:|
 | **📏 Ranged 20** | **🎯 One creature** |
 
 **Effect:** As long as you remain within distance of the target, maintain line of effect to them, and strike no other creature first, you gain an edge on the next strike you make against the assessed creature, and gain 1 surge you can use only on that strike.
 
-## **7-Insight Ability**
+#### 7-Insight Ability
 
 Choose one heroic ability from the following options, each of which costs 7 insight to use.
 
-#### **Dancer (7 Insight)**
+######## Dancer (7 Insight)
 
 *You enter a flow state that makes you nearly impossible to pin down.*
 
@@ -510,17 +508,17 @@ Choose one heroic ability from the following options, each of which costs 7 insi
 
 **Effect:** Until the end of the encounter, whenever an enemy moves or is force moved adjacent to you or damages you, you can take the Disengage move action as a free triggered action.
 
-## **Misdirecting Strike (7 Insight)**
+######## Misdirecting Strike (7 Insight)
 
 | <i>"Why are you looking at ME?!"</i>                                                                                                                                                                                                                                                            |  |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--|
 | **Melee, Ranged, Strike, Weapon**                                                                                                                                                                                                                                                            |  |
 | ▲ Melee 1 or ranged 5                                                                                                                                                                                                                                                                           |  |
-| **Power Roll + Agility:** <span style="display:inline-block; width:3.5em;">▫ ≤11</span> 9 + **A** damage <span style="display:inline-block; width:3.5em;">▫ 12–16</span> 13 + **A** damage <span style="display:inline-block; width:3.5em;">▫ 17+</span> 18 + **A** damage |  |
+| **Power Roll + Agility:** <span style="display:inline-block; width:3.5em;">▫ ≤11 9 + **A** damage <span style="display:inline-block; width:3.5em;">▫ 12–16 13 + **A** damage <span style="display:inline-block; width:3.5em;">▫ 17+ 18 + **A** damage |  |
 
 **Effect:** The target is taunted by a willing ally within 5 squares of you until the end of the target's next turn.
 
-#### **Pinning Shot (7 Insight)**
+######## Pinning Shot (7 Insight)
 
 *One missile—placed well and placed hard.*
 
@@ -534,9 +532,9 @@ Choose one heroic ability from the following options, each of which costs 7 insi
 - **12-16:** 12 + A damage; A < AVERAGE , restrained (save ends)
 - **17+:** 16 + A damage; A < STRONG , restrained (save ends)
 
-## **Staggering Blow (7 Insight)**
+######## Staggering Blow (7 Insight)
 
-| **Melee, Ranged, Strike, Weapon** <span style="white-space: nowrap;">Image: melee or ranged icon</span> Melee 1 or ranged 5 | **Main action** <span style="white-space: nowrap;">Image: clock icon</span> One creature |
+| **Melee, Ranged, Strike, Weapon** <span style="white-space: nowrap;">Melee 1 or ranged 5 | **Main action** <span style="white-space: nowrap;">One creature |
 |-----------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
 |-----------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
 
@@ -552,21 +550,21 @@ Choose one heroic ability from the following options, each of which costs 7 insi
 
 As a 4th-level shadow, you gain the following features.
 
-## **Characteristic Increase**
+#### Characteristic Increase
 
 Your Agility score increases to 3. Additionally, you can increase one of your characteristic scores by 1, to a maximum of 3.
 
-## **Keep It Down**
+#### Keep It Down
 
 While conversing with any creature you share a language with, you can decide whether anyone else can perceive what you're conveying, even while yelling.
 
-## **Night Watch**
+#### Night Watch
 
 Your sense for stealth shows those around you how to evade notice. While you are hidden, enemies take a bane on tests made to search for you or other hidden creatures within 10 squares of you.
 
 Additionally, you have the following ability.
 
-## **Night Watch**
+#### Night Watch
 
 *A steely dagger from out of the blue knocks another weapon off course.*
 
@@ -578,21 +576,21 @@ Additionally, you have the following ability.
 
 **Effect:** The target takes half the damage. You remain hidden.
 
-## **Perk**
+#### Perk
 
 You gain one perk of your choice.
 
-## **Skill**
+#### Skill
 
 You gain one skill of your choice. See Skills in Chapter 9: Tests.
 
-## **Surge of Insight**
+#### Surge of Insight
 
 The first time each combat round that you deal damage incorporating 1 or more surges, you gain 2 insight instead of 1.
 
 As a 5th-level shadow, you gain the following features.
 
-## **5th-Level College Feature**
+#### 5th-Level College Feature
 
 Your shadow college grants you a feature, as shown on the 5th-Level College Features table.
 
@@ -620,11 +618,11 @@ Whenever you take damage, each enemy adjacent to you takes fire, acid, or poison
 
 Additionally, your Defensive Roll ability now allows you to shift up to 5 squares, including shifting vertically. If you don't end this shift on solid ground and are not flying, you fall.
 
-## **9-Insight Ability**
+#### 9-Insight Ability
 
 Choose one heroic ability from the following options, each of which costs 9 insight to use.
 
-## **Blackout (9 Insight)**
+######## Blackout (9 Insight)
 
 *You cause a plume of shadow to erupt from your eyes and create a cloud of darkness.*
 
@@ -634,7 +632,7 @@ Choose one heroic ability from the following options, each of which costs 9 insi
 
 **Effect:** A black cloud fills the area until the end of your next turn, granting you and your allies concealment against enemies. While you are in the area, whenever an enemy ends their turn in the area, you can use a free triggered action to shift to a new location within the area and make a free strike against them.
 
-## **Into the Shadows (9 Insight)**
+######## Into the Shadows (9 Insight)
 
 *You sweep your foe off their feet and plunge them into absolute darkness.*
 
@@ -646,12 +644,12 @@ Choose one heroic ability from the following options, each of which costs 9 insi
 
 #### Power Roll + Agility**:**
 
-| <span style="border:1px solid #000; border-radius:12px; padding:0 4px;">≤11</span>    | 8 + <span style="display:inline-block; background:#000; color:#fff; font-weight:bold; padding:0 5px; border-radius:3px;">A</span> | corruption damage |
+| <span style="border:1px solid #000; border-radius:12px; padding:0 4px;">≤11    | 8 + <span style="display:inline-block; background:#000; color:#fff; font-weight:bold; padding:0 5px; border-radius:3px;">A | corruption damage |
 |---------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|-------------------|
-| <span style="border:1px solid #000; border-radius:6px; padding:1px 6px;">12-16</span> | 13 + <span style="background:#000; color:#fff; padding:0 4px; border-radius:2px;">A</span> corruption damage                      |                   |
+| <span style="border:1px solid #000; border-radius:6px; padding:1px 6px;">12-16 | 13 + <span style="background:#000; color:#fff; padding:0 4px; border-radius:2px;">A corruption damage                      |                   |
 - **17+:** 17 + A corruption damage
 
-## **Shadowfall (9 Insight)**
+######## Shadowfall (9 Insight)
 
 |  |  |  | You vanish. They fall. You reappear. |
 |--|--|--|--------------------------------------|
@@ -668,7 +666,7 @@ Choose one heroic ability from the following options, each of which costs 9 insi
 
 **Effect:** You disappear before making the power roll. After the power roll is resolved, you appear in the first unoccupied space at the far end of the line.
 
-## **You Talk Too Much (9 Insight)**
+######## You Talk Too Much (9 Insight)
 
 *Silence is a virtue. A knife pinning their mouth shut is the next best thing.*
 
@@ -686,11 +684,11 @@ Choose one heroic ability from the following options, each of which costs 9 insi
 
 As a 6th-level shadow, you gain the following features.
 
-## **Perk**
+#### Perk
 
 You gain one perk of your choice.
 
-## **Umbral Form**
+#### Umbral Form
 
 As a maneuver, you lose control of yourself, becoming a shadow creature dripping with ash. This transformation lasts until the end of the encounter, until you are dying, or after 1 uninterrupted hour of quiet focus outside of combat. You gain the following effects while in this form:
 
@@ -702,7 +700,7 @@ As a maneuver, you lose control of yourself, becoming a shadow creature dripping
 - Creatures gain an edge on strikes against you.
 - You take a bane on Presence tests made to interact with other creatures.
 
-## **6th-Level College Ability**
+#### 6th-Level College Ability
 
 Your shadow college grants your choice of one of two heroic abilities.
 
@@ -710,7 +708,7 @@ Your shadow college grants your choice of one of two heroic abilities.
 
 Choose one of the following abilities.
 
-## **Black Ash Eruption (9 Insight)**
+######## Black Ash Eruption (9 Insight)
 
 *Your attack produces a cloud of black ash that launches an enemy into the air.*
 
@@ -720,21 +718,20 @@ Choose one of the following abilities.
 
 #### Power Roll + Agility**:**
 
-| <span style="border:1px solid #000; border-radius:6px; padding:0 4px;">≤11</span>   | 3 + <span style="border:1px solid #000; padding:0 4px; font-weight:bold;">A</span> damage; vertical push 5  |
+| <span style="border:1px solid #000; border-radius:6px; padding:0 4px;">≤11   | 3 + <span style="border:1px solid #000; padding:0 4px; font-weight:bold;">A damage; vertical push 5  |
 |-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
-| <span style="border:1px solid #000; border-radius:6px; padding:0 4px;">12–16</span> | 6 + <span style="border:1px solid #000; padding:0 4px; font-weight:bold;">A</span> damage; vertical push 10 |
+| <span style="border:1px solid #000; border-radius:6px; padding:0 4px;">12–16 | 6 + <span style="border:1px solid #000; padding:0 4px; font-weight:bold;">A damage; vertical push 10 |
 - **17+:** 9 + A damage; vertical push 15
 
  + `A` damage, vertical push 15
 
 **Effect:** A creature force moved by this ability must be moved straight upward.
 
-## **Cinderstorm (9 Insight)**
+######## Cinderstorm (9 Insight)
 
 | **You teleport your friends in a burst of ash and fire.* **Magic** | **Maneuver** |
 
 ![triangle icon] 4 burst
-
 
 | --- | ---:|
 | **📏 4 burst** | **🎯 Self and each ally in the area** |
@@ -745,7 +742,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-## **One Vial Makes You Better (9 Insight)**
+######## One Vial Makes You Better (9 Insight)
 
 *A well-timed throw of a potion will keep your allies in the fight.*
 
@@ -757,7 +754,7 @@ Choose one of the following abilities.
 
 A creature who drinks the potion can spend up to 2 Recoveries, and has acid immunity, fire immunity, or poison immunity (their choice) equal to your level until the end of the encounter.
 
-## **One Vial Makes You Faster (9 Insight)**
+######## One Vial Makes You Faster (9 Insight)
 
 *Each ally who catches a potion you throw can take the battle to the next level.*
 
@@ -781,7 +778,7 @@ A creature who drinks the potion receives benefits based on your power roll.
 
 Choose one of the following abilities.
 
-## **Look! (9 Insight)**
+######## Look! (9 Insight)
 
 | **You distract your foes, allowing your allies to take advantage of that distraction.* **Area, Magic** | **Maneuver** |
 
@@ -791,7 +788,7 @@ Choose one of the following abilities.
 
 **Effect:** Until the start of your next turn, any ability roll made against a target gains an edge.
 
-## **Puppet Strings (9 Insight)**
+######## Puppet Strings (9 Insight)
 
 *You prick little needles on the tips of your fingers into the nerves of your enemies and cause them to lose control.*
 
@@ -814,23 +811,23 @@ Two enemies
 
 As a 7th-level shadow, you gain the following features.
 
-## **Characteristic Increase**
+#### Characteristic Increase
 
 Each of your characteristic scores increases by 1, to a maximum of 4.
 
-## **Keen Insight**
+#### Keen Insight
 
 At the start of each of your turns during combat, you gain 1d3 + 1 insight instead of 1d3.
 
-## **Skill**
+#### Skill
 
 You gain one skill of your choice.
 
-## **Careful Observation Improvement**
+#### Careful Observation Improvement
 
 You can target two creatures simultaneously with your Careful Observation ability, observing both simultaneously. Making a strike against one target doesn't end your observation of the other target.
 
-## **Ventriloquist**
+#### Ventriloquist
 
 Whenever you communicate, you can throw your voice so that it seems to originate from a creature or object within 10 squares. If you are hidden, talking this way doesn't cause you to be revealed.
 
@@ -838,11 +835,11 @@ Whenever you communicate, you can throw your voice so that it seems to originate
 
 As an 8th-level shadow, you gain the following features.
 
-## **Perk**
+#### Perk
 
 You gain one perk of your choice.
 
-## **8th-Level College Feature**
+#### 8th-Level College Feature
 
 Your shadow college grants you a feature, as shown on the 8th-Level College Features table.
 
@@ -864,7 +861,7 @@ Your movement no longer provokes opportunity attacks. Additionally, you can use 
 
 You have damage immunity against area abilities and effects equal to your Agility score. You also have the following ability, which you can use once per round on your turn.
 
-## **Time Bomb**
+#### Time Bomb
 
 *The longer it cooks, the bigger the boom.*
 
@@ -880,11 +877,11 @@ Spend 2+ **Insight**: For every 2 insight spent, you increase the cube's size by
 
 Draw Steel
 
-## **11-Insight Ability**
+#### 11-Insight Ability
 
 Choose one heroic ability from the following options, each of which costs 11 insight to use.
 
-#### **Assassinate (11 Insight)**
+######## Assassinate (11 Insight)
 
 *A practiced attack will instantly kill an already weakened foe.*
 
@@ -900,7 +897,7 @@ Choose one heroic ability from the following options, each of which costs 11 ins
 
 **Effect:** A target who is not a minion, leader, or solo creature and who is winded after taking this damage is reduced to 0 Stamina.
 
-## **Shadowgrasp (11 Insight)**
+######## Shadowgrasp (11 Insight)
 
 *The shadows around you give way, allowing the shadow creature within you to grasp at your foes.*
 
@@ -910,13 +907,11 @@ Choose one heroic ability from the following options, each of which costs 11 ins
 
 #### Power Roll + Agility **:**
 
-<sup>
+- **≤11:**  11 corruption damage; A < WEAK , restrained (save ends) 
+- **12-16:**  16 corruption damage; A < AVERAGE , restrained (save ends) 
+- **17+:**  21 corruption damage; A < STRONG , restrained (save ends)
 
-- **≤11:** </sup> 11 corruption damage; A < WEAK , restrained (save ends) <sup>
-- **12-16:** </sup> 16 corruption damage; A < AVERAGE , restrained (save ends) <sup>
-- **17+:** </sup> 21 corruption damage; A < STRONG , restrained (save ends)
-
-## **Speed of Shadows (11 Insight)**
+######## Speed of Shadows (11 Insight)
 
 *You make multiple strikes against a foe before they even notice they're dead.*
 
@@ -926,7 +921,7 @@ Choose one heroic ability from the following options, each of which costs 11 ins
 
 **Effect:** You can use a strike signature ability four times, use a strike signature ability that gains an edge three times, or use a strike signature ability that has a double edge twice. You can shift up to 2 squares between each use.
 
-## **They Always Line Up (11 Insight)**
+######## They Always Line Up (11 Insight)
 
 *You fire a projectile so fast that it passes through a line of foes, hamstringing them.*
 
@@ -938,21 +933,21 @@ Choose one heroic ability from the following options, each of which costs 11 ins
 
 -
 -
-- <sup>
+- 
 
-- **≤11:** </sup> 12 damage; M < WEAK , slowed (save ends) <sup>
-- **12-16:** </sup> 18 damage; M < AVERAGE , slowed (save ends) <sup>
-- **17+:** </sup> 24 damage; M < STRONG , slowed (save ends)
+- **≤11:**  12 damage; M < WEAK , slowed (save ends) 
+- **12-16:**  18 damage; M < AVERAGE , slowed (save ends) 
+- **17+:**  24 damage; M < STRONG , slowed (save ends)
 
 As a 9th-level shadow, you gain the following features.
 
-## **Gloom Squad**
+#### Gloom Squad
 
 At the start of each of your turns, you can forgo gaining insight to create 1d6 clones of yourself in unoccupied adjacent spaces. A clone acts on your turn and uses your statistics, except they have 1 Stamina. They are affected by any conditions and effects on you, and last until the start of your next turn. A clone doesn't have insight and can't use the Careful Observation ability, the Umbral Form feature, or any triggered actions. On their turn, a clone has a move action, a maneuver, and a main action that they can use only to make a free strike. While making a free strike, a clone must choose targets that you or another clone aren't also striking.
 
 Outside of combat, you can have one clone active for every 2 Victories you have. If a clone is destroyed, you must wait 1 hour before creating another one.
 
-## **9th-Level College Ability**
+#### 9th-Level College Ability
 
 Your shadow college grants your choice of one of two heroic abilities.
 
@@ -960,7 +955,7 @@ Your shadow college grants your choice of one of two heroic abilities.
 
 Choose one of the following abilities.
 
-#### **Cacophony of Cinders (11 Insight)**
+######## Cacophony of Cinders (11 Insight)
 
 *You tumble through the battle, stabbing foes and teleporting allies.*
 
@@ -974,7 +969,7 @@ Choose one of the following abilities.
 - **12-16:** An enemy takes 10 damage; an ally can teleport up to 5 squares.
 - **17+:** An enemy takes 14 damage; an ally can teleport up to 7 squares.
 
-#### **Demon Door (11 Insight)**
+######## Demon Door (11 Insight)
 
 *You create a temporary portal to allow a massive demonic hand to reach through.*
 
@@ -986,7 +981,7 @@ Choose one of the following abilities.
 
 | ≤11                | 13 + <b style="background: black; color: white; padding:2px 6px; border-radius:3px">A** corruption damage; push 3 |                                                      |
 |--------------------|---------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
-| <span>12-16</span> | 18 +                                                                                                                | <span>Image: A icon</span> corruption damage; push 5 |
+| 12-16 | 18 +                                                                                                                | corruption damage; push 5 |
 - **17+:** 25 + A corruption damage; push 7
 
 **Effect:** On a critical hit, the target is grabbed by the demon and pulled through the portal before it closes, never to be seen again.
@@ -995,7 +990,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-## **Chain Reaction (11 Insight)**
+######## Chain Reaction (11 Insight)
 
 *One explosion, an offense. Three explosions, an assault. Nine explosions, a celebration.*
 
@@ -1011,7 +1006,7 @@ Choose one of the following abilities.
 - É 10 damage
 - **17+:** 15 damage
 
-## **To the Stars (11 Insight)**
+######## To the Stars (11 Insight)
 
 *You attach your most potent explosive to your foe. Under less pressing*
 
@@ -1031,7 +1026,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-## **I Am You (11 Insight)**
+######## I Am You (11 Insight)
 
 *Your mask reflects your foe’s face. Surely they won’t need it much longer.*
 
@@ -1041,7 +1036,7 @@ Choose one of the following abilities.
 
 **Effect:** Until the end of the encounter, you gain the target's damage immunities and speed (if they are better than yours), and can use any types of movement they can use. You can also use the target's signature ability, using their bonus for the power roll.
 
-### **It Was Me All Along (11 Insight)**
+######## It Was Me All Along (11 Insight)
 
 *After everything you've been through together, you twist the blade and make the pain extra personal.*
 
@@ -1061,33 +1056,33 @@ Choose one of the following abilities.
 
 As a 10th-level shadow, you gain the following features.
 
-## **Characteristic Increase**
+#### Characteristic Increase
 
 Your Agility score increases to 5. Additionally, you can increase one of your characteristic scores by 1, to a maximum of 5.
 
-## **Death Pool**
+#### Death Pool
 
 The first time each combat round that you deal damage incorporating 1 or more surges, you gain 3 insight instead of 2.
 
-## **Perk**
+#### Perk
 
 You gain one perk of your choice.
 
-## **Skill**
+#### Skill
 
 You gain one skill of your choice.
 
-## **Careful Observation Improvement**
+#### Careful Observation Improvement
 
 You can target three creatures simultaneously with your Careful Observation ability.
 
-## **Improved Umbral Form**
+#### Improved Umbral Form
 
 You gain full control over the shadow creature you become with your Umbral Form feature, and you can end the transformation at will (no action required). Additionally, you are always wreathed in darkness that grants you concealment while in this form, and creatures no longer gain an edge on strikes against you.
 
 While you are in your umbral form, you can spend 1 uninterrupted minute concentrating on a location where you've been before. At the end of that minute, you and each willing creature of your choice within 10 squares of you can teleport to unoccupied spaces of your choice within that location. Each creature who teleports this way is invisible for 1 hour or until they use an ability.
 
-## **Subterfuge**
+#### Subterfuge
 
 You have an epic resource called subterfuge. Each time you finish a respite, you gain subterfuge equal to the XP you gain. You can spend subterfuge on your abilities as if it were insight.
 

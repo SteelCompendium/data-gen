@@ -52,8 +52,13 @@ run input_md_path output_md_path:
     text = re.sub( r'\<\/?b\>', r'**', text, flags=re.MULTILINE)
     # newlines
     text = re.sub( r'\<br\>', r' ', text, flags=re.MULTILINE)
-    # remove spans
+    text = re.sub( r'\n\n\n', r'\n\n', text, flags=re.MULTILINE)
+    # remove spans and sups
     text = re.sub( r'\<span id\=\".*"\>\<\/span\>', r'', text, flags=re.MULTILINE)
+    text = re.sub( r'\<span\>', r'', text, flags=re.MULTILINE)
+    text = re.sub( r'\<\/span\>', r'', text, flags=re.MULTILINE)
+    text = re.sub( r'\<sup\>', r'', text, flags=re.MULTILINE)
+    text = re.sub( r'\<\/sup\>', r'', text, flags=re.MULTILINE)
     # weak, average, strong
     text = re.sub( r'\s?<\s?w\s', r' < WEAK ', text, flags=re.MULTILINE)
     text = re.sub( r'\s?<\s?v\s', r' < AVERAGE ', text, flags=re.MULTILINE)
@@ -73,6 +78,14 @@ run input_md_path output_md_path:
     text = re.sub( r'^\**Effect\**\:\**', r'**Effect:**', text, flags=re.MULTILINE)
     # image text
     text = re.sub( r'Image\: [^\|]*icon ', r'', text, flags=re.MULTILINE)
+
+    # abilities
+    text = re.sub( r'\#* \*\*(.*) \((.*)\)\*\*', r'######## \1 (\2)', text, flags=re.MULTILINE)
+    text = re.sub( r'^\#\# \*\*(.*)\*\*', r'#### \1', text, flags=re.MULTILINE)
+    text = re.sub( r'^\#\#\#\# \*\*(.*)\*\*', r'######## \1', text, flags=re.MULTILINE)
+
+    # newlines
+    text = re.sub( r'\n\n\n', r'\n\n', text, flags=re.MULTILINE)
 
 
     # write it all out at once
