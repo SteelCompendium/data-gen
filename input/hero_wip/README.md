@@ -8,3 +8,4 @@
 - go through the toc and figure out what other dedicated pages i want
   - wealth
   - renown
+  - gods
