@@ -1,4 +1,4 @@
-# <span id="page-367-1"></span>Gods and Religion
+# Gods and Religion
 
 O rden is a fantasy world in which the gods are objectively real. In spite of this the people of Orden, regardless of ancestry, do not believe the gods control everything that happens in the world. They believe the gods created a natural world with its own cycles that are sometimes predictable, but which cannot be understood. It rained last Lyleth, and the Lyleth before that, so it'll probably rain this Lyleth—but maybe not! And if not, that may be because the gods are displeased. But it might just as easily be because the gods are bored, or fickle or—even more likely, it has nothing to do with the gods, and there's no way to know which.
 
@@ -30,7 +30,7 @@ Usually, these churches recognize each other as expressing different, equally va
 
 There are churches dedicated to nature or knowledge or the sun, with no clear moral or ethical component to them. There are evil churches, churches devoted to dark saints and tyrant gods. But the saints and heroes listed here each have churches that, however esoteric their teachings (usually referred to as the "speech" or "words" of the saint or hero) expect their clergy to go forth into the world and perform good deeds—tend to the sick, ease pain, perform birth, death, and union rituals. These churches all have acolytes and abbots, censors and conduits. It is not so much that Grole the One-Handed was, in life, principally concerned with the spiritual wellbeing of his *people*, but rather that this is what people expect of *churches*. So, as a religion grows, it soon conforms to the expectations of the people such that even the church of Khorvath Who Slew A Thousand has conduits who heal the sick and tend to the souls of their people.
 
-#### **How To Use This Chapter**
+######## How To Use This Chapter
 
 *Draw Steel* isn't about religion any more than it is about language or treasure, but understanding how religion works in a day-to-day sense can help make the game world feel more real. The people in Orden aren't any more religious than the people of Earth were in the premodern era. It is a factor in their lives, but not the only factor—and for some people, not a very important one.
 
@@ -76,8 +76,6 @@ Folk in Orden believe that most, maybe all, living things have a soul, which is 
 
 However, there is no popular idea that everyone's soul is immortal and persists forever after death. Most people believe their soul dissipates after death and becomes one with creation. When asked where the soul goes after death, the elf sage responded by blowing out a candle and asking, "Where did the fire go?"
 
-355
-
 In some cultures, exceptions are made for those mortals who lived an especially virtuous life.
 
 Much the same way the humans of Vanigar believe the bravest among them live on after death drinking and telling tales at the vigbordh—the wartable—most elves believe that should they live a life of sufficient meaning, should they do great deeds and embody Val's ethos, they earn the right to join Val in Arcadia after death. There they will live in a timeless faerie world, "the world that should have been."
@@ -104,7 +102,6 @@ was expected that certain holy heroes who had served their god and saint well wo
 
 The Deities and Domains table and the Saints and Domains table summarize each of the gods and saints mentioned in this chapter and their available domains.
 
-<span id="page-369-0"></span>
 
 | Deities and Domains     |                                               |
 |-------------------------|-----------------------------------------------|
@@ -120,7 +117,7 @@ The Deities and Domains table and the Saints and Domains table summarize each of
 | Salorna                 | Life, Nature, Storm, Sun                      |
 | Val                     | Creation, Knowledge, Life, Nature, Protection |
 
-#### **Saints and Domains**
+######## Saints and Domains
 
 | Saint                              | Domains                       |
 |------------------------------------|-------------------------------|
@@ -153,8 +150,6 @@ The Deities and Domains table and the Saints and Domains table summarize each of
 | Yllin Dyrvis                       | Knowledge, Nature             |
 | Zarok the Law-Giver                | Protection, War               |
 
-![](_page_370_Picture_0.jpeg)
-
 ## Val
 
 **Domains:** Creation, Knowledge, Life, Nature, Protection
@@ -163,7 +158,7 @@ Val, the Noble Lord, First Among Equals, is the patron of the elves. He created 
 
 Val holds that the greatest purpose a thinking being can commit themselves to is the creation of art and the appreciation of beauty. He keeps the magical, elf-haunted forests called wodes close to his heart because they represent his vision for Orden. What the world could have been. His growing disgust with the concept of war led him to leave Orden and take up residence in his private manifold, *Arcadia* where all elves hope to someday join their patron.
 
-## **Heroes of the Elves**
+#### Heroes of the Elves
 
 The legendary heroes of the elves are once-mortal heroes who now dwell in Arcadia and make up Val's court there. They answer prayers and dispense blessings and boons, even manifest in the world during times of great need. (Though, like all the speaking people's saints and heroes, what these legendary figures consider "great need" is very personal and has little to do with politics or great kingdoms.)
 
@@ -181,7 +176,7 @@ The Composer discovered, or invented, the power of music to manipulate reality. 
 
 Draw Steel
 
-<sup>1</sup> If this story wasn't invented by the dwarves or humans, it must at least have passed through one of their cultures. The celestials did not reckon time the way younger species do and would not have said "for an entire century."
+1 If this story wasn't invented by the dwarves or humans, it must at least have passed through one of their cultures. The celestials did not reckon time the way younger species do and would not have said "for an entire century."
 
 ### The Taste of Morning
 
@@ -211,7 +206,7 @@ To this day, many ages of the world later, the wode elves consider themselves th
 
 ## Thyll Hylacae
 
-#### **Domains:** Life, Nature
+######## Domains: Life, Nature
 
 Thyll Hylacae, the Forestal, Apothachron, also known as the Sacrifice. Thyll spoke to the plants, learned their truths—discovered many magics hidden within. The power to heal, harm, change. It was Hylacae who first sensed, then learned, the language of trees. She studied, cared for them, and protected them when the folk of farm and field came to cut them down.
 
@@ -233,7 +228,7 @@ Ord, the Maker, the Engineer, is the patron of the dwarves. Ord, along with his 
 
 Ord values integrity, honor, faithfulness to an ideal. Courage in battle and fair play. Treating your opponent honorably, Ord teaches, is an expression of your own worthiness. Ord is associated with permanence, which some elder dwarves take to mean a kind of slavish devotion to tradition. But Ord teaches permanence is the quality of reliability, of steadfastness. Young dwarves who chafe at the stale and stifling traditions of their elders remind the greybeards that Ord is the Maker. He expects his children to create marvels, to bring forth new discoveries, new insights. To remake the world anew each generation.
 
-## **Heroes of the Dwarves**
+#### Heroes of the Dwarves
 
 The following heroes are venerated by many dwarves and others who follow Ord.
 
@@ -287,7 +282,7 @@ Kul's fire is the fire that destroys, but it is also the fire that creates, the 
 
 Uniquely among the Elder Creator Gods, Kul does not desire worship finds it distasteful. Orcs still call out to Kul in desperate times as "Kul Who Once Spoke." But in those moments, they do not call out for aid—only that Kul witness them, and that they might prove worthy of his attention.
 
-## **Heroes of the Orcs**
+#### Heroes of the Orcs
 
 The following heroes are venerated by many orcs and others who follow Kul.
 
@@ -339,7 +334,7 @@ Voyrik gave his warleader's torque to her son, who grew to lead the Lightning fi
 
 #### Grole the One-Handed
 
-#### **Domains:** Life, War
+######## Domains: Life, War
 
 Grole the One-Handed, Grole who Slew the Saint of Skulls, lost his left hand at the Battle of Dur Mothe where he stood alone against the horde of deathless and their master, the living saint Morath of Many Tendrils. Grole thought to buy time for his army to escape the flood of death, but when they saw their warleader grappling alone with the Saint of Rot, they reversed their retreat. When Morath lashed out with his greataxe Viscerator and severed Grole's left hand from his arm, Grole's army surged forward, breaking the tide of deathless.
 
@@ -377,7 +372,7 @@ The hakaan know they are descended from stone giants, but they do not think of t
 
 Hakaan conduits and censors venerate hakaan heroes who, after doing great deeds in life, were chosen by the gods to take their place among the stars, becoming constellations. They see the stars at night as a complex map of legendary hakaan heroes, and their own ancestors who watch from above.
 
-## **Mahsiti the Weaver**
+#### Mahsiti the Weaver
 
 **Domains:** Creation, Knowledge, Trickery
 
@@ -393,9 +388,9 @@ When the enemy army arrived, they found the clan's villages empty, and did not n
 
 Mahsiti teaches that art and science, creativity and knowledge, are the same thing. Those who follow her teachings believe that the act of creating, of bringing a new idea or work of art into being, is the act of participating in the same process the gods used to create the world.
 
-## **Prexaspes the Stargazer**
+#### Prexaspes the Stargazer
 
-#### **Domains:** Nature, Protection, Sun
+######## Domains: Nature, Protection, Sun
 
 Prexaspes Stargazer, the Astronomer, the Sun-sage mapped the skies and was one of the first people in all Orden to correctly calculate the repeating pattern of Orden's three moons. Because of his growing mastery of the cycles of nature, he predicted a coming famine and prepared his clan. When the famine came but the people had storehouses of food ready, he became a hero of his tribe.
 
@@ -411,7 +406,7 @@ Though he died in the act, Prexaspes saved his people becoming a hero of all hak
 
 Prexaspes teaches that nature is a moral good and is worth defending, and that the sun is the source of power for all life on Orden.
 
-## **Atossa the Shepherd**
+#### Atossa the Shepherd
 
 **Domains:** Fate, Protection, Trickery
 
@@ -447,7 +442,7 @@ The Seven Cities have saints just like humans in Orden do but in place of gods, 
 
 Like the other gods of the timescape, the Lords of Hell are too busy to attend to every petition and request and so employ saints just like other gods. Religion in Hell is superficially similar to religion among the peoples of Orden. There are churches and rites and rituals, but devils tend to view attending church and performing the expected rituals at the appropriate times as akin to paying taxes. Annoying but necessary.
 
-## **Saints of Hell**
+#### Saints of Hell
 
 Like Orden, there are dozens of saints in Hell, some obscure. These three are some of the most popular and the most likely saints for a conduit or censor to follow.
 
@@ -501,7 +496,7 @@ Uryal is the Saint of Hell's diplomatic corps. His *unofficial* motto, falsely a
 
 #### Kuryalka the False Principle
 
-#### **Domains:** Death, Trickery
+######## Domains: Death, Trickery
 
 Kuryalka the False Principle, Soulstealer, Audacity, Saint of Ambition is credited with inventing the trading scheme known as the Kuryalka Ploy. Daughter and eldest child of Orliath IX—Marquis of Naraka, the City of Blood—tradition held Kuryalka would ascend to the house throne upon her mother's death and rule, but from childhood Kuryalka was obsessed with what was informally known as "the Trade"—the buying and selling of mortal souls from Orden and elsewhere in the timescape.
 
@@ -527,9 +522,9 @@ Some of them take it more seriously than others though. People in the most dista
 
 Like all peoples of Orden, the people of Vasloria are well aware there are other gods. They do not particularly think their gods are *better*, just, "These are the local ones who matter to us." A priest of Cavall who journeyed far from Corwell and found themselves in the distant desert land Khemhara could still act as a conduit of Saint Llewellyn the Valiant, but they would look around the Heliopolis and see the animal-headed gods of the Khemharans and the astonishing feats of masonry and astronomy the Khemharans achieved and think: "Well. Obviously the gods of Vasloria aren't that big a deal here, but these gods certainly are!" The peoples of each region of Orden prefer their own gods because they understand them best, not because they think they are "more powerful."
 
-## **Adûn**
+#### Adûn
 
-#### **Domains:** Creation, Life, Love, Protection
+######## Domains: Creation, Life, Love, Protection
 
 Adûn believes that truth and hard work are virtues. He embodies the Vaslorian belief that hard work is honesty. Someone who works hard—real physical labor—is an honest person. Anyone who does no obvious work for a living is someone not to be trusted. Adûn is more worshiped in the field than in the city. Farmers distrust city folk because many of them make a living writing, or counting money, and never break a sweat.
 
@@ -543,7 +538,7 @@ Adûn and Cavall are brothers and the line between them is not a sharply defined
 
 #### Gaed the Confessor
 
-#### **Domains:** Love, Protection
+######## Domains: Love, Protection
 
 Gaed the Confessor, son of Malgen, son of Germoc, was the abbot of a small monastery dedicated to Saint Anthony—Shield of the North—in eastern Aendrim during the rule of the tyrant Baron Kaveran. Kaveran was a secret censor of the church of Saint Pallad, winning the baronial throne though a combination of treachery and good strategic battle principles. Once on the throne, he threw off the black cloth covering the device on his shield, revealing himself to be a servant of Pallad, Saint of Nikros.
 
@@ -573,10 +568,6 @@ Gryffyn had no particular aptitude for stonework, but desirous to please his par
 
 One day, years later after his parents had passed, hundreds of people from other nearby towns and villages arrived at the quarry where Gryffyn worked. Cinis the necromancer had discovered an ancient tome of lore and summoned a horde of ghouls. She used her new army to conquer the surrounding barony, causing a flood of refugees. Gryffyn's quarry could not shelter a tenth this number of refugees, so he proposed the people cross the White Ravine to the north and seek asylum among the elves of the Orchid Court.
 
-![](_page_377_Picture_14.jpeg)
-
-![](_page_378_Picture_0.jpeg)
-
 The people were appalled, the White Ravine was impossible to cross for any but the most experienced ranger. "There is no choice" Gryffyn said. "Cinis's army will be here in a matter of days, and there is nowhere else to run."
 
 The people cried and prepared for death. Gryffyn saw this, and his heart felt like it would burst. "There are stones enough in the quarry," he said enigmatically. "Yoke the oxen and bring the stones to the ravine and do not stop, even in darkness, even in rain, until the ghouls come or the quarry is empty."
@@ -587,7 +578,7 @@ Fleeing across the bridge, the refugees found the body of Gryffyn, author of thi
 
 Saint Gryffyn the Stout teaches that despair is the enemy of action. That unyielding endurance is the cure for impossible odds. That more than sword and spell, hard work is the savior of the people.
 
-## **Cavall**
+#### Cavall
 
 **Domains:** Life, Love, Protection, War
 
@@ -683,9 +674,9 @@ Twelve days after they rode out, Zür returned with Lady Gwenllian's body on her
 
 Gwenllian is the saint of those who stand watch, of all those who must carry a burden ceaselessly. Gwenllian teaches that vigilance is its own reward.
 
-## **Salorna**
+#### Salorna
 
-#### **Domains:** Life, Nature, Storm, Sun
+######## Domains: Life, Nature, Storm, Sun
 
 Salorna believes that nature is a moral good. That to behave in a manner not in accord with the natural balance (she would never use the word "order") is to commit offense against the gods.
 
@@ -763,7 +754,7 @@ Eriarwen smiled, and knew the task before her. She conjured lightning from her f
 
 Eriarwen teaches that nature holds the power to destroy—that Mother Nature is also the fury of a hurricane. She preaches revenge against those who would pervert the natural world. And that those who seek to preserve the balance between humans and nature must be willing to take violent action if necessary.
 
-## **Evil Gods**
+#### Evil Gods
 
 Most heroes are hero-heroes, but some heroes are anti-heroes, and some are anti-villains! This section presents one archetypal saint from each of Vasloria's evil gods; the brothers Nikros and Cyrvis for those players who wish to play such heroes.
 
@@ -783,13 +774,9 @@ Like Cyrvis, his priests worship in secret. Like Cyrvis, folk hate followers of 
 
 Nikros's censors take what they want, ignore the law heedless of consequence, and teach that all folk should live thus. To subjugate one's will to the law, or the community, or the family, is to be weak! Weakness is a disease and it must be eradicated!
 
-![](_page_382_Picture_0.jpeg)
-
 Draw Steel
 
-368
-
-#### **Pentalion the Paladin Domains:** Death, War
+######## Pentalion the Paladin Domains: Death, War
 
 Pentalion the Paladin, the Usurper, served at the right hand of Uther the Callous, aiding him in his ascent to the throne. Uther mastered fell sorceries under the tutelage of a priest of Cyrvis. In public, Uther's illusions kept him hale seeming, but in reality his addiction to sorcery had withered him.
 
@@ -815,7 +802,7 @@ It is dangerous to worship Cyrvis in public, but those who gain power through hi
 
 His churches are often underground—in dungeons, cellars. His priests worship in secret, plotting against those with power, or those who are merely popular. To be liked and loved is reason enough for a follower of Cyrvis to hate you.
 
-## **Eseld of the Eye**
+#### Eseld of the Eye
 
 **Domains:** Knowledge, Trickery
 
@@ -845,17 +832,17 @@ Rather than moral principles, the Space Gods represent abstract concepts and oft
 
 Only a handful of those who dwell on Orden have ever heard of these figures, or know that the stars are anything other than pinholes in the curtain of night.
 
-## **Lords of Law and Chaos**
+#### Lords of Law and Chaos
 
 The Space Gods do not concern themselves overmuch with what humans call "ethics." They embody older principles—order, chaos, balance. Each faction thinks their fundamental principles are morality. The universe needs stability, predictability, say the Lords of Law. The only constant is change, say the Lords of Chaos. The truth lies between, say the Lords of Balance.
 
-## **Heralds of the Space Gods**
+#### Heralds of the Space Gods
 
 Whether it is a tradition or some real limitation, each Space God has, instead of saints, a single herald—a mortal chosen to be the voice of the Space God and communicate with their worshippers where the god themself cannot due to their alien mind.
 
 These heralds function much the same way as saints. They grant conduits and censors power in battle, but without the moral expectations of Orden's gods. The Space Gods themselves are more capricious, but their heralds often arrive in person to aid their followers and take an active interest in the mortal affairs of the timescape.
 
-## **Religion in the Timescape**
+#### Religion in the Timescape
 
 The people of the timescape know and believe in their gods just like the people of Orden do. There are churches throughout the worlds to Quasax the Ultra Nova, temples to Mynoth the Way. Even XXAXX the Anti-God has his worshippers: the Cult of Undoing.
 
@@ -863,7 +850,7 @@ But most citizens of the timescape do not carry the gods with them in their dail
 
 The closest analog to worship in Orden to be found in the upper worlds would be in Alloy, the City at the Center of the Timescape. The great port city where civilizations across the timescape come to trade is also a city of temples. Temples to every god and saint and hero and herald in the timescape—some dead, some forgotten—can be found somewhere in the ancient city's limits. Folk from Orden arriving in Alloy (an incredibly rare event, as it takes enormous energies to lift one's ship up out of the slow-time of the lower words) remark at how familiar Alloy seems to them. It is a city where the upper and lower worlds mingle and steel sabers sometimes cross with swords made of hard light.
 
-## **Nebular the Star Mother**
+#### Nebular the Star Mother
 
 **Domains:** Creation, Life, Love, Sun
 
@@ -913,7 +900,7 @@ The memonek officers and soldiers of UNISOL watched the bleeding changeship conv
 
 Lady Magnetar is the Herald of Nebulon the Star Mother aiding those who fight in the cause of light and life and order. She is invoked whenever a great sacrifice must be made. "Lady Magnetar, let my sacrifice not be in vain."
 
-## **OV the Wave Pilot**
+#### OV the Wave Pilot
 
 **Domains:** Fate, Knowledge, Storm, Sun
 
@@ -970,5 +957,3 @@ With her clan manning the blaster turrets, Cho'kassa destroyed the memonek ship.
 The ship returned to manual control. Cho'kassa was no longer the ship. Her brother looked through the viewscreen at the starry sea outside, and said, "Only the stars know."
 
 Cho'kassa the Time Rider is the herald of OV the Wave Pilot invoked by those who are lost and yearn for home. She sometimes appears riding her single-seat metal star bike, the Wavebreaker which she employs as a tug, pulling ships that ventured too close to a dark star out of danger.
-
-![](_page_386_Picture_0.jpeg)
