@@ -74,6 +74,8 @@ Consumables are treasures that can be used a limited number of times before they
 
 Consumables are organized by echelon to make life easy for the Director handing them out (see [Echelons of Play](#page-22-0) in [Chapter 1:](#page-17-3) [The Basics](#page-17-3)). As a guideline, a hero should always be able to find consumable treasures or the materials required to craft consumables of their echelon and lower. For example, heroes who are 5th level should be able to find consumables of 1st and 2nd echelon. In some cases, the Director might decide to award consumables of an echelon higher than the heroes' echelon, but such a choice means giving the heroes more power than the encounter-building guidelines in *[Draw Steel: Monsters](https://mcdm.gg/DS-Monsters)* accounts for.
 
+Your character can carry any number of consumables at a time.
+
 > **Other Sections**
 > 
 > The rules for using treasures refer to lots of other parts of the game. You can find information on specific topics as follows:
@@ -132,13 +134,7 @@ This section presents 1st-echelon consumable treasures in alphabetical order.
 
 **Effect:** When you damage an adjacent creature who has blood, you can capture the target's life essence in this vial (no action required). Record the damage you dealt. You can capture life essence in the vial only once. As a maneuver, you drink the contents of the vial to regain Stamina equal to half the damage dealt. If you spend 1 Heroic Resource while you drink, you regain Stamina equal to the damage dealt. Once you drink from the vial, it crumbles to dust.
 
-Draw Steel
-
-Your character can carry any number of consumables at a time.
-
-Breath of Dawn
-
-#### Buzz Balm
+##### Buzz Balm
 
 *This cooling orange salve crackles and pops when exposed to the air.*
 
@@ -154,7 +150,7 @@ Breath of Dawn
 
 **Effect:** As a maneuver, you rub the balm on your body and feel it tingle across your skin. You immediately end the bleeding and weakened conditions on yourself, and you gain a +2 bonus to speed until the start of your next turn.
 
-#### Catapult Dust
+##### Catapult Dust
 
 *A small leather pouch is filled with this fine blue powder.*
 
@@ -170,7 +166,7 @@ Breath of Dawn
 
 **Effect:** Catapult Dust was developed as a cost-effective magic siege weapon. As a main action, you pour the dust out in an adjacent unoccupied space to fill an area as large as a 2 cube. At the start of your next turn, the ground at the bottom of the area erupts violently upwards and in a direction of your choice. Any unattended objects in the area, or creatures who have entered the area since the dust was poured, are launched in an arc that is 6 + 1d6 squares long and 3 + 1d6 squares high.
 
-#### Giant's-Blood Flame
+##### Giant's-Blood Flame
 
 *A small pot is filled with a viscous, ochre oil that smells of sulfur and burnt hair.*
 
@@ -190,7 +186,7 @@ Alternatively, you can use a maneuver to throw the pot up to 5 squares, coating 
 
 Any fire caused by the oil is extinguished after burning for 1 hour.
 
-#### Growth Potion
+##### Growth Potion
 
 *This thick green liquid tastes of licorice and potatoes.*
 
@@ -206,7 +202,7 @@ Any fire caused by the oil is extinguished after burning for 1 hour.
 
 **Effect:** As a maneuver, you can drink this potion or pour it over an object of size 2 or smaller, causing the target's size to increase by 1(to a minimum size of 2). If you are the target, your Stamina maximum and Stability are doubled, you gain an edge on Might tests, and your weapon abilities that deal rolled damage gain a damage bonus equal to your highest characteristic score. You shrink back to your original size after 3 rounds, halving your current Stamina maximum and Stability, and losing the potion's other benefits. Objects maintain their new size permanently.
 
-#### Healing Potion
+##### Healing Potion
 
 *Thick and red, this liquid tastes of sour beer.*
 
@@ -222,7 +218,7 @@ Any fire caused by the oil is extinguished after burning for 1 hour.
 
 **Effect:** When you drink this potion as a maneuver, you regain Stamina equal to your recovery value without spending a Recovery.
 
-#### Imp's Tongue
+##### Imp's Tongue
 
 *The tongue of an imp has been dried and preserved. Yuck.*
 
@@ -238,7 +234,7 @@ Any fire caused by the oil is extinguished after burning for 1 hour.
 
 **Effect:** As a maneuver, you place the imp's tongue on your own tongue, causing it to reconstitute and attach itself to your tongue. While attached, the Imp's Tongue allows you to speak any language and understand any language spoken to you. This benefit ends after 1 hour, when the tongue is absorbed into your body.
 
-#### Lachomp Tooth
+##### Lachomp Tooth
 
 *A thumb-sized serrated tooth manages to scratch your flesh in some way whenever it is handled.*
 
@@ -258,9 +254,7 @@ Any fire caused by the oil is extinguished after burning for 1 hour.
 - **12-16:** You can affect up to three additional targets with this strike.
 - **17+:** You can affect up to seven additional targets with this strike.
 
-# Rewards
-
-## Mirror Token
+##### Mirror Token
 
 *A gold-rimmed, mirror-faced coin trembles in the hand as if it were repelled by your touch.*
 
@@ -276,7 +270,7 @@ Any fire caused by the oil is extinguished after burning for 1 hour.
 
 **Effect:** While the Mirror Token is on your person and you are targeted by a ranged strike, you can use a triggered action to crush the token and ignore the strike. Half the damage you would have taken and any effects of the triggering strike are imposed on the creature making the strike.
 
-## Pocket Homunculus
+##### Pocket Homunculus
 
 *A densely interlocking sphere of clockwork gears features facets that show the countenance of the item's wielder.*
 
@@ -294,11 +288,11 @@ Any fire caused by the oil is extinguished after burning for 1 hour.
 
 While you have line of effect to your homunculus, you can use a maneuver to issue them a telepathic command. The homunculus performs the command to the best of their ability. If not commanded, the homunculus mimics your movements and speech. When you move, the homunculus moves with you, matching your pace. The homunculus crumbles to dust after 1 hour or if reduced to 0 Stamina.
 
-## Portable Cloud
+##### Portable Cloud
 
 *This thin glass sphere holds a tiny roiling cloud.*
 
-######## Keywords: Magic
+**Keywords:** Magic
 
 **Item Prerequisite:** A cup of rainwater from a sacred fey grove, plus an optional prerequisite (see below)
 
@@ -312,13 +306,13 @@ While you have line of effect to your homunculus, you can use a maneuver to issu
 
 Enterprising mages within various thieves' guilds have developed variations of the Portable Cloud. Each variation has a secondary item prerequisite and a project goal of 45.
 
-**Noxious Cloud:** Filled with a green or putrid yellow haze, this sphere spreads a choking, foul-smelling mist when broken. Each creature who enters the cloud for the first time in a combat round or starts their turn there takes 5 poison damage. Additionally, any creature is weakened while in the fog. *Additional
+**Noxious Cloud:** Filled with a green or putrid yellow haze, this sphere spreads a choking, foul-smelling mist when broken. Each creature who enters the cloud for the first time in a combat round or starts their turn there takes 5 poison damage. Additionally, any creature is weakened while in the fog.
 
-**Item Prerequisite:** An ounce of undead flesh. **Thunderhead Cloud:** Small lightning bolts arc around the black cloud in this sphere, which creates a 3 cube of cloud and lightning when broken. Each creature who enters the cloud for the first time in a combat round or starts their turn there takes 5 lightning damage. Additionally, any creature is slowed while in the cloud. *Additional
+**Item Prerequisite:** An ounce of undead flesh. **Thunderhead Cloud:** Small lightning bolts arc around the black cloud in this sphere, which creates a 3 cube of cloud and lightning when broken. Each creature who enters the cloud for the first time in a combat round or starts their turn there takes 5 lightning damage. Additionally, any creature is slowed while in the cloud.
 
 **Item Prerequisite:** A spool of copper wire.
 
-## Professor Veratismo's Quaff 'n Huff Snuff
+##### Professor Veratismo's Quaff 'n Huff Snuff
 
 *This tiny compact holds a colorless powder with the slightest astringent smell.*
 
@@ -334,7 +328,7 @@ Enterprising mages within various thieves' guilds have developed variations of t
 
 **Effect:** As a maneuver, you sprinkle a dose of this powder onto food or drink, or blow it at an adjacent creature who is grabbed, restrained, or unconscious. A creature who is exposed to blown powder (even if they hold their breath) or consumes a dose of the powder must communicate in only true statements for 1 hour. Additionally, other creatures gain an edge on Intuition and Presence tests made to convince the target to communicate, or to read the target's emotions. Any such creature has a double edge on the test if the target doesn't realize they've been affected by the snuff.
 
-#### Snapdragon
+##### Snapdragon
 
 *This delicate orange blossom has a sickly-sweet smell.*
 
@@ -354,7 +348,7 @@ Enterprising mages within various thieves' guilds have developed variations of t
 
 This section presents 2nd-echelon consumable treasures in alphabetical order.
 
-## Breath of Dawn
+##### Breath of Dawn
 
 *A glass flask contains a whirl of gentle sunlight.*
 
@@ -370,7 +364,7 @@ This section presents 2nd-echelon consumable treasures in alphabetical order.
 
 **Effect:** As a maneuver, you inhale the Breath of Dawn and are overcome with tranquility. You immediately end the frightened, slowed, and taunted conditions on yourself, and you gain a +8 bonus to Stability until the end of the encounter.
 
-#### Bull Shot
+##### Bull Shot
 
 *Tiny chips of white bone float within this dark potion, which carries the scent of beef broth.*
 
@@ -386,7 +380,7 @@ This section presents 2nd-echelon consumable treasures in alphabetical order.
 
 **Effect:** When you drink this potion as a maneuver, you sprout 3-foot sharpened horns from your forehead. Whenever you use the Charge main action, the target of your strike is gored upon your horns and grabbed. While grabbed this way, the creature is bleeding. You can also grab another creature with your limbs. The horns harmlessly fall off your head at the end of the encounter.
 
-#### Chocolate of Immovability
+##### Chocolate of Immovability
 
 *This decadent-looking treat feels strangely heavy in the hand.*
 
@@ -402,7 +396,7 @@ This section presents 2nd-echelon consumable treasures in alphabetical order.
 
 **Effect:** When you consume this delicious piece of candy as a maneuver, you gain 15 temporary Stamina and a +10 bonus to stability. Additionally, if you don't use your movement during your turn, any strikes you make on that turn deal an extra 5 damage, and any strikes against you take a bane until the start of your next turn. This effect and the bonus to stability lasts until the end of the encounter, after which you are sleepy. If not reduced beforehand, the temporary Stamina lasts until the end of your next respite.
 
-#### Concealment Potion
+##### Concealment Potion
 
 *This dark, viscous liquid tastes like burnt leaves.*
 
@@ -418,7 +412,7 @@ This section presents 2nd-echelon consumable treasures in alphabetical order.
 
 **Effect:** When you drink this potion as a maneuver, light shifts around your body, letting you blend into the environment around you for 10 minutes. While this effect is active, you have a double edge on tests made to hide and sneak, and you can use the Hide maneuver even while you are observed.
 
-#### Float Powder
+##### Float Powder
 
 *A glass vial holds translucent flakes that twinkle in the light.*
 
@@ -434,7 +428,7 @@ This section presents 2nd-echelon consumable treasures in alphabetical order.
 
 **Effect:** Dousing yourself in this powder as a maneuver causes you to weightlessly float off the ground. For 1 hour, your stability is reduced to 0, and you can fly and hover. Additionally, the hag that the powder is sourced from knows exactly where and when you use it.
 
-#### Purified Jelly
+##### Purified Jelly
 
 *This clear, pasty substance has a bitter aroma.*
 
@@ -450,7 +444,7 @@ This section presents 2nd-echelon consumable treasures in alphabetical order.
 
 **Effect:** Consuming this potion as a maneuver causes your skin to shimmer and a set of tiny gills to appear on your neck or shoulders. For 1 hour, you can breathe in any environment, and you ignore the effects of harmful gases, vapors, and inhaled poisons.
 
-#### Scroll of Resurrection
+##### Scroll of Resurrection
 
 *This scroll is marked by sigils of power, death, and life.*
 
@@ -468,7 +462,7 @@ This section presents 2nd-echelon consumable treasures in alphabetical order.
 
 A creature with a willing soul returns to life at the end of the respite with full Stamina and half their Recoveries. You regain only half your Recoveries at the end of the respite, and the scroll is consumed.
 
-#### Telemagnet
+##### Telemagnet
 
 *A short iron wand shaped of interlocking segments leaks greasy black oil from its joints.*
 
@@ -490,11 +484,11 @@ A creature with a willing soul returns to life at the end of the respite with fu
 
 If you pull a size 1T object adjacent to you, you can catch it.
 
-#### Vial of Ethereal Attack
+##### Vial of Ethereal Attack
 
 *Clear liquid seems to constantly churn within an obsidian vial, even when at rest.*
 
-######## Keywords: Psionic
+**Keywords:** Psionic
 
 **Item Prerequisite:** A signed agreement with a ghost, a large obsidian disk
 
@@ -510,7 +504,7 @@ If you pull a size 1T object adjacent to you, you can catch it.
 
 This section presents 3rd-echelon consumable treasures in alphabetical order.
 
-## Anamorphic Larva
+##### Anamorphic Larva
 
 *A cloudy glass vial holds a writhing monstrous grub.*
 
@@ -528,7 +522,7 @@ This section presents 3rd-echelon consumable treasures in alphabetical order.
 
 At the start of each of your turns, each creature adjacent to the wall takes psychic damage equal to three times their Intuition score, and you can add 1 square to the wall for each creature who takes this damage. If no creature takes damage at the start of your turn, the larva dies and the wall disappears.
 
-## Bottled Paradox
+##### Bottled Paradox
 
 *Liquid constantly swirls within a cut glass bottle that is ice cold to the touch.*
 
@@ -544,17 +538,15 @@ At the start of each of your turns, each creature adjacent to the wall takes psy
 
 **Effect:** As a maneuver, you can drink this potion or throw it up to 10 squares. If you drink it, you choose a test you made in the last minute, then reroll that test repeatedly until the outcome changes. If the potion is thrown, it creates a 3-cube area of shimmering magic. Any event that took place in that area in the previous minute changes at the discretion of the Director, who has full freedom to decide what happens. The energy then dissipates.
 
-## G'Allios Visiting Card
+##### G'Allios Visiting Card
 
 *A card bearing the Eighth City Advocacy Services crest smells faintly of smoke and spices.*
 
-######## Keywords: Magic
+**Keywords:** Magic
 
 **Item Prerequisite:** One vial of archdevil's blood, an expired contract
 
 **Project Source:** Texts or lore in Anjali
-
-########
 
 **Project Roll Characteristic:** Reason or Intuition
 
@@ -562,7 +554,7 @@ At the start of each of your turns, each creature adjacent to the wall takes psy
 
 **Effect:** Whenever you would take damage, you can use a triggered action to tear the card and summon a devil. You avoid the damage and any accompanying effects, and the devil redirects the triggering effect to a target of their choice anywhere on the same manifold. You are treated to a clear vision of whoever suffers the damage. The devil then disappears.
 
-#### Personal Effigy
+##### Personal Effigy
 
 *This tiny humanoid effigy appears unnervingly lifelike and is always warm to the touch.*
 
@@ -578,7 +570,7 @@ At the start of each of your turns, each creature adjacent to the wall takes psy
 
 **Effect:** The Personal Effigy is crafted to depict a specific humanoid creature it is tied to, and activates only for the first minute after the creature dies. While you are within 5 squares of the remains of the creature the effigy is tied to, you can use a maneuver to manually light and burn the effigy and bring the creature back to life. The creature returns to life with Stamina equal to their winded value and 10 temporary Stamina that lasts until the end of their next respite. If the creature has been dead for more than 1 minute, they remain dead and the effigy dissolves into dust.
 
-#### Stygian Liquor
+##### Stygian Liquor
 
 *This muddy brown whiskey tastes of peat and death.*
 
@@ -594,7 +586,7 @@ At the start of each of your turns, each creature adjacent to the wall takes psy
 
 **Effect:** When you drink this potion as a maneuver, you gain a tenacious will to cling to life for 24 hours. If you are dying during this time, you don't die until you reach the negative of your Stamina maximum rather than your winded value. Additionally, while you are dying, you gain on edge on power rolls and you take half the damage dealt by the bleeding condition. Once the potion's magic is triggered, it ends when you are no longer dying.
 
-#### Timesplitter
+##### Timesplitter
 
 *This spiked crystal makes a beautiful ringing sound when first touched.*
 
@@ -614,7 +606,7 @@ At the start of each of your turns, each creature adjacent to the wall takes psy
 - **12-16:** The target and each creature within 5 squares of them is slowed (save ends).
 - **17+:** The target and each creature within 8 squares of them is slowed (save ends).
 
-#### Ward Token
+##### Ward Token
 
 *This smoothly polished quartz stone feels strangely warm to the touch.*
 
@@ -630,7 +622,7 @@ At the start of each of your turns, each creature adjacent to the wall takes psy
 
 **Effect:** As a maneuver, you toss this stone above you and it shatters, showering you in dust. Until the end of the encounter, any enemy ability that targets you has a double bane.
 
-#### Wellness Tonic
+##### Wellness Tonic
 
 *This thick purple liquid has a bitter scent that lingers.*
 
@@ -650,11 +642,11 @@ At the start of each of your turns, each creature adjacent to the wall takes psy
 
 This section presents 4th-echelon consumable treasures in alphabetical order.
 
-#### Breath of Creation
+##### Breath of Creation
 
 *A glass flask holds a roiling storm of astral plasma.*
 
-######## Keywords: Psionic
+**Keywords:** Psionic
 
 **Item Prerequisite:** The captured breath of a god, an ounce of condensed dreams
 
@@ -668,9 +660,7 @@ This section presents 4th-echelon consumable treasures in alphabetical order.
 
 Each time you use another Breath of Creation, you can create a new demiplane or expand a demiplane you have already created or visited. The size of an expanded demiplane increases by 20, and you create a second portal to the demiplane with a corresponding portal inside.
 
-# Rewards
-
-#### Elixir of Saint Elspeth
+##### Elixir of Saint Elspeth
 
 *This thick red liquid smells of cinnamon.*
 
@@ -686,11 +676,11 @@ Each time you use another Breath of Creation, you can create a new demiplane or 
 
 **Effect:** When you pour the elixir onto your forehead as a maneuver, it vanishes and you protect yourself against effects that might harm your body, mind, or soul. For a number of rounds equal to your current Victories, any enemy ability targeting you automatically obtains a tier 1 outcome against you. Additionally, the ability can only deal damage to you, letting you ignore its other effects.
 
-#### Page From the Infinite Library: Solaris
+##### Page From the Infinite Library: Solaris
 
 *This page is covered with writing and diagrams detailing the release of limitless energy—and the dangers of that process.*
 
-######## Keywords: Magic
+**Keywords:** Magic
 
 **Item Prerequisite:** One vial of sacred ink, blessed parchment
 
@@ -704,7 +694,7 @@ Infinite Library detailing incomplete instructions for building a sun
 
 **Effect:** As a maneuver, you spend 1 Heroic Resource to destroy this page and create a 4-cube area within 20 squares. The area is filled with the energy of a tiny sun that lasts until the end of the encounter. Any creature who enters the area for the first time in a combat round or starts their turn there takes 20 fire damage and is dazed until the end of their turn.
 
-#### Restorative of the Bright Court
+##### Restorative of the Bright Court
 
 *An ornately decorated golden vial smells of summer rain and subtle zesty fruits.*
 
@@ -720,7 +710,7 @@ Infinite Library detailing incomplete instructions for building a sun
 
 **Effect:** When opened as a maneuver, this vial bursts into a storm of multicolored lights. You and each ally within 5 squares of you regain 1d6 Recoveries. However, any mortal using this treasure draws the interest of a powerful fey noble.
 
-## Trinkets
+### Trinkets
 
 Trinkets are treasures that can be used at will without a reduction in their potency. They generally provide a small benefit, such as allowing you to see farther or become a bit better at picking locks.
 
@@ -730,7 +720,7 @@ Like consumables, trinket treasures are organized by echelon. You can carry any 
 
 This section presents 1st-echelon trinket treasures in alphabetical order.
 
-#### Color Cloak (Blue)
+##### Color Cloak (Blue)
 
 *This silky-blue hooded cloak is emblazoned with a golden Anjali sigil meaning "ice."*
 
@@ -748,11 +738,11 @@ This section presents 1st-echelon trinket treasures in alphabetical order.
 
 Additionally, when you are targeted by any effect that deals cold damage, you can use a triggered action to shift a number of squares equal to your level. If you do so, the cold immunity granted by the cloak becomes cold weakness with the same value until the end of the next round. You can't use this triggered action again until this weakness ends.
 
-#### Color Cloak (Red)
+##### Color Cloak (Red)
 
 *This red woolen hooded cloak is emblazoned with a golden Anjali sigil meaning "fire."*
 
-#### Keywords: Magic, Neck
+**Keywords:** Magic, Neck
 
 **Item Prerequisite:** A pint of red ichor, soul chalk
 
@@ -766,11 +756,11 @@ Additionally, when you are targeted by any effect that deals cold damage, you ca
 
 Additionally, when you are targeted by any effect that deals fire damage, you can use a triggered action to reduce the damage to 0. If you do so, the fire immunity granted by this cloak becomes fire weakness with the same value until the end of the next round. You can't use this triggered action again until this weakness ends.
 
-## Color Cloak (Yellow)
+##### Color Cloak (Yellow)
 
 *This yellow rubbery hooded cloak is emblazoned with a golden Anjali sigil meaning "lightning."*
 
-######## Keywords: Magic, Neck
+**Keywords:** Magic, Neck
 
 **Item Prerequisite:** A pint of yellow ichor, soul chalk
 
@@ -784,7 +774,7 @@ Additionally, when you are targeted by any effect that deals fire damage, you ca
 
 Additionally, when you are targeted by any effect that deals lightning damage, you can use a triggered action to cause the next damage-dealing ability you use to deal extra lightning damage equal to your level. Once you deal this extra damage, your lightning immunity becomes lightning weakness with the same value until the end of the next round. You can't use this triggered action again until this weakness ends.
 
-#### Deadweight
+##### Deadweight
 
 *Though this humanoid femur is coated in lead, it feels impossibly heavy for its size.*
 
@@ -800,7 +790,7 @@ Additionally, when you are targeted by any effect that deals lightning damage, y
 
 **Effect:** While holding the Deadweight, you fall twice as fast, taking an extra 1 damage for each square you fall (to a maximum of 75 total damage from a single fall). If you fall 5 or more squares this way, you can make a melee free strike as a free maneuver once during the fall before you hit the ground.
 
-#### Displacing Replacement Bracer
+##### Displacing Replacement Bracer
 
 *A wooden bangle is etched with an ambigram sigil of the Zaliac word for "transfer."*
 
@@ -816,7 +806,7 @@ Additionally, when you are targeted by any effect that deals lightning damage, y
 
 **Effect:** As a maneuver, you transfer an object of size 1S or 1T held in one hand with another object of the same size that is within 10 squares. The objects change locations instantaneously and without creating any auditory or visual disturbance. If another creature is wearing or holding the object you transfer to your hand and they have i<4] , they fail to notice the transfer.
 
-#### Divine Vine
+##### Divine Vine
 
 *A coil of emerald-green vines is topped with the jaws of an enormous Venus flytrap.*
 
@@ -832,7 +822,7 @@ Additionally, when you are targeted by any effect that deals lightning damage, y
 
 **Effect:** As a maneuver, you call upon the Divine Vine in Yllyric, causing it to extend up to 5 squares from you and attach its jaws to a creature or object, allowing you to use the Grab maneuver at a distance. If the target is grabbed, you can choose to keep the divine vine extended, pull the target adjacent to you, or pull yourself adjacent to the target. The divine vine stays attached to the target until it takes damage from a strike, the target escapes your grab, or you call upon the vine to release the target (no action required).
 
-#### Flameshade Gloves
+##### Flameshade Gloves
 
 *These finely stitched gloves appear to flicker in and out of reality when first handled.*
 
@@ -850,7 +840,7 @@ Additionally, when you are targeted by any effect that deals lightning damage, y
 
 If the object is too thick or has no open space on the other side, your hand becomes stuck inside the object. Removing your hand takes a successful hard Might test made as a main action.
 
-#### Gecko Gloves
+##### Gecko Gloves
 
 *These scaled gloves have palms and fingers covered in near-invisible sticky hairs.*
 
@@ -866,11 +856,11 @@ If the object is too thick or has no open space on the other side, your hand bec
 
 **Effect:** While you wear these gloves, your grip is all but impossible to break. You can't be disarmed, you can't lose your grip while climbing unless you are force moved, and any creature grabbed by you takes a bane on the test for the Escape Grab maneuver.
 
-#### Hellcharger Helm
+##### Hellcharger Helm
 
 *A steel helm is set with two curved ebony horns, a crackling plume of fire floating between them.*
 
-######## Keywords: Head, Magic
+**Keywords:** Head, Magic
 
 **Item Prerequisite:** One broken contract, one ingot of steel
 
@@ -882,7 +872,7 @@ If the object is too thick or has no open space on the other side, your hand bec
 
 **Effect:** Whenever you use the Charge main action while wearing this helmet, you gain a +5 bonus to speed until the end of your current turn. After charging, you can use the Knockback maneuver as a free maneuver, regardless of the target creature's size.
 
-#### Mask of the Many
+##### Mask of the Many
 
 *A plain white mask is lined with soft black velvet—which smells faintly of blood.*
 
@@ -898,7 +888,7 @@ If the object is too thick or has no open space on the other side, your hand bec
 
 **Effect:** While you wear this mask, you can use a maneuver to transform into any humanoid of equivalent size that you have previously seen. The humanoid's appearance reflects the last time you saw them, including whatever they were wearing. Your clothing and gear are transformed into the figure's clothing and gear, absorbed into your body, or retain their original forms, as you determine. If the figure possessed any treasures when you last saw them, they are duplicated as mundane copies while you are transformed.
 
-#### Quantum Satchel
+##### Quantum Satchel
 
 *A woven metal drawstring seals this plain-looking leather bag, which is affixed with an opal brooch.*
 
@@ -914,7 +904,7 @@ If the object is too thick or has no open space on the other side, your hand bec
 
 **Effect:** When the brooch is removed from this bag and placed in a container or room, it magically entangles that location to the bag. Any item that can be placed in the Quantum Satchel appears near to the brooch and can be recovered by reaching inside while picturing the desired object. The capacity of the satchel is dictated by the size of the container or room where the entangled brooch is. If an item is removed from the container or room containing the brooch, it can't be retrieved through the satchel.
 
-#### Unbinder Boots
+##### Unbinder Boots
 
 *A pair of ornately embroidered leather boots are covered in images of broken chains.*
 
@@ -934,7 +924,7 @@ If the object is too thick or has no open space on the other side, your hand bec
 
 This section presents 2nd-echelon trinket treasures in alphabetical order.
 
-#### Bastion Belt
+##### Bastion Belt
 
 *This thick leather belt features a bone clasp and feels unusually heavy when handled.*
 
@@ -950,7 +940,7 @@ This section presents 2nd-echelon trinket treasures in alphabetical order.
 
 **Effect:** While worn, this belt grants you a +3 bonus to Stamina and a +1 bonus to Stability. This Stamina bonus adds to the Stamina bonus granted by other treasures.
 
-#### Evilest Eye
+##### Evilest Eye
 
 *A perfectly preserved eyeball hangs unnervingly from a gold chain.*
 
@@ -966,7 +956,7 @@ This section presents 2nd-echelon trinket treasures in alphabetical order.
 
 **Effect:** As a maneuver, you target one enemy within 10 squares. You and each ally within 2 squares of the target each gain 1 surge.
 
-#### Insightful Crown
+##### Insightful Crown
 
 *Shaped of polished crystal, this shimmering circlet shifts through myriad colors in the presence of strong emotions.*
 
@@ -982,11 +972,11 @@ This section presents 2nd-echelon trinket treasures in alphabetical order.
 
 **Effect:** While wearing the crown, you gain an edge on Intuition tests made to read the emotions and discern the honesty of other creatures. If you succeed on an Intuition test to read the emotions of another creature within 5 squares, you can ask the Director one question about something the creature knows, which the Director must answer honestly. At the Director's discretion, you might not be able to tap into the creature's deepest secrets this way.
 
-## Key of Inquiry
+##### Key of Inquiry
 
 *A foot-long platinum key is set with three opals.*
 
-######## Keywords: Psionic
+**Keywords:** Psionic
 
 **Item Prerequisite:** The finger bone of a creature with telepathy, three black opals
 
@@ -998,7 +988,7 @@ This section presents 2nd-echelon trinket treasures in alphabetical order.
 
 **Effect:** As a maneuver, you touch the key to an adjacent willing, grabbed, or restrained creature and twist the key 90 degrees clockwise. That creature must answer the next three questions they are asked truthfully and fully. If twisted 90 degrees counterclockwise instead, the creature forgets the last 30 minutes they experienced. A creature affected by the key can't be affected again by any Key of Inquiry for 1 year. If the key is ever destroyed, all the memories it has erased are restored. Memories erased by the key can't be restored in any other way.
 
-#### Mediator's Charm
+##### Mediator's Charm
 
 *A fancy gold earring is set with a small ruby.*
 
@@ -1014,11 +1004,11 @@ This section presents 2nd-echelon trinket treasures in alphabetical order.
 
 **Effect:** While you wear the Mediator's Charm, the patience of any NPC you negotiate with increases by 1 (to a maximum of 5). Additionally, at the start of a negotiation, you learn one of an NPC's motivations or pitfalls of the Director's choice.
 
-#### Necklace of the Bayou
+##### Necklace of the Bayou
 
 *A worn leather circlet bears a lizard-shaped pendant of rotting wood.*
 
-######## Keywords: Magic, Neck
+**Keywords:** Magic, Neck
 
 **Item Prerequisite:** A gallon of swamp water, the limbs of four different newts
 
@@ -1030,7 +1020,7 @@ This section presents 2nd-echelon trinket treasures in alphabetical order.
 
 **Effect:** While you wear this necklace, you can breathe underwater, you can automatically swim at full speed while moving, and you ignore difficult terrain created by water or in marsh and similar terrain.
 
-#### Scannerstone
+##### Scannerstone
 
 *This flat, palm-sized triangular stone is decorated with a starfield of tiny gems.*
 
@@ -1046,11 +1036,11 @@ This section presents 2nd-echelon trinket treasures in alphabetical order.
 
 **Effect:** When held against a wall or other solid surface 1 square thick or less, the Scannerstone creates an image floating in the air beside it that shows a rough miniature approximation of the space on the other side of the surface. The image displays floors, walls, and other barriers but doesn't show other objects. It shows representations of any moving creatures on the other side, but not creatures who are still.
 
-#### Stop-'n-Go Coin
+##### Stop-'n-Go Coin
 
 *This small, featureless coin is solid green on one side and solid red on the other.*
 
-######## Keywords: Magic
+**Keywords:** Magic
 
 **Item Prerequisite:** A coin minted during an earthquake
 
@@ -1072,7 +1062,7 @@ The coin must be picked up before it can be used again. If any creature picks up
 
 This section presents 3rd-echelon trinket treasures in alphabetical order.
 
-#### Bracers of Strife
+##### Bracers of Strife
 
 *Each of these metallic blue bracers is oversized.*
 
@@ -1088,7 +1078,7 @@ This section presents 3rd-echelon trinket treasures in alphabetical order.
 
 **Effect:** While you wear them in combat, these bracers magically double the size of your hands and any melee weapons you wield, automatically compensating for the extra weight. You gain a +2 damage bonus for any weapon ability that deals rolled damage, and a +1 bonus to the distance you push any target with any weapon ability. This damage bonus adds to the damage bonus granted by other treasures.
 
-## Mask of Oversight
+##### Mask of Oversight
 
 *This angular electrum mask is set with an excess of eye holes and a horrifying maw.*
 
@@ -1106,7 +1096,7 @@ This section presents 3rd-echelon trinket treasures in alphabetical order.
 
 While the eyes circle your head, you can use a maneuver to launch up to three of the eyes at one creature within 10 squares. Each eye you launch deals 5 damage to the target before it is destroyed. You can't reduce the number of eyes to fewer than two in this way. If you reduce the number of eyes to two, those eyes return to your head, and you can't use the mask again until you earn 1 or more Victories.
 
-#### Mirage Band
+##### Mirage Band
 
 *A sable blue circlet shimmers with finely woven threads of sparkling white.*
 
@@ -1124,22 +1114,17 @@ While the eyes circle your head, you can use a maneuver to launch up to three of
 
 Additionally, you have the following ability.
 
-#### Hallucination Field
+######## Hallucination Field
 
 *A blanket of illusion twists around you and your allies, making you seem as if you belong wherever you are.*
 
-| **Psionic, Ranged** | **Maneuver** |
-| --- | ---:|
-| **📏 Ranged 10** | **🎯 Self and any ally** |
-
-**Maneuver**
-
-![target icon](attachment:image)
-Self and any ally
+| **Psionic, Ranged** |             **Maneuver** |
+|---------------------|-------------------------:|
+| **📏 Ranged 10**    | **🎯 Self and any ally** |
 
 **Effect:** Each target is covered by an illusion causing them to appear exactly as any creature (humanoid, animal, undead, and so forth) an observer most expects to see. The illusion ends for all targets if any creature under its effect harms or physically interacts with any creature not affected by the illusion, if you use this ability again, or if you choose to end the effect (no action required). The illusion also ends for any affected ally who moves more than the distance of this ability away from you.
 
-#### Nullfield Resonator Ring
+##### Nullfield Resonator Ring
 
 *This simple band of copper vibrates slightly when handled.*
 
@@ -1161,11 +1146,11 @@ Additionally, you have the following ability.
 
 *Your punch delivers a devastating burst of psionic energy.*
 
-| **Melee, Psionic**, **Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Melee 1** | **🎯 One creature or object** |
+| **Melee, Psionic**, **Strike, Weapon** |               **Main action** |
+|----------------------------------------|------------------------------:|
+| **📏 Melee 1**                         | **🎯 One creature or object** |
 
-######## Power Roll** + Might or Agility**:
+**Power Roll + Might or Agility:**
 
 - **≤11:** 3 psychic damage
 - **12-16:** 5 psychic damage; I < AVERAGE, slowed (save ends)
@@ -1173,7 +1158,7 @@ Additionally, you have the following ability.
 
 **Effect:** While slowed in this way, the target takes a bane on magic or psionic abilities.
 
-#### Shifting Ring
+##### Shifting Ring
 
 *This silvery metal ring seems to momentarily vanish when observed from certain angles.*
 
@@ -1193,7 +1178,7 @@ Additionally, you have the following ability.
 
 This section presents 4th-echelon trinket treasures in alphabetical order.
 
-#### Gravekeeper's Lantern
+##### Gravekeeper's Lantern
 
 *This ancient wooden tablet is inscribed with eldritch runes and stained with dark blood.*
 
@@ -1215,7 +1200,7 @@ This section presents 4th-echelon trinket treasures in alphabetical order.
 
 A trapped spirit remains in the lantern for 10 minutes. They remember being trapped by you, and might become hostile thereafter.
 
-#### Psi Blade
+##### Psi Blade
 
 *This wide metal bracer is set with a glowing gemstone.*
 
@@ -1231,9 +1216,7 @@ A trapped spirit remains in the lantern for 10 minutes. They remember being trap
 
 **Effect:** While wearing this metallic band, you can use a maneuver to project a glowing blade of rippling psychic energy that extends parallel to your arm. While the blade is active, you can use a maneuver once per turn to make a melee weapon free strike that deals an extra 3 psychic damage.
 
-Draw Steel
-
-## Leveled Treasures
+### Leveled Treasures
 
 Like trinkets, leveled treasures can be used at will without a reduction in potency. However, leveled treasures tap into their wielder's will in a way that trinkets don't, becoming more powerful and increasing their capabilities as you gain new levels.
 
@@ -1251,15 +1234,15 @@ It's fine to own or possess more than three leveled treasures, as long as the ex
 - **12-16:** Your items work together to prevent you from moving until you pick three items and leave the rest behind.
 - **17+:** Nothing happens.
 
-######## You Don't Need Three
-
-Because you can carry up to three leveled treasures safely, it's easy to assume that your hero should always seek out and carry three such treasures. The truth is that many heroes find carrying just one or two leveled treasures a perfect thematic and mechanical fit, and have no real need for more. That's totally fine! You'll still be super powerful with just one leveled treasure, especially if you obtain or craft trinkets and consumables that might serve you better.
+> **You Don't Need Three**
+> 
+> Because you can carry up to three leveled treasures safely, it's easy to assume that your hero should always seek out and carry three such treasures. The truth is that many heroes find carrying just one or two leveled treasures a perfect thematic and mechanical fit, and have no real need for more. That's totally fine! You'll still be super powerful with just one leveled treasure, especially if you obtain or craft trinkets and consumables that might serve you better.
 
 #### Leveled Armor Treasures
 
 Magic and psionic armor and shields are the primary tools of heroes always ready to hurl themselves into combat. This section presents leveled armor treasures in alphabetical order.
 
-## Adaptive Second Skin of Toxins
+##### Adaptive Second Skin of Toxins
 
 *This suit is shaped of tough leather and set with thousands of tiny barbs on the inside, all thankfully pain-free to the touch.*
 
@@ -1279,11 +1262,11 @@ Magic and psionic armor and shields are the primary tools of heroes always ready
 
 **9th Level:** The armor's bonus to Stamina increases to +21, and an adjacent creature who deals damage to you takes 6 acid or poison damage. Additionally, you can use a maneuver to transmute a 2-cube area of liquid or gas adjacent to you into liquid acid or poison gas until the start of your next turn. Any creature who enters the area for the first time in a combat round or starts their turn there takes 6 acid or poison damage, as appropriate.
 
-## Chain of the Sea and Sky
+##### Chain of the Sea and Sky
 
 *This set of heavy chain mail is created to allow free movement in extreme environments without sacrificing protection.*
 
-######## Keywords: Heavy Armor, Magic
+**Keywords:** Heavy Armor, Magic
 
 **Item Prerequisite:** A set of wings from a flying carp, a set of chain mail rusted by seawater
 
@@ -1299,7 +1282,7 @@ Magic and psionic armor and shields are the primary tools of heroes always ready
 
 **9th Level:** The armor's bonus to Stamina increases to +21, and you have cold immunity 10. Additionally, whenever your feet are not touching the ground (including floating in water or being in midair), you gain an edge on ability rolls, and any ability takes a bane when targeting you.
 
-#### Grand Scarab
+##### Grand Scarab
 
 *The blue-purple carapace and wings of a gigantic scarab beetle have been formed into an ornate breastplate.*
 
@@ -1319,7 +1302,7 @@ Magic and psionic armor and shields are the primary tools of heroes always ready
 
 **9th Level:** The armor's bonus to Stamina increases to +21. Additionally, if you fly any distance before making a strike, that strike gains an edge.
 
-#### King's Roar
+##### King's Roar
 
 *A sunmetal kite shield bears the face of a lion on its front, its mouth opening wider over the course of battle.*
 
@@ -1339,7 +1322,7 @@ Magic and psionic armor and shields are the primary tools of heroes always ready
 
 **9th Level:** The shield's bonus to Stamina increases to +9. When you cause the shield to roar, you target one creature or object within 6 squares, you push that target up to 5 squares, and the target is slowed until the end of their next turn.
 
-#### Kuran'zoi Prismscale
+##### Kuran'zoi Prismscale
 
 *Each scale of this iridescent armor shimmers with the faint image of a frozen moment of time.*
 
@@ -1359,11 +1342,11 @@ Magic and psionic armor and shields are the primary tools of heroes always ready
 
 **9th Level:** The armor's bonus to Stamina increases to +21. Additionally, whenever you capture a moment of time in the armor, you can immediately release it to gain a +3 bonus to speed that lasts until the end of your next turn.
 
-#### Paper Trappings
+##### Paper Trappings
 
 *This delicate robe is made from thousands of pages torn from books, intricately folded together without a single thread to bind them.*
 
-######## Keywords: Light Armor, Magic
+**Keywords:** Light Armor, Magic
 
 **Item Prerequisite:** Ten pages from each of a hundred different books
 
@@ -1379,7 +1362,7 @@ Magic and psionic armor and shields are the primary tools of heroes always ready
 
 **9th Level:** The armor's bonus to Stamina increases to +21, and you are no longer dazed when you return to your true form. Additionally, while you have a target grabbed when you are paper thin, you can use a maneuver to constrict the target, dealing 10 damage to them. A creature damaged this way takes a bane when using the Escape Grab maneuver against you and when making strikes against you.
 
-#### Shrouded Memory
+##### Shrouded Memory
 
 *This midnight-dark leather coat is embossed with fractal patterns that appear different each time they are observed.*
 
@@ -1399,7 +1382,7 @@ Magic and psionic armor and shields are the primary tools of heroes always ready
 
 **9th Level:** The armor's bonus to Stamina increases to +21. Whenever you use the armor's triggered action to teleport, you can teleport up to a number of squares equal to the damage taken (minimum 5 squares). Additionally, if a creature dealt you the triggering damage, you become invisible to that creature until the end of your next turn.
 
-#### Spiny Turtle
+##### Spiny Turtle
 
 *This heavy mechanized plate armor of gnomish make is designed to create its own cover on the battlefield.*
 
@@ -1419,7 +1402,7 @@ Magic and psionic armor and shields are the primary tools of heroes always ready
 
 **9th Level:** The armor's bonus to Stamina increases to +21. Additionally, spikes cover the armor, and any adjacent creature who deals damage to you takes 6 damage.
 
-#### Star-Hunter
+##### Star-Hunter
 
 *Shimmering light flows like liquid along this suit of crystalline armor.*
 
@@ -1439,7 +1422,7 @@ Magic and psionic armor and shields are the primary tools of heroes always ready
 
 **9th Level:** The armor's bonus to Stamina increases to +21, and you instinctively know the location of any creature with concealment within 10 squares. Your invisibility no longer ends when you use an ability, and you have psychic immunity 10.
 
-## Telekinetic Bulwark
+##### Telekinetic Bulwark
 
 *An unseen force seems to draw this steel shield toward nearby creatures.* **Keywords:** Psionic, Shield
 
@@ -1461,7 +1444,7 @@ Magic and psionic armor and shields are the primary tools of heroes always ready
 
 Implements are pieces of jewelry, orbs, staffs, tomes, wands, and other objects used by magic and psionic heroes to focus their power. This section presents leveled implement treasures in alphabetical order.
 
-#### Abjurer's Bastion
+##### Abjurer's Bastion
 
 *An ornate ring is set with a large diamond that swirls with blue light, and whose inner surface is etched with protective runes.*
 
@@ -1481,7 +1464,7 @@ Implements are pieces of jewelry, orbs, staffs, tomes, wands, and other objects 
 
 **9th Level:** The implement's damage bonus increases to +3. Whenever you deal rolled damage to a creature using a magic or psionic ability, you and each ally within 5 squares of you gains temporary Stamina equal to your highest characteristic score. Additionally, the size of your field of protection increases to a 3 cube, and it can be placed anywhere within 10 squares of you. You and each ally in the area gain its benefits.
 
-#### Brittlebreaker
+##### Brittlebreaker
 
 *This crystal wand thrums with power, yet is so thin and brittle that it feels as if even a slight squeeze will shatter it.*
 
@@ -1501,7 +1484,7 @@ Implements are pieces of jewelry, orbs, staffs, tomes, wands, and other objects 
 
 **9th Level:** The implement's extra psychic damage increases to 4. Additionally, whenever you use a damage-dealing magic or psionic ability, you can take half as much total damage as is dealt to all targets to immediately use the same ability again. The damage you take can't be reduced in any way. You can't use this benefit more than once a turn.
 
-#### Chaldorb
+##### Chaldorb
 
 *A perfectly clear sphere is embossed with fine ivory and crystal that is frigid to the touch.*
 
@@ -1521,7 +1504,7 @@ Implements are pieces of jewelry, orbs, staffs, tomes, wands, and other objects 
 
 **9th Level:** The implement's damage bonus increases to +3, and the whirlwind you create when you use a magic or psionic ability deals 6 cold damage to each enemy within 2 squares of you. Additionally, the whirlwind creates a 2 aura around you that lasts until the start of your next turn. Each enemy who enters the aura for the first time in a combat round or starts their turn there takes 6 cold damage.
 
-#### Ether-Fueled Vessel
+##### Ether-Fueled Vessel
 
 *This bronze bottle has been shaped into the form of a ghostly figure.*
 
@@ -1541,7 +1524,7 @@ Implements are pieces of jewelry, orbs, staffs, tomes, wands, and other objects 
 
 **9th Level:** The implement's damage bonus increases to +3. Additionally, any creature who is insubstantial to you and isn't a leader or solo creature also can't make opportunity attacks against your allies while they remain insubstantial.
 
-#### Foesense Lenses
+##### Foesense Lenses
 
 *These spectacles feature pink-tinted glass lenses held in a silver frame.*
 
@@ -1561,7 +1544,7 @@ Implements are pieces of jewelry, orbs, staffs, tomes, wands, and other objects 
 
 **9th Level:** The implement's damage bonus increases to +3. Additionally, whenever you deal 30 or more rolled damage with a magic or psionic ability to a creature whose senses you are using, that creature is dazed until the end of their next turn.
 
-#### Words Become Wonders at Next Breath
+##### Words Become Wonders at Next Breath
 
 *This ornate high elf tome seems to sigh each time it is opened.*
 
@@ -1585,7 +1568,7 @@ Implements are pieces of jewelry, orbs, staffs, tomes, wands, and other objects 
 
 For combat-focused heroes, weapons channeling magic and psionic power can easily tip the balance of any battle. This section presents leveled weapon treasures in alphabetical order.
 
-#### Authority's End
+##### Authority's End
 
 *This long, sinuous chain is composed entirely of broken links held together by unseen power.*
 
@@ -1605,7 +1588,7 @@ For combat-focused heroes, weapons channeling magic and psionic power can easily
 
 **9th Level:** The weapon's damage bonus increases to +3. Additionally, you no longer need to use a maneuver to end one effect when you damage a creature with the weapon. The weapon also refuses to vie for control of your psyche, and no longer counts against the limit of leveled treasures you can carry safely.
 
-## Blade of Quintessence
+##### Blade of Quintessence
 
 *This crystal blade houses a stormy vortex of fire, ice, and lightning.*
 
@@ -1623,11 +1606,11 @@ For combat-focused heroes, weapons channeling magic and psionic power can easily
 
 **9th Level:** The weapon's damage bonus increases to +3. Additionally, while you wield or carry the weapon, you have immunity 10 to cold, fire, lightning, and sonic damage.
 
-## Blade of the Luxurious Fop
+##### Blade of the Luxurious Fop
 
 *Despite sporting an outrageously ornate hilt adorned with far too many jewels, this blade remains perfectly balanced.*
 
-######## Keywords: Light Weapon, Magic
+**Keywords:** Light Weapon, Magic
 
 **Item Prerequisite:** A personal blessing from the greatest duelist in the land, six fake and extremely shiny gemstones
 
@@ -1643,7 +1626,7 @@ For combat-focused heroes, weapons channeling magic and psionic power can easily
 
 **9th Level:** The weapon's damage bonus increases to +3. Additionally, you have a double edge on any test you make using a skill you have from the interpersonal skill group.
 
-#### Displacer
+##### Displacer
 
 *This crystal battleaxe seems to pull at the hands that wield it, as if anxious to leap across the battlefield.*
 
@@ -1663,7 +1646,7 @@ For combat-focused heroes, weapons channeling magic and psionic power can easily
 
 **9th Level:** The weapon's extra psychic damage increases to 3. Additionally, whenever you deal rolled damage to a creature, you can use a maneuver to trade places with that creature or any creature within 8 squares of them, provided you both fit into each other's spaces. Additionally, you can cause the creature you traded places with to be weakened until the end of their next turn, or you can spend a Recovery.
 
-#### Executioner's Blade
+##### Executioner's Blade
 
 *This blade exudes a faint hum that grows louder as its quarry weakens.*
 
@@ -1683,7 +1666,7 @@ For combat-focused heroes, weapons channeling magic and psionic power can easily
 
 **9th Level:** The weapon's extra psychic damage increases to 3, or to 6 if the target is winded. Additionally, you gain an edge on any ability using the weapon against a winded target.
 
-#### Icemaker Maul
+##### Icemaker Maul
 
 *The head of this iron hammer is cold to the touch and encases whatever it strikes in a thin layer of ice.*
 
@@ -1703,7 +1686,7 @@ For combat-focused heroes, weapons channeling magic and psionic power can easily
 
 **9th Level:** The weapon's extra cold damage increases to 3, and the ice field becomes a 5 burst. Additionally, any enemy in the ice field who is reduced to 0 Stamina by an ability using the weapon can be shattered, killing them and dealing 15 cold damage to each enemy within 3 squares of them.
 
-#### Knife of Nine
+##### Knife of Nine
 
 *This ivory dagger features nine faintly glowing indentations along the blade.*
 
@@ -1723,7 +1706,7 @@ For combat-focused heroes, weapons channeling magic and psionic power can easily
 
 **9th Level:** If you make a weapon strike using this weapon against a target after dropping down on them from a height of 2 squares or more, the attack deals an extra 10 psychic damage. You can distribute all extra psychic damage dealt by the attack between the target and any enemies adjacent to them.
 
-#### Lance of the Sundered Star
+##### Lance of the Sundered Star
 
 *This needlelike lance is cast of shimmering metal and induces a yearning for the skies in those who handle it.*
 
@@ -1743,7 +1726,7 @@ For combat-focused heroes, weapons channeling magic and psionic power can easily
 
 **9th Level:** The weapon's extra holy damage increases to 3. Additionally, whenever the weapon is used with a weapon ability that allows you to push or slide a target, that forced movement can be vertical.
 
-#### Molten Constrictor
+##### Molten Constrictor
 
 *This flexible black-iron net burns with the heat of a volcano.*
 
@@ -1763,7 +1746,7 @@ For combat-focused heroes, weapons channeling magic and psionic power can easily
 
 **9th Level:** The weapon's extra fire damage increases to 3, and the damage taken by a grabbed creature attempting to escape increases to 15. Additionally, you can use a maneuver to make a free strike with another weapon against a target grabbed using the net.
 
-#### Onerous Bow
+##### Onerous Bow
 
 *This mechanized bow is set with magical reservoirs that carry the faint tang of toxins.*
 
@@ -1783,7 +1766,7 @@ For combat-focused heroes, weapons channeling magic and psionic power can easily
 
 **9th Level:** The weapon's extra poison damage increases to 3. Additionally, if you use an ability using the weapon that targets one creature and you don't have a bane or double bane on the ability, you can take a bane. Doing so lets you target another creature adjacent to the original target. Alternatively, you can have a double bane to target two creatures adjacent to the original target.
 
-#### Steeltongue
+##### Steeltongue
 
 *This sinuous whip reflects all light off its plated steel surfaces.*
 
@@ -1803,11 +1786,11 @@ For combat-focused heroes, weapons channeling magic and psionic power can easily
 
 **9th Level:** The weapon's bonus to melee distance increases to +3. Additionally, if you use a signature ability using the weapon that targets one or more bleeding creatures, you can use the same ability again immediately as a maneuver.
 
-#### Third Eye Seeker
+##### Third Eye Seeker
 
 *The shifting patterns on this bow's crystalline grip resemble dozens of blinking eyes.*
 
-######## Keywords: Bow, Psionic
+**Keywords:** Bow, Psionic
 
 **Item Prerequisite:** Heart strings of a tapir, a pound of tiger's eye gemstones
 
@@ -1821,7 +1804,7 @@ For combat-focused heroes, weapons channeling magic and psionic power can easily
 
 **9th Level:** The weapon's extra psychic damage increases to 3. Additionally, you have a double edge on weapon abilities that use the weapon against creatures who have used a psionic ability since the end of your last turn.
 
-#### Thunderhead Bident
+##### Thunderhead Bident
 
 *This bident is made from two pieces of moon metal twisted together, and hums like a tuning fork.*
 
@@ -1841,7 +1824,7 @@ For combat-focused heroes, weapons channeling magic and psionic power can easily
 
 **9th Level:** The weapon's extra sonic damage increases to 3, and it deals an extra 1 sonic damage for each square it travels as part of a ranged strike. Additionally, whenever you make a weapon strike using this weapon, each enemy adjacent to the target takes 6 sonic damage.
 
-#### Wetwork
+##### Wetwork
 
 *When first held, this naginata whispers the names of its past victims.*
 
@@ -1865,11 +1848,11 @@ For combat-focused heroes, weapons channeling magic and psionic power can easily
 
 In addition to armor, shields, implements, and weapons, heroes can make use of a wide range of magic and psionic treasures. This section presents other types of leveled treasures in alphabetical order.
 
-#### Bloodbound Band
+##### Bloodbound Band
 
 *This ring appears to be traced by dried blood, which returns each time it is rubbed away.*
 
-######## Keywords: Magic, Ring
+**Keywords:** Magic, Ring
 
 **Item Prerequisite:** A pair of obituaries that each mention the subject of the other
 
@@ -1905,7 +1888,7 @@ In addition to armor, shields, implements, and weapons, heroes can make use of a
 
 **9th Level:** The damage bonus granted by the hand wraps increases to +3. Additionally, once per turn, you can take 15 damage that can't be reduced in any way to use a signature ability (no action required). On your turn, you can use the wraps' signature ability option, melee free strike option, or Grab maneuver option, but only one.
 
-#### Lightning Treads
+##### Lightning Treads
 
 *Sparks strike from these boots whenever they touch the ground, increasing in number as the wearer gathers speed.*
 
@@ -1925,11 +1908,11 @@ In addition to armor, shields, implements, and weapons, heroes can make use of a
 
 **9th Level:** The extra lightning damage granted by the treads increases to 3, and your movement can increase that extra damage to a maximum of 6. Additionally, you can use a maneuver to perform a flying lightning kick on one adjacent creature. That target is pushed up to 5 squares, and you can move to any square adjacent to the target after the push.
 
-#### Revenger's Wrap
+##### Revenger's Wrap
 
 *When first handled, this tattered cloak fills the mind with thoughts of revenge.*
 
-######## Keywords: Neck, Magic
+**Keywords:** Neck, Magic
 
 **Item Prerequisite:** A cloak worn by a murdered monarch
 
@@ -1945,7 +1928,7 @@ In addition to armor, shields, implements, and weapons, heroes can make use of a
 
 **9th Level:** When you have three or more creatures marked for revenge and you target one of them with an ability that targets only one creature, you target all the creatures marked for revenge, regardless of their distance from you and even if you don't have line of effect to them.
 
-#### Thief of Joy
+##### Thief of Joy
 
 *This burnished copper torque thrums with a sense of judgment.*
 
@@ -1967,13 +1950,13 @@ Whenever a creature within 10 squares of you deals damage to another creature, y
 
 **9th Level:** The torque's bonus to Stamina increases to five times your highest characteristic score. Additionally, you can have multiple instances of envy and disdain, with no limit on either.
 
-## Artifacts
+### Artifacts
 
 Artifacts are powerful treasures, with entire campaigns to be built around finding, using, hiding, protecting, or destroying one. Make no mistake—these items unbalance the game. If the heroes or villains have access to such a treasure, their power is far beyond what the encounter-building guidelines in *[Draw Steel: Monsters](https://mcdm.gg/DS-Monsters)* expect. That's part of the fun!
 
 Typically, one creature never holds onto an artifact for too long. Most of these treasures have a sentience of their own and an eagerness to move on. Since many powerful entities might want to get their hands on an artifact, characters might see armies, dragons, and even gods come to collect one from a wielder who refuses to let go.
 
-#### Blade of a Thousand Years
+##### Blade of a Thousand Years
 
 *This fabled sword features a hilt made of glittering starlight, out of which its gleaming metal blade extends.*
 
@@ -1993,11 +1976,11 @@ Though its size and make are often debated, the sword is consistently described 
 
 **Soul of the Martyr:** If the wielder dies while holding this blade, their soul is drawn into the starlight hilt, where it remains for the rest of time to prevent any chance of resurrection. The sword disappears, but the lingering feeling of hope that spreads from it remains. For the next hour, the effects of Rally the Righteous increase to provide a double edge on weapon abilities and magic abilities, damage immunity 10, an increase to Stamina maximum of 30, and a bonus to Stamina of +30.
 
-## Encepter
+##### Encepter
 
 *A bejeweled scepter with a spiraling porcelain handle balances an orb of light above its crown.*
 
-######## Keywords: Magic
+**Keywords:** Magic
 
 This scepter waits high in the sky, resting within an endlessly raging cyclone. It waits for the one who will unify all people under its light. It awaits its champion.
 
@@ -2013,11 +1996,11 @@ The Encepter is said to have first manifested in a young world doomed to apocaly
 
 **At World's End:** If the Encepter was not taken from its cyclonic resting place with the purpose of vanquishing a terrible peril, then a terrible peril emerges to threaten the world within 3 days of the scepter being taken.
 
-## Mortal Coil
+##### Mortal Coil
 
 *This floating helix of golden metal spins ever faster as it activates, crackling with crimson sparks.*
 
-######## Keywords: Psionic
+**Keywords:** Psionic
 
 Change is the engine of existence. Permanence begets stagnation. When the past refuses to relinquish control, a path must be cleared for the future. Energized by the flickering of minds and souls passing through the void, the Mortal Coil taps into the entropic potential inherent in every living creature to cast a shadow capable of felling even gods. For the true gift of life is death, and gifts are meant to be given.
 
@@ -2035,13 +2018,13 @@ When the Mortal Coil is left unattended or is in the possession of a creature wh
 
 **Beneath Contempt:** Deities and their servants always overlook the Mortal Coil and its host—either unable to notice it, or not considering it a threat. If the artifact is somehow destroyed or unmade through godly power, it consumes a year of life from every humanoid in the manifold where it was destroyed, then reforms in a hidden place.
 
-## TITLES
+## Titles
 
 Titles are special benefits earned by heroes through adventure and mighty deeds. Heroes must win titles—sometimes individually, sometimes as a group—by accomplishing heroic tasks. Titles are the record of a hero's accomplishments, forming the basis of the stories told of them in taverns or whispered in the halls of the mighty.
 
 Each title comes with a new ability or other special benefit. By earning titles, heroes gain a unique set of capabilities that sets them apart from other adventurers.
 
-## Title Requirements
+### Title Requirements
 
 Players don't simply choose their characters' titles. Like treasures and Renown (in the next section), titles must be won. Each title has a unique requirement, so that earning a title might mean your character needs to defeat a specific monster, research dangerous forbidden lore, or—in the case of the Monarch title—win a kingdom!
 
@@ -2049,7 +2032,7 @@ Titles aren't given out on a schedule. Instead, the Director grants one whenever
 
 Although the Director gives out titles, if you want to earn a specific title, let your Director know. For instance, you might say, "I'm interested in the Dragon Blooded title. Can my hero listen for rumors of any wicked dragons nearby that need smiting?" Having ambition is good! Pursue the titles you want that will make you a better hero.
 
-## Title Echelons
+### Title Echelons
 
 Each title is assigned to an echelon of play where it is most likely to be earned. For instance, knighthood is something that can be typically earned by the 2nd echelon, but becoming a monarch can usually only be achieved in the 4th echelon. But don't let the rules get in the way of a good story! If the Director decides that your character somehow wins a knighthood at 1st level, bask in the glory of this great accomplishment.
 
@@ -2057,41 +2040,43 @@ Each title is assigned to an echelon of play where it is most likely to be earne
 
 Granting titles before characters reach the recommended echelon can be fun, but it's worth noting that doing so might have unwanted effects on the game. Higher-echelon titles often grant more significant benefits than lower-echelon titles. If a hero becomes queen at 1st level, her royal responsibilities might overshadow her other adventures. Don't grant a title more than one echelon early unless you know what you're getting yourself into!
 
-## Customizing Titles
+### Customizing Titles
 
 This section details a number of ready-to-use titles. But the Director can also create custom titles, both to reward specific player accomplishments and to flesh out organizations, locations, and foes within their own game world. When a hero finally achieves a long-term goal after many game sessions of struggle, the Director can memorialize the moment by granting a unique title. Similarly, the Director can grant custom titles when the heroes befriend specific factions, defeat notorious villains, or learn new moves from skilled NPCs.
 
 The easiest way to create custom titles is to modify an existing title's requirements to fit the adventure at hand. For instance, your world might contain a secretive organization of freedom fighters—the Jesters—who never carry weapons, defeating foes with unarmed attacks and improvised weapons. Creating a Jester title can be as easy as modifying the Brawler title by changing its requirements to "Fight alongside the Jesters against a mutual foe."
 
-#### For the Director: Perks as Custom Titles
+> **For the Director: Perks as Custom Titles**
+> 
+> You can turn a perk into a 1st-echelon title simply by giving it a prerequisite (see Chapter 7: Perks). For example, a hero might gain the Familiar perk as a title instead if they complete a quest for an archmage, who then teaches the hero the conjuring ritual as a reward.
 
-You can turn a perk into a 1st-echelon title simply by giving it a prerequisite (see Chapter 7: Perks). For example, a hero might gain the Familiar perk as a title instead if they complete a quest for an archmage, who then teaches the hero the conjuring ritual as a reward.
-
-## How Many Titles?
+### How Many Titles?
 
 Just because a hero meets the prerequisite for a title doesn't mean it is granted to them. The Director decides when a hero earns a title and its benefits. Odds are you'll be adventuring quite a bit and qualify for more than a few, but gaining too many titles all at once can make for a complicated hero. In general, a hero typically earns one title per echelon of play, though they can earn more or fewer at the Director's discretion.
 
-## Title Benefits
+### Title Benefits
 
 Some titles have only one benefit. These are typically earned by heroes individually instead of together as a group. Only the hero doing the studying or meeting a particular fate reaps the reward!
 
 Most titles, however, are earned by all the heroes at once for accomplishing a great task, benefiting them all. These titles typically offer a selection of three or four different options. When the party earns the title, each player decides which benefit their hero takes. For instance, if the party triumphs in a tavern fight and gains the Brawler title, one hero might become more adept at fighting with improvised weapons, another might learn a special dodge to use when flanked by multiple enemies, and two others might simply revel in the increased notoriety. A hero can take any of a title's benefits they qualify for, and multiple heroes can take the same benefit.
 
-## Granting Titles
+### Granting Titles
 
 Titles are rewards for heroic activities, and they often go hand in hand with treasure and other goodies. If the party defeats a fearsome monster and earns Renown, or accomplishes a quest and wins a magic leveled treasure, one or more characters might earn a title at the same time.
 
 There is no hard-and-fast rule for the number of titles characters should accumulate by a certain level. If a character wins a title whenever they accomplish a truly notable deed—once every few adventures—then they might earn about one title per echelon. Sticking to this rate isn't a requirement, though. Characters might easily earn twice or half as many titles, making them a bit more or less powerful than they otherwise would be. A Director can even skip granting titles altogether if they wish.
 
-# Rewards
-
-## 1st-Echelon Titles
+### 1st-Echelon Titles
 
 Titles suitable for 1st-echelon characters are presented in alphabetical order.
 
-######## Optional Rule: Players Choose Titles
+> **Optional Rule: Players Choose Titles**
+> 
+> If the Director doesn't want to track player accomplishments, they can let the players do it instead. In this case, whenever a hero enters a new echelon of play, they gain one title of their choice for which they qualify.
 
-If the Director doesn't want to track player accomplishments, they can let the players do it instead. In this case, whenever a hero enters a new echelon of play, they gain one title of their choice for which they qualify.
+> **For the Director: Planning Titles**
+>
+> While running a game session, it can be hard to track the heroes' actions and remember which titles they might qualify for. As such, it's easier to plan titles ahead of time. If the heroes might face a demon or dragon in an upcoming adventure, you can include the Demon Slayer or Dragon Blooded titles as potential rewards alongside that magic cloak or psionic dagger. You can even use titles to inspire adventures. What challenges should a hero face to earn the Demigod title?
 
 #### Ancient Loremaster
 
@@ -2116,10 +2101,6 @@ If the Director doesn't want to track player accomplishments, they can let the p
 - *Iron Hand in Velvet Glove:* The first time during a negotiation that you make a test using the Intimidate skill and don't make an argument that appeals to an NPC's motivation, you don't lower the NPC's patience or interest no matter the outcome of the roll.
 - *Truce!:* You have a double edge on tests made to stop combat and start a negotiation.
 - *Warriors' Understanding:* You gain an edge on Presence tests made to interact with creatures you have fought against in combat encounters.
-
-#### For the Director: Planning Titles
-
-While running a game session, it can be hard to track the heroes' actions and remember which titles they might qualify for. As such, it's easier to plan titles ahead of time. If the heroes might face a demon or dragon in an upcoming adventure, you can include the Demon Slayer or Dragon Blooded titles as potential rewards alongside that magic cloak or psionic dagger. You can even use titles to inspire adventures. What challenges should a hero face to earn the Demigod title?
 
 #### Brawler
 
@@ -2203,15 +2184,13 @@ Additionally, the Director assigns you one of the following benefits, as appropr
 
 **Effect:** Choose one of the following benefits:
 
-*Easy Marks:* You gain an edge on tests made using skills from the interpersonal and intrigue skill groups when influencing members of a community that you have saved.
+- *Easy Marks:* You gain an edge on tests made using skills from the interpersonal and intrigue skill groups when influencing members of a community that you have saved.
+- *Local Fame:* You earn 1 Renown.
+- *A New Dawn:* Each time you finish a respite while in a community you have saved, the party gains a hero token. This hero token disappears at the end of your next respite if it hasn't been used.
 
-*Local Fame:* You earn 1 Renown.
-
-*A New Dawn:* Each time you finish a respite while in a community you have saved, the party gains a hero token. This hero token disappears at the end of your next respite if it hasn't been used.
-
-######## Renown and Wealth
-
-Many titles bestow Renown, followers, and wealth upon heroes. Those topics are covered later in this chapter.
+> **Renown and Wealth**
+> 
+> Many titles bestow Renown, followers, and wealth upon heroes. Those topics are covered later in this chapter.
 
 #### Mage Hunter
 
@@ -2236,8 +2215,7 @@ Many titles bestow Renown, followers, and wealth upon heroes. Those topics are c
 - *Guess It's the Hard Way Then:* When combat begins and you aren't surprised, the first time you take damage before taking your turn, you halve that damage.
 - *Heedless Pursuer:* Once on each of your turns, you can use a free maneuver to deal yourself 1d6 damage that can't be reduced in any way. When you do, you ignore difficult terrain and you can increase the distance of any jump you make by 1 square, both until the end of your turn.
 - *Silver Shield:* You have a badge granted to you by your organization. While you wear it, you gain the My Life for Yours feature from the censor class. When you use that ability, you can't spend wrath unless you have the Wrath class feature.
-
-*Trained Tracker:* You gain an edge on tests made to track criminals.
+- *Trained Tracker:* You gain an edge on tests made to track criminals.
 
 #### Monster Bane
 
@@ -2279,16 +2257,15 @@ At a dramatic moment determined by the Director, you rejoin your party with an e
 
 **Effect:** Choose one of the following benefits:
 
-*Come Out to Play:* You have the following ability, which can be paid for using the Heroic Resource of your class.
+- *Come Out to Play:* You have the following ability, which can be paid for using the Heroic Resource of your class.
 
 ######## Come Out to Play (1 Heroic Resource)
 
 *Come out to play-yay!*
 
-| **Area, Magic** | **Maneuver** |
-
-| --- | ---:|
-| **📏 5 burst** | **🎯 Each enemy in the area hidden to you** |
+| **Area, Magic** |                                **Maneuver** |
+|-----------------|--------------------------------------------:|
+| **📏 5 burst**  | **🎯 Each enemy in the area hidden to you** |
 
 **Effect:** Each target who has P < AVERAGE is taunted by you until the end of their next turn, and you know the location of each creature taunted in this way.
 
@@ -2314,8 +2291,10 @@ The Director chooses one of the following benefits, based on the fate your capto
 
 *Up anchor, shipmates! 'Tisn't gold but glory we seek!*
 
-- **Prerequisite:** You acquire a ship, airship, or similar vessel.
-- **Effect:** Choose one of the following benefits:
+**Prerequisite:** You acquire a ship, airship, or similar vessel.
+
+**Effect:** Choose one of the following benefits:
+
 - *Deep-Sea Diver:* You can automatically swim at full speed while moving.
 - *Ship Speaker:* You magically know the location of any ship controlled by your party even while you aren't aboard. You can telepathically communicate with anyone on board one of your ships who understands a language, and they can respond, no matter your distance from the ship.
 - *Signal Flags:* While aboard a ship, you can communicate with and conduct negotiations with another ship up to 5 miles away, as long as you and creatures on the other ship have line of effect to each other. You gain an edge on Presence tests made while negotiating in this way.
@@ -2329,6 +2308,7 @@ The Director chooses one of the following benefits, based on the fate your capto
 
 **Effect:** Choose one of the following benefits:
 
+- *Flying Circus:* When you are adjacent to a willing ally on their turn, you can use a triggered action to push them up to 2 squares if their size is the same as yours, or 4 squares if they are smaller. If this push causes the ally to fall, they can use a maneuver before they fall to reduce the height of the fall by 2.
 - *Spotlight:* You magically cause a creature within 10 squares to shed light for 5 squares. This light lasts for 1 minute, until the creature is more than 10 squares away from you, or until you dismiss the effect (no action required). While illuminated, a creature can't sneak or hide, they take a bane on tests made to perform any action secretly, and they gain an edge on tests made using the Lead, Music, or Perform skills.
 - *Supporting Player:* You gain an edge on group tests using Presence and on tests made to assist another creature with a Presence test.
 - *Work the Crowd:* While any of your allies is playing music or performing, you gain an edge on tests made to conceal objects, hide, pick pockets, or sneak.
@@ -2353,8 +2333,7 @@ The Director chooses one of the following benefits, based on the fate your capto
 
 **Effect:** Choose one of the following benefits:
 
-*Blessed Weapons:* Whenever you use a damage-dealing weapon ability, that ability can deal holy damage instead of its usual damage type.
-
+- *Blessed Weapons:* Whenever you use a damage-dealing weapon ability, that ability can deal holy damage instead of its usual damage type.
 - *Divine Health:* You gain corruption immunity equal to your highest characteristic score. Additionally, you can't be turned into an undead creature.
 - *Holy Terror:* You have the following ability, which can be paid for using the Heroic Resource of your class.
 
@@ -2362,21 +2341,13 @@ The Director chooses one of the following benefits, based on the fate your capto
 
 *Return to your grave!*
 
-**Area, Magi**
-
-![ruler icon] 3 burst
-
-| **Area, Magic** | **Maneuver** |
-| --- | ---:|
-| **📏 3 burst** | **🎯 Each undead enemy in the area** |
+| **Area, Magic** |                         **Maneuver** |
+|-----------------|-------------------------------------:|
+| **📏 3 burst**  | **🎯 Each undead enemy in the area** |
 
 **Effect:** Each target takes holy damage equal to your Reason, Intuition, or Presence score (your choice). Additionally, each target who has P < STRONG is frightened (save ends).
 
-*Flying Circus:* When you are adjacent to a willing ally on their turn, you can use a triggered action to push them up to 2 squares if their size is the same as yours, or 4 squares if they are smaller. If this push causes the ally to fall, they can use a maneuver before they fall to reduce the height of the fall by 2.
-
-# Rewards
-
-## 2nd-Echelon Titles
+### 2nd-Echelon Titles
 
 Titles suitable for 2nd-echelon characters are presented in alphabetical order.
 
@@ -2390,18 +2361,16 @@ Titles suitable for 2nd-echelon characters are presented in alphabetical order.
 
 - *Dirty Fighting:* While you are standing, your melee strikes gain a +3 damage bonus against prone creatures. Additionally, being prone doesn't impose a bane on your strikes.
 - *Foes as Weapons:* Whenever you have a creature of your size or smaller grabbed, you can use them as a weapon when you make a melee weapon free strike. Both the target and the grabbed enemy take the strike's damage.
-
-*Instant Celebrity:* You earn 1 Renown.
-
-*Showstopper:* You have the following ability, which can be paid for using the Heroic Resource of your class.
+- *Instant Celebrity:* You earn 1 Renown.
+- *Showstopper:* You have the following ability, which can be paid for using the Heroic Resource of your class.
 
 ######## Showstopper (5 Heroic Resource)
 
-| **Melee, Strike, Weapon** | **Main action** |
-| ---------------------------|---------------------------------|
-| Melee 1 | One creature |
+| **Melee, Strike, Weapon** |     **Main action** |
+|---------------------------|--------------------:|
+| **📏 Melee 1**            | **🎯 One creature** |
 
-**Power Roll** + Might or Agility**:**
+**Power Roll + Might or Agility:**
 
 - **≤11:** 6 damage; I < WEAK, slowed (save ends)
 - **12-16:** 10 damage; I < AVERAGE, frightened (save ends)
@@ -2429,21 +2398,20 @@ Titles suitable for 2nd-echelon characters are presented in alphabetical order.
 
 **Effect:** Choose one of the following benefits:
 
-*Charge!:* You have the following ability, which can be paid for using the Heroic Resource of your class.
+- *Charge!:* You have the following ability, which can be paid for using the Heroic Resource of your class.
 
 ######## Charge! (9 Heroic Resource)
 
 *Follow me!*
 
-| **Area** | **Main action** |
-| --- | ---:|
+| **Area**       |                       **Main action** |
+|----------------|--------------------------------------:|
 | **📏 3 burst** | **🎯 Self and each ally in the area** |
 
 **Effect:** Each target can use the Charge main action.
 
-*Renowned Warrior:* You earn 1 Renown.
-
-*Student of War:* Choose a 1st-level doctrine feature from the tactician class. You gain that feature even if you don't have the Tactical Doctrine feature.
+- *Renowned Warrior:* You earn 1 Renown.
+- *Student of War:* Choose a 1st-level doctrine feature from the tactician class. You gain that feature even if you don't have the Tactical Doctrine feature.
 
 #### Blood Magic
 
@@ -2465,11 +2433,10 @@ Titles suitable for 2nd-echelon characters are presented in alphabetical order.
 
 **Effect:** Choose one of the following benefits:
 
-*Artillerist:* You gain a +5 damage bonus when using a ship's weapons. *Black Flag:* You have a recognizable flag that strikes terror on the high seas. While your flag is flying from your ship, crewmembers of other ships who have line of effect to the flag take a bane on strikes made against your ship or its crew.
-
-*Fearsome Reputation:* You earn 1 Renown.
-
-*Scoundrel Tactics:* While aboard a ship, you can use the following skills to make a test to influence another ship up to 5 miles away whose crewmembers have line of effect to you, and you gain an edge when you do so. You can use Disguise to hide your ship's identity or general type, Intimidate to convince another ship's crew to flee or surrender, or Hide or Sneak to let your ship avoid notice.
+- *Artillerist:* You gain a +5 damage bonus when using a ship's weapons
+- *Black Flag:* You have a recognizable flag that strikes terror on the high seas. While your flag is flying from your ship, crewmembers of other ships who have line of effect to the flag take a bane on strikes made against your ship or its crew.
+- *Fearsome Reputation:* You earn 1 Renown.
+- *Scoundrel Tactics:* While aboard a ship, you can use the following skills to make a test to influence another ship up to 5 miles away whose crewmembers have line of effect to you, and you gain an edge when you do so. You can use Disguise to hide your ship's identity or general type, Intimidate to convince another ship's crew to flee or surrender, or Hide or Sneak to let your ship avoid notice.
 
 #### Faction Officer
 
@@ -2505,13 +2472,13 @@ Titles suitable for 2nd-echelon characters are presented in alphabetical order.
 - *Smallfolk Dodge:* Any creature of size 2 or larger takes a bane on strikes against you.
 - *The Harder They Fall:* You have the following ability, which can be paid for using the Heroic Resource of your class.
 
-**The Harder They Fall (7 Heroic Resource)**
+######## The Harder They Fall (7 Heroic Resource)
 
-**Melee, Strike, Weapon Action**
-| --- | ---:|
-| **📏 Melee 1** | **🎯 One creature** |
+| **Melee, Strike, Weapon** |     **Main Action** |
+|---------------------------|--------------------:|
+| **📏 Melee 1**            | **🎯 One creature** |
 
-######## Power Roll** + Might or Agility**:
+**Power Roll + Might or Agility:**
 
 - **≤11:** 7 damage; M < WEAK, prone and can't stand (save ends)
 - **12-16:** 11 damage; M < AVERAGE, prone and can't stand (save ends)
@@ -2519,7 +2486,7 @@ Titles suitable for 2nd-echelon characters are presented in alphabetical order.
 
 **Special:** If the target is size 2 or larger, you gain an edge on this ability.
 
-*Up the Beanstalk:* You have the Climb skill. If you already have this skill, you instead gain an edge on tests made using the Climb skill. While you're climbing a creature, the creature has a double bane on strikes against you and you have a double edge on tests made to stay on the creature.
+- *Up the Beanstalk:* You have the Climb skill. If you already have this skill, you instead gain an edge on tests made using the Climb skill. While you're climbing a creature, the creature has a double bane on strikes against you and you have a double edge on tests made to stay on the creature.
 
 #### Godsworn
 
@@ -2543,25 +2510,19 @@ Titles suitable for 2nd-echelon characters are presented in alphabetical order.
 
 - *Mother Hen:* You can spend 10 uninterrupted minutes to psionically enhance up to five willing creatures within 10 squares of you who understand a language you know. For the next hour, you and each target can communicate telepathically with each other no matter the distance between you.
 - *Sneakers:* You gain the Sneak skill. If you already have this skill, you instead gain an edge on tests made using the Sneak skill. During group tests, you can both use the Sneak skill and assist another hero using the Sneak skill.
+- *Timely Distraction:* You have the following triggered action.
 
-*Timely Distraction:* You have the following triggered action.
-
-#### Timely Distraction
+######## Timely Distraction
 
 *Coming through with hot soup!<br/>I better watch out for that banana peel!*
 
-|   |                                              |
-|-----------------------------------------------------------------------------------|----------------------------------------------|
-
-| **Ranged** | **Triggered** |
-
-| Ranged 10                                          | One creature |
+| **Ranged**       |       **Triggered** |
+|------------------|--------------------:|
+| **📏 Ranged 10** | **🎯 One creature** |
 
 **Trigger:** An ally makes a test to lie to, pick the pocket of, hide from, or sneak by the target and doesn't like the outcome.
 
 **Effect:** You momentarily attract the target's notice to let your ally reroll their test. Once you use this ability, you can't use it again against the same target for 1 hour.
-
-**344**
 
 #### Knight
 
@@ -2571,21 +2532,19 @@ Titles suitable for 2nd-echelon characters are presented in alphabetical order.
 
 **Effect:** Choose one of the following benefits:
 
-*Heraldic Fame:* You earn 1 Renown.
-
-*Knightly Aegis:* Your Stamina maximum increases by 6. *Knightly Challenge:* You have the following ability, which can be paid for using the Heroic Resource of your class.
+- *Heraldic Fame:* You earn 1 Renown.
+- *Knightly Aegis:* Your Stamina maximum increases by 6. 
+- *Knightly Challenge:* You have the following ability, which can be paid for using the Heroic Resource of your class.
 
 ######## Knightly Challenge (5 Heroic Resource)
 
-| Have at thee! |  |
-|---------------|--|
-|---------------|--|
+*Have at thee!*
 
-| **Melee, Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Melee 1** | **🎯 One creature** |
+| **Melee, Strike, Weapon** |     **Main action** |
+|---------------------------|--------------------:|
+| **📏 Melee 1**            | **🎯 One creature** |
 
-######## Power Roll** + Might or Agility**:
+**Power Roll + Might or Agility:**
 
 - **≤11:** 7 damage; taunted (save ends)
 - **12-16:** 11 damage; taunted (save ends)
@@ -2597,19 +2556,16 @@ Titles suitable for 2nd-echelon characters are presented in alphabetical order.
 
 #### Master Librarian
 
-*You want to know the exact coordinates of the* Gem of the Waves *shipwreck? I came across that just the other day in an unpublished memoir of its second mate. Let me get that for you.*
+*You want to know the exact coordinates of the **Gem of the Waves** shipwreck? I came across that just the other day in an unpublished memoir of its second mate. Let me get that for you.*
 
 **Prerequisite:** You have the Ancient Loremaster title, and you have completed a Discover Lore project to learn lost knowledge or forbidden knowledge.
 
 **Effect:** Choose one of the following benefits:
 
-*Arcane Improvisation:* When you use a damage-dealing magic signature ability, you can change its damage type to acid, cold, corruption, fire, lightning, poison, or sonic damage.
-
-*I Have Just the Book:* If you start a Discover Lore project in your hero's stronghold or other a permanent base of operations you immediately gain 60 project points toward the completion of that project. If the project costs 60 or fewer points, you complete it in 10 uninterrupted minutes without needing to use a respite activity.
-
-*Picked Up a Few Things:* You know a skill from the lore skill group. *Polyglot:* You know two languages. Additionally, the project goal for the
-
-Learn New Language project is halved for you.
+- *Arcane Improvisation:* When you use a damage-dealing magic signature ability, you can change its damage type to acid, cold, corruption, fire, lightning, poison, or sonic damage.
+- *I Have Just the Book:* If you start a Discover Lore project in your hero's stronghold or other a permanent base of operations you immediately gain 60 project points toward the completion of that project. If the project costs 60 or fewer points, you complete it in 10 uninterrupted minutes without needing to use a respite activity.
+- *Picked Up a Few Things:* You know a skill from the lore skill group. 
+- *Polyglot:* You know two languages. Additionally, the project goal for the Learn New Language project is halved for you.
 
 #### Special Agent
 
@@ -2623,7 +2579,7 @@ Learn New Language project is halved for you.
 - *Caustic Alchemy:* You have your choice of the 1st-level shadow college features Coat the Blade or Smoke Bomb (see [Chapter 5: Classes](#page-83-2)). When you use that feature, you can't spend insight unless you have the Insight class feature.
 - *Spy Ring:* You gain a piece of magic jewelry, such as a ring. As a main action while wearing the jewelry, you can take on the illusory appearance of an individual within 10 squares who you have line of effect to. This disguise lets you automatically succeed on tests made using the Disguise skill based solely on visual identification.
 
-## Boffin Properties
+##### Boffin Properties
 
 Taking the Boffin benefit lets you use the following boffin properties as a maneuver:
 
@@ -2640,11 +2596,9 @@ Taking the Boffin benefit lets you use the following boffin properties as a mane
 
 **Effect:** Choose one of the following benefits:
 
-*Hunter's Oath:* As a main action, you swear a hunter's oath against a creature within 10 squares who you have line of effect to. This oath lasts until the target dies or until you swear a hunter's oath against a different creature. As long as the hunter's oath lasts, you magically know the direction to the target if they are within 50 miles of you, and your damage-dealing abilities gain a +5 damage bonus against the target.
-
-*Particular Set of Skills:* You know a skill from the intrigue skill group. *We're In This Together:* When you have a creature grabbed and take
-
-damage from an ability not used by that creature, the grabbed creature takes the same damage.
+- *Hunter's Oath:* As a main action, you swear a hunter's oath against a creature within 10 squares who you have line of effect to. This oath lasts until the target dies or until you swear a hunter's oath against a different creature. As long as the hunter's oath lasts, you magically know the direction to the target if they are within 50 miles of you, and your damage-dealing abilities gain a +5 damage bonus against the target.
+- *Particular Set of Skills:* You know a skill from the intrigue skill group. 
+- *We're In This Together:* When you have a creature grabbed and take damage from an ability not used by that creature, the grabbed creature takes the same damage.
 
 #### Undead Slain
 
@@ -2700,11 +2654,9 @@ Titles suitable for 3rd-echelon characters are presented in alphabetical order.
 
 *Demonic Lore:* You know the Proto-Ctholl language. Additionally, when you deal damage using a magic ability, you can change the ability's damage type to holy.
 
-*Lethe:* While you are winded, your strikes gain a +5 damage bonus. *Made of Teeth:* Your body can sprout teeth in unusual places. Whenever
-
-a creature makes physical contact with you or starts their turn touching you, you can deal 5 damage to them (no action required).
-
-*Soulsight:* Any creature within 2 squares can't be hidden from you.
+- *Lethe:* While you are winded, your strikes gain a +5 damage bonus
+- *Made of Teeth:* Your body can sprout teeth in unusual places. Whenever a creature makes physical contact with you or starts their turn touching you, you can deal 5 damage to them (no action required).
+- *Soulsight:* Any creature within 2 squares can't be hidden from you.
 
 **Special:** When you make a Presence test and roll a natural 5 or lower, you are cursed to communicate in only Proto-Ctholl for 1 minute, whether you know that language or not.
 
@@ -2734,20 +2686,18 @@ a creature makes physical contact with you or starts their turn touching you, yo
 
 #### Fleet Admiral
 
-#### *All hail the Pirate Queen!*
+*All hail the Pirate Queen!*
 
 **Prerequisite:** You have the Corsair title, and you lead a fleet of at least three ships.
 
 **Effect:** Choose one of the following benefits:
 
-*First Mate:* You have a pirate retainer, such as a **human warrior**, chosen by the Director from *[Draw Steel: Monsters](https://mcdm.gg/DS-Monsters)*. This retainer's level increases to your level.
-
-*Swashbuckler:* You can automatically climb at full speed while moving. *Treasure Keeper:* You earn 1 Wealth.
-
-*Weather Wizard:* Once per day, you can spend 10 uninterrupted minutes to magically alter mundane weather in a 5-mile radius around you. The weather moves with you and persists for 6 hours or until you dismiss it as a free maneuver. Choose from one of the following weather types:
-
-*Calm:* Wind-powered vessels and technology cease working. *Fog:* Visibility is reduced to 6 squares.
-
+- *First Mate:* You have a pirate retainer, such as a **human warrior**, chosen by the Director from *[Draw Steel: Monsters](https://mcdm.gg/DS-Monsters)*. This retainer's level increases to your level.
+- *Swashbuckler:* You can automatically climb at full speed while moving
+- *Treasure Keeper:* You earn 1 Wealth.
+- *Weather Wizard:* Once per day, you can spend 10 uninterrupted minutes to magically alter mundane weather in a 5-mile radius around you. The weather moves with you and persists for 6 hours or until you dismiss it as a free maneuver. Choose from one of the following weather types:
+- *Calm:* Wind-powered vessels and technology cease working
+- *Fog:* Visibility is reduced to 6 squares.
 - *High Winds:* The speed of wind-powered vessels is doubled.
 - *Light Winds:* No effects due to weather.
 - *Storm:* The crew of an unsheltered wind-powered vessel must make a medium group Reason test. On a failure, the vessel needs repairs and moves at half speed until those repairs are made.
@@ -2765,11 +2715,13 @@ a creature makes physical contact with you or starts their turn touching you, yo
 
 ######## The Devil's Chord (9 Heroic Resource)
 
-| **Helloooo Orden!* **Area, Magic** | **Main action** |
-| --- | ---:|
-| **📏 5 burst** | **🎯 Each creature in the area** |
+*Helloooo Orden!*
 
-######## Power Roll** + Presence**:
+| **Area, Magic** |                  **Main action** |
+|-----------------|---------------------------------:|
+| **📏 5 burst**  | **🎯 Each creature in the area** |
+
+**Power Roll + Presence:**
 
 - **≤11:** You take 4 sonic damage unless you have the Performance skill.
 - **12-16:** 6 sonic damage; M < AVERAGE, weakened (save ends)
@@ -2787,10 +2739,8 @@ a creature makes physical contact with you or starts their turn touching you, yo
 
 **Effect:** Choose one of the following benefits:
 
-*Masterpiece:* The armor, implement, or weapon can be imbued a fourth time, with any enhancement the item qualifies for.
-
-*Research Dividends:* You gain the item prerequisite for an armor, implement, or weapon enhancement of your choice. Additionally, you learn the project source language for that enhancement.
-
+- *Masterpiece:* The armor, implement, or weapon can be imbued a fourth time, with any enhancement the item qualifies for.
+- *Research Dividends:* You gain the item prerequisite for an armor, implement, or weapon enhancement of your choice. Additionally, you learn the project source language for that enhancement.
 - *Skilled Hands:* You have a skill from the crafting skill group that would have been used during the creation of the prerequisite item. If you already have that skill, you instead gain an edge on tests made using the skill. Additionally, you gain a second skill of your choice from the crafting skill group.
 - *Strong Hands Make Light Work:* Whenever you make a project roll, you can use Might as the project roll characteristic.
 
@@ -2802,11 +2752,9 @@ a creature makes physical contact with you or starts their turn touching you, yo
 
 **Effect:** Choose one of the following benefits:
 
-*I Know How to Talk to These People:* You gain an edge on Presence tests made to interact with royals, nobles, and their feudal followers, provided they are aware of your noble rank.
-
-*Noble Splendor:* You earn 1 Renown and 1 Wealth.
-
-*Retinue:* The number of followers you can recruit increases by two.
+- *I Know How to Talk to These People:* You gain an edge on Presence tests made to interact with royals, nobles, and their feudal followers, provided they are aware of your noble rank.
+- *Noble Splendor:* You earn 1 Renown and 1 Wealth.
+- *Retinue:* The number of followers you can recruit increases by two.
 
 **Special:** If you take this title, you might occasionally be called upon to perform duties for the person who granted your noble rank.
 
@@ -2852,7 +2800,7 @@ a creature makes physical contact with you or starts their turn touching you, yo
 
 **Effect:** You can travel with a student who shares your class. The student has the statistics of a 1st-level member of your class and has the same skills as you, but doesn't engage in combat. They can perform any out-of-combat tasks a 1st-level member of your class can perform. Whenever they make a test to assist you in a task, they can't obtain less than a tier 2 outcome on the test.
 
-## 4th-Echelon Titles
+### 4th-Echelon Titles
 
 Titles suitable for 4th-echelon characters are presented in alphabetical order.
 
@@ -2864,9 +2812,9 @@ Titles suitable for 4th-echelon characters are presented in alphabetical order.
 
 **Effect:** A characteristic used during the competition increases by 1 (to a maximum of 6). Additionally, choose one of the following benefits:
 
-*Best of the Best:* Choose a skill you used during the competition. You gain a +4 bonus to tests made using that skill instead of a +2 bonus. *Glory and Riches:* You earn 2 Renown and 1 Wealth.
-
-*I'll Just Take the Prize:* You gain a trinket or leveled treasure of the Director's choice.
+- *Best of the Best:* Choose a skill you used during the competition. You gain a +4 bonus to tests made using that skill instead of a +2 bonus
+- *Glory and Riches:* You earn 2 Renown and 1 Wealth.
+- *I'll Just Take the Prize:* You gain a trinket or leveled treasure of the Director's choice.
 
 #### Demigod
 
@@ -2882,11 +2830,9 @@ Titles suitable for 4th-echelon characters are presented in alphabetical order.
 
 Additionally, choose one of the following benefits:
 
-*Acolytes:* The number of followers you can recruit increases by two. *Divine Weapons:* Whenever you use a damage-dealing weapon ability,
-
-that ability can deal corruption or holy damage instead of its usual damage type.
-
-*Missionaries:* You earn 2 Renown.
+- *Acolytes:* The number of followers you can recruit increases by two
+- *Divine Weapons:* Whenever you use a damage-dealing weapon ability, that ability can deal corruption or holy damage instead of its usual damage type.
+- *Missionaries:* You earn 2 Renown.
 
 #### Enlightened
 
@@ -2910,8 +2856,7 @@ that ability can deal corruption or holy damage instead of its usual damage type
 
 - *Brief Reunion:* While you're winded, you can use a maneuver to summon the artifact to your hand. It disappears at the end of your next turn. Once you use this benefit, you can't use it again until you earn 1 or more Victories.
 - *Perfect Protection:* The Director chooses a damage type that is dealt by or thematically related to the artifact—for instance, holy for the Blade of a Thousand Years, psychic for the Encepter, or corruption for the Mortal Coil. You have immunity all to the chosen damage type.
-
-*Poor Compensation:* Instead of disappearing or otherwise departing, the artifact turns into a trinket or leveled treasure of the Director's choice that has the same approximate shape as the lost item—for instance, any magic sword for the Blade of a Thousand Years, any implement for the Encepter, or a Thief of Joy or any other torque for the Mortal Coil.
+- *Poor Compensation:* Instead of disappearing or otherwise departing, the artifact turns into a trinket or leveled treasure of the Director's choice that has the same approximate shape as the lost item—for instance, any magic sword for the Blade of a Thousand Years, any implement for the Encepter, or a Thief of Joy or any other torque for the Mortal Coil.
 
 #### Monarch
 
@@ -2921,17 +2866,15 @@ that ability can deal corruption or holy damage instead of its usual damage type
 
 **Effect:** You gain the following benefits:
 
-*Royal Authority:* Inhabitants of your nation must obey your lawful orders or suffer the consequences.
-
-*Royal Majesty:* Your choice of your Might or Presence increases by 1 (to a maximum of 6).
+- *Royal Authority:* Inhabitants of your nation must obey your lawful orders or suffer the consequences.
+- *Royal Majesty:* Your choice of your Might or Presence increases by 1 (to a maximum of 6).
 
 Additionally, choose one of the following benefits:
 
-*Crown Jewels:* You gain one of your nation's treasures—a trinket of the Director's choice.
-
-*Royal Fame:* You earn 2 Renown.
-
-*Royal Retinue:* The number of followers you can recruit increases by 2. *Royal Wealth:* You earn 2 Wealth.
+- *Crown Jewels:* You gain one of your nation's treasures—a trinket of the Director's choice.
+- *Royal Fame:* You earn 2 Renown.
+- *Royal Retinue:* The number of followers you can recruit increases by 2
+- *Royal Wealth:* You earn 2 Wealth.
 
 **Special:** If you take this title, you might be called upon to perform duties for your nation.
 
@@ -2943,13 +2886,10 @@ Additionally, choose one of the following benefits:
 
 **Effect:** Your choice of your Reason or Presence increases by 1 (to a maximum of 6). Additionally, choose one of the following benefits:
 
-*Calm Heads Prevail:* When you make a test to stop combat and start a negotiation, you always obtain a tier 3 outcome.
-
-*Drop Your Sword:* When you succeed on a test using the Intimidate skill, you can cause affected creatures to drop any items they are holding.
-
-*Hear Me Out:* While you are present in a negotiation, an NPC's starting patience increases by 3 (to a maximum of 5).
-
-*Many Paths to Peace:* When you make a test with a skill from the interpersonal skill group, you can use any characteristic of your choice for the test.
+- *Calm Heads Prevail:* When you make a test to stop combat and start a negotiation, you always obtain a tier 3 outcome.
+- *Drop Your Sword:* When you succeed on a test using the Intimidate skill, you can cause affected creatures to drop any items they are holding.
+- *Hear Me Out:* While you are present in a negotiation, an NPC's starting patience increases by 3 (to a maximum of 5).
+- *Many Paths to Peace:* When you make a test with a skill from the interpersonal skill group, you can use any characteristic of your choice for the test.
 
 #### Reborn
 
@@ -2961,11 +2901,9 @@ Additionally, choose one of the following benefits:
 
 Additionally, choose one of the following benefits:
 
-*Holy Weapon:* You have a leveled treasure of the Director's choice.
-
-*Kill Me Once, Shame On You:* Choose a creature keyword belonging to one of the creatures who defeated you. Any creature with that keyword takes a bane on ability rolls against you.
-
-*Memories of the Beyond:* You have two skills of your choice.
+- *Holy Weapon:* You have a leveled treasure of the Director's choice.
+- *Kill Me Once, Shame On You:* Choose a creature keyword belonging to one of the creatures who defeated you. Any creature with that keyword takes a bane on ability rolls against you.
+- *Memories of the Beyond:* You have two skills of your choice.
 
 **Special:** If a hakaan gains this title as a result of using their Doomsight trait, they lose that trait.
 
@@ -2987,9 +2925,9 @@ Additionally, choose a heroic ability belonging to any class. You gain this hero
 
 **Effect:** Your choice of your Might or Agility increases by 1 (to a maximum of 6). Additionally, choose one of the following benefits:
 
-*Bounce Back Fast:* Whenever you rest for 8 hours or more, you can gain the benefit of a respite. Once you use this benefit, you can't use it again until you have taken a regular respite.
-
-*Reserves of Strength:* Your recovery value is half your Stamina. *Undying:* You can't be affected by the bleeding condition.
+- *Bounce Back Fast:* Whenever you rest for 8 hours or more, you can gain the benefit of a respite. Once you use this benefit, you can't use it again until you have taken a regular respite.
+- *Reserves of Strength:* Your recovery value is half your Stamina
+- *Undying:* You can't be affected by the bleeding condition.
 
 #### Unchained
 
@@ -3001,35 +2939,31 @@ Additionally, choose a heroic ability belonging to any class. You gain this hero
 
 - *Bye-Bye:* You can use a maneuver to teleport yourself and each willing ally within 5 squares of you to new positions within 10 squares of your original starting point. Once you use this benefit, you can't use it again until you earn 1 or more Victories.
 - *Laughs at Locks:* Whenever you make a test to open a lock or break a restraint, you don't need any tools and you automatically obtain a tier 3 outcome.
+- *Slippery:* You can't be grabbed against your will.
 
-*Slippery:* You can't be grabbed against your will.
-
-## RENOWN
+## Renown
 
 As you accomplish heroic deeds, your fame allows you to influence NPCs and attract followers. Your infamy among your enemies also grows. Every hero has a Renown score that represents how they can use their reputation to influence others. The higher the score, the greater your impact with those who know of your legend.
 
 At the start of character creation, your Renown is 0. Some careers can increase your initial Renown score (see [Chapter 4: Background](#page-67-0)).
 
-## Increasing Renown
+### Increasing Renown
 
 Some perks (see [Chapter 7](#page-241-0)), downtime projects ([Chapter 12](#page-307-2)), and titles and treasures (part of [Chapter 13: Rewards](#page-327-1)) can increase your renown. But for the most part, you earn Renown at the end of an exciting adventure, often after the acknowledgement of a powerful NPC that you helped save them, their family, their home, their organization—or even their nation or world. That NPC and anyone else who witnessed your heroics can tell the tale, and from there, your legend grows.
 
 In most campaigns, the Director sets the characters up to earn 1 Renown per level, but some campaigns will feature heroes who are more or less famous (or infamous) than that.
 
-## Influence Negotiation
+### Influence Negotiation
 
 Renown changes the way NPCs respond to heroes during negotiations (see [Chapter 11](#page-297-0)), whether that renown takes the form of fame or infamy.
 
-## Attract Followers
+### Attract Followers
 
 Your Renown score allows you to attract and employ followers who perform different duties or favors for you. The Renown and Followers table shows how many followers a hero can have at one time based on Renown. You can always let go of a follower in your employ to hire a new one.
 
 You can recruit followers up to the maximum your Renown allows as a respite activity, provided you are in a place or have a means of communication that allows you to recruit such followers.
 
-
-|  | Renown and Followers |  |  |  |
-|--|----------------------|--|--|--|
-|--|----------------------|--|--|--|
+###### Renown and Followers Table
 
 | Renown | Number of Followers |
 |--------|---------------------|
@@ -3046,25 +2980,25 @@ Many followers stay at a stronghold, which is a home base you designate and can 
 
 When you attract a new follower, you decide on their name and ancestry, and choose what role they play in their service to you.
 
-## Artisan
+##### Artisan
 
 Artisans are crafting experts who can contribute to your research and crafting projects (see [Chapter 12: Downtime Projects](#page-307-2)). An artisan can contribute one project roll per day to a downtime project you choose, whether you spend those days in respite, adventuring, or other activities. They must remain at your stronghold or at the site where the project is undertaken, and must have access to the necessary materials.
 
 When you recruit an artisan, choose four skills from the crafting skill group that they know (see [Skills](#page-268-0) in [Chapter 9: Tests](#page-263-0)). An artisan has a Might or Agility score of 1 (your choice), a Reason score of 1, and a 0 in all other characteristics. They know Caelian and two other languages of your choice.
 
-## Retainers
+##### Retainers
 
 Retainers are heroic NPCs who adventure alongside the player characters. They are controlled by players in combat and are both simpler to run and less powerful than player characters. A hero can have only one retainer in their service at a time unless the Director deems otherwise. Because retainers and their stat blocks are combat focused, the Director can also decide that a large party can have only one retainer in total—or can't have any retainers at all—to keep combat from getting long and tedious.
 
 Rules for retainers are found in *[Draw Steel: Monsters](https://mcdm.gg/DS-Monsters)*.
 
-## Sage
+##### Sage
 
 Sages are research experts who can contribute to your research and crafting projects. A sage can contribute one project roll per day to a downtime project you choose, whether you spend those days in respite, adventuring, or other activities. They must remain at your stronghold or at the site where the project is undertaken, and must have access to the necessary materials.
 
 When you recruit a sage, choose four skills from the lore skill group that they know. A sage has a Reason and Intuition score of 1, and a 0 in all other characteristics. They know Caelian and two other languages of your choice.
 
-# WEALTH
+## Wealth
 
 Draw Steel isn't about accumulating and counting every piece of copper you acquire. Instead of tracking a bank account, the amount of stuff your hero can purchase is based on their Wealth score. As you accomplish more deeds, you acquire more treasure and rewards from grateful NPCs that allow you to be an even more effective hero.
 
@@ -3074,26 +3008,27 @@ The table isn't meant to be an exhaustive list, but you and the Director can use
 
 Treasures such as magic swords, psionic crowns, and even healing potions are rare to the point where they don't appear on the Hero Wealth table. Such items typically can't be purchased, and are instead found on adventures, traded for other treasures, given as rewards by NPCs, or crafted by the heroes.
 
-## Earning Wealth
+### Earning Wealth
 
 Each hero starts with a Wealth score of 1 that can be improved by their choice of career during character creation (see [Chapter 4: Background](#page-67-0)). Your hero earns Wealth whenever you find and keep a massive amount of monetary treasure, such as a hoard of coins and gems from a dragon's lair, or several unique and valuable paintings gifted by a monarch as a reward for a job well done.
 
 In general, a hero earns 1 wealth every second level of play. The Director can increase this rate if they wish.
 
-## Losing Wealth
+### Losing Wealth
 
 As an optional rule, the Director can allow a hero to make a purchase that is one above their Wealth score. If this occurs, the hero's Wealth is reduced by 1 (to a minimum of 0) after making the purchase.
 
-#### Heroes Don't Do It for Gold
+> **Heroes Don't Do It for Gold**
+> 
+> In *Draw Steel*, being a hero isn't a transactional job—it's a calling. As such, using the promise of treasure to motivate the players to accept quests comes up much less often than in many other games. Sure, the heroes need money to live, and some might even enjoy getting rich from their adventures. But money isn't the reason they put their lives on the line. Each time you create a hero, think about why your character answers the call to adventure—and make it about something more than gold.
 
-In *Draw Steel*, being a hero isn't a transactional job—it's a calling. As such, using the promise of treasure to motivate the players to accept quests comes up much less often than in many other games. Sure, the heroes need money to live, and some might even enjoy getting rich from their adventures. But money isn't the reason they put their lives on the line. Each time you create a hero, think about why your character answers the call to adventure—and make it about something more than gold.
+###### Hero Wealth Table
 
-| Hero Wealth |                                                                                                                                          |
-|-------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| Score       | Affordable                                                                                                                               |
+| Score       | Affordable                                                                                                                            |
+|-------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | 1           | Mundane clothing, gear, armor, implements, and weapons; meals or drinks at a common tavern; a stay at a common inn; passage on a boat |
-| 2           | Horse and cart; dinner at a fine tavern; a stay at a fine inn                                                                            |
-| 3           | Catapult; small house                                                                                                                    |
-| 4           | Library; tavern; manor home; sailing boat                                                                                                |
-| 5           | Church; keep; wizard tower                                                                                                               |
-| 6           | Castle; shipyard                                                                                                                         |
+| 2           | Horse and cart; dinner at a fine tavern; a stay at a fine inn                                                                         |
+| 3           | Catapult; small house                                                                                                                 |
+| 4           | Library; tavern; manor home; sailing boat                                                                                             |
+| 5           | Church; keep; wizard tower                                                                                                            |
+| 6           | Castle; shipyard                                                                                                                      |
