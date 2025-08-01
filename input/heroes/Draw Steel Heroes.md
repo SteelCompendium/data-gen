@@ -10518,7 +10518,7 @@ Choose two signature abilities from the following options. Signature abilities c
 | **📏 Melee 1**                     | **🎯 One creature or object** |
 
 **Power Roll + Agility:**
-- 
+
 - **≤11:** 5 + A damage
 - **12-16:** 7 + A damage
 - **17+:** 10 + A damage
