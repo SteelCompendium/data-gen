@@ -4,3 +4,4 @@
 - Bunch of extra data in data formats
   - ex: tables
 - data file names need to be cleaned of special characters (like `!`)
+- deal with all the issues in failed extractions

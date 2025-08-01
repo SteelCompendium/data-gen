@@ -68,9 +68,10 @@ _extract_section xpath src_html_fpath out_dpath metadata_yml_fpath:
     import os
     import yaml
     from lxml import etree, html
+    from html import escape
 
     def build_meta_block(meta_dict):
-        lines = [f'  <meta name="{k}" content="{v}" />' for k, v in meta_dict.items() if v is not None]
+        lines = [f'  <meta name="{k}" content="{escape(v, quote=True)}" />' for k, v in meta_dict.items() if v is not None]
         return "<head>\n" + "\n".join(lines) + "\n</head>\n"
 
     def inject_meta(section_html, meta_block):
