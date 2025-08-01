@@ -59,16 +59,28 @@ run input_md_path output_md_path:
     text = re.sub( r'\<\/span\>', r'', text, flags=re.MULTILINE)
     text = re.sub( r'\<sup\>', r'', text, flags=re.MULTILINE)
     text = re.sub( r'\<\/sup\>', r'', text, flags=re.MULTILINE)
+    # flavor
+    text = re.sub( r'(.*)\<i\>(.*)\<\/i\>(.*)', r'*\2*\n\n\1 \3', text, flags=re.MULTILINE)
     # weak, average, strong
     text = re.sub( r'\s?<\s?w\s', r' < WEAK ', text, flags=re.MULTILINE)
     text = re.sub( r'\s?<\s?v\s', r' < AVERAGE ', text, flags=re.MULTILINE)
     text = re.sub( r'\s?<\s?s\s', r' < STRONG ', text, flags=re.MULTILINE)
+    text = re.sub( r'WEAK ,', r'WEAK,', text, flags=re.MULTILINE)
+    text = re.sub( r'AVERAGE ,', r'AVERAGE,', text, flags=re.MULTILINE)
+    text = re.sub( r'STRONG ,', r'STRONG,', text, flags=re.MULTILINE)
     # char potency
     text = re.sub( r'm \<', r'M <', text, flags=re.MULTILINE)
     text = re.sub( r'a \<', r'A <', text, flags=re.MULTILINE)
     text = re.sub( r'p \<', r'P <', text, flags=re.MULTILINE)
     text = re.sub( r'i \<', r'I <', text, flags=re.MULTILINE)
     text = re.sub( r'r \<', r'R <', text, flags=re.MULTILINE)
+
+    text = re.sub( r'\| *Melee 1 *\| *One creature *\|', r'| **📏 Melee 1**            | **🎯 One creature** |', text, flags=re.MULTILINE)
+    text = re.sub( r'\| *Melee 1 *\| *One creature or object*\|', r'| **📏 Melee 1**            | **🎯 One creature or object** |', text, flags=re.MULTILINE)
+
+    # Power rolls
+    text = re.sub( r'^\#* ?Power Roll \+ ([^\*]*) *\** *\:\**', r'**Power Roll + \1:**', text, flags=re.MULTILINE)
+
     # power roll tiers
     text = re.sub( r'\s*\-? ?á ?', r'\n\n- **≤11:** ', text, flags=re.MULTILINE)
     text = re.sub( r'\s*\-? ?é ?', r'\n- **12-16:** ', text, flags=re.MULTILINE)
@@ -78,6 +90,7 @@ run input_md_path output_md_path:
     text = re.sub( r'^\**Effect\**\:\**', r'**Effect:**', text, flags=re.MULTILINE)
     # image text
     text = re.sub( r'Image\: [^\|]*icon ', r'', text, flags=re.MULTILINE)
+    text = re.sub( r'Image\: [^\|]*icon[^ ]', r'', text, flags=re.MULTILINE)
 
     # abilities
     text = re.sub( r'\#* \*\*(.*) \((.*)\)\*\*', r'######## \1 (\2)', text, flags=re.MULTILINE)
