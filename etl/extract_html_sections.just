@@ -47,8 +47,8 @@ extract_sections config_fpath html_fpath output_dpath skip_delete="true":
 extract_section out_dpath xpath src_html_fpath skip_delete="true" metadata_yml_fpath="":
     #!/usr/bin/env bash
     set -euo pipefail
-    echo >&2 ""
-    echo >&2 "{{log_prefix}} Extracting '{{xpath}}'"
+    #echo >&2 ""
+    #echo >&2 "{{log_prefix}} Extracting '{{xpath}}'"
 
     if [ "{{skip_delete}}" == "true" ]; then
         rm -rf "{{out_dpath}}"
@@ -138,7 +138,7 @@ _extract_section xpath src_html_fpath out_dpath metadata_yml_fpath:
         with open(filename, 'w', encoding='utf-8') as f_out:
             f_out.write(item_content)
 
-    print(f'Extracted {len(items)} items.')
+    #print(f'Extracted {len(items)} items.')
     if len(items) == 0:
         with open("{{failed_extraction_fpath}}", 'a', encoding='utf-8') as f_out:
             f_out.write("{{xpath}}\n")
