@@ -15247,7 +15247,7 @@ You have the following performance abilities, which are usable with your Routine
 
 ######## "Thunder Mother"
 
-*All for thunder motherrr!* N *Run and hide for coverrr!*N
+*All for thunder motherrr! ♪ Run and hide for coverrr!♪*
 
 | **Magic, Performance, Ranged, Strike** |       **No action** | 
 |----------------------------------------|--------------------:|
@@ -15263,7 +15263,7 @@ You have the following performance abilities, which are usable with your Routine
 
 #### "Ballad of the Beast"
 
-*Teeth are bare! 𝅘𝅥𝅮	 Eyes black! 𝅘𝅥𝅮	 No escaping the beast! 𝅘𝅥𝅮*
+*Teeth are bare! ♪ Eyes black! ♪ No escaping the beast!♪*
 
 | **Area, Magic, Performance** |                         **No action** |
 |------------------------------|--------------------------------------:|
@@ -15677,7 +15677,7 @@ You have the following performance abilities, which are usable with your Routine
 
 ######## "Fire Up the Night"
 
-*Maybe you and I 𝅘𝅥𝅮	 We can still bring the light! 𝅘𝅥𝅮	*
+*Maybe you and I ♪ We can still bring the light!♪*
 
 | **Area, Magic, Performance** |                         **No action** | 
 |------------------------------|--------------------------------------:|
@@ -15687,7 +15687,7 @@ You have the following performance abilities, which are usable with your Routine
 
 #### "Never-Ending Hero"
 
-*And toniiight we can truly say 𝅘𝅥𝅮	 They will alllways find a way! 𝅘𝅥𝅮	*
+*And toniiight we can truly say ♪ They will alllways find a way!♪*
 
 | **Area, Magic, Performance** |                         **No action** |
 |------------------------------|--------------------------------------:|
@@ -16094,7 +16094,7 @@ You have the following performance abilities, which are usable with your Routine
 
 ######## Radical Fantasia
 
-*𝅘𝅥𝅮 Viras, my Viras, will you hold their hands as they cryyy-aaaiigh? 𝅘𝅥𝅮*
+*𝅘𝅥𝅮♪Viras, my Viras, will you hold their hands as they cryyy-aaaiigh?♪*
 
 | **Area, Magic, Performance** |                         **No action** | 
 |------------------------------|--------------------------------------:|
@@ -16130,8 +16130,8 @@ Choose one heroic ability from the following options, each of which costs 11 dra
 
 *A song for the brokenhearted wraps itself around the target and blossoms into a ward of thorns.*
 
-| **Magic, Ranged** |                            **Maneuver** |
-| --------------------------------|----------------------------------------:|
+| **Magic, Ranged** |            **Maneuver** |
+|-------------------|------------------------:|
 | **📏 Ranged 10**  | **🎯 Self or one ally** |
 
 **Effect:** Until the end of the encounter, whenever the target takes damage while winded, they can use a free triggered action to deal half the damage they took to the source of the damage.
@@ -16271,8 +16271,8 @@ Choose one of the following abilities.
 *The power of music rips through the reality around the target and blows them away.*
 
 | **Magic, Melee, Ranged, Strike** |               **Main action** |
-|------------------------------------|------------------------------:|
-| **📏 Melee 1 or ranged 10**        | **🎯 One creature or object** |
+|----------------------------------|------------------------------:|
+| **📏 Melee 1 or ranged 10**      | **🎯 One creature or object** |
 
 **Power Roll + Presence:**
 
