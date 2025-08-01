@@ -1,4 +1,4 @@
-# <span id="page-307-2"></span>Downtime Projects
+# Downtime Projects
 
 A s a team, you and your fellow heroes can achieve great things. But the time between adventures gives you a chance to pursue your own individual goals: uncover forbidden lore in ancient tomes, forge weapons of great power, build ships that can sail the skies, and more. *Draw Steel*'s rules for downtime projects allow heroes to use their time during respites to obtain important information, make new equipment, and engage in other activities to support their adventuring.
 
@@ -12,11 +12,11 @@ You track project progress on your character sheet. As you work on a downtime pr
 
 All downtime projects have prerequisites you must meet before you can undertake them.
 
-## <span id="page-307-3"></span>**Item Prerequisite**
+#### Item Prerequisite
 
 Many downtime projects have one or more special items you must possess or obtain before you can start the project. For instance, you can't build an airship without first finding a Wind Crystal of Quintessence, a rare and key component in that vehicle's construction. Other projects have a prerequisite that involves undertaking certain activities during the project process.
 
-## <span id="page-307-4"></span>**Project Source**
+#### Project Source
 
 To start a downtime project, you must have access to specific lore detailing how the project is to be undertaken. This can take the form of written information (a book, scroll, schematic, and so forth), an expert tutor with wisdom to share, a master artisan with skills to teach, a supernatural manifestation of the project's scope and secrets, or any other form of the Director's determination. This project-focused lore is referred to as a project source. Not only do you need project sources to start a downtime project, but you must have access to those sources whenever you make a project roll for that particular project (see [Project Roll](#page-307-1) below).
 
@@ -32,7 +32,7 @@ Whenever the Director determines that a creature with needed knowledge can be us
 
 If you need a project source for a particular project, ask your Director if the source is common enough that it might be found in a substantial library, among a group of sages or guild artisans, and so forth. If the Director says yes, then the next time you take a respite in a place with a library or access to creatures with the knowledge you seek, you can locate the project source you need as a respite activity.
 
-## <span id="page-307-1"></span>Project Roll
+## Project Roll
 
 As a respite activity (see [Respite](#page-21-4) in [Chapter 1: The Basics](#page-17-3)), you make a project roll for one of your own projects. Alternatively, you can make a project roll to contribute to another hero's project. A project roll is a test with a special outcome that isn't divided into tiers. The characteristic used in the test is determined by the project.
 
@@ -42,23 +42,21 @@ A downtime project is complete when it accrues project points equal to or greate
 
 As you work on a downtime project, the Director can add events that help form the narrative of your research, crafting, or other activities. These events might provide unexpected benefits or challenges as you work on your project, to help make the journey as dramatic as arriving at the destination. See [For the Director: Project Events](#page-308-1) below for more information.
 
-## **Project Roll Edges and Banes**
+#### Project Roll Edges and Banes
 
 Since project rolls don't use success tiers, they don't follow the usual rules for double edges and double banes. If you gain an edge on a project roll, you add 2 to the roll, as usual. But if you have a double edge, you add 4 to the roll. Likewise, you subtract 2 from a project roll that takes a bane, and you subtract 4 from a roll that has a double bane.
 
-## **Skills and Project Rolls**
+#### Skills and Project Rolls
 
 You can apply skills from either the crafting or lore skill groups to project rolls that directly relate to a downtime project (see [Skills](#page-268-0) in [Chapter 9: Tests](#page-263-0)). For example, you could use the Tailoring skill for project rolls related to making a magic cloak, and you could use the History skill while attempting to research the location of an ancient battle where a magic crown was lost. At the Director's discretion, you can also use skills from other skill groups, but a skill used for a project roll must be directly related to the project.
 
-## **Language and Project Rolls**
+#### Language and Project Rolls
 
 If you know the language of a project source, you can make a project roll without any issues. If you don't know the language of the source but you know a related language, the project roll takes a bane. If you don't know the source's language or a related language, the project roll has a double bane.
 
-## <span id="page-308-0"></span>**Guides**
+#### Guides
 
 Heroes sometimes find guides—special books, schematics, knowledgeable NPCs, supernatural recordings, and so forth—providing important and easy-to-understand information relating to a downtime project. Each guide has a knowledge value and a connection to a specific project
-
-![](_page_308_Picture_8.jpeg)
 
 that greatly decreases the time required to complete the project. When a hero studies a guide as a respite activity, they gain the guide's knowledge value as project points toward its project. The guide can't be used with that specific instance of the project again, though it can be used for a different project of the same type.
 
@@ -66,7 +64,7 @@ Guides are awarded at the Director's discretion, usually as a tool that can be u
 
 A guide must provide its information in a language you understand for you to gain its full benefit. If a guide uses a language related to one you know, you gain only half the guide's knowledge value (rounded down) as project points toward your project.
 
-## <span id="page-308-1"></span>**For the Director: Project Events**
+#### For the Director: Project Events
 
 Project events are story events that present boons and challenges to heroes as they complete research and crafting projects. These events are entirely optional. If your group prefers a game where the heroes simply work toward their goals by making project rolls, that's fine. But using these events can help a Director inject more drama into the processes of research and crafting.
 
@@ -89,12 +87,12 @@ You can use the Suggested Event Milestones table to determine when an event shou
 | Project Goal               | Milestones                                                                       |
 | 30 or fewer                | None                                                                             |
 | 31–200                     | One event halfway to the goal                                                    |
-| 201–999                    | Two events at one-third and two-thirds of the way to<br>the goal                 |
+| 201–999                    | Two events at one-third and two-thirds of the way to the goal                 |
 | 1,000 or more              | Three events at one-quarter, one-half, and three-quarters of the way to the goal |
 
 Draw Steel
 
-## <span id="page-309-0"></span>Whenever You Want
+## Whenever You Want
 
 Whenever you think the heroes could use a little drama during a respite, throw in an event. This approach allows you to plan an event in detail when a downtime project starts, then deploy it at the most dramatic moment—or even throw it in during an encounter if you're feeling saucy!
 
@@ -106,13 +104,13 @@ A project event occurs when a hero makes a project roll. You can roll for or cho
 
 If an event grants an automatic breakthrough on a downtime project, the project gains 20 project points and the hero can make another project roll for the same project as part of the same respite activity.
 
-## <span id="page-309-1"></span>Crafting Projects
+## Crafting Projects
 
 Crafting projects enable heroes to create vehicles, supernatural treasures, and more. When you start a crafting project, other creatures can also work on the project, using their respite activity to contribute a project roll in order to get the work done faster.
 
 Unless a project has a event table of its own, the Director uses the [Crafting and Research Events](#page-319-0) table for crafting project events.
 
-## **Build Airship**
+#### Build Airship
 
 Item Prerequisite: Wind Crystal of Quintessence Project Source: Texts or lore in Low Rhyvian Project Roll Characteristic: Might, Reason, or Presence **Project Goal:** 3,000
 
@@ -122,7 +120,7 @@ When the project is completed, you have an airship. You and any creatures you de
 
 An airship is an object (giving it damage immunity all to poison and psychic damage) and can take 200 damage before it is destroyed. If the damage the ship takes is not too severe (as the Director determines), as long as you have access to materials that can repair the ship, you can restore it back to its original condition as a respite activity.
 
-#### **Build or Repair Road Renown**
+######## Build or Repair Road Renown
 
 | Length              | Renown Earned |
 |---------------------|---------------|
@@ -130,7 +128,7 @@ An airship is an object (giving it damage immunity all to poison and psychic dam
 | 51–100 miles        | 2             |
 | More than 100 miles | 3             |
 
-## **Build or Repair Road**
+#### Build or Repair Road
 
 Item Prerequisite: Three writs of approval, from an engineers' guild, a masons' guild, and a guards' guild
 
@@ -146,15 +144,9 @@ When you complete the project, you earn Renown among people in the area where th
 
 Time spent traveling between locations on the road is cut in half. Access to resources and knowledge is improved in locations along the road, giving you and your allies an edge on project rolls to discover lore while you are in those areas.
 
-#### **Build or Repair Roads Events**
+######## Build or Repair Roads Events
 
 #### d10 Event
-
-1
-
-7
-
-9
 
 Before the roll, crews uncover an ancient road following the intended route, crafted with remarkable techniques that make it a sturdy base on which to build. The project gains an automatic breakthrough and the project goal is halved if it was not already halved.
 
@@ -167,21 +159,19 @@ After the roll, the local population grows in excitement with each completed por
 
 After the roll, word is heard that not everyone in the local area is happy about the road being built. The project is hindered by supernatural curses that cause stones to move, vines and overgrowth to reclaim sections already built, or churning
 
-6 earth to restore the road back to its previous form. The hero must make amends to the local supernatural community or have the renown earned by completing the project not extend to that community.
+earth to restore the road back to its previous form. The hero must make amends to the local supernatural community or have the renown earned by completing the project not extend to that community.
 
 After the roll, ditchers working on the project hit an ancient well, retaining wall, or hidden stream that results in an immediate flood. The work is delayed, but the new water source ultimately provides a boon to local farming communities. Project points earned by this roll are halved, but upon the project's completion, the hero earns 1 additional renown.
 
 Before the roll, a new engineer arrives with specialist experience such as building sturdy wooden bridges, using bilge pumps to keep rainwater from slowing the work, and so forth. They want to work on the project, but insist on receiving
 
-8 a consumable treasure first. If they are hired, the project gains an automatic breakthrough.
+a consumable treasure first. If they are hired, the project gains an automatic breakthrough.
 
 Before the roll, the proposed road touches on a supernatural intersection—a crossing place between multiple worlds that draws interest from a powerful devil. The completion of the project becomes the personal interest of this being, who offers to increase progress—but demands a future favor from the hero. If the deal is accepted, each project roll for the project is doubled until its completion.
 
-10 After the roll, a guildmaster has it out for the hero. Whether from a past conflict or something about the way this project has unfolded, the guildmaster has made it their mission to hinder the project by dragging the hero's name through the mud. The hero's renown is treated as 1 less than usual while these rumors persist.
+After the roll, a guildmaster has it out for the hero. Whether from a past conflict or something about the way this project has unfolded, the guildmaster has made it their mission to hinder the project by dragging the hero's name through the mud. The hero's renown is treated as 1 less than usual while these rumors persist.
 
-![](_page_310_Picture_0.jpeg)
-
-## **Craft Teleportation Platform**
+#### Craft Teleportation Platform
 
 Item Prerequisite: One spatial navigator Project Source: Texts or lore in Voll Project Roll Characteristic: Reason **Project Goal:** 1,500
 
@@ -189,11 +179,11 @@ When you complete this project, you end up with a 3-square-by-3 square teleporta
 
 Each time the teleportation platform is used, the chance of it malfunctioning and teleporting creatures or objects on it to a random platform increases by 1 percent (to a maximum of 50 percent). You can restore the platform back to its original condition and reset this chance of malfunction as a respite activity.
 
-## **Craft Treasure**
+#### Craft Treasure
 
 You can craft the items found in [Treasures](#page-327-2) in [Chapter 13: Rewards](#page-327-1). Each treasure notes its item prerequisite, project source, project roll characteristic, and project goal.
 
-## **Find a Cure**
+#### Find a Cure
 
 Item Prerequisite: Varies (see description) Project Source: None Project Roll Characteristic: Reason or Intuition **Project Goal:** Varies
 
@@ -203,7 +193,7 @@ The number of project points it takes to complete this project is equal to 50 ti
 
 When you complete this project, you craft one dose of an alchemical cure for the affliction. Once the project is completed, you can craft subsequent doses for the same affliction for half the number of project points required for the initial project.
 
-## <span id="page-310-0"></span>**Imbue Treasure**
+#### Imbue Treasure
 
 You can create leveled treasures by imbuing items with magic or psionic power. You must have a mundane version of the item you plan to imbue, such as a sword or shield, when you start this project.
 
@@ -221,11 +211,11 @@ Imbuing treasure with supernatural power as a downtime project typically means y
 
 Armor imbued with an enhancement grants you special benefits while it is worn. Additionally, when your armor receives its 1st-level enhancement, it also grants a +6 bonus to Stamina. A 5th-level enhancement increases the Stamina bonus to +12, and a 9th-level enhancement increases it to +21.
 
-#### **Clothing as Armor Treasures**
+######## Clothing as Armor Treasures
 
 A hero who has a kit that provides no armor, such as the Martial Artist or Sniper kit, can create and make use of leveled armor treasures that imbue mundane clothing with supernatural power. At the Director's discretion, heroes who don't use kits, such as elementalists and nulls, can also benefit from such treasures.
 
-#### **1st-Level Armor Enhancement**
+######## 1st-Level Armor Enhancement
 
 #### Item Prerequisite: Varies
 
@@ -253,53 +243,53 @@ Project Roll Characteristic: Might, Reason, or Intuition **Project Goal:** 150
 
 **Tempest I:** As a maneuver, you infuse this armor with the essence of a storm. The first time an adjacent creature deals damage to you before the end of your next turn, they take lightning damage equal to your highest characteristic score and you can push them 1 square.
 
-## **1st-Level Armor Enhancements**
+#### 1st-Level Armor Enhancements
 
-| Enhancement             | Item Prerequisite                                                                                   | Project Source<br>Language |
+| Enhancement             | Item Prerequisite                                                                                   | Project Source Language |
 |-------------------------|-----------------------------------------------------------------------------------------------------|----------------------------|
-| Awe                     | A lock of hair from a fey, taken in amicable bargain<br>for Charming or in violence for Threatening | Khelt                      |
-| Damage<br>Immunity I    | Elemental sand left behind when an<br>elemental enters Orden from Quintessence                      | Zaliac                     |
+| Awe                     | A lock of hair from a fey, taken in amicable bargain for Charming or in violence for Threatening | Khelt                      |
+| Damage Immunity I    | Elemental sand left behind when an elemental enters Orden from Quintessence                      | Zaliac                     |
 | Disguise                | The blood of a lycanthrope                                                                          | Khelt                      |
 | Iridescent              | Fur from a lightbender                                                                              | Hyrallic                   |
-| Magic Resistance I      | A scale from a dragon                                                                               | The First<br>Language      |
+| Magic Resistance I      | A scale from a dragon                                                                               | The First Language      |
 | Nettlebloom             | A rose from the magical hedge of a hag                                                              | Khelt                      |
 | Phasing I               | Ichor from a destroyed wraith                                                                       | Szetch                     |
-| Psionic<br>Resistance I | Rare crystals that resonate with psionic energy,<br>often found at sites of psionic experimentation | Voll                       |
+| Psionic Resistance I | Rare crystals that resonate with psionic energy, often found at sites of psionic experimentation | Voll                       |
 | Swift                   | The feather of a falcon slain as it was diving                                                      | Yllyric                    |
 | Tempest I               | A strip of starmetal struck by lightning                                                            | Ullorvic                   |
 
-#### **5th-Level Armor Enhancements**
+######## 5th-Level Armor Enhancements
 
-| Enhancement              | Item Prerequisite                                                                    | Project Source<br>Language |
+| Enhancement              | Item Prerequisite                                                                    | Project Source Language |
 |--------------------------|--------------------------------------------------------------------------------------|----------------------------|
-| Absorption               | A mirror blessed by a priest of a god of magic                                       | The First<br>Language      |
-| Damage<br>Immunity II    | The essence of an elemental who is still alive                                       | Zaliac                     |
+| Absorption               | A mirror blessed by a priest of a god of magic                                       | The First Language      |
+| Damage Immunity II    | The essence of an elemental who is still alive                                       | Zaliac                     |
 | Dragon Soul              | A scale from a dead dragon                                                           | Vastariax                  |
-| Levitating               | A palm-sized crystal grown in the<br>subterranean lair of an overmind                | Zaliac                     |
-| Magic Resistance II      | A scale from a mature dragon                                                         | The First<br>Language      |
+| Levitating               | A palm-sized crystal grown in the subterranean lair of an overmind                | Zaliac                     |
+| Magic Resistance II      | A scale from a mature dragon                                                         | The First Language      |
 | Phasing II               | The remnants of a slain ooze                                                         | Szetch                     |
-| Psionic<br>Resistance II | A fresh crystalline scale from a gemstone<br>dragon                                  | Voll                       |
-| Reactive                 | A complex, hand-engineered set of brass<br>gears inscribed with runes in silver dust | Zaliac                     |
+| Psionic Resistance II | A fresh crystalline scale from a gemstone dragon                                  | Voll                       |
+| Reactive                 | A complex, hand-engineered set of brass gears inscribed with runes in silver dust | Zaliac                     |
 | Second Wind              | The sweat of a troll                                                                 | Kalliak                    |
-| Shattering               | A pound of volcanic obsidian, formed<br>naturally as a single piece                  | Zaliac                     |
-| Tempest II               | The armor must be laid out under a clear sky<br>as a comet passes over               | Ullorvic                   |
+| Shattering               | A pound of volcanic obsidian, formed naturally as a single piece                  | Zaliac                     |
+| Tempest II               | The armor must be laid out under a clear sky as a comet passes over               | Ullorvic                   |
 
-#### **9th-Level Armor Enhancements**
+######## 9th-Level Armor Enhancements
 
-| Enhancement               | Item Prerequisite                                                                                          | Project Source<br>Language |
+| Enhancement               | Item Prerequisite                                                                                          | Project Source Language |
 |---------------------------|------------------------------------------------------------------------------------------------------------|----------------------------|
 | Devil's Bargain           | The wing of an archdevil                                                                                   | Anjali                     |
-| Dragon Soul II            | An offering of gems, coins, and art stolen<br>from a dragon's hoard, sacrificed in ritual fire             | Vastariax                  |
-| Invulnerable              | Repurposed metal plates from a servok war<br>engine                                                        | Rallarian                  |
-| Leyline Walker            | A cutting from an ethereal tree that<br>manifests in the mundane world only once<br>a year                 | Yllyric                    |
+| Dragon Soul II            | An offering of gems, coins, and art stolen from a dragon's hoard, sacrificed in ritual fire             | Vastariax                  |
+| Invulnerable              | Repurposed metal plates from a servok war engine                                                        | Rallarian                  |
+| Leyline Walker            | A cutting from an ethereal tree that manifests in the mundane world only once a year                 | Yllyric                    |
 | Life                      | The tear of a saint                                                                                        | High Kuric                 |
-| Magic Resistance<br>III   | A scale from an ancient dragon                                                                             | The First<br>Language      |
-| Phasing III               | Perfectly clear glass from a house that<br>disappeared into the Ethereal Plane                             | Szetch                     |
-| Psionic Resistance<br>III | The skull of a voiceless talker at least a<br>century old                                                  | Voll                       |
-| Temporal Flux             | An experimental temporal capacitor<br>invented by the kuran'zoi                                            | Voll                       |
-| Unbending                 | A spearhead or other weapon broken off in the<br>body of a stone giant, and ossified for a year<br>or more | High Kuric                 |
+| Magic Resistance III   | A scale from an ancient dragon                                                                             | The First Language      |
+| Phasing III               | Perfectly clear glass from a house that disappeared into the Ethereal Plane                             | Szetch                     |
+| Psionic Resistance III | The skull of a voiceless talker at least a century old                                                  | Voll                       |
+| Temporal Flux             | An experimental temporal capacitor invented by the kuran'zoi                                            | Voll                       |
+| Unbending                 | A spearhead or other weapon broken off in the body of a stone giant, and ossified for a year or more | High Kuric                 |
 
-#### **5th-Level Armor Enhancement**
+######## 5th-Level Armor Enhancement
 
 Item Prerequisite: Armor with a 1st-level enhancement; varies Project Source: Texts or lore in a language determined by the enhancement
 
@@ -313,11 +303,11 @@ You can use an absorbed ability as if you knew it, making power rolls for the ab
 
 **Dragon Soul:** When another creature causes you to be winded or dying, you can use a free triggered action to cause the soul of a dragon to emerge from this armor and hurtle toward the creature. Make the following power roll against the creature.
 
-#### **Power Roll + Your Highest Characteristic Score:**
+######## Power Roll + Your Highest Characteristic Score:
 
-- á 8 damage; push 3
-- é 12 damage; push 4
-- í 15 damage; push 5
+- **≤11:** 8 damage; push 3
+- **12-16:** 12 damage; push 4
+- **17+:** 15 damage; push 5
 
 **Levitating:** On your turn, you can treat up to 5 consecutive squares of movement as flying movement. If you are still in midair at the end of your turn, you fall prone.
 
@@ -335,7 +325,7 @@ You can use an absorbed ability as if you knew it, making power rolls for the ab
 
 **Tempest II:** When you use the armor's Tempest I enhancement, the affected creature takes 8 lightning damage and you push them up to 3 squares.
 
-#### **9th-Level Armor Enhancement**
+######## 9th-Level Armor Enhancement
 
 Item Prerequisite: Armor with a 5th-level enhancement; varies Project Source: Texts or lore in a language determined by the enhancement
 
@@ -345,21 +335,21 @@ Project Roll Characteristic: Might, Reason, or Intuition **Project Goal:** 150
 
 **Dragon Soul II:** While you are winded, your head transforms into a dragon's head and you have the following ability.
 
-#### **Dragon's Fire**
+######## Dragon's Fire
 
 |  |  |  |  | You open your maw and unleash hell. |  |  |  |  |
 |--|--|--|--|-------------------------------------|--|--|--|--|
 |--|--|--|--|-------------------------------------|--|--|--|--|
 
-| Area, Magic                                    | Main action                                  |
-|------------------------------------------------|----------------------------------------------|
-| Image: triangle ruler icon 5 × 1 line within 1 | Image: stopwatch icon Each enemy in the area |
+| **Area, Magic** | **Main action** |
+| ------------------------------------------------|----------------------------------------------|
+| 5 × 1 line within 1 | Each enemy in the area |
 
-Power Roll + Your Highest Characteristic Score:
+**Power Roll + Your Highest Characteristic Score:**
 
-- á 5 fire damage
-- é 8 fire damage
-- í 11 fire damage
+- **≤11:** 5 fire damage
+- **12-16:** 8 fire damage
+- **17+:** 11 fire damage
 
 **Invulnerable:** When an ability roll made against you obtains a tier 1 outcome, you can ignore its damage and effects.
 
@@ -381,15 +371,13 @@ On your turn, you can teleport to the imprint's space as a free maneuver. When y
 
 # Downtime Projects
 
-299
-
-#### <span id="page-313-0"></span>Imbue Implement
+#### Imbue Implement
 
 Implements are jewelry, spectacles, orbs, staffs, tomes, wands, weapons, and other objects used by those who channel magic and psionic power to focus that power. You decide what object to imbue when you create an implement treasure, but it must be an object you can carry or wear. You must have a mundane version of the item you plan to imbue when you start this project.
 
 An implement imbued with an enhancement grants you special benefits while it is wielded. Additionally, when an implement receives its 1st-level enhancement, it grants your magic or psionic abilities that deal rolled damage a +1 damage bonus. A 5th-level enhancement increases the bonus to +2, and a 9th-level enhancement increases it to +3. Censors, conduits, elementalists, nulls, talents, and troubadours benefit from using implements more than the other classes in this book.
 
-#### **1st-Level Implement Enhancement**
+######## 1st-Level Implement Enhancement
 
 Item Prerequisite: Varies
 
@@ -415,23 +403,23 @@ Project Roll Characteristic: Agility, Reason, or Intuition **Project Goal:** 150
 
 **Warding I:** You gain a +6 bonus to Stamina.
 
-## **1st-Level Implement Enhancements**
+#### 1st-Level Implement Enhancements
 
-| Enhancement     | Item Prerequisite                               | Project Source<br>Language |
+| Enhancement     | Item Prerequisite                               | Project Source Language |
 |-----------------|-------------------------------------------------|----------------------------|
 | Berserking      | The tusk of a feral boar                        | Kalliak                    |
 | Displacing I    | Slime from an ooze                              | Khelt                      |
-| Elemental       | Ashes or other leavings from a natural disaster | The First<br>Language      |
+| Elemental       | Ashes or other leavings from a natural disaster | The First Language      |
 | Forceful I      | A lead slingstone that killed a giant           | High Kuric                 |
 | Rat Form        | One hundred rat pelts                           | Khamish                    |
-| Rejuvenating I  | A singing quartz crystal                        | The First<br>Language      |
+| Rejuvenating I  | A singing quartz crystal                        | The First Language      |
 | Seeking         | An inch-long needle carved from a diamond       | Caelian                    |
 | Thought Sending | The brain of a psionic creature                 | Variac                     |
 | Warding I       | Three skulls from the same chimera              | Zaliac                     |
 
-#### **5th-Level Implement Enhancements**
+######## 5th-Level Implement Enhancements
 
-| Enhancement     | Item Prerequisite                                 | Project Source<br>Language |
+| Enhancement     | Item Prerequisite                                 | Project Source Language |
 |-----------------|---------------------------------------------------|----------------------------|
 | Celerity        | A dire falcon’s beak                              | Khelt                      |
 | Celestine       | A still-warm piece of a meteorite                 | Ullorvic                   |
@@ -440,24 +428,24 @@ Project Roll Characteristic: Agility, Reason, or Intuition **Project Goal:** 150
 | Forceful II     | A marble stone giant’s fingernail                 | High Kuric                 |
 | Hallucinatory   | A night hag’s hairpin                             | Variac                     |
 | Lingering I     | Slow-acting poison refined from rare fungi        | Szetch                     |
-| Rejuvenating II | A still-growing bonsai tree at least 30 years old | The First<br>Language      |
+| Rejuvenating II | A still-growing bonsai tree at least 30 years old | The First Language      |
 | Warding II      | A metallic dragon’s horn                          | Zaliac                     |
 
-## **9th-Level Implement Enhancements**
+#### 9th-Level Implement Enhancements
 
-| Enhancement      | Item Prerequisite                                            | Project Source<br>Language |
+| Enhancement      | Item Prerequisite                                            | Project Source Language |
 |------------------|--------------------------------------------------------------|----------------------------|
 | Anathema         | An olothec tentacle                                          | Variac                     |
-| Displacing III   | The keystone from a gate used for crossing<br>between worlds | Voll                       |
+| Displacing III   | The keystone from a gate used for crossing between worlds | Voll                       |
 | Erupting II      | A sealed geode containing explosive gas                      | Vastariax                  |
 | Forceful III     | A scale from the kraken                                      | High Kuric                 |
 | Lingering II     | A venom gland from a mature dragon                           | Szetch                     |
-| Piercing         | Black iron harvested from a slain blood<br>elemental         | Anjali                     |
+| Piercing         | Black iron harvested from a slain blood elemental         | Anjali                     |
 | Psionic Siphon   | The frontal lobe of an overmind                              | Variac                     |
-| Rejuvenating III | A live flower that blooms only once a decade                 | The First<br>Language      |
+| Rejuvenating III | A live flower that blooms only once a decade                 | The First Language      |
 | Warding III      | Heartwood from a two-century-old tree                        | Zaliac                     |
 
-#### **5th-Level Implement Enhancement**
+######## 5th-Level Implement Enhancement
 
 Item Prerequisite: An implement with a 1st-level enhancement; varies Project Source: Texts or lore in a language determined by the enhancement
 
@@ -481,7 +469,7 @@ Project Roll Characteristic: Agility, Reason, or Intuition **Project Goal:** 150
 
 **Warding II:** The Stamina bonus for the Warding I enhancement becomes +12. Additionally, your characteristic scores are treated as 1 higher for the purpose of resisting potencies.
 
-#### **9th-Level Implement Enhancement**
+######## 9th-Level Implement Enhancement
 
 Item Prerequisite: An implement with a 5th-level enhancement; varies Project Source: Texts or lore in a language determined by the enhancement
 
@@ -505,21 +493,17 @@ Project Roll Characteristic: Agility, Reason, or Intuition **Project Goal:** 150
 
 **Warding III:** The Stamina bonus for the Warding I enhancement becomes +18. Additionally, you and each ally within 3 squares of you has their characteristic scores treated as 1 higher for the purpose of resisting potencies. This replaces the benefit of Warding II.
 
-![](_page_314_Picture_24.jpeg)
-
 # Downtime Projects
-
-301
 
 ### Imbue Weapon
 
 A weapon imbued with an enhancement grants you special benefits while it is wielded. Additionally, when a weapon receives its 1st-level enhancement, it grants your weapon abilities that deal rolled damage a +1 damage bonus. A 5th-level enhancement increases the damage bonus to +2, and a 9th-level enhancement increases it to +3.
 
-#### **Unarmed Strike Treasures**
+######## Unarmed Strike Treasures
 
 A hero who has a kit that uses unarmed strikes, such as the Martial Artist and Pugilist kit, can create leveled weapon treasures that enhance their unarmed strikes by imbuing hand wraps, rings, shoes, or any other item worn on the body with supernatural power. At the Director's discretion, heroes who don't use kits, such as elementalists and nulls, can also benefit from such treasures.
 
-#### **1st-Level Weapon Enhancement**
+######## 1st-Level Weapon Enhancement
 
 #### Item Prerequisite: Varies
 
@@ -545,49 +529,49 @@ Project Roll Characteristic: Might, Reason, or Intuition **Project Goal:** 150
 
 **Wingbane:** Whenever you damage a flying creature using this weapon, that creature is also bleeding (save ends). While bleeding in this way, the creature takes 1 damage per square they fly. If the creature starts and ends their turn on the same solid surface, the bleeding condition ends.
 
-## **1st-Level Weapon Enhancements**
+#### 1st-Level Weapon Enhancements
 
-| Enhancement   | Item Prerequisite                                                       | Project Source<br>Language |
+| Enhancement   | Item Prerequisite                                                       | Project Source Language |
 |---------------|-------------------------------------------------------------------------|----------------------------|
 | Blood Bargain | The blood of a devil                                                    | Anjali                     |
-| Chilling I    | A piece of ice from Quintessence that never<br>melts                    | Yllyric                    |
+| Chilling I    | A piece of ice from Quintessence that never melts                    | Yllyric                    |
 | Disrupting I  | A vial of blood from a living saint                                     | Anjali                     |
 | Hurling       | A magnet made from rare metals                                          | Variac                     |
-| Merciful      | A sprig of dockwart, a rare plant with natural<br>anesthetic properties | Yllyric                    |
-| Terrifying I  | The preserved, intact amygdala of a<br>mindkiller                       | Variac                     |
-| Thundering I  | The heart of a lion, bear, or other large<br>predatory animal           | Low Kuric                  |
+| Merciful      | A sprig of dockwart, a rare plant with natural anesthetic properties | Yllyric                    |
+| Terrifying I  | The preserved, intact amygdala of a mindkiller                       | Variac                     |
+| Thundering I  | The heart of a lion, bear, or other large predatory animal           | Low Kuric                  |
 | Vengeance I   | The crown of a usurper                                                  | Kalliak                    |
 | Wingbane      | The pinfeather of a giant hawk                                          | Yllyric                    |
 
-#### **5th-Level Weapon Enhancements**
+######## 5th-Level Weapon Enhancements
 
-| Enchantment   | Item Prerequisite                                                  | Project Source<br>Language |
+| Enchantment   | Item Prerequisite                                                  | Project Source Language |
 |---------------|--------------------------------------------------------------------|----------------------------|
 | Chargebreaker | An adamantine spearhead                                            | Zaliac                     |
 | Chilling II   | Frozen bones from the lair of a white dragon                       | Yllyric                    |
 | Devastating   | A slaughter demon’s horn                                           | High Kuric                 |
-| Disrupting II | A cutting from a century-old living tree in a<br>graveyard         | Anjali                     |
+| Disrupting II | A cutting from a century-old living tree in a graveyard         | Anjali                     |
 | Metamorphic   | Oil from an olothec’s liver                                        | Variac                     |
-| Silencing     | An executioner’s hood worn during the<br>execution of a mage       | The First<br>Language      |
-| Terrifying II | Riverbed silt harvested from the Abyssal<br>Wasteland              | Variac                     |
-| Thundering II | An iron rod charged by the death throes of<br>an essence of storms | Low Kuric                  |
-| Vengeance II  | The remains of a sworn foe of the creature<br>imbuing the item     | Kalliak                    |
+| Silencing     | An executioner’s hood worn during the execution of a mage       | The First Language      |
+| Terrifying II | Riverbed silt harvested from the Abyssal Wasteland              | Variac                     |
+| Thundering II | An iron rod charged by the death throes of an essence of storms | Low Kuric                  |
+| Vengeance II  | The remains of a sworn foe of the creature imbuing the item     | Kalliak                    |
 
-#### **9th-Level Weapon Enhancements**
+######## 9th-Level Weapon Enhancements
 
-| Enhancement    | Item Prerequisite                                                                                                                           | Project Source<br>Language |
+| Enhancement    | Item Prerequisite                                                                                                                           | Project Source Language |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|
-| Chilling III   | The weapon must be dipped in the Glacial<br>Forge in the coldest depths of Hell                                                             | Yllyric                    |
-| Disrupting III | Wrappings from a mummy buried at least a<br>century ago                                                                                     | Anjali                     |
-| Draining       | The intact, still-thinking brain of a voiceless<br>talker                                                                                   | Voll                       |
+| Chilling III   | The weapon must be dipped in the Glacial Forge in the coldest depths of Hell                                                             | Yllyric                    |
+| Disrupting III | Wrappings from a mummy buried at least a century ago                                                                                     | Anjali                     |
+| Draining       | The intact, still-thinking brain of a voiceless talker                                                                                   | Voll                       |
 | Imprisoning    | A chain once used to restrain an angel                                                                                                      | Anjali                     |
 | Nova           | A piece of metal touched by a sun                                                                                                           | Ullorvic                   |
 | Terrifying III | The central eye of an overmind                                                                                                              | Variac                     |
-| Thundering III | An oracle of storms must willingly bless<br>the weapon with lightning while it is being<br>wielded, and its wielder must survive this trial | Low Kuric                  |
-| Vengeance III  | The true name of a devil who hunts other<br>devils                                                                                          | Kalliak                    |
-| Windcutting    | A feather from a bird, once thought extinct, who<br>dwells at the eye of an ever-whirling tornado                                           | Yllyric                    |
+| Thundering III | An oracle of storms must willingly bless the weapon with lightning while it is being wielded, and its wielder must survive this trial | Low Kuric                  |
+| Vengeance III  | The true name of a devil who hunts other devils                                                                                          | Kalliak                    |
+| Windcutting    | A feather from a bird, once thought extinct, who dwells at the eye of an ever-whirling tornado                                           | Yllyric                    |
 
-#### **5th-Level Weapon Enhancement**
+######## 5th-Level Weapon Enhancement
 
 Item Prerequisite: A weapon with a 1st-level enhancement; varies Project Source: Texts or lore in a language determined by the enhancement
 
@@ -595,15 +579,15 @@ Project Roll Characteristic: Might, Reason, or Intuition **Project Goal:** 150
 
 Chargebreaker: While you wield this weapon, you have the following ability.
 
-#### **Stop Right There**
+######## Stop Right There
 
 *Their momentum, your impact.*
 
-| Melee, Strike, Weapon                  | Free triggered                            |
-|----------------------------------------|-------------------------------------------|
-| <span>Image: melee icon</span> Melee 1 | <span>Image: target icon</span> One enemy |
+| **Melee, Strike, Weapon** | **Free triggered** |
+| ----------------------------------------|-------------------------------------------|
+| Melee 1 | One enemy |
 
-Trigger: The target willingly moves adjacent to you. Effect: The target takes 5 damage.
+**Trigger:** The target willingly moves adjacent to you. Effect: The target takes 5 damage.
 
 **Chilling II:** Whenever you damage a creature with an ability using this weapon and obtain a tier 3 outcome, that creature takes 6 cold damage and is slowed (save ends). This replaces the benefit of Chilling I.
 
@@ -613,9 +597,9 @@ Trigger: The target willingly moves adjacent to you. Effect: The target takes 5 
 
 **Metamorphic:** You can change this weapon's shape and form as a maneuver, granting one of the following benefits of your choice:
 
-- ¥ **Concealed:** The weapon shrinks to the size of a piece of jewelry and can be worn as an earring, necklace, or similar accessory. While in this form, the weapon can't be used for weapon abilities.
-- ¥ **Large:** Abilities using this weapon gain a +1 melee distance bonus or a +3 ranged distance bonus.
-- ¥ **Vicious:** Whenever you damage a creature using this weapon, you deal an extra 1 damage on a tier 1 outcome, an extra 2 damage on a tier 2 outcome, and an extra 3 damage on a tier 3 outcome.
+- **Concealed:** The weapon shrinks to the size of a piece of jewelry and can be worn as an earring, necklace, or similar accessory. While in this form, the weapon can't be used for weapon abilities.
+- **Large:** Abilities using this weapon gain a +1 melee distance bonus or a +3 ranged distance bonus.
+- **Vicious:** Whenever you damage a creature using this weapon, you deal an extra 1 damage on a tier 1 outcome, an extra 2 damage on a tier 2 outcome, and an extra 3 damage on a tier 3 outcome.
 
 **Silencing:** Whenever you damage a creature with an ability using this weapon and obtain a tier 3 outcome, that creature also can't use magic abilities until the end of their next turn.
 
@@ -625,7 +609,7 @@ Trigger: The target willingly moves adjacent to you. Effect: The target takes 5 
 
 **Vengeance II:** Whenever you use a damage-dealing ability using this weapon against a creature who has dealt damage to you since the end of your last turn, the ability deals an extra 4 damage. This replaces the benefit of Vengeance I.
 
-#### **9th-Level Weapon Enhancement**
+######## 9th-Level Weapon Enhancement
 
 Item Prerequisite: A weapon with a 5th-level enhancement; varies Project Source: Texts or lore in a language determined by the enhancement
 
@@ -641,17 +625,21 @@ Project Roll Characteristic: Might, Reason, or Intuition **Project Goal:** 150
 
 **Nova:** Whenever you damage a creature using this weapon, each enemy adjacent to you takes damage based on the tier outcome of the power roll—2 damage for tier 1, 6 for tier 2, or 10 for tier 3. Additionally, while you are winded, you have the following ability.
 
-| <b>Nova</b>                          |                                                        |
+| **Nova**                          |                                                        |
 |--------------------------------------|--------------------------------------------------------|
-| <i>I am an eternal flame, baby!</i>  |                                                        |
-| Area, Magic                          | Main action                                            |
-| <span>Image: area icon</span> 3 area | <span>Image: target icon</span> Each enemy in the area |
+*I am an eternal flame, baby!*
 
-Power Roll + Your Highest Characteristic Score:
+|    |                                                        |
 
-- á 7 fire damage
-- é 11 fire damage
-- í 16 fire damage
+| **Area, Magic** | **Main action** |
+
+| 3 area | Each enemy in the area |
+
+**Power Roll + Your Highest Characteristic Score:**
+
+- **≤11:** 7 fire damage
+- **12-16:** 11 fire damage
+- **17+:** 16 fire damage
 
 **Terrifying III:** Whenever you damage a creature with an ability using this weapon and obtain a tier 3 outcome, that creature takes 6 psychic damage and is frightened (save ends). This replaces the benefit of Terrifying II.
 
@@ -661,15 +649,13 @@ Power Roll + Your Highest Characteristic Score:
 
 **Windcutting:** Whenever you use a melee signature ability that usually targets one creature, you can take a bane on the ability to target each enemy in a cube 3 within distance. If your signature ability would usually cause its target to become grabbed or res trained, each target in the area is instead slowed until the end of their next turn.
 
-303
-
-## <span id="page-317-0"></span>Research Projects
+## Research Projects
 
 Heroes can undertake many different types of research downtime projects, which can involve seeking out new lore, improving existing knowledge with study, uncovering rumors or secrets, and more.
 
 Unless a project has a event table of its own or a special event entry, the Director uses the [Crafting and Research Events](#page-319-0) table for research project events.
 
-## **Discover Lore**
+#### Discover Lore
 
 **Item Prerequisite:** None **Project Source:** Texts or knowledge related to the subject you wish to research **Project Roll Characteristic:** Reason **Project Goal:** Varies (see the table)
 
@@ -700,9 +686,7 @@ Lost knowledge is so esoteric that even among a field's most dedicated scholars,
 
 Forbidden knowledge is lore that a powerful individual or organization is attempting to keep secret. Those who know the secrets speak of them in whispered codes after passwords are exchanged, and write texts using ciphers. Hunting down leads and making sense of them typically takes weeks. The location of the dagger that slit the throat of the god of death is hidden behind layers of encoded text and written in a dead language known only to that god's most devout followers.
 
-![](_page_317_Picture_17.jpeg)
-
-#### **Crafting and Research Events**
+######## Crafting and Research Events
 
 | d100  | Event                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |-------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -725,55 +709,53 @@ Forbidden knowledge is lore that a powerful individual or organization is attemp
 | 33–34 | After the roll, the project source suddenly becomes impossible to understand. A psionic NPC has used a mighty power to obscure or corrupt the project source to prevent a potential catastrophe they foresaw. If the heroes can help prevent the catastrophe in another way, the NPC will end the effect.                                                                                                                                                                                                       |
 | 35–36 | After the roll, the hero discovers that the project source contains a piece of helpful knowledge unrelated to the current project.                                                                                                                                                                                                                                                                                                                                                                              |
 | d100  | Event                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| 37–38 | Before the roll, the hero learns that several sages working on similar projects<br>have all mysteriously disappeared. Someone or something is abducting these<br>experts for some nefarious purpose ... and the hero could be next!                                                                                                                                                                                                                                                                             |
-| 39–40 | After the roll, a group of scholars approach the hero and ask if they can review<br>the project source, promising to help the hero complete the project in return. If<br>the hero accepts, the scholars take the project source until the end of the hero’s<br>next respite. Three of the scholars then contribute project rolls during the<br>following respite, each with a +3 modifier.                                                                                                                      |
-| 41–42 | After the roll, a physical project source or crafting components come to life and<br>attack the hero. Magic within these items has become corrupted! If the hero<br>can fix the corruption without destroying the items, the project is saved, but<br>doing so requires a special ritual.                                                                                                                                                                                                                       |
-| 43–44 | After the roll, an otherworldly specter appears and warns the hero not to<br>complete the project, explaining that they died attempting the same project<br>and are now attached to the project source. If the hero can convince the<br>spirit that they will not die similarly, the creature shares their knowledge,<br>contributing one project roll to the project with a +3 modifier.                                                                                                                       |
-| 45–46 | Before the roll, the servants of a dragon appear and demand that the hero hand<br>over the project source. If the hero refuses, the servants warn that the dragon<br>will come to claim the project source for themself.                                                                                                                                                                                                                                                                                        |
-| 47–48 | Before the roll, the hero notices a contract written on a physical project source<br>or other accompanying materials that appears only under certain conditions<br>(in the presence of magic, in the light of a full moon, and so forth). The contract<br>promises that anyone who signs it in blood will receive the true and full<br>answer to three questions, in exchange for a week of service to the hag Corrine<br>Withersnipe. The hag appears instantly if the contract is signed.                     |
-| 49–50 | After the roll, an unexpected total eclipse of the sun occurs, lasting 1 hour.<br>Once per respite when any creature makes another project roll for the project,<br>another eclipse occurs and lasts twice as long as the previous. Some take this<br>phenomenon as a sign of impending doom that will descend when the project<br>is completed. Others believe that a powerful enemy is trying to scare the<br>heroes into not finishing the project.                                                          |
-| 51–52 | Before the roll, the hero gets a visit from an NPC who they helped in the past.<br>The NPC has found a guide that relates to the project and gives it to the hero as<br>a gift of thanks.                                                                                                                                                                                                                                                                                                                       |
-| 53–54 | After the roll, a local officer of the law appears and tells the hero to stop<br>working on their project. The nature of the hero’s project has just become<br>outlawed in the region, and the constable insists on locking up the project<br>source and arresting anyone who gets in the way.                                                                                                                                                                                                                  |
-| 55–56 | Before the roll, the hero determines that the research or crafting they are<br>planning requires only part of their attention. They can either make two<br>project rolls for their current project, or can make one for that project and one<br>for another project.                                                                                                                                                                                                                                            |
-| 57–58 | After the roll, a component or tool the hero is using for the project suddenly<br>reveals itself to be magic or psionic as it starts to hum with energy and glow<br>red hot. If the item isn’t quickly cooled, it explodes, and work on the project<br>can’t continue until a replacement is found.                                                                                                                                                                                                             |
-| 59–60 | Before the roll, the hero realizes they’re at a critical point in the project, and can<br>achieve more if they just shave off a few hours of rest. By choosing to lose some<br>sleep, the character can make two project rolls for the project, but when they<br>end the current respite, they do so with 1 fewer Recoveries than usual.                                                                                                                                                                        |
-| 61–62 | Before the roll, a sage approaches the hero and offers to help with the project.<br>This NPC isn’t really a sage, however—they’re an assassin hoping to catch the<br>hero off guard.                                                                                                                                                                                                                                                                                                                            |
-| 63–64 | Before the roll, a sage approaches the hero and offers to help with the project.<br>This NPC isn’t really a sage, however—they’re a bard who wishes to compose<br>a song about the hero’s deeds. The NPC is to ingratiate themself to the hero while<br>contributing nothing to the actual project.                                                                                                                                                                                                             |
-| 65–66 | After the roll, a physical project source or a component of the project creates<br>an unstable portal to another world related to the nature of the project. Tiny<br>devils, elementals, or other creatures start clawing their way out of the item<br>and causing mischief.                                                                                                                                                                                                                                    |
-| 67–68 | After the roll, the hero realizes that the project source also holds information<br>regarding the location of another project source or certain items, which are<br>needed for another project the hero or one of their allies wants to pursue.                                                                                                                                                                                                                                                                 |
-| 69–70 | Before the roll, a group of enemies working for the campaign’s villain attacks<br>the hero, intent on destroying as much of the project’s source or other resources<br>as possible.                                                                                                                                                                                                                                                                                                                             |
+| 37–38 | Before the roll, the hero learns that several sages working on similar projects have all mysteriously disappeared. Someone or something is abducting these experts for some nefarious purpose ... and the hero could be next!                                                                                                                                                                                                                                                                             |
+| 39–40 | After the roll, a group of scholars approach the hero and ask if they can review the project source, promising to help the hero complete the project in return. If the hero accepts, the scholars take the project source until the end of the hero’s next respite. Three of the scholars then contribute project rolls during the following respite, each with a +3 modifier.                                                                                                                      |
+| 41–42 | After the roll, a physical project source or crafting components come to life and attack the hero. Magic within these items has become corrupted! If the hero can fix the corruption without destroying the items, the project is saved, but doing so requires a special ritual.                                                                                                                                                                                                                       |
+| 43–44 | After the roll, an otherworldly specter appears and warns the hero not to complete the project, explaining that they died attempting the same project and are now attached to the project source. If the hero can convince the spirit that they will not die similarly, the creature shares their knowledge, contributing one project roll to the project with a +3 modifier.                                                                                                                       |
+| 45–46 | Before the roll, the servants of a dragon appear and demand that the hero hand over the project source. If the hero refuses, the servants warn that the dragon will come to claim the project source for themself.                                                                                                                                                                                                                                                                                        |
+| 47–48 | Before the roll, the hero notices a contract written on a physical project source or other accompanying materials that appears only under certain conditions (in the presence of magic, in the light of a full moon, and so forth). The contract promises that anyone who signs it in blood will receive the true and full answer to three questions, in exchange for a week of service to the hag Corrine Withersnipe. The hag appears instantly if the contract is signed.                     |
+| 49–50 | After the roll, an unexpected total eclipse of the sun occurs, lasting 1 hour. Once per respite when any creature makes another project roll for the project, another eclipse occurs and lasts twice as long as the previous. Some take this phenomenon as a sign of impending doom that will descend when the project is completed. Others believe that a powerful enemy is trying to scare the heroes into not finishing the project.                                                          |
+| 51–52 | Before the roll, the hero gets a visit from an NPC who they helped in the past. The NPC has found a guide that relates to the project and gives it to the hero as a gift of thanks.                                                                                                                                                                                                                                                                                                                       |
+| 53–54 | After the roll, a local officer of the law appears and tells the hero to stop working on their project. The nature of the hero’s project has just become outlawed in the region, and the constable insists on locking up the project source and arresting anyone who gets in the way.                                                                                                                                                                                                                  |
+| 55–56 | Before the roll, the hero determines that the research or crafting they are planning requires only part of their attention. They can either make two project rolls for their current project, or can make one for that project and one for another project.                                                                                                                                                                                                                                            |
+| 57–58 | After the roll, a component or tool the hero is using for the project suddenly reveals itself to be magic or psionic as it starts to hum with energy and glow red hot. If the item isn’t quickly cooled, it explodes, and work on the project can’t continue until a replacement is found.                                                                                                                                                                                                             |
+| 59–60 | Before the roll, the hero realizes they’re at a critical point in the project, and can achieve more if they just shave off a few hours of rest. By choosing to lose some sleep, the character can make two project rolls for the project, but when they end the current respite, they do so with 1 fewer Recoveries than usual.                                                                                                                                                                        |
+| 61–62 | Before the roll, a sage approaches the hero and offers to help with the project. This NPC isn’t really a sage, however—they’re an assassin hoping to catch the hero off guard.                                                                                                                                                                                                                                                                                                                            |
+| 63–64 | Before the roll, a sage approaches the hero and offers to help with the project. This NPC isn’t really a sage, however—they’re a bard who wishes to compose a song about the hero’s deeds. The NPC is to ingratiate themself to the hero while contributing nothing to the actual project.                                                                                                                                                                                                             |
+| 65–66 | After the roll, a physical project source or a component of the project creates an unstable portal to another world related to the nature of the project. Tiny devils, elementals, or other creatures start clawing their way out of the item and causing mischief.                                                                                                                                                                                                                                    |
+| 67–68 | After the roll, the hero realizes that the project source also holds information regarding the location of another project source or certain items, which are needed for another project the hero or one of their allies wants to pursue.                                                                                                                                                                                                                                                                 |
+| 69–70 | Before the roll, a group of enemies working for the campaign’s villain attacks the hero, intent on destroying as much of the project’s source or other resources as possible.                                                                                                                                                                                                                                                                                                                             |
 |       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| 73–74 | After the roll, the hero falls asleep. They go on to complete the project in their<br>dreams, but they have no access to that progress while they're awake. The hero<br>can rectify this by finding a way to physically enter into their dreams, where<br>the completed project can be found.                                                                                                                                                                                                                   |
-| 75–76 | Before the roll, a band of goblins barge in on the hero. If the hero has been<br>fighting goblins on their recent adventures, the goblins attempt to run away<br>with the project source. Otherwise, the goblins are merely curious about the<br>project, and the hero can make two project rolls if they choose to explain it and                                                                                                                                                                              |
+| 73–74 | After the roll, the hero falls asleep. They go on to complete the project in their dreams, but they have no access to that progress while they're awake. The hero can rectify this by finding a way to physically enter into their dreams, where the completed project can be found.                                                                                                                                                                                                                   |
+| 75–76 | Before the roll, a band of goblins barge in on the hero. If the hero has been fighting goblins on their recent adventures, the goblins attempt to run away with the project source. Otherwise, the goblins are merely curious about the project, and the hero can make two project rolls if they choose to explain it and                                                                                                                                                                              |
 
 Draw Steel
 
-304
-
 #### d100 Event
 
-71–72 project is completed. The closer to completion the hero gets on the project, the more violent the storm becomes. It's possible that the storm is conscious, or that someone is controlling the storm to stand in the hero's way.
+–72 project is completed. The closer to completion the hero gets on the project, the more violent the storm becomes. It's possible that the storm is conscious, or that someone is controlling the storm to stand in the hero's way.
 
-## **Crafting and Research Events**
+#### Crafting and Research Events
 
 ## d100 Event
 
 have the goblins help.
 
-77–78 After the roll, the hero watches as any progress made is reversed—as if the project were moving backward through time. Any character familiar with psionics recognizes the phenomena as a chrono-anomaly. The project loses the same amount of progress each successive night until the hero finds and stops the source of the anomaly, which restores the project's progress.
+–78 After the roll, the hero watches as any progress made is reversed—as if the project were moving backward through time. Any character familiar with psionics recognizes the phenomena as a chrono-anomaly. The project loses the same amount of progress each successive night until the hero finds and stops the source of the anomaly, which restores the project's progress.
 
-79–80 Before the roll, the hero hears a voice beckoning them into the nearest wode to work on their project. Each time the hero makes a project roll in the wode, they make three times the progress but feel more pressure to stay in the wode forever.
+–80 Before the roll, the hero hears a voice beckoning them into the nearest wode to work on their project. Each time the hero makes a project roll in the wode, they make three times the progress but feel more pressure to stay in the wode forever.
 
 - 81–82 After the roll, the hero stumbles upon knowledge of an expert a day's travel away who could complete the project, and who possesses a project source or guide for another hero's project.
 - 83–84 Before the roll, fire rips through the hero's project source or other materials and threatens to destroy the entire project. If the hero puts out the fire before everything is lost, they find that the fire activated secret notes that double each subsequent project roll for the project.
 
-85–86 After the roll, a auteur NPC approaches the hero and asks if they would like to make the project "a little more exciting." If the hero agrees, the auteur narrates the hero's progress on the project, prompting another project roll. If the second roll is lower than the first, the hero subtracts the second roll from the original roll. If it's equal or higher, the hero adds the second roll to the original roll.
+–86 After the roll, a auteur NPC approaches the hero and asks if they would like to make the project "a little more exciting." If the hero agrees, the auteur narrates the hero's progress on the project, prompting another project roll. If the second roll is lower than the first, the hero subtracts the second roll from the original roll. If it's equal or higher, the hero adds the second roll to the original roll.
 
-87–88 Before the roll, the hero's rival reluctantly comes seeking the hero's help on their own project. If the hero agrees, the hero makes their project roll toward the rival's project, and the Director makes the rival's project roll toward the hero's project.
+–88 Before the roll, the hero's rival reluctantly comes seeking the hero's help on their own project. If the hero agrees, the hero makes their project roll toward the rival's project, and the Director makes the rival's project roll toward the hero's project.
 
-#### <span id="page-319-0"></span>d100 Event
+#### d100 Event
 
-89–90 After the roll, the hero completes their work on the project earlier than expected, and can either relax or go carousing with other heroes who are free. The hero and every character who joins them starts the next encounter with 10 temporary Stamina.
+–90 After the roll, the hero completes their work on the project earlier than expected, and can either relax or go carousing with other heroes who are free. The hero and every character who joins them starts the next encounter with 10 temporary Stamina.
 
 Before the roll, the hero is approached by a wagoneer who needs help fixing their wagon. If the hero helps, they find out that the wagoneer is allied with the campaign's villain. If the hero doesn't attack or threaten the wagoneer,
 
@@ -782,17 +764,15 @@ Before the roll, the hero is approached by a wagoneer who needs help fixing thei
 
 After the roll, the hero suddenly no longer understands or comprehends the project source after focusing on those materials for too long. If they continue
 
-95–96 with the project, they take a bane on its project rolls for the next two respites. If they leave the project alone for the next two respites, they'll be able to comprehend the research again, gaining an automatic breakthrough before the next project roll.
+–96 with the project, they take a bane on its project rolls for the next two respites. If they leave the project alone for the next two respites, they'll be able to comprehend the research again, gaining an automatic breakthrough before the next project roll.
 
-97–98 Before the roll, part of the hero's project source or other materials shrinks and is pulled through a mousehole. A group of radenwights sent magical mice to steal the resources so they can finish their own project. The radenwights are willing to negotiate if the hero doesn't approach them aggressively.
+–98 Before the roll, part of the hero's project source or other materials shrinks and is pulled through a mousehole. A group of radenwights sent magical mice to steal the resources so they can finish their own project. The radenwights are willing to negotiate if the hero doesn't approach them aggressively.
 
 Before the roll, an elemental springs forth from the project source and pulls the hero into a duel. If the hero can survive 3 rounds of combat with the elemental on their own, the elemental vanishes and leaves behind a completed project.
 
-99–100 If the hero flees, falls unconscious, or gets help from an ally, the elemental destroys the project source as they disappear.
+–100 If the hero flees, falls unconscious, or gets help from an ally, the elemental destroys the project source as they disappear.
 
-![](_page_319_Picture_20.jpeg)
-
-## **Go Undercover**
+#### Go Undercover
 
 Item Prerequisite: Special Project Source: None Project Roll Characteristic: Intuition or Presence **Project Goal:** 15
 
@@ -806,39 +786,33 @@ This project has its own special complications. The first time you complete this
 
 Additionally, while you work to complete this project, you might be called upon by the organization to complete a task you might not want to do. Failure to complete the task leads to you being caught. You can avoid the task by fleeing the organization, but this prevents you from completing the project and makes it impossible for you to undertake this project again with the same organization.
 
-![](_page_320_Picture_7.jpeg)
-
-307
-
-## **Hone Career Skills Events**
+#### Hone Career Skills Events
 
 #### d10 Event
-
-3
 
 Before the roll, an old colleague from the hero's past asks the hero to give up adventuring and come back to their former career. A hero who reaffirms their
 
 - 1 intent to remain a hero gains a hero token. However, if they do so—or if they lie to say they will return to their old career—the project goal increases by 50 points as their old colleague refuses to help them.
-- <sup>2</sup> After the roll, the hero is hurt on the job. They end the respite with 1 fewer Recoveries than usual.
+- 2 After the roll, the hero is hurt on the job. They end the respite with 1 fewer Recoveries than usual.
 
 Before the roll, the hero stumbles upon an individual seeking guidance about entering the same career as the hero. If the hero forgoes their project roll to help this NPC, the individual becomes one of the hero's followers, which they gain in
 
 - addition to any followers acquired through Renown or other means. The follower is an artisan or a sage depending on the hero's career, as the Director determines.
 - 4 After the roll, the hero finds inspiration from their old life that helps out with a different project they or another hero are currently working on. The hero working on the second project can immediately make a project roll for that project.
-- <sup>5</sup> Before the roll, the hero stumbles into a negative aspect of their career that they forgot was particularly grueling. If the project roll is 11 or lower, it is halved.
+- 5 Before the roll, the hero stumbles into a negative aspect of their career that they forgot was particularly grueling. If the project roll is 11 or lower, it is halved.
 - 6 After the roll, the hero learns rumors of a treasure of the Director's choice that other members of the hero's previous career are seeking. If the hero doesn't seek the treasure ahead of time, they automatically determine where the treasure is to be found when they complete their project.
 
 Before the roll, a vaguely familiar stranger in the same career asks if they can work with the hero on their project. If the hero accepts their help, the stranger makes
 
-7 one project roll for the project with a +2 modifier. Only afterward does the hero learn whether the stranger supports their motivation for working on the project or whether they work for the campaign's villain.
+one project roll for the project with a +2 modifier. Only afterward does the hero learn whether the stranger supports their motivation for working on the project or whether they work for the campaign's villain.
 
 > After the roll, the hero strangely feels 5 years younger. Any character familiar with psionics recognizes the phenomena as a chrono-anomaly. The hero grows
 
 - 8 younger each time they make progress on the project—but will cease to exist if they complete the project without first finding and stopping the source of the anomaly.
 - 9 Before the roll, the hero stumbles upon an old memento from when they worked their former career. They can choose between gaining an automatic breakthrough on the project roll or gaining a hero token.
-- <sup>10</sup> After the roll, the hero gets back into the rhythm of their former career. They can make two additional project rolls.
+- 10 After the roll, the hero gets back into the rhythm of their former career. They can make two additional project rolls.
 
-## **Hone Career Skills**
+#### Hone Career Skills
 
 Item Prerequisite: None
 
@@ -850,17 +824,17 @@ Project Roll Characteristic: Intuition
 
 You revisit your previous life to freshen up on the experience it provided you. When this project is complete, you gain an edge on tests made using the skills provided by your career.
 
-## **Learn From a Master**
+#### Learn From a Master
 
 Item Prerequisite: None Project Source: An NPC of a higher level, or records of such an NPC's teachings in a language you know Project Roll Characteristic: Your highest characteristic **Project Goal:** Varies
 
 When you seek to learn from a master, you choose the goal you wish to work on as well as the benefit you would gain from it. The Director tells you whether the master or the materials they've left behind are able to teach you what you want to learn.
 
-## **Learn From a Master Events**
+#### Learn From a Master Events
 
 #### d10 Event
 
-- <sup>1</sup> After the roll, the hero experiences a revelation and all their training snaps into place. The hero makes two additional project rolls for this project.
+- 1 After the roll, the hero experiences a revelation and all their training snaps into place. The hero makes two additional project rolls for this project.
 - 2 Before the roll, the master dies midway through training, or the lore they left behind is found to be incomplete. To complete the project, the hero must seek out another master who was trained by the first master, or find another copy of the
 - records of their teaching. Before the roll, the hero discovers that although the master's knowledge is sound,
 - 3 they are less adept at the teaching of that knowledge. The project requires an additional 50 project points to complete.
@@ -872,10 +846,10 @@ Before the roll, the hero discovers that the master has been working with an ene
 
 - 7 activities. The hero can continue learning from the master, but risks exposing themself and their allies to danger by doing so.
 - 8 After the roll, an accident, fire, or other natural disaster disrupts the hero's training. The project points rolled for this respite are halved, but if the hero acts to stop the disaster, their heroism sees them earn 1 Renown.
-- <sup>9</sup> After the roll, the master gifts the hero with an item prerequisite for a crafting project.
+- 9 After the roll, the master gifts the hero with an item prerequisite for a crafting project.
 - 10 After the roll, the hero uncovers a secret in their studies, something that the master had never anticipated or that their teachings hadn't covered. The project goal is halved.
 
-## **Learn from Master Project Goals**
+#### Learn from Master Project Goals
 
 | Project         | Goal  |
 |-----------------|-------|
@@ -895,7 +869,7 @@ You sharpen the effectiveness of one of your abilities of your choice. Choose be
 
 You learn to use one of your heroic abilities more efficiently, reducing its baseline Heroic Resource cost by 1 (to a minimum of 1). You can gain this benefit only once for any ability.
 
-## **Learn New Language**
+#### Learn New Language
 
 Item Prerequisite: None Project Source: Texts or instruction that teaches the language you want to learn
 
@@ -903,7 +877,7 @@ Project Roll Characteristic: Reason or Intuition **Project Goal:** 120
 
 When you start this project, choose a language taught by the project source. When the project is complete, you understand the language.
 
-## **Learn New Skill**
+#### Learn New Skill
 
 #### Item Prerequisite: None
 
@@ -913,7 +887,7 @@ Project Roll Characteristic: Reason or Intuition **Project Goal:** 120
 
 When you start this project, choose a skill taught by the project source. When the project is complete, you have that skill.
 
-## **Perfect New Recipe**
+#### Perfect New Recipe
 
 Item Prerequisite: Varies Project Source: A recipe in a language you know, or someone who can tutor you in that recipe Project Roll Characteristic: Reason or Intuition **Project Goal:** 100
 
@@ -935,13 +909,11 @@ A creature can benefit from the food of only one recipe at a time, and can't ben
 | Vintage or home | Key ingredients (starfruit, kindleseeds, oarfish, and so forth)       | Comforting         |
 | Ancient or lost | Rare or extinct ingredients (honeylilies, steel apples, and so forth) | Supernatural power |
 
-![](_page_322_Picture_19.jpeg)
-
 ## Other Projects
 
 Not all heroes want to craft or research during their time between adventures. Some might wish to build organizations, reconnect with family or friends, or just go fishing.
 
-## **Community Service**
+#### Community Service
 
 Item Prerequisite: None Project Source: None Project Roll Characteristic: Varies **Project Goal:** 75
 
@@ -949,24 +921,22 @@ When you start this project, you must be in a settlement or other location where
 
 While undertaking this project, you provide help to people in need, doing odd jobs, tutoring life skills, cleaning streets or public spaces, finding lost valuables, and the like. The Director determines the characteristic that applies to the project roll based on the activities you undertake. When you complete this project, you receive a random consumable treasure of the Director's choice from someone in the community as thanks for your hard work.
 
-## **Community Service Events**
+#### Community Service Events
 
 #### d10 Event
 
-8
-
-<sup>1</sup> After the roll, the hero's service is recognized by the local nobility or authorities. Upon completion of the project, the hero earns 1 Renown.
+1 After the roll, the hero's service is recognized by the local nobility or authorities. Upon completion of the project, the hero earns 1 Renown.
 
 Before the roll, a mysterious force hinders the work in an unfortunate way, with tools going missing, tutoring materials vanishing, cleaning supplies turning up
 
 - 2 already filthy, and so forth. The hero can't continue the project until the culprit—a maligned devil or spirit connected to the hero's past—is identified and dealt with.
-- <sup>3</sup> Before the roll, the community is so excited by the project that they join in to lend a hand. The project gains an automatic breakthrough.
+- 3 Before the roll, the community is so excited by the project that they join in to lend a hand. The project gains an automatic breakthrough.
 - 4 Before the roll, a sympathetic NPC—perhaps a friend or ally from the community or from the hero's past—offers to assist with the project. The hero gains a +3 bonus to the project roll.
 
 Before the roll, work on the project unearths a previously lost detail of the community—a lost or hidden section of a settlement, a surprising historical detail,
 
 - 5 a secret regarding a prominent local, and so forth. The locals take a keen interest in the development, but the revelation threatens to tear the community apart. If the character can't take steps to undo this strife, they take a bane on the project roll.
-- <sup>6</sup> After the roll, a seemingly benign action taken by the hero curses them with bad luck. Until they break the curse, all project rolls they make are halved.
+- 6 After the roll, a seemingly benign action taken by the hero curses them with bad luck. Until they break the curse, all project rolls they make are halved.
 - 7 After the roll, a saint blesses the hero's work. The hero feels supernaturally
 - rejuvenated, increasing their Recoveries by 1 until the end of their next respite. If the character is a conduit, they also gain an automatic breakthrough on the project.
 
@@ -974,92 +944,80 @@ Before the roll, the hero becomes aware of a previously unknown radenwight warre
 
 project roll. 9 Before the roll, a local malcontent has turned their focus on the hero and roused the people against them. The hero must either contend with angry locals preventing them from resting (losing the usual benefit of the respite) or find the malcontent and win them over before proceeding.
 
-10 Before the roll, a thief, assassin, or other criminal offers to assist the hero. They can offer 50 points toward the completion of the project, as long as the hero looks the other way if they ever cross paths again.
+Before the roll, a thief, assassin, or other criminal offers to assist the hero. They can offer 50 points toward the completion of the project, as long as the hero looks the other way if they ever cross paths again.
 
-![](_page_323_Picture_22.jpeg)
-
-![](_page_324_Picture_0.jpeg)
-
-## **Fishing**
+#### Fishing
 
 Item Prerequisite: None Project Source: None Project Roll Characteristic: Agility, Reason, or Intuition **Project Goal:** Varies
 
 Whether for sustenance, relaxation, or bragging rights, you've gone fishing, provided you are near a body of water. The project roll for this project has the following changes:
 
-- ¥ The project points earned by your roll represent the relative size of the fish (or some other fishlike creature) you catch.
-- ¥ During each respite when you undertake this activity, you continue making project rolls until you obtain a tier 1 outcome (indicating that a fish got away, earning you no points) or a breakthrough.
-- ¥ When you obtain a breakthrough, the Director rolls on the Fishing Events table rather than you gaining points from the roll and making another project roll.
-- ¥ When you've made your last Fishing project roll for the respite, you can spend the project points you accrued on a reward from the Tackle table. Any points you don't spend during the current respite are lost.
+- The project points earned by your roll represent the relative size of the fish (or some other fishlike creature) you catch.
+- During each respite when you undertake this activity, you continue making project rolls until you obtain a tier 1 outcome (indicating that a fish got away, earning you no points) or a breakthrough.
+- When you obtain a breakthrough, the Director rolls on the Fishing Events table rather than you gaining points from the roll and making another project roll.
+- When you've made your last Fishing project roll for the respite, you can spend the project points you accrued on a reward from the Tackle table. Any points you don't spend during the current respite are lost.
 
 | Reward                     | Cost | Effect                                                                                                                                                                                                                                                                                                                                                                                                    |
 |----------------------------|------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Hearty meal<br>(1 serving) | 50   | A creature who eats a serving of a meal prepared with the fish caught during the project increases their Recoveries by 1 until the end of their next respite. A creature can benefit from only one serving of this meal or another like it (such as from the Perfect New Recipe project) at a time.                                                                                                       |
-| Great meal<br>(1 serving)  | 100  | A creature who eats a serving of a meal prepared with the fish caught during the project increases their Recoveries by 1 until the end of their next respite, and gains 10 temporary Stamina that lasts until the end of their next respite if it isn’t lost first. A creature can benefit only from one serving of this meal or another like it (such as from the Perfect New Recipe project) at a time. |
-| Better tackle              | 120  | You gain the following title and benefit.<br><b>Angler:</b> You gain an edge on Fishing project rolls.                                                                                                                                                                                                                                                                                                    |
+| Hearty meal (1 serving) | 50   | A creature who eats a serving of a meal prepared with the fish caught during the project increases their Recoveries by 1 until the end of their next respite. A creature can benefit from only one serving of this meal or another like it (such as from the Perfect New Recipe project) at a time.                                                                                                       |
+| Great meal (1 serving)  | 100  | A creature who eats a serving of a meal prepared with the fish caught during the project increases their Recoveries by 1 until the end of their next respite, and gains 10 temporary Stamina that lasts until the end of their next respite if it isn’t lost first. A creature can benefit only from one serving of this meal or another like it (such as from the Perfect New Recipe project) at a time. |
+| Better tackle              | 120  | You gain the following title and benefit. **Angler:** You gain an edge on Fishing project rolls.                                                                                                                                                                                                                                                                                                    |
 | Fishing event              | 200  | You roll on the Fishing Events table.                                                                                                                                                                                                                                                                                                                                                                     |
-| Legendary fisher           | 300  | You gain the following title and benefit.<br><b>Goldenrod:</b> Each time you undertake the Fishing project, you can reroll one project roll.                                                                                                                                                                                                                                                              |
+| Legendary fisher           | 300  | You gain the following title and benefit. **Goldenrod:** Each time you undertake the Fishing project, you can reroll one project roll.                                                                                                                                                                                                                                                              |
 
-#### **Fishing Events**
+######## Fishing Events
 
 #### d10 Event
-
-1
-
-2
 
 While fishing, the hero reels in a talking fish. The fish informs the hero of any events that have occurred within 10 squares of the body of water where they were caught over the last week, or provides one piece of Forbidden Knowledge (see the Discover Lore project), as the Director determines.
 
 While fishing, the hero reels in a note in a bottle. The note is written in Anjali and binds the reader into a deal with a powerful devil if read out loud. This gives the devil ownership of the reader's soul in exchange for rolling an additional d10 on all future Fishing project rolls.
 
-3 While the hero is fishing, passersby inform them of a rumor of a magic fishing rod that allows the fisher to double the size of the fish they reel in. The Director can decide whether the rumor is true, and if so, where the rod might be found.
+While the hero is fishing, passersby inform them of a rumor of a magic fishing rod that allows the fisher to double the size of the fish they reel in. The Director can decide whether the rumor is true, and if so, where the rod might be found.
 
 While fishing, the hero reels in an **angulotl day bringer** (see *[Draw Steel:](https://mcdm.gg/DS-Monsters)  [Monsters](https://mcdm.gg/DS-Monsters)*). The angulotl is insulted by the hero catching them, and threatens to summon heavy thunderstorms and drown the region in a flood. However, they can be negotiated with, and might provide the hero with one serving of
 
 - 4 an amazing meal if they stay on good terms. A creature who eats a serving of this meal increases their Recoveries by 1 until the end of their next respite, and gains 25 temporary Stamina that lasts until the end of their next respite if it isn't lost first. A creature can benefit only from one serving of this meal or another like it (such as from the Perfect New Recipe project) at a time.
 - 5 While fishing, the hero reels in half of a mysterious ancient treasure of the Director's choice. If the other half is found, both halves magically meld together to restore the treasure.
-- <sup>6</sup> While fishing, the hero is energized by fond memories of their life up to that point. They gain an edge on Presence tests until the end of their next respite.
+- 6 While fishing, the hero is energized by fond memories of their life up to that point. They gain an edge on Presence tests until the end of their next respite.
 
 The hero reaches a new fishing milestone, gaining the following title and benefit.
 
-7 **Master of Reels:** Whenever you deal damage to a target who is 2 or more squares away from you and that target isn't also force moved, you can pull the target a number of squares equal to your Agility, Reason, or Intuition score (your choice).
+**Master of Reels:** Whenever you deal damage to a target who is 2 or more squares away from you and that target isn't also force moved, you can pull the target a number of squares equal to your Agility, Reason, or Intuition score (your choice).
 
-8 While fishing, the hero engages in relaxing meditation that grants an automatic breakthrough on another project they're working on. Alternatively, they gain insight that grants an automatic breakthrough on another hero's project of their choice.
+While fishing, the hero engages in relaxing meditation that grants an automatic breakthrough on another project they're working on. Alternatively, they gain insight that grants an automatic breakthrough on another hero's project of their choice.
 
-9 While fishing, the hero is pulled into the water by an ancient fish and must make a hard Might test. On a success, the hero reels in a humongous fish worth 100 points. On a failure, they end the current respite with 1 fewer
+While fishing, the hero is pulled into the water by an ancient fish and must make a hard Might test. On a success, the hero reels in a humongous fish worth 100 points. On a failure, they end the current respite with 1 fewer
 
 - Recoveries than usual. On a success with a complication, the hero obtains both outcomes.
 - 10 While fishing, the hero notes what appears to be an underwater cavern. If the cavern is explored, it reveals a treasure of the Director's choice guarded by a revenant knight fulfilling their duty until their captain returns.
 
-## **Spend Time With Loved Ones**
+#### Spend Time With Loved Ones
 
 Item Prerequisite: None Project Source: None Project Roll Characteristic: Presence **Project Goal:** 60
 
 You revitalize your spirit by spending time with people you love who you haven't seen in a long while. You must be able to communicate with those people to undertake this project or make project rolls for it. When you complete this project, your Stamina maximum increases by 12 + your level until the end of your next respite, and you can't start another Spend Time With Loved Ones project for a month.
 
-## **Spend Time With Loved Ones Events**
+#### Spend Time With Loved Ones Events
 
 #### d10 Event
 
-1 Before the roll, the hero is presented with an heirloom, artifact, or secret that aids another project they've undertaken or want to undertake. They can immediately make a project roll for that project as well as for this one.
+Before the roll, the hero is presented with an heirloom, artifact, or secret that aids another project they've undertaken or want to undertake. They can immediately make a project roll for that project as well as for this one.
 
-2 Before the roll, the hero's people embrace their loved one's companions as their own. Additional party members can make one project roll each for this project without doing so as a respite activity. When the project is completed, each
+Before the roll, the hero's people embrace their loved one's companions as their own. Additional party members can make one project roll each for this project without doing so as a respite activity. When the project is completed, each
 
 character who contributed a project roll gains the benefit of completion. 3 Before the roll, the hero's enemies track them to the home or community of their loved ones. These enemies immediately launch an attack, hoping to catch the hero off guard.
 
 - 4 After the roll, the hero learns that a distant friend or family member has joined the cause of their enemies. Their loved ones plead with the hero to bring this person back home safely.
-- <sup>5</sup> After the roll, a loved one gives the hero a consumable treasure to aid them in their travels.
-- <sup>6</sup> After the roll, the hero's loved ones share that they have been subjected to a curse. The only way to lift the curse is by returning an heirloom to its place of origin.
+- 5 After the roll, a loved one gives the hero a consumable treasure to aid them in their travels.
+- 6 After the roll, the hero's loved ones share that they have been subjected to a curse. The only way to lift the curse is by returning an heirloom to its place of origin.
 
-7 Before the roll, the hero meets an old friend who is a more experienced adventurer. They offer to mentor the hero in exchange for a treasure or favor. If the hero accepts, they also complete the Learn From a Master project when this project is complete, with the Director choosing the NPC's class.
+Before the roll, the hero meets an old friend who is a more experienced adventurer. They offer to mentor the hero in exchange for a treasure or favor. If the hero accepts, they also complete the Learn From a Master project when this project is complete, with the Director choosing the NPC's class.
 
-8 Before the roll, the hero discovers that by returning, they've put the community surrounding their loved ones in danger, either with the authorities or an opposing power in the region. To complete the project, the hero needs to earn the trust of that community.
+Before the roll, the hero discovers that by returning, they've put the community surrounding their loved ones in danger, either with the authorities or an opposing power in the region. To complete the project, the hero needs to earn the trust of that community.
 
-9 After the roll, the hero learns that spending time with loved ones isn't always as rejuvenating as one hopes. Completing the project requires an additional 20 project points thanks to difficult friends or relatives.
+After the roll, the hero learns that spending time with loved ones isn't always as rejuvenating as one hopes. Completing the project requires an additional 20 project points thanks to difficult friends or relatives.
 
 Before the roll, the hero's loved ones ask if the hero would like to cook with them. If the hero accepts, they can apply their project roll both to this project and
 
-10 to the Perfect New Recipe project. If the hero is not currently undertaking the Perfect New Recipe project, they start that project and their loved ones provide the item prerequisite and project source.
-
-![](_page_325_Picture_17.jpeg)
-
-![](_page_326_Picture_0.jpeg)
+to the Perfect New Recipe project. If the hero is not currently undertaking the Perfect New Recipe project, they start that project and their loved ones provide the item prerequisite and project source.
