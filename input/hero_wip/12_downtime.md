@@ -1,14 +1,14 @@
 # Downtime Projects
 
-A s a team, you and your fellow heroes can achieve great things. But the time between adventures gives you a chance to pursue your own individual goals: uncover forbidden lore in ancient tomes, forge weapons of great power, build ships that can sail the skies, and more. *Draw Steel*'s rules for downtime projects allow heroes to use their time during respites to obtain important information, make new equipment, and engage in other activities to support their adventuring.
+As a team, you and your fellow heroes can achieve great things. But the time between adventures gives you a chance to pursue your own individual goals: uncover forbidden lore in ancient tomes, forge weapons of great power, build ships that can sail the skies, and more. *Draw Steel*'s rules for downtime projects allow heroes to use their time during respites to obtain important information, make new equipment, and engage in other activities to support their adventuring.
 
-## Tracking Projects
+### Tracking Projects
 
 You start a downtime project during a respite. You can start as many projects as you like, but you can't work on more than one project at a time during a respite. Eventually, you'll be able to hire creatures who can work on additional downtime projects for you.
 
 You track project progress on your character sheet. As you work on a downtime project, you might look over old books that you've found in your travels, perform experiments, converse with experts and scholars, or work with tools to create something.
 
-## Project Prerequisites
+### Project Prerequisites
 
 All downtime projects have prerequisites you must meet before you can undertake them.
 
@@ -28,11 +28,11 @@ The language with which project sources are set down or can be shared is chosen 
 
 Whenever the Director determines that a creature with needed knowledge can be used as a project source, another hero can serve as this source of knowledge. However, they must use a respite activity to be your project source whenever you make a project roll related to the project.
 
-## Search for Common Project Sources
+##### Search for Common Project Sources
 
 If you need a project source for a particular project, ask your Director if the source is common enough that it might be found in a substantial library, among a group of sages or guild artisans, and so forth. If the Director says yes, then the next time you take a respite in a place with a library or access to creatures with the knowledge you seek, you can locate the project source you need as a respite activity.
 
-## Project Roll
+### Project Roll
 
 As a respite activity (see [Respite](#page-21-4) in [Chapter 1: The Basics](#page-17-3)), you make a project roll for one of your own projects. Alternatively, you can make a project roll to contribute to another hero's project. A project roll is a test with a special outcome that isn't divided into tiers. The characteristic used in the test is determined by the project.
 
@@ -68,43 +68,42 @@ A guide must provide its information in a language you understand for you to gai
 
 Project events are story events that present boons and challenges to heroes as they complete research and crafting projects. These events are entirely optional. If your group prefers a game where the heroes simply work toward their goals by making project rolls, that's fine. But using these events can help a Director inject more drama into the processes of research and crafting.
 
-## When To Use Project Events
+##### When To Use Project Events
 
 Projects don't need an event every time a hero makes a project roll. If they did, the heroes would likely spend all their time trying to manage their projects and never do any adventuring. Instead, you as the Director pick one of the following methods to determine when an event occurs during a downtime project. You can always switch up the method you use during a campaign, doing whatever you think works best for the current situation.
 
-## Roll for Event
+##### Roll for Event
 
 If you want events to be a surprise for you as much as for the other players, then once during any respite when one or more heroes makes a project roll, roll a d6. On a 6, an event occurs. This is a good option if you enjoy coming up with story on the fly during play.
 
-## Event Milestones
+##### Event Milestones
 
 If you want to guarantee that events occur during a downtime project, use event milestones based on project points. When the project accrues a certain number of points, an event occurs the next time a hero wants to make a project roll. This approach works well if you want to plan your event in detail before it occurs.
 
 You can use the Suggested Event Milestones table to determine when an event should occur during a project.
 
-| Suggested Event Milestones |                                                                                  |
-|----------------------------|----------------------------------------------------------------------------------|
-| Project Goal               | Milestones                                                                       |
-| 30 or fewer                | None                                                                             |
-| 31–200                     | One event halfway to the goal                                                    |
-| 201–999                    | Two events at one-third and two-thirds of the way to the goal                 |
-| 1,000 or more              | Three events at one-quarter, one-half, and three-quarters of the way to the goal |
+###### Suggested Event Milestones
 
-Draw Steel
+| Project Goal  | Milestones                                                                       |
+|---------------|----------------------------------------------------------------------------------|
+| 30 or fewer   | None                                                                             |
+| 31–200        | One event halfway to the goal                                                    |
+| 201–999       | Two events at one-third and two-thirds of the way to the goal                    |
+| 1,000 or more | Three events at one-quarter, one-half, and three-quarters of the way to the goal |
 
-## Whenever You Want
+##### Whenever You Want
 
 Whenever you think the heroes could use a little drama during a respite, throw in an event. This approach allows you to plan an event in detail when a downtime project starts, then deploy it at the most dramatic moment—or even throw it in during an encounter if you're feeling saucy!
 
-#### Deploying Events
+##### Deploying Events
 
 A project event occurs when a hero makes a project roll. You can roll for or choose an event from the appropriate events prompts table, or use the tables to inspire your own events. Each event entry on the table is a narrative prompt written for you as the Director, and which you can change and flesh out as you determine. Each event specifies whether it occurs before or after the project roll is resolved.
 
-#### Automatic Breakthrough
+##### Automatic Breakthrough
 
 If an event grants an automatic breakthrough on a downtime project, the project gains 20 project points and the hero can make another project roll for the same project as part of the same respite activity.
 
-## Crafting Projects
+### Crafting Projects
 
 Crafting projects enable heroes to create vehicles, supernatural treasures, and more. When you start a crafting project, other creatures can also work on the project, using their respite activity to contribute a project roll in order to get the work done faster.
 
@@ -112,7 +111,13 @@ Unless a project has a event table of its own, the Director uses the [Crafting a
 
 #### Build Airship
 
-Item Prerequisite: Wind Crystal of Quintessence Project Source: Texts or lore in Low Rhyvian Project Roll Characteristic: Might, Reason, or Presence **Project Goal:** 3,000
+**Item Prerequisite:** Wind Crystal of Quintessence
+
+ **Project Source:** Texts or lore in Low Rhyvian
+
+ **Project Roll Characteristic:** Might, Reason, or Presence
+
+  **Project Goal:** 3,000
 
 When you start this project, you hire a crew of carpenters, mages, and shipwrights who work in the area where the project is undertaken, with these artisans building the ship for you. You can make a project roll whenever you are overseeing the project, which you might be able to do remotely through the use of magic or psionics.
 
@@ -120,7 +125,7 @@ When the project is completed, you have an airship. You and any creatures you de
 
 An airship is an object (giving it damage immunity all to poison and psychic damage) and can take 200 damage before it is destroyed. If the damage the ship takes is not too severe (as the Director determines), as long as you have access to materials that can repair the ship, you can restore it back to its original condition as a respite activity.
 
-######## Build or Repair Road Renown
+###### Build or Repair Road Renown Table
 
 | Length              | Renown Earned |
 |---------------------|---------------|
@@ -130,11 +135,13 @@ An airship is an object (giving it damage immunity all to poison and psychic dam
 
 #### Build or Repair Road
 
-Item Prerequisite: Three writs of approval, from an engineers' guild, a masons' guild, and a guards' guild
+**Item Prerequisite:** Three writs of approval, from an engineers' guild, a masons' guild, and a guards' guild
 
-Project Source: Texts or lore in Caelian
+**Project Source:** Texts or lore in Caelian
 
-Project Roll Characteristic: Might, Reason, or Presence Project Goal: Varies
+**Project Roll Characteristic:** Might, Reason, or Presence
+
+**Project Goal:** Varies
 
 When you start this project, you hire a crew of masons, engineers, and guards who start work at the location where the project begins and build or repair the road for you. You can make a project roll whenever you are overseeing the project, whether you do so in person or remotely through the use of magic or psionics.
 
@@ -144,7 +151,7 @@ When you complete the project, you earn Renown among people in the area where th
 
 Time spent traveling between locations on the road is cut in half. Access to resources and knowledge is improved in locations along the road, giving you and your allies an edge on project rolls to discover lore while you are in those areas.
 
-######## Build or Repair Roads Events
+###### Build or Repair Roads Events Table
 
 #### d10 Event
 
@@ -173,7 +180,13 @@ After the roll, a guildmaster has it out for the hero. Whether from a past confl
 
 #### Craft Teleportation Platform
 
-Item Prerequisite: One spatial navigator Project Source: Texts or lore in Voll Project Roll Characteristic: Reason **Project Goal:** 1,500
+**Item Prerequisite:** One spatial navigator
+
+**Project Source:** Texts or lore in Voll
+
+**Project Roll Characteristic:** Reason
+
+**Project Goal:** 1,500
 
 When you complete this project, you end up with a 3-square-by-3 square teleportation platform activated by a supernatural password. The platform is permanently affixed to the ground in the location where you create it. Any creature with the password can use the teleportation platform to instantly teleport any creatures or objects on the platform to a location they know, including another teleportation platform whose supernatural password they know. You and any creature you designate upon completion of the activity can change the password as a respite activity.
 
@@ -185,7 +198,13 @@ You can craft the items found in [Treasures](#page-327-2) in [Chapter 13: Reward
 
 #### Find a Cure
 
-Item Prerequisite: Varies (see description) Project Source: None Project Roll Characteristic: Reason or Intuition **Project Goal:** Varies
+**Item Prerequisite:** Varies (see description)
+
+ **Project Source:** None
+
+ **Project Roll Characteristic:** Reason or Intuition
+
+  **Project Goal:** Varies
 
 You research a cure for a disease, curse, or supernatural affliction whose text states that it can be ended by the Find a Cure downtime project. If the affliction was caused by the innate feature of a creature, you need the remains of that creature or another creature of the same kind as an item prerequisite for crafting the cure. For example, you can research the cure for the affliction of a werewolf's Accursed Bite by studying the corpse of any werewolf, not just the one who did the biting.
 
@@ -219,9 +238,11 @@ A hero who has a kit that provides no armor, such as the Martial Artist or Snipe
 
 #### Item Prerequisite: Varies
 
-Project Source: Texts or lore in a language determined by the enhancement
+**Project Source:** Texts or lore in a language determined by the enhancement
 
-Project Roll Characteristic: Might, Reason, or Intuition **Project Goal:** 150
+**Project Roll Characteristic:** Might, Reason, or Intuition
+
+  **Project Goal:** 150
 
 **Awe:** When you start this project, choose either Charming or Threatening. If you choose Charming, you gain an edge on Presence tests made to win other creatures over or make a good impression. If you choose Threatening, you gain an edge on Presence tests made to intimidate, coerce, or bully.
 
@@ -291,9 +312,13 @@ Project Roll Characteristic: Might, Reason, or Intuition **Project Goal:** 150
 
 ######## 5th-Level Armor Enhancement
 
-Item Prerequisite: Armor with a 1st-level enhancement; varies Project Source: Texts or lore in a language determined by the enhancement
+**Item Prerequisite:** Armor with a 1st-level enhancement; varies
 
-Project Roll Characteristic: Might, Reason, or Intuition Project Goal: 150
+ **Project Source:** Texts or lore in a language determined by the enhancement
+
+**Project Roll Characteristic:** Might, Reason, or Intuition
+
+**Project Goal:** 150
 
 **Absorption:** Whenever you are targeted by a magic or psionic ability that targets only one creature, you can use a free triggered action to cause this armor to absorb the ability after the ability's effects resolve. While the armor has an ability absorbed, you can't absorb another.
 
@@ -327,9 +352,13 @@ You can use an absorbed ability as if you knew it, making power rolls for the ab
 
 ######## 9th-Level Armor Enhancement
 
-Item Prerequisite: Armor with a 5th-level enhancement; varies Project Source: Texts or lore in a language determined by the enhancement
+**Item Prerequisite:** Armor with a 5th-level enhancement; varies
 
-Project Roll Characteristic: Might, Reason, or Intuition **Project Goal:** 150
+ **Project Source:** Texts or lore in a language determined by the enhancement
+
+**Project Roll Characteristic:** Might, Reason, or Intuition
+
+  **Project Goal:** 150
 
 **Devil's Bargain:** You can fly. Additionally, if an effect would make you prone while flying, you can choose to not go prone by losing Stamina equal to the distance you would have fallen from becoming prone.
 
@@ -379,11 +408,13 @@ An implement imbued with an enhancement grants you special benefits while it is 
 
 ######## 1st-Level Implement Enhancement
 
-Item Prerequisite: Varies
+**Item Prerequisite:** Varies
 
-Project Source: Texts or lore in a language determined by the enhancement
+**Project Source:** Texts or lore in a language determined by the enhancement
 
-Project Roll Characteristic: Agility, Reason, or Intuition **Project Goal:** 150
+**Project Roll Characteristic:** Agility, Reason, or Intuition
+
+  **Project Goal:** 150
 
 **Berserking:** Whenever you damage a creature using a magic or psionic ability and obtain a tier 3 outcome, that creature must make an opportunity attack against their nearest ally if possible after the ability's effects resolve. This strike deals extra damage equal to the highest of your Reason, Intuition, or Presence scores.
 
@@ -447,9 +478,13 @@ Project Roll Characteristic: Agility, Reason, or Intuition **Project Goal:** 150
 
 ######## 5th-Level Implement Enhancement
 
-Item Prerequisite: An implement with a 1st-level enhancement; varies Project Source: Texts or lore in a language determined by the enhancement
+**Item Prerequisite:** An implement with a 1st-level enhancement; varies
 
-Project Roll Characteristic: Agility, Reason, or Intuition **Project Goal:** 150
+ **Project Source:** Texts or lore in a language determined by the enhancement
+
+**Project Roll Characteristic:** Agility, Reason, or Intuition
+
+  **Project Goal:** 150
 
 **Celerity:** Immediately after using a magic or psionic ability that requires a main action, you can shift up to 3 squares, or you can use the Escape Grab maneuver as a free maneuver (see [Maneuvers](#page-287-0) in [Chapter 10: Combat](#page-288-0)).
 
@@ -471,9 +506,13 @@ Project Roll Characteristic: Agility, Reason, or Intuition **Project Goal:** 150
 
 ######## 9th-Level Implement Enhancement
 
-Item Prerequisite: An implement with a 5th-level enhancement; varies Project Source: Texts or lore in a language determined by the enhancement
+**Item Prerequisite:** An implement with a 5th-level enhancement; varies
 
-Project Roll Characteristic: Agility, Reason, or Intuition **Project Goal:** 150
+ **Project Source:** Texts or lore in a language determined by the enhancement
+
+**Project Roll Characteristic:** Agility, Reason, or Intuition
+
+  **Project Goal:** 150
 
 **Anathema:** Whenever you damage a creature using a magic or psionic ability and obtain a tier 3 outcome, that creature is also weakened (save ends). If the creature is within 10 squares when this weakened effect ends, you can use a free triggered action to make a free strike against them.
 
@@ -507,9 +546,11 @@ A hero who has a kit that uses unarmed strikes, such as the Martial Artist and P
 
 #### Item Prerequisite: Varies
 
-Project Source: Texts or lore in a language determined by the enhancement
+**Project Source:** Texts or lore in a language determined by the enhancement
 
-Project Roll Characteristic: Might, Reason, or Intuition **Project Goal:** 150
+**Project Roll Characteristic:** Might, Reason, or Intuition
+
+  **Project Goal:** 150
 
 **Blood Bargain:** As a maneuver, you can harm yourself with the weapon, taking 1d6 damage that can't be reduced in any way. An ally within 5 squares can then spend a Recovery.
 
@@ -573,9 +614,13 @@ Project Roll Characteristic: Might, Reason, or Intuition **Project Goal:** 150
 
 ######## 5th-Level Weapon Enhancement
 
-Item Prerequisite: A weapon with a 1st-level enhancement; varies Project Source: Texts or lore in a language determined by the enhancement
+**Item Prerequisite:** A weapon with a 1st-level enhancement; varies
 
-Project Roll Characteristic: Might, Reason, or Intuition **Project Goal:** 150
+ **Project Source:** Texts or lore in a language determined by the enhancement
+
+**Project Roll Characteristic:** Might, Reason, or Intuition
+
+  **Project Goal:** 150
 
 Chargebreaker: While you wield this weapon, you have the following ability.
 
@@ -611,9 +656,13 @@ Chargebreaker: While you wield this weapon, you have the following ability.
 
 ######## 9th-Level Weapon Enhancement
 
-Item Prerequisite: A weapon with a 5th-level enhancement; varies Project Source: Texts or lore in a language determined by the enhancement
+**Item Prerequisite:** A weapon with a 5th-level enhancement; varies
 
-Project Roll Characteristic: Might, Reason, or Intuition **Project Goal:** 150
+ **Project Source:** Texts or lore in a language determined by the enhancement
+
+**Project Roll Characteristic:** Might, Reason, or Intuition
+
+  **Project Goal:** 150
 
 **Chilling III:** Whenever you damage a creature with an ability using this weapon and obtain a tier 3 outcome, that creature takes 9 cold damage and is slowed (save ends). This replaces the benefit of Chilling II.
 
@@ -657,7 +706,9 @@ Unless a project has a event table of its own or a special event entry, the Dire
 
 #### Discover Lore
 
-**Item Prerequisite:** None **Project Source:** Texts or knowledge related to the subject you wish to research **Project Roll Characteristic:** Reason **Project Goal:** Varies (see the table)
+**Item Prerequisite:** None **Project Source:** Texts or knowledge related to the subject you wish to research **Project Roll Characteristic:** Reason
+
+  **Project Goal:** Varies (see the table)
 
 If you want to track the location of a lost treasure, decipher a ritual, or trace the lineage of a royal family to find the next heir to the throne, you can start a downtime project to delve into whatever mysteries you seek to unravel. You might start a project to discover lore because the information can't be discovered through a single test, or you could do so because you failed a test to recall information and now want to learn it through research.
 
@@ -774,7 +825,13 @@ Before the roll, an elemental springs forth from the project source and pulls th
 
 #### Go Undercover
 
-Item Prerequisite: Special Project Source: None Project Roll Characteristic: Intuition or Presence **Project Goal:** 15
+**Item Prerequisite:** Special
+
+ **Project Source:** None
+
+ **Project Roll Characteristic:** Intuition or Presence
+
+  **Project Goal:** 15
 
 Going undercover to spy on a group of people is a cheap and easy way to find information you're looking for. Choose an organization when you undertake this activity. Completing this project grants you access to maps, knowledge about an organization's operations, or some other piece of knowledge that would be considered common or obscure (see the Discover Lore project).
 
@@ -814,11 +871,11 @@ one project roll for the project with a +2 modifier. Only afterward does the her
 
 #### Hone Career Skills
 
-Item Prerequisite: None
+**Item Prerequisite:** None
 
-Project Source: None
+**Project Source:** None
 
-Project Roll Characteristic: Intuition
+**Project Roll Characteristic:** Intuition
 
 **Project Goal:** 240 if your career granted you two skills, or 360 if your career granted you three skills
 
@@ -826,7 +883,13 @@ You revisit your previous life to freshen up on the experience it provided you. 
 
 #### Learn From a Master
 
-Item Prerequisite: None Project Source: An NPC of a higher level, or records of such an NPC's teachings in a language you know Project Roll Characteristic: Your highest characteristic **Project Goal:** Varies
+**Item Prerequisite:** None
+
+ **Project Source:** An NPC of a higher level, or records of such an NPC's teachings in a language you know
+
+ **Project Roll Characteristic:** Your highest characteristic
+
+  **Project Goal:** Varies
 
 When you seek to learn from a master, you choose the goal you wish to work on as well as the benefit you would gain from it. The Director tells you whether the master or the materials they've left behind are able to teach you what you want to learn.
 
@@ -871,9 +934,13 @@ You learn to use one of your heroic abilities more efficiently, reducing its bas
 
 #### Learn New Language
 
-Item Prerequisite: None Project Source: Texts or instruction that teaches the language you want to learn
+**Item Prerequisite:** None
 
-Project Roll Characteristic: Reason or Intuition **Project Goal:** 120
+ **Project Source:** Texts or instruction that teaches the language you want to learn
+
+**Project Roll Characteristic:** Reason or Intuition
+
+  **Project Goal:** 120
 
 When you start this project, choose a language taught by the project source. When the project is complete, you understand the language.
 
@@ -881,15 +948,23 @@ When you start this project, choose a language taught by the project source. Whe
 
 #### Item Prerequisite: None
 
-Project Source: Texts or instruction that teaches the skill you want to learn
+**Project Source:** Texts or instruction that teaches the skill you want to learn
 
-Project Roll Characteristic: Reason or Intuition **Project Goal:** 120
+**Project Roll Characteristic:** Reason or Intuition
+
+  **Project Goal:** 120
 
 When you start this project, choose a skill taught by the project source. When the project is complete, you have that skill.
 
 #### Perfect New Recipe
 
-Item Prerequisite: Varies Project Source: A recipe in a language you know, or someone who can tutor you in that recipe Project Roll Characteristic: Reason or Intuition **Project Goal:** 100
+**Item Prerequisite:** Varies
+
+ **Project Source:** A recipe in a language you know, or someone who can tutor you in that recipe
+
+ **Project Roll Characteristic:** Reason or Intuition
+
+  **Project Goal:** 100
 
 When you start this project, you choose a recipe for a specific type of dish. The item prerequisite for the project is the ingredients required, which depend on the recipe and which might be difficult to acquire depending on the recipe and its place of origin. You gain a +3 bonus to the project roll if the recipe is one from your culture.
 
@@ -915,7 +990,13 @@ Not all heroes want to craft or research during their time between adventures. S
 
 #### Community Service
 
-Item Prerequisite: None Project Source: None Project Roll Characteristic: Varies **Project Goal:** 75
+**Item Prerequisite:** None
+
+ **Project Source:** None
+
+ **Project Roll Characteristic:** Varies
+
+  **Project Goal:** 75
 
 When you start this project, you must be in a settlement or other location where people gather, and you must be in that same place each time you make a project roll for the project. You can undertake several Community Service projects at the same time, but each one must be in a different community.
 
@@ -948,7 +1029,13 @@ Before the roll, a thief, assassin, or other criminal offers to assist the hero.
 
 #### Fishing
 
-Item Prerequisite: None Project Source: None Project Roll Characteristic: Agility, Reason, or Intuition **Project Goal:** Varies
+**Item Prerequisite:** None
+
+ **Project Source:** None
+
+ **Project Roll Characteristic:** Agility, Reason, or Intuition
+
+  **Project Goal:** Varies
 
 Whether for sustenance, relaxation, or bragging rights, you've gone fishing, provided you are near a body of water. The project roll for this project has the following changes:
 
@@ -994,7 +1081,13 @@ While fishing, the hero is pulled into the water by an ancient fish and must mak
 
 #### Spend Time With Loved Ones
 
-Item Prerequisite: None Project Source: None Project Roll Characteristic: Presence **Project Goal:** 60
+**Item Prerequisite:** None
+
+ **Project Source:** None
+
+ **Project Roll Characteristic:** Presence
+
+  **Project Goal:** 60
 
 You revitalize your spirit by spending time with people you love who you haven't seen in a long while. You must be able to communicate with those people to undertake this project or make project rolls for it. When you complete this project, your Stamina maximum increases by 12 + your level until the end of your next respite, and you can't start another Spend Time With Loved Ones project for a month.
 
