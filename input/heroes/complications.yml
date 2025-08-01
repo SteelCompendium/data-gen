@@ -3,5 +3,5 @@ global:
   file_dpath: 'Complications'
   type: complication
 sections:
-  - header_path: "complications/determine-complication"
-    xpath: "//section[@id='complications']//section[@id='determine-complication']//section[@class='level5']"
+  - header_path: "complications/choosing-a-complication"
+    xpath: "//section[@id='complications']//section[@id='choosing-a-complication']//section[@class='level4']"

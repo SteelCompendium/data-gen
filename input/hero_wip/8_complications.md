@@ -1,29 +1,28 @@
-
 # Complications
 
-B eyond the abilities and features bestowed by ancestry and class, your hero might have something else that makes them … unusual. Perhaps an earth elemental lives in your body. Maybe your eldritch blade devastates enemies but feeds on your own vitality. A complication is an optional feature you can select to enrich your hero's backstory, with any complication providing you both a positive benefit and a negative drawback.
+Beyond the abilities and features bestowed by ancestry and class, your hero might have something else that makes them … unusual. Perhaps an earth elemental lives in your body. Maybe your eldritch blade devastates enemies but feeds on your own vitality. A complication is an optional feature you can select to enrich your hero's backstory, with any complication providing you both a positive benefit and a negative drawback.
 
 Because complications are optional, check with your Director before taking one. And even if you get to determine your hero's complication, remember that the Director ultimately determines how your complication affects the story. Your complication's drawback might play a big part in the campaign, whether you have a chance to remove it or whether you always have it looming over you, forcing you into hard decisions. Either option leads to great narratives, so embrace the control you give to the Director when you take a complication. The story will be richer for it!
 
-## Benefit and Drawback
+### Benefit and Drawback
 
 Your complication gives your hero both a benefit and a drawback. Some of these benefits and drawbacks are mechanical, while others are narrative. The benefit and drawback of a complication makes your connection to the game deeper and more interesting, and provides hooks to let the Director better draw your hero into the campaign's story.
 
 Not all complication benefits and drawbacks carry equal weight, but each benefit is balanced by its drawback. If you have a powerful positive side to your complication, be prepared to have an equally influential bit of negative backstory as well.
 
-## Modifying the Story
+### Modifying the Story
 
 In consultation with the Director, you can modify the narrative of a complication to better fit your vision of your character's backstory—or change it entirely. For instance, if you choose Infernal Contract as a complication, you might have your hero strike a deal with an archfey or an undead general instead of a devil!
 
 Many of the details of each complication are purposefully left vague, so that you can connect the complication to the rest of your backstory. If your complication took place during an attack, accident, or other event, you decide the specific details of those events and any other creatures involved.
 
-## Choosing a Complication
+### Choosing a Complication
 
 You can choose your character's complication from any of the available options below. Or to maximize the sense of it being an unexpected part of your life, you can roll on the Complications table.
 
 Complications are presented in alphabetical order.
 
-#### Complications
+###### Complications Table 2-Column
 
 | d100 | Complication                       | d100 | Complication               |
 |------|------------------------------------|------|----------------------------|
@@ -77,6 +76,111 @@ Complications are presented in alphabetical order.
 | 48   | Ivory Tower                        | 98   | Wodewalker                 |
 | 49   | Lifebonded                         | 99   | Wrathful Spirit            |
 | 50   | Lightning Soul                     | 100  | Wrongly Imprisoned         |
+
+###### Complications Table
+
+| d100 | Complication                       |
+|------|------------------------------------|
+| 1    | Advanced Studies                   |
+| 2    | Amnesia                            |
+| 3    | Animal Form                        |
+| 4    | Antihero                           |
+| 5    | Artifact Bonded                    |
+| 6    | Bereaved                           |
+| 7    | Betrothed                          |
+| 8    | Chaos Touched                      |
+| 9    | Chosen One                         |
+| 10   | Consuming Interest                 |
+| 11   | Corrupted Mentor                   |
+| 12   | Coward                             |
+| 13   | Crash Landed                       |
+| 14   | Cult Victim                        |
+| 15   | Curse of Caution                   |
+| 16   | Curse of Immortality               |
+| 17   | Curse of Misfortune                |
+| 18   | Curse of Poverty                   |
+| 19   | Curse of Punishment                |
+| 20   | Curse of Stone                     |
+| 21   | Cursed Weapon                      |
+| 22   | Disgraced                          |
+| 23   | Dragon Dreams                      |
+| 24   | Elemental Inside                   |
+| 25   | Evanesceria                        |
+| 26   | Exile                              |
+| 27   | Fallen Immortal                    |
+| 28   | Famous Relative                    |
+| 29   | Feytouched                         |
+| 30   | Fiery Ideal                        |
+| 31   | Fire and Chaos                     |
+| 32   | Following in the Footsteps         |
+| 33   | Forbidden Romance                  |
+| 34   | Frostheart                         |
+| 35   | Getting Too Old for This           |
+| 36   | Gnoll-Mauled                       |
+| 37   | Greening                           |
+| 38   | Grifter                            |
+| 39   | Grounded                           |
+| 40   | Guilty Conscience                  |
+| 41   | Hawk Rider                         |
+| 42   | Host Body                          |
+| 43   | Hunted                             |
+| 44   | Hunter                             |
+| 45   | Indebted                           |
+| 46   | Infernal Contract                  |
+| 47   | Infernal Contract … But, Like, Bad |
+| 48   | Ivory Tower                        |
+| 49   | Lifebonded                         |
+| 50   | Lightning Soul                     |
+| 51   | Loner                              |
+| 52   | Lost in Time                       |
+| 53   | Lost Your Head                     |
+| 54   | Lucky                              |
+| 55   | Master Chef                        |
+| 56   | Meddling Butler                    |
+| 57   | Medium                             |
+| 58   | Medusa Blood                       |
+| 59   | Misunderstood                      |
+| 60   | Mundane                            |
+| 61   | Outlaw                             |
+| 62   | Pirate                             |
+| 63   | Preacher                           |
+| 64   | Primordial Sickness                |
+| 65   | Prisoner of the Synlirii           |
+| 66   | Promising Apprentice               |
+| 67   | Psychic Eruption                   |
+| 68   | Raised by Beasts                   |
+| 69   | Refugee                            |
+| 70   | Rival                              |
+| 71   | Rogue Talent                       |
+| 72   | Runaway                            |
+| 73   | Searching for a Cure               |
+| 74   | Secret Identity                    |
+| 75   | Secret Twin                        |
+| 76   | Self-Taught                        |
+| 77   | Sewer Folk                         |
+| 78   | Shadow Born                        |
+| 79   | Shared Spirit                      |
+| 80   | Shattered Legacy                   |
+| 81   | Shipwrecked                        |
+| 82   | Sibling's Shield                   |
+| 83   | Silent Sentinel                    |
+| 84   | Slight Case of Lycanthropy         |
+| 85   | Stolen Face                        |
+| 86   | Strange Inheritance                |
+| 87   | Stripped of Rank                   |
+| 88   | Thrill Seeker                      |
+| 89   | Vampire Scion                      |
+| 90   | Voice in Your Head                 |
+| 91   | Vow of Duty                        |
+| 92   | Vow of Honesty                     |
+| 93   | Waking Dreams                      |
+| 94   | War Dog Collar                     |
+| 95   | War of Assassins                   |
+| 96   | Ward                               |
+| 97   | Waterborn                          |
+| 98   | Wodewalker                         |
+| 99   | Wrathful Spirit                    |
+| 100  | Wrongly Imprisoned                 |
 
 #### Advanced Studies
 
@@ -162,9 +266,9 @@ Ever since you were a kid, you've been obsessed with a certain topic. During you
 
 **Drawback:** You can't imagine ever being wrong on the topic of your obsession. Whenever you make a test to recall lore using your chosen skill, the Director makes the test in secret. Instead of informing you whether you're right or wrong, they provide you with correct information if you succeeded and false information if you failed.
 
-## Study Lore
+##### Study Lore
 
-#### Item Prerequisite: None
+**Item Prerequisite:** None
 
 **Project Source:** A significant source of information on the topic of your obsession, such as a major library or a world-renowned sage **Project Roll Characteristic:** Reason
 
@@ -178,13 +282,13 @@ Your mentor taught you everything and you trusted them completely until they wen
 
 **Benefit:** You know the Corrupt Spirit maneuver, taught to you by your mentor. (In retrospect, that probably should have aroused your suspicion.)
 
-#### Corrupt Spirit
+######## Corrupt Spirit
 
 *You unlock the sinister secrets of pain.*
 
-![icon of two overlapping triangular rulers](image)
-
-**Magic Maneuver** eSelf xSelf
+| **Magic**   | **Maneuver** |
+|-------------|-------------:|
+| **📏 Self** |  **🎯 Self** |
 
 **Effect:** Until the end of your turn, whenever you use a damage-dealing heroic ability against a single target, you can weaken that target's life force. The ability deals extra corruption damage equal to your highest characteristic score.
 
@@ -450,8 +554,9 @@ You are hunting someone or something—perhaps a wanted criminal, a person who w
 
 - Interrogate (from the interpersonal skill group)
 - Alertness, Eavesdrop, Search, or Track (from the intrigue skill group)
+- Criminal Underworld, Rumors, or Society (from the lore skill group) 
 
-Criminal Underworld, Rumors, or Society (from the lore skill group) You have that skill, and you gain an edge on tests made to find or learn clues about your quarry.
+You have that skill, and you gain an edge on tests made to find or learn clues about your quarry.
 
 **Drawback:** You are so obsessed with finding your quarry that you take a bane on any test made to track other creatures.
 
@@ -533,9 +638,9 @@ A bredbeddle stole your head! Usually, being beheaded by one of those magical gi
 
 *You don't have a head, but you can psionically borrow another.*
 
-| Psionic, Ranged                  |                                              |
-|----------------------------------|----------------------------------------------|
-|  Ranged 10 |  One willing creature |
+| **Psionic, Ranged** |                **Maneuver** |
+|---------------------|----------------------------:|
+| **📏 Ranged 10**    | **🎯 One willing creature** |
 
 **Effect:** You can see, hear, and smell as if you were in the target's space. Additionally, you can borrow their mouth to speak when you wish to do so, speaking in your own voice. This effect ends when you use Share Head on a different target, when the target moves more than 10 squares away from you, or when the target is no longer willing to share their head with you.
 
@@ -571,13 +676,15 @@ You can perceive ghosts and spirits that others don't sense. These supernatural 
 
 **Benefit and Drawback:** Incorporeal undead within 10 squares of you can communicate telepathically with you. Additionally, you have the Contact Spirits ability.
 
-#### Contact Spirits
+######## Contact Spirits
 
 *The restless dead speak to you.*
 
-**Magic Main action** eSelf xSelf
+| **Magic**   | **Main Action** |
+|-------------|----------------:|
+| **📏 Self** |     **🎯 Self** |
 
-######## Power Roll** + Intuition or Presence**:
+**Power Roll + Intuition or Presence:**
 
 - **≤11:** You take corruption damage equal to 5 + your level.
 - **12-16:** The spirit of anyone you know of who has died speaks to you, provided they are on the same world as you. You learn how they died and can ask them one question, which they can answer truthfully or untruthfully. The spirit knows everything they knew in life, and is aware of events that took place in their immediate surroundings since their death.
@@ -591,18 +698,15 @@ Your mother and father never saw eye to eye. You know this because your father i
 
 **Benefit:** You have the following ability.
 
-| Stone Eyes |  |
-|------------|--|
-|            |  |
+######### Stone Eyes
 
 *Your looks don’t kill—they petrify.*
 
-|   |                                   |
-|--------------------------------------------|-----------------------------------|
-| **Magic, Ranged, Strike**               | **Main action**                |
-| Ranged 10                | One creature |
+| **Magic, Ranged, Strike** |     **Main action** |
+|---------------------------|--------------------:|
+| **📏 Ranged 10**          | **🎯 One creature** |
 
-**Power Roll** + Might or Presence**:**
+**Power Roll + Might or Presence:**
 
 - **≤11:** 2 damage; M<w, slowed (save ends)
 - **12-16:** 4 damage; M<v, slowed (save ends)
@@ -680,17 +784,22 @@ In times of stress, you get headaches. Psionic energy builds up in your mind unt
 
 **Benefit:** You have the following heroic ability.
 
-| Psychic Blast (Special Heroic Resource Cost)                          |                                                                                                                     |
-|-----------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
+######## Psychic Blast (Special Heroic Resource Cost)
+
 *Psionic energy bursts from your body in an iridescent shimmer.*
 
-|   |                                                                                                                     |
-| Area, Psionic                                                         |                                                                                                 |
-| Main action                                                           | Each creature in the area                                                                     |
-| **Effect:** Using this ability costs all your Heroic Resource.     |                                                                                                                     |
-| **Power Roll + Your Highest Characteristic Score:**                |                                                                                                                     |
-| ≤11                                                                   | 1 psychic damage for each Heroic Resource you spend, to a maximum equal to your level                               |
-| 12–16                                                                 | 1 psychic damage for each Heroic Resource you spend, to a maximum equal to your level + your highest characteristic |
+
+| **Area, Psionic** |               **Main action** |
+|-------------------|------------------------------:|
+| **📏 3 burst**    | **🎯 Each enemy in the area** |
+
+**Effect:** Using this ability costs all your Heroic Resource.
+
+**Power Roll + Your Highest Characteristic Score:**
+
+- **≤11:** 1 psychic damage for each Heroic Resource you spend, to a maximum equal to your level
+- **12-16:** 1 psychic damage for each Heroic Resource you spend, to a maximum equal to your level + your highest characteristic
+- **17+:** 1 psychic damage for each Heroic Resource you spend
 
 **Drawback:** Whenever you become bleeding, frightened, or weakened, you must use Psychic Blast as a free triggered action.
 
@@ -724,13 +833,15 @@ You are the only survivor of a cataclysmic psionic event—an experiment gone wr
 
 **Benefit:** You have the following ability, which you can use as a ranged free strike.
 
-#### Telekinetic Grasp
+######## Telekinetic Grasp
 
-| **You reach out with your mind to move a creature or object.*  **Psionic, Ranged**, **Strike** | **Maneuver** |
+*You reach out with your mind to move a creature or object.*
 
-eRanged 10 xOne creature or object
+| **Psionic, Ranged**, **Strike** |                  **Maneuver** |
+|---------------------------------|------------------------------:|
+| **📏 Ranged 10**                | **🎯 One creature or object** |
 
-**Power Roll** + Might, Intuition**,** or Presence**:**
+**Power Roll + Might, Intuition, or Presence:**
 
 - **≤11:** Push or pull 1
 - **12-16:** Push or pull 2
@@ -928,13 +1039,9 @@ You wear a loyalty collar from one of Ajax's war dogs (see *[Draw Steel: Monster
 
 *You make your modified collar explode.*
 
-ea, Magi
-
-▲ 1 burst
-
-| **Area, Magic** | **Maneuver** |
-| --- | ---:|
-| **📏 1 burst** | **🎯 Each enemy in the area** |
+| **Area, Magic** |                  **Maneuver** |
+|-----------------|------------------------------:|
+| **📏 1 burst**  | **🎯 Each enemy in the area** |
 
 **Effect:** Your loyalty collar detonates, dealing fire damage equal to 5 plus your level to each target. Once you use this ability, you can't use it again until you spend 1 uninterrupted minute out of combat resetting the collar.
 
@@ -966,7 +1073,9 @@ You nearly lost your life at sea, but then you heard the voice. Someone—or som
 
 *You summon a wave of water to batter your foe.*
 
-**Magic, Ranged**, **Strike Main action** eRanged 10 x1 creature or object
+| **Magic, Ranged, Strike** |               **Main Action** |
+|---------------------------| -----------------------------:|
+| **📏 Ranged 10**          | **🎯 One creature or object** |
 
 **Power Roll + Your Highest Characteristic Score:**
 
