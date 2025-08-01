@@ -1,9 +1,8 @@
-
 # Rewards
 
-V irtue is its own reward … but wouldn't a magic sword also be kind of nice? As heroes adventure, they find and craft treasures even as they are awarded titles, earn renown, attract followers, and amass wealth. This chapter presents all the various rewards a hero can earn during their career! As you read over the rewards within, make note of the treasures and titles your hero would like to earn. Then you can start pursuing them during your adventures.
+Virtue is its own reward … but wouldn't a magic sword also be kind of nice? As heroes adventure, they find and craft treasures even as they are awarded titles, earn renown, attract followers, and amass wealth. This chapter presents all the various rewards a hero can earn during their career! As you read over the rewards within, make note of the treasures and titles your hero would like to earn. Then you can start pursuing them during your adventures.
 
-## TREASURES
+## Treasures
 
 You've helped save the world! Or at least a corner of that world important to you. Now you deserve the treasures that can help you do so even more efficiently next time. So claim your magic sword, psionic shield, and Catapult Dust, and ride to your next adventure!
 
@@ -19,7 +18,7 @@ Treasures come in all shapes and sizes, and are broken down into four types.
 
 **Artifacts** are treasures of legendary power that can change or shape an adventure—or even an entire campaign. Each of these game-breaking items is unique, highly coveted, and well guarded.
 
-## Found, Earned, or Crafted
+### Found, Earned, or Crafted
 
 The rules of the game account for worlds where the average person sometimes even the average noble—doesn't have regular access to treasures. There might be an apothecary in the capital city of a region, but they're selling herbal remedies, not supernatural potions. In Vasloria, a town blacksmith isn't selling magic maces, and the local tailor doesn't make psionic capes. There simply aren't enough treasures readily available to create a good trade economy. Word sometimes gets around of mysterious clubs where heroes and treasure seekers can meet up to swap items, but the constant threat of thieves makes such markets difficult to find.
 
@@ -33,9 +32,9 @@ Heroes can also craft their own treasures, forging the tools they need to get th
 
 When a hero finds a treasure, they learn its properties if they examine it for 5 uninterrupted minutes, unless the item's description says otherwise.
 
-######## Treasure Item Prerequisite
-
-Each treasure has an item prerequisite necessary for crafting it. The exact nature of many of the materials used as an item's prerequisite is left nebulous so that the Director can more easily work those materials into a campaign. What's a mindspider, and how rare is their silk? That's for the Director to decide, whether they want to drop prerequisite items into their planned adventures or craft an entire side quest around finding them.
+> **Treasure Item Prerequisite**
+> 
+> Each treasure has an item prerequisite necessary for crafting it. The exact nature of many of the materials used as an item's prerequisite is left nebulous so that the Director can more easily work those materials into a campaign. What's a mindspider, and how rare is their silk? That's for the Director to decide, whether they want to drop prerequisite items into their planned adventures or craft an entire side quest around finding them.
 
 #### Wearing Treasures
 
@@ -53,7 +52,7 @@ Some treasures are wielded in the form of weapons or implements. A weapon might 
 
 A hero can wield as many weapons, implements, suits of armor, or shields as they can feasibly hold or wear. However, an ability can benefit only from one weapon or implement at a time.
 
-#### Treasures and Kits
+##### Treasures and Kits
 
 To gain the benefits of a weapon or armor treasure, the treasure must have keywords that match the equipment of your kit. For instance, a hero using the Warrior Priest kit can benefit from wearing a heavy armor treasure and wielding light weapon treasures, since those are part of that kit.
 
@@ -69,39 +68,39 @@ The Magic and Psionic keywords for treasures refer to how those treasures are cr
 
 If two treasures give a creature a bonus to their Stamina or a bonus to the rolled damage of their abilities, only the higher bonus applies unless the treasure's description notes otherwise. Stamina bonuses and damage bonuses from consumables ignore this rule, and can be stacked with other Stamina bonuses and damage bonuses granted by treasures.
 
-## Consumables
+### Consumables
 
 Consumables are treasures that can be used a limited number of times before they expire, losing whatever makes them supernatural. You can drink a potion once, and when you do so, that's it. It's consumed. Other consumables might have a specific number of charges that can be spent. Once those charges are gone, the treasure is useless.
 
 Consumables are organized by echelon to make life easy for the Director handing them out (see [Echelons of Play](#page-22-0) in [Chapter 1:](#page-17-3) [The Basics](#page-17-3)). As a guideline, a hero should always be able to find consumable treasures or the materials required to craft consumables of their echelon and lower. For example, heroes who are 5th level should be able to find consumables of 1st and 2nd echelon. In some cases, the Director might decide to award consumables of an echelon higher than the heroes' echelon, but such a choice means giving the heroes more power than the encounter-building guidelines in *[Draw Steel: Monsters](https://mcdm.gg/DS-Monsters)* accounts for.
 
-######## Other Sections
-
-The rules for using treasures refer to lots of other parts of the game. You can find information on specific topics as follows:
-
-Recoveries, respites, Victories: Chapter 1: The Basics
-
-Languages: Chapter 4: Background
-
-Abilities, conditions, potencies, surges: Chapter 5: Classes
-
-Skills, tests: Chapter 9: Tests
-
-Item creation rules, crafting and research projects: Chapter 12: Downtime Projects
-
-Main actions and maneuvers, creature size, damage and Stamina, dying and death, movement and forced movement, winded: Chapter 10: Combat
-
-Negotiation rules, motivations, pitfalls, interest, and patience: Chapter 11: Negotiation.
+> **Other Sections**
+> 
+> The rules for using treasures refer to lots of other parts of the game. You can find information on specific topics as follows:
+> 
+> Recoveries, respites, Victories: Chapter 1: The Basics
+> 
+> Languages: Chapter 4: Background
+> 
+> Abilities, conditions, potencies, surges: Chapter 5: Classes
+> 
+> Skills, tests: Chapter 9: Tests
+> 
+> Item creation rules, crafting and research projects: Chapter 12: Downtime Projects
+> 
+> Main actions and maneuvers, creature size, damage and Stamina, dying and death, movement and forced movement, winded: Chapter 10: Combat
+> 
+> Negotiation rules, motivations, pitfalls, interest, and patience: Chapter 11: Negotiation.
 
 #### 1st-Echelon Consumables
 
 This section presents 1st-echelon consumable treasures in alphabetical order.
 
-## Black Ash Dart
+##### Black Ash Dart
 
 *A diamond-shaped dart holds a shimmering black vial at its core.*
 
-######## Keywords: Magic
+**Keywords:** Magic
 
 **Item Prerequisite:** Three vials of black ash from the College of Black Ash
 
@@ -117,11 +116,19 @@ This section presents 1st-echelon consumable treasures in alphabetical order.
 - **12-16:** You can teleport the target up to 4 squares.
 - **17+:** You can teleport the target up to 6 squares.
 
-#### Blood Essence Vial
+##### Blood Essence Vial
 
 *A brittle glass tube has a ruby set atop it, attached by a hinge.*
 
-**Keywords:** Potion, Psionic **Item Prerequisite:** A ruby purloined from a vampire **Project Source:** Texts or lore in Proto-Ctholl **Project Roll Characteristic:** Agility or Reason **Project Goal:** 45
+**Keywords:** Potion, Psionic
+
+**Item Prerequisite:** A ruby purloined from a vampire
+
+**Project Source:** Texts or lore in Proto-Ctholl
+
+**Project Roll Characteristic:** Agility or Reason
+
+**Project Goal:** 45
 
 **Effect:** When you damage an adjacent creature who has blood, you can capture the target's life essence in this vial (no action required). Record the damage you dealt. You can capture life essence in the vial only once. As a maneuver, you drink the contents of the vial to regain Stamina equal to half the damage dealt. If you spend 1 Heroic Resource while you drink, you regain Stamina equal to the damage dealt. Once you drink from the vial, it crumbles to dust.
 
@@ -135,7 +142,15 @@ Breath of Dawn
 
 *This cooling orange salve crackles and pops when exposed to the air.*
 
-**Keywords:** Magic, Oil **Item Prerequisite:** An ounce of demon honey **Project Source:** Texts or lore in Kalliak **Project Roll Characteristic:** Reason or Intuition **Project Goal:** 45
+**Keywords:** Magic, Oil
+
+**Item Prerequisite:** An ounce of demon honey
+
+**Project Source:** Texts or lore in Kalliak
+
+**Project Roll Characteristic:** Reason or Intuition
+
+**Project Goal:** 45
 
 **Effect:** As a maneuver, you rub the balm on your body and feel it tingle across your skin. You immediately end the bleeding and weakened conditions on yourself, and you gain a +2 bonus to speed until the start of your next turn.
 
@@ -143,7 +158,15 @@ Breath of Dawn
 
 *A small leather pouch is filled with this fine blue powder.*
 
-**Keywords:** Magic **Item Prerequisite:** An ounce of witherite crystal **Project Source:** Texts or lore in Caelian **Project Roll Characteristic:** Reason or Intuition **Project Goal:** 45
+**Keywords:** Magic
+
+**Item Prerequisite:** An ounce of witherite crystal
+
+**Project Source:** Texts or lore in Caelian
+
+**Project Roll Characteristic:** Reason or Intuition
+
+**Project Goal:** 45
 
 **Effect:** Catapult Dust was developed as a cost-effective magic siege weapon. As a main action, you pour the dust out in an adjacent unoccupied space to fill an area as large as a 2 cube. At the start of your next turn, the ground at the bottom of the area erupts violently upwards and in a direction of your choice. Any unattended objects in the area, or creatures who have entered the area since the dust was poured, are launched in an arc that is 6 + 1d6 squares long and 3 + 1d6 squares high.
 
@@ -151,7 +174,15 @@ Breath of Dawn
 
 *A small pot is filled with a viscous, ochre oil that smells of sulfur and burnt hair.*
 
-**Keywords:** Magic, Oil **Item Prerequisite:** One vial of fire giant blood **Project Source:** Texts or lore in Caelian **Project Roll Characteristic:** Reason or Intuition **Project Goal:** 45
+**Keywords:** Magic, Oil
+
+**Item Prerequisite:** One vial of fire giant blood
+
+**Project Source:** Texts or lore in Caelian
+
+**Project Roll Characteristic:** Reason or Intuition
+
+**Project Goal:** 45
 
 **Effect:** As a maneuver, you coat a weapon in this oil and ignite it. The weapon burns persistently and without harming itself until it is extinguished as a maneuver. Whenever you use a weapon ability that deals rolled damage using a weapon that is ignited this way, the ability deals an extra 2 fire damage.
 
@@ -163,7 +194,15 @@ Any fire caused by the oil is extinguished after burning for 1 hour.
 
 *This thick green liquid tastes of licorice and potatoes.*
 
-**Keywords:** Magic, Potion **Item Prerequisite:** A half-pound of seagrass **Project Source:** Texts or lore in Caelian **Project Roll Characteristic:** Reason or Intuition **Project Goal:** 45
+**Keywords:** Magic, Potion
+
+**Item Prerequisite:** A half-pound of seagrass
+
+**Project Source:** Texts or lore in Caelian
+
+**Project Roll Characteristic:** Reason or Intuition
+
+**Project Goal:** 45
 
 **Effect:** As a maneuver, you can drink this potion or pour it over an object of size 2 or smaller, causing the target's size to increase by 1(to a minimum size of 2). If you are the target, your Stamina maximum and Stability are doubled, you gain an edge on Might tests, and your weapon abilities that deal rolled damage gain a damage bonus equal to your highest characteristic score. You shrink back to your original size after 3 rounds, halving your current Stamina maximum and Stability, and losing the potion's other benefits. Objects maintain their new size permanently.
 
@@ -171,7 +210,15 @@ Any fire caused by the oil is extinguished after burning for 1 hour.
 
 *Thick and red, this liquid tastes of sour beer.*
 
-**Keywords:** Magic, Potion **Item Prerequisite:** An ounce of costmary leaves **Project Source:** Texts or lore in Caelian **Project Roll Characteristic:** Reason or Intuition **Project Goal:** 45
+**Keywords:** Magic, Potion
+
+**Item Prerequisite:** An ounce of costmary leaves
+
+**Project Source:** Texts or lore in Caelian
+
+**Project Roll Characteristic:** Reason or Intuition
+
+**Project Goal:** 45
 
 **Effect:** When you drink this potion as a maneuver, you regain Stamina equal to your recovery value without spending a Recovery.
 
@@ -179,7 +226,15 @@ Any fire caused by the oil is extinguished after burning for 1 hour.
 
 *The tongue of an imp has been dried and preserved. Yuck.*
 
-**Keywords:** Magic **Item Prerequisite:** One imp's tongue **Project Source:** Texts or lore in Caelian **Project Roll Characteristic:** Reason or Intuition **Project Goal:** 45
+**Keywords:** Magic
+
+**Item Prerequisite:** One imp's tongue
+
+**Project Source:** Texts or lore in Caelian
+
+**Project Roll Characteristic:** Reason or Intuition
+
+**Project Goal:** 45
 
 **Effect:** As a maneuver, you place the imp's tongue on your own tongue, causing it to reconstitute and attach itself to your tongue. While attached, the Imp's Tongue allows you to speak any language and understand any language spoken to you. This benefit ends after 1 hour, when the tongue is absorbed into your body.
 
@@ -187,7 +242,15 @@ Any fire caused by the oil is extinguished after burning for 1 hour.
 
 *A thumb-sized serrated tooth manages to scratch your flesh in some way whenever it is handled.*
 
-**Keywords:** Psionic **Item Prerequisite:** A leftover carcass of a lachomp meal **Project Source:** Texts or lore in Caelian **Project Roll Characteristic:** Reason or Intuition **Project Goal:** 45 (yields 1d3 teeth)
+**Keywords:** Psionic
+
+**Item Prerequisite:** A leftover carcass of a lachomp meal
+
+**Project Source:** Texts or lore in Caelian
+
+**Project Roll Characteristic:** Reason or Intuition
+
+**Project Goal:** 45 (yields 1d3 teeth)
 
 **Effect:** As a maneuver, you attach a lachomp tooth to a weapon, allowing that weapon to supernaturally flicker in and out of reality. Your next strike that uses the weapon can tear through multiple targets in a line (for a ranged strike) or surrounding you (for a melee strike). The strike adds the following effects to the tier outcomes of the power roll:
 
@@ -201,7 +264,13 @@ Any fire caused by the oil is extinguished after burning for 1 hour.
 
 *A gold-rimmed, mirror-faced coin trembles in the hand as if it were repelled by your touch.*
 
-**Keywords:** Psionic **Item Prerequisite:** Three sheets of glass, sunbaked gold dust **Project Source:** Texts or lore in Variac **Project Roll Characteristic:** Reason or Intuition
+**Keywords:** Psionic
+
+**Item Prerequisite:** Three sheets of glass, sunbaked gold dust
+
+**Project Source:** Texts or lore in Variac
+
+**Project Roll Characteristic:** Reason or Intuition
 
 **Project Goal:** 45
 
@@ -213,7 +282,11 @@ Any fire caused by the oil is extinguished after burning for 1 hour.
 
 **Keywords:** Psionic
 
-**Item Prerequisite:** A strip of starmetal coated in the blood of the item's crafter **Project Source:** Texts or lore in Zaliac **Project Roll Characteristic:** Reason
+**Item Prerequisite:** A strip of starmetal coated in the blood of the item's crafter
+
+**Project Source:** Texts or lore in Zaliac
+
+**Project Roll Characteristic:** Reason
 
 **Project Goal:** 45
 
@@ -231,19 +304,33 @@ While you have line of effect to your homunculus, you can use a maneuver to issu
 
 **Project Source:** Texts or lore in Caelian
 
-**Project Roll Characteristic:** Reason or Intuition **Project Goal:** 30 or 45 (see below)
+**Project Roll Characteristic:** Reason or Intuition
+
+**Project Goal:** 30 or 45 (see below)
 
 **Effect:** As a maneuver, you throw this delicate glass sphere up to 5 squares, breaking it and creating a 4 cube of fog. The fog dissipates after 10 minutes or if a strong gust of wind created by a storm or magic passes through the area.
 
 Enterprising mages within various thieves' guilds have developed variations of the Portable Cloud. Each variation has a secondary item prerequisite and a project goal of 45.
 
-**Noxious Cloud:** Filled with a green or putrid yellow haze, this sphere spreads a choking, foul-smelling mist when broken. Each creature who enters the cloud for the first time in a combat round or starts their turn there takes 5 poison damage. Additionally, any creature is weakened while in the fog. *Additional Item Prerequisite:* An ounce of undead flesh. **Thunderhead Cloud:** Small lightning bolts arc around the black cloud in this sphere, which creates a 3 cube of cloud and lightning when broken. Each creature who enters the cloud for the first time in a combat round or starts their turn there takes 5 lightning damage. Additionally, any creature is slowed while in the cloud. *Additional Item Prerequisite:* A spool of copper wire.
+**Noxious Cloud:** Filled with a green or putrid yellow haze, this sphere spreads a choking, foul-smelling mist when broken. Each creature who enters the cloud for the first time in a combat round or starts their turn there takes 5 poison damage. Additionally, any creature is weakened while in the fog. *Additional
+
+**Item Prerequisite:** An ounce of undead flesh. **Thunderhead Cloud:** Small lightning bolts arc around the black cloud in this sphere, which creates a 3 cube of cloud and lightning when broken. Each creature who enters the cloud for the first time in a combat round or starts their turn there takes 5 lightning damage. Additionally, any creature is slowed while in the cloud. *Additional
+
+**Item Prerequisite:** A spool of copper wire.
 
 ## Professor Veratismo's Quaff 'n Huff Snuff
 
 *This tiny compact holds a colorless powder with the slightest astringent smell.*
 
-**Keywords:** Potion, Psionic **Item Prerequisite:** The roots of a just-budded nightshade **Project Source:** Texts or lore in Caelian **Project Roll Characteristic:** Reason **Project Goal:** 45
+**Keywords:** Potion, Psionic
+
+**Item Prerequisite:** The roots of a just-budded nightshade
+
+**Project Source:** Texts or lore in Caelian
+
+**Project Roll Characteristic:** Reason
+
+**Project Goal:** 45
 
 **Effect:** As a maneuver, you sprinkle a dose of this powder onto food or drink, or blow it at an adjacent creature who is grabbed, restrained, or unconscious. A creature who is exposed to blown powder (even if they hold their breath) or consumes a dose of the powder must communicate in only true statements for 1 hour. Additionally, other creatures gain an edge on Intuition and Presence tests made to convince the target to communicate, or to read the target's emotions. Any such creature has a double edge on the test if the target doesn't realize they've been affected by the snuff.
 
@@ -251,7 +338,15 @@ Enterprising mages within various thieves' guilds have developed variations of t
 
 *This delicate orange blossom has a sickly-sweet smell.*
 
-**Keywords:** Magic **Item Prerequisite:** Fifty snapdragon seeds **Project Source:** Texts or lore in Yllyric **Project Roll Characteristic:** Reason or Intuition **Project Goal:** 45 (yields 1d6 + 1 snapdragons)
+**Keywords:** Magic
+
+**Item Prerequisite:** Fifty snapdragon seeds
+
+**Project Source:** Texts or lore in Yllyric
+
+**Project Roll Characteristic:** Reason or Intuition
+
+**Project Goal:** 45 (yields 1d6 + 1 snapdragons)
 
 **Effect:** As a maneuver, you sniff a magic snapdragon blossom, causing it to whither and making your movements more forceful and explosive. The next damage-dealing ability you use deals an extra 5 damage and gains a +2 bonus to the distance of any forced movement it imposes. If the ability does not impose forced movement, you can push each creature targeted by the ability up to 2 squares.
 
@@ -263,7 +358,15 @@ This section presents 2nd-echelon consumable treasures in alphabetical order.
 
 *A glass flask contains a whirl of gentle sunlight.*
 
-**Keywords:** Psionic **Item Prerequisite:** The breath of a mystic sage captured at sunrise **Project Source:** Texts or lore in Hyrallic **Project Roll Characteristic:** Intuition or Presence **Project Goal:** 90
+**Keywords:** Psionic
+
+**Item Prerequisite:** The breath of a mystic sage captured at sunrise
+
+**Project Source:** Texts or lore in Hyrallic
+
+**Project Roll Characteristic:** Intuition or Presence
+
+**Project Goal:** 90
 
 **Effect:** As a maneuver, you inhale the Breath of Dawn and are overcome with tranquility. You immediately end the frightened, slowed, and taunted conditions on yourself, and you gain a +8 bonus to Stability until the end of the encounter.
 
@@ -271,7 +374,15 @@ This section presents 2nd-echelon consumable treasures in alphabetical order.
 
 *Tiny chips of white bone float within this dark potion, which carries the scent of beef broth.*
 
-**Keywords:** Magic, Potion **Item Prerequisite:** One vial of pure bovine essence **Project Source:** Texts or lore in Caelian **Project Roll Characteristic:** Reason or Intuition **Project Goal:** 90
+**Keywords:** Magic, Potion
+
+**Item Prerequisite:** One vial of pure bovine essence
+
+**Project Source:** Texts or lore in Caelian
+
+**Project Roll Characteristic:** Reason or Intuition
+
+**Project Goal:** 90
 
 **Effect:** When you drink this potion as a maneuver, you sprout 3-foot sharpened horns from your forehead. Whenever you use the Charge main action, the target of your strike is gored upon your horns and grabbed. While grabbed this way, the creature is bleeding. You can also grab another creature with your limbs. The horns harmlessly fall off your head at the end of the encounter.
 
@@ -281,7 +392,13 @@ This section presents 2nd-echelon consumable treasures in alphabetical order.
 
 **Keywords:** Magic
 
-**Item Prerequisite:** A chocolate made by a gnome confectioner **Project Source:** Texts or lore in Caelian **Project Roll Characteristic:** Reason or Intuition **Project Goal:** 90
+**Item Prerequisite:** A chocolate made by a gnome confectioner
+
+**Project Source:** Texts or lore in Caelian
+
+**Project Roll Characteristic:** Reason or Intuition
+
+**Project Goal:** 90
 
 **Effect:** When you consume this delicious piece of candy as a maneuver, you gain 15 temporary Stamina and a +10 bonus to stability. Additionally, if you don't use your movement during your turn, any strikes you make on that turn deal an extra 5 damage, and any strikes against you take a bane until the start of your next turn. This effect and the bonus to stability lasts until the end of the encounter, after which you are sleepy. If not reduced beforehand, the temporary Stamina lasts until the end of your next respite.
 
@@ -289,7 +406,15 @@ This section presents 2nd-echelon consumable treasures in alphabetical order.
 
 *This dark, viscous liquid tastes like burnt leaves.*
 
-**Keywords:** Potion, Psionic **Item Prerequisite:** An ounce of sap from a tree damaged by psionic fire **Project Source:** Texts or lore in Yllyric **Project Roll Characteristic:** Agility or Intuition **Project Goal:** 90
+**Keywords:** Potion, Psionic
+
+**Item Prerequisite:** An ounce of sap from a tree damaged by psionic fire
+
+**Project Source:** Texts or lore in Yllyric
+
+**Project Roll Characteristic:** Agility or Intuition
+
+**Project Goal:** 90
 
 **Effect:** When you drink this potion as a maneuver, light shifts around your body, letting you blend into the environment around you for 10 minutes. While this effect is active, you have a double edge on tests made to hide and sneak, and you can use the Hide maneuver even while you are observed.
 
@@ -297,7 +422,15 @@ This section presents 2nd-echelon consumable treasures in alphabetical order.
 
 *A glass vial holds translucent flakes that twinkle in the light.*
 
-**Keywords:** Magic **Item Prerequisite:** Several strands of hag hair **Project Source:** Texts or lore in Khelt **Project Roll Characteristic:** Intuition or Presence **Project Goal:** 90 (yields 1d3 vials)
+**Keywords:** Magic
+
+**Item Prerequisite:** Several strands of hag hair
+
+**Project Source:** Texts or lore in Khelt
+
+**Project Roll Characteristic:** Intuition or Presence
+
+**Project Goal:** 90 (yields 1d3 vials)
 
 **Effect:** Dousing yourself in this powder as a maneuver causes you to weightlessly float off the ground. For 1 hour, your stability is reduced to 0, and you can fly and hover. Additionally, the hag that the powder is sourced from knows exactly where and when you use it.
 
@@ -305,7 +438,15 @@ This section presents 2nd-echelon consumable treasures in alphabetical order.
 
 *This clear, pasty substance has a bitter aroma.*
 
-**Keywords:** Potion, Psionic **Item Prerequisite:** A cup of algae from glacial water **Project Source:** Texts or lore in Yllyric **Project Roll Characteristic:** Reason or Intuition **Project Goal:** 90 (yields 1d3 doses)
+**Keywords:** Potion, Psionic
+
+**Item Prerequisite:** A cup of algae from glacial water
+
+**Project Source:** Texts or lore in Yllyric
+
+**Project Roll Characteristic:** Reason or Intuition
+
+**Project Goal:** 90 (yields 1d3 doses)
 
 **Effect:** Consuming this potion as a maneuver causes your skin to shimmer and a set of tiny gills to appear on your neck or shoulders. For 1 hour, you can breathe in any environment, and you ignore the effects of harmful gases, vapors, and inhaled poisons.
 
@@ -313,7 +454,15 @@ This section presents 2nd-echelon consumable treasures in alphabetical order.
 
 *This scroll is marked by sigils of power, death, and life.*
 
-**Keywords:** Magic, Scroll **Item Prerequisite:** A sheet of paper infused with the dust of a painite **Project Source:** Texts or lore in the First Language **Project Roll Characteristic:** Intuition or Presence **Project Goal:** 90
+**Keywords:** Magic, Scroll
+
+**Item Prerequisite:** A sheet of paper infused with the dust of a painite
+
+**Project Source:** Texts or lore in the First Language
+
+**Project Roll Characteristic:** Intuition or Presence
+
+**Project Goal:** 90
 
 **Effect:** As a respite activity, you repeatedly chant the contents of this scroll over the remains of a creature who has been dead for less than 1 year. The creature's soul must be willing to return to life for the scroll to work. If they are not willing, you instinctively understand that as you start the respite activity and can cease it immediately. The scroll is not consumed, and you can undertake a new respite activity.
 
@@ -325,7 +474,11 @@ A creature with a willing soul returns to life at the end of the respite with fu
 
 **Keywords:** Psionic
 
-**Item Prerequisite:** A shard of prismacore, an ounce of ferrous metal **Project Source:** Texts or lore in Zaliac **Project Roll Characteristic:** Reason or Intuition
+**Item Prerequisite:** A shard of prismacore, an ounce of ferrous metal
+
+**Project Source:** Texts or lore in Zaliac
+
+**Project Roll Characteristic:** Reason or Intuition
 
 **Project Goal:** 90
 
@@ -347,7 +500,9 @@ If you pull a size 1T object adjacent to you, you can catch it.
 
 **Project Source:** Texts or lore in Anjali
 
-**Project Roll Characteristic:** Reason or Intuition **Project Goal:** 90
+**Project Roll Characteristic:** Reason or Intuition
+
+**Project Goal:** 90
 
 **Effect:** As a maneuver, you throw this vial up to 10 squares, destroying the vial and creating a 2-cube ethereal vortex centered on the spot where it lands. The vortex dissipates at the end of the encounter or when you dismiss it (no action required). Any creature who enters the vortex for the first time in a combat round or starts their turn there takes 10 psychic damage. At the start of each of your turns, you can move the vortex up to 5 squares (no action required).
 
@@ -359,7 +514,15 @@ This section presents 3rd-echelon consumable treasures in alphabetical order.
 
 *A cloudy glass vial holds a writhing monstrous grub.*
 
-**Keywords:** Psionic **Item Prerequisite:** A grub steeped in voiceless talker bile **Project Source:** Texts or lore in Variac **Project Roll Characteristic:** Might or Intuition **Project Goal:** 180
+**Keywords:** Psionic
+
+**Item Prerequisite:** A grub steeped in voiceless talker bile
+
+**Project Source:** Texts or lore in Variac
+
+**Project Roll Characteristic:** Might or Intuition
+
+**Project Goal:** 180
 
 **Effect:** When you release the larva as a maneuver, it feeds on psychic energy to grow exponentially, creating a 10 wall of larval flesh adjacent to you. The wall can't be created to fill any square occupied by a creature with stability 1 or higher. Each other creature in the wall when it is created is pushed to the nearest unoccupied space.
 
@@ -373,7 +536,11 @@ At the start of each of your turns, each creature adjacent to the wall takes psy
 
 **Item Prerequisite:** A month's lifespan from the creator or another willing creature, ground sapphire
 
-**Project Source:** Texts or lore in Caelian **Project Roll Characteristic:** Reason or Intuition **Project Goal:** 180
+**Project Source:** Texts or lore in Caelian
+
+**Project Roll Characteristic:** Reason or Intuition
+
+**Project Goal:** 180
 
 **Effect:** As a maneuver, you can drink this potion or throw it up to 10 squares. If you drink it, you choose a test you made in the last minute, then reroll that test repeatedly until the outcome changes. If the potion is thrown, it creates a 3-cube area of shimmering magic. Any event that took place in that area in the previous minute changes at the discretion of the Director, who has full freedom to decide what happens. The energy then dissipates.
 
@@ -383,9 +550,15 @@ At the start of each of your turns, each creature adjacent to the wall takes psy
 
 ######## Keywords: Magic
 
-**Item Prerequisite:** One vial of archdevil's blood, an expired contract **Project Source:** Texts or lore in Anjali
+**Item Prerequisite:** One vial of archdevil's blood, an expired contract
 
-######## Project Roll Characteristic:** Reason or Intuition **Project Goal: 180
+**Project Source:** Texts or lore in Anjali
+
+########
+
+**Project Roll Characteristic:** Reason or Intuition
+
+**Project Goal:** 180
 
 **Effect:** Whenever you would take damage, you can use a triggered action to tear the card and summon a devil. You avoid the damage and any accompanying effects, and the devil redirects the triggering effect to a target of their choice anywhere on the same manifold. You are treated to a clear vision of whoever suffers the damage. The devil then disappears.
 
@@ -393,9 +566,15 @@ At the start of each of your turns, each creature adjacent to the wall takes psy
 
 *This tiny humanoid effigy appears unnervingly lifelike and is always warm to the touch.*
 
-**Keywords:** Magic **Item Prerequisite:** A brief period of contact with the creature the effigy is tied to
+**Keywords:** Magic
 
-**Project Source:** Texts or lore in Khemharic **Project Roll Characteristic:** Reason or Intuition **Project Goal:** 120
+**Item Prerequisite:** A brief period of contact with the creature the effigy is tied to
+
+**Project Source:** Texts or lore in Khemharic
+
+**Project Roll Characteristic:** Reason or Intuition
+
+**Project Goal:** 120
 
 **Effect:** The Personal Effigy is crafted to depict a specific humanoid creature it is tied to, and activates only for the first minute after the creature dies. While you are within 5 squares of the remains of the creature the effigy is tied to, you can use a maneuver to manually light and burn the effigy and bring the creature back to life. The creature returns to life with Stamina equal to their winded value and 10 temporary Stamina that lasts until the end of their next respite. If the creature has been dead for more than 1 minute, they remain dead and the effigy dissolves into dust.
 
@@ -403,7 +582,15 @@ At the start of each of your turns, each creature adjacent to the wall takes psy
 
 *This muddy brown whiskey tastes of peat and death.*
 
-**Keywords:** Magic, Potion **Item Prerequisite:** An ounce of scrapings from a coven's used cauldron **Project Source:** Texts in Anjali **Project Roll Characteristic:** Reason or Intuition **Project Goal:** 180
+**Keywords:** Magic, Potion
+
+**Item Prerequisite:** An ounce of scrapings from a coven's used cauldron
+
+**Project Source:** Texts in Anjali
+
+**Project Roll Characteristic:** Reason or Intuition
+
+**Project Goal:** 180
 
 **Effect:** When you drink this potion as a maneuver, you gain a tenacious will to cling to life for 24 hours. If you are dying during this time, you don't die until you reach the negative of your Stamina maximum rather than your winded value. Additionally, while you are dying, you gain on edge on power rolls and you take half the damage dealt by the bleeding condition. Once the potion's magic is triggered, it ends when you are no longer dying.
 
@@ -411,7 +598,15 @@ At the start of each of your turns, each creature adjacent to the wall takes psy
 
 *This spiked crystal makes a beautiful ringing sound when first touched.*
 
-**Keywords:** Psionic **Item Prerequisite:** A time crystal **Project Source:** Texts or lore in Voll **Project Roll Characteristic:** Reason or Intuition **Project Goal:** 180
+**Keywords:** Psionic
+
+**Item Prerequisite:** A time crystal
+
+**Project Source:** Texts or lore in Voll
+
+**Project Roll Characteristic:** Reason or Intuition
+
+**Project Goal:** 180
 
 **Effect:** As a maneuver, you make a ranged free strike using the Timesplitter, which shatters upon impact. The strike deals an extra 1d6 psychic damage and adds the following effects to the tier outcomes of the power roll:
 
@@ -423,7 +618,15 @@ At the start of each of your turns, each creature adjacent to the wall takes psy
 
 *This smoothly polished quartz stone feels strangely warm to the touch.*
 
-**Keywords:** Psionic **Item Prerequisite:** A small quartz **Project Source:** Texts or lore in Zaliac **Project Roll Characteristic:** Might or Intuition **Project Goal:** 180
+**Keywords:** Psionic
+
+**Item Prerequisite:** A small quartz
+
+**Project Source:** Texts or lore in Zaliac
+
+**Project Roll Characteristic:** Might or Intuition
+
+**Project Goal:** 180
 
 **Effect:** As a maneuver, you toss this stone above you and it shatters, showering you in dust. Until the end of the encounter, any enemy ability that targets you has a double bane.
 
@@ -431,7 +634,15 @@ At the start of each of your turns, each creature adjacent to the wall takes psy
 
 *This thick purple liquid has a bitter scent that lingers.*
 
-**Keywords:** Potion, Psionic **Item Prerequisite:** An ounce of troll's blood, raw honey **Project Source:** Texts or lore in Variac **Project Roll Characteristic:** Might or Intuition **Project Goal:** 180
+**Keywords:** Potion, Psionic
+
+**Item Prerequisite:** An ounce of troll's blood, raw honey
+
+**Project Source:** Texts or lore in Variac
+
+**Project Roll Characteristic:** Might or Intuition
+
+**Project Goal:** 180
 
 **Effect:** When you drink this tonic as a maneuver, you feel a surge of physical and spiritual immunity. You can immediately end up to three conditions or effects affecting you. Additionally, until the start of your next turn, you can ignore any effect that would last until the end of your next turn or be ended by a saving throw.
 
@@ -447,7 +658,11 @@ This section presents 4th-echelon consumable treasures in alphabetical order.
 
 **Item Prerequisite:** The captured breath of a god, an ounce of condensed dreams
 
-**Project Source:** Texts or lore in the First Language **Project Roll Characteristic:** Intuition or Presence **Project Goal:** 360
+**Project Source:** Texts or lore in the First Language
+
+**Project Roll Characteristic:** Intuition or Presence
+
+**Project Goal:** 360
 
 **Effect:** When you inhale the Breath of Creation as a maneuver, you are imbued with cosmic power. You earn 1 Renown, and you create a size 2 portal to a new demiplane in an adjacent square. The demiplane is a 20-cube area whose form and mundane features are chosen by you. The portal appears only to you and creatures you designate, and only you and those creatures can enter the demiplane. When a creature moves into the portal, they emerge from a corresponding portal inside the demiplane, and vice versa. Objects created within the demiplane turn to dust if removed from it.
 
@@ -459,7 +674,15 @@ Each time you use another Breath of Creation, you can create a new demiplane or 
 
 *This thick red liquid smells of cinnamon.*
 
-**Keywords:** Magic, Potion **Item Prerequisite:** An ounce of the blood of Saint Elspeth **Project Source:** Texts or lore in Caelian **Project Roll Characteristic:** Presence **Project Goal:** 360
+**Keywords:** Magic, Potion
+
+**Item Prerequisite:** An ounce of the blood of Saint Elspeth
+
+**Project Source:** Texts or lore in Caelian
+
+**Project Roll Characteristic:** Presence
+
+**Project Goal:** 360
 
 **Effect:** When you pour the elixir onto your forehead as a maneuver, it vanishes and you protect yourself against effects that might harm your body, mind, or soul. For a number of rounds equal to your current Victories, any enemy ability targeting you automatically obtains a tier 1 outcome against you. Additionally, the ability can only deal damage to you, letting you ignore its other effects.
 
@@ -469,9 +692,15 @@ Each time you use another Breath of Creation, you can create a new demiplane or 
 
 ######## Keywords: Magic
 
-**Item Prerequisite:** One vial of sacred ink, blessed parchment **Project Source:** Reference materials in the First Language from the
+**Item Prerequisite:** One vial of sacred ink, blessed parchment
 
-Infinite Library detailing incomplete instructions for building a sun **Project Roll Characteristic:** Reason or Intuition **Project Goal:** 360
+**Project Source:** Reference materials in the First Language from the
+
+Infinite Library detailing incomplete instructions for building a sun
+
+**Project Roll Characteristic:** Reason or Intuition
+
+**Project Goal:** 360
 
 **Effect:** As a maneuver, you spend 1 Heroic Resource to destroy this page and create a 4-cube area within 20 squares. The area is filled with the energy of a tiny sun that lasts until the end of the encounter. Any creature who enters the area for the first time in a combat round or starts their turn there takes 20 fire damage and is dazed until the end of their turn.
 
@@ -481,7 +710,13 @@ Infinite Library detailing incomplete instructions for building a sun **Project 
 
 **Keywords:** Magic
 
-**Item Prerequisite:** A year's lifespan from the creator or another willing creature, the laughter of a young hero **Project Source:** Texts or lore in Khelt **Project Roll Characteristic:** Reason or Presence **Project Goal:** 360
+**Item Prerequisite:** A year's lifespan from the creator or another willing creature, the laughter of a young hero
+
+**Project Source:** Texts or lore in Khelt
+
+**Project Roll Characteristic:** Reason or Presence
+
+**Project Goal:** 360
 
 **Effect:** When opened as a maneuver, this vial bursts into a storm of multicolored lights. You and each ally within 5 squares of you regain 1d6 Recoveries. However, any mortal using this treasure draws the interest of a powerful fey noble.
 
@@ -499,7 +734,15 @@ This section presents 1st-echelon trinket treasures in alphabetical order.
 
 *This silky-blue hooded cloak is emblazoned with a golden Anjali sigil meaning "ice."*
 
-**Keywords:** Magic, Neck **Item Prerequisite:** A pint of blue ichor, soul chalk **Project Source:** Licensing agreements in Anjali **Project Roll Characteristic:** Reason or Intuition **Project Goal:** 150
+**Keywords:** Magic, Neck
+
+**Item Prerequisite:** A pint of blue ichor, soul chalk
+
+**Project Source:** Licensing agreements in Anjali
+
+**Project Roll Characteristic:** Reason or Intuition
+
+**Project Goal:** 150
 
 **Effect:** While worn, a blue Color Cloak grants you cold immunity equal to your level.
 
@@ -511,7 +754,13 @@ Additionally, when you are targeted by any effect that deals cold damage, you ca
 
 #### Keywords: Magic, Neck
 
-**Item Prerequisite:** A pint of red ichor, soul chalk **Project Source:** Licensing agreements in Anjali **Project Roll Characteristic:** Reason or Intuition **Project Goal:** 150
+**Item Prerequisite:** A pint of red ichor, soul chalk
+
+**Project Source:** Licensing agreements in Anjali
+
+**Project Roll Characteristic:** Reason or Intuition
+
+**Project Goal:** 150
 
 **Effect:** While worn, a red Color Cloak grants you fire immunity equal to your level.
 
@@ -523,7 +772,13 @@ Additionally, when you are targeted by any effect that deals fire damage, you ca
 
 ######## Keywords: Magic, Neck
 
-**Item Prerequisite:** A pint of yellow ichor, soul chalk **Project Source:** Licensing agreements in Anjali **Project Roll Characteristic:** Reason or Intuition **Project Goal:** 150
+**Item Prerequisite:** A pint of yellow ichor, soul chalk
+
+**Project Source:** Licensing agreements in Anjali
+
+**Project Roll Characteristic:** Reason or Intuition
+
+**Project Goal:** 150
 
 **Effect:** While worn, a yellow Color Cloak grants you lightning immunity equal to your level.
 
@@ -533,9 +788,15 @@ Additionally, when you are targeted by any effect that deals lightning damage, y
 
 *Though this humanoid femur is coated in lead, it feels impossibly heavy for its size.*
 
-**Keywords:** Magic **Item Prerequisite:** One humanoid femur, one bar of lead laced with starmetal
+**Keywords:** Magic
 
-**Project Source:** Texts or lore in Caelian **Project Roll Characteristic:** Reason or Intuition **Project Goal:** 150
+**Item Prerequisite:** One humanoid femur, one bar of lead laced with starmetal
+
+**Project Source:** Texts or lore in Caelian
+
+**Project Roll Characteristic:** Reason or Intuition
+
+**Project Goal:** 150
 
 **Effect:** While holding the Deadweight, you fall twice as fast, taking an extra 1 damage for each square you fall (to a maximum of 75 total damage from a single fall). If you fall 5 or more squares this way, you can make a melee free strike as a free maneuver once during the fall before you hit the ground.
 
@@ -543,7 +804,15 @@ Additionally, when you are targeted by any effect that deals lightning damage, y
 
 *A wooden bangle is etched with an ambigram sigil of the Zaliac word for "transfer."*
 
-**Keywords:** Arms, Psionic **Item Prerequisite:** Petrified wood from a tree that has not been observed since falling **Project Source:** Texts or lore in Zaliac **Project Roll Characteristic:** Reason **Project Goal:** 150
+**Keywords:** Arms, Psionic
+
+**Item Prerequisite:** Petrified wood from a tree that has not been observed since falling
+
+**Project Source:** Texts or lore in Zaliac
+
+**Project Roll Characteristic:** Reason
+
+**Project Goal:** 150
 
 **Effect:** As a maneuver, you transfer an object of size 1S or 1T held in one hand with another object of the same size that is within 10 squares. The objects change locations instantaneously and without creating any auditory or visual disturbance. If another creature is wearing or holding the object you transfer to your hand and they have i<4] , they fail to notice the transfer.
 
@@ -551,7 +820,15 @@ Additionally, when you are targeted by any effect that deals lightning damage, y
 
 *A coil of emerald-green vines is topped with the jaws of an enormous Venus flytrap.*
 
-**Keywords:** Magic **Item Prerequisite:** Three withered mundane vines, a tree's blessing **Project Source:** Songs in Yllyric **Project Roll Characteristic:** Reason or Presence **Project Goal:** 150
+**Keywords:** Magic
+
+**Item Prerequisite:** Three withered mundane vines, a tree's blessing
+
+**Project Source:** Songs in Yllyric
+
+**Project Roll Characteristic:** Reason or Presence
+
+**Project Goal:** 150
 
 **Effect:** As a maneuver, you call upon the Divine Vine in Yllyric, causing it to extend up to 5 squares from you and attach its jaws to a creature or object, allowing you to use the Grab maneuver at a distance. If the target is grabbed, you can choose to keep the divine vine extended, pull the target adjacent to you, or pull yourself adjacent to the target. The divine vine stays attached to the target until it takes damage from a strike, the target escapes your grab, or you call upon the vine to release the target (no action required).
 
@@ -559,7 +836,15 @@ Additionally, when you are targeted by any effect that deals lightning damage, y
 
 *These finely stitched gloves appear to flicker in and out of reality when first handled.*
 
-**Keywords:** Hands, Psionic **Item Prerequisite:** A humanoid's shadow disconnected from its source **Project Source:** Texts or lore in Khelt **Project Roll Characteristic:** Reason **Project Goal:** 150
+**Keywords:** Hands, Psionic
+
+**Item Prerequisite:** A humanoid's shadow disconnected from its source
+
+**Project Source:** Texts or lore in Khelt
+
+**Project Roll Characteristic:** Reason
+
+**Project Goal:** 150
 
 **Effect:** When you use a move action while wearing these gloves, you can place one hand upon a mundane object as part of that move action. If the object is 1 square thick or less and has open space on the other side (for example, a door or wall), you pull your body through it as though the object wasn't there.
 
@@ -569,7 +854,15 @@ If the object is too thick or has no open space on the other side, your hand bec
 
 *These scaled gloves have palms and fingers covered in near-invisible sticky hairs.*
 
-**Keywords:** Hands, Magic **Item Prerequisite:** Ten gecko tails **Project Source:** Texts or lore in Caelian **Project Roll Characteristic:** Reason or Intuition **Project Goal:** 150
+**Keywords:** Hands, Magic
+
+**Item Prerequisite:** Ten gecko tails
+
+**Project Source:** Texts or lore in Caelian
+
+**Project Roll Characteristic:** Reason or Intuition
+
+**Project Goal:** 150
 
 **Effect:** While you wear these gloves, your grip is all but impossible to break. You can't be disarmed, you can't lose your grip while climbing unless you are force moved, and any creature grabbed by you takes a bane on the test for the Escape Grab maneuver.
 
@@ -579,7 +872,13 @@ If the object is too thick or has no open space on the other side, your hand bec
 
 ######## Keywords: Head, Magic
 
-**Item Prerequisite:** One broken contract, one ingot of steel **Project Source:** Texts or lore in Anjali and Caelian **Project Roll Characteristic:** Might or Reason **Project Goal:** 150
+**Item Prerequisite:** One broken contract, one ingot of steel
+
+**Project Source:** Texts or lore in Anjali and Caelian
+
+**Project Roll Characteristic:** Might or Reason
+
+**Project Goal:** 150
 
 **Effect:** Whenever you use the Charge main action while wearing this helmet, you gain a +5 bonus to speed until the end of your current turn. After charging, you can use the Knockback maneuver as a free maneuver, regardless of the target creature's size.
 
@@ -587,7 +886,15 @@ If the object is too thick or has no open space on the other side, your hand bec
 
 *A plain white mask is lined with soft black velvet—which smells faintly of blood.*
 
-**Keywords:** Head, Magic **Item Prerequisite:** One used death shroud **Project Source:** Texts or lore in Caelian **Project Roll Characteristic:** Reason or Intuition **Project Goal:** 150
+**Keywords:** Head, Magic
+
+**Item Prerequisite:** One used death shroud
+
+**Project Source:** Texts or lore in Caelian
+
+**Project Roll Characteristic:** Reason or Intuition
+
+**Project Goal:** 150
 
 **Effect:** While you wear this mask, you can use a maneuver to transform into any humanoid of equivalent size that you have previously seen. The humanoid's appearance reflects the last time you saw them, including whatever they were wearing. Your clothing and gear are transformed into the figure's clothing and gear, absorbed into your body, or retain their original forms, as you determine. If the figure possessed any treasures when you last saw them, they are duplicated as mundane copies while you are transformed.
 
@@ -595,7 +902,15 @@ If the object is too thick or has no open space on the other side, your hand bec
 
 *A woven metal drawstring seals this plain-looking leather bag, which is affixed with an opal brooch.*
 
-**Keywords:** Magic **Item Prerequisite:** One uncut opal **Project Source:** Texts or lore in Caelian **Project Roll Characteristic:** Reason or Intuition **Project Goal:** 150
+**Keywords:** Magic
+
+**Item Prerequisite:** One uncut opal
+
+**Project Source:** Texts or lore in Caelian
+
+**Project Roll Characteristic:** Reason or Intuition
+
+**Project Goal:** 150
 
 **Effect:** When the brooch is removed from this bag and placed in a container or room, it magically entangles that location to the bag. Any item that can be placed in the Quantum Satchel appears near to the brooch and can be recovered by reaching inside while picturing the desired object. The capacity of the satchel is dictated by the size of the container or room where the entangled brooch is. If an item is removed from the container or room containing the brooch, it can't be retrieved through the satchel.
 
@@ -603,7 +918,15 @@ If the object is too thick or has no open space on the other side, your hand bec
 
 *A pair of ornately embroidered leather boots are covered in images of broken chains.*
 
-**Keywords:** Feet, Magic **Item Prerequisite:** One battered gold chain of at least fifty links **Project Source:** Texts or lore in Caelian **Project Roll Characteristic:** Reason or Intuition **Project Goal:** 150
+**Keywords:** Feet, Magic
+
+**Item Prerequisite:** One battered gold chain of at least fifty links
+
+**Project Source:** Texts or lore in Caelian
+
+**Project Roll Characteristic:** Reason or Intuition
+
+**Project Goal:** 150
 
 **Effect:** These boots can temporarily unbind themselves from the chains of the earth, letting you move through the air as high as 3 squares above the ground from where you started. If you end your turn while you are still airborne, you fall.
 
@@ -615,7 +938,15 @@ This section presents 2nd-echelon trinket treasures in alphabetical order.
 
 *This thick leather belt features a bone clasp and feels unusually heavy when handled.*
 
-**Keywords:** Magic, Waist **Item Prerequisite:** A giant's tooth **Project Source:** Texts or lore in High Kuric **Project Roll Characteristic:** Might or Intuition **Project Goal:** 300
+**Keywords:** Magic, Waist
+
+**Item Prerequisite:** A giant's tooth
+
+**Project Source:** Texts or lore in High Kuric
+
+**Project Roll Characteristic:** Might or Intuition
+
+**Project Goal:** 300
 
 **Effect:** While worn, this belt grants you a +3 bonus to Stamina and a +1 bonus to Stability. This Stamina bonus adds to the Stamina bonus granted by other treasures.
 
@@ -623,7 +954,15 @@ This section presents 2nd-echelon trinket treasures in alphabetical order.
 
 *A perfectly preserved eyeball hangs unnervingly from a gold chain.*
 
-**Keywords:** Neck, Psionic **Item Prerequisite:** An eyeball from a pirate captain who drowned at sea **Project Source:** Texts or lore in Caelian **Project Roll Characteristic:** Reason or Intuition **Project Goal:** 300
+**Keywords:** Neck, Psionic
+
+**Item Prerequisite:** An eyeball from a pirate captain who drowned at sea
+
+**Project Source:** Texts or lore in Caelian
+
+**Project Roll Characteristic:** Reason or Intuition
+
+**Project Goal:** 300
 
 **Effect:** As a maneuver, you target one enemy within 10 squares. You and each ally within 2 squares of the target each gain 1 surge.
 
@@ -631,7 +970,15 @@ This section presents 2nd-echelon trinket treasures in alphabetical order.
 
 *Shaped of polished crystal, this shimmering circlet shifts through myriad colors in the presence of strong emotions.*
 
-**Keywords:** Head, Psionic **Item Prerequisite:** One measure of pure crystal, a jarred memory of true joy **Project Source:** Texts or lore in Variac **Project Roll Characteristic:** Reason or Intuition **Project Goal:** 300
+**Keywords:** Head, Psionic
+
+**Item Prerequisite:** One measure of pure crystal, a jarred memory of true joy
+
+**Project Source:** Texts or lore in Variac
+
+**Project Roll Characteristic:** Reason or Intuition
+
+**Project Goal:** 300
 
 **Effect:** While wearing the crown, you gain an edge on Intuition tests made to read the emotions and discern the honesty of other creatures. If you succeed on an Intuition test to read the emotions of another creature within 5 squares, you can ask the Director one question about something the creature knows, which the Director must answer honestly. At the Director's discretion, you might not be able to tap into the creature's deepest secrets this way.
 
@@ -661,7 +1008,9 @@ This section presents 2nd-echelon trinket treasures in alphabetical order.
 
 **Project Source:** Texts or lore in Hyrallic
 
-**Project Roll Characteristic:** Reason or Presence **Project Goal:** 300
+**Project Roll Characteristic:** Reason or Presence
+
+**Project Goal:** 300
 
 **Effect:** While you wear the Mediator's Charm, the patience of any NPC you negotiate with increases by 1 (to a maximum of 5). Additionally, at the start of a negotiation, you learn one of an NPC's motivations or pitfalls of the Director's choice.
 
@@ -675,7 +1024,9 @@ This section presents 2nd-echelon trinket treasures in alphabetical order.
 
 **Project Source:** Texts or lore in Yllyric
 
-**Project Roll Characteristic:** Reason or Intuition **Project Goal:** 300
+**Project Roll Characteristic:** Reason or Intuition
+
+**Project Goal:** 300
 
 **Effect:** While you wear this necklace, you can breathe underwater, you can automatically swim at full speed while moving, and you ignore difficult terrain created by water or in marsh and similar terrain.
 
@@ -683,9 +1034,15 @@ This section presents 2nd-echelon trinket treasures in alphabetical order.
 
 *This flat, palm-sized triangular stone is decorated with a starfield of tiny gems.*
 
-**Keywords:** Psionic **Item Prerequisite:** A piece of polished obsidian, seven flawless pea-sized diamonds **Project Source:** Texts or lore in Variac
+**Keywords:** Psionic
 
-**Project Roll Characteristic:** Reason or Intuition **Project Goal:** 300
+**Item Prerequisite:** A piece of polished obsidian, seven flawless pea-sized diamonds
+
+**Project Source:** Texts or lore in Variac
+
+**Project Roll Characteristic:** Reason or Intuition
+
+**Project Goal:** 300
 
 **Effect:** When held against a wall or other solid surface 1 square thick or less, the Scannerstone creates an image floating in the air beside it that shows a rough miniature approximation of the space on the other side of the surface. The image displays floors, walls, and other barriers but doesn't show other objects. It shows representations of any moving creatures on the other side, but not creatures who are still.
 
@@ -695,7 +1052,13 @@ This section presents 2nd-echelon trinket treasures in alphabetical order.
 
 ######## Keywords: Magic
 
-**Item Prerequisite:** A coin minted during an earthquake **Project Source:** Texts or lore in Caelian **Project Roll Characteristic:** Reason or Intuition **Project Goal:** 300
+**Item Prerequisite:** A coin minted during an earthquake
+
+**Project Source:** Texts or lore in Caelian
+
+**Project Roll Characteristic:** Reason or Intuition
+
+**Project Goal:** 300
 
 **Effect:** As a maneuver, you toss the coin in the air and let it fall to the ground in front of you. Roll a d3 to determine the coin's effect, depending on which face shows when it lands:
 
@@ -713,7 +1076,15 @@ This section presents 3rd-echelon trinket treasures in alphabetical order.
 
 *Each of these metallic blue bracers is oversized.*
 
-**Keywords:** Arms, Magic **Item Prerequisite:** The severed hand of a giant **Project Source:** Texts or lore in Yllyric **Project Roll Characteristic:** Reason or Intuition **Project Goal:** 450
+**Keywords:** Arms, Magic
+
+**Item Prerequisite:** The severed hand of a giant
+
+**Project Source:** Texts or lore in Yllyric
+
+**Project Roll Characteristic:** Reason or Intuition
+
+**Project Goal:** 450
 
 **Effect:** While you wear them in combat, these bracers magically double the size of your hands and any melee weapons you wield, automatically compensating for the extra weight. You gain a +2 damage bonus for any weapon ability that deals rolled damage, and a +1 bonus to the distance you push any target with any weapon ability. This damage bonus adds to the damage bonus granted by other treasures.
 
@@ -723,7 +1094,13 @@ This section presents 3rd-echelon trinket treasures in alphabetical order.
 
 **Keywords:** Head, Magic
 
-**Item Prerequisite:** An overmind egg, the skin of any shapeshifter **Project Source:** Texts or lore in the First Language **Project Roll Characteristic:** Reason or Intuition **Project Goal:** 450
+**Item Prerequisite:** An overmind egg, the skin of any shapeshifter
+
+**Project Source:** Texts or lore in the First Language
+
+**Project Roll Characteristic:** Reason or Intuition
+
+**Project Goal:** 450
 
 **Effect:** While wearing this grotesque mask, you can use a maneuver to cause your eyes to erupt from their sockets and multiply until six eyes orbit your head. This grants you a 360-degree arc of vision and prevents you from being surprised. Additionally, you have a double edge on tests made to discover hidden creatures, items, or mechanisms, but you have a double bane on Presence tests that don't use the Intimidate skill. As a maneuver, you can return your eyes to your head and make the additional eyes disappear.
 
@@ -735,7 +1112,13 @@ While the eyes circle your head, you can use a maneuver to launch up to three of
 
 **Keywords:** Head, Psionic
 
-**Item Prerequisite:** A spool of mindspider silk, an ingot of white gold **Project Source:** Texts or lore in Higaran **Project Roll Characteristic:** Reason or Intuition **Project Goal:** 450
+**Item Prerequisite:** A spool of mindspider silk, an ingot of white gold
+
+**Project Source:** Texts or lore in Higaran
+
+**Project Roll Characteristic:** Reason or Intuition
+
+**Project Goal:** 450
 
 **Effect:** While wearing the Mirage Band, you automatically perceive illusions for what they are, you can see invisible creatures, and supernatural effects can't conceal creatures and objects from you.
 
@@ -760,7 +1143,15 @@ Self and any ally
 
 *This simple band of copper vibrates slightly when handled.*
 
-**Keywords:** Psionic, Ring **Item Prerequisite:** A wafer of gallium arsenide **Project Source:** Texts or lore in Mindspeech **Project Roll Characteristic:** Reason or Intuition **Project Goal:** 450
+**Keywords:** Psionic, Ring
+
+**Item Prerequisite:** A wafer of gallium arsenide
+
+**Project Source:** Texts or lore in Mindspeech
+
+**Project Roll Characteristic:** Reason or Intuition
+
+**Project Goal:** 450
 
 **Effect:** You must be a null to wear this ring. While you do so, the area of your Null Field ability increases by 1.
 
@@ -792,7 +1183,9 @@ Additionally, you have the following ability.
 
 **Project Source:** Texts or lore in Khelt
 
-**Project Roll Characteristic:** Agility or Intuition **Project Goal:** 450
+**Project Roll Characteristic:** Agility or Intuition
+
+**Project Goal:** 450
 
 **Effect:** Once per turn, you can use a maneuver to teleport up to 3 squares. Additionally, when targeted by any other effect that causes you to teleport, you can teleport up to 3 additional squares.
 
@@ -806,9 +1199,13 @@ This section presents 4th-echelon trinket treasures in alphabetical order.
 
 **Keywords:** Magic
 
-**Item Prerequisite:** The powdered jawbone of a powerful spellcaster, wood from a tree marking multiple graves **Project Source:** Texts or lore in Hyrallic
+**Item Prerequisite:** The powdered jawbone of a powerful spellcaster, wood from a tree marking multiple graves
 
-**Project Roll Characteristic:** Reason or Intuition **Project Goal:** 600
+**Project Source:** Texts or lore in Hyrallic
+
+**Project Roll Characteristic:** Reason or Intuition
+
+**Project Goal:** 600
 
 **Effect:** The Gravekeeper's Lantern can temporarily trap a nonhostile spirit of the dead—either an incorporeal undead or the wandering spirit of a creature who died within the last 30 days—allowing you to interrogate them. Trapping a spirit requires you to be within 10 squares of them and succeed on a hard Intuition test as a main action. Once a spirit is trapped, you make a Presence test to coax them into answering your questions:
 
@@ -822,7 +1219,15 @@ A trapped spirit remains in the lantern for 10 minutes. They remember being trap
 
 *This wide metal bracer is set with a glowing gemstone.*
 
-**Keywords:** Arms, Psionic **Item Prerequisite:** Steel alloy, one fine-cut topaz **Project Source:** Texts or lore in Mindspeech **Project Roll Characteristic:** Agility or Presence **Project Goal:** 600
+**Keywords:** Arms, Psionic
+
+**Item Prerequisite:** Steel alloy, one fine-cut topaz
+
+**Project Source:** Texts or lore in Mindspeech
+
+**Project Roll Characteristic:** Agility or Presence
+
+**Project Goal:** 600
 
 **Effect:** While wearing this metallic band, you can use a maneuver to project a glowing blade of rippling psychic energy that extends parallel to your arm. While the blade is active, you can use a maneuver once per turn to make a melee weapon free strike that deals an extra 3 psychic damage.
 
@@ -858,7 +1263,15 @@ Magic and psionic armor and shields are the primary tools of heroes always ready
 
 *This suit is shaped of tough leather and set with thousands of tiny barbs on the inside, all thankfully pain-free to the touch.*
 
-**Keywords:** Light Armor, Magic **Item Prerequisite:** Five rabid honey badger pelts, the quills of a hedgehog **Project Source:** Texts or lore in Yllyric **Project Roll Characteristic:** Agility or Intuition **Project Goal:** 450
+**Keywords:** Light Armor, Magic
+
+**Item Prerequisite:** Five rabid honey badger pelts, the quills of a hedgehog
+
+**Project Source:** Texts or lore in Yllyric
+
+**Project Roll Characteristic:** Agility or Intuition
+
+**Project Goal:** 450
 
 **1st Level:** While you wear this armor, you gain a +6 bonus to Stamina, and you have immunity to acid and poison damage equal to your highest characteristic score.
 
@@ -876,7 +1289,9 @@ Magic and psionic armor and shields are the primary tools of heroes always ready
 
 **Project Source:** Texts or lore in Zaliac
 
-**Project Roll Characteristic:** Might, Reason, or Intuition **Project Goal:** 450
+**Project Roll Characteristic:** Might, Reason, or Intuition
+
+**Project Goal:** 450
 
 **1st Level:** While you wear this armor, you gain a +6 bonus to Stamina, you can automatically swim at full speed while moving, and you can breathe underwater for up to 1 hour. Returning to the surface to breathe air again for any length of time reset's the armor's water-breathing benefit.
 
@@ -888,7 +1303,15 @@ Magic and psionic armor and shields are the primary tools of heroes always ready
 
 *The blue-purple carapace and wings of a gigantic scarab beetle have been formed into an ornate breastplate.*
 
-**Keywords:** Magic, Medium Armor **Item Prerequisite:** A giant scarab beetle carapace **Project Source:** Texts or lore in Phaedran **Project Roll Characteristic:** Might, Reason, or Intuition **Project Goal:** 450
+**Keywords:** Magic, Medium Armor
+
+**Item Prerequisite:** A giant scarab beetle carapace
+
+**Project Source:** Texts or lore in Phaedran
+
+**Project Roll Characteristic:** Might, Reason, or Intuition
+
+**Project Goal:** 450
 
 **1st Level:** While you wear this armor, you gain a +6 bonus to Stamina and you can fly. If you don't end your turn on the ground, you fall.
 
@@ -902,7 +1325,13 @@ Magic and psionic armor and shields are the primary tools of heroes always ready
 
 **Keywords:** Magic, Shield
 
-**Item Prerequisite:** A ballad of heroism, two ingots of sunmetal **Project Source:** Songs in High Rhyvian **Project Roll Characteristic:** Reason, Intuition, or Presence **Project Goal:** 450
+**Item Prerequisite:** A ballad of heroism, two ingots of sunmetal
+
+**Project Source:** Songs in High Rhyvian
+
+**Project Roll Characteristic:** Reason, Intuition, or Presence
+
+**Project Goal:** 450
 
 **1st Level:** While you wield or carry this shield, you gain a +3 bonus to Stamina. This Stamina bonus adds to the Stamina bonus granted by other treasures. Additionally, you can use a maneuver to make the shield's lion face roar, choosing one adjacent creature or object and pushing that target up to 3 squares.
 
@@ -914,7 +1343,15 @@ Magic and psionic armor and shields are the primary tools of heroes always ready
 
 *Each scale of this iridescent armor shimmers with the faint image of a frozen moment of time.*
 
-**Keywords:** Medium Armor, Psionic **Item Prerequisite:** The eyes of a time raider who died valiantly in battle **Project Source:** Texts or lore in Voll **Project Roll Characteristic:** Intuition or Presence **Project Goal:** 450
+**Keywords:** Medium Armor, Psionic
+
+**Item Prerequisite:** The eyes of a time raider who died valiantly in battle
+
+**Project Source:** Texts or lore in Voll
+
+**Project Roll Characteristic:** Intuition or Presence
+
+**Project Goal:** 450
 
 **1st Level:** You gain a +6 bonus to Stamina while you wear this armor. Additionally, whenever a creature within 5 squares deals damage to you, you can use a triggered action to capture a moment of time in the armor, making that creature slowed until the end of their next turn.
 
@@ -928,9 +1365,13 @@ Magic and psionic armor and shields are the primary tools of heroes always ready
 
 ######## Keywords: Light Armor, Magic
 
-**Item Prerequisite:** Ten pages from each of a hundred different books **Project Source:** Texts or lore in Anjali
+**Item Prerequisite:** Ten pages from each of a hundred different books
 
-**Project Roll Characteristic:** Might, Reason, or Intuition **Project Goal:** 450
+**Project Source:** Texts or lore in Anjali
+
+**Project Roll Characteristic:** Might, Reason, or Intuition
+
+**Project Goal:** 450
 
 **1st Level:** While you wear this armor, you gain a +6 bonus to Stamina. Additionally, you can use a main action to fold in on yourself until you and your gear are paper thin. This effect lasts for 1 minute, letting you easily slip through any opening that is 1 inch wide or more. When you return to your three-dimensional form, you are dazed for 1 minute. If you return to your true form while in a space that is too small for you, you are violently expelled into the nearest open space of your choice and take 3d6 damage.
 
@@ -942,7 +1383,15 @@ Magic and psionic armor and shields are the primary tools of heroes always ready
 
 *This midnight-dark leather coat is embossed with fractal patterns that appear different each time they are observed.*
 
-**Keywords:** Light Armor, Psionic **Item Prerequisite:** The will of a deceased person with no heirs **Project Source:** Texts or lore in Khelt **Project Roll Characteristic:** Agility or Presence **Project Goal:** 450
+**Keywords:** Light Armor, Psionic
+
+**Item Prerequisite:** The will of a deceased person with no heirs
+
+**Project Source:** Texts or lore in Khelt
+
+**Project Roll Characteristic:** Agility or Presence
+
+**Project Goal:** 450
 
 **1st Level:** You gain a +6 bonus to Stamina while you wear this armor. Additionally, you gain an edge on tests made to lie about or conceal your identity.
 
@@ -954,7 +1403,15 @@ Magic and psionic armor and shields are the primary tools of heroes always ready
 
 *This heavy mechanized plate armor of gnomish make is designed to create its own cover on the battlefield.*
 
-**Keywords:** Heavy Armor, Magic **Item Prerequisite:** Ten steel gears from an ancient construct **Project Source:** Texts or lore in Variac **Project Roll Characteristic:** Might, Reason, or Intuition **Project Goal:** 450
+**Keywords:** Heavy Armor, Magic
+
+**Item Prerequisite:** Ten steel gears from an ancient construct
+
+**Project Source:** Texts or lore in Variac
+
+**Project Roll Characteristic:** Might, Reason, or Intuition
+
+**Project Goal:** 450
 
 **1st Level:** While you wear this armor, you gain a +6 bonus to Stamina. Additionally, you can use a main action to expand the armor on your back to create a 4 wall of metal behind you. The wall is an object that retracts if you move, or if it takes 15 damage. It then requires a main action to recalibrate before it can be deployed again.
 
@@ -966,7 +1423,15 @@ Magic and psionic armor and shields are the primary tools of heroes always ready
 
 *Shimmering light flows like liquid along this suit of crystalline armor.*
 
-**Keywords:** Heavy Armor, Psionic **Item Prerequisite:** A large vessel of astral ice, a pint of supercooled mercury **Project Source:** Texts or lore in Voll **Project Roll Characteristic:** Might, Reason, or Intuition **Project Goal:** 450
+**Keywords:** Heavy Armor, Psionic
+
+**Item Prerequisite:** A large vessel of astral ice, a pint of supercooled mercury
+
+**Project Source:** Texts or lore in Voll
+
+**Project Roll Characteristic:** Might, Reason, or Intuition
+
+**Project Goal:** 450
 
 **1st Level:** While you wear this armor, you gain a +6 bonus to Stamina, but any magic ability gains an edge when targeting you. Additionally, you instinctively know the location of any creature with concealment within 2 squares. You can also turn invisible as a maneuver. Your invisibility ends if you take damage or use an ability, or at the end of your next turn.
 
@@ -982,7 +1447,9 @@ Magic and psionic armor and shields are the primary tools of heroes always ready
 
 **Project Source:** Texts or lore in Variac
 
-**Project Roll Characteristic:** Might, Reason, or Intuition **Project Goal:** 450
+**Project Roll Characteristic:** Might, Reason, or Intuition
+
+**Project Goal:** 450
 
 **1st Level:** While you wield or carry this shield, you gain a +2 bonus to Stamina. This Stamina bonus adds to the Stamina bonus granted by other treasures. Additionally, once per turn when an adjacent enemy uses an ability, you can use a free triggered action to use the Grab maneuver against that enemy. You can have any number of enemies grabbed in this way.
 
@@ -998,7 +1465,15 @@ Implements are pieces of jewelry, orbs, staffs, tomes, wands, and other objects 
 
 *An ornate ring is set with a large diamond that swirls with blue light, and whose inner surface is etched with protective runes.*
 
-**Keywords:** Implement, Magic **Item Prerequisite:** A diamond ring **Project Source:** Texts or lore in Caelian **Project Roll Characteristic:** Might, Reason, or Intuition **Project Goal:** 450
+**Keywords:** Implement, Magic
+
+**Item Prerequisite:** A diamond ring
+
+**Project Source:** Texts or lore in Caelian
+
+**Project Roll Characteristic:** Might, Reason, or Intuition
+
+**Project Goal:** 450
 
 **1st Level:** While you wield this implement, your magic or psionic abilities that deal rolled damage gain a +1 damage bonus. Additionally, whenever you deal rolled damage to a creature using a magic or psionic ability, you gain temporary Stamina equal to your highest characteristic score.
 
@@ -1010,7 +1485,15 @@ Implements are pieces of jewelry, orbs, staffs, tomes, wands, and other objects 
 
 *This crystal wand thrums with power, yet is so thin and brittle that it feels as if even a slight squeeze will shatter it.*
 
-**Keywords:** Psionic, Wand **Item Prerequisite:** A handful of shattered quartz **Project Source:** Texts or lore in Caelian **Project Roll Characteristic:** Might, Reason, or Intuition **Project Goal:** 450
+**Keywords:** Psionic, Wand
+
+**Item Prerequisite:** A handful of shattered quartz
+
+**Project Source:** Texts or lore in Caelian
+
+**Project Roll Characteristic:** Might, Reason, or Intuition
+
+**Project Goal:** 450
 
 **1st Level:** While you wield this implement, your magic or psionic abilities that deal rolled damage deal an extra 2 psychic damage. Additionally, you have damage weakness 3, and you gain an edge on magic or psionic abilities if you aren't at full Stamina, or a double edge if you are winded.
 
@@ -1026,7 +1509,11 @@ Implements are pieces of jewelry, orbs, staffs, tomes, wands, and other objects 
 
 **Item Prerequisite:** An ounce of primordial ice, an ounce of mammoth-ivory shards
 
-**Project Source:** Texts or lore in Zaliac **Project Roll Characteristic:** Might, Reason, or Intuition **Project Goal:** 450
+**Project Source:** Texts or lore in Zaliac
+
+**Project Roll Characteristic:** Might, Reason, or Intuition
+
+**Project Goal:** 450
 
 **1st Level:** While you wield this implement, your magic or psionic abilities that deal rolled damage gain a +1 damage bonus. Additionally, if you make a magic strike, the strike must deal cold damage instead of its usual damage.
 
@@ -1038,7 +1525,15 @@ Implements are pieces of jewelry, orbs, staffs, tomes, wands, and other objects 
 
 *This bronze bottle has been shaped into the form of a ghostly figure.*
 
-**Keywords:** Implement, Psionic **Item Prerequisite:** Incense distilled from the essence of ether **Project Source:** Texts or lore in Caelian **Project Roll Characteristic:** Reason or Intuition **Project Goal:** 450
+**Keywords:** Implement, Psionic
+
+**Item Prerequisite:** Incense distilled from the essence of ether
+
+**Project Source:** Texts or lore in Caelian
+
+**Project Roll Characteristic:** Reason or Intuition
+
+**Project Goal:** 450
 
 **1st Level:** While you wield this implement, your magic or psionic abilities that deal rolled damage gain a +1 damage bonus. Additionally, whenever you deal rolled damage to a creature using a magic or psionic ability, they become insubstantial to you until the end of their next turn, allowing you to pass through them freely. While insubstantial, a creature can't make opportunity attacks against you.
 
@@ -1050,7 +1545,15 @@ Implements are pieces of jewelry, orbs, staffs, tomes, wands, and other objects 
 
 *These spectacles feature pink-tinted glass lenses held in a silver frame.*
 
-**Keywords:** Implement, Psionic **Item Prerequisite:** Two clear lenses carved from volcanic glass **Project Source:** Texts or lore in Caelian **Project Roll Characteristic:** Reason or Intuition **Project Goal:** 450
+**Keywords:** Implement, Psionic
+
+**Item Prerequisite:** Two clear lenses carved from volcanic glass
+
+**Project Source:** Texts or lore in Caelian
+
+**Project Roll Characteristic:** Reason or Intuition
+
+**Project Goal:** 450
 
 **1st Level:** While you wield this implement, your magic or psionic abilities that deal rolled damage gain a +1 damage bonus. Additionally, whenever you deal rolled damage to a creature using a magic or psionic ability, you can use that creature's senses until the end of your next turn, allowing you to experience all they observe and to use your abilities as if you were in their space. You also benefit from your own senses at the same time.
 
@@ -1062,7 +1565,15 @@ Implements are pieces of jewelry, orbs, staffs, tomes, wands, and other objects 
 
 *This ornate high elf tome seems to sigh each time it is opened.*
 
-**Keywords:** Implement, Magic **Item Prerequisite:** Written permission from a high elf magistrate **Project Source:** Texts or lore in Hyrallic **Project Roll Characteristic:** Reason or Intuition **Project Goal:** 450
+**Keywords:** Implement, Magic
+
+**Item Prerequisite:** Written permission from a high elf magistrate
+
+**Project Source:** Texts or lore in Hyrallic
+
+**Project Roll Characteristic:** Reason or Intuition
+
+**Project Goal:** 450
 
 **1st Level:** You can open or close the tome as a maneuver while speaking or thinking its full name. While the tome is open, it floats in an adjacent space and flips to specific pages at your command, you gain an edge on Reason tests made to recall lore, and you gain a +3 bonus to distance for your ranged magic or psionic abilities.
 
@@ -1078,7 +1589,15 @@ For combat-focused heroes, weapons channeling magic and psionic power can easily
 
 *This long, sinuous chain is composed entirely of broken links held together by unseen power.*
 
-**Keywords:** Psionic, Whip **Item Prerequisite:** A lash used to punish a mutineer **Project Source:** Texts or lore in Khelt **Project Roll Characteristic:** Reason, Intuition, or Presence **Project Goal:** 450
+**Keywords:** Psionic, Whip
+
+**Item Prerequisite:** A lash used to punish a mutineer
+
+**Project Source:** Texts or lore in Khelt
+
+**Project Roll Characteristic:** Reason, Intuition, or Presence
+
+**Project Goal:** 450
 
 **1st Level:** Any weapon ability that deals rolled damage using this weapon gains a +1 damage bonus. Whenever you damage a creature with the weapon, you can immediately use a maneuver to end one effect imposed by that creature on you or another creature within 5 squares of you.
 
@@ -1090,7 +1609,13 @@ For combat-focused heroes, weapons channeling magic and psionic power can easily
 
 *This crystal blade houses a stormy vortex of fire, ice, and lightning.*
 
-**Keywords:** Magic, Medium Weapon **Item Prerequisite:** A ruby hardened in the fires of the City of Brass, a sapphire that has been struck by lightning **Project Source:** Texts or lore in Zaliac **Project Roll Characteristic:** Might, Reason, or Intuition
+**Keywords:** Magic, Medium Weapon
+
+**Item Prerequisite:** A ruby hardened in the fires of the City of Brass, a sapphire that has been struck by lightning
+
+**Project Source:** Texts or lore in Zaliac
+
+**Project Roll Characteristic:** Might, Reason, or Intuition
 
 **Project Goal:** 450 **1st Level:** Any weapon ability that deals rolled damage using this weapon gains a +1 damage bonus. Additionally, you can change the damage type of such abilities to cold, fire, lightning, or sonic.
 
@@ -1108,7 +1633,9 @@ For combat-focused heroes, weapons channeling magic and psionic power can easily
 
 **Project Source:** Texts or lore in Caelian
 
-**Project Roll Characteristic:** Agility, Reason, or Intuition **Project Goal:** 450
+**Project Roll Characteristic:** Agility, Reason, or Intuition
+
+**Project Goal:** 450
 
 **1st Level:** Any weapon ability that deals rolled damage using this weapon gains a +1 damage bonus. Additionally, whenever you deal rolled damage with this weapon, you can immediately shift 1 square. As well, while you wield or carry the weapon and are present in a negotiation, if an NPC in the negotiation has the greed, legacy, power, or revelry motivation, their starting interest increases by 1 (to a maximum of 5).
 
@@ -1126,7 +1653,9 @@ For combat-focused heroes, weapons channeling magic and psionic power can easily
 
 **Project Source:** Texts in Zaliac
 
-**Project Roll Characteristic:** Might or Intuition **Project Goal:** 450
+**Project Roll Characteristic:** Might or Intuition
+
+**Project Goal:** 450
 
 **1st Level:** Any weapon ability that deals rolled damage using this weapon deals an extra 1 psychic damage. Additionally, whenever you deal rolled damage to a creature, you can use a maneuver to teleport you and that creature, letting you trade places provided you both fit into each other's spaces.
 
@@ -1138,7 +1667,15 @@ For combat-focused heroes, weapons channeling magic and psionic power can easily
 
 *This blade exudes a faint hum that grows louder as its quarry weakens.*
 
-**Keywords:** Heavy Weapon, Psionic **Item Prerequisite:** The skull of a convicted criminal **Project Source:** Texts or lore in Caelian **Project Roll Characteristic:** Might, Reason, or Intuition **Project Goal:** 450
+**Keywords:** Heavy Weapon, Psionic
+
+**Item Prerequisite:** The skull of a convicted criminal
+
+**Project Source:** Texts or lore in Caelian
+
+**Project Roll Characteristic:** Might, Reason, or Intuition
+
+**Project Goal:** 450
 
 **1st Level:** Any weapon ability that deals rolled damage using this weapon deals an extra 1 psychic damage, or an extra 2 psychic damage if the target is winded. Additionally, the first time in an encounter that you cause an enemy to become winded with an ability using the weapon, you gain 10 temporary Stamina.
 
@@ -1150,9 +1687,15 @@ For combat-focused heroes, weapons channeling magic and psionic power can easily
 
 *The head of this iron hammer is cold to the touch and encases whatever it strikes in a thin layer of ice.*
 
-**Keywords:** Heavy Weapon, Magic **Item Prerequisite:** Eight iron bars cooled in a glacier, the branch of an ancient evergreen **Project Source:** Texts in Zaliac
+**Keywords:** Heavy Weapon, Magic
 
-**Project Roll Characteristic:** Might, Reason, or Intuition **Project Goal:** 450
+**Item Prerequisite:** Eight iron bars cooled in a glacier, the branch of an ancient evergreen
+
+**Project Source:** Texts in Zaliac
+
+**Project Roll Characteristic:** Might, Reason, or Intuition
+
+**Project Goal:** 450
 
 **1st Level:** Any weapon ability that deals rolled damage using this weapon deals an extra 1 cold damage. Additionally, you can use a maneuver to create an ice field in a 3 burst. The ground in this area is difficult terrain for enemies, and lasts until the end of the encounter or when you use this ability again.
 
@@ -1164,7 +1707,15 @@ For combat-focused heroes, weapons channeling magic and psionic power can easily
 
 *This ivory dagger features nine faintly glowing indentations along the blade.*
 
-**Keywords:** Light Weapon, Psionic **Item Prerequisite:** Eighteen daggers—nine taken from personal enemies and nine gifted by friends **Project Source:** Texts or lore in Variac **Project Roll Characteristic:** Reason or Intuition **Project Goal:** 450
+**Keywords:** Light Weapon, Psionic
+
+**Item Prerequisite:** Eighteen daggers—nine taken from personal enemies and nine gifted by friends
+
+**Project Source:** Texts or lore in Variac
+
+**Project Roll Characteristic:** Reason or Intuition
+
+**Project Goal:** 450
 
 **1st Level:** Any weapon ability that deals rolled damage using this weapon deals an extra 1 psychic damage. This extra damage increases by 1 each time you deal rolled damage using the weapon to the same target during the same encounter (to a maximum of 3).
 
@@ -1176,7 +1727,15 @@ For combat-focused heroes, weapons channeling magic and psionic power can easily
 
 *This needlelike lance is cast of shimmering metal and induces a yearning for the skies in those who handle it.*
 
-**Keywords:** Magic, Polearm **Item Prerequisite:** Night-blooming flower petals, a starmetal meteorite **Project Source:** Texts or lore in Hyrallic **Project Roll Characteristic:** Agility or Presence **Project Goal:** 450
+**Keywords:** Magic, Polearm
+
+**Item Prerequisite:** Night-blooming flower petals, a starmetal meteorite
+
+**Project Source:** Texts or lore in Hyrallic
+
+**Project Roll Characteristic:** Agility or Presence
+
+**Project Goal:** 450
 
 **1st Level:** Any weapon ability that deals rolled damage using this weapon deals an extra 1 holy damage. Additionally, when the weapon is used with a weapon ability that allows you to push a target, you can shift to any square adjacent to the target after the push.
 
@@ -1188,7 +1747,15 @@ For combat-focused heroes, weapons channeling magic and psionic power can easily
 
 *This flexible black-iron net burns with the heat of a volcano.*
 
-**Keywords:** Magic, Net **Item Prerequisite:** Four iron bars coated in magma slag **Project Source:** Texts or lore in Caelian **Project Roll Characteristic:** Might, Reason, or Intuition **Project Goal:** 450
+**Keywords:** Magic, Net
+
+**Item Prerequisite:** Four iron bars coated in magma slag
+
+**Project Source:** Texts or lore in Caelian
+
+**Project Roll Characteristic:** Might, Reason, or Intuition
+
+**Project Goal:** 450
 
 **1st Level:** Any weapon ability that deals rolled damage using this weapon deals an extra 1 fire damage. Additionally, whenever you make a strike using the net and obtain a tier 3 outcome, you can automatically grab the target. A target grabbed in this way takes a bane when using the Escape Grab maneuver.
 
@@ -1200,9 +1767,15 @@ For combat-focused heroes, weapons channeling magic and psionic power can easily
 
 *This mechanized bow is set with magical reservoirs that carry the faint tang of toxins.*
 
-**Keywords:** Bow, Magic **Item Prerequisite:** A venom sac from a giant spider, one valok gyroscope
+**Keywords:** Bow, Magic
 
-**Project Source:** Texts or lore in Caelian and Variac **Project Roll Characteristic:** Might, Reason, or Intuition **Project Goal:** 450
+**Item Prerequisite:** A venom sac from a giant spider, one valok gyroscope
+
+**Project Source:** Texts or lore in Caelian and Variac
+
+**Project Roll Characteristic:** Might, Reason, or Intuition
+
+**Project Goal:** 450
 
 **1st Level:** Any weapon ability that deals rolled damage using this weapon deals an extra 1 poison damage. Additionally, any signature ability using the weapon that obtains a tier 3 outcome also makes the target weakened until the end of their next turn.
 
@@ -1214,7 +1787,15 @@ For combat-focused heroes, weapons channeling magic and psionic power can easily
 
 *This sinuous whip reflects all light off its plated steel surfaces.*
 
-**Keywords:** Magic, Whip **Item Prerequisite:** One hundred steel arrowheads stained with blood **Project Source:** Texts or lore in Caelian and Kalliak **Project Roll Characteristic:** Might, Reason, or Intuition **Project Goal:** 450
+**Keywords:** Magic, Whip
+
+**Item Prerequisite:** One hundred steel arrowheads stained with blood
+
+**Project Source:** Texts or lore in Caelian and Kalliak
+
+**Project Roll Characteristic:** Might, Reason, or Intuition
+
+**Project Goal:** 450
 
 **1st Level:** You gain a +1 bonus to melee distance with weapon abilities using this weapon. Additionally, any damage-dealing weapon ability using the weapon against a target who has A < AVERAGE also leaves that target bleeding (save ends).
 
@@ -1228,7 +1809,13 @@ For combat-focused heroes, weapons channeling magic and psionic power can easily
 
 ######## Keywords: Bow, Psionic
 
-**Item Prerequisite:** Heart strings of a tapir, a pound of tiger's eye gemstones **Project Source:** Texts or lore in Variac **Project Roll Characteristic:** Reason or Intuition **Project Goal:** 450
+**Item Prerequisite:** Heart strings of a tapir, a pound of tiger's eye gemstones
+
+**Project Source:** Texts or lore in Variac
+
+**Project Roll Characteristic:** Reason or Intuition
+
+**Project Goal:** 450
 
 **1st Level:** Any weapon ability that deals rolled damage using this weapon deals an extra 1 psychic damage. Additionally, any damage-dealing weapon ability using the weapon that achieves a tier 3 outcome also leaves the target dazed until the end of their next turn. **5th Level:** The weapon's extra psychic damage increases to 2. Additionally, whenever a creature within distance of your ranged weapon free strike uses a triggered action, you can use a triggered action after their triggered action resolves to make a ranged weapon free strike using this weapon against the creature.
 
@@ -1238,7 +1825,13 @@ For combat-focused heroes, weapons channeling magic and psionic power can easily
 
 *This bident is made from two pieces of moon metal twisted together, and hums like a tuning fork.*
 
-**Keywords:** Magic, Medium Weapon **Item Prerequisite:** A jar of captured thunder, two ingots of moon metal **Project Source:** Texts or lore in Zaliac **Project Roll Characteristic:** Might, Reason, or Intuition
+**Keywords:** Magic, Medium Weapon
+
+**Item Prerequisite:** A jar of captured thunder, two ingots of moon metal
+
+**Project Source:** Texts or lore in Zaliac
+
+**Project Roll Characteristic:** Might, Reason, or Intuition
 
 **Project Goal:** 450
 
@@ -1252,7 +1845,15 @@ For combat-focused heroes, weapons channeling magic and psionic power can easily
 
 *When first held, this naginata whispers the names of its past victims.*
 
-**Keywords:** Polearm, Psionic **Item Prerequisite:** A folded metal blade infused with blood **Project Source:** Texts or lore in Higaran **Project Roll Characteristic:** Might, Reason, or Intuition **Project Goal:** 450
+**Keywords:** Polearm, Psionic
+
+**Item Prerequisite:** A folded metal blade infused with blood
+
+**Project Source:** Texts or lore in Higaran
+
+**Project Roll Characteristic:** Might, Reason, or Intuition
+
+**Project Goal:** 450
 
 **1st Level:** Any weapon ability that deals rolled damage using this weapon deals an extra 1 psychic damage. Additionally, if you reduce a creature to 0 Stamina using this weapon, you can immediately use a maneuver to make a melee free strike.
 
@@ -1270,7 +1871,11 @@ In addition to armor, shields, implements, and weapons, heroes can make use of a
 
 ######## Keywords: Magic, Ring
 
-**Item Prerequisite:** A pair of obituaries that each mention the subject of the other **Project Source:** Texts or lore in Caelian **Project Roll Characteristic:** Might, Reason, or Intuition
+**Item Prerequisite:** A pair of obituaries that each mention the subject of the other
+
+**Project Source:** Texts or lore in Caelian
+
+**Project Roll Characteristic:** Might, Reason, or Intuition
 
 **Project Goal:** 450
 
@@ -1284,9 +1889,15 @@ In addition to armor, shields, implements, and weapons, heroes can make use of a
 
 *These rough hand wraps are stained with blood that never comes clean.*
 
-**Keywords:** Hands, Psionic **Item Prerequisite:** One cotton bolt soaked in the blood of six adventurers **Project Source:** Texts or lore in Caelian
+**Keywords:** Hands, Psionic
 
-**Project Roll Characteristic:** Might, Agility, or Intuition **Project Goal:** 450
+**Item Prerequisite:** One cotton bolt soaked in the blood of six adventurers
+
+**Project Source:** Texts or lore in Caelian
+
+**Project Roll Characteristic:** Might, Agility, or Intuition
+
+**Project Goal:** 450
 
 **1st Level:** While you wear these hand wraps, any weapon ability that deals rolled damage using your unarmed strikes gains a +1 damage bonus. Additionally, once per turn, you can take 5 damage that can't be reduced in any way to use the Grab maneuver (no action required).
 
@@ -1298,7 +1909,15 @@ In addition to armor, shields, implements, and weapons, heroes can make use of a
 
 *Sparks strike from these boots whenever they touch the ground, increasing in number as the wearer gathers speed.*
 
-**Keywords:** Feet, Magic **Item Prerequisite:** One jar of lightning **Project Source:** Texts or lore in Yllyric **Project Roll Characteristic:** Agility, Reason, or Intuition **Project Goal:** 450
+**Keywords:** Feet, Magic
+
+**Item Prerequisite:** One jar of lightning
+
+**Project Source:** Texts or lore in Yllyric
+
+**Project Roll Characteristic:** Agility, Reason, or Intuition
+
+**Project Goal:** 450
 
 **1st Level:** While you wear these boots, any weapon ability that deals rolled damage using your unarmed strikes deals an extra 1 lightning damage. Additionally, you gain a +2 bonus to speed.
 
@@ -1312,7 +1931,13 @@ In addition to armor, shields, implements, and weapons, heroes can make use of a
 
 ######## Keywords: Neck, Magic
 
-**Item Prerequisite:** A cloak worn by a murdered monarch **Project Source:** Texts or lore in Caelian **Project Roll Characteristic:** Might, Reason, or Intuition **Project Goal:** 450
+**Item Prerequisite:** A cloak worn by a murdered monarch
+
+**Project Source:** Texts or lore in Caelian
+
+**Project Roll Characteristic:** Might, Reason, or Intuition
+
+**Project Goal:** 450
 
 **1st Level:** While you wear this cloak, any creature who damages you is marked for revenge until the end of your next turn or until another creature damages you. Any strike you make against a creature marked for revenge deals extra damage equal to your highest characteristic score, and whenever you damage a creature marked for revenge, they are also bleeding until the end of their next turn.
 
@@ -1324,9 +1949,15 @@ In addition to armor, shields, implements, and weapons, heroes can make use of a
 
 *This burnished copper torque thrums with a sense of judgment.*
 
-**Keywords:** Neck, Psionic **Item Prerequisite:** A pound of feathers, a pound of bricks from the Seven Cities of Hell
+**Keywords:** Neck, Psionic
 
-**Project Source:** Texts or lore in Anjali **Project Roll Characteristic:** Might, Reason, or Presence **Project Goal:** 450
+**Item Prerequisite:** A pound of feathers, a pound of bricks from the Seven Cities of Hell
+
+**Project Source:** Texts or lore in Anjali
+
+**Project Roll Characteristic:** Might, Reason, or Presence
+
+**Project Goal:** 450
 
 **1st Level:** While you wear this torque, you gain a bonus to Stamina equal to twice your highest characteristic score. Additionally, you can use a maneuver to choose a creature in your line of effect and learn their level. If their level is higher than yours, the torque grants you envy. If their level is equal to or lower than yours, the torque grants you disdain. You can have both envy and disdain from different creatures, but not more than one instance of either.
 
