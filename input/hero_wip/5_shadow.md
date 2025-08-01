@@ -928,11 +928,11 @@ Whenever you willingly move, you can teleport. When you teleport this way, it co
 
 Your movement no longer provokes opportunity attacks. Additionally, you can use your Harlequin Gambit feature as a free triggered action when a creature is reduced to 0 Stamina by your Clever Trick ability.
 
-## Time Bomb
+##### Time Bomb
 
 You have damage immunity against area abilities and effects equal to your Agility score. You also have the following ability, which you can use once per round on your turn.
 
-##### Time Bomb
+######## Time Bomb
 
 *The longer it cooks, the bigger the boom.*
 
@@ -1119,7 +1119,7 @@ Choose one of the following abilities.
 
 **Effect:** If you are disguised as a creature the target knew using your I'm No Threat ability, this ability deals extra damage equal to three times your Agility score.
 
-## 10th-Level Features
+### 10th-Level Features
 
 As a 10th-level shadow, you gain the following features.
 
