@@ -391,7 +391,7 @@ Rewards for tests made with lore skills typically include learning an extra piec
 
 Consequences for tests made with lore skills typically include learning an incorrect piece of information that seems useful, but which actually works against your interests or wastes time. (It's fun to roleplay these kinds of moments, so lean in!) Alternatively, the Director can make medium and hard tests with lore group skills for each hero in secret, then let the players know the narrative outcome without revealing the outcome of the power roll (see the [Optional Rule: Secret Reactive Tests](#page-267-3) sidebar earlier in this chapter).
 
-#### Lore Skills Table
+###### Lore Skills Table
 
 | Skill               | Use                                                                                        |
 |---------------------|--------------------------------------------------------------------------------------------|

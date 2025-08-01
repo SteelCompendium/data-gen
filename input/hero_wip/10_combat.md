@@ -1,15 +1,14 @@
-
 # Combat
 
 When the heroes face a problem that can be solved only with action, or when they come up against creatures who want to harm them, it's time to throw down!
 
-## Set the Map
+### Set the Map
 
 When combat begins, the Director should position miniatures or tokens on a gridded map to represent the environment, the heroes, their foes, and any other creatures in the battle.
 
-######## How Big is a Square?
-
-It's helpful to know how big a square is for abilities and features that heroes and NPCs can use outside of combat. By default, a square is 5 feet on all sides. But the Director can change this measurement to 2 yards, 2 meters, 1 meter, or any other measurement you prefer, as long as that scale stays consistent throughout your game.
+> **How Big is a Square?**
+> 
+> It's helpful to know how big a square is for abilities and features that heroes and NPCs can use outside of combat. By default, a square is 5 feet on all sides. But the Director can change this measurement to 2 yards, 2 meters, 1 meter, or any other measurement you prefer, as long as that scale stays consistent throughout your game.
 
 #### Size and Space
 
@@ -21,27 +20,28 @@ Objects also have a size rating, which usually indicates how many squares they o
 
 The Creature Sizes table shows example sizes for creatures up to size 5, but larger sizes are possible. There is no limit to what a creature's size might be.
 
-| Creature Sizes |                  |  |
-|----------------|------------------|--|
-| Size           | Example Creature |  |
-| 1T             | Pixie            |  |
-| 1S             | Polder           |  |
-| 1M             | Human            |  |
-| 1L             | Hakaan           |  |
-| 2              | Ogre             |  |
-| 3              | Shambling mound  |  |
-| 4              | Hill giant       |  |
-| 5              | Omen dragon      |  |
+###### Creature Sizes Table
+
+| Size  | Example Creature |
+|-------|------------------|
+| 1T    | Pixie            |
+| 1S    | Polder           |
+| 1M    | Human            |
+| 1L    | Hakaan           |
+| 2     | Ogre             |
+| 3     | Shambling mound  |
+| 4     | Hill giant       |
+| 5     | Omen dragon      |
 
 #### Sides
 
 Every combat encounter is a conflict between two sides. The heroes and any of their allies are one side, controlled by the players. Any creatures who oppose the heroes are the other side, controlled by the Director. All creatures who oppose the heroes are on the same side, even if those creatures also oppose each other. For example, if the heroes are battling a group of bandits when a kingfissure worm suddenly bursts into the fray to devour player characters and brigands alike, the worm is still on the side of the bandits for the purpose of the game's combat rules.
 
-######## NPC Allies
+> **NPC Allies**
+> 
+> If an NPC ally fights alongside the heroes, the Director should give the players the ally's stat block and let them control the NPC during combat. The Director has enough to worry about. As well, any missteps, mistakes, or triumphs the ally makes will be thanks to the decisions of the players and not the Director, which can make the outcome of the battle more satisfying for the players.
 
-If an NPC ally fights alongside the heroes, the Director should give the players the ally's stat block and let them control the NPC during combat. The Director has enough to worry about. As well, any missteps, mistakes, or triumphs the ally makes will be thanks to the decisions of the players and not the Director, which can make the outcome of the battle more satisfying for the players.
-
-## Combat Round
+### Combat Round
 
 Combat takes place over a series of combat rounds. During a combat round, each creature in the battle takes a turn. Once every creature has taken a turn, a new round begins.
 
@@ -67,23 +67,23 @@ Unless an ability or special rule allows them to do so, any creature who has tak
 
 In many encounters, a point comes when one side has creatures who haven't acted yet but all the creatures on the other side have. The creatures who have yet to act get to take their turns in any order they choose, without turns in between from the other side. For example, consider four heroes taking on six enemies. When all four heroes have taken their turns and four of the enemies have taken theirs, the two enemies who are left take their turns one after the other to end the round.
 
-#### Determining Who Acts Next
+##### Determining Who Acts Next
 
 When it comes to the heroes' side, the choice of who should act next is intended to give players the opportunity to comment, strategize, and plan. Some tables, in some encounters, might find that the choice of who should act next isn't obvious, leading to debate. That's fine. Deliberating about what the group should do next is classic roleplaying.
 
 In general, though, most groups find that it's usually only one or two players in a given round who think it best if they act next. And as soon as those players explain why they want to act next and what they plan on doing, the issue is quickly resolved.
 
-#### Argument Timer
+##### Argument Timer
 
 If the players do end up arguing in circles about what to do next, the Director can place a timer on the discussion. Usually, giving the players a warning and 30 seconds to decide who goes next does the trick. If they can't choose by the end of that time, the Director chooses a hero to act.
 
-######## Alternative Turn Order
+> **Alternative Turn Order**
+> 
+> If planning everyone's turn order isn't fun for your group, you can leave it to the dice instead. At the start of combat, have each hero, enemy, and group of enemies make an Agility test, then record the totals. When it's time for someone on the heroes' side to act, the hero with the highest total goes first. On the next hero turn, the hero with the second-highest total takes their turn, and so on. The Director-controlled creatures act the same way. Creatures on the same side should reroll tied Agility tests to determine who among the tied creatures acts before the others.
+> 
+> At the Director's discretion, a hero can swap their turn in the order with another willing hero at the start of a new combat round. This allows certain abilities that interact with the core turn order system, such as the shadow's Hesitation Is Weakness ability, to better work with this alternative system.
 
-If planning everyone's turn order isn't fun for your group, you can leave it to the dice instead. At the start of combat, have each hero, enemy, and group of enemies make an Agility test, then record the totals. When it's time for someone on the heroes' side to act, the hero with the highest total goes first. On the next hero turn, the hero with the second-highest total takes their turn, and so on. The Director-controlled creatures act the same way. Creatures on the same side should reroll tied Agility tests to determine who among the tied creatures acts before the others.
-
-At the Director's discretion, a hero can swap their turn in the order with another willing hero at the start of a new combat round. This allows certain abilities that interact with the core turn order system, such as the shadow's Hesitation Is Weakness ability, to better work with this alternative system.
-
-#### Enemies Act In Groups
+##### Enemies Act In Groups
 
 Director-controlled creatures act in groups, with information for building groups found in *[Draw Steel: Monsters](https://mcdm.gg/DS-Monsters)*. When a group of enemies acts, the Director chooses a single creature or minion squad to take a turn. Once that turn is over, the Director chooses another creature in that group to take a turn, continuing until all members of the group have taken their turn.
 
@@ -91,7 +91,7 @@ Director-controlled creatures act in groups, with information for building group
 
 Once all creatures on both sides of a battle have acted, the combat round ends and a new combat round begins. The side whose members acted first during the initial combat round goes first in all subsequent rounds.
 
-## Taking a Turn
+### Taking a Turn
 
 Each creature in combat—whether hero, adversary, or something in between—gets to take a **main action**, a **maneuver**, and a **move action** on their turn (explained later in this chapter). Each combatant can perform their maneuver and main action in any order, and can break up the movement granted by their move action before, after, or between their maneuver and main action however they like. You can also turn your main action into a move action or a maneuver, so that your turn can alternatively consist of two move actions and a maneuver, or two maneuvers and a move action.
 
@@ -123,7 +123,7 @@ Free maneuvers cover most of the simple activities you might want to undertake o
 
 The Director can limit what kinds of no-action activities you can attempt when it isn't your turn. For instance, shouting out a warning about an unseen foe to an ally on the ally's or the foe's turn requires no action. But the Director might stop you from giving that ally complex tactical advice when it isn't your turn, saying that doing so instead requires a free maneuver on your turn.
 
-## Movement
+### Movement
 
 During combat, creatures can employ multiple mechanics that allow them to move around the battlefield. The most common of those mechanics is the Advance or Disengage move action (detailed under [Move Actions](#page-286-3) below), but abilities granted by your class, equipment, ancestry, title, or other options might allow you other ways to move.
 
@@ -157,21 +157,21 @@ You can't shift into or while within difficult terrain or damaging terrain (see 
 
 Creatures in the game can use eight types of movement: walk, burrow, climb, swim, jump, crawl, fly, and teleport.
 
-## Walk
+##### Walk
 
 Walking is the most common movement type, whether it refers to ambulating on legs, rolling, slithering, or some other default method of movement. Unless specified otherwise, all creatures can move over solid horizontal ground without any problem.
 
-#### Burrow
+##### Burrow
 
 A creature who has "burrow" in their speed entry, or who gains the temporary ability to burrow, can move through dirt horizontally, and either has the means to breathe while doing so or doesn't require air to live. Such creatures can't move through more solid ground, such as stone, unless their stat block or the effect that lets them burrow says otherwise. Similarly, a burrowing creature doesn't leave a tunnel unless the rules say so.
 
-| ****Dig** | **Maneuver** |
+###### Dig Maneuver
 
 It takes extra effort to dig vertically through the ground as opposed to tunneling horizontally, requiring a creature to use a special maneuver. To use the Dig maneuver, a creature must have "burrow" in their speed entry, they must have a speed that is equal to or greater than their size, and they must be touching terrain that can be burrowed through.
 
 When a creature uses the Dig maneuver, they can move vertically up to a number of squares equal to their size. If a burrowing creature has a creature who is not unconscious grabbed, they can't willingly move deeper into the ground. It's too difficult to dig with a flailing enemy in your claws.
 
-######## Targeting Burrowing Creatures
+###### Targeting Burrowing Creatures
 
 If you are on the ground, you have line of effect to a burrowing creature if that creature occupies 1 or more squares of terrain that can be burrowed through and that touch the ground, and if you have line of effect to any of those squares. The burrowing creature gains the benefit of cover from you.
 
@@ -181,39 +181,39 @@ If you are completely beneath the ground while burrowing and are adjacent to ano
 
 You can't gain the benefit of high ground (see below) against creatures who are completely beneath the ground while burrowing.
 
-######## Non-Burrowing Creatures
+###### Non-Burrowing Creatures
 
 If you are on the ground and adjacent to a creature who is beneath the ground while burrowing, you can use a maneuver to pull that creature up 1 square out of the ground, provided the creature is willing.
 
 If a creature who can't burrow wants to dig into the ground, they can use the following ability provided their speed is 2 or more.
 
-| **Claw Dirt** | **Maneuver** |
-| --------------------------------|------------------------------------|
-| Self | Self |
+######## Claw Dirt
 
-######## Power Roll** + Might**:
+| **-**       | **Maneuver** |
+|-------------|-------------:|
+| **📏 Self** |  **🎯 Self** |
+
+**Power Roll + Might:**
 
 - **≤11:** You can move 1 square into, out of, or through ground you are touching that can be burrowed through, and you are slowed and weakened (EoT).
 - **12-16:** You can use your main action this turn to move 1 square into, out of, or through ground you are touching that can be burrowed through, and you are slowed (EoT).
 - **17+:** You can move 1 square into, out of, or through ground you are touching that can be burrowed through.
 
-######## Burrowing Forced Movement
+###### Burrowing Forced Movement
 
 While a creature who is completely beneath the ground while burrowing is force moved by movement that isn't vertical, they aren't moved, and they take 1 damage for each square they would have been force moved. If the forced movement is vertical, the creature is moved through the dirt as is if were air.
 
-# Combat
-
-#### Climb or Swim
+##### Climb or Swim
 
 A creature who has "climb" in their speed entry, or who gains the temporary ability to automatically climb, can climb across vertical and horizontal surfaces at full speed. Likewise, a creature who has "swim" in their speed entry, or who gains the temporary ability to automatically swim, can swim in liquid at full speed.
 
 Creatures without those types of movement can still climb or swim when a rule allows them to move, but each square of climbing or swimming costs 2 squares of movement. If a surface is difficult to climb (for instance, a sheer cliff or ice-covered wall) or a liquid is hard to swim through (a raging river or whirlpool), the Director can call for a Might test. On a failure, a creature can't climb or swim but wastes no movement in the attempt. The Director can also impose other consequences to failure, such as being caught in the spinning current of a whirlpool.
 
-######## Climbing Other Creatures
+###### Climbing Other Creatures
 
 You can attempt to climb a creature whose size is greater than yours. If the creature is willing, you can climb them without any trouble. If the creature is unwilling, you make the following test:
 
-######## Power Roll** + Might or Agility**:
+**Power Roll + Might or Agility:**
 
 - **≤11:** You fail to climb the creature, and they can make a free strike against you.
 - **12-16:** You fail to climb the creature.
@@ -221,7 +221,7 @@ You can attempt to climb a creature whose size is greater than yours. If the cre
 
 While you climb or ride a creature, you gain an edge on melee abilities used against them. The creature can use a maneuver to attempt to knock you off, forcing you to make the following test:
 
-######## Power Roll** + Might or Agility**:
+**Power Roll + Might or Agility:**
 
 - **≤11:** You fall off the creature into an unoccupied adjacent space of your choice, taking falling damage and landing prone as usual (see [Falling](#page-283-3) below).
 - **12-16:** You slide down the creature into an unoccupied adjacent space of your choice and don't land prone.
@@ -229,13 +229,13 @@ While you climb or ride a creature, you gain an edge on melee abilities used aga
 
 If you are knocked prone while climbing or riding a creature, you fall and land prone in an adjacent space of your choice, taking damage as usual from the fall.
 
-#### Jump
+##### Jump
 
 Whenever an effect allows you to move (including using the Advance move action), you can automatically long jump a number of squares up to your Might or Agility score (your choice; minimum 1 square) as part of that movement. The height of your jump is automatically 1 square as part of that movement.
 
 If you want to jump even longer or higher than your baseline jump allows, make a Might or Agility test:
 
-######## Power Roll** + Might or Agility**:
+**Power Roll + Might or Agility:**
 
 - **≤11:** You don't jump any farther than your baseline jump allows.
 - **12-16:** You jump 1 square longer and higher than your baseline jump allows.
@@ -243,19 +243,19 @@ If you want to jump even longer or higher than your baseline jump allows, make a
 
 You can't jump farther or higher than the distance of the effect that allows you to move. You can't jump out of difficult terrain or damaging terrain (see below).
 
-## Crawl
+##### Crawl
 
 If you are prone (see [Conditions](#page-91-2) in [Chapter 5: Classes](#page-83-2)), you can remain prone and crawl on the ground. Doing so costs you 1 additional square of movement for every square you crawl. If you intentionally want to crawl, you can fall prone as a free maneuver. While voluntarily prone, you can choose to stand as a free maneuver.
 
-#### Fly
+##### Fly
 
 A creature who has "fly" in their speed entry, or who gains the temporary ability to fly, can move through the air vertically or horizontally at full speed and remain in midair. If a flying creature is knocked prone or has their speed reduced to 0, they fall (see [Falling](#page-283-3) below).
 
-#### Hover
+##### Hover
 
 A creature who has "hover" in their speed entry (most commonly alongside "fly" or "teleport"), or who gains the temporary ability to hover, can remain motionless in midair. They don't fall even if they are knocked prone or their speed is reduced to 0.
 
-## Teleport
+##### Teleport
 
 When a creature teleports, they move from one space to another space instantaneously. The following rules apply to teleporting:
 
@@ -275,11 +275,11 @@ When a creature falls 2 or more squares and lands on the ground, they take 2 dam
 
 Falling is not forced movement, but being force moved downward is considered falling (see [Falling](#page-283-3) below). Movement from falling doesn't provoke opportunity attacks (see [Opportunity Attacks](#page-289-4) below).
 
-#### Falling Onto Another Creature
+##### Falling Onto Another Creature
 
 A creature who falls and lands on another creature causes that creature to take the same damage from the fall. The falling creature then lands prone in the nearest unoccupied space of their choice. If the falling creature's size is greater than the Might score of the creature they land on, that creature is knocked prone.
 
-#### Falling Far
+##### Falling Far
 
 When a creature first falls from a great height, they fall 100 squares in the first round. At the end of each subsequent round that they remain falling, they fall another 100 squares.
 
@@ -290,14 +290,6 @@ Areas of thick underbrush, rubble, spiderwebs, or other obstacles to movement cr
 #### Damaging Terrain
 
 Areas of acid, fire, sharp rocks, lava, or any other terrain that causes damage to creatures within it is damaging terrain. The damage dealt by damaging terrain is noted in the terrain's description or in the description of the effect that creates the terrain.
-
-######## High Ground
-
-The talent stands atop a 3-square-high tower, which is higher than any other creature. They gain an edge on all power rolls made against their enemies in the diagram. The goblin assassin and war dog commando stand on structures that are 2 squares high. They gain an edge on ability rolls against the tactician, who is standing on the ground, but not against the talent.
-
-######## Difficult Terrain
-
-A fury with speed 6 takes the Advance move action across a field with water and bushes that create difficult terrain (indicated by the blue squares on the map). Each highlighted path indicates how many squares of movement they must use while moving through or avoiding difficulty terrain. Their movement can't exceed 6 squares.
 
 #### High Ground
 
@@ -317,11 +309,11 @@ When you force move a target, you can always move that target fewer squares than
 
 Forced movement ignores difficult terrain and never provokes opportunity attacks. When you force move a target into damaging terrain or into terrain that produces an effect, they are affected as if they had moved into it willingly.
 
-######## Multitarget Abilities and Forced Movement
+> **Multitarget Abilities and Forced Movement**
+> 
+> Some creatures can force move multiple creatures or objects with a single ability. Unless the ability specifies otherwise, the creature using the ability determines the order in which the targets are force moved. The creature should select each target individually and complete their forced movement before force moving the next target affected.
 
-Some creatures can force move multiple creatures or objects with a single ability. Unless the ability specifies otherwise, the creature using the ability determines the order in which the targets are force moved. The creature should select each target individually and complete their forced movement before force moving the next target affected.
-
-## Vertical
+##### Vertical
 
 If a forced movement effect has the word "vertical" in front of it, then the forced movement can move a target up or down in addition to horizontally. For example, if a forced movement effect says "vertical push 5," then a creature targeted by the effect can be pushed up to 5 squares in any direction, as long as the forced movement is a straight line.
 
@@ -329,21 +321,13 @@ If a creature who can't fly is left in midair at the end of a vertical forced mo
 
 Though you can't freely push, pull, or slide a target up and down unless that forced movement specifies "vertical," you can move them along a physical slope such as a hill or staircase. For a target to be force moved along a slope, each square of the slope can be no more than 1 square higher or lower than the previous square.
 
-### Big Versus Little
+##### Big Versus Little
 
 When a larger creature force moves a smaller target with a melee weapon ability, the distance of the forced movement is increased by 1. If a smaller creature force moves a larger target with a melee weapon ability, the distance doesn't change.
 
-#### Slamming into Creatures
+##### Slamming into Creatures
 
 When you force move a creature into another creature, the movement ends and both creatures take 1 damage for each square remaining in the first creature's forced movement. You can also force move an object into a creature. The object's movement ends, and the creature takes 1 damage for each square remaining in the object's forced movement.
-
-######## Vertical Forced Movement
-
-The talent verically slides the goblin spinecleaver 3 squares up into the air and off of a cliff. The goblin falls 5 squares, taking 10 damage and landing prone from the fall.
-
-######## Forced Movement
-
-The fury pushes a war dog commando 2 squares. The censor pulls a commando 2 squares. The elementalist slides a commando 2 squares. Each commando can end up anywhere in the indicated area of their forced movement on the diagram.
 
 It's possible to move a creature or object of a larger size into several creatures of a smaller size at the same time. When this happens, the larger creature in the collision takes damage only once, not once for each smaller creature they slam into.
 
@@ -351,27 +335,23 @@ If a creature is killed by damage from an ability or effect that also force move
 
 You can force move another creature into yourself with a pull or a slide.
 
-######## Slamming Into Creatures
-
-The null slides a war dog commando 5 squares. The null force moves the commando 1 square and then slams them into another adjacent commando. The forced movement ends, and both commandos take 4 damage, since the forced movement still had 4 squares remaining when the commandos collided.
-
-#### Slamming Into Objects
+##### Slamming Into Objects
 
 When a creature force moves a target into a stationary object that is the target's size or larger and the object doesn't break (see below), the movement ends and the target takes 2 damage plus 1 damage for each square remaining in their forced movement.
 
 If you force move a creature downward into an object that doesn't break (including the ground), they also take falling damage as if they had fallen the distance force moved and their Agility score was 0 (see [Falling](#page-283-3) above).
 
-######## Tracking Object Forced-Movement Damage
+> **Tracking Object Forced-Movement Damage**
+> 
+> At the Director's discretion, mundane objects that are force moved into creatures or other objects take damage as if they were creatures. Sturdy objects can take damage as follows before they are destroyed:
+> 
+> - **Wood object:** 3 damage for each square it occupies
+> - **Stone object:** 6 damage for each square it occupies
+> - **Metal object:** 9 damage for each square it occupies
+> 
+> More fragile objects are destroyed after taking any damage.
 
-At the Director's discretion, mundane objects that are force moved into creatures or other objects take damage as if they were creatures. Sturdy objects can take damage as follows before they are destroyed:
-
-- ¥**Wood object:** 3 damage for each square it occupies
-- ¥**Stone object:** 6 damage for each square it occupies
-- ¥**Metal object:** 9 damage for each square it occupies
-
-More fragile objects are destroyed after taking any damage.
-
-#### Hurling Through Objects
+##### Hurling Through Objects
 
 When you move a creature into a mundane object, the object can break depending on how many squares of forced movement remain. The cost of being slammed into an object is tied to the damage a target takes for being hurled through it:
 
@@ -382,29 +362,25 @@ When you move a creature into a mundane object, the object can break depending o
 
 If any forced movement remains after the object is destroyed, you can continue to move the creature who destroyed the object.
 
-######## Hurling Through Objects
-
-The null slides a war dog commando 5 squares. The null force moves the commando 1 square and then slams them into a thick wooden wall. The null forces the commando through the first square of the wall by using 3 squares of forced movement, resulting in the commando taking 5 damage. The commando still has 1 square of forced movement left, so they are pushed into the next square of the wall, which doesn't break but does result in the commando's forced moment ending and them taking another 3 damage: 1 for the square of forced movement leftover and 2 for colliding with an object.
-
-#### Forced Into a Fall
+##### Forced Into a Fall
 
 If you can't fly and are force moved across an open space that would cause you to fall, such as being pushed over the edge of a cliff, you continue moving the total distance you were moved first. If you are still in a position to fall when the foced movement ends, you fall.
 
-#### Stability
+##### Stability
 
 Each creature has a stability that allows them to resist forced movement. When a creature is force moved, they can reduce that movement up to a number of squares equal to their stability. Heroes start with stability 0 and can increase their stability through ancestry, class, and kit options.
 
 A creature's stability can't be less than 0, even when reduced by a penalty.
 
-#### "When a Creature Moves …"
+##### "When a Creature Moves …"
 
 Certain abilities and effects trigger when a creature moves into a particular area. Forced movement triggers these options unless otherwise noted, including an effect stating that a creature must willingly move to trigger it.
 
-#### Death Effects and Forced Movement
+##### Death Effects and Forced Movement
 
 Some creatures have traits or abilities that trigger when they die or are reduced to 0 Stamina. If such a creature is reduced to 0 Stamina by damage from an ability or effect that also force moves them, the forced movement takes place before the triggered effect.
 
-## Move Actions
+### Move Actions
 
 A move action allows a creature to move around the battlefield. Sometimes you'll already be exactly where you want to be so that you don't need to use a move action on your turn. That's okay! The decision to not move is just as tactical as the decision to move.
 
@@ -420,9 +396,7 @@ When a creature takes the Disengage move action, they can shift 1 square. Certai
 
 A creature can take the Ride move action only while mounted on another creature (see [Mounted Combat](#page-293-0) below). When a creature takes the Ride move action, they cause their mount to move up to the mount's speed, taking the rider with them. Alternatively, a creature can use the Ride move action to have their mount use the Disengage move action as a free triggered action. A creature can use the Ride move action only once per round. A mounted creature can only have this move action applied to them once per round. This movement can be broken up with the rider's maneuver and main action however they wish.
 
-# Combat
-
-## Maneuvers
+### Maneuvers
 
 A maneuver typically involves less focus and exertion than a main action (see below). It can be an opportunity to move other creatures, drink a potion, or undertake similar activities.
 
@@ -441,6 +415,17 @@ A creature who is dying (see [Dying and Death](#page-292-1) in [Stamina](#page-2
 #### Escape Grab
 
 A creature who is grabbed by another creature, an object, or an effect (see [Grab](#page-287-5) below) can attempt to escape by using the following ability.
+
+######## Escape Grab
+
+| **-**       | **Maneuver** |
+|-------------|-------------:|
+| **📏 Self** |  **🎯 Self** |
+
+**Power Roll + Might or Agility:**
+
+- **≤11:** No effect.
+- **12-16:** You can escape the grab, but if you do, a creature who has you grabbed can make a melee free strike against you before you are no longer grabbed.
 - **17+:** You are no longer grabbed.
 
 **Effect:** You take a bane on this maneuver if your size is smaller than the size of the creature, object, or effect that has you grabbed.
@@ -451,19 +436,13 @@ See [Conditions](#page-91-2) in [Chapter 5: Classes](#page-83-2) for information
 
 A creature seeking to keep a foe close and locked down can attempt to grab a creature using the following ability.
 
-| Grab |
-|------|
-|      |
+######## Grab
 
-| | Melee 1 |
-|------------------------|---------|
-|------------------------|---------|
+| **Melee, Weapon** |        **Maneuver** |
+|-------------------|--------------------:|
+| **📏 Melee 1**    | **🎯 One creature** |
 
-| **Melee, Weapon** | **Maneuver** |
-| --- | ---:|
-| **📏 Melee 1** | **🎯 One creature** |
-
-**Power Roll** + Might**:**
+**Power Roll + Might:**
 
 - **≤11:** No effect.
 - **12-16:** You can grab the target, but if you do, the target can make a melee free strike against you before they are grabbed.
@@ -479,26 +458,24 @@ See [Conditions](#page-91-2) in [Chapter 5: Classes](#page-83-2) for information
 
 Using the Hide maneuver, a creature attempts to hide from other creatures who aren't observing them while they have cover or concealment. See Hide and Sneak in Chapter 9: Tests for full details.
 
-######## Hiding
-
-To become hidden, the shadow can't be observed by the war dog crucibite, so they must get out of the crucibite's line of effect. In this situation, the shadow could do this by moving to put a wall between them and the crucibite or moving up onto a roof.
-
 #### Knockback
 
 A creature wanting to push an adjacent creature away from them can attempt to shove that creature using the following ability.
 
-| Knockback                  |                               |
-|----------------------------|-------------------------------|
-| **Melee, Weapon**       | **Maneuver**               |
-| Melee 1  | 1 creature |
-| **Power Roll + Might:** |                               |
-| ≤11                        | Push 1                        |
-| 12-16                      | Push 2                        |
-| 17+                        | Push 3                        |
+######## Knockback
+
+
+| **Melee, Weapon** |        **Maneuver** |
+|-------------------|--------------------:|
+| **📏 Melee 1**    | **🎯 One creature** |
+
+**Power Roll + Might:**
+
+- **≤11:** Push 1
+- **12-16:** Push 2
+- **17+:** Push 3
 
 **Effect:** You can usually target only creatures of your size or smaller. If your Might score is 2 or higher, you can target any creature with a size equal to or less than your Might score.
-
-![](_page_288_Picture_0.jpeg)
 
 #### Make or Assist a Test
 
@@ -518,7 +495,7 @@ A creature can use the Stand Up maneuver to stand up if they are prone, ending t
 
 Unless otherwise noted in its description, a creature can activate a consumable treasure such as a potion with the Use Consumable maneuver. A creature can use this maneuver to administer a consumable treasure that benefits the user either to themself or to a willing adjacent creature. See [Consumables](#page-328-0) in [Chapter 13: Rewards](#page-327-1).
 
-## Main Actions
+### Main Actions
 
 When you take a main action, you most often do so to use a unique ability granted by your class, kit, or a treasure (see [Abilities](#page-83-0) in [Chapter 5: Classes](#page-83-2)). These abilities represent the most unique, flavorful, and impactful things you can do with your main action.
 
@@ -544,7 +521,7 @@ A creature can use this main action to make a free strike (see [Free](#page-289-
 
 A creature who uses the Heal main action employs medicine or inspiring words to make an adjacent creature feel better and stay in the fight. The target creature can spend a Recovery to regain Stamina, or can make a saving throw against one effect they are suffering that is ended by a saving throw.
 
-## Free Strikes
+### Free Strikes
 
 Every creature can use a free strike ability as a main action on their turn, though doing so typically isn't the most effective choice. Most of the time, you'll use free strikes when the rules call for it. Specific rules let you use free strikes as part of an action that allows you to also do something else impactful, such as how the Charge main action lets you move and use a melee free strike in one main action (see Charge above).
 
@@ -566,28 +543,31 @@ Every hero has two standard free strike abilities available to them. Your class 
 
 A melee weapon free strike is a melee strike made with an unarmed strike or an improvised weapon. A ranged weapon free strike is a ranged strike made with an improvised weapon. At the Director's discretion, the damage type of an improvised weapon can change based on the object used. For example, if you use a burning torch as an improvised weapon, it could deal fire damage when used for a free strike.
 
+######## Melee Weapon Free Strike
+
+| **Charge, Melee, Stike, Weapon** |               **Main Action** |
+| -------------------------------- | -----------------------------:|
+| **📏 Melee 1**                   | **🎯 One creature or object** |
+
+**Power Roll + Might or Agility:**
+
+- **≤11:** 2 + M or A damage
+- **12-16:** 5 + M or A damage
+- **17+:** 7 + M or A damage
+
+######## Ranged Weapon Free Strike
+
+| **Ranged, Stike, Weapon** |               **Main Action** |
+|---------------------------| -----------------------------:|
+| **📏 Ranged 5**           | **🎯 One creature or object** |
+
 **Power Roll + Might or Agility:**
 
 - **≤11:** 2 + M or A damage
 - **12-16:** 4 + M or A damage
 - **17+:** 6 + M or A damage
 
-- Move 3
-- Shift 3
-
-######## Opportunity Attacks
-
-The tactician can't make any opportunity attacks against these adjacent war dogs as they move. Despite moving, the commando never stops being adjacent to the tactician, and the crucibite shifts away instead of moving.
-
-######## Opportunity Attacks: Moving Out
-
-A war dog crucibite moves out of a space that is adjacent to the tactician and into a space that isn't adjacent. The tactician can make an opportunity attack against the crucibite.
-
-######## Opportunity Attacks: Moving With Banes
-
-The war dog eviservite has a bane on strikes against the adjacent censor, so the censor can freely move away from the evisercite without worrying about the war dog making an opportunity attack.
-
-## Flanking
+### Flanking
 
 When you and one or more allies are adjacent to the same enemy and on opposite sides of the enemy, you are flanking that enemy. While flanking an enemy, you gain an edge on melee strikes against them.
 
@@ -595,21 +575,11 @@ If you're unsure whether your hero and an ally are flanking a foe, imagine a lin
 
 You must have line of effect to the enemy and be able to take triggered actions to gain or grant the flanking benefit.
 
-######## Flanking
-
-The censor flanks the war dog commando with the fury, since they are on directly opposite sides of their enemy. The troubadour isn't flanking the creature with the censor though, since they aren't on directly opposite sides. The shadow can't flank the crucibite with the conduit because the conduit is dazed, which prevents them from taking triggered actions.
-
-######## Flanking
-
-The tacitician flanks the war dog amalgamite with the elementalist and talent, since they are on directly opposite sides of their enemy. No heroes flank the other amalgamite. The censor, using an ability with a distance of melee 2, isn't adjacent to the amalgamite and so can't flank with the shadow. The fury and null aren't on directly opposite sides of the amalgamite, and so they aren't flanking their enemy either.
-
-## Cover
+### Cover
 
 When you have line of effect to a creature or object but that target has at least half their form blocked by a solid object such as a tree, wall, or overturned table, the target has cover. You take a bane on damage-dealing abilities used against creatures or objects that have cover from you.
 
-The war dog commando has cover against a strike from the tacitician, since a low wall between them covers half of the commando's body. The tacitician can't attack the crucibite, since much higher walls completely block the crucibite's body, and therefore the tacitician does not have line of effect to the crucibite.
-
-## Concealment
+### Concealment
 
 Darkness, fog, invisibility magic, and any other effect that fully obscures a creature or object but doesn't protect their physical form grants that creature or object concealment. Even if you have line of effect to such a target, a creature or object has concealment from you if you can't see or otherwise observe them. You can target a creature or object with concealment using a strike, provided they aren't hidden (see [Hide](#page-272-1)  [and Sneak](#page-272-1) in [Chapter 9: Tests](#page-263-0)). However, strikes against such targets take a bane.
 
@@ -617,7 +587,7 @@ Darkness, fog, invisibility magic, and any other effect that fully obscures a cr
 
 Invisible creatures always have concealment from other creatures. If an invisible creature isn't hidden, they can still be targeted by abilities. The test made to find a hidden creature who is invisible takes a bane.
 
-## Damage
+### Damage
 
 Strikes, area attacks, environmental effects, and other hazards can all deal damage to the heroes and their foes. Whenever a creature takes damage, they reduce their Stamina (see below) by an amount equal to the damage taken.
 
@@ -627,7 +597,7 @@ Typical damage, such as that caused by weapons, falling, traps, and monstrous cl
 
 However, when it comes to elemental and supernatural damage sources, some creatures might have an immunity or weakness to that damage. As such, abilities and effects note when they deal any of the following damage types: acid, cold, corruption, fire, holy, lightning, poison, psychic, or sonic.
 
-## Damage Immunity
+##### Damage Immunity
 
 Damage immunity means that a creature can ignore some or all of the damage they would usually take from certain attacks or effects.
 
@@ -637,7 +607,7 @@ Damage immunity should be the last thing applied when calculating damage. For in
 
 If multiple damage immunities apply to a source of damage, only the immunity with the highest value applies. For instance, a creature with damage immunity 5 and fire immunity 10 who takes 12 fire damage reduces the damage by 10 points.
 
-## Damage Weakness
+##### Damage Weakness
 
 Damage weakness works like damage immunity, except that creatures take extra damage whenever they take damage of the indicated type. For instance, if a creature has fire weakness 5 and is dealt 10 fire damage, they take 15 fire damage instead.
 
@@ -647,7 +617,7 @@ If a creature has both damage immunity and damage weakness for a source of damag
 
 If multiple damage weaknesses apply to a source of damage, only the weakness with the highest value applies.
 
-## Stamina
+### Stamina
 
 Your hero's survivability is represented by your Stamina. Think of Stamina as a combination of a creature's physical vitality and their overall energy for dodging and resisting incoming blows, spells, and other violence. It's not that every instance of damage deals a bleeding wound to you, but that each one chips away at your ability to fight effectively. One attack might make you sweat as you leap back to avoid an arrow, while another might graze your elbow with a dagger nick, leaving a dull, distracting pain. Eventually, this draining of energy leaves you open for bigger blows that can truly harm your body—or possibly kill you.
 
@@ -673,7 +643,7 @@ While your Stamina is lower than 0, if it reaches the negative of your winded va
 
 In most circumstances, Director-controlled creatures die or are destroyed when their Stamina drops to 0.
 
-#### No Recoveries
+##### No Recoveries
 
 Director-controlled creatures don't have Recoveries or a recovery value. Any such creatures who regain Stamina during a battle do so by way of a special item or an ability in their stat block. However, there are times when a hero might wish to use an ability that allows another creature to spend a Recovery or to regain Stamina equal to their recovery value on an injured NPC. In such cases, a Director-controlled creature regains Stamina equal to one-third of their Stamina maximum.
 
@@ -685,7 +655,7 @@ Director-controlled creatures remain unconscious for 1 hour if no one does anyth
 
 Heroes remain unconscious for 1 hour if no one does anything to wake them. After 1 hour, they can spend a Recovery and are no longer unconscious. If the hero has no Recoveries left, they can't wake up until they finish a respite.
 
-#### Unconscious
+##### Unconscious
 
 While you are unconscious, you can't take main actions, maneuvers, triggered actions, free triggered actions, or free maneuvers; your speed is 0; you are unaware of your surroundings; and you are prone. Ability rolls against you have a double edge. If you wake up from being unconscious, you can stand up from prone as a free maneuver.
 
@@ -710,17 +680,17 @@ Mundane objects in the game have Stamina based on the material they're made of. 
 
 The Director can decide that a well-made or poorly made object has more or less Stamina. Destroying a supernatural object often (but not always) requires a specific quest, such as throwing a magic ring back into the volcano where it was forged.
 
-## Underwater Combat
+### Underwater Combat
 
 If a creature is fully submerged in water, they have fire immunity 5 and lightning weakness 5. If they can't automatically swim at full speed while moving, their power rolls take a bane.
 
-## Suffocating
+### Suffocating
 
 During combat or under similarly stressful circumstances, you can hold your breath for a number of combat rounds equal to your Might score (minimum 1 round). At the end of each combat round after that, you take 1d6 damage while holding your breath.
 
 Out of combat, you can hold your breath for a number of minutes equal to your Might score. Being unable to breathe after that time counts as a stressful condition, causing you to run out of air as above.
 
-## Mounted Combat
+### Mounted Combat
 
 A willing creature with the Mount role (see Creature Roles in *[Draw Steel: Monsters](https://mcdm.gg/DS-Monsters)*) can serve as your mount as long as their size is greater than yours. You can climb onto your mount freely (see [Climbing Other Creatures](#page-283-8) above). You determine which space you occupy. While mounted, you can take the Ride move action, but a mount can only be ridden this way once per round. Both mount and rider each take a turn during combat.
 
@@ -728,7 +698,7 @@ If a creature riding a mount is force moved, they are knocked off the mount and 
 
 If your mount dies, they fall prone, and you fall off them and land prone in the nearest unoccupied space of your choice.
 
-## End of Combat
+### End of Combat
 
 At the end of combat, the Director determines if the heroes earn any Victories. Any effect or condition on you that you suffered during combat (except for being winded, unconscious, or dying) ends if you want it to.
 
@@ -746,47 +716,47 @@ While planning a combat encounter, the Director can set one or more objectives t
 
 Each of the objective endings in this section is explored in detail including looking at monster roles, map advice, success conditions, and more—in the Introduction section of *[Draw Steel: Monsters](https://mcdm.gg/DS-Monsters)*.
 
-## Diminish Numbers
+##### Diminish Numbers
 
 The simplest combat encounter objective is almost always "defeat them before they defeat us." Though the heroes don't have to kill every last enemy in this type of encounter, winning the day requires that they push their opponents to the point where they are broken, flee, or surrender.
 
-## Defeat a Specific Foe
+##### Defeat a Specific Foe
 
 An encounter built around defeating a specific foe includes one or more of the heroes' enemies commanding the rest, such as a hobgoblin bloodlord leading a group of mercenaries, or one or more particularly powerful foes among a group of weaker ones, such as a pair of tusker demons in a gnoll war band. Because these more-powerful enemies are the stars of the encounter, if only weak foes are left once the stars are gone, the battle loses its challenge and it's time to wrap it up. It makes sense for those weaker foes to flee or surrender once their strongest allies have gone down.
 
-## Get the Thing!
+##### Get the Thing!
 
 Classic heroic fantasy is full of important objects that the heroes must protect from the forces of evil: magic rings, royal birth certificates, dragon eggs, and the like. Heroes often find themselves at violent odds with their enemies as they race to collect a valuable or important item from a guarded temple or castle, or when they need to steal the item from a group of enemies already in possession of it.
 
 Objectives in this category work well when paired with other objectives, such as defeating a specific foe. For instance, the heroes must steal a ledger containing a record of criminal activity from an overmind and her lackeys. However, even if they obtain the ledger, the battle won't be over until they also defeat the overmind, who won't let the book go without a fight!
 
-#### Destroy the Thing!
+##### Destroy the Thing!
 
 Combat doesn't always have to be about destroying your enemies. Sometimes it's about destroying their stuff! Burning a pirate captain's vessel, closing a portal to the Abyssal Wasteland before it lets in an army of demons, or shutting down a massive kobold trap made of spinning blades could so hamper the heroes' foes that the battle is no longer worth fighting once the damage is done.
 
-#### Save Another
+##### Save Another
 
 No one earns the mantle of hero without saving a few lives. Sometimes the point of an encounter isn't to kill, but to save as many folks as you can. If the heroes rescue powerful allies from the clutches of their foes during combat, the added strength of those allies might be enough to make the remainder of the encounter trivial. When you and your companions save a griffon from a crew of poachers, the hunters become the … well, you know the rest.
 
-#### Escort
+##### Escort
 
 Surprising as it may seem, sometimes the fate of the mission doesn't rest on the heroes' shoulders at all! Sometimes it rests on the shoulders of someone standing next to the heroes. The heroes' job is to keep this important person safe as they travel to a specific destination.
 
 Not every escort encounter is on behalf of a wise or mighty ally. Sometimes the heroes are tasked with protecting a helpless or even an actively troublesome creature, such as a hapless noble or a wayward child. They might even have to protect a bulky or inconvenient inanimate object. Whatever the case, the enemies just keep coming until the heroes get their charge to their destination.
 
-#### Hold Them Off
+##### Hold Them Off
 
 Sometimes the heroes just need to buy time. They might need to battle a conquering tyrant's army to allow innocent villagers time to escape. They might need to hold off wave after wave of zombies while a group of priests completes a ritual to lay the undead to rest for good. To achieve this objective, the heroes need to stay alive and protect a particular position for a number of rounds determined by you.
 
-#### Assault the Defenses
+##### Assault the Defenses
 
 The enemy holds a strategically important position and the heroes want it. The encounter ends when the heroes secure the objective defensive location for themselves, even if there are more enemies outside it. Sometimes an encounter with this objective is part of a combined objective, as when heroes must first assault the defenses, then hold that defensive position against counterattack.
 
-#### Stop the Action
+##### Stop the Action
 
 Sometimes combat is complicated by the fact that the heroes need to stop the villainous actions of their foes. It's not enough to simply defeat the warriors in a cult. The heroes must also stop the zealots' archdevil-summoning ritual! Or it might be that the heroes need to interrupt a wedding and make sure an evil mage doesn't marry the heir to the throne. Despite combat, the mage forces the ceremony to continue! Objectives in this category have a timer associated with them. If the heroes don't achieve the objective in a certain number of rounds, the conditions of the battle could well change. For instance, if the cultists summon the archdevil, defeating the devil suddenly becomes the heroes' new objective!
 
-#### Complete the Action
+##### Complete the Action
 
 This encounter objective sees the characters charged with initiating an event, performing a ritual, and so forth. For instance, if the heroes are attempting to launch an airship while repelling a time raider boarding party, the encounter could be over the moment the heroes manage to activate the vessel and take off with just a few time raiders actually aboard.
 
@@ -800,8 +770,8 @@ If the Director calls the end of combat when a specific objective in an encounte
 
 Event endings can cover big scenarios such as the characters destroying a dam to unleash a river upon their enemies, or completing a ritual that causes all the demons they've been battling to be sent back to the Abyssal Wasteland, accompanied by visual details. For example, if the heroes are battling a necromancer who controls a horde of zombies, the undead might all crumble to dust when the necromancer is defeated. If the heroes destroy an eldritch machine sapping the land of its natural energy, the shockwave from the device's destruction could vaporize the cultists attempting to protect it.
 
-######## Fleeing Foes
-
-If you've played a fantasy RPG before, odds are you've had an encounter where you didn't chase down every last fleeing foe—and then one such foe grabbed another bunch of evil buddies and came back to ambush you. It takes only one experience like this to create players who promise, "No survivors. No mercy!" whenever foes break ranks. Chasing down every last foe can be fun once in a while, but it can easily turn a tactical encounter into a slog.
-
-Luckily, this is a heroic game. Although the Director can surprise the players with dramatic reveals and twisty-turny stories, "Gotcha!" moments that make players suspicious of every fleeing bandit shouldn't be part of those stories. If a bandit is fleeing an encounter, they're running away to rethink their life. If they're going for help, the players should get some sense of that—for example, the bandit screaming at the top of their lungs for help as they run toward their leader's tent. That way, the players can process what's happening, and will understand that stopping that fleeing bandit is part of the challenge of the encounter.
+> **Fleeing Foes**
+> 
+> If you've played a fantasy RPG before, odds are you've had an encounter where you didn't chase down every last fleeing foe—and then one such foe grabbed another bunch of evil buddies and came back to ambush you. It takes only one experience like this to create players who promise, "No survivors. No mercy!" whenever foes break ranks. Chasing down every last foe can be fun once in a while, but it can easily turn a tactical encounter into a slog.
+> 
+> Luckily, this is a heroic game. Although the Director can surprise the players with dramatic reveals and twisty-turny stories, "Gotcha!" moments that make players suspicious of every fleeing bandit shouldn't be part of those stories. If a bandit is fleeing an encounter, they're running away to rethink their life. If they're going for help, the players should get some sense of that—for example, the bandit screaming at the top of their lungs for help as they run toward their leader's tent. That way, the players can process what's happening, and will understand that stopping that fleeing bandit is part of the challenge of the encounter.
