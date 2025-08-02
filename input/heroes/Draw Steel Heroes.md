@@ -4590,6 +4590,7 @@ You pick out the enemies most worthy of your wrath and place a divine judgment u
 Whenever a creature judged by you uses a main action and is within your line of effect, you can use a free triggered action to deal holy damage equal to twice your Presence score to them.
 When a creature judged by you is reduced to 0 Stamina, you can use a free triggered action to use this ability against a new target.
 Additionally, you can spend 1 wrath to take one of the following free triggered actions:
+
 - When an adjacent creature judged by you starts to shift, you make a melee free strike against them and their speed becomes 0 until the end of the current turn, preventing them from shifting.
 - When a creature judged by you within 10 squares makes a power roll, you cause them to take a bane on the roll.
 - When a creature judged by you within 10 squares uses an ability with a potency that targets only one creature, the potency is reduced by 1 for that creature.
@@ -6067,6 +6068,7 @@ You have the following ability, which you can use once on your turn.
 **Effect:** The target can spend a Recovery.
 
 **Spend 1+ Piety:** For each piety spent, choose one of the following enhancements:
+
 - You can target one additional ally within distance.
 - You can end one effect on a target that is ended by a saving throw or that ends at the end of their turn.
 - A prone target can stand up.
@@ -6468,6 +6470,7 @@ Choose one of your domains. You gain a heroic ability from that domain, as shown
 | **📏 Ranged 10**   | **🎯 Three creatures** |
 
 **Effect:** You can target yourself instead of one creature with this ability. Choose one of the following effects, which lasts until the end of the encounter or until you are dying:
+
 - Whenever a target makes a power roll, they can roll three dice and choose which two rolls to use.
 - Whenever a target makes a power roll, they must roll three dice and use the lowest two rolls.
 
@@ -8121,6 +8124,7 @@ Choose one heroic ability from the following options, each of which costs 5 esse
 | **📏 3 cube within 10**               | **🎯 Special** |
 
 **Effect:** Until the start of your next turn, the area gains the following effects:
+
 - Once as a free maneuver at the start of your turn, you allow yourself and each ally in the area to spend any number of Recoveries.
 - The area is difficult terrain for enemies.
 - Each enemy who enters the area for the first time in a combat round or starts their turn there takes damage equal to your Reason score.
@@ -8500,6 +8504,7 @@ Choose one heroic ability from the following options, each of which costs 9 esse
 | **📏 Ranged 10**                      | **🎯 Self or one ally** |
 
 **Effect:** Until the start of your next turn, the target has the following benefits:
+
 - Their size and stability increase by 2, with any size 1 target becoming size 3. Each creature who is within the target's new space slides to the nearest unoccupied space, ignoring stability. If the target doesn't have space to grow, they grow as much as they can and become restrained until the effect ends.
 - They have fire immunity 10.
 - Their strikes deal extra fire damage equal to twice your Reason score.
@@ -10364,6 +10369,7 @@ You project a psionic field of order around your body, dampening the effects of 
 **Effect:** Each target reduces their potencies by 1.
 
 Once as a free maneuver on each of your turns, you can spend 1 discipline and give your Null Field one of the following additional effects until the start of your next turn:
+
 - Gravitic Disruption: The first time on a turn that a target takes damage, you can slide them up to 2 squares.
 - Inertial Anchor: Any target who starts their turn in the area can't shift.
 - Synaptic Break: Whenever you or any ally uses an ability against a target that has a potency effect, the potency is increased by 1.
@@ -12801,6 +12807,7 @@ You know how to focus the attention of your allies as you push them toward victo
 **Effect:** The target is marked by you until the end of the encounter, until you are dying, or until you use this ability again. You can willingly end your mark on a creature (no action required), and if another tactician marks a creature, your mark on that creature ends. When a creature marked by you is reduced to 0 Stamina, you can use a free triggered action to mark a new target within distance.
 You can initially mark only one creature using this ability, though other tactician abilities allow you to mark additional creatures at the same time. The mastermind tactical doctrine's Anticipation feature allows you to target additional creatures with this ability starting at 5th level.
 While a creature marked by you is within your line of effect, you and allies within your line of effect gain an edge on power rolls made against that creature. Additionally, whenever you or any ally uses an ability to deal rolled damage to a creature marked by you, you can spend 1 focus to gain one of the following benefits as a free triggered action:
+
 - The ability deals extra damage equal to twice your Reason score.
 - The creature dealing the damage can spend a Recovery.
 - The creature dealing the damage can shift up to a number of squares equal to your Reason score.
@@ -14830,6 +14837,7 @@ Choose one heroic ability from the following options, each of which costs 11 cla
 | **📏 Ranged 10**                 | **🎯 Self or one ally** |
 
 **Effect:** Choose two of the following effects:
+
 - The target can spend any number of Recoveries.
 - The target gains 1 of their Heroic Resource, and can end any effects on them that are ended by a saving throw or that end at the end of their turn.
 - The target gains 2 surges, and gains a +3 bonus to speed until the end of the encounter.
@@ -15201,6 +15209,7 @@ You have the following ability.
 | **📏 Ranged 10**  | **🎯 Special** |
 
 **Effect:** Choose one of the following effects:
+
 - You orate a rousing tale of victory. One ally within distance gains an edge on the next power roll they make before the start of your next turn.
 - You weave a tale of high-stakes heroics. One ally within distance gains 1 surge.
 - You insult a foe where they're most vulnerable. One enemy within distance takes a bane on the next power roll they make before the end of their next turn.
@@ -16145,6 +16154,7 @@ Choose one heroic ability from the following options, each of which costs 11 dra
 | **📏 Self** |  **🎯 Self** |
 
 **Effect:** Until the end of the encounter, whenever you deal rolled damage to a creature or object, or enable a creature to spend a Recovery, you can use a free triggered action to give that creature or object one of the following effects until the start of your next turn. If this ability is triggered by multiple targets taking damage or multiple creatures spending Recoveries simultaneously, each target receives the same effect:
+
 - The target has damage weakness equal to your Presence score against any magic, psionic, or weapon ability.
 - The target has damage immunity equal to your Presence score.
 - The target has a bonus to stability and a penalty to speed equal to your Presence score.
@@ -17479,6 +17489,7 @@ You have the following ability.
 | **📏 Self; see below** |     **🎯 Self** |
 
 **Effect:** Choose one of the following effects:
+
 - You teleport a size 1S or smaller object adjacent to you into an unoccupied space adjacent to you.
 - Until the start of your next turn, a part of your body shoots a shower of harmless noisy sparks that light up each square adjacent to you.
 - You ignite or snuff out (your choice) every mundane light source of 1L or smaller adjacent to you.
@@ -24420,11 +24431,11 @@ Titles suitable for 3rd-echelon characters are presented in alphabetical order.
 - *Swashbuckler:* You can automatically climb at full speed while moving
 - *Treasure Keeper:* You earn 1 Wealth.
 - *Weather Wizard:* Once per day, you can spend 10 uninterrupted minutes to magically alter mundane weather in a 5-mile radius around you. The weather moves with you and persists for 6 hours or until you dismiss it as a free maneuver. Choose from one of the following weather types:
-- *Calm:* Wind-powered vessels and technology cease working
-- *Fog:* Visibility is reduced to 6 squares.
-- *High Winds:* The speed of wind-powered vessels is doubled.
-- *Light Winds:* No effects due to weather.
-- *Storm:* The crew of an unsheltered wind-powered vessel must make a medium group Reason test. On a failure, the vessel needs repairs and moves at half speed until those repairs are made.
+  - *Calm:* Wind-powered vessels and technology cease working
+  - *Fog:* Visibility is reduced to 6 squares.
+  - *High Winds:* The speed of wind-powered vessels is doubled.
+  - *Light Winds:* No effects due to weather.
+  - *Storm:* The crew of an unsheltered wind-powered vessel must make a medium group Reason test. On a failure, the vessel needs repairs and moves at half speed until those repairs are made.
 
 #### Maestro
 

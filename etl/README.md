@@ -32,30 +32,54 @@ This is a mess, ill clean it up one day...[
   - [ ] data-md-dse code to convert abilities/statblocks to dse-codeblocks
 - [ ] Ability cards
 
-## Plan for final PDF
+## TODO
 
-- [ ] Convert with marker, save to `Rules/Draw Steel Heroes_marker_full.md`
-- [ ] Split into Chapters, save each to `Rules/Draw Steel Heroes_wip_ch1.md`
-- [ ] COMMENT OUT CLASSIFICATION GENERATION
-- [ ] Work in chunks (each chapter) to get markdown fully cleaned up. When chapter is converted, move it into `Rules/Draw Steel Heroes.md`
-  - [ ] Chapter 1
-  - [ ] Chapter 2
-  - [ ] Chapter 3
-  - [ ] Chapter 4
-  - [ ] Chapter 5
-  - [ ] Chapter 6
-  - [ ] Chapter 7
-  - [ ] Chapter 8
-  - [ ] Chapter 9
-  - [ ] Chapter 10
-  - [ ] Chapter 11
-  - [ ] Chapter 12
-  - [ ] Chapter 13
-  - [ ] Chapter 14
-  - [ ] Chapter 15
-- [ ] Publish final chunks as they are completed to the site (TODO - code for site to use main branch)
-- [ ] When markdown is fully converted and clean, run ETL E2E for sections, etc
-- [ ] Abilities
+- Glossary links removed
+- span anchors were removed - want them back?
+- pg 72 diagrams removed
+- Bunch of extra data in data formats
+  - ex: tables
+- data file names need to be cleaned of special characters (like `!`)
+- go through the toc and figure out what other dedicated pages i want
+  - wealth
+  - renown
+  - gods
+- extract out tables
+  - kits table
+- 10th level abilities get sorted before 1st in site
+- ability index not being created
+
+```
+        /home/scott.tomaszewski/code/personal/steelCompendium/data-gen/staging/heroes/3_md_sections/Abilities/Tactician/10th-Level Features/Command.md
+        /home/scott.tomaszewski/code/personal/steelCompendium/data-gen/staging/heroes/3_md_sections/Abilities/Tactician/10th-Level Features/Perk.md
+        /home/scott.tomaszewski/code/personal/steelCompendium/data-gen/staging/heroes/3_md_sections/Abilities/Tactician/10th-Level Features/Skill.md
+        /home/scott.tomaszewski/code/personal/steelCompendium/data-gen/staging/heroes/3_md_sections/Abilities/Tactician/10th-Level Features/True Focus.md
+        /home/scott.tomaszewski/code/personal/steelCompendium/data-gen/staging/heroes/3_md_sections/Abilities/Tactician/10th-Level Features/Warmaster.md
+Error: open /home/scott.tomaszewski/code/personal/steelCompendium/data-gen/staging/heroes/3_md_sections/Abilities/Tactician/1st-Level Features/Strike: no such file or directory
+error: Recipe `_get_frontmatter_value` failed with exit code 1
+        /home/scott.tomaszewski/code/personal/steelCompendium/data-gen/staging/heroes/3_md_sections/Abilities/Tactician/1st-Level Features/"Strike Now!".md
+Error: open /home/scott.tomaszewski/code/personal/steelCompendium/data-gen/staging/heroes/3_md_sections/Abilities/Tactician/1st-Level Features/Strike: no such file or directory
+error: Recipe `_get_frontmatter_value` failed with exit code 1
+error: Recipe `gen` failed with exit code 1
+error: Recipe `gen_index_for_each_dir_in` failed with exit code 1
+error: Recipe `gen_heroes_md_unlinked` failed with exit code 1
+error: Recipe `gen` failed with exit code 1
+error: Recipe `gen_heroes` failed with exit code 1
+Command exited with non-zero status 1
+224.39user 87.74system 5:19.53elapsed 97%CPU (0avgtext+0avgdata 585856maxresident)k
+192inputs+171056outputs (1major+30249204minor)pagefaults 0swaps
+Error: error running script "gen" in Devbox: exit status 1
+
+
+
+```
+
+- main, massive page stops right-nav at glossary??
+- Index pages need more frontmatter
+- bulleted lists (https://steelcompendium.io/compendium/main/Rules/Perks/Supernatural%20Perks/Arcane%20Trick/)
+
+
+f
 - [ ] Move to monster book (TODO - code)
 - [ ] draw-steel-elements
   - [ ] Prepare the `data-md-dse` repo (TODO - code)
