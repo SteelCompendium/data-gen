@@ -109,7 +109,7 @@ input_md_cleanup input_fpath output_fpath:
     tmp=$(mktemp)
     {
       echo '---'
-      echo 'title: Draw Steel Heroes'
+      echo 'title: Draw Steel Heroes Book'
       echo '---'
       cat "{{output_fpath}}"
     } > "$tmp" && mv "$tmp" "{{output_fpath}}"

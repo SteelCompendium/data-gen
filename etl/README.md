@@ -38,7 +38,7 @@ This is a mess, ill clean it up one day...[
 - span anchors were removed - want them back?
 - pg 72 diagrams removed
 - Bunch of extra data in data formats
-  - ex: tables
+  - ex: files for tables
 - data file names need to be cleaned of special characters (like `!`)
 - go through the toc and figure out what other dedicated pages i want
   - wealth
@@ -47,14 +47,13 @@ This is a mess, ill clean it up one day...[
 - extract out tables
   - kits table
 - common abilities are in wrong dir
-- document classification on the site
+- docs for classification on the site
 - main, massive page stops right-nav at glossary??
   - likely because it cant handle multiple H1 elements in a single doc
 - Index pages need more frontmatter
 - perks by type
 - extra sections in movement (when a creature moves, etc )
-- kit index links are broken
-- ability_fixes dumps in root dir
+- chapters should have a number prefix to sort correctly
 
 Moving on
 

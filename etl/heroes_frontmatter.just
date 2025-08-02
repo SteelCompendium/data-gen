@@ -48,7 +48,12 @@ generate md_dpath:
         return metadata
 
     def generate_for_chapters(rel_path: Path, metadata: dict, body: str) -> dict:
-        return {"chapter_num": int(metadata["item_index"])}
+        ch_num = int(metadata["item_index"])
+        ch_name = metadata["item_name"]
+        return {
+            "chapter_num": ch_num,
+            "title": f'Chapter {ch_num}: {ch_name}',
+        }
 
     def generate_for_titles(rel_path: Path, metadata: dict, body: str) -> dict:
         m = re.match(r'([0-9+]+)', metadata["type"])
