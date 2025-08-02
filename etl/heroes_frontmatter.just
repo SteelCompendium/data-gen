@@ -48,10 +48,9 @@ generate md_dpath:
         return metadata
 
     def generate_for_chapters(rel_path: Path, metadata: dict, body: str) -> dict:
-        ch_num = int(metadata["item_index"])
+        ch_num = int(metadata["chapter_num"])
         ch_name = metadata["item_name"]
         return {
-            "chapter_num": ch_num,
             "title": f'Chapter {ch_num}: {ch_name}',
         }
 

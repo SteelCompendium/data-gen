@@ -4,19 +4,35 @@ global:
   type: chapter
 sections:
 - header_path: introduction
+  chapter_num: 1
 - header_path: the-basics
+  chapter_num: 2
 - header_path: making-a-hero
+  chapter_num: 3
 - header_path: ancestries
+  chapter_num: 4
 - header_path: background
+  chapter_num: 5
 - header_path: classes
+  chapter_num: 6
 - header_path: kits
+  chapter_num: 7
 - header_path: perks
+  chapter_num: 8
 - header_path: complications
+  chapter_num: 9
 - header_path: tests
+  chapter_num: 10
 - header_path: combat
+  chapter_num: 11
 - header_path: negotiation
+  chapter_num: 12
 - header_path: downtime-projects
+  chapter_num: 13
 - header_path: rewards
+  chapter_num: 14
 - header_path: gods-and-religion
+  chapter_num: 15
 - header_path: for-the-director
+  chapter_num: 16
   section_name: For the Director

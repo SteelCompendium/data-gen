@@ -48,12 +48,11 @@ This is a mess, ill clean it up one day...[
   - kits table
 - common abilities are in wrong dir
 - docs for classification on the site
-- main, massive page stops right-nav at glossary??
-  - likely because it cant handle multiple H1 elements in a single doc
 - Index pages need more frontmatter
 - perks by type
 - extra sections in movement (when a creature moves, etc )
-- chapters should have a number prefix to sort correctly
+- TOC - not showing multiple H1 headers
+- Redo statblocks in markdown
 
 Moving on
 

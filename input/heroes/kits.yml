@@ -5,3 +5,6 @@ global:
 sections:
   - header_path: "kits/kits-a-to-z"
     xpath: "//section[@id='kits']//section[@id='kits-a-to-z']//section[@class='level4']"
+  - header_path: "kits/kits-table"
+    xpath: "//section[@id='kits']//section[@id='kits-table']"
+    type: 'reference_table/kits'

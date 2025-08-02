@@ -41,7 +41,7 @@ gen_indexes root_dpath:
     # TODO - I could spell all these out, but I think I should connect it to the section.yml files?
     sections=( {{section_list}} )
     for section in "${sections[@]}"; do
-        just index gen "{{root_dpath}}/${section}" "{{root_dpath}}/${section}/Index.md" "file_name" "$section"
+        just index gen "{{root_dpath}}/${section}" "{{root_dpath}}/${section}/_Index.md" "file_name" "$section"
     done
 
 ##################################################
