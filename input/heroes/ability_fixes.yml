@@ -2,7 +2,7 @@ global:
   source: "mcdm.heroes.v1"
 sections:
   - source: mcdm.heroes.v1
-    header_path: conduit/1st-level-features/faithful-friend-2
+    header_path: conduit/1st-level-features/faithful-friend-3
     item_name: Faithful Friend
     item_id: faithful-friend
     type: feature/trait/conduit/1st-level-feature
@@ -11,6 +11,32 @@ sections:
     xpath: //section[@id='conduit' or (starts-with(@id, concat('conduit', '-')) and
       not(translate(substring-after(@id, concat('conduit', '-')), '0123456789', '')))]//section[@id='st-level-features'
       or (starts-with(@id, concat('st-level-features', '-')) and not(translate(substring-after(@id,
-      concat('st-level-features', '-')), '0123456789', '')))]//section[@id='faithful-friend-2'
-      or (starts-with(@id, concat('faithful-friend-2', '-')) and not(translate(substring-after(@id,
-      concat('faithful-friend-2', '-')), '0123456789', '')))]
+      concat('st-level-features', '-')), '0123456789', '')))]//section[@id='faithful-friend-3'
+      or (starts-with(@id, concat('faithful-friend-3', '-')) and not(translate(substring-after(@id,
+      concat('faithful-friend-3', '-')), '0123456789', '')))]
+  - source: mcdm.heroes.v1
+    header_path: conduit/1st-level-features/hands-of-the-maker-3
+    item_name: Hands of the Maker
+    item_id: hands-of-the-maker
+    type: feature/trait/conduit/1st-level-feature
+    feature_type: trait
+    file_dpath: Conduit/1st-Level Features
+    xpath: //section[@id='conduit' or (starts-with(@id, concat('conduit', '-')) and
+      not(translate(substring-after(@id, concat('conduit', '-')), '0123456789', '')))]//section[@id='st-level-features'
+      or (starts-with(@id, concat('st-level-features', '-')) and not(translate(substring-after(@id,
+      concat('st-level-features', '-')), '0123456789', '')))]//section[@id='hands-of-the-maker-3'
+      or (starts-with(@id, concat('hands-of-the-maker-3', '-')) and not(translate(substring-after(@id,
+      concat('hands-of-the-maker-3', '-')), '0123456789', '')))]
+  - source: mcdm.heroes.v1
+    header_path: conduit/4th-level-features/blessing-of-secrets-3
+    item_name: Blessing of Secrets
+    item_id: blessing-of-secrets
+    type: feature/trait/conduit/4th-level-feature
+    feature_type: trait
+    file_dpath: Conduit/4th-Level Features
+    xpath: //section[@id='conduit' or (starts-with(@id, concat('conduit', '-')) and
+      not(translate(substring-after(@id, concat('conduit', '-')), '0123456789', '')))]//section[@id='th-level-features'
+      or (starts-with(@id, concat('th-level-features', '-')) and not(translate(substring-after(@id,
+      concat('th-level-features', '-')), '0123456789', '')))]//section[@id='blessing-of-secrets-3'
+      or (starts-with(@id, concat('blessing-of-secrets-3', '-')) and not(translate(substring-after(@id,
+      concat('blessing-of-secrets-3', '-')), '0123456789', '')))]
