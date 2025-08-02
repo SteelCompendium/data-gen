@@ -34,24 +34,23 @@ This is a mess, ill clean it up one day...[
 
 ## TODO
 
+- common abilities are in wrong dir
+
 - Glossary links removed
 - span anchors were removed - want them back?
 - pg 72 diagrams removed
 - Bunch of extra data in data formats
-  - ex: files for tables
+  - ex: files for tables are in the json
 - data file names need to be cleaned of special characters (like `!`)
 - go through the toc and figure out what other dedicated pages i want
   - wealth
   - renown
   - gods
-- extract out tables
-  - kits table
-- common abilities are in wrong dir
+- extract out tables (ex: kits table)
 - docs for classification on the site
 - Index pages need more frontmatter
 - perks by type
 - extra sections in movement (when a creature moves, etc )
-- TOC - not showing multiple H1 headers
 - Redo statblocks in markdown
 
 Moving on
