@@ -19,6 +19,6 @@ sections:
     type: 'title/3rd-echelon'
 
   - header_path: 'titles/4th-echelon-titles'
-    xpath: "//section[@id='4th-echelon-titles']//section[@class='level4']"
+    xpath: "//section[@id='th-echelon-titles']//section[@class='level4']"
     file_dpath: "Titles/4th Echelon"
     type: 'title/4th-echelon'

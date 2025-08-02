@@ -17,7 +17,7 @@ sections_staging_dpath := heroes_staging_dpath / "0_sections"
 section_list := '"Ancestries" "Careers" "Chapters" "Classes" "Complications" "Conditions" "Cultures" "Kits" "Movement" "Perks" "Skills" "Titles" "Treasures"'
 
 # abilities.yml missing
-section_config_yml_filenames := '"chapters.yml" "classes.yml" "common_abilities.yml" "movement.yml" "kits.yml" "ancestries.yml" "careers.yml" "cultures.yml" "complications.yml" "conditions.yml" "skills.yml" "negotiations.yml" "perks.yml" "titles.yml" "treasures.yml"'
+section_config_yml_filenames := '"ability_fixes.yml" "chapters.yml" "classes.yml" "common_abilities.yml" "movement.yml" "kits.yml" "ancestries.yml" "careers.yml" "cultures.yml" "complications.yml" "conditions.yml" "skills.yml" "negotiations.yml" "perks.yml" "titles.yml" "treasures.yml"'
 
 ##################################################
 # Public Recipes

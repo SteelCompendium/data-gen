@@ -1,0 +1,16 @@
+global:
+  source: "mcdm.heroes.v1"
+sections:
+  - source: mcdm.heroes.v1
+    header_path: conduit/1st-level-features/faithful-friend-2
+    item_name: Faithful Friend
+    item_id: faithful-friend
+    type: feature/trait/conduit/1st-level-feature
+    feature_type: trait
+    file_dpath: Conduit/1st-Level Features
+    xpath: //section[@id='conduit' or (starts-with(@id, concat('conduit', '-')) and
+      not(translate(substring-after(@id, concat('conduit', '-')), '0123456789', '')))]//section[@id='st-level-features'
+      or (starts-with(@id, concat('st-level-features', '-')) and not(translate(substring-after(@id,
+      concat('st-level-features', '-')), '0123456789', '')))]//section[@id='faithful-friend-2'
+      or (starts-with(@id, concat('faithful-friend-2', '-')) and not(translate(substring-after(@id,
+      concat('faithful-friend-2', '-')), '0123456789', '')))]
