@@ -4,4 +4,4 @@ global:
   type: skill
 sections:
   - header_path: "skill-groups"
-    xpath: "//section[@id='skill-groups']//section[@class='level6']"
+    xpath: "//section[@id='skill-groups']//section[@class='level5']"

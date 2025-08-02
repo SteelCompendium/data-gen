@@ -7,7 +7,7 @@ sections:
     item_id: faithful-friend
     type: feature/trait/conduit/1st-level-feature
     feature_type: trait
-    file_dpath: Conduit/1st-Level Features
+    file_dpath: Abilities/Conduit/1st-Level Features
     xpath: //section[@id='conduit' or (starts-with(@id, concat('conduit', '-')) and
       not(translate(substring-after(@id, concat('conduit', '-')), '0123456789', '')))]//section[@id='st-level-features'
       or (starts-with(@id, concat('st-level-features', '-')) and not(translate(substring-after(@id,
@@ -20,7 +20,7 @@ sections:
     item_id: hands-of-the-maker
     type: feature/trait/conduit/1st-level-feature
     feature_type: trait
-    file_dpath: Conduit/1st-Level Features
+    file_dpath: Abilities/Conduit/1st-Level Features
     xpath: //section[@id='conduit' or (starts-with(@id, concat('conduit', '-')) and
       not(translate(substring-after(@id, concat('conduit', '-')), '0123456789', '')))]//section[@id='st-level-features'
       or (starts-with(@id, concat('st-level-features', '-')) and not(translate(substring-after(@id,
@@ -33,7 +33,7 @@ sections:
     item_id: blessing-of-secrets
     type: feature/trait/conduit/4th-level-feature
     feature_type: trait
-    file_dpath: Conduit/4th-Level Features
+    file_dpath: Abilities/Conduit/4th-Level Features
     xpath: //section[@id='conduit' or (starts-with(@id, concat('conduit', '-')) and
       not(translate(substring-after(@id, concat('conduit', '-')), '0123456789', '')))]//section[@id='th-level-features'
       or (starts-with(@id, concat('th-level-features', '-')) and not(translate(substring-after(@id,

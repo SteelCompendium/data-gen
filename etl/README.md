@@ -46,41 +46,18 @@ This is a mess, ill clean it up one day...[
   - gods
 - extract out tables
   - kits table
-- 10th level abilities get sorted before 1st in site
-- ability index not being created
-
-```
-        /home/scott.tomaszewski/code/personal/steelCompendium/data-gen/staging/heroes/3_md_sections/Abilities/Tactician/10th-Level Features/Command.md
-        /home/scott.tomaszewski/code/personal/steelCompendium/data-gen/staging/heroes/3_md_sections/Abilities/Tactician/10th-Level Features/Perk.md
-        /home/scott.tomaszewski/code/personal/steelCompendium/data-gen/staging/heroes/3_md_sections/Abilities/Tactician/10th-Level Features/Skill.md
-        /home/scott.tomaszewski/code/personal/steelCompendium/data-gen/staging/heroes/3_md_sections/Abilities/Tactician/10th-Level Features/True Focus.md
-        /home/scott.tomaszewski/code/personal/steelCompendium/data-gen/staging/heroes/3_md_sections/Abilities/Tactician/10th-Level Features/Warmaster.md
-Error: open /home/scott.tomaszewski/code/personal/steelCompendium/data-gen/staging/heroes/3_md_sections/Abilities/Tactician/1st-Level Features/Strike: no such file or directory
-error: Recipe `_get_frontmatter_value` failed with exit code 1
-        /home/scott.tomaszewski/code/personal/steelCompendium/data-gen/staging/heroes/3_md_sections/Abilities/Tactician/1st-Level Features/"Strike Now!".md
-Error: open /home/scott.tomaszewski/code/personal/steelCompendium/data-gen/staging/heroes/3_md_sections/Abilities/Tactician/1st-Level Features/Strike: no such file or directory
-error: Recipe `_get_frontmatter_value` failed with exit code 1
-error: Recipe `gen` failed with exit code 1
-error: Recipe `gen_index_for_each_dir_in` failed with exit code 1
-error: Recipe `gen_heroes_md_unlinked` failed with exit code 1
-error: Recipe `gen` failed with exit code 1
-error: Recipe `gen_heroes` failed with exit code 1
-Command exited with non-zero status 1
-224.39user 87.74system 5:19.53elapsed 97%CPU (0avgtext+0avgdata 585856maxresident)k
-192inputs+171056outputs (1major+30249204minor)pagefaults 0swaps
-Error: error running script "gen" in Devbox: exit status 1
-
-
-
-```
-
+- common abilities are in wrong dir
 - document classification on the site
 - main, massive page stops right-nav at glossary??
   - likely because it cant handle multiple H1 elements in a single doc
 - Index pages need more frontmatter
+- perks by type
+- extra sections in movement (when a creature moves, etc )
+- kit index links are broken
+- ability_fixes dumps in root dir
 
+Moving on
 
-f
 - [ ] Move to monster book (TODO - code)
 - [ ] draw-steel-elements
   - [ ] Prepare the `data-md-dse` repo (TODO - code)
