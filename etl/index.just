@@ -47,8 +47,6 @@ gen to_index_dpath output_fpath space_separated_columns="file_name" title="":
 
         echo "# $title Index"
         echo
-        echo "[KNOWN ISSUE] These index links are potentially broken! Use the Nav in the top-left instead"
-        echo
 
       # ─── header ─────────────────────────────────────────────────────────────
       printf '|'
@@ -76,9 +74,20 @@ gen to_index_dpath output_fpath space_separated_columns="file_name" title="":
           if [[ $c == file_name ]]; then
             file_name=$(basename "$f")
             name="${file_name%.*}"
-            url_encoded_name=$(echo -n "$name" | jq -sRr @uri)
-            #val="$name"
-            val="[${name}](../${url_encoded_name})"
+
+            base=${dir%/}  # normalize: drop trailing slash if any
+            relpath=${f#"$base"/}      # strip "$dir/" prefix
+            relpath_no_ext=${relpath%.md}
+
+            # URL-encode each path component separately
+            IFS='/' read -r -a parts <<< "$relpath_no_ext"
+            encoded_parts=()
+            for part in "${parts[@]}"; do
+                encoded_parts+=( "$(printf '%s' "$part" | jq -sRr @uri)" )
+            done
+            encoded_relpath=$(IFS=/; echo "${encoded_parts[*]}")
+
+            val="[${name}](../${encoded_relpath})"
           else
             # grab `.key` from the front-matter, defaulting to "" if missing
             val=$(just index _get_frontmatter_value "$c" "$f")

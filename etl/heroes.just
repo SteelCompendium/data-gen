@@ -80,7 +80,6 @@ gen_heroes_md_unlinked input_fpath output_dpath:
     just frontmatter process_all "${md_sections_dpath}"
 
     # Abilities: Generate indexes for abilities (depth=1 so we index the "*-Level Features" dirs too)
-    # TODO - add this back in
     #just abilities gen_index_for_each_dir_in "${md_sections_dpath}/Abilities" "1"
     # Sections: Generate indexes
     just heroes_sections gen_indexes "${md_sections_dpath}"
