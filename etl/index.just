@@ -90,8 +90,7 @@ gen to_index_dpath output_fpath space_separated_columns="file_name" title="":
             val="[${name}](../${encoded_relpath})"
           else
             # grab `.key` from the front-matter, defaulting to "" if missing
-            url_encoded_file=$(echo -n "$f" | jq -sRr @uri)
-            val=$(just index _get_frontmatter_value "$c" "$url_encoded_file")
+            val=$(just index _get_frontmatter_value "$c" "$f")
           fi
 
           # escape any pipes
@@ -114,4 +113,4 @@ _get_frontmatter_value key md_fpath:
         --exit-status \
         --null-input=false \
         ".{{key}} // \"\"" \
-        "{{md_fpath}}"
+        '{{md_fpath}}'

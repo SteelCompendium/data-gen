@@ -74,9 +74,10 @@ Error: error running script "gen" in Devbox: exit status 1
 
 ```
 
+- document classification on the site
 - main, massive page stops right-nav at glossary??
+  - likely because it cant handle multiple H1 elements in a single doc
 - Index pages need more frontmatter
-- bulleted lists (https://steelcompendium.io/compendium/main/Rules/Perks/Supernatural%20Perks/Arcane%20Trick/)
 
 
 f
