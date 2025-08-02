@@ -9,3 +9,4 @@
   - wealth
   - renown
   - gods
+- 10th level abilities get sorted before 1st in site

@@ -47,6 +47,8 @@ gen to_index_dpath output_fpath space_separated_columns="file_name" title="":
 
         echo "# $title Index"
         echo
+        echo "[KNOWN ISSUE] These index links are potentially broken! Use the Nav in the top-left instead"
+        echo
 
       # ─── header ─────────────────────────────────────────────────────────────
       printf '|'
