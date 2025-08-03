@@ -68,7 +68,16 @@ gen_aggregate_data_doc data_dpath data_format output_fpath:
 
     # body
     find "{{data_dpath}}" -type f -name '*.{{data_format}}' | while read -r fpath; do
-        sed 's/^/  /' "$fpath" >> "$aggregate_fpath"
+        if [ "{{data_format}}" == "xml" ]; then
+            # indent
+            sed 's/^/  /' "$fpath" >> "$aggregate_fpath"
+        elif [ "{{data_format}}" == "json" ]; then
+            # prefix each line with two spaces, and add a comma to the end of the last line
+            sed -e 's/^/  /' -e '$ s/$/,/' "$fpath" >> "$aggregate_fpath"
+        elif [ "{{data_format}}" == "yaml" ]; then
+            # First line gets "  - ", subsequent lines get 4 spaces
+            sed -e '1s/^/  - /' -e '1!s/^/    /' "$fpath" >> "$aggregate_fpath"
+        fi
     done
 
     # footer
