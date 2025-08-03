@@ -50,6 +50,25 @@ gen_index_for_each_dir_in dpath depth="0":
         just index gen "$to_index" "$index_fpath" "file_name cost level feature_type" "$title"
     done
 
+gen_aggregate_data_doc data_dpath data_format output_fpath:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    just _print_section "Generating aggregate file for '{{data_format}}' ('{{data_dpath}}')"
+    aggregate_fpath=$(mktemp)
+
+    # header
+    if [ "{{data_format}}" == "xml" ]; then
+        echo "<abilities>" > "$aggregate_fpath"
+    fi
+    find "{{data_dpath}}" -type f -name '*.{{data_format}}' | while read -r fpath; do
+        cat "$fpath" >> "$aggregate_fpath"
+    done
+    # footer
+    if [ "{{data_format}}" == "xml" ]; then
+        echo "</abilities>" >> "$aggregate_fpath"
+    fi
+    mv "$aggregate_fpath" "{{output_fpath}}"
+
 ##################################################
 # Private Recipes
 ##################################################
