@@ -28,6 +28,7 @@ gen_unified:
     just _wipe_dir "{{unified_staging_dpath}}"
     just unified _gen_unified_md
     just _copy_data_to_repo "{{unified_linked_dpath}}" "data-md"
+    just _copy_data_to_repo "{{unified_linked_dpath}}" "data-md-dse"
 
 ##################################################
 # Private Recipes
