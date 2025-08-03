@@ -105,6 +105,9 @@ build_ability_config headers_fpath ability_yml_fpath source="mcdm.heroes.v1":
             level = header['level']
             text = header['text']
 
+            if text.lower().endswith("table"):
+                continue
+
             while path_stack and path_stack[-1]['level'] >= level:
                 path_stack.pop()
 
