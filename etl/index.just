@@ -87,7 +87,7 @@ gen to_index_dpath output_fpath space_separated_columns="file_name" title="":
             done
             encoded_relpath=$(IFS=/; echo "${encoded_parts[*]}")
 
-            val="[${name}](${encoded_relpath})"
+            val="[${name}](../${encoded_relpath})"
           else
             # grab `.key` from the front-matter, defaulting to "" if missing
             val=$(just index _get_frontmatter_value "$c" "$f")

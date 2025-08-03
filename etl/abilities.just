@@ -50,6 +50,7 @@ gen_index_for_each_dir_in dpath depth="0":
         just index gen "$to_index" "$index_fpath" "file_name cost level feature_type" "$title"
     done
 
+# Generates a single file containing all ability data
 gen_aggregate_data_doc data_dpath data_format output_fpath:
     #!/usr/bin/env bash
     set -euo pipefail
@@ -59,13 +60,25 @@ gen_aggregate_data_doc data_dpath data_format output_fpath:
     # header
     if [ "{{data_format}}" == "xml" ]; then
         echo "<abilities>" > "$aggregate_fpath"
+    elif [ "{{data_format}}" == "json" ]; then
+        echo '{ "abilities": [' > "$aggregate_fpath"
+    elif [ "{{data_format}}" == "yaml" ]; then
+        echo 'abilities: ' > "$aggregate_fpath"
     fi
+
+    # body
     find "{{data_dpath}}" -type f -name '*.{{data_format}}' | while read -r fpath; do
-        cat "$fpath" >> "$aggregate_fpath"
+        sed 's/^/  /' "$fpath" >> "$aggregate_fpath"
     done
+
     # footer
     if [ "{{data_format}}" == "xml" ]; then
         echo "</abilities>" >> "$aggregate_fpath"
+    elif [ "{{data_format}}" == "json" ]; then
+        echo "]" >> "$aggregate_fpath"
+        echo "}" >> "$aggregate_fpath"
+    elif [ "{{data_format}}" == "yaml" ]; then
+        echo "" >> "$aggregate_fpath"
     fi
     mv "$aggregate_fpath" "{{output_fpath}}"
 
