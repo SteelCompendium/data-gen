@@ -34,6 +34,7 @@ This is a mess, ill clean it up one day...[
 
 ## TODO
 
+- "8th level domain feature.md" - why these exist?  and why in funkyt dirs?
 - Index cleanup
   - index file table headers should be title case
   - Index pages need more frontmatter
@@ -44,6 +45,7 @@ This is a mess, ill clean it up one day...[
 - Diagrams: make custom replacements? am I allowed to use originals?
 - data file names need to be cleaned of special characters (like `!`)
   - I think i want a metadata field with the actual filename (for things like the index) 
+  - colons dont work on windows (fire: acolyte of fire)
 - Output file cleanup
   - go through the toc and figure out what other dedicated pages i want
     - wealth

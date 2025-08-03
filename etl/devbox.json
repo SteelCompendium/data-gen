@@ -28,6 +28,7 @@
       "pip install inflect",
       "pip install mdformat mdformat-wikilink mdformat-tables mdformat-frontmatter mdformat-mkdocs",
       "pip install rapidfuzz",
+      "pip install python-slugify",
       "go install github.com/pdfcpu/pdfcpu/cmd/pdfcpu@latest",
       "PATH=$PATH:$(go env GOPATH)/bin"
     ],
