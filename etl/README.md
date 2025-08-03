@@ -34,8 +34,6 @@ This is a mess, ill clean it up one day...[
 
 ## TODO
 
-- common abilities are in wrong dir
-
 - Glossary links removed
 - span anchors were removed - want them back?
 - pg 72 diagrams removed

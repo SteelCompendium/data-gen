@@ -28,6 +28,11 @@ convert_heroes pdf_fpath="Draw Steel Heroes.pdf":
     set -euo pipefail
     just _convert "{{pdf_fpath}}" "true" "1-416" "{{staging_dpath}}"
 
+convert_monsters pdf_fpath="Draw_Steel_Monsters_v1.pdf":
+    #!/usr/bin/env bash
+    set -euo pipefail
+    just _convert "{{pdf_fpath}}" "true" "1-384" "{{staging_dpath}}"
+
 ##################################################
 # Private Recipes
 ##################################################

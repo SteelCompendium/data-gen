@@ -20,7 +20,8 @@
       "go install github.com/pdfcpu/pdfcpu/cmd/pdfcpu@latest"
     ],
     "scripts": {
-      "convert_heroes": "just convert_heroes"
+      "convert_heroes": "just convert_heroes",
+      "convert_monsters": "just convert_monsters"
     }
   }
 }
