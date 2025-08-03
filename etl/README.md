@@ -34,22 +34,25 @@ This is a mess, ill clean it up one day...[
 
 ## TODO
 
-- Glossary links removed
-- span anchors were removed - want them back?
-- pg 72 diagrams removed
-- Bunch of extra data in data formats
-  - ex: files for tables are in the json
+- Index cleanup
+  - index file table headers should be title case
+  - Index pages need more frontmatter
+    - Needs a index_table_builder config or something
+- Links
+  - Glossary links removed
+  - span anchors were removed - want them back?
+- Diagrams: make custom replacements? am I allowed to use originals?
 - data file names need to be cleaned of special characters (like `!`)
-- go through the toc and figure out what other dedicated pages i want
-  - wealth
-  - renown
-  - gods
-- extract out tables (ex: kits table)
+  - I think i want a metadata field with the actual filename (for things like the index) 
+- Output file cleanup
+  - go through the toc and figure out what other dedicated pages i want
+    - wealth
+    - renown
+    - gods
+  - extract out tables (ex: kits table)
+  - perks by type
+  - extra sections in movement (when a creature moves, etc )
 - docs for classification on the site
-- Index pages need more frontmatter
-- perks by type
-- extra sections in movement (when a creature moves, etc )
-- Redo statblocks in markdown
 
 Moving on
 
