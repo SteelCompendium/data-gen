@@ -51,7 +51,8 @@ gen to_index_dpath output_fpath space_separated_columns="file_name" title="":
       # ─── header ─────────────────────────────────────────────────────────────
       printf '|'
       for c in "${cols[@]}"; do
-        printf " %s |" "$c"
+        col_title=$(just index _titlecase "$c")
+        printf " %s |" "$col_title"
       done
       printf '\n|'
       for _ in "${cols[@]}"; do
@@ -114,3 +115,8 @@ _get_frontmatter_value key md_fpath:
         --null-input=false \
         ".{{key}} // \"\"" \
         '{{md_fpath}}'
+
+_titlecase string:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    echo "{{titlecase(string)}}"
