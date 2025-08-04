@@ -43,10 +43,28 @@ expand_general config_fpath:
             return global_data[field_name]
         return default_val
 
+    def xpath_literal(s: str) -> str:
+        """
+        Return an XPath string literal for s, escaping quotes as needed.
+        """
+        if "'" not in s:
+            return f"'{s}'"
+        if '"' not in s:
+            return f'"{s}"'
+        # Need concat('a',"'",'b',...)
+        parts = []
+        for chunk in s.split("'"):
+            if chunk:
+                parts.append(f"'{chunk}'")
+            parts.append('"\'"')  # a literal single quote
+        if parts and parts[-1] == '"\'"':
+            parts.pop()  # remove trailing quote literal if s ended with '
+        return "concat(" + ", ".join(parts) + ")"
+
     # expects: header_path
     def expand_section_metadata(section, global_data):
-        header_path = section['header_path']
-        if not header_path :
+        header_path = section.get('header_path')
+        if not header_path:
             print(f"Error: missing header_path: {section}", file=sys.stderr)
             sys.exit(1)
 
@@ -55,15 +73,48 @@ expand_general config_fpath:
         parts = header_path.split('/')
 
         # Build file path (`s/-/ /g`, fix `1St` capitalization, title case)
-        file_path_components = [re.sub(r'(\d+)(St|Nd|Rd|Th)\s', lambda m: m.group(1) + m.group(2).lower()+'-', p.replace('-', ' ').title()) for p in parts[:-1]]
+        file_path_components = [
+            re.sub(
+                r'(\d+)(St|Nd|Rd|Th)\s',
+                lambda m: m.group(1) + m.group(2).lower() + '-',
+                p.replace('-', ' ').title()
+            )
+            for p in parts[:-1]
+        ]
         file_dpath = "/".join(file_path_components)
 
         # Generate xpath from header path
-        xpath_id_parts = [re.sub(r'^\d+', '', part) for part in parts]
-        xpath = "//" + "//".join([
-            f"section[@id='{p}' or (starts-with(@id, concat('{p}', '-')) and not(translate(substring-after(@id, concat('{p}', '-')), '0123456789', '')))]"
-            for p in xpath_id_parts
-        ])
+        xpath_predicates = []
+        for part in parts:
+            # Base id after stripping leading digits (e.g., '4th-level...' -> 'th-level...')
+            base_id = re.sub(r'^\d+', '', part)
+            base_id_lit = xpath_literal(base_id)
+
+            # Ordinal detection at segment start (e.g., '4th-level...' -> '4th')
+            m = re.match(r'^(\d+)(st|nd|rd|th)\b', part, flags=re.IGNORECASE)
+            ordinal = (m.group(1) + m.group(2).lower()) if m else None
+            ordinal_lit = xpath_literal(ordinal) if ordinal else None
+
+            # Core id predicate:
+            #   @id='{base}' OR (starts-with(@id,'{base}-') AND suffix is digits only)
+            pred = (
+                f"section[@id={base_id_lit} or "
+                f"(starts-with(@id, concat({base_id_lit}, '-')) and "
+                f"not(translate(substring-after(@id, concat({base_id_lit}, '-')), '0123456789', '')))]"
+            )
+
+            # If the segment had an ordinal, *also* require a descendant header containing that ordinal,
+            # to avoid over-matching generic ids like 'th-level-domain-feature'
+            if ordinal_lit:
+                header_check = (
+                    "[.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p]"
+                    f"[contains(normalize-space(.), {ordinal_lit})]]"
+                )
+                pred = pred + header_check
+
+            xpath_predicates.append(pred)
+
+        xpath = "//" + "//".join(xpath_predicates)
 
         new_section = {
             **global_data,
@@ -79,13 +130,15 @@ expand_general config_fpath:
 
     try:
         with open("{{config_fpath}}", 'r') as f:
-            data = yaml.safe_load(f)
+            data = yaml.safe_load(f) or {}
     except FileNotFoundError:
         print(f"Error: Input file not found at '{{config_fpath}}'", file=sys.stderr)
         sys.exit(1)
 
+    global_data = data.get('global', {}) or {}
+
     if 'sections' in data and isinstance(data['sections'], list):
-        data['sections'] = [expand_section_metadata(section, data['global']) for section in data['sections']]
+        data['sections'] = [expand_section_metadata(section, global_data) for section in data['sections']]
 
     with open("{{config_fpath}}", 'w') as f:
         yaml.dump(data, f, sort_keys=False, default_flow_style=False, indent=2)
