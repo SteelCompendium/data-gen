@@ -37,7 +37,6 @@ This is a mess, ill clean it up one day...[
 - "8th level domain feature.md" - why these exist?  and why in funkyt dirs?
 - Index cleanup
   - sort tables by column
-  - index file table headers should be title case
   - Index pages need more frontmatter
     - Needs a index_table_builder config or something
 - Links
