@@ -54,6 +54,13 @@ generate md_dpath:
             "title": f'Chapter {ch_num}: {ch_name}',
         }
 
+    def generate_for_cultures(rel_path: Path, metadata: dict, body: str) -> dict:
+            parts = metadata["type"].strip("/").split("/")
+            culture_benefit_type = parts[1]
+            return {
+                "culture_benefit_type": culture_benefit_type.strip().title()
+            }
+
     def generate_for_titles(rel_path: Path, metadata: dict, body: str) -> dict:
         m = re.search(r'(?<=/)\d+(?:st|nd|rd|th)(?=-)', metadata["type"])
         ordinal = m.group(0).strip() if m else None
@@ -78,6 +85,7 @@ generate md_dpath:
     DISPATCH = {
         'Abilities': generate_for_abilities,
         'Chapters': generate_for_chapters,
+        'Cultures': generate_for_cultures,
         'Titles': generate_for_titles,
         'Treasures': generate_for_treasures,
     }

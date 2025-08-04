@@ -43,6 +43,7 @@ gen_indexes root_dpath:
     for section in "${sections[@]}"; do
         case "$section" in
           Chapters) index_columns="file_name chapter_num" ;;
+          Cultures) index_columns="file_name culture_benefit_type" ;;
           Titles) index_columns="file_name echelon" ;;
           Treasures) index_columns="file_name treasure_type" ;;
           *) index_columns="file_name" ;;

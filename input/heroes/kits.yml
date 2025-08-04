@@ -8,3 +8,4 @@ sections:
   - header_path: "kits/kits-table"
     xpath: "//section[@id='kits']//section[@id='kits-table']"
     type: 'reference_table/kits'
+    title: '📄 Kit Table'
