@@ -36,9 +36,8 @@ This is a mess, ill clean it up one day...[
 
 - "8th level domain feature.md" - why these exist?  and why in funkyt dirs?
 - Index cleanup
-  - sort tables by column
+  - sort tables by some column
   - Index pages need more frontmatter
-    - Needs a index_table_builder config or something
 - Links
   - autolinks
   - span anchors were removed - want them back?
@@ -52,6 +51,7 @@ This is a mess, ill clean it up one day...[
   - perks by type
   - extra sections in movement (when a creature moves, etc )
 - docs for classification on the site
+- Add `summary` metadata field to everything
 
 Moving on
 

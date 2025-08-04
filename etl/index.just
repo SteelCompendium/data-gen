@@ -61,9 +61,9 @@ gen to_index_dpath output_fpath space_separated_columns="file_name" title="":
       printf '\n'
 
       # ─── rows ────────────────────────────────────────────────────────────────
-      shopt -s globstar
+      shopt -s globstar nullglob
 
-      for f in "$dir"/**/*.md; do
+      while IFS= read -r -d '' f; do
         # make sure it actually matched something
         [[ -e $f ]] || continue
         # skip index files
@@ -99,7 +99,7 @@ gen to_index_dpath output_fpath space_separated_columns="file_name" title="":
           printf " %s |" "$val"
         done
         printf '\n'
-      done
+      done < <(printf '%s\0' "$dir"/**/*.md | sort -z)
     } > "$out"
     echo >&2
 
