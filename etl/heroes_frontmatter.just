@@ -55,16 +55,21 @@ generate md_dpath:
         }
 
     def generate_for_titles(rel_path: Path, metadata: dict, body: str) -> dict:
-        m = re.match(r'([0-9+]+)', metadata["type"])
-        if m:
-            return {"echelon": m.group(1).strip()}
-        return {}
+        m = re.search(r'(?<=/)\d+(?:st|nd|rd|th)(?=-)', metadata["type"])
+        ordinal = m.group(0).strip() if m else None
+        return {"echelon": ordinal}
 
     def generate_for_treasures(rel_path: Path, metadata: dict, body: str) -> dict:
-        m = re.match(r'^treasures/([^0-9]*)', metadata["type"])
-        if m:
-            return {"treasure_type": m.group(1).strip().title()}
-        return {}
+        parts = metadata["type"].strip("/").split("/")
+        treasure_type = parts[-2]
+        last_segment = parts[-1]
+
+        m = re.match(r'(?i)^\d+(?:st|nd|rd|th)(?=-|$)', last_segment)
+        ordinal = m.group(0).strip() if m else None
+        return {
+            "treasure_type": treasure_type.strip().title(),
+            "echelon": ordinal
+        }
 
     def default_generator(rel_path: Path, metadata: dict, body: str) -> dict:
         return {}
@@ -74,6 +79,7 @@ generate md_dpath:
         'Abilities': generate_for_abilities,
         'Chapters': generate_for_chapters,
         'Titles': generate_for_titles,
+        'Treasures': generate_for_treasures,
     }
 
     def get_generator(rel_path: Path):
