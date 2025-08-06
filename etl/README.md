@@ -1,43 +1,13 @@
 # ETL Readme
 
-This is a mess, ill clean it up one day...[
-
-## Things to do before pdf
+## TODO
 
 ### Heroes
 
-- [ ] More ability metadata
-  - type (main action, triggered, etc)
-  - for this it might make sense to parse with the sdk and apply metadata from json data
-
-- [ ] classification
-  - Bug: The ids (count) increment on every run
-    - Need a way to preserve the count between runs
-    - reset the count on every run?]()
-      - theoretically okay?  Might need an override file...? would get complicated if hundreds of creatures need an off-by-one adjustment
-
-### Monsters
-
-- [ ] Prep monster book stuff
-  - [ ] Finalize markdown format for statblocks
-  - [ ] Verify markdown parser for statblocks in data-sdk-npm
-  - [ ] Section extraction for monster book
-  - [ ] data-sdk-npm StatblockMarkdownReader needs to support frontmatter
-  - [ ] data-sdk-npm StatblockMarkdownReader needs to get wired into the cli
-  - [ ] malice needs to be handled at all levels
-
-### Other
-
-- [ ] Draw Steel Elements plugin support
-  - [ ] data-md-dse code to convert abilities/statblocks to dse-codeblocks
-- [ ] Ability cards
-
-## TODO
-
-- "8th level domain feature.md" - why these exist?  and why in funkyt dirs?
 - Index cleanup
   - sort tables by some column
   - Index pages need more frontmatter
+  - motivations and pitfalls missing from top-level readme
 - Links
   - autolinks
   - span anchors were removed - want them back?
@@ -50,17 +20,30 @@ This is a mess, ill clean it up one day...[
   - extract out tables (ex: kits table)
   - perks by type
   - extra sections in movement (when a creature moves, etc )
-- docs for classification on the site
-- Add `summary` metadata field to everything
+- Metadata
+  - Add `summary` metadata field to everything
+  - Ability metadata
+    - type (main action, trigged, etc)
+    - consider converting the md to json and extracting fields from there
+- Classification
+  - docs for classification on the site (see bottom of this file)
+  - count can change on each run - need a registrar
+  - count isnt sorted
 
-Moving on
+#### Moving on
 
 - [ ] Move to monster book (TODO - code)
+  - [ ] Section extraction for monster book
+  - [ ] data-sdk-npm StatblockMarkdownReader needs to support frontmatter
+  - [ ] data-sdk-npm StatblockMarkdownReader needs to get wired into the cli
+  - [ ] malice needs to be handled at all levels
+
 - [ ] draw-steel-elements
   - [ ] Prepare the `data-md-dse` repo (TODO - code)
   - [ ] Prepare the `data-bestiary-md-dse` repo (TODO - code)
   - [ ] Update DSE to `main` branch
 - [ ] Move to adventures (TODO - code)
+- [ ] Ability cards
 
 ### Guidance for chapter markdown cleanup
 
