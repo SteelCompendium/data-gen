@@ -1,4 +1,4 @@
-# Justfile module expected to be named "heroes_sections"
+# Justfile module expected to be named "monsters_sections"
 
 ##################################################
 # Constants and env vars
@@ -6,16 +6,12 @@
 
 log_prefix := "[JUST][hero_sections]"
 
-input_dpath := `just _input_dpath` / 'heroes'
-heroes_staging_dpath := `just _staging_dpath` / "heroes"
-sections_staging_dpath := heroes_staging_dpath / "0_sections"
+input_dpath := `just _input_dpath` / 'monsters'
+monsters_staging_dpath := `just _staging_dpath` / "monsters"
+sections_staging_dpath := monsters_staging_dpath / "0_sections"
 
-# TODO - Abilities not included
-# TODO - Negotiation/Motivations adn Pitfalls not included
-section_list := '"Ancestries" "Careers" "Chapters" "Classes" "Complications" "Conditions" "Cultures" "Kits" "Movement" "Perks" "Skills" "Titles" "Treasures"'
-
-# abilities.yml missing
-section_config_yml_filenames := '"ability_fixes.yml" "chapters.yml" "classes.yml" "common_abilities.yml" "movement.yml" "kits.yml" "ancestries.yml" "careers.yml" "cultures.yml" "complications.yml" "conditions.yml" "skills.yml" "negotiations.yml" "perks.yml" "titles.yml" "treasures.yml"'
+section_list := '"basics"'
+section_config_yml_filenames := '"basics.yml"'
 
 ##################################################
 # Public Recipes
@@ -23,13 +19,13 @@ section_config_yml_filenames := '"ability_fixes.yml" "chapters.yml" "classes.yml
 
 # TODO - add downtime stuff
 # Extracts items from html using section_config.yml files
-extract heroes_html_fpath output_dpath:
+extract monsters_html_fpath output_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
-    echo "Extracting Hero sections from '{{heroes_html_fpath}}'"
+    echo "Extracting Hero sections from '{{monsters_html_fpath}}'"
     configs=( {{section_config_yml_filenames}} )
     for config in "${configs[@]}"; do
-        just heroes_sections _expand_and_extract "{{input_dpath}}/${config}" "{{heroes_html_fpath}}" "{{output_dpath}}"
+        just monsters_sections _expand_and_extract "{{input_dpath}}/${config}" "{{monsters_html_fpath}}" "{{output_dpath}}"
     done
 
 # Generates an index.md file for each section
@@ -40,9 +36,7 @@ gen_indexes root_dpath:
     sections=( {{section_list}} )
     for section in "${sections[@]}"; do
         case "$section" in
-          Chapters) index_columns="file_name chapter_num" ;;
-          Cultures) index_columns="file_name culture_benefit_type" ;;
-          Titles) index_columns="file_name echelon" ;;
+          # TODO
           Treasures) index_columns="file_name treasure_type" ;;
           *) index_columns="file_name" ;;
         esac
