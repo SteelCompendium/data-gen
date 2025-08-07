@@ -4764,7 +4764,7 @@ Choose one signature ability from the following options. Signature abilities can
 
 ######## Every Step … Death!
 
-*You show your foe a glimpse of their fate after death.* **Magic, Ranged, Strike Main action**
+*You show your foe a glimpse of their fate after death.*
 
 | **Magic, Ranged, Strike** |               **Main Action** |
 |---------------------------|------------------------------:|
@@ -23166,7 +23166,9 @@ Magic and psionic armor and shields are the primary tools of heroes always ready
 
 ##### Telekinetic Bulwark
 
-*An unseen force seems to draw this steel shield toward nearby creatures.* **Keywords:** Psionic, Shield
+*An unseen force seems to draw this steel shield toward nearby creatures.* 
+
+**Keywords:** Psionic, Shield
 
 **Item Prerequisite:** Three ingots of steel, six crystals that resonate with psionic power
 
