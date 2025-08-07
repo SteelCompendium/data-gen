@@ -37,13 +37,18 @@ to_md html_src_dpath md_dest_dpath:
         src_filename="$(basename "$html_file")"
         markdown_filename=$(echo "$src_filename" | sed -e 's/\.html$/\.md/')
 
-        # Convert HTML to Markdown with link adjustment
-        pandoc --wrap=none --standalone \
-            --from=html \
-            --to=markdown_strict+pipe_tables+yaml_metadata_block \
-            --lua-filter="$lua_filter_fpath" \
-            -o "$dest_dir/$markdown_filename" \
-            "$html_file"
+        # Pick an unlikely sentinel
+        SENTINEL='⟦BR⟧'
+
+        # Convert HTML to Markdown with link adjustment. ignore <br> tags with sentinel
+        sed -E "s#<br([[:space:]]*/?)?>#${SENTINEL}#g" "$html_file" \
+            | pandoc --wrap=none \
+                --standalone \
+                --from=html \
+                --to=markdown_strict+pipe_tables+yaml_metadata_block \
+                --lua-filter="$lua_filter_fpath" \
+            | sed -E "s#${SENTINEL}#<br/>#g" \
+            > "$dest_dir/$markdown_filename"
     done
     rm -rf "$lua_filter_fpath"
 
