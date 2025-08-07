@@ -51,8 +51,14 @@ run input_md_path output_md_path:
     # html bold
     text = re.sub( r'\<\/?b\>', r'**', text, flags=re.MULTILINE)
     # newlines
-    text = re.sub( r'\<br\>', r' ', text, flags=re.MULTILINE)
+    #text = re.sub( r'\<br\>', r' ', text, flags=re.MULTILINE)
     text = re.sub( r'\n\n\n', r'\n\n', text, flags=re.MULTILINE)
+    # unicode
+    text = re.sub( r' ?…', r'...', text, flags=re.MULTILINE)
+    text = re.sub( r'[“”]', r'"', text, flags=re.MULTILINE)
+    text = re.sub( r'[‘’]', "'", text, flags=re.MULTILINE)
+    text = re.sub( r'[—–]', "-", text, flags=re.MULTILINE)
+    text = re.sub( r'×', "x", text, flags=re.MULTILINE)
     # remove spans and sups
     text = re.sub( r'\<span id\=\".*"\>\<\/span\>', r'', text, flags=re.MULTILINE)
     text = re.sub( r'\<span\>', r'', text, flags=re.MULTILINE)

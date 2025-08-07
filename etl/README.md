@@ -4,6 +4,7 @@
 
 ### Heroes
 
+- statblocks are html
 - Index cleanup
   - sort tables by some column
   - Index pages need more frontmatter
