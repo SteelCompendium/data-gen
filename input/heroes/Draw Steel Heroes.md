@@ -340,7 +340,7 @@ Whenever you see a rule or game term in the glossary index underlined in cross-r
 
 **Leveled Treasure:** A treasure that can be used at will, and which increases in power as its hero wielder gains new levels.
 
-**Line:** When an ability or other effect creates a line, that area is expressed as "A × B line." The number A denotes the line's length in squares, while the number B equals the line's width and height in squares. When you create a line area of effect, the squares in that area must be in a straight line. A line effect might last only as long as it takes to affect its targets, or it might have a duration specified by the effect.
+**Line:** When an ability or other effect creates a line, that area is expressed as "A x B line." The number A denotes the line's length in squares, while the number B equals the line's width and height in squares. When you create a line area of effect, the squares in that area must be in a straight line. A line effect might last only as long as it takes to affect its targets, or it might have a duration specified by the effect.
 
 **Line of Effect:** To target a creature or object with an ability or other effect, a creature must have line of effect to that target. If any solid object, such as a wall or pillar, completely blocks the target from the creature, then the creature doesn't have line of effect.
 
@@ -4167,7 +4167,7 @@ When an ability affects a cubic area, that area is expressed as "X cube." The nu
 
 ##### Line
 
-When an ability affects a linear area, that area is expressed as "A × B line." The number A denotes the line's length in squares, while the number B equals the line's width and height in squares. When you create a line area of effect, the squares in that area must be in a straight line. A creature or object must be within the area to be targeted by a line ability.
+When an ability affects a linear area, that area is expressed as "A x B line." The number A denotes the line's length in squares, while the number B equals the line's width and height in squares. When you create a line area of effect, the squares in that area must be in a straight line. A creature or object must be within the area to be targeted by a line ability.
 
 ##### Wall
 
@@ -5729,7 +5729,7 @@ Choose one of the following abilities.
 
 **Trigger:** You or another hero ends their turn.
 
-**Effect:** The target takes their turn after the triggering hero, and immediately removes all conditions and negative effects on themself. During their turn, the target has a double edge on poºwer rolls.
+**Effect:** The target takes their turn after the triggering hero, and immediately removes all conditions and negative effects on themself. During their turn, the target has a double edge on power rolls.
 
 ##### 9th-Level Paragon Abilities
 
@@ -5943,7 +5943,7 @@ Additionally, whenever you activate a domain effect by praying for piety, you ca
 
 ###### War Domain Piety and Effect
 
-- **Piety:**You gain 2 piety the first time in an encounter that you or a creature within 10 squares takes damage greater than 10 + your level in a single turn.
+- **Piety:** You gain 2 piety the first time in an encounter that you or a creature within 10 squares takes damage greater than 10 + your level in a single turn.
 - **Prayer Effect:** Choose up to three allies within 10 squares of you, or choose yourself instead of one ally. Each target gains 2 surges.
 
 #### 1st-Level Domain Feature
@@ -6984,7 +6984,7 @@ Once on each subsequent turn, you can use a free maneuver to move the machine a 
 
 | **Area, Magic**                    |               **Main action** |
 |------------------------------------|------------------------------:|
-| **📏 Three 10 × 1 lines within 1** | **🎯 Each enemy in the area** |
+| **📏 Three 10 x 1 lines within 1** | **🎯 Each enemy in the area** |
 
 **Power Roll + Intuition:**
 
@@ -7197,7 +7197,7 @@ Choose one heroic ability from the following options, each of which costs 11 pie
 
 ######## Drag the Unworthy (11 Piety)
 
-You conjure an angel who moves a foe and heals your allies.*
+*You conjure an angel who moves a foe and heals your allies.*
 
 | **Magic, Ranged, Strike**  |               **Main action** |
 |----------------------------|------------------------------:|
@@ -7489,10 +7489,6 @@ Through your studies, you know and can manipulate the seven primal elements of t
 
 You choose an elemental specialization from the following options: earth, fire, green, or void. Your elemental specialization is your subclass, and your choice of specialization determines many of the features you'll gain as you gain new levels, including one of the following benefits. (Other elemental specializations will be featured in future products.) (*Quick Build:* Fire.)
 
-##### Earth: Acolyte of Earth
-
-You harness the flow of earth magic to become harder to move. Whenever you use an ability that has the Earth and Magic keywords, your stability increases by 1 until the start of your next turn. This benefit is cumulative.
-
 ###### Elementalist Advancement Table
 
 | Level  | Features                                                                                                                                                                                            | Abilities                           |
@@ -7507,6 +7503,10 @@ You harness the flow of earth magic to become harder to move. Whenever you use a
 | 8th    | Perk, Specialization Feature, 11-Essence Ability                                                                                                                                                    | Two signature, 3, 5, 5, 7, 9, 9, 11 |
 | 9th    | Grand Wyrding, New 11-Essence Ability                                                                                                                                                               | Two signature, 3, 5, 5, 7, 9, 9, 11 |
 | 10th   | Characteristic Increase, Breath, Essential Being, One, Perk, Skill Increase                                                                                                                         | Two signature, 3, 5, 5, 7, 9, 9, 11 |
+
+##### Earth: Acolyte of Earth
+
+You harness the flow of earth magic to become harder to move. Whenever you use an ability that has the Earth and Magic keywords, your stability increases by 1 until the start of your next turn. This benefit is cumulative.
 
 ##### Fire: Acolyte of Fire
 
@@ -7933,7 +7933,7 @@ Choose one heroic ability from the following options, each of which costs 3 esse
 
 **Persistent 1:** If the target is within distance at the start of your turn, you can make the power roll again without spending essence (no action required).
 
-########## Invigorating Growth (3 Essence)
+######## Invigorating Growth (3 Essence)
 
 *Mushrooms erupt from a foe, sapping their vitality to spread strengthening spores.*
 
@@ -8167,7 +8167,7 @@ Choose one heroic ability from the following options, each of which costs 5 esse
 - **12-16:** 5 fire damage
 - **17+:** 8 fire damage
 
-######### Volcano's Embrace (5 Essence)
+######## Volcano's Embrace (5 Essence)
 
 *Wrap them up in fire and melting stone.*
 
@@ -8716,7 +8716,7 @@ Each enemy who ends their turn within 3 squares of the tree is restrained until 
 - **12-16:** M < AVERAGE, prone
 - **17+:** M < STRONG, prone
 
-**Effect:** You create a fissure in the ground adjacent to you that is a 10 × 2 line and 6 squares deep. Each creature in the area who is prone and size 2 or smaller falls in. Other creatures can enter the fissure or can shift to the nearest unoccupied space of their choice outside it.
+**Effect:** You create a fissure in the ground adjacent to you that is a 10 x 2 line and 6 squares deep. Each creature in the area who is prone and size 2 or smaller falls in. Other creatures can enter the fissure or can shift to the nearest unoccupied space of their choice outside it.
 
 ### 9th-Level Features
 
@@ -8782,7 +8782,7 @@ Choose one heroic ability from the following options, each of which costs 11 ess
 
 - **≤11:** 13 + R fire damage; I < WEAK, dazed (save ends)
 - **12-16:** 18 + R fire damage; I < AVERAGE, dazed (save ends)
-- **17+:** 25 + Rfire damage; I < STRONG, dazed (save ends)
+- **17+:** 25 + R fire damage; I < STRONG, dazed (save ends)
 
 **Effect:** This damage ignores immunity.
 
@@ -9117,7 +9117,7 @@ Choose one signature ability from the following options. Signature abilities can
 
 **Power Roll + Might:**
 
-- **≤11:** 3 + M damage**
+- **≤11:** 3 + M damage
 - **12-16:** 6 + M damage
 - **17+:** 9 + M damage
 
@@ -10586,7 +10586,7 @@ Choose two signature abilities from the following options. Signature abilities c
 
 **Power Roll + Agility:**
 
-- **≤11:**4 + A damage; push 2
+- **≤11:** 4 + A damage; push 2
 - **12-16:** 6 + A damage; push 4
 - **17+:** 8 + A damage; push 6
 
@@ -12176,7 +12176,7 @@ Choose one heroic ability from the following options, each of which costs 9 insi
 
 | **Area, Melee, Weapon**     |               **Main action** |
 |-----------------------------|------------------------------:|
-| **📏 10 × 1 line within 1** | **🎯 Each enemy in the area** |
+| **📏 10 x 1 line within 1** | **🎯 Each enemy in the area** |
 
 **Power Roll + Agility:**
 
@@ -12440,7 +12440,7 @@ Choose one heroic ability from the following options, each of which costs 11 ins
 
 | **Area, Ranged, Weapon**   |               **Main action** |
 |----------------------------|------------------------------:|
-| **📏 5 × 1 line within 5** | **🎯 Each enemy in the area** |
+| **📏 5 x 1 line within 5** | **🎯 Each enemy in the area** |
 
 **Power Roll + Agility:**
 
@@ -14062,9 +14062,9 @@ Choose one heroic ability from the following options, each of which costs 3 clar
 
 *You project psionic energy out to a creature and take on a new visage in their mind.*
 
-| **Psionic, Ranged**, **Strike, Telepathy** | **Main action** |
-| --- | ---:|
-| **📏 Ranged 10** | **🎯 One creature** |
+| **Psionic, Ranged, Strike, Telepathy** |     **Main action** |
+|----------------------------------------|--------------------:|
+| **📏 Ranged 10**                       | **🎯 One creature** |
 
 **Effect:** If you target an ally, they gain temporary Stamina equal to three times your Presence score, and they can end one effect on them that is ended by a saving throw or that ends at the end of their turn. If you target an enemy, you make a power roll.
 
@@ -14494,7 +14494,7 @@ Choose one heroic ability from the following options, each of which costs 9 clar
 
 | **Area, Charge, Psionic, Telekinesis** |               **Main action** |
 |----------------------------------------|------------------------------:|
-| **📏 5 × 2 line within 1**             | **🎯 Each enemy in the area** |
+| **📏 5 x 2 line within 1**             | **🎯 Each enemy in the area** |
 
 **Effect:** You teleport to a square on the opposite side of the area before making the power roll.
 
@@ -20857,7 +20857,7 @@ An airship is an object (giving it damage immunity all to poison and psychic dam
 
 When you start this project, you hire a crew of masons, engineers, and guards who start work at the location where the project begins and build or repair the road for you. You can make a project roll whenever you are overseeing the project, whether you do so in person or remotely through the use of magic or psionics.
 
-The number of project points required to complete work on the road equals 10 × the road's length in miles. The goal is cut in half if you are repairing an existing road, or if someone else starts work on a second road project that connects to your project.
+The number of project points required to complete work on the road equals 10 x the road's length in miles. The goal is cut in half if you are repairing an existing road, or if someone else starts work on a second road project that connects to your project.
 
 When you complete the project, you earn Renown among people in the area where the road is built, depending on the length of the road.
 
@@ -21053,7 +21053,7 @@ You can use an absorbed ability as if you knew it, making power rolls for the ab
 
 | **Area, Magic**            |               **Main action** |
 |----------------------------|------------------------------:|
-| **📏 5 × 1 line within 1** | **🎯 Each enemy in the area** |
+| **📏 5 x 1 line within 1** | **🎯 Each enemy in the area** |
 
 **Power Roll + Your Highest Characteristic Score:**
 
