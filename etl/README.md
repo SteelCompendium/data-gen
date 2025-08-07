@@ -32,13 +32,18 @@
   - count isnt sorted
 - translate the site to other langauges
 
-#### Moving on
+#### Monsters
 
 - [ ] Move to monster book (TODO - code)
   - [ ] Section extraction for monster book
   - [ ] data-sdk-npm StatblockMarkdownReader needs to support frontmatter
   - [ ] data-sdk-npm StatblockMarkdownReader needs to get wired into the cli
   - [ ] malice needs to be handled at all levels
+- sections
+  - creature roles
+  - encounter objectives
+
+#### Moving on
 
 - [ ] draw-steel-elements
   - [ ] Prepare the `data-md-dse` repo (TODO - code)
@@ -52,7 +57,11 @@
 - pre-cleanup (line removals, see what preformat.just does... maybe nothing)
 - do headers first
   - Can go up to H7 (which will convert to bold)
+  - H6 for tables
+  - H7 are statblocks in heroes book (TODO?)
   - H8 is reserved for abilities (not features). Ever ability must be an H8 in order for ability automation to work
+  - H9 is a statblock
+  - H10 is a malice block
 - once headers are done, focus on the content
   - power roll formatter
   - line replacement
