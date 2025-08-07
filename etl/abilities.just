@@ -84,6 +84,7 @@ gen_aggregate_data_doc data_dpath data_format output_fpath:
     if [ "{{data_format}}" == "xml" ]; then
         echo "</abilities>" >> "$aggregate_fpath"
     elif [ "{{data_format}}" == "json" ]; then
+        sed -i '${s/,$//}' "$aggregate_fpath"
         echo "]" >> "$aggregate_fpath"
         echo "}" >> "$aggregate_fpath"
     elif [ "{{data_format}}" == "yaml" ]; then

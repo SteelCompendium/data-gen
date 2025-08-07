@@ -8,6 +8,7 @@
   - sort tables by some column
   - Index pages need more frontmatter
   - motivations and pitfalls missing from top-level readme
+    - its missing an index in general
 - Links
   - autolinks
   - span anchors were removed - want them back?
@@ -29,6 +30,7 @@
   - docs for classification on the site (see bottom of this file)
   - count can change on each run - need a registrar
   - count isnt sorted
+- translate the site to other langauges
 
 #### Moving on
 
