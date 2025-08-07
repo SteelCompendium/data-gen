@@ -1,0 +1,8 @@
+global:
+  source: "mcdm.heroes.v1"
+  file_dpath: 'Basics'
+sections:
+  - header_path: "general-keywords"
+    xpath: "//section[@id='general-keywords']//section[@class='level6']"
+    file_dpath: 'Basics/Keywords'
+    type: keywords

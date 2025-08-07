@@ -18,6 +18,8 @@ mod heroes_frontmatter 'heroes_frontmatter.just'
 mod html 'html.just'
 mod index 'index.just'
 mod markdown 'markdown.just'
+mod monsters_sections 'monsters_sections.just'
+mod monsters_frontmatter 'monsters_frontmatter.just'
 mod sc_classification 'sc_classification.just'
 mod section_config 'section_config.just'
 
@@ -53,7 +55,7 @@ gen_monsters:
     set -euo pipefail
     just _print_title "Monsters"
     echo "TODO - Monster book parsing not yet implemented."
-    just monsters gen ""
+    just monsters gen "{{data_gen_root_dpath}}/input/monsters/Draw Steel Monsters.md"
 
 gen_adventures:
     #!/usr/bin/env bash
@@ -176,6 +178,7 @@ _copy_data_to_repo src_dpath sc_repo_name rel_dpath="":
     just _print_section "Copying data to destination repo ({{sc_repo_name}})"
     dest_dir="{{steel_compendium_root_dpath}}/{{sc_repo_name}}"
     just _delete_dir_except_git "$dest_dir"
+    mkdir -p "${dest_dir}{{rel_dpath}}"
     cp -R "{{src_dpath}}"/* "${dest_dir}{{rel_dpath}}"
     just _add_license "$dest_dir"
 

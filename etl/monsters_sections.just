@@ -4,7 +4,7 @@
 # Constants and env vars
 ##################################################
 
-log_prefix := "[JUST][hero_sections]"
+log_prefix := "[JUST][monster_sections]"
 
 input_dpath := `just _input_dpath` / 'monsters'
 monsters_staging_dpath := `just _staging_dpath` / "monsters"
@@ -22,7 +22,7 @@ section_config_yml_filenames := '"basics.yml"'
 extract monsters_html_fpath output_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
-    echo "Extracting Hero sections from '{{monsters_html_fpath}}'"
+    echo "Extracting Monster sections from '{{monsters_html_fpath}}'"
     configs=( {{section_config_yml_filenames}} )
     for config in "${configs[@]}"; do
         just monsters_sections _expand_and_extract "{{input_dpath}}/${config}" "{{monsters_html_fpath}}" "{{output_dpath}}"

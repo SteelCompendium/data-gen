@@ -47,7 +47,7 @@ gen_monsters_md_unlinked input_fpath output_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
 
-    just _print_section "Monsters: Generating hero markdown"
+    just _print_section "Monsters: Generating monster markdown"
     mkdir -p "{{monsters_unlinked_dpath}}"
 
     # Sections: Convert markdown to html
@@ -56,7 +56,7 @@ gen_monsters_md_unlinked input_fpath output_dpath:
     just markdown to_html "{{input_fpath}}" "$html_fpath"
 
     # Sections: extract out sections using html xpath
-    just _print_section "Monsters: Extracting hero sections"
+    just _print_section "Monsters: Extracting monster sections"
     html_sections_dpath="{{monsters_staging_dpath}}/2_html_sections"
     just monsters_sections extract "$html_fpath" "$html_sections_dpath"
 
@@ -133,17 +133,17 @@ convert_md_to_other_formats md_dpath:
     just _print_section "Monsters: Converting markdown into other formats"
     conversions_dpath="{{monsters_staging_dpath}}/9_conversions"
 
-    just abilities convert_all "{{md_dpath}}/Abilities" "json" "${conversions_dpath}/json/Abilities"
-    just abilities convert_all "{{md_dpath}}/Abilities" "yaml" "${conversions_dpath}/yaml/Abilities"
-    just abilities convert_all "{{md_dpath}}/Abilities" "xml" "${conversions_dpath}/xml/Abilities"
-    # Dont convert to markdown: you will lose frontmatter data
-
-    just abilities gen_aggregate_data_doc "${conversions_dpath}/json/Abilities" "json" "${conversions_dpath}/json/Abilities/abilities.json"
-    just abilities gen_aggregate_data_doc "${conversions_dpath}/yaml/Abilities" "yaml" "${conversions_dpath}/yaml/Abilities/abilities.yaml"
-    just abilities gen_aggregate_data_doc "${conversions_dpath}/xml/Abilities" "xml" "${conversions_dpath}/xml/Abilities/abilities.xml"
-
-    just _copy_data_to_repo "${conversions_dpath}/json" "data-rules-json"
-    just _copy_data_to_repo "${conversions_dpath}/yaml" "data-rules-yaml"
-    just _copy_data_to_repo "${conversions_dpath}/xml" "data-rules-xml"
+    #    just abilities convert_all "{{md_dpath}}/Abilities" "json" "${conversions_dpath}/json/Abilities"
+    #    just abilities convert_all "{{md_dpath}}/Abilities" "yaml" "${conversions_dpath}/yaml/Abilities"
+    #    just abilities convert_all "{{md_dpath}}/Abilities" "xml" "${conversions_dpath}/xml/Abilities"
+    #    # Dont convert to markdown: you will lose frontmatter data
+    #
+    #    just abilities gen_aggregate_data_doc "${conversions_dpath}/json/Abilities" "json" "${conversions_dpath}/json/Abilities/abilities.json"
+    #    just abilities gen_aggregate_data_doc "${conversions_dpath}/yaml/Abilities" "yaml" "${conversions_dpath}/yaml/Abilities/abilities.yaml"
+    #    just abilities gen_aggregate_data_doc "${conversions_dpath}/xml/Abilities" "xml" "${conversions_dpath}/xml/Abilities/abilities.xml"
+    #
+    #    just _copy_data_to_repo "${conversions_dpath}/json" "data-rules-json"
+    #    just _copy_data_to_repo "${conversions_dpath}/yaml" "data-rules-yaml"
+    #    just _copy_data_to_repo "${conversions_dpath}/xml" "data-rules-xml"
 
 
