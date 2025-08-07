@@ -503,7 +503,6 @@ s **Malicious Strike 5+ Malice** The monster pours all their animosity into thei
 
 You often need to prepare only three Malice features for any given encounter, or four if you're running an encounter making use of multiple monster types or bands (for example, orcs and goblins). Just pick a feature costing 2 to 3 Malice, a feature costing 5 Malice, and a feature costing 7 to 10 Malice and you should be covered.
 
-Draw Steel
 
 # Using Minions
 
@@ -1239,7 +1238,6 @@ The enemy holds a strategically important position and the heroes want it. The e
 
 ### Defensive Position
 
-Draw Steel
 
 You choose the defensive position, setting up an area that must be captured by the heroes. The area can be of any size. Not all of the heroes' enemies in the encounter are in the defensive position, with some outside it attempting to stop the characters before they get close.
 
@@ -2000,7 +1998,6 @@ The slink excretes a sticky residue into their square at the end of each of thei
 
 Whenever an adjacent enemy grabs the slink or uses a melee ability against them, that enemy takes 2 poison damage.
 
-Draw Steel
 
 | Angulotl Wave                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |             |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|
@@ -3756,7 +3753,6 @@ x One ally
 
 Harmony, shifts up to their speed, and then uses Agonizing Harmony again.
 
-Draw Steel
 
 # Demons
 
@@ -4014,7 +4010,6 @@ x Self
 
 **Effect:** The egress recalls and instantly destroys any minion allies on the encounter map. A torrent of churned-up minion bodies, blood, and ichor erupts from the egress, dealing an extra 1 damage for each minion destroyed this way.
 
-Draw Steel
 
 # Demons
 
@@ -4290,7 +4285,6 @@ x Each enemy in the area
 - 
 - 1 7 poison damage; m<3] bleeding (save ends) 2 11 poison damage; m<4] bleeding (save ends) 3 14 poison damage; m<5] bleeding (save ends)
 
-Draw Steel
 
 # Demons-4th Echelon
 
@@ -4920,7 +4914,6 @@ When Locratix takes damage of any type for which she has dam age immunity, she h
 **Scorekeeping Scales**  
 
  Lydixavus knows the location of every creature who has ever dealt damage to them. If any of those creatures are within 20 squares of Lydixavus, Lydixavus always has line of effect to them as long as a size 1 opening exists between Lydixavus and the target.
-Draw Steel
 
 | Myxovidan the Sintaker                                                                                                                                                                                                                                                                                                                                                                                                                              |                                                  |                                                      |                                                      | Level 6 Elite Hexer<br>EV 32                           |  |  |  |  |  |  |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|------------------------------------------------------|------------------------------------------------------|--------------------------------------------------------|--|--|--|--|--|--|
@@ -5008,7 +5001,6 @@ Whenever Phrrygalax fails a saving throw, he deals an additional 7 damage on his
 
 **Effect:** Dorzinuuth shields the triggering ally with his wings, halving the damage.
 
-Draw Steel
 
 ### t **End Effect**
 
@@ -5248,7 +5240,6 @@ Thorn dragons are highly territorial, and are vigilant against potential threats
 
 If the encounter map is a location the dragon has occupied for 1 week or more, all surfaces on the map are covered in overgrowth. Any creature other than the dragon who starts their turn on the encounter map has their speed reduced by 2 (to a minimum of 1). Any creature made restrained while on the ground is also made bleeding.
 
-Draw Steel
 
 | Thorn Dragon<br><span style="font-weight:normal;">Dragon, Elemental |                                                     |                                                         | Level 2 Solo<br><span style="font-weight:normal;">EV 48 |                                                           |
 |----------------------------------------------------------------------------|-----------------------------------------------------|---------------------------------------------------------|----------------------------------------------------------------|-----------------------------------------------------------|
@@ -6153,7 +6144,6 @@ Special: This ability can't be used by a minion.
 | **<span style="border:1px solid #000; padding:0 2px;">Might +1**                                                                                                                                                                                                                                                                                                                                                                                                                  | **<span style="border:1px solid #000; padding:0 2px;">Agility +2** | **<span style="border:1px solid #000; padding:0 2px;">Reason 0** | **<span style="border:1px solid #000; padding:0 2px;">Intuition 0** | **<span style="border:1px solid #000; padding:0 2px;">Presence 0** |  |  |  |  |  |  |
 | **<span style="text-decoration: underline;">Snaring Javelin** 2d10 + 2<br>Ranged, Strike, Weapon<br><span style="font-size:90%;">🛡 Ranged 5 <span style="font-size:90%;">↷ One creature or object per minion<br>≤111 damage; pull 1 12-162 damage; pull 2 ≥173 damage; pull 4 **Effect:** A target restrained by a dwarf can be force moved by this ability. This forced movement doesn't end the restrained condition unless the Director determines otherwise. |                                                                              |                                                                            |                                                                               |                                                                              |  |  |  |  |  |  |
 
-Draw Steel
 
 Dwarves
 
@@ -6356,7 +6346,6 @@ x Special
 
 **Effect:** The marauder lord creates three size 2 metal objects in unoc cupied spaces within distance. Whenever the marauder lord uses Magnetomancy, they can additionally target one of these objects.
 
-Draw Steel
 
 | Servitor War Walker<br><span style="font-weight: normal;">Construct, Dwarf                            |                                                      |                                                         | Level 1 Elite Mount<br><span style="font-weight: normal;">EV 12              |                                                            |
 |--------------------------------------------------------------------------------------------------------------|------------------------------------------------------|---------------------------------------------------------|-------------------------------------------------------------------------------------|------------------------------------------------------------|
@@ -6609,7 +6598,6 @@ The field can target any creature touching the ground with their abilities, even
 | **Break Armor**  <br>**Trigger:** The force takes damage.<br>**Effect:** The force halves the damage, and has damage weakness 3 and a +3 bonus to speed until the end of the encounter. This damage weakness increases by 3 each time the force uses this ability in the same encounter.                                                                                                         |                   |                       |                       |                          |
 | **Fickle and Free**<br>The force can't be restrained, slowed, or knocked prone, and they ignore difficult terrain.<br><br>**Primordial Strength**<br>The force's strikes gain a +6 damage bonus against objects.<br><br>**Stone Swim**<br>The force can burrow through stone, but can't drag other creatures underground when they do so.                                                                                          |                   |                       |                       |                          |
 
-Draw Steel
 
 # ELVES, HIGH
 
@@ -7159,7 +7147,6 @@ The moondancer ignores concealment created by darkness. While the moondancer is 
 
 The mournblade ignores concealment created by darkness. While the mournblade is in direct sunlight, they have damage weakness 3. While the mournblade has concealment, they have damage immunity 3.
 
-Draw Steel
 
 | Shadow Elf Noctis Mage<br><span style="font-weight:normal;">Fey, Humanoid, Shadow Elf                                                                                                                                                                                                                          |                                                     |                                                                       | Level 6 Platoon Hexer<br>EV 16                          |                                                           |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------------------------|---------------------------------------------------------|-----------------------------------------------------------|
@@ -7272,7 +7259,6 @@ x Each enemy in the area
 
 **Effect:** The area is shrouded in darkness that creates concealment until the end of the encounter. Any enemy who starts their turn in the area takes 5 corruption damage.
 
-Draw Steel
 
 | Brush Stalker<br><span style="font-weight:normal;">Animal, Fey, Shadow Elf                                                                                                                                                                                                                                                                                                                               |                   |                      | Level 4 Platoon Mount<br>EV 12                                                                                 |                         |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|----------------------|----------------------------------------------------------------------------------------------------------------|-------------------------|
@@ -7659,7 +7645,6 @@ x Self and each ally in the area
 
 **Effect:** Each target is invisible until the start of the next round. The warleader then uses Wodeblade.
 
-Draw Steel
 
 | Wodenelg<br><span style="font-weight:normal;">Plant, Wode Elf                                                                                                                                                        |                                                               |                                                              | **Level 1 Platoon Mount**<br>EV 6                                                                      |                                                                |  |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|--------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|--|
@@ -7704,7 +7689,6 @@ Though fossil cryptics vary wildly in their chosen shape and form, all contain a
 
 ### **Ancient Intelligence**
 
-Draw Steel
 
 Fossil cryptics often warn trespassers to leave their domains, speaking threats in ancient languages before attacking. Should trespassers persist, cryptics weaponize columns of stone at range and can manipulate the ground around them, pushing and pulling friend and foe alike into the best positions for battle.
 
@@ -8231,7 +8215,6 @@ The marble stone giant ignores difficult terrain.
 
 The marble stone giant can burrow through stone, but can't drag other creatures underground when they do so.
 
-Draw Steel
 
 | Fire Giant Chief<br>Fire Giant, Giant |                                                                                                                                                                                                                                                              |                                                                                                                                                                                                                                                            |                | Level 9 Leader<br>EV 44 |                                                                                                                                  |  |
 |---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|-------------------------|----------------------------------------------------------------------------------------------------------------------------------|--|
@@ -8364,7 +8347,6 @@ Whenever a non-minion ally within 5 squares of the mage mauler is reduced to 0 S
 
 Whenever a non-minion ally within 7 squares of the wildling is reduced to 0 Stamina, the wildling can move up to their speed.
 
-Draw Steel
 
 | Gnoll Abyssal Archer<br><span style="font-weight: normal;">Abyssal, Gnoll                                                                                                                                                                                                          |                   |                  | Level 2 Horde Artillery<br><span style="font-weight: normal;">EV 4                                   |                    |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|------------------|-------------------------------------------------------------------------------------------------------------|--------------------|
@@ -8561,7 +8543,6 @@ x Each winded enemy in the area
 
 **Effect:** Until the end of the encounter, all gnolls have a double edge on power rolls that target a winded enemy .
 
-Draw Steel
 
 # GOBLINS
 
@@ -9344,7 +9325,6 @@ Any enemy within 2 squares of the war mage has a −2 penalty to saving throws.
 
 ### t **End Effect**
 
-Draw Steel
 
 At the end of each of their turns, the bloodlord can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
 
@@ -9648,7 +9628,6 @@ The trickshot ignores concealment if it's granted by a supernatural effect.
 | ☠️ **Back!**<br>Area, Magic<br>5 burst                                                           |                   | **Effect:** The blackguard slides each target up to 5 squares.                                                                                                                                                                                                                                                                                |                       | Villain Action 2<br>⟳ Each enemy in the area                        |
 | ☠️ **I Can Throw My Blade and So Should You!**<br>Area, Magic, Ranged, Weapon<br>3 cube within 5 |                   |                                                                                                                                                                                                                                                                                                                                                  |                       | Villain Action 3<br>⟳ Each enemy in the area                        |
 
-Draw Steel
 
 | Human Bandit Chief<br>Human, Humanoid                  |                                                                                            |                                                                                                                                                                                              |                | Level 3 Leader<br>EV 20                                      |  |  |
 |--------------------------------------------------------|--------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|--------------------------------------------------------------|--|--|
@@ -9862,7 +9841,6 @@ d **Better Out Than In** 2d10 + 5 **Villain Action 3**
 
 **Effect:** Each creature swallowed by the worm is regurgitated and automatically subject to the tier 3 outcome, then lands prone in an unoccupied space within 5 squares of the kingfissure worm.
 
-Draw Steel
 
 DRAW
 
@@ -10004,7 +9982,6 @@ While adjacent to an ally who also has this trait, the veles has stability 1, ha
 
 While adjacent to an ally who also has this trait, the legionary has stability 1, has cover, and grants cover to allies.
 
-Draw Steel
 
 | Kobold Signifer                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |                    |                  | Level 1 Horde Support |                     |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|------------------|-----------------------|---------------------|
@@ -10191,7 +10168,6 @@ At a distance, a lightbender looks akin to a regular lion, but closer inspection
 
 ### **Ghostly Echoes**
 
-Draw Steel
 
 Lightbenders can also bend the sounds they make, enabling them to almost completely disappear during a hunt. Many can delay their footsteps to slip into a silent prowl, while others might throw a guttural trill across a field to lure prey out of hiding. The lightbenders' illusory mastery was said to inspire several techniques taught to shadows within the College of the Harlequin Mask.
 
@@ -10862,7 +10838,6 @@ The lackey can't obtain less than a tier 2 outcome when making tests to navigate
 
 The stampede can move through spaces as if they were a size 2 creature, and can occupy other creatures' spaces. At the start of each of the stampede's turns, they can make a free strike against each creature whose space they share .
 
-Draw Steel
 
 # OGRES
 
@@ -11019,7 +10994,6 @@ Most olothec communicate telepathically using Mindspeech and speak Urollialic. M
 
 Most olothec are creatures of incomprehensible evil who use their psionic might to reshape the flesh of their enemies. Their stat blocks contain strong elements of body horror. You should feel free to modify any of these effects for the safety of you and your players.
 
-Draw Steel
 
 | Olothec                                                  |                   | Level 6 Solo<br>EV 84 |                     |                    |
 |----------------------------------------------------------|-------------------|-----------------------|---------------------|--------------------|
@@ -11383,7 +11357,6 @@ The garroter turns invisible until the end of their turn. This invisibility ends
 
 If the garroter is reduced to 0 Stamina, they can make a free strike before dying. If the target of the free strike is reduced to 0 Stamina, the garroter is reduced to 1 Stamina instead.
 
-Draw Steel
 
 | Orc Godcaller<br><span style="font-weight:normal;">Humanoid, Orc                                                               |                                                     |                                                        | Level 1 Platoon Support<br>EV 6                                            |                                                           |
 |---------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|--------------------------------------------------------|----------------------------------------------------------------------------|-----------------------------------------------------------|
@@ -11772,7 +11745,6 @@ If the last radenwight in the encounter dies and the wall is still standing, the
 
 **Effect:** The scrapper makes a free strike against the target.
 
-Draw Steel
 
 | Radenwight Swiftpaw                                                                                                                                                                                                                                                                                                                                                   |                   |                  |                    |                    | Level 1 Minion Harrier |  |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|------------------|--------------------|--------------------|------------------------|--|
@@ -11840,7 +11812,6 @@ Any enemy who shifts adjacent to the bruxer has that shift end. Additionally, an
 | Gymratstics                                                                                                                                             |            |               |                |                                                                   |
 | The ratcrobat gains an edge on strikes against larger creatures.                                                                                        |            |               |                |                                                                   |
 
-Draw Steel
 
 | Radenwight Maestro                                                                                                                                                                                                                                                                                                                                                                                                                        |                    |                      | Level 1 Leader<br>EV 12 |                         |  |  |  |  |  |  |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|----------------------|-------------------------|-------------------------|--|--|--|--|--|--|
@@ -12553,7 +12524,6 @@ The shadow deals an extra 10 damage to any target affected by a condition.
 
 At the start of an encounter, the shadow chooses one creature within their line of effect. Both the shadow and the creature can add a d3 roll to power rolls they make against each other.
 
-Draw Steel
 
 | Rival Tactician<br><span style="font-weight:normal;">Humanoid, Rival                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |                   |                       | Level 10 Elite Artillery<br>EV 48 |                          |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|-----------------------|-----------------------------------|--------------------------|
@@ -12658,7 +12628,6 @@ The shambling mound takes an additional main action on their turn. They can use 
 
 Until the end of the shambling mound's next turn, the area within 10 squares of them is difficult terrain for enemies, and any enemy in the area takes a bane on power rolls. Any enemy who starts their turn in the area takes 4 acid damage, and the shambling mound regains an equal amount of Stamina.
 
-Draw Steel
 
 .
 
@@ -12955,7 +12924,6 @@ The nemesis doesn't take a bane on strikes against creatures with concealment.
 | **Invigorated March**<br>Area, Psionic<br>**4 burst**<br>**Effect:** Each target shifts up to half their speed                                                                                                                                                                                                                                                                                                                                                                                                                                    |                    |                                         | Maneuver<br>Each ally in the area                                                                  |
 | **Foresight**<br>The vertex doesn't take a bane on strikes against creatures with concealment.                                                                                                                                                                                                                                                                                                                                                                                                                                                          |                    |                                         |                                                                                                    |
 
-Draw Steel
 
 | Time Raider Tyrannis<br><span style="font-weight:normal;">Humanoid, Time Raider                                                                                                                                                                                                                                                                                                                                        |             |                |                | Level 3 Leader<br>**EV 20** |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|----------------|----------------|--------------------------------|
@@ -13079,7 +13047,6 @@ Whenever two or more whelps are simultaneously reduced to 0 Stamina by damage th
 | **Acquired Taste**<br> <br>**Trigger:** A creature within distance deals damage to the butcher with an ability that gains an edge, has a double edge, or uses a surge.<br>**Effect:** The butcher makes a free strike against the target. Until the end of their next turn, the butcher gains an edge on power rolls and deals an extra 3 damage with strikes.          |                   |                          |                    |                   |  |                              |  |
 | **Bloody Feast**<br>Each ally within 5 squares of the butcher gains an edge on power rolls against any enemy affected by a condition.                                                                                                                                                                                                                                                                                                   |                   |                          |                    |                   |  |                              |  |
 
-Draw Steel
 
 | Troll Glutton<br><span style="font-weight:normal;">Giant, Troll                                                                                                                                                                                                                                                                                                                                                                                                      |                                                    |                                                        |                                                        | Level 5 Elite Brute<br>EV 28                              |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|--------------------------------------------------------|--------------------------------------------------------|-----------------------------------------------------------|
@@ -13249,7 +13216,6 @@ Ravenous and rotting undead arms burst forth from 9 connected squares of a verti
 
 t **Dread March 7+ Malice** Up to four undead in the encounter move up to their speed and can make a free strike. The number of undead affected increases by 1 for each additional Malice spent on this feature. If an undead is reduced to 0 Stamina during this dread march, they don't die until the march is resolved.
 
-Draw Steel
 
 | Crawling Claw                                                                                                                                                                                                                                                              |                    |                                                              |                      |                     |  |  |  |  |  |  |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|--------------------------------------------------------------|----------------------|---------------------|--|--|--|--|--|--|
@@ -13851,7 +13817,6 @@ Whenever the mournling uses the Dig maneuver to breach the surface, they make a 
 
 The haunt can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. They are invisible while moving using a move action. The haunt doesn't take damage from being force moved into objects.
 
-Draw Steel
 
 | Koptourok<br><span style="font-size:1em; font-weight:normal;">Undead                                                                                                                                                                                                                                                                                                                                                 |                                                         |                                                            | Level 7 Horde Hexer<br>EV 9                                 |                                                               |  |  |  |  |  |  |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------|-------------------------------------------------------------|---------------------------------------------------------------|--|--|--|--|--|--|
@@ -14370,7 +14335,6 @@ d **Arms of Necrosis** 2d10 + 5 **Villain Action 3** Area, Magic
 
 **Effect:** At the end of each of the lich's turns, they regain 10 Stamina for each creature frightened this way.
 
-Draw Steel
 
 There is no visible text in the provided image.
 
@@ -14821,7 +14785,6 @@ The hulking brain can carry up to four size 1 creatures they have grabbed, and t
 
 Whenever a non-minion voiceless talker within 5 squares of the hulking brain uses a psionic ability, they can do so as if they were in the hulking brain's space .
 
-Draw Steel
 
 | Mindkiller<br><span style="font-weight:normal;">Horror, Voiceless Talker                                                                                                                                                                                                                                                                                                                                                                                                                                                      |                    |                   | Level 6 Elite Hexer<br>EV 32 |                    |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|-------------------|------------------------------|--------------------|
@@ -15295,7 +15258,6 @@ When the amalgamite is reduced to 0 Stamina, their loyalty collar explodes, deal
 
 When the crucibite is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d6 damage to each adjacent enemy and object.
 
-Draw Steel
 
 | War Dog Eviscerite<br><span style="font-weight:normal;">Humanoid, Soulless, War Dog                                                                                                                                                                                                                                                                                                                                                                                                                |                                                     |                                                        | Level 1 Horde Harrier<br>EV 3                                                                                                                                 |                                                           |             |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|--------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|-------------|
@@ -15374,7 +15336,6 @@ When the eviscerite is reduced to 0 Stamina, their loyalty collar explodes, deal
 | **Corrupted Ash Teleport**  <br>Self • **1 Malice**<br>**Effect:** The teletalite can teleport up to 5 squares and gains an edge on strikes until the end of their turn.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |                    |                      |                       |                                |
 | **Loyalty Collar**<br>When the teletalite is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d6 damage to each adjacent enemy and object.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |                    |                      |                       |                                |
 
-Draw Steel
 
 | War Dog Ground Commander<br>Humanoid, Soulless, War Dog                |                                                                          |                                                                         |                                                                            | Level 3 Leader<br>EV 20                                                   |
 |------------------------------------------------------------------------|--------------------------------------------------------------------------|-------------------------------------------------------------------------|----------------------------------------------------------------------------|---------------------------------------------------------------------------|
@@ -15507,7 +15468,6 @@ t **Loyalty Collar**
 
 When the sparkslinger is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d6 damage to each adjacent enemy and object.
 
-Draw Steel
 
 | War Dog Sweeper<br><span style="font-weight:normal">Humanoid, Soulless, War Dog                                                                                                                                                                                                                                                                                                                                                               |                                                    |                                                      | Level 4 Minion Harrier<br><span style="font-weight:normal">EV 6 for four minions |                                                          |  |  |  |  |  |  |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|------------------------------------------------------|-----------------------------------------------------------------------------------------|----------------------------------------------------------|--|--|--|--|--|--|
@@ -16153,7 +16113,6 @@ Each ally within 3 squares of Hoplon has cover and damage immunity 2.
 
 The first time in an encounter that Hoplon is reduced to 0 Stami na, he instead has 1 Stamina and gains damage immunity 10 until the end of his next turn. When Hoplon is reduced to 0 Stamina again, each ally within 5 squares of him gains damage immunity 3 and deals an extra 5 damage on strikes, all until the end of the encounter.
 
-Draw Steel
 
 | Iron Champion Doru<br><span style="font-weight:normal;">Humanoid, Soulless, War Dog                                                                                                                                                                                                                                                                                                                                                                                                                                   |                   |                       | Level 10 Elite Brute<br>EV 48 |                          |  |  |  |  |  |  |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|-----------------------|-------------------------------|--------------------------|--|--|--|--|--|--|
@@ -16261,7 +16220,6 @@ Each ally who starts their turn within 10 squares of Vesper can teleport wheneve
 
 When Vesper is reduced to 0 Stamina, they move up to their speed and then explode, dealing 4d6 damage to each adjacent enemy and object. Any enemy who takes more than 14 damage this way vertically slides 5 squares .
 
-Draw Steel
 
 | Soulbinder Psyche                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |            |                |                |                   |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|----------------|----------------|-------------------|
@@ -16426,7 +16384,6 @@ Area, Magic
 
 **Effect:** Until the start of the next round, each target enemy who has i<4] is dazed, each target enemy who has m<4] is restrained, and each target enemy who has a<4] can't use triggered actions. Additionally, until the end of the encounter, Alkestis and each target ally have damage immunity 3 and deal an extra 5 damage with strikes.
 
-Draw Steel
 
 # WEREWOLF
 
@@ -16951,7 +16908,6 @@ A creature enters the hive's space or an adjacent space without shifting.
 
 ### t **Upgrades**
 
-Draw Steel
 
 **Concealed Hive (+1 EV)** The hive is hidden until the swarm is unleashed.
 
@@ -17402,7 +17358,6 @@ triggering creature or object
 
 ### t **Hidden**
 
-Draw Steel
 
 The snare trap is hidden until triggered or detected.
 
@@ -17782,7 +17737,6 @@ A creature adjacent to the switch uses a maneuver to trigger it.
 
 **Concealed (+1 EV)** The switch is hidden.
 
-Draw Steel
 
 # Power Fixtures
 
@@ -17915,7 +17869,6 @@ As a maneuver, a creature adjacent to an arrow launcher can make an **Agility te
 
 **Effect:** This ability can't be used again until the arrow launcher is reloaded.
 
-Draw Steel
 
 **Boiling Oil Cauldron Level 3 Fortification Defender** EV 10
 
@@ -18631,7 +18584,6 @@ Melee
 
 **Effect:** The retainer and their mentor each gain 10 temporary Stamina. Additionally, each winded ally within 2 squares of the retainer can spend a Recovery.
 
-Draw Steel
 
 **DRAW**
 
@@ -18808,7 +18760,6 @@ Melee Triggered action
 
 **Effect:** If the target has m<v, heir movement ends, they are knocked prone, and one ally within distance gains 2 surges.
 
-Draw Steel
 
 |                           |                                                | Bugbear Commando<br>Bugbear, Fey, Goblin, Humanoid                                                                                                                                                                                                                                                                                                                                     |                                                                                                                                                                                |                | Level 2 Ambusher Retainer                                    |
 |---------------------------|------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|--------------------------------------------------------------|
@@ -18920,7 +18871,6 @@ Area, Magic, Ranged Main action e 5 cube within 10 x Special
 
 **Effect:** Any living minions reduced to 0 Stamina by this ability regain all their Stamina and become corporeal undead under the Nameless's control until the end of the Nameless's next turn, after which they are destroyed.
 
-Draw Steel
 
 | Dwarf Mortar<br><span style="font-weight:normal;">Dwarf, Humanoid                                                                                                                                                                                                                                                                                                    |                  |                 | Level 1 Hexer Retainer |                   |  |  |  |  |  |  |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|-----------------|------------------------|-------------------|--|--|--|--|--|--|
@@ -19082,7 +19032,6 @@ ged 5
 
 **Effect:** While a creature has shadowed vision, all creatures have concealment from them.
 
-Draw Steel
 
 | Wode Elf Arrowswift<br><span style="font-weight:normal">Fey, Humanoid, Wode Elf                                                                                                                                                                                                                                                                                                                                                                                                      |                    |                      | Level 1 Artillery Retainer |                         |  |  |  |  |  |  |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|----------------------|----------------------------|-------------------------|--|--|--|--|--|--|
@@ -19175,7 +19124,6 @@ Whenever a non-minion ally within 7 squares of the gnasher is reduced to 0 Stami
 
 **Effect:** The gnasher consumes part of the target's body. The gnasher can spend a Recovery, and each enemy within 5 squares of the gnasher who has I < AVERAGE is frightened (save ends).
 
-Draw Steel
 
 | Goblin Guide<br><span style="font-weight:normal;">Goblin, Humanoid                                                                                                                                                                                                                                                                                                 |                                                   |                                                      | Level 1 Harrier Retainer                              |                                                         |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------|------------------------------------------------------|-------------------------------------------------------|---------------------------------------------------------|
@@ -19266,7 +19214,6 @@ b **Fire Spiral** 2d10 + highest characteristic **Encounter**
 
 **Effect:** If the flameslinger's mentor is within 10 squares of the flameslinger, the mentor can be the source of the burst instead of the flameslinger.
 
-Draw Steel
 
 | **Human Warrior**<br>Level 1 Defender Retainer                                                                                                                                                                                                                                                                                                                                                                                                              |                   |                  |                     |                     |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|------------------|---------------------|---------------------|
@@ -19333,7 +19280,6 @@ Ranged Triggered action
 
 **Effect:** If this ability is used as part of the Charge main action, the shieldbearer gains 2 surges that can be used immediately.
 
-Draw Steel
 
 | Minotaur Gorer                                                                                                                                                                                                                                                                            |                   |                                                                                                            |                     |                   |                        |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|------------------------------------------------------------------------------------------------------------|---------------------|-------------------|------------------------|
@@ -19402,7 +19348,6 @@ If the charger is reduced to 0 Stamina, they can make a free strike before dying
 
 **Effect:** The charger takes psychic damage equal to the number of enemies affected. This damage can't be reducetd in any way.
 
-Draw Steel
 
 | Radenwight Sidekick <span style="float:right; font-size:1em;">Level 1 Support Retainer                                                                                                                                                                                                                                                                                                                                                                           |                    |                                                                |                       |                                                                                                                                                                                                                                                                                                                                                                                                                              |             |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|----------------------------------------------------------------|-----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|
@@ -19480,7 +19425,6 @@ o One creature
 
 **Effect:** If the mind healer is dazed, frightened, or taunted, they can end one of those conditions and impose the same condition on one enemy in the area. Additionally, they can do the same for their mentor if the mentor is in the area and is dazed, frightened, or taunted.
 
-Draw Steel
 
 | Troll Mercenary                                                                                                                        |                    |                   |                     |                                                            | Level 7 Retainer Advancement Ability                                                                                                                                                                                                          |                                       |  |  |  |  |  |  |
 |----------------------------------------------------------------------------------------------------------------------------------------|--------------------|-------------------|---------------------|------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--|--|--|--|--|--|
@@ -19564,7 +19508,6 @@ Free triggered action
 - **Effect:** The servitor explodes. 1 6 corruption damage 2 10 corruption damage 3 14 corruption damage
 - 
 
-Draw Steel
 
 | Unquiet Spirit                                                                                |                   |                 |                    |                    | Level 1 Hexer Retainer                                                                                   |  |  |  |  |  |  |  |
 |-----------------------------------------------------------------------------------------------|-------------------|-----------------|--------------------|--------------------|----------------------------------------------------------------------------------------------------------|--|--|--|--|--|--|--|
@@ -19673,7 +19616,6 @@ One creature
 	-
 	- 1 7 corruption damage; m<w] bleeding (save ends) 2 11 corruption damage; m<v] bleeding (save ends) 3 16 corruption damage; m<s] bleeding (save ends)
 
-Draw Steel
 
 # DRAW STEEL CREATOR LICENSE
 
