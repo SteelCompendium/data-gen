@@ -103,6 +103,20 @@ run input_md_path output_md_path:
     text = re.sub( r'^\#\# \*\*(.*)\*\*', r'#### \1', text, flags=re.MULTILINE)
     text = re.sub( r'^\#\#\#\# \*\*(.*)\*\*', r'######## \1', text, flags=re.MULTILINE)
 
+    # monster book
+    text = re.sub( r'^\#* t \*\*(.*)\*\*', r'⭐️ **\1**', text, flags=re.MULTILINE)
+    text = re.sub( r'^\#* s \*\*(.*)\*\*', r'👤 **\1**', text, flags=re.MULTILINE)
+    text = re.sub( r'^\#* p \*\*(.*)\*\*', r'🌀 **\1**', text, flags=re.MULTILINE)
+    text = re.sub( r'^\#* d \*\*(.*)\*\*', r'☠️ **\1**', text, flags=re.MULTILINE)
+    text = re.sub( r'^\#* a \*\*(.*)\*\*', r'🔳 **\1**', text, flags=re.MULTILINE)
+    text = re.sub( r'^\#* r \*\*(.*)\*\*', r'🏹 **\1**', text, flags=re.MULTILINE)
+    text = re.sub( r'^\#* m \*\*(.*)\*\*', r'🗡 **\1**', text, flags=re.MULTILINE)
+    text = re.sub( r'^\#* ! \*\*(.*)\*\*', r'❗️ **\1**', text, flags=re.MULTILINE)
+    text = re.sub( r'^\#* b \*\*(.*)\*\*', r'❇️ **\1**', text, flags=re.MULTILINE)
+    text = re.sub( r'^\#* ⚔ \*\*(.*)\*\*', r'⚔️ **\1**', text, flags=re.MULTILINE)
+    text = re.sub( r'^\#* v \*\*(.*)\*\*', r'⚔️ **\1**', text, flags=re.MULTILINE)
+
+
     # newlines
     text = re.sub( r'\n\n\n', r'\n\n', text, flags=re.MULTILINE)
 

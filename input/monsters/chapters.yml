@@ -1,0 +1,9 @@
+global:
+  source: "mcdm.heroes.v1"
+  file_dpath: 'Chapters'
+  type: chapter
+sections:
+- header_path: monster-basics
+  chapter_num: '1'
+- header_path: monsters
+  chapter_num: '2'

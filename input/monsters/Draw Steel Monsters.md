@@ -328,7 +328,7 @@ You won't be able to spend Malice on every single option a given encounter has t
 
 All monsters have access to the following Malice features, in addition to any "[Creature] Malice" features they might have.
 
-########## Basic Malice
+######### Basic Malice
 
 At the start of any monster's turn, you can spend Malice to activate one of the following features:
 
