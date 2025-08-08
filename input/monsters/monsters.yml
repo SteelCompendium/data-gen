@@ -5,3 +5,7 @@ sections:
 - header_path: monsters/ajax-the-invincible
   xpath: "//section[@id='monsters']//section[@id='ajax-the-invincible']//section[@class='level7']"
   file_dpath: 'Monsters/Ajax the Invincible'
+- header_path: monsters/ajax-the-invincible
+  xpath: "//section[@id='monsters']//section[@id='ajax-the-invincible']//section[@class='level9']"
+  file_dpath: 'Monsters/Ajax the Invincible'
+  type: 'monster/feature'
