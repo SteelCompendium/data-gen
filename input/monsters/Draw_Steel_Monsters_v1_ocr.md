@@ -497,7 +497,7 @@ At the start of any monster's turn, you can spend Malice to activate one of the 
 
 The monster digs into the enemy's weak spot. The next ability the monster uses with a potency has that potency increased by 1.
 
-s **Malicious Strike 5+ Malice** The monster pours all their animosity into their attack. Their next strike deals extra damage to one target equal to the monster's highest characteristic score. The extra damage increases by 1 for each additional Malice spent on this feature (to a maximum of three times the monster's highest characteristic). This feature can't be used two rounds in a row, even by different monsters.
+👤 **Malicious Strike 5+ Malice** The monster pours all their animosity into their attack. Their next strike deals extra damage to one target equal to the monster's highest characteristic score. The extra damage increases by 1 for each additional Malice spent on this feature (to a maximum of three times the monster's highest characteristic). This feature can't be used two rounds in a row, even by different monsters.
 
 ### **That's So Much Malice!**
 
@@ -1709,7 +1709,7 @@ Swamp: The ground is difficult terrain for enemies. Any creature who starts and 
 
 Volcanic Canyon: The air is stiflingly hot. Each enemy takes 5 fire damage for each square they enter.
 
-d **Solo Action 5 Malice** Ajax takes an additional main action on his turn. He can use this feature even if he is dazed.
+☠️ **Solo Action 5 Malice** Ajax takes an additional main action on his turn. He can use this feature even if he is dazed.
 
 🔳 **Draw Steel 10 Malice**
 
@@ -1831,7 +1831,7 @@ Magic Triggered action
 
 **Trigger:** A creature within 10 squares regains Stamina. **Effect:** Ajax regains the same amount of Stamina.
 
-d **Phoenix Wing King** 2d10 + 5 **Villain Action 1**
+☠️ **Phoenix Wing King** 2d10 + 5 **Villain Action 1**
 
 - Area, Magic, Weapon 
 | --- | ---:|
@@ -1844,7 +1844,7 @@ d **Phoenix Wing King** 2d10 + 5 **Villain Action 1**
 
 **Effect:** Ajax flies at high speed to cut through each target, then appears in an unoccupied space within distance.
 
-d **I've Learned Their Tricks Villain Action 2**
+☠️ **I've Learned Their Tricks Villain Action 2**
 
 -
 
@@ -1908,7 +1908,7 @@ Each angulotl in the encounter puffs out their throat and starts loudly droning 
 - 2 4 sonic damage
 - 3 No effect.
 
-p **Rainfall 7 Malice** An angulotl calls clouds to cover the encounter map and unleash rain until the end of the round. Any creature or object that is exposed to the sky is wet until the end of the encounter.
+🌀 **Rainfall 7 Malice** An angulotl calls clouds to cover the encounter map and unleash rain until the end of the round. Any creature or object that is exposed to the sky is wet until the end of the encounter.
 
 # They like humans! Adults tend to freak them out a little. I don't think they realize tall humans are the same species as tiny humans!
 
@@ -2383,7 +2383,7 @@ You certainly can! Animal traits can be applied to the **noncombatant** stat blo
 |----------------------------------------------------|
 | **Effect:** The animal moves up to their speed. |
 
-t **Nature's Spirit**
+⭐️ **Nature's Spirit**
 
 While outdoors or in a natural environment, the animal can negate a bane on their abilities or turn a double bane into a bane.
 
@@ -2394,7 +2394,7 @@ While outdoors or in a natural environment, the animal can negate a bane on thei
 | **<span style="background:#000; color:#fff; padding:2px 4px;">M** ight -2                                                                                                                                                                                                                                                                      | **<span style="background:#000; color:#fff; padding:2px 4px;">A** gility +1 | **<span style="background:#000; color:#fff; padding:2px 4px;">R** eason -3 | **<span style="background:#000; color:#fff; padding:2px 4px;">I** ntuition +2                     | **<span style="background:#000; color:#fff; padding:2px 4px;">P** resence -3 |
 | **Flurry** 2d10 + 2<br>Melee, Strike, Weapon<br><span style="margin-left:1em;">Melee 1<br>≤11 6 damage<br>12-16 9 damage; pull 1<br>17+ 12 damage; pull 2<br><span style="font-size:0.9em;">Effect: If the target is pulled into the animal swarm, that forced movement deals damage only at the Director's determination. |                                                                                       |                                                                                      | **Signature Ability**<br>Main action<br><span style="font-size:1.1em;">↻ Two creatures or objects |                                                                                        |
 
-t **Swarm**
+⭐️ **Swarm**
 
 The animal swarm can move through spaces as if they were a size 1M creature, and can occupy other creatures' spaces. At the start of each of the animal swarm's turns, they can make a free strike against each creature whose space they share.
 
@@ -2656,7 +2656,7 @@ Special
 
 **Effect:** The arixx halves the damage and shifts up to 3 squares after the triggering effect resolves.
 
-d **Acid Spew** 2d10 + 3 **Villain Action 1**
+☠️ **Acid Spew** 2d10 + 3 **Villain Action 1**
 
 Area, Weapon e 10 x 2 line within 1 x Each creature and object in the area
 
@@ -2715,9 +2715,9 @@ The ashen hoarder moves up to their speed and can make a free strike against two
 
 The ashen hoarder summons a 10 wall of bones and blades into unoccupied squares within 5 squares of them. Each square of the wall has 5 Stamina. An enemy who comes adjacent to the wall for the first time in a round or starts their turn there takes 3 damage.
 
-d **Solo Action 5 Malice** The ashen hoarder takes an additional main action on their turn. They can use this feature even if they are dazed.
+☠️ **Solo Action 5 Malice** The ashen hoarder takes an additional main action on their turn. They can use this feature even if they are dazed.
 
-a **Bone Storm 7 Malice** The ashen hoarder launches bone lances into the air, raining them down on enemies and impaling those unlucky enough to be on the receiving end. Each enemy within 20 squares of the ashen hoarder makes an Agility test.
+🔳 **Bone Storm 7 Malice** The ashen hoarder launches bone lances into the air, raining them down on enemies and impaling those unlucky enough to be on the receiving end. Each enemy within 20 squares of the ashen hoarder makes an Agility test.
 
 - 1 14 damage; restrained and bleeding (save ends)
 - 2 11 damage; bleeding (EoT)
@@ -2765,7 +2765,7 @@ Solo Turns: The ashen hoarder can take two turns each round. They can't take tur
 | Image: 17+   14 corruption damage; **M** $<4$ the target is impaled (save ends)                                                           |
 | **Effect:** An impaled creature is restrained and bleeding, and moves with the ashen hoarder. The ashen hoarder can have three creatures. |
 
-s **Bone Dozer**
+👤 **Bone Dozer**
 
 impaled with this ability at a time.
 
@@ -2853,13 +2853,13 @@ After a basilisk dies, a character can make a Reason test to claim oil from the 
 
 At the start of any basilisk's turn, you can spend Malice to activate one of the following features.
 
-t **Stone Swim 3+ Malice** A basilisk acting this turn can burrow until the start of their next turn, and moves up to their speed. They have damage immunity 2 while underground. The basilisk can burrow through stone, but can't drag other creatures underground when they do so. At the start of each of the basilisk's turns, the Director can spend 1 Malice to let the basilisk continue burrowing.
+⭐️ **Stone Swim 3+ Malice** A basilisk acting this turn can burrow until the start of their next turn, and moves up to their speed. They have damage immunity 2 while underground. The basilisk can burrow through stone, but can't drag other creatures underground when they do so. At the start of each of the basilisk's turns, the Director can spend 1 Malice to let the basilisk continue burrowing.
 
 Area, Weapon
 
 ![](https://upload.wikimedia.org/wikipedia/commons/3/3d/Triangle-exclamation.svg) 3 cube within 10
 
-a **Upchuck** 2d10 + 2 **5 Malice** Area, Weapon Main action e 3 cube within 10 x Each enemy in the area
+🔳 **Upchuck** 2d10 + 2 **5 Malice** Area, Weapon Main action e 3 cube within 10 x Each enemy in the area
 
 **Effect:** The basilisk spits up a chunk of partly digested stone.
 
@@ -2914,7 +2914,7 @@ and has m<1] is slowed (save ends).
 
 Any creature who starts their turn adjacent to the tonguesnapper
 
-t **Petrifying Fumes**
+⭐️ **Petrifying Fumes**
 
 # BREDBEDDLE
 
@@ -2940,7 +2940,7 @@ When a bredbeddle communicates, they typically use High Kuric or the languages t
 
 At the start of a bredbeddle's turn, you can spend Malice to activate one of the following features.
 
-t **Engreen 3 Malice** The bredbeddle's axe lengthens and turns a ghastly green, granting a +1 bonus to the distance of the bredbeddle's melee strikes and the dimensions of their burst area abilities until the end of their turn.
+⭐️ **Engreen 3 Malice** The bredbeddle's axe lengthens and turns a ghastly green, granting a +1 bonus to the distance of the bredbeddle's melee strikes and the dimensions of their burst area abilities until the end of their turn.
 
 🔳 **Shadow Stockade 5 Malice**
 
@@ -2950,7 +2950,7 @@ A ghostly size 1L stockade seeps out from under the bredbeddle's feet to fill an
 
 The bredbeddle takes an additional main action on their turn. They can use this feature even if they are dazed.
 
-p **Green Phantom 7 Malice** A phantom second bredbeddle phases into view, appearing in an unoccupied space anywhere on the encounter map, then vanishing at the end of the round. The phantom bredbeddle shares the original bredbeddle's statistics but has 24 Stamina, corruption immunity 10, and can fly. The phantom bredbeddle can take one turn and use any of the bredbeddle's abilities except for villain actions. Only one phantom bredbeddle can be active at a time.
+🌀 **Green Phantom 7 Malice** A phantom second bredbeddle phases into view, appearing in an unoccupied space anywhere on the encounter map, then vanishing at the end of the round. The phantom bredbeddle shares the original bredbeddle's statistics but has 24 Stamina, corruption immunity 10, and can fly. The phantom bredbeddle can take one turn and use any of the bredbeddle's abilities except for villain actions. Only one phantom bredbeddle can be active at a time.
 
 | Bredbeddle<br><span style="font-weight:normal;font-size:smaller;">Bredbeddle, Giant |                   |                   |                      | Level 3 Solo<br>EV 60 |
 |--------------------------------------------------------------------------------------------|-------------------|-------------------|----------------------|-----------------------|
@@ -2974,7 +2974,7 @@ A creature must succeed on a **hard Might test** made as a maneuver to rip a hea
 
 The bredbeddle can't be physically transformed in any way except by their Heady or Not trait.
 
-b **Executioner's Swing** 2d10 + 3 **Signature Ability**
+❇️ **Executioner's Swing** 2d10 + 3 **Signature Ability**
 
 **Signature Abil**
 Main acti
@@ -3011,7 +3011,7 @@ Main acti
 
 **Effect:** While the bredbeddle is headless, they shift up to their speed. Each time a creature comes adjacent to the bredbeddle during the shift, the bredbeddle can push that creature 1 square. Each square the bredbeddle exits during the shift is difficult terrain.
 
-r **Headway** 2d10 + 3 **5 Malice**
+🏹 **Headway** 2d10 + 3 **5 Malice**
 
 | **Ranged, Strike, Weapon** | **Maneuver** |
 | --- | ---:|
@@ -3095,7 +3095,7 @@ Bugbears value their shared origin with goblins and hobgoblins despite the three
 
 At the start of any bugbear's turn, you can spend Malice to activate one of the following features.
 
-t **Goblin Malice Features 3-7 Malice** The bugbear activates a Malice Feature available to goblins.
+⭐️ **Goblin Malice Features 3-7 Malice** The bugbear activates a Malice Feature available to goblins.
 
 👤 **Grab Iron Ball 3+ Malice**
 
@@ -3103,7 +3103,7 @@ For every 3 Malice spent, one non-minion bugbear acting this turn grabs an iron 
 
 - **Malice**
 
-s **Grab Javelin 5+ Malice** For every 5 Malice spent, one non-minion bugbear acting this turn grabs a javelin and can use a maneuver to throw it at a creature within 5 squares of them. The creature takes damage equal to 12 - the number of squares the javelin was thrown, and if they have m<1], they are bleeding (save ends). While a creature is bleeding this way, any ally of the bugbear within 2 squares of them can use a free maneuver to pull the bleeding creature up to 2 squares.
+👤 **Grab Javelin 5+ Malice** For every 5 Malice spent, one non-minion bugbear acting this turn grabs a javelin and can use a maneuver to throw it at a creature within 5 squares of them. The creature takes damage equal to 12 - the number of squares the javelin was thrown, and if they have m<1], they are bleeding (save ends). While a creature is bleeding this way, any ally of the bugbear within 2 squares of them can use a free maneuver to pull the bleeding creature up to 2 squares.
 
 🌀 **Show Them the Great Fear 10 Malice**
 
@@ -3176,7 +3176,10 @@ Most bugbears speak Caelian, Khelt, and Szetch.
 
 | **📏 Melee 1** | **🎯 One creature or object 1 8 damage; m<1] prone 2 13 damage; m<2] prone 3 16 damage; m<3] prone **Effect:** The roughneck can jump up to 5 squares to an unoccupied space within distance of the target before making this strike. m **Drag Through Hell 3 Malice** Melee** | **Maneuver** |
 | --- | ---:|
-| **📏 Melee 1** | **🎯 One creature or object Special: The target must be grabbed by the roughneck. **Effect:** The roughneck moves up to their speed across the ground, dragging the target with them. The target takes 2 damage for each square they were dragged through. When this movement ends, the target is no longer grabbed and falls prone. Each square the target was dragged through is difficult terrain for enemies. m **Throw** Melee, Strike Maneuver e Melee 1 x One creature or object Special: The target must be grabbed by the roughneck. **Effect:** The target is vertical pushed up to 5 squares. An ally doesn't take damage from being force moved this way. ! **Catcher** Melee Free triggered action e Melee 1 x The triggering creature or object Trigger: A size 1 creature or object is force moved within distance, or a size 1 ally willingly moves within distance. **Effect:** The target is grabbed by the roughneck. ! **Flying Sawblade** Melee Triggered action e Self x Self Trigger: The roughneck is vertical force moved by another creature. **Effect:** The roughneck uses Haymaker against a creature or object at any point during the forced movement, or after falling as a result of it. **Bugbear Roughneck Level 2 Elite Brute** Bugbear, Fey, Goblin, Humanoid EV 16 1L 6 109 0 5 **Size Speed Stamina Stability Free Strike**** |** |** |
+
+| **📏 Melee 1** | **🎯 One creature or object Special: The target must be grabbed by the roughneck. **Effect:** The roughneck moves up to their speed across the ground, dragging the target with them. The target takes 2 damage for each square they were dragged through. When this movement ends, the target is no longer grabbed and falls prone. Each square the target was dragged through is difficult terrain for enemies. m **Throw** Melee, Strike** | **Maneuver** |
+| --- | ---:|
+| **📏 Melee 1** | **🎯 One creature or object Special: The target must be grabbed by the roughneck. **Effect:** The target is vertical pushed up to 5 squares. An ally doesn't take damage from being force moved this way. ! **Catcher** Melee Free triggered action e Melee 1 x The triggering creature or object Trigger: A size 1 creature or object is force moved within distance, or a size 1 ally willingly moves within distance. **Effect:** The target is grabbed by the roughneck. ! **Flying Sawblade** Melee Triggered action e Self x Self Trigger: The roughneck is vertical force moved by another creature. **Effect:** The roughneck uses Haymaker against a creature or object at any point during the forced movement, or after falling as a result of it. **Bugbear Roughneck Level 2 Elite Brute** Bugbear, Fey, Goblin, Humanoid EV 16 1L 6 109 0 5 **Size Speed Stamina Stability Free Strike**** |** |** |** |
 
 |                            | Bugbear Sneak                                                                                                                                      |           |                                     | Level 2 Elite Ambusher                                        |
 |----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|-----------|-------------------------------------|---------------------------------------------------------------|
@@ -3312,7 +3315,7 @@ At the start of a chimera's turn, you can spend Malice to activate one of the fo
 
 The chimera takes up a defensive stance. Until the start of their next turn, the chimera can make a free strike against each enemy who comes within 2 squares of them.
 
-d **Solo Action 5 Malice** The chimera takes an additional main action on their turn. They can use this feature even if they are dazed.
+☠️ **Solo Action 5 Malice** The chimera takes an additional main action on their turn. They can use this feature even if they are dazed.
 
 🔳 **Unstable Terrain 5 Malice**
 
@@ -3375,7 +3378,7 @@ Melee, Strike, Weapon Triggered action
 - 2 8 damage; prone; m<2] slowed (save ends)
 - 3 10 damage; prone; m<3] slowed (save ends)
 
-d **Overture of Destruction** 2d10 + 3 **Villain Action 1** Area
+☠️ **Overture of Destruction** 2d10 + 3 **Villain Action 1** Area
 
 **Villain Action 1**
 
@@ -3496,11 +3499,11 @@ A number of lesser demons have been identified across categories 1 to 3.
 
 At the start of any demon's turn, you can spend Malice to activate one of the following features.
 
-t **Soulburn 3 Malice**
+⭐️ **Soulburn 3 Malice**
 
 Each demon acting this turn has a double edge on abilities.
 
-p **Abyssal Evolution 7 Malice**
+🌀 **Abyssal Evolution 7 Malice**
 
 A demon minion of your choice transforms into a non-minion horde demon of the same level.
 
@@ -3783,9 +3786,9 @@ As demons consume more souls and their mercurial forms shift into more powerful 
 
 At the start of any level 4 or higher demon's turn, you can spend Malice to activate one of the following features.
 
-t **Prior Malice Features 3-7 Malice** The demon activates a Malice feature available to demons of level
+⭐️ **Prior Malice Features 3-7 Malice** The demon activates a Malice feature available to demons of level
 
-s **Abyssal Jaunt 3 Malice** One demon acting this turn folds space around them, temporarily
+👤 **Abyssal Jaunt 3 Malice** One demon acting this turn folds space around them, temporarily
 
 slipping in and out of the Abyssal Wasteland. Until the start of the demon's next turn, they ignore difficult terrain, can move through solid matter, and don't provoke opportunity attacks by moving. If the demon ends their turn inside solid matter, they are shunted out into the space from which they entered it.
 
@@ -3907,7 +3910,7 @@ e 1 burst, or 3 cube within 5 x One creature or object in the area
 
 **Effect:** The ground and any surfaces in the area pool with slime. The slime is difficult terrain for enemies, and any enemy is bleeding while in the area.
 
-! **Spew Slide 1 Malice** - Free triggered action 
+❗️ **Spew Slide 1 Malice** - Free triggered action 
 | --- | ---:|
 | **📏 Self** | **🎯 Self** |
 
@@ -4262,7 +4265,7 @@ x Each soulraker minion in the area
 
 **Effect:** Each target can move their speed and make a free strike. If no minions are present, four soulraker minions are summoned into unoccupied spaces within distance before the hivequeen uses this villain action.
 
-d **Buzz Off!** 2d10 + 5 **Villain Action 2**
+☠️ **Buzz Off!** 2d10 + 5 **Villain Action 2**
 
 Area e 5 burst
 
@@ -4303,7 +4306,7 @@ The more souls a demon consumes, the more they evolve. The more they evolve, the
 
 At the start of any level 10 or higher demon's turn, you can spend Malice to activate one of the following features.
 
-t **Prior Malice Features 3-7 Malice**
+⭐️ **Prior Malice Features 3-7 Malice**
 
 The demon activates a Malice feature available to demons of level 9 or lower.
 
@@ -4482,7 +4485,7 @@ One devil acting this turn uses a signature ability against an adjacent creature
 
 One or two devils can teleport to a space adjacent to one or more creatures who aren't hidden and make a free strike. For each 2 additional Malice spent on this feature, one additional devil can teleport.
 
-p **Read the Small Print 7 Malice** Each enemy in the encounter is subject to a bad deal proposed by the devils. An enemy must choose between having damage weakness 5 or taking a bane on power rolls. The bad deal lasts
+🌀 **Read the Small Print 7 Malice** Each enemy in the encounter is subject to a bad deal proposed by the devils. An enemy must choose between having damage weakness 5 or taking a bane on power rolls. The bad deal lasts
 
 ### **Devil Temptations**
 
@@ -4743,7 +4746,7 @@ Most draconians speak Caelian in addition to the languages of their employers an
 
 At the start of any draconian's turn, you can spend Malice to activate one of the following features.
 
-s **Guarding Gale 3 Malice** A draconian acting this turn flaps their wings and creates a mighty gale. Each creature adjacent to the draconian is pushed up to 4 squares, and if they have m<2], , they are knocked prone.
+👤 **Guarding Gale 3 Malice** A draconian acting this turn flaps their wings and creates a mighty gale. Each creature adjacent to the draconian is pushed up to 4 squares, and if they have m<2], , they are knocked prone.
 
 - a **Breath Weapon** 2d10 + 3 **5 Malice**
 
@@ -4757,7 +4760,7 @@ Special: The damage dealt by this ability matches a damage type the draconian ha
 - 2 10 damage
 - 3 13 damage
 
-b **Scaleshatter Burst** 2d10 + 3 **7 Malice**
+❇️ **Scaleshatter Burst** 2d10 + 3 **7 Malice**
 
 Area, Magic
 
@@ -5029,13 +5032,13 @@ Area
 
 **Effect:** Each ally in the area gains an edge on their next strike.
 
-d **Wings of Second Wind** 2d10 + 4 **Villain Action 2** Area 
+☠️ **Wings of Second Wind** 2d10 + 4 **Villain Action 2** Area 
 | --- | ---:|
 | **📏 10 burst** | **🎯 Self and each ally in the area** |
 
 **Effect:** Each target shifts or flies up to their speed and regains 10 Stamina.
 
-d **Snap, Crackle, Pop** 2d10 + 4 **Villain Action 3** Area, Magic
+☠️ **Snap, Crackle, Pop** 2d10 + 4 **Villain Action 3** Area, Magic
 
 **Villain Action 3**
 
@@ -5347,13 +5350,13 @@ Special: If the Thorn Dragon's Domain trait is in effect, any creature other tha
 
 ### At the start of a thorn dragon's turn, you can spend Malice to activate one of the following features.
 
-t **Cage of Thorns 3 Malice** A cage of thorns grows around one dragonsealed enemy on the encounter map, making that enemy restrained until the end of their next turn.
+⭐️ **Cage of Thorns 3 Malice** A cage of thorns grows around one dragonsealed enemy on the encounter map, making that enemy restrained until the end of their next turn.
 
 🔳 **Bramble Barricade 5 Malice**
 
 The dragon grows a 10 wall of briars in unoccupied spaces on the encounter map. The wall blocks line of effect for all creatures except the dragon. Each square of the wall has 5 Stamina and fire weakness 5. The area can be moved through but is difficult terrain. Any creature who is force moved into or within the area takes 1 damage for each square of the area entered and is bleeding until the end of their next turn.
 
-d **Solo Action 5 Malice** The dragon takes an additional main action on their turn. They can use this feature even if they are dazed.
+☠️ **Solo Action 5 Malice** The dragon takes an additional main action on their turn. They can use this feature even if they are dazed.
 
 🌀 **Afflictive Overgrowth 7 Malice**
 
@@ -5692,9 +5695,9 @@ The dragon shakes loose a cloud of shattered weapons in a 6 x 4 line within 1 sq
 - 2 13 damage; bleeding (EoT)
 - 3 7 damage
 
-d **Solo Action 5 Malice** The dragon takes an additional main action on their turn. They can use this feature even if they are dazed.
+☠️ **Solo Action 5 Malice** The dragon takes an additional main action on their turn. They can use this feature even if they are dazed.
 
-p **Meltdown 7 Malice** The dragon superheats the ground across the encounter map until the end of the round. Any enemy who starts their turn on the ground is slagged as if affected by the dragon's Slag Spew ability.
+🌀 **Meltdown 7 Malice** The dragon superheats the ground across the encounter map until the end of the round. Any enemy who starts their turn on the ground is slagged as if affected by the dragon's Slag Spew ability.
 
 ### Omen Dragon
 
@@ -5806,7 +5809,7 @@ elf
 
 **Effect:** The dragon shifts up to their speed, and the Deathcount of each dragonsealed creature who comes adjacent to the dragon during this shift is reduced by 1.
 
-! **Repent! 2 Malice** Ranged Free triggered action 
+❗️ **Repent! 2 Malice** Ranged Free triggered action 
 | --- | ---:|
 | **📏 Ranged 5** | **🎯 The triggering creature** |
 
@@ -5866,7 +5869,7 @@ The dragon flies up to 10 squares and carries fated souls with them. Each creatu
 - 2 Vertical pull 6
 - 3 Vertical pull 4
 
-d **Solo Action 5 Malice** The dragon takes an additional main action on their turn. They can use this feature even if they are dazed.
+☠️ **Solo Action 5 Malice** The dragon takes an additional main action on their turn. They can use this feature even if they are dazed.
 
 🌀 **Burn It Right Down 10 Malice**
 
@@ -6090,11 +6093,11 @@ Most dwarves speak Caelian and Zaliac.
 
 **Dwarf Malice Malice Features** At the start of any dwarf's turn, you can spend Malice to activate one of the following features.
 
-s **Breaching Charge 3 Malice** A dwarf can destroy one adjacent object or square of wall for each 3 Malice spent. Each enemy adjacent to the destroyed object or square takes the object's Stamina in damage (3 for wood, 6 for stone, or 9 for metal).
+👤 **Breaching Charge 3 Malice** A dwarf can destroy one adjacent object or square of wall for each 3 Malice spent. Each enemy adjacent to the destroyed object or square takes the object's Stamina in damage (3 for wood, 6 for stone, or 9 for metal).
 
-t **Rappelling Barrage 5 Malice** Each dwarf acting this turn can automatically climb at full speed while moving. At any point during this movement, they can make a free strike.
+⭐️ **Rappelling Barrage 5 Malice** Each dwarf acting this turn can automatically climb at full speed while moving. At any point during this movement, they can make a free strike.
 
-a **Snaring Line 7 Malice** Area, Magic, Ranged Main action e 10 x 1 line within 10 x Each enemy in the area
+🔳 **Snaring Line 7 Malice** Area, Magic, Ranged Main action e 10 x 1 line within 10 x Each enemy in the area
 
 - **Effect:** Each target makes an Agility test.
 - 1 8 damage; restrained (EoT)
@@ -6181,7 +6184,7 @@ Whenever the gunner deals rolled damage to a target, one creature or object adja
 | **Sleep Grenade**<br>Ranged, Weapon<br> Each enemy in the area<br>**≤11** 3 poison damage; **I&lt;0** dazed (save ends)<br>**12-16** 6 poison damage; **I&lt;1** dazed (save ends)<br>**17+** 8 poison damage; **I&lt;2** dazed (save ends)<br>**Effect:** A target dazed this way treats their characteristic scores as 1                                                                                                                                                                |                                                    |                                                       |                                                        |                                                          |
 | <span style="float:right;">3 Malice<br/>Main action<br/> Each enemy in the area                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |                                                    |                                                       |                                                        |                                                          |
 
-t **Indirect Fire**
+⭐️ **Indirect Fire**
 
 lower for the purpose of resisting potencies.
 
@@ -6422,11 +6425,11 @@ At the start of any elemental's turn, you can spend Malice to activate one of th
 
 **3 Malice**
 
-t **Elemental Swap 3 Malice** Two elementals on the encounter map teleport to swap places, and each has damage immunity 2 until the end of the round.
+⭐️ **Elemental Swap 3 Malice** Two elementals on the encounter map teleport to swap places, and each has damage immunity 2 until the end of the round.
 
 ![user icon] Split
 
-s **Split 5 Malice** An elemental acting this turn cleaves themself into two separate elementals. Each elemental has the same statistics as the original, except that each has half the original's current Stamina and is one size smaller. Both elementals can then shift up to their speed.
+👤 **Split 5 Malice** An elemental acting this turn cleaves themself into two separate elementals. Each elemental has the same statistics as the original, except that each has half the original's current Stamina and is one size smaller. Both elementals can then shift up to their speed.
 
 🏹 **Convocation of Chaos 7 Malice**
 
@@ -6472,7 +6475,7 @@ Self or one elemental
 | **○ Bluster** 2d10 + 2<br>Area, Magic<br>□ 1 burst<br>**Signature Ability** <span style="float:right">Main action<br><span style="float:right;">⟳ Each enemy in the area<br>clear listing style for better readability **≤11:** 5 damage **12-16:** 5 damage, 4 lightning damage; push 1 **17+:** 5 damage, 7 lightning damage; push 3 **Effect:** The essence shifts up to 3 squares before or after using this ability.                                                           |                                                     |                                                         |                                                         |                                                           |
 | **△ Convocation of Squalls**<br>Magic, Ranged <span style="float:right;">Maneuver<br>□ Ranged 5 <span style="float:right;">⟳ Self or one elemental<br>**Effect:** Until the start of the essence's next turn, the target has lightning immunity 5.<br>**3 Malice:** Until the end of the encounter, a vortex surrounds the target in a 3 aura. The area is difficult terrain for enemies. Additionally, at the end of each of the target's turns, they can push one creature in the area up to 5 squares. |                                                     |                                                         |                                                         |                                                           |
 
-! **Thunderclap 1 Malice** Magic, Ranged Triggered action 
+❗️ **Thunderclap 1 Malice** Magic, Ranged Triggered action 
 | --- | ---:|
 | **📏 Ranged 5** | **🎯 The triggering creature** |
 
@@ -6637,7 +6640,7 @@ Most high elves speak Caelian and Hyrallic, with some also speaking Yllyric.
 
 At the start of any high elf's turn, you can spend Malice to activate one of the following features.
 
-p **Chaincast 3 Malice** Until the end of the round, whenever a high elf uses a magic ability, they can use it as if they were occupying the square of another high elf on the encounter map to whom they have line of effect.
+🌀 **Chaincast 3 Malice** Until the end of the round, whenever a high elf uses a magic ability, they can use it as if they were occupying the square of another high elf on the encounter map to whom they have line of effect.
 
 | **Gift From an Accursed Tome** 2d10 + 2 | **5 Malice**                                |
 |--------------------------------------------|------------------------------------------------|
@@ -6654,7 +6657,7 @@ p **Chaincast 3 Malice** Until the end of the round, whenever a high elf uses a 
 
 **Special:** This ability can't be used by a minion.
 
-p **In Defiance of Time 7 Malice** Until the end of the round, each high elf in the encounter gains a +4 bonus to speed, and whenever a high elf uses an ability against an enemy, each high elf adjacent to that enemy can make a free strike against them.
+🌀 **In Defiance of Time 7 Malice** Until the end of the round, each high elf in the encounter gains a +4 bonus to speed, and whenever a high elf uses an ability against an enemy, each high elf adjacent to that enemy can make a free strike against them.
 
 ### **The Ordinator is a Magic Beacon**
 
@@ -6891,7 +6894,7 @@ At the start of each of their turns, the zephyr can choose one effect on them th
 
 | **And the Sun Forsook Her Children** -  <br>**Villain Action 2**<br>Range: 5 cube within 10 - Target: Each enemy in the area<br>**Effect:** Each target makes a **Presence test** .<br>≤11: 9 corruption damage; pull 5 toward the center of the cube 12+: 12 corruption damage; pull 5 toward the center of the cube                                                                                                                                  |                    |                   |                      |                     |                         |  |
 
-d **But We Will Change Her Mind Villain Action 3** Area, Magic
+☠️ **But We Will Change Her Mind Villain Action 3** Area, Magic
 
 e 10 burst
 
@@ -6969,11 +6972,11 @@ Most shadow elves speak Illyvric, though platoon leaders might speak some Caelia
 
 At the start of any shadow elf's turn, you can spend Malice to activate one of the following features.
 
-t **Watch Me Disappear 3 Malice**
+⭐️ **Watch Me Disappear 3 Malice**
 
 Each shadow elf acting this turn can attempt to hide as a free maneuver if they have concealment.
 
-t **Extra Dimension 5 Malice** When any shadow elf acting this turn makes a strike against a target who has I <2] in addition to the strike's regular effects, the target is bleeding (save ends) or slowed (save ends).
+⭐️ **Extra Dimension 5 Malice** When any shadow elf acting this turn makes a strike against a target who has I <2] in addition to the strike's regular effects, the target is bleeding (save ends) or slowed (save ends).
 
 🌀 **Home Is Where the Hurt Is 10 Malice**
 
@@ -7317,11 +7320,11 @@ one of the following features.
 
 **Wode Elf Malice Malice Features** At the start of any wode elf's turn, you can spend Malice to activate
 
-t **Forest Network 3 Malice** Each wode elf who ends this turn hidden can shift up to their speed while remaining hidden.
+⭐️ **Forest Network 3 Malice** Each wode elf who ends this turn hidden can shift up to their speed while remaining hidden.
 
-t **Punishing Regrowth 5 Malice** Until the end of the round, each wode elf gains an edge on abilities, and their strikes can slide a target up to 2 squares in addition to their usual effects. If a strike already imposes forced movement, this slide happens after that forced movement. A creature force moved by a wode elf's strike who ends this forced movement in difficult terrain is restrained until the end of their next turn.
+⭐️ **Punishing Regrowth 5 Malice** Until the end of the round, each wode elf gains an edge on abilities, and their strikes can slide a target up to 2 squares in addition to their usual effects. If a strike already imposes forced movement, this slide happens after that forced movement. A creature force moved by a wode elf's strike who ends this forced movement in difficult terrain is restrained until the end of their next turn.
 
-p **Vines Everywhere 7 Malice** Vines rapidly grow across the entire encounter map. Each enemy in the encounter makes an **Agility test**. 8 damage; restrained (save ends)
+🌀 **Vines Everywhere 7 Malice** Vines rapidly grow across the entire encounter map. Each enemy in the encounter makes an **Agility test**. 8 damage; restrained (save ends)
 
 - 1
 - 2 Restrained (EoT) 3 No effect.
@@ -7690,7 +7693,7 @@ At the start of a fossil cryptic's turn, you can spend Malice to activate one of
 
 **3 Malice**
 
-r **Floor Mosaic 3 Malice** The fossil cryptic slides one creature on the ground up to 5 squares. If the creature is prone, this forced movement ignores stability.
+🏹 **Floor Mosaic 3 Malice** The fossil cryptic slides one creature on the ground up to 5 squares. If the creature is prone, this forced movement ignores stability.
 
 ☠️ **Solo Action 5 Malice**
 
@@ -7702,7 +7705,7 @@ The fossil cryptic takes an additional main action on their turn. They can use t
 
 Two pillars of stone 1 square wide either thrust up out of the ground or jut down from the ceiling anywhere on the encounter map, to a height of up to 5 squares. A creature in the area of a pillar before it appears is knocked prone on its surface. If the creature comes into contact with the ceiling above or the floor beneath the pillar and has m<2] they are restrained (save ends).
 
-p **Choking Dust 10 Malice** The air across the encounter map is thick with dust until the end of the encounter. Each enemy in the dust is suffocating. Additionally, at the end of each round, each enemy in the dust makes a **Might test**.
+🌀 **Choking Dust 10 Malice** The air across the encounter map is thick with dust until the end of the encounter. Each enemy in the dust is suffocating. Additionally, at the end of each round, each enemy in the dust makes a **Might test**.
 
 - 1 Until the end of the enemy's next turn, their stability is reduced to 0, and any forced movement effects targeting them gain a +2 bonus to the distance moved.
 - 2 The enemy's stability is halved (EoT).
@@ -7714,11 +7717,11 @@ p **Choking Dust 10 Malice** The air across the encounter map is thick with dust
 | **First Warning Quake**   | Villain Action 1 | △ 10 burst                                         | <span style="white-space:nowrap;">Each enemy in the area | **Special:** A target must be on the ground.<br>**Effect:** Each target makes a **Might test** .<br><span style="white-space:nowrap;">&lt;=11 : Prone and can't stand (EoT)<br><span style="white-space:nowrap;">12-16 : Prone<br><span style="white-space:nowrap;">17+ : No effect.                                                                                                                                |
 | **Final Warning Fissure** | Villain Action 2 | △ 5 burst                                          | <span style="white-space:nowrap;">Each enemy in the area | **Special:** A target must be on the ground.<br>**Effect:** The area drops 2 squares and is difficult terrain. Each target enemy falls, while each target ally drops safely. Additionally, each target enemy makes an **Agility test** .<br><span style="white-space:nowrap;">&lt;=11 : 9 damage; prone<br><span style="white-space:nowrap;">12-16 : 5 damage<br><span style="white-space:nowrap;">17+ : No effect. |
 
-! **Shatterstone** 2d10 + 3 **5 Malice** Area Triggered action
+❗️ **Shatterstone** 2d10 + 3 **5 Malice** Area Triggered action
 
  5 damage 3 The target moves to the nearest unoccupied space outside the area.
 
-d **No Escape** 2d10 + 3 **Villain Action 3** Ranged
+☠️ **No Escape** 2d10 + 3 **Villain Action 3** Ranged
 
 **Effect:** The cryptic makes an initial power roll that calls down stone pillars from the ceiling.
 
@@ -7859,9 +7862,9 @@ e 4 cube within 10 x Each enemy in the area
 - 2 14 damage; prone
 - 3 9 damage
 
-b **Bellow 5 Malice** Each giant in the encounter takes a deep breath and yells, pushing each creature within 3 squares of them up to 10 squares. A creature who can be pushed by more than one giant is pushed by one giant of your choice.
+❇️ **Bellow 5 Malice** Each giant in the encounter takes a deep breath and yells, pushing each creature within 3 squares of them up to 10 squares. A creature who can be pushed by more than one giant is pushed by one giant of your choice.
 
-a **Titanic Tear 7 Malice** A giant creates a fissure along the ground, either in a 15 x 2 line within 1 or a 10 x 3 line within 2, and that opens up to a depth of 6 squares. Each giant in the area can shift into the nearest unoccupied space outside the fissure. Each non-giant in the area makes
+🔳 **Titanic Tear 7 Malice** A giant creates a fissure along the ground, either in a 15 x 2 line within 1 or a 10 x 3 line within 2, and that opens up to a depth of 6 squares. Each giant in the area can shift into the nearest unoccupied space outside the fissure. Each non-giant in the area makes
 
 ### an **Agility test**.
 
@@ -8545,7 +8548,7 @@ Whether within a society or living in exile, goblins survive and thrive because 
 
 At the start of any goblin's turn, you can spend Malice to activate one of the following features.
 
-t **Goblin Mode 3 Malice** Each goblin in the encounter gains a +2 bonus to speed until the end of the round.
+⭐️ **Goblin Mode 3 Malice** Each goblin in the encounter gains a +2 bonus to speed until the end of the round.
 
 ❇️ **Tiny Stabs 5 Malice**
 
@@ -8553,7 +8556,7 @@ t **Goblin Mode 3 Malice** Each goblin in the encounter gains a +2 bonus to spee
 
 Each enemy in the encounter takes 1 damage for each goblin adjacent to them.
 
-p **Swamp Stink 7 Malice**
+🌀 **Swamp Stink 7 Malice**
 
  **Malice**
 
@@ -8878,9 +8881,9 @@ The hag utters terrible words that push each enemy within 2 squares of them up t
 
 cold damage and slowed.
 
-d **Solo Action 5 Malice** The hag takes an additional main action on their turn. They can use this feature even if they are dazed.
+☠️ **Solo Action 5 Malice** The hag takes an additional main action on their turn. They can use this feature even if they are dazed.
 
-p **House Call 10 Malice** The hag's hut springs to life. It enters the encounter map within 10 squares of the hag if it isn't already there and takes its turn. The hut is size 4, has 75 Stamina and damage immunity 3, and has speed 8 from its powerful set of animal legs. This feature can't be used if the hut is reduced to 0 Stamina. In addition to its move action, the house can take only the following main action.
+🌀 **House Call 10 Malice** The hag's hut springs to life. It enters the encounter map within 10 squares of the hag if it isn't already there and takes its turn. The hut is size 4, has 75 Stamina and damage immunity 3, and has speed 8 from its powerful set of animal legs. This feature can't be used if the hut is reduced to 0 Stamina. In addition to its move action, the house can take only the following main action.
 
 🔳 **Kick** 2d10 + 3 **Signature Ability**
 
@@ -9335,7 +9338,7 @@ At the end of each of their turns, the bloodlord can take 10 damage to end one e
 
 | **Tail Stinger** 2d10 + 3<br> <br>**⟁ Melee 5**<br>**⟳** One creature or object<br>≤1110 poison damage; **M&lt;1** weakened (save ends)   12-1616 poison damage; **M&lt;2** weakened (save ends)   ≥1720 poison damage; **M&lt;3** weakened (save ends)                                                                                                                       |                   |                   |                              |                    |  |  |  |  |  |  |
 
-! **Devour Soul**
+❗️ **Devour Soul**
 
 Area, Magic
 
@@ -9393,7 +9396,7 @@ Most humans speak Caelian and one Vaslorian human language.
 
 At the start of any human's turn, you can spend Malice to activate one of the following features.
 
-a **Alchemical Device** 2d10 + 2 **3 Malice** Area, Magic, Ranged Maneuver e 3 cube within 10 x Each enemy and object in the area 1 4 corruption damage; a<0] slowed (save ends) 2 6 corruption damage; a<1] slowed (save ends) 3 9 corruption damage; a<2] restrained (save ends)
+🔳 **Alchemical Device** 2d10 + 2 **3 Malice** Area, Magic, Ranged Maneuver e 3 cube within 10 x Each enemy and object in the area 1 4 corruption damage; a<0] slowed (save ends) 2 6 corruption damage; a<1] slowed (save ends) 3 9 corruption damage; a<2] restrained (save ends)
 
 Special: This ability can't be used by a minion.
 
@@ -9688,7 +9691,7 @@ For all their might and vitality, kingfissure worms are primarily ambush hunters
 
 At the start of a kingfissure worm's turn or when an action's trigger occurs, you can spend Malice to activate one of the following features.
 
-! **Aftershock 3 Malice** - Free triggered action 
+❗️ **Aftershock 3 Malice** - Free triggered action 
 | --- | ---:|
 | **📏 Self** | **🎯 Self** |
 
@@ -9696,9 +9699,9 @@ At the start of a kingfissure worm's turn or when an action's trigger occurs, yo
 
 **Effect:** Each creature within 5 squares of the kingfissure worm takes 5 damage, and if they have a<4] they are knocked prone. The kingfissure worm can use this ability only once per round.
 
-d **Solo Action 5 Malice** The kingfissure worm takes an additional main action on their turn. They can use this feature even if they are dazed.
+☠️ **Solo Action 5 Malice** The kingfissure worm takes an additional main action on their turn. They can use this feature even if they are dazed.
 
-s **Spontaneous Regeneration 5 Malice** The kingfissure worm loses 35 Stamina and regrows one tongue, to a maximum of three tongues. The worm is then dazed until the end of their turn.
+👤 **Spontaneous Regeneration 5 Malice** The kingfissure worm loses 35 Stamina and regrows one tongue, to a maximum of three tongues. The worm is then dazed until the end of their turn.
 
 | **b **Megaquake** 2d10 + 5 **7 Malice** Area, Weapon** | **Main action** |
 | --- | ---:|
@@ -9816,7 +9819,7 @@ Weapon
 
 **Effect:** The kingfissure worm can use this villain action only while burrowing. The worm burrows up to half their speed, then breaches the surface and moves 5 squares straight up before dropping back to the ground. Each creature or object whose space the worm moves through during this movement takes 10 damage, and if they have a<4] they are knocked prone. Any creature who is made winded by this damage is swallowed (see **Swallowed**).
 
-d **Better Out Than In** 2d10 + 5 **Villain Action 3**
+☠️ **Better Out Than In** 2d10 + 5 **Villain Action 3**
 
 - 
 | --- | ---:|
@@ -9870,7 +9873,7 @@ Most kobolds speak Kethaic and can understand Caelian.
 
 At the start of any kobolds's turn, you can spend Malice to activate one of the following features.
 
-t **Maniple Tactics 3 Malice**
+⭐️ **Maniple Tactics 3 Malice**
 
 Up to 3 kobolds make a free strike, swaps positions with an adjacent kobold, and then that kobold makes a free strike.
 
@@ -9880,7 +9883,7 @@ Two kobolds take their turns in a row.
 
  $7$  **Malice**
 
-t **Shield Wall 7 Malice** Until the end of the round, all kobolds with Shield? Shield! Impose an additional bane on incoming strikes and abilities.
+⭐️ **Shield Wall 7 Malice** Until the end of the round, all kobolds with Shield? Shield! Impose an additional bane on incoming strikes and abilities.
 
 | Kobold Princeps<br><span style="font-weight:normal;">Humanoid, Kobold                                                                                                                                                                     |                                                     |                                                       | Level 1 Minion Support<br>EV 3 for four minions                                                                |                                                           |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|-------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
@@ -10161,7 +10164,7 @@ Though lightbenders are typically solitary creatures, they sometimes cross into 
 
 At the start of any lightbender's turn, you can spend Malice to activate one of the following features.
 
-t **Silent Prow 3 Malice** Each lightbender acting this turn can teleport up to their speed as a move action and attempt to hide as a free maneuver, all until the start of their next turn.
+⭐️ **Silent Prow 3 Malice** Each lightbender acting this turn can teleport up to their speed as a move action and attempt to hide as a free maneuver, all until the start of their next turn.
 
 ⭐️ **Duplicate 5 Malice**
 
@@ -10422,7 +10425,7 @@ At the start of any manticore's turn, you can spend Malice to activate one of th
 
 The manticore uses their mimicry in an attempt to unnerve one creature within their line of effect. If the target has r<4], they take a bane on power rolls against the manticore (save ends). Each time this feature is used against the same target during the encounter, its potency decreases by 2.
 
-d **Solo Action 5 Malice** The manticore takes an additional main action on their turn. They can use this feature even if they are dazed.
+☠️ **Solo Action 5 Malice** The manticore takes an additional main action on their turn. They can use this feature even if they are dazed.
 
 🌀 **Desperate Howl 5 Malice**
 
@@ -10743,13 +10746,13 @@ Most minotaurs speak their own dialect of Khamish.
 
 At the start of any minotaur's turn, you can spend Malice to activate one of the following features.
 
-s **Bull Rush 3 Malice** For each 3 Malice spent, one minotaur acting this turn gains a +4 bonus to speed and ignores difficult terrain until the start of their next turn.
+👤 **Bull Rush 3 Malice** For each 3 Malice spent, one minotaur acting this turn gains a +4 bonus to speed and ignores difficult terrain until the start of their next turn.
 
 👤 **Cut the... Nonsense! 5 Malice**
 
 One minotaur acting this turn halves any damage they take, and can use the Knockback maneuver as a free triggered action whenever an enemy comes adjacent to them, all until the start of their next turn.
 
-b **Bullseye 7 Malice** All minotaurs in the encounter fill the area around them with psychic impressions of feeling lost and isolated. Each enemy within 5 squares of a minotaur is teleported up to 5 squares and makes an **Intuition test**.
+❇️ **Bullseye 7 Malice** All minotaurs in the encounter fill the area around them with psychic impressions of feeling lost and isolated. Each enemy within 5 squares of a minotaur is teleported up to 5 squares and makes an **Intuition test**.
 
 - 1 The target has line of effect only within 3 squares and is frightened of all minotaurs (save ends).
 - 2 The target has line of effect only within 3 squares (EoT). 3 No effect.
@@ -10860,9 +10863,9 @@ One ogre acting this turn jumps and lands on their rear, causing a 3 burst shock
 - 2 4 damage; vertical push 2
 - 3 Push 1
 
-p **Bully 5 Malice** Each ogre in the encounter shifts up to their speed and can make a free strike. If they can, they gang up on the same target rather than picking different targets.
+🌀 **Bully 5 Malice** Each ogre in the encounter shifts up to their speed and can make a free strike. If they can, they gang up on the same target rather than picking different targets.
 
-t **Rampage 7 Malice** Until the end of the round, each ogre has damage immunity 5 and deals an extra 5 damage with abilities, and heroic abilities that target any ogre have their Heroic Resource cost reduced by 1 (to a minimum of 1).
+⭐️ **Rampage 7 Malice** Until the end of the round, each ogre has damage immunity 5 and deals an extra 5 damage with abilities, and heroic abilities that target any ogre have their Heroic Resource cost reduced by 1 (to a minimum of 1).
 
 |                         |                                                                                                                                                                                                                                                                                                           | Level 2 Elite Brute<br>EV 16                                                                                                                                  | Ogre Juggernaut<br>Giant, Ogre                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |                               |                                                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                                               | Level 2 Elite Harrier<br>EV 16                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -11106,7 +11109,7 @@ Area, Psionic
 
 At the start of an olothec's turn, you can spend Malice to activate one of the following features.
 
-d **Solo Action 4 Malice** The olothec takes an additional main action on their turn. They can use this feature even if they are dazed.
+☠️ **Solo Action 4 Malice** The olothec takes an additional main action on their turn. They can use this feature even if they are dazed.
 
 🗡 **Writhing Envelopment** 2d10 + 4 **4 Malice**
 
@@ -11673,7 +11676,7 @@ t
 
 Special: This ability can't be used by a minion.
 
-t **Rat Race 5 Malice** Each radenwight in the encounter shifts up to their speed. If a radenwight ends this shift adjacent to one or more radenwights, they can make a melee free strike against each enemy adjacent to them.
+⭐️ **Rat Race 5 Malice** Each radenwight in the encounter shifts up to their speed. If a radenwight ends this shift adjacent to one or more radenwights, they can make a melee free strike against each enemy adjacent to them.
 
 🔳 **Rally the Rodents 7 Malice**
 
@@ -12519,7 +12522,7 @@ At the start of an encounter, the shadow chooses one creature within their line 
 
 ---
 
-t **Rivalry** At the start of an encounter, the tactician chooses one creature within their line of effect. Both the tactician and the creature can add a d3 roll to power rolls they make against each other.
+⭐️ **Rivalry** At the start of an encounter, the tactician chooses one creature within their line of effect. Both the tactician and the creature can add a d3 roll to power rolls they make against each other.
 
 | Rival Talent                                                                                                                                                                                                                                      |                   |                                      |                       |                          | Level 10 Elite Hexer |  |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|--------------------------------------|-----------------------|--------------------------|----------------------|--|
@@ -12586,7 +12589,7 @@ One must also be wary of the area around a shambling mound. Their vines reach ou
 
 At the start of a shambling mound's turn, you can spend Malice to activate one of the following features.
 
-s **Poisoned Vines 3 Malice** The shambling mound seeps noxious residue from their vines. The next time they use their Vine Lash ability before the end of their next turn, they deal an extra 12 poison damage to each target.
+👤 **Poisoned Vines 3 Malice** The shambling mound seeps noxious residue from their vines. The next time they use their Vine Lash ability before the end of their next turn, they deal an extra 12 poison damage to each target.
 
 ❇️ **Frenzy Lash 5 Malice**
 
@@ -12751,7 +12754,7 @@ Area, Psionic, Ranged, Weapon Maneuver e 5 cube within 3 x Special
 
 **Effect:** A time raider acting this turn activates a gravity well in the area. The gravity well sits at the center of the cube and lasts until the end of the encounter, or until a creature adjacent to the well uses a maneuver to deactivate it. The area is difficult terrain for enemies. Any enemy who ends their turn in the area is pulled up to 4 squares toward the well.
 
-t **Recall Module 5 Malice** Until the end of the round, each time raider gains a +3 bonus to speed, and can teleport up to their speed as a move action.
+⭐️ **Recall Module 5 Malice** Until the end of the round, each time raider gains a +3 bonus to speed, and can teleport up to their speed as a move action.
 
 🌀 **Psi-Cage 10 Malice**
 
@@ -12881,7 +12884,7 @@ The mind punk doesn't take a bane on strikes against creatures with concealment.
 
 | **Kinetic Crush** 2d10 + 2 **2 Malice**<br>Psionic, Ranged, Strike<br>**Ranged 10 ↻ One creature**<br>**≤11** : 7 psychic damage; **M&lt;0** slowed (save ends)<br>**12-16** : 10 psychic damage; **M&lt;1** slowed (save ends)<br>**17+** : 13 psychic damage; **M&lt;2** slowed (save ends)<br>  Any creature slowed this way takes 2 damage for each square they move or are force moved until that condition ends. |                    |                      |                                         |                         |
 
-t **Foresight**
+⭐️ **Foresight**
 
 The nemesis doesn't take a bane on strikes against creatures with concealment.
 
@@ -12961,15 +12964,15 @@ Most trolls speak High Kuric or Variac, while a few also know Caelian. Trolls ar
 
 At the start of any troll's turn, you can spend Malice to activate one of the following features.
 
-a **Foul Spew 3 Malice** One troll acting this turn spews out a half-digested meal in a 5 x 1 line within 1 square of them. Each troll in the area regains 3 Stamina. Each enemy in the area makes a **Might test**.
+🔳 **Foul Spew 3 Malice** One troll acting this turn spews out a half-digested meal in a 5 x 1 line within 1 square of them. Each troll in the area regains 3 Stamina. Each enemy in the area makes a **Might test**.
 
 - **≤11:** 12 acid damage; dazed (EoT)
 - **12-16:** 10 acid damage; weakened (EoT)
 - **17+:** 6 acid damage
 
-m **Emergency Meal 5 Malice** Each troll in the encounter can make a free strike against a creature adjacent to them, and regains Stamina equal to the damage dealt.
+🗡 **Emergency Meal 5 Malice** Each troll in the encounter can make a free strike against a creature adjacent to them, and regains Stamina equal to the damage dealt.
 
-b **Bloody Banquet 7 Malice** Each winded troll in the encounter disgorges the contents of their stomach onto the ground around them, creating a 1 burst of foul vomitus that lasts until the end of the encounter. Each non-troll who enters this area for the first time in a round or starts their turn there takes 5 acid damage. Each troll in the area has a double edge on power rolls.
+❇️ **Bloody Banquet 7 Malice** Each winded troll in the encounter disgorges the contents of their stomach onto the ground around them, creating a 1 burst of foul vomitus that lasts until the end of the encounter. Each non-troll who enters this area for the first time in a round or starts their turn there takes 5 acid damage. Each troll in the area has a double edge on power rolls.
 
 # Draw Steel
 
@@ -13041,7 +13044,7 @@ Whenever two or more whelps are simultaneously reduced to 0 Stamina by damage th
 
 Melee
 
-! **Spiteful Retort 1 Malice** Melee Free triggered action 
+❗️ **Spiteful Retort 1 Malice** Melee Free triggered action 
 | --- | ---:|
 | **📏 Melee 1** | **🎯 The triggering creature** |
 
@@ -13175,7 +13178,7 @@ At the start of any undead's turn, you can spend Malice to activate one of the f
 
 At the end of this round, each hero not already adjacent to one or more undead is beset by two **rotting zombies** who burst up from the ground to appear in adjacent unoccupied spaces. Each zombie is winded. This feature can't be used two rounds in a row.
 
-p **Paranormal Fling 3 Malice** Up to three unattended objects on the encounter map rise to float 1 square off the ground. Each object is then pulled 5 squares toward the nearest enemy within 3 squares of the object.
+🌀 **Paranormal Fling 3 Malice** Up to three unattended objects on the encounter map rise to float 1 square off the ground. Each object is then pulled 5 squares toward the nearest enemy within 3 squares of the object.
 
 🔳 **The Grasping, the Hungry 5 Malice**
 
@@ -13187,7 +13190,7 @@ Ravenous and rotting undead arms burst forth from 9 connected squares of a verti
 
 **Effect:** While restrained this way, a creature takes 1d6 damage at the start of each of their turns.
 
-t **Dread March 7+ Malice** Up to four undead in the encounter move up to their speed and can make a free strike. The number of undead affected increases by 1 for each additional Malice spent on this feature. If an undead is reduced to 0 Stamina during this dread march, they don't die until the march is resolved.
+⭐️ **Dread March 7+ Malice** Up to four undead in the encounter move up to their speed and can make a free strike. The number of undead affected increases by 1 for each additional Malice spent on this feature. If an undead is reduced to 0 Stamina during this dread march, they don't die until the march is resolved.
 
 | Crawling Claw                                                                                                                                                                                                                                                              |                    |                                                              |                      |                     |  |  |  |  |  |  |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|--------------------------------------------------------------|----------------------|---------------------|--|--|--|--|--|--|
@@ -13407,7 +13410,7 @@ Area, Magic
 
 **Effect:** Each target rises 1 square into the air and is vertically pulled up to 5 squares toward the nearest enemy within 3 squares of the target.
 
-d **Spirited Away** 2d10 + 3 **Villain Action 2**
+☠️ **Spirited Away** 2d10 + 3 **Villain Action 2**
 
 | --- | ---:|
 | **📏 5 burst** | **🎯 Each enemy in the area** |
@@ -13600,7 +13603,7 @@ The vampire spawn has speed 10 while any creature within 10 squares of them is b
 
 **Effect:** The wraith turns invisible, moves up to their speed, and is visible again.
 
-! **Stolen Vitality 1 Malice** Magic, Ranged Free triggered action 
+❗️ **Stolen Vitality 1 Malice** Magic, Ranged Free triggered action 
 | --- | ---:|
 | **📏 Ranged 5** | **🎯 The triggering creature** |
 
@@ -13699,7 +13702,7 @@ By drinking the blood of a true vampire, a vampire spawn can transcend their fer
 
 At the start of any level 7 or higher undead's turn, you can spend Malice to activate one of the following features.
 
-t **Prior Malice Features 2-7+ Malice** The undead activates a Malice feature available to undead of level 6 or lower.
+⭐️ **Prior Malice Features 2-7+ Malice** The undead activates a Malice feature available to undead of level 6 or lower.
 
 🌀 **Necrotic Rupture 5 Malice**
 
@@ -13894,9 +13897,9 @@ Every mage who lives long enough eventually contends with the fact that their kn
 
 At the start of any level 10 undead's turn, you can spend Malice to activate one of the following features.
 
-t **Prior Malice Features 2-7+ Malice** The undead activates a Malice feature available to undead of level 9 or lower.
+⭐️ **Prior Malice Features 2-7+ Malice** The undead activates a Malice feature available to undead of level 9 or lower.
 
-b **Death Tax 7 Malice** The undead attempts to rend the vitality of their foes. Each enemy within 5 squares of the undead makes a **Might test**.
+❇️ **Death Tax 7 Malice** The undead attempts to rend the vitality of their foes. Each enemy within 5 squares of the undead makes a **Might test**.
 
 - **≤11:** 10 corruption damage; the target loses 2 Recoveries
 - **12-16:** 8 corruption damage; the target loses 1 Recovery
@@ -14022,9 +14025,9 @@ Rhodar speaks Caelian and Vaslorian.
 
 At the start of Rhodar's turn, you can spend Malice to activate one of the following features.
 
-s **Slip 3 Malice** During this turn, Rhodar can move through creatures and objects at his usual speed, but can't end his turn inside a creature or object. Additionally, he doesn't take damage from being force moved.
+👤 **Slip 3 Malice** During this turn, Rhodar can move through creatures and objects at his usual speed, but can't end his turn inside a creature or object. Additionally, he doesn't take damage from being force moved.
 
-d **Solo Action 5 Malice** Rhodar takes an additional main action on his turn. He can use this feature even if he is dazed.
+☠️ **Solo Action 5 Malice** Rhodar takes an additional main action on his turn. He can use this feature even if he is dazed.
 
 🔳 **Suffocating Dark 5 Malice**
 
@@ -14114,7 +14117,7 @@ He regains Stamina equal to half the total corruption damage dealt.
 Magic, Ranged
 ▲ Ranged 10
 
-! **Reactive Rebuke 2 Malice** Magic, Ranged Triggered action 
+❗️ **Reactive Rebuke 2 Malice** Magic, Ranged Triggered action 
 | --- | ---:|
 | **📏 Ranged 10** | **🎯 The triggering creature** |
 
@@ -14198,17 +14201,17 @@ A lich speaks the languages they knew in life, and might also pick up Anjali, Pr
 
 At the start of a lich's turn, you can spend Malice to activate one of the following features.
 
-s **Soul Sip 3 Malice** The lich makes a free strike against one enemy within 20 squares. They then gain an edge on their next power roll.
+👤 **Soul Sip 3 Malice** The lich makes a free strike against one enemy within 20 squares. They then gain an edge on their next power roll.
 
-d **Solo Action 5 Malice** The lich takes an additional main action on their turn. They can use this feature even if they are dazed.
+☠️ **Solo Action 5 Malice** The lich takes an additional main action on their turn. They can use this feature even if they are dazed.
 
-s **Spirit Shell 5 Malice** The lich summons a swirling cloud of angry spirits to surround them until the start of the next round. Any creature who deals damage to the lich with a melee strike while the spirit shell is active makes a **Presence test**.
+👤 **Spirit Shell 5 Malice** The lich summons a swirling cloud of angry spirits to surround them until the start of the next round. Any creature who deals damage to the lich with a melee strike while the spirit shell is active makes a **Presence test**.
 
 - **≤11:** 16 psychic damage, dazed (save ends)
 - **12-16:** Dazed (save ends)
 - **17+:** No effect.
 
-p **Cloud of Deceit 7 Malice** The lich summons a mind-altering mist, turns invisible until the start of their next turn, and moves up to half their speed. Each enemy within 20 squares of the lich's starting point who has i<4] is deceived. While deceived, a creature perceives all allies and enemies as the lich, and perceives the environment as an unfamiliar wasteland corrupted by necrotic blight. If other creatures attempt to communicate with a deceived creature, that creature interprets their words as ghastly taunts in the lich's voice.
+🌀 **Cloud of Deceit 7 Malice** The lich summons a mind-altering mist, turns invisible until the start of their next turn, and moves up to half their speed. Each enemy within 20 squares of the lich's starting point who has i<4] is deceived. While deceived, a creature perceives all allies and enemies as the lich, and perceives the environment as an unfamiliar wasteland corrupted by necrotic blight. If other creatures attempt to communicate with a deceived creature, that creature interprets their words as ghastly taunts in the lich's voice.
 
 This effect lasts until an affected creature takes damage or an ally uses a main action to shake them out of it. Each time this feature is used during an encounter, the distance of the effect decreases by 5 squares (to a minimum of 5 squares) and the potency increases by 1.
 
@@ -14246,7 +14249,7 @@ This effect lasts until an affected creature takes damage or an ally uses a main
 
 Ranged
 
-! **Baleful Swap 2 Malice** Ranged Triggered action 
+❗️ **Baleful Swap 2 Malice** Ranged Triggered action 
 | --- | ---:|
 | **📏 Ranged 10** | **🎯 One enemy** |
 
@@ -14295,7 +14298,7 @@ Area, Magic
 
 **Effect:** A target can't use heroic abilities until the start of the lich's next turn.
 
-d **Arms of Necrosis** 2d10 + 5 **Villain Action 3** Area, Magic
+☠️ **Arms of Necrosis** 2d10 + 5 **Villain Action 3** Area, Magic
 
 | --- | ---:|
 | **📏 6 burst** | **🎯 Each creature in the area** |
@@ -14334,7 +14337,7 @@ Ruined valok litter the deepest ruins of the steel dwarves, and without the stee
 
 At the start of any valok's turn, you can spend Malice to activate one of the following features.
 
-s **Repeater 3 Malice** One valok acting this turn takes an additional main action.
+👤 **Repeater 3 Malice** One valok acting this turn takes an additional main action.
 
 🌀 **I Was Not Commanded to Wait 5 Malice** At the end of each turn until the end of the round, one valok can either shift up to 2 squares or make a free strike.
 
@@ -14511,7 +14514,7 @@ Melee
 
 ▴ Melee
 
-! **Sputter 1 Malice** Melee Free triggered action 
+❗️ **Sputter 1 Malice** Melee Free triggered action 
 | --- | ---:|
 | **📏 Melee 3** | **🎯 The triggering creature or object** |
 
@@ -14593,7 +14596,7 @@ While the miner isn't bleeding, weakened, or winded, any power roll made against
 
 A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round. Additionally, the area is burning until the end of the encounter. While the area is burning, it is difficult terrain and any enemy takes 3 fire damage for each square of the area they enter.
 
-! **Quick Blast** 2d10 + 5 **1 Malice** Ranged, Strike, Weapon Free triggered action 
+❗️ **Quick Blast** 2d10 + 5 **1 Malice** Ranged, Strike, Weapon Free triggered action 
 | --- | ---:|
 | **📏 Ranged 20** | **🎯 One creature or object** |
 
@@ -14671,7 +14674,7 @@ Most voiceless talkers communicate telepathically using Mindspeech and speak Var
 
 At the start of any voiceless talker's turn, you can spend Malice to activate one of the following features.
 
-s **Guise 3 Malice** One non-minion voiceless talker projects a psionic screen over their body, preventing other creatures from treating them as an enemy until the end of the voiceless talker's next turn.
+👤 **Guise 3 Malice** One non-minion voiceless talker projects a psionic screen over their body, preventing other creatures from treating them as an enemy until the end of the voiceless talker's next turn.
 
 | **- r **Memory Thief** 2d10 + 3 **5 Malice** Psionic, Ranged** | **Maneuver** |
 | --- | ---:|
@@ -14737,7 +14740,7 @@ Whenever a non-minion voiceless talker within 5 squares of the graywarper uses a
 
 | **Lumber**<br> <br>**Effect:** The hulking brain shifts up to 4 squares, ignoring difficult terrain.                                                                                                                                                                                                                                                                                                                                                             |                    |                              |                       |                         |
 
-! **Brawny Buffer 1 Malice** - Free triggered action 
+❗️ **Brawny Buffer 1 Malice** - Free triggered action 
 | --- | ---:|
 | **📏 Self** | **🎯 Self** |
 
@@ -14824,7 +14827,7 @@ The mindkiller can move through enemies' spaces at their usual speed .
 | **⚛ Psionic Boom 2d10 + 3**<br>Area, Psionic<br>**◇ 3 burst**<br><span style="display:block;margin-left:20px;"> **≤11** 6 psychic damage; **R&lt;1** push 2<br/> **12-16** 10 psychic damage; **R&lt;2** push 3<br/> **17+** 12 psychic damage; **R&lt;3** push 4 and prone<br/><br/> **2 Malice:** The size of the burst increases to 5.        |                   |                       |                                  | **3 Malice**<br>Main action<br>⟳ Each enemy in the area            |                    |
 | **🗡 Tentacle Toss 2d10 + 3**<br>Melee, Psionic<br>**◇ Melee 1**<br>**Effect:** The target must be grabbed by the invader.<br><span style="display:block;margin-left:20px;"> **≤11** 6 damage; vertical slide 2<br/> **12-16** 12 damage; vertical slide 2<br/> **17+** 12 damage; vertical slide 3                                                        |                   |                       |                                  | **Maneuver**<br>⟳ One creature                                     |                    |
 
-! **Brain Drain**
+❗️ **Brain Drain**
 
 Melee, Psionic Triggered action e Special x The triggering creature
 
@@ -14918,7 +14921,7 @@ Lord Syuul communicates telepathically using Mindspeech and speaks Variac.
 
 At the start of Lord Syuul's turn, you can spend Malice to activate one of the following features.
 
-s **Guise 3 Malice** Lord Syuul projects a psionic screen over his body, preventing other creatures from treating him as an enemy until the end of his next turn.
+👤 **Guise 3 Malice** Lord Syuul projects a psionic screen over his body, preventing other creatures from treating him as an enemy until the end of his next turn.
 
 ❇️ **Do It for Me 5 Malice**
 
@@ -14928,9 +14931,9 @@ Lord Syuul psionically plunders the minds of each creature within 2 squares of h
 - **12-16:** 10 psychic damage; the target makes a free strike against a creature of Lord Syuul's choice
 - **17+:** No effect.
 
-d **Solo Action 5 Malice** Lord Syuul takes an additional main action on his turn. He can use this feature even if he is dazed.
+☠️ **Solo Action 5 Malice** Lord Syuul takes an additional main action on his turn. He can use this feature even if he is dazed.
 
-p **Overpower 7 Malice** Lord Syuul sends out a psionic burst to completely overpower his greatest threats. He makes a Reason test (2d10 + 4).
+🌀 **Overpower 7 Malice** Lord Syuul sends out a psionic burst to completely overpower his greatest threats. He makes a Reason test (2d10 + 4).
 
 - **≤11:** Lord Syuul has damage weakness 5.
 - **12-16:** Lord Syuul has damage immunity 2.
@@ -14975,7 +14978,7 @@ Whenever an Overpower effect is active, any hero who has one or more psionic abi
 |                                                                                                                                                                                                                                                                                                                                                                              |                |                |                                                                |
 | s You Come With Me<br>! Adaptability<br>Psionic<br>e Self                                                                                                                                                                                                                                                                                                                    |                |                | Triggered action<br>x Self                                     |
 
-d **See Only Me** 2d10 + 4 **Villain Action 1** Area, Psionic 
+☠️ **See Only Me** 2d10 + 4 **Villain Action 1** Area, Psionic 
 | --- | ---:|
 | **📏 10 burst** | **🎯 Each enemy in the area **Effect:** Each target makes an **Intuition test**.
 
@@ -15312,7 +15315,7 @@ When the eviscerite is reduced to 0 Stamina, their loyalty collar explodes, deal
 | Immunity: -<br>Movement: -                                             |                                                                          |                                                                         |                                                                            | Weakness: -                                                               |
 | <b style="background:black;color:white;padding:2px 4px;">M** ight +3 | <b style="background:black;color:white;padding:2px 4px;">A** gility +2 | <b style="background:black;color:white;padding:2px 4px;">R** eason +3 | <b style="background:black;color:white;padding:2px 4px;">I** ntuition +2 | <b style="background:black;color:white;padding:2px 4px;">P** resence +2 |
 
-v **Conditioning Spear** 2d10 + 3 **Signature Ability** Melee, Psionic, Ranged, Strike Main action e Melee 1 or ranged 5 x Two creatures or objects
+⚔️ **Conditioning Spear** 2d10 + 3 **Signature Ability** Melee, Psionic, Ranged, Strike Main action e Melee 1 or ranged 5 x Two creatures or objects
 
 - **≤11:** 8 damage; pull 1
 - **12-16:** 12 damage; pull 2
@@ -15404,7 +15407,7 @@ At the start of any level 4 or higher war dog's turn, you can spend
 
 Malice to activate one of the following features.
 
-t **Prior Malice Features 3-7 Malice** The war dog activates a Malice feature available to war dogs of
+⭐️ **Prior Malice Features 3-7 Malice** The war dog activates a Malice feature available to war dogs of
 
 🏹 **Loyalty Unto Death 5 Malice**
 
@@ -15433,7 +15436,7 @@ level 3 or lower.
 | **≤11** 3 lightning damage<br>**12-16** 5 lightning damage; the lightning spreads 1 square<br>**17+** 7 lightning damage; the lightning spreads 2 squares                                                                                                                                |                                                                        |                                                                        |                                                                                            |                                                                          |
 | **Effect:** The lightning's spread is the distance it arcs from a target to nearby enemies. Each enemy within that distance takes 2 lightning damage.                                                                                                                                          |                                                                        |                                                                        |                                                                                            |                                                                          |
 
-t **Loyalty Collar**
+⭐️ **Loyalty Collar**
 
 When the sparkslinger is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d6 damage to each adjacent enemy and object.
 
@@ -15824,7 +15827,7 @@ When the saboteur is reduced to 0 Stamina, their loyalty collar explodes, dealin
 | **Canis Shrikegun** 2d10 + 4<br>Ranged, Strike, Weapon **Ranged 10**<br>                                                                                                                                                                                                                                   |                                                                |                                                                                                                                                                                                                              |                                                                                                                                     |                  |
 | **<span style="border:1px solid #000; padding:1px;">≤11** 4 damage<br>**<span style="border:1px solid #000; padding:1px;">12-16** 7 damage<br>**<span style="border:1px solid #000; padding:1px;">17+** 8 damage; ** &lt;3** the target is frightened of all shriketroops (EoT) |                                                                | **Signature Ability**<br>Main action<br><span style="white-space:nowrap;">↻ One creature or object per minion<br><br>**Effect:** The target must move their speed in a straight line away from the shriketroop. |                                                                                                                                     |                  |
 
-t **Loyalty Collar**
+⭐️ **Loyalty Collar**
 
 When the shriketroop is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object.
 
@@ -15986,7 +15989,7 @@ At the start of any level 10 or higher war dog's turn, you can spend Malice to a
 
 There is no discernible text in the provided image block.
 
-t **Prior Malice Features 3-7 Malice** The war dog activates a Malice feature available to war dogs of level 9 or lower.
+⭐️ **Prior Malice Features 3-7 Malice** The war dog activates a Malice feature available to war dogs of level 9 or lower.
 
 | ** 3 burst<br><span style="border:1px solid;padding:2px;">≤11 7 psychic damage <span style="border:1px solid;padding:2px;">12-16 11 psychic damage; <span style="border:1px solid;padding:2px;background:#000;color:#fff;">P&lt;4 frightened (save ends) <span style="border:1px solid;padding:2px;">17+ 14 psychic damage; <span style="border:1px solid;padding:2px;background:#000;color:#fff;">P&lt;5 frightened (save ends) **Effect:** Each war dog within distance deals an extra 15 damage with |  |  |  |  |  |  | **7 Malice**<br>Maneuver<br> Each enemy in the area<br> |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--|--|--|--|--|--|-----------------------------------------------------------------------------------------------|
@@ -16137,7 +16140,7 @@ When Doru is reduced to 0 Stamina, his loyalty collar explodes, dealing 20 damag
 
  Malice: The area remains active until Vesper is reduced to 0 Stam ina or until the end of the encounter. Any non-prone enemy who enters the area for the first time in a round or starts their turn there takes 15 damage, or 7 damage if they choose to fall prone.
 
-a **Portal to the Mantle** 2d10 + 5 **3 Malice**
+🔳 **Portal to the Mantle** 2d10 + 5 **3 Malice**
 
 Area, Magic, Ranged Main action e 3 cube within 15 x Each creature and object in the area
 
@@ -16503,9 +16506,9 @@ At the start of a werewolf's turn, you can spend Malice to activate one of the f
 
 The werewolf gains 10 temporary Stamina and a +3 bonus to speed until the end of their turn. The werewolf can't use this feature if they took any holy damage since ending their last turn.
 
-d **Solo Action 5 Malice** The werewolf takes an additional main action on their turn. They can use this feature even if they are dazed.
+☠️ **Solo Action 5 Malice** The werewolf takes an additional main action on their turn. They can use this feature even if they are dazed.
 
-p **Moonfall 10 Malice** Until the end of the encounter, the encounter map turns to night and the moon appears impossibly huge in the sky. The werewolf can take an additional move action or maneuver on each of their turns while they have line of effect to the moon. Any creature who ends their turn with line of effect to the moon with 1 or more rage gains 2 rage.
+🌀 **Moonfall 10 Malice** Until the end of the encounter, the encounter map turns to night and the moon appears impossibly huge in the sky. The werewolf can take an additional move action or maneuver on each of their turns while they have line of effect to the moon. Any creature who ends their turn with line of effect to the moon with 1 or more rage gains 2 rage.
 
 # WYVERNS
 
@@ -16533,9 +16536,9 @@ Wyverns are unable to speak. However, a clever hero carrying a feast of fresh me
 
 At the start of any wyvern's turn, you can spend Malice to activate one of the following features.
 
-m **Simmering Anger 3 Malice** One wyvern in the encounter can make a free strike against each enemy adjacent to them.
+🗡 **Simmering Anger 3 Malice** One wyvern in the encounter can make a free strike against each enemy adjacent to them.
 
-t **Boiling Fury 5 Malice** Until the end of the round, each wyvern in the encounter has a double edge on strikes and can use their signature ability instead of a free strike when making opportunity attacks.
+⭐️ **Boiling Fury 5 Malice** Until the end of the round, each wyvern in the encounter has a double edge on strikes and can use their signature ability instead of a free strike when making opportunity attacks.
 
 🌀 **Overflowing Rage 7 Malice**
 
@@ -16705,11 +16708,11 @@ burst
 
 At the start of Xorannox's turn, you can spend Malice to activate one of the following features.
 
-b **Gas Belch 3 Malice** Xorannox lets out a noxious belch. Each enemy within 2 squares of him who has m<3] is weakened (save ends).
+❇️ **Gas Belch 3 Malice** Xorannox lets out a noxious belch. Each enemy within 2 squares of him who has m<3] is weakened (save ends).
 
-t **Slime Trail 5 Malice** Until the end of Xorannox's next turn, whenever he or any of his eyes leave their space, they secrete a viscous slime onto the ground in that area. Any enemy who enters an affected square has lightning weakness 5 and fire weakness 5 until the end of the encounter.
+⭐️ **Slime Trail 5 Malice** Until the end of Xorannox's next turn, whenever he or any of his eyes leave their space, they secrete a viscous slime onto the ground in that area. Any enemy who enters an affected square has lightning weakness 5 and fire weakness 5 until the end of the encounter.
 
-d **Solo Action 5 Malice** Xorannox takes an additional main action on his turn. He can use this feature even if he is dazed.
+☠️ **Solo Action 5 Malice** Xorannox takes an additional main action on his turn. He can use this feature even if he is dazed.
 
 🌀 **Mind Over Matter 7 Malice**
 
@@ -17173,7 +17176,7 @@ The bear trap is calibrated to be triggered by creatures or objects of a particu
 
 **Effect:** A triggering creature or object ends their movement and is targeted by the **Bear Trap** ability.
 
-! **Bear Trap** 2d10 + 2
+❗️ **Bear Trap** 2d10 + 2
 
 Melee, Strike, Weapon Free triggered action 
 | --- | ---:|
@@ -17283,7 +17286,7 @@ A rope snare is set to grab a target, leaving them hanging upside down.
 
 ######## Stamina:** 1 **Size: 1S
 
-p **Deactivate**
+🌀 **Deactivate**
 
 As a maneuver, a creature adjacent to a snare trap can make an **Agility test**.
 
@@ -17299,7 +17302,7 @@ The snare trap is calibrated to be triggered by creatures or objects of a partic
 
 **Effect:** A triggering creature or object ends their movement and is targeted by the **Snare** ability.
 
-! **Snare** 2d10 + 2 Melee, Strike, Weapon Free triggered action 
+❗️ **Snare** 2d10 + 2 Melee, Strike, Weapon Free triggered action 
 | --- | ---:|
 | **📏 Melee 0** | **🎯 The triggering creature or object** |
 
@@ -17349,7 +17352,7 @@ The spike trap is calibrated to be triggered by creatures or objects of a partic
 
 **Effect:** The **Spike Trap** ability.
 
-! **Spike Trap** 2d10 + 2
+❗️ **Spike Trap** 2d10 + 2
 
 - ![triangle ruler icon](image)
 - Melee 0
@@ -17367,7 +17370,7 @@ Area, Weapon Free triggered action
 
 **Effect:** The target ends their movement when they enter the trap's area. The pit is typically 2 squares deep. The trap must be manually reset.
 
-t **Hidden**
+⭐️ **Hidden**
 
 The spike trap is hidden until triggered or detected.
 
@@ -18517,7 +18520,7 @@ weakness 5 while in the area, and any enemy who ends their turn in the area and 
 
 Melee
 
-! **Watch Out! Encounter** Melee Triggered action 
+❗️ **Watch Out! Encounter** Melee Triggered action 
 | --- | ---:|
 | **📏 Melee 1** | **🎯 The retainer's mentor** |
 
@@ -18711,7 +18714,7 @@ Whenever an adjacent enemy grabs the hopper or uses a melee ability against them
 
 Melee Triggered action
 
-! **Trip of the Tongue Encounter**
+❗️ **Trip of the Tongue Encounter**
 
 | --- | ---:|
 | **📏 Melee 5** | **🎯 One creature or object** |
@@ -18774,7 +18777,7 @@ If a creature within 10 squares speaks the defector's true name, the defector lo
 
 ######## Level 7 Retainer Advancement Ability
 
-a **Flames of Revenge** 2d10 + highest characteristic **Encounter**
+🔳 **Flames of Revenge** 2d10 + highest characteristic **Encounter**
 
 Area, Magic, Ranged Main action e 3 cube within 10 x Each enemy in the area
 
@@ -18880,7 +18883,7 @@ The mortar can use a magical rune inscribed on their skin to talk to their mento
 | Immunity: -<br>Movement: -                                                                                    |                    |                   |                     | Weakness: -         |
 | **M** ight -1                                                                                              | **A** gility +1 | **R** eason +2 | **I** ntuition 0 | **P** resence +1 |
 
-r **Summer's Bolt** 2d10 + highest characteristic **Signature Ability** Magic, Ranged, Strike Main action e Ranged 10 xOne creature or object
+🏹 **Summer's Bolt** 2d10 + highest characteristic **Signature Ability** Magic, Ranged, Strike Main action e Ranged 10 xOne creature or object
 
 - **≤11:** 3 fire damage
 - **12-16:** 5 fire damage
@@ -18915,7 +18918,7 @@ e 3 cube within 1 x Each enemy in the area
 
 ######## Level 7 Retainer Advancement Ability
 
-b **Spring's Rebirth Encounter**
+❇️ **Spring's Rebirth Encounter**
 
 ![triangle burst icon](https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Triangle-icon.png/20px-Triangle-icon.png) 3 burst
 
@@ -19108,7 +19111,7 @@ The guide doesn't provoke opportunity attacks by moving.
 | **<math>≤11</math>** 8 damage<br>**<math>12-16</math>** 12 damage; the guide and their mentor can each move up to their speed<br>**<math>17+</math>** 16 damage; the guide and their mentor can each move up to their speed, then attempt to hide |                                                                    |
 | **Effect:** If the guide is hidden from the target, this ability has a double edge.                                                                                                                                                                     |                                                                    |
 
-p **Poison Blade** 2d10 + highest characteristic **Encounter**
+🌀 **Poison Blade** 2d10 + highest characteristic **Encounter**
 
 - Main action e Special x Special
 
@@ -19160,7 +19163,7 @@ e 3 cube within 10 x Each enemy in the area
 
 ### **Level 10 Retainer Advancement Ability**
 
-b **Fire Spiral** 2d10 + highest characteristic **Encounter**
+❇️ **Fire Spiral** 2d10 + highest characteristic **Encounter**
 
 | **Area, Magic** | **Main action** |
 | --- | ---:|
@@ -19443,7 +19446,7 @@ Maneuver
 
 ### **Level 10 Retainer Advancement Ability**
 
-! **Death Miasma** 2d10 + highest characteristic **Encounter** Area, Magic Free triggered action
+❗️ **Death Miasma** 2d10 + highest characteristic **Encounter** Area, Magic Free triggered action
 
 **Encounter**  
 
@@ -19511,7 +19514,7 @@ The unquiet spirit can move through creatures and objects at their usual speed, 
 
 ### **Level 10 Retainer Advancement Ability**
 
-r **Death Phase Encounter**
+🏹 **Death Phase Encounter**
 
 | **Magic, Ranged, Strike** | **Main action** |
 | --- | ---:|
