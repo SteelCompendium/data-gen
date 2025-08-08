@@ -3,7 +3,7 @@
     "mcdm": {
       "_id": 1,
       "_children": {
-        "heroes": {
+        "monsters": {
           "_id": 1,
           "_children": {
             "v1": {
@@ -20,13 +20,18 @@
       "_id": 1,
       "_children": {}
     },
-    "keywords": {
+    "monster": {
       "_id": 2,
+      "_children": {}
+    },
+    "keywords": {
+      "_id": 3,
       "_children": {}
     }
   },
   "counters": {
     "chapter": 2,
+    "monster": 1,
     "keywords": 16
   }
 }

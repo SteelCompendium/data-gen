@@ -5,6 +5,8 @@
 ### Heroes
 
 - Add icons to the ability statblocks (familiar, source of earth)
+- common actions (like escape grab) are not parsed corrected as data format
+  - These dont seem to be pulled in by the abilities_config.  They are getting processed by common_abilities.yml
 - Index cleanup
   - sort tables by some column
   - Index pages need more frontmatter

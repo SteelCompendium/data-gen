@@ -1,0 +1,7 @@
+global:
+  source: "mcdm.monsters.v1"
+  type: monster
+sections:
+- header_path: monsters/ajax-the-invincible
+  xpath: "//section[@id='monsters']//section[@id='ajax-the-invincible']//section[@class='level7']"
+  file_dpath: 'Monsters/Ajax the Invincible'

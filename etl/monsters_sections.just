@@ -10,8 +10,8 @@ input_dpath := `just _input_dpath` / 'monsters'
 monsters_staging_dpath := `just _staging_dpath` / "monsters"
 sections_staging_dpath := monsters_staging_dpath / "0_sections"
 
-section_list := '"basics" "Chapters"'
-section_config_yml_filenames := '"basics.yml" "chapters.yml"'
+section_list := '"basics" "Chapters" "Monsters"'
+section_config_yml_filenames := '"basics.yml" "chapters.yml" "monsters.yml"'
 
 ##################################################
 # Public Recipes

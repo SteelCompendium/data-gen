@@ -1,5 +1,5 @@
 global:
-  source: "mcdm.heroes.v1"
+  source: "mcdm.monsters.v1"
   file_dpath: 'Basics'
 sections:
   - header_path: "general-keywords"
