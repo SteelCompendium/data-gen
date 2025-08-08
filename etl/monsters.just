@@ -87,6 +87,7 @@ gen_monsters_md_unlinked input_fpath output_dpath:
     formatted_dpath="{{monsters_staging_dpath}}/8_formatted_md"
     cp -R "$preformatted_dpath" "$formatted_dpath"
     just markdown lint "$formatted_dpath"
+    just markdown separate_blockquotes "$formatted_dpath"
 
     # Finally, move to output dir
     cp -R "$formatted_dpath"/* "{{output_dpath}}/"

@@ -42,6 +42,15 @@ lint md_src_dpath:
     done
     mdformat "{{md_src_dpath}}"
 
+separate_blockquotes md_dpath:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    just _print_section "Separating markdown blockquotes"
+    find "{{md_dpath}}" -type f -name '*.md' | while read -r fpath; do
+        # inject an html comment between blockquotes
+        # https://stackoverflow.com/questions/12979577/how-can-i-write-two-separate-blockquotes-in-sequence-using-markdown
+        sed -i -E ':a;N;$!ba;s/\n\n(>)/\n\n<!-- -->\n\1/g' "$fpath"
+    done
 
 # Write out the table-of-contents (headers) of a markdown file
 #
