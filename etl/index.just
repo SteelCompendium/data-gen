@@ -68,7 +68,7 @@ gen to_index_dpath output_fpath space_separated_columns="file_name" title="":
         [[ -e $f ]] || continue
         # skip index files
         [[ "$(just index _get_frontmatter_value "type" "$f")" != "index" ]] || continue
-        echo >&2 "        $f"
+        #echo >&2 "        $f"
 
         printf '|'
         for c in "${cols[@]}"; do
