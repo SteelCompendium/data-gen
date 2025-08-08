@@ -3,25 +3,37 @@ global:
   type: monster
 sections:
   - header_path: monsters/ajax-the-invincible
-    xpath: "//section[@id='monsters']//section[@id='ajax-the-invincible']//section[@class='level7']"
+    xpath: "//section[@id='monsters']//section[@id='ajax-the-invincible']"
     file_dpath: 'Monsters/Ajax the Invincible'
+    type: 'monster/section'
+  - header_path: monsters/ajax-the-invincible
+    xpath: "//section[@id='monsters']//section[@id='ajax-the-invincible']//section[@class='level7']"
+    file_dpath: 'Monsters/Ajax the Invincible/Statblocks'
   - header_path: monsters/ajax-the-invincible
     xpath: "//section[@id='monsters']//section[@id='ajax-the-invincible']//section[@class='level9']"
-    file_dpath: 'Monsters/Ajax the Invincible'
+    file_dpath: 'Monsters/Ajax the Invincible/Features'
     type: 'monster/feature'
 
+  - header_path: monsters/angulotls
+    xpath: "//section[@id='monsters']//section[@id='angulotls']"
+    file_dpath: 'Monsters/Angulotls'
+    type: 'monster/section'
   - header_path: monsters/angulotls
     xpath: "//section[@id='monsters']//section[@id='angulotls']//section[@class='level7']"
-    file_dpath: 'Monsters/Angulotls'
+    file_dpath: 'Monsters/Angulotls/Statblocks'
   - header_path: monsters/angulotls
     xpath: "//section[@id='monsters']//section[@id='angulotls']//section[@class='level9']"
-    file_dpath: 'Monsters/Angulotls'
+    file_dpath: 'Monsters/Angulotls/Features'
     type: 'monster/feature'
 
   - header_path: monsters/animals
-    xpath: "//section[@id='monsters']//section[@id='animals']//section[@class='level7']"
+    xpath: "//section[@id='monsters']//section[@id='animals']"
     file_dpath: 'Monsters/Animals'
+    type: 'monster/section'
+  - header_path: monsters/animals
+    xpath: "//section[@id='monsters']//section[@id='animals']//section[@class='level7']"
+    file_dpath: 'Monsters/Animals/Statblocks'
   - header_path: monsters/animals
     xpath: "//section[@id='monsters']//section[@id='animals']//section[@class='level9']"
-    file_dpath: 'Monsters/Animals'
+    file_dpath: 'Monsters/Animals/Features'
     type: 'monster/feature'
