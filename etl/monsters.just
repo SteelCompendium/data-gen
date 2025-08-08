@@ -23,7 +23,6 @@ gen input_fpath:
     just _wipe_dir "{{monsters_staging_dpath}}"
     # TODO - actually implement this
     mkdir -p "{{monsters_unlinked_dpath}}"
-    echo "Monster book has not yet been converted. Sorry for the inconvenience." > "{{monsters_unlinked_dpath}}/monsters.md"
 
     just monsters gen_monsters_md_unlinked "{{input_fpath}}" "{{monsters_unlinked_dpath}}"
     # TODO - just link_md_files ..., then change to monsters_linked_dpath
