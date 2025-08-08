@@ -4,6 +4,7 @@
 
 ### Heroes
 
+- Add icons to the ability statblocks (familiar, source of earth)
 - Index cleanup
   - sort tables by some column
   - Index pages need more frontmatter
@@ -45,6 +46,12 @@
 
 #### Moving on
 
+Global adjustements
+
+- potencies should be in inline-codeblocks? `A < WEAK`
+
+Other
+
 - [ ] draw-steel-elements
   - [ ] Prepare the `data-md-dse` repo (TODO - code)
   - [ ] Prepare the `data-bestiary-md-dse` repo (TODO - code)
@@ -55,7 +62,7 @@
 ### Guidance for chapter markdown cleanup
 
 - pre-cleanup (line removals, see what preformat.just does... maybe nothing)
-- do headers first
+- Headers
   - Can go up to H7 (which will convert to bold)
   - H6 for tables
   - H7 are statblocks in heroes book (TODO?)

@@ -59,4 +59,4 @@ lint md_src_dpath:
 extract_toc markdown_fpath output_fpath:
     #!/usr/bin/env bash
     set -euo pipefail
-    grep -E '^#{1,8} ' "{{markdown_fpath}}" > "{{output_fpath}}"
+    grep -E '^#{1,9} ' "{{markdown_fpath}}" > "{{output_fpath}}"

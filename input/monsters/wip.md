@@ -170,187 +170,204 @@ Ajax speaks Caelian, Higaran, Khoursirian, Phaedran, Riojan, Vaniric, and Vaslor
 
 At the start of each round, Ajax chooses a new stance from one of the following options and gains its benefits:
 
-⭐️ **Insurgent**
+> ⭐️ **Insurgent**
+> 
+> Ajax automatically treats his initial power roll as a 17. He can still roll to determine if he scores a critical hit.
 
-Ajax automatically treats his initial power roll as a 17. He can still roll to determine if he scores a critical hit.
+> ⭐️ **Mastermind**
+> 
+> Before he uses an ability, Ajax can either shift up to 2 squares, or can cause one creature within line of effect to slide up to 2 squares, ignoring stability.
 
-### t **Mastermind**
+> ⭐️ **Vanguard**
+> 
+> Ajax has damage immunity 5. Additionally, any enemy who makes a power roll that includes Ajax as a target has a double bane on the roll.
 
-Before he uses an ability, Ajax can either shift up to 2 squares, or can cause one creature within line of effect to slide up to 2 squares, ignoring stability.
-
-### t **Vanguard**
-
-Ajax has damage immunity 5. Additionally, any enemy who makes a power roll that includes Ajax as a target has a double bane on the roll.
-
-#### Ajax's Malice Malice Features
+######### Ajax's Malice
 
 At the start of Ajax's turn, you can spend Malice to activate one of the following features.
 
-### s **Reason 2 Malice**
-
-Ajax attempts to instill doubt into a creature within line of effect through logic and reason. The creature and Ajax make an opposed Reason test. If Ajax wins, he chooses to either deal 11 extra damage to one target on his next strike or to gain an additional triggered action during the current round. Ajax can't use this feature against the same creature during the same encounter.
-
-### p **Nexus Jewel 5 Malice**
-
-Until the end of the round, Ajax chooses one of the following environments he has previously visited and overlays that environment on top of the encounter map, temporarily merging multiple realities.
-
-Incredibly High Above the Ground: The winds whip and bluster. Any creature who can't fly takes a −3 penalty to stability, and forced movement effects gain a +3 bonus to their distance against such creatures.
-
-Swamp: The ground is difficult terrain for enemies. Any creature who starts and ends their turn in the same space is restrained (save ends).
-
-Volcanic Canyon: The air is stiflingly hot. Each enemy takes 5 fire damage for each square they enter.
-
-d **Solo Action 5 Malice** Ajax takes an additional main action on his turn. He can use this feature even if he is dazed.
-
-### a **Draw Steel 10 Malice**
-
-Area, Magic, Ranged, Weapon Main action e Four 3 cubes within 10 x Each enemy and object in the area
-
-**Effect:** Each target makes a test using their highest characteristic.
-
-- 1 26 damage; bleeding and slowed (save ends)
-- 2 22 damage; bleeding (save ends)
-- 3 16 damage
-
-Ajax then raises his Blade of the Gol King above his head as four giant blades emerge from the ground to fill the area. Each target is pushed into an unoccupied space adjacent to the area after the power roll is resolved. Each blade blocks line of effect and can be dismissed by Ajax at will (no action required).
-
-| Ajax the Invincible                 |                    |                   |                      | Level 11 Solo       |
-|-------------------------------------|--------------------|-------------------|----------------------|---------------------|
-| Human, Humanoid                     |                    |                   |                      | EV 156              |
-| 1L                                  | 7                  | 700               | 2                    | 11                  |
-| Size                                | Speed              | Stamina           | Stability            | Free Strike         |
-| Immunity: -<br>Movement: Fly, hover |                    |                   |                      | Weakness: -         |
-| **M** ight +5                    | **A** gility +4 | **R** eason +5 | **I** ntuition +5 | **P** resence +4 |
-
-### d **Ajax**
-
-Ajax Turns: Ajax takes up to three turns each round. He can't take turns consecutively. Additionally, he can use three triggered actions in a round while he isn't dazed.
-
-End **Effect:** At the end of each of his turns, Ajax can take 20 damage to end up to two effects on him that can be ended by a saving throw. This damage can't be reduced in any way.
-
-| **🗡️ Blade of the Gol King** 2d10 + 5 <span style="float:right;">**Signature Ability**                                                                                                                                             |                                                        |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
-| Charge, Magic, Melee, Strike, Weapon                                                                                                                                                                                                            |                                                        |
-| ▮ Melee 1                                                                                                                                                                                                                          | ⟲ Two creatures or objects<br>Main action |
-| ≤11 16 damage; **M&lt;4** the target loses 1d3 Recoveries<br>12-16 22 damage; **M&lt;5** the target loses 1d3 Recoveries<br>17+ 26 damage; **M&lt;6** prone and the target loses 1d3 Recoveries |                                                        |
-| **Effect:** Ajax shifts up to 2 squares between striking each target.                                                                                                                                                                        |                                                        |
-
-+ Malice: Ajax can strike one additional target for each Malice spent.
-
-### a **Decree by the Jade Hand** 2d10 + 5
-
-Area, Magic, Ranged Main action e 3 cube within 10 x Each enemy and object in the area 1 11 holy damage; slide 2; p<4] the target is hexed (save ends) 2 17 holy damage; slide 5; p<5] the target is hexed (save ends) 3 21 holy damage; slide 8; p<6] the target is hexed (save ends)
-
-**Effect:** A hexed target glows green, and each of their heroic abilities has its cost increased by 2.
-
-Malice: The potency increases by 1. Additionally, the ground beneath the area drops 3 squares and is difficult terrain. Each flying target who has m<5] is knocked prone.
-
-### r **Divine Vine** 2d10 + 5
-
-| **Magic, Ranged, Weapon** | **Maneuver** |
-| --- | ---:|
-| **📏 Ranged 5** | **🎯 One creature or object 1 No effect.** |
-
-The target is grabbed.
-
-11 damage; the target is grabbed.
-
-**Effect:** If the target is grabbed, Ajax can choose to keep the vine extended, pull the target adjacent to him, or pull himself adjacent to the target. The vine stays attached to a grabbed target until it takes damage from a strike, the target escapes the grab, or Ajax causes the vine to release the target (no action required).
-
-Special: This ability can be replaced with the features of a different treasure Ajax has acquired.
-
-| <span style="font-weight:bold;">■■■<br/>■■■<br/>■■■ Bead of Hell | 2 Malice               |
-|-------------------------------------------------------------------------|------------------------|
-
-| **Area, Magic, Ranged** | **Maneuver** |
-
-| 📏 5 cube within 20                                         | 🔎 Special |
-
-**Effect:** Ajax throws a glowing bead to a square within distance, which ignites at the start of Ajax's next turn and creates an area around it that lasts until the start of Ajax's following turn. Each enemy in the area when the bead ignites takes 20 fire damage, and if they have a<5], they are dazed (save ends). Any enemy who starts their turn in the area takes 10 fire damage.
-
-### t **I'm Not Done Yet.**
-
-Ajax dies only when his Stamina reaches −350. While his Stamina is below 0, Ajax is bleeding, he can choose any two options from his Tactical Stance trait each round, and the Director gains 2 additional Malice per round.
-
-### ! **Is This What They Taught You?** Ranged Triggered action
-
-| --- | ---:|
-| **📏 Ranged 10** | **🎯 The triggering creature** |
-
-**Trigger:** A creature within distance marks Ajax.
-
-**Effect:** The target is marked while Ajax is marked. While the target is marked this way, Ajax gains an edge on power rolls against them, and whenever the target uses a triggered action involving their mark on Ajax, he can make a free strike against them.
-
-### ! **Shieldbreaker Talisman**
-
-Magic, Melee
-
-![triangle icon](data:image)
-Melee 5
-
-Magic, Melee Triggered action
-| --- | ---:|
-| **📏 Melee 5** | **🎯 The triggering creature** |
-
-**Trigger:** An enemy within distance uses an ability to reduce damage. **Effect:** Ajax makes a free strike against the target, dealing extra damage equal to twice the amount that was reduced. This extra damage can't be reduced in any way.
-
-### ! **Who's Hesitating?**
-
-- Triggered action
-  | --- | ---:|
-  | **📏 Self** | **🎯 Self** |
-
-**Trigger:** A creature uses the Hesitation is Weakness ability.
-
-**Effect:** Ajax shifts up to his speed and can make a free strike. If the target has r<4], this free strike also makes them weakened until the end of their next turn.
-
-### ! **Your Obsession With Me Betrays You**
-
-Magic, Ranged Triggered action
-| --- | ---:|
-| **📏 Ranged 10** | **🎯 The triggering creature** |
-
-**Trigger:** Ajax causes a creature within distance to gain ferocity or wrath.
-
-**Effect:** If the target has i<4], they use a signature ability against a target of Ajax's choice.
-
-### ! **You Would Flounder Your Assault? 2 Malice**
-
-Magic Triggered action
-| --- | ---:|
-| **📏 Self** | **🎯 Self** |
-
-**Trigger:** A creature within 10 squares regains Stamina. **Effect:** Ajax regains the same amount of Stamina.
-
-d **Phoenix Wing King** 2d10 + 5 **Villain Action 1**
-
-- Area, Magic, Weapon
-  | --- | ---:|
-  | **📏 5 burst** | **🎯 Each enemy in the area** |
-- 1 11 fire damage; a<4] weakened (save ends)
-
-17 fire damage; a<5] weakened (save ends)
-
-21 fire damage; a<6] weakened (save ends)
-
-**Effect:** Ajax flies at high speed to cut through each target, then appears in an unoccupied space within distance.
-
-d **I've Learned Their Tricks Villain Action 2**
-
--
-
-| --- | ---:|
-| **📏 3 burst** | **🎯 Each enemy in the area** |
-
-**Effect:** Ajax uses the shadow elf eclipse's technique to reduce each target's surges to 0. Additionally, until the end of the round, Ajax ignores edges and double edges on any target's abilities, and ignores any nondamaging effects of any target's damage-dealing abilities.
-
-Special: This villain action can be replaced with a villain action from a creature any target has previously encountered.
-
-### d **Awe of the Iron Crown Villain Action 3** Area, Magic
-
-▲ 7 burst
-
-| --- | ---:|
-| **📏 7 burst** | **🎯 Each enemy in the area** |
-
-**Effect:** Each target who has i<5] is knocked prone and can't stand until Ajax deals damage to them. For each target not knocked prone, Ajax can move up to his speed toward that target and use Blade of the Gol King against them.
+> 👤 **Reason (2 Malice)**
+> 
+> Ajax attempts to instill doubt into a creature within line of effect through logic and reason. The creature and Ajax make an opposed Reason test. If Ajax wins, he chooses to either deal 11 extra damage to one target on his next strike or to gain an additional triggered action during the current round. Ajax can't use this feature against the same creature during the same encounter.
+
+> 🌀 **Nexus Jewel (5 Malice)**
+> 
+> Until the end of the round, Ajax chooses one of the following environments he has previously visited and overlays that environment on top of the encounter map, temporarily merging multiple realities.
+> 
+> **Incredibly High Above the Ground:** The winds whip and bluster. Any creature who can't fly takes a −3 penalty to stability, and forced movement effects gain a +3 bonus to their distance against such creatures.
+> 
+> **Swamp:** The ground is difficult terrain for enemies. Any creature who starts and ends their turn in the same space is restrained (save ends).
+> 
+> **Volcanic Canyon:** The air is stiflingly hot. Each enemy takes 5 fire damage for each square they enter.
+
+> ☠️ **Solo Action (5 Malice)** 
+> 
+> Ajax takes an additional main action on his turn. He can use this feature even if he is dazed.
+
+> 🔳 **Draw Steel (10 Malice)**
+>
+> | **Area, Magic, Ranged, Weapon**  |                          **Main Action** |
+> |----------------------------------|-----------------------------------------:|
+> | **📏 Four 3 cubes within 10**    | **🎯 Each enemy and object in the area** |
+> 
+> **Effect:** Each target makes a test using their highest characteristic.
+> 
+> - **≤11:** 26 damage; bleeding and slowed (save ends)
+> - **12-16:** 22 damage; bleeding (save ends)
+> - **17+:** 16 damage
+> 
+> Ajax then raises his Blade of the Gol King above his head as four giant blades emerge from the ground to fill the area. Each target is pushed into an unoccupied space adjacent to the area after the power roll is resolved. Each blade blocks line of effect and can be dismissed by Ajax at will (no action required).
+
+####### Ajax the Invincible
+
+|   Human, Humanoid   |             -              |      Level 11      |         SOLO          |        EV 156         |
+|:-------------------:|:--------------------------:|:------------------:|:---------------------:|:---------------------:|
+|   **1L**<br>Size    |       **7**<br>Speed       | **700**<br>Stamina |  **2**<br>Stability   | **11**<br>Free Strike |
+| **-**<br>Immunities | **Fly, hover**<br>Movement |                    | **-**<br>With Captain |  **-**<br>Weaknesses  |
+|   **+5**<br>Might   |     **+4**<br>Agility      |  **+5**<br>Reason  |  **+5**<br>Intuition  |  **+4**<br>Presence   |
+
+> ☠️ **Ajax**
+> 
+> **Ajax Turns:** Ajax takes up to three turns each round. He can't take turns consecutively. Additionally, he can use three triggered actions in a round while he isn't dazed.
+> 
+> **End Effect:** At the end of each of his turns, Ajax can take 20 damage to end up to two effects on him that can be ended by a saving throw. This damage can't be reduced in any way.
+
+> 🗡 **Blade of the Gol King**
+> 
+> | **Charge, Magic, Melee, Strike, Weapon** |           **Signature Ability** |
+> |------------------------------------------|--------------------------------:|
+> | **📏 Melee 1**                           | **🎯 Two creatures or objects** |
+> 
+> **Power Roll + 5:**
+> 
+> - **≤11:** 16 damage; M < 4 the target loses 1d3 Recoveries
+> - **12-16:** 22 damage; M < 5 the target loses 1d3 Recoveries
+> - **17+:** 26 damage; M < 6 prone and the target loses 1d3 Recoveries
+> 
+> **Effect:** Ajax shifts up to 2 squares between striking each target.                                                                                                                                                                        |                                                        |
+> 
+> **1+ Malice:** Ajax can strike one additional target for each Malice spent.
+
+> 🔳 **Decree by the Jade Hand** 
+> 
+> | **Area, Magic, Ranged**     |                          **Main Action** |
+> |-----------------------------|-----------------------------------------:|
+> | **📏 3 cube within 10**     | **🎯 Each enemy and object in the area** |
+> 
+> **Power Roll + 5:**
+> 
+> - **≤11:** 11 holy damage; slide 2; P < 4 the target is hexed (save ends) 
+> - **12-16:** 17 holy damage; slide 5; P < 5 the target is hexed (save ends) 
+> - **17+:** 21 holy damage; slide 8; P < 6 the target is hexed (save ends)
+>                                
+> **Effect:** A hexed target glows green, and each of their heroic abilities has its cost increased by 2.
+> 
+> **3 Malice:** The potency increases by 1. Additionally, the ground beneath the area drops 3 squares and is difficult terrain. Each flying target who has M < 5 is knocked prone.
+
+> 🏹 **Divine Vine**
+> 
+> | **Magic, Ranged, Weapon**  |                    **Maneuver** |
+> |----------------------------|--------------------------------:|
+> | **📏 Ranged 5**            | **🎯 One creature or object 1** |
+> 
+> **Power Roll + 5:**
+> 
+> - **≤11:** No effect.
+> - **12-16:** The target is grabbed.
+> - **17+:** 11 damage; the target is grabbed.
+> 
+> **Effect:** If the target is grabbed, Ajax can choose to keep the vine extended, pull the target adjacent to him, or pull himself adjacent to the target. The vine stays attached to a grabbed target until it takes damage from a strike, the target escapes the grab, or Ajax causes the vine to release the target (no action required).
+> 
+> **Special:** This ability can be replaced with the features of a different treasure Ajax has acquired.
+
+> 🔳 Bead of Hell (2 Malice)
+> 
+> | **Area, Magic, Ranged** |    **Maneuver** |
+> |-------------------------|----------------:|
+> | **📏 5 cube within 20** |  **🎯 Special** |
+> 
+> **Effect:** Ajax throws a glowing bead to a square within distance, which ignites at the start of Ajax's next turn and creates an area around it that lasts until the start of Ajax's following turn. Each enemy in the area when the bead ignites takes 20 fire damage, and if they have A < 5, they are dazed (save ends). Any enemy who starts their turn in the area takes 10 fire damage.
+
+> ⭐️ **I'm Not Done Yet.**
+> 
+> Ajax dies only when his Stamina reaches −350. While his Stamina is below 0, Ajax is bleeding, he can choose any two options from his Tactical Stance trait each round, and the Director gains 2 additional Malice per round.
+
+> ❗️ **Is This What They Taught You?** 
+> 
+> | **Ranged**       |           **Triggered action** |
+> |------------------|-------------------------------:|
+> | **📏 Ranged 10** | **🎯 The triggering creature** |
+> 
+> **Trigger:** A creature within distance marks Ajax.
+> 
+> **Effect:** The target is marked while Ajax is marked. While the target is marked this way, Ajax gains an edge on power rolls against them, and whenever the target uses a triggered action involving their mark on Ajax, he can make a free strike against them.
+
+> ❗️ **Shieldbreaker Talisman**
+> 
+> | **Magic, Melee** |           **Triggered action** |
+> |------------------|-------------------------------:|
+> | **📏 Melee 5**   | **🎯 The triggering creature** |
+> 
+> **Trigger:** An enemy within distance uses an ability to reduce damage. 
+> 
+> **Effect:** Ajax makes a free strike against the target, dealing extra damage equal to twice the amount that was reduced. This extra damage can't be reduced in any way.
+
+> ❗️ **Who's Hesitating?**
+> 
+> | **-**       | **Triggered action** |
+> |-------------|---------------------:|
+> | **📏 Self** |          **🎯 Self** |
+> 
+> **Trigger:** A creature uses the Hesitation is Weakness ability.
+> 
+> **Effect:** Ajax shifts up to his speed and can make a free strike. If the target has R < 4, this free strike also makes them weakened until the end of their next turn.
+
+> ❗️ **Your Obsession With Me Betrays You**
+> 
+> | **Magic, Ranged**  |           **Triggered action** |
+> |--------------------|-------------------------------:|
+> | **📏 Ranged 10**   | **🎯 The triggering creature** |
+> 
+> **Trigger:** Ajax causes a creature within distance to gain ferocity or wrath.
+> 
+> **Effect:** If the target has I < 4, they use a signature ability against a target of Ajax's choice.
+
+> ❗️ **You Would Flounder Your Assault? (2 Malice)**
+> 
+> | **Magic**   | **Triggered action** |
+> |-------------|---------------------:|
+> | **📏 Self** |          **🎯 Self** |
+> 
+> **Trigger:** A creature within 10 squares regains Stamina. 
+> 
+> **Effect:** Ajax regains the same amount of Stamina.
+
+> ☠️ **Phoenix Wing King**
+> 
+> | **Area, Magic, Weapon**   |          **Villain Action 1** |  
+> |---------------------------|------------------------------:|
+> | **📏 5 burst**            | **🎯 Each enemy in the area** |
+> 
+> - **≤11:** 11 fire damage; A < 4 weakened (save ends)
+> - **12-16:** 17 fire damage; A < 5 weakened (save ends)
+> - **17+:** 21 fire damage; A < 6 weakened (save ends)
+> 
+> **Effect:** Ajax flies at high speed to cut through each target, then appears in an unoccupied space within distance.
+
+> ☠️ **I've Learned Their Tricks**
+> 
+> | **-**          |          **Villain Action 2** |
+> |----------------|------------------------------:|
+> | **📏 3 burst** | **🎯 Each enemy in the area** |
+> 
+> **Effect:** Ajax uses the shadow elf eclipse's technique to reduce each target's surges to 0. Additionally, until the end of the round, Ajax ignores edges and double edges on any target's abilities, and ignores any nondamaging effects of any target's damage-dealing abilities.
+> 
+> **Special:** This villain action can be replaced with a villain action from a creature any target has previously encountered.
+
+> ☠️ **Awe of the Iron Crown** 
+> 
+> | **Area, Magic**  |          **Villain Action 3** | 
+> |------------------|------------------------------:|
+> | **📏 7 burst**   | **🎯 Each enemy in the area** |
+> 
+> **Effect:** Each target who has I < 5 is knocked prone and can't stand until Ajax deals damage to them. For each target not knocked prone, Ajax can move up to his speed toward that target and use Blade of the Gol King against them.

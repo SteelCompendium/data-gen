@@ -7,3 +7,7 @@ sections:
   chapter_num: '1'
 - header_path: monsters
   chapter_num: '2'
+- header_path: dynamic-terrain
+  chapter_num: '3'
+- header_path: retainers
+  chapter_num: '4'

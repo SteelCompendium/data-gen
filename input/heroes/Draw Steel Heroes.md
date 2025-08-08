@@ -15462,9 +15462,9 @@ Choose one heroic ability from the following options, each of which costs 3 dram
 
 *You write something unexpected into the scene that hinders your enemy.*
 
-| **Area, Magic, Ranged**    |               **Main Action** |
-|----------------------------|------------------------------:|
-| **📏 3 cube within 10** |           **🎯 Each enemy in the area** |
+| **Area, Magic, Ranged**     |               **Main Action** |
+|-----------------------------|------------------------------:|
+| **📏 3 cube within 10**     | **🎯 Each enemy in the area** |
 
 **Power Roll + Presence:**
 

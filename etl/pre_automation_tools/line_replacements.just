@@ -116,10 +116,8 @@ run input_md_path output_md_path:
     text = re.sub( r'^\#* ⚔ \*\*(.*)\*\*', r'⚔️ **\1**', text, flags=re.MULTILINE)
     text = re.sub( r'^\#* v \*\*(.*)\*\*', r'⚔️ **\1**', text, flags=re.MULTILINE)
 
-
     # newlines
     text = re.sub( r'\n\n\n', r'\n\n', text, flags=re.MULTILINE)
-
 
     # write it all out at once
     with open(output_path, 'w', encoding='utf-8') as f:

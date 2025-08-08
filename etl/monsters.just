@@ -109,12 +109,16 @@ input_md_cleanup input_fpath output_fpath:
 
     # Replace H7 headers with bold+span
     echo >&2 "Replacing H7 headers"
-    sed -i -E 's/^####### (.*)$/**<span class="steel-compendium-h7">\1<\/span>**/g' "{{output_fpath}}"
+    sed -i -E 's/^####### (.*)$/**<span class="steel-compendium-statblock">\1<\/span>**/g' "{{output_fpath}}"
 
     # Replace H8 headers with bold+span
     echo >&2 "Replacing H8 headers"
     # TODO - consider adding `<a class="headerlink" id="scalar-assault-bold" href="scalar-assault-bold" title="Permanent link">&para;</a>`
     sed -i -E 's/^######## (.*)$/**<span class="steel-compendium-ability">\1<\/span>**/g' "{{output_fpath}}"
+
+    # Replace H8 headers with bold+span
+    echo >&2 "Replacing H9 headers"
+    sed -i -E 's/^######### (.*)$/**<span class="steel-compendium-malice">\1<\/span>**/g' "{{output_fpath}}"
 
 # Given a fully-generated directory of markdown, will auto-link files to itself
 [private]
