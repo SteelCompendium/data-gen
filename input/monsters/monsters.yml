@@ -37,3 +37,15 @@ sections:
     xpath: "//section[@id='monsters']//section[@id='animals']//section[@class='level9']"
     file_dpath: 'Monsters/Animals/Features'
     type: 'monster/feature'
+
+  - header_path: monsters/arixx
+    xpath: "//section[@id='monsters']//section[@id='arixx']"
+    file_dpath: 'Monsters/Arixx'
+    type: 'monster/section'
+  - header_path: monsters/arixx
+    xpath: "//section[@id='monsters']//section[@id='arixx']//section[@class='level7']"
+    file_dpath: 'Monsters/Arixx/Statblocks'
+  - header_path: monsters/arixx
+    xpath: "//section[@id='monsters']//section[@id='arixx']//section[@class='level9']"
+    file_dpath: 'Monsters/Arixx/Features'
+    type: 'monster/feature'
