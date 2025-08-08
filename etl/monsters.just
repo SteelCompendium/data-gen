@@ -29,8 +29,6 @@ gen input_fpath:
     # TODO - just link_md_files ..., then change to monsters_linked_dpath
     just monsters convert_md_to_other_formats "{{monsters_unlinked_dpath}}"
 
-    just _copy_data_to_repo "{{monsters_unlinked_dpath}}" "data-bestiary-md" "/monsters"
-
     #    # TODO - I think I want to break up this repo into books to prepare for supplemental materials (so data-bestiary-md/monsters)
     #    just _copy_data_to_repo "{{monsters_unlinked_dpath}}" "data-bestiary-md"
     #    just _copy_data_to_repo "{{monsters_unlinked_dpath}}" "data-bestiary-md-dse"
@@ -87,7 +85,6 @@ gen_monsters_md_unlinked input_fpath output_dpath:
     formatted_dpath="{{monsters_staging_dpath}}/8_formatted_md"
     cp -R "$preformatted_dpath" "$formatted_dpath"
     just markdown lint "$formatted_dpath"
-    just markdown separate_blockquotes "$formatted_dpath"
 
     # Finally, move to output dir
     cp -R "$formatted_dpath"/* "{{output_dpath}}/"
@@ -151,4 +148,6 @@ convert_md_to_other_formats md_dpath:
     #    just _copy_data_to_repo "${conversions_dpath}/yaml" "data-rules-yaml"
     #    just _copy_data_to_repo "${conversions_dpath}/xml" "data-rules-xml"
 
-
+    # only separate blockquotes on the markdown variant
+    just markdown separate_blockquotes "{{md_dpath}}"
+    just _copy_data_to_repo "{{md_dpath}}" "data-bestiary-md" "/monsters"

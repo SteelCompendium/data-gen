@@ -24,7 +24,6 @@ gen input_fpath:
     just heroes gen_heroes_md_unlinked "{{input_fpath}}" "{{heroes_unlinked_dpath}}"
     # TODO - just link_md_files ..., then change to heroes_linked_dpath
     just heroes convert_md_to_other_formats "{{heroes_unlinked_dpath}}"
-    just _copy_data_to_repo "{{heroes_unlinked_dpath}}" "data-rules-md"
 
 ##################################################
 # Private Recipes
@@ -94,7 +93,6 @@ gen_heroes_md_unlinked input_fpath output_dpath:
     formatted_dpath="{{heroes_staging_dpath}}/8_formatted_md"
     cp -R "$preformatted_dpath" "$formatted_dpath"
     just markdown lint "$formatted_dpath"
-    just markdown separate_blockquotes "$formatted_dpath"
 
     # Finally, move to output dir
     cp -R "$formatted_dpath"/* "{{output_dpath}}/"
@@ -158,4 +156,7 @@ convert_md_to_other_formats md_dpath:
     just _copy_data_to_repo "${conversions_dpath}/yaml" "data-rules-yaml"
     just _copy_data_to_repo "${conversions_dpath}/xml" "data-rules-xml"
 
+    # only separate blockquotes on the markdown variant
+    just markdown separate_blockquotes "{{md_dpath}}"
+    just _copy_data_to_repo "{{md_dpath}}" "data-rules-md"
 
