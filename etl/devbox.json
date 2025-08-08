@@ -35,6 +35,7 @@
     "scripts": {
       "gen":             "time just gen",
       "gen_heroes":      "time just gen_heroes",
+      "gen_monsters":      "time just gen_monsters",
       "switch_repos_to": "just switch_repos_to $@"
     }
   }
