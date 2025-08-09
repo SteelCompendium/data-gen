@@ -40,3 +40,12 @@ sections:
       concat('th-level-features', '-')), '0123456789', '')))]//section[@id='blessing-of-secrets-3'
       or (starts-with(@id, concat('blessing-of-secrets-3', '-')) and not(translate(substring-after(@id,
       concat('blessing-of-secrets-3', '-')), '0123456789', '')))]
+
+  # Because these are in the form `.* (.*)` the code thinks they are abilities, but they are not
+  - source: mcdm.heroes.v1
+    header_path: null/7th-level-features/psi-boost
+    item_name: Psi Boost
+    type: feature/trait/null/7th-level-feature
+    feature_type: trait
+    file_dpath: Null/7th-Level Features
+    xpath: "//section[@id='null']//section[@id='psi-boost']"

@@ -92,6 +92,17 @@ build_ability_config headers_fpath ability_yml_fpath source="mcdm.heroes.v1":
         """
         Parses the document content and extracts ability paths.
         """
+        rejectList = []
+
+        # These are all sub-items of Null's 7th-level Psi boost trait
+        rejectList.append("Dynamic Power (1 Discipline)")
+        rejectList.append("Expanded Power (3 Discipline)")
+        rejectList.append("Extended Power (1 Discipline)")
+        rejectList.append("Heightened Power (1 Discipline)")
+        rejectList.append("Magnified Power (5 Discipline)")
+        rejectList.append("Shared Power (5 Discipline)")
+        rejectList.append("Sharpened Power (1 Discipline)")
+
         all_headers = []
         for line in content.splitlines():
             level, text = parse_header(line)
@@ -104,6 +115,9 @@ build_ability_config headers_fpath ability_yml_fpath source="mcdm.heroes.v1":
         for i, header in enumerate(all_headers):
             level = header['level']
             text = header['text']
+
+            if text in rejectList:
+                continue
 
             if text.lower().endswith("table"):
                 continue
