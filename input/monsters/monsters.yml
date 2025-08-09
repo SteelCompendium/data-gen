@@ -49,3 +49,15 @@ sections:
     xpath: "//section[@id='monsters']//section[@id='arixx']//section[@class='level9']"
     file_dpath: 'Monsters/Arixx/Features'
     type: 'monster/feature'
+
+  - header_path: monsters/ashen-hoarder
+    xpath: "//section[@id='monsters']//section[@id='ashen-hoarder']"
+    file_dpath: 'Monsters/Ashen Hoarder'
+    type: 'monster/section'
+  - header_path: monsters/ashen-hoarder
+    xpath: "//section[@id='monsters']//section[@id='ashen-hoarder']//section[@class='level7']"
+    file_dpath: 'Monsters/Ashen Hoarder/Statblocks'
+  - header_path: monsters/ashen-hoarder
+    xpath: "//section[@id='monsters']//section[@id='ashen-hoarder']//section[@class='level9']"
+    file_dpath: 'Monsters/Ashen Hoarder/Features'
+    type: 'monster/feature'
