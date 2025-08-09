@@ -1,184 +1,159 @@
-## Basilisks
+## Bredbeddle
 
-With eight legs, a scaled rough hide, and razor-sharp teeth coated in poison, the basilisk is a deadly threat-even aside from their petrifying eye beams. This dreadful creature can fell the mightiest of foes with a look, turning them into an immobilized stone statue who remains thankfully unaware when the basilisk later consumes their petrified form at their leisure.
+In their true forms, bredbeddles are ogre-sized headless giants. Forever searching for their missing heads, they are drawn to populous lands, where they decapitate passers-by and magically adopt their victims' forms.
 
-### Raising Young
+Although bredbeddles have no traditional sensory organs of their own, they are keenly aware of their surroundings. Some lurk along dark country lanes in their monstrous true forms. Others walk disguised among crowds, dropping their facade only long enough to waylay a stranger and lop off their head.
 
-Basilisks typically live in mated pairs and raise small clutches of younglings from the comforts of damp caves. Adults prefer to subsist on berries, fish, fowl, and carrion, resorting to eating their petrified victims only when starving. By contrast, basilisk younglings can eat only petrified victims, and basilisks have been known to travel far from their nest to populated areas in search of prey for their babies.
+### Immortal Wanderers
 
-### Dangerous Servitors
+Bredbeddles don't age, and if they are slain, their bodies reform a few days later. Long ago, bredbeddles were giants who stood high among the nobility of giant kind. But when they declared themselves rulers of all giant kind, their kin thwarted the coup and beheaded the bredbeddles. Now these fallen nobles search the world for their missing heads, each wielding the axe that decapitated them. Tales tell of how their heads are kept for safekeeping in a fire giant's cellar to be returned after an indeterminate period of good behavior, which no bredbeddle has exhibited thus far.
 
-Crime lords and overminds seek basilisk eggs to hatch, raising and training basilisks as bodyguards and pets. Training is dangerous, and many handlers (and their unscrupulous colleagues) find themselves turned to stone when a basilisk escapes and runs amok.
+### Green with Frenzy
 
-Some creatures keep basilisks not for their terrifying abilities, but for their immunity to petrification. Medusas commonly keep basilisks as pets, owing to their own limited options for companionship. Both parties benefit from this relationship, as the medusa feeds their own victims to the basilisk and their younglings.
+The longer a bredbeddle goes without a head, the more twisted and desperate their power grows. Their desire to be whole stretches out of their body in the form of shadowy dark-green ribbons, wrapping around and clinging to every surface they spill onto.
 
-### Alchemical Properties
+Travelers warn one another of roads rumored to be haunted by "wild green knights," often avoiding these routes for months. No journey is worth losing your head over.
 
-Alchemists have discovered a gland in the basilisk's mouth that excretes an oil that reverts stone to flesh, making it easier to digest prey. If enough of the oil is collected, a salve can be created to restore a petrified victim. Unsavory alchemists pay good money to those willing to steal a basilisk youngling from their nest.
+### Bredbeddle Languages
 
-> **Restorative Salve**
-> 
-> After a basilisk dies, a character can make a Reason test to claim oil from the basilisk's mouth, which can be used to create a special salve. One dose of salve can be applied to a petrified creature as a main action, and 1 minute after the salve is applied, that creature is no longer petrified.
-> 
-> - **≤11:** 1 The character must complete the Find a Cure downtime project in *Draw Steel: Heroes* to create one dose of salve.
-> - **12-16:** 2 The character creates one dose of salve and can create two more doses by completing the Find a Cure downtime project.
-> - **17+:** 3 The character creates three doses of salve.
+When a bredbeddle communicates, they typically use High Kuric or the languages that their head's previous owner knew. A bredbeddle who has taken multiple heads over their lifetime most likely knows Caelian as well.
 
-######### Basilisk Malice
+######### Bredbeddle Malice
 
-At the start of any basilisk's turn, you can spend Malice to activate one of the following features.
+At the start of a bredbeddle's turn, you can spend Malice to activate one of the following features.
 
-> ⭐️ **Stone Swim (3+ Malice)** 
+> ⭐️ **Engreen (3 Malice)** 
 > 
-> A basilisk acting this turn can burrow until the start of their next turn, and moves up to their speed. They have damage immunity 2 while underground. The basilisk can burrow through stone, but can't drag other creatures underground when they do so. At the start of each of the basilisk's turns, the Director can spend 1 Malice to let the basilisk continue burrowing.
+> The bredbeddle's axe lengthens and turns a ghastly green, granting a +1 bonus to the distance of the bredbeddle's melee strikes and the dimensions of their burst area abilities until the end of their turn.
 
-> 🔳 **Upchuck (5 Malice*)*
+> 🔳 **Shadow Stockade (5 Malice)**
 > 
-> 
-> | **Area, Weapon**        |               **Main action** |
-> |-------------------------|------------------------------:|
-> | **📏 3 cube within 10** | **🎯 Each enemy in the area** |
-> 
-> **Effect:** The basilisk spits up a chunk of partly digested stone.
-> 
-> **Power Roll + 2:**
-> 
-> - **≤11:** 4 damage
-> - **12-16:** 4 damage; A < 1 2 damage, prone
-> - **17+:** 4 damage; A < 2 5 damage, prone and can't stand (save ends)
+> A ghostly size 1L stockade seeps out from under the bredbeddle's feet to fill an unoccupied square within 10 squares. When a size 1L or smaller enemy enters the stockade's square, they are restrained (save ends). When a restrained creature is no longer restrained, the stockade fades away. At the start of each of the bredbeddle's turns, they can slide an active stockade and any creature in it up to 5 squares.
 
-> 🔳 **Walleye (7 Malice)**
+> ☠️ **Solo Action (5 Malice)**
 > 
-> A basilisk spews reflective spittle across an adjacent vertical surface in a 3-square-by-3-square area. The basilisk can use their Petrifying Eye Beams ability to target a square in the area, causing the area and distance of that ability to become a 20 x 3 line within 1 square of the wall.
+> The bredbeddle takes an additional main action on their turn. They can use this feature even if they are dazed.
 
-   
-####### Basilisk
+> 🌀 **Green Phantom 7 Malice** 
+> 
+> A phantom second bredbeddle phases into view, appearing in an unoccupied space anywhere on the encounter map, then vanishing at the end of the round. The phantom bredbeddle shares the original bredbeddle's statistics but has 24 Stamina, corruption immunity 10, and can fly. The phantom bredbeddle can take one turn and use any of the bredbeddle's abilities except for villain actions. Only one phantom bredbeddle can be active at a time.
 
-|     Basilisk, Beast      |         -         |      Level 1      |      Elite Brute      |        EV 12         |
-|:------------------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
-|      **2**<br>Size       |  **8**<br>Speed   | **80**<br>Stamina |  **2**<br>Stability   | **5**<br>Free Strike |
-| **Poison 4**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
-|     **+2**<br>Might      | **+0**<br>Agility | **-3**<br>Reason  |  **-1**<br>Intuition  |  **-1**<br>Presence  |
+####### Bredbeddle
 
-> 🗡 **Noxious Bite (Signature Ability)**
-> 
-> | **Melee, Strike, Weapon** |                 **Main Action** |
-> |---------------------------|--------------------------------:|
-> | **📏 Melee 1**            | **🎯 Two creatures or objects** |
-> 
-> **Power Roll + 2:**
-> 
-> - **≤11:** 7 poison damage
-> - **12-16:** 10 poison damage
-> - **17+:** 13 poison damage
-> 
-> **Effect:** This ability gains an edge against targets the basilisk has previously dealt poison damage to.
+| Bredbeddle, Giant |         -         |      Level 3       |         Solo          |        EV 60         |
+|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
+|   **2**<br>Size   |  **5**<br>Speed   | **300**<br>Stamina |  **4**<br>Stability   | **6**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+|  **+3**<br>Might  | **+0**<br>Agility |  **-3**<br>Reason  |  **+2**<br>Intuition  |  **+2**<br>Presence  |
 
-> 🔳 **Petrifying Eye Beams**
+> ☠️ **Solo Monster**
 > 
-> | **Area, Magic**            |   **Maneuver** |
-> |----------------------------|---------------:|
-> | **📏 5 × 2 line within 1** | **🎯 Special** |
+> **End Effect:** At the end of each of their turns, the bredbeddle can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
 > 
-> **Special:** The area extends from both the basilisk’s eyes, and this ability targets the first creature without cover on either side of the area.
-> 
-> **Power Roll + 2:**
-> 
-> - **≤11:** M < 0 restrained (save ends)
-> - **12-16:** M < 1 restrained (save ends)
-> - **17+:** Slowed (save ends); or if M < 2 restrained (save ends)
-> 
-> **Effect:** If a target is already slowed, the potency increases by 1 for that target. A target restrained this way magically begins to turn to stone, and a target who ends two consecutive turns restrained this way is petrified. A target restrained this way or a creature adjacent to them can use a main action to cut encroaching stone from the target’s body, dealing 8 damage to the target that can’t be reduced in any way and ending this effect.
+> **Solo Turns:** The bredbeddle can take two turns each round. They can't take turns consecutively.
 
-> 🔳 **Poison Fumes (5 Malice)**
+> ⭐️ **Heady or Not**
 > 
-> | **Area, Magic**        |               **Main action** |
-> |------------------------|------------------------------:|
-> | **📏 3 cube within 1** | **🎯 Each enemy in the area** |
+> While headless, the bredbeddle can move into a space containing a severed head and attach it to their neck as a main action. Doing so physically transforms the bredbeddle, who takes on the appearance, size, weight, and stability of the head's original owner. If the bredbeddle takes the form of a creature of size 1L or smaller, the distance of their melee and burst area abilities decreases by 1. These effects last until the bredbeddle is killed or beheaded, or until the head falls off after 24 hours. A head that falls off this way can no longer be attached to this bredbeddle.
 > 
-> **Power Roll + 2:**
-> 
-> - **≤11:** 4 poison damage; M < 0 weakened (save ends)
-> - **12-16:** 6 poison damage; M < 1 weakened and slowed (save ends)
-> - **17+:** 9 poison damage; M < 2 weakened and slowed (save ends)
+> A creature must succeed on a **hard Might test** made as a maneuver to rip a head off the bredbeddle. If they fail, the bredbeddle can make a free strike against them.
 
-> ❗️ **Lash Out**
+> ⭐️ **Resilient Form**
 > 
-> | **Area** | **Triggered action** |
-> |-----------------------------|------------------------------:|
-> | **📏 1 burst**     | **🎯 Each enemy in the area** |
-> 
-> **Trigger:** The basilisk takes damage from a melee ability.
-> 
-> **Effect:** Each target takes 5 damage. Any target who has A < 2 is also bleeding (save ends).
+> The bredbeddle can't be physically transformed in any way except by their Heady or Not trait.
 
-> ⭐️ **Calcifying Presence**
+> ❇️ **Executioner's Swing (Signature Ability)**
 > 
-> The area within 3 squares of the basilisk is difficult terrain for enemies.
+> | **Area, Weapon** |               **Main action** |
+> |------------------|------------------------------:|
+> | **📏 2 burst**   | **🎯 Each enemy in the area** |
+> 
+> **Power Roll + 3:**
+> 
+> - **≤11:** 2 damage; A < 1 bleeding (save ends)
+> - **12-16:** 4 damage; A < 2 bleeding (save ends)
+> - **17+:** 5 damage; A < 3 bleeding (save ends); M < 2 dazed (save ends)
+> 
+> **Malice:** The bredbeddle shifts up to 2 squares, and can target additional enemies who come within distance of this ability during the shift.
 
-####### Basilisk Tonguesnapper
-
-|         Basilisk, Beast          |         -         |      Level 1      |      Elite Hexer      |        EV 12         |
-|:--------------------------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
-|          **2**<br>Size           |  **8**<br>Speed   | **40**<br>Stamina |  **2**<br>Stability   | **4**<br>Free Strike |
-| **Acid 2, Poison 2**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
-|         **+1**<br>Might          | **+2**<br>Agility | **-3**<br>Reason  |  **-1**<br>Intuition  |  **-1**<br>Presence  |
-
-> 🗡 **Prehensile Tongue (Signature Ability)**
+> 🗡 **Lop (3 Malice)**
 > 
-> | **Melee, Strike, Weapon** |               **Main action** |
-> |---------------------------|------------------------------:|
-> | **📏 Melee 3**            | **🎯 One creature or object** |
->         
-> **Power Roll + 2:**
-> 
-> - **≤11:** 8 acid damage; pull 1
-> - **12-16:** 10 acid damage; pull 2
-> - **17+:** 14 acid damage; pull 3
-> 
-> **Effect:** This ability can pull targets restrained by Petrifying Eye Beams, and ignores stability if it does so.
-> 
-> **3 Malice:** The tonguesnapper targets two additional creatures or objects.
-
-> 🔳 **Petrifying Eye Beams**
-> 
-> | **Area, Magic**            |   **Maneuver** |
-> |----------------------------|---------------:|
-> | **📏 5 x 2 line within 1** | **🎯 Special** |
-> 
-> **Special:** The area extends from both the tonguesnapper’s eyes, and this ability targets the first creature without cover on either side of the area.
-> 
-> **Power Roll + 2:**
-> 
-> - **≤11:** A < 0 restrained (save ends)
-> - **12-16:** A < 1 restrained (save ends)
-> - **17+:** Slowed (save ends); or if M < 2 restrained (save ends)
-> 
-> **Effect:** If a target is already slowed, the potency increases by 1 for that target. A target restrained this way magically begins to turn to stone, and a target who ends two consecutive turns restrained this way is petrified. A target restrained this way or a creature adjacent to them can use a main action to cut encroaching stone from the target’s body, dealing 8 damage to the target that can’t be reduced in any way and ending this effect.
-
-> ⚔️ **Wink (2 Malice)**
-> 
-> | **Magic, Melee, Ranged, Strike** |     **Main action** |
+> | **Magic, Melee, Strike, Weapon** |     **Main action** |
 > |----------------------------------|--------------------:|
-> | **📏 Melee 1 or ranged 10**      | **🎯 One creature** |
+> | **📏 Melee 2**                   | **🎯 One creature** |
+>            
+> **Power Roll + 3:**
 > 
+> - **≤11:** 9 damage; bleeding (save ends); or if the target has M < 1 they are beheaded
+> - **12-16:** 13 damage; bleeding (save ends); or if the target has M < 2 they are beheaded 
+> - **17+:** 16 damage; bleeding (save ends); or if the target has M < 3 they are beheaded
 > 
-> - **≤11:** 8 corruption damage; R < 0 dazed (save ends)
-> - **12-16:** 10 corruption damage; R < 1 dazed (save ends)
-> - **17+:** 14 corruption damage; R < 2 dazed and slowed (save ends)
-> 
-> **Effect:** A creature dazed this way can’t benefit from edges or double edges and can’t gain or use surges.
+> **Effect:** A beheaded target has their head fall into an unoccupied square adjacent to the bredbeddle, but they remain alive. While beheaded this way, the target is bleeding and has line of effect only to adjacent squares. The beheaded target can survive without their head for 24 hours, and can reattach their head as a maneuver by entering its square. A target who remains beheaded for 24 hours dies.
 
-> ❗️ **Neurotoxin Splash**
+> 👤 **Scramble**
 > 
-> | **Area**       |          **Triggered action** |
-> |----------------|------------------------------:|
-> | **📏 2 burst** | **🎯 Each enemy in the area** |
+> | **-**       | **Maneuver** |
+> |-------------|-------------:|
+> | **📏 Self** |  **🎯 Self** |
 > 
-> **Trigger:** The tonguesnapper takes damage from a melee ability.
-> 
-> **Effect:** Each target takes 4 acid damage. Any target who has M < 2 is also slowed (save ends).
+> **Effect:** While the bredbeddle is headless, they shift up to their speed. Each time a creature comes adjacent to the bredbeddle during the shift, the bredbeddle can push that creature 1 square. Each square the bredbeddle exits during the shift is difficult terrain.
 
-> ⭐️ Petrifying Fumes
+> 🏹 **Headway (5 Malice)**
 > 
-> Any creature who starts their turn adjacent to the tonguesnapper and has M < 1 is slowed (save ends).
+> | **Ranged, Strike, Weapon** |                  **Maneuver** |
+> |----------------------------|------------------------------:|
+> | **📏 Ranged 20**           | **🎯 One creature or object** |
+> 
+> **Effect:** The bredbeddle must have a head in their possession (attached to them or not), which they throw at the target. If the head was attached, the bredbeddle is left headless.
+> 
+> **Power Roll + 3:**
+> 
+> - **≤11:** 9 damage; M < 1 dazed (save ends)
+> - **12-16:** 13 damage; prone; M < 2 dazed (save ends)
+> - **17+:** 16 damage; prone; M < 3 dazed (save ends)
+
+> ❗️ **Envious Imitation (2 Malice)**
+> 
+> | **Magic**   | **Triggered action** |
+> |-------------|---------------------:|
+> | **📏 Self** |          **🎯 Self** |
+> 
+> **Trigger:** A creature targets the bredbeddle with a ranged strike.
+> 
+> **Effect:** The bredbeddle uses the same ability against the triggering creature after the triggering strike is resolved, using that creature's bonus to any power rolls they make.
+
+> ☠️ **Turn Green (Villain Action 1)**
+> 
+> | **Area, Magic** |                         **-** |
+> |-----------------|------------------------------:|
+> | **📏 3 burst**  | **🎯 Each enemy in the area** |
+> 
+> **Power Roll + 3:**
+> 
+> - **≤11:** P < 1 the target turns green (save ends)
+> - **12-16:** P < 2 the target turns green (save ends)
+> - **17+:** P < 3 the target turns green until the end of the encounter 
+> 
+> **Effect:** Green shadows crawl out from under the bredbeddle's feet and turn each target green. The bredbeddle has a double edge on power rolls against any target turned green this way.
+
+> ☠️ **Challenge (Villain Action 2)**
+> 
+> | **Ranged**      |            **-** |
+> |-----------------|-----------------:|
+> | **📏 Ranged 5** | **🎯 One enemy** |
+> 
+> **Effect:** The bredbeddle points at the target and issues them a challenge. If the target refuses, they turn green until the end of the encounter (see Turn Green). If the target accepts the challenge, the bredbeddle shifts adjacent to the target, who makes a **Might test** with no additional modifiers.
+> 
+> - **≤11:** The target is beheaded (see Lop).
+> - **12-16:** The target makes the test again.
+> - **17+:** The target can choose to deal 40 damage to the bredbeddle or remove the bredbeddle's head.
+
+> ☠️ **Headlam Rampage (Villain Action 3)**
+> 
+> | **Melee, Strike, Weapon** |                 **-** |
+> |---------------------------|----------------------:|
+> | **📏 Melee 2**            | **🎯 Four creatures** |
+> 
+> - **≤11:** 6 damage; bleeding (save ends); or if the target has A < 1 they are beheaded (see Lop).
+> - **12-16:** 7 damage; bleeding (save ends); or if the target has A < 2 they are beheaded
+> - **17+:** 8 damage; bleeding (save ends); or if the target has A < 3 they are beheaded
