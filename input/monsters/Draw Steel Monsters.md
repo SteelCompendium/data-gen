@@ -2138,7 +2138,7 @@ The animal can attempt to hide even while observed. While no enemy has line of e
 
 ###### Fearsome (2 Points)
 
-As a maneuver, the animal makes an imposing display. Each enemy within 2 squares of the animal who has i<1] must shift 3 squares in a straight line away from the animal.
+As a maneuver, the animal makes an imposing display. Each enemy within 2 squares of the animal who has I < 1 must shift 3 squares in a straight line away from the animal.
 
 **Typically Used By:** Aardvarks, lions, peacocks.
 
@@ -2162,7 +2162,7 @@ Whenever an adjacent enemy grabs the animal or uses a melee ability against them
 
 ###### Stench (2 Points)
 
-At the start of the animal's turn, each enemy adjacent to the animal who has m<1] must shift 1 square away from the animal.
+At the start of the animal's turn, each enemy adjacent to the animal who has M < 1 must shift 1 square away from the animal.
 
 **Typically Used By:** Oxen, skunks, wolverines.
 
@@ -2208,7 +2208,7 @@ The animal gains an edge on strikes against creatures who are bleeding or winded
 
 ###### Grappler (1 Point)
 
-If the target of the animal's signature ability has a<1], they are grabbed by the animal.
+If the target of the animal's signature ability has A < 1, they are grabbed by the animal.
 
 **+1 Point:** An enemy grabbed by the animal takes a bane on the Escape Grab maneuver.
 
@@ -2256,7 +2256,7 @@ The animal's signature ability gains a +2 bonus to distance. (This trait can be 
 
 ###### Venom (1 Point)
 
-The animal's signature ability deals an extra 2 poison damage, and if the target has m<1], they are weakened (save ends).
+The animal's signature ability deals an extra 2 poison damage, and if the target has M < 1, they are weakened (save ends).
 
 **Typically Used By:** Platypuses, snakes, wasps.
 
@@ -2284,7 +2284,7 @@ Animals who channel magic or psionic power can show off a range of unusual super
 
 ###### Death Fumes (10 Points)
 
-Whenever the animal takes damage, each creature adjacent to the animal who has m<1] takes damage equal to half the creature's current Stamina.
+Whenever the animal takes damage, each creature adjacent to the animal who has M < 1 takes damage equal to half the creature's current Stamina.
 
 **Typically Used By:** Death snails.
 
@@ -2302,7 +2302,7 @@ The animal can move through spaces as if they were size 1T. Whenever the animal 
 
 ###### Hypnosis (2 Points)
 
-As a maneuver, the animal targets one enemy within 5 squares with their gaze, movements, or vocalizations. If the enemy has r<1], they are dazed (save ends).
+As a maneuver, the animal targets one enemy within 5 squares with their gaze, movements, or vocalizations. If the enemy has R < 1, they are dazed (save ends).
 
 **Typically Used By:** Angler fish, snakes, tigers.
 
@@ -2883,7 +2883,7 @@ At the start of an ashen hoarder's turn, you can spend Malice to activate one of
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** The ashen hoarder moves up to twice their speed in a straight line. Each creature or object in the path of this movement is either pushed into the nearest unoccupied space outside the path, or if they have m<3] is pushed forward until the movement ends. Any creature who is force moved forward into an obstacle is dazed (save ends).
+> **Effect:** The ashen hoarder moves up to twice their speed in a straight line. Each creature or object in the path of this movement is either pushed into the nearest unoccupied space outside the path, or if they have M < 3 is pushed forward until the movement ends. Any creature who is force moved forward into an obstacle is dazed (save ends).
 
 > ❗️ **Armor of Corpses (2 Malice)**
 >
@@ -2901,7 +2901,7 @@ At the start of an ashen hoarder's turn, you can spend Malice to activate one of
 
 > ⭐️ **Soul Singularity**
 >
-> When the ashen hoarder is reduced to 0 Stamina, they explode in a swirling singularity of bone shards and soul energy. Each creature within 5 squares of the ashen hoarder who has m<3] takes 11 corruption damage. A creature killed by this damage has their soul sucked into the vortex and lost somewhere in the Abyssal Wasteland, and can't be brought back to life until their soul is recovered.
+> When the ashen hoarder is reduced to 0 Stamina, they explode in a swirling singularity of bone shards and soul energy. Each creature within 5 squares of the ashen hoarder who has M < 3 takes 11 corruption damage. A creature killed by this damage has their soul sucked into the vortex and lost somewhere in the Abyssal Wasteland, and can't be brought back to life until their soul is recovered.
 
 > ☠️ **Skeletal Eruption (Villain Action 1)**
 >
