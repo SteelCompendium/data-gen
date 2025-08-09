@@ -1,145 +1,140 @@
-## Chimera
+## Demons
 
-Massive flexing claws. Lashing draconic tail. Nimble leathery wings. And not one, but three menacing heads: a snarling lion, a helix-horned ram, and a dragon with fire sparking in their throat. Many see the chimera as an aggressor-but few know this creature's origins as a divine guardian.
+Creatures of incarnate hate, demons spawn naturally in the Abyssal Wasteland. They crave violence and suffering the way other creatures need food. A demon cares only for themself, and they torture and tear lesser demons apart for fun.
 
-### The First Chimera
+The bestial appearance of each demon is unique, composed of a chaotic arrangement of teeth, claws, and limbs meant for killing. Even demons of the same kind have unique features. One might bear an extra set of eyes or teeth, while another has a humanoid arm growing from their forehead.
 
-The first chimera was a gift. A deity gave a devout queen this young guardian-one with a dragon's cunning, a lion's bravery, and a ram's tenacity. The queen raised the chimera to be a strong protector not just for herself but also her people, who loved the chimera and their ruler. But neighboring lands feared the beast. As a conquering force swept into the land, slaughtering the chimera was their fell goal.
+###### Demon Stat Block Table
 
-The queen's resulting fury was said to be felt by the gods. As she screamed, a nearby volcano erupted, spewing basalt and chimeras over the land. With fiery might, the chimeras destroyed the opposing army, then dispersed. Each found a new territory and claimed the role of divine protector over that place, its inhabitants, and its treasures.
+| Echelon | Name                 | Level | Organization | Role       | EV                  |
+|---------|----------------------|-------|--------------|------------|---------------------|
+| 1st     | Ensnarer             | 1     | Minion       | Brute      | 3 for four minions  |
+| 1st     | Frenzied             | 1     | Minion       | Harrier    | 3 for four minions  |
+| 1st     | Pitling              | 1     | Minion       | Artillery  | 3 for four minions  |
+| 1st     | Bendrak              | 2     | Horde        | Hexer      | 4                   |
+| 1st     | Muceron              | 3     | Horde        | Brute      | 5                   |
+| 1st     | Remasch              | 2     | Horde        | Ambusher   | 4                   |
+| 1st     | Ruinant              | 1     | Horde        | Harrier    | 3                   |
+| 1st     | Torlas               | 1     | Horde        | Controller | 3                   |
+| 1st     | Chorogaunt           | 3     | Leader       | -          | 20                  |
+| 2nd     | Grulqin              | 4     | Minion       | Brute      | 6 for four minions  |
+| 2nd     | Orliq                | 4     | Minion       | Harrier    | 6 for four minions  |
+| 2nd     | Wobalas              | 4     | Minion       | Artillery  | 6 for four minions  |
+| 2nd     | Bale Eye             | 5     | Horde        | Hexer      | 7                   |
+| 2nd     | Fangling             | 4     | Horde        | Harrier    | 6                   |
+| 2nd     | Fiktin               | 5     | Horde        | Ambusher   | 7                   |
+| 2nd     | Gunge                | 4     | Horde        | Controller | 6                   |
+| 2nd     | Tormenauk            | 6     | Horde        | Brute      | 8                   |
+| 2nd     | Lumbering Egress     | 6     | Leader       | -          | 32                  |
+| 3rd     | Soulraker Scout      | 7     | Minion       | Harrier    | 9 for four minions  |
+| 3rd     | Soulraker Soldier    | 7     | Minion       | Brute      | 9 for four minions  |
+| 3rd     | Soulraker Stinger    | 7     | Minion       | Artillery  | 9 for four minions  |
+| 3rd     | Blight Phage         | 7     | Horde        | Controller | 9                   |
+| 3rd     | Chimeron             | 9     | Horde        | Brute      | 11                  |
+| 3rd     | Styrich              | 8     | Horde        | Hexer      | 10                  |
+| 3rd     | Soulraker Handmaiden | 8     | Horde        | Ambusher   | 10                  |
+| 3rd     | Soulraker Praetorian | 7     | Horde        | Harrier    | 9                   |
+| 3rd     | Soulraker Hivequeen  | 9     | Leader       | -          | 44                  |
+| 4th     | Optacus              | 10    | Minion       | Artillery  | 12 for four minions |
+| 4th     | Tyburaki             | 10    | Minion       | Harrier    | 12 for four minions |
+| 4th     | Unguloid             | 10    | Minion       | Brute      | 12 for four minions |
+| 4th     | Izyak                | 10    | Horde        | Controller | 12                  |
+| 4th     | Vicisitator          | 10    | Horde        | Harrier    | 12                  |
+| 4th     | Aurumvas             | 10    | Leader       | -          | 48                  |
 
-### Tactical Warriors
+### Mortal Alliances
 
-Chimeras have many ways to keep themselves and their charges from being cornered. The lion head snaps up enemies in massive jaws and hurls them away, the ram head pummels them to the ground, and the dragon head bathes them in fire. The three heads crying out together can shake even the most stalwart warriors.
+Demons form temporary alliances with evil mortals in exchange for souls to consume. Such alliances create carnage with alarming efficiency, though they inevitably collapse when the demons decide to devour their foolish partners. The only creature who can truly keep a demon in line is a more powerful demon.
 
-### One Being, Three Heads
+### Soul Reavers
 
-Unlike some other multiheaded creatures, a chimera possesses a single unified mind. Their heads work together, never snapping at one another over food, favors, or personality conflicts. The heads often express the chimera's emotions in unison, braying together in times of battle or purring all at once to show affection.
+Demons feast not on food or liquids, but on souls. Souls fuel their anarchic powers, and while a demon is starved for souls, they can scarcely think. Whenever a demon kills a creature who has a soul, they consume that soul and keep its energy within their body. A demon can then burn that soul energy to enact their most devastating abilities.
 
-######### Chimera Malice
+### Lethe
 
-At the start of a chimera's turn, you can spend Malice to activate one of the following features.
+When a demon's soul energy begins to flag, they fall into a state known as lethe-a violent hunger wherein they can only lash out in a desperate search for sustenance. Demons who have fallen into lethe become single-minded and violent, seeking only to consume.
 
-> ⭐️ **Defensive Snapping (3 Malice)**
-> 
-> The chimera takes up a defensive stance. Until the start of their next turn, the chimera can make a free strike against each enemy who comes within 2 squares of them.
+### Demonic Hierarchy
 
-> ☠️ **Solo Action (5 Malice)** 
-> 
-> The chimera takes an additional main action on their turn. They can use this feature even if they are dazed.
+Mortal scholars have classified demons into ten categories, each increasingly more powerful. Though demons don't use these classifications themselves, this system reflects their hierarchy, as stronger demons bully the weak into service.
 
-> 🔳 **Unstable Terrain (5 Malice)**
-> 
-> The chimera shakes the ground, causing an eruption of loose rocks and debris that creates three size 2 stone objects anywhere on the encounter map. Each creature adjacent to one or more objects when they appear who has A < 2 takes 5 damage.
+Each time a demon consumes a soul, there's a chance they might evolve into a more powerful demon. The evolution from one category to the next can be instantaneous, or it can take years. This inconsistency has led to much scholarly debate on whether all souls are equal, or whether demonic evolution is aided by the consumption of souls that are especially corrupt-or heroic.
 
-> 🌀 **Ashen Clouds (7 Malice)**
-> 
-> Until the start of the chimera's next turn, all areas of the encounter map are shrouded in a thick cloud of ash. All creatures and objects on the map have concealment that the chimera ignores. Additionally, each enemy in the cloud who has I < 1 has line of effect only within 3 squares. The potency of this feature increases by 1 each time it's used.
-   
-####### Chimera
+### Demon Languages
 
-|     Beast, Chimera     |          -          |      Level 3       |         Solo          |        EV 60         |
-|:----------------------:|:-------------------:|:------------------:|:---------------------:|:--------------------:|
-|     **2**<br>Size      |   **10**<br>Speed   | **300**<br>Stamina |  **1**<br>Stability   | **6**<br>Free Strike |
-| **Fire 6**<br>Immunity | **Fly**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
-|    **+3**<br>Might     |  **+2**<br>Agility  |  **-2**<br>Reason  |  **+1**<br>Intuition  |  **+0**<br>Presence  |
+Lower categories of demons speak Proto-Ctholl. As demons evolve and reach category 3 or higher, their speech turns into proper Tholl.
 
-> ☠️ **Solo Monster**
-> 
-> **End Effect:** At the end of each of their turns, the chimera can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
-> 
-> **Solo Turns:** The chimera can take two turns each round. They can't take turns consecutively.
+### Demons-1st Echelon
 
-> ⭐️ **Volant**
-> 
-> When the chimera makes a creature winded or reduces them to 0 Stamina, they can move their speed toward an enemy.
+A number of lesser demons have been identified across categories 1 to 3.
 
-> 🗡 **Bite (Signature Ability)**
-> 
-> | **Melee, Strike, Weapon** |                 **Main action** |
-> |---------------------------|--------------------------------:|
-> | **📏 Melee 2**            | **🎯 Two creatures or objects** |
-> 
-> **Power Roll + 3:**
-> 
-> - **≤11:** 9 damage
-> - **12-16:** 13 damage
-> - **17+:** 16 damage
-> 
-> **Effect:** This strike deals an extra 3 damage if it gains an edge or has a double edge.
+**Pitlings** resemble rodents or insects with gleaming green eyes and terrible body odor, and disgorge a viscous, toxic phlegm.
 
-> 🔳 **Dragon's Eruption (5 Malice)**
-> 
-> | **Area, Magic, Ranged** |               **Main action** |
-> |-------------------------|------------------------------:|
-> | **📏 3 cube within 10** | **🎯 Each enemy in the area** |
-> 
-> **Power Roll + 3:**
-> 
-> - **≤11:** 3 fire damage; A < 1 3 fire damage
-> - **12-16:** 5 fire damage; A < 2 5 fire damage
-> - **17+:** 7 fire damage; A < 3 7 fire damage
+**Ensnarers** are the result of pitlings getting hold of an unfortunate soul. A pitling in the process of digesting the soul of a creature has that soul physically bore through their head to become a fanged appendage. Mouths form across the creature's body, each attacking with long, barbed tongues.
 
-> ❇️ **Roar (5 Malice)**
-> 
-> | **Area, Magic** |               **Main action** |
-> |-----------------|------------------------------:|
-> | **📏 5 burst**  | **🎯 Each enemy in the area** |
-> 
-> **Power Roll + 3:**
-> 
-> - **≤11:** 4 psychic damage
-> - **12-16:** 8 psychic damage; I < 2 frightened (save ends)
-> - **17+:** 10 psychic damage; I < 3 frightened (save ends)
+**Frenzieds** are similar to ensnarers, but their transformation into a true demon is more advanced. This results in a fast and vicious creature full of energy and hungry for more souls.
 
-> 🗡 **Lion's Toss**
-> 
-> | **Melee, Weapon** |                  **Maneuver** |
-> |-------------------|------------------------------:|
-> | **📏 Melee 2**    | **🎯 One creature or object** |
->                      
-> **Power Roll + 3:**
-> 
-> - **≤11:** Vertical push 2
-> - **12-16:** Vertical push 3
-> - **17+:** Vertical push 5
+**Bendraks** (BEN-drax) appear as an amalgamation of flesh and the shards of broken mirrors, which they use to distract and confuse their foes. A bendrak can divert an enemy's attack to another enemy, and can hide themselves or allies behind dazzling reflections.
 
-> ❗️ **Ram's Defiance**
-> 
-> | **Melee, Strike, Weapon** |           **Triggered action** |
-> |---------------------------|-------------------------------:|
-> | **📏 Melee 2**            | **🎯 The triggering creature** |
-> 
-> **Trigger:** A creature makes a strike against the chimera and obtains a tier 1 outcome.
-> 
-> **Effect:** The chimera shifts up to 5 squares. If they end this shift within distance of the target, make a power roll.
-> 
-> **Power Roll + 3**
-> 
-> - **≤11:** 6 damage; M < 1 slowed (save ends)
-> - **12-16:** 8 damage; prone; M < 2 slowed (save ends)
-> - **17+:** 10 damage; prone; M < 3 slowed (save ends)
+**Mucerons** (MIU-sur-onz) are the result of an ensnarer going through repeated demon evolutions to become a brutish creature. They are covered in multiple mouths that shoot out barbed tongues, tearing at enemies as they are dragged out of position.
 
-> ☠️ **Overture of Destruction (Villain Action 1)**
-> 
-> | **Area**       |                         **-** |
-> |----------------|------------------------------:|
-> | **📏 1 burst** | **🎯 Each enemy in the area** |
-> 
-> **Effect:** The chimera can use Bite and Lion's Toss against each target.
+**Remasches** (REE-mash-iz) have physical forms blended with the nature of the wastes where they dwell. A remasch teleports around the battlefield, inflicting chaos on their enemies directly or through the minions they control. These demons are rumored to be the initial source of the teachings of all shadows through the College of Black Ash.
 
-> ☠️ **Fire Solo (Villain Action 2)**
-> 
-> | **-**       |       **-** |
-> |-------------|------------:|
-> | **📏 Self** | **🎯 Self** |
-> 
-> **Effect:** The chimera uses Dragon's Eruption and Roar without spending Malice.
+**Ruinants** (rew-in-ANSE) are possessed of glowing eyes and tendrilringed maws, their bodies covered in inflamed scars and their breath coming as a sickening wheeze. A ruinant can inflict fresh wounds and burns on their victims in a pattern mirroring those on the demon's own body.
 
-> ☠️ **Chorus of Destruction (Villain Action 3)**
+**Torlases** (TORR-lahs-iz) are piecemeal abominations whose physical forms don't obey the mundane laws of geometry. They control the battlefield by using living flesh and whipping allies and enemies alike into advantageous position.
+
+**Chorogaunts** (cor-roh-GAWNTS) are terrifying demon leaders. Each is an amalgamation of several demon bodies formed into a mobile musical instrument. Several heads are arranged into a chorus embedded in the demon's chest, and their ribs are upturned into a fleshy pipe organ. Their attacks entrance and confuse enemies, making them more vulnerable to other demons.
+
+######### Demon Malice (Level 1+ Malice Features)
+
+At the start of any demon's turn, you can spend Malice to activate one of the following features.
+
+> ⭐️ **Soulburn (3 Malice)**
 > 
-> | **-**       |       **-** |
-> |-------------|------------:|
-> | **📏 Self** | **🎯 Self** |
+> Each demon acting this turn has a double edge on abilities.
+
+> 🌀 **Abyssal Evolution (7 Malice)**
 > 
-> **Effect:** The chimera uses Roar, then shifts up to their speed and can make a free strike against each enemy who comes adjacent to them during the shift. When the chimera ends this shift, they use Dragon's Eruption. The use of these abilities as part of this villain action costs no Malice.
+> A demon minion of your choice transforms into a non-minion horde demon of the same level.
+
+> 🔳 **Abyssal Rift (7 Malice)**
+> 
+> Two size 2 rifts to the Abyssal Wasteland appear at locations of your choice. Any demon can use an abyssal rift as a portal to another abyssal rift in the encounter, moving into any space in one rift and appearing immediately in any unoccupied space in the other rift. A non-demon who enters a rift for the first time in a round or starts their turn there takes corruption damage equal to the level of the highest-level demon on the encounter map. An abyssal rift is an immovable object that has 25 Stamina, damage immunity 2, and holy weakness 5. The rift closes when there are no demons remaining on the encounter map. Additionally, a creature who has the Magic or Psionics skill can make a Reason test or Intuition test as a maneuver while adjacent to a rift to destabilize and close it.
+> 
+> - **≤11:** The rift remains open and regains 5 Stamina.
+> - **12-16:** The rift remains open.
+> - **17+:** The rift closes.
+
+####### Devil Clerk
+
+|    Devil, Infernal     |         -         |      Level 5      |                  Minion Brute                  | EV 7 for four minions |
+|:----------------------:|:-----------------:|:-----------------:|:----------------------------------------------:|:---------------------:|
+|     **1M**<br>Size     |  **6**<br>Speed   | **10**<br>Stamina |               **0**<br>Stability               | **3**<br>Free Strike  |
+| **Fire 5**<br>Immunity | **-**<br>Movement |         -         | **+2 damage bonus to strikes**<br>With Captain |  **-**<br>Weaknesses  |
+|    **+3**<br>Might     | **+0**<br>Agility | **+1**<br>Reason  |              **+1**<br>Intuition               |  **+2**<br>Presence   |
+
+m Quill Pushing 2d10 + 3 Signature Ability
+Melee, Strike, Weapon Main action
+e Melee 1 x One creature or object per minion
+1 3 damage; push 1
+2 6 damage; push 2
+3 7 damage; push 3
+Effect: Any target adjacent to two or more clerks is taunted until the
+end of their next turn.
+t True Name
+If a creature within 10 squares speaks the clerk’s true name, the
+clerk loses their fire immunity and any nondamaging effects of
+their signature ability until the end of the encounter.
+
+
+
+
+
+
+
+
+
+
+
+
