@@ -1,12 +1,13 @@
 global:
   source: "mcdm.heroes.v1"
 sections:
+  # These abilities exist on both the censor and conduit so their ids in html are `-3` instead of `-1`
   - source: mcdm.heroes.v1
     header_path: conduit/1st-level-features/faithful-friend-3
     item_name: Faithful Friend
     item_id: faithful-friend
-    type: feature/trait/conduit/1st-level-feature
-    feature_type: trait
+    type: feature/ability/conduit/1st-level-feature
+    feature_type: ability
     file_dpath: Abilities/Conduit/1st-Level Features
     xpath: //section[@id='conduit' or (starts-with(@id, concat('conduit', '-')) and
       not(translate(substring-after(@id, concat('conduit', '-')), '0123456789', '')))]//section[@id='st-level-features'
@@ -15,11 +16,24 @@ sections:
       or (starts-with(@id, concat('faithful-friend-3', '-')) and not(translate(substring-after(@id,
       concat('faithful-friend-3', '-')), '0123456789', '')))]
   - source: mcdm.heroes.v1
+    header_path: conduit/1st-level-features/grave-speech-3
+    item_name: Grave Speech
+    item_id: grave-speech
+    type: feature/ability/conduit/1st-level-feature
+    feature_type: ability
+    file_dpath: Abilities/Conduit/1st-Level Features
+    xpath: //section[@id='conduit' or (starts-with(@id, concat('conduit', '-')) and
+      not(translate(substring-after(@id, concat('conduit', '-')), '0123456789', '')))]//section[@id='st-level-features'
+      or (starts-with(@id, concat('st-level-features', '-')) and not(translate(substring-after(@id,
+      concat('st-level-features', '-')), '0123456789', '')))]//section[@id='grave-speech-3'
+      or (starts-with(@id, concat('grave-speech-3', '-')) and not(translate(substring-after(@id,
+      concat('grave-speech-3', '-')), '0123456789', '')))]
+  - source: mcdm.heroes.v1
     header_path: conduit/1st-level-features/hands-of-the-maker-3
     item_name: Hands of the Maker
     item_id: hands-of-the-maker
-    type: feature/trait/conduit/1st-level-feature
-    feature_type: trait
+    type: feature/ability/conduit/1st-level-feature
+    feature_type: ability
     file_dpath: Abilities/Conduit/1st-Level Features
     xpath: //section[@id='conduit' or (starts-with(@id, concat('conduit', '-')) and
       not(translate(substring-after(@id, concat('conduit', '-')), '0123456789', '')))]//section[@id='st-level-features'
@@ -31,8 +45,8 @@ sections:
     header_path: conduit/4th-level-features/blessing-of-secrets-3
     item_name: Blessing of Secrets
     item_id: blessing-of-secrets
-    type: feature/trait/conduit/4th-level-feature
-    feature_type: trait
+    type: feature/ability/conduit/4th-level-feature
+    feature_type: ability
     file_dpath: Abilities/Conduit/4th-Level Features
     xpath: //section[@id='conduit' or (starts-with(@id, concat('conduit', '-')) and
       not(translate(substring-after(@id, concat('conduit', '-')), '0123456789', '')))]//section[@id='th-level-features'

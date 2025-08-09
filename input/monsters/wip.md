@@ -1,159 +1,311 @@
-## Bredbeddle
+# Bugbears
 
-In their true forms, bredbeddles are ogre-sized headless giants. Forever searching for their missing heads, they are drawn to populous lands, where they decapitate passers-by and magically adopt their victims' forms.
+Bugbears are the bu'gath in the Khelt language, or "the bearers of the great fear." Modern bugbears come from early goblins who first stepped into the wode centuries ago. Fey magic twisted their bodies, making them grow imposingly tall and hairy while removing all sound from their footsteps.
 
-Although bredbeddles have no traditional sensory organs of their own, they are keenly aware of their surroundings. Some lurk along dark country lanes in their monstrous true forms. Others walk disguised among crowds, dropping their facade only long enough to waylay a stranger and lop off their head.
+Many bugbears become legendary hunters and mercenaries. Many more become reclusive and hide their whole lives in the shadows. A rare few dive into their magic potential and become living nightmares who haunt the wode.
 
-### Immortal Wanderers
+### Thrown Into the Fray
 
-Bredbeddles don't age, and if they are slain, their bodies reform a few days later. Long ago, bredbeddles were giants who stood high among the nobility of giant kind. But when they declared themselves rulers of all giant kind, their kin thwarted the coup and beheaded the bredbeddles. Now these fallen nobles search the world for their missing heads, each wielding the axe that decapitated them. Tales tell of how their heads are kept for safekeeping in a fire giant's cellar to be returned after an indeterminate period of good behavior, which no bredbeddle has exhibited thus far.
+Bugbears seldom seek the settlements of others for trade or allyship, and are known to tenaciously defend their own homes or their neighbors' homes. This has given them a reputation of being covert, insurgent warriors, when in reality, bugbears simply fight to maintain their quiet solitude.
 
-### Green with Frenzy
+When bugbears are compelled to take action, they take to the high ground and use their powerful arms to throw anything they can down at the problem. This includes daggers, heavy iron balls, each other, and sometimes throwing the enemy at the enemy.
 
-The longer a bredbeddle goes without a head, the more twisted and desperate their power grows. Their desire to be whole stretches out of their body in the form of shadowy dark-green ribbons, wrapping around and clinging to every surface they spill onto.
+### Goblin Bond
 
-Travelers warn one another of roads rumored to be haunted by "wild green knights," often avoiding these routes for months. No journey is worth losing your head over.
+Bugbears value their shared origin with goblins and hobgoblins despite the three lines branching apart so dramatically. They think of themselves as goblinoids first and humanoids second, with that relationship providing a sense of common ground when cloistered bugbears come out of isolation.
 
-### Bredbeddle Languages
+######### Bugbear Malice
 
-When a bredbeddle communicates, they typically use High Kuric or the languages that their head's previous owner knew. A bredbeddle who has taken multiple heads over their lifetime most likely knows Caelian as well.
+At the start of any bugbear's turn, you can spend Malice to activate one of the following features.
 
-######### Bredbeddle Malice
+> ⭐️ **Goblin Malice Features (3-7 Malice)** 
+> 
+> The bugbear activates a Malice Feature available to goblins.
 
-At the start of a bredbeddle's turn, you can spend Malice to activate one of the following features.
+> 👤 **Grab Iron Ball (3+ Malice)**
+> 
+> For every 3 Malice spent, one non-minion bugbear acting this turn grabs an iron ball and can use a maneuver to throw it at a creature within 5 squares of them. The creature takes damage equal to 8 - the number of squares the iron ball was thrown, and if they have M < 1, they are slowed (save ends).
 
-> ⭐️ **Engreen (3 Malice)** 
+> 👤 **Grab Javelin (5+ Malice)** 
 > 
-> The bredbeddle's axe lengthens and turns a ghastly green, granting a +1 bonus to the distance of the bredbeddle's melee strikes and the dimensions of their burst area abilities until the end of their turn.
+> For every 5 Malice spent, one non-minion bugbear acting this turn grabs a javelin and can use a maneuver to throw it at a creature within 5 squares of them. The creature takes damage equal to 12 - the number of squares the javelin was thrown, and if they have M < 1, they are bleeding (save ends). While a creature is bleeding this way, any ally of the bugbear within 2 squares of them can use a free maneuver to pull the bleeding creature up to 2 squares.
 
-> 🔳 **Shadow Stockade (5 Malice)**
+> 🌀 **Show Them the Great Fear (10 Malice)**
 > 
-> A ghostly size 1L stockade seeps out from under the bredbeddle's feet to fill an unoccupied square within 10 squares. When a size 1L or smaller enemy enters the stockade's square, they are restrained (save ends). When a restrained creature is no longer restrained, the stockade fades away. At the start of each of the bredbeddle's turns, they can slide an active stockade and any creature in it up to 5 squares.
+> A bugbear infuses the encounter map with bu'gathic magic. Until the end of the encounter, all bugbears and allies have their speed doubled and can automatically climb at full speed while moving. Additionally, if the target of any bugbear or ally's strike has I < 1, the target is also frightened (save ends) and must move their speed in a straight line away from the creature who made the strike.
 
-> ☠️ **Solo Action (5 Malice)**
-> 
-> The bredbeddle takes an additional main action on their turn. They can use this feature even if they are dazed.
+### Bu'gathic Magic
 
-> 🌀 **Green Phantom 7 Malice** 
-> 
-> A phantom second bredbeddle phases into view, appearing in an unoccupied space anywhere on the encounter map, then vanishing at the end of the round. The phantom bredbeddle shares the original bredbeddle's statistics but has 24 Stamina, corruption immunity 10, and can fly. The phantom bredbeddle can take one turn and use any of the bredbeddle's abilities except for villain actions. Only one phantom bredbeddle can be active at a time.
+Most bugbears have some control over their inherent magic, enabling them to perform a trick or two. Dedicated bugbear channelers have learned to evoke powerful shadow and rot magic. These mages can reshape the appearance of the world around them and temporarily alter their foes as defensive tactics, providing ample warning to enemies that they are capable of far worse if those enemies push onward. Bu'gathic magic also enables bugbears to hide their settlements behind shadowy veils within canyons and impenetrable swamplands.
 
-####### Bredbeddle
+### Bugbear Languages
 
-| Bredbeddle, Giant |         -         |      Level 3       |         Solo          |        EV 60         |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|   **2**<br>Size   |  **5**<br>Speed   | **300**<br>Stamina |  **4**<br>Stability   | **6**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
-|  **+3**<br>Might  | **+0**<br>Agility |  **-3**<br>Reason  |  **+2**<br>Intuition  |  **+2**<br>Presence  |
+Most bugbears speak Caelian, Khelt, and Szetch.
 
-> ☠️ **Solo Monster**
-> 
-> **End Effect:** At the end of each of their turns, the bredbeddle can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
-> 
-> **Solo Turns:** The bredbeddle can take two turns each round. They can't take turns consecutively.
+####### Bugbear Channeler
 
-> ⭐️ **Heady or Not**
-> 
-> While headless, the bredbeddle can move into a space containing a severed head and attach it to their neck as a main action. Doing so physically transforms the bredbeddle, who takes on the appearance, size, weight, and stability of the head's original owner. If the bredbeddle takes the form of a creature of size 1L or smaller, the distance of their melee and burst area abilities decreases by 1. These effects last until the bredbeddle is killed or beheaded, or until the head falls off after 24 hours. A head that falls off this way can no longer be attached to this bredbeddle.
-> 
-> A creature must succeed on a **hard Might test** made as a maneuver to rip a head off the bredbeddle. If they fail, the bredbeddle can make a free strike against them.
+| Bugbear, Fey, Goblin, Humanoid |         -         |      Level 2      |   Elite Controller    |        EV 16         |
+|:------------------------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
+|         **1L**<br>Size         |  **5**<br>Speed   | **60**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
+|       **-**<br>Immunity        | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|        **+1**<br>Might         | **+1**<br>Agility | **+2**<br>Reason  |  **+2**<br>Intuition  |  **+2**<br>Presence  |
 
-> ⭐️ **Resilient Form**
+> 🏹 **Shadow Drag (Signature Ability)**
 > 
-> The bredbeddle can't be physically transformed in any way except by their Heady or Not trait.
+> | **Magic, Ranged. Strike** |                 **Main Action** |
+> |---------------------------|--------------------------------:|
+> | **📏 Ranged 8**           | **🎯 Two creatures or objects** |
+> 
+> **Power Roll + 2:**
+> 
+> - **≤11:** 7 damage; pull 2
+> - **12-16:** 10 damage; pull 3
+> - **17+:** 13 damage; pull 4
+> 
+> **Effect:** Each target must be on the ground, and each square a target is pulled through is difficult terrain for enemies.
 
-> ❇️ **Executioner's Swing (Signature Ability)**
+> ❇️ Blistering Element
 > 
-> | **Area, Weapon** |               **Main action** |
-> |------------------|------------------------------:|
-> | **📏 2 burst**   | **🎯 Each enemy in the area** |
-> 
-> **Power Roll + 3:**
-> 
-> - **≤11:** 2 damage; A < 1 bleeding (save ends)
-> - **12-16:** 4 damage; A < 2 bleeding (save ends)
-> - **17+:** 5 damage; A < 3 bleeding (save ends); M < 2 dazed (save ends)
-> 
-> **Malice:** The bredbeddle shifts up to 2 squares, and can target additional enemies who come within distance of this ability during the shift.
-
-> 🗡 **Lop (3 Malice)**
-> 
-> | **Magic, Melee, Strike, Weapon** |     **Main action** |
-> |----------------------------------|--------------------:|
-> | **📏 Melee 2**                   | **🎯 One creature** |
->            
-> **Power Roll + 3:**
-> 
-> - **≤11:** 9 damage; bleeding (save ends); or if the target has M < 1 they are beheaded
-> - **12-16:** 13 damage; bleeding (save ends); or if the target has M < 2 they are beheaded 
-> - **17+:** 16 damage; bleeding (save ends); or if the target has M < 3 they are beheaded
-> 
-> **Effect:** A beheaded target has their head fall into an unoccupied square adjacent to the bredbeddle, but they remain alive. While beheaded this way, the target is bleeding and has line of effect only to adjacent squares. The beheaded target can survive without their head for 24 hours, and can reattach their head as a maneuver by entering its square. A target who remains beheaded for 24 hours dies.
-
-> 👤 **Scramble**
-> 
-> | **-**       | **Maneuver** |
-> |-------------|-------------:|
-> | **📏 Self** |  **🎯 Self** |
-> 
-> **Effect:** While the bredbeddle is headless, they shift up to their speed. Each time a creature comes adjacent to the bredbeddle during the shift, the bredbeddle can push that creature 1 square. Each square the bredbeddle exits during the shift is difficult terrain.
-
-> 🏹 **Headway (5 Malice)**
-> 
-> | **Ranged, Strike, Weapon** |                  **Maneuver** |
-> |----------------------------|------------------------------:|
-> | **📏 Ranged 20**           | **🎯 One creature or object** |
-> 
-> **Effect:** The bredbeddle must have a head in their possession (attached to them or not), which they throw at the target. If the head was attached, the bredbeddle is left headless.
-> 
-> **Power Roll + 3:**
-> 
-> - **≤11:** 9 damage; M < 1 dazed (save ends)
-> - **12-16:** 13 damage; prone; M < 2 dazed (save ends)
-> - **17+:** 16 damage; prone; M < 3 dazed (save ends)
-
-> ❗️ **Envious Imitation (2 Malice)**
-> 
-> | **Magic**   | **Triggered action** |
-> |-------------|---------------------:|
-> | **📏 Self** |          **🎯 Self** |
-> 
-> **Trigger:** A creature targets the bredbeddle with a ranged strike.
-> 
-> **Effect:** The bredbeddle uses the same ability against the triggering creature after the triggering strike is resolved, using that creature's bonus to any power rolls they make.
-
-> ☠️ **Turn Green (Villain Action 1)**
-> 
-> | **Area, Magic** |                         **-** |
+> | **Area, Magic** |               **Main Action** |
 > |-----------------|------------------------------:|
 > | **📏 3 burst**  | **🎯 Each enemy in the area** |
 > 
-> **Power Roll + 3:**
+> **Effect:** The channeler chooses one of the following damage types: acid, cold, corruption, fire, or poison.
 > 
-> - **≤11:** P < 1 the target turns green (save ends)
-> - **12-16:** P < 2 the target turns green (save ends)
-> - **17+:** P < 3 the target turns green until the end of the encounter 
+> **Power Roll + 2:**
 > 
-> **Effect:** Green shadows crawl out from under the bredbeddle's feet and turn each target green. The bredbeddle has a double edge on power rolls against any target turned green this way.
+> - **≤11:** 2 damage; M < 0 bleeding (save ends)
+> - **12-16:** 3 damage; M < 1 bleeding (save ends)
+> - **17+:** 4 damage; M < 2 bleeding (save ends)
 
-> ☠️ **Challenge (Villain Action 2)**
+> 🏹 **Twist Shape (5 Malice)**
 > 
-> | **Ranged**      |            **-** |
-> |-----------------|-----------------:|
-> | **📏 Ranged 5** | **🎯 One enemy** |
+> | **Magic, Ranged, Strike** |     **Main Action** |
+> |---------------------------|--------------------:|
+> | **📏 Ranged 5**           | **🎯 One creature** |
 > 
-> **Effect:** The bredbeddle points at the target and issues them a challenge. If the target refuses, they turn green until the end of the encounter (see Turn Green). If the target accepts the challenge, the bredbeddle shifts adjacent to the target, who makes a **Might test** with no additional modifiers.
+> - **≤11:** 5 corruption damage; P < 0 slowed (save ends)
+> - **12-16:** 8 corruption damage; P < 1 the target is shapechanged (save ends)
+> - **17+:** 11 corruption damage; P < 2 the target is shapechanged (save ends)
 > 
-> - **≤11:** The target is beheaded (see Lop).
-> - **12-16:** The target makes the test again.
-> - **17+:** The target can choose to deal 40 damage to the bredbeddle or remove the bredbeddle's head.
+> **Effect:** A shapechanged creature is slowed and has fire weakness 10 as their limbs stretch and their skin becomes paper thin.
 
-> ☠️ **Headlam Rampage (Villain Action 3)**
+> 🗡 Throw
 > 
-> | **Melee, Strike, Weapon** |                 **-** |
-> |---------------------------|----------------------:|
-> | **📏 Melee 2**            | **🎯 Four creatures** |
+> Melee, Strike Maneuver
+> e Melee 1 x One creature or object
 > 
-> - **≤11:** 6 damage; bleeding (save ends); or if the target has A < 1 they are beheaded (see Lop).
-> - **12-16:** 7 damage; bleeding (save ends); or if the target has A < 2 they are beheaded
-> - **17+:** 8 damage; bleeding (save ends); or if the target has A < 3 they are beheaded
+> | **Melee, Strike** |                  **Maneuver** |
+> |-------------------|------------------------------:|
+> | **📏 Melee 1**    | **🎯 One creature or object** |
+> 
+> **Special:** The target must be grabbed by the channeler.
+> 
+> **Effect:** The target is vertical pushed up to 3 squares. An ally doesn't take damage from being force moved this way.
+
+> ❗️ **Catcher**
+> 
+> | **Melee**      |                **Free triggered action** |
+> |----------------|-----------------------------------------:|
+> | **📏 Melee 1** | **🎯 The triggering creature or object** |
+>  
+> **Trigger:** A size 1 creature or object is force moved within distance, or a size 1 ally willingly moves within distance.
+> 
+> **Effect:** The target is grabbed by the channeler.
+
+> ❗️ **Shadow Veil**
+> 
+> | **Magic, Ranged** |       **Triggered action** |
+> |-------------------|---------------------------:|
+> | **📏 Ranged 5**   | **🎯 The triggering ally** |
+> 
+> **Trigger:** An ally within distance takes damage.
+> 
+> **Effect:** The target is wrapped in shadow and halves the damage. The target can't be targeted by strikes until the start of their next turn.
+
+####### Bugbear Commander
+
+| Bugbear, Fey, Goblin, Humanoid |         -         |      Level 2      |     Elite Support     |        EV 16         |
+|:------------------------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
+|         **1L**<br>Size         |  **5**<br>Speed   | **80**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
+|       **-**<br>Immunity        | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|        **+2**<br>Might         | **+1**<br>Agility | **+2**<br>Reason  |  **+0**<br>Intuition  |  **+0**<br>Presence  |
+
+> 🗡 **Inspiring Swordplay (Signature Ability)**
+> 
+> | **Melee, Strike, Weapon** |                 **Main action** |
+> |---------------------------|--------------------------------:|
+> | **📏 Melee 1**            | **🎯 Two creatures or objects** |
+> 
+> **Power Roll + 2:**
+> 
+> - **≤11:** 7 damage
+> - **12-16:** 10 damage
+> - **17+:** 13 damage; one target is grabbed
+> 
+> **Effect:** One ally within 5 squares of the commander gains an edge on their next strike until the start of the commander's next turn.
+
+> 🏹 **You Next!**
+> 
+> | **Ranged**      | **Main Action** |
+> |-----------------|----------------:|
+> | **📏 Ranged 8** | **🎯 One ally** |
+> 
+> **Effect:** The target moves up to their speed and uses a signature ability.
+
+> ❇️ **Fall Back! (5 Malice)**
+> 
+> | **Area**       |              **Main Action** |
+> |----------------|-----------------------------:|
+> | **📏 5 burst** | **🎯 Each ally in the area** |
+> 
+> **Effect:** Each target shifts up to their speed, then can use the Throw maneuver.
+
+> 🗡 **Throw**
+> 
+> | **Melee, Strike** |                  **Maneuver** |
+> |-------------------|------------------------------:|
+> | **📏 Melee 1**    | **🎯 One creature or object** |
+> 
+> **Special:** The target must be grabbed by the commander.
+> 
+> **Effect:** The target is vertical pushed up to 4 squares. An ally doesn’t take damage from being force moved this way.
+
+> ❗️ **Catcher**
+> 
+> | **Melee**      |                **Free triggered action** |
+> |----------------|-----------------------------------------:|
+> | **📏 Melee 1** | **🎯 The triggering creature or object** |
+> 
+> **Trigger:** A size 1 creature or object is force moved within distance, or a size 1 ally willingly moves within distance.
+> 
+> **Effect:** The target is grabbed by the commander.
+
+> ⭐️ **The Commander's Watching**
+> 
+> Any ally who has line of effect to the commander can end one condition on themself at the start of each of their turns.
+
+####### Bugbear Roughneck
+
+| Bugbear, Fey, Goblin, Humanoid |         -         |      Level 2       |      Elite Brute      |        EV 16         |
+|:------------------------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
+|         **1L**<br>Size         |  **6**<br>Speed   | **109**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
+|       **-**<br>Immunity        | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+|        **+2**<br>Might         | **+2**<br>Agility |  **+0**<br>Reason  |  **+0**<br>Intuition  |  **+0**<br>Presence  |
+
+Haymaker 2d10 + 2 Signature Ability
+Melee, Strike, Weapon Main action
+e Melee 1 x Two creatures or objects
+1 7 damage
+2 11 damage; one target is grabbed;
+one target is pushed up to 2 squares
+3 14 damage; one target is grabbed;
+one target is vertical pushed up to 3 squares
+5 Malice: The ability takes the Area keyword and loses the Strike
+keyword, its distance becomes a 1 burst, and it targets each enemy
+in the area.
+m Leaping Fury 2d10 + 2
+Melee, Strike, Weapon Main action
+e Melee 1 x One creature or object
+1 8 damage; m<1] prone
+2 13 damage; m<2] prone
+3 16 damage; m<3] prone
+Effect: The roughneck can jump up to 5 squares to an unoccupied
+space within distance of the target before making this strike.
+m Drag Through Hell 3 Malice
+Melee Maneuver
+e Melee 1 x One creature or object
+Special: The target must be grabbed by the roughneck.
+Effect: The roughneck moves up to their speed across the ground,
+dragging the target with them. The target takes 2 damage for each
+square they were dragged through. When this movement ends, the
+target is no longer grabbed and falls prone. Each square the target was
+dragged through is difficult terrain for enemies.
+m Throw
+Melee, Strike Maneuver
+e Melee 1 x One creature or object
+Special: The target must be grabbed by the roughneck.
+Effect: The target is vertical pushed up to 5 squares. An ally doesn’t
+take damage from being force moved this way.
+! Catcher
+Melee Free triggered action
+e Melee 1 x The triggering creature or object
+Trigger: A size 1 creature or object is force moved within distance, or
+a size 1 ally willingly moves within distance.
+Effect: The target is grabbed by the roughneck.
+! Flying Sawblade
+Melee Triggered action
+e Self x Self
+Trigger: The roughneck is vertical force moved by another creature.
+Effect: The roughneck uses Haymaker against a creature or object at
+any point during the forced movement, or after falling as a result of it.
+
+####### Bugbear Sneak
+
+| Bugbear, Fey, Goblin, Humanoid |         -         |      Level 2      |      Elite Ambusher   |        EV 16         |
+|:------------------------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
+|         **1L**<br>Size         |  **7**<br>Speed   | **80**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
+|       **-**<br>Immunity        | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|        **+2**<br>Might         | **+2**<br>Agility | **+0**<br>Reason  |  **+0**<br>Intuition  |  **+0**<br>Presence  |
+
+m Sucker Punch 2d10 + 2 Signature Ability
+Melee, Strike, Weapon Main action
+e Melee 1 x One creature or object
+1 8 damage; a<1] grabbed
+2 13 damage; a<2] grabbed
+3 16 damage; grabbed
+Effect: The target can’t use triggered actions until the start of the next
+round. Additionally, if the sneak started their turn hidden from the
+target, this ability deals an extra 4 damage.
+b Shadow Cloak 2d10 + 2 3 Malice
+Area Main action
+e 2 burst x Each enemy in the area
+1 2 damage; i<0] the sneak has concealment
+from the target (save ends)
+2 3 damage; i<1] the sneak has concealment
+from the target (save ends)
+3 4 damage; i<2] the sneak has concealment
+from the target (save ends)
+Effect: The sneak shifts up to their speed and can attempt to hide.
+r Carving Dagger 2d10 + 2
+Ranged, Strike, Weapon Main action
+e Ranged 8 x Two creatures or objects
+1 7 damage; m<0] bleeding (save ends)
+2 11 damage; m<1] bleeding (save ends)
+3 14 damage; m<2] bleeding (save ends)
+Effect: While bleeding this way, the target can’t hide from the sneak
+or their allies.
+m Throw
+Melee, Strike Maneuver
+e Melee 1 x One creature or object
+Special: The target must be grabbed by the sneak.
+Effect: The target is vertical pushed up to 4 squares. An ally doesn’t
+take damage from being force moved this way.
+! Catcher
+Melee Free triggered action
+e Melee 1 x The triggering creature or object
+Trigger: A size 1 creature or object is force moved within distance, or
+a size 1 ally willingly moves within distance.
+Effect: The target is grabbed by the sneak.
+! Clever Trick 1 Malice
+— Triggered action
+e Special x One enemy
+Trigger: The sneak is targeted by a strike.
+Effect: The sneak chooses one enemy within distance of the strike to
+become the target of the strike.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
