@@ -84,6 +84,8 @@ Most bugbears speak Caelian, Khelt, and Szetch.
 > |---------------------------|--------------------:|
 > | **📏 Ranged 5**           | **🎯 One creature** |
 > 
+> **Power Roll + 2:**
+>
 > - **≤11:** 5 corruption damage; P < 0 slowed (save ends)
 > - **12-16:** 8 corruption damage; P < 1 the target is shapechanged (save ends)
 > - **17+:** 11 corruption damage; P < 2 the target is shapechanged (save ends)
@@ -91,9 +93,6 @@ Most bugbears speak Caelian, Khelt, and Szetch.
 > **Effect:** A shapechanged creature is slowed and has fire weakness 10 as their limbs stretch and their skin becomes paper thin.
 
 > 🗡 Throw
-> 
-> Melee, Strike Maneuver
-> e Melee 1 x One creature or object
 > 
 > | **Melee, Strike** |                  **Maneuver** |
 > |-------------------|------------------------------:|
@@ -169,7 +168,7 @@ Most bugbears speak Caelian, Khelt, and Szetch.
 > 
 > **Special:** The target must be grabbed by the commander.
 > 
-> **Effect:** The target is vertical pushed up to 4 squares. An ally doesn’t take damage from being force moved this way.
+> **Effect:** The target is vertical pushed up to 4 squares. An ally doesn't take damage from being force moved this way.
 
 > ❗️ **Catcher**
 > 
@@ -193,107 +192,153 @@ Most bugbears speak Caelian, Khelt, and Szetch.
 |       **-**<br>Immunity        | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
 |        **+2**<br>Might         | **+2**<br>Agility |  **+0**<br>Reason  |  **+0**<br>Intuition  |  **+0**<br>Presence  |
 
-Haymaker 2d10 + 2 Signature Ability
-Melee, Strike, Weapon Main action
-e Melee 1 x Two creatures or objects
-1 7 damage
-2 11 damage; one target is grabbed;
-one target is pushed up to 2 squares
-3 14 damage; one target is grabbed;
-one target is vertical pushed up to 3 squares
-5 Malice: The ability takes the Area keyword and loses the Strike
-keyword, its distance becomes a 1 burst, and it targets each enemy
-in the area.
-m Leaping Fury 2d10 + 2
-Melee, Strike, Weapon Main action
-e Melee 1 x One creature or object
-1 8 damage; m<1] prone
-2 13 damage; m<2] prone
-3 16 damage; m<3] prone
-Effect: The roughneck can jump up to 5 squares to an unoccupied
-space within distance of the target before making this strike.
-m Drag Through Hell 3 Malice
-Melee Maneuver
-e Melee 1 x One creature or object
-Special: The target must be grabbed by the roughneck.
-Effect: The roughneck moves up to their speed across the ground,
-dragging the target with them. The target takes 2 damage for each
-square they were dragged through. When this movement ends, the
-target is no longer grabbed and falls prone. Each square the target was
-dragged through is difficult terrain for enemies.
-m Throw
-Melee, Strike Maneuver
-e Melee 1 x One creature or object
-Special: The target must be grabbed by the roughneck.
-Effect: The target is vertical pushed up to 5 squares. An ally doesn’t
-take damage from being force moved this way.
-! Catcher
-Melee Free triggered action
-e Melee 1 x The triggering creature or object
-Trigger: A size 1 creature or object is force moved within distance, or
-a size 1 ally willingly moves within distance.
-Effect: The target is grabbed by the roughneck.
-! Flying Sawblade
-Melee Triggered action
-e Self x Self
-Trigger: The roughneck is vertical force moved by another creature.
-Effect: The roughneck uses Haymaker against a creature or object at
-any point during the forced movement, or after falling as a result of it.
+> 🗡 **Haymaker (Signature Ability)**
+> 
+> | **Melee, Strike, Weapon** |                 **Main action** |
+> |---------------------------|--------------------------------:|
+> | **📏 Melee 1**            | **🎯 Two creatures or objects** |
+> 
+> **Power Roll + 2:**
+> 
+> - **≤11:** 7 damage
+> - **12-16:** 11 damage; one target is grabbed; one target is pushed up to 2 squares
+> - **17+:** 14 damage; one target is grabbed; one target is vertical pushed up to 3 squares
+> 
+> **5 Malice:** The ability takes the Area keyword and loses the Strike keyword, its distance becomes a 1 burst, and it targets each enemy in the area.
+
+> 🗡 **Leaping Fury**
+> 
+> | **Melee, Strike, Weapon** |               **Main action** |
+> |---------------------------|------------------------------:|
+> | **📏 Melee 1**            | **🎯 One creature or object** |
+>         
+> **Power Roll + 2:**
+> 
+> - **≤11:** 8 damage; M < 1 prone
+> - **12-16:** 13 damage; M < 2 prone
+> - **17+:** 16 damage; M < 3 prone
+> 
+> **Effect:** The roughneck can jump up to 5 squares to an unoccupied space within distance of the target before making this strike.
+
+> 🗡 **Drag Through Hell (3 Malice)**
+> 
+> | **Melee**      |                  **Maneuver** |
+> |----------------|------------------------------:|
+> | **📏 Melee 1** | **🎯 One creature or object** |
+> 
+> **Special:** The target must be grabbed by the roughneck.
+> 
+> **Effect:** The roughneck moves up to their speed across the ground, dragging the target with them. The target takes 2 damage for each square they were dragged through. When this movement ends, the target is no longer grabbed and falls prone. Each square the target was dragged through is difficult terrain for enemies.
+
+> 🗡 **Throw**
+> 
+> | **Melee, Strike** | **Maneuver** |
+> | --- | ---:|
+> | **📏 Melee 1** | **🎯 One creature or object** |
+> 
+> **Special:** The target must be grabbed by the roughneck.
+> 
+> **Effect:** The target is vertical pushed up to 5 squares. An ally doesn't take damage from being force moved this way.
+
+> ❗️ **Catcher**
+> 
+> | **Melee**      |                **Free triggered action** |
+> |----------------|-----------------------------------------:|
+> | **📏 Melee 1** | **🎯 The triggering creature or object** |
+> 
+> **Trigger:** A size 1 creature or object is force moved within distance, or a size 1 ally willingly moves within distance.
+> 
+> **Effect:** The target is grabbed by the roughneck.
+
+> ❗️ **Flying Sawblade**
+> 
+> | **Melee** | **Triggered action** |
+> | --- | ---:|
+> | **📏 Self** | **🎯 Self** |
+> 
+> **Trigger:** The roughneck is vertical force moved by another creature.
+> 
+> **Effect:** The roughneck uses Haymaker against a creature or object at any point during the forced movement, or after falling as a result of it.
 
 ####### Bugbear Sneak
 
-| Bugbear, Fey, Goblin, Humanoid |         -         |      Level 2      |      Elite Ambusher   |        EV 16         |
+| Bugbear, Fey, Goblin, Humanoid |         -         |      Level 2      |    Elite Ambusher     |        EV 16         |
 |:------------------------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
 |         **1L**<br>Size         |  **7**<br>Speed   | **80**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
 |       **-**<br>Immunity        | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
 |        **+2**<br>Might         | **+2**<br>Agility | **+0**<br>Reason  |  **+0**<br>Intuition  |  **+0**<br>Presence  |
 
-m Sucker Punch 2d10 + 2 Signature Ability
-Melee, Strike, Weapon Main action
-e Melee 1 x One creature or object
-1 8 damage; a<1] grabbed
-2 13 damage; a<2] grabbed
-3 16 damage; grabbed
-Effect: The target can’t use triggered actions until the start of the next
-round. Additionally, if the sneak started their turn hidden from the
-target, this ability deals an extra 4 damage.
+> 🗡 **Sucker Punch (Signature Ability)**
+> 
+> | **Melee, Strike, Weapon** |               **Main action** |
+> |---------------------------|------------------------------:|
+> | **📏 Melee 1**            | **🎯 One creature or object** |
+> 
+> **Power Roll + 2:**
+> 
+> - **≤11:** 8 damage; A < 1 grabbed
+> - **12-16:** 13 damage; A < 2 grabbed
+> - **17+:** 16 damage; grabbed
+> 
+> **Effect:** The target can't use triggered actions until the start of the next round. Additionally, if the sneak started their turn hidden from the target, this ability deals an extra 4 damage.
 
-b Shadow Cloak 2d10 + 2 3 Malice
-Area Main action
-e 2 burst x Each enemy in the area
-1 2 damage; i<0] the sneak has concealment
-from the target (save ends)
-2 3 damage; i<1] the sneak has concealment
-from the target (save ends)
-3 4 damage; i<2] the sneak has concealment
-from the target (save ends)
-Effect: The sneak shifts up to their speed and can attempt to hide.
-r Carving Dagger 2d10 + 2
-Ranged, Strike, Weapon Main action
-e Ranged 8 x Two creatures or objects
-1 7 damage; m<0] bleeding (save ends)
-2 11 damage; m<1] bleeding (save ends)
-3 14 damage; m<2] bleeding (save ends)
-Effect: While bleeding this way, the target can’t hide from the sneak
-or their allies.
-m Throw
-Melee, Strike Maneuver
-e Melee 1 x One creature or object
-Special: The target must be grabbed by the sneak.
-Effect: The target is vertical pushed up to 4 squares. An ally doesn’t
-take damage from being force moved this way.
-! Catcher
-Melee Free triggered action
-e Melee 1 x The triggering creature or object
-Trigger: A size 1 creature or object is force moved within distance, or
-a size 1 ally willingly moves within distance.
-Effect: The target is grabbed by the sneak.
-! Clever Trick 1 Malice
-— Triggered action
-e Special x One enemy
-Trigger: The sneak is targeted by a strike.
-Effect: The sneak chooses one enemy within distance of the strike to
-become the target of the strike.
+> ❇️ **Shadow Cloak (3 Malice)**
+> 
+> | **Area**       |               **Main action** |
+> |----------------|------------------------------:|
+> | **📏 2 burst** | **🎯 Each enemy in the area** |
+> 
+> **Power Roll + 2:**
+> 
+> - **≤11:** 2 damage; I < 0 the sneak has concealment from the target (save ends)
+> - **12-16:** 3 damage; I < 1 the sneak has concealment from the target (save ends)
+> - **17+:** 4 damage; I < 2 the sneak has concealment from the target (save ends)
+> 
+> **Effect:** The sneak shifts up to their speed and can attempt to hide.
+
+> 🏹 **Carving Dagger**
+> 
+> | **Ranged, Strike, Weapon** |                 **Main action** |
+> |----------------------------|--------------------------------:|
+> | **📏 Ranged 8**            | **🎯 Two creatures or objects** |
+> 
+> **Power Roll + 2:**
+> 
+> - **≤11:** 7 damage; M < 0 bleeding (save ends)
+> - **12-16:** 11 damage; M < 1 bleeding (save ends)
+> - **17+:** 14 damage; M < 2 bleeding (save ends)
+> 
+> **Effect:** While bleeding this way, the target can't hide from the sneak or their allies.
+
+> 🗡 **Throw**
+> 
+> | **Melee, Strike** |                  **Maneuver** |
+> |-------------------|------------------------------:|
+> | **📏 Melee 1**    | **🎯 One creature or object** |
+> 
+> **Special:** The target must be grabbed by the sneak.
+> 
+> **Effect:** The target is vertical pushed up to 4 squares. An ally doesn't take damage from being force moved this way.
+
+> ❗️ **Catcher**
+> 
+> | **Melee**      |                **Free triggered action** |
+> |----------------|-----------------------------------------:|
+> | **📏 Melee 1** | **🎯 The triggering creature or object** |
+> 
+> **Trigger:** A size 1 creature or object is force moved within distance, or a size 1 ally willingly moves within distance.
+> 
+> **Effect:** The target is grabbed by the sneak.
+
+> ❗️ **Clever Trick (1 Malice)**
+> 
+> | **-**          | **Triggered action** |
+> |----------------|---------------------:|
+> | **📏 Special** |     **🎯 One enemy** |
+> 
+> **Trigger:** The sneak is targeted by a strike.
+> 
+> **Effect:** The sneak chooses one enemy within distance of the strike to become the target of the strike.
 
 ####### Bugbear Knightmare
 
@@ -303,20 +348,27 @@ become the target of the strike.
 |       **-**<br>Immunity        | **-**<br>Movement |         -         | **Gain an edge on strikes**<br>With Captain |  **-**<br>Weaknesses   |
 |        **+4**<br>Might         | **+3**<br>Agility | **+1**<br>Reason  |             **+1**<br>Intuition             |   **+4**<br>Presence   |
 
-m Corrosive Blade 2d10 + 4 Signature Ability
-Magic, Melee, Strike, Weapon Main action
-e Melee 1 x One creature or object per minion
-1 3 corruption damage
-2 6 corruption damage; p<3] bleeding (save ends)
-3 8 corruption damage; grabbed; p<4] bleeding (save ends)
-Effect: A target grabbed this way or already grabbed by the knight-
-mare can be vertical pushed up to 5 squares.
-t Bu’gathic Inspiration
-Any ally has a +1 bonus to power rolls, saving throws, or damage
-rolled as a d6 or a d3 for each knightmare adjacent to them.
-t Magic Terror
-Each enemy has a −1 penalty to power rolls, saving throws, or dam-
-age rolled as a d6 or a d3 for each knightmare adjacent to them.
+> 🗡 **Corrosive Blade (Signature Ability)**
+> 
+> | **Magic, Melee, Strike, Weapon** |                          **Main action** |
+> |----------------------------------|-----------------------------------------:|
+> | **📏 Melee 1**                   | **🎯 One creature or object per minion** |
+> 
+> **Power Roll + 4:**
+> 
+> - **≤11:** 3 corruption damage
+> - **12-16:** 6 corruption damage; P < 3 bleeding (save ends)
+> - **17+:** 8 corruption damage; grabbed; P < 4 bleeding (save ends)
+> 
+> **Effect:** A target grabbed this way or already grabbed by the knightmare can be vertical pushed up to 5 squares.
+
+> ⭐️ **Bu'gathic Inspiration**
+> 
+> Any ally has a +1 bonus to power rolls, saving throws, or damage rolled as a d6 or a d3 for each knightmare adjacent to them.
+
+> ⭐️ **Magic Terror**
+> 
+> Each enemy has a −1 penalty to power rolls, saving throws, or dam- age rolled as a d6 or a d3 for each knightmare adjacent to them.
 
 ####### Bugbear Mob
 
@@ -326,19 +378,23 @@ age rolled as a d6 or a d3 for each knightmare adjacent to them.
 |       **-**<br>Immunity        | **-**<br>Movement |         -         | **+2 damage bonus to strikes**<br>With Captain |  **-**<br>Weaknesses  |
 |        **+3**<br>Might         | **-1**<br>Agility | **+0**<br>Reason  |              **+1**<br>Intuition               |  **+0**<br>Presence   |
 
-Mug and Tear 2d10 + 3 Signature Ability
-Melee, Strike, Weapon Main action
-e Melee 1 x One creature or object per minion
-1 3 damage; pull 2
-2 6 damage; pull 3
-3 7 damage; pull 4, grabbed
-Effect: If the target is pulled into the mob, that forced movement
-deals damage only at the Director’s determination.
-t Swarm
-The mob can move through spaces as if they were a size 1L
-creature, and can occupy other creatures’ spaces. At the start of
-each of the mob’s turns, they can make a free strike against each
-creature whose space they share.
+> 🗡 **Mug and Tear (Signature Ability)**
+> 
+> | **Melee, Strike, Weapon** |                          **Main action** |
+> |---------------------------|-----------------------------------------:|
+> | **📏 Melee 1**            | **🎯 One creature or object per minion** |
+> 
+> **Power Roll + 3:**
+> 
+> - **≤11:** 3 damage; pull 2
+> - **12-16:** 6 damage; pull 3
+> - **17+:** 7 damage; pull 4, grabbed
+> 
+> **Effect:** If the target is pulled into the mob, that forced movement deals damage only at the Director's determination.
+
+> ⭐️ **Swarm**
+> 
+> The mob can move through spaces as if they were a size 1L creature, and can occupy other creatures' spaces. At the start of each of the mob's turns, they can make a free strike against each creature whose space they share.
 
 ####### Bugbear Snare
 
@@ -348,13 +404,17 @@ creature whose space they share.
 |       **-**<br>Immunity        | **-**<br>Movement |        -         | **+3 bonus to speed**<br>With Captain |  **-**<br>Weaknesses  |
 |        **+2**<br>Might         | **+3**<br>Agility | **+0**<br>Reason |          **+0**<br>Intuition          |  **+1**<br>Presence   |
 
-m Cut ’Em Low! 2d10 + 3 Signature Ability
-Charge, Melee, Strike, Weapon Main action
-e Melee 1 x One creature or object per minion
-1 3 damage
-2 6 damage
-3 7 damage; a<3] slowed (save ends)
-Effect: If the snare started their turn hidden from the target, the
-target is automatically grabbed. A target grabbed this way or already
-grabbed by the snare can be vertical pushed up to 4 squares.
+> 🗡 **Cut 'Em Low! Signature Ability**
+> 
+> | **Charge, Melee, Strike, Weapon** |                          **Main action** |
+> |-----------------------------------|-----------------------------------------:|
+> | **📏 Melee 1**                    | **🎯 One creature or object per minion** |
+> 
+> **Power Roll + 3:**
+> 
+> - **≤11:** 3 damage
+> - **12-16:** 6 damage
+> - **17+:** 7 damage; A < 3 slowed (save ends)
+> 
+> **Effect:** If the snare started their turn hidden from the target, the target is automatically grabbed. A target grabbed this way or already grabbed by the snare can be vertical pushed up to 4 squares.
 

@@ -85,3 +85,15 @@ sections:
     xpath: "//section[@id='monsters']//section[@id='bredbeddle']//section[@class='level9']"
     file_dpath: 'Monsters/Bredbeddle/Features'
     type: 'monster/feature'
+
+  - header_path: monsters/bugbears
+    xpath: "//section[@id='monsters']//section[@id='bugbears']"
+    file_dpath: 'Monsters/Bugbears'
+    type: 'monster/section'
+  - header_path: monsters/bugbears
+    xpath: "//section[@id='monsters']//section[@id='bugbears']//section[@class='level7']"
+    file_dpath: 'Monsters/Bugbears/Statblocks'
+  - header_path: monsters/bugbears
+    xpath: "//section[@id='monsters']//section[@id='bugbears']//section[@class='level9']"
+    file_dpath: 'Monsters/Bugbears/Features'
+    type: 'monster/feature'

@@ -44,6 +44,7 @@ run input_md_path output_md_path:
 
     # bullets
     text = re.sub( r'¥ ', r'', text, flags=re.MULTILINE)
+    text = re.sub( r'¥', r'', text, flags=re.MULTILINE)
     # picture links
     text = re.sub( r'\n\!\[\]\(.*\.jpeg\)\n', r'', text, flags=re.MULTILINE)
     # page numbers
@@ -81,19 +82,22 @@ run input_md_path output_md_path:
     text = re.sub( r'i \<', r'I <', text, flags=re.MULTILINE)
     text = re.sub( r'r \<', r'R <', text, flags=re.MULTILINE)
 
+    text = re.sub( r'^([A-Za-z, \-]+) ([A-Z]{1}[a-z ]+action|Maneuver)', r'| **$1** | **$2** |\n', text, flags=re.MULTILINE)
+
     text = re.sub( r'\| *Melee 1 *\| *One creature *\|', r'| **📏 Melee 1**            | **🎯 One creature** |', text, flags=re.MULTILINE)
     text = re.sub( r'\| *Melee 1 *\| *One creature or object*\|', r'| **📏 Melee 1**            | **🎯 One creature or object** |', text, flags=re.MULTILINE)
 
     # Power rolls
-    text = re.sub( r'^\#* ?Power Roll \+ ([^\*]*) *\** *\:\**', r'**Power Roll + \1:**', text, flags=re.MULTILINE)
+    text = re.sub( r'^\#* ?Power Roll \+ ([^\*]*) *\** *\:\**', r'\n**Power Roll + \1:**', text, flags=re.MULTILINE)
 
     # power roll tiers
     text = re.sub( r'\s*\-? ?á ?', r'\n\n- **≤11:** ', text, flags=re.MULTILINE)
     text = re.sub( r'\s*\-? ?é ?', r'\n- **12-16:** ', text, flags=re.MULTILINE)
     text = re.sub( r'\s*\-? ?í ?', r'\n- **17+:** ', text, flags=re.MULTILINE)
     # keywords
-    text = re.sub( r'^\**Trigger\**\:\**', r'**Trigger:**', text, flags=re.MULTILINE)
-    text = re.sub( r'^\**Effect\**\:\**', r'**Effect:**', text, flags=re.MULTILINE)
+    text = re.sub( r'^\**Trigger\**\:\**', r'\n**Trigger:**', text, flags=re.MULTILINE)
+    text = re.sub( r'^\**Special\**\:\**', r'\n**Special:**', text, flags=re.MULTILINE)
+    text = re.sub( r'^\**Effect\**\:\**', r'\n**Effect:**', text, flags=re.MULTILINE)
     # image text
     text = re.sub( r'Image\: [^\|]*icon ', r'', text, flags=re.MULTILINE)
     text = re.sub( r'Image\: [^\|]*icon[^ ]', r'', text, flags=re.MULTILINE)
@@ -104,17 +108,20 @@ run input_md_path output_md_path:
     text = re.sub( r'^\#\#\#\# \*\*(.*)\*\*', r'######## \1', text, flags=re.MULTILINE)
 
     # monster book
-    text = re.sub( r'^\#* ?t \*\*(.*)\*\*', r'⭐️ **\1**', text, flags=re.MULTILINE)
-    text = re.sub( r'^\#* ?s \*\*(.*)\*\*', r'👤 **\1**', text, flags=re.MULTILINE)
-    text = re.sub( r'^\#* ?p \*\*(.*)\*\*', r'🌀 **\1**', text, flags=re.MULTILINE)
-    text = re.sub( r'^\#* ?d \*\*(.*)\*\*', r'☠️ **\1**', text, flags=re.MULTILINE)
-    text = re.sub( r'^\#* ?a \*\*(.*)\*\*', r'🔳 **\1**', text, flags=re.MULTILINE)
-    text = re.sub( r'^\#* ?r \*\*(.*)\*\*', r'🏹 **\1**', text, flags=re.MULTILINE)
-    text = re.sub( r'^\#* ?m \*\*(.*)\*\*', r'🗡 **\1**', text, flags=re.MULTILINE)
-    text = re.sub( r'^\#* ?! \*\*(.*)\*\*', r'❗️ **\1**', text, flags=re.MULTILINE)
-    text = re.sub( r'^\#* ?b \*\*(.*)\*\*', r'❇️ **\1**', text, flags=re.MULTILINE)
-    text = re.sub( r'^\#* ?⚔ \*\*(.*)\*\*', r'⚔️ **\1**', text, flags=re.MULTILINE)
-    text = re.sub( r'^\#* ?v \*\*(.*)\*\*', r'⚔️ **\1**', text, flags=re.MULTILINE)
+    text = re.sub( r'^\#* ?t \**([A-Z].*)\**', r'\n⭐️ **\1**\n\n', text, flags=re.MULTILINE)
+    text = re.sub( r'^\#* ?s \**([A-Z].*)\**', r'\n👤 **\1**\n\n', text, flags=re.MULTILINE)
+    text = re.sub( r'^\#* ?p \**([A-Z].*)\**', r'\n🌀 **\1**\n\n', text, flags=re.MULTILINE)
+    text = re.sub( r'^\#* ?d \**([A-Z].*)\**', r'\n☠️ **\1**\n\n', text, flags=re.MULTILINE)
+    text = re.sub( r'^\#* ?a \**([A-Z].*)\**', r'\n🔳 **\1**\n\n', text, flags=re.MULTILINE)
+    text = re.sub( r'^\#* ?r \**([A-Z].*)\**', r'\n🏹 **\1**\n\n', text, flags=re.MULTILINE)
+    text = re.sub( r'^\#* ?m \**([A-Z].*)\**', r'\n🗡 **\1**\n\n', text, flags=re.MULTILINE)
+    text = re.sub( r'^\#* ?! \**([A-Z].*)\**', r'\n❗️ **\1**\n\n', text, flags=re.MULTILINE)
+    text = re.sub( r'^\#* ?b \**([A-Z].*)\**', r'\n❇️ **\1**\n\n', text, flags=re.MULTILINE)
+    text = re.sub( r'^\#* ?⚔ \**([A-Z].*)\**', r'\n⚔️ **\1**\n\n', text, flags=re.MULTILINE)
+    text = re.sub( r'^\#* ?v \**([A-Z].*)\**', r'\n⚔️ **\1**\n\n', text, flags=re.MULTILINE)
+
+    # Power roll in header (statblocks
+    text = re.sub( r'^(.*) 2d10 ?\+ ?(\d+)(.*)', r'\1\3\n**Power Roll + \2**', text, flags=re.MULTILINE)
 
     # newlines
     text = re.sub( r'\n\n\n', r'\n\n', text, flags=re.MULTILINE)
