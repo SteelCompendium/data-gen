@@ -102,6 +102,14 @@ build_ability_config headers_fpath ability_yml_fpath source="mcdm.heroes.v1":
         rejectList.append("Magnified Power (5 Discipline)")
         rejectList.append("Shared Power (5 Discipline)")
         rejectList.append("Sharpened Power (1 Discipline)")
+        # These are all sub-items of Talent's 6th-level Psi boost trait
+        rejectList.append("Dynamic Power (1 Clarity)")
+        rejectList.append("Expanded Power (3 Clarity)")
+        rejectList.append("Extended Power (1 Clarity)")
+        rejectList.append("Heightened Power (1 Clarity)")
+        rejectList.append("Magnified Power (5 Clarity)")
+        rejectList.append("Shared Power (5 Clarity)")
+        rejectList.append("Sharpened Power (1 Clarity)")
 
         all_headers = []
         for line in content.splitlines():
@@ -158,10 +166,11 @@ build_ability_config headers_fpath ability_yml_fpath source="mcdm.heroes.v1":
 
                 # TODO - idk if I like this here, but `type` needs to be in metadata before classification
                 # type is generated here because its needed for classification
-                base_type = 'trait'
-                m = re.match(r'^(.*?)\s*\(([0-9+]+)\s+(.+)\)\s*$', ability_name)
-                if m:
-                    base_type = 'ability'
+                base_type = 'ability' if level == 8 else 'trait'
+                # base_type = 'trait'
+                # m = re.match(r'^(.*?)\s*\(([0-9+]+)\s+(.+)\)\s*$', ability_name)
+                # if m:
+                #     base_type = 'ability'
                 clazz = header_path.split('/')[0]
                 match = re.search(r'((\d+)(?:st|nd|rd|th)-level-feature)s', header_path)
                 if match:
