@@ -1,156 +1,184 @@
-## Ashen Hoarder
+## Basilisks
 
-Grave robbing is a dangerous business, but necromancers need bodies for their experiments. To procure supplies and stay out of danger, these mages build ashen hoarders-hulking constructs made of magically reinforced humanoid bones.
+With eight legs, a scaled rough hide, and razor-sharp teeth coated in poison, the basilisk is a deadly threat-even aside from their petrifying eye beams. This dreadful creature can fell the mightiest of foes with a look, turning them into an immobilized stone statue who remains thankfully unaware when the basilisk later consumes their petrified form at their leisure.
 
-### Appendages and Spikes
+### Raising Young
 
-Ashen hoarders sport four long legs made from compact columns of bone, allowing them to move quickly and avoid creatures who might try to hinder the construct's grim work. Powerful clawed arms aid the hoarder in digging up corpses and fighting enemies.
+Basilisks typically live in mated pairs and raise small clutches of younglings from the comforts of damp caves. Adults prefer to subsist on berries, fish, fowl, and carrion, resorting to eating their petrified victims only when starving. By contrast, basilisk younglings can eat only petrified victims, and basilisks have been known to travel far from their nest to populated areas in search of prey for their babies.
 
-When an ashen hoarder obtains corpses, they impale them on the many sharp bones protruding from their back. These spikes secure the corpses and charge them with corruptive energy, ensuring the cargo is ready for experimentation when it arrives at the necromancer's door.
+### Dangerous Servitors
 
-### Weaponized Bodies
+Crime lords and overminds seek basilisk eggs to hatch, raising and training basilisks as bodyguards and pets. Training is dangerous, and many handlers (and their unscrupulous colleagues) find themselves turned to stone when a basilisk escapes and runs amok.
 
-These automatons are equipped to protect their cargo. If enemies corner an ashen hoarder, the construct can use the energy stored within their corpses to reanimate them as deadly mines, detonating the remains with explosive corruptive energy. Once the threat is dead, the ashen hoarder can retrieve the enemies' remains and recollect the pieces of their original load.
+Some creatures keep basilisks not for their terrifying abilities, but for their immunity to petrification. Medusas commonly keep basilisks as pets, owing to their own limited options for companionship. Both parties benefit from this relationship, as the medusa feeds their own victims to the basilisk and their younglings.
 
-### Soul Shackle
+### Alchemical Properties
 
-Creating and powering an ashen hoarder requires a vast amount of necromantic energy. Along with an entire ossuary worth of bones to construct its body, powering the construct requires a soul. That soul is divided between the hoarder and an object known as a Soul Shackle usually a ring or an amulet-that is used to command the construct. Destroying the Soul Shackle can free the trapped soul, but doing so sends an ashen hoarder into an indiscriminate unshackled rage as they feel part of their stolen soul shredded into oblivion. The construct lashes out against any living creature they can before collapsing in on themself. Freeing the soul still trapped inside the ashen hoarder's remains requires completing the Find a Cure downtime project in *[Draw Steel: Heroes](https://mcdm.gg/DS-Heroes)* and the assistance of a powerful holy figure.
+Alchemists have discovered a gland in the basilisk's mouth that excretes an oil that reverts stone to flesh, making it easier to digest prey. If enough of the oil is collected, a salve can be created to restore a petrified victim. Unsavory alchemists pay good money to those willing to steal a basilisk youngling from their nest.
 
-######### Ashen Hoarder Malice
-
-At the start of an ashen hoarder's turn, you can spend Malice to activate one of the following features.
-
-> 👤 **Relentless Strikes (3 Malice)**
+> **Restorative Salve**
 > 
-> The ashen hoarder moves up to their speed and can make a free strike against two targets.
+> After a basilisk dies, a character can make a Reason test to claim oil from the basilisk's mouth, which can be used to create a special salve. One dose of salve can be applied to a petrified creature as a main action, and 1 minute after the salve is applied, that creature is no longer petrified.
+> 
+> - **≤11:** 1 The character must complete the Find a Cure downtime project in *Draw Steel: Heroes* to create one dose of salve.
+> - **12-16:** 2 The character creates one dose of salve and can create two more doses by completing the Find a Cure downtime project.
+> - **17+:** 3 The character creates three doses of salve.
 
-> 🔳 **Blade Wall (5 Malice)**
-> 
-> The ashen hoarder summons a 10 wall of bones and blades into unoccupied squares within 5 squares of them. Each square of the wall has 5 Stamina. An enemy who comes adjacent to the wall for the first time in a round or starts their turn there takes 3 damage.
+######### Basilisk Malice
 
-> ☠️ **Solo Action (5 Malice)**
-> 
-> The ashen hoarder takes an additional main action on their turn. They can use this feature even if they are dazed.
+At the start of any basilisk's turn, you can spend Malice to activate one of the following features.
 
-> 🔳 **Bone Storm (7 Malice)** 
+> ⭐️ **Stone Swim (3+ Malice)** 
 > 
-> The ashen hoarder launches bone lances into the air, raining them down on enemies and impaling those unlucky enough to be on the receiving end. Each enemy within 20 squares of the ashen hoarder makes an **Agility test**.
-> 
-> - **≤11:** 14 damage; restrained and bleeding (save ends)
-> - **12-16:** 11 damage; bleeding (EoT)
-> - **17+:** 6 damage
+> A basilisk acting this turn can burrow until the start of their next turn, and moves up to their speed. They have damage immunity 2 while underground. The basilisk can burrow through stone, but can't drag other creatures underground when they do so. At the start of each of the basilisk's turns, the Director can spend 1 Malice to let the basilisk continue burrowing.
 
-####### Ashen Hoarder
-
-| Construct, Undead |           -            |      Level 4       |         Solo          |          EV 72           |                    
-|:-----------------:|:----------------------:|:------------------:|:---------------------:|:------------------------:|
-|   **3**<br>Size   |     **8**<br>Speed     | 35**0**<br>Stamina |  **3**<br>Stability   |   **6**<br>Free Strike   |
-| **-**<br>Immunity | **Burrow**<br>Movement |         -          | **-**<br>With Captain | **Holy 5**<br>Weaknesses |
-|  **+4**<br>Might  |   **-1**<br>Agility    |  **-2**<br>Reason  |  **+0**<br>Intuition  |    **-5**<br>Presence    |
-
-> ☠️ **Solo Monster**
+> 🔳 **Upchuck (5 Malice*)*
 > 
-> **End Effect:** At the end of each of their turns, the ashen hoarder can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
 > 
-> **Solo Turns:** The ashen hoarder can take two turns each round. They can't take turns consecutively.
-
-> 🗡 **Claw and Blade (Signature Ability)**
-> 
-> | **Melee, Strike, Weapon** |                 **Main action** |
-> |---------------------------|--------------------------------:|
-> | **📏 Melee 2**            | **🎯 Two creatures or objects** |
-> 
-> **Power Roll + 4:**
-> 
-> - **≤11:** 10 damage; if one target has M < 2 they are bleeding (save ends); if the other target has A < 2 they are grabbed
-> - **12-16:** 15 damage; if one target has M < 3 they are bleeding (save ends); if the other target has A < 3 they are grabbed
-> - **17+:** 18 damage; M < 4 bleeding (save ends); A < 2 grabbed
-> 
-> **Effect:** The ashen hoarder can have up to two size 1 creatures grabbed at a time.                                                                              |  |
-
-> 🔳 **Corpse Bomb**
->                                                   
-> | **Area, Magic, Ranged** |               **Main Action** |
+> | **Area, Weapon**        |               **Main action** |
 > |-------------------------|------------------------------:|
-> | **📏 4 cube within 20** | **🎯 Each enemy in the area** |
+> | **📏 3 cube within 10** | **🎯 Each enemy in the area** |
 > 
-> **Power Roll + 4:**
+> **Effect:** The basilisk spits up a chunk of partly digested stone.
 > 
-> - **≤11:** 4 damage; A < 2 weakened (save ends)
-> - **12-16:** 8 damage; A < 3 weakened (save ends)
-> - **17+:** 11 damage; A < 4 weakened (save ends)
+> **Power Roll + 2:**
 > 
-> **2 Malice:** Any enemy weakened this way is instead slowed and weakened (save ends).
-> 
-> **3 Malice:** The ashen hoarder targets a second 4 cube within distance.
+> - **≤11:** 4 damage
+> - **12-16:** 4 damage; A < 1 2 damage, prone
+> - **17+:** 4 damage; A < 2 5 damage, prone and can't stand (save ends)
 
-> 🔳 **Impale (3 Malice)**
+> 🔳 **Walleye (7 Malice)**
 > 
-> | **Area, Weapon**           |                  **Main action** |
-> |----------------------------|---------------------------------:|
-> | **📏 4 x 1 line within 1** | **🎯 Each creature in the area** |
-> 
-> **Power Roll + 4:**
-> 
-> 6 corruption damage; M < 2 the target is impaled (save ends)
-> 11 corruption damage; M < 3 the target is impaled (save ends)
-> 14 corruption damage; M < 4 the target is impaled (save ends)
-> 
-> **Effect:** An impaled creature is restrained and bleeding, and moves with the ashen hoarder. The ashen hoarder can have three creatures impaled with this ability at a time.
+> A basilisk spews reflective spittle across an adjacent vertical surface in a 3-square-by-3-square area. The basilisk can use their Petrifying Eye Beams ability to target a square in the area, causing the area and distance of that ability to become a 20 x 3 line within 1 square of the wall.
 
-> 👤 **Bone Dozer**
-> 
-> | **-**       | **Maneuver** |
-> |-------------|-------------:|
-> | **📏 Self** |  **🎯 Self** |
-> 
-> **Effect:** The ashen hoarder moves up to twice their speed in a straight line. Each creature or object in the path of this movement is either pushed into the nearest unoccupied space outside the path, or if they have m<3] is pushed forward until the movement ends. Any creature who is force moved forward into an obstacle is dazed (save ends).
+   
+####### Basilisk
 
-> ❗️ **Armor of Corpses (2 Malice)**
-> 
-> | **-**       | **Triggered action** |
-> |-------------|---------------------:|
-> | **📏 Self** |          **🎯 Self** |
-> 
-> **Trigger:** The ashen hoarder takes damage.
-> 
-> **Effect:** The ashen hoarder halves the damage. If the ashen hoarder has one or more creatures impaled, the Malice cost of this feature is reduced by 1 and one impaled creature takes the other half of the damage.
+|     Basilisk, Beast      |         -         |      Level 1      |      Elite Brute      |        EV 12         |
+|:------------------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
+|      **2**<br>Size       |  **8**<br>Speed   | **80**<br>Stamina |  **2**<br>Stability   | **5**<br>Free Strike |
+| **Poison 4**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|     **+2**<br>Might      | **+0**<br>Agility | **-3**<br>Reason  |  **-1**<br>Intuition  |  **-1**<br>Presence  |
 
-> ⭐️ **Bladed Body**
+> 🗡 **Noxious Bite (Signature Ability)**
 > 
-> An adjacent enemy who grabs the ashen hoarder or uses a melee ability against them takes 3 damage.
+> | **Melee, Strike, Weapon** |                 **Main Action** |
+> |---------------------------|--------------------------------:|
+> | **📏 Melee 1**            | **🎯 Two creatures or objects** |
+> 
+> **Power Roll + 2:**
+> 
+> - **≤11:** 7 poison damage
+> - **12-16:** 10 poison damage
+> - **17+:** 13 poison damage
+> 
+> **Effect:** This ability gains an edge against targets the basilisk has previously dealt poison damage to.
 
-> ⭐️ **Soul Singularity**
+> 🔳 **Petrifying Eye Beams**
 > 
-> When the ashen hoarder is reduced to 0 Stamina, they explode in a swirling singularity of bone shards and soul energy. Each creature within 5 squares of the ashen hoarder who has m<3] takes 11 corruption damage. A creature killed by this damage has their soul sucked into the vortex and lost somewhere in the Abyssal Wasteland, and can't be brought back to life until their soul is recovered.
+> | **Area, Magic**            |   **Maneuver** |
+> |----------------------------|---------------:|
+> | **📏 5 × 2 line within 1** | **🎯 Special** |
+> 
+> **Special:** The area extends from both the basilisk’s eyes, and this ability targets the first creature without cover on either side of the area.
+> 
+> **Power Roll + 2:**
+> 
+> - **≤11:** M < 0 restrained (save ends)
+> - **12-16:** M < 1 restrained (save ends)
+> - **17+:** Slowed (save ends); or if M < 2 restrained (save ends)
+> 
+> **Effect:** If a target is already slowed, the potency increases by 1 for that target. A target restrained this way magically begins to turn to stone, and a target who ends two consecutive turns restrained this way is petrified. A target restrained this way or a creature adjacent to them can use a main action to cut encroaching stone from the target’s body, dealing 8 damage to the target that can’t be reduced in any way and ending this effect.
 
-> ☠️ **Skeletal Eruption (Villain Action 1)**
->                          
-> | **Area, Weapon**           |                                       **-** |
-> |----------------------------|--------------------------------------------:|
-> | **📏 8 x 3 line within 1** | **🎯 Each creature and object in the area** |
+> 🔳 **Poison Fumes (5 Malice)**
 > 
-> **Power Roll + 4:**
+> | **Area, Magic**        |               **Main action** |
+> |------------------------|------------------------------:|
+> | **📏 3 cube within 1** | **🎯 Each enemy in the area** |
 > 
-> - **≤11:** 6 damage, vertical push 2
-> - **12-16:** 11 damage, vertical push 2
-> - **17+:** 14 damage, vertical push 3
+> **Power Roll + 2:**
 > 
-> **Effect:** Each target is force moved straight up, then falls. A target who would normally land prone after falling is instead restrained (save ends).
+> - **≤11:** 4 poison damage; M < 0 weakened (save ends)
+> - **12-16:** 6 poison damage; M < 1 weakened and slowed (save ends)
+> - **17+:** 9 poison damage; M < 2 weakened and slowed (save ends)
 
-> ☠️ **Mobile Mine Field (Villain Action 2)**
+> ❗️ **Lash Out**
 > 
-> | **Area, Ranged**         |          **-** |
-> |--------------------------|---------------:|                  
-> | **📏 10 cube within 20** | **🎯 Special** | 
+> | **Area** | **Triggered action** |
+> |-----------------------------|------------------------------:|
+> | **📏 1 burst**     | **🎯 Each enemy in the area** |
 > 
-> **Effect:** The ashen hoarder sprays out six size 1M zombie mines that appear in unoccupied squares within distance. Any enemy who moves adjacent to a zombie mine for the first time in a round or starts their turn there causes the mine to explode, dealing 4 corruption damage to each creature adjacent to the mine. Any other zombie mines adjacent to the exploding mine also explode. At the start of each of the ashen hoarder's turns, each unexploded zombie mine can be moved up to 2 squares.
+> **Trigger:** The basilisk takes damage from a melee ability.
+> 
+> **Effect:** Each target takes 5 damage. Any target who has A < 2 is also bleeding (save ends).
 
-> ☠️ **Ossuary Assault (Villain Action 3)**
+> ⭐️ **Calcifying Presence**
 > 
-> | **Melee, Strike, Weapon** |       **-** | 
-> |---------------------------|------------:|
-> | **📏 Self; see below**    | **🎯 Self** |
-> 
-> **Effect:** The ashen hoarder moves up to their speed and uses Claw and Blade with a double edge against one target. On a tier 3 outcome, the ashen hoarder can use Impale without spending Malice.
+> The area within 3 squares of the basilisk is difficult terrain for enemies.
 
+####### Basilisk Tonguesnapper
+
+|         Basilisk, Beast          |         -         |      Level 1      |      Elite Hexer      |        EV 12         |
+|:--------------------------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
+|          **2**<br>Size           |  **8**<br>Speed   | **40**<br>Stamina |  **2**<br>Stability   | **4**<br>Free Strike |
+| **Acid 2, Poison 2**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|         **+1**<br>Might          | **+2**<br>Agility | **-3**<br>Reason  |  **-1**<br>Intuition  |  **-1**<br>Presence  |
+
+> 🗡 **Prehensile Tongue (Signature Ability)**
+> 
+> | **Melee, Strike, Weapon** |               **Main action** |
+> |---------------------------|------------------------------:|
+> | **📏 Melee 3**            | **🎯 One creature or object** |
+>         
+> **Power Roll + 2:**
+> 
+> - **≤11:** 8 acid damage; pull 1
+> - **12-16:** 10 acid damage; pull 2
+> - **17+:** 14 acid damage; pull 3
+> 
+> **Effect:** This ability can pull targets restrained by Petrifying Eye Beams, and ignores stability if it does so.
+> 
+> **3 Malice:** The tonguesnapper targets two additional creatures or objects.
+
+> 🔳 **Petrifying Eye Beams**
+> 
+> | **Area, Magic**            |   **Maneuver** |
+> |----------------------------|---------------:|
+> | **📏 5 x 2 line within 1** | **🎯 Special** |
+> 
+> **Special:** The area extends from both the tonguesnapper’s eyes, and this ability targets the first creature without cover on either side of the area.
+> 
+> **Power Roll + 2:**
+> 
+> - **≤11:** A < 0 restrained (save ends)
+> - **12-16:** A < 1 restrained (save ends)
+> - **17+:** Slowed (save ends); or if M < 2 restrained (save ends)
+> 
+> **Effect:** If a target is already slowed, the potency increases by 1 for that target. A target restrained this way magically begins to turn to stone, and a target who ends two consecutive turns restrained this way is petrified. A target restrained this way or a creature adjacent to them can use a main action to cut encroaching stone from the target’s body, dealing 8 damage to the target that can’t be reduced in any way and ending this effect.
+
+> ⚔️ **Wink (2 Malice)**
+> 
+> | **Magic, Melee, Ranged, Strike** |     **Main action** |
+> |----------------------------------|--------------------:|
+> | **📏 Melee 1 or ranged 10**      | **🎯 One creature** |
+> 
+> 
+> - **≤11:** 8 corruption damage; R < 0 dazed (save ends)
+> - **12-16:** 10 corruption damage; R < 1 dazed (save ends)
+> - **17+:** 14 corruption damage; R < 2 dazed and slowed (save ends)
+> 
+> **Effect:** A creature dazed this way can’t benefit from edges or double edges and can’t gain or use surges.
+
+> ❗️ **Neurotoxin Splash**
+> 
+> | **Area**       |          **Triggered action** |
+> |----------------|------------------------------:|
+> | **📏 2 burst** | **🎯 Each enemy in the area** |
+> 
+> **Trigger:** The tonguesnapper takes damage from a melee ability.
+> 
+> **Effect:** Each target takes 4 acid damage. Any target who has M < 2 is also slowed (save ends).
+
+> ⭐️ Petrifying Fumes
+> 
+> Any creature who starts their turn adjacent to the tonguesnapper and has M < 1 is slowed (save ends).
