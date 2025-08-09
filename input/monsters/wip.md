@@ -257,6 +257,7 @@ e Melee 1 x One creature or object
 Effect: The target can’t use triggered actions until the start of the next
 round. Additionally, if the sneak started their turn hidden from the
 target, this ability deals an extra 4 damage.
+
 b Shadow Cloak 2d10 + 2 3 Malice
 Area Main action
 e 2 burst x Each enemy in the area
@@ -294,18 +295,66 @@ Trigger: The sneak is targeted by a strike.
 Effect: The sneak chooses one enemy within distance of the strike to
 become the target of the strike.
 
+####### Bugbear Knightmare
 
+| Bugbear, Fey, Goblin, Humanoid |         -         |      Level 8      |                Minion Hexer                 | EV 10 for four minions |
+|:------------------------------:|:-----------------:|:-----------------:|:-------------------------------------------:|:----------------------:|
+|         **1L**<br>Size         |  **5**<br>Speed   | **12**<br>Stamina |             **2**<br>Stability              |  **3**<br>Free Strike  |
+|       **-**<br>Immunity        | **-**<br>Movement |         -         | **Gain an edge on strikes**<br>With Captain |  **-**<br>Weaknesses   |
+|        **+4**<br>Might         | **+3**<br>Agility | **+1**<br>Reason  |             **+1**<br>Intuition             |   **+4**<br>Presence   |
 
+m Corrosive Blade 2d10 + 4 Signature Ability
+Magic, Melee, Strike, Weapon Main action
+e Melee 1 x One creature or object per minion
+1 3 corruption damage
+2 6 corruption damage; p<3] bleeding (save ends)
+3 8 corruption damage; grabbed; p<4] bleeding (save ends)
+Effect: A target grabbed this way or already grabbed by the knight-
+mare can be vertical pushed up to 5 squares.
+t Bu’gathic Inspiration
+Any ally has a +1 bonus to power rolls, saving throws, or damage
+rolled as a d6 or a d3 for each knightmare adjacent to them.
+t Magic Terror
+Each enemy has a −1 penalty to power rolls, saving throws, or dam-
+age rolled as a d6 or a d3 for each knightmare adjacent to them.
 
+####### Bugbear Mob
 
+| Bugbear, Fey, Goblin, Humanoid |         -         |      Level 5      |                  Minion Brute                  | EV 7 for four minions |
+|:------------------------------:|:-----------------:|:-----------------:|:----------------------------------------------:|:---------------------:|
+|         **3**<br>Size          |  **6**<br>Speed   | **10**<br>Stamina |               **2**<br>Stability               | **3**<br>Free Strike  |
+|       **-**<br>Immunity        | **-**<br>Movement |         -         | **+2 damage bonus to strikes**<br>With Captain |  **-**<br>Weaknesses  |
+|        **+3**<br>Might         | **-1**<br>Agility | **+0**<br>Reason  |              **+1**<br>Intuition               |  **+0**<br>Presence   |
 
+Mug and Tear 2d10 + 3 Signature Ability
+Melee, Strike, Weapon Main action
+e Melee 1 x One creature or object per minion
+1 3 damage; pull 2
+2 6 damage; pull 3
+3 7 damage; pull 4, grabbed
+Effect: If the target is pulled into the mob, that forced movement
+deals damage only at the Director’s determination.
+t Swarm
+The mob can move through spaces as if they were a size 1L
+creature, and can occupy other creatures’ spaces. At the start of
+each of the mob’s turns, they can make a free strike against each
+creature whose space they share.
 
+####### Bugbear Snare
 
+| Bugbear, Fey, Goblin, Humanoid |         -         |     Level 5      |            Minion Ambusher            | EV 7 for four minions |
+|:------------------------------:|:-----------------:|:----------------:|:-------------------------------------:|:---------------------:|
+|         **1L**<br>Size         |  **6**<br>Speed   | **9**<br>Stamina |          **2**<br>Stability           | **3**<br>Free Strike  |
+|       **-**<br>Immunity        | **-**<br>Movement |        -         | **+3 bonus to speed**<br>With Captain |  **-**<br>Weaknesses  |
+|        **+2**<br>Might         | **+3**<br>Agility | **+0**<br>Reason |          **+0**<br>Intuition          |  **+1**<br>Presence   |
 
-
-
-
-
-
-
+m Cut ’Em Low! 2d10 + 3 Signature Ability
+Charge, Melee, Strike, Weapon Main action
+e Melee 1 x One creature or object per minion
+1 3 damage
+2 6 damage
+3 7 damage; a<3] slowed (save ends)
+Effect: If the snare started their turn hidden from the target, the
+target is automatically grabbed. A target grabbed this way or already
+grabbed by the snare can be vertical pushed up to 4 squares.
 
