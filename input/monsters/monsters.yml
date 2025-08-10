@@ -109,3 +109,28 @@ sections:
     xpath: "//section[@id='monsters']//section[@id='chimera']//section[@class='level9']"
     file_dpath: 'Monsters/Chimera/Features'
     type: 'monster/feature'
+
+  - header_path: monsters/demons
+    xpath: "//section[@id='monsters']//section[@id='demons']"
+    file_dpath: 'Monsters/Demons'
+    type: 'monster/section'
+  - header_path: monsters/demons
+    xpath: "//section[@id='monsters']//section[@id='demons']//section[@class='level7']"
+    file_dpath: 'Monsters/Demons/Statblocks'
+  - header_path: monsters/demons
+    xpath: "//section[@id='monsters']//section[@id='demons']//section[@class='level9']"
+    file_dpath: 'Monsters/Demons/Features'
+    type: 'monster/feature'
+
+  - header_path: monsters/devils
+    xpath: "//section[@id='monsters']//section[@id='devils']"
+    file_dpath: 'Monsters/Devils'
+    type: 'monster/section'
+  - header_path: monsters/devils
+    xpath: "//section[@id='monsters']//section[@id='devils']//section[@class='level7']"
+    file_dpath: 'Monsters/Devils/Statblocks'
+  - header_path: monsters/devils
+    xpath: "//section[@id='monsters']//section[@id='devils']//section[@class='level9']"
+    file_dpath: 'Monsters/Devils/Features'
+    type: 'monster/feature'
+

@@ -135,10 +135,10 @@ run input_md_path output_md_path:
     text = re.sub( r'^\#\#\#\# \*\*(.*)\*\*', r'######## \1', text, flags=re.MULTILINE)
 
     # known ability types
-    text = re.sub( r'([^\(])(Villain Action 1[^\)])', r'\1(\2)', text, flags=re.MULTILINE)
-    text = re.sub( r'([^\(])(Villain Action 2[^\)])', r'\1(\2)', text, flags=re.MULTILINE)
-    text = re.sub( r'([^\(])(Villain Action 3[^\)])', r'\1(\2)', text, flags=re.MULTILINE)
-    text = re.sub( r'([^\(])(Signature Ability[^\)])', r'\1(\2)', text, flags=re.MULTILINE)
+    text = re.sub( r'([^\(])(Villain Action 1)([^\)])', r'\1(\2)\3', text, flags=re.MULTILINE)
+    text = re.sub( r'([^\(])(Villain Action 2)([^\)])', r'\1(\2)\3', text, flags=re.MULTILINE)
+    text = re.sub( r'([^\(])(Villain Action 3)([^\)])', r'\1(\2)\3', text, flags=re.MULTILINE)
+    text = re.sub( r'([^\(])(Signature Ability)([^\)])', r'\1(\2)\3', text, flags=re.MULTILINE)
 
     # newlines
     text = re.sub( r'\n\n\n', r'\n\n', text, flags=re.MULTILINE)
