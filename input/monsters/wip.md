@@ -1,568 +1,280 @@
-####### Ensnarer
+## Draconians
 
-|  Abyssal, Demon   |         -         |     Level 1      |                  Minion Brute                  |  EV 3 for four minions   |
-|:-----------------:|:-----------------:|:----------------:|:----------------------------------------------:|:------------------------:|
-|  **1M**<br>Size   |  **5**<br>Speed   | **5**<br>Stamina |               **0**<br>Stability               |   **2**<br>Free Strike   |
-| **-**<br>Immunity | **-**<br>Movement |        -         | **+2 bonus to melee distance**<br>With Captain | **Holy 3**<br>Weaknesses |
-|  **+2**<br>Might  | **+0**<br>Agility | **-1**<br>Reason |              **-1**<br>Intuition               |    **-1**<br>Presence    |
+Draconians-wyrmwights as some call them, also known as dragon knights in Orden-are a people created through an obscure ritual known as Dracogenesis. Most draconians have an elemental affinity connected to their draconic scales, which they can change given enough time and training.
 
-> 🗡 **Barbed Tongues (Signature Ability)**
->
-> | **Melee, Strike, Weapon** |                          **Main action** |
-> |---------------------------|-----------------------------------------:|
-> | **📏 Melee 3**            | **🎯 One creature or object per minion** |
-> 
-> **Power Roll + 2:**
-> 
-> - **≤11:** 2 damage; pull 1
-> - **12-16:** 4 damage; pull 2
-> - **17+:** 5 damage; pull 3
-> 
-> **Effect:** If the target is pulled adjacent to the ensnarer, the ensnarer can make a free strike against them.
+Six individual draconians are presented in this section-not an adventuring party, but six warriors whose reputations precede them. All are likely to be found serving in various military forces as high-ranking commanders.
 
-> ⭐️ **Soulsight**
-> 
-> Any creature within 2 squares of the ensnarer can't be hidden from them.
+###### Aeolyxria the Uncanny
 
-####### Frenzied
+From the moment she hatched, Aeolyxria (ay-oh-LIX-ree-ah) has enjoyed a fascination with the occult. She wanders the land, gathering strange tomes and artifacts to study. When she takes a job, it's because she has a new doohickey she wants to test out. Aeolyxria possesses a sharp, tactical mind that lets her treat any battlefield as if it offered homefield advantage. If she could just get a handle on all her equipment, she'd be unstoppable!
 
-|  Abyssal, Demon   |         -         |     Level 1      |            Minion Harrier             |  EV 3 for four minions   |
-|:-----------------:|:-----------------:|:----------------:|:-------------------------------------:|:------------------------:|
-|  **1M**<br>Size   |  **6**<br>Speed   | **4**<br>Stamina |          **0**<br>Stability           |   **1**<br>Free Strike   |
-| **-**<br>Immunity | **-**<br>Movement |        -         | **+2 bonus to speed**<br>With Captain | **Holy 3**<br>Weaknesses |
-|  **+0**<br>Might  | **+2**<br>Agility | **-1**<br>Reason |          **-1**<br>Intuition          |    **-1**<br>Presence    |
+###### Locratix the Morningstar
 
-> 🗡 **Rip and Tear (Signature Ability)**
-> 
-> | **Charge, Melee, Strike, Weapon** |                          **Main action** |
-> |-----------------------------------|-----------------------------------------:|
-> | **📏 Melee 1**                    | **🎯 One creature or object per minion** |
-> 
-> **Power Roll + 2:**
-> 
-> - **≤11:** 1 damage
-> - **12-16:** 2 damage
-> - **17+:** 3 damage
+A traveler from a faraway land and the sole progeny of her Dracogenesis clutch, Locratix (low-CRA-tics) focuses on survival over all other things. The very concept of the dragon knights is anathema to her, as there is no reason a wyrmwight should hand over the power that keeps them alive. Locratix travels widely while taking on mercenary jobs, but she is always just one better deal away from skewering her present employer on the end of her lance.
 
-> ⭐️ **Soulsight**
-> 
-> Any creature within 2 squares of the frenzied can't be hidden from them.
+###### Lydixavus the Deadeye
 
-####### Pitling 
+Nothing escapes Lydixavus (lee-DIX-uh-vas) or their unrivaled precision. After decades of careful training, they have honed their breath weapon into a swift and far-traveling bullet of ice. Lydixavus is motivated by revenge. Each scar, each dent in their scales tells a story, and Lydixavus aims to return those gifts tenfold to those who bestowed them.
 
-|  Abyssal, Demon   |          -          |     Level 1      |           Minion Artillery            |  EV 3 for four minions   |
-|:-----------------:|:-------------------:|:----------------:|:-------------------------------------:|:------------------------:|
-|  **1T**<br>Size   |   **5**<br>Speed    | **3**<br>Stamina |          **0**<br>Stability           |   **2**<br>Free Strike   |
-| **-**<br>Immunity | **Fly**<br>Movement |        -         | **+2 bonus to speed**<br>With Captain | **Holy 3**<br>Weaknesses |
-|  **-2**<br>Might  |  **+2**<br>Agility  | **-2**<br>Reason |          **-2**<br>Intuition          |    **-2**<br>Presence    |
+###### Myxovidan the Sintaker
 
-> 🏹 **Spit (Signature Ability)**
-> 
-> | **Ranged, Strike, Weapon** |                **Main action** |
-> |----------------------------|-------------------------------:|
-> | **📏 Ranged 10**           | **🎯 One creature per minion** |
-> 
-> **Power Roll + 2:**
-> 
-> - **≤11:** 2 poison damage
-> - **12-16:** 4 poison damage
-> - **17+:** 5 poison damage
+Myxovidan (mix-OH-vih-din) was raised by a secluded order of monks who claimed his obsidian-black scales and nausea-inducing breath were an evil that must be purged. They subjected him to an austere lifestyle, full of intense training, meditation, and denial of worldly pleasures. But Myxovidan's hunger would be satisfied, one way or another. When Myxovidan departed the order, he left behind a collection of emaciated monk corpses who looked as though they'd had the life sucked out of them.
 
-> ⭐️ **Horrid Stench**
-> 
-> Any enemy who has three or more pitlings within 2 squares of them can't regain Stamina.
+###### Phrrygalax the Subduer
 
-> ⭐️ **Soulsight**
-> 
-> Any creature within 2 squares of the pitling can't be hidden from them.
+Phrrygalax (fuh-RIJ-ih-lax) was once a dragon knight in the service of Good King Omund. Though he took the oath to defend others against tyranny, he was always keenly aware he was created for violence. When the betrayal of the dragon knight Mandrake fractured the Dragon Phalanx that was the order of the dragon knights, Phrrygalax gleefully renounced his oath to follow what he believes to be his true, brutal purpose. Many who served with him believed he was merely waiting for a convenient excuse to do so.
 
-####### Bendrak
+###### Dorzinuuth the Base
 
-|  Abyssal, Demon   |         -         |      Level 2      |      Horde Hexer      |           EV 4           |
-|:-----------------:|:-----------------:|:-----------------:|:---------------------:|:------------------------:|
-|  **1L**<br>Size   |  **5**<br>Speed   | **15**<br>Stamina |  **0**<br>Stability   |   **2**<br>Free Strike   |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **Holy 3**<br>Weaknesses |
-|  **+0**<br>Might  | **+1**<br>Agility | **+0**<br>Reason  |  **+0**<br>Intuition  |    **+2**<br>Presence    |
+To those who know the Dragon Phalanx of old, no name inspires more awe and fear than that of Dorzinuuth (dor-ZIN-yew-uth). A mastermind on the battlefield and the foundation of the dragon knights' fraternity, Dorzinuuth was known for mounting daring campaigns and always returning with the same number of soldiers and often alongside new recruits. In the wake of the death of Good King Omund, many were shocked to see Dorzinuuth debase himself with banditry and petty mercenary jobs. Others hold on to the hope that he makes unknown moves in darkness, waiting for the day when he can again uphold his oath in the light.
 
-> 🏹 **Warp Perceptions (Signature Ability)**
-> 
-> | **Magic, Ranged, Strike** |     **Main action** |
-> |---------------------------|--------------------:|
-> | **📏 Ranged 10**          | **🎯 One creature** |
-> 
-> **Power Roll + 2:**
-> 
-> - **≤11:** 4 psychic damage
-> - **12-16:** 5 psychic damage; P < 1 weakened (save ends)
-> - **17+:** 7 psychic damage; P < 2 weakened (save ends)
-> 
-> **Effect:** If the target makes a strike while weakened this way, the bendrak can choose a second target within distance for the strike. The first target takes half of any damage from the strike and the second target takes any remaining damage.
+###### Draconian Languages
 
-> 🏹 **Vanish (1 Malice)**
-> 
-> | **Magic, Ranged** |            **Maneuver** |
-> |-------------------|------------------------:|
-> | **📏 Ranged 10**  | **🎯 Self or one ally** |
-> 
-> **Power Roll + 2:**
-> 
-> **Effect:** The target is invisible until the start of their next turn. They can then move up to 3 squares and attempt to hide.
+Most draconians speak Caelian in addition to the languages of their employers and creators. Lydixavus, Phrrygalax, and Dorzinuuth all speak Caelian and Vastariax. Aeolyxria speaks Caelian and the First Language. Locratix speaks Caelian and Oaxuatl. Myxovidan speaks Caelian and Axiomatic.
 
-> ⭐️ **Lethe**
-> 
-> While the bendrak is winded, they gain an edge on strikes, and any strike made against them gains an edge.
+######### Draconian Malice
 
-> ⭐️ **Soulsight**
-> 
-> Any creature within 2 squares of the bendrak can't be hidden from them.
+At the start of any draconian's turn, you can spend Malice to activate one of the following features.
 
-####### Muceron
+> 👤 **Guarding Gale 3 Malice** 
+> 
+> A draconian acting this turn flaps their wings and creates a mighty gale. Each creature adjacent to the draconian is pushed up to 4 squares, and if they have M < 2, , they are knocked prone.
 
-|  Abyssal, Demon   |         -         |      Level 3      |      Horde Brute      |           EV 5           |
-|:-----------------:|:-----------------:|:-----------------:|:---------------------:|:------------------------:|
-|  **1M**<br>Size   |  **5**<br>Speed   | **30**<br>Stamina |  **0**<br>Stability   |   **3**<br>Free Strike   |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **Holy 3**<br>Weaknesses |
-|  **+2**<br>Might  | **+2**<br>Agility | **+0**<br>Reason  |  **+0**<br>Intuition  |    **+1**<br>Presence    |
+> 🔳 **Breath Weapon (5 Malice)**
+> 
+> | **Area, Magic**            |               **Main action** |
+> |----------------------------|------------------------------:|
+> | **📏 4 x 2 line within 1** | **🎯 Each enemy in the area** |
+> 
+> **Special:** The damage dealt by this ability matches a damage type the draconian has immunity to.
+> 
+> **Power Roll + 3:**
+> 
+> - **≤11:** 6 damage
+> - **12-16:** 10 damage
+> - **17+:** 13 damage
 
-> 🗡 **Barbed Tongues (Signature Ability)**
+> ❇️ **Scaleshatter Burst (7 Malice)**
 > 
-> | **Melee, Strike, Weapon** |               **Main action** |
-> |---------------------------|------------------------------:|
-> | **📏 Melee 2**            | **🎯 One creature or object** |
+> | **Area, Magic** |             **Free maneuver** |
+> |-----------------|------------------------------:|
+> | **📏 2 burst**  | **🎯 Each enemy in the area** |
+>                        
+> **Power Roll + 3:**
 > 
-> **Power Roll + 2:**
+> - **≤11:** 7 damage 
+> - **12-16:** 13 damage
+> - **17+:** 16 damage
 > 
-> - **≤11:** 5 damage; pull 2
-> - **12-16:** 7 damage; pull 3
-> - **17+:** 8 damage; pull 4
-> 
-> **Effect:** If the target is pulled adjacent to the muceron, the muceron can either make a free strike or use the Grab maneuver against them.
+> **Effect:** The draconian's scales shatter from battle damage. The draconian has damage weakness 5 but can take two turns per round until the end of the encounter.
+                        
+####### Aeolyxria the Uncanny 
 
-> 🏹 **Tongue Pull (2 Malice)**
-> 
-> | **Ranged, Strike, Weapon** |                      **Maneuver** |
-> |----------------------------|----------------------------------:|
-> | **📏 Ranged 5**            | **🎯 Three creatures or objects** |
-> 
-> **Effect:** The muceron pulls each target up to 5 squares.
+| Draconian, Dragon, Humanoid |          -          |      Level 6       |   Elite Controller    |        EV 32         |
+|:---------------------------:|:-------------------:|:------------------:|:---------------------:|:--------------------:|
+|       **1M**<br>Size        |   **5**<br>Speed    | **140**<br>Stamina |  **2**<br>Stability   | **7**<br>Free Strike |
+|  **Poison 6**<br>Immunity   | **Fly**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+|       **-1**<br>Might       |  **+2**<br>Agility  |  **+2**<br>Reason  |  **+3**<br>Intuition  |  **+1**<br>Presence  |
 
-> ⭐️ **Lethe**
+> 🏹 **Spittlesplash (Signature Ability)**
 > 
-> While the muceron is winded, they gain an edge on strikes, and any strike made against them gains an edge.
-
-> ⭐️ **Soulsight**
+> | **Ranged, Strike, Weapon** |     **Main action** |
+> |----------------------------|--------------------:|
+> | **📏 Ranged 10**           |  **🎯 Two enemies** |
 > 
-> Any creature within 2 squares of the muceron can't be hidden from them.
-
-####### Remasch
-
-|  Abyssal, Demon   |            -             |      Level 2      |    Horde Ambusher     |           EV 4           |
-|:-----------------:|:------------------------:|:-----------------:|:---------------------:|:------------------------:|
-|  **1S**<br>Size   |      **5**<br>Speed      | **20**<br>Stamina |  **0**<br>Stability   |   **3**<br>Free Strike   |
-| **-**<br>Immunity | **Teleport**<br>Movement |         -         | **-**<br>With Captain | **Holy 3**<br>Weaknesses |
-|  **+0**<br>Might  |    **+2**<br>Agility     | **+0**<br>Reason  |  **+0**<br>Intuition  |    **+2**<br>Presence    |
-
-> 🗡 **Abyssal Strike (Signature Ability)**
+> **Power Roll + 3:**
 > 
-> | **Magic, Melee, Strike, Weapon** |               **Main action** |
-> |----------------------------------|------------------------------:|
-> | **📏 Melee 1**                   | **🎯 One creature or object** |
-> 
-> **Power Roll + 2:**
-> 
-> - **≤11:** 5 damage; the remasch can teleport up to 2 squares
-> - **12-16:** 6 damage; the remasch can teleport up to 3 squares
-> - **17+:** 8 damage; the remasch can teleport up to 5 squares
-> 
-> **5 Malice:** The remasch takes an adjacent creature with them when they teleport. The creature appears in an unoccupied space adjacent to the remasch's destination.
+> - **≤11:** 10 poison damage; M < 1 slowed (save ends)
+> - **12-16:** 15 poison damage; M < 2 slowed (save ends)
+> - **17+:** 18 poison damage; M < 3 slowed (save ends)
 
-> 👤 **Grasping Shadow (3 Malice)**
+> 🏹 **Experimental Treasure**
 > 
-> | **Magic**   | **Maneuver** |
-> |-------------|-------------:|
-> | **📏 Self** |  **🎯 Self** |
+> | **Magic, Ranged, Strike** |                **Main action** |
+> |---------------------------|-------------------------------:|
+> | **📏 Ranged 10**          | **🎯 Two creature or objects** |
 > 
-> **Effect:** The remasch can teleport up to 2 squares and uses Abyssal Strike.
-
-> ⭐️ **Lethe**
+> **Power Roll + 3:**
 > 
-> While the remasch is winded, they gain an edge on strikes, and any strike made against them gains an edge.
-
-> ⭐️ **Soulsight**
+> - **≤11:** The targets regains 10 Stamina.
+> - **12-16:** 12 corruption damage; A < 2 weakened (save ends)
+> - **17+:** 12 lightning damage; A < 2 bleeding (save ends)
 > 
-> Any creature within 2 squares of the remasch can't be hidden from them.
+> **Effect:** The first time in an encounter that Aeolyxria makes a power roll for this ability, she can subsequently use the outcome of that roll instead of rolling whenever she uses this ability until the end of the encounter.
+> 
+> **2+ Malice:** The ability targets one additional target for each 2 Malice spent.
 
-####### Ruinant
+> 🔳 **Elevate (2 Malice)**
+> 
+> | **Area, Ranged**       |   **Maneuver** |
+> |------------------------|---------------:|
+> | **📏 1 cube within 5** | **🎯 Special** |
+> 
+> **Effect:** The ground in the area rises 5 squares, creating a pillar of dirt. Any creature in the area moves with the ground to its new elevation.
+> 
+> **1+ Malice:** Aeolyxria creates an additional pillar for each Malice spent.
 
-|  Abyssal, Demon   |         -         |      Level 1      |     Horde Harrier     |           EV 3           |
-|:-----------------:|:-----------------:|:-----------------:|:---------------------:|:------------------------:|
-|  **1M**<br>Size   |  **6**<br>Speed   | **15**<br>Stamina |  **0**<br>Stability   |   **1**<br>Free Strike   |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **Holy 3**<br>Weaknesses |
-|  **+0**<br>Might  | **+2**<br>Agility | **+0**<br>Reason  |  **+0**<br>Intuition  |    **+1**<br>Presence    |
+> ❗️ **Blood For Blood**
+> 
+> | **Ranged, Weapon** | **Triggered action** |
+> |--------------------|---------------------:|
+> | **📏 Ranged 5**    |  **🎯 One creature** |
+> 
+> **Trigger:** An ally is made bleeding by the target. 
+> 
+> **Power Roll + 3:**
+> 
+> - **≤11:** 7 poison damage; A < 2 bleeding (save ends)
+> - **12-16:** 12 poison damage; A < 3 bleeding (save ends)
+> - **17+:** 15 poison damage; bleeding (save ends)
 
-> 🗡 **Bloodletting Claws (Signature Ability)**
+> ⭐️ **That's Our Opening!**
+> 
+> The Director gains 1 Malice whenever Aeolyxria imposes a condition on an enemy.
+                                                                                            
+####### Locratix the Morningstar                                                                                                   
+                                                                                                                                
+| Draconian, Dragon, Humanoid |          -          |      Level 6       |     Elite Harrier     |        EV 32         |       
+|:---------------------------:|:-------------------:|:------------------:|:---------------------:|:--------------------:|       
+|       **1M**<br>Size        |   **8**<br>Speed    | **160**<br>Stamina |  **2**<br>Stability   | **7**<br>Free Strike |       
+|   **Acid 6**<br>Immunity    | **Fly**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |       
+|       **+1**<br>Might       |  **+3**<br>Agility  |  **+1**<br>Reason  |  **+2**<br>Intuition  |  **+2**<br>Presence  |
+
+> 🗡 **Skewer (Signature Ability)**
 > 
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
-> | **📏 Melee 1**            | **🎯 Two creatures or objects** |
-> 
-> **Power Roll + 2:**
-> 
-> - **≤11:** 3 damage
-> - **12-16:** 4 damage
-> - **17+:** 5 damage; M < 2 bleeding (save ends)
-
-> 🏹 **Salt Wounds (3 Malice)**
-> 
-> | **Magic, Ranged, Strike** |           **Maneuver** |
-> |---------------------------|-----------------------:|
-> | **📏 Ranged 10**          | **🎯 Three creatures** |
-> 
-> **Special:** Each target must be at less than full Stamina.
-> 
-> **Power Roll + 2:**
-> 
-> - **≤11:** 1 corruption damage
-> - **12-16:** 2 corruption damage
-> - **17+:** 3 corruption damage
-
-> ⭐️ **Lethe**
-> 
-> While the ruinant is winded, they gain an edge on strikes, and any strike made against them gains an edge.
-
-> ⭐️ **Soulsight**
-> 
-> Any creature within 2 squares of the ruinant can't be hidden from them.
-
-####### Torlas
-
-|  Abyssal, Demon   |         -         |      Level 1      |   Horde Controller    |           EV 3           |
-|:-----------------:|:-----------------:|:-----------------:|:---------------------:|:------------------------:|
-|  **1S**<br>Size   |  **5**<br>Speed   | **10**<br>Stamina |  **0**<br>Stability   |   **1**<br>Free Strike   |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **Holy 3**<br>Weaknesses |
-|  **+0**<br>Might  | **+1**<br>Agility | **+0**<br>Reason  |  **+0**<br>Intuition  |    **+2**<br>Presence    |
-
-> 🔳 **Floor to Flesh (Signature Ability)**
-> 
-> | **Area, Magic, Ranged** |               **Main action** |
-> |-------------------------|------------------------------:|
-> | **📏 3 cube within 10** | **🎯 Each enemy in the area** |
-> 
-> **Power Roll + 2:**
-> 
-> - **≤11:** Slide 3
-> - **12-16:** Slide 4
-> - **17+:** Slide 5
-> 
-> **Effect:** The ground in the area turns into a morass of spongy flesh before the targets are force moved. Until the start of the torlas's next turn, the area is difficult terrain, and each creature who moves in the area takes 1 damage for each square moved.
-
-> 🏹 **Grasping Tendons**
-> 
-> | **Magic, Ranged** |           **Maneuver** |
-> |-------------------|-----------------------:|
-> | **📏 Ranged 10**  | **🎯 Three creatures** |
-> 
-> **Effect:** The torlas pulls each target up to 3 squares.
-
-> ⭐️ **Lethe**
-> 
-> While the torlas is winded, they gain an edge on strikes, and any strike made against them gains an edge.
-
-> ⭐️ **Soulsight**
-> 
-> Any creature within 2 squares of the torlas can't be hidden from them.
-
-####### Chorogaunt
-
-|  Abyssal, Demon   |         -         |      Level 3       |        Leader         |          EV 20           |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:------------------------:|
-|  **1L**<br>Size   |  **5**<br>Speed   | **120**<br>Stamina |  **2**<br>Stability   |   **5**<br>Free Strike   |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **Holy 5**<br>Weaknesses |
-|  **+2**<br>Might  | **+2**<br>Agility |  **+2**<br>Reason  |  **+2**<br>Intuition  |    **+3**<br>Presence    |
-
-> ❇️ **Agonizing Harmony (Signature Ability)**
-> 
-> | **Area, Weapon** |               **Main action** |
-> |------------------|------------------------------:|
-> | **📏 5 burst**   | **🎯 Each enemy in the area** |
+> | **📏 Melee 1**            | **🎯 Two creatures or objects** | 
 > 
 > **Power Roll + 3:**
 > 
-> - **≤11:** 4 psychic damage; I < 1 slowed (save ends)
-> - **12-16:** 7 psychic damage; I < 2 slowed (save ends)
-> - **17+:** 10 psychic damage; I < 3 slowed (save ends)
+> - **≤11:** 1 10 damage
+> - **12-16:** 2 15 damage; M < 1 slowed (save ends)
+> - **17+:** 3 18 damage; M < 2 slowed (save ends)
 > 
-> **Effect:** One ally within 10 squares of the chorogaunt shifts up to their speed.
+> **Effect:** Locratix deals 6 damage to each creature or object in a 2 x 1 line behind the target.
 
-> ❇️ **Chaotic Entrancing Harmony**
+> 🔳 **Acidic Stun (2 Malice)**
 > 
-> | **Area**        |                  **Maneuver** |
-> |-----------------|------------------------------:|
-> | **📏 10 burst** | **🎯 Each enemy in the area** |
+> | **Area, Magic**            |               **Main action** |
+> |----------------------------|------------------------------:|
+> | **📏 3 x 1 line within 1** | **🎯 Each enemy in the area** |
 > 
-> **Effect:** The chorogaunt slides each target up to 3 squares, ignoring stability.
+> **Power Roll + 3:**
+> 
+> - **≤11:** 7 acid damage; M < 1 dazed (save ends)
+> - **12-16:** 12 acid damage; M < 2 dazed (save ends)
+> - **17+:** 15 acid damage; M < 3 dazed (save ends)
+> 
+> **Effect:** While dazed this way, a target takes an extra 6 damage from Locratix's abilities.
 
-> ❗️ **I Thrive on Pain (3 Malice)**
+> 👤 **Takeoff**
 > 
-> | **Magic**   | **Triggered action** |
+> | **-**       | **Maneuver** |
+> |-------------|-------------:|
+> | **📏 Self** |  **🎯 Self** |
+> 
+> **Effect:** Locratix flies up to her speed. Any creature adjacent to the space on the ground she took off from who has A < 2 is knocked prone.
+
+> ❗️ **Stay Back!**
+> 
+> | **Melee**      |           **Triggered action** |
+> |----------------|-------------------------------:|
+> | **📏 Melee 2** | **🎯 The triggering creature** |
+> 
+> **Trigger:** A creature within distance moves or is forced moved. 
+> 
+> **Power Roll + 3:**
+> 
+> - **≤11:** 7 acid damage; A < 1 the target's speed is 0 (EoT)
+> - **12-16:** 12 acid damage; A < 2 the target's speed is 0 (EoT)
+> - **17+:** 15 acid damage; A < 3 the target's speed is 0 (EoT)
+
+> ⭐️ **Flighty**
+> 
+> When Locratix deals rolled damage to an enemy, that enemy can't use Locratix as the trigger for any of their triggered actions until the start of Locratix's next turn.
+
+> ⭐️ **Absorbing Scales**
+> 
+> When Locratix takes damage of any type for which she has damage immunity, she has damage immunity 6 against the next strike made against her.
+
+####### Lydixavus the Deadeye 
+
+| Draconian, Dragon, Humanoid |          -          |      Level 6       |    Elite Artillery    |        EV 32         |       
+|:---------------------------:|:-------------------:|:------------------:|:---------------------:|:--------------------:|       
+|       **1M**<br>Size        |   **5**<br>Speed    | **140**<br>Stamina |  **2**<br>Stability   | **7**<br>Free Strike |       
+|   **Acid 6**<br>Immunity    | **Fly**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |       
+|       **-1**<br>Might       |  **+3**<br>Agility  |  **+3**<br>Reason  |  **+3**<br>Intuition  |  **+1**<br>Presence  |
+
+> 🏹 **Breathsnipe (Signature Ability)**
+> 
+> | **Ranged, Strike, Weapon** |  **Main action** |
+> |----------------------------|-----------------:|
+> | **📏 Ranged 15**           | **🎯 One enemy** |
+> 
+> **Power Roll + 3:**
+> 
+> - **≤11:** 10 cold damage
+> - **12-16:** 16 cold damage; the target takes a bane on their next strike
+> - **17+:** 19 cold damage; the target has a double bane on their next strike
+
+> 🔳 **Ice Lob**
+> 
+> | **Area, Magic, Ranged** |                          **Main action** |
+> |-------------------------|-----------------------------------------:|
+> | **📏 2 cube within 10** | **🎯 Each enemy and object in the area** |
+> 
+> **Power Roll + 3:**
+> 
+> - **≤11:** 7 cold damage; M < 1 dazed (save ends)
+> - **12-16:** 12 cold damage; M < 2 dazed (save ends)
+> - **17+:** 15 cold damage; M < 3 dazed (save ends)
+
+> 👤 **Parting Gift**
+> 
+> | **-**       | **Maneuver** |
+> |-------------|-------------:|
+> | **📏 Self** |  **🎯 Self** |
+> 
+> **Effect:** Lydixavus flies up to their speed, leaving a size 1S ice mine in the space they took off from. The ice mine explodes when an enemy enters its space, using the power roll for the Ice Lob ability, and target- ing the triggering creature and each creature and object adjacent to the ice mine.
+
+> ❗️ **Wasn't Aiming For You**
+> 
+> | **-**       | **Triggered action** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 > 
-> **Trigger:** The chorogaunt is targeted by a strike.
+> **Trigger:** Lydixavus obtains a tier 1 outcome on their signature ability.
 > 
-> **Effect:** Any damage from the strike is halved, and the chorogaunt's abilities deal an extra 3 damage until the end of their next turn.
+> **Effect:** Lydixavus uses their signature ability again, targeting a creature within 5 squares of the original target.
 
-> ⭐️ **End Effect**
+> ⭐️ **Scorekeeping Scales**
 > 
-> At the end of each of their turns, the chorogaunt can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+> Lydixavus knows the location of every creature who has ever dealt damage to them. If any of those creatures are within 20 squares of Lydixavus, Lydixavus always has line of effect to them as long as a size 1 opening exists between Lydixavus and the target.
 
-> ⭐️ **Lethe**
+####### Myxovidan the Sintaker
+
+| Draconian, Dragon, Humanoid  |          -          |      Level 6       |      Elite Hexer      |        EV 32         |       
+|:----------------------------:|:-------------------:|:------------------:|:---------------------:|:--------------------:|       
+|        **1M**<br>Size        |   **5**<br>Speed    | **140**<br>Stamina |  **2**<br>Stability   | **7**<br>Free Strike |       
+| **Corruption 6**<br>Immunity | **Fly**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |       
+|       **-1**<br>Might        |  **+3**<br>Agility  |  **+2**<br>Reason  |  **+2**<br>Intuition  |  **+1**<br>Presence  |
+
+> 🗡 **Breaking Palm (Signature Ability)**
 > 
-> While the chorogaunt is winded, they gain an edge on strikes, and any strike made against them gains an edge.
-
-> ⭐️ **Soulsight**
-> 
-> Any creature within 2 squares of the chorogaunt can't be hidden from them.
-
-> ☠️ **Frightening Tones (Villain Action 1)**
-> 
-> | **Ranged**       |                **-** |
-> |------------------|---------------------:|
-> | **📏 Ranged 10** | **🎯 Three enemies** |
-> 
-> **Effect:** Each target must choose between taking 5 psychic damage, or being frightened (save ends).
-
-> ☠️ **Bully the Weak (Villain Action 2)**
-> 
-> | **Magic, Ranged** |           **-** |
-> |------------------|----------------:|
-> | **📏 Ranged 10** | **🎯 One ally** |
-> 
-> **Effect:** The chorogaunt kills the target, and each other ally in the encounter deals an extra 3 damage with strikes until the end of the round. The Director gains Malice equal to the number of heroes in the encounter.
-
-> ☠️ **Running Cacophony (Villain Action 3)**
-> 
-> | **Magic**   |       **-** |
-> |-------------|------------:|
-> | **📏 Self** | **🎯 Self** |
-> 
-> **Effect:** The chorogaunt shifts up to their speed, uses Agonizing Harmony, shifts up to their speed, and then uses Agonizing Harmony again.
-
-### Demons-2nd Echelon
-
-As demons consume more souls and their mercurial forms shift into more powerful ones, they begin to evolve more distinct personalities, desires, and intelligence-often based on the souls consumed. Across categories 4 to 6, demons develop a particular taste for certain types of souls, which eventually come to define them should they survive long enough.
-
-**Grulqins** (GRUHL-kinz) consist of a bulbous head, two powerful arms, and a circular serrated blade of bone that runs down the middle of their head.
-
-**Orliq** (or-LEEK) are made of shifting bone plates surrounding a swirling core of corruptive energy.
-
-**Wobalas** (WOH-buh-luss) prefer to kill from afar while protected by allies, firing psychic bolts from bows shaped of their own flesh and sinew.
-
-**Bale eyes**, sometimes called "flesh moons," are colossal floating orbs of roiling, dripping flesh. A weeping seam in that flesh opens to reveal a demonic eye whose gaze turns creatures' mental and physical faculties upside down.
-
-**Fanglings** have bodies overgrown with teeth, fangs, and tusks from countless creatures. They are deadly in close quarters, to attackers and bystanders alike.
-
-**Fiktin** (FIK-ten) are cunning hunters who disguise themselves as mundane objects, leaving a foul-smelling oily red residue wherever they have been. Their true form is a humanoid shape made of red oil.
-
-**Gunge** (GUHNJ) demons are horrifically distended, with maws that can swallow a horse whole. A gunge vomits up bilious slime that traps and dissolves any creature unlucky enough to get caught in it.
-
-**Tourmenauks** (tor-min-AUX) resemble a hulking ape with a dozen or more extra mouths distributed around their body. Though their brute force is formidable, this demon also inflicts raw psychic pain by wailing from their mouths in different voices-often the agonized voices of souls the tormenauk has devoured.
-
-**Lumbering egresses** are mobile masses of warped flesh set around an enormous whirling portal to the demonic realms. Lesser demons pour out through these portals at alarming rates, letting these creatures act as devastating siege engines.
-
-######### Demon Malice (Level 4+ Malice Features)
-
-At the start of any level 4 or higher demon's turn, you can spend Malice to activate one of the following features.
-
-> ⭐️ **Prior Malice Features (3-7 Malice)** 
-> 
-> The demon activates a Malice feature available to demons of level or lower.
-
-> 👤 **Abyssal Jaunt (3 Malice)** 
-> 
-> One demon acting this turn folds space around them, temporarily slipping in and out of the Abyssal Wasteland. Until the start of the demon's next turn, they ignore difficult terrain, can move through solid matter, and don't provoke opportunity attacks by moving. If the demon ends their turn inside solid matter, they are shunted out into the space from which they entered it.
-
-####### Grulqin
-
-|  Abyssal, Demon   |         -         |     Level 4      |                  Minion Brute                  |  EV 6 for four minions   |
-|:-----------------:|:-----------------:|:----------------:|:----------------------------------------------:|:------------------------:|
-|  **1L**<br>Size   |  **8**<br>Speed   | **9**<br>Stamina |               **1**<br>Stability               |   **3**<br>Free Strike   |
-| **-**<br>Immunity | **-**<br>Movement |        -         | **+2 damage bonus to strikes**<br>With Captain | **Holy 5**<br>Weaknesses |
-|  **+3**<br>Might  | **+2**<br>Agility | **-1**<br>Reason |              **-1**<br>Intuition               |    **-1**<br>Presence    |
-
-> 🗡 **Spinning Bone Blade (Signature Ability)**
-> 
-> | **Charge, Melee, Strike, Weapon** |                          **Main action** |
-> |-----------------------------------|-----------------------------------------:|
-> | **📏 Melee 1**                    | **🎯 One creature or object per minion** |
+> | **Melee, Strike, Weapon** |    **Main action** |
+> |---------------------------|-------------------:|
+> | **📏 Melee 1**            | **🎯 Two enemies** |
 > 
 > **Power Roll + 3:**
 > 
-> - **≤11:** 3 damage
-> - **12-16:** 5 damage
-> - **17+:** 7 damage
+> - **≤11:** 10 damage; M < 1 weakened (save ends)
+> - **12-16:** 15 damage; M < 2 weakened (save ends)
+> - **17+:** 18 corruption damage; M < 3 weakened (save ends)
 > 
-> **Effect:** The grulqin gains an edge on this ability if they previously moved 3 or more squares in a straight line on their turn.
+> **2 Malice:** Myxovidan regains Stamina equal to half the damage dealt.
 
-> ⭐️ **Soulsight**
-> 
-> Any creature within 2 squares of the grulqin can't be hidden from them.
-
-####### Orliq
-
-|  Abyssal, Demon   |          -          |     Level 4      |            Minion Harrier             |  EV 6 for four minions   |
-|:-----------------:|:-------------------:|:----------------:|:-------------------------------------:|:------------------------:|
-|  **1T**<br>Size   |   **6**<br>Speed    | **8**<br>Stamina |          **0**<br>Stability           |   **2**<br>Free Strike   |
-| **-**<br>Immunity | **Fly**<br>Movement |        -         | **+2 bonus to speed**<br>With Captain | **Holy 5**<br>Weaknesses |
-|  **-1**<br>Might  |  **+3**<br>Agility  | **+1**<br>Reason |          **+0**<br>Intuition          |    **-1**<br>Presence    |
-
-> 🗡 **Soul Prism (Signature Ability)**
-> 
-> | **Magic, Melee, Strike, Weapon** |                          **Main action** |
-> |----------------------------------|-----------------------------------------:|
-> | **📏 Melee 1**                   | **🎯 One creature or object per minion** |
-> 
-> **Power Roll + 3:**
-> 
-> - **≤11:** 2 corruption damage; slide 2
-> - **12-16:** 4 corruption damage; vertical slide 2
-> - **17+:** 6 corruption damage; vertical slide 2
-
-> ⭐️ **Imposing Energy**
-> 
-> Any enemy who starts their turn with two or more orliq adjacent to them is slowed (EoT).
-
-> ⭐️ **Soulsight**
-> 
-> Any creature within 2 squares of the orliq can't be hidden from them.
-
-####### Wobalas
-
-|  Abyssal, Demon   |         -         |     Level 4      |                Minion Artillery                |  EV 6 for four minions   |
-|:-----------------:|:-----------------:|:----------------:|:----------------------------------------------:|:------------------------:|
-|  **1M**<br>Size   |  **6**<br>Speed   | **7**<br>Stamina |               **0**<br>Stability               |   **3**<br>Free Strike   |
-| **-**<br>Immunity | **-**<br>Movement |        -         | **+2 damage bonus to strikes**<br>With Captain | **Holy 5**<br>Weaknesses |
-|  **+1**<br>Might  | **+3**<br>Agility | **+1**<br>Reason |              **+2**<br>Intuition               |    **+1**<br>Presence    |
-
-> 🏹 **Despair Bolt (Signature Ability)**
-> 
-> | **Magic, Ranged, Strike, Weapon** |                **Main action** |
-> |-----------------------------------|-------------------------------:|
-> | **📏 Ranged 20**                  | **🎯 One creature per minion** |
-> 
-> **Power Roll + 2:**
-> 
-> - **≤11:** 3 psychic damage
-> - **12-16:** 5 psychic damage
-> - **17+:** 7 psychic damage
-> 
-> **Effect:** The target takes a bane on their next strike. If the target is winded, they have a double bane on their next strike instead.
-
-####### Bale Eye
-
-|  Abyssal, Demon   |          -          |      Level 5      |      Horde Hexer      |           EV 7           |
-|:-----------------:|:-------------------:|:-----------------:|:---------------------:|:------------------------:|
-|   **4**<br>Size   |   **6**<br>Speed    | **30**<br>Stamina |  **2**<br>Stability   |   **3**<br>Free Strike   |
-| **-**<br>Immunity | **Fly**<br>Movement |         -         | **-**<br>With Captain | **Holy 5**<br>Weaknesses |
-|  **+0**<br>Might  |  **+0**<br>Agility  | **+3**<br>Reason  |  **+3**<br>Intuition  |    **+3**<br>Presence    |
-
-> 🏹 **Wilting Visions (Signature Ability)**
-> 
-> | **Magic, Ranged, Strike** |     **Main action** |
-> |---------------------------|--------------------:|
-> | **📏 Ranged 15**          | **🎯 One creature** |
-> 
-> **Power Roll + 3:**
-> 
-> - **≤11:** 6 psychic damage
-> - **12-16:** 8 psychic damage
-> - **17+:** 9 psychic damage
-> 
-> **Effect:** The target has corruption weakness 5 (EoT).
-> 
-> **2 Malice:** If the target has I < 2, they have corruption weakness 5 (save ends).
-
-> 🔳 **Demonwarp Tears (5 Malice)**
-> 
-> | **Area, Magic, Ranged** |               **Main action** |
-> |-------------------------|------------------------------:|
-> | **📏 4 cube within 5**  | **🎯 Each enemy in the area** |
-> 
-> **Special:** The bale eye must create the cube beneath themself.
-> 
-> **Power Roll + 3:**
-> 
-> - **≤11:** 3 psychic damage; A < 1 the target is warped (save ends)
-> - **12-16:** 5 psychic damage; A < 2 the target is warped (save ends)
-> - **17+:** 6 psychic damage; A < 3 the target is warped (save ends)
-> 
-> **Effect:** While warped, a creature has a double bane on power rolls using any characteristic higher than 0, and has a double edge on power rolls using any characteristic lower than 0.
-
-> ⭐️ **Lethe**
-> 
-> While the bale eye is winded, they gain an edge on strikes, and any strike made against them gains an edge.
-
-> ⭐️ **Soulsight**
-> 
-> Any creature within 5 squares of the bale eye can't be hidden from them.
-
-####### Fangling
-
-|  Abyssal, Demon   |         -         |      Level 4      |     Horde Harrier     |           EV 6           |
-|:-----------------:|:-----------------:|:-----------------:|:---------------------:|:------------------------:|
-|  **1L**<br>Size   |  **8**<br>Speed   | **30**<br>Stamina |  **0**<br>Stability   |   **2**<br>Free Strike   |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **Holy 5**<br>Weaknesses |
-|  **+3**<br>Might  | **+2**<br>Agility | **+0**<br>Reason  |  **+0**<br>Intuition  |    **+0**<br>Presence    |
-
-> 🗡 **Tooth! Tusk! Claw! (Signature Ability)**
-> 
-> | **Melee, Strike, Weapon** |               **Main action** |
-> |---------------------------|------------------------------:|
-> | **📏 Melee 1**            | **🎯 One creature or object** |
-> 
-> **Power Roll + 3:**
-> 
-> - **≤11:** 5 damage
-> - **12-16:** 7 damage
-> - **17+:** 9 damage
-> 
-> **Effect:** Each enemy adjacent to the fangling takes 2 damage.
-
-> 🔳 **Tumbling Gore (2 Malice)**
-> 
-> | **Area, Weapon**           |                  **Maneuver** |
-> |----------------------------|------------------------------:|
-> | **📏 8 x 3 line within 1** | **🎯 Each enemy in the area** |
-> 
-> e 8 x 3 line within 1 x Each enemy in the area
-> 
-> **Power Roll + 2:**
-> 
-> - **≤11:** 2 damage; pull 1; A < 1 bleeding (save ends)
-> - **12-16:** 3 damage; pull 1; A < 2 bleeding (save ends)
-> - **17+:** 4 damage; pull 1; A < 3 bleeding (save ends)
-
-> ⭐️ **Made of Teeth**
-> 
-> Whenever an adjacent enemy grabs the fangling or uses a melee ability against the fangling, they take 2 damage.
-
-> ⭐️ **Lethe**
-> 
-> While the fangling is winded, they gain an edge on strikes, and any strike made against them gains an edge.
-
-> ⭐️ **Soulsight**
-> 
-> Any creature within 2 squares of the fangling can't be hidden from them
-
-####### Fiktin
-
-|  Abyssal, Demon   |         -         |      Level 5      |    Horde Ambusher     |           EV 7           |
-|:-----------------:|:-----------------:|:-----------------:|:---------------------:|:------------------------:|
-|  **1M**<br>Size   |  **6**<br>Speed   | **35**<br>Stamina |  **0**<br>Stability   |   **3**<br>Free Strike   |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **Holy 5**<br>Weaknesses |
-|  **+2**<br>Might  | **+2**<br>Agility | **+2**<br>Reason  |  **+1**<br>Intuition  |    **+3**<br>Presence    |
-
-> ❇️ **Violent Transformation (Signature Ability)**
+> ❇️ **Expunging Exhalation**
 > 
 > | **Area, Magic** |               **Main action** |
 > |-----------------|------------------------------:|
@@ -570,869 +282,181 @@ At the start of any level 4 or higher demon's turn, you can spend Malice to acti
 > 
 > **Power Roll + 3:**
 > 
-> - **≤11:** 3 corruption damage
-> - **12-16:** 6 corruption damage
-> - **17+:** 7 corruption damage; I < 3 dazed (save ends)
-> 
-> **Effect:** The fiktin violently changes shape, dealing an extra 6 damage to any target they were hidden from with their Aggressive Mimicry ability.
+> - **≤11:** 7 corruption damage; M < 1 the target has corruption weakness 3 (save ends)
+> - **12-16:** 12 corruption damage; M < 2 the target has corruption weakness 3 (save ends)
+> - **17+:** 15 corruption damage; M < 3 the target has corruption weakness 3 (save ends)
 
-> 👤 **Aggressive Mimicry (1 Malice)**
+> 🏹 **Step and Swap**
 > 
-> | **Magic**   | **Maneuver** |
-> |-------------|-------------:|
-> | **📏 Self** |  **🎯 Self** |
+> | **Ranged**      |    **Maneuver** |
+> |-----------------|----------------:|
+> | **📏 Ranged 3** | **🎯 One ally** |
 > 
-> **Effect:** The fiktin transforms into a mundane object of their size or smaller and is automatically hidden. They can revert to their true form as a free maneuver.
+> **Effect:** Myxovidan and the target shift to swap places.
 
-> ⭐️ **Lethe**
-> 
-> While the fiktin is winded, they gain an edge on strikes, and any strike made against them gains an edge.
-
-> ⭐️ **Soulsight**
-> 
-> Any creature within 2 squares of the fiktin can't be hidden from them.
-
-####### Gunge
-
-|  Abyssal, Demon   |         -         |      Level 4      |   Horde Controller    |           EV 6           |
-|:-----------------:|:-----------------:|:-----------------:|:---------------------:|:------------------------:|
-|   **3**<br>Size   |  **6**<br>Speed   | **25**<br>Stamina |  **0**<br>Stability   |   **2**<br>Free Strike   |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **Holy 5**<br>Weaknesses |
-|  **+3**<br>Might  | **+2**<br>Agility | **+1**<br>Reason  |  **+2**<br>Intuition  |    **-1**<br>Presence    |
-
-> 🔳 **Bilious Expulsion (Signature Ability)**
-> 
-> | **Area, Ranged, Weapon**           |                           **Main action** |
-> |------------------------------------|------------------------------------------:|
-> | **📏 1 burst, or 3 cube within 5** | **🎯 One creature or object in the area** |
-> 
-> **Power Roll + 3:**
-> 
-> - **≤11:** 5 acid damage; M < 1 slowed (save ends)
-> - **12-16:** 7 acid damage; M < 2 slowed (save ends)
-> - **17+:** 9 acid damage; M < 3 restrained (save ends)
-> 
-> **Effect:** The ground and any surfaces in the area pool with slime. The slime is difficult terrain for enemies, and any enemy is bleeding while in the area.
-
-> ❗️ **Spew Slide (1 Malice)**
-> 
-> | **-**       | **Free triggered action** |
-> |-------------|--------------------------:|
-> | **📏 Self** |               **🎯 Self** |
-> 
-> **Trigger:** The gunge takes damage from a melee strike.
-> 
-> **Effect:** The gunge vomits with great force, letting them shift up to their speed and ignore any additional effects from the strike. The space the gunge occupied before the shift is covered in slime that is difficult terrain for enemies. Additionally, any enemy is bleeding while in the slime.
-
-> ⭐️ **Lethe**
-> 
-> While the gunge is winded, they gain an edge on strikes, and any strike made against them gains an edge.
-
-> ⭐️ **Soulsight**
-> 
-> Any creature within 2 squares of the gunge can't be hidden from them.
-
-####### Tormenauk
-
-|  Abyssal, Demon   |         -         |      Level 6      |      Horde Brute      |           EV 8           |
-|:-----------------:|:-----------------:|:-----------------:|:---------------------:|:------------------------:|
-|   **2**<br>Size   |  **6**<br>Speed   | **45**<br>Stamina |  **2**<br>Stability   |   **4**<br>Free Strike   |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **Holy 5**<br>Weaknesses |
-|  **+3**<br>Might  | **+0**<br>Agility | **+2**<br>Reason  |  **+1**<br>Intuition  |    **+2**<br>Presence    |
-
-> 🗡 **Many Maws (Signature Ability)**
-> 
-> | **Melee, Strike, Weapon** |               **Main action** |
-> |---------------------------|------------------------------:|
-> | **📏 Melee 1**            | **🎯 One creature or object** |
-> 
-> **Power Roll + 3:**
-> 
-> - **≤11:** 7 damage
-> - **12-16:** 9 damage
-> - **17+:** 11 damage; grabbed, and the target takes a bane on the Escape Grab maneuver
-> 
-> **Effect:** Any target grabbed this way takes 4 psychic damage at the start of each of the tormenauk's turns.
-
-> ❇️ **Agony Wail (5 Malice)**
-> 
-> | **Area, Magic** |                  **Maneuver** |
-> |-----------------|------------------------------:|
-> | **📏 3 burst**  | **🎯 Each enemy in the area** |
-> 
-> **Power Roll + 3:**
-> 
-> - **≤11:** 4 psychic damage; I < 1 dazed (save ends)
-> - **12-16:** 6 psychic damage; I < 2 dazed (save ends)
-> - **17+:** 8 psychic damage; I < 3 dazed (save ends)
-> 
-> **Effect:** The potency increases by 1 if the target is grabbed by the tormenauk.
-
-> ⭐️ **Lethe**
-> 
-> While the tormenauk is winded, they gain an edge on strikes, and any strike made against them gains an edge.
-
-> ⭐️ **Soulsight**
-> 
-> Any creature within 2 squares of the tormenauk can't be hidden from them.
-
-####### Lumbering Egress
-
-|  Abyssal, Demon   |         -         |      Level 6       |        Leader         |          EV 32           |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:------------------------:|
-|   **3**<br>Size   |  **6**<br>Speed   | **180**<br>Stamina |  **3**<br>Stability   |   **7**<br>Free Strike   |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **Holy 5**<br>Weaknesses |
-|  **+4**<br>Might  | **-1**<br>Agility |  **+1**<br>Reason  |  **+2**<br>Intuition  |    **+2**<br>Presence    |
-
-> 🏹 **Ensnarer Cannon (Signature Ability)**
-> 
-> | **Magic, Ranged, Strike** |                 **Main action** |
-> |---------------------------|--------------------------------:|
-> | **📏 Ranged 10**          | **🎯 Two creatures or objects** |
-> 
-> **Power Roll + 4:**
-> 
-> - **≤11:** 11 corruption damage; A < 2 restrained (save ends) 
-> - **12-16:** 16 corruption damage; A < 3 restrained (save ends) 
-> - **17+:** 19 corruption damage; A < 4 restrained (save ends)** |
-> 
-> **2 Malice:** Two ensnarers appear in unoccupied spaces adjacent to each target. On a tier 3 outcome, four ensnarers appear.
-
-> ❇️ **Demonic Egress (2 Malice)**
-> 
-> | **Area**       |   **Maneuver** |
-> |----------------|---------------:|
-> | **📏 3 burst** | **🎯 Special** |
-> 
-> **Effect:** Four level 1 demon minions (most commonly ensnarers, frenzieds, and pitlings) burst forth from the egress and appear in unoccupied spaces in the area.
-> 
-> **2 Malice:** Four level 4 demon minions (most commonly orliq, grulqins, and wobalas) appear instead.
-
-> ❗️ **Abyssal Protectors (2 Malice)**
-> 
-> | **Area, Magic** | **Triggered action** |
-> |-----------------|---------------------:|
-> | **📏 5 burst**  |       **🎯 Special** |
-> 
-> **Trigger:** The last ally minion on the encounter map dies, or the egress is reduced below 25 Stamina.
-> 
-> **Effect:** Eight ensnarers appear anywhere in the area.
-
-> ⭐️ **End Effect**
-> 
-> At the end of each of their turns, the egress can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
-
-> ☠️ **Frenzied Deluge (Villain Action 1)**
-> 
-> | **Ranged**       |                **-** |
-> |------------------|---------------------:|
-> | **📏 Ranged 10** | **🎯 Three enemies** |
-> 
-> **Power Roll + 4:**
-> 
-> - **≤11:** 7 corruption damage 
-> - **12-16:** 2 12 corruption damage 
-> - **17+:** 3 15 corruption damage; two frenzieds appear in unoccupied spaces adjacent to each target
-
-> ☠️ **Fold Space (Villain Action 2)**
-> 
-> | **Ranged**       |       **-** |
-> |------------------|------------:|
-> | **📏 Ranged 20** | **🎯 Self** |
-> 
-> **Effect:** The egress folds into their own portal and teleports to an un occupied space within distance. Four level 4 demon minions (most commonly orliq, grulqins, and wobalas) appear in squares in the egress's former space.
-
-> ☠️ **Blood of the Abyss (Villain Action 3)**
-> 
-> | **Area, Magic**             |                                    **-** |
-> |-----------------------------|-----------------------------------------:|
-> | **📏 10 x 3 line within 1** | **🎯 Each enemy and object in the area** |  
-> 
-> **Power Roll + 4:**
-> 
-> - **≤11:** 6 corruption damage; R < 2 weakened (save ends) 
-> - **12-16:** 2 11 corruption damage; R < 3 weakened (save ends) 
-> - **17+:** 3 14 corruption damage; R < 2 weakened (save ends)
-> 
-> **Effect:** The egress recalls and instantly destroys any minion allies on the encounter map. A torrent of churned-up minion bodies, blood, and ichor erupts from the egress, dealing an extra 1 damage for each minion destroyed this way.
-
-### Demons-3rd Echelon
-
-Demons of categories 7 to 9 continue to mutate in new and unpredictable ways, or are sometimes corrupted and spawned from other powerful creatures to become part of the demonic hierarchy. Additionally, in a plane of chaos, the soulraker demon is notable for fashioning a facsimile of order within themself. These demonic wasps make up a single, chaotic hive mind. They serve a demonic hivequeen, who relies on cannibalizing her children to ingest any souls they've consumed.
-
-**Soulraker scouts** are the vile progeny of a soulraker hivequeen demonic wasps who emerge from her distended abdomen with an earsplitting buzz.
-
-**Soulraker soldiers** are demonic wasps armored in dense chitin who favor driving foes before them.
-
-**Soulraker stingers** are wasps covered in poisonous barbed stingers that they launch like quills, their wings atrophied and unusable.
-
-**Blight phages** were once angelic creatures. Corrupted by demonic forces, each is now a cruel, distended mockery of a cherubic form, covered in pestilent boils that seep ruinous blight.
-
-**Chimerons** (kai-MEHR-ons) are a horrifying amalgam of multiple demonic forms melded into a unique monstrosity, driven by an unslakable hunger for souls.
-
-**Styrichs** (STEE-rix) feature lanky bodies covered with manes of long, razor-sharp hair, which they whip around the battlefield to shred their enemies.
-
-**Soulraker handmaidens** are abyssal parasites implanted in victims by a soulraker hivequeen. Handmaidens gestate inside a host until they're ready to emerge from the body, then consume souls until they're strong enough to transform into a new hivequeen.
-
-**Soulraker praetorians** are the elite guards of a hivequeen, dripping foul-smelling ichor and using their barbed stingers to lay waste to foes.
-
-A **soulraker hivequeen** is a demonic wasp whose abdomen houses their own soulraker wasp hive, and whose stinging ovipositor implants victims with handmaiden parasites.
-
-######### Demon Malice (Level 7+ Malice Features)
-
-At the start of any level 7 or higher demon's turn, you can spend Malice to activate one of the following features.
-
-> ⭐️ **Prior Malice Features (3-7 Malice)**
-> 
-> The demon activates a Malice feature available to demons of level 6 or lower.
-
-> ❇️ **Seeping Blight (5 Malice)**
-> 
-> One demon acting this turn expels blight-digested soul juice onto the ground around them in a 3 burst that lingers until the start of their next turn. Any enemy who enters the area or starts their turn there takes 6 corruption damage, and has a double bane on power rolls until the start of their next turn.
-
-####### Soulraker Scout
-
-| Abyssal, Demon, Soulraker |          -          |      Level 7      |               Minion Harrier                |  EV 9 for four minions   |
-|:-------------------------:|:-------------------:|:-----------------:|:-------------------------------------------:|:------------------------:|
-|      **1M**<br>Size       |   **7**<br>Speed    | **12**<br>Stamina |             **0**<br>Stability              |   **3**<br>Free Strike   |
-|     **-**<br>Immunity     | **Fly**<br>Movement |         -         | **Gain an edge on strikes**<br>With Captain | **Holy 5**<br>Weaknesses |
-|      **+2**<br>Might      |  **+4**<br>Agility  | **+1**<br>Reason  |             **+0**<br>Intuition             |    **-1**<br>Presence    |
-
-> 🗡 **Soul Stinger (Signature Ability)**
-> 
-> | **Melee, Strike, Weapon** |                **Main action** |
-> |---------------------------|-------------------------------:|
-> | **📏 Melee 1**            | **🎯 One creature per minion** |
-> 
-> **Power Roll + 4:**
-> 
-> - **≤11:** 3 poison damage
-> - **12-16:** 6 poison damage; the scout can shift 1 square
-> - **17+:** 7 poison damage; the scout shifts up to 3 squares
-
-> ⭐️ **Abyssal Buzzing**
-> 
-> Any enemy who starts their turn with two or more soulraker minions adjacent to them takes 3 sonic damage.
-
-####### Soulraker Soldier
-
-| Abyssal, Demon, Soulraker |         -         |      Level 7      |                Minion Brute                 |  EV 9 for four minions   |
-|:-------------------------:|:-----------------:|:-----------------:|:-------------------------------------------:|:------------------------:|
-|       **2**<br>Size       |  **6**<br>Speed   | **13**<br>Stamina |             **2**<br>Stability              |   **4**<br>Free Strike   |
-|     **-**<br>Immunity     | **-**<br>Movement |         -         | **Gain an edge on strikes**<br>With Captain | **Holy 5**<br>Weaknesses |
-|      **+4**<br>Might      | **+2**<br>Agility | **-1**<br>Reason  |             **-1**<br>Intuition             |    **-1**<br>Presence    |
-
-> 🗡 **Chitin Bash (Signature Ability)**
-> 
-> | **Melee, Strike, Weapon** |                          **Main action** |
-> |---------------------------|-----------------------------------------:|
-> | **📏 Melee 1**            | **🎯 One creature or object per minion** |
-> 
-> **Power Roll + 4:**
-> 
-> - **≤11:** 4 damage; push 2
-> - **12-16:** 7 damage; push 2
-> - **17+:** 8 damage; push 4
-
-> ⭐️ **Abyssal Buzzing**
-> 
-> Any enemy who starts their turn with two or more soulraker minions adjacent to them takes 3 sonic damage.
-
-####### Soulraker Stinger
-
-| Abyssal, Demon, Soulraker |           -           |      Level 7      |              Minion Artillery               |  EV 9 for four minions   |
-|:-------------------------:|:---------------------:|:-----------------:|:-------------------------------------------:|:------------------------:|
-|      **1M**<br>Size       |    **6**<br>Speed     | **10**<br>Stamina |             **0**<br>Stability              |   **4**<br>Free Strike   |
-|     **-**<br>Immunity     | **Climb**<br>Movement |         -         | **Gain an edge on strikes**<br>With Captain | **Holy 5**<br>Weaknesses |
-|      **+0**<br>Might      |   **-1**<br>Agility   | **+4**<br>Reason  |             **+4**<br>Intuition             |    **+0**<br>Presence    |
-
-> 🏹 **Barb Launch (Signature Ability)**
-> 
-> | **Magic, Ranged, Strike, Weapon** |                **Main action** |
-> |-----------------------------------|-------------------------------:|
-> | **📏 Ranged 20**                  | **🎯 One creature per minion** |
-> 
-> **Power Roll + 4:**
-> 
-> - **≤11:** 4 poison damage
-> - **12-16:** 7 poison damage
-> - **17+:** 8 poison damage
-> 
-> **Effect:** All soulraker demons have concealment from the target until the start of the stinger's next turn.
-
-> ⭐️ **Abyssal Buzzing**
-> 
-> Any enemy who starts their turn with two or more soulraker minions adjacent to them takes 3 sonic damage.
-
-####### Blight Phage
-
-|  Abyssal, Demon   |         -         |      Level 7      |   Horde Controller    |           EV 9           |
-|:-----------------:|:-----------------:|:-----------------:|:---------------------:|:------------------------:|
-|   **3**<br>Size   |  **6**<br>Speed   | **40**<br>Stamina |  **0**<br>Stability   |   **3**<br>Free Strike   |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **Holy 5**<br>Weaknesses |
-|  **+0**<br>Might  | **+0**<br>Agility | **+4**<br>Reason  |  **+2**<br>Intuition  |    **+4**<br>Presence    |
-
-> 🏹 **Blight Pus (Signature Ability)**
-> 
-> | **Magic, Ranged, Strike** |               **Main action** |
-> |---------------------------|------------------------------:|
-> | **📏 Ranged 10**          | **🎯 One creature or object** |
-> 
-> **Power Roll + 4:**
-> 
-> - **≤11:** 7 corruption damage
-> - **12-16:** 10 corruption damage
-> - **17+:** 11 corruption damage
-> 
-> **Effect:** A puddle of blight-digested soul juice-covers the ground in the target's square, which is affected as if by Seeping Blight (see the Level 7+ Demon Malice feature).
-
-> 🔳 **Blight Rain (3 Malice)**
-> 
-> | **Area, Magic**        |                  **Maneuver** |
-> |------------------------|------------------------------:|
-> | **📏 5 cube within 1** | **🎯 Each enemy in the area** |
-> 
-> **Special:** The blight phage must create the cube beneath themself.
-> 
-> **Effect:** The blight phage spins and sheds corruptive blight to fill the area, which is treated as if affected by Seeping Blight.
-> 
-> **2 Malice:** The blight phage chooses three 2 cube areas within 10 squares of the phage. Each area is covered with blight and treated as if affected by Seeping Blight.
-
-> ⭐️ **Lethe**
-> 
-> While the blight phage is winded, they gain an edge on strikes, and any strike made against them gains an edge.
-
-> ⭐️ **Soulsight**
-> 
-> Any creature within 2 squares of the blight phage can't be hidden from them.
-
-####### Chimeron
-
-|  Abyssal, Demon   |         -         |      Level 9      |     Horde Brute      |           EV 9           |
-|:-----------------:|:-----------------:|:-----------------:|:---------------------:|:------------------------:|
-|   **3**<br>Size   |  **6**<br>Speed   | **90**<br>Stamina |  **2**<br>Stability   |   **5**<br>Free Strike   |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **Holy 5**<br>Weaknesses |
-|  **+4**<br>Might  | **+0**<br>Agility | **+2**<br>Reason  |  **+1**<br>Intuition  |    **+2**<br>Presence    |
-
-> 🗡 **Flux Gnash (Signature Ability)**
-> 
-> | **Melee, Strike, Weapon** |               **Main action** |
-> |---------------------------|------------------------------:|
-> | **📏 Melee 2**            | **🎯 One creature or object** |
-> 
-> **Power Roll + 4:**
-> 
-> - **≤11:** 9 cold, fire, or sonic damage
-> - **12-16:** 11 cold, fire, or sonic damage
-> - **17+:** 13 cold, fire, or sonic damage; M < 4 bleeding, dazed, or slowed (save ends)
-> 
-> **Special:** After making the power roll, the chimeron decides what damage type the ability deals and which condition it imposes.
-
-> ❗️ **Pain Absorption (1 Malice)**
+> ❗️ **Anyone Can Do That 2 Malice**
 > 
 > | **-**       | **Triggered action** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 > 
-> **Trigger:** The chimeron is targeted by a damage-dealing strike.
+> **Trigger:** An adjacent creature damages Myxovidan with a melee ability.
 > 
-> **Effect:** The chimeron halves the damage.
+> **Effect:** Myxovidan recreates the ability to use it against the triggering creature. If the ability has a power roll, Myxovidan uses his highest characteristic score for the roll. If Myxovidan gets a higher tier out- come than the triggering creature, the Director gains 2 Malice.
 
-> ⭐️ **Lethe**
+> ⭐️ **Stench of Death**
 > 
-> While the chimeron is winded, they gain an edge on strikes, and any strike made against them gains an edge.
+> Whenever an enemy regains Stamina while within 5 squares of Myxovidan, they regain 3 less Stamina.
 
-> ⭐️ **Soulsight**
+####### Phrrygalax the Subduer
+
+| Draconian, Dragon, Humanoid |          -          |      Level 6       |      Elite Brute      |        EV 32         |       
+|:---------------------------:|:-------------------:|:------------------:|:---------------------:|:--------------------:|       
+|       **1L**<br>Size        |   **5**<br>Speed    | **180**<br>Stamina |  **3**<br>Stability   | **7**<br>Free Strike |       
+|   **Acid 6**<br>Immunity    | **Fly**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |       
+|       **+3**<br>Might       |  **+2**<br>Agility  |  **+0**<br>Reason  |  **+0**<br>Intuition  |  **+3**<br>Presence  |
+
+> 🗡 **Baneful Blade (Signature Ability)**
 > 
-> Any creature within 2 squares of the chimeron can't be hidden from them.
-
-####### Styrich
-
-|  Abyssal, Demon   |         -         |      Level 8      |     Horde Hexer      |          EV 10           |
-|:-----------------:|:-----------------:|:-----------------:|:---------------------:|:------------------------:|
-|  **1L**<br>Size   |  **6**<br>Speed   | **45**<br>Stamina |  **1**<br>Stability   |   **3**<br>Free Strike   |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **Holy 5**<br>Weaknesses |
-|  **+2**<br>Might  | **+4**<br>Agility | **+0**<br>Reason  |  **+2**<br>Intuition  |    **+0**<br>Presence    |
-
-> 🗡 **Hair Whip (Signature Ability)**
+> | **Melee, Strike, Weapon** |                 **Main action** |
+> |---------------------------|--------------------------------:|
+> | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 > 
-> | **Melee, Strike, Weapon** |               **Main action** |
-> |---------------------------|------------------------------:|
-> | **📏 Melee 4**            | **🎯 One creature or object** |
+> **Power Roll + 3:**
+> 
+> - **≤11:** 10 damage
+> - **12-16:** 16 damage; M < 1 bleeding (save ends)
+> - **17+:** 19 damage; M < 2 3 damage, bleeding (save ends)
+
+> ❇️ **Spinning Spit (2 Malice)**
+> 
+> | **Area, Magic** |               **Main action** |
+> |-----------------|------------------------------:|
+> | **📏 1 burst**  | **🎯 Each enemy in the area** |
+> 
+> **Power Roll + 3:**
+> 
+> - **≤11:** 7 fire damage
+> - **12-16:** 13 fire damage
+> - **17+:** 16 fire damage
+
+> 👤 **Heavy Landing**
+> 
+> | **Area**    | **Maneuver** |
+> |-------------|-------------:|
+> | **📏 Self** |  **🎯 Self** |
+> 
+> **Effect:** Phrrygalax flies up to his speed and lands in an unoccupied space on the ground. Each creature adjacent to where he lands who has A < 2 is knocked prone.
+
+> ❗️ **Armor of the Ancients 2 Malice**
+> 
+> | **-**       | **Triggered action** |
+> |-------------|---------------------:|
+> | **📏 Self** |          **🎯 Self** |
+> 
+> **Trigger:** Phrrygalax takes acid, cold, corruption, fire, lightning, or poison damage.
+> 
+> **Effect:** Phrrygalax takes no damage and instead regains the same amount of Stamina. He then swaps his current damage immunity with the triggering damage type.
+
+> ❗️ **Still Your Tongue!**
+> 
+> | **-**       | **Free triggered action** |
+> |-------------|--------------------------:|
+> | **📏 Self** |               **🎯 Self** |
+> 
+> **Trigger:** Phrrygalax hears a creature within 5 squares reciting the oath of Good King Omund's Dragon Phalanx.
+> 
+> **Effect:** Phrrygalax shifts up to his speed and uses Baneful Blade against the triggering creature. That ability deals an extra 7 damage.
+
+> ⭐️ **Oathbreaker's Vengeance**
+> 
+> Whenever Phrrygalax fails a saving throw, he deals an additional 7 damage on his next strike.
+
+####### Dorzinuuth the Base
+
+| Draconian, Dragon, Humanoid |             -              |      Level 6       |        Leader         |        EV 32         |       
+|:---------------------------:|:--------------------------:|:------------------:|:---------------------:|:--------------------:|       
+|        **2**<br>Size        |       **5**<br>Speed       | **180**<br>Stamina |  **3**<br>Stability   | **7**<br>Free Strike |       
+| **Lightning 6**<br>Immunity | **Fly, hover**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |       
+|       **+4**<br>Might       |     **+1**<br>Agility      |  **+1**<br>Reason  |  **+2**<br>Intuition  |  **+3**<br>Presence  |
+
+> 🗡 **Punishing Flail (Signature Ability)**
+> 
+> | **Melee, Strike, Weapon** |                 **Main action** |
+> |---------------------------|--------------------------------:|
+> | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 > 
 > **Power Roll + 4:**
 > 
-> - **≤11:** 7 damage; pull 1
-> - **12-16:** 10 damage; pull 2, grabbed
-> - **17+:** 12 damage; pull 3, grabbed
+> - **≤11:** 11 damage; M < 2 prone
+> - **12-16:** 16 damage; M < 3 prone
+> - **17+:** 19 damage; M < 4 prone
 > 
-> **Effect:** Any target restrained by the styrich's Tangled Nest ability can be pulled the distance determined by the power roll.
+> **2 Malice:** If the target has M < 4, they are also bleeding (save ends).
 
-> ❇️ **Tangled Nest (5 Malice)**
+> 🔳 **I'll Cut A Path**
 > 
-> | **Area**       |                  **Maneuver** |
-> |----------------|------------------------------:|
-> | **📏 4 burst** | **🎯 Each enemy in the area** |
+> | **Area, Weapon**           |                  **Maneuver** |
+> |----------------------------|------------------------------:|
+> | **📏 5 x 2 line within 1** | **🎯 Each enemy in the area** |
+> 
+> **Effect:** Before the power roll is made, Dorzinuuth shifts to an unoccupied space adjacent to the end of the line.
 > 
 > **Power Roll + 4:**
 > 
-> - **≤11:** A < 2 slowed (save ends)
-> - **12-16:** Slowed (EoT) or A < 3 3 damage and restrained (EoT)
-> - **17+:** Restrained (EoT) or A < 4 3 damage and restrained (save ends)
+> - **≤11:** 7 damage
+> - **12-16:** 13 damage; M < 3 prone
+> - **17+:** 15 damage; M < 4 prone
 
-> ⭐️ **Lethe**
+> ❗️ **Watch Your Six!**
 > 
-> While the styrich is winded, they gain an edge on strikes, and any strike made against them gains an edge.
-
-> ⭐️ **Soulsight**
-> 
-> Any creature within 2 squares of the styrich can't be hidden from them.
-
-####### Soulraker Praetorian
-
-| Abyssal, Demon, Soulraker |         -         |      Level 7      |     Horde Harrier     |           EV 9           |
-|:-------------------------:|:-----------------:|:-----------------:|:---------------------:|:------------------------:|
-|      **1L**<br>Size       |  **8**<br>Speed   | **45**<br>Stamina |  **0**<br>Stability   |   **3**<br>Free Strike   |
-|     **-**<br>Immunity     | **-**<br>Movement |         -         | **-**<br>With Captain | **Holy 5**<br>Weaknesses |
-|      **+2**<br>Might      | **+4**<br>Agility | **+0**<br>Reason  |  **+2**<br>Intuition  |    **+0**<br>Presence    |
-
-> 🗡 **Barbed Stinger (Signature Ability)**
-> 
-> | **Melee, Strike, Weapon** |     **Main action** |
-> |---------------------------|--------------------:|
-> | **📏 Melee 2**            | **🎯 One creature** |
-> 
-> **Power Roll + 4:**
-> 
-> - **≤11:** 7 poison damage; push 2
-> - **12-16:** 10 poison damage; push 2
-> - **17+:** 11 poison damage; push 4; A < 4 grabbed
-> 
-> **Effect:** The praetorian can shift into each square the target leaves.
-
-> ❗️ **Stinging Departure (2 Malice)**
-> 
-> | **-**       |           **Triggered action** |
-> |-------------|-------------------------------:|
-> | **📏 Self** | **🎯 The triggering creature** |
-> 
-> **Trigger:** A creature ends the praetorian's grab.
-> 
-> **Effect:** The praetorian makes a free strike against the target, breaks off part of their stinger in the target, and shifts up to half their speed. The target is bleeding until they remove the stinger fragment as a free maneuver, taking 6 damage in the process.
-
-> ⭐️ **Lethe**
-> 
-> While the praetorian is winded, they gain an edge on strikes, and any strike made against them gains an edge.
-
-> ⭐️ **Praetorian Buzzing**
-> 
-> Any creature who starts their turn with two or more praetorians adjacent to them takes 6 sonic damage.
-
-####### Soulraker Handmaiden
-
-| Abyssal, Demon, Soulraker |         -         |      Level 8      |    Horde Ambusher     |          EV 10           |
-|:-------------------------:|:-----------------:|:-----------------:|:---------------------:|:------------------------:|
-|      **1M**<br>Size       |  **0**<br>Speed   | **50**<br>Stamina |  **0**<br>Stability   |   **4**<br>Free Strike   |
-|     **-**<br>Immunity     | **-**<br>Movement |         -         | **-**<br>With Captain | **Holy 5**<br>Weaknesses |
-|      **+3**<br>Might      | **+0**<br>Agility | **+2**<br>Reason  |  **+2**<br>Intuition  |    **+4**<br>Presence    |
-
-> ⭐️ **Implanted Parasite**
-> 
-> A host creature implanted by a soulraker hivequeen's Stinging Ovipositor has no physical or mental signs of the handmaiden gestating inside the host's body.
-> 
-> After 1d3 + 1 weeks of gestation, the handmaiden fully forms inside the host. The handmaiden always moves with and occupies the same space as the host and can't be separated from them. While totally within the creature, the handmaiden doesn't have line of effect to the host or targets outside the host and vice versa. As a maneuver, the handmaiden can emerge from the host as a horrifying tower of flesh and bone that remains attached to the host's insides. While emerged, the handmaiden can use a move action to make the host move up to their speed and has access to the host's signature abilities, using the host's modifiers for any power rolls. The handmaiden has the same Stability as the host. If the handmaiden or host is force moved, the other moves with them. While emerged, the handmaiden can be targeted independently of the host. The handmaiden can retreat totally within the host's body as a maneuver. If the handmaiden dies, their remains separate from the host.
-> 
-> The Find a Cure downtime project in Draw Steel: Heroes can be used to find a cure that removes a handmaiden from a host. The cure kills the handmaiden when consumed.
-
-> 🗡 **Emergent Horrors (Signature Ability)**
-> 
-> | **Melee, Strike, Weapon** |               **Main action** |
-> |---------------------------|------------------------------:|
-> | **📏 Melee 2**            | **🎯 One creature or object** |
-> 
-> **Power Roll + 4:**
-> 
-> - **≤11:** 8 corruption damage
-> - **12-16:** 11 corruption damage
-> - **17+:** 13 corruption damage; M < 4 frightened (save ends)
-> 
-> **Effect:** If the handmaiden was totally within their host's body at the start of this turn, the ability deals an extra 8 damage.
-
-> ⭐️ **Lethe**
-> 
-> While the handmaiden is winded, they gain an edge on strikes, and any strike made against them gains an edge.
-
-####### Soulraker Hivequeen
-
-| Abyssal, Demon, Soulraker |          -          |      Level 9       |        Leader         |          EV 44           |
-|:-------------------------:|:-------------------:|:------------------:|:---------------------:|:------------------------:|
-|       **5**<br>Size       |   **6**<br>Speed    | **240**<br>Stamina |  **2**<br>Stability   |   **9**<br>Free Strike   |
-|     **-**<br>Immunity     | **Fly**<br>Movement |         -          | **-**<br>With Captain | **Holy 5**<br>Weaknesses |
-|      **+5**<br>Might      |  **-1**<br>Agility  |  **+3**<br>Reason  |  **+3**<br>Intuition  |    **+2**<br>Presence    |
-
-> ⚔️ **Stinging Ovipositor (Signature Ability)**
-> 
-> | **Magic, Melee, Ranged, Strike** |      **Main action** | 
-> |----------------------------------|---------------------:|
-> | **📏 Melee 1 or ranged 10**      | **🎯 Two creatures** |
-> 
-> **Power Roll + 5:**
-> 
-> - **≤11:** 14 poison damage; M < 3 bleeding (save ends)
-> - **12-16:** 19 poison damage; M < 4 bleeding (save ends) 
-> - **17+:** 23 poison damage; M < 5 the target is implanted
-> 
-> **Effect:** An implanted target has a soulraker handmaiden parasite gestating in them (see the handmaiden's Implanted Parasite trait).
-
-> ❇️ **Forced Gestation (3 Malice)**
-> 
-> | **Area**        |                                          **Maneuver** |
-> |-----------------|------------------------------------------------------:|
-> | **📏 10 burst** | **🎯 Each implanted handmaiden parasite in the area** |
-> 
-> **Effect:** The hivequeen lets loose a subsonic call to each target, forcing them to immediately emerge from their host's body as a mature soulraker handmaiden and make a free strike.
-
-> ❗️ **For the Queen! (2 Malice)**
-> 
-> | **Area**       | **Triggered action** |
+> | **Melee**      | **Triggered action** |
 > |----------------|---------------------:|
-> | **📏 5 burst** |       **🎯 Special** |
+> | **📏 Melee 1** |      **🎯 One ally** |
 > 
-> **Trigger:** The hivequeen is targeted by a strike for the second time on an attacker's turn, whether by the attacker or another creature acting on the attacker's turn.
+> **Trigger:** An ally within distance takes damage while Dorzinuuth isn't flying.
 > 
-> **Effect:** Two soulraker minions appear within distance.
-> 
-> **2 Malice:** A soulraker praetorian also appears within distance.
+> **Effect:** Dorzinuuth shields the triggering ally with his wings, halving the damage.
 
-> ⭐️ **Cannibal Queen**
+> ⭐️ **End Effect**
 > 
-> At the end of their turn, the hivequeen can consume an adjacent soulraker demon to end one effect on them that can be ended by a saving throw (no action required).
+> At the end of each of his turns, Dorzinuuth can take 10 damage to end one effect on him that can be ended by a saving throw. This damage can't be reduced in any way.
 
-> ⭐️ **Hive Soulsight**
+> ⭐️ **Remember Your Oath**
 > 
-> Any creature within 2 squares of a soulraker demon within 100 miles of the hivequeen can't be hidden from the hivequeen. The hivequeen has line of effect to such creatures.
+> If Dorzinuuth hears a creature recite the Dragon Phalanx oath, he takes a bane on strikes made against that character until the end of the encounter.
 
-> ☠️ **Kicking the Nest (Villain Action 1)**
+> ⭐️ **Sheltering Wings**
 > 
-> | **Area**        |                                    **-** |
-> |-----------------|-----------------------------------------:|
-> | **📏 10 burst** | **🎯 Each soulraker minion in the area** |
-> 
-> **Effect:** Each target can move their speed and make a free strike. If no minions are present, four soulraker minions are summoned into unoccupied spaces within distance before the hivequeen uses this villain action.
+> While Dorzinuuth isn't flying, strikes made against him take a bane.
 
-> ☠️ **Buzz Off! (Villain Action 2)**
->                                   
+> ☠️ **Roaring Gambit (Villain Action 1)**
+> 
 > | **Area**       |                         **-** |
 > |----------------|------------------------------:|
 > | **📏 5 burst** | **🎯 Each enemy in the area** |
 > 
-> **Power Roll + 5:**
+> **Effect:** Dorzinuuth lets loose a powerful roar. Each target makes a **Reason test**.
 > 
-> - **≤11:** Push 3; I < 3 dazed (save ends) 
-> - **12-16:** Push 3; I < 4 dazed (save ends) 
-> - **17+:** 11 sonic damage; push 3; I < 5 dazed (save ends)
-> 
-> **Effect:** The hivequeen shifts up to her speed.
-
-> ☠️ **Bomber Wasp Warfare (Villain Action 3)**
-> 
-> | **Area, Magic, Ranged**       |                         **-** |
-> |-------------------------------|------------------------------:|
-> | **📏 Four 2 cubes within 10** | **🎯 Each enemy in the area** |
-> 
-> **Power Roll + 4:**
-> 
-> - **≤11:** 7 poison damage; M < 3 bleeding (save ends) 
-> - **12-16:** 11 poison damage; M < 4 bleeding (save ends) 
-> - **17+:** 14 poison damage; M < 5 bleeding (save ends)
-
-### Demons-4th Echelon
-
-The more souls a demon consumes, the more they evolve. The more they evolve, the more refined their tastes become, until eventually demons of category 10 can be satisfied only by consuming souls that exemplify particular qualities. Many demons of this category have their tastes honored by their titles, such as Gorgino, the Sensuous Feast; Tyx, the Obliviated Spiral; and Lorikta, the Discarded Dream.
-
-**Optacus** (OHP-tih-cus) demons are abyssal eyes atop a spindly flesh stalk supported by innumerable legs. Able to affix to any surface, they shoot deadly beams of fire at distant foes.
-
-**Tyburakis** (tee-berr-AH-kees) appear as a horrifying cross between a thresher shark and a terror lizard, their tails lined with tiny shark maws that allow them to bite multiple foes at once.
-
-**Unguloids** (UHN-jyl-oids) have a centaur-like form, with a body and head resembling a demonic rhinoceros. They are known for their devastating charge.
-
-**Izyaks** (ee-zi-YAHKS) have a mercurial form that ripples with psionic energy, making these demons appear different to all those who observe them. Their true form is a brain supported on four bone legs.
-
-**Vicisitators** (vih-SIS-ih-tay-tors) are dangerous and horrifically unstable, the flesh and bone of their bodies trapped in a state of perpetual agonizing flux. Their very touch results in excruciating pain as it warps flesh, bone, and soul.
-
-**Aurumvas** (or-UM-vahs) the demon king stands alone among named demons for craving not only wealth, but highly avaricious souls. A towering figure with a stack of crowns atop his ophidian head, he is a vision of opulence, excess, and absolute debasement. He lords over other powerful demons by virtue of the wealth held in his vast vaults in the Abyssal Wasteland, acquired through the slaughter of countless creatures. But even as he gazes upon his riches and supernatural treasures, Aurumvas wants for more. He draws lesser demons and wicked mortals to his service with the promise of minor treasures, knowing full well that one needs to spend wealth to make it. If left unchecked, Aurumvas's servile armies and glittering hoards might one day encompass the entire timescape.
-
-######### Demon Malice (Level 10+ Malice Features)
-
-At the start of any level 10 or higher demon's turn, you can spend Malice to activate one of the following features.
-
-> ⭐️ **Prior Malice Features (3-7 Malice)**
-> 
-> The demon activates a Malice feature available to demons of level 9 or lower.
-
-> ❇️ **Soul Flense (7 Malice)**
-> 
-> One demon acting this turn unleashes their pent-up agony and pain on every non-demon in a 5 burst. Each target makes a **Presence test**.
-> 
-> - **≤11:** 10 corruption damage; the target is soul flensed
-> - **12-16:** The target is soul flensed
+> - **≤11:** Frightened (save ends)
+> - **12-16:** Frightened (EoT)
 > - **17+:** No effect.
 > 
-> **Effect:** The demon removes all conditions and effects on themself that can be ended by a saving throw, and transfers all those effects to each creature soul flensed this way.
+> **Effect:** Each ally in the area gains an edge on their next strike.
 
-####### Optacus
-
-|  Abyssal, Demon   |           -           |     Level 10      |           Minion Artillery            |  EV 12 for four minions  |
-|:-----------------:|:---------------------:|:-----------------:|:-------------------------------------:|:------------------------:|
-|  **1S**<br>Size   |    **6**<br>Speed     | **14**<br>Stamina |          **0**<br>Stability           |   **5**<br>Free Strike   |
-| **-**<br>Immunity | **Climb**<br>Movement |         -         | **+4 bonus to speed**<br>With Captain | **Holy 5**<br>Weaknesses |
-|  **+1**<br>Might  |   **+3**<br>Agility   | **+1**<br>Reason  |          **+5**<br>Intuition          |    **+1**<br>Presence    |
-
-> 🏹 **Optical Flare (Signature Ability)**
+> ☠️ **Wings of Second Wind (Villain Action 2)**
 > 
-> | **Magic, Ranged, Strike, Weapon** |                          **Main action** |
-> |-----------------------------------|-----------------------------------------:|
-> | **📏 Ranged 20**                  | **🎯 One creature or object per minion** |
-> 
-> **Power Roll + 5:**
-> 
-> - **≤11:** 5 fire damage
-> - **12-16:** 8 fire damage
-> - **17+:** 10 fire damage; this damage ignores immunity
-> 
-> **Effect:** This ability ignores concealment. A winded target takes an extra 5 damage.
-
-####### Tyburaki
-
-|  Abyssal, Demon   |          -           |     Level 10      |                 Minion Harrier                 |  EV 12 for four minions  |
-|:-----------------:|:--------------------:|:-----------------:|:----------------------------------------------:|:------------------------:|
-|   **2**<br>Size   |    **8**<br>Speed    | **15**<br>Stamina |               **0**<br>Stability               |   **4**<br>Free Strike   |
-| **-**<br>Immunity | **Swim**<br>Movement |         -         | **+4 damage bonus to strikes**<br>With Captain | **Holy 5**<br>Weaknesses |
-|  **+2**<br>Might  |  **+5**<br>Agility   | **+0**<br>Reason  |              **+3**<br>Intuition               |    **-1**<br>Presence    |
-
-> 🗡 **Tail Bite (Signature Ability)**
-> 
-> | **Melee, Strike, Weapon** |                          **Main action** |
-> |---------------------------|-----------------------------------------:|
-> | **📏 Melee 3**            | **🎯 One creature or object per minion** |
-> 
-> **Power Roll + 5:**
-> 
-> - **≤11:** 4 damage
-> - **12-16:** 7 damage
-> - **17+:** 9 damage
-> 
-> **Effect:** The tyburaki can make a free strike against each enemy adja- cent to the target.
-
-> ⭐️ **Breacher**
-> 
-> While swimming, the tyburaki can jump 5 squares as part of their movement.
-
-> ⭐️ **Soulsight**
-> 
-> Any creature within 2 squares of the tyburaki can't be hidden from them.
-
-####### Unguloid
-
-|  Abyssal, Demon   |         -         |     Level 10      |                   Minion Brute                    |  EV 12 for four minions  |
-|:-----------------:|:-----------------:|:-----------------:|:-------------------------------------------------:|:------------------------:|
-|   **2**<br>Size   |  **8**<br>Speed   | **17**<br>Stamina |                **3**<br>Stability                 |   **5**<br>Free Strike   |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **Have a double edge on strikes**<br>With Captain | **Holy 5**<br>Weaknesses |
-|  **+5**<br>Might  | **+5**<br>Agility | **-1**<br>Reason  |                **-1**<br>Intuition                |    **-1**<br>Presence    |
-
-> 🗡 **Gore Horn (Signature Ability)**
-> 
-> | **Charge, Melee, Strike, Weapon** |                          **Main action** |
-> |-----------------------------------|-----------------------------------------:|
-> | **📏 Melee 1**                    | **🎯 One creature or object per minion** |
-> 
-> **Power Roll + 5:**
-> 
-> - **≤11:** 5 damage; push 2
-> - **12-16:** 8 damage; push 4
-> - **17+:** 10 damage; push 6
-> 
-> **Effect:** If this ability is used as part of a charge for which the unguloid moves 2 squares or more, it deals an extra 10 damage.
-
-> ⭐️ **Soulsight**
-> 
-> Any creature within 2 squares of the unguloid can't be hidden from them.
-
-####### Izyak
-
-|  Abyssal, Demon   |            -             |     Level 10      |   Horde Controller    |          EV 12           |
-|:-----------------:|:------------------------:|:-----------------:|:---------------------:|:------------------------:|
-|   **2**<br>Size   |      **6**<br>Speed      | **55**<br>Stamina |  **0**<br>Stability   |   **4**<br>Free Strike   |
-| **-**<br>Immunity | **Teleport**<br>Movement |         -         | **-**<br>With Captain | **Holy 5**<br>Weaknesses |
-|  **+0**<br>Might  |    **+0**<br>Agility     | **+5**<br>Reason  |  **+2**<br>Intuition  |    **+4**<br>Presence    |
-
-> 🏹 **Nostalgic Wanderlust (Signature Ability)**
-> 
-> | **Psionic, Ranged, Strike** |     **Main action** |
-> |-----------------------------|--------------------:|
-> | **📏 Ranged 10**            | **🎯 One creature** |
-> 
-> **Power Roll + 5:**
-> 
-> - **≤11:** 9 psychic damage; R < 3 restrained (save ends)
-> - **12-16:** 12 psychic damage; R < 4 restrained (save ends)
-> - **17+:** 14 psychic damage; R < 5 restrained (save ends)
-> 
-> **Effect:** The izyak can slide any target restrained this way up to 3 squares.
-> 
-> **3 Malice:** The izyak can vertical slide any target restrained this way up to 6 squares instead. A target left in midair doesn't fall until the restrained condition ends.
-
-> 🔳 **Ruinous Temptation (3 Malice)**
-> 
-> | **Area, Psionic, Ranged** | **Main action** |
-> |---------------------------|------------------------------:|
-> | **📏 4 cube within 10**   | **🎯 Each enemy in the area** |
-> 
-> **Power Roll + 5:**
-> 
-> - **≤11:** 4 psychic damage; I < 3 dazed (save ends)
-> - **12-16:** 7 psychic damage; I < 4 dazed (save ends)
-> - **17+:** 9 psychic damage; I < 5 dazed (save ends)
-> 
-> **Effect:** Any target dazed this way must use a move action to move their speed toward the izyak on their next turn.
-> 
-> **2 Malice:** The area increases to a 6 cube.
-
-> ⭐️ **Lethe**
-> 
-> While the izyak is winded, they gain an edge on strikes, and any strike made against them gains an edge.
-
-> ⭐️ **Soulsight**
-> 
-> Any creature within 2 squares of the izyak can't be hidden from them.
-
-####### Vicisitator
-
-|  Abyssal, Demon   |         -         |     Level 10      |     Horde Harrier     |          EV 12           |
-|:-----------------:|:-----------------:|:-----------------:|:---------------------:|:------------------------:|
-|  **1M**<br>Size   |  **9**<br>Speed   | **60**<br>Stamina |  **0**<br>Stability   |   **4**<br>Free Strike   |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **Holy 5**<br>Weaknesses |
-|  **+4**<br>Might  | **+5**<br>Agility | **-1**<br>Reason  |  **-2**<br>Intuition  |    **-3**<br>Presence    |
-
-> ⚔️ **Warp Touch (Signature Ability)**
-> 
-> | **Magic, Melee, Ranged, Strike, Weapon** |               **Main action** |
-> |------------------------------------------|------------------------------:|
-> | **📏 Melee 1 or ranged 10**              | **🎯 One creature or object** |
-> 
-> **Power Roll + 5:**
-> 
-> - **≤11:** 9 damage
-> - **12-16:** 12 damage
-> - **17+:** 14 damage; I < 5 the target is slowed and weakened (save ends)
-> 
-> **Special:** The effects of being slowed and weakened this way can't be ignored.
-
-> 🔳 **Soul Flay (5 Malice)**
-> 
-> | **Area**                   |                  **Maneuver** |
-> |----------------------------|------------------------------:|                  
-> | **📏 6 x 3 line within 1** | **🎯 Each enemy in the area** |
-> 
-> **Power Roll + 5:**
-> 
-> - **≤11:** 4 psychic damage; P < 3 bleeding (save ends)
-> - **12-16:** 7 psychic damage; P < 4 bleeding (save ends)
-> - **17+:** 9 psychic damage; P < 5 bleeding (save ends)
-> 
-> **Effect:** Any creature who is bleeding from this ability loses 2d6 Stam- ina instead of 1d6.
-
-> ⭐️ **Lethe**
-> 
-> While the vicisitator is winded, they gain an edge on strikes, and any strike made against them gains an edge.
-
-> ⭐️ **Soulsight**
-> 
-> Any creature within 2 squares of the vicisitator can't be hidden from them.
-
-####### Aurumvas
-
-|  Abyssal, Demon   |          -          |      Level 10      |        Leader         |          EV 48           |
-|:-----------------:|:-------------------:|:------------------:|:---------------------:|:------------------------:|
-|   **3**<br>Size   |   **8**<br>Speed    | **260**<br>Stamina |  **2**<br>Stability   |  **10**<br>Free Strike   |
-| **-**<br>Immunity | **Fly**<br>Movement |         -          | **-**<br>With Captain | **Holy 5**<br>Weaknesses |
-|  **+5**<br>Might  |  **+2**<br>Agility  |  **+5**<br>Reason  |  **+3**<br>Intuition  |    **+5**<br>Presence    |
-
-> ⭐️ **Absorb Soul**
-> 
-> Whenever any demon is reduced to 0 Stamina within 10 squares of Aurumvas, the Director gains 1 Malice. Aurumvas loses this trait while he is dazed.
-
-> 🗡 **Greedy Hands (Signature Ability)**
-> 
-> | **Magic, Melee, Strike** |                 **Main action** |
-> |--------------------------|--------------------------------:|
-> | **📏 Melee 2**           | **🎯 Two creatures or objects** |
->
-> **Power Roll + 5:**
-> 
-> - **≤11:** 15 corruption damage; R < 4 weakened (save ends)
-> - **12-16:** 20 corruption damage; R < 5 weakened (save ends)
-> - **17+:** 24 corruption damage; R < 6 weakened (save ends)
-> 
-> **2 Malice:** Aurumvas regains Stamina equal to the damage dealt.
-
-> 🏹 **Covetous Bolts (3 Malice)**
-> 
-> | **Magic, Ranged, Strike** |      **Main action** |
-> |---------------------------|---------------------:|
-> | **📏 Ranged 20**          | **🎯 Two creatures** |
-> 
-> **Power Roll + 5:**
-> 
-> - **≤11:** 15 psychic damage; P < 4 dazed (save ends)
-> - **12-16:** 20 psychic damage; P < 5 dazed (save ends)
-> - **17+:** 24 psychic damage; P < 6 dazed (save ends)
-> 
-> **2 Malice:** While dazed this way, a target can't gain Heroic Resources.
-
-> 🏹 **Greed Is Good (2 Malice)**
-> 
-> | **Ranged**       |   **Maneuver** |
-> |------------------|---------------:|
-> | **📏 Ranged 10** | **🎯 Special** |
-> 
-> **Effect:** Aurumvas chooses a supernatural treasure or an item made of gold and teleports to an unoccupied space adjacent to that object, then ends one effect on him that can be ended by a saving throw.
-
-> ⭐️ **More... More...**
-> 
-> While Aurumvas is winded, he has a double edge on strikes.
-
-> ⭐️ **Soulsight**
-> 
-> Any creature within 5 squares of Aurumvas can't be hidden from him.
-
-> ☠️ **Time Is Money (Villain Action 1)**
-> 
-> | **Area, Magic** |                                 **-** |
+> | **Area**        |                                 **-** |
 > |-----------------|--------------------------------------:|
-> | **📏 20 burst** | **🎯 Self and each ally in the area** |
+> | **📏 10 burst** | **🎯 Self and each ally in the area** |
 > 
-> **Effect:** Aurumvas warps time with his abyssal avarice. Each target can teleport up to their speed and make a free strike.
+> **Effect:** Each target shifts or flies up to their speed and regains 10 Stamina.
 
-> ☠️ **Hostile Acquisition (Villain Action 2)**
+> ☠️ **Snap, Crackle, Pop (Villain Action 3)**
 > 
-> | **Ranged**       |          **-** |
-> |------------------|---------------:|
-> | **📏 Ranged 10** | **🎯 Special** |
+> | **Area, Magic** |                        **-** |
+> |-----------------|-----------------------------:|
+> | **📏 5 burst**  | **🎯 Each ally in the area** |
 > 
-> **Effect:** Aurumvas chooses up to three treasures within distance that he has line of effect to and that aren't artifacts. Until the end of the encounter, ethereal golden snakes swirl around the target treasures. While an affected treasure is worn or held by a hero, each time that hero gains any amount of their Heroic Resource, the Director gains 1 Malice.
-
-> ☠️ **No Matter the Cost (Villain Action 3)**
-> 
-> | **Area, Magic, Ranged**       |                            **-** |
-> |-------------------------------|---------------------------------:|
-> | **📏 Four 3 cubes within 10** | **🎯 Each creature in the area** |
-> 
-> **Effect:** Aurumvas summons treasures from his vaults into the area, then causes them to explode.
-> 
-> **Power Roll + 5:**
-> 
-> - **≤11:** 1 10 fire damage; push 1 
-> - **12-16:** 2 15 fire damage; push 2 
-> - **17+:** 3 19 fire damage; push 3
+> **Effect:** Dorzinuuth covers the targets in an electrifying mesh. Whenever a target takes damage from a melee ability, the attacker takes 6 lightning damage.
 

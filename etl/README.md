@@ -29,6 +29,8 @@
   - Ability metadata
     - type (main action, trigged, etc)
     - consider converting the md to json and extracting fields from there
+    - ability_type
+      - https://steelcompendium.io/compendium/main/Rules/Draw%20Steel%20Heroes%20-%20Unlinked/#heroic-abilities
 - Classification
   - docs for classification on the site (see bottom of this file)
   - count can change on each run - need a registrar

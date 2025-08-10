@@ -97,7 +97,7 @@ run input_md_path output_md_path:
     text = re.sub( r'^\#* ?v \**([A-Z].*)\**', r'\n⚔️ **\1**\n\n', text, flags=re.MULTILINE)
 
     # Power roll in header (statblocks)
-    text = re.sub( r'^(.*) 2d10 ?\+ ?(\d+)(\*\*)', r'\1\3\n**Power Roll + \2**', text, flags=re.MULTILINE)
+    text = re.sub( r'^(.*) 2d10 ?\+ ?(\d+)(\*\*)', r'\1\3\n**Power Roll + \2:**', text, flags=re.MULTILINE)
     text = re.sub( r'^(.*) 2d10 ?\+ ?(\d+) (.+)\*\*', r'\1 (\3)**\n\n**Power Roll + \2:**', text, flags=re.MULTILINE)
 
     # ability table

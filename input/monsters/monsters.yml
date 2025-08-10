@@ -134,3 +134,15 @@ sections:
     file_dpath: 'Monsters/Devils/Features'
     type: 'monster/feature'
 
+  - header_path: monsters/draconians
+    xpath: "//section[@id='monsters']//section[@id='draconians']"
+    file_dpath: 'Monsters/Draconians'
+    type: 'monster/section'
+  - header_path: monsters/draconians
+    xpath: "//section[@id='monsters']//section[@id='draconians']//section[@class='level7']"
+    file_dpath: 'Monsters/Draconians/Statblocks'
+  - header_path: monsters/draconians
+    xpath: "//section[@id='monsters']//section[@id='draconians']//section[@class='level9']"
+    file_dpath: 'Monsters/Draconians/Features'
+    type: 'monster/feature'
+
