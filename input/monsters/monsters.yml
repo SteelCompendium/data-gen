@@ -182,4 +182,16 @@ sections:
     file_dpath: 'Monsters/Elementals/Features'
     type: 'monster/feature'
 
+  - header_path: monsters/elves-high
+    xpath: "//section[@id='monsters']//section[@id='elves-high']"
+    file_dpath: 'Monsters/Elves High'
+    type: 'monster/section'
+  - header_path: monsters/elves-high
+    xpath: "//section[@id='monsters']//section[@id='elves-high']//section[@class='level7']"
+    file_dpath: 'Monsters/Elves High/Statblocks'
+  - header_path: monsters/elves-high
+    xpath: "//section[@id='monsters']//section[@id='elves-high']//section[@class='level9']"
+    file_dpath: 'Monsters/Elves High/Features'
+    type: 'monster/feature'
+
 

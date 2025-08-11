@@ -1,313 +1,568 @@
-## Elementals
+## Elves, High
 
-When the gods formed the mundane world, they took sparks of creation from the roiling plane of Quintessence and gave sentience to some of the multiverse's most basic elements-air, earth, fire, and water. Many elementals contain just one of these components, but can come to embody multiple reagents as they age.
+The children of the solar celestials, the high elves were created to tend to the sun elves as librarians and heralds. Now they sequester themselves away from the world amid the fallen cities of the sky elves, remembering a better age, before the arrival of humans and war to the world made the high elves who they are today.
 
-#### Duality of Form
+#### Glamorous
 
-Elementals are mercurial creatures of creation, destruction, and transformation. Though the deities first created the mundane world, elementals cultivated and shaped it. When a tree, stone, or other aspect of the world doesn't suit an elemental, they break it down with elemental fury then build it anew.
+The high elves hold an unwavering poise worthy of a noble background. They also emit a glamor that allows them to take on physical features and aspects of personality as they desire. Each person sees this glamor slightly differently, emphasizing some details over others based on one's own values and fascinations.
 
-Elementals change like the winds and the tides, and from age to age, they remake themselves to reflect what the world has become. They are protectors armored by stone, lizards ablaze with fire, and sometimes dragons clad in steel.
+#### Loremasters
 
-#### Rebirth and Reformation
+The adage "knowledge is power" is a rough translation of an ancient Hyrallic saying. A closer translation is "knowledge before power." High elves believe knowledge is the pursuit from which all good things flow: life, power, legacy.
 
-When an elemental dies in the mundane world, their spirit returns to Quintessence, where they must rest for decades to regain their strength. Should the spirit return to the mundane world, they take on a form that reflects a creature or other aspect of that plane.
+In their ruined towers, they study ancient history and magic thought long extinct. They revive dead spells and languages and manipulate their use to suit their means. High elves can use this magic for wondrous creations. They can also use it to kill by lifting a finger.
 
-#### Crux of Fire
+#### Elemental Summoners
 
-Cruxes of fire, often called blazecasters, take the form of fiery lizards. They commonly live in hot zones of planar convergence or areas of volcanic activity. These territorial elementals usually question interlopers from afar-and if they don't like the answers, they rain down fire before their foes can draw near.
+Through their studies of ancient magic, many high elves have cultivated a strong bond to elemental creatures and can call upon their aid. In service to high elves, soot crows scout from the sky, living vine walls called brambleguards create labyrinthine barricades, and ceramic horses provide fast transport over long distances.
 
-Though many elementals weave their innate gifts into oral storytelling, cruxes of fire are particularly adroit at animating their stories in silhouettes of flame.
+Many high elves can also summon magical wisps called elemental motes. These sprites enervate their foes against high elf magic and revive fallen elementals in a brilliant flash by sacrificing their own energy.
 
-#### Essence of Storms
+#### Surround and Suppress
 
-At a distance, most would mistake an essence of storms, sometimes known as a galeweaver, for a large bird of prey. This majestic creature is formed from streaks of colored cloud stuff woven into the silhouette of a large eagle or falcon.
+Foes who threaten high elf armies are dealt with quickly and entirely. High elves take advantage of each other's magic to corral enemies together and throw huge waves of destruction upon them. The more exposure a victim has to high elf magic, the more effective that magic is in destroying them. High elf wyrds ensure there's no escape, warping the environment into treacherous pits-and eventually, graveyards.
 
-Galeweavers act as scouts for their handlers or for groups of elementals, and they're usually the first to spot trouble. Insatiably curious, an essence of storms often swoops down to talk when they observe travelers.
+#### Magical Manipulation
 
-#### Essence of Tides
+The high elves practice a tradition of group-casting magic that empowers their abilities as more elves participate. This enables them to extend their spells farther, sometimes even miles away from the caster when an entire platoon works in unison.
 
-An essence of tides looks like a shimmering blue manta ray that glides over land as easily as through water, earning them the common name of tidedrifter. Most common along coastlines, essences of tides enjoy harmless pranks, especially against folk who regularly sail or swim in their waters.
+Many high elves have also collected extensive libraries of tomes over the centuries. Even on the battlefield, an elf can turn to a book to transform a mundane weapon volley into a magical one.
 
-Tidedrifters have a healthy sense of humor that makes it easy to win their friendship-but their relaxed demeanor evaporates if friends or family face threats.
+#### The Unseen Hands
 
-#### Field of Growth
+The Unseen Hands is a sect of high elf radicals who believe they have stumbled upon sky elf texts detailing their downfall at the hands of the sun elves. The story surrounding their purported discoveries has twisted into a narrative decrying modern society for benefiting from the lore accumulated in service to the sun elves. The sect hides among high elf society in plain sight, slowly manipulating nobles as they attempt to dismantle that society and plunge the world into anarchy.
 
-The field of growth takes the form of a massive centipede made of vegetation. Often called verdant primevals, these caretakers of the natural cycle of life (and death) fight those they see as upsetting that cycle. Fields of growth seek not only to destroy undead and those who create them, but to sabotage divine servitors who casually peddle resurrection magic.
+#### The Ordinator
 
-#### Force of Earth
+Being in the presence of a high elf ordinator inspires an ancient fear in those who know high elf history. Occupying a position of both military and clerical authority, an ordinator is capable of focusing a force of high elves to precisely strike an arrow's tip from the other end of the battlefield. These spellcasters are among the most studied elves in their communities and courts, and their strategic minds are matched only by their affinity with elementals. The ordinator is not only an illuminating beacon of command for their platoon; they are a spiritual beacon of hope for their people.
 
-A protective earth elemental, a force of earth resembles a nine-foot-tall great ape formed of dirt and rough stone. They act as guardians and historians when among other elementals, working tirelessly to thwart ills from befalling the group. These elementals are sometimes called earthen bulwarks.
+#### High Elf Languages
 
-#### Elemental Languages
+Most high elves speak Caelian and Hyrallic, with some also speaking Yllyric.
 
-Most elementals speak Low Kuric. Some can use Caelian when they need to.
-
-> It is in changing that we find purpose.
+> **The Ordinator is a Magic Beacon**
 > 
-> Atæshia, Queen of Ash
+> Whenever a high elf ordinator appears on an encounter map, the Chaincast Malice feature is improved and always active. When any elf uses a magic ability as if they were in the ordinator's space, that ability has a double edge.
 
-######### Elemental Malice
+######### High Elf Malice
 
-At the start of any elemental's turn, you can spend Malice to activate one of the following features.
+At the start of any high elf's turn, you can spend Malice to activate one of the following features.
 
-> ⭐️ **Elemental Swap (3 Malice)**
+> 🌀 **Chaincast 3 Malice** 
 > 
-> Two elementals on the encounter map teleport to swap places, and each has damage immunity 2 until the end of the round.
+> Until the end of the round, whenever a high elf uses a magic ability, they can use it as if they were occupying the square of another high elf on the encounter map to whom they have line of effect.
 
-> 👤 **Split (5 Malice)** 
+> 🔳 **Gift From an Accursed Tome (5 Malice)
+>
+> | **Area, Magic**            |               **Main action** |
+> |----------------------------|------------------------------:|
+> | **📏 5 x 1 line within 1** | **🎯 Each enemy in the area** |
 > 
-> An elemental acting this turn cleaves themself into two separate elementals. Each elemental has the same statistics as the original, except that each has half the original's current Stamina and is one size smaller. Both elementals can then shift up to their speed.
-
-> 🏹 **Convocation of Chaos (7 Malice)**
-> 
-> | **Magic, Ranged** |                 **Maneuver** |
-> |-------------------|-----------------------------:|
-> | **📏 Ranged 8**   | **🎯 Self or one elemental** |
-> 
-> **Effect:** Until the end of the encounter, the target has a +5 bonus to speed and a +5 damage bonus to strikes. Additionally, whenever an elemental within the target's line of effect uses an ability with "Convocation" in the name, the target also gains the effects of that ability.
-
-####### Crux of Fire
-
-|       Elemental        |         -         |      Level 3      |    Elite Artillery    |        EV 20         |
-|:----------------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
-|     **1T**<br>Size     |  **6**<br>Speed   | **80**<br>Stamina |  **0**<br>Stability   | **6**<br>Free Strike |
-| **Fire 5**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
-|    **-1**<br>Might     | **+2**<br>Agility | **+0**<br>Reason  |  **+1**<br>Intuition  |  **+2**<br>Presence  |
-
-> 🏹 **Spitfire (Signature Ability)**
-> 
-> | **Magic, Ranged, Strike** |                 **Main action** |
-> |---------------------------|--------------------------------:|
-> | **📏 Ranged 12**          | **🎯 Two creatures or objects** |
+> **Effect:** The high elf chooses a damage type and condition from one of the following combinations: cold damage and slowed, poison damage and weakened, or corruption damage and frightened.
 > 
 > **Power Roll + 2:**
 > 
-> - **≤11:** 8 fire damage
-> - **12-16:** 12 fire damage; a < 1 the target is burning (save ends)
-> - **17+:** 15 fire damage; a < 2 the target is burning (save ends)
+> - **≤11:** 5 damage; R < 1 chosen condition (save ends)
+> - **12-16:** 9 damage; R < 2 chosen condition (save ends)
+> - **17+:** 12 damage; R < 3 chosen condition (save ends)
 > 
-> **Effect:** A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round.
+> **Special:** This ability can't be used by a minion.
 
-> 🏹 **Convocation of Flames**
+> 🌀 **In Defiance of Time (7 Malice)** 
 > 
-> | **Magic, Ranged** |                 **Maneuver** |
-> |-------------------|-----------------------------:|
-> | **📏 Ranged 5**   | **🎯 Self or one elemental** |
-> 
-> **Effect:** Until the start of the crux's next turn, the target has fire immunity 5.
-> 
-> **3 Malice:** Until the end of the encounter, the ground within 3 squares of the target is wreathed in fire. Any enemy who enters that area for the first time in a round or starts their turn there takes 3 fire damage.
+> Until the end of the round, each high elf in the encounter gains a +4 bonus to speed, and whenever a high elf uses an ability against an enemy, each high elf adjacent to that enemy can make a free strike against them.
 
-> ❗️ **Flame Jet (1 Malice)**
-> 
-> | **Magic**   | **Triggered action** |
-> |-------------|---------------------:|
-> | **📏 Self** |          **🎯 Self** |
-> 
-> **Trigger:** The crux takes damage.
-> 
-> **Effect:** The crux ignores any effects associated with the damage and can fly up to their speed. If the crux doesn't end this movement on solid ground, they fall.
+####### Elemental Mote
 
-> ⭐️ **Fickle and Free**
+| Elemental, High Elf, Soulless |          -          |     Level 1      |             Minion Hexer              | EV 3 for four minions |
+|:-----------------------------:|:-------------------:|:----------------:|:-------------------------------------:|:---------------------:|
+|        **1T**<br>Size         |   **5**<br>Speed    | **3**<br>Stamina |          **0**<br>Stability           | **1**<br>Free Strike  |
+|       **-**<br>Immunity       | **Fly**<br>Movement |        -         | **+2 bonus to speed**<br>With Captain |  **-**<br>Weaknesses  |
+|        **0**<br>Might         |  **0**<br>Agility   | **0**<br>Reason  |          **0**<br>Intuition           |  **+2**<br>Presence   |
+
+> 🗡 **Dweomer Plume (Signature Ability)**
 > 
-> The crux can't be restrained, slowed, or knocked prone, and they ignore difficult terrain.
-
-####### Essence of Storms
-
-|          Elemental          |          -          |      Level 3       |     Elite Harrier     |        EV 20         |
-|:---------------------------:|:-------------------:|:------------------:|:---------------------:|:--------------------:|
-|       **1S**<br>Size        |   **8**<br>Speed    | **100**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
-| **Lightning 5**<br>Immunity | **Fly**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
-|       **+1**<br>Might       |  **+2**<br>Agility  |  **-1**<br>Reason  |  **+0**<br>Intuition  |  **+2**<br>Presence  |
-
-> ❇️ **Bluster (Signature Ability)**
+> | **Magic, Melee, Strike** |                          **Main action** |
+> |--------------------------|-----------------------------------------:|
+> | **📏 Melee 2**           | **🎯 One creature or object per minion** |
 > 
-> | **Area, Magic** |               **Main action** |
-> |-----------------|------------------------------:|
-> | **📏 1 burst**  | **🎯 Each enemy in the area** |
+> **Power Roll + 2:**
+> 
+> - **≤11:** 1 damage
+> - **12-16:** 2 damage; R < 1 damage weakness 3 (save ends) 
+> - **17+:** 3 damage; R < 2 damage weakness 3 (save ends)
+
+> ⭐️ **Spark of Life**
+> 
+> On their turn, the mote can leave the encounter in a flash of light to revive one adjacent dead soot crow, brambleguard, or ceramic horse. The revived creature returns with 3 Stamina.
+
+####### High Elf Dawn Mage
+
+| Fey, High Elf, Humanoid |         -         |     Level 1      |                Minion Controller                | EV 3 for four minions |
+|:-----------------------:|:-----------------:|:----------------:|:-----------------------------------------------:|:---------------------:|
+|     **1M**<br>Size      |  **5**<br>Speed   | **3**<br>Stamina |               **0**<br>Stability                | **1**<br>Free Strike  |
+|    **-**<br>Immunity    | **-**<br>Movement |        -         | **+5 bonus to ranged distance**<br>With Captain |  **-**<br>Weaknesses  |
+|     **0**<br>Might      | **0**<br>Agility  | **+2**<br>Reason |               **-1**<br>Intuition               |  **+1**<br>Presence   |
+
+> 🏹 **Bright Bolt (Signature Ability)**
+> 
+> | **Magic, Ranged, Strike** |                          **Main action** |
+> |---------------------------|-----------------------------------------:|
+> | **📏 Ranged 5**           | **🎯 One creature or object per minion** |
+> 
+> **Power Roll + 2:**
+> 
+> - **≤11:** 1 holy damage
+> - **12-16:** 2 holy damage
+> - **17+:** 3 holy damage
+> 
+> **Effect:** Until the start of the dawn mage's next turn, the target can't hide.
+
+> ⭐️ **Otherworldly Grace**
+> 
+> At the start of each of their turns, the dawn mage can choose one effect on them that can be ended by a saving throw. That effect instead ends at the end of their turn.
+
+####### High Elf Quiver
+
+| Fey, High Elf, Humanoid |         -         |     Level 1      |                Minion Artillery                 | EV 3 for four minions |
+|:-----------------------:|:-----------------:|:----------------:|:-----------------------------------------------:|:---------------------:|
+|     **1M**<br>Size      |  **5**<br>Speed   | **3**<br>Stamina |               **0**<br>Stability                | **2**<br>Free Strike  |
+|    **-**<br>Immunity    | **-**<br>Movement |        -         | **+5 bonus to ranged distance**<br>With Captain |  **-**<br>Weaknesses  |
+|     **0**<br>Might      | **+2**<br>Agility | **+1**<br>Reason |               **0**<br>Intuition                |   **0**<br>Presence   |
+
+> 🏹 **Heavy Arrow (Signature Ability)**
+> 
+> | **Ranged, Strike, Weapon** |                          **Main action** |
+> |----------------------------|-----------------------------------------:|
+> | **📏 Ranged 10**           | **🎯 One creature or object per minion** |
+> 
+> **Power Roll + 2:**
+> 
+> - **≤11:** 2 damage
+> - **12-16:** 4 damage
+> - **17+:** 5 damage
+> 
+> **Effect:** Each ally adjacent to the target shifts up to 2 squares
+
+> ⭐️ **Otherworldly Grace**
+> 
+> At the start of each of their turns, the quiver can choose one effect on them that can be ended by a saving throw. They change the duration of the effect to instead end at the end of their turn
+
+####### Soot Crow
+
+| Elemental, High Elf |          -          |     Level 1      |               Minion Harrier                | EV 3 for four minions |
+|:-------------------:|:-------------------:|:----------------:|:-------------------------------------------:|:---------------------:|
+|   **1T**<br>Size    |   **7**<br>Speed    | **4**<br>Stamina |             **0**<br>Stability              | **1**<br>Free Strike  |
+|  **-**<br>Immunity  | **Fly**<br>Movement |        -         | **Gain an edge on strikes**<br>With Captain |  **-**<br>Weaknesses  |
+|   **0**<br>Might    |  **+2**<br>Agility  | **0**<br>Reason  |             **0**<br>Intuition              |  **+1**<br>Presence   |
+
+> 🗡 **Heckle (Signature Ability)**
+> 
+> | **Melee, Strike, Weapon** |                          **Main action** |
+> |---------------------------|-----------------------------------------:|
+> | **📏 Melee 1**            | **🎯 One creature or object per minion** |
+> 
+> **Power Roll + 2:**
+> 
+> - **≤11:** 1 damage
+> - **12-16:** 2 damage
+> - **17+:** 3 damage; taunted (EoT)
+> 
+> **Effect:** Until the end of their turn, the soot crow ignores opportunity attacks from the target.
+
+####### Brambleguard
+
+| Elemental, High Elf |         -         |      Level 2      |   Platoon Defender    |         EV 8         |
+|:-------------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
+|    **2**<br>Size    |  **4**<br>Speed   | **59**<br>Stamina |  **3**<br>Stability   | **4**<br>Free Strike |
+|  **-**<br>Immunity  | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|   **+2**<br>Might   | **0**<br>Agility  |  **0**<br>Reason  |  **0**<br>Intuition   |  **+2**<br>Presence  |
+
+> 🔳 **Wall of Roses (Signature Ability)**
+> 
+> | **Area, Magic**           | **Main action** |
+> |---------------------------|----------------:|
+> | **📏 Special; see below** |     **🎯 Self** |
+> 
+> **Effect:** Until the start of the brambleguard's next turn, their speed is 0 and they extend themself into a 5 wall. Each ally who starts their turn adjacent to the brambleguard regains 5 Stamina and can apply the Magic keyword to their weapon abilities until the end of their turn.
+
+> ❇️ **Whip Frenzy**
+> 
+> | **Area, Weapon** |               **Main action** |
+> |------------------|------------------------------:|
+> | **📏 2 burst**   | **🎯 Each enemy in the area** |
+>   
+> **Power Roll + 2:**               
+> 
+> - **≤11:** 4 damage
+> - **12-16:** 7 damage; push 3
+> - **17+:** 10 damage; push 3; A < 2 bleeding (save ends)
+
+> ⭐️ **Thicket and Thorns**
+> 
+> The brambleguard blocks line of effect for enemies. Each enemy who starts their turn adjacent to a brambleguard takes 4 damage
+
+####### High Elf Bloodletter
+
+| Fey, High Elf, Humanoid |         -         |      Level 1      |   Platoon Ambusher    |         EV 6         |
+|:-----------------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
+|     **1M**<br>Size      |  **7**<br>Speed   | **30**<br>Stamina |  **0**<br>Stability   | **4**<br>Free Strike |
+|    **-**<br>Immunity    | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|     **0**<br>Might      | **+2**<br>Agility |  **0**<br>Reason  |  **+1**<br>Intuition  |  **0**<br>Presence   |
+
+> 🗡 **Razor's Edge (Signature Ability)**
+>
+> | **Melee, Strike, Weapon** |               **Main action** |
+> |---------------------------|------------------------------:|
+> | **📏 Melee 1**            | **🎯 One creature or object** |
+>
+> **Power Roll + 2:**
+>
+> - **≤11:** 6 damage
+> - **12-16:** 9 damage
+> - **17+:** 12 damage; R < 2 bleeding (save ends)
+>
+> **Effect:** The bloodletter and each of their allies has a double edge on abilities targeting a creature bleeding this way.
+
+> ❇️ **Blood Haze (2 Malice)**
+> 
+> | **Area, Magic** |   **Maneuver** |
+> |-----------------|---------------:|
+> | **📏 1 burst**  | **🎯 Special** |
+> 
+> **Effect:** Until the end of the next round, a cloud of blood vapor fills the area. The cloud blocks line of effect for enemies , and any enemy has damage weakness 3 while in the area. The bloodletter can then shift up to their speed, and can attempt to hide if they end that shift with concealment.
+
+> ⭐️ **Otherworldly Grace**
+> 
+> At the start of each of their turns, the bloodletter can choose one effect on them that can be ended by a saving throw. That effect instead ends at the end of their turn.
+
+####### High Elf Deathtouch
+
+| Fey, High Elf, Humanoid |         -         |      Level 2      |   Platoon Artillery   |         EV 8         |
+|:-----------------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
+|     **1M**<br>Size      |  **5**<br>Speed   | **30**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
+|    **-**<br>Immunity    | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|     **+2**<br>Might     | **0**<br>Agility  | **+1**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
+
+> 🏹 **Heartpiercer (Signature Ability)**
+> 
+> | **Ranged, Strike, Weapon** |     **Main action** |
+> |----------------------------|--------------------:|
+> | **📏 Ranged 15**           | **🎯 One creature** |
+> 
+> **Power Roll + 2:**
+> 
+> - **≤11:** 7 damage
+> - **12-16:** 10 damage
+> - **17+:** 13 damage; R < 1 bleeding (save ends); I < 1 frightened (save ends); P < 1 restrained (save ends)
+> 
+> **5 Malice:** The ability takes the Area keyword and loses the Strike keyword, its distance becomes a 3 cube within 10, and it targets each enemy in the area.
+
+> 🗡 **Kiss of Death **
+> 
+> | **Magic, Melee** |            **Maneuver** |
+> |------------------|------------------------:|
+> | **📏 Melee 1**   | **🎯 One willing ally** |
+> 
+> **Effect:** The target has a +5 bonus to speed and automatically obtains a tier 3 outcome on power rolls. They can still roll to determine if they score a critical hit. At the end of their next turn, the target immediately dies.
+
+> ⭐️ **Otherworldly Grace**
+> 
+> At the start of each of their turns, the deathtouch can choose one effect on them that can be ended by a saving throw. That effect instead ends at the end of their turn.
+
+####### High Elf Orbweaver
+
+| Fey, High Elf, Humanoid |         -         |      Level 3      |     Platoon Hexer     |        EV 10         |
+|:-----------------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
+|     **1M**<br>Size      |  **5**<br>Speed   | **40**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
+|    **-**<br>Immunity    | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|     **0**<br>Might      | **0**<br>Agility  | **+2**<br>Reason  |  **+2**<br>Intuition  |  **+2**<br>Presence  |
+
+> 🔳 **Awash (Signature Ability)**
+> 
+> | **Area, Magic**        |                  **Main action** |
+> |------------------------|---------------------------------:|
+> | **📏 3 cube within 1** | **🎯 Each creature in the area** |
+> 
+> **Power Roll + 2:**
+> 
+> - **≤11:** 4 cold damage; M < 0 push 3
+> - **12-16:** 6 cold damage; M < 1 push 5 or prone
+> - **17+:** 9 cold damage; M < 2 slide 5 or prone
+
+> 🏹 **Aetherweb**
+> 
+> | **Magic, Ranged, Strike** |               **Main action** |
+> |---------------------------|------------------------------:|
+> | **📏 Ranged 8**           | **🎯 Two enemies or objects** |
+> 
+> **Power Roll + 2:**
+> 
+> - **≤11:** 5 damage; R < 0 slowed (save ends)
+> - **12-16:** 8 damage; R < 1 slowed (save ends)
+> - **17+:** 11 damage; R < 2 restrained (save ends)
+> 
+> **Effect:** Each enemy within 3 squares of a target suffers the same potency effect as the target unless they are already adjacent to them, or if they immediately shift into an unoccupied space adjacent to the target (no action required).
+
+> ⭐️ **Otherworldly Grace**
+> 
+> At the start of each of their turns, the orbweaver can choose one effect on them that can be ended by a saving throw. That effect instead ends at the end of their turn.
+
+####### High Elf Palinode
+
+|  Fey, High Elf, Humanoid  |         -         |      Level 1      |    Platoon Support    |         EV 6         |
+|:-------------------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
+|      **1M**<br>Size       |  **5**<br>Speed   | **30**<br>Stamina |  **0**<br>Stability   | **3**<br>Free Strike |
+| **Psychic 5**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|      **0**<br>Might       | **0**<br>Agility  |  **0**<br>Reason  |  **+2**<br>Intuition  |  **+1**<br>Presence  |
+
+> 🏹 **Instill Regret (Signature Ability)**
+> 
+> | **Magic, Ranged, Strike** |     **Main action** |
+> |---------------------------|--------------------:|
+> | **📏 Ranged 8**           | **🎯 One creature** |
+> 
+> **Power Roll + 2:**
+> 
+> - **≤11:** 5 psychic damage
+> - **12-16:** 7 psychic damage; I < 1 weakened (save ends)
+> - **17+:** 9 psychic damage; I < 2 weakened (save ends)
+> 
+> **2 Malice:** The potency increases by 1. If the target is weakened this way at the end of the encounter, they can't take a respite activity during their next respite. 
+
+> 🏹 **Recall**
+> 
+> | **Magic, Ranged** |      **Maneuver** |
+> |-------------------|------------------:|
+> | **📏 Ranged 5**   | **🎯 Two allies** |
+> 
+> **Effect:** Each target can teleport to an unoccupied space adjacent to the palinode. The palinode and each target then gain 5 temporary Stamina.
+
+> ⭐️ **Otherworldly Grace**
+> 
+> At the start of each of their turns, the palinode can choose one effect on them that can be ended by a saving throw. That effect instead ends at the end of their turn.
+
+###### High Elf Deployments
+
+> **High Elf Deployments**
+> 
+> High elves are obsessed with knowledge: discovering it, documenting it, and protecting it. While this means that many of them are cloistered in towers with noses buried firmly in ancient tomes, lost knowledge is often found in dangerous ruins or in the collections of powerful individuals with no intent to share. When this happens, strike teams of like- minded high elves deploy to infiltrate and "forcefully acquire" such knowledge.
+> 
+> Many high elves also consider themselves guardians of dangerous or forbidden lore and are ready to defend it with their lives. Many illusory groves and glamoured ruins conceal repositories and powerful warriors sworn to keep these secrets out of the hands of those who would use them for ill.
+> 
+> **High Elf Sample Encounters**
+> 
+> - **Ruin Hunters, 24 EV:** Eight soot crows, eight dawn mages, one palinode, one zephyr
+> - **Grove Guardians, 36 EV:** Eight elemental motes, eight soot crows, one brambleguard, one wyrd, one ceramic horse
+> - **Acquisitor Strike Team, 46 EV:** Eight quivers, eight soot crows, one brambleguard, three bloodletters, one deathtouch
+> - **Relic Wardens, 74 EV:** Sixteen elemental motes, eight dawn mages, two bloodletters, one brambleguard, one palinode, one orbweaver, one ordinator
+
+####### High Elf Wyrd
+
+|  Fey, High Elf, Humanoid  |         -         |      Level 3      |  Platoon Controller   |        EV 10         |
+|:-------------------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
+|      **1M**<br>Size       |  **5**<br>Speed   | **40**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
+| **Psychic 5**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|      **0**<br>Might       | **+1**<br>Agility | **+2**<br>Reason  |  **-1**<br>Intuition  |  **+2**<br>Presence  |
+
+> 🔳 **Twystrd (Signature Ability)**
+> 
+> | **Area, Magic**        |               **Main action** |
+> |------------------------|------------------------------:|
+> | **📏 1 cube within 5** | **🎯 Each enemy in the area** |
+> 
+> **Power Roll + 2:**
+> 
+> - **≤11:** Vertical push 3
+> - **12-16:** Vertical push 5
+> - **17+:** Vertical push 6
+> 
+> **Effect:** For each elemental mote adjacent to the wyrd, the size of the cube increases by 1.
+
+> 🏹 **Summon Elemental (2 Malice)**
+> 
+> | **Ranged**      |   **Maneuver** |
+> |-----------------|---------------:|
+> | **📏 Ranged 5** | **🎯 Special** |
+> 
+> **Effect:** The wyrd summons two elemental motes or two soot crows into unoccupied spaces within distance.
+
+> 🔳 **Wyrd Warp (2 Malice)**
+> 
+> | **Area, Magic**        |   **Maneuver** |
+> |------------------------|---------------:|
+> | **📏 8 wall within 8** | **🎯 Special** |
+> 
+> **Effect:** The wyrd shapes the land in the area as if it were loose clay, either raising the ground or pushing it down to create a trench. Any creature in the area moves with the terrain to its new higher elevation, or falls if the ground is lowered beneath them.
+
+> ⭐️ **Otherworldly Grace**
+> 
+> At the start of each of their turns, the wyrd can choose one effect on them that can be ended by a saving throw. That effect instead ends at the end of their turn.
+
+####### High Elf Zephyr
+
+| Fey, High Elf, Humanoid |         -         |      Level 1      |    Platoon Harrier    |         EV 6         |
+|:-----------------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
+|     **1M**<br>Size      |  **7**<br>Speed   | **30**<br>Stamina |  **0**<br>Stability   | **3**<br>Free Strike |
+|    **-**<br>Immunity    | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|     **0**<br>Might      | **+2**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
+
+> 🗡 **Sweeping Blade (Signature Ability)**
+> 
+> | **Melee, Strike, Weapon** |               **Main action** |
+> |---------------------------|------------------------------:|
+> | **📏 Melee 2**            | **🎯 One creature or object** |
 > 
 > **Power Roll + 2:**
 > 
 > - **≤11:** 5 damage
-> - **12-16:** 5 damage, 4 lightning damage; push 1
-> - **17+:** 5 damage, 7 lightning damage; push 3
+> - **12-16:** 7 damage
+> - **17+:** 9 damage
 > 
-> **Effect:** The essence shifts up to 3 squares before or after using this ability.
+> **Effect:** On a tier 3 outcome, the zephyr can make a free strike against a creature adjacent to the target. If they do so and that creature and the target both have A < 2, the creature and the target are both prone. On any tier outcome, the zephyr can then shift up to 2 squares
 
-> 🏹 **Convocation of Squalls**
+> 👤 **Windwalk**
 > 
-> | **Magic, Ranged** |                 **Maneuver** |
-> |-------------------|-----------------------------:|
-> | **📏 Ranged 5**   | **🎯 Self or one elemental** |
+> | **-**       | **Maneuver** |
+> |-------------|-------------:|
+> | **📏 Self** |  **🎯 Self** |
 > 
-> **Effect:** Until the start of the essence's next turn, the target has lightning immunity 5.
-> 
-> **3 Malice:** Until the end of the encounter, a vortex surrounds the target in a 3 aura. The area is difficult terrain for enemies. Additionally, at the end of each of the target's turns, they can push one creature in the area up to 5 squares.
+> **Effect:** The zephyr flies up to their speed. If they don't end this movment on solid ground, they are prone.
 
-> ❗️ **Thunderclap (1 Malice)**
+> ⭐️ **Like the Wind**
 > 
-> | **Magic, Ranged** |           **Triggered action** |
-> |-------------------|-------------------------------:|
-> | **📏 Ranged 5**   | **🎯 The triggering creature** |
-> 
-> **Trigger:** A creature within distance deals damage to the essence.
-> 
-> **Effect:** The target takes 5 lightning damage.
+> The zephyr doesn't provoke opportunity attacks by moving.
 
-> ⭐️ **Fickle and Free**
+> ⭐️ **Otherworldly Grace**
 > 
-> The essence can't be restrained, slowed, or knocked prone, and they ignore difficult terrain.
+> At the start of each of their turns, the zephyr can choose one effect on them that can be ended by a saving throw. That effect instead ends at the end of their turn.
 
-####### Essence of Tides
+####### High Elf Ordinator
 
-|       Elemental        |          -           |      Level 3      |   Elite Controller    |        EV 20         |
-|:----------------------:|:--------------------:|:-----------------:|:---------------------:|:--------------------:|
-|     **1M**<br>Size     |    **7**<br>Speed    | **80**<br>Stamina |  **1**<br>Stability   | **5**<br>Free Strike |
-| **Cold 5**<br>Immunity | **Swim**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
-|    **+2**<br>Might     |  **+0**<br>Agility   | **+1**<br>Reason  |  **-1**<br>Intuition  |  **+2**<br>Presence  |
+| Fey, High Elf, Humanoid |          -          |      Level 3       |        Leader         |        EV 20         |
+|:-----------------------:|:-------------------:|:------------------:|:---------------------:|:--------------------:|
+|     **1M**<br>Size      |   **5**<br>Speed    | **120**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
+|    **-**<br>Immunity    | **Fly**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+|     **0**<br>Might      |  **+2**<br>Agility  |  **+3**<br>Reason  |  **+2**<br>Intuition  |  **+3**<br>Presence  |
 
-> 🗡 **Water Wing (Signature Ability)**
+> 🏹 **Lightning Rod (Signature Ability)**
 > 
-> | **Magic, Melee, Strike** |                 **Main action** |
-> |--------------------------|--------------------------------:|
-> | **📏 Melee 1**           | **🎯 Two creatures or objects** |
+> | **Magic, Ranged, Strike** |               **Main action** |
+> |---------------------------|------------------------------:|
+> | **📏 Ranged 10**          | **🎯 One creature or object** |
+> 
+> **Power Roll + 3:**
+> 
+> - **≤11:** 9 lightning damage; R < 1 dazed (save ends)
+> - **12-16:** 14 lightning damage; R < 2 dazed (save ends)
+> - **17+:** 17 lightning damage; R < 3 dazed (save ends)
+> 
+> **Effect:** Until the start of the ordinator's next turn, each ally high elf in the encounter gains an edge on ability rolls against the target.
+
+> ❇️ **Elemental Uproar**
+> 
+> | **Area, Magic** |                           **Maneuver** |
+> |-----------------|---------------------------------------:|
+> | **📏 10 burst** | **🎯 Each elemental ally in the area** |
+> 
+> **Effect:** Each target can move up to their speed or make a free strike. Elemental mote targets can, instead, use their Spark of Life trait.
+
+> 🏹 **Summon Elemental (2 Malice)**
+> 
+> | **Ranged**       |   **Maneuver** |
+> |------------------|---------------:|
+> | **📏 Ranged 10** | **🎯 Special** |
+> 
+> **Effect:** The ordinator summons four elemental motes or four soot crows into unoccupied space within distance.
+> 
+> **3 Malice:** The ordinator instead summons one ceramic horse or one winded brambleguard into an unoccupied space within distance.
+
+> ❗️ **Enough!**
+> 
+> | **Ranged**       |        **Triggered action** |
+> |------------------|----------------------------:|
+> | **📏 Ranged 10** | **🎯 The triggering enemy** |
+> 
+> **Trigger:** An enemy within distance uses an ability against the ordinator or any ally within distance.
+> 
+> **Effect:** The ordinator uses Lightning Rod against the target after the ability is resolved.
+
+> ⭐️ **Otherworldly Blessing**
+> 
+> At the start of each of their turns, the ordinator can choose one or more effects on them that can be ended by a saving throw. The effects instead end at the end of the ordinator's turn
+
+> ☠️ **Fountains Roar, Now Free From the Earth (Villain Action 1)**
+> 
+> | **Area, Magic** |                        **-** |
+> |-----------------|-----------------------------:|
+> | **📏 10 burst** | **🎯 Each ally in the area** |
+> 
+> **Effect:** Each target glows briefly, and can end one effect on themself then move up to their speed.
+
+> ☠️ **And the Sun Forsook Her Children (Villain Action 2)**
+> 
+> | **Area, Magic, Ranged** |                         **-** |
+> |-------------------------|------------------------------:|
+> | **📏 5 cube within 10** | **🎯 Each enemy in the area** |
+> 
+> **Effect:** Each target makes a **Presence test**.
+> 
+> - **≤11:** 12 corruption damage; pull 5 toward the center of the cube
+> - **12-16:** 9 corruption damage; pull 3 toward the center of the cube
+> - **17+:** Pull 1 toward the center of the cube
+> 
+> **Effect:** The area turns dark and distorted, and is difficult terrain for enemies.
+
+> ☠️ **But We Will Change Her Mind (Villain Action 3)**
+> 
+> | **Area, Magic** |                                 **-** |
+> |-----------------|--------------------------------------:|
+> | **📏 10 burst** | **🎯 Self and each ally in the area** |
+> 
+> **Effect:** Each target's free strike now has the Magic keyword and can target two creatures or objects. Additionally, each target glows with magic.
+
+####### Ceramic Horse
+
+| Elemental, High Elf |         -         |      Level 1      |     Platoon Mount     |         EV 6         |
+|:-------------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
+|    **2**<br>Size    |  **10**<br>Speed  | **30**<br>Stamina |  **2**<br>Stability   | **3**<br>Free Strike |
+|  **-**<br>Immunity  | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|   **+2**<br>Might   | **+2**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
+
+> 🗡 **Elemental Charge (Signature Ability)**
+> 
+> | **Charge, Melee, Strike, Weapon** |               **Main action** |
+> |-----------------------------------|------------------------------:|
+> | **📏 Melee 1**                    | **🎯 One creature or object** |
 > 
 > **Power Roll + 2:**
 > 
-> - **≤11:** 7 damage; slide 1
-> - **12-16:** 11 damage; slide 2
-> - **17+:** 14 damage; slide 3
-> 
-> **Effect:** If a target has P < 2, their stability is reduced to 0 and they move 2 additional squares whenever they are force moved (save ends).
+> - **≤11:** 5 damage
+> - **12-16:** 7 fire damage
+> - **17+:** 9 lightning damage; M < 2 prone
 
-> 🏹 **Convocation of Waves**
+> ❇️ **Stomp**
 > 
-> | **Magic, Ranged** |                 **Maneuver** |
-> |-------------------|-----------------------------:|
-> | **📏 Ranged 5**   | **🎯 Self or one elemental** |
-> 
-> **Effect:** Until the start of the essence's next turn, the target has cold immunity 5.
-> 
-> **3 Malice:** Until the end of the encounter, the ground within 1 square of the target is a pool of water that is difficult terrain. This water extends out behind the target as they move, creating a stream that lasts until the end of the encounter. Any enemy who ends their turn in the stream and has m < 2 is slowed (save ends).
-
-> ❗️ **Sea-Salted Wounds (1 Malice)**
-> 
-> | **Melee**      | **Triggered action** |
-> |----------------|---------------------:|
-> | **📏 Melee 1** |     **🎯 One enemy** |
-> 
-> **Trigger:** An ally deals rolled damage to the target.
-> 
-> **Effect:** The essence makes a free strike against the target.
-
-> ⭐️ **Fickle and Free**
-> 
-> The essence can't be restrained, slowed, or knocked prone, and they ignore difficult terrain.
-
-> ⭐️ **Water Glide**
-> 
-> Whenever the essence starts their turn in a space containing water, they can fly until the end of their turn. While flying, the essence doesn't provoke opportunity attacks.
-
-####### Field of Growth
-
-|        Elemental         |           -           |      Level 3       |   Elite Controller    |        EV 28         |
-|:------------------------:|:---------------------:|:------------------:|:---------------------:|:--------------------:|
-|      **3**<br>Size       |    **8**<br>Speed     | **120**<br>Stamina |  **2**<br>Stability   | **6**<br>Free Strike |
-| **Poison 5**<br>Immunity | **Climb**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
-|     **+2**<br>Might      |   **+0**<br>Agility   |  **+0**<br>Reason  |  **+2**<br>Intuition  |  **+2**<br>Presence  |
-
-> 🏹 **Hampering Roots (Signature Ability)**
-> 
-> | **Magic, Ranged, Strike** |                 **Main action** |
-> |---------------------------|--------------------------------:|
-> | **📏 Ranged 8**           | **🎯 Two creatures or objects** |
+> | **Area, Weapon** |               **Main action** |
+> |------------------|------------------------------:|
+> | **📏 1 burst**   | **🎯 Each enemy in the area** |
 > 
 > **Power Roll + 2:**
 > 
-> - **≤11:** 8 damage
-> - **12-16:** 13 damage; r < 1 prone and can't stand (save ends)
-> - **17+:** 16 damage; r < 2 prone and can't stand (save ends)
+> - **≤11:** 3 damage
+> - **12-16:** 5 damage
+> - **17+:** 7 damage
 > 
-> **Effect:** If a target made prone this way is already prone, they are instead restrained (save ends). If the target was also unable to stand, that effect ends when they are no longer restrained this way.
+> **Effect:** Any target who is prone takes an extra 2 damage.
 
-> 🏹 **Convocation of Verdure**
+> 👤 **Buck (2 Malice)**
 > 
-> | **Magic, Ranged** |                 **Maneuver** |
-> |-------------------|-----------------------------:|
-> | **📏 Ranged 5**   | **🎯 Self or one elemental** |
+> | **-**       |              **Maneuver** |
+> |-------------|--------------------------:|
+> | **📏 Self** |  **🎯 The horse's rider** |
 > 
-> **Effect:** The target gains 15 temporary Stamina that lasts until the start of the field's next turn.
-> 
-> **3 Malice:** Until the end of the encounter, the ground within 1 square of the target is overgrown with underbrush and vines. Whenever any enemy makes a strike against the target while within line of effect of that area, the enemy is pulled 5 squares toward the area after the strike is resolved. Any enemy who enters the area for the first time in a round or starts their turn there is knocked prone.
+> **Effect:** The horse vertical slides the target up to 3 squares, ignoring stability. The target can use a ranged ability at any point during this forced movement, and takes no damage if they then fall.
 
-> ❗️ **Rose Thorn Lash (1 Malice)**
+> ⭐️ **Shared Otherworldly Grace**
 > 
-> | **Magic, Melee** |                     **Triggered action** |
-> |------------------|-----------------------------------------:|
-> | **📏 Melee 3**   | **🎯 The triggering creature or object** |
-> 
-> **Trigger:** A creature or object within distance deals damage to the field.
-> 
-> **Effect:** The target takes 6 damage, and if they have a < 2, they are bleeding (save ends).
-
-> ⭐️ **Fickle and Free**
-> 
-> The field can't be restrained, slowed, or knocked prone, and they ignore difficult terrain.
-
-> ⭐️ **Roots Run Deep**
-> 
-> The field can target any creature touching the ground with their abilities, even if they don't have line of effect to that creature.
-
-####### Force of Earth
-
-|     Elemental     |           -            |      Level 3       |      Elite Brute      |        EV 20         |
-|:-----------------:|:----------------------:|:------------------:|:---------------------:|:--------------------:|
-|   **2**<br>Size   |     **5**<br>Speed     | **132**<br>Stamina |  **2**<br>Stability   | **6**<br>Free Strike |
-| **-**<br>Immunity | **Burrow**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
-|  **+2**<br>Might  |   **-1**<br>Agility    |  **+0**<br>Reason  |  **+1**<br>Intuition  |  **+2**<br>Presence  |
-
-> 🗡 **Slam Into Dirt (Signature Ability)**
-> 
-> | **Melee, Strike, Weapon** |                 **Main action** |
-> |---------------------------|--------------------------------:|
-> | **📏 Melee 2**            | **🎯 Two creatures or objects** |
-> 
-> **Power Roll + 2:**
-> 
-> - **≤11:** 8 damage
-> - **12-16:** 12 damage; m < 1 restrained (save ends)
-> - **17+:** 15 damage; m < 2 restrained (save ends)
-> 
-> **Effect:** The target's space is difficult terrain.
-
-> 🏹 **Convocation of Quartz**
-> 
-> | **Magic, Ranged** |                 **Maneuver** |
-> |-------------------|-----------------------------:|
-> | **📏 Ranged 5**   | **🎯 Self or one elemental** |
-> 
-> **Effect:** Until the start of the force's next turn, any melee strike made against the target takes a bane if it doesn't already have a bane or double bane.
-> 
-> **3 Malice:** Until the end of the encounter, the target grows a carapace of stone. They have a +3 bonus to stability and gain 15 temporary Stamina.
-
-> ❗️ **Break Armor (1 Malice)**
-> 
-> | **-**       | **Triggered action** |
-> |-------------|---------------------:|
-> | **📏 Self** |          **🎯 Self** |
-> 
-> **Trigger:** The force takes damage.
-> 
-> **Effect:** The force halves the damage, and has damage weakness 3 and a +3 bonus to speed until the end of the encounter. This damage weakness increases by 3 each time the force uses this ability in the same encounter.
-
-> ⭐️ **Fickle and Free**
-> 
-> The force can't be restrained, slowed, or knocked prone, and they ignore difficult terrain.
-
-> ⭐️ **Primordial Strength**
-> 
-> The force's strikes gain a +6 damage bonus against objects.
-
-> ⭐️ **Stone Swim**
-> 
-> The force can burrow through stone, but can't drag other creatures underground when they do so.
+> If the ceramic horse's rider has the Otherworldly Grace trait, the ceramic horse also has that trait.
