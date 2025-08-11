@@ -36,6 +36,9 @@
   - count can change on each run - need a registrar
   - count isnt sorted
 - translate the site to other langauges
+- People have been complainign about the layout being difficult
+  - Colors are lacking (compared to the monster statblocks)
+    - Different colors for traits, signature abilities, heroic abilities, etc (match with the excel spreadsheet?)
 
 #### Monsters
 
