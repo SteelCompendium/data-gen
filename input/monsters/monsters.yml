@@ -158,3 +158,16 @@ sections:
     file_dpath: 'Monsters/Dragons/Features'
     type: 'monster/feature'
 
+  - header_path: monsters/dwarves
+    xpath: "//section[@id='monsters']//section[@id='dwarves']"
+    file_dpath: 'Monsters/Dwarves'
+    type: 'monster/section'
+  - header_path: monsters/dwarves
+    xpath: "//section[@id='monsters']//section[@id='dwarves']//section[@class='level7']"
+    file_dpath: 'Monsters/Dwarves/Statblocks'
+  - header_path: monsters/dwarves
+    xpath: "//section[@id='monsters']//section[@id='dwarves']//section[@class='level9']"
+    file_dpath: 'Monsters/Dwarves/Features'
+    type: 'monster/feature'
+
+
