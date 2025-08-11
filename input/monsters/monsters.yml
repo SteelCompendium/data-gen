@@ -170,4 +170,16 @@ sections:
     file_dpath: 'Monsters/Dwarves/Features'
     type: 'monster/feature'
 
+  - header_path: monsters/elementals
+    xpath: "//section[@id='monsters']//section[@id='elementals']"
+    file_dpath: 'Monsters/Elementals'
+    type: 'monster/section'
+  - header_path: monsters/elementals
+    xpath: "//section[@id='monsters']//section[@id='elementals']//section[@class='level7']"
+    file_dpath: 'Monsters/Elementals/Statblocks'
+  - header_path: monsters/elementals
+    xpath: "//section[@id='monsters']//section[@id='elementals']//section[@class='level9']"
+    file_dpath: 'Monsters/Elementals/Features'
+    type: 'monster/feature'
+
 

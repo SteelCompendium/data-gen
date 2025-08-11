@@ -1,589 +1,353 @@
-## Dwarves
+## Elementals
 
-Possessed of a strength that belies their size, dwarves have flesh infused with stone-a silico-organic hybrid that makes them physically denser than humans or elves. They enjoy a reputation in Orden as savvy engineers and technologists thanks to the lore they inherited from their elder siblings, the long-extinct steel dwarves.
+When the gods formed the mundane world, they took sparks of creation from the roiling plane of Quintessence and gave sentience to some of the multiverse's most basic elements-air, earth, fire, and water. Many elementals contain just one of these components, but can come to embody multiple reagents as they age.
 
-They are the children of the Elder God Ord. A common phrase among the dwarves is "Ord made the world." Their way of saying, "What will be, will be." Dwarves take great pride in knowing that along with Aan, Eth, and Kul, their god created the mundane world, and many dwarves leave their homes to see the world and seek glory in Ord's name.
+#### Duality of Form
 
-### Tools of the Trade
+Elementals are mercurial creatures of creation, destruction, and transformation. Though the deities first created the mundane world, elementals cultivated and shaped it. When a tree, stone, or other aspect of the world doesn't suit an elemental, they break it down with elemental fury then build it anew.
 
-Those raised within dwarven enclaves have a relationship with technology not found in many other places on Orden. The gifts of the steel dwarves are many in number, but the most prominent is that of pneumatic steam power.
+Elementals change like the winds and the tides, and from age to age, they remake themselves to reflect what the world has become. They are protectors armored by stone, lizards ablaze with fire, and sometimes dragons clad in steel.
 
-Dwarves have incorporated steam into much of their warfare and weaponry, making them deadly opponents. But like all technology, it's a double-headed hammer. As much as they use steam for destruction, construction is where it truly shines. Creating the formidable and brutalist facades common to dwarven architecture is made much easier with the use of tools designed to utilize pneumatic power. Some of the larger and more metropolitan dwarven cities are rumored to power wealthier districts using steam from geothermal vents.
+#### Rebirth and Reformation
 
-### Innovative Operation
+When an elemental dies in the mundane world, their spirit returns to Quintessence, where they must rest for decades to regain their strength. Should the spirit return to the mundane world, they take on a form that reflects a creature or other aspect of that plane.
 
-The dwarves have yet to crack all the secrets of the valok, the autonomous machines that were their ancestors' greatest achievement, but they've made great strides in researching them. They've innovated ways to repurpose, recycle, and reverse engineer (to a limited degree) valok assemblage, giving rise to a new multifaceted occupation: the operator.
+#### Crux of Fire
 
-Operators now span the world and come from all walks of life, but the first among them were dwarves who built powered suits from excavated valok parts. These suits were initially used for construction and utility purposes, but can be repurposed and refitted for warfare when the need arises.
+Cruxes of fire, often called blazecasters, take the form of fiery lizards. They commonly live in hot zones of planar convergence or areas of volcanic activity. These territorial elementals usually question interlopers from afar-and if they don't like the answers, they rain down fire before their foes can draw near.
 
-Word of these wonderous dwarven creations quickly spread among the tunnels of the underground, and up into the overworld. This led to a brief arms race where artisans, craftspeople, and smiths from all over were commissioned by wealthy rulers and aristocrats to create mechanized suits to bolster their armies and personal guard.
+Though many elementals weave their innate gifts into oral storytelling, cruxes of fire are particularly adroit at animating their stories in silhouettes of flame.
 
-### The Press-Gangs of Kal Kalavar
+#### Essence of Storms
 
-Before Ajax came to power, the dwarves of Kal Kalavar were renowned for their disciplined constabulary. The constables were kind, kept order, and kept the city safe.
+At a distance, most would mistake an essence of storms, sometimes known as a galeweaver, for a large bird of prey. This majestic creature is formed from streaks of colored cloud stuff woven into the silhouette of a large eagle or falcon.
 
-But now, the dwarves of Kal Kalavar have submitted to Ajax's rule and pay him tribute in prisoners. Ajax has need of bodies, to be used as either forced labor or as fodder for the Body Banks, whether to make war dogs or grant eternal life to those in Ajax's favor. Most dwarves don't like this deal, but the press-gangs are committed to their work.
+Galeweavers act as scouts for their handlers or for groups of elementals, and they're usually the first to spot trouble. Insatiably curious, an essence of storms often swoops down to talk when they observe travelers.
 
-The marauder lords who lead the press-gangs make use of salvaged valok communication arrays that they wear like a mohawk on their heads. The array gives them access to magnetomancy, allowing them to shape and levitate metal, including wielding multiple axes in battle.
+#### Essence of Tides
 
-### Servitor War Walkers
+An essence of tides looks like a shimmering blue manta ray that glides over land as easily as through water, earning them the common name of tidedrifter. Most common along coastlines, essences of tides enjoy harmless pranks, especially against folk who regularly sail or swim in their waters.
 
-The war walker is a common sight in both dwarven armies and dwarven cities. They vary widely in appearance and make, ranging from cobbled-together heaps of belts, gears, and plates to elegant and sleek marvels of dwarven engineering. In battle, war walkers carry multiple dwarves and keep foes at a distance. In society, they're used for public transit and accessibility needs within dwarven cities.
+Tidedrifters have a healthy sense of humor that makes it easy to win their friendship-but their relaxed demeanor evaporates if friends or family face threats.
 
-### Stone Whisperers
+#### Field of Growth
 
-Some dwarves are born with an innate talent to communicate with stone. Young dwarves identified with this gift are taken to a secretive enclave where they are trained to manipulate the movement and shape of stones using only whispers. The stone whispering technique is a deadly and quiet force in battle, and often the rumble of stone is the only precursor to an enemy's crushing defeat.
+The field of growth takes the form of a massive centipede made of vegetation. Often called verdant primevals, these caretakers of the natural cycle of life (and death) fight those they see as upsetting that cycle. Fields of growth seek not only to destroy undead and those who create them, but to sabotage divine servitors who casually peddle resurrection magic.
 
-Legends speak of stone singers, dwarves who could move mountains with their song. However, those same legends tell a tale of two stone singers who harmonized their voices and nearly ended the world. This is why today's stone whisperers stay quiet, afraid of their own potential.
+#### Force of Earth
 
-### Dwarf Languages
+A protective earth elemental, a force of earth resembles a nine-foot-tall great ape formed of dirt and rough stone. They act as guardians and historians when among other elementals, working tirelessly to thwart ills from befalling the group. These elementals are sometimes called earthen bulwarks.
 
-Most dwarves speak Caelian and Zaliac.
+#### Elemental Languages
 
-######### Dwarf Malice 
+Most elementals speak Low Kuric. Some can use Caelian when they need to.
 
-At the start of any dwarf's turn, you can spend Malice to activate one of the following features.
-
-> 👤 **Breaching Charge (3 Malice)** 
+> It is in changing that we find purpose.
 > 
-> A dwarf can destroy one adjacent object or square of wall for each 3 Malice spent. Each enemy adjacent to the destroyed object or square takes the object's Stamina in damage (3 for wood, 6 for stone, or 9 for metal).
+> Atæshia, Queen of Ash
 
-> ⭐️ **Rappelling Barrage (5 Malice)** 
+######### Elemental Malice
+
+At the start of any elemental's turn, you can spend Malice to activate one of the following features.
+
+> ⭐️ **Elemental Swap (3 Malice)**
 > 
-> Each dwarf acting this turn can automatically climb at full speed while moving. At any point during this movement, they can make a free strike.
+> Two elementals on the encounter map teleport to swap places, and each has damage immunity 2 until the end of the round.
 
-🔳 **Snaring Line 7 Malice** 
+> 👤 **Split (5 Malice)** 
+> 
+> An elemental acting this turn cleaves themself into two separate elementals. Each elemental has the same statistics as the original, except that each has half the original's current Stamina and is one size smaller. Both elementals can then shift up to their speed.
 
-| **Area, Magic, Ranged**      |               **Main action** |
-|------------------------------|------------------------------:|              
-| **📏 10 x 1 line within 10** | **🎯 Each enemy in the area** |
+> 🏹 **Convocation of Chaos (7 Malice)**
+> 
+> | **Magic, Ranged** |                 **Maneuver** |
+> |-------------------|-----------------------------:|
+> | **📏 Ranged 8**   | **🎯 Self or one elemental** |
+> 
+> **Effect:** Until the end of the encounter, the target has a +5 bonus to speed and a +5 damage bonus to strikes. Additionally, whenever an elemental within the target's line of effect uses an ability with "Convocation" in the name, the target also gains the effects of that ability.
 
-**Effect:** Each target makes an **Agility test**.
+####### Crux of Fire
 
-- **≤11:** 8 damage; restrained (EoT)
-- **12-16:** 6 damage; slowed (EoT)
-- **17+:** No effect.
+|       Elemental        |         -         |      Level 3      |    Elite Artillery    |        EV 20         |
+|:----------------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
+|     **1T**<br>Size     |  **6**<br>Speed   | **80**<br>Stamina |  **0**<br>Stability   | **6**<br>Free Strike |
+| **Fire 5**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|    **-1**<br>Might     | **+2**<br>Agility | **+0**<br>Reason  |  **+1**<br>Intuition  |  **+2**<br>Presence  |
 
-The snaring line remains until the end of the encounter. Any enemy who moves into the area for the first time in a round or starts their turn there must make the test.
-
-**Special:** This ability can't be used by a minion.
-
-####### Dwarf Axethrower
-
-|  Dwarf, Humanoid  |         -         |     Level 1      |             Minion Defender             |  EV 3 for 4 minions  |
-|:-----------------:|:-----------------:|:----------------:|:---------------------------------------:|:--------------------:|
-|  **1M**<br>Size   |  **5**<br>Speed   | **7**<br>Stamina |           **2**<br>Stability            | **1**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |        -         | **+2 bonus to Stamina**<br>With Captain | **-**<br>Weaknesses  |
-|  **+1**<br>Might  | **+0**<br>Agility | **+0**<br>Reason |           **+2**<br>Intuition           |  **+0**<br>Presence  |
-
-⚔️ **Whistling Axes (Signature Ability)**
+🏹 **Spitfire (Signature Ability)**
 
 **Power Roll + 2:**
 
-| **Melee, Ranged, Strike, Weapon** | **Main action** |
-e Melee 1 or ranged 5 x One creature or object per minion
-
-- **≤11:** 1 damage
-- **12-16:** 2 damage
-- **17+:** 3 damage; one ally adjacent to the target can make a free strike
-
-**Effect:** The target can't use triggered actions until the start of the next 
-round.
-
-####### Dwarf Catchpole
-
-|  Dwarf, Humanoid  |         -         |     Level 1      |              Minion Brute               |  EV 3 for 4 minions  | 
-|:-----------------:|:-----------------:|:----------------:|:---------------------------------------:|:--------------------:| 
-|  **1M**<br>Size   |  **5**<br>Speed   | **7**<br>Stamina |           **2**<br>Stability            | **2**<br>Free Strike | 
-| **-**<br>Immunity | **-**<br>Movement |        -         | **+2 bonus to Stamina**<br>With Captain | **-**<br>Weaknesses  | 
-|  **+2**<br>Might  | **+0**<br>Agility | **+0**<br>Reason |           **+0**<br>Intuition           |  **+0**<br>Presence  |
-
-🗡 **Maul (Signature Ability)**
-
-**Power Roll + 2:**
-
-| **Charge, Melee, Strike, Weapon** | **Main action** |
+| **Magic, Ranged, Strike** | **Main action** |
 | --- | ---:|
-| **📏 Melee 1** | **🎯 One creature or object per minion** |
+| **📏 Ranged 12** | **🎯 Two creatures or objects** |
 
-- **≤11:** 2 damage
-- **12-16:** 4 damage
-- **17+:** 5 damage; grabbed or prone
+- **≤11:** 8 fire damage
+- **12-16:** 12 fire damage; a<1] the target is burning (save ends)
+- **17+:** 15 fire damage; a<2] the target is burning (save ends)
 
-**Effect:** If the target is restrained, they take an extra 2 damage.
+**Effect:** A burning creature takes 1d6 fire damage at the start of each
+of their turns. A burning object takes 1d6 fire damage at the end of
+each round.
 
-####### Dwarf Driver
+🏹 **Convocation of Flames**
 
-|  Dwarf, Humanoid  |         -         |     Level 1      |             Minion Harrier              |  EV 3 for 4 minions  | 
-|:-----------------:|:-----------------:|:----------------:|:---------------------------------------:|:--------------------:| 
-|  **1M**<br>Size   |  **7**<br>Speed   | **6**<br>Stamina |           **1**<br>Stability            | **1**<br>Free Strike | 
-| **-**<br>Immunity | **-**<br>Movement |        -         | **+2 bonus to Stamina**<br>With Captain | **-**<br>Weaknesses  | 
-|  **+2**<br>Might  | **+1**<br>Agility | **+0**<br>Reason |           **+0**<br>Intuition           |  **+0**<br>Presence  |
+| **Magic, Ranged** | **Maneuver** |
+| --- | ---:|
+| **📏 Ranged 5** | **🎯 Self or one elemental** |
 
-⚔️ **Handaxes (Signature Ability)**
+**Effect:** Until the start of the crux's next turn, the target has fire
+immunity 5.
+**3 Malice:** Until the end of the encounter, the ground within 3 squares
+of the target is wreathed in fire. Any enemy who enters that area for
+the first time in a round or starts their turn there takes 3 fire damage.
+
+❗️ **Flame Jet 1 Malice**
+
+| **Magic** | **Triggered action** |
+| --- | ---:|
+| **📏 Self** | **🎯 Self** |
+
+**Trigger:** The crux takes damage.
+
+**Effect:** The crux ignores any effects associated with the damage and
+can fly up to their speed. If the crux doesn't end this movement on
+solid ground, they fall.
+
+⭐️ **Fickle and Free**
+
+The crux can't be restrained, slowed, or knocked prone, and they
+ignore difficult terrain.
+
+####### Essence of Storms
+
+|          Elemental          |          -          |      Level 3       |     Elite Harrier     |        EV 20         |
+|:---------------------------:|:-------------------:|:------------------:|:---------------------:|:--------------------:|
+|       **1S**<br>Size        |   **8**<br>Speed    | **100**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
+| **Lightning 5**<br>Immunity | **Fly**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+|       **+1**<br>Might       |  **+2**<br>Agility  |  **-1**<br>Reason  |  **+0**<br>Intuition  |  **+2**<br>Presence  |
+
+❇️ **Bluster (Signature Ability)**
 
 **Power Roll + 2:**
 
-| **Charge, Melee, Ranged, Strike, Weapon** | **Main action** |
-e Melee 1 or ranged 5 x One creature or object per minion
+| **Area, Magic** | **Main action** |
+| --- | ---:|
+| **📏 1 burst** | **🎯 Each enemy in the area** |
 
-- **≤11:** 1 damage; push 1
-- **12-16:** 2 damage; push 2
-- **17+:** 3 damage; push 4
+- **≤11:** 5 damage
+- **12-16:** 5 damage, 4 lightning damage; push 1
+- **17+:** 5 damage, 7 lightning damage; push 3
 
-**Effect:** A target restrained by a dwarf can be force moved by this
-ability. This forced movement doesn't end the restrained condition
-unless the Director determines otherwise.
+**Effect:** The essence shifts up to 3 squares before or after using this
+ability.
 
-####### Dwarf Hunter
+🏹 **Convocation of Squalls**
 
-|  Dwarf, Humanoid  |         -         |     Level 1      |             Minion Support              |  EV 3 for 4 minions  | 
-|:-----------------:|:-----------------:|:----------------:|:---------------------------------------:|:--------------------:| 
-|  **1M**<br>Size   |  **5**<br>Speed   | **6**<br>Stamina |           **1**<br>Stability            | **1**<br>Free Strike | 
-| **-**<br>Immunity | **-**<br>Movement |        -         | **+2 bonus to Stamina**<br>With Captain | **-**<br>Weaknesses  | 
-|  **+1**<br>Might  | **+2**<br>Agility | **+0**<br>Reason |           **+0**<br>Intuition           |  **+0**<br>Presence  |
+| **Magic, Ranged** | **Maneuver** |
+| --- | ---:|
+| **📏 Ranged 5** | **🎯 Self or one elemental** |
 
-🏹 **Snaring Javelin (Signature Ability)**
+**Effect:** Until the start of the essence's next turn, the target has light-
+ning immunity 5.
+**3 Malice:** Until the end of the encounter, a vortex surrounds the tar-
+get in a 3 aura. The area is difficult terrain for enemies. Additionally,
+at the end of each of the target's turns, they can push one creature in
+the area up to 5 squares.
+
+❗️ **Thunderclap 1 Malice**
+
+| **Magic, Ranged** | **Triggered action** |
+| --- | ---:|
+| **📏 Ranged 5** | **🎯 The triggering creature** |
+
+**Trigger:** A creature within distance deals damage to the essence.
+
+**Effect:** The target takes 5 lightning damage.
+
+⭐️ **Fickle and Free**
+
+The essence can't be restrained, slowed, or knocked prone, and
+they ignore difficult terrain.
+
+####### Essence of Tides
+
+|       Elemental        |          -           |      Level 3      |   Elite Controller    |        EV 20         |
+|:----------------------:|:--------------------:|:-----------------:|:---------------------:|:--------------------:|
+|     **1M**<br>Size     |    **7**<br>Speed    | **80**<br>Stamina |  **1**<br>Stability   | **5**<br>Free Strike |
+| **Cold 5**<br>Immunity | **Swim**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|    **+2**<br>Might     |  **+0**<br>Agility   | **+1**<br>Reason  |  **-1**<br>Intuition  |  **+2**<br>Presence  |
+
+🗡 **Water Wing (Signature Ability)**
 
 **Power Roll + 2:**
 
-| **Ranged, Strike, Weapon** | **Main action** |
+| **Magic, Melee, Strike** | **Main action** |
 | --- | ---:|
-| **📏 Ranged 5** | **🎯 One creature or object per minion** |
+| **📏 Melee 1** | **🎯 Two creatures or objects** |
 
-- **≤11:** 1 damage; pull 1
-- **12-16:** 2 damage; pull 2
-- **17+:** 3 damage; pull 4
+- **≤11:** 7 damage; slide 1
+- **12-16:** 11 damage; slide 2
+- **17+:** 14 damage; slide 3
 
-**Effect:** A target restrained by a dwarf can be force moved by this
-ability. This forced movement doesn't end the restrained condition
-unless the Director determines otherwise.
+**Effect:** If a target has p<2], their stability is reduced to 0 and they
+move 2 additional squares whenever they are force moved (save
+ends).
 
-####### Dwarf Gunner
+🏹 **Convocation of Waves**
 
-|  Dwarf, Humanoid  |         -         |      Level 1      |   Platoon Artillery   |         EV 6         | 
-|:-----------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:| 
-|  **1M**<br>Size   |  **5**<br>Speed   | **26**<br>Stamina |  **1**<br>Stability   | **4**<br>Free Strike | 
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  | 
-|  **+0**<br>Might  | **+2**<br>Agility | **+0**<br>Reason  |  **+1**<br>Intuition  |  **+0**<br>Presence  |
+| **Magic, Ranged** | **Maneuver** |
+| --- | ---:|
+| **📏 Ranged 5** | **🎯 Self or one elemental** |
 
-🏹 **Portable Ballista (Signature Ability)**
+**Effect:** Until the start of the essence's next turn, the target has cold
+immunity 5.
+**3 Malice:** Until the end of the encounter, the ground within 1
+square of the target is a pool of water that is difficult terrain. This
+water extends out behind the target as they move, creating a
+stream that lasts until the end of the encounter. Any enemy who
+ends their turn in the stream and has m<2] is slowed (save ends).
+
+❗️ **Sea-Salted Wounds 1 Malice**
+
+| **Melee** | **Triggered action** |
+| --- | ---:|
+| **📏 Melee 1** | **🎯 One enemy** |
+
+**Trigger:** An ally deals rolled damage to the target.
+
+**Effect:** The essence makes a free strike against the target.
+
+⭐️ **Fickle and Free**
+
+The essence can't be restrained, slowed, or knocked prone, and
+they ignore difficult terrain.
+
+⭐️ **Water Glide**
+
+Whenever the essence starts their turn in a space containing
+water, they can fly until the end of their turn. While flying, the
+essence doesn't provoke opportunity attacks.
+
+####### Field of Growth
+
+|        Elemental         |           -           |      Level 3       |   Elite Controller    |        EV 28         |
+|:------------------------:|:---------------------:|:------------------:|:---------------------:|:--------------------:|
+|      **3**<br>Size       |    **8**<br>Speed     | **120**<br>Stamina |  **2**<br>Stability   | **6**<br>Free Strike |
+| **Poison 5**<br>Immunity | **Climb**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+|     **+2**<br>Might      |   **+0**<br>Agility   |  **+0**<br>Reason  |  **+2**<br>Intuition  |  **+2**<br>Presence  |
+
+🏹 **Hampering Roots (Signature Ability)**
 
 **Power Roll + 2:**
 
-| **Ranged, Strike, Weapon** | **Main action** |
+| **Magic, Ranged, Strike** | **Main action** |
 | --- | ---:|
-| **📏 Ranged 10** | **🎯 One creature or object** |
+| **📏 Ranged 8** | **🎯 Two creatures or objects** |
 
-- **≤11:** 6 damage; push 1
-- **12-16:** 9 damage; push 3
-- **17+:** 12 damage; push 5
+- **≤11:** 8 damage
+- **12-16:** 13 damage; r<1] prone and can't stand (save ends)
+- **17+:** 16 damage; r<2] prone and can't stand (save ends)
 
-**Effect:** If the target is adjacent to an object or a wall after the power
-roll is resolved, they are restrained until the end of their next turn. A
-target restrained by a dwarf can be force moved by this ability. This
-forced movement doesn't end the restrained condition unless the
-Director determines otherwise.
-**5 Malice:** If the target is pushed into another creature, the target and
-the creature are each restrained until the end of their next turn.
+**Effect:** If a target made prone this way is already prone, they are
+instead restrained (save ends). If the target was also unable to stand,
+that effect ends when they are no longer restrained this way.
 
-🏹 **Ensnaring Chains 5 Malice**
+🏹 **Convocation of Verdure**
 
-| **Ranged, Weapon** | **Maneuver** |
+| **Magic, Ranged** | **Maneuver** |
 | --- | ---:|
-| **📏 Ranged 10** | **🎯 One prone, restrained, or slowed creature** |
+| **📏 Ranged 5** | **🎯 Self or one elemental** |
 
-**Effect:** The gunner makes a free strike against the target, and the
-prone, restrained, and slowed conditions on the target end. The target
-is then restrained (save ends).
+**Effect:** The target gains 15 temporary Stamina that lasts until the start
+of the field's next turn.
+**3 Malice:** Until the end of the encounter, the ground within 1 square
+of the target is overgrown with underbrush and vines. Whenever any
+enemy makes a strike against the target while within line of effect
+of that area, the enemy is pulled 5 squares toward the area after the
+strike is resolved. Any enemy who enters the area for the first time in
+a round or starts their turn there is knocked prone.
 
-⭐️ **Split Shot**
+❗️ **Rose Thorn Lash 1 Malice**
 
-Whenever the gunner deals rolled damage to a target, one crea-
-ture or object adjacent to the target takes 3 damage.
-
-####### Dwarf Launcher
-
-|  Dwarf, Humanoid  |         -         |      Level 1      |     Platoon Hexer     |         EV 8         | 
-|:-----------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:| 
-|  **1M**<br>Size   |  **5**<br>Speed   | **39**<br>Stamina |  **3**<br>Stability   | **4**<br>Free Strike | 
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  | 
-|  **+1**<br>Might  | **+0**<br>Agility | **+0**<br>Reason  |  **+2**<br>Intuition  |  **+0**<br>Presence  |
-
-🔳 **Concussive Grenade (Signature Ability)**
-
-**Power Roll + 2:**
-
-| **Area, Ranged, Weapon** | **Main action** |
-e 3 cube within 5 x Each enemy in the area
-
-- **≤11:** 3 damage; push 1
-- **12-16:** 6 damage; push 3; m<1] slowed (save ends)
-- **17+:** 8 damage; push 3; m<2] slowed (save ends)
-
-**Effect:** A target restrained by a dwarf can be force moved by this
-ability. This forced movement doesn't end the restrained condition
-unless the Director determines otherwise.
-
-🔳 **Sleep Grenade 3 Malice**
-
-| **Ranged, Weapon** | **Main action** |
-e 3 cube within 5 x Each enemy in the area
-
-- **≤11:** 3 poison damage; i<0] dazed (save ends)
-- **12-16:** 6 poison damage; i<1] dazed (save ends)
-- **17+:** 8 poison damage; i<2] dazed (save ends)
-
-**Effect:** A target dazed this way treats their characteristic scores as 1
-lower for the purpose of resisting potencies.
-
-⭐️ **Indirect Fire**
-
-The launcher ignores concealment and cover, and doesn't need
-line of effect to use their abilities as long as a size 1 opening exists
-between the dwarf and the target.
-
-####### Dwarf Reel Winch
-
-|  Dwarf, Humanoid  |         -         |      Level 1      |    Platoon Support    |         EV 6         | 
-|:-----------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:| 
-|  **1M**<br>Size   |  **5**<br>Speed   | **36**<br>Stamina |  **2**<br>Stability   | **3**<br>Free Strike | 
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  | 
-|  **+0**<br>Might  | **+2**<br>Agility | **+0**<br>Reason  |  **+1**<br>Intuition  |  **+0**<br>Presence  |
-
-🏹 **Snaring Crossbow (Signature Ability)**
-
-**Power Roll + 2:**
-
-| **Ranged, Strike, Weapon** | **Main action** |
+| **Magic, Melee** | **Triggered action** |
 | --- | ---:|
-| **📏 Ranged 10** | **🎯 One creature or object** |
+| **📏 Melee 3** | **🎯 The triggering creature or object** |
 
-- **≤11:** 5 damage; m<0] slowed (save ends)
-- **12-16:** 7 damage; m<1] slowed (save ends)
-- **17+:** 9 damage; m<2] slowed (save ends)
+**Trigger:** A creature or object within distance deals damage to the
+field.
 
-**Effect:** The target is pulled up to 5 squares. A target restrained by
-a dwarf can be force moved by this ability. This forced movement
-doesn't end the restrained condition unless the Director determines
-otherwise.
+**Effect:** The target takes 6 damage, and if they have a<2], they are
+bleeding (save ends).
 
-🏹 **Reel Them In 3 Malice**
+⭐️ **Fickle and Free**
 
-| **Ranged, Weapon** | **Maneuver** |
-| --- | ---:|
-| **📏 Ranged 10** | **🎯 Three creatures** |
+The field can't be restrained, slowed, or knocked prone, and they
+ignore difficult terrain.
 
-**Effect:** The target is pulled up to 8 squares. A restrained or slowed
-target can be pulled an additional 2 squares. A target restrained by
-a dwarf can be force moved by this ability. This forced movement
-doesn't end the restrained condition unless the Director determines
-otherwise.
+⭐️ **Roots Run Deep**
 
-⭐️ **We Have a Quota!**
+The field can target any creature touching the ground with their
+abilities, even if they don't have line of effect to that creature.
 
-If a target made slowed by the reel winch is already grabbed or
-slowed, the grabbed and slowed conditions end and the target is
-restrained (save ends).
+####### Force of Earth
 
-####### Dwarf Shieldwall
+|     Elemental     |           -            |      Level 3       |      Elite Brute      |        EV 20         |
+|:-----------------:|:----------------------:|:------------------:|:---------------------:|:--------------------:|
+|   **2**<br>Size   |     **5**<br>Speed     | **132**<br>Stamina |  **2**<br>Stability   | **6**<br>Free Strike |
+| **-**<br>Immunity | **Burrow**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+|  **+2**<br>Might  |   **-1**<br>Agility    |  **+0**<br>Reason  |  **+1**<br>Intuition  |  **+2**<br>Presence  |
 
-|  Dwarf, Humanoid  |         -         |      Level 3      |   Platoon Defender    |        EV 10         | 
-|:-----------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:| 
-|  **1M**<br>Size   |  **5**<br>Speed   | **72**<br>Stamina |  **4**<br>Stability   | **5**<br>Free Strike | 
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  | 
-|  **+2**<br>Might  | **+0**<br>Agility | **+0**<br>Reason  |  **+0**<br>Intuition  |  **+1**<br>Presence  |
-
-🗡 **Wide Axe (Signature Ability)**
+🗡 **Slam Into Dirt (Signature Ability)**
 
 **Power Roll + 2:**
 
 | **Melee, Strike, Weapon** | **Main action** |
 | --- | ---:|
-| **📏 Melee 1** | **🎯 One creature or object** |
+| **📏 Melee 2** | **🎯 Two creatures or objects** |
 
-- **≤11:** 7 damage; slide 1
-- **12-16:** 10 damage; slide 1
-- **17+:** 13 damage; slide 1
+- **≤11:** 8 damage
+- **12-16:** 12 damage; m<1] restrained (save ends)
+- **17+:** 15 damage; m<2] restrained (save ends)
 
-**Effect:** The shieldwall can shift 1 square to remain adjacent to the tar-
-get. A target restrained by a dwarf can be force moved by this ability.
-This forced movement doesn't end the restrained condition unless
-the Director determines otherwise.
-**3 Malice:** This ability targets one additional target.
+**Effect:** The target's space is difficult terrain.
 
-❗️ **Intercepting Shield 1 Malice**
+🏹 **Convocation of Quartz**
+
+| **Magic, Ranged** | **Maneuver** |
+| --- | ---:|
+| **📏 Ranged 5** | **🎯 Self or one elemental** |
+
+**Effect:** Until the start of the force's next turn, any melee strike made
+against the target takes a bane if it doesn't already have a bane or
+double bane.
+**3 Malice:** Until the end of the encounter, the target grows a carapace
+of stone. They have a +3 bonus to stability and gain 15 temporary
+Stamina.
+
+❗️ **Break Armor 1 Malice**
 
 | **-** | **Triggered action** |
 | --- | ---:|
 | **📏 Self** | **🎯 Self** |
 
-**Trigger:** A creature makes a strike against an ally adjacent to the
-shieldwall.
+**Trigger:** The force takes damage.
 
-**Effect:** The shieldwall becomes the target of the triggering strike and
-halves the damage.
+**Effect:** The force halves the damage, and has damage weakness 3
+and a +3 bonus to speed until the end of the encounter. This damage
+weakness increases by 3 each time the force uses this ability in the
+same encounter.
 
-⭐️ **Call to the Wall**
+⭐️ **Fickle and Free**
 
-Whenever a creature deals damage to or takes damage from the
-shieldwall, the shieldwall can make that creature taunted until
-the end of the creature's next turn.
+The force can't be restrained, slowed, or knocked prone, and they
+ignore difficult terrain.
 
-####### Dwarf Stone Whisperer
+⭐️ **Primordial Strength**
 
-|  Dwarf, Humanoid  |           -            |      Level 3      |  Platoon Controller   |        EV 10         | 
-|:-----------------:|:----------------------:|:-----------------:|:---------------------:|:--------------------:| 
-|  **1M**<br>Size   |     **5**<br>Speed     | **52**<br>Stamina |  **2**<br>Stability   | **5**<br>Free Strike | 
-| **-**<br>Immunity | **Burrow**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  | 
-|  **+1**<br>Might  |   **+0**<br>Agility    | **+2**<br>Reason  |  **+2**<br>Intuition  |  **+0**<br>Presence  |
+The force's strikes gain a +6 damage bonus against objects.
 
-🔳 **Tile Slide (Signature Ability)**
+⭐️ **Stone Swim**
 
-**Power Roll + 2:**
-
-| **Area, Magic** | **Main action** |
-e 2 cube within 1 x Each creature and object in the area
-
-- **≤11:** 5 damage; slide 1; m<0] slowed (save ends)
-- **12-16:** 8 damage; slide 3; m<1] slowed (save ends)
-- **17+:** 11 damage; slide 5; m<2] restrained (save ends)
-
-**Effect:** A target restrained by a dwarf can be force moved by this
-ability. This forced movement doesn't end the restrained condition
-unless the Director determines otherwise.
-
-🔳 **Stone Wave (3 Malice)**
-
-**Power Roll + 2:**
-
-| **Area, Magic, Ranged** | **Maneuver** |
-e 3 cube within 10 x Each enemy in the area
-
-- **≤11:** 4 damage; push 2; r<1] slowed (save ends)
-- **12-16:** 6 damage; push 3; r<2] slowed (save ends)
-- **17+:** 9 damage; push 3; r<3] slowed (save ends)
-
-**Effect:** The area is difficult terrain for enemies. A target restrained by
-a dwarf can be force moved by this ability. This forced movement
-doesn't end the restrained condition unless the Director determines
-otherwise.
-
-⭐️ **Stone Walker**
-
-Whenever the stone whisperer willingly moves, they can phase
-through up to 2 squares of stone as part of that movement. If they
-end their movement inside stone, they are shunted out into the
-space from which they entered it.
-
-####### Dwarf Trapper
-
-|  Dwarf, Humanoid  |         -         |      Level 1      |    Platoon Harrier    |         EV 6         | 
-|:-----------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:| 
-|  **1M**<br>Size   |  **7**<br>Speed   | **36**<br>Stamina |  **2**<br>Stability   | **3**<br>Free Strike | 
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  | 
-|  **+0**<br>Might  | **+2**<br>Agility | **+0**<br>Reason  |  **+1**<br>Intuition  |  **+0**<br>Presence  |
-
-⚔️ **Concussive Bolts (Signature Ability)**
-
-**Power Roll + 2:**
-
-| **Charge, Melee, Ranged, Strike, Weapon** | **Main action** |
-e Melee 1 or ranged 10 x One creature or object
-
-- **≤11:** 5 damage; push 2
-- **12-16:** 7 damage; push 4
-- **17+:** 9 damage; push 6
-
-**Effect:** A target restrained by a dwarf can be force moved by this
-ability. This forced movement doesn't end the restrained condition
-unless the Director determines otherwise.
-
-🔳 **Steam-Powered Snare (3 Malice)**
-
-**Power Roll + 2:**
-
-| **Area, Ranged, Weapon** | **Maneuver** |
-e 3 cube within 5 x Each enemy in the area
-
-**Effect:** Each target makes a Might test.
-
-- **≤11:** 7 damage; restrained (EoT)
-- **12-16:** 5 damage; slowed (EoT)
-- **17+:** No effect.
-The snare remains until the end of the encounter. Any enemy who
-moves into the area for the first time in a round or starts their turn
-there must make the test.
-
-####### Dwarf Warden
-
-|  Dwarf, Humanoid  |         -         |      Level 2      |     Platoon Brute     |         EV 8         | 
-|:-----------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:| 
-|  **1M**<br>Size   |  **5**<br>Speed   | **59**<br>Stamina |  **3**<br>Stability   | **5**<br>Free Strike | 
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  | 
-|  **+2**<br>Might  | **+0**<br>Agility | **+0**<br>Reason  |  **+1**<br>Intuition  |  **+0**<br>Presence  |
-
-🗡 **Concussive Maul (Signature Ability)**
-
-**Power Roll + 2:**
-
-| **Melee, Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Melee 1** | **🎯 One creature or object** |
-
-- **≤11:** 7 damage; push 1
-- **12-16:** 10 damage; push 3
-- **17+:** 13 damage; push 5; m<2] restrained (save ends)
-
-**Effect:** A target restrained by a dwarf can be force moved by this
-ability. This forced movement doesn't end the restrained condition
-unless the Director determines otherwise.
-
-🔳 **Concussive Shockwave (5 Malice)**
-
-**Power Roll + 2:**
-
-| **Area, Weapon** | **Main action** |
-e 3 cube within 1 x Each enemy in the area
-
-- **≤11:** 5 damage; push 2; a<0] slowed (save ends)
-- **12-16:** 8 damage; push 2; a<1] slowed (save ends)
-- **17+:** 11 damage; push 2; a<2] slowed (save ends)
-
-**Effect:** A target restrained by a dwarf can be force moved by this
-ability. This forced movement doesn't end the restrained condition
-unless the Director determines otherwise.
-
-⭐️ **Escort the Prisoners**
-
-Whenever the warden moves, they can carry an adjacent
-restrained enemy as if the enemy were grabbed by them.
-
-####### Dwarf Marauder
-
-|  Dwarf, Humanoid  |         -         |      Level 3       |        Leader         |        EV 20         | 
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:| 
-|  **1M**<br>Size   |  **5**<br>Speed   | **132**<br>Stamina |  **4**<br>Stability   | **5**<br>Free Strike | 
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  | 
-|  **+3**<br>Might  | **+0**<br>Agility |  **+2**<br>Reason  |  **+1**<br>Intuition  |  **+0**<br>Presence  |
-
-⚔️ **Levitating Axes (Signature Ability)**
-
-**Power Roll + 3:**
-
-| **Melee, Psionic, Ranged, Strike, Weapon** | **Main action** | e Melee 1 or ranged 10 x Two creatures or objects 1 8 damage; slide 1 2 12 damage; slide 3 3 15 damage; slide 5
-
-**Effect:** A target restrained by a dwarf can be force moved by this
-ability. This forced movement doesn't end the restrained condition
-unless the Director determines otherwise.
-**3 Malice:** A target force moved adjacent to an ally of the marauder
-lord is restrained until the end of their next turn.
-
-🏹 **Magnetomancy**
-
-| **Psionic, Ranged** | **Maneuver** |
-| --- | ---:|
-| **📏 Ranged 10** | **🎯 One creature or object** |
-
-**Effect:** The target vertical slides up to 5 squares. A target restrained
-by a dwarf can be force moved by this ability. This forced movement
-doesn't end the restrained condition unless the Director determines
-otherwise.
-**5 Malice:** This ability takes the Area keyword and loses the Ranged
-keyword, its distance becomes a 10 burst, and it targets each
-restrained creature in the area.
-
-❗️ **Your Weapon Is Useless**
-
-| **Psionic, Ranged** | **Triggered action** |
-| --- | ---:|
-| **📏 Ranged 10** | **🎯 Self or one ally** |
-
-**Trigger:** A creature makes a melee strike against the target.
-
-**Effect:** The target halves any damage from the strike and the trigger
-
-ing creature takes 4 damage.
-
-⭐️ **End Effect**
-
-At the end of each of their turns, the marauder lord can take 5
-damage to end one effect on them that can be ended by a saving
-throw. This damage can't be reduced in any way.
-
-☠️ **Ajax Will Pay Well for These Specimens (Villain Action 1)**
-
-Area, Psionic, Ranged, Weapon e 5 cube within 10
-x Each enemy in the area
-
-**Effect:** The marauder lord uses Levitating Axes against each target,
-making one power roll against all targets.
-
-☠️ **Don't Let Them Escape! (Villain Action 2)**
-
-Area e 5 burst
-x Each ally in the area
-
-**Effect:** Each target shifts up to their speed. The marauder lord then
-uses Levitating Axes.
-
-☠️ **Test Your Metal! (Villain Action 3)**
-
-Psionic, Ranged e Ranged 10
-x Special
-
-**Effect:** The marauder lord creates three size 2 metal objects in unoccupied spaces within distance. Whenever the marauder lord uses
-Magnetomancy, they can additionally target one of these objects.
-
-####### Servitor War Walker
-
-|  Dwarf, Humanoid  |           -           |      Level 1      |      Elite Mount      |        EV 12         | 
-|:-----------------:|:---------------------:|:-----------------:|:---------------------:|:--------------------:| 
-|   **3**<br>Size   |    **8**<br>Speed     | **60**<br>Stamina |  **2**<br>Stability   | **4**<br>Free Strike | 
-| **-**<br>Immunity | **Climb**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  | 
-|  **+2**<br>Might  |   **+0**<br>Agility   | **-2**<br>Reason  |  **+0**<br>Intuition  |  **-2**<br>Presence  |
-
-🗡 **Grasping Claws (Signature Ability)**
-
-**Power Roll + 2:**
-
-| **Charge, Melee, Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Melee 2** | **🎯 Two creatures or objects** |
-
-- **≤11:** 6 damage
-- **12-16:** 9 damage
-- **17+:** 12 damage; m<2] restrained (save ends)
-
-**Effect:** A target already restrained or restrained by this ability is pulled
-up to 3 squares. A target restrained by a dwarf can be force moved by
-this ability. This forced movement doesn't end the restrained condi-
-tion unless the Director determines otherwise.
-
-❇️ **Stunning Blast (3 Malice)**
-
-**Power Roll + 2:**
-
-| **Area, Weapon** | **Maneuver** |
-| --- | ---:|
-| **📏 3 burst** | **🎯 Each enemy in the area** |
-
-- **≤11:** 3 lightning damage; a<0] slowed (save ends)
-- **12-16:** 6 lightning damage; a<1] slowed (save ends)
-- **17+:** 7 lightning damage; a<2] slowed (save ends)
-
-⭐️ **Cupola**
-
-While riding the war walker, three size 1 allies can occupy the
-same space. Creatures riding the war walker have cover.
-
-⭐️ **Mobile Prison Harness**
-
-Any restrained or slowed creature who comes adjacent to the war
-walker is automatically restrained (save ends) and takes a bane
-on power rolls. A creature restrained this way moves with the war
-walker.
-
-
-
-
+The force can burrow through stone, but can't drag other creatures
+underground when they do so.
