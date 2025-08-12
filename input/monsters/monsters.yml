@@ -266,4 +266,16 @@ sections:
     file_dpath: 'Monsters/Goblins/Features'
     type: 'monster/feature'
 
+  - header_path: monsters/griffons
+    xpath: "//section[@id='monsters']//section[@id='griffons']"
+    file_dpath: 'Monsters/Griffons'
+    type: 'monster/section'
+  - header_path: monsters/griffons
+    xpath: "//section[@id='monsters']//section[@id='griffons']//section[@class='level7']"
+    file_dpath: 'Monsters/Griffons/Statblocks'
+  - header_path: monsters/griffons
+    xpath: "//section[@id='monsters']//section[@id='griffons']//section[@class='level9']"
+    file_dpath: 'Monsters/Griffons/Features'
+    type: 'monster/feature'
+
 
