@@ -206,4 +206,16 @@ sections:
     file_dpath: 'Monsters/Elves Shadow/Features'
     type: 'monster/feature'
 
+  - header_path: monsters/elves-wode
+    xpath: "//section[@id='monsters']//section[@id='elves-wode']"
+    file_dpath: 'Monsters/Elves Wode'
+    type: 'monster/section'
+  - header_path: monsters/elves-wode
+    xpath: "//section[@id='monsters']//section[@id='elves-wode']//section[@class='level7']"
+    file_dpath: 'Monsters/Elves Wode/Statblocks'
+  - header_path: monsters/elves-wode
+    xpath: "//section[@id='monsters']//section[@id='elves-wode']//section[@class='level9']"
+    file_dpath: 'Monsters/Elves Wode/Features'
+    type: 'monster/feature'
+
 
