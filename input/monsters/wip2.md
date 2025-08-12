@@ -1,640 +1,187 @@
-## Elves, Wode
+## Fossil Cryptic
 
-Children of the Sylvan Celestials and masters of the elf-haunted wilds for which they are named, wode elves see all forests as their domain by birthright. They know and enjoy their reputation among humans for snatching children who wander too far into the woods. In their eyes, humans *should* fear the trees.
+The cave-diving humans who first found fossil cryptics initially thought they were the fossilized reanimated skeletons of creatures predating recorded history. When the explorers' priest presented a holy symbol and attempted to turn the cryptics, he learned these fossilized bones aren't mindless undead-and seconds later, he wound up crushed to death by a pillar of stone.
 
-Wode elves' natural ability to mask their presence, called glamor, complements their guerrilla fighting style, letting them strike quickly from cover and then meld back into the underbrush. These traits also make those few wode elves who dwell in cities naturally adept at urban warfare.
+#### Primal Sentries
 
-#### Heart of the Wode
+In truth, these living fossil amalgamations are inhabited by elemental spirits. Fossil cryptics are found in places of otherworldly beauty with a connection to an elemental plane of Quintessence, often in caves that have remained untouched for eons or whose tunnels are laced with veins of priceless metal in exquisite fractal patterns. Elemental spirits from that plane inhabit the fossils of creatures who once protected the site, carrying on their legacy. Archaeologists, miners, and others who disturb a cryptic's domain are ground into dust and subsumed into the creature's own form.
 
-The primary value of wode elf culture is respect and reverence for their home, the wode in which they live. They speak of the wode as though it is alive and conscious, dangerous and delightful. Wode elves are receptive to strangers who respect the land upon which they trespass. However, those who seek to harm the wilds ruin their only chance of treating peacefully with the wode's beating heart.
+#### Bones of the Earth
 
-#### Wodeworking
+Though fossil cryptics vary wildly in their chosen shape and form, all contain a central cluster of fossils atop a churning column of rock and metal. With malleable limbs extending from their earthy core, cryptics move with unsettling speed.
 
-Wode elves practice a secret technique to use the trees of the wode to craft materials as strong as metal, and to create magical plant creatures that serve them, including the wodenelgs, their trusted mounts. To breathe life into these creations, the wode elves lift their voices in song. The more intricate the song, the more durable and autonomous the creation becomes. A wodenelg's rider is typically also its singer, creating a connection between the two that lasts a lifetime.
+#### Ancient Intelligence
 
-Legends tell of ancient beings, older than the forests themselves, sung to life by an entire wode elf civilization joined in sixteen-part harmony. These beings outlived their creators, and if they truly exist, they now roam the world as unknown and unknowable guardians who answer to nothing but their final set of instructions.
+Fossil cryptics often warn trespassers to leave their domains, speaking threats in ancient languages before attacking. Should trespassers persist, cryptics weaponize columns of stone at range and can manipulate the ground around them, pushing and pulling friend and foe alike into the best positions for battle.
 
-#### Sylvan Surveillance
+#### Fossil Cryptic Languages
 
-The wode elves' natural connection to the wode allows them to stay aware of the forest's goings-on while inside it. This isn't a telepathic connection, but rather a great understanding of every corner of the wode and a hypersensitivity to changes within it. The stench of a badly set campfire, the sudden squawk of a raven, the forced march of a hungry ant colony: all of this information comes together to form a wode elf's understanding of their surroundings.
+Many fossil cryptics speak Phorialtic, but they are known to also use the ancient languages of the ruins they inhabit.
 
-A wode elf develops this sense for their home over time, meaning that a wode elf who lives in an urban environment has just as much understanding of the streets, alleys, and structures of their neighborhood as their cousin in the forest does of the deer paths, streams, and trees.
+######### Fossil Cryptic Malice 
 
-#### Blightless Ambition
+At the start of a fossil cryptic's turn, you can spend Malice to activate one of the following features.
 
-Not all wode elves are happy to negotiate with peaceful interlopers in their realms. Some groups view even the very presence of such intruders as a direct threat to their way of life. One group of hunters known as the Blightless searches the forest for trespassing mortals, seeking to eliminate their potential threat by any means possible. Overzealous and aggressive, the Blightless also focus on expanding their home's boundaries, attacking civilizations close to the forest's edge. Because Blightless attacks constitute the majority of mortal interaction with the wode elves, they set the tone for mortal perception of an otherwise peaceful people.
-
-#### Chirurgeons
-
-When wode elves in combat control the terrain, their primary strategy is divide and conquer. Chirurgeons (*kai-RUR-jinz*) are master strategists who enact their picture-perfect plans in the thick of battle. Enemies will never know how many wode elves they truly face if the crafty chirurgeon can help it.
-
-#### Warleader
-
-The warleader of a wode elf court is usually their finest tactician. One warleader alone can command dozens of squadrons across miles of forest with such precision that they can appear to predict an enemy's movements without ever laying an eye on them. In times of peace, a warleader's role is primarily that of teacher-a mentor who scouts and soldiers regard almost as an additional parent.
-
-The wode elves send their warleaders into battle only if the situation is dire. Characters who encounter one should be flattered, for the presence of a warleader means the wode elves consider the heroes a formidable threat.
-
-#### Wode Elf Languages
-
-Most wode elves speak Caelian and Yllyric.
-
-one of the following features.
-
-######### Wode Elf Malice
-
-At the start of any wode elf's turn, you can spend Malice to activate
-
-> ⭐️ **Forest Network (3 Malice)** 
+> 🏹 **Floor Mosaic (3 Malice)** 
 > 
-> Each wode elf who ends this turn hidden can shift up to their speed while remaining hidden.
+> The fossil cryptic slides one creature on the ground up to 5 squares. If the creature is prone, this forced movement ignores stability.
 
-> ⭐️ **Punishing Regrowth (5 Malice)** 
+> ☠️ **Solo Action (5 Malice)**
 > 
-> Until the end of the round, each wode elf gains an edge on abilities, and their strikes can slide a target up to 2 squares in addition to their usual effects. If a strike already imposes forced movement, this slide happens after that forced movement. A creature force moved by a wode elf's strike who ends this forced movement in difficult terrain is restrained until the end of their next turn.
+> The fossil cryptic takes an additional main action on their turn. They can use this feature even if they are dazed.
 
-> 🌀 **Vines Everywhere (7 Malice)** 
+> 🔳 **Stone Pillars (5 Malice)**
 > 
-> Vines rapidly grow across the entire encounter map. Each enemy in the encounter makes an **Agility test**. 
+> Two pillars of stone 1 square wide either thrust up out of the ground or jut down from the ceiling anywhere on the encounter map, to a height of up to 5 squares. A creature in the area of a pillar before it appears is knocked prone on its surface. If the creature comes into contact with the ceiling above or the floor beneath the pillar and has M < 2 they are restrained (save ends).
 
-- **≤11:** 8 damage; restrained (save ends)
-- **12-16:** Restrained (EoT) 
-- **17+:** No effect.
+> 🌀 **Choking Dust (10 Malice)** 
+> 
+> The air across the encounter map is thick with dust until the end of the encounter. Each enemy in the dust is suffocating. Additionally, at the end of each round, each enemy in the dust makes a **Might test**.
+> 
+> - **≤11:** Until the end of the enemy's next turn, their stability is reduced to 0, and any forced movement effects targeting them gain a +2 bonus to the distance moved.
+> - **12-16:** The enemy's stability is halved (EoT).
+> - **17+:** No effect.
 
- 
+143fossil cryptic
 
-####### Wode Elf Scout
+####### Fossil Cryptic
 
-| Fey, Humanoid, Wode Elf |         -         |      Level 1       |         Minion Ambusher          |        EV 3 for four minions         |
+| Elemental |         -         |      Level 2       |         Solo          |        EV 48         |
 |:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|   **1M**<br>Size   |  **1**<br>Speed   | **04**<br>Stamina |  **0**<br>Stability   | **2**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **Gain an edge on strikes**<br>With Captain | **-**<br>Weaknesses  |
-|  **0**<br>Might  | **+2**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition  |  **+1**<br>Presence  |
+|   **1L**<br>Size   |  **8**<br>Speed   | **250**<br>Stamina |  **3**<br>Stability   | **5**<br>Free Strike |
+| **-**<br>Immunity | **Burrow**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+|  **+3**<br>Might  | **+2**<br>Agility |  **+1**<br>Reason  |  **+1**<br>Intuition  |  **0**<br>Presence  |
 
-⚔️ **Daggers (Signature Ability)**
+☠️ **Solo Monster**
 
-| **Melee, Ranged, Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Melee 1 or ranged 5** | **🎯 One creature or object per minion** |
+End Effect At the end of each of their turns, the cryptic can take 5
+damage to end one effect on them that can be ended by a saving
+throw. This damage can't be reduced in any way.
+Solo Turns: The cryptic can take two turns each round. They can't
+take turns consecutively.
 
-**Power Roll + 2:**
+⭐️ **Churning Trunk**
 
-- **≤11:** 2 damage
-- **12-16:** 4 damage
-- **17+:** 5 damage
+The cryptic is constantly surrounded by a 1 aura of swirling debris
+that obscures their form. Ranged abilities that target the cryptic
+take a bane. Additionally, any enemy who enters the aura for the
+first time in a round or starts their turn there takes 5 damage
 
-⭐️ **Into the Green**
+⭐️ **Seismic Step**
 
-The scout can attempt to hide at the end of each of their turns.
+The cryptic ignores difficul t terrai n . Additionall y , the y hav e lin e o
+effect to any creature with concealment if that creature is touc-
+ing the ground.
 
-⭐️ **Masking Glamor**
-
-Abilities targeting the scout that would take a bane from cover or
-concealment have a double bane instead.
-
-####### Wode Elf Yeoman
-
-| Fey, Humanoid, Wode Elf |         -         |      Level 1       |         Minion Artillery          |        EV 3 for four minions         |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|   **1M**<br>Size   |  **7**<br>Speed   | **3**<br>Stamina |  **0**<br>Stability   | **2**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **+1 damage bonus to strikes**<br>With Captain | **-**<br>Weaknesses  |
-|  **0**<br>Might  | **+2**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition  |  **+1**<br>Presence  |
-
-🏹 **Heavy Longbow (Signature Ability)**
-
-| **Ranged, Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Ranged 12** | **🎯 One creature or object per minion** |
-
-**Power Roll + 2:**
-
-- **≤11:** 2 damage; push 1
-- **12-16:** 4 damage; push 2
-- **17+:** 5 damage; push 3
-
-⭐️ **Masking Glamor**
-
-Abilities targeting the yeoman that would take a bane from cover
-or concealment have a double bane instead.
-
-####### Wode Elf Lookout
-
-| Fey, Humanoid, Wode Elf |         -         |      Level 1       |         Minion Support          |        EV 3 for four minions         |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|   **1M**<br>Size   |  **7**<br>Speed   | **4**<br>Stamina |  **0**<br>Stability   | **1**<br>Free Strike |
-| **-**<br>Immunity | **Climb**<br>Movement |         -          | **+2 bonus to speed**<br>With Captain | **-**<br>Weaknesses  |
-|  **0**<br>Might  | **+2**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition  |  **+1**<br>Presence  |
-
-🏹 **Longbow (Signature Ability)**
-
-| **Ranged, Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Ranged 8** | **🎯 One creature or object per minion** |
-
-**Power Roll + 2:**
-
-- **≤11:** 1 damage
-- **12-16:** 2 damage
-- **17+:** 3 damage
-
-⭐️ **There!**
-
-Any wode elf within 5 squares of the lookout can make ranged
-strikes as if occupying the lookout's space.
-
-⭐️ **Masking Glamor**
-
-Abilities targeting the lookout that would take a bane from cover
-or concealment have a double bane instead.
-
-####### Wode Elf Runner
-
-| Fey, Humanoid, Wode Elf |         -         |      Level 1       |         Minion Harrier          |        EV 3 for four minions         |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|   **1M**<br>Size   |  **7**<br>Speed   | **4**<br>Stamina |  **0**<br>Stability   | **1**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **Gain an edge on strikes**<br>With Captain | **-**<br>Weaknesses  |
-|  **0**<br>Might  | **+2**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition  |  **+1**<br>Presence  |
-
-⚔️ **Spear (Signature Ability)**
-
-| **Charge, Melee, Ranged, Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Melee 1 or ranged 5** | **🎯 One creature or object per minion** |
-
-**Power Roll + 2:**
-
-- **≤11:** 1 damage
-- **12-16:** 2 damage
-- **17+:** 3 damage
-| **Effect If this ability is used as part of the** | **Charge main action** |, the
-runner shifts up to 2 squares firs
-
-⭐️ **Masking Glamor**
-
-Abilities targeting the runner that would take a bane from cover
-or concealment have a double bane instead.
-
-137Elves, Wode
-
-####### Wode Elf Chirurgeon
-
-| Fey, Humanoid, Wode Elf |         -         |      Level 2       |         Platoon Harrier          |        EV 8         |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|   **1M**<br>Size   |  **7**<br>Speed   | **40**<br>Stamina |  **0**<br>Stability   | **4**<br>Free Strike |
-| **-**<br>Immunity | **Climb**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
-|  **+1**<br>Might  | **+2**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition  |  **+1**<br>Presence  |
-
-⚔️ **Wild Ax (Signature Ability)**
-
-| **Charge, Melee, Ranged, Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Melee 1 or ranged 5** | **🎯 One creature or object** |
-
-**Power Roll + 2:**
-
-- **≤11:** 6 damage; push 1
-- **12-16:** 9 damage; push 3
-- **17+:** 12 damage; push 5
-
-**Effect:** The chirurgeon can make a ranged free strike before using this
-ability.
-**5 Malice:** The chirurgeon uses this ability again.
-
-🏹 **The Wode Protects Us 3 Malice**
-
-| **Magic, Ranged** | **Maneuver** |
-| --- | ---:|
-| **📏 Ranged 5** | **🎯 Self and three allies** |
-
-**Effect:** Each target can teleport up to 10 squares to a space that has
-cover or concealment.
-
-⭐️ **Masking Glamor**
-
-Abilities targeting the chirurgeon that would take a bane from
-cover or concealment have a double bane instead.
-
-####### Wode Elf Druid
-
-| Fey, Humanoid, Wode Elf |         -         |      Level 2       |         Platoon Controller          |        EV 8         |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|   **1M**<br>Size   |  **7**<br>Speed   | **30**<br>Stamina |  **0**<br>Stability   | **3**<br>Free Strike |
-| **-**<br>Immunity | **Climb**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
-|  **0**<br>Might  | **+1**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition  |  **+2**<br>Presence  |
-
-🔳 **Entangling Vines (Signature Ability)**
-
-| **Area, Magic, Ranged** | **Main action** |
-| --- | ---:|
-| **📏 3 cube within 10** | **🎯 Each enemy in the area** |
-
-**Power Roll + 2:**
-
-- **≤11:** 5 damage; pull 1
-- **12-16:** 8 damage; pull 3; m< 1 slowed (save ends)
-- **17+:** 10 damage; pull 5; m< 2 slowed (save ends)
-
-**Effect:** While slowed this way, a target can't search for hidden crea-
-tures.
-**3 Malice:** The size of the cube and the potency both increase by 1.
-
-🏹 **The Wode Protects Us 3 Malice**
-
-| **Magic, Ranged** | **Maneuver** |
-| --- | ---:|
-| **📏 Ranged 5** | **🎯 Self and three allies** |
-
-**Effect:** Each target can teleport up to 10 squares to a space that has
-cover or concealment.
-
-⭐️ **Masking Glamor**
-
-Abilities targeting the druid that would take a bane from cover or
-concealment have a double bane instead.
-Wode Elf Tactics
-Wode elves are at their most powerful in dense and vertical
-battlefields and tend to bait attackers into disadvantageous
-fights with false retreats and hidden reinforcements . Not only
-does this allow them to make full use of their proficiency in
-concealment and cover but also lets them utilize their climbing
-skills to gain height advantages. While they prefer taking fights
-into the deep woods, the elves settle for urban or mountainous
-areas if the only other option is a wide-open space.
-Wode elves are highly mobile and adept at hindering their
-enemies. A common tactic is to unleash their panoply of
-slowing and restraining abilities on melee-oriented opponents
-while harassing ranged combatants with teleports and surprise
-attacks from off-angles
-Wode Elf Sample Encounters
-Scout Patrol, 23 EV: Four lookouts, eight scouts, one
-chirurgeon, one green seer
-Blightless Militia, 32 EV: Eight yeomen, eight runners, one
-druid, one greenskeeper, one sentry
-Hawkeye Cavalry, 48 EV: Three gweiadur, three wodenelg
-Reclaimer Force, 74 EV: Sixteen yeomen, sixteen scouts, one
-guerrilla, one druid, two greenskeepers, one warleader
-
- 
-
-####### Wode Elf Greenskeeper
-
-| Fey, Humanoid, Wode Elf |         -         |      Level 1       |         Platoon Defender          |        EV 6         |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|   **1M**<br>Size   |  **7**<br>Speed   | **40**<br>Stamina |  **0**<br>Stability   | **3**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
-|  **0**<br>Might  | **+2**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition  |  **+1**<br>Presence  |
-
-🗡 **Growing Longsword (Signature Ability)**
+🗡 **Sand Slam (Signature Ability)**
 
 | **Melee, Strike, Weapon** | **Main action** |
 | --- | ---:|
-| **📏 Melee 1** | **🎯 One creature or object** |
-
-**Power Roll + 2:**
-
-- **≤11:** 5 damage
-- **12-16:** 7 damage
-- **17+:** 9 damage
-
-**Effect:** The target is taunted until the end of their next turn, and the
-greenskeeper shifts up to 3 squares
-**2 Malice:** The distance increases to Melee 5.
-
-🔳 **Overgrowth 3 Malice**
-
-| **Area, Ranged** | **Maneuver** |
-| --- | ---:|
-| **📏 3 cube within 10** | **🎯 Special** |
-
-**Effect:** The area is overgrown with heavy brush and brambles until
-the end of the encounter, providing cover and concealment for the
-greenskeeper and their allies. The area is difficul t terrai n fo r enemie s
-and any enemy who starts their turn in the area takes 3 damage.
-
-⭐️ **Masking Glamor**
-
-Abilities targeting the greenskeeper that would take a bane from
-cover or concealment have a double bane instead.
-
-####### Wode Elf Green Seer
-
-| Fey, Humanoid, Wode Elf |         -         |      Level 1       |         Platoon Hexer          |        EV 6         |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|   **1M**<br>Size   |  **7**<br>Speed   | **20**<br>Stamina |  **0**<br>Stability   | **3**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
-|  **0**<br>Might  | **+1**<br>Agility |  **0**<br>Reason  |  **+2**<br>Intuition  |  **+1**<br>Presence  |
-
-🏹 **The Forest's Embrace (Signature Ability)**
-
-| **Magic, Ranged, Strike** | **Main action** |
-| --- | ---:|
-| **📏 Ranged 10** | **🎯 One creature or object** |
-
-**Power Roll + 2:**
-
-- **≤11:** 5 damage
-- **12-16:** 7 damage; i< 1 restrained (save ends)
-- **17+:** 9 damage; i< 2 restrained (save ends)
-
-**Effect:** While restrained this way, a target can't search for hidden
-creatures.
-
-🏹 **The Natural Cycle (3 Malice)**
-
-| **Magic, Ranged, Strike** | **Maneuver** |
-| --- | ---:|
-| **📏 Ranged 10** | **🎯 Two creatures** |
-
-**Power Roll + 2:**
-
-- **≤11:** 2 damage
-- **12-16:** 4 damage; p< 1 weakened (save ends)
-- **17+:** 6 damage; p< 1 bleeding (save ends); the target has a double
-bane on strikes (save ends)
-
-**Effect:** While bleeding or weakened this way, a target is covered in
-lichen.
-
-❗️ **Foreseen Punishment**
-
-| **Ranged** | **Free triggered action** |
-| --- | ---:|
-| **📏 Ranged 5** | **🎯 The triggering creature** |
-
-**Trigger:** A creature uses a triggered action targeting the green seer
-or an ally within distance.
-
-**Effect:** The green seer makes a free strike against the target after the
-target's triggered action is resolved.
-
-⭐️ **Masking Glamor**
-
-Abilities targeting the green seer that would take a bane from
-cover or concealment have a double bane instead.
-
-139Elves, Wode
-
-####### Wode Elf Guerrilla
-
-| Fey, Humanoid, Wode Elf |         -         |      Level 3       |         Platoon Ambusher          |        EV 10         |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|   **1M**<br>Size   |  **7**<br>Speed   | **50**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
-| **-**<br>Immunity | **Teleport**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
-|  **0**<br>Might  | **+2**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition  |  **+1**<br>Presence  |
-
-⚔️ **Splinter Dagger (Signature Ability)**
-
-| **Magic, Melee, Ranged, Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Melee 1 or ranged 5** | **🎯 One creature or object** |
-
-**Power Roll + 2:**
-
-- **≤11:** 7 damage
-- **12-16:** 11 damage
-- **17+:** 14 damage; m< 2 bleeding (save ends)
-
-**Effect:** The guerrilla can teleport up to 3 squares.
-**3 Malice:** This ability targets one additional target, and deals an addi-
-tional 3 damage if both targets are adjacent to each other.
-
-❗️ **Do Not Hesitate in the Wode 3 Malice**
-
-| **Ranged** | **Free triggered action** |
-| --- | ---:|
-| **📏 Ranged 20** | **🎯 Self and each ally** |
-
-**Special:** The guerrilla must be acting as a captain.
-
-**Trigger:** An ally ends their turn while the guerrilla hasn't acted this
-round.
-
-**Effect:** The targets take their turn immediately. Each target gains an
-edge on abilities until the end of their turn.
-
-⭐️ **Into the Green**
-
-The guerrilla can attempt to hide at the end of each of their turns.
-
-⭐️ **Masking Glamor**
-
-Abilities targeting the guerrilla that would take a bane from cover
-or concealment have a double bane instead.
-
-####### Wode Elf Gweiadur
-
-| Fey, Humanoid, Wode Elf |         -         |      Level 3       |         Platoon Artillery          |        EV 10         |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|   **1M**<br>Size   |  **7**<br>Speed   | **40**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
-| **-**<br>Immunity | **Climb**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
-|  **0**<br>Might  | **+2**<br>Agility |  **0**<br>Reason  |  **+1**<br>Intuition  |  **0**<br>Presence  |
-
-🏹 **Snare Bow (Signature Ability)**
-
-| **Ranged, Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Ranged 15** | **🎯 One creature or object** |
-
-**Power Roll + 2:**
-
-- **≤11:** 7 damage
-- **12-16:** 11 damage
-- **17+:** 14 damage; a< 2 restrained (save ends)
-
-**Effect:** The gweiadur shifts up to 3 squares
-**3 Malice:** If this ability restrains the target, one enemy adjacent to the
-target is also restrained (save ends).
-
-🔳 **You Activated My Trap! (3 Malice)**
-
-| **Area, Magic, Ranged** | **Maneuver** |
-| --- | ---:|
-| **📏 3 cube within 10** | **🎯 Each enemy in the area** |
-
-**Power Roll + 2:**
-
-- **≤11:** 4 damage; r< 0 the target is marked (save ends)
-- **12-16:** 6 damage; r< 1 slowed and the target is marked (save ends)
-- **17+:** 9 damage; r< 2 slowed and the target is marked (save ends)
-
-**Effect:** Allies gain an edge on abilities against a target marked by any
-wode elf.
-
-⭐️ **Masking Glamor**
-
-Abilities targeting the gweiadur that would take a bane from cover
-or concealment have a double bane instead.
-
-####### Wode Elf Sentry
-
-| Fey, Humanoid, Wode Elf |         -         |      Level 1       |         Platoon Support          |        EV 6         |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|   **1M**<br>Size   |  **7**<br>Speed   | **30**<br>Stamina |  **0**<br>Stability   | **3**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
-|  **0**<br>Might  | **+2**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition  |  **+1**<br>Presence  |
-
-🏹 **Tracer Longbow (Signature Ability)**
-
-| **Ranged, Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Ranged 10** | **🎯 One creature or object** |
-
-**Power Roll + 2:**
-
-- **≤11:** 5 damage
-- **12-16:** 7 damage
-- **17+:** 9 damage; the target is marked (save ends)
-
-**Effect:** Allies gain an edge on abilities against a target marked by any
-wode elf. 
-**3 Malice:** The sentry targets two additional creatures or objects.
-
-❇️ **Death Blossom 2 Malice**
-
-| **Area, Weapon** | **Maneuver** |
-| --- | ---:|
-| **📏 5 burst** | **🎯 Each marked enemy** |
-
-**Effect:** Each target takes 3 damage.
-
-⭐️ **Masking Glamor**
-
-Abilities targeting the sentry that would take a bane from cover or
-concealment have a double bane instead.
-
- 
-
-####### Wode Elf Warleader
-
-| Fey, Humanoid. Wode Elf |         -         |      Level 3       |         Leader          |        EV 20         |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|   **1M**<br>Size   |  **7**<br>Speed   | **120**<br>Stamina |  **2**<br>Stability   | **5**<br>Free Strike |
-| **-**<br>Immunity | **Teleport**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
-|  **+2**<br>Might  | **+3**<br>Agility |  **+2**<br>Reason  |  **+2**<br>Intuition  |  **+2**<br>Presence  |
-
-🗡 **Wodeblade (Signature Ability)**
-
-| **Magic, Melee, Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Melee 1** | **🎯 Two creatures or objects** |
+| **📏 Melee 2** | **🎯 Two creatures or objects** |
 
 **Power Roll + 3:**
 
-- **≤11:** 8 damage; m< 1 restrained (save ends)
-- **12-16:** 12 damage; m< 2 restrained (save ends)
-- **17+:** 15 damage; m< 3 restrained (save ends)
+- **≤11:** 8 damage; a< 1 slide 2
+- **12-16:** 12 damage; a< 2 slide 2, prone
+- **17+:** 15 damage; a< 3 slide 3, prone and can't stand (EoT)
 
-**Effect:** The warleader can teleport up to 3 squares between each
-strike.
-**2 Malice:** A target restrained by this ability takes an extra 3 damage.
+**Effect:** If a target made prone this way is already prone, they are
+instead restrained (EoT).
 
-❇️ **Fairness Is a Human Concept 5 Malice**
+🔳 **Stone Bone Storm**
 
-| **Area** | **Maneuver** |
+| **Area** | **Main action** |
 | --- | ---:|
-| **📏 10 burst** | **🎯 Each ally in the area** |
+| **📏 6 x 1 line within 1** | **🎯 Each enemy in the area** |
 
-**Effect:** Each non-minion target can make a free strike, then each tar-
-get shifts up to 3 squares . A target who has cover or concealment at
-the end of this shift can attempt to hide at the end of the warleader 's
-turn.
+**Power Roll + 3:**
 
-❗️ **Wode Sickness**
+- **≤11:** 4 damage; m< 1 push 2
+- **12-16:** 7 damage; m< 2 prone
+- **17+:** 10 damage; m< 3 prone
 
-| **Ranged** | **Triggered action** |
+**Effect:** The cryptic reforms their body and appears in an unoccupied
+space in the area.
+
+🏹 **Stoneshift**
+
+| **Ranged** | **Maneuver** |
 | --- | ---:|
-| **📏 Ranged 10** | **🎯 One enemy** |
+| **📏 Ranged 5** | **🎯 One creature or object on the ground** |
 
-**Trigger:** An ally ends their turn.
+**Effect:** The cryptic slides the target up to 3 squares.
+**2 Malice:** The ability targets one additional target.
 
-**Effect:** The target must not have taken their turn this round. The
-target takes their turn immediately, and if they have p< 2 they are
-bleeding and take a bane on strikes until the end of their turn.
+❗️ **Dissipate 1 Malice**
 
-⭐️ **End Effec**
+| **-** | **Triggered action** |
+| --- | ---:|
+| **📏 Self** | **🎯 Self** |
 
-At the end of each of their turns, the warleader can take 5 damage
-to end one effect on them that can be ended by a saving throw .
-This damage can't be reduced in any way.
+**Trigger:** The cryptic takes damage.
 
-⭐️ **Into the Green**
+**Effect:** The cryptic halves the damage, ignores any nondamaging
+effects associated with it , and shift s u p t o 3 square! Shatterstone 2d10 + 3 5 Malice
+| **Area** | **Triggered action** |
+| --- | ---:|
+| **📏 2 burst** | **🎯 Each enemy in the area** |
 
-The warleader can attempt to hide at the end of each of their
-turns.
+**Trigger:** The cryptic uses the Dig maneuver to resurface.
 
-⭐️ **Masking Glamor**
+**Effect:** Before using the Dig maneuver, the cryptic moves up to their
+speed. They then create the burst when they breach the surface.
 
-Abilities targeting the warleader that would take a bane from
-cover or concealment have a double bane instead.
+- **≤11:** 4 damage; push 2
+- **12-16:** 7 damage; push 3, prone
+- **17+:** 10 damage; push 4, prone
 
-☠️ **You Will All Witness my Blade (Villain Action 1)**
+☠️ **First Warning Quake (Villain Action 1)**
+
+Area
+| **📏 10 burst** | **🎯 Each enemy in the area** |
+
+**Special:** A target must be on the ground.
+
+**Effect:** Each target makes a Might test.
+
+- **≤11:** Prone and can't stand (EoT)
+- **12-16:** Prone
+- **17+:** No effect
+
+☠️ **Final Warning Fissure (Villain Action 2)**
 
 Area
 | **📏 5 burst** | **🎯 Each enemy in the area** |
 
-**Effect:** The warleader uses Wodeblade against each target and gains
-an edge on the power roll.
+**Special:** A target must be on the ground.
 
-☠️ **Suppressing Volley (Villain Action 2)**
+**Effect:** The area drops 2 squares and is difficul t terrai n . Eac h targe
+enemy falls, while each target ally drops safely. Additionally, each
+target enemy makes an Agility test.
 
-Area
-| **📏 5 burst** | **🎯 Each ally in the area** |
+- **≤11:** 9 damage; prone
+- **12-16:** 5 damage
+- **17+:** The target moves to the nearest unoccupied space outside the
+area.
 
-**Effect:** The warleader can use Wodeblade. Each target can then make
-a free strike.
+☠️ **No Escape (Villain Action 3)**
 
-☠️ **Is It Now or Is It Then? (Villain Action 3)**
+Ranged
 
-Area
-| **📏 5 burst** | **🎯 Self and each ally in the area** |
+**Effect:** The cryptic makes an initial power roll that calls down stone
+pillars from the ceiling.
+| **📏 Ranged 10** | **🎯 Two creatures or objects** |
 
-**Effect:** Each target is invisible until the start of the next round. The
-warleader then uses Wodeblade.
+**Power Roll + 3:**
 
-141Elves, Wode
+- **≤11:** 5 damage; prone; m< 1 restrained (save ends)
+- **12-16:** 9 damage; prone; m< 2 restrained (save ends)
+- **17+:** 12 damage; prone; m< 3 restrained (save ends)
+The cryptic then makes a second power roll that raises stone
+pillars from the floor
+| **📏 Ranged 10** | **🎯 Two creatures or objects on the ground** |
 
-####### Wodenelg
-
-| Plant, Wode Elf |         -         |      Level 1       |         Platoon Mount          |        EV 6         |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-210301 3
-Size SpeedStaminaStabilityFree Strike
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
-|  **+2**<br>Might  | **+1**<br>Agility |  **-1**<br>Reason  |  **0**<br>Intuition  |  **-1**<br>Presence  |
-
-🗡 **Gore (Signature Ability)**
-
-| **Charge, Melee, Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Melee 1** | **🎯 One creature or object** |
-
-**Power Roll + 2:**
-
-- **≤11:** 5 damage
-- **12-16:** 7 damage
-- **17+:** 9 damage
-
-**Effect:** The wodenelg's rider can make a free strike at any point
-during the charge.
-
-⭐️ **Sure-Footed**
-
-The wodenelg ignores difficul t terrai n an d does n't provok e opp-
-tunity attacks by moving.
-
-👤 **Where I End the Woods Begin 3 Malice**
-
-| **-** | **Maneuver** |
-| --- | ---:|
-| **📏 Self** | **🎯 Self** |
-
-**Effect:** The wodenelg and their rider become invisible until the start
-of the wodenelg's next turn.
-
-⭐️ **Mounted Stability**
-
-The wodenelg's rider has damage immunity 2.
-
-⭐️ **Shared Glamor**
-
-If the wodenelg's rider has the Masking Glamor trait, the
-wodenelg also has that trait.
+- **≤11:** 2 damage; vertical slide 2
+- **12-16:** 3 damage; vertical slide 4
+- **17+:** 4 damage; vertical slide 6; if this movement brings the target
+into contact with the ceiling, they are restrained (save ends).

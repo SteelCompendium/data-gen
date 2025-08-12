@@ -218,4 +218,16 @@ sections:
     file_dpath: 'Monsters/Elves Wode/Features'
     type: 'monster/feature'
 
+  - header_path: monsters/fossil-cryptic
+    xpath: "//section[@id='monsters']//section[@id='fossil-cryptic']"
+    file_dpath: 'Monsters/Fossil Cryptic'
+    type: 'monster/section'
+  - header_path: monsters/fossil-cryptic
+    xpath: "//section[@id='monsters']//section[@id='fossil-cryptic']//section[@class='level7']"
+    file_dpath: 'Monsters/Fossil Cryptic/Statblocks'
+  - header_path: monsters/fossil-cryptic
+    xpath: "//section[@id='monsters']//section[@id='fossil-cryptic']//section[@class='level9']"
+    file_dpath: 'Monsters/Fossil Cryptic/Features'
+    type: 'monster/feature'
+
 
