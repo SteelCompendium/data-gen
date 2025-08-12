@@ -84,6 +84,11 @@ run input_md_path output_md_path:
     text = re.sub( r'p \<', r'P <', text, flags=re.MULTILINE)
     text = re.sub( r'i \<', r'I <', text, flags=re.MULTILINE)
     text = re.sub( r'r \<', r'R <', text, flags=re.MULTILINE)
+    text = re.sub( r' m\<', r' M <', text, flags=re.MULTILINE)
+    text = re.sub( r' a\<', r' A <', text, flags=re.MULTILINE)
+    text = re.sub( r' p\<', r' P <', text, flags=re.MULTILINE)
+    text = re.sub( r' i\<', r' I <', text, flags=re.MULTILINE)
+    text = re.sub( r' r\<', r' R <', text, flags=re.MULTILINE)
     text = re.sub( r'<(\d)]', r'< \1', text, flags=re.MULTILINE)
 
     # statblock
@@ -97,9 +102,9 @@ run input_md_path output_md_path:
     text = re.sub( r'Immunity\: (.*) Weakness\: (.*)\nMovement\: (.*)', r'\n| **\1**<br>Immunity | **\3**<br>Movement |         -          | **-**<br>With Captain | **\2**<br>Weaknesses  |', text, flags=re.MULTILINE)
     # characteristics
     text = re.sub( r'^M ight ([0-9\+\-]+)A gility ([0-9\+\-]+)R eason ([0-9\+\-]+)I ntuition ([0-9\+\-]+)P resence ([0-9\+\-]+)', r'|  **\1**<br>Might  | **\2**<br>Agility |  **\3**<br>Reason  |  **\4**<br>Intuition  |  **\5**<br>Presence  |', text, flags=re.MULTILINE)
-    text = re.sub( r'^(1T|1M|1L|\d) ?(\d)(\d)(\d)(\d)\nSize ?Speed ?Stamina ?Stability ?Free ?Strike ?', r'|   **\1**<br>Size   |  **\2**<br>Speed   | **\3**<br>Stamina |  **\4**<br>Stability   | **\5**<br>Free Strike |', text, flags=re.MULTILINE)
-    text = re.sub( r'^(1T|1M|1L|\d) ?(\d)(\d+)(\d)(\d)\nSize ?Speed ?Stamina ?Stability ?Free ?Strike ?', r'|   **\1**<br>Size   |  **\2**<br>Speed   | **\3**<br>Stamina |  **\4**<br>Stability   | **\5**<br>Free Strike |', text, flags=re.MULTILINE)
-    text = re.sub( r'^(1T|1M|1L|\d) ?(\d)(\d+)(\d) ?(\d)\nSize ?Speed ?Stamina ?Stability ?Free ?Strike ?', r'|   **\1**<br>Size   |  **\2**<br>Speed   | **\3**<br>Stamina |  **\4**<br>Stability   | **\5**<br>Free Strike |', text, flags=re.MULTILINE)
+    text = re.sub( r'^(1T|1M|1L|1S|\d) ?(\d)(\d)(\d)(\d)\nSize ?Speed ?Stamina ?Stability ?Free ?Strike ?', r'|   **\1**<br>Size   |  **\2**<br>Speed   | **\3**<br>Stamina |  **\4**<br>Stability   | **\5**<br>Free Strike |', text, flags=re.MULTILINE)
+    text = re.sub( r'^(1T|1M|1L|1S|\d) ?(\d)(\d+)(\d)(\d)\nSize ?Speed ?Stamina ?Stability ?Free ?Strike ?', r'|   **\1**<br>Size   |  **\2**<br>Speed   | **\3**<br>Stamina |  **\4**<br>Stability   | **\5**<br>Free Strike |', text, flags=re.MULTILINE)
+    text = re.sub( r'^(1T|1M|1L|1S|\d) ?(\d)(\d+)(\d) ?(\d)\nSize ?Speed ?Stamina ?Stability ?Free ?Strike ?', r'|   **\1**<br>Size   |  **\2**<br>Speed   | **\3**<br>Stamina |  **\4**<br>Stability   | **\5**<br>Free Strike |', text, flags=re.MULTILINE)
 
     # monster book
     text = re.sub( r'^\#* ?t \**([A-Z].*)\**', r'\n⭐️ **\1**\n\n', text, flags=re.MULTILINE)

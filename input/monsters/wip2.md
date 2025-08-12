@@ -1,72 +1,116 @@
-## Gnolls
+## Goblins
 
-Edacity. The hyena-faced gnolls know only blood and hunger. These fiends carry with them the evil legacy of an unwitting demonic heritage. Originally from the Abyssal Wasteland, gnolls quickly spread across the timescape, and they thrive in deserts, plains, and other sparsely populated places. Though a gnoll's muzzle is just as likely to be bloodied by carrion as by prey, their hunting packs hunger for violence, and they eagerly hunt travelers and raid settlements. A pack's eerie war cry, a wild cackle, presages a night of battle and terror.
+Known among themselves as *rogabrin*, meaning "more of us" in their Szetch language, goblins are one of the most numerous humanoid species in the world. They can be found across many lands, have developed countless distinct cultures, and dare to venture into environments that few other humanoids are willing to hazard.
 
-#### Born From Blood
+Their long arms and prehensile toes make goblins particularly well adapted to environments requiring climbing, and they live equally comfortably in treetop cities as in subterranean realms filled with stalactites, ledges, and chasms. However, just as many prefer to dwell in tight-knit neighborhoods within diverse cities. Many of those goblins who cross swords with adventuring heroes are the worst of their society-thieves and murderers shunned by their own people.
 
-The Abyssal Waste is an alien landscape hostile to most life. Yet amid its desolation, fiendish creatures thrive, including abyssal hyenas-bloodthirsty scavengers who fight with other lesser fiends over the corpses of demons. The first gnolls arose when a pack of those predators lapped at the ichor oozing from the wounds of a dying demon prince, As'sylrak the Warper.
+#### Encountered in Groups
 
-As his last act, the demon gave the fiendish hyenas a demonic cunning to match their insatiable hunger, bound his evil will to theirs, and turned their paws into hands so they could wield weapons. He called these new fiends "gnoll," an Abyssal word that has many meanings, one of which is "to consume completely." And true to their name, the gnolls immediately devoured their creator.
+Whether within a society or living in exile, goblins survive and thrive because they work together. A single goblin forced into the wild is terrified. A dozen outlaw goblins are supremely confident-perhaps overly so. Such groups often become bandits who ambush travelers crossing through their territory, be it desert, forest, or underground. Larger goblin hordes might become unscrupulous mercenaries serving powerful villains. No matter how they're encountered, goblins prefer to fight as an overwhelming force and to flee when foes outnumber friends.
 
-#### Ceaseless Hunger
+######### Goblin Malice Malice Features
 
-The merciless gnolls quickly spread across the timescape in search of new victims to quench their never-ending hunger. Their packs were originally followed by some of the abyssal hyenas who didn't receive As'sylrak's blessing, with those tagalongs enjoying the castoffs of the gnoll packs. Gnolls never forgot the day when they tasted immortal flesh-and they hunger for more, longing for a day when they hunt the gods themselves through heavenly halls.
+At the start of any goblin's turn, you can spend Malice to activate one of the following features.
 
-#### Gnoll War
-
-Most gnolls live for the thrill of the hunt and the taste of flesh, and they aren't choosy with their targets. Perhaps the one saving grace for most humanoid communities is that gnoll war bands constantly battle each other for territory, keeping their numbers reduced.
-
-#### Abyssal Hyenas
-
-Stronger and smarter than their beastly counterparts, abyssal hyenas crawl out of the Abyssal Wasteland to feed on corpses gnolls leave in their wake. When reinforcements are needed, gnoll spellcasters can use magic to transform abyssal hyenas into gnolls.
-
-#### Tusker Demons
-
-Towering among the gnolls of a war band, the elephantine tusker demon serves as beast of burden and war machine. Tusker demons have no facial features except a twisted crown of tusks that surrounds their ravening maw. Although they usually follow gnoll commands, tuskers in lethe (see the Demons section) are prone to violent outbursts and charge at anything that moves-enemies and allies alike.
-
-#### Gnoll Languages
-
-Most gnolls speak Tholl. Gnoll carnages and other older gnolls usually also know Variac.
-
-#### Heroes Beware!
-
-When gnolls go into a frenzy and coordinate their individual Cackletongue maneuvers, few heroes will leave the battlefield unscarred. Any 1st-echelon encounter that contains more than two non-minion gnolls can be considered one difficulty category harder at the Director's discretion.
-
-######### Gnoll Malice
-
-At the start of any gnoll's turn, you can spend Malice to activate one of the following features.
-
-> 🔳 **Iron Jaws (3 Malice)**
+> ⭐️ **Goblin Mode (3 Malice)** 
 > 
-> | **Area, Ranged, Weapon** | **Maneuver** |
-> |--------------------------|---------------:|
-> | **📏 1 cube within 3** | **🎯 Special** 
+> Each goblin in the encounter gains a +2 bonus to speed until the end of the round.
+
+> ❇️ **Tiny Stabs (5 Malice)**
 > 
-> **Effect:** A gnoll acting this turn drops an iron-jawed snare into the area. The first time any enemy moves into the area, they make an **Agility test**. If they were unaware of the snare, the test takes a bane. 
+> Each enemy in the encounter takes 1 damage for each goblin adjacent to them.
+
+> 🌀 **Swamp Stink (7 Malice)**
 > 
-> - **≤11:** 6 damage; bleeding (save ends)
-> - **12-16:** 4 damage; bleeding (EoT)
+> The encounter map is covered in a green mist that lasts until the end of the round, and which can't be dispersed by wind. All areas of the map are difficult terrain for non-goblins, and each non-goblin on the map makes a **Might test**.
+> 
+> - **≤11:** 5 poison damage; the creature is weakened until the mist disappears.
+> - **12-16:** The creature is weakened until the mist disappears. 
 > - **17+:** No effect.
+
+#### Mobile and Sneaky
+
+Short, lithe, and long armed, goblins are built for mobility, stealth, and climbing. Goblins who dwell in untamed wilderness and twisting caves utilize their natural agility to hide from threats and flee when found. These crafty skirmishers might run wild through battle, hacking at their enemies' knees, or unleash arrows as they dart from tree to tree.
+
+#### Goblin Magic
+
+Some exiled goblins forge pacts with evil entities for magical power, including archfey, deities, and fiends. Goblin assassins conjure darkness made from the souls of their victims, while goblin cursespitters hurl magic hexes that keep their enemies at bay.
+
+#### Skitterling
+
+A six-legged winged rodent the size of a housecat, a skitterling moves their clawed feet as they fly, making them appear to scurry through the air. Goblins train these pets to claw at the faces of enemies, as their feet secrete a toxin that causes temporary sluggishness.
+
+#### War Spider
+
+Goblins ride enormous arachnids as mounts in battle. With blades attached to their legs, a war spider cuts a swath through enemy forces while archers fire from atop a platform on the animal's back. During a raid, a war spider arches their body to launch warriors off their back and into the fray.
+
+#### Worg
+
+Some goblins form a special bond with worgs-canine creatures raised by many goblin communities as mounts, guardians, and companions. A worg stays loyal to the hand that feeds them, and will protect their handler to the bitter end.
+
+#### Goblin Languages
+
+Most goblins speak Caelian and Szetch.
+
+####### Goblin Runner
+
+| Goblin, Humanoid | - | Level 1 | Minion Harrier | EV 3 for four minions |
+|:-----------------:|:---------------------:|:----------------:|:-------------------------------------------:|:---------------------:|
+| **1S**<br>Size | **6**<br>Speed | **4**<br>Stamina | **0**<br>Stability | **1**<br>Free Strike |
+| **-**<br>Immunity | **Climb**<br>Movement | - | **Gain an edge on strikes**<br>With Captain | **-**<br>Weaknesses |
+| **-2**<br>Might | **+2**<br>Agility | **0**<br>Reason | **0**<br>Intuition | **-1**<br>Presence |
+
+> 🗡 **Club Charge (Signature Ability)**
 > 
-> **Effect:** While an enemy is bleeding this way, each gnoll in the encounter gains an edge on strikes made against them.
-
-> 👤 **Bloodpool (5 Malice)**
+> | **Charge, Melee, Strike, Weapon** | **Main action** |
+> |-----------------------------------|-----------------------------------------:|
+> | **📏 Melee 1** | **🎯 One creature or object per minion** |
 > 
-> One gnoll minion suddenly explodes into a pool of blood, splattering the area within 3 squares of them. Any gnoll who starts their turn in this area deals an extra 5 damage on their next strike before the end of their turn. Once per round, an abyssal hyena who starts their turn in the area turns into a **gnoll marauder**, keeping their current Stamina.
-
-> 🌀 **Echoes of Laughter (7 Malice)**
+> **Power Roll + 2:**
 > 
-> Until the end of the encounter, the encounter map is encased in a soundscape of laughter and howling. Each enemy takes a bane on the first power roll they make each round. Whenever a gnoll is killed, this effect is suppressed until the start of the next round.
+> - **≤11:** 1 damage
+> - **12-16:** 2 damage
+> - **17+:** 3 damage
 
-####### Abyssal Hyena
+> ⭐️ **Crafty**
+> 
+> The runner doesn't provoke opportunity attacks by moving
 
-| Abyssal, Animal, Gnoll | - | Level 2 | Minion Brute | EV 4 for four minions |
-|:----------------------:|:-----------------:|:----------------:|:-------------------------------------:|:---------------------:|
-| **1M**<br>Size | **8**<br>Speed | **7**<br>Stamina | **1**<br>Stability | **3**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement | - | **+2 bonus to speed**<br>With Captain | **-**<br>Weaknesses |
-| **+2**<br>Might | **+1**<br>Agility | **-3**<br>Reason | **0**<br>Intuition | **-2**<br>Presence |
+####### Goblin Sniper
 
-> 🗡 **Snapjaw (Signature Ability)**
+ | Goblin, Humanoid | - | Level 1 | Minion Artillery | EV 3 for four minions |
+ |:-----------------:|:---------------------:|:----------------:|:-----------------------------------------------:|:---------------------:|
+| **1S**<br>Size | **5**<br>Speed | **3**<br>Stamina | **0**<br>Stability | **2**<br>Free Strike |
+| **-**<br>Immunity | **Climb**<br>Movement | - | **+5 bonus to ranged distance**<br>With Captain | **-**<br>Weaknesses |
+| **-2**<br>Might | **+2**<br>Agility | **0**<br>Reason | **0**<br>Intuition | **-1**<br>Presence |
+
+> 🏹 **Bow (Signature Ability)**
+> 
+> | **Ranged, Strike, Weapon** | **Main action** |
+> |----------------------------|-----------------------------------------:|
+> | **📏 Ranged 10** | **🎯 One creature or object per minion** |
+> 
+> **Power Roll + 2:**
+> 
+> - **≤11:** 2 damage
+> - **12-16:** 4 damage
+> - **17+:** 5 damage
+> 
+> **Effect:** If the sniper doesn't use a move action this turn, this ability gains an edge.
+
+> ⭐️ **Crafty**
+> 
+> The sniper doesn't provoke opportunity attacks by moving.
+
+####### Goblin Spinecleaver
+
+| Goblin, Humanoid | - | Level 1 | Minion Brute | EV 3 for four minions |
+|:-----------------:|:---------------------:|:----------------:|:----------------------------------------------:|:---------------------:|
+| **1S**<br>Size | **5**<br>Speed | **5**<br>Stamina | **0**<br>Stability | **2**<br>Free Strike |
+| **-**<br>Immunity | **Climb**<br>Movement | - | **+1 damage bonus to strikes**<br>With Captain | **-**<br>Weaknesses |
+| **+2**<br>Might | **0**<br>Agility | **0**<br>Reason | **0**<br>Intuition | **-1**<br>Presence |
+
+> 🗡 **Axe (Signature Ability)**
 > 
 > | **Melee, Strike, Weapon** | **Main action** |
 > |---------------------------|-----------------------------------------:|
@@ -74,444 +118,407 @@ At the start of any gnoll's turn, you can spend Malice to activate one of the fo
 > 
 > **Power Roll + 2:**
 > 
+> - **≤11:** 2 damage; push 1
+> - **12-16:** 4 damage; push 3
+> - **17+:** 5 damage; push 4
+
+> ⭐️ **Crafty**
+> 
+> The spinecleaver doesn't provoke opportunity attacks by moving
+
+####### Skitterling
+
+| Animal, Goblin | - | Level 1 | Minion Hexer | EV 3 for four minions |
+|:-----------------:|:-------------------:|:----------------:|:-------------------------------------:|:---------------------:|
+| **1T**<br>Size | **5**<br>Speed | **3**<br>Stamina | **0**<br>Stability | **1**<br>Free Strike |
+| **-**<br>Immunity | **Fly**<br>Movement | - | **+3 bonus to speed**<br>With Captain | **-**<br>Weaknesses |
+| **-5**<br>Might | **+2**<br>Agility | **-4**<br>Reason | **0**<br>Intuition | **-2**<br>Presence |
+
+> 🗡 **Claws (Signature Ability)**
+> 
+> | **Melee, Strike, Weapon** | **Main action** |
+> |---------------------------|-------------------------------:|
+> | **📏 Melee 1** | **🎯 One creature per minion** |
+> 
+> **Power Roll + 2:**
+> 
+> - **≤11:** 1 poison damage
+> - **12-16:** 2 poison damage
+> - **17+:** 3 poison damage
+> 
+> **Effect:** The target takes a bane on their next strike.
+
+####### Goblin Assassin
+
+| Goblin, Humanoid | - | Level 1 | Horde Ambusher | EV 3 |
+|:-----------------:|:---------------------:|:-----------------:|:---------------------:|:--------------------:|
+| **1S**<br>Size | **6**<br>Speed | **15**<br>Stamina | **0**<br>Stability | **2**<br>Free Strike |
+| **-**<br>Immunity | **Climb**<br>Movement | - | **-**<br>With Captain | **-**<br>Weaknesses |
+| **-2**<br>Might | **+2**<br>Agility | **0**<br>Reason | **0**<br>Intuition | **-2**<br>Presence |
+
+> 🗡 **Sword Stab (Signature Ability)**
+> 
+> | **Melee, Strike, Weapon** | **Main action** |
+> |---------------------------|------------------------------:|
+> | **📏 Melee 1** | **🎯 One creature or object** |
+> 
+> **Power Roll + 2:**
+> 
+> - **≤11:** 4 damage
+> - **12-16:** 6 damage
+> - **17+:** 7 damage
+> 
+> **Effect:** If this ability gains an edge or has a double edge, it deals an extra 2 damage.
+
+> 🏹 **Shadow Chains (3 Malice)**
+> 
+> | **Magic, Ranged, Strike** | **Main action** |
+> |---------------------------|-----------------------:|
+> | **📏 Ranged 10** | **🎯 Three creatures** |
+> 
+> **Power Roll + 2:**
+> 
+> - **≤11:** 2 corruption damage; A < 0 restrained (save ends)
+> - **12-16:** 4 corruption damage; A < 1 restrained (save ends)
+> - **17+:** 5 corruption damage; A < 2 restrained (save ends)
+
+> ⭐️ **Crafty**
+> 
+> The assassin doesn't provoke opportunity attacks by moving.
+
+> ⭐️ **Slip Away**
+> 
+> The assassin can attempt to hide even while observed
+
+####### Goblin Cursespitter
+
+| Goblin, Humanoid | - | Level 1 | Horde Hexer | EV 3 |
+|:-----------------:|:---------------------:|:-----------------:|:---------------------:|:--------------------:|
+| **1S**<br>Size | **5**<br>Speed | **10**<br>Stamina | **0**<br>Stability | **1**<br>Free Strike |
+| **-**<br>Immunity | **Climb**<br>Movement | - | **-**<br>With Captain | **-**<br>Weaknesses |
+| **-2**<br>Might | **+1**<br>Agility | **0**<br>Reason | **+2**<br>Intuition | **0**<br>Presence |
+
+> 🏹 **Eye of Surlach (Signature Ability)**
+> 
+> | **Magic, Ranged, Strike** | **Main action** |
+> |---------------------------|--------------------:|
+> | **📏 Ranged 15** | **🎯 One creature** |
+> 
+> **Power Roll + 2:**
+> 
+> - **≤11:** 3 corruption damage; I < 0 weakened (save ends)
+> - **12-16:** 4 corruption damage; I < 1 weakened (save ends)
+> - **12-16:** 5 corruption damage; I < 2 weakened (save ends)
+
+> 🏹 **Dizzying Hex (1 Malice)**
+> 
+> | **Magic, Ranged, Strike** | **Maneuver** |
+> |---------------------------|--------------------:|
+> | **📏 Ranged 10** | **🎯 One creature** |
+> 
+> **Power Roll + 2:**
+> 
+> - **≤11:** I < 0 prone
+> - **12-16:** I < 1 prone and can't stand (EoT)
+> - **17+:** Prone; I < 2 can't stand (save ends)
+
+> ⭐️ **Crafty**
+> 
+> The cursespitter doesn't provoke opportunity attacks by moving.
+
+####### Goblin Stinker
+
+| Goblin, Humanoid | - | Level 1 | Horde Controller | EV 3 |
+|:-----------------:|:---------------------:|:-----------------:|:---------------------:|:--------------------:|
+| **1S**<br>Size | **5**<br>Speed | **10**<br>Stamina | **0**<br>Stability | **1**<br>Free Strike |
+| **-**<br>Immunity | **Climb**<br>Movement | - | **-**<br>With Captain | **-**<br>Weaknesses |
+| **-2**<br>Might | **+1**<br>Agility | **0**<br>Reason | **0**<br>Intuition | **+2**<br>Presence |
+
+> 🔳 **Toxic Winds (Signature Ability)**
+> 
+> | **Area, Magic, Ranged** | **Main action** |
+> |-------------------------|------------------------------:|
+> | **📏 3 cube within 15** | **🎯 Each enemy in the area** |
+> 
+> **Power Roll + 2:**
+> 
+> - **≤11:** 1 poison damage; slide 1
+> - **12-16:** 2 poison damage; slide 2
+> - **17+:** 3 poison damage; slide 3
+> 
+> **1+ Malice:** For each Malice spent, one target can be force moved 1 additional square.
+
+> 🔳 **Swamp Gas**
+> 
+> | **Area, Magic, Ranged** | **Maneuver** |
+> |-------------------------|---------------:|
+> | **📏 3 cube within 10** | **🎯 Special** |
+> 
+> **Effect:** The area is filled with a green haze that lasts until the start of the stinker's next turn or until the stinker is reduced to 0 Stamina, and which can't be dispersed by wind. The area is difficult terrain for non-goblins, and each non-goblin who moves in the area takes 2 poison damage for each square moved. 
+
+> ⭐️ **Crafty**
+> 
+> The stinker doesn't provoke opportunity attacks by moving
+
+> ####### Goblin Underboss
+> 
+> | Goblin, Humanoid | - | Level 1 | Horde Support | EV 3 |
+> |:-----------------:|:---------------------:|:-----------------:|:---------------------:|:--------------------:|
+> | **1S**<br>Size | **5**<br>Speed | **15**<br>Stamina | **0**<br>Stability | **1**<br>Free Strike |
+> | **-**<br>Immunity | **Climb**<br>Movement | - | **-**<br>With Captain | **-**<br>Weaknesses |
+> | **-1**<br>Might | **+2**<br>Agility | **0**<br>Reason | **0**<br>Intuition | **+1**<br>Presence |
+> 
+> 🗡 **Swordplay (Signature Ability)**
+> 
+> | **Melee, Strike, Weapon** | **Main action** |
+> |---------------------------|------------------------------:|
+> | **📏 Melee 1** | **🎯 One creature or object** |
+> 
+> **Power Roll + 2:**
+> 
 > - **≤11:** 3 damage
 > - **12-16:** 4 damage
-> - **17+:** 6 damage; grabbed
-
-> ⭐️ **Death Snap**
+> - **17+:** 5 damage
 > 
-> When the abyssal hyena is reduced to 0 Stamina, they can make a melee free strike before dying.
+> **Effect:** One ally adjacent to the target can make a free strike against them.
 
-####### Gnoll Chainflai
+> ❇️ **Get Reckless!**
+> 
+> | **Area** | **Maneuver** |
+> |----------------|-----------------------------:|
+> | **📏 5 burst** | **🎯 Each ally in the area** |
+> 
+> **Effect:** Until the start of the underboss's next turn, each target gains an edge on strikes, and any strike made against a target gains an edge.
+> 
+> **2 Malice:** Strikes made against targets no longer gain an edge.
 
-| Abyssal, Gnoll | - | Level 2 | Minion Artillery | EV 4 for four minions |
+> ⭐️ **Crafty**
+> 
+> The underboss doesn't provoke opportunity attacks by moving.
+
+####### Goblin Warrior
+
+| Goblin, Humanoid | - | Level 1 | Horde Harrier | EV 3 |
+|:-----------------:|:---------------------:|:-----------------:|:---------------------:|:--------------------:|
+| **1S**<br>Size | **6**<br>Speed | **15**<br>Stamina | **0**<br>Stability | **1**<br>Free Strike |
+| **-**<br>Immunity | **Climb**<br>Movement | - | **-**<br>With Captain | **-**<br>Weaknesses |
+| **-2**<br>Might | **+2**<br>Agility | **0**<br>Reason | **0**<br>Intuition | **-1**<br>Presence |
+
+> 🗡 **Spear Charge (Signature Ability)**
+> 
+> | **Charge, Melee, Strike, Weapon** | **Main action** |
+> |-----------------------------------|------------------------------:|
+> | **📏 Melee 1** | **🎯 One creature or object** |
+> 
+> **Power Roll + 2:**
+> 
+> - **≤11:** 3 damage
+> - **12-16:** 4 damage
+> - **17+:** 5 damage
+
+> 🗡 **Bury the Point (2 Malice)**
+> 
+> | **Melee, Strike, Weapon** | **Main action** |
+> |---------------------------|--------------------:|
+> | **📏 Melee 1** | **🎯 One creature** |
+> 
+> **Power Roll + 2:**
+> 
+> - **≤11:** 5 damage; M < 0 bleeding (save ends)
+> - **12-16:** 6 damage; M < 1 bleeding (save ends)
+> - **17+:** 7 damage; M < 3 bleeding (save ends)
+
+> ⭐️ **Crafty**
+> 
+> The warrior doesn't provoke opportunity attacks by moving
+
+####### Goblin Monarch
+
+| Goblin, Humanoid | - | Level 1 | Leader | EV 12 |
+|:-----------------:|:---------------------:|:-----------------:|:---------------------:|:--------------------:|
+| **1S**<br>Size | **6**<br>Speed | **80**<br>Stamina | **1**<br>Stability | **4**<br>Free Strike |
+| **-**<br>Immunity | **Climb**<br>Movement | - | **-**<br>With Captain | **-**<br>Weaknesses |
+| **0**<br>Might | **+3**<br>Agility | **+1**<br>Reason | **0**<br>Intuition | **+3**<br>Presence |
+
+> ⚔️ **Handaxe (Signature Ability)**
+> 
+> | **Melee, Ranged, Strike, Weapon** | **Main action** |
+> |-----------------------------------|--------------------------------:|
+> | **📏 Melee 1 or ranged 5** | **🎯 Two creatures or objects** |
+> 
+> **Power Roll + 3:**
+> 
+> - **≤11:** 7 damage
+> - **12-16:** 10 damage
+> - **17+:** 13 damage
+> 
+> **Effect:** One ally within 10 squares of the monarch can make a free strike.
+
+> 🏹 **Get in Here! 1 Malice**
+> 
+> | **Ranged** | **Maneuver** |
+> |------------------|---------------:|
+> | **📏 Ranged 20** | **🎯 Special** |
+> 
+> **Effect:** Two goblin runners appear in unoccupied spaces within distance.
+
+> ❗️ **Meat Shield**
+> 
+> | **Melee** | **Triggered action** |
+> |----------------|---------------------:|
+> | **📏 Melee 1** | **🎯 One ally** |
+> 
+> **Trigger:** A creature targets the monarch with a strike.
+> 
+> **Effect:** The ally is the target of the triggering strike instead
+
+> ⭐️ Crafty
+> 
+> The monarch doesn't provoke opportunity attacks by moving.
+
+> ⭐️ **End Effect**
+> 
+> At the end of each of their turns, the monarch can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+
+> ☠️ **What Are You Waiting For? (Villain Action 1)**
+> 
+> | **Area** | **-** |
+> |-----------------|-----------------------------:|
+> | **📏 10 burst** | **🎯 Each ally in the area** |
+> 
+> **Effect:** Each target can move up to their speed or make a free strike.
+
+> ☠️ **Focus Fire (Villain Action 2)**
+> 
+> | **Ranged** | **-** |
+> |------------------|---------------------------:|
+> | **📏 Ranged 10** | **🎯 One enemy or object** |
+> 
+> **Effect:** Each ally within 10 squares of the target can move up to their speed toward the target.
+
+> ☠️ **Kill! (Villain Action 3)**
+> 
+> | **-** | **-** |
+> |----------------|---------------:|
+> | **📏 Special** | **🎯 Special** |
+> 
+> **Effect:** Each enemy in the encounter takes 2 damage for each goblin adjacent to them.
+
+165Goblins
+
+####### Worg
+
+| Animal, Goblin |         -         |      Level 1       |         Horde Mount          |        EV 3         |
 |:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
+|   **1L**<br>Size   |  **5**<br>Speed   | **15**<br>Stamina |  **1**<br>Stability   | **1**<br>Free Strike |
+| **-**<br>Immunity | **Climb**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+|  **+2**<br>Might  | **+1**<br>Agility |  **-4**<br>Reason  |  **0**<br>Intuition  |  **-3**<br>Presence  |
 
-|   **1M**<br>Size   |  **5**<br>Speed   | **4**<br>Stamina |  **1**<br>Stability   | **3**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement | - | **+1 damage bonus to strikes**<br>With Captain | **-**<br>Weaknesses |
-| **+2**<br>Might | **0**<br>Agility | **+1**<br>Reason | **0**<br>Intuition | **-2**<br>Presence |
+🗡 **Bite (Signature Ability)**
 
-🏹 **Chain Shotput (Signature Ability)**
-
-| **Ranged, Strike, Weapon** | **Main action** |
+| **Melee, Strike, Weapon** | **Main action** |
 | --- | ---:|
-| **📏 Ranged 8** | **🎯 One creature or object per minion** |
+| **📏 Melee 1** | **🎯 One creature** |
+
+**Power Roll + 2:**
+
+- **≤11:** 7 poison damage
+- **12-16:** 11 poison damage
+- **17+:** 14 poison damage; M < 2 weakened (save ends)
+**2 Malice:** For any tier outcome, if the target has M <3, they are
+weakened (save ends).
+
+🗡 **Leg Blade**
+
+| **Melee, Strike, Weapon** | **Main action** |
+| --- | ---:|
+| **📏 Melee 1** | **🎯 Two creatures or objects** |
+
+**Power Roll + 2:**
+
+- **≤11:** 6 damage
+- **12-16:** 9 damage
+- **17+:** 12 damage
+
+👤 **Trample 5 Malice**
+
+| **-** | **Main action** |
+| --- | ---:|
+| **📏 Self** | **🎯 Self** |
+
+**Effect:** The spider shifts up to their speed and uses Leg Blade against
+each creature who comes adjacent to them during the shift . The
+spider makes one power roll against all targets.
+
+🔳 **Web**
+
+| **Area, Weapon** | **Maneuver** |
+| --- | ---:|
+| **📏 3 cube within 1** | **🎯 Each creature in the area** |
+
+- **≤11:** A < 0 restrained (save ends)
+- **12-16:** A < 1 restrained (save ends)
+- **17+:** A < 2 restrained (save ends)
+
+**Effect:** The area is difficul t terrai n fo r enemie
+
+❗️ **Skitter**
+
+| **-** | **Triggered action** |
+| --- | ---:|
+| **📏 Self** | **🎯 Self** |
+
+**Trigger:** The spider or any ally riding the spider takes damage.
+
+**Effect:** The damage is halved, and the spider shifts up to 2 squares
+after the triggering effec t resolve
+
+⭐️ **Ride Launcher**
+
+Any ally who leaps off the back of the spider can jump up to 6
+squares without making a test, and takes no damage if they fall
+during the jump. After any ally jumps , the firs t mele e strik e the
+make on the same turn gains an edge.
+
+⭐️ **Wide Back**
+
+While riding the spider, two size 1 allies can occupy the same
+space
+
+####### War Spider
+
+| Animal, Goblin |         -         |      Level 1       |         Elite Mount          |        EV 12         |
+|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
+Size SpeedStaminaStabilityFree Strike
+
+| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+|  **+1**<br>Might  | **+2**<br>Agility |  **-1**<br>Reason  |  **0**<br>Intuition  |  **-1**<br>Presence  |
+
+🗡 **Bite (Signature Ability)**
+
+| **Charge, Melee, Strike, Weapon** | **Main action** |
+| --- | ---:|
+| **📏 Melee 1** | **🎯 One creature or object** |
 
 **Power Roll + 2:**
 
 - **≤11:** 3 damage
-- **12-16:** 4 damage; push 1
-- **17+:** 6 damage; push 3
+- **12-16:** 4 damage
+- **17+:** 5 damage
 
-⭐️ **Death Circle**
+👤 **Sprint 1 Malice**
 
-Whenever a non-minion ally within 5 squares of the chainflail is
-reduced to 0 Stamina, the chainflail can move up to their spee.
-
-####### Gnoll Mage Mauler
-
-| Abyssal, Gnoll | - | Level 2 | Minion Hexer | EV 4 for four minions |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|   **1M**<br>Size   |  **5**<br>Speed   | **4**<br>Stamina |  **1**<br>Stability   | **2**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement | - | **+2 bonus to melee distance**<br>With Captain | **-**<br>Weaknesses |
-| **+2**<br>Might | **+1**<br>Agility | **-1**<br>Reason | **0**<br>Intuition | **0**<br>Presence |
-
-🗡 **Wizard Ripper (Signature Ability)**
-
-| **Magic, Melee, Strike** | **Main action** |
+| **-** | **Maneuver** |
 | --- | ---:|
-| **📏 Melee 1** | **🎯 One creature or object per minion** |
+| **📏 Self** | **🎯 Self** |
 
-**Power Roll + 2:**
+**Effect:** The worg moves up to their speed.
 
-- **≤11:** 2 acid damage
-- **12-16:** 3 cold damage
-- **17+:** 5 lightning damage; the target can't use magic abilities (EoT)
+⭐️ **Mounted Charger**
 
-**Effect:** The target takes a bane on their next power roll.
+If a worg used as a mount charges, their rider gains an edge on
+melee strikes until the end of the rider's turn.
 
-⭐️ **Death Circle**
+⭐️ **Shared Craft**
 
-Whenever a non-minion ally within 5 squares of the mage mauler
-is reduced to 0 Stamina, the mage mauler can move up to their
-speed.
-
-####### Gnoll Wildling
-
-| Abyssal, Gnoll | - | Level 2 | Minion Harrier | EV 4 for four minions |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|   **1M**<br>Size   |  **7**<br>Speed   | **5**<br>Stamina |  **1**<br>Stability   | **2**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement | - | **Gain an edge on strikes**<br>With Captain | **-**<br>Weaknesses |
-M ight +1Agility +2R eason 0I ntuition 0P resence -2
-
-🗡 **Flail (Signature Ability)**
-
-| **Melee, Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Melee 1** | **🎯 One creature or object per minion** |
-
-**Power Roll + 2:**
-
-- **≤11:** 2 damage
-- **12-16:** 3 damage
-- **17+:** 5 damage; the wildling can make a free strike against a creature
-adjacent to the target
-
-⭐️ **Death Circle**
-
-Whenever a non-minion ally within 7 squares of the wildling is
-reduced to 0 Stamina, the wildling can move up to their speed.
-155Gnolls
-
-####### Gnoll Abyssal Archer
-
-| Abyssal, Gnoll | - | Level 2 | Horde Artillery | EV 4 |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|   **1M**<br>Size   |  **5**<br>Speed   | **15**<br>Stamina |  **1**<br>Stability   | **3**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement | - | **-**<br>With Captain | **-**<br>Weaknesses |
-| **0**<br>Might | **+2**<br>Agility | **+1**<br>Reason | **0**<br>Intuition | **-1**<br>Presence |
-
-🏹 **Dark Longbow (Signature Ability)**
-
-| **Ranged, Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Ranged 10** | **🎯 One creature or object** |
-
-**Power Roll + 2:**
-
-- **≤11:** 5 corruption damage
-- **12-16:** 6 corruption damage
-- **17+:** 8 corruption damage; m< 2 slowed (save ends)
-
-**Effect:** This ability gains an edge against any target not at full Stamina.
-
-❇️ **Archer's Cackletongue 2 Malice**
-
-| **Area** | **Maneuver** |
-| --- | ---:|
-| **📏 2 burst** | **🎯 Self and each ally in the area** |
-
-**Effect:** Until the end of their next turn, each target gains an edge on
-their next strike. If any target hasn't used their own Cackletongue
-maneuver on this turn, they can use it immediately at no cost.
-
-⭐️ **Distant Death Frenzy**
-
-Whenever a non-minion ally within 5 squares of the abyssal
-archer is reduced to 0 Stamina, the abyssal archer can make a
-ranged free strike.
-
-⭐️ **Bloodscent**
-
-The abyssal archer doesn't need line of effect to use their abilities
-against any creature who isn't at full Stamina, as long as a size 1
-opening exists between the archer and the target.
-
-####### Gnoll Abyssal Summoner
-
-| Abyssal, Gnoll | - | Level 2 | Horde Support | EV 4 |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|   **1M**<br>Size   |  **5**<br>Speed   | **20**<br>Stamina |  **1**<br>Stability   | **2**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement | - | **-**<br>With Captain | **-**<br>Weaknesses |
-| **+1**<br>Might | **0**<br>Agility | **0**<br>Reason | **+2**<br>Intuition | **+2**<br>Presence |
-
-🏹 **Flame Wad (Signature Ability)**
-
-| **Magic, Ranged, Strike** | **Main action** |
-| --- | ---:|
-| **📏 Ranged 5** | **🎯 One creature or object** |
-
-**Power Roll + 2:**
-
-- **≤11:** 4 fire damag
-- **12-16:** 5 fire damag
-- **17+:** 7 fire damage ; i< 2 the target is burning (save ends)
-
-**Effect:** A burning creature takes 1d6 fire damage at the start of each
-of their turns. A burning object takes 1d6 fire damage at the end of
-each round.
-
-🏹 **Call Abyssal Hyenas 3 Malice**
-
-| **Ranged** | **Maneuver** |
-| --- | ---:|
-| **📏 Ranged 5** | **🎯 Special** |
-
-**Effect:** Two abyssal hyenas claw up from the ground in unoccupied
-spaces within distance.
-
-❇️ **Summoner's Cackletongue 4 Malice**
-
-| **Area** | **Maneuver** |
-| --- | ---:|
-| **📏 2 burst** | **🎯 Each ally in the area** |
-
-**Effect:** One abyssal hyena target turns into a gnoll marauder, keeping
-their current Stamina. If any target hasn't used their own Cackle-
-tongue maneuver on this turn, they can use it immediately at no cost.
-
-⭐️ **Death Frenzy**
-
-Whenever a non-minion ally within 5 squares of the abyssal
-summoner is reduced to 0 Stamina, the abyssal summoner moves
-up to their speed and can make a melee free strike.
-
-####### Gnoll Bonesplitter
-
-| Abyssal, Gnoll | - | Level 2 | Horde Brute | EV 4 |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|   **1L**<br>Size   |  **5**<br>Speed   | **25**<br>Stamina |  **1**<br>Stability   | **3**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement | - | **-**<br>With Captain | **-**<br>Weaknesses |
-| **0**<br>Might | **0**<br>Agility | **+2**<br>Reason | **+2**<br>Intuition | **+2**<br>Presence |
-
-🏹 **Moment of Brutality (Signature Ability)**
-
-| **Magic, Ranged, Strike** | **Main action** |
-| --- | ---:|
-| **📏 Ranged 8** | **🎯 One creature** |
-
-**Power Roll + 2:**
-
-- **≤11:** 4 psychic damage; i< 0 the target makes a free strike against a
-creature of the cackler's choice
-- **12-16:** 5 psychic damage; i< 1 the target makes a free strike against a
-creature of the cackler's choice
-- **17+:** 7 psychic damage; i< 2 the target uses a signature ability
-against a creature of the cackler's choice
-
-**Effect:** An ally targeted by this ability ignores the damage and can
-make a free strike.
-
-❇️ **Cackler's Cackletongue 4 Malice**
-
-| **Area, Magic** | **Maneuver** |
-| --- | ---:|
-| **📏 2 burst** | **🎯 Each creature in the area** |
-
-**Effect:** Each enemy target makes an Intuition test. If any target hasn't
-used their own Cackletongue maneuver on this turn, they can use it
-immediately at no cost.
-
-- **≤11:** Frightened (save ends)
-- **12-16:** Frightened (EoT)
-- **17+:** No effect
-
-⭐️ **Death Frenzy**
-
-Whenever a non-minion ally within 5 squares of the cackler is
-reduced to 0 Stamina, the cackler moves up to their speed and can
-make a melee free strike
-
-####### Gnoll Cackler
-
-| Abyssal, Gnoll | - | Level 2 | Horde Hexer | EV 4 |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-1S5151 2
-Size SpeedStaminaStabilityFree Strike
-
-| **-**<br>Immunity | **-**<br>Movement | - | **-**<br>With Captain | **-**<br>Weaknesses |
-| **+2**<br>Might | **+1**<br>Agility | **0**<br>Reason | **0**<br>Intuition | **+1**<br>Presence |
-
-🗡 **Three-Tail Flail (Signature Ability)**
-
-| **Melee, Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Melee 1** | **🎯 One creature or object** |
-
-**Power Roll + 2:**
-
-- **≤11:** 5 damage; push 2
-- **12-16:** 6 damage; push 2
-- **17+:** 8 damage; grabbed; m< 2 the target takes a bane on the Escape
-Grab maneuver
-
-**Effect:** While the bonesplitter has a target grabbed, they can't use
-Three-Tail Flail against another target.
-
-❇️ **Bonesplitter's Cackletongue 4 Malice**
-
-| **Area** | **Maneuver** |
-| --- | ---:|
-| **📏 2 burst** | **🎯 Self and each ally in the area** |
-
-**Effect:** Up to three targets can make a free strike. If any target hasn't
-used their own Cackletongue maneuver on this turn, they can use it
-immediately at no cost.
-
-⭐️ **Death Frenzy**
-
-Whenever a non-minion ally within 5 squares of the bonesplitter
-is reduced to 0 Stamina, the bonesplitter moves up to their speed
-and can make a melee free strike.
-
-157Gnolls
-
-####### Gnoll Marauder
-
-| Abyssal, Gnoll | - | Level 2 | Horde Harrier | EV 4 |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|   **1M**<br>Size   |  **7**<br>Speed   | **20**<br>Stamina |  **1**<br>Stability   | **2**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement | - | **-**<br>With Captain | **-**<br>Weaknesses |
-| **+1**<br>Might | **+1**<br>Agility | **0**<br>Reason | **0**<br>Intuition | **+1**<br>Presence |
-
-🗡 **Fury Flail (Signature Ability)**
-
-| **Melee, Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Melee 1** | **🎯 One creature or object** |
-
-**Power Roll + 2:**
-
-- **≤11:** 4 damage
-- **12-16:** 5 damage
-- **17+:** 7 damage; prone; a< 2 bleeding (save ends)
-2+ Malice: This ability targets one additional target for each 2 Malice
-spent.
-
-❇️ **Marauder's Cackletongue 3 Malice**
-
-| **Area** | **Maneuver** |
-| --- | ---:|
-| **📏 2 burst** | **🎯 Self and each ally in the area** |
-
-**Effect:** Each target shifts up to their speed . If any target hasn 't used
-their own Cackletongue maneuver on this turn, they can use it
-immediately at no cost.
-
-⭐️ **Death Frenzy**
-
-Whenever a non-minion ally within 7 squares of the marauder is
-reduced to 0 Stamina, the marauder moves up to their speed and
-can make a melee free strike.
-
-####### Gnoll Carnage
-
-| Abyssal, Gnoll | - | Level 2 | Leader | EV 16 |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|   **1M**<br>Size   |  **5**<br>Speed   | **100**<br>Stamina |  **1**<br>Stability   | **5**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement | - | **-**<br>With Captain | **-**<br>Weaknesses |
-| **+2**<br>Might | **-1**<br>Agility | **-3**<br>Reason | **0**<br>Intuition | **-1**<br>Presence |
-
-🗡 **Gore (Signature Ability)**
-
-| **Charge, Melee, Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Melee 2** | **🎯 Two creatures or objects** |
-
-**Power Roll + 2:**
-
-- **≤11:** 7 damage; push 1
-- **12-16:** 11 damage; push 2
-- **17+:** 14 damage; push 3, prone
-| **Effect If this ability is used as part of the** | **Charge main action** |, it deals
-an extra 4 damage.
-
-❗️ **Vengeful Tusker**
-
-| **Ranged** | **Triggered action** |
-| --- | ---:|
-| **📏 Ranged 7** | **🎯 The triggering enemy** |
-
-**Trigger:** An enemy within distance deals damage to the tusker.
-| **Effect The tusker demon uses the** | **Charge main action** | and Gore
-against the target.
-
-⭐️ **Trample**
-
-The tusker demon can move through enemies'spaces at their
-usual speed. When the tusker enters a creature's space for the first
-time on a turn, that creature takes 5 damage. The tusker demon
-can end their turn in a prone size 1 creature's space, preventing the
-creature from standing up.
-
-⭐️ **Lethe**
-
-While the tusker demon is winded, they gain an edge on strikes, 
-and any strike made against them gains an edge
-
-####### Tusker Demon
-
-| Abyssal, Demon, Gnoll | - | Level 2 | Elite Brute | EV 16 |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-Size SpeedStaminaStabilityFree Strike
-
-| **-**<br>Immunity | **-**<br>Movement | - | **-**<br>With Captain | **-**<br>Weaknesses |
-| **+3**<br>Might | **+3**<br>Agility | **0**<br>Reason | **0**<br>Intuition | **+3**<br>Presence |
-
-🗡 **Shrapnel Whip (Signature Ability)**
-
-| **Melee, Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Melee 2** | **🎯 Two creatures or objects** |
-
-**Power Roll + 3:**
-
-- **≤11:** 8 damage; a< 1 bleeding (save ends)
-- **12-16:** 11 damage; a< 2 bleeding (save ends)
-- **17+:** 14 damage; a< 3 bleeding and dazed (save ends)
-
-**Effect:** An ally by this ability ignores the damage and can make a free
-strike.
-
-❇️ **Carnage's Cackletongue 4 Malice**
-
-| **Area** | **Maneuver** |
-| --- | ---:|
-| **📏 5 burst** | **🎯 Self and each ally in the area** |
-
-**Effect:** Each target deals an extra 3 damage with their next strike until
-the start of the carnage's next turn. If any target hasn't used their own
-Cackletongue maneuver on this turn, they can use it immediately at
-no cost.
-
-⭐️ **Death Rampage**
-
-Whenever a non-minion ally within 5 squares of the carnage is
-reduced to 0 Stamina, the carnage can move up to their speed, 
-then can either make a melee free strike against two creatures or
-use Shrapnel Whip against one creature.
-
-⭐️ **End Effec**
-
-At the end of each of their turns, the carnage can take 5 damage to
-end one effect on them that can be ended by a saving throw . This
-damage can't be reduced in any way.
-
-⭐️ **Endless Hunger**
-
-If the carnage is reduced to 0 Stamina while there are still gnolls
-on the encounter map, one gnoll on the map is transformed into a
-gnoll carnage, keeping their current Stamina.
-
-☠️ **Call Up From the Abyss (Villain Action 1)**
-
-Magic, Ranged
-| **📏 Ranged 10** | **🎯 Special** |
-
-**Effect:** The carnage summons four abyssal hyenas into unoccupied
-spaces within distance.
-
-☠️ **Edacity (Villain Action 2)**
-
-Area
-| **📏 10 burst** | **🎯 Self and three allies** |
-
-**Effect:** Each target moves up to their speed and can make a free strike. 
-Any creature damaged by one of these free strikes who has m< 2 is
-knocked prone.
-
-☠️ **Deepest Wounds (Villain Action 3)**
-
-Area, Magic
-| **📏 5 burst** | **🎯 Each winded enemy in the area** |
-
-**Effect:** The carnage's eyes and all exposed blood within distance glow
-bright red. Each target makes a Presence test.
-
-- **≤11:** The target can't regain Stamina until the end of the encounter.
-- **12-16:** The target can't regain Stamina (save ends).
-- **17+:** No effect
-
-**Effect:** Until the end of the encounter, all gnolls have a double edge on
-power rolls that target a winded enemy.
-
+If the worg's rider has the Crafty trait , the worg also has that trai.

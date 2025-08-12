@@ -254,4 +254,16 @@ sections:
     file_dpath: 'Monsters/Gnolls/Features'
     type: 'monster/feature'
 
+  - header_path: monsters/goblins
+    xpath: "//section[@id='monsters']//section[@id='goblins']"
+    file_dpath: 'Monsters/Goblins'
+    type: 'monster/section'
+  - header_path: monsters/goblins
+    xpath: "//section[@id='monsters']//section[@id='goblins']//section[@class='level7']"
+    file_dpath: 'Monsters/Goblins/Statblocks'
+  - header_path: monsters/goblins
+    xpath: "//section[@id='monsters']//section[@id='goblins']//section[@class='level9']"
+    file_dpath: 'Monsters/Goblins/Features'
+    type: 'monster/feature'
+
 
