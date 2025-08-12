@@ -1,6 +1,14 @@
 global:
   source: "mcdm.heroes.v1"
 sections:
+    # abilities_config.just expects this ability to be "every-step...-death"
+  - source: mcdm.heroes.v1
+    header_path: censor/1st-level-features/every-step...-death
+    item_name: Every Step... Death!
+    item_id: every-step-death
+    type: feature/ability/censor/1st-level-feature
+    feature_type: ability
+    file_dpath: Abilities/Censor/1st-Level Features
   # These abilities exist on both the censor and conduit so their ids in html are `-3` instead of `-1`
   - source: mcdm.heroes.v1
     header_path: conduit/1st-level-features/faithful-friend-3
