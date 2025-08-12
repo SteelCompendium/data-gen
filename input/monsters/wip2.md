@@ -1,893 +1,517 @@
-## Giants
+## Gnolls
 
-Supremely well adapted to harsh environments, giants thrive in extreme conditions. Fire giants build floating cities in the hearts of volcanic calderas, while stone giant villages dot the tallest mountains. Most people often go their entire lives blissfully unaware of the local tribe of giants living atop the nearby mountain range. This is for the best, as few "smallfolk" structures can survive even a handful of sufficiently motivated giants.
+Edacity. The hyena-faced gnolls know only blood and hunger. These fiends carry with them the evil legacy of an unwitting demonic heritage. Originally from the Abyssal Wasteland, gnolls quickly spread across the timescape, and they thrive in deserts, plains, and other sparsely populated places. Though a gnoll's muzzle is just as likely to be bloodied by carrion as by prey, their hunting packs hunger for violence, and they eagerly hunt travelers and raid settlements. A pack's eerie war cry, a wild cackle, presages a night of battle and terror.
 
-#### Adaptable and Elemental
+#### Born From Blood
 
-Giants physically resemble the territory they inhabit. A band of frost giants doesn't simply live on a glacial mountain-they're part of that mountain, and it's part of them. Fire giants exude heat like a roaring volcano. Sages have long debated the question, "Does the environment shape a giant, or does the giant shape their environment?"
+The Abyssal Waste is an alien landscape hostile to most life. Yet amid its desolation, fiendish creatures thrive, including abyssal hyenas-bloodthirsty scavengers who fight with other lesser fiends over the corpses of demons. The first gnolls arose when a pack of those predators lapped at the ichor oozing from the wounds of a dying demon prince, As'sylrak the Warper.
 
-#### Distant Cousins
+As his last act, the demon gave the fiendish hyenas a demonic cunning to match their insatiable hunger, bound his evil will to theirs, and turned their paws into hands so they could wield weapons. He called these new fiends "gnoll," an Abyssal word that has many meanings, one of which is "to consume completely." And true to their name, the gnolls immediately devoured their creator.
 
-Humanoid scholars generally assume that all giants are related, though giants don't view each other as kin by default. When different giant communities interact, the results depend heavily on the individuals involved and the relationships between their cultures. For instance, stone giants rarely get along with hill giants, as hill giants often detest stone artisanship. Meanwhile, frost giants gladly recruit hill giants into raiding parties if they're willing to be in the vanguard.
+#### Ceaseless Hunger
 
-#### Fire Giants
+The merciless gnolls quickly spread across the timescape in search of new victims to quench their never-ending hunger. Their packs were originally followed by some of the abyssal hyenas who didn't receive As'sylrak's blessing, with those tagalongs enjoying the castoffs of the gnoll packs. Gnolls never forgot the day when they tasted immortal flesh-and they hunger for more, longing for a day when they hunt the gods themselves through heavenly halls.
 
-Hailing from sweltering deserts and deep caverns of roiling magma, fire giants embody the passion and ruthlessness of their namesake element. Though they have a reputation for violent growth and expansion, their lesser-known side is a deeply spiritual one, guided by introspection and understanding.
+#### Gnoll War
 
-Fire giants rarely wear armor, as their bodies heat to extreme temperatures while they fight, causing leather to melt and metal to deform. They instead hone their own bodies into perfect weapons of war.
+Most gnolls live for the thrill of the hunt and the taste of flesh, and they aren't choosy with their targets. Perhaps the one saving grace for most humanoid communities is that gnoll war bands constantly battle each other for territory, keeping their numbers reduced.
 
-#### Frost Giants
+#### Abyssal Hyenas
 
-Born of soaring, frigid peaks, frost giants master their environments to rule mountain ranges and build fortresses of unyielding ice. When frost giants march, a blizzard grows overhead, accompanying them like a war banner. To frost giants, battle is a way of life, camaraderie, and glory.
+Stronger and smarter than their beastly counterparts, abyssal hyenas crawl out of the Abyssal Wasteland to feed on corpses gnolls leave in their wake. When reinforcements are needed, gnoll spellcasters can use magic to transform abyssal hyenas into gnolls.
 
-Where frost giants make their homes, a unique form of ice sprouts into flowering crystalline structures. Frost giants harvest this ice, known as *issenblau* in their dialect, and fashion it into weapons as hard and sharp as steel, which can be used in any environment without melting.
+#### Tusker Demons
 
-#### Hill Giants
+Towering among the gnolls of a war band, the elephantine tusker demon serves as beast of burden and war machine. Tusker demons have no facial features except a twisted crown of tusks that surrounds their ravening maw. Although they usually follow gnoll commands, tuskers in lethe (see the Demons section) are prone to violent outbursts and charge at anything that moves-enemies and allies alike.
 
-Of all the giant cultures, hill giants are the most likely to interact with humanoids. Hill giants and smallfolk both love to live in places with rolling, fertile fields, and both appreciate the beauty of nature. However, these commonalities can be quickly forgotten if evil hill giants band together to claim the land solely for themselves, or if the smallfolk let fear of the large get the best of them and attempt to drive off their bigger neighbors. Most hill giants want to be left in peace, but when one is pressed, they can demolish a smallfolk village in minutes.
+#### Gnoll Languages
 
-Most hill giants spend so much time in quiet peace that sudden flashy sights and loud noises can draw their attention. In battle, such distractions can draw a hill giant's ire, making them switch from one target to another.
+Most gnolls speak Tholl. Gnoll carnages and other older gnolls usually also know Variac.
 
-#### Stone Giants
+#### Heroes Beware!
 
-Fascinated by the act of creation, stone giants carve cities out of ancient caverns, mine precious metals and gems, and craft relics worthy of glory. To many a stone giant, artisanship is the highest calling, and all their creations are crafted with an eye to beauty and longevity.
+When gnolls go into a frenzy and coordinate their individual Cackletongue maneuvers, few heroes will leave the battlefield unscarred. Any 1st-echelon encounter that contains more than two non-minion gnolls can be considered one difficulty category harder at the Director's discretion.
 
-Stone giants are made of the same kinds of rocks that form their homes-sandstone, marble, granite, and even basalt. Their stone bodies not only protect them from attack, but also provide them with an additional outlet for self-expression. They often carve runes into their skin, which serve a wide variety of artistic and cultural purposes.
+######### Gnoll Malice
 
-#### Giant Languages
+At the start of any gnoll's turn, you can spend Malice to activate one of the following features.
 
-Most giants speak their kind's dialect of High Kuric. Many hill giants also know Caelian.
-
-######### Giant Malice
-
-At the start of any giant's turn, you can spend Malice to activate one of the following features.
-
-> 🔳 **Hurl Landscape (3 Malice)**
+> 🔳 **Iron Jaws (3 Malice)**
 > 
-> | **Area, Ranged, Weapon** | **Main action** |
-> |--------------------------|------------------------------:|
-> | **📏 4 cube within 10** | **🎯 Each enemy in the area** |
+> | **Area, Ranged, Weapon** | **Maneuver** |
+> |--------------------------|---------------:|
+> | **📏 1 cube within 3** | **🎯 Special** 
 > 
-> **Effect:** A giant unearths a structure, hazard, or chunk of the encounter map and launches it to fill the area. Each target makes an **Agility test**.
+> **Effect:** A gnoll acting this turn drops an iron-jawed snare into the area. The first time any enemy moves into the area, they make an **Agility test**. If they were unaware of the snare, the test takes a bane. 
 > 
-> - **≤11:** 18 damage; prone and can't stand (save ends)
-> - **12-16:** 14 damage; prone
-> - **17+:** 9 damage
-
-> ❇️ **Bellow (5 Malice)** 
+> - **≤11:** 6 damage; bleeding (save ends)
+> - **12-16:** 4 damage; bleeding (EoT)
+> - **17+:** No effect.
 > 
-> Each giant in the encounter takes a deep breath and yells, pushing each creature within 3 squares of them up to 10 squares. A creature who can be pushed by more than one giant is pushed by one giant of your choice.
+> **Effect:** While an enemy is bleeding this way, each gnoll in the encounter gains an edge on strikes made against them.
 
-> 🔳 **Titanic Tear (7 Malice)** 
+> 👤 **Bloodpool (5 Malice)**
 > 
-> A giant creates a fissure along the ground, either in a 15 x 2 line within 1 or a 10 x 3 line within 2, and that opens up to a depth of 6 squares. Each giant in the area can shift into the nearest unoccupied space outside the fissure. Each non-giant in the area makes an **Agility test**.
+> One gnoll minion suddenly explodes into a pool of blood, splattering the area within 3 squares of them. Any gnoll who starts their turn in this area deals an extra 5 damage on their next strike before the end of their turn. Once per round, an abyssal hyena who starts their turn in the area turns into a **gnoll marauder**, keeping their current Stamina.
+
+> 🌀 **Echoes of Laughter (7 Malice)**
 > 
-> - **≤11:** 10 damage; the target falls into the fissure, and is prone and can't stand (EoT)
-> - **12-16:** 10 damage; the target is prone and hanging onto the edge of the fissure
-> - **17+:** The target can shift into the nearest unoccupied space outside the fissure.
+> Until the end of the encounter, the encounter map is encased in a soundscape of laughter and howling. Each enemy takes a bane on the first power roll they make each round. Whenever a gnoll is killed, this effect is suppressed until the start of the next round.
 
-145Giants
+####### Abyssal Hyena
 
-| **Fire 9**<br>Immunity | **-**<br>Movement |         -          | **+3 bonus to speed**<br>With Captain | **-**<br>Weaknesses  |
-|  **+4**<br>Might  | **+2**<br>Agility |  **0**<br>Reason  |  **+2**<br>Intuition  |  **+1**<br>Presence  |
+| Abyssal, Animal, Gnoll | - | Level 2 | Minion Brute | EV 4 for four minions |
+|:----------------------:|:-----------------:|:----------------:|:-------------------------------------:|:---------------------:|
+| **1M**<br>Size | **8**<br>Speed | **7**<br>Stamina | **1**<br>Stability | **3**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement | - | **+2 bonus to speed**<br>With Captain | **-**<br>Weaknesses |
+| **+2**<br>Might | **+1**<br>Agility | **-3**<br>Reason | **0**<br>Intuition | **-2**<br>Presence |
 
-❇️ **Blazing Leap (Signature Ability)**
+> 🗡 **Snapjaw (Signature Ability)**
+> 
+> | **Melee, Strike, Weapon** | **Main action** |
+> |---------------------------|-----------------------------------------:|
+> | **📏 Melee 1** | **🎯 One creature or object per minion** |
+> 
+> **Power Roll + 2:**
+> 
+> - **≤11:** 3 damage
+> - **12-16:** 4 damage
+> - **17+:** 6 damage; grabbed
 
-| **Area, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 1 burst** | **🎯 Each enemy and object in the area** |
+> ⭐️ **Death Snap**
+> 
+> When the abyssal hyena is reduced to 0 Stamina, they can make a melee free strike before dying.
 
-**Power Roll + 4:**
+####### Gnoll Chainflai
 
-- **≤11:** 2 fire damage
-- **12-16:** 5 fire damage ; push 
-- **17+:** 6 fire damage ; push 
-
-**Effect:** The fireballer can jump up to 4 squares before using this
-ability.
-
-⭐️ **Searing Skin**
-
-Whenever an adjacent enemy grabs the fireballer or uses a melee
-ability against them, that enemy takes 5 fire damag
-
-####### Fire Giant Fireballer
-
-| Fire Giant, Giant |         -         |      Level 9       |         Minion Harrier          |        EV 11 for four minions         |
+| Abyssal, Gnoll | - | Level 2 | Minion Artillery | EV 4 for four minions |
 |:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-Size SpeedStaminaStabilityFree Strike
 
-| **Cold 8**<br>Immunity | **-**<br>Movement |         -          | **+3 damage bonus to strikes**<br>With Captain | **-**<br>Weaknesses  |
-|  **+3**<br>Might  | **-1**<br>Agility |  **-1**<br>Reason  |  **+4**<br>Intuition  |  **+2**<br>Presence  |
+|   **1M**<br>Size   |  **5**<br>Speed   | **4**<br>Stamina |  **1**<br>Stability   | **3**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement | - | **+1 damage bonus to strikes**<br>With Captain | **-**<br>Weaknesses |
+| **+2**<br>Might | **0**<br>Agility | **+1**<br>Reason | **0**<br>Intuition | **-2**<br>Presence |
 
-🏹 **Slushfall (Signature Ability)**
+🏹 **Chain Shotput (Signature Ability)**
 
-| **Magic, Ranged, Strike** | **Main action** |
+| **Ranged, Strike, Weapon** | **Main action** |
 | --- | ---:|
-| **📏 Ranged 12** | **🎯 One creature or object per minion** |
+| **📏 Ranged 8** | **🎯 One creature or object per minion** |
 
-**Power Roll + 4:**
+**Power Roll + 2:**
 
-- **≤11:** 4 cold damage
-- **12-16:** 7 cold damage
-- **17+:** 9 cold damage; prone
+- **≤11:** 3 damage
+- **12-16:** 4 damage; push 1
+- **17+:** 6 damage; push 3
 
-⭐️ **Kingdom of Isolation**
+⭐️ **Death Circle**
 
-The snowblaster is surrounded by a snowstorm. Any enemy who
-starts their turn within 2 squares of the snowblaster can't shif
+Whenever a non-minion ally within 5 squares of the chainflail is
+reduced to 0 Stamina, the chainflail can move up to their spee.
 
-####### Frost Giant Snowblaster
+####### Gnoll Mage Mauler
 
-| Frost Giant, Giant |         -         |      Level 8       |         Minion Artillery          |        EV 10 for four minions         |
+| Abyssal, Gnoll | - | Level 2 | Minion Hexer | EV 4 for four minions |
 |:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-Size SpeedStaminaStabilityFree Strike
-| **Damage 3**<br>Immunity | **Climb**<br>Movement |         -          | **+3 damage bonus to strikes**<br>With Captain | **-**<br>Weaknesses  |
-|  **+4**<br>Might  | **-1**<br>Agility |  **-1**<br>Reason  |  **-1**<br>Intuition  |  **-1**<br>Presence  |
+|   **1M**<br>Size   |  **5**<br>Speed   | **4**<br>Stamina |  **1**<br>Stability   | **2**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement | - | **+2 bonus to melee distance**<br>With Captain | **-**<br>Weaknesses |
+| **+2**<br>Might | **+1**<br>Agility | **-1**<br>Reason | **0**<br>Intuition | **0**<br>Presence |
 
-🗡 **Swing (Signature Ability)**
-
-| **Melee, Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Melee 3** | **🎯 One creature or object per minion** |
-
-**Power Roll + 4:**
-
-- **≤11:** 4 damage
-- **12-16:** 7 damage
-- **17+:** 8 damage; grabbed
-
-**Effect:** The mosstooth can use a creature or object they have grabbed
-as a weapon for this ability, dealing an extra 5 damage to that
-creature or object and the target. They then end the grab and leave
-the creature or object prone in an unoccupied space adjacent to the
-target.
-
-⭐️ **Distracted**
-
-Whenever the mosstooth targets a creature or object with an
-ability, any enemy within distance of the ability can use a free
-triggered action to distract the mosstooth. The mosstooth targets
-that enemy instead
-
-####### Hill Giant Mosstooth
-
-| Giant, Hill Giant |         -         |      Level 7       |         Minion Brute          |        EV 9 for four minions         |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-Size SpeedStaminaStabilityFree Strike
-
-| **-**<br>Immunity | **Burrow**<br>Movement |         -          | **+6 bonus to Stamina**<br>With Captain | **-**<br>Weaknesses  |
-|  **+4**<br>Might  | **+2**<br>Agility |  **0**<br>Reason  |  **+3**<br>Intuition  |  **0**<br>Presence  |
-
-🗡 **Buried in Sand (Signature Ability)**
+🗡 **Wizard Ripper (Signature Ability)**
 
 | **Magic, Melee, Strike** | **Main action** |
 | --- | ---:|
-| **📏 Melee 3** | **🎯 One creature or object per minion** |
+| **📏 Melee 1** | **🎯 One creature or object per minion** |
 
-**Power Roll + 4:**
+**Power Roll + 2:**
 
-- **≤11:** 3 damage; slide 2
-- **12-16:** 6 damage; slide 3; A < 3 restrained (save ends)
-- **17+:** 8 damage; slide 4; A < 4 restrained (save ends)
+- **≤11:** 2 acid damage
+- **12-16:** 3 cold damage
+- **17+:** 5 lightning damage; the target can't use magic abilities (EoT)
 
-⭐️ **Stonebreaker Flesh**
+**Effect:** The target takes a bane on their next power roll.
 
-Whenever an enemy obtains a tier 1 outcome on a melee ability
-used against the sand stone giant, they take a bane on that ability
-until the end of the encounter.
+⭐️ **Death Circle**
 
-⭐️ **Stone Steps**
+Whenever a non-minion ally within 5 squares of the mage mauler
+is reduced to 0 Stamina, the mage mauler can move up to their
+speed.
 
-The sand stone giant ignores difficult terrain
+####### Gnoll Wildling
 
-⭐️ **Stone Swim**
-
-The sand stone giant can burrow through stone, but can't drag
-other creatures underground when they do so
-
-####### Sand Stone Giant
-
-| Giant, Stone Giant |         -         |      Level 8       |         Minion Controller          |        EV 10 for four minions         |
+| Abyssal, Gnoll | - | Level 2 | Minion Harrier | EV 4 for four minions |
 |:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-Size SpeedStaminaStabilityFree Strike
+|   **1M**<br>Size   |  **7**<br>Speed   | **5**<br>Stamina |  **1**<br>Stability   | **2**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement | - | **Gain an edge on strikes**<br>With Captain | **-**<br>Weaknesses |
+M ight +1Agility +2R eason 0I ntuition 0P resence -2
 
-| **-**<br>Immunity | **Burrow**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
-|  **+4**<br>Might  | **+2**<br>Agility |  **+1**<br>Reason  |  **+2**<br>Intuition  |  **+1**<br>Presence  |
-
-🗡 **Rune-Signed Blade (Signature Ability)**
-
-| **Magic, Melee, Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Melee 3** | **🎯 Two creatures or objects** |
-
-**Power Roll + 4:**
-
-- **≤11:** 12 damage; M < 2 slowed (save ends)
-- **12-16:** 17 damage; M < 3 slowed (save ends)
-- **17+:** 21 damage; M < 4 slowed (save ends)
-
-**Effect:** If a target was already slowed, that condition continues but
-their speed is 0 until the end of their next turn.
-
-⚔️ **Forked Knife (3 Malice)**
-
-| **Melee, Ranged, Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Melee 3 or ranged 12** | **🎯 One creature or object** |
-
-**Power Roll + 4:**
-
-- **≤11:** 10 damage; A < 2 restrained (save ends)
-- **12-16:** 16 damage; A < 3 restrained (save ends)
-- **17+:** 20 damage; prone; A < 4 restrained (save ends)
-
-**Effect:** The knife lands in the target's square, and has 30 Stamina and
-damage immunity 5. Whenever the knife takes damage, it deals 4
-sonic damage to each enemy within 3 squares. The knife lasts until
-the end of the encounter, and can't be picked up or manipulated.
-
-👤 **Cobblestone Shape**
-
-| **-** | **Maneuver** |
-| --- | ---:|
-| **📏 Self** | **🎯 Self** |
-
-**Effect:** The basalt stone giant moves up to their speed. Each square
-that they leave during this move is difficult terrain for enemies
-Giants ignore this difficult terrain
-
-❗️ **Resonate Rune**
-
-| **Area, Magic** | **Triggered action** |
-| --- | ---:|
-| **📏 2 burst** | **🎯 Each enemy in the area** |
-
-**Trigger:** The basalt stone giant takes damage.
-
-**Effect:** The target is pushed up to 3 squares, or if they have A < 3, they
-are pushed up to 6 squares and knocked prone.
-
-⭐️ **Stonebreaker Flesh**
-
-Whenever an enemy obtains a tier 1 outcome on a melee ability
-used against the basalt stone giant, they take a bane on that ability
-until the end of the encounter.
-
-⭐️ **Stone Steps**
-
-The basalt stone giant ignores difficult terrain
-
-⭐️ **Stone Swim**
-
-The basalt stone giant can burrow through stone, but can't drag
-other creatures underground when they do so
-
-####### Basalt Stone Giant
-
-| Giant, Stone Giant |         -         |      Level 8       |         Elite Controller          |        EV 40         |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-Size SpeedStaminaStabilityFree Strike
-
-| **Fire 9**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
-|  **+4**<br>Might  | **+2**<br>Agility |  **0**<br>Reason  |  **+4**<br>Intuition  |  **+1**<br>Presence  |
-
-🗡 **Flamelash (Signature Ability)**
-
-| **Magic, Melee, Strike** | **Main action** |
-| --- | ---:|
-| **📏 Melee 6** | **🎯 Two creatures or objects** |
-
-**Power Roll + 4:**
-
-- **≤11:** 13 fire damage ; slide 
-- **12-16:** 17 fire damage ; slide 
-- **17+:** 22 fire damage ; slide 
-
-🏹 **Living Blaze (3 Malice)**
-
-| **Magic, Ranged, Strike** | **Main action** |
-| --- | ---:|
-| **📏 Ranged 6** | **🎯 Two creatures or objects** |
-
-**Power Roll + 4:**
-
-- **≤11:** 15 fire damage
-- **12-16:** 21 fire damage
-- **17+:** 26 fire damage
-
-**Effect:** The blaze ricochets, targeting one additional target within 4
-squares of an original target and taking a bane against that target, 
-or targeting two additional targets within 2 squares of an original
-target and having a double bane against those targets. The lightbearer
-makes one power roll against all targets.
-
-🏹 **Travel By Fire**
-
-| **Magic, Ranged** | **Maneuver** |
-| --- | ---:|
-| **📏 Ranged 5** | **🎯 Two creatures or objects** |
-
-**Effect:** The lightbearer can target themself with this ability. Each
-target takes 1d6 fire damage and teleports in a plume of smoke to
-swap places with the other target. 
-
-❗️ **Emergency Beacon**
-
-| **-** | **Triggered action** |
-| --- | ---:|
-| **📏 Self** | **🎯 Self** |
-
-**Trigger:** The lightbearer takes damage.
-
-**Effect:** The lightbearer emits a beacon of light until the start of their
-next turn. Each fire giant who has line of effec t t o th e lightbeare r ha
-a double edge on abilities.
-
-⭐️ **Healing Heat**
-
-Any fire giant targeted by the lightbearer 's damage-dealing
-abilities ignores the damage and instead regains Stamina equal to
-the damage that would have been dealt. If the lightbearer moves a
-fire giant using an ability , they can choose to ignore stability
-
-⭐️ **Searing Skin**
-
-Whenever an adjacent enemy grabs the lightbearer or uses a
-melee ability against them, that enemy takes 5 fire damag
-
-####### Fire Giant Lightbearer
-
-| Fire Giant, Giant |         -         |      Level 9       |         Elite Support          |        EV 44         |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-Size SpeedStaminaStabilityFree Strike
-
-147Giants
-
-| **Fire 9**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
-|  **+4**<br>Might  | **+2**<br>Agility |  **0**<br>Reason  |  **+2**<br>Intuition  |  **+1**<br>Presence  |
-
-🗡 **Flaming Punch (Signature Ability)**
+🗡 **Flail (Signature Ability)**
 
 | **Melee, Strike, Weapon** | **Main action** |
 | --- | ---:|
-| **📏 Melee 3** | **🎯 Two creatures or objects** |
+| **📏 Melee 1** | **🎯 One creature or object per minion** |
 
-**Power Roll + 4:**
+**Power Roll + 2:**
 
-- **≤11:** 14 fire damage ; push 
-- **12-16:** 19 fire damage ; push 4 ; A < 3 burning (save ends)
-- **17+:** 23 fire damage ; push 6 ; A < 4 burning (save ends)
+- **≤11:** 2 damage
+- **12-16:** 3 damage
+- **17+:** 5 damage; the wildling can make a free strike against a creature
+adjacent to the target
+
+⭐️ **Death Circle**
+
+Whenever a non-minion ally within 7 squares of the wildling is
+reduced to 0 Stamina, the wildling can move up to their speed.
+155Gnolls
+
+####### Gnoll Abyssal Archer
+
+| Abyssal, Gnoll | - | Level 2 | Horde Artillery | EV 4 |
+|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
+|   **1M**<br>Size   |  **5**<br>Speed   | **15**<br>Stamina |  **1**<br>Stability   | **3**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement | - | **-**<br>With Captain | **-**<br>Weaknesses |
+| **0**<br>Might | **+2**<br>Agility | **+1**<br>Reason | **0**<br>Intuition | **-1**<br>Presence |
+
+🏹 **Dark Longbow (Signature Ability)**
+
+| **Ranged, Strike, Weapon** | **Main action** |
+| --- | ---:|
+| **📏 Ranged 10** | **🎯 One creature or object** |
+
+**Power Roll + 2:**
+
+- **≤11:** 5 corruption damage
+- **12-16:** 6 corruption damage
+- **17+:** 8 corruption damage; m< 2 slowed (save ends)
+
+**Effect:** This ability gains an edge against any target not at full Stamina.
+
+❇️ **Archer's Cackletongue 2 Malice**
+
+| **Area** | **Maneuver** |
+| --- | ---:|
+| **📏 2 burst** | **🎯 Self and each ally in the area** |
+
+**Effect:** Until the end of their next turn, each target gains an edge on
+their next strike. If any target hasn't used their own Cackletongue
+maneuver on this turn, they can use it immediately at no cost.
+
+⭐️ **Distant Death Frenzy**
+
+Whenever a non-minion ally within 5 squares of the abyssal
+archer is reduced to 0 Stamina, the abyssal archer can make a
+ranged free strike.
+
+⭐️ **Bloodscent**
+
+The abyssal archer doesn't need line of effect to use their abilities
+against any creature who isn't at full Stamina, as long as a size 1
+opening exists between the archer and the target.
+
+####### Gnoll Abyssal Summoner
+
+| Abyssal, Gnoll | - | Level 2 | Horde Support | EV 4 |
+|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
+|   **1M**<br>Size   |  **5**<br>Speed   | **20**<br>Stamina |  **1**<br>Stability   | **2**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement | - | **-**<br>With Captain | **-**<br>Weaknesses |
+| **+1**<br>Might | **0**<br>Agility | **0**<br>Reason | **+2**<br>Intuition | **+2**<br>Presence |
+
+🏹 **Flame Wad (Signature Ability)**
+
+| **Magic, Ranged, Strike** | **Main action** |
+| --- | ---:|
+| **📏 Ranged 5** | **🎯 One creature or object** |
+
+**Power Roll + 2:**
+
+- **≤11:** 4 fire damag
+- **12-16:** 5 fire damag
+- **17+:** 7 fire damage ; i< 2 the target is burning (save ends)
 
 **Effect:** A burning creature takes 1d6 fire damage at the start of each
 of their turns. A burning object takes 1d6 fire damage at the end of
 each round.
 
-❇️ **Caldera (5 Malice)**
+🏹 **Call Abyssal Hyenas 3 Malice**
 
-| **Area** | **Main action** |
+| **Ranged** | **Maneuver** |
 | --- | ---:|
-| **📏 Special** | **🎯 Each enemy and object in the area** |
+| **📏 Ranged 5** | **🎯 Special** |
 
-**Power Roll + 4:**
+**Effect:** Two abyssal hyenas claw up from the ground in unoccupied
+spaces within distance.
 
-- **≤11:** The distance is a 2 burst; 8 fire damage ; M < 2 pull 2
-- **12-16:** The distance is a 3 burst; 12 fire damage ; M < 3 pull 4
-- **17+:** The distance is a 4 burst; 15 fire damage ; M < 4 pull 6
+❇️ **Summoner's Cackletongue 4 Malice**
 
-**Effect:** The outermost squares of the area become a 1-square-tall wall
-of stone. The rest of the area is on fire until the end of the encounter .
-A creature who enters the area for the first time in a round or starts
-their turn there takes 3 fire damage
-
-👤 **Blazing Leap**
-
-| **-** | **Maneuver** |
+| **Area** | **Maneuver** |
 | --- | ---:|
-| **📏 Self** | **🎯 Self** |
+| **📏 2 burst** | **🎯 Each ally in the area** |
 
-**Effect:** The red fist jumps up to 5 squares . Each creature adjacent to
-them when they land takes 5 fire damage
+**Effect:** One abyssal hyena target turns into a gnoll marauder, keeping
+their current Stamina. If any target hasn't used their own Cackle-
+tongue maneuver on this turn, they can use it immediately at no cost.
 
-❗️ **Heat and Pressure**
+⭐️ **Death Frenzy**
 
-| **Melee** | **Free triggered action** |
-| --- | ---:|
-| **📏 Melee 3** | **🎯 The triggering creature** |
+Whenever a non-minion ally within 5 squares of the abyssal
+summoner is reduced to 0 Stamina, the abyssal summoner moves
+up to their speed and can make a melee free strike.
 
-**Trigger:** A creature within distance willingly moves or shifts away
-from the red fist
+####### Gnoll Bonesplitter
 
-**Effect:** The target makes a Might test. A target with fire immunity
-automatically obtains a tier 3 outcome.
-
-- **≤11:** Weakened and slowed (save ends)
-- **12-16:** Weakened (EoT)
-- **17+:** No effect
-
-❗️ **Guardian Block **
-
-| **Melee** | **Triggered action** |
-| --- | ---:|
-| **📏 Melee 3** | **🎯 Self** |
-
-**Trigger:** An ally within distance is targeted by an enemy's ability.
-
-**Effect:** The red fist becomes the target of the triggering ability , then
-can make a free strike against the enemy after the ability resolves
-
-⭐️ **Searing Skin**
-
-Whenever an adjacent enemy grabs the red fist or uses a melee
-ability against them, that enemy takes 5 fire damag
-
-####### Fire Giant Red Fist
-
-| Fire Giant, Giant |         -         |      Level 9       |         Elite Brute          |        EV 44         |
+| Abyssal, Gnoll | - | Level 2 | Horde Brute | EV 4 |
 |:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-Size SpeedStaminaStabilityFree Strike
+|   **1L**<br>Size   |  **5**<br>Speed   | **25**<br>Stamina |  **1**<br>Stability   | **3**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement | - | **-**<br>With Captain | **-**<br>Weaknesses |
+| **0**<br>Might | **0**<br>Agility | **+2**<br>Reason | **+2**<br>Intuition | **+2**<br>Presence |
 
-| **Cold 8**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
-|  **+4**<br>Might  | **-1**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition  |  **0**<br>Presence  |
-
-🏹 **Ice Javelins (Signature Ability)**
+🏹 **Moment of Brutality (Signature Ability)**
 
 | **Magic, Ranged, Strike** | **Main action** |
 | --- | ---:|
-| **📏 Ranged 15** | **🎯 Two creatures or objects** |
+| **📏 Ranged 8** | **🎯 One creature** |
 
-**Power Roll + 4:**
+**Power Roll + 2:**
 
-- **≤11:** 13 cold damage
-- **12-16:** 18 cold damage; M < 3 bleeding (save ends)
-- **17+:** 22 cold damage; M < 4 bleeding (save ends)
+- **≤11:** 4 psychic damage; i< 0 the target makes a free strike against a
+creature of the cackler's choice
+- **12-16:** 5 psychic damage; i< 1 the target makes a free strike against a
+creature of the cackler's choice
+- **17+:** 7 psychic damage; i< 2 the target uses a signature ability
+against a creature of the cackler's choice
 
-**Effect:** Whenever a creature bleeding this way takes damage from
-that condition, their speed decreases by 1 (to a minimum of 0) until
-that condition ends.
+**Effect:** An ally targeted by this ability ignores the damage and can
+make a free strike.
 
-🏹 **Flower of Frost 3 Malice**
+❇️ **Cackler's Cackletongue 4 Malice**
 
-| **Magic, Ranged** | **Main action** |
+| **Area, Magic** | **Maneuver** |
 | --- | ---:|
-| **📏 Ranged 15** | **🎯 Special** |
+| **📏 2 burst** | **🎯 Each creature in the area** |
 
-**Effect:** The storm hurler throws three size 1L ice javelins into unoc-
-cupied squares within distance. Each javelin has 30 Stamina and fire
-weakness 5. At the start of the storm hurler's next turn, all javelins
-not destroyed explode in a shower of icicles. Each enemy and object
-within 3 squares of an exploding javelin makes an Agility test.
+**Effect:** Each enemy target makes an Intuition test. If any target hasn't
+used their own Cackletongue maneuver on this turn, they can use it
+immediately at no cost.
 
-- **≤11:** 14 cold damage; push 4; bleeding (save ends)
-- **12-16:** 11 cold damage; push 2; slowed (save ends)
-- **17+:** 7 cold damageFrost Giant Storm Hurler Level 8 Elite Artillery
-Frost Giant, Giant EV 40
-Size SpeedStaminaStabilityFree Strikem Ice Dance
-| **Melee** | **Maneuver** |
-| --- | ---:|
-| **📏 Melee 1** | **🎯 One giant ally** |
-
-**Effect:** The storm hurler and the target each shift up to 6 squares
-while staying adjacent to each other. The target can then jump up to 5
-squares and make a free strike.
-
-❗️ **Frozen Retribution**
-
-| **-** | **Triggered action** |
-| --- | ---:|
-| **📏 Self** | **🎯 Self** |
-
-**Trigger:** The storm hurler is targeted by a ranged strike.
-
-**Effect:** The triggering strike has a double bane. If the strike obtains a tier
-
-- **≤11:** outcome, the storm hurler uses Ice Javelins against the creature who
-made it.
-
-⭐️ **Kingdom of Isolation**
-
-The storm hurler is surrounded by a snowstorm. Any enemy who
-starts their turn within 2 squares of the storm hurler can't shif.
-
-149Giants
-
-| **Cold 8**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
-|  **+4**<br>Might  | **+4**<br>Agility |  **-1**<br>Reason  |  **0**<br>Intuition  |  **0**<br>Presence  |
-
-🗡 **Cold Axe (Signature Ability)**
-
-| **Charge, Melee, Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Melee 3** | **🎯 Two creatures or objects** |
-
-**Power Roll + 4:**
-
-- **≤11:** 12 damage
-- **12-16:** 17 damage; A < 3 bleeding (save ends)
-- **17+:** 21 damage; A < 4 bleeding (save ends)
-
-**Effect:** A target who is already bleeding takes an extra 1d6 cold
-damage.
-
-👤 **Blizzard Surge 5 Malice**
-
-| **-** | **Main action** |
-| --- | ---:|
-| **📏 Self** | **🎯 Self** |
-
-**Effect:** The wind sprinter shifts up to their speed and uses Cold Axe
-against each enemy who comes within 2 squares of them during the
-move. The wind sprinter makes one power roll against all targets.
-
-🗡 **Ice Dance**
-
-| **Melee** | **Maneuver** |
-| --- | ---:|
-| **📏 Melee 1** | **🎯 One giant ally** |
-
-**Effect:** The wind sprinter and the target each shift up to 6 squares
-while staying adjacent to each other. The target can then jump up to
-5 squares and make a free strike.
-
-❗️ **Begone, Smallfolk!**
-
-| **-** | **Triggered action** |
-| --- | ---:|
-| **📏 Self** | **🎯 Self** |
-
-**Trigger:** The wind sprinter takes damage.
-
-**Effect:** The wind sprinter moves up to their speed and uses Cold Axe
-against one target.
-
-⭐️ **Crush Underfoot**
-
-The wind sprinter can move through enemies'spaces at their
-usual speed. The first time on a turn that a wind sprinter enters a
-creature's space, that creature can choose to fall prone or to take 8
-damage.
-
-⭐️ **Kingdom of Isolation**
-
-The wind sprinter is surrounded by a snowstorm. Any enemy
-who starts their turn within 2 squares of the wind sprinter can't
-shif
-
-####### Frost Giant Wind Sprinter
-
-| Frost Giant, Giant |         -         |      Level 8       |         Elite Harrier          |        EV 40         |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-Size SpeedStaminaStabilityFree Strike
-
-| **-**<br>Immunity | **Burrow**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
-|  **+4**<br>Might  | **+1**<br>Agility |  **+1**<br>Reason  |  **+2**<br>Intuition  |  **+1**<br>Presence  |
-
-🗡 **Jagged Stone Club (Signature Ability)**
-
-| **Melee, Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Melee 3** | **🎯 Two creatures or objects** |
-
-**Power Roll + 4:**
-
-- **≤11:** 12 damage
-- **12-16:** 17 damage; R < 3 weakened (save ends)
-- **17+:** 21 damage; R < 4 weakened (save ends)
-
-**Effect:** If the target is already weakened, they are also bleeding (save
-ends). 
-
-❇️ **Crag Burst (3 Malice)**
-
-| **Area** | **Main action** |
-| --- | ---:|
-| **📏 2 burst** | **🎯 Each enemy and object in the area** |
-
-**Power Roll + 4:**
-
-- **≤11:** 6 damage; push 2
-- **12-16:** 10 damage; push 4
-- **17+:** 14 damage; vertical push 4
-
-**Effect:** The area is difficult terrain . Wheneve r a creatur e enter s
-square in the area, they take 3 damage.
-
-👤 **Castle Stone Shape**
-
-| **-** | **Maneuver** |
-| --- | ---:|
-| **📏 Self** | **🎯 Self** |
-
-**Effect:** The granite stone giant moves up to their speed and creates a
-14 wall of stone in squares adjacent to the path of their movement.
-
-❗️ **Pillar**
-
-| **Melee** | **Triggered action** |
-| --- | ---:|
-| **📏 Melee 3** | **🎯 The triggering creature or object** |
-
-**Trigger:** A creature or object within distance moves or shifts away
-from the granite stone giant.
-
-**Effect:** A 1-square pillar of stone rises 5 squares out of the ground
-beneath the target, who moves with the ground to its new elevation, 
-then is vertical pushed 5 squares.
-
-⭐️ **Stonebreaker Flesh**
-
-Whenever an enemy obtains a tier 1 outcome on a melee ability
-used against the granite stone giant, they take a bane on that
-ability until the end of the encounter.
-
-⭐️ **Stone Steps**
-
-The granite stone giant ignores difficult terrain
-
-⭐️ **Stone Swim**
-
-The granite stone giant can burrow through stone, but can't drag
-other creatures underground when they do so
-
-####### Granite Stone Giant
-
-| Giant, Stone Giant |         -         |      Level 8       |         Elite Defender          |        EV 40         |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-Size SpeedStaminaStabilityFree Strike
-
- 
-| **Damage 3**<br>Immunity | **Climb**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
-|  **+4**<br>Might  | **-1**<br>Agility |  **-1**<br>Reason  |  **-1**<br>Intuition  |  **-1**<br>Presence  |
-
-🗡 **Clobberin' Club (Signature Ability)**
-
-| **Charge, Melee, Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Melee 3** | **🎯 Two creatures or objects** |
-
-**Power Roll + 4:**
-
-- **≤11:** 12 damage
-- **12-16:** 17 damage; prone
-- **17+:** 21 damage; prone
-
-**Effect:** A target who is already prone takes an extra 12 damage.
-
-🗡 **Stomp (3 Malice)**
-
-| **Melee, Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Melee 1** | **🎯 One creature or object** |
-
-**Power Roll + 4:**
-
-- **≤11:** 14 damage; prone
-- **12-16:** 20 damage; prone; M < 3 can't stand (save ends)
-- **17+:** 25 damage; prone; M < 4 can't stand (save ends)
-
-**Effect:** In suitably soft ground , the target is entrenched in a 2-square
-deep hole.
-
-❇️ **Hill Quake**
-
-| **Area** | **Maneuver** |
-| --- | ---:|
-| **📏 3 burst** | **🎯 Each enemy in the area** |
-
-**Effect:** Each target must make either a Might test or an Agility test.
-
-- **≤11:** 6 damage; vertical push 3
-- **12-16:** 2 damage; vertical push 2
-- **17+:** Push 2
-
-**Effect:** The clobberer can choose to fall prone in order to double the
-forced movement distance.
-
-❗️ **You Ain't Getting Away**
-
-| **Melee** | **Triggered action** |
-| --- | ---:|
-| **📏 Melee 3** | **🎯 The triggering creature** |
-
-**Trigger:** A creature within distance moves or shifts away from the
-clobberer.
-
-**Effect:** The target makes an Agility test.
-
-- **≤11:** Grabbed, and the target takes a bane on the Escape Grab
-maneuver
-- **12-16:** Grabbed
+- **≤11:** Frightened (save ends)
+- **12-16:** Frightened (EoT)
 - **17+:** No effect
-**2 Malice:** A target who would be grabbed by this ability is instead
-either vertical pushed up to 5 squares; or they take 5 damage, are
-knocked prone, and can't stand until the end of their next turn.
 
-⭐️ **Destructive Path**
+⭐️ **Death Frenzy**
 
-The clobberer automatically destroys any mundane size 1 objects
-in their path when they move or are forced moved. They can
-break through any mundane wall made of wood, stone, or a
-similarly sturdy material this way as long as the wall is 2 squares
-thick or less.
+Whenever a non-minion ally within 5 squares of the cackler is
+reduced to 0 Stamina, the cackler moves up to their speed and can
+make a melee free strike
 
-⭐️ **Distracted**
+####### Gnoll Cackler
 
-Whenever the clobberer targets a creature or object with an
-ability, any enemy within distance of the ability can use a free
-triggered action to distract the clobberer. The clobberer targets
-that enemy instead
-
-####### Hill Giant Clobberer
-
-| Giant, Hill Giant |         -         |      Level 7       |         Elite Brute          |        EV 36         |
+| Abyssal, Gnoll | - | Level 2 | Horde Hexer | EV 4 |
 |:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
+1S5151 2
 Size SpeedStaminaStabilityFree Strike
-151Giants
 
-| **-**<br>Immunity | **Burrow**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
-|  **+4**<br>Might  | **+3**<br>Agility |  **0**<br>Reason  |  **+3**<br>Intuition  |  **0**<br>Presence  |
+| **-**<br>Immunity | **-**<br>Movement | - | **-**<br>With Captain | **-**<br>Weaknesses |
+| **+2**<br>Might | **+1**<br>Agility | **0**<br>Reason | **0**<br>Intuition | **+1**<br>Presence |
 
-🔳 **Marble From a Great Sling (Signature Ability)**
+🗡 **Three-Tail Flail (Signature Ability)**
 
-| **Area, Ranged, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 3 cube within 15** | **🎯 Each enemy and object in the area** |
-
-**Power Roll + 4:**
-
-- **≤11:** 6 damage; I < 2 dazed (save ends)
-- **12-16:** 10 damage; I < 3 dazed (save ends)
-- **17+:** 14 damage; I < 4 dazed (save ends)
-
-**Effect:** If the target has any effect on them that can be ended by
-a saving throw or that ends at the end of their turn, they are also
-knocked prone. 
-
-🗡 **Far Flung (3 Malice)**
-
-| **Melee, Weapon** | **Main action** |
+| **Melee, Strike, Weapon** | **Main action** |
 | --- | ---:|
 | **📏 Melee 1** | **🎯 One creature or object** |
 
-**Power Roll + 4:**
+**Power Roll + 2:**
 
-- **≤11:** Vertical push 7
-- **12-16:** Vertical push 10
-- **17+:** Vertical push 12
+- **≤11:** 5 damage; push 2
+- **12-16:** 6 damage; push 2
+- **17+:** 8 damage; grabbed; m< 2 the target takes a bane on the Escape
+Grab maneuver
 
-**Effect:** Against a target who is prone or grabbed, this ability has a
-double edge
+**Effect:** While the bonesplitter has a target grabbed, they can't use
+Three-Tail Flail against another target.
 
-####### Marble Stone Giant
+❇️ **Bonesplitter's Cackletongue 4 Malice**
 
-| Giant, Stone Giant |         -         |      Level 8       |         Elite Hexer          |        EV 40         |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-Size SpeedStaminaStabilityFree Strikea Polish Stone Shape
 | **Area** | **Maneuver** |
 | --- | ---:|
-| **📏 10 x 2 line within 1** | **🎯 Special** |
+| **📏 2 burst** | **🎯 Self and each ally in the area** |
 
-**Effect:** The ground in the area becomes slick and glossy. Any non-giant
-who starts or ends their turn in the area is knocked prone and slides 2
-squares.
+**Effect:** Up to three targets can make a free strike. If any target hasn't
+used their own Cackletongue maneuver on this turn, they can use it
+immediately at no cost.
 
-❗️ **Break Armor 1 Malice**
+⭐️ **Death Frenzy**
 
-| **-** | **Triggered action** |
+Whenever a non-minion ally within 5 squares of the bonesplitter
+is reduced to 0 Stamina, the bonesplitter moves up to their speed
+and can make a melee free strike.
+
+157Gnolls
+
+####### Gnoll Marauder
+
+| Abyssal, Gnoll | - | Level 2 | Horde Harrier | EV 4 |
+|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
+|   **1M**<br>Size   |  **7**<br>Speed   | **20**<br>Stamina |  **1**<br>Stability   | **2**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement | - | **-**<br>With Captain | **-**<br>Weaknesses |
+| **+1**<br>Might | **+1**<br>Agility | **0**<br>Reason | **0**<br>Intuition | **+1**<br>Presence |
+
+🗡 **Fury Flail (Signature Ability)**
+
+| **Melee, Strike, Weapon** | **Main action** |
 | --- | ---:|
-| **📏 Self** | **🎯 Self** |
+| **📏 Melee 1** | **🎯 One creature or object** |
 
-**Trigger:** The marble stone giant takes damage.
+**Power Roll + 2:**
 
-**Effect:** The marble stone giant halves the damage, and has damage
-weakness 3 and a +3 bonus to speed until the end of the encounter. 
-The damage weakness increases by 3 each time the marble stone giant
-uses this ability in the same encounter.
+- **≤11:** 4 damage
+- **12-16:** 5 damage
+- **17+:** 7 damage; prone; a< 2 bleeding (save ends)
+2+ Malice: This ability targets one additional target for each 2 Malice
+spent.
 
-⭐️ **Stonebreaker Flesh**
+❇️ **Marauder's Cackletongue 3 Malice**
 
-Whenever an enemy obtains a tier 1 outcome on a melee ability
-used against the marble stone giant, they take a bane on that ability
-until the end of the encounter.
-
-⭐️ **Stone Steps**
-
-The marble stone giant ignores difficult terrain
-
-⭐️ **Stone Swim**
-
-The marble stone giant can burrow through stone, but can't drag
-other creatures underground when they do so.
- 
-| **Fire 10**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
-|  **+5**<br>Might  | **+3**<br>Agility |  **0**<br>Reason  |  **+2**<br>Intuition  |  **+3**<br>Presence  |
-
-🔳 **Roiling Fist (Signature Ability)**
-
-| **Area, Ranged, Weapon** | **Main action** |
+| **Area** | **Maneuver** |
 | --- | ---:|
-| **📏 3 cube within 4** | **🎯 Each enemy and object in the area** |
+| **📏 2 burst** | **🎯 Self and each ally in the area** |
 
-**Effect:** Each target makes either an Agility test or an Intuition test.
+**Effect:** Each target shifts up to their speed . If any target hasn 't used
+their own Cackletongue maneuver on this turn, they can use it
+immediately at no cost.
 
-- **≤11:** 18 fire damage ; prone ; weakened (save ends
-- **12-16:** 14 fire damage ; pron
-- **17+:** 9 fire damage
+⭐️ **Death Frenzy**
 
-🗡 **Burning Kick**
+Whenever a non-minion ally within 7 squares of the marauder is
+reduced to 0 Stamina, the marauder moves up to their speed and
+can make a melee free strike.
+
+####### Gnoll Carnage
+
+| Abyssal, Gnoll | - | Level 2 | Leader | EV 16 |
+|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
+|   **1M**<br>Size   |  **5**<br>Speed   | **100**<br>Stamina |  **1**<br>Stability   | **5**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement | - | **-**<br>With Captain | **-**<br>Weaknesses |
+| **+2**<br>Might | **-1**<br>Agility | **-3**<br>Reason | **0**<br>Intuition | **-1**<br>Presence |
+
+🗡 **Gore (Signature Ability)**
 
 | **Charge, Melee, Strike, Weapon** | **Main action** |
 | --- | ---:|
-| **📏 Melee 4** | **🎯 Two creatures or objects** |
+| **📏 Melee 2** | **🎯 Two creatures or objects** |
 
-**Power Roll + 5:**
+**Power Roll + 2:**
 
-- **≤11:** 14 damage; push 5; A < 3, 9 fire damage
-- **12-16:** 19 damage; push 10; A < 4, 9 fire damage
-- **17+:** 23 damage; push 15; A < 5, 9 fire damage
+- **≤11:** 7 damage; push 1
+- **12-16:** 11 damage; push 2
+- **17+:** 14 damage; push 3, prone
+| **Effect If this ability is used as part of the** | **Charge main action** |, it deals
+an extra 4 damage.
 
-🔳 **Lava Pillar (3 Malice)**
-
-| **Area, Ranged** | **Maneuver** |
-| --- | ---:|
-| **📏 3 cube within 10** | **🎯 Each enemy and object in the area** |
-
-**Power Roll + 5:**
-
-- **≤11:** 5 fire damage ; M < 3, vertical push 3
-- **12-16:** 7 fire damage ; M < 4, vertical push 4
-- **17+:** 9 fire damage ; M < 5, vertical push 5
-
-❗️ **Fuel the Fire 1 Malice**
+❗️ **Vengeful Tusker**
 
 | **Ranged** | **Triggered action** |
 | --- | ---:|
-| **📏 Ranged 12** | **🎯 The triggering ally** |
+| **📏 Ranged 7** | **🎯 The triggering enemy** |
 
-**Trigger:** A fire giant ally within distance makes a strike
+**Trigger:** An enemy within distance deals damage to the tusker.
+| **Effect The tusker demon uses the** | **Charge main action** | and Gore
+against the target.
 
-**Effect:** The strike has a double edge and deals an extra 10 fire damage
+⭐️ **Trample**
 
-☠️ **Forward! (Villain Action 1)**
+The tusker demon can move through enemies'spaces at their
+usual speed. When the tusker enters a creature's space for the first
+time on a turn, that creature takes 5 damage. The tusker demon
+can end their turn in a prone size 1 creature's space, preventing the
+creature from standing up.
 
-Area
-| **📏 10 burst** | **🎯 Self and each ally in the area** |
+⭐️ **Lethe**
 
-**Effect:** Each target shifts up to their speed and can make a free strike .
-Any enemy who takes damage from a free strike this way and who
-has A < 4 is burning (save ends). A burning enemy takes 1d6 fire
-damage at the start of each of their turns.
+While the tusker demon is winded, they gain an edge on strikes, 
+and any strike made against them gains an edge
 
-☠️ **Burning Legion (Villain Action 2)**
+####### Tusker Demon
 
-Ranged
-| **📏 Ranged 15** | **🎯 Special** |
-
-**Effect:** The chief shifts up to 10 squares . Five fire giant fireballe then
-arrive in unoccupied spaces within distance.
-
-☠️ **All to Cinders (Villain Action 3)**
-
-Area
-| **📏 10 burst** | **🎯 Self and each fire giant ally in the are** |
-
-**Effect:** Each target unleashes a wave of fire , and each enemy within
-- **12-16:** squares of any target makes an Agility test. An enemy affected by
-two targets takes a bane on the test, while an enemy affected by
-three or more targets has a double bane.
-
-- **≤11:** 18 fire damage
-- **12-16:** 14 fire damage
-- **17+:** 9 fire damage
-
-⭐️ **Scorching Skin**
-
-Whenever an adjacent enemy grabs the chief or uses a melee abili-
-ty against them, that enemy takes 9 fire damage , and if they have
-M < 4 they are weakened (save ends)
-
-####### Fire Giant Chief
-
-| Fire Giant, Giant |         -         |      Level 9       |         Leader          |        EV 44         |
+| Abyssal, Demon, Gnoll | - | Level 2 | Elite Brute | EV 16 |
 |:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
 Size SpeedStaminaStabilityFree Strike
+
+| **-**<br>Immunity | **-**<br>Movement | - | **-**<br>With Captain | **-**<br>Weaknesses |
+| **+3**<br>Might | **+3**<br>Agility | **0**<br>Reason | **0**<br>Intuition | **+3**<br>Presence |
+
+🗡 **Shrapnel Whip (Signature Ability)**
+
+| **Melee, Strike, Weapon** | **Main action** |
+| --- | ---:|
+| **📏 Melee 2** | **🎯 Two creatures or objects** |
+
+**Power Roll + 3:**
+
+- **≤11:** 8 damage; a< 1 bleeding (save ends)
+- **12-16:** 11 damage; a< 2 bleeding (save ends)
+- **17+:** 14 damage; a< 3 bleeding and dazed (save ends)
+
+**Effect:** An ally by this ability ignores the damage and can make a free
+strike.
+
+❇️ **Carnage's Cackletongue 4 Malice**
+
+| **Area** | **Maneuver** |
+| --- | ---:|
+| **📏 5 burst** | **🎯 Self and each ally in the area** |
+
+**Effect:** Each target deals an extra 3 damage with their next strike until
+the start of the carnage's next turn. If any target hasn't used their own
+Cackletongue maneuver on this turn, they can use it immediately at
+no cost.
+
+⭐️ **Death Rampage**
+
+Whenever a non-minion ally within 5 squares of the carnage is
+reduced to 0 Stamina, the carnage can move up to their speed, 
+then can either make a melee free strike against two creatures or
+use Shrapnel Whip against one creature.
+
+⭐️ **End Effec**
+
+At the end of each of their turns, the carnage can take 5 damage to
+end one effect on them that can be ended by a saving throw . This
+damage can't be reduced in any way.
+
+⭐️ **Endless Hunger**
+
+If the carnage is reduced to 0 Stamina while there are still gnolls
+on the encounter map, one gnoll on the map is transformed into a
+gnoll carnage, keeping their current Stamina.
+
+☠️ **Call Up From the Abyss (Villain Action 1)**
+
+Magic, Ranged
+| **📏 Ranged 10** | **🎯 Special** |
+
+**Effect:** The carnage summons four abyssal hyenas into unoccupied
+spaces within distance.
+
+☠️ **Edacity (Villain Action 2)**
+
+Area
+| **📏 10 burst** | **🎯 Self and three allies** |
+
+**Effect:** Each target moves up to their speed and can make a free strike. 
+Any creature damaged by one of these free strikes who has m< 2 is
+knocked prone.
+
+☠️ **Deepest Wounds (Villain Action 3)**
+
+Area, Magic
+| **📏 5 burst** | **🎯 Each winded enemy in the area** |
+
+**Effect:** The carnage's eyes and all exposed blood within distance glow
+bright red. Each target makes a Presence test.
+
+- **≤11:** The target can't regain Stamina until the end of the encounter.
+- **12-16:** The target can't regain Stamina (save ends).
+- **17+:** No effect
+
+**Effect:** Until the end of the encounter, all gnolls have a double edge on
+power rolls that target a winded enemy.
+
