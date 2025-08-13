@@ -361,3 +361,15 @@ sections:
     xpath: "//section[@id='monsters']//section[@id='lizardfolk']//section[@class='level9']"
     file_dpath: 'Monsters/Lizardfolks/Features'
     type: 'monster/feature'
+
+  - header_path: monsters/manticore
+    xpath: "//section[@id='monsters']//section[@id='manticore']"
+    file_dpath: 'Monsters/Manticores'
+    type: 'monster/section'
+  - header_path: monsters/manticore
+    xpath: "//section[@id='monsters']//section[@id='manticore']//section[@class='level7']"
+    file_dpath: 'Monsters/Manticores/Statblocks'
+  - header_path: monsters/manticore
+    xpath: "//section[@id='monsters']//section[@id='manticore']//section[@class='level9']"
+    file_dpath: 'Monsters/Manticores/Features'
+    type: 'monster/feature'

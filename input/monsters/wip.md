@@ -1,341 +1,157 @@
-## Lizardfolk
+# MANTICORE
 
-Lizardfolk prefer warm, tropical climates, but they're willing to settle in any humid region-the more moisture in the air, the better. Even in colder environs, lizardfolk can be found in any sufficiently marshy environment. Bogs and wetlands are particularly common nesting grounds.
+A weary traveler hears a call through the forest or friendly voices from a rocky shelter, and their heart leaps at the promise of refuge-only to find themself at the mercy of serrated teeth and poisonous spikes. In a manticore's territory, people go missing without a trace. These fearsome creatures carve out their hunting grounds in forests near small villages, mountain passes where caravans travel, and other locations with plentiful wildlife. Though manticores can subsist on a carnivorous diet of any nearby prey, their choicest meal is humanoid flesh.
 
-#### Homeland Protectors
+#### Uncanny Appearances
 
-Lizardfolk aren't especially hostile unless they feel their territory is threatened-which it often is. Respectful travelers entering lizardfolk territory, however, find no great hardship. Lizardfolk cultures often focus on a specific trade, such as boat building, fletching, navigating, or weaving, and sell their services to travelers in need, including lizardfolk from other places.
+A manticore has a lion's body, a dragon's wings, and a scorpion's tail barbed with spines, but their most unnerving trait is their humanoid face. Owing to a quirk of magical evolution, manticores develop the features of common ancestries that populate their region of birth. For example, a manticore in an area densely populated by devils inherits fiendish eyes and devilish horns. Manticores are born with an inherent understanding of a regional language, but they can speak only through mimicking that which they've heard-a talent manticores use to lure in prey.
 
-Adventurers often cross paths with lizardfolk while trekking through their homelands. The reptilian humanoids watch travelers who skirt too close to sources of food and shelter, attacking those who take more than they need. Many lizardfolk dwell in abandoned ruins and caverns for protection. Treasure seekers who delve into these places are typically given one warning before the attack begins.
+#### Heralds of Death
 
-#### Focused and Loyal
+Manticores have a magical howl like a trumpet blast. This haunting sound unnerves and terrifies creatures, making them more susceptible to the manticore's bite. While on the hunt, manticores often take to the skies, shooting poison-tipped spikes from their tail to weaken their victims before howling and closing in.
 
-Most lizardfolk speak plainly, viewing blunt honesty as a sign of respect. When they make a vow or personal promise, they do all they can to honor that word. Lizardfolk who swear to destroy an enemy follow their quarry to the ends of the earth.
+#### Ferocious Companions
 
-#### Marshland Tyrants
+A manticore who develops a taste for humanoids can rarely be tamed. But a young manticore who has yet to cut their teeth on such flesh can be raised into a fearsome ally. Even after a trained manticore companion finally tastes delicious humanoid flesh, they typically remain loyal to their caregiver.
 
-In times of crisis, such as a food shortage, an evil lizardfolk leader can exploit the emergency, oppressing others in the name of defending their territory. But there are always other local lizardfolk tribes who oppose such aggressive, expansionist posturing, and they often seek the aid of other folk who value freedom from tyranny.
+#### Manticore Languages
 
-> **Lizardfolk Tactics**
+Most manticores can mimic Caelian and one language commonly spoken in the region where they dwell. Except in rare cases, manticores don't communicate in full sentences and are too driven by hunger to engage in negotiation.
+
+#### Manticore Malice
+
+At the start of any manticore's turn, you can spend Malice to activate one of the following features.
+
+> 🌀 **Uncanny Mimicry (3 Malice)**
 > 
-> Lizardfolk prefer to fight in or near water whenever they can, and if they aren't on a battlefield with water, they perform delaying actions to buy time while they flood the battlefield with their Malice features before attacking with full force. If water is already present, they focus on positioning in the early battle to surround and split up their opponents.
-> 
-> With a wide array of strong grab and forced movement abilities, lizardfolk tactics are that of divide and conquer, locking down strong defenders while abducting and isolating backline heroes. Lizardfolk also have strong teamwork features and rotate units who have lost their tails to more rear positions in favor of healthier units.
-> 
-> **Lizardfolk Sample Encounters**
-> 
-> - **Marsh Hunters, 18 EV:** Eight shellguard, eight tonguers, one scaletooth
-> - **Ambushers, 24 EV:** Sixteen grunts, two skyterrors
-> - **Scalesworn Detachment, 30 EV:** Eight shellguard, sixteen tonguers, one scaletooth, two bloodeyes
-> - **War Party, 48 EV:** Eight shellguard, eight grunts, eight tonguers, one scaletooth, one skyterror, one bloodeye, one deathrex
+> The manticore uses their mimicry in an attempt to unnerve one creature within their line of effect. If the target has R < 4, they take a bane on power rolls against the manticore (save ends). Each time this feature is used against the same target during the encounter, its potency decreases by 2.
 
-#### Lizardfolk Languages
-
-Most lizardfolk speak Caelian and their own dialect of Khamish.
-
-######### Lizardfolk Malice Malice Features
-
-At the start of any lizardfolk's turn, you can spend Malice to activate one of the following features.
-
-> **Net Trap (3 Malice)**
+> ☠️ **Solo Action (5 Malice)** 
 > 
->  **Area, Ranged, Weapon** |   **Maneuver** |
-> |--------------------------|---------------:|
-> | **📏 1 cube within 3**   | **🎯 Special** |
+> The manticore takes an additional main action on their turn. They can use this feature even if they are dazed.
+
+> 🌀 **Desperate Howl (5 Malice)**
 > 
-> **Effect:** A lizardfolk acting this turn sets up a net trap into the area. The first time an enemy steps into a square with a net trap, they make an **Agility test**. If the creature was unaware of the trap, they take a bane on the test.
+> The manticore lets out an unnerving cry. Each enemy within the manticore's line of effect makes an **Intuition test**. 
 > 
-> - **≤11:** Restrained (save ends).
-> - **12-16:** Restrained (Eot).
+> - **≤11:** Frightened (save ends) 
+> - **12-16:** Frightened (EoT)
 > - **17+:** No effect.
-> 
-> **Effect:** Any creature not also restrained by a net trap who is adjacent to a creature restrained by the trap can free them as a maneuver.
 
-> 🔳 **Water Pit (5 Malice)**
+> ❇️ **Barrage of Barbs (7 Malice)**
 > 
-> A lizardfolk acting this turn unearths a magical size 2 pit that is 2 squares deep and filled with water. Any lizardfolk who moves into, then exits the pit on their turn gains 10 temporary Stamina, regrows their tail if applicable, and ends one effect on them that can be ended by a saving throw. While adjacent to the pit, any creature who can burrow or who has the Nature skill can make a **Might test** or a **Reason test** to drain it.
-> 
-> - **≤11:** The creature falls into the pit and is knocked prone.
-> - **12-16:** The creature fails to empty the pit.
-> - **17+:** The pit empties of water.
+> The manticore sprays tail spikes across the ground within 5 squares of them. Each enemy in that area who has A < 3 is bleeding (save ends). Additionally, the area is difficult terrain, and any enemy takes 3 poison damage for each square of the area they enter. An enemy who takes 9 poison damage this way on one turn is weakened until the end of the encounter.
 
-> 🌀 **Flood the Shores (7 Malice)**
-> 
-> Waist-high water floods the entire encounter map. Any lizardfolk submerged in water gains an edge on abilities and doubles their speed while swimming. If there are no open water pits on the encounter map, the water drains away at the end of the round.
+####### Manticore
 
-####### Lizardfolk Grunt
+| Beast, Manticore  |          -          |       Level 4       |         Solo          |        EV 72         |
+|:-----------------:|:-------------------:|:-------------------:|:---------------------:|:--------------------:|
+|   **2**<br>Size   |   **1**<br>Speed    | **0350**<br>Stamina |  **2**<br>Stability   | **6**<br>Free Strike |
+| **-**<br>Immunity | **Fly**<br>Movement |          -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+|  **+4**<br>Might  |  **+3**<br>Agility  |   **0**<br>Reason   |  **0**<br>Intuition   |  **-1**<br>Presence  |
 
-| Humanoid, Lizardfolk |          -           |     Level 1      |            Minion Harrier             | EV 3 for four minions |
-|:--------------------:|:--------------------:|:----------------:|:-------------------------------------:|:---------------------:|
-|    **1M**<br>Size    |    **6**<br>Speed    | **4**<br>Stamina |          **0**<br>Stability           | **1**<br>Free Strike  |
-|  **-**<br>Immunity   | **Swim**<br>Movement |        -         | **+2 bonus to speed**<br>With Captain |  **-**<br>Weaknesses  |
-|   **+1**<br>Might    |  **+2**<br>Agility   | **0**<br>Reason  |          **0**<br>Intuition           |   **0**<br>Presence   |
+>☠️ **Solo Monster**
+>
+>**End Effect:** At the end of each of their turns, the manticore can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+>
+>**Solo Turns:** The manticore can take two turns each round. They can't take turns consecutively.
 
-> 🗡 **Snap and Toss (Signature Ability)**
+> ⭐️ **Agile Predator**
 > 
-> | **Melee, Strike, Weapon** |                          **Main action** |
-> |---------------------------|-----------------------------------------:|
-> | **📏 Melee 1**            | **🎯 One creature or object per minion** |
-> 
-> **Power Roll + 2:**
-> 
-> - **≤11:** 1 damage
-> - **12-16:** 2 damage; slide 2
-> - **17+:** 3 damage; slide 2
+> Whenever the manticore deals damage to a creature, they don't provoke opportunity attacks from that creature during that turn.
 
-> ⭐️ **Reptilian Escape**
-> 
-> While the grunt has a tail, whenever they are grabbed, prone, slowed, or weakened, they can lose their tail to immediately end that condition, then shift up to 2 squares.
-
-####### Lizardfolk Shellguard
-
-| Humanoid, Lizardfolk |          -           |     Level 1      |             Minion Defender             | EV 3 for four minions |
-|:--------------------:|:--------------------:|:----------------:|:---------------------------------------:|:---------------------:|
-|    **1L**<br>Size    |    **5**<br>Speed    | **6**<br>Stamina |           **1**<br>Stability            | **1**<br>Free Strike  |
-|  **-**<br>Immunity   | **Swim**<br>Movement |        -         | **+2 bonus to Stamina**<br>With Captain |  **-**<br>Weaknesses  |
-|   **+2**<br>Might    |  **+1**<br>Agility   | **0**<br>Reason  |           **0**<br>Intuition            |   **0**<br>Presence   |
-
-> 🗡 **Shield Smash (Signature Ability)**
-> 
-> | **Melee, Strike, Weapon** |                          **Main action** |
-> |---------------------------|-----------------------------------------:|
-> | **📏 Melee 1**            | **🎯 One creature or object per minion** |
-> 
-> **Power Roll + 2:**
-> 
-> - **≤11:** 1 damage
-> - **12-16:** 2 damage
-> - **17+:** 3 damage
-> 
-> **Effect:** The target takes a bane on their next strike.
-
-> ⭐️ **Reptilian Escape**
-> 
-> While the shellguard has a tail, whenever they are grabbed, prone, slowed, or weakened, they can lose their tail to immediately end that condition, then shift up to 2 squares.
-
-####### Lizardfolk Tonguer
-
-| Humanoid, Lizardfolk |          -           |     Level 1      |            Minion Artillery             | EV 3 for four minions |
-|:--------------------:|:--------------------:|:----------------:|:---------------------------------------:|:---------------------:|
-|    **1S**<br>Size    |    **5**<br>Speed    | **3**<br>Stamina |           **0**<br>Stability            | **2**<br>Free Strike  |
-|  **-**<br>Immunity   | **Swim**<br>Movement |        -         | **+1 bonus to strikes**<br>With Captain |  **-**<br>Weaknesses  |
-|    **0**<br>Might    |  **+2**<br>Agility   | **0**<br>Reason  |           **+1**<br>Intuition           |   **0**<br>Presence   |
-
-> 🗡 **Tonguelash (Signature Ability)**
-> 
-> | **Melee, Strike, Weapon** |                          **Main action** |
-> |---------------------------|-----------------------------------------:|
-> | **📏 Melee 8**            | **🎯 One creature or object per minion** |
-> 
-> **Power Roll + 2:**
-> 
-> - **≤11:** 2 damage; pull 1, or the tonguer can shift 1 square toward the target
-> - **12-16:** 4 damage; pull 2, or the tonguer shifts up to 2 squares toward the target
-> - **17+:** 5 damage; pull 3, or the tonguer shifts up to 3 squares toward the target
-> 
-> **Effect:** If the forced movement or the shift leaves the target adjacent to the tonguer, the target is also grabbed.
-
-> ⭐️ **Reptilian Escape**
-> 
-> While the tonguer has a tail, whenever they are grabbed, prone, slowed, or weakened, they can lose their tail to immediately end that condition, then shift up to 2 squares.
-
-####### Lizardfolk Bloodeye
-
-| Humanoid, Lizardfolk |          -           |      Level 1      |     Platoon Hexer     |         EV 6         |
-|:--------------------:|:--------------------:|:-----------------:|:---------------------:|:--------------------:|
-|    **1M**<br>Size    |    **5**<br>Speed    | **20**<br>Stamina |  **0**<br>Stability   | **3**<br>Free Strike |
-|  **-**<br>Immunity   | **Swim**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
-|   **+1**<br>Might    |   **1**<br>Agility   | **+0**<br>Reason  |  **+2**<br>Intuition  |  **+0**<br>Presence  |
-
-> 🏹 **Bola Knock (Signature Ability)**
-> 
-> | **Ranged, Strike, Weapon** |               **Main action** |
-> |----------------------------|------------------------------:|
-> | **📏 Ranged 5**            | **🎯 One creature or object** |
-> 
-> **Power Roll + 2:**
-> 
-> - **≤11:** 5 damage; A < 0 restrained (save ends)
-> - **12-16:** 7 damage; A < 1 restrained (save ends)
-> - **17+:** 9 damage; A < 2 restrained (save ends)
-
-> 🏹 **Bloodshot (2 Malice)**
-> 
-> | **Ranged, Strike, Weapon** |     **Main action** |
-> |----------------------------|--------------------:|
-> | **📏 Ranged 10**           | **🎯 One creature** |
-> 
-> **Power Roll + 2:**
-> 
-> - **≤11:** 5 acid damage; M < 0 the target has line of effect only within 4 squares (save ends)
-> - **12-16:** 7 acid damage; M < 1 the target has line of effect only within 3 squares (save ends)
-> - **17+:** 9 acid damage; M < 2 the target has line of effect only within 2 squares (save ends)
-
-> ⭐️ **Reptilian Escape**
-> 
-> While the bloodeye has a tail, whenever they are grabbed, prone, slowed, or weakened, they can lose their tail to immediately end that condition, then shift up to 2 squares.
-
-####### Lizardfolk Scaletooth
-
-| Humanoid, Lizardfolk |          -           |      Level 1      |     Platoon Brute     |         EV 6         |
-|:--------------------:|:--------------------:|:-----------------:|:---------------------:|:--------------------:|
-|    **1M**<br>Size    |    **5**<br>Speed    | **46**<br>Stamina |  **0**<br>Stability   | **4**<br>Free Strike |
-|  **-**<br>Immunity   | **Swim**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
-|   **+2**<br>Might    |  **+1**<br>Agility   |  **0**<br>Reason  |  **0**<br>Intuition   |  **0**<br>Presence   |
-
-> 🗡 **Razor Bite (Signature Ability)**
+> 🗡 **Carnivorous Bite (Signature Ability)**
 > 
 > | **Melee, Strike, Weapon** |               **Main action** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 > 
-> **Power Roll + 2:**
+> **Power Roll + 4:**
 > 
-> - **≤11:** 6 damage
-> - **12-16:** 9 damage
-> - **17+:** 12 damage; A < 2 bleeding (save ends)
+> - **≤11:** 12 damage; A < 2 bleeding (save ends)
+> - **12-16:** 17 damage; A < 3 bleeding (save ends)
+> - **17+:** 21 damage; A < 4 bleeding (save ends)
 > 
-> **Effect:** If the scaletooth has the target grabbed, the potency of this ability increases by 1.
+> **Effect:** If the target is frightened, this ability gains an edge.
 
-> 🗡 **Tail Whip (2 Malice)**
+> 🏹 **Tail Spike**
 > 
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Ranged, Strike, Weapon** |                 **Main action** |
+> |----------------------------|--------------------------------:|
+> | **📏 Ranged 10**           | **🎯 Two creatures or objects** |
+> 
+> **Power Roll + 4:**
+> 
+> - **≤11:** 6 damage; M < 2 4 poison damage
+> - **12-16:** 11 damage; M < 3 4 poison damage, weakened (save ends)
+> - **17+:** 14 damage; M < 4 8 poison damage, weakened (save ends)
+> 
+> **1 Malice:** While weakened this way, a target takes 1d6 poison dam- age at the start of each of their turns.
+
+> 🗡 **Harrying Claws**
+> 
+> | **Melee, Strike, Weapon** |                    **Maneuver** |
 > |---------------------------|--------------------------------:|
-> | **📏 Melee 2**            | **🎯 Two creatures or objects** |
+> | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 > 
-> **Power Roll + 2:**
-> 
-> - **≤11:** 5 damage; slide 1
-> - **12-16:** 8 damage; slide 2; M < 1 grabbed if within 2 squares of the scaletooth
-> - **17+:** 10 damage; slide 3; M < 2 grabbed if within 2 squares of the scaletooth
+> - **≤11:** Slide 1; A < 2 3 damage
+> - **12-16:** Slide 2; A < 3 5 damage
+> - **17+:** Slide 4; A < 4 7 damage
 
-> ⭐️ **Reptilian Escape**
+> ❗️ **Reflexive Instinct (2 Malice)**
 > 
-> While the scaletooth has a tail, whenever they are grabbed, prone, slowed, or weakened, they can lose their tail to immediately end that condition, then shift up to 2 squares.
+> | **Ranged**       |           **Triggered action** |
+> |------------------|-------------------------------:|
+> | **📏 Ranged 10** | **🎯 The triggering creature** |
+> 
+> **Trigger:** A creature within distance deals damage to the manticore.
+> 
+> **Effect:** The manticore shifts up to 5 squares into the air, then can use Tail Spike against the target.
 
-####### Lizardfolk Skyterror
+> ☠️ **Trumpeting Howl (Villain Action 1)**
+> 
+> | **Area, Magic** |                            **-** |
+> |-----------------|---------------------------------:|
+> | **📏 5 Burst**  | **🎯 Each creature in the area** |
+> 
+> - **≤11:** Frightened (EoT); if the target has I < 2 they are instead frightened (save ends)
+> - **12-16:** Frightened (EoT); if the target has I < 3 they are instead frightened (save ends)
+> - **17+:** Frightened (EoT); if the target has I < 4 they are instead dazed (save ends)
 
-| Humanoid, Lizardfolk |          -           |      Level 1      |    Platoon Harrier    |         EV 6         |
-|:--------------------:|:--------------------:|:-----------------:|:---------------------:|:--------------------:|
-|    **1S**<br>Size    |    **7**<br>Speed    | **30**<br>Stamina |  **0**<br>Stability   | **3**<br>Free Strike |
-|  **-**<br>Immunity   | **Swim**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
-|   **+1**<br>Might    |  **+2**<br>Agility   |  **0**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
-
-> 🗡 **Glaive Rush (Signature Ability)**
-> 
-> | **Melee, Strike, Weapon** |               **Main action** |
-> |---------------------------|------------------------------:|
-> | **📏 Melee 1**            | **🎯 One creature or object** |
-> 
-> **Power Roll + 2:**
-> 
-> - **≤11:** 5 damage
-> - **12-16:** 7 damage
-> - **17+:** 9 damage; prone
-> 
-> **Effect:** If the skyterror is flying, they shift up to 4 squares.
-
-> 🏹 **Poison Blow Dart**
-> 
-> | **Ranged, Strike, Weapon** |               **Main action** |
-> |----------------------------|------------------------------:|
-> | **📏 Ranged 5**            | **🎯 One creature or object** |
-> 
-> **Power Roll + 2:**
-> 
-> - **≤11:** 3 damage; M < 0 weakened (save ends)
-> - **12-16:** 5 damage; M < 1 weakened (save ends)
-> - **17+:** 7 damage; M < 2 weakened (save ends)
-> 
-> **Effect:** Any creature who ends their turn adjacent to a target weakened this way is weakened until the end of their next turn.
-
-> ⭐️ **Glider**
-> 
-> Whenever the skyterror moves 2 or more squares along the ground or falls 2 or more squares, they can fly until the end of their next turn.
-
-> ⭐️ **Reptilian Escape**
-> 
-> While the skyterror has a tail, whenever they are grabbed, prone, slowed, or weakened, they can lose their tail to immediately end that condition, then shift up to 2 squares.
-
-
-####### Lizardfolk Deathrex
-
-| Humanoid, Lizardfolk |              -              |      Level 1      |        Leader         |        EV 12         |
-|:--------------------:|:---------------------------:|:-----------------:|:---------------------:|:--------------------:|
-|    **2**<br>Size     |       **5**<br>Speed        | **80**<br>Stamina |  **2**<br>Stability   | **4**<br>Free Strike |
-|  **-**<br>Immunity   | **Climb, swim**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
-|   **+3**<br>Might    |      **+2**<br>Agility      |  **0**<br>Reason  |  **+1**<br>Intuition  |  **+2**<br>Presence  |
-
-> 🗡 **Ripper Spear (Signature Ability)**
-> 
-> | **Melee, Strike, Weapon** |                 **Main action** |
-> |---------------------------|--------------------------------:|
-> | **📏 Melee 3**            | **🎯 Two creatures or objects** |
-> 
-> **Power Roll + 3:**
-> 
-> - **≤11:** 7 damage; pull 1; A < 1 bleeding (save ends)
-> - **12-16:** 10 damage; pull 1; A < 2 bleeding (save ends)
-> - **17+:** 12 damage; pull 2; A < 3 bleeding (save ends)
-> 
-> **1 Malice:** One target adjacent to the deathrex is grabbed in the deathrex's mouth.
-
-> 🗡 **Death Roll (3 Malice)**
-> 
-> | **Melee, Strike, Weapon** |                       **Main action** |
-> |---------------------------|--------------------------------------:|
-> | **📏 Melee 1**            | **🎯 One grabbed creature or object** |
-> 
-> **Power Roll + 2:**
-> 
-> - **≤11:** 8 damage; M < 1 dazed (save ends)
-> - **12-16:** 12 damage; M < 2 dazed (save ends)
-> - **17+:** 15 damage; M < 3 dazed (save ends)
-> 
-> **Effect:** The target is no longer grabbed by the deathrex, and the deathrex slides them up to 5 squares.
-
-> 👤 **Trundle**
-> 
-> | **-**       | **Maneuver** |
-> |-------------|-------------:|
-> | **📏 Self** |  **🎯 Self** |
-> 
-> **Effect:** The deathrex moves up to their speed. They can make a free strike against each creature who makes an opportunity attack against them during this movement.
-
-> ❗️ **Swat the Fly**
-> 
-> | **Melee**      |                     **Triggered action** |
-> |----------------|-----------------------------------------:|
-> | **📏 Melee 1** | **🎯 The triggering creature or object** |
-> 
-> **Trigger:** A creature or object within distance moves or shifts away from the deathrex.
-> 
-> **Effect:** The deathrex slides the target up to 5 squares.
-
-> ⭐️ **Rex Reptilian Escape**
-> 
-> While the deathrex has a tail, whenever they are affected by an effect that can be ended by a saving throw or that ends at the end of their turn, they can lose their tail to immediately end that effect, then shift up to 2 squares.
-
-> ☠️ **Snack Attack (Villain Action 1)**
-> 
-> | **Area**        |                                 **-** |
-> |-----------------|--------------------------------------:|
-> | **📏 10 Burst** | **🎯 Self and each ally in the area** |
-> 
-> **Effect:** Each target moves up to their speed and can make a free strike. Each target gains temporary Stamina equal to the damage they deal.
-
-> ☠️ **Shed Some Skin (Villain Action 2)**
->   
+> ☠️ **Cornered Predator (Villain Action 2)**
+>    
 > | **-**       |       **-** |
 > |-------------|------------:|
 > | **📏 Self** | **🎯 Self** |
 > 
-> **Effect:** The deathrex shifts up to their speed, leaving behind a shed skin duplicate in the space they started in. The duplicate acts on the deathrex's turn and has the deathrex's characteristics, but has 10 Stamina and no villain actions.
+> **Effect:** The manticore shifts up to their speed, then can use Tail Spike against each enemy within distance of that ability.
 
-☠️ **Thresher Thrasher (Villain Action 3)**
+> ☠️ **Debilitating Poison (Villain Action 3)**
+>    
+> | **-**       |       **-** |
+> |-------------|------------:|
+> | **📏 Self** | **🎯 Self** |
+> 
+> **Effect:** The manticore sours their poison with enmity. Until the end of the encounter, the manticore has a double edge on power rolls against weakened creatures. Additionally, any creature weakened by the manticore's Tail Spike ability has their speed halved and takes an extra 3 poison damage at the start of each of their turns.
 
-| **Area**        |                                 **-** |  
-|-----------------|--------------------------------------:|
-| **📏 10 Burst** | **🎯 Self and each ally in the area** |
-
-**Effect:** Each target moves up to their speed. Until the end of the encounter, whenever a creature comes adjacent to a target or starts their turn there, the target can make a free strike against them.
+###### Manticore Treasures
+                          
+> **Manticore Treasures**
+> 
+> Although manticores have no earthly use for treasure, they
+> tend to collect a lot of it-it comes attached to the humanoids
+> they prey on. Since manticores drag their victims back to their
+> cave lairs to feed, a manticore's cave is typically strewn with
+> bones, broken weapons, coins, and other relics of unfortunate
+> travelers. After a while , a manticore abandons its cluttered lair
+> in favor of a fresh one, leaving unguarded treasure for anyone
+> willing to explore manticore-infested wastes.
+> 
+> The following are sample treasures from a manticore's cave, of
+> which a manticore might have one or two. These items can be
+> found in Draw Steel: Heroes.
+> 
+> - **Treasures:** Blade of the Luxurious Fop, Bull Shot, Stop-'n-Go Coin
+> - **Components:** Adamatine spearheads, a mirror blessed by a priest, pixie wings
+> - **Project Sources:** Notes in Zaliac for the Warding II armor enhancement, notes in Khelt for the Celerity implement enhancement, notes in Variac for an Onerous Bow
+> - **Wealth:** If the heroes follow blood trails back to a nearby abandoned caravan, each hero earns 1 wealth
