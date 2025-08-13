@@ -1,223 +1,561 @@
-## Kingfissure Worm
+## Kobolds
 
-Named for their infamous hunting technique, kingfissure worms terraform the earth as they move, building tunnels and crevasses to accommodate their enormous form. They then lie in wait deep underground. Seasoned adventurers know to be wary when traveling past even the smallest crack in the earth. For when a worm senses the vibrations of their prey above, they shoot their multiple serpentine tongues through the crevasses, dragging prey from the surface into their cavernous maw.
+Kobold communities, called legions, are found in every biome and across the timescape. Gravitating toward powerful allies and defensible locations, kobolds are equally common in walled cities, secluded temples, subterranean tunnel-mazes, and dragon lairs. Most legions strive to be good neighbors or to go entirely unnoticed, but when a community falls under the sway of a malevolent wyrm or power-hungry kobold centurion, they can pose a significant threat.
 
-#### Intestine Inventory
+#### Defensive Masters
 
-The kingfissure worm eats indiscriminately, swallowing creatures, structures, and precious gems alike. The wealth inside a kingfissure worm would put any dragon's hoard to shame, though the worm cares nothing for treasure and knows nothing of the spoils lodged in their labyrinthine intestines. Few people have managed to claim the treasure lost to the inside of a kingfissure worm, but stories enough have spread to draw scavengers, bandits, and even armies to the corpses of recently slain worms, all hoping to come away with a king's ransom in spoils.
+In a world filled with bigger, hungrier creatures, kobolds survived by becoming experts in collective defense. Kobold shield tactics are legendary, with every warrior carrying a shield into battle and soldiers defending each other in tightly choreographed formations. More than a tool, a kobold's shield is a symbol of their commitment to defending their legion, and they decorate these treasured possessions with battle trophies and illustrations of great deeds.
 
-#### Home Renovators
+Kobold legionaries might join worthy adventurers as retainers, lending their defensive prowess to their new allies as they ko-boldly go where no kobold has gone before.
 
-Most worms build a den of tunnels and fissures, remaining in that lair for as long as the pickings on the surface are good and they aren't disturbed. When a kingfissure worm seeks a new home, they target areas with abundant food-occasionally leading to villagers waking up to find their surrounding lands have been terraformed overnight. Residents of such lands generally have two choices: pack up and leave or prepare for battle. If a worm is somehow defeated, all manner of creatures and communities try to lay claim to the worm's underground structures. These empty dens make wonderful war bunkers, isolated workshops, and even highly defensible villages.
+#### Unconventional Tactics
 
-#### Unstoppable Force
+Relentless innovators, kobolds can easily outsmart anyone who doesn't take them seriously. Their foes haven't experienced a true kobold battle until they survive exploding javelins or flaming nets. Kobold homes are protected with deadly hazards and ambush points. In open warfare, legions deploy iron dragons and flaming spike pit traps (see the Dynamic Terrain section).
 
-The kingfissure worm is a species determined to outrun, outlast, and out-eat every other living creature. Though the monster might be slowed by a display of great power, only death stops them. Once they have set their sights on their prey, they single-mindedly pursue it regardless of terrain or circumstance. The only thing that gives a kingfissure worm pause are attacks on their tongues, which are left vulnerable when they are dragging creatures to their impending doom.
+#### Tiny Dragons
 
-#### Unclear Origins
+Most kobolds believe their ancestors were created by powerful dragons-and with sharp, angular features and prominent dorsal crests, they certainly look the part! Newborn kobolds have brilliant, pearlescent scales, but as kobolds age, their scales dim and mottle. Owing to a deep magical connection, a legion that lives in the domain of a dragon adopts the color of that dragon's scales over several generations.
 
-Kingfissure worms have no identifiable sexual characteristics and are extremely territorial. If two kingfissure worms encounter each other, the result is always a cataclysmic duel that ends in one devouring the other. Because of this, most scholars theorize that these creatures reproduce asexually-and that when a kingfissure worm dies, their tongues detach and grow into full-fledged worms. While this has yet to be confirmed, juvenile kingfissure worms have been seen in the wild, most often spotted following animal herds or traveling communities, feeding off of stragglers, refuse, remains, and vermin.
+#### Domain Expansion
 
-#### Swallowed Survivors
+When kobolds settle into the domain of a dragon, they grow more like that dragon in other ways than just coloration. Some groups worship the dragon as a god. Others revere them as an ancestor or a leader, or admire them like a really, REALLY big sibling. This manifests as a desire to understand the dragon's affinity so as to embody it. Kobolds see themselves as an extension of the domain, working with and for it. Meteor kobolds, for example, rely more on hanging traps. Bloodthirsty omen kobolds deny themselves material pleasures and might end up wasting away into little more than skeletons. It has been speculated that kobolds living in a domain influence the strength of the dragon's hold on the territory.
 
-Kingfissure worms never stop growing, and the oldest are truly immense, easily mistaken in the distance for a strangely mobile mountain range. Deep within the bowels of these behemoths, unusual biomes and oversized gut fauna may flourish. In fact, some people who have survived their trip down the gargantuan gullet of one of the great worms have been able to eke out a life-and even form thriving communities-safe inside the spacious lower abdomen of their living quarters.
+#### Kobold and Dragon Symbiosis
 
-#### Sensitive Giant
+Most dragons are solitary creatures, but kobolds living in a dragon's domain provide both parties with clear benefits. A dragon can establish their domain over an area in half the time if they allow kobolds to settle in the area as well. Meanwhile, a kobold who spends 1 week or more living in the domain of a dragon becomes immune to the hazardous and negative effects of that domain. The kobold's physical appearance might also change the longer they stay in the area.
 
-For all their might and vitality, kingfissure worms are primarily ambush hunters, and like any ambush hunter, they need delicate and precise senses to detect and target their prey when it approaches. As burrowing creatures, they have a finely tuned sense of touch able to detect even the most minute vibrations while in direct contact with earth and stone. This fills the role of their primary sense, and their rudimentary eyesight leaves them dreadfully nearsighted. In combination, their poor vision and reliance on ground-conducted vibrations means that they have almost no way of pinpointing flying creatures, and many species of birds find kingfissure worm territory exceptionally safe and free from predators.
+#### Terrain Mastery
 
-######### Kingfissure Worm Malice
+The kobolds' affinity for their terrain, creative tactics, group defenses, and innovative spirit gives a kobold legion mastery of the area in which they live. Though they employ traps and tricks of their own creation, kobolds also know the ins and outs of nature's traps. For example, a sagittarion might shoot at a nearby hive of angry bees instead of their opponent. If your kobold opponents retreat over desert sands or a frozen lake, don't give chase. They likely know something you don't about these terrain hazards.
 
-At the start of a kingfissure worm's turn or when an action's trigger occurs, you can spend Malice to activate one of the following features.
+#### Cute Pets
 
-> ❗️ **Aftershock (3 Malice)**
+The gummy brick is a deadly ooze-a monster shaped of acidic goo and driven by endless hunger. But when properly trained, kobolds find these mindless predators good company. They also love the company of shieldscale drangolins-draconic pangolins-who they train to dig residential tunnel networks, neutralize enemy fortifications, and burrow up into the center of an enemy camp with a dozen kobold minions at their side.
+
+#### Kobold Languages
+
+Most kobolds speak Kethaic and can understand Caelian.
+
+#### Kobold Malice Malice Features
+
+At the start of any kobolds's turn, you can spend Malice to activate one of the following features.
+
+> ⭐️ **Maniple Tactics (3 Malice)**
 > 
-> | **-** | **Free triggered action** |
-> |-------------|--------------------------:|
-> | **📏 Self** | **🎯 Self** |
-> 
-> **Trigger:** A creature deals damage to the kingfissure worm or one of their tongues.
-> 
-> **Effect:** Each creature within 5 squares of the kingfissure worm takes 5 damage, and if they have A < 4 they are knocked prone. The kingfissure worm can use this ability only once per round.
+> Up to 3 kobolds make a free strike, swaps positions with an adjacent kobold, and then that kobold makes a free strike.
 
-> ☠️ **Solo Action (5 Malice)** 
+> 🌀 **Set the Initiative (5 Malice)**
 > 
-> The kingfissure worm takes an additional main action on their turn. They can use this feature even if they are dazed.
+> Two kobolds take their turns in a row.
 
-> 👤 **Spontaneous Regeneration (5 Malice)** 
+> ⭐️ **Shield Wall (7 Malice)** 
 > 
-> The kingfissure worm loses 35 Stamina and regrows one tongue, to a maximum of three tongues. The worm is then dazed until the end of their turn.
+> Until the end of the round, all kobolds with Shield? Shield! Impose an additional bane on incoming strikes and abilities.
 
-> ❇️ **Megaquake (7 Malice)** 
-> 
-> | **Area, Weapon** | **Main action** |
-> |------------------|-----------------------------------------:|
-> | **📏 5 burst** | **🎯 Each enemy and object in the area** |
-> 
-> **Power Roll + 5:**
-> 
-> - 1 8 damage; M < 3 slide 5
-> - 2 13 damage; M < 4 slide 5
-> - 3 17 damage; M < 5 slide 5
-> 
-> **Effect:** Until the end of the next round, each target takes a −3 penalty to stability, treats all terrain as difficult terrain, and takes 10 damage whenever they are knocked prone.
+191Kobolds
 
-####### Kingfissure Wor
+####### Kobold Princeps
 
-| Beast, Worm |         -         |      Level 7       |         Solo          |        EV 108         |
+| Humanoid, Kobold |         -         |      Level 1       |         Minion Support          |        EV 3 for four minions         |
 |:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|   **5**<br>Size   |  **1**<br>Speed   | **0420**<br>Stamina |  **5**<br>Stability   | **8**<br>Free Strike |
-| **-**<br>Immunity | **Burrow**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
-|  **+5**<br>Might  | **+1**<br>Agility |  **-5**<br>Reason  |  **+2**<br>Intuition  |  **-3**<br>Presence  |
+|   **1S**<br>Size   |  **5**<br>Speed   | **4**<br>Stamina |  **0**<br>Stability   | **1**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement |         -          | **+2 bonus to Stamina**<br>With Captain | **-**<br>Weaknesses  |
+|  **0**<br>Might  | **+2**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition  |  **0**<br>Presence  |
 
-☠️ **Solo Monster**
-
-End Effect At the end of each of their turns, the kingfissure worm
-can take 10 damage to end one effect on them that can be ended by a
-saving throw. This damage can't be reduced in any way.
-Solo Turns: The kingfissure worm can take two turns each round .
-They can't take turns consecutively.
-
-⭐️ **Multiple Tongues**
-
-The kingfissure worm has three tongues . Each tongue is a 5 x 1
-line within 1 square of the kingfissure worm , has 35 Stamina and
-psychic immunity all, and can't be force moved. Each tongue en-
-ables the kingfissure worm to grab one size 3 or smaller creature
-or object. A tongue can be targeted by abilities only while it has a
-target grabbed.
-
-🗡 **Tongue Grab (Signature Ability)**
+🗡 **Hasta (Signature Ability)**
 
 | **Melee, Strike, Weapon** | **Main action** |
 | --- | ---:|
-| **📏 Melee 5** | **🎯 One creature or object per tongue** |
+| **📏 Melee 2** | **🎯 One creature or object per minion** |
 
-**Power Roll + 5:**
+**Power Roll + 2:**
 
-- **≤11:** 13 damage; M < 3 grabbed
-- **12-16:** 18 damage; M < 4 grabbed
-- **17+:** 22 damage; M < 5 grabbed and the target takes a bane on the
-Escape Grab maneuver
+- **≤11:** 1 damage
+- **12-16:** 2 damage
+- **17+:** 3 damage
 
-**Effect:** The kingfissure worm must have one or more tongues to use
-this ability. As a maneuver, the kingfissure worm can pull up to two
-creatures grabbed this way adjacent to them.
+**Effect:** One ally within 3 squares of the princeps shifts up to 2 squares
 
-🗡 **Maw**
+⭐️ **Shield? Shield!**
 
-| **Charge, Melee, Strike, Weapon** | **Main action** |
+While adjacent to an ally who also has this trait, the princeps has
+stability 1, has cover, and grants cover to allies.
+
+####### Kobold Sagittarion
+
+| Humanoid, Kobold |         -         |      Level 1       |         Minion Artillery          |        EV 3 for four minions         |
+|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
+|   **1S**<br>Size   |  **5**<br>Speed   | **3**<br>Stamina |  **0**<br>Stability   | **2**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement |         -          | **+5 bonus to ranged distance**<br>With Captain | **-**<br>Weaknesses  |
+|  **0**<br>Might  | **+2**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition  |  **0**<br>Presence  |
+
+🏹 **Composite Bow (Signature Ability)**
+
+| **Ranged, Strike, Weapon** | **Main action** |
+| --- | ---:|
+| **📏 Ranged 10** | **🎯 One creature or object per minion** |
+
+**Power Roll + 2:**
+
+- **≤11:** 2 damage
+- **12-16:** 4 damage
+- **17+:** 5 damage
+
+**Effect:** While adjacent to any ally, the sagittarion gains an edge on
+this ability.
+
+⭐️ **Shield? Shield!**
+
+While adjacent to an ally who also has this trait, the sagittarion
+has stability 1, has cover, and grants cover to allies.
+
+####### Kobold Tiro
+
+| Humanoid, Kobold |         -         |      Level 1       |         Minion Defender          |        EV 3 for four minions         |
+|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
+|   **1S**<br>Size   |  **5**<br>Speed   | **5**<br>Stamina |  **0**<br>Stability   | **1**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement |         -          | **+1 bonus to speed**<br>With Captain | **-**<br>Weaknesses  |
+|  **0**<br>Might  | **+2**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition  |  **0**<br>Presence  |
+
+🗡 **Pugio (Signature Ability)**
+
+| **Melee, Strike, Weapon** | **Main action** |
+| --- | ---:|
+| **📏 Melee 1** | **🎯 One creature or object per minion** |
+
+**Power Roll + 2:**
+
+- **≤11:** 1 damage
+- **12-16:** 2 damage; the tiro can shift 1 squar
+- **17+:** 3 damage; the tiro shifts up to 2 square
+
+**Effect:** The target can't shift until the start of the tiro 's next turn
+
+⭐️ **Shield? Shield!**
+
+While adjacent to an ally who also has this trait, the tiro has
+stability 1, has cover, and grants cover to allies.
+
+####### Kobold Veles
+
+| Humanoid, Kobold |         -         |      Level 1       |         Minion Harrier          |        EV 3 for four minions         |
+|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
+|   **1S**<br>Size   |  **6**<br>Speed   | **4**<br>Stamina |  **0**<br>Stability   | **1**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement |         -          | **+1 bonus to speed**<br>With Captain | **-**<br>Weaknesses  |
+|  **0**<br>Might  | **+2**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition  |  **0**<br>Presence  |
+
+⚔️ **Pilium (Signature Ability)**
+
+| **Melee, Ranged, Strike, Weapon** | **Main action** |
+| --- | ---:|
+| **📏 Melee 1 or Ranged 5** | **🎯 One creature or object per minion** |
+
+**Power Roll + 2:**
+
+- **≤11:** 1 damage
+- **12-16:** 2 damage
+- **17+:** 3 damage
+
+**Effect:** Until the start of the veles's next turn, the target can't make
+opportunity attacks against any kobold.
+
+⭐️ **Shield? Shield!**
+
+While adjacent to an ally who also has this trait, the veles has
+stability 1, has cover, and grants cover to allies.
+
+####### Kobold Artifex
+
+| Humanoid, Kobold |         -         |      Level 1       |         Horde Controller          |        EV 3         |
+|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
+|   **1S**<br>Size   |  **5**<br>Speed   | **10**<br>Stamina |  **0**<br>Stability   | **1**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+|  **0**<br>Might  | **+2**<br>Agility |  **+1**<br>Reason  |  **0**<br>Intuition  |  **0**<br>Presence  |
+
+🏹 **Chain Hook (Signature Ability)**
+
+| **Ranged, Strike, Weapon** | **Main action** |
+| --- | ---:|
+| **📏 Ranged 5** | **🎯 One creature or object** |
+
+**Power Roll + 2:**
+
+- **≤11:** 3 damage; pull 1
+- **12-16:** 4 damage; pull 2
+- **17+:** 5 damage; pull 3
+
+**Effect:** If this forced movement triggers a trap that uses a power roll, 
+that roll has a double edge.
+
+⭐️ **Activate Trap**
+
+| **Ranged** | **Maneuver** |
+| --- | ---:|
+| **📏 Ranged 10** | **🎯 One trap or other terrain object** |
+
+**Effect:** The trap or terrain object instantly triggers.
+**3 Malice:** The artifex places a new trap in the encounter and can
+instantly trigger it. The artifex prefers working with angry beehives, 
+flammable oil , snare traps , and spike traps (see Dynamic Terrain).
+
+⭐️ **Shield? Shield!**
+
+While adjacent to an ally who also has this trait, the artifex has
+stability 1, has cover, and grants cover to allies.
+
+####### Kobold Legionary
+
+| Humanoid, Kobold |         -         |      Level 1       |         Horde Defender          |        EV 3         |
+|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
+|   **1S**<br>Size   |  **5**<br>Speed   | **20**<br>Stamina |  **0**<br>Stability   | **1**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+|  **+2**<br>Might  | **+1**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition  |  **0**<br>Presence  |
+
+🗡 **Gladius (Signature Ability)**
+
+| **Melee, Strike, Weapon** | **Main action** |
+| --- | ---:|
+| **📏 Melee 5** | **🎯 One creature or object** |
+
+**Power Roll + 2:**
+
+- **≤11:** 3 damage; taunted (EoT)
+- **12-16:** 4 damage; taunted (EoT)
+- **17+:** 5 damage; taunted (EoT)
+**3 Malice:** If the legionary is acting as a captain, they and each mem-
+ber of their squad shift up to 2 squares before this ability is used
+
+🗡 **Shield Bash**
+
+| **Melee, Strike, Weapon** | **Maneuver** |
 | --- | ---:|
 | **📏 Melee 1** | **🎯 One creature or object** |
 
-**Power Roll + 5:**
+- **≤11:** 2 damage; push 1; M < 0 prone
+- **12-16:** 3 damage; push 1; M < 1 prone
+- **17+:** 4 damage; push 1; M < 2 prone
 
-- **≤11:** 15 damage; push 3
-- **12-16:** 20 damage; push 5, prone
-- **17+:** 25 damage; the target is swallowed (see Swallowed)
-**2 Malice:** When the kingfissure worm uses the Charge main action ,
-they ignore difficul t terrai n an d automaticall y destro y mundan
-size 3 and smaller objects in the path of their charge. The first time
-the kingfissure worm moves through a creature 's space during this
-charge, that creature takes 8 damage and is pushed up to 3 squares.
+⭐️ **Shield? Shield!**
 
-🗡 **Consume 2 Malice**
+While adjacent to an ally who also has this trait, the legionary has
+stability 1, has cover, and grants cover to allies.
 
-| **Melee** | **Main action** |
+####### Kobold Adeptus
+
+| Humanoid, Kobold |         -         |      Level 1       |         Horde Artillery          |        EV 3         |
+|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
+|   **1S**<br>Size   |  **5**<br>Speed   | **10**<br>Stamina |  **0**<br>Stability   | **2**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+|  **0**<br>Might  | **+1**<br>Agility |  **+2**<br>Reason  |  **0**<br>Intuition  |  **0**<br>Presence  |
+
+🏹 **Shocking Bolt (Signature Ability)**
+
+| **Magic, Ranged, Strike** | **Main action** |
 | --- | ---:|
-| **📏 Melee 1** | **🎯 One grabbed creature** |
+| **📏 Ranged 15** | **🎯 One creature or object** |
 
-**Effect:** The target is swallowed (see Swallowed).
+**Power Roll + 2:**
 
-⚔️ **Tongue Whip**
+- **≤11:** 4 lightning damage
+- **12-16:** 6 lightning damage
+- **17+:** 7 lightning damage
 
-| **Melee, Ranged, Strike, Weapon** | **Maneuver** |
+**Effect:** While the target is adjacent to any enemy, the adeptus gains
+an edge on this ability. Each enemy adjacent to the target takes 2
+lighting damage.
+
+🏹 **Arcane Telum (3 Malice)**
+
+| **Magic, Ranged, Strike** | **Maneuver** |
 | --- | ---:|
-| **📏 Melee 5 or ranged 10** | **🎯 One creature or object** |
+| **📏 Ranged 15** | **🎯 Three creatures or objects** |
 
-**Effect:** The kingfissure worm can use this maneuver only while they
-have a creature or object grabbed. The worm slams the grabbed
-creature or object against the target, dealing 13 damage to both. If this
-ability is used at range, it deals an extra 5 damage and the grabbed
-creature or object is released.! Tearing Recoil 2d10 + 5
-| **-** | **Triggered action** |
+**Power Roll + 2:**
+
+- **≤11:** 3 damage
+- **12-16:** 5 damage
+- **17+:** 6 damage
+
+**Effect:** This ability ignores banes, double banes, and damage
+immunity.
+
+⭐️ **Shield? Shield!**
+
+While adjacent to an ally who also has this trait, the adeptus has
+stability 1, has cover, and grants cover to allies.
+193Kobolds
+
+####### Kobold Venator
+
+| Humanoid, Kobold |         -         |      Level 1       |         Horde Ambusher          |        EV 3         |
+|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
+|   **1S**<br>Size   |  **5**<br>Speed   | **15**<br>Stamina |  **0**<br>Stability   | **2**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+|  **0**<br>Might  | **+2**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition  |  **+1**<br>Presence  |
+
+🗡 **Dolabra and Net (Signature Ability)**
+
+| **Melee, Strike, Weapon** | **Main action** |
 | --- | ---:|
-| **📏 Self** | **🎯 Special** |
+| **📏 Melee 1** | **🎯 One creature or object** |
 
-**Trigger:** A tongue takes damage that doesn't reduce it to 0 Stamina.
+**Power Roll + 2:**
 
-**Effect:** The kingfissure worm deals 5 damage to the creature or object
-the tongue had grabbed, releases that creature or object, then pulls
-the damaged tongue back into their mouth.
+- **≤11:** 4 damage
+- **12-16:** 6 damage; M < 1] restrained (save ends)
+- **17+:** 7 damage; M < 2] restrained (save ends)
+**3 Malice:** The venator lights their net on fire , and a target restrained
+this way takes 2 fire damage at the start of each of their turns
 
-⭐️ **Seismic King**
+⭐️ **Lost in the Crowd**
 
-The kingfissure worm has line of effec t onl y withi n 3 square s
-However, they ignore concealment for creatures touching the
-ground and don't need line of effect to use abilities against those
-creatures.
+While the venator is adjacent to any ally who is not hiding, the
+venator can attempt to hide as if they had concealment, even if
+observed.
 
-⭐️ **Swallowed**
+⭐️ **Not What I Seem**
 
-A creature swallowed by the kingfissure worm is restrained and
-takes 1d6 acid damage at the start of every turn. If the worm takes
-25 or more damage in a single round from swallowed creatures, 
-they immediately regurgitate all creatures they have swallowed, 
-who land prone in unoccupied spaces within 3 squares of the
-kingfissure worm
+The venator starts the encounter disguised as a minion. They have
+a double edge on their first main action of the encounter , afte
+which they reveal themself.
 
-⭐️ **Titanic Tunneler**
+⭐️ **Shield? Shield!**
 
-The kingfissure worm can burrow through stone . When the worm
-burrows, they create a stable size 3 tunnel in the squares they
-move through.
+While adjacent to an ally who also has this trait, the venator has
+stability 1, has cover, and grants cover to allies.
 
-⭐️ **Unstoppable Crawler**
+####### Kobold Signifer
 
-The kingfissure worm can 't be frightened or knocked prone .
-While the worm is restrained or slowed, they take a −2 penalty to
-speed instead of suffering those conditions ' usual effect s o n spee
+| Humanoid, Kobold |         -         |      Level 1       |         Horde Support          |        EV 3         |
+|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
+|   **1S**<br>Size   |  **5**<br>Speed   | **15**<br>Stamina |  **0**<br>Stability   | **1**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+|  **0**<br>Might  | **+1**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition  |  **+2**<br>Presence  |
 
-☠️ **King's Fissure (Villain Action 1)**
+🗡 **Signum (Signature Ability)**
 
-Area, Weapon
-| **📏 20 x 4 line within 1** | **🎯 Each creature and object in the area** |
+| **Melee, Strike, Weapon** | **Main action** |
+| --- | ---:|
+| **📏 Melee 1** | **🎯 One creature or object** |
 
-**Special:** Each target must be on the ground.
+**Power Roll + 2:**
 
-**Effect:** The area becomes a 10-square-deep fissure in the earth . Each
-target makes an Agility test.
+- **≤11:** 3 damage
+- **12-16:** 4 damage
+- **17+:** 5 damage
 
-- **≤11:** 10 damage; the target falls into the fissure , lands prone , and 
-can't stand (EoT)
-- **12-16:** 10 damage; the target is knocked prone and left hanging at 
-the edge of the area
-- **17+:** The target shifts to the nearest unoccupied space outside 
-the area.
+**Effect:** One ally within 10 squares of the signifer can shift up to their
+speed if they end that shift adjacent to an ally
+2+ Malice: One additional ally can shift for each 2 Malice spent
 
-☠️ **Earth Breach (Villain Action 2)**
+❇️ **Glory to the Legion 5 Malice**
 
-Weapon
-| **📏 Self** | **🎯 Special** |
-| **Effect** | **The kingfissure worm can use this villain action** | only while
-burrowing. The worm burrows up to half their speed, then breaches
-the surface and moves 5 squares straight up before dropping back to
-the ground. Each creature or object whose space the worm moves
-through during this movement takes 10 damage, and if they have
-a< 4 they are knocked prone. Any creature who is made winded by
-this damage is swallowed (see Swallowed).
+| **Area** | **Maneuver** |
+| --- | ---:|
+| **📏 5 Burst** | **🎯 Each ally in the area** |
 
-☠️ **Better Out Than In (Villain Action 3)**
+**Effect:** Each target regains 5 Stamina.
 
-Area, Weapon
-| **📏 5 burst** | **🎯 Each enemy and object in the area** |
+⭐️ **Shield? Shield!**
 
-**Power Roll + 5:**
+While adjacent to an ally who also has this trait, the signifer has
+stability 1, has cover, and grants cover to allies.
 
-- **≤11:** 8 acid damage; P < 3 weakened (save ends)
-- **12-16:** 13 acid damage; P < 4 weakened (save ends)
-- **17+:** 17 acid damage; P < 5 weakened (save ends)
+⭐️ **Upholding High Standards**
 
-**Effect:** Each creature swallowed by the worm is regurgitated and
-automatically subject to the tier 3 outcome, then lands prone in an
-unoccupied space within 5 squares of the kingfissure wor.
+Any ally who starts their turn within 5 squares of the signifer
+gains a +2 bonus to speed and a +2 damage bonus to strikes until
+the end of their turn. Additionally, if the signifer is killed, any
+kobold minion can enter their space during the same encounter to
+retrieve the signum battle standard they carry (no action required)
+and replace their stat block with the signifer stat block.
+
+####### Trained Gummy Brick
+
+| Kobold, Ooze, Soulless |         -         |      Level 1       |         Elite Hexer          |        EV 12         |
+|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
+|   **2**<br>Size   |  **5**<br>Speed   | **40**<br>Stamina |  **2**<br>Stability   | **4**<br>Free Strike |
+| **Acid 3**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+|  **+2**<br>Might  | **-1**<br>Agility |  **-3**<br>Reason  |  **0**<br>Intuition  |  **-2**<br>Presence  |
+
+🗡 **Engulf (Signature Ability)**
+
+| **Melee, Strike, Weapon** | **Main action** |
+| --- | ---:|
+| **📏 Melee 1** | **🎯 One creature or object** |
+
+**Power Roll + 2:**
+
+- **≤11:** 7 acid damage; A < 0 dazed (save ends)
+- **12-16:** 10 acid damage; A < 1 dazed (save ends)
+- **17+:** 14 acid damage; A < 2 restrained (save ends)
+
+**Effect:** A size 2 or smaller creature restrained this way is pulled into
+the brick's space, moves with the brick, and takes 4 acid damage at
+the start of each of their turns. An engulfed creature who is no longer
+restrained moves to the nearest unoccupied space adtjacent to the
+brick. The brick can have as many creatures or objects engulfed as
+will fit within their space
+**2 Malice:** This ability targets one additional target.
+
+❗️ **You Didn't Pay Attention!**
+
+| **-** | **Free triggered action** |
+| --- | ---:|
+| **📏 Self** | **🎯 One creature or object** |
+
+**Trigger:** A creature moves or is force moved adjacent to the brick.
+
+**Effect:** The brick uses Engulf against the triggering creature and has a
+double edge.
+
+⭐️ **Translucent Brick**
+
+The brick completely occupies their space, blocking line of effect
+for enemies. The brick is hidden until they act.
+
+####### Kobold Centurion
+
+| Kobold, Humanoid |         -         |      Level 1       |         Leader          |        EV 12         |
+|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
+|   **1S**<br>Size   |  **5**<br>Speed   | **80**<br>Stamina |  **2**<br>Stability   | **2**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+|  **+2**<br>Might  | **+3**<br>Agility |  **+2**<br>Reason  |  **0**<br>Intuition  |  **+2**<br>Presence  |
+
+⚔️ **Pilum (Signature Ability)**
+
+| **Melee, Ranged, Strike, Weapon** | **Main action** |
+| --- | ---:|
+| **📏 Melee 1 or ranged 10** | **🎯 Two creatures or objects** |
+
+**Power Roll + 3:**
+
+- **≤11:** 7 damage; M < 1 weakened (save ends)
+- **12-16:** 10 damage; M < 1 weakened (save ends)
+- **17+:** 13 damage; M < 1 weakened (save ends)
+
+**Effect:** Each ally adjacent to a target can make a free strike against
+that target.
+**3 Malice:** While weakened this way, a target is also restrained.
+
+🏹 **Concentrate All Fire on That Hero! **
+
+| **Ranged** | **Maneuver** |
+| --- | ---:|
+| **📏 Ranged 10** | **🎯 One enemy** |
+
+**Effect:** Until the start of the centurion's next turn, the centurion and
+their allies gain an edge on power rolls against the target. 
+**3 Malice:** While weakened this way, a target is also restrained.
+3+ Malice: This ability targets one additional target for each 3 Malice
+spent.
+
+❗️ **Testudo!**
+
+| **Area** | **Triggered action** |
+| --- | ---:|
+| **📏 5 Burst** | **🎯 Each ally in the area** |
+
+**Trigger:** A creature uses an ability that targets the centurion or an ally
+of the centurion within distance.
+
+**Effect:** Each target shifts up to 2 squares before the damage is
+resolved. Each kobold with the Shield? Shield! trait gains damage
+immunity 2 against the triggering ability.
+
+⭐️ **End Effec**
+
+At the end of each of their turns, the centurion can take 5 damage
+to end one effect on them that can be ended by a saving throw .
+This damage can't be reduced in any way.
+
+☠️ **Firetail Pilum (Villain Action 1)**
+
+| **📏 Special** | **🎯 Special** |
+
+**Effect:** The centurion moves up to their speed, ignoring difficult
+terrain, and uses Pilum against each creature whose space they move
+through. They make one power roll against all targets, and the ability
+deals an extra 5 damage. While weakened by that ability, each target
+takes 2 fire damage at the start of each of their turns. 
+
+☠️ **Boom Pilum! (Villain Action 2)**
+
+Area, Weapon, Ranged
+| **📏 5 cube within 10** | **🎯 Each enemy in the area** |
+
+**Effect:** The centurion uses Pilum against each target and has a double
+edge. Each target is then pushed up to 3 squares.
+
+☠️ **Are You Not Entertained?! (Villain Action 3)**
+
+Area 
+| **📏 10 burst** | **🎯 Each enemy in the area** |
+
+**Effect:** A target who has P < 2 is taunted (save ends). Each ally within
+distance can make a free strike. Additionally, until the end of the
+encounter, the centurion has damage immunity 2.
+
+⭐️ **Shield? Shield!**
+
+While adjacent to an ally who also has this trait, the venator has
+stability 1, has cover, and grants cover to allies.
+195Kobolds
+
+| **-**<br>Immunity | **Burrow**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+|  **+2**<br>Might  | **+1**<br>Agility |  **-3**<br>Reason  |  **0**<br>Intuition  |  **-2**<br>Presence  |
+
+🗡 **Fiery Claws (Signature Ability)**
+
+| **Melee, Strike, Weapon** | **Main action** |
+| --- | ---:|
+| **📏 Melee 1** | **🎯 Two creatures or objects** |
+
+**Power Roll + 2:**
+
+- **≤11:** 7 fire damag
+- **12-16:** 10 fire damag
+- **17+:** 13 fire damag
+
+**Special:** If the drangolin is size 3, the distance becomes Melee 2.
+
+👤 **Drangolin Plume 5 Malice**
+
+| **-** | **Main action** |
+| --- | ---:|
+| **📏 Self; see below** | **🎯 Self** |
+
+**Effect:** The drangolin shifts up to their speed and uses Fiery Claws
+against each creature who comes adjacent to them during the shift .
+The drangolin makes one power roll against all targets.
+
+❇️ **Erupt 3 Malice**
+
+| **Area, Weapon** | **Main action** |
+| --- | ---:|
+| **📏 2 Burst** | **🎯 Each creature in the area** |
+
+**Effect:** The drangolin uses the Dig maneuver to breach the surface
+before using this ability. Each target in the area where the drangolin
+breaches takes an extra 2 fire damage
+
+- **≤11:** 6 damage; push 1; A < 0 prone
+- **12-16:** 8 damage; push 3; A < 0 prone
+- **17+:** 11 damage; push 5; A < 0 prone
+
+⭐️ **Ashen Cloud**
+
+Any ally adjacent to the drangolin has concealment.
+
+⭐️ **Burrow Bond**
+
+When the drangolin burrows, each adjacent size 1S or smaller ally
+can move with them
+
+####### Shieldscale Drangolin
+
+| Kobold, Humanoid |         -         |      Level 1       |         Elite Brute          |        EV 12         |
+|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
+- **12-16:** or 378005
+Size SpeedStaminaStabilityFree Strike
+

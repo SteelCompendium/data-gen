@@ -325,3 +325,15 @@ sections:
     xpath: "//section[@id='monsters']//section[@id='kingfissure-worm']//section[@class='level9']"
     file_dpath: 'Monsters/Kingfissure Worm/Features'
     type: 'monster/feature'
+
+  - header_path: monsters/kobolds
+    xpath: "//section[@id='monsters']//section[@id='kobolds']"
+    file_dpath: 'Monsters/Kobolds'
+    type: 'monster/section'
+  - header_path: monsters/kobolds
+    xpath: "//section[@id='monsters']//section[@id='kobolds']//section[@class='level7']"
+    file_dpath: 'Monsters/Kobolds/Statblocks'
+  - header_path: monsters/kobolds
+    xpath: "//section[@id='monsters']//section[@id='kobolds']//section[@class='level9']"
+    file_dpath: 'Monsters/Kobolds/Features'
+    type: 'monster/feature'
