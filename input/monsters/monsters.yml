@@ -349,3 +349,15 @@ sections:
     xpath: "//section[@id='monsters']//section[@id='lightbender']//section[@class='level9']"
     file_dpath: 'Monsters/Lightbenders/Features'
     type: 'monster/feature'
+
+  - header_path: monsters/lizardfolk
+    xpath: "//section[@id='monsters']//section[@id='lizardfolk']"
+    file_dpath: 'Monsters/Lizardfolks'
+    type: 'monster/section'
+  - header_path: monsters/lizardfolk
+    xpath: "//section[@id='monsters']//section[@id='lizardfolk']//section[@class='level7']"
+    file_dpath: 'Monsters/Lizardfolks/Statblocks'
+  - header_path: monsters/lizardfolk
+    xpath: "//section[@id='monsters']//section[@id='lizardfolk']//section[@class='level9']"
+    file_dpath: 'Monsters/Lizardfolks/Features'
+    type: 'monster/feature'
