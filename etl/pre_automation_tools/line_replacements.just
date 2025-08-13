@@ -50,7 +50,7 @@ run input_md_path output_md_path:
     # picture links
     text = re.sub( r'\n\!\[\]\(.*\.jpeg\)\n', r'', text, flags=re.MULTILINE)
     # page numbers
-    text = re.sub( r'^\d+\n+', r'', text, flags=re.MULTILINE)
+    text = re.sub( r'^\d\d?\d?\n+', r'', text, flags=re.MULTILINE)
     # html bold
     text = re.sub( r'\<\/?b\>', r'**', text, flags=re.MULTILINE)
     # newlines
@@ -94,8 +94,9 @@ run input_md_path output_md_path:
     # statblock
     # page number and side bar
     text = re.sub( r'^Draw Steel\n\d+', r'', text, flags=re.MULTILINE)
-    text = re.sub( r'(Immunity\:.*((\n.*?)*)(\w\.|[a-z]))([A-Z].+) Level +(\d+) (.+)\n(.+) EV (.+)\n([1TML2345]+[\d ]+\nSize ?Speed ?Stamina ?Stability ?Free ?Strike ?)', r'\n\n####### \5\n\n| \8 |         -         |      Level \6       |         \7          |        EV \9         |\n|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|\n\10\1', text, flags=re.MULTILINE)
+    text = re.sub( r'(Immunity\:.*((\n.*?)*)(\w\.|[a-z]))([A-Z].+) Level +(\d+) (.+)\n(.+) EV (.+)\n([1TSML2345]+[\d ]+\nSize ?Speed ?Stamina ?Stability ?Free ?Strike ?)', r'\n\n####### \5\n\n| \8 |         -         |      Level \6       |         \7          |        EV \9         |\n|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|\n\10\1', text, flags=re.MULTILINE)
     # statblock header and beginning of table
+    text = re.sub( r'\.([\w ]+) Level (\d+) (.+)\n(.+) EV (.+)\n([1TSML2345]+[\d ]+\nSize ?Speed ?Stamina ?Stability ?Free ?Strike ?)', r'\n\n####### \1\n\n| \4 |         -         |      Level \2       |         \3          |        EV \5         |\n|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|\n\6', text, flags=re.MULTILINE)
     text = re.sub( r'\.([\w ]+) Level (\d+) (.+)\n(.+) EV (.+)', r'\n\n####### \1\n\n| \4 |         -         |      Level \2       |         \3          |        EV \5         |\n|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|', text, flags=re.MULTILINE)
     # middle of table
     text = re.sub( r'Immunity\: (.*) Weakness\: (.*)\nMovement\: (.*) With Captain\: (.*)', r'\n| **\1**<br>Immunity | **\3**<br>Movement |         -          | **\4**<br>With Captain | **\2**<br>Weaknesses  |', text, flags=re.MULTILINE)

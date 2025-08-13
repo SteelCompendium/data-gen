@@ -290,4 +290,15 @@ sections:
     file_dpath: 'Monsters/Hag/Features'
     type: 'monster/feature'
 
+  - header_path: monsters/hobgoblins
+    xpath: "//section[@id='monsters']//section[@id='hobgoblins']"
+    file_dpath: 'Monsters/Hobgoblins'
+    type: 'monster/section'
+  - header_path: monsters/hobgoblins
+    xpath: "//section[@id='monsters']//section[@id='hobgoblins']//section[@class='level7']"
+    file_dpath: 'Monsters/Hobgoblins/Statblocks'
+  - header_path: monsters/hobgoblins
+    xpath: "//section[@id='monsters']//section[@id='hobgoblins']//section[@class='level9']"
+    file_dpath: 'Monsters/Hobgoblins/Features'
+    type: 'monster/feature'
 
