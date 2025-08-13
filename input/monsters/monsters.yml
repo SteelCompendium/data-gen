@@ -278,4 +278,16 @@ sections:
     file_dpath: 'Monsters/Griffons/Features'
     type: 'monster/feature'
 
+  - header_path: monsters/hag
+    xpath: "//section[@id='monsters']//section[@id='hag']"
+    file_dpath: 'Monsters/Hag'
+    type: 'monster/section'
+  - header_path: monsters/hag
+    xpath: "//section[@id='monsters']//section[@id='hag']//section[@class='level7']"
+    file_dpath: 'Monsters/Hag/Statblocks'
+  - header_path: monsters/hag
+    xpath: "//section[@id='monsters']//section[@id='hag']//section[@class='level9']"
+    file_dpath: 'Monsters/Hag/Features'
+    type: 'monster/feature'
+
 
