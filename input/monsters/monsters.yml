@@ -302,3 +302,15 @@ sections:
     file_dpath: 'Monsters/Hobgoblins/Features'
     type: 'monster/feature'
 
+  - header_path: monsters/humans
+    xpath: "//section[@id='monsters']//section[@id='humans']"
+    file_dpath: 'Monsters/Humans'
+    type: 'monster/section'
+  - header_path: monsters/humans
+    xpath: "//section[@id='monsters']//section[@id='humans']//section[@class='level7']"
+    file_dpath: 'Monsters/Humans/Statblocks'
+  - header_path: monsters/humans
+    xpath: "//section[@id='monsters']//section[@id='humans']//section[@class='level9']"
+    file_dpath: 'Monsters/Humans/Features'
+    type: 'monster/feature'
+
