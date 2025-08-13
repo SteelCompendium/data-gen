@@ -337,3 +337,15 @@ sections:
     xpath: "//section[@id='monsters']//section[@id='kobolds']//section[@class='level9']"
     file_dpath: 'Monsters/Kobolds/Features'
     type: 'monster/feature'
+
+  - header_path: monsters/lightbender
+    xpath: "//section[@id='monsters']//section[@id='lightbender']"
+    file_dpath: 'Monsters/Lightbenders'
+    type: 'monster/section'
+  - header_path: monsters/lightbender
+    xpath: "//section[@id='monsters']//section[@id='lightbender']//section[@class='level7']"
+    file_dpath: 'Monsters/Lightbenders/Statblocks'
+  - header_path: monsters/lightbender
+    xpath: "//section[@id='monsters']//section[@id='lightbender']//section[@class='level9']"
+    file_dpath: 'Monsters/Lightbenders/Features'
+    type: 'monster/feature'
