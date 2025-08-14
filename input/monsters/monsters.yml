@@ -526,3 +526,15 @@ sections:
     xpath: "//section[@id='monsters']//section[@id='undead-1']//section[@class='level9']"
     file_dpath: 'Monsters/Undead/Features'
     type: 'monster/feature'
+
+  - header_path: monsters/count-rhodar-von-glauer
+    xpath: "//section[@id='monsters']//section[@id='count-rhodar-von-glauer']"
+    file_dpath: 'Monsters/Count Rhodar Von Glauer'
+    type: 'monster/section'
+  - header_path: monsters/count-rhodar-von-glauer
+    xpath: "//section[@id='monsters']//section[@id='count-rhodar-von-glauer']//section[@class='level7']"
+    file_dpath: 'Monsters/Count Rhodar Von Glauer/Statblocks'
+  - header_path: monsters/count-rhodar-von-glauer
+    xpath: "//section[@id='monsters']//section[@id='count-rhodar-von-glauer']//section[@class='level9']"
+    file_dpath: 'Monsters/Count Rhodar Von Glauer/Features'
+    type: 'monster/feature'
