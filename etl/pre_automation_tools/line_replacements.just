@@ -138,7 +138,7 @@ run input_md_path output_md_path:
     text = re.sub( r'^\#* ?Power Roll \+ ([^\*]*) *\** *\:\**', r'\n\n**Power Roll + \1:**', text, flags=re.MULTILINE)
 
     # Malice
-    text = re.sub( r'^\**(\d+\+) Malice\**\:\**\s*', r'\n**\1 Malice:** ', text, flags=re.MULTILINE)
+    text = re.sub( r'^\**(\d+\+?) Malice\**\:\**\s*', r'\n**\1 Malice:** ', text, flags=re.MULTILINE)
 
     # power roll tiers
     text = re.sub( r'\s*\-? ?á ?', r'\n\n- **≤11:** ', text, flags=re.MULTILINE)

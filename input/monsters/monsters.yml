@@ -502,3 +502,15 @@ sections:
     xpath: "//section[@id='monsters']//section[@id='time-raiders']//section[@class='level9']"
     file_dpath: 'Monsters/Time Raiders/Features'
     type: 'monster/feature'
+
+  - header_path: monsters/trolls
+    xpath: "//section[@id='monsters']//section[@id='trolls']"
+    file_dpath: 'Monsters/Trolls'
+    type: 'monster/section'
+  - header_path: monsters/trolls
+    xpath: "//section[@id='monsters']//section[@id='trolls']//section[@class='level7']"
+    file_dpath: 'Monsters/Trolls/Statblocks'
+  - header_path: monsters/trolls
+    xpath: "//section[@id='monsters']//section[@id='trolls']//section[@class='level9']"
+    file_dpath: 'Monsters/Trolls/Features'
+    type: 'monster/feature'
