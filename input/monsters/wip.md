@@ -1,187 +1,237 @@
-## Medusa
+## Minotaurs
 
-Hunted as monsters with no thought given to their nature or origin, medusas are some of the most underestimated and misunderstood creatures. Many people fear medusas for their monstrous appearance and ability to turn others to stone, but few realize the truth. Each of these monstrosities was once a humanoid, cursed and transformed for defying a god. But while some medusas embrace wickedness, many simply fight for their lives against those who threaten them through their ignorance.
+The fearsome minotaur is a study in contrasts. Their imposing humanoid body is muscular with patches of thick hair. Their head is that of a massive horned bull, and their soft eyes convey a soulful intelligence mingled with smoldering intensity.
 
-#### Cursed for Defiance
+### Primal Rage
 
-When a powerful mortal defies a god for good or for ill, agents of that deity might curse them to live as a medusa. The offender's skin and eyes become reptilian, and a nest of black venomous snakes replaces their hair. When the medusa wishes, beams from their eyes can slowly petrify others to stone.
+Minotaurs burn with fury. Some constantly desire to unleash this destructive energy on the world, and they attack anyone or anything that crosses their path. Others make it a point of pride to control their rage, only fighting when survival demands it. Regardless, once combat begins, minotaurs relish charging at foes with their great horns. In the heat of battle, a minotaur charges from one foe to the next, only retreating if victory is impossible.
 
-Followers of the gods who imposes this punishment spread terrifying myths about medusas, causing mortals to attack and shun them. This often drives medusas into solitude, or to places haunted by creatures who don't judge them based on mere appearance and horror stories. Many medusas plot ways to break their curse, searching for lost healing rituals or secrets to use against the gods who cursed them. Others embrace their new gifts, building stone gardens of the aggressors who foolishly hunted or harmed them.
+### Labyrinthine Origins
 
-#### Petrification
+The first minotaur was once the human warrior Thesia "The Bull" Danaria, who dared challenge the Beast Lords of Kham. When her revolution was crushed, the Lords of Kham used their beastmagics to twist Thesia's mortal body into a human-bull hybrid prone to fits of violent rage. The Beast Lords placed this minotaur at the center of a vast labyrinth and sent captured rebels to attack the monster. Many fell to Thesia's anger-until a prisoner named Velathri took a chance, speaking to the minotaur instead of brandishing steel. He befriended Thesia, and in retribution, the Beast Lords made him a minotaur as well. This act was their undoing, for Thesia and Velathri fell in love.
 
-Petrification can take a character out of the game permanently. If you want to give the heroes a chance to recover an ally petrified after an encounter with a medusa, you can let them use the Find a Cure downtime project in *Draw Steel: Heroes* to discover an ancient ritual that can return a petrified creature to life. Alternatively, a medusa might have the power to reverse the state of a petrified victim if left alive, or there might be a temple nearby with a priest who knows how to cure petrification... for a price.
+New minotaurs were born, and decades later, hundreds charged out of the maze together. These minotaurs reduced Kham to ruins, then they spread far and wide, fearing reprisal from neighboring lands. Even today, many minotaurs shun civilization, preferring to live in winding canyons, twisting ruins, bewildering dungeons, or other labyrinthine terrain where they can continue to hunt. However, small numbers of minotaurs can be found in nearly any terrain or settlement.
 
-#### Serpentine Reflexes
+### Deep Bonds
 
-While the medusa's stone gaze is legendary, they can move, strike, and evade as swiftly as a snake, even briefly manifesting scaled wings to dart through the chaos. This enhanced dexterity makes them difficult to pin down. Their petrifying gaze allows them to attack at range as necessary, but they're equally deadly in melee, where they have the full advantage of their snakes and the enervating venom pulsing through each snake's set of needlelike fangs.
+Even evil minotaurs can be fiercely loyal friends, gladly charging into certain death for those they trust. These chosen friends never suffer the creature's ire-but gods help them if they betray the minotaur.
 
-#### Baleful Magic
+### Minotaur Languages
 
-Medusas have many means to defend themselves, even aside from their petrifying stare. They slow enemies down, weaken them, and can even temporarily charm and control them once petrifying magic takes root in their veins. These reclusive beings are no stranger to being outnumbered and overwhelmed. All they have in their power to gain leverage over their opponents, they wield ruthlessly.
+Most minotaurs speak their own dialect of Khamish.
 
-#### Stone Gardens
+### Minotaur Malice
 
-Medusas often reside in stone gardens filled with statues of those who previously tried to slay them. This not only allows them to slip between their statues, hide, and then strike, but it also allows them to command the battle while in their lairs, shattering statues to harm others. Evil medusas sometimes slowly reverse the petrification of their victims one limb at a time to feed on them, creating grotesque mausoleums of the crumbling dead for unwitting adventurers to wander into.
+At the start of any minotaur's turn, you can spend Malice to activate one of the following features.
 
-#### Lifting the Curse
-
-Agents of the deity who ordered a medusa's curse can sometimes be convinced to lift the punishment, usually in response to the medusa undertaking an impossible task in the god's name or making a threat that can't be ignored. Some sages claim that ancient rituals can undo the curse, but these lost secrets are often hidden by wrathful divine servants-and performing such a ritual might entail great sacrifice.
-
-#### Medusa Languages
-
-Medusas can speak any language they knew before they were cursed. Many of them speak Caelian, and others have learned the languages of monsters and creatures they dwell near. Additionally, tales tell of some medusas who speak the original form of Khamish.
-
-#### Medusa Malice Malice Features
-
-At the start of a medusa's turn, you can spend Malice to activate one of the following features.
-
-> 🏹 **Weakening Glare (4 Malice)**
+> 👤 **Bull Rush (3 Malice)** 
 > 
-> | **- Magic, Ranged, Strike** |     **Main action** |
-> |-----------------------------|--------------------:|
-> | **📏 Ranged 10**            | **🎯 One creature** |
+> For each 3 Malice spent, one minotaur acting this turn gains a +4 bonus to speed and ignores difficult terrain until the start of their next turn.
+
+> 👤 **Cut the... Nonsense! (5 Malice)**
+> 
+> One minotaur acting this turn halves any damage they take, and can use the Knockback maneuver as a free triggered action whenever an enemy comes adjacent to them, all until the start of their next turn.
+
+> ❇️ **Bullseye (7 Malice)** 
+> 
+> All minotaurs in the encounter fill the area around them with psychic impressions of feeling lost and isolated. Each enemy within 5 squares of a minotaur is teleported up to 5 squares and makes an **Intuition test**.
+> 
+> - **≤11:** The target has line of effect only within 3 squares and is frightened of all minotaurs (save ends).
+> - **12-16:** The target has line of effect only within 3 squares (EoT). 
+> - **17+:** No effect.
+
+
+####### Minotaur
+
+| Accursed, Humanoid, Minotaur |         -         |      Level 3       |     Elite Harrier     |        EV 20         |
+|:----------------------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
+|        **2**<br>Size         |  **8**<br>Speed   | **100**<br>Stamina |  **2**<br>Stability   | **5**<br>Free Strike |
+|      **-**<br>Immunity       | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+|       **+2**<br>Might        | **+2**<br>Agility |  **0**<br>Reason   |  **+1**<br>Intuition  |  **-1**<br>Presence  |
+
+> 🗡 **Flail and Blade (Signature Ability)**
+> 
+> | **Charge, Melee, Strike, Weapon** |                 **Main action** |
+> |-----------------------------------|--------------------------------:|
+> | **📏 Melee 2**                    | **🎯 Two creatures or objects** |
+> 
+> **Power Roll + 2:**
+> 
+> - **≤11:** 7 damage; push 1
+> - **12-16:** 11 damage; push 2
+> - **17+:** 14 damage; push 3
+> 
+> **Effect:** The minotaur shifts up to 3 squares
+
+> 👤 **Primal Bay (3 Malice)**
+> 
+> | **-**       | **Main action** |
+> |-------------|----------------:|
+> | **📏 Self** |     **🎯 Self** |
+> 
+> **Effect:** Until the end of their next turn, the minotaur has damage immunity 2 and deals an extra 5 damage with strikes. On their next turn, the minotaur can use one additional maneuver.
+
+> 🗡 **Goring Horns (5 Malice)**
+> 
+> | **Charge, Melee, Strike, Weapon** |                  **Maneuver** |
+> |-----------------------------------|------------------------------:|
+> | **📏 Melee 2**                    | **🎯 One creature or object** |
+> 
+> - **≤11:** 5 damage; I < 0 dazed (save ends)
+> - **12-16:** 8 damage; I < 1 dazed (save ends)
+> - **17+:** 9 damage; I < 2 dazed (save ends)
+> 
+> **Effect:** If this ability is used as part of the Charge main action, its potency increases by 1.
+
+> ❗️ **Retaliatory Strike**
+> 
+> | **Ranged**      |           **Triggered action** |
+> |-----------------|-------------------------------:|
+> | **📏 Ranged 8** | **🎯 The triggering creature** |
+> 
+> **Trigger:** A creature within distance deals damage to the minotaur.
+> 
+> **Effect:** The minotaur uses theCharge main action and either Flail and Blade or Goring Horns against the target.
+
+> ⭐️ **Minotaur Sense**
+> 
+> The minotaur can't obtain less than a tier 2 outcome when making tests to navigate, search, or seek.
+
+####### Minotaur Sunderer
+
+| Accursed, Humanoid, Minotaur |         -         |      Level 3       |      Elite Brute      |        EV 20         |
+|:----------------------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
+|        **2**<br>Size         |  **6**<br>Speed   | **120**<br>Stamina |  **2**<br>Stability   | **6**<br>Free Strike |
+|      **-**<br>Immunity       | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+|       **+2**<br>Might        | **+1**<br>Agility |  **0**<br>Reason   |  **+2**<br>Intuition  |  **-1**<br>Presence  |
+
+> 🗡 **Spiked Maul (Signature Ability)**
+> 
+> | **Charge, Melee, Strike, Weapon** |                 **Main action** |
+> |-----------------------------------|--------------------------------:|
+> | **📏 Melee 2**                    | **🎯 Two creatures or objects** |
+> 
+> **Power Roll + 2:**
+> 
+> - **≤11:** 8 damage; pull 1
+> - **12-16:** 12 damage; pull 2
+> - **17+:** 15 damage; pull 3
+> 
+> **Effect:** A target pulled adjacent to the sunderer is automatically grabbed. 
+
+> ❇️ **Fearsome Bay (5 Malice)**
+> 
+> | **Area**       |               **Main action** |
+> |----------------|------------------------------:|
+> | **📏 3 burst** | **🎯 Each enemy in the area** |
+> 
+> - **≤11:** I < 0 frightened (save ends)
+> - **12-16:** I < 1 frightened (save ends)
+> - **17+:** I < 2 frightened (save ends)
+> 
+> **Effect:** Until the end of their next turn, the minotaur has damage immunity 2 and deals an extra 5 damage with strikes.
+
+> 🗡 **Disemboweling Horns (3 Malice)**
+> 
+> | **Charge, Melee, Strike, Weapon** |        **Maneuver** |
+> |-----------------------------------|--------------------:|
+> | **📏 Melee 2**                    | **🎯 One creature** |
+> 
+> **Special:** The target must be grabbed by the sunderer.
+> 
+> - **≤11:** 5 damage; M < 0 bleeding (save ends)
+> - **12-16:** 8 damage; M < 1 bleeding (save ends)
+> - **17+:** 9 damage; M < 2 bleeding (save ends)
+> 
+> **Effect:** While bleeding this way, the target takes 1d6 damage at the start of each of their turns.
+
+> ❗️ **Retaliatory Strike**
+> 
+> | **Ranged**      |           **Triggered action** |
+> |-----------------|-------------------------------:|
+> | **📏 Ranged 6** | **🎯 The triggering creature** |
+> 
+> **Trigger:** A creature within distance deals damage to the sunderer.
+> 
+> **Effect:** The sunderer uses the Charge main action and Spiked Maul against the target.
+
+> ⭐️ **Minotaur Sense**
+> 
+> The sunderer can't obtain less than a tier 2 outcome when making tests to navigate, search, or seek.
+ 
+
+####### Minotaur Bully
+
+| Accursed, Humanoid, Minotaur |         -         |      Level 8      |                  Minion Brute                  | EV 10 for four minions |
+|:----------------------------:|:-----------------:|:-----------------:|:----------------------------------------------:|:----------------------:|
+|        **2**<br>Size         |  **6**<br>Speed   | **14**<br>Stamina |               **2**<br>Stability               |  **4**<br>Free Strike  |
+|      **-**<br>Immunity       | **-**<br>Movement |         -         | **+3 damage bonus to strikes**<br>With Captain |  **-**<br>Weaknesses   |
+|       **+4**<br>Might        | **+2**<br>Agility |  **0**<br>Reason  |              **+3**<br>Intuition               |   **-1**<br>Presence   |
+
+> ⚔️ **Javelin and Bellow (Signature Ability)**
+> 
+> | **Charge, Melee, Ranged, Strike, Weapon** |                          **Main action** |
+> |-------------------------------------------|-----------------------------------------:|
+> | **📏 Melee 2 or ranged 5**                | **🎯 One creature or object per minion** |
 > 
 > **Power Roll + 4:**
 > 
-> - **≤11:** 6 damage; weakened (EoT)
-> - **12-16:** 10 damage; weakened (EoT)
-> - **17+:** 12 damage; weakened (save ends)
+> - **≤11:** 4 damage
+> - **12-16:** 7 damage
+> - **17+:** 9 damage; I < 4 taunted (EoT) or frightened of all minotaurs (save ends)
 
-> ☠️ **Solo Action (5 Malice)**
+> ⭐️ **Minotaur Sense**
 > 
-> The medusa takes an additional main action on their turn. They can use this feature even if they are dazed.
+> The bully can't obtain less than a tier 2 outcome when making tests to navigate, search, or seek.
 
-> 🏹 **Ssstop and Lisssten (5 Malice)**
+####### Minotaur Lackey
+
+| Accursed, Humanoid, Minotaur |         -         |      Level 8      |            Minion Harrier             | EV 10 for four minions |
+|:----------------------------:|:-----------------:|:-----------------:|:-------------------------------------:|:----------------------:|
+|        **2**<br>Size         |  **8**<br>Speed   | **13**<br>Stamina |          **2**<br>Stability           |  **3**<br>Free Strike  |
+|      **-**<br>Immunity       | **-**<br>Movement |         -         | **+2 bonus to speed**<br>With Captain |  **-**<br>Weaknesses   |
+|       **+3**<br>Might        | **+4**<br>Agility |  **0**<br>Reason  |          **+1**<br>Intuition          |   **-1**<br>Presence   |
+
+> 🗡 **Horn Vault (Signature Ability)**
 > 
-> | **Magic, Ranged** |        **Main action** |
-> |-------------------|-----------------------:|
-> | **📏 Ranged 10**  | **🎯 Three creatures** |
+> | **Charge, Melee, Strike, Weapon** |                          **Main action** |
+> |-----------------------------------|-----------------------------------------:|
+> | **📏 Melee 2**                    | **🎯 One creature or object per minion** |
 > 
 > **Power Roll + 4:**
 > 
-> - **≤11:** I < 2 the target is charmed
-> - **12-16:** I < 3 the target is charmed
-> - **17+:** I < 4 the target is charmed
->
-> **Effect:** At a time of the medusa's choosing, a charmed creature moves up to their speed and makes a free strike against an enemy of the medusa's choice as a free triggered action. The creature is then no longer charmed.
+> - **≤11:** 3 damage
+> - **12-16:** 6 damage; slide 1
+> - **17+:** 8 damage; slide 3
+> 
+> **Effect:** A target who is force moved into an obstacle and has M < 3 is bleeding (save ends). 
 
-> 🔳 **Shatter Victims (7 Malice)**
+> ⭐️ **Minotaur Sense**
 > 
-> The medusa causes three stone statues within 10 squares of them to each shatter in a 2-cube explosion. Each enemy in one of those areas makes a **Might test**. An enemy restrained or slowed by the medusa's Petrify ability has a double bane on the test.
-> 
-> - **≤11:** 12 damage; vertical push 3; bleeding (save ends)
-> - **12-16:** 10 damage; vertical push 3
-> - **17+:** 6 damage
+> The lackey can't obtain less than a tier 2 outcome when making tests to navigate, search, or seek.
 
-####### Medusa
+####### Minotaur Stampede
 
-| Accursed, Humanoid, Medusa |         -         |       Level 5       |         Solo          |        EV 84         |
-|:--------------------------:|:-----------------:|:-------------------:|:---------------------:|:--------------------:|
-|       **1M**<br>Size       |  **1**<br>Speed   | **0420**<br>Stamina |  **5**<br>Stability   | **8**<br>Free Strike |
-|     **-**<br>Immunity      | **-**<br>Movement |          -          | **-**<br>With Captain | **-**<br>Weaknesses  |
-|      **+2**<br>Might       | **+4**<br>Agility |   **0**<br>Reason   |  **0**<br>Intuition   |  **0**<br>Presence   |
+| Accursed, Humanoid, Minotaur, Swarm |         -         |     Level 10      |               Minion Defender               | EV 12 for four minions |
+|:-----------------------------------:|:-----------------:|:-----------------:|:-------------------------------------------:|:----------------------:|
+|            **4**<br>Size            |  **8**<br>Speed   | **17**<br>Stamina |             **2**<br>Stability              |  **4**<br>Free Strike  |
+|          **-**<br>Immunity          | **-**<br>Movement |         -         | **Gain an edge on strikes**<br>With Captain |  **-**<br>Weaknesses   |
+|           **+5**<br>Might           | **+5**<br>Agility |  **0**<br>Reason  |             **+2**<br>Intuition             |   **-1**<br>Presence   |
 
-> ☠️ **Solo Monster**
+> 🗡 **Bull Rush (Signature Ability)**
 > 
-> **End Effect:** At the end of each of their turns, the medusa can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+> | **Charge, Melee, Strike, Weapon** |                          **Main action** |
+> |-----------------------------------|-----------------------------------------:|
+> | **📏 Melee 2**                    | **🎯 One creature or object per minion** |
 > 
-> **Solo Turns:** The medusa can take two turns each round. They can't take turns consecutively.
+> **Power Roll + 5:**
+> 
+> - **≤11:** 4 damage
+> - **12-16:** 7 damage; prone
+> - **17+:** 9 damage; prone; M < 5 can't stand (save ends)
+> 
+> **Effect:** If this ability is used as part of the Charge main action, each creature the stampede moves through who has M < 4 is knocked prone.
 
-> 🗡 **Snake Bites (Signature Ability)**
+> ⭐️ **Swarm**
 > 
-> | **Melee, Strike, Weapon** |                 **Main action** |
-> |---------------------------|--------------------------------:|
-> | **📏 Melee 1**            | **🎯 Two creatures or objects** |
-> 
-> **Power Roll + 4:**
-> 
-> - **≤11:** 11 damage; M < 2 slowed (save ends)
-> - **12-16:** 16 damage; M < 3 slowed (save ends)
-> - **17+:** 19 damage; M < 4 slowed (save ends)
-
-> 🏹 **Damning Gaze (Signature Ability)**
-> 
-> | **Magic, Ranged, Strike** |                 **Main action** |
-> |---------------------------|--------------------------------:|
-> | **📏 Ranged 10**          | **🎯 Two creatures or objects** |
-> 
-> **Power Roll + 4:**
-> 
-> - **≤11:** 11 damage; push 3
-> - **12-16:** 16 damage; push 5
-> - **17+:** 19 damage; push 7
-> 
-> **3 Malice:** The medusa targets two additional creatures or objects.
-
-> ❇️ **Petrify (5 Malice)**
-> 
-> | **Area, Magic** |               **Main action** |
-> |-----------------|------------------------------:|
-> | **📏 3 burst**  | **🎯 Each enemy in the area** |
-> 
-> **Power Roll + 4:**
-> 
-> - **≤11:** M < 2 restrained (save ends)
-> - **12-16:** M < 3 restrained (save ends)
-> - **17+:** Slowed (save ends); or if M < 4 restrained (save ends)
-> 
-> **Effect:** A target with cover reduces the potency by 1, while a slowed target increases the potency by 1. A target restrained this way magi- cally begins to turn to stone, and a target who ends two consecutive turns restrained this way is petrified
-
-> 👤 **Nimble Escape**
-> 
-> | **-**       | **Maneuver** |
-> |-------------|-------------:|
-> | **📏 Self** |  **🎯 Self** |
-> 
-> **Effect:** The medusa shifts up to 3 squares and can attempt to hide even if observed.
-
-> ❗️ **Venomous Spit**
-> 
-> | **Melee**      |                   **Maneuver** |
-> |----------------|-------------------------------:|
-> | **📏 Melee 1** | **🎯 The triggering creature** |
-> 
-> **Trigger:** A creature within distance deals damage to the medusa.
-> 
-> **Power Roll + 4:**
-> 
-> - **≤11:** 13 acid damage
-> - **12-16:** 18 acid damage
-> - **17+:** 22 acid damage
-
-> ⭐️ **Cunning Edge**
-> 
-> The medusa gains an edge on power rolls against any creature who is restrained or slowed by Petrify.
-
-> ⭐️ **Many Peering Eyes**
-> 
-> The medusa can't be flanked
-
-> ☠️ **Mass Petrify (Villain Action 1)**
-> 
-> | **Magic, Ranged** |             **-** |
-> |-------------------|------------------:|
-> | **📏 Ranged 50**  | **🎯 Each enemy** |
-> 
-> **Effect:** The medusa can use Petrify against each target without spending Malice. A target who doesn't have cover increases the potency by 1.
-
-> ☠️ **Serpent Wings (Villain Action 2)**
-> 
-> | **-**       |       **-** |
-> |-------------|------------:|
-> | **📏 Self** | **🎯 Self** |
-> 
-> **Effect:** The medusa temporarily manifests wings and flies up to their speed without provoking opportunity attacks. During or after this movement, they can use Snake Bites and Damning Gaze once each.
-
-> ☠️ **Stone Puppets (Villain Action 3)**
-> 
-> | **Area, Magic** |          **-** |
-> |-----------------|---------------:|
-> | **📏 10 burst** | **🎯 Special** |
-> 
-> - **≤11:** 8 acid damage; P < 3 weakened (save ends)
-> - **12-16:** 13 acid damage; P < 4 weakened (save ends)
-> - **17+:** 17 acid damage; P < 5 weakened (save ends)
-> 
-> **Effect:** As a free triggered action, each stone statue and creature restrained or slowed by Petrify within distance moves up to their speed and uses a signature ability that gains an edge, targeting an enemy of the medusa's choice. A stone statue without its own statistics has speed 5 and uses the medusa's free strike.
+> The stampede can move through spaces as if they were a size 2 creature, and can occupy other creatures' spaces. At the start of each of the stampede's turns, they can make a free strike against each creature whose space they share.
