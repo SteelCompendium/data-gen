@@ -422,7 +422,6 @@ sections:
     file_dpath: 'Monsters/Olothec/Features'
     type: 'monster/feature'
 
-
   - header_path: monsters/orcs
     xpath: "//section[@id='monsters']//section[@id='orcs']"
     file_dpath: 'Monsters/Orcs'
@@ -433,6 +432,18 @@ sections:
   - header_path: monsters/orcs
     xpath: "//section[@id='monsters']//section[@id='orcs']//section[@class='level9']"
     file_dpath: 'Monsters/Orcs/Features'
+    type: 'monster/feature'
+
+  - header_path: monsters/radenwights
+    xpath: "//section[@id='monsters']//section[@id='radenwights']"
+    file_dpath: 'Monsters/Radenwights'
+    type: 'monster/section'
+  - header_path: monsters/radenwights
+    xpath: "//section[@id='monsters']//section[@id='radenwights']//section[@class='level7']"
+    file_dpath: 'Monsters/Radenwights/Statblocks'
+  - header_path: monsters/radenwights
+    xpath: "//section[@id='monsters']//section[@id='radenwights']//section[@class='level9']"
+    file_dpath: 'Monsters/Radenwights/Features'
     type: 'monster/feature'
 
 

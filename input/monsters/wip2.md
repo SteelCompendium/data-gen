@@ -1,317 +1,257 @@
-## ORcs
+## Rivals
 
-In a long-lost language, the word oruk-"blood fire"-described the glowing appearance of the orc people when they push themselves to their limits. While orcs know one another as kanin ("the people") in their own language, they also use "orc" with great pride, especially when dealing with other folk.
+They take the jobs you were eyeing on the local town's job board. They sit at your favorite table in the tavern with the best drinks, food, and entertainment. You know their names, and they know yours. They're rivals-heroes just like you. Maybe even better.
 
-Orc history spans the world and all its ages. They've settled into villages and cities, hot and cold climates, high in the mountains and deep underground. Most orcs live in diverse humanoid societies, though a few live secluded in the tropics. Though they are no more likely to stand in the way of adventurers'than any other folk, orcs who do fill the same roles as other humanoids: mercenaries, bounty hunters, garroters, guards, cultists, and corrupt kings.
+Rivals are NPCs built around the mechanics of seven of the classes in *[Draw Steel: Heroes](https://mcdm.gg/DS-Heroes)*-the conduit, elementalist, fury, null, shadow, tactician, and talent (see Chapter 5: Classes in that book). Their stat blocks are streamlined and modular, meant to be easy to adjust on the fly with ancestral traits or signature abilities. Examples of each type of rival are presented at every tier, capturing their foray into renown as they inevitably cross, clash with, and impede the player characters' own heroic journey.
 
-#### Relentlessly Tough
+| Echelon | Name | Level | Organization | Role | EV |
+|---------|--------------------|-------|--------------|------------|----|
+| 1st | Rival Conduit | 2 | Elite | Support | 16 |
+| 1st | Rival Elementalist | 2 | Elite | Controller | 16 |
+| 1st | Rival Fury | 2 | Elite | Brute | 16 |
+| 1st | Rival Null | 2 | Elite | Harrier | 16 |
+| 1st | Rival Shadow | 2 | Elite | Ambusher | 16 |
+| 1st | Rival Tactician | 2 | Elite | Artillery | 16 |
+| 1st | Rival Talent | 2 | Elite | Hexer | 16 |
+| 2nd | Rival Conduit | 5 | Elite | Support | 28 |
+| 2nd | Rival Elementalist | 5 | Elite | Controller | 28 |
+| 2nd | Rival Fury | 5 | Elite | Brute | 28 |
+| 2nd | Rival Null | 5 | Elite | Harrier | 28 |
+| 2nd | Rival Shadow | 5 | Elite | Ambusher | 28 |
+| 2nd | Rival Tactician | 5 | Elite | Artillery | 28 |
+| 2nd | Rival Talent | 5 | Elite | Hexer | 28 |
+| 3rd | Rival Conduit | 8 | Elite | Support | 40 |
+| 3rd | Rival Elementalist | 8 | Elite | Controller | 40 |
+| 3rd | Rival Fury | 8 | Elite | Brute | 40 |
+| 3rd | Rival Null | 8 | Elite | Harrier | 40 |
+| 3rd | Rival Shadow | 8 | Elite | Ambusher | 40 |
+| 3rd | Rival Tactician | 8 | Elite | Artillery | 40 |
+| 3rd | Rival Talent | 8 | Elite | Hexer | 40 |
+| 4th | Rival Conduit | 10 | Elite | Support | 48 |
+| 4th | Rival Elementalist | 10 | Elite | Controller | 48 |
+| 4th | Rival Fury | 10 | Elite | Brute | 48 |
+| 4th | Rival Null | 10 | Elite | Harrier | 48 |
+| 4th | Rival Shadow | 10 | Elite | Ambusher | 48 |
+| 4th | Rival Tactician | 10 | Elite | Artillery | 48 |
+| 4th | Rival Talent | 10 | Elite | Hexer | 48 |
 
-Orcs grow to impressive heights. The veins that commonly stripe their tough-skinned faces can appear more vibrant when they're excited or driven. Their hair, which ranges from coarse to fine, extends from their heads and drapes across their shoulders like royal mantles. Strong tusks extend past their lips and guard the rest of their teeth.
+#### Rival Stat Block List
 
-Few other humanoids can match the endurance of an orc, and orcs who train for hunting and combat can rally themselves to move faster and prevail longer. Should an orc find themself on the brink of death, their veins instinctively surge with "blood fire," glowing brightly and invigorating them to perform one last attack. Blood fire often appears red, though orcs from the mountains and underground glow blue and white, respectively.
+#### Using Rivals in a Campaign
 
-#### Innate Power
+These grab-and-go adaptations of classes are meant to capture a class's fantasy without making Directors run a full hero character sheet. They also seamlessly work together, allowing Directors to build a party of NPC heroes or villains who can be rivals, enemies, or even allies. The next time the heroes need a bit of competition or need to quickly visit a local tavern, temple, or guild hall in search of capable adventurers to help with a quest, you won't be fumbling for a stat block. That's what rivals are for.
 
-The intense power of an orc's spirit occasionally manifests as raw magic. Orc eyes of Grole hone their magic into a singular elemental affinity for focused manipulation. Orc terranovas move their magic through their feet, surging into the earth. Orc godcallers use song to spark the magic inherent in every creature's spirit.
+#### Rival Ancestries
 
-#### Mohlers
+You can adjust any rival stat block to more closely model a player character of a specific ancestry. Choose an ancestry from the Rival Ancestries table, then modify the stat block by adding the keyword, adjusting the size, adding the stability adjustment value, and giving them the ancestral trait.
 
-Mohlers are spined, pig-like animals who corkscrew through the ground as fast as they can run. Native to deserts and forests, these burrowing creatures produce shallow networks of tunnels just below the surface. Where orcs go, mohlers are sure to follow. In times of peace, orcs domesticate them to plow the earth and eat pests-and in times of war, mohlers reshape the battlefield to knock the orcs' enemies off their feet.
+#### Rival Abilities
 
-When an orc community has exceptional gratitude for the deeds of one of their own or an outsider, they bestow the companionship of a mohler upon the individual. Treated kindly, mohlers make steadfast companions, protecting their caregivers with their lives. If mistreated, a mohler returns to their original den, and the orcs hunt the responsible party.
+Any rival can replace their signature ability with a signature ability a hero has access to. The fury, shadow, and tactician can select a signature ability from any kit (see Chapter 6: Kits in *[Draw Steel: Heroes](https://mcdm.gg/DS-Heroes)*), and other rivals can select a signature ability from their respective class. If you replace a rival's signature ability, the replacement ability deals extra damage equal to the rival's level and targets two creatures or objects if the original ability targets only one.
 
-#### Scyzas
+#### Rival Languages
 
-Orcs rely on giant bipedal lizards called scyzas to carry them over great distances. They adorn these mounts, which originated in the tropics, with great harnesses that allow dozens of orcs to ride a scyza at the same time. The lizards are fearless in the face of danger, making them perfect battle mounts. A scyza's trunk-like legs and claws cleave through the ground and kick up terrible dust storms. Worse still are their battering head crests, which emit a terrible, bone-shaking ringing sound.
+Most rivals speak Caelian and two other languages.
 
-#### Orc Languages
+######### Rival Malice Level 1+ Malice Features
 
-Most orcs speak Caelian and Kalliak.
+At the start of any rival's turn, you can spend Malice to activate one of the following features.
 
-######### Orc Malice Malice Features
-
-At the start of any orc's turn, you can spend Malice to activate one of the following features.
-
-> ⭐️ **Overwhelming March (3 Malice)**
+> ⭐️ **Work as One (3 Malice)**
 > 
-> Each orc shifts up to their speed, moving through enemy spaces if they can. Each enemy passed through during this movement makes a **Might test**.
+> Until the end of the round, each rival can impose a bane on a strike made against an adjacent rival as a free triggered action.
+
+> ⭐️ **We Just Do It Better (3 Malice)**
 > 
-> - **≤11:** 6 damage; prone
-> - **12-16:** 4 damage; prone
-> - **17+:** Push 2
+> Until the end of the round, whenever any rival makes a power roll against the target of their Rivalry trait, they roll a d3 and add it to the power roll.
 
-> 🔳 **Mohler Trench (5 Malice)**
+> 🔳 **Check Out Our Loot (5 Malice)**
 > 
-> An orc acting this turn summons 2 **mohlers** out of the ground, who dig a trench that is a 10 x 1 line within 10 squares when they appear. The trench is 2 squares deep and is difficult terrain. The trench can't be created directly underneath creatures.
-
-> 🔳 **Mohler Cavity (7 Malice)**
+> One rival pulls out a magic consumable and hurls it, targeting a 5 x 1 line within 1 square of them or a 3 cube within 10 squares of them. Each enemy in the area makes an Agility test. The rival chooses a damage type and a condition for the outcome of the test from one of the following pairs: sonic damage and dazed, poison
 > 
-> The ground shakes as a group of mohlers dig a 5 cube pit beneath an area where at least one creature is on the ground. The area is difficult terrain. Each orc in the area can shift into the nearest unoccupied space outside the pit before it is completed. Each nonorc in the area makes an **Agility test**.
+> - **≤11:** damage and weakened, or fire damage and frightened. 11 damage; the condition affects the target (save ends)
+> - **12-16:** 8 damage; the condition affects the target (EoT)
+> - **17+:** 5 damage
+
+> ⭐️ **Calling the Shots (7 Malice)**
 > 
-> - **≤11:** 4 damage; the target falls; prone and can't stand (EoT)
-> - **12-16:** 4 damage; the target falls
-> - **17+:** The target can shift into the nearest unoccupied space outside the pit.
+> Each rival regains 10 Stamina. Until the end of the round, whenever a rival uses an ability against an enemy, each other rival adjacent to that enemy can make a free strike against them.
 
-####### Mohler
+> ⭐️ **Coordinated Takedown (10 Malice)**
+> 
+> Each rival moves up to their speed and uses a main action or maneuver that doesn't cost Malice.
 
-| Animal, Orc |         -         |      Level 1       |         Minion Ambusher          |        EV 3 for four minions         |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|   **1S**<br>Size   |  **7**<br>Speed   | **4**<br>Stamina |  **1**<br>Stability   | **2**<br>Free Strike |
-| **-**<br>Immunity | **Burrow**<br>Movement |         -          | **+2 bonus to speed**<br>With Captain | **-**<br>Weaknesses  |
-MM ight 0A gility +2R eason -4I ntuition +1P resence -3
+##### Rival Ancestries Table
 
-🗡 **Earth Bump (Signature Ability)**
+| Keyword | Size Adjustment | Stability Adjustment | Ancestral Trait |
+|--------------------------------------|-----------------|----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Devil | 1M | 0 | **Prehensile Tail:** The rival can't be flanked. |
+| Draconian (for the<br>dragon knight) | 1M | +1 | **Wings:** The rival can fly. While flying, their stability is 0. |
+| Dwarf | 1M | +2 | **Great Fortitude:** The rival can't be made weakened. |
+| High Elf/Wode Elf | 1M | 0 | **Otherworldly Grace:** At the start of each of their turns, the rival can choose one effect on them that can be<br>ended by a saving throw. That effect instead ends at the end of their turn. |
+| Hakaan | 1L | +2 | **Forceful:** When the rival force moves a creature or object, they can force move them an additional 2 squares. |
+| Human | 1M | +1 | **Determination:** As a maneuver, the rival can end the frightened, slowed, or weakened condition on themself. |
+| Memonek | 1M | -1 (minimum 0) | **Nonstop:** The rival can't be made slowed. |
+| Orc | 1M | +2 | **Glowing Recovery:** Once per round, the rival can use a maneuver to regain Stamina equal to 5 times their level. |
+| Polder | 1S | 0 | **Nimblestep:** The rival ignores difficult terrain and can move at full speed while sneaking. |
+| Revenant | 1M | +1 | **Vengeance Mark:** The rival places a magic sigil on an enemy within 10 squares of them. The rival always knows<br>the direction to that enemy while the sigil is active on them. As a main action, the rival can detonate the sigil,<br>dealing damage to the target equal to the rival's free strike and sliding the target up to 2 squares. |
+| Time Raider | 1M | 0 | **Four-Armed Martial Arts:** Whenever the rival uses the Grab or Knockback maneuver, they can target one<br>additional creature. |
+
+### Rivals-1st Echelon
+
+It's possible that these rivals gained a head start on their adventures and will pose a significant challenge to the heroes if they weren't expecting them.
+
+####### Rival Conduit
+
+| Humanoid, Rival | - | Level 2 | Elite Support | EV 16 |
+|:-----------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
+| **1M**<br>Size | **5**<br>Speed | **80**<br>Stamina | **1**<br>Stability | **5**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement | - | **-**<br>With Captain | **-**<br>Weaknesses |
+| **+1**<br>Might | **+0**<br>Agility | **+0**<br>Reason | **+2**<br>Intuition | **+0**<br>Presence |
+
+> ⚔️ **Thunder of Heavens (Signature Ability)**
+> 
+> | **Magic, Melee, Ranged, Strike** | **Main action** |
+> |----------------------------------|--------------------------------:|
+> | **📏 Melee 1 or ranged 10** | **🎯 Two creatures or objects** |
+> 
+> **Power Roll + 2:**
+> 
+> - **≤11:** 7 holy damage
+> - **12-16:** 10 holy damage
+> - **17+:** 13 holy damage
+> 
+> **Effect:** The conduit or one ally within distance regains Stamina equal to half the damage dealt.
+
+> 🏹 **Imbue with Might (2 Malice)**
+> 
+> | **Magic, Ranged** | **Maneuver** |
+> |-------------------|---------------------------:|
+> | **📏 Ranged 10** | **🎯 Self and five allie** |
+> 
+> **Effect:** Each target gains an edge on their next strike.
+
+> ⭐️ **Stalwart Guardian**
+> 
+> Strikes made against allies adjacent to the conduit take a bane.
+
+> ⭐️ **Rivalry**
+> 
+> At the start of an encounter, the conduit chooses one creature within their line of effect. Both the conduit and the creature can add a d3 roll to power rolls they make against each other.
+
+####### Rival Elementalist
+
+| Humanoid, Rival | - | Level 2 | Elite Controller | EV 16 |
+|:-----------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
+| **1M**<br>Size | **5**<br>Speed | **60**<br>Stamina | **1**<br>Stability | **5**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement | - | **-**<br>With Captain | **-**<br>Weaknesses |
+| **+0**<br>Might | **+0**<br>Agility | **+2**<br>Reason | **+1**<br>Intuition | **+0**<br>Presence |
+
+> 🏹 **The Writhing Green (Signature Ability)**
+> 
+> | **Green, Magic, Ranged, Strike** | **Main action** |
+> |----------------------------------|--------------------------------:|
+> | **📏 Ranged 10** | **🎯 Two creatures or objects** |
+> 
+> **Power Roll + 2:**
+> 
+> - **≤11:** 7 damage; slide 1
+> - **12-16:** 10 damage; slide 2
+> - **17+:** 13 damage; slide 3
+
+> 🔳 **The Earth Devours (3 Malice)**
+> 
+> | **Area, Green, Magic, Ranged** | **Main action** |
+> |--------------------------------|------------------------------:|
+> | **📏 3 cube within 10** | **🎯 Each enemy in the area** |
+> 
+> **Power Roll + 2:**
+> 
+> - **≤11:** 3 damage
+> - **12-16:** 5 damage; restrained (EoT)
+> - **17+:** 8 damage; restrained (save ends)
+> 
+> **Effect:** The area is difficult terrain for enemies until the end of the encounter. Any enemy in the area has acid weakness 2.
+
+> ❗️ **Jaws of the Void**
+> 
+> | **Magic, Void** | **Triggered action** |
+> |-----------------|---------------------:|
+> | **📏 Self** | **🎯 Self** |
+> 
+> **Trigger:** The elementalist takes damage. 
+> 
+> **Effect:** The elementalist can teleport up to 2 squares. Each creature adjacent to the space they leave takes 2 corruption damage.
+
+> ⭐️ **Rivalry**
+> 
+> At the start of an encounter, the elementalist chooses one creature within their line of effect. Both the elementalist and the creature can add a d3 roll to power rolls they make against each other.
+
+####### Rival Shadow
+
+| Humanoid, Rival | - | Level 2 | Elite Ambusher | EV 16 |
+|:-----------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
+| **1M**<br>Size | **7**<br>Speed | **80**<br>Stamina | **1**<br>Stability | **5**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement | - | **-**<br>With Captain | **-**<br>Weaknesses |
+
+|  **0**<br>Might  | **+2**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition  |  **+1**<br>Presence  |
+
+🗡 **Swift Serration (Signature Ability)**
 
 | **Melee, Strike, Weapon** | **Main action** |
 | --- | ---:|
-| **📏 Melee 1** | **🎯 One creature or object per minion** |
+| **📏 Melee 1** | **🎯 Two creatures or objects** |
 
 **Power Roll + 2:**
 
-- **≤11:** 2 damage
-- **12-16:** 4 damage
-- **17+:** 5 damage
+- **≤11:** 7 damage
+- **12-16:** 11 damage
+- **17+:** 14 damage; A < 2 bleeding (save ends)
+**1 Malice:** The shadow can teleport up to 5 squares, then can attempt
+to hide.
 
-**Effect:** The distance increases to melee 2. If the mohler is 1 or more
-squares beneath the target before they use this ability, a target who
-has M < 1 is also knocked prone.
+👤 **Poison the Blade**
 
-⭐️ **Seismic Sense**
-
-The mohler doesn't need line of effect to use abilities against cre-
-tures or objects touching the ground.
-
-⭐️ **Ground Grinder**
-
-The mohler can use the Dig maneuver at the start of the encoun-
-ter. Additionally, while the mohler burrows within 1 square below
-the ground, the ground above where they burrow is difficul
-terrain.
-
-####### Orc Blitzer
-
-| Humanoid, Orc |         -         |      Level 1       |         Minion Harrier          |        EV 3 for four minions         |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|   **1M**<br>Size   |  **7**<br>Speed   | **4**<br>Stamina |  **0**<br>Stability   | **1**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **+2 bonus to speed**<br>With Captain | **-**<br>Weaknesses  |
-|  **+1**<br>Might  | **+2**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition  |  **0**<br>Presence  |
-
-🗡 **Lugged Spear (Signature Ability)**
-
-| **Melee, Strike, Weapon** | **Main action** |
+| **-** | **Maneuver** |
 | --- | ---:|
-| **📏 Melee 1** | **🎯 One creature or object per minion** |
+| **📏 Self** | **🎯 Self** |
 
-**Power Roll + 2:**
+**Effect:** The shadow coats their weapon with poison. They gain an
+edge on their next strike, and any potency for that strike increases
+by 1.
 
-- **≤11:** 1 damage
-- **12-16:** 2 damage
-- **17+:** 3 damage
+⭐️ **Exploit Opening**
 
-**Effect:** A target who starts their next turn adjacent to three or more
-blitzers takes 3 damage.
+The shadow deals an extra 5 damage to any bleeding target.
 
-⭐️ **Bloodfire Bur**
+⭐️ **Rivalry**
 
-If the blitzer is reduced to 0 Stamina, they can make a free strike
-before dying.
+At the start of an encounter, the shadow chooses one creature
+within their line of effect. Both the shadow and the creature can
+add a d3 roll to power rolls they make against each other.
 
-####### Orc Bloodspark
+####### Rival Fury
 
-| Humanoid, Orc |         -         |      Level 1       |         Minion Artillery          |        EV 3 for four minion         |
+| Humanoid, Rival | - | Level 2 | Elite Brute | EV 16 |
 |:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|   **1M**<br>Size   |  **6**<br>Speed   | **3**<br>Stamina |  **0**<br>Stability   | **2**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **+2 bonus to forced movement distance**<br>With Captain | **-**<br>Weaknesses  |
-|  **0**<br>Might  | **+1**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition  |  **+2**<br>Presence  |
-
-🏹 **Explosive Mote (Signature Ability)**
-
-| **Magic, Ranged, Strike** | **Main action** |
-| --- | ---:|
-| **📏 Ranged 10** | **🎯 One creature or object per minion** |
-
-**Power Roll + 2:**
-
-- **≤11:** 2 damage; push 1, or the bloodspark can shift 1 square away
-from the target
-- **12-16:** 4 damage; push 2, or the bloodspark shifts up to 2 squares
-away from the target
-- **17+:** 5 damage; push 4, or the bloodspark shifts up to 4 squares
-away from the target
-
-⭐️ **Bloodfire Bur**
-
-If the bloodspark is reduced to 0 Stamina, they can make a free
-strike before dying.
-
-####### Orc Glorifie
-
-| Humanoid, Orc |         -         |      Level 1       |         Minion Controller          |        EV 3 for four minions         |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|   **1M**<br>Size   |  **6**<br>Speed   | **3**<br>Stamina |  **0**<br>Stability   | **1**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **+5 bonus to ranged distance**<br>With Captain | **-**<br>Weaknesses  |
-|  **0**<br>Might  | **+1**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition  |  **+2**<br>Presence  |
-
-⚔️ **Call to Victory (Signature Ability)**
-
-| **Magic, Melee, Ranged, Strike** | **Main action** |
-| --- | ---:|
-| **📏 Melee 1 or ranged 5** | **🎯 One creature or object per minion** |
-
-**Power Roll + 2:**
-
-- **≤11:** 1 sonic damage
-- **12-16:** 2 sonic damage; P < 1 slowed (save ends)
-- **17+:** 3 sonic damage; P < 2 slowed (save ends)
-
-**Effect:** Allies gain an edge on melee strikes against the target until the
-glorifier and each other glorifie r i n thei r squa d ar e kille
-
-⭐️ **Bloodfire Bur**
-
-If the glorifier is reduced to 0 Stamina , they can make a free strike
-before dying.
-
-####### Orc Razor
-
-| Humanoid, Orc |         -         |      Level 1       |         Minion Brute          |        EV 3 for four minions         |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|   **1L**<br>Size   |  **6**<br>Speed   | **5**<br>Stamina |  **0**<br>Stability   | **2**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **+1 damage bonus to strikes**<br>With Captain | **-**<br>Weaknesses  |
+| **1M**<br>Size | **5**<br>Speed | **100**<br>Stamina | **3**<br>Stability | **5**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement | - | **-**<br>With Captain | **-**<br>Weaknesses |
 |  **+2**<br>Might  | **+1**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition  |  **0**<br>Presence  |
 
-🏹 **Boot and Blade (Signature Ability)**
+🗡 **Brutal Impact (Signature Ability)**
 
 | **Melee, Strike, Weapon** | **Main action** |
 | --- | ---:|
-| **📏 Melee 1** | **🎯 One creature or object per minion** |
+| **📏 Melee 1** | **🎯 Two creatures or objects** |
 
 **Power Roll + 2:**
 
-- **≤11:** 2 damage;
-- **12-16:** 4 damage; push 3
-- **17+:** 5 damage; push 3 or prone
+- **≤11:** 7 damage; push 1
+- **12-16:** 11 damage; push 2
+- **17+:** 14 damage; push 3
+**2 Malice:** Each target who has M < 1 is slowed (save ends).
 
-**Effect:** The razor gains an edge against any target affected by a cond-
-tion.
-
-⭐️ **Bloodfire Bur**
-
-If the razor is reduced to 0 Stamina, they can make a free strike
-before dying.
-217Orcs
-
-####### Orc Bloodrunner
-
-| Humanoid, Orc |         -         |      Level 3       |         Platoon Harrier          |        EV 10         |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|   **1M**<br>Size   |  **8**<br>Speed   | **50**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
-|  **+2**<br>Might  | **+2**<br>Agility |  **0**<br>Reason  |  **+1**<br>Intuition  |  **+1**<br>Presence  |
-
-🗡 **Shield Bash (Signature Ability)**
-
-| **Melee, Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Melee 1** | **🎯 One creature or object** |
-
-**Power Roll + 2:**
-
-- **≤11:** 7 damage; push special
-- **12-16:** 10 damage; push special
-- **17+:** 13 damage; push special or prone
-
-**Effect:** The forced movement distance is equal to the number of
-squares the bloodrunner moved on their turn before using this abili-
-ty. An ally targeted by this ability ignores the damage and can move
-up to that same distance.
-**2 Malice:** An ally targeted by this ability can make a free strike after
-the forced movement is resolved.
-
-⭐️ **Unimpeded**
-
-The bloodrunner can end their movement in a prone creature's
-space. The first time on a turn that a bloodrunner enters any cre-
-ture's space, that creature takes 3 damage.
-
-⭐️ **Relentless**
-
-If the bloodrunner is reduced to 0 Stamina, they can make a free
-strike before dying. If the target of the free strike is reduced to 0
-Stamina, the bloodrunner is reduced to 1 Stamina instead.
-
-####### Orc Chainlock
-
-| Humanoid, Orc |         -         |      Level 1       |         Platoon Hexer          |        EV 6         |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|   **1L**<br>Size   |  **5**<br>Speed   | **20**<br>Stamina |  **2**<br>Stability   | **3**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
-M ight +2 A gility +2R eason +1I ntuition 0P resence 0
-
-🗡 **Hook and Chain (Signature Ability)**
-
-| **Melee, Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Melee 3** | **🎯 One creature or object** |
-
-**Power Roll + 2:**
-
-- **≤11:** 5 damage; pull 1; M < 0 the target is hooked (save ends)
-- **12-16:** 7 damage; pull 2; M < 1 the target is hooked (save ends)
-- **17+:** 9 damage; pull 3; M < 2 the target is hooked (save ends)
-
-**Effect:** A hooked target can't move more than 3 squares away from
-the chainlock's position when this ability is used.
-
-🏹 **Heavy Crossbolt (3 Malice)**
-
-| **Ranged, Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Ranged 5** | **🎯 One creature or object** |
-
-**Power Roll + 2:**
-
-- **≤11:** 5 damage; A < 0 slowed (save ends)
-- **12-16:** 7 damage; A < 1 slowed (save ends)
-- **17+:** 9 damage; prone; A < 2 slowed (save ends)
-
-⭐️ **Chain Link**
-
-Whenever the chainlock is force moved by a creature's melee abil-
-ity, the creature is pulled the same distance toward the chainlock
-after the forced movement is resolved .
-
-⭐️ **Relentless**
-
-If the chainlock is reduced to 0 Stamina, they can make a free
-strike before dying. If the target of the free strike is reduced to 0
-Stamina, the chainlock is reduced to 1 Stamina instead.
- 
-
-####### Orc Garotter
-
-| Humanoid, Orc |         -         |      Level 1       |         Platoon Ambusher          |        EV 6         |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|   **1L**<br>Size   |  **5**<br>Speed   | **30**<br>Stamina |  **0**<br>Stability   | **4**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
-M ight +1 A gility +2R eason 0I ntuition +1P resence -1
-
-🗡 **Dagger Feint (Signature Ability)**
-
-| **Melee, Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Melee 1** | **🎯 One creature or object** |
-
-**Power Roll + 2:**
-
-- **≤11:** 6 damage; the garroter can shift 1 squar
-- **12-16:** 9 damage; the garroter shifts up to 2 square
-- **17+:** 12 damage; the garroter shifts up to 3 square
-
-**Effect:** If this ability gains an edge or has a double edge, it deals an
-extra 4 damage.
-
-🗡 **Strangle**
+🗡 **Let's Tussle (2 Malice)**
 
 | **Melee, Strike, Weapon** | **Main action** |
 | --- | ---:|
@@ -319,435 +259,1245 @@ extra 4 damage.
 
 **Power Roll + 2:**
 
-- **≤11:** 6 damage
-- **12-16:** 9 damage; I < 1 dazed (save ends)
-- **17+:** 12 damage; grabbed; I < 2 dazed (save ends)
+- **≤11:** 8 damage; M < 0 grabbed
+- **12-16:** 13 damage; M < 1 grabbed
+- **17+:** 16 damage; M < 2 grabbed
 
-**Effect:** While grabbed this way, a target can't communicate or use
-magic abilities.
+**Effect:** The target must be the fury's size or smaller. While the target is
+grabbed this way, the fury gains an edge on strikes against them.
 
-👤 **Chroma Cloak 1 Malice**
+⭐️ **Overwhelm**
 
-| **-** | **Maneuver** |
-The garroter turns invisible until the end of their turn. This invisi-
-bility ends early if they take damage or use an ability.
+Once per turn, when the fury force moves a creature or object, or
+shifts adjacent to a creature or object , they can make a free strike
+against that creature or object.
 
-⭐️ **Relentless**
+⭐️ **Rivalry**
 
-If the garroter is reduced to 0 Stamina, they can make a free strike
-before dying. If the target of the free strike is reduced to 0 Stamina, 
-the garroter is reduced to 1 Stamina instead.
+At the start of an encounter, the fury chooses one creature within
+their line of effect. Both the fury and the creature can add a d3 roll
+to power rolls they make against each other.
 
-####### Orc Eye of Grole
+####### Rival Null
 
-| Humanoid, Orc |         -         |      Level 1       |         Platoon Artillery          |        EV 6         |
+| Humanoid, Rival | - | Level 2 | Elite Harrier | EV 16 |
 |:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|   **1M**<br>Size   |  **6**<br>Speed   | **20**<br>Stamina |  **0**<br>Stability   | **4**<br>Free Strike |
-| **Cold, fire , or lightning**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
-M ight +1 A gility +1R eason 0I ntuition 0P resence -2
+| **1M**<br>Size | **7**<br>Speed | **80**<br>Stamina | **3**<br>Stability | **5**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement | - | **-**<br>With Captain | **-**<br>Weaknesses |
+|  **0**<br>Might  | **+2**<br>Agility |  **+1**<br>Reason  |  **+2**<br>Intuition  |  **0**<br>Presence  |
 
-⭐️ **Elemental Affini**
+🗡 **Nimble Step (Signature Ability)**
 
-The eye has an affinit y fo r on e o f th e followin g damag e type s
-cold, fire , or lightning . The chosen type determines the eye 's da-
-age immunity and the damage dealt by their abilities.
+| **Melee, Strike, Weapon** | **Main action** |
+| --- | ---:|
+| **📏 Melee 1** | **🎯 Two creatures or objects** |
 
-🏹 **Elemental Discharge (3 Malice)**
+**Power Roll + 2:**
 
-| **Magic, Ranged, Strike** | **Main action** |
+- **≤11:** 7 damage; the null shifts up to 2 square
+- **12-16:** 10 damage; the null shifts up to 3 squares
+- **17+:** 13 damage; the null shifts up to 4 squares
+
+🗡 **Numb (2 Malice)**
+
+| **Melee, Psionic, Strike, Weapon** | **Maneuver** |
+| --- | ---:|
+| **📏 Melee 1** | **🎯 One creature or object** |
+
+**Power Roll + 2:**
+
+- **≤11:** 7 damage; R < 0 slowed (EoT)
+- **12-16:** 10 damage; R < 1 slowed (EoT)
+- **17+:** 13 damage; R < 2 dazed and slowed (EoT)
+
+⭐️ **Inertial Shield**
+
+The first time each round that the null is targeted by a da-
+age-dealing strike, they halve the damage.
+
+⭐️ **Rivalry**
+
+At the start of an encounter, the null chooses one creature within
+their line of effect. Both the null and the creature can add a d3 roll
+to power rolls they make against each other.
+Customizing Rivals
+Rival stat blocks fill out a typical party in terms of roles , but
+you can easily change them to represent a class that isn't
+presented here. For example, you can make a troubadour
+by using the elementalist as a starting point and making the
+following changes:
+Make Presence their highest characteristic.
+Replace their signature ability with the troubadour's Cutting
+Sarcasm ability (adjusting it to target two creatures and deal
+extra damage equal to the troubadour's level).
+Replace their second main action with Quick Rewrite.
+Replace their triggered action with Turnabout Is Fair Play.
+You can also use the fury as a starting point for a censor by
+making the following changes:
+Reverse their Might and Agility scores.
+Replace their signature ability with the censor's Your Allies
+Cannot Save You ability (adjusting it to target two creatures
+and deal extra damage equal to the censor's level).
+Replace their second main action with Behold a Shield
+of Faith.
+Replace their trait with Lead By Example.
+235Rivals
+
+####### Rival Talent
+
+| Humanoid, Rival | - | Level 2 | Elite Hexer | EV 16 |
+|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
+| **1M**<br>Size | **5**<br>Speed | **60**<br>Stamina | **2**<br>Stability | **5**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement | - | **-**<br>With Captain | **-**<br>Weaknesses |
+|  **0**<br>Might  | **0**<br>Agility |  **+2**<br>Reason  |  **0**<br>Intuition  |  **+1**<br>Presence  |
+
+🏹 **Reverberating Blast (Signature Ability)**
+
+| **Psionic, Ranged, Strike, Telekinesis** | **Main action** |
+| --- | ---:|
+| **📏 Ranged 10** | **🎯 Two creatures or objects** |
+
+**Power Roll + 2:**
+
+- **≤11:** 7 psychic damage; M < 0 prone
+- **12-16:** 10 psychic damage; push 2; M < 1 prone
+- **17+:** 13 psychic damage; push 3; M < 2 prone
+
+🏹 **Muddle the Mind (2 Malice)**
+
+| **Psionic, Ranged, Telepathy** | **Maneuver** |
 | --- | ---:|
 | **📏 Ranged 10** | **🎯 One creature or object** |
 
 **Power Roll + 2:**
 
-- **≤11:** 6 damage; push 2, or the eye shifts up to 2 squares away from
-the target
-- **12-16:** 9 damage; slide 4, or the eye shifts up to 4 squares away from
-the target
-- **17+:** 12 damage; slide 6, or the eye shifts up to 6 squares away from
-the target
+- **≤11:** R < 0 slowed (save ends)
+- **12-16:** R < 1 dazed (save ends)
+- **17+:** R < 2 dazed and slowed (save ends)
 
-**Effect:** This ability deals cold, fire , or lightning damage
+❗️ **Precognitive Shift (1 Malice)**
 
-🔳 **Elemental Discharge (3 Malice)**
-
-| **Area, Magic** | **Main action** |
+| **Psionic** | **Triggered action** |
 | --- | ---:|
-| **📏 5 x 2 line within 1** | **🎯 Each enemy in the area** |
+| **📏 Self** | **🎯 Self** |
 
-**Power Roll + 2:**
+**Trigger:** A creature deals damage to the talent.
 
-- **≤11:** 3 damage; push 2
-- **12-16:** 5 damage; push 3
-- **17+:** 3 damage; push 4, prone
+**Effect:** The talent halves the damage and shifts up to 2 squares
 
-**Effect:** This ability deals cold, fire , or lightning damage , and any
-enemy targeted by the ability has damage weakness 3 to the same
-damage type (save ends). 
+⭐️ **Rivalry**
 
-⭐️ **Relentless**
+At the start of an encounter, the talent chooses one creature with-
+in their line of effect. Both the talent and the creature can add a d3
+roll to power rolls they make against each other.
 
-If the eye is reduced to 0 Stamina, they can make a free strike
-before dying. If the target of the free strike is reduced to 0 Stamina, 
-the eye is reduced to 1 Stamina instead.
-219Orcs
+####### Rival Tactician
 
-####### Orc Godcaller
-
-| Humanoid, Orc |         -         |      Level 1       |         Platoon Support          |        EV 6         |
+| Humanoid, Rival | - | Level 2 | Elite Artillery | EV 16 |
 |:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|   **1M**<br>Size   |  **6**<br>Speed   | **30**<br>Stamina |  **0**<br>Stability   | **3**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
-M ight +1 A gility 0R eason 0I ntuition +1P resence +2
+| **1M**<br>Size | **5**<br>Speed | **60**<br>Stamina | **2**<br>Stability | **5**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement | - | **-**<br>With Captain | **-**<br>Weaknesses |
+|  **+2**<br>Might  | **0**<br>Agility |  **+1**<br>Reason  |  **0**<br>Intuition  |  **0**<br>Presence  |
 
-⚔️ **Power Chord (Signature Ability)**
+🏹 **Dual Targeting Shot (Signature Ability)**
 
-| **Magic, Melee, Ranged, Strike** | **Main action** |
+| **Ranged, Strike, Weapon** | **Main action** |
 | --- | ---:|
-| **📏 Melee 1 or ranged 10** | **🎯 One creature or object** |
-
-**Power Roll + 2:**
-
-- **≤11:** 5 sonic damage
-- **12-16:** 7 sonic damage
-- **17+:** 9 sonic damage; P < 2 weakened (save ends)
-
-🏹 **Cadenza**
-
-| **Magic, Ranged** | **Main action** |
-| --- | ---:|
-| **📏 Ranged 10** | **🎯 One ally** |
-| **Effect** | **The target moves up to their speed and can use a main action** |.
-**3 Malice:** The godcaller targets a second ally.
-
-🏹 **Rallying Ostinato 2 Malice**
-
-| **Magic, Ranged** | **Maneuver** |
-| --- | ---:|
-| **📏 Ranged 10** | **🎯 Self and three allies** |
-
-**Effect:** Each target regains 15 Stamina and ignores difficul t terrai
-until the end of the encounter.
-
-⭐️ **Relentless**
-
-If the godcaller is reduced to 0 Stamina, they can make a free strike
-before dying. If the target of the free strike is reduced to 0 Stamina, 
-the godcaller is reduced to 1 Stamina instead.
-
-####### Orc Juggernaut
-
-| Humanoid, Orc |         -         |      Level 3       |         Platoon Brute          |        EV 10         |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|   **1L**<br>Size   |  **6**<br>Speed   | **60**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
-M ight +2 A gility +2R eason -1I ntuition -1P resence +2
-
-🗡 **Haymaker Greataxe (Signature Ability)**
-
-| **Melee, Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Melee 1** | **🎯 One creature or object** |
+| **📏 Ranged 10** | **🎯 Two creatures or objects** |
 
 **Power Roll + 2:**
 
 - **≤11:** 7 damage
-- **12-16:** 11 damage; prone
-- **17+:** 14 damage; prone; M < 2 bleeding (save ends)
+- **12-16:** 11 damage
+- **17+:** 14 damage
+**2 Malice:** Two allies within distance can make a free strike against
+one of the targets.
 
-**Effect:** A target who is already prone takes an extra 6 damage.
+🏹 **I'll Cover You! (3 Malice)**
 
-❗️ **Hrraaaaaagh! 1 Malice**
-
-| **-** | **Free triggered action** |
+| **Ranged, Strike, Weapon** | **Main action** |
 | --- | ---:|
-| **📏 Self** | **🎯 Self** |
-
-**Trigger:** The juggernaut takes damage.
-
-**Effect:** The juggernaut moves up to their speed and can make a free
-strike.
-
-⭐️ **Blood in the Water**
-
-Whenever the juggernaut willingly moves, they can move 3
-additional squares if they end their movement closer to a prone
-creature.
-
-⭐️ **Relentless**
-
-If the juggernaut is reduced to 0 Stamina, they can make a free
-strike before dying. If the target of the free strike is reduced to 0
-Stamina, the juggernaut is reduced to 1 Stamina instead.
-
-####### Orc Rampart
-
-| Humanoid, Orc |         -         |      Level 2       |         Platoon Defender          |        EV 8         |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|   **1L**<br>Size   |  **6**<br>Speed   | **59**<br>Stamina |  **2**<br>Stability   | **4**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
-M ight +2 A gility +2R eason +2I ntuition +2 P resence +2
-
-🗡 **My Spear, My Foe (Signature Ability)**
-
-| **Melee, Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Melee 1** | **🎯 One creature or object** |
+| **📏 Ranged 5** | **🎯 One creature or object** |
 
 **Power Roll + 2:**
 
-- **≤11:** 6 damage
-- **12-16:** 9 damage; taunted (EoT)
-- **17+:** 12 damage; taunted (EoT)
+- **≤11:** 8 damage; M < 0 weakened (save ends)
+- **12-16:** 13 damage; M < 1 weakened (save ends)
+- **17+:** 16 damage; M < 2 weakened (save ends)
 
-**Effect:** This ability has a double edge against any target who dealt
-damage to the rampart this round.
+**Effect:** One ally adjacent to the target regains 5 Stamina.
 
-👤 **Castling **
-
-| **-** | **Maneuver** |
-| --- | ---:|
-| **📏 Self; see below** | **🎯 One ally** |
-
-**Effect:** The rampart moves or shifts up to their speed adjacent to the
-target, then can swap places with the target.
-
-❗️ **No. **
-
-| **-** | **Triggered action** |
-| --- | ---:|
-| **📏 Self** | **🎯 Self** |
-
-**Trigger:** A creature targets an ally adjacent to the rampart with an
-ability that doesn't also target the rampart.
-
-**Effect:** The rampart becomes the target of the triggering ability instead.
-
-⭐️ **Relentless**
-
-If the rampart is reduced to 0 Stamina, they can make a free strike
-before dying. If the target of the free strike is reduced to 0 Stamina, 
-the rampart is reduced to 1 Stamina instead.
-
-####### Orc Terranova
-
-| Humanoid, Orc |         -         |      Level 2       |         Platoon Controller          |        EV 8         |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|   **1M**<br>Size   |  **6**<br>Speed   | **30**<br>Stamina |  **2**<br>Stability   | **4**<br>Free Strike |
-| **-**<br>Immunity | **Burrow**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
-M ight +1 A gility +1R eason 0I ntuition +1P resence +2
-
-🏹 **Earth Pillar (Signature Ability)**
-
-| **Magic, Ranged, Strike** | **Main action** |
-| --- | ---:|
-| **📏 Ranged 10** | **🎯 Three creatures or objects** |
-
-**Power Roll + 2:**
-
-- **≤11:** 6 damage; A < 0 prone and can't stand (save ends)
-- **12-16:** 9 damage; A < 1 prone and can't stand (save ends)
-- **17+:** 12 damage; A < 2 prone and can't stand (save ends)
-
-**Effect:** Each target must be on the ground, and the ground in each
-target's space rises 1 square.
-
-❇️ **Sinkhole 3 Malice**
-
-| **Area, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 3 Burst** | **🎯 Each enemy and object in the area** |
-
-- **≤11:** 4 damage; M < 0 restrained (save ends)
-- **12-16:** 7 damage; M < 1 restrained (save ends)
-- **17+:** 10 damage; M < 2 restrained (save ends)
-
-**Effect:** The area is difficul t terrai
-
-⭐️ **Seismic Step**
-
-The terranova ignores difficul t terrai n . Additionall y , the y do n'
-need line of effect to use abilities against creatures touching the
-ground.
-
-⭐️ **Relentless**
-
-If the terranova is reduced to 0 Stamina, they can make a free
-strike before dying. If the target of the free strike is reduced to 0
-Stamina, the terranova is reduced to 1 Stamina instead.
-221Orcs
-
-####### Orc Warleader
-
-| Humanoid, Orc |         -         |      Level 3       |         Leader          |        EV 20         |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|   **1M**<br>Size   |  **6**<br>Speed   | **120**<br>Stamina |  **2**<br>Stability   | **5**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
-|  **+3**<br>Might  | **+2**<br>Agility |  **+1**<br>Reason  |  **+2**<br>Intuition  |  **+2**<br>Presence  |
-
-🏹 **Go. (Signature Ability)**
-
-| **Ranged** | **Main action** |
-| --- | ---:|
-| **📏 Ranged 10** | **🎯 One ally** |
-| **Effect** | **The target moves up to their speed and can use a main action** |.
-**1 Malice:** The warleader targets two allies.
-**3 Malice:** The warleader targets one ally and a minion squad.
-
-🗡 **Mace Lariat**
-
-| **Melee, Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Melee 1** | **🎯 Each enemy** |
-
-**Power Roll + 3:**
-
-- **≤11:** 7 damage; push 1; M < 1 dazed (save ends)
-- **12-16:** 10 damage; push 3; M < 2 dazed (save ends)
-- **17+:** 13 damage; push 5; M < 3 dazed (save ends)
-
-🏹 **Lockdown 3 Malice**
-
-| **Ranged** | **Maneuver** |
-| --- | ---:|
-| **📏 Self and ranged 10** | **🎯 Self and three allies** |
-
-**Effect:** Each target moves up to their speed and can use the Grab
-maneuver, which gains an edge.
-
-❗️ **Courtesy Call**
+❗️ **Overwatch**
 
 | **Ranged** | **Triggered action** |
 | --- | ---:|
-| **📏 Ranged 10** | **🎯 One creature** |
+| **📏 Ranged 10** | **🎯 The triggering enemy** |
 
-**Trigger:** The target obtains a tier 1 outcome on one power roll.
+**Trigger:** An enemy within distance willingly moves.
 
-**Effect:** The target has a double edge on their next power roll before
-the end of the encounter.
+**Effect:** At any point during the movement, the tactician makes a free
+strike against the target.
 
-☠️ **Close In (Villain Action 1)**
+⭐️ **Rivalry**
 
-Area
-| **📏 10 Burst** | **🎯 Each ally in the area** |
+At the start of an encounter, the tactician chooses one creature
+within their line of effect. Both the tactician and the creature can
+add a d3 roll to power rolls they make against each other.
 
-**Effect:** Each target moves up to their speed. Each enemy adjacent to a
-target after this move makes an Intuition test. 
+####### Rival Conduit
 
-- **≤11:** Frightened of the warleader (save ends)
-- **12-16:** Frightened of the warleader (EoT)
-- **17+:** No effect
+| Humanoid, Rival | - | Level 5 | Elite Support | EV 28 |
+|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
+| **1M**<br>Size | **5**<br>Speed | **140**<br>Stamina | **1**<br>Stability | **6**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement | - | **-**<br>With Captain | **-**<br>Weaknesses |
+|  **+2**<br>Might  | **0**<br>Agility |  **0**<br>Reason  |  **+3**<br>Intuition  |  **+1**<br>Presence  |
 
-☠️ **Familial Reinforcements (Villain Action 2)**
+⚔️ **Raging Tempest (Signature Ability)**
 
-Ranged
-| **📏 Ranged 10** | **🎯 Self** |
+| **Magic, Melee, Ranged, Strike** | **Main action** |
+| --- | ---:|
+| **📏 Melee 1 or ranged 10** | **🎯 Two creatures or objects** |
 
-**Effect:** The warleader shifts up to their speed , and four orc blitzers
-appear in unoccupied spaces within distance.
+**Power Roll + 3:**
 
-☠️ **I'll Do This Myself (Villain Action 3)**
+- **≤11:** 9 holy damage; vertical slide 1
+- **12-16:** 14 holy damage; vertical slide 2
+- **17+:** 17 holy damage; vertical slide 3
 
+**Effect:** The conduit or one ally within distance regains Stamina equal
+to half the damage dealt.
+
+🏹 **Imbue with Power (3 Malice)**
+
+| **Magic, Ranged** | **Maneuver** |
+| --- | ---:|
+| **📏 Ranged 10** | **🎯 Self and five allie** |
+
+**Effect:** Each target has a double edge on their next strike.
+
+⭐️ **Stalwart Guardian**
+
+Strikes made against allies adjacent to the conduit take a bane.
+
+⭐️ **Rivalry**
+
+At the start of an encounter, the conduit chooses one creature
+within their line of effect. Both the conduit and the creature can
+add a d3 roll to power rolls they make against each other.
+
+####### Rival Elementalist
+
+| Humanoid, Rival | - | Level 5 | Elite Controller | EV 28 |
+|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
+| **1M**<br>Size | **5**<br>Speed | **120**<br>Stamina | **1**<br>Stability | **6**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement | - | **-**<br>With Captain | **-**<br>Weaknesses |
+|  **0**<br>Might  | **+2**<br>Agility |  **+3**<br>Reason  |  **+2**<br>Intuition  |  **0**<br>Presence  |
+
+🏹 **The Thriving Wilds (Signature Ability)**
+
+| **Green, Magic, Ranged, Strike** | **Main action** |
+| --- | ---:|
+| **📏 Ranged 10** | **🎯 Two creatures or objects** |
+
+**Power Roll + 3:**
+
+- **≤11:** 9 damage; slide 1; M < 1 3 acid damage
+- **12-16:** 14 damage; slide 2; M < 2 5 acid damage
+- **17+:** 17 damage; slide 3; M < 3 7 acid damage
+
+🔳 **The Depths Hunger (4 Malice)**
+
+| **Area, Green, Magic, Ranged** | **Main action** |
+| --- | ---:|
+| **📏 4 cube within 10** | **🎯 Each enemy in the area** |
+
+**Power Roll + 3:**
+
+- **≤11:** 5 damage
+- **12-16:** 9 damage; restrained (EoT)
+- **17+:** 11 damage; restrained (save ends)
+
+**Effect:** The area is difficul t terrai n fo r enemie s unti l th e en d o f th
+encounter. Any enemy in the area has acid weakness 3.
+
+❗️ **Fissures of Darkness**
+
+| **Magic, Void** | **Triggered action** |
+| --- | ---:|
 | **📏 Self** | **🎯 Self** |
 
-**Effect:** Three times in succession, the warleader shifts up to their
-speed and can use Mace Lariat.
+**Trigger:** The elementalist takes damage. 
 
-⭐️ **End Effec**
+**Effect:** The elementalist can teleport up to 3 squares. Each creature
+adjacent to the space they leave takes 3 corruption damage.
 
-At the end of each of their turns, the warleader can take 5 damage
-to end one effect on them that can be ended by a saving throw .
-This damage can't be reduced in any way.
+⭐️ **Rivalry**
 
-⭐️ **Relentless**
+At the start of an encounter, the elementalist chooses one creature
+within their line of effect. Both the elementalist and the creature
+can add a d3 roll to power rolls they make against each other.Rivals-2nd Echelon
+The rivals have learned a few new tricks since they last encountered
+the heroes. Rivalry is a two way street, however, and they'll be sorely
+disappointed if the heroes can't keep up.
+237Rivals
 
-If the warleader is reduced to 0 Stamina, they can make a free
-strike before dying. If the target of the free strike is reduced to 0
-Stamina, the warleader is reduced to 1 Stamina instead.
+####### Rival Fury
 
-####### Scyza
-
-| Animal, Orc |         -         |      Level 3       |         Elite Mount          |        EV 20         |
+| Humanoid, Rival | - | Level 5 | Elite Brute | EV 28 |
 |:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|   **4**<br>Size   |  **6**<br>Speed   | **100**<br>Stamina |  **3**<br>Stability   | **5**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
-M ight +2 A gility -1R eason -4I ntuition 0 P resence -1
+| **1M**<br>Size | **5**<br>Speed | **160**<br>Stamina | **3**<br>Stability | **7**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement | - | **-**<br>With Captain | **-**<br>Weaknesses |
+|  **+3**<br>Might  | **+2**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition  |  **+1**<br>Presence  |
 
-🗡 **Clawed Kick (Signature Ability)**
-
-| **Melee, Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Melee 2** | **🎯 Two creatures or objects** |
-
-**Power Roll + 2:**
-
-- **≤11:** 7 damage
-- **12-16:** 11 damage; prone
-- **17+:** 14 damage; prone
-
-**Effect:** The scyza roars, and if the target has I < 2, they are frightened
-(save ends).
-
-🗡 **Whiptail**
+🗡 **Thunderous Slam (Signature Ability)**
 
 | **Melee, Strike, Weapon** | **Main action** |
 | --- | ---:|
-| **📏 Melee 3** | **🎯 One creature or object** |
+| **📏 Melee 1** | **🎯 Two creatures or objects** |
 
-**Power Roll + 2:**
+**Power Roll + 3:**
 
-- **≤11:** 8 damage
-- **12-16:** 13 damage; prone
-- **17+:** 16 damage; A < 2 bleeding (save ends)
+- **≤11:** 10 damage; push 2
+- **12-16:** 15 damage; push 3
+- **17+:** 18 damage; push 4
+**2 Malice:** Each target who has M < 2 is slowed (save ends).
 
-**Effect:** Against a target on top of the scyza, this ability gains an edge, 
-and the target is pushed into an unoccupied adjacent square and
-knocked prone.
+🗡 **Roughed Up (3 Malice)**
 
-🔳 **Crestfall (2 Malice)**
+| **Melee, Strike, Weapon** | **Main action** |
+| --- | ---:|
+| **📏 Melee 1** | **🎯 One creature** |
+
+**Power Roll + 3:**
+
+- **≤11:** 11 damage; M < 1 grabbed
+- **12-16:** 16 damage; M < 2 grabbed
+- **17+:** 21 damage; M < 3 grabbed
+
+**Effect:** The target must be the fury's size or smaller. While the target
+is grabbed this way, the fury and their allies gain an edge on strikes
+against them.
+
+⭐️ **Overpower**
+
+Once per turn, when the fury force moves a creature or object, 
+or shifts adjacent to a creature or object , they can use a signature
+ability against that creature or object.
+
+⭐️ **Rivalry**
+
+At the start of an encounter, the fury chooses one creature within
+their line of effect. Both the fury and the creature can add a d3 roll
+to power rolls they make against each other.
+
+####### Rival Null
+
+| Humanoid, Rival | - | Level 5 | Elite Harrier | EV 28 |
+|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
+| **1M**<br>Size | **7**<br>Speed | **140**<br>Stamina | **3**<br>Stability | **6**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement | - | **-**<br>With Captain | **-**<br>Weaknesses |
+|  **0**<br>Might  | **+3**<br>Agility |  **+2**<br>Reason  |  **+3**<br>Intuition  |  **0**<br>Presence  |
+
+🗡 **Agile Stride (Signature Ability)**
+
+| **Melee, Strike, Weapon** | **Main action** |
+| --- | ---:|
+| **📏 Melee 1** | **🎯 Two creatures or objects** |
+
+**Power Roll + 3:**
+
+- **≤11:** 9 damage; the null shifts up to 3 squares ; A < 1 6 damage
+- **12-16:** 14 damage; the null shifts up to 4 squares ; A < 2 11 damage
+- **17+:** 17 damage; the null shifts up to 5 squares ; A < 3 11 damage
+
+🗡 **Deaden (2 Malice)**
+
+| **Melee, Psionic, Strike, Weapon** | **Maneuver** |
+| --- | ---:|
+| **📏 Melee 1** | **🎯 One creature or object** |
+
+**Power Roll + 3:**
+
+- **≤11:** 9 damage; R < 1 dazed (EoT)
+- **12-16:** 14 damage; R < 2 dazed (save ends)
+- **17+:** 17 damage; R < 3 dazed and restrained (save ends)
+
+⭐️ **Inertial Shield**
+
+The first time each round that the null is targeted by a da-
+age-dealing strike, they halve the damage.
+
+⭐️ **Rivalry**
+
+At the start of an encounter, the null chooses one creature within
+their line of effect. Both the null and the creature can add a d3 roll
+to power rolls they make against each other.
+
+####### Rival Shadow
+
+| Humanoid, Rival | - | Level 5 | Elite Ambusher | EV 28 |
+|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
+| **1M**<br>Size | **7**<br>Speed | **140**<br>Stamina | **1**<br>Stability | **7**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement | - | **-**<br>With Captain | **-**<br>Weaknesses |
+|  **0**<br>Might  | **+3**<br>Agility |  **+1**<br>Reason  |  **0**<br>Intuition  |  **+2**<br>Presence  |
+
+🗡 **Ambuscade (Signature Ability)**
+
+| **Melee, Strike, Weapon** | **Main action** |
+| --- | ---:|
+| **📏 Melee 1** | **🎯 Two creatures or objects** |
+
+**Power Roll + 3:**
+
+- **≤11:** 10 damage
+- **12-16:** 15 damage; A < 2 bleeding (save ends)
+- **17+:** 18 damage; A < 3 bleeding (save ends)
+**1 Malice:** The shadow can teleport up to 6 squares, then can attempt
+to hide.
+
+👤 **Poison the Blade**
+
+| **-** | **Maneuver** |
+| --- | ---:|
+| **📏 Self** | **🎯 Self** |
+
+**Effect:** The shadow coats their weapon with poison. They gain an
+edge on their next strike, and any potency for that strike increases
+by 1.
+
+⭐️ **Exploit Opening**
+
+The shadow deals an extra 7 damage to any bleeding target.
+
+⭐️ **Rivalry**
+
+At the start of an encounter, the shadow chooses one creature
+within their line of effect. Both the shadow and the creature can
+add a d3 roll to power rolls they make against each other.
+
+####### Rival Talent
+
+| Humanoid, Rival | - | Level 5 | Elite Hexer | EV 28 |
+|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
+| **1M**<br>Size | **5**<br>Speed | **120**<br>Stamina | **2**<br>Stability | **6**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement | - | **-**<br>With Captain | **-**<br>Weaknesses |
+|  **0**<br>Might  | **0**<br>Agility |  **+3**<br>Reason  |  **0**<br>Intuition  |  **+1**<br>Presence  |
+
+🏹 **Overwhelming Rend (Signature Ability)**
+
+| **Psionic, Ranged, Strike, Telekinesis** | **Main action** |
+| --- | ---:|
+| **📏 Ranged 10** | **🎯 Two creatures or objects** |
+
+**Power Roll + 3:**
+
+- **≤11:** 9 psychic damage; push 2; M < 1 prone
+- **12-16:** 14 psychic damage; push 3; M < 2 prone
+- **17+:** 17 psychic damage; push 4; M < 3 prone
+
+🏹 **Disarrange Thoughts (2 Malice)**
+
+| **Psionic, Ranged, Telepathy** | **Maneuver** |
+| --- | ---:|
+| **📏 Ranged 10** | **🎯 One creature or object** |
+
+**Power Roll + 3:**
+
+- **≤11:** 6 psychic damage; R < 1 dazed (save ends)
+- **12-16:** 6 psychic damage; R < 2 dazed (save ends)
+- **17+:** 6 psychic damage; R < 3 dazed and slowed (save ends)
+
+❗️ **Precognitive Shift (1 Malice)**
+
+| **Psionic** | **Triggered action** |
+| --- | ---:|
+| **📏 Self** | **🎯 Self** |
+
+**Trigger:** A creature deals damage to the talent.
+
+**Effect:** The talent halves the damage and shifts up to 2 squares
+
+⭐️ **Rivalry**
+
+At the start of an encounter, the talent chooses one creature with-
+in their line of effect. Both the talent and the creature can add a d3
+roll to power rolls they make against each other.
+
+####### Rival Tactician
+
+| Humanoid, Rival | - | Level 5 | Elite Artillery | EV 28 |
+|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
+| **1M**<br>Size | **5**<br>Speed | **120**<br>Stamina | **2**<br>Stability | **7**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement | - | **-**<br>With Captain | **-**<br>Weaknesses |
+|  **+3**<br>Might  | **0**<br>Agility |  **+2**<br>Reason  |  **0**<br>Intuition  |  **+1**<br>Presence  |
+
+🏹 **Mark Targets (Signature Ability)**
+
+| **Ranged, Strike, Weapon** | **Main action** |
+| --- | ---:|
+| **📏 Ranged 10** | **🎯 Two creatures or objects** |
+
+**Power Roll + 3:**
+
+- **≤11:** 10 damage
+- **12-16:** 15 damage
+- **17+:** 18 damage
+**3 Malice:** Two allies within distance can use a signature ability
+against the same target.
+
+🏹 **Preserve and Protect (3 Malice)**
+
+| **Ranged, Strike, Weapon** | **Main action** |
+| --- | ---:|
+| **📏 Ranged 5** | **🎯 One creature or object** |
+
+**Power Roll + 3:**
+
+- **≤11:** 11 damage; M < 1 weakened (save ends)
+- **12-16:** 16 damage; M < 2 weakened (save ends)
+- **17+:** 21 damage; M < 3 weakened (save ends)
+
+**Effect:** One ally adjacent to the target regains 7 Stamina.
+
+❗️ **Take the Opening**
+
+| **Ranged** | **Triggered action** |
+| --- | ---:|
+| **📏 Ranged 10** | **🎯 The triggering enemy** |
+
+**Trigger:** An enemy within distance willingly moves.
+
+**Effect:** At any point during the movement, the tactician and one ally
+within distance can each make a free strike against the target.
+
+⭐️ **Rivalry**
+
+At the start of an encounter, the tactician chooses one creature
+within their line of effect. Both the tactician and the creature can
+add a d3 roll to power rolls they make against each other.
+239RivalsThe Black Iron Pact
+A secret society created to overthrow Capital's political and cultural
+structure, the Black Iron Pact draws its name from Ajax's sobriquet, the
+Iron Saint. Iron is a metal with deep symbolism to the tyrannical saint.
+The five most powerful members of the pact-the High Command
+formally lead the society and serve as its strike team. The identity
+and whereabouts of the Black Iron Pact's original founder are closely
+guarded secrets, known only to Ajax and the High Command.
+The pact's true numbers also remain a mystery, and many citizens work
+for them unknowingly. Such subterfuge ensures the pact's agents can't
+be traced back to the High Command.
+Goals
+The Black Iron Pact's primary goal is the conquest of Capital and the in-
+stallation of Ajax as its ruler and god. The pact's agents are true believers
+of Ajax's gospel, which seeks change through force and violence. Their
+evil belief is that humans are the true owners of this world, and as such, 
+only humans can join the Black Iron Pact, though the society employs
+nonhuman pawns when risk of capture or death is high. Additionally, many members of the pact-notably senior member
+Erasmus and his wife Avalla-openly sneer at the idea of guilds
+(essentially scorning everyone in the middle class), and they object to
+anyone but a human man holding public offic e , ownin g an y asset s , o
+even learning to read.Running the Black Iron Pact
+The Black Iron Pact is an example of a 5th-level rival party. You
+can use the following statblocks, modifying each rival with the
+human ancestry.
+Lord Erasmus Deseo: Rival Tactician
+Canon Athenodorus: Rival Conduit
+Cloak: Rival Shadow
+Lady Avalla Deseo: Rival Elementalist
+Qar, Master of Jackals: Rival Null
+
+####### Rival Conduit
+
+| Humanoid, Rival | - | Level 8 | Elite Support | EV 40 |
+|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
+| **1M**<br>Size | **5**<br>Speed | **200**<br>Stamina | **1**<br>Stability | **8**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement | - | **-**<br>With Captain | **-**<br>Weaknesses |
+|  **+3**<br>Might  | **0**<br>Agility |  **+1**<br>Reason  |  **+4**<br>Intuition  |  **+2**<br>Presence  |
+
+⚔️ **Celestial Furor (Signature Ability)**
+
+| **Magic, Melee, Ranged, Strike** | **Main action** |
+| --- | ---:|
+| **📏 Melee 1 or ranged 10** | **🎯 Two creatures or objects** |
+
+**Power Roll + 4:**
+
+- **≤11:** 12 holy damage; vertical slide 2
+- **12-16:** 17 holy damage; vertical slide 3
+- **17+:** 21 holy damage; vertical slide 4
+
+**Effect:** The conduit or one ally within distance regains Stamina equal
+to half the damage dealt.
+
+🏹 **Imbue with Power (3 Malice)**
+
+| **Magic, Ranged** | **Maneuver** |
+| --- | ---:|
+| **📏 Ranged 10** | **🎯 Self and five allie** |
+
+**Effect:** Each target has a double edge on their next strike.
+
+⭐️ **Unwavering Defender**
+
+Damage dealt to any ally adjacent to the conduit is halved.
+
+⭐️ **Rivalry**
+
+At the start of an encounter, the conduit chooses one creature
+within their line of effect. Both the conduit and the creature can
+add a d3 roll to power rolls they make against each other.
+
+####### Rival Elementalist
+
+| Humanoid, Rival | - | Level 8 | Elite Controller | EV 40 |
+|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
+| **1M**<br>Size | **5**<br>Speed | **180**<br>Stamina | **1**<br>Stability | **8**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement | - | **-**<br>With Captain | **-**<br>Weaknesses |
+|  **0**<br>Might  | **+2**<br>Agility |  **+4**<br>Reason  |  **+3**<br>Intuition  |  **0**<br>Presence  |
+
+🏹 **Verdant Rains (Signature Ability)**
+
+| **Green, Magic, Ranged, Strike** | **Main action** |
+| --- | ---:|
+| **📏 Ranged 10** | **🎯 Two creatures or objects** |
+
+**Power Roll + 4:**
+
+- **≤11:** 12 damage; slide 2; M < 2 4 acid damage
+- **12-16:** 17 damage; slide 3; M < 3 6 acid damage
+- **17+:** 21 damage; slide 4; M < 4 8 acid damage
+
+**Effect:** One ally within distance ends one condition on themself.
+
+🔳 **The Chasm Engulfs (4 Malice)**
+
+| **Area, Green, Magic, Ranged** | **Main action** |
+| --- | ---:|
+| **📏 5 cube within 10** | **🎯 Each enemy in the area** |
+
+**Power Roll + 4:**
+
+- **≤11:** 6 damage
+- **12-16:** 10 damage; restrained (EoT)
+- **17+:** 14 damage; restrained (save ends)
+
+**Effect:** The area is difficul t terrai n fo r enemie s unti l th e en d o f th
+encounter. Any enemy in the area has acid weakness 5.
+
+❗️ **Maw of the Abyss**
+
+| **Magic, Void** | **Triggered action** |
+| --- | ---:|
+| **📏 Self** | **🎯 Self** |
+
+**Trigger:** The elementalist takes damage. 
+
+**Effect:** The elementalist can teleport up to 4 squares. Each creature
+adjacent to the space they leave or appear in takes 4 corruption
+damage.
+
+⭐️ **Rivalry**
+
+At the start of an encounter, the elementalist chooses one creature
+within their line of effect. Both the elementalist and the creature
+can add a d3 roll to power rolls they make against each other.Rivals-3rd Echelon
+Rivals at the 3rd Echelon have been through quite a few adventures the
+heroes might not know anything about. Even if they' ve clashed with
+the heroes a few times in the past, there's something differen about
+the rivals now.
+241Rivals
+
+####### Rival Shadow
+
+| Humanoid, Rival | - | Level 8 | Elite Ambusher | EV 40 |
+|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
+| **1M**<br>Size | **7**<br>Speed | **200**<br>Stamina | **1**<br>Stability | **9**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement | - | **-**<br>With Captain | **-**<br>Weaknesses |
+|  **0**<br>Might  | **+4**<br>Agility |  **+2**<br>Reason  |  **0**<br>Intuition  |  **+3**<br>Presence  |
+
+🗡 **Assail and Serrate (Signature Ability)**
+
+| **Melee, Strike, Weapon** | **Main action** |
+| --- | ---:|
+| **📏 Melee 1** | **🎯 Two creatures or objects** |
+
+**Power Roll + 4:**
+
+- **≤11:** 13 damage; A < 2 bleeding (save ends)
+- **12-16:** 18 damage; A < 3 bleeding (save ends)
+- **17+:** 22 damage; A < 4 bleeding and weakened (save ends)
+**1 Malice:** The shadow can teleport up to 7 squares, then can attempt
+to hide.
+
+👤 **Poison the Blade**
+
+| **-** | **Maneuver** |
+| --- | ---:|
+| **📏 Self** | **🎯 Self** |
+
+**Effect:** The shadow coats their weapon with poison. They have a
+double edge on their next strike, and any potency for that strike
+increases by 2.
+
+⭐️ **Exploit Weakness**
+
+The shadow deals an extra 9 damage to any target affected by a
+condition.
+
+⭐️ **Rivalry**
+
+At the start of an encounter, the shadow chooses one creature
+within their line of effect. Both the shadow and the creature can
+add a d3 roll to power rolls they make against each other.
+
+####### Rival Null
+
+| Humanoid, Rival | - | Level 8 | Elite Harrier | EV 40 |
+|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
+| **1M**<br>Size | **7**<br>Speed | **200**<br>Stamina | **3**<br>Stability | **8**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement | - | **-**<br>With Captain | **-**<br>Weaknesses |
+|  **+2**<br>Might  | **+4**<br>Agility |  **+3**<br>Reason  |  **+4**<br>Intuition  |  **0**<br>Presence  |
+
+🗡 **Inertial Flow (Signature Ability)**
+
+| **Melee, Strike, Weapon** | **Main action** |
+| --- | ---:|
+| **📏 Melee 1** | **🎯 Two creatures or objects** |
+
+**Power Roll + 4:**
+
+- **≤11:** 12 damage; the null shifts up to 3 squares ; A < 2 8 damage
+- **12-16:** 17 damage; the null shifts up to 4 squares ; A < 3 13 damage
+- **17+:** 21 damage; the null shifts up to 5 squares ; A < 4 17 damage
+
+🗡 **Stun (3 Malice)**
+
+| **Melee, Psionic, Strike, Weapon** | **Maneuver** |
+| --- | ---:|
+| **📏 Melee 1** | **🎯 One creature or object** |
+
+**Power Roll + 4:**
+
+- **≤11:** 12 damage; R < 2 dazed (save ends)
+- **12-16:** 17 damage; R < 3 dazed (save ends)
+- **17+:** 21 damage; R < 4 dazed and restrained (save ends)
+
+⭐️ **Force Dampener**
+
+The first time each round that the null is targeted by a strike , it
+takes a bane and the null halves any damage from it.
+
+⭐️ **Rivalry**
+
+At the start of an encounter, the null chooses one creature within
+their line of effect. Both the null and the creature can add a d3 roll
+to power rolls they make against each other.
+
+####### Rival Fury
+
+| Humanoid, Rival | - | Level 8 | Elite Brute | EV 40 |
+|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
+| **1M**<br>Size | **5**<br>Speed | **220**<br>Stamina | **3**<br>Stability | **9**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement | - | **-**<br>With Captain | **-**<br>Weaknesses |
+|  **+4**<br>Might  | **+3**<br>Agility |  **0**<br>Reason  |  **+1**<br>Intuition  |  **+2**<br>Presence  |
+
+🗡 **Bonebreaker (Signature Ability)**
+
+| **Melee, Strike, Weapon** | **Main action** |
+| --- | ---:|
+| **📏 Melee 1** | **🎯 Two creatures or objects** |
+
+**Power Roll + 4:**
+
+- **≤11:** 13 damage; push 3
+- **12-16:** 18 damage; push 4
+- **17+:** 22 damage; push 5
+**3 Malice:** Each target who has M < 3 is bleeding and slowed (save
+ends).
+
+🗡 **Steelfist (3 Malice)**
+
+| **Melee, Strike, Weapon** | **Main action** |
+| --- | ---:|
+| **📏 Melee 1** | **🎯 One creature** |
+
+**Power Roll + 4:**
+
+- **≤11:** 15 damage; M < 3 grabbed
+- **12-16:** 21 damage; M < 4 grabbed
+- **17+:** 26 damage; M < 5 grabbed
+
+**Effect:** The target must be the fury's size or smaller. While the target
+is grabbed this way, the fury and their allies have a double edge on
+strikes against them.
+
+⭐️ **Rout**
+
+Once per turn, when the fury force moves a creature or object, 
+or shifts adjacent to a creature or object , they can use a signature
+ability that gains an edge against that creature or object.
+
+⭐️ **Rivalry**
+
+At the start of an encounter, the fury chooses one creature within
+their line of effect. Both the fury and the creature can add a d3 roll
+to power rolls they make against each other.
+
+####### Rival Talent
+
+| Humanoid, Rival | - | Level 8 | Elite Hexer | EV 40 |
+|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
+| **1M**<br>Size | **5**<br>Speed | **180**<br>Stamina | **2**<br>Stability | **8**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement | - | **-**<br>With Captain | **-**<br>Weaknesses |
+|  **0**<br>Might  | **0**<br>Agility |  **+4**<br>Reason  |  **0**<br>Intuition  |  **+1**<br>Presence  |
+
+🏹 **Control Synapses (Signature Ability)**
+
+| **Psionic, Ranged, Strike, Telekinesis** | **Main action** |
+| --- | ---:|
+| **📏 Ranged 10** | **🎯 Two creatures or objects** |
+
+**Power Roll + 4:**
+
+- **≤11:** 12 psychic damage
+- **12-16:** 17 psychic damage
+- **17+:** 21 psychic damage
+**3 Malice:** Each target shifts up to their speed and can make a free
+strike against one enemy of the talent's choice. The target can't be
+moved in a way that would harm them.
+
+🏹 **Disorientate (2 Malice)**
+
+| **Psionic, Ranged, Telepathy** | **Maneuver** |
+| --- | ---:|
+| **📏 Ranged 10** | **🎯 One creature or object** |
+
+**Power Roll + 4:**
+
+- **≤11:** 8 psychic damage; R < 2 dazed (save ends)
+- **12-16:** 8 psychic damage; R < 3 dazed and slowed (save ends)
+- **17+:** 8 psychic damage; R < 4 dazed and slowed (save ends)
+
+❗️ **Mind Requital (2 Malice)**
+
+| **Psionic** | **Triggered action** |
+| --- | ---:|
+| **📏 Self** | **🎯 Self** |
+
+**Trigger:** A creature deals damage to the talent.
+
+**Effect:** The talent halves the damage and shifts up to 2 squares. The
+triggering creature takes psychic damage equal to half the damage
+dealt.
+
+⭐️ **Rivalry**
+
+At the start of an encounter, the talent chooses one creature with-
+in their line of effect. Both the talent and the creature can add a d3
+roll to power rolls they make against each other.
+
+####### Rival Tactician
+
+| Humanoid, Rival | - | Level 8 | Elite Artillery | EV 40 |
+|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
+| **1M**<br>Size | **5**<br>Speed | **180**<br>Stamina | **2**<br>Stability | **9**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement | - | **-**<br>With Captain | **-**<br>Weaknesses |
+|  **+4**<br>Might  | **+1**<br>Agility |  **+3**<br>Reason  |  **0**<br>Intuition  |  **+2**<br>Presence  |
+
+🏹 **Command From the Back (Signature Ability)**
+
+| **Ranged, Strike, Weapon** | **Main action** |
+| --- | ---:|
+| **📏 Ranged 10** | **🎯 Two creatures or objects** |
+
+**Power Roll + 4:**
+
+- **≤11:** 13 damage
+- **12-16:** 18 damage; A < 3 prone
+- **17+:** 22 damage; A < 4 prone
+**4 Malice:** Two allies within distance move up to their speed and can
+use a signature ability.
+
+🏹 **Safeguard (3 Malice)**
+
+| **Ranged, Strike, Weapon** | **Main action** |
+| --- | ---:|
+| **📏 Ranged 10** | **🎯 One creature or object** |
+
+**Power Roll + 4:**
+
+- **≤11:** 15 damage; M < 2 weakened (save ends)
+- **12-16:** 21 damage; M < 3 weakened (save ends)
+- **17+:** 26 damage; M < 4 weakened (save ends)
+
+**Effect:** Two allies adjacent to the target each regain 7 Stamina.
+
+❗️ **Quickshot**
+
+| **Ranged** | **Triggered action** |
+| --- | ---:|
+| **📏 Ranged 10** | **🎯 The triggering enemy** |
+
+**Trigger:** An enemy within distance willingly moves.
+
+**Effect:** At any point during the movement, the tactician uses a signa-
+ture ability against the target.
+
+⭐️ **Rivalry**
+
+At the start of an encounter, the tactician chooses one creature
+within their line of effect. Both the tactician and the creature can
+add a d3 roll to power rolls they make against each other.
+243Rivals
+
+####### Rival Conduit
+
+| Humanoid, Rival | - | Level 10 | Elite Support | EV 48 |
+|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
+1M 52401 10
+Size SpeedStaminaStabilityFree Strike
+| **-**<br>Immunity | **-**<br>Movement | - | **-**<br>With Captain | **-**<br>Weaknesses |
+|  **+4**<br>Might  | **+1**<br>Agility |  **+1**<br>Reason  |  **+5**<br>Intuition  |  **+3**<br>Presence  |
+
+⚔️ **Sunder the Very Skies (Signature Ability)**
+
+| **Magic, Melee, Ranged, Strike** | **Main action** |
+| --- | ---:|
+| **📏 Melee 1 or ranged 10** | **🎯 Two creatures or objects** |
+
+**Power Roll + 5:**
+
+- **≤11:** 15 damage; vertical slide 3; M < 3 5 lightning damage
+- **12-16:** 20 damage; vertical slide 4; M < 4 7 lightning damage
+- **17+:** 24 damage; vertical slide 5; M < 5 9 lightning damage
+
+**Effect:** The conduit or one ally within distance regains Stamina equal
+to half the damage dealt.
+**2 Malice:** Two additional allies within distance regain the same
+amount of Stamina.
+
+🏹 **Empyrean Boon (5 Malice)**
+
+| **Magic, Ranged** | **Maneuver** |
+| --- | ---:|
+| **📏 Ranged 10** | **🎯 Self and five allie** |
+
+**Effect:** Each target has a double edge on their next strike, and that
+strike deals an extra 10 holy damage. Additionally, they can vertical
+slide each creature targeted by the strike up to 2 squares.
+
+⭐️ **Unwavering Defender**
+
+Damage dealt to any ally adjacent to the conduit is halved.
+
+⭐️ **Rivalry**
+
+At the start of an encounter, the conduit chooses one creature
+within their line of effect. Both the conduit and the creature can
+add a d3 roll to power rolls they make against each other.
+
+####### Rival Elementalist
+
+| Humanoid, Rival | - | Level 10 | Elite Controller | EV 48 |
+|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
+1M 52201 10
+Size SpeedStaminaStabilityFree Strike
+| **-**<br>Immunity | **-**<br>Movement | - | **-**<br>With Captain | **-**<br>Weaknesses |
+|  **+1**<br>Might  | **+3**<br>Agility |  **+5**<br>Reason  |  **+4**<br>Intuition  |  **+1**<br>Presence  |
+
+🏹 **Viridescent Storm (Signature Ability)**
+
+| **Green, Magic, Ranged, Strike** | **Main action** |
+| --- | ---:|
+| **📏 Ranged 10** | **🎯 Two creatures or objects** |
+
+**Power Roll + 5:**
+
+- **≤11:** 15 damage; slide 3; M < 3 5 acid damage
+- **12-16:** 20 damage; slide 4; M < 4 7 acid damage
+- **17+:** 24 damage; slide 5; M < 5 9 acid damage
+
+**Effect:** One ally within distance ends all conditions on themself.
+
+🔳 **The World Consumes (5 Malice)**
+
+| **Area, Green, Magic, Ranged** | **Main action** |
+| --- | ---:|
+| **📏 3 cube within 10** | **🎯 Each enemy in the area** |
+
+**Effect:** The area becomes overgrown with caustic vines until the end
+of the encounter. While in the area, any enemy has acid weakness 5
+and is slowed. Any enemy who ends their turn in the area and has
+m< 4 is restrained (save ends).
+
+❗️ **Breach of Nihility**
+
+| **Magic, Void** | **Triggered action** |
+| --- | ---:|
+| **📏 Self** | **🎯 Self** |
+
+**Trigger:** The elementalist takes damage.
+
+**Effect:** The elementalist can teleport up to 5 squares. Each creature
+adjacent to the space they leave or appear in takes 5 corruption
+damage.
+
+⭐️ **Rivalry**
+
+At the start of an encounter, the elementalist chooses one creature
+within their line of effect. Both the elementalist and the creature
+can add a d3 roll to power rolls they make against each other.Rivals-4th Echelon
+This is what peak performance looks like. Few bands of monsters can
+put up a fight with the heroes like the rivals can. Even if they somehow
+lose, the rivals will always find a way back to the heroes for a rematch
+
+####### Rival Shadow
+
+| Humanoid, Rival | - | Level 10 | Elite Ambusher | EV 48 |
+|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
+1M 72401 10
+Size SpeedStaminaStabilityFree Strike
+| **-**<br>Immunity | **-**<br>Movement | - | **-**<br>With Captain | **-**<br>Weaknesses |
+|  **0**<br>Might  | **+5**<br>Agility |  **+3**<br>Reason  |  **+2**<br>Intuition  |  **+4**<br>Presence  |
+
+🗡 **A Hush of Ash (Signature Ability)**
+
+| **Melee, Strike, Weapon** | **Main action** |
+| --- | ---:|
+| **📏 Melee 1** | **🎯 Two creatures or objects** |
+
+**Power Roll + 5:**
+
+**Power Roll + 5:**
+
+- **≤11:** 15 damage; A < 3 bleeding (save ends)
+- **12-16:** 21 damage; A < 4 bleeding (save ends)
+- **17+:** 25 damage; A < 5 bleeding (save ends)
+**1 Malice:** The shadow can teleport up to 10 squares, then can attempt
+to hide.
+
+👤 **Envenomed Steel**
+
+| **-** | **Maneuver** |
+| --- | ---:|
+| **📏 Self** | **🎯 Self** |
+
+**Effect:** The shadow coats their weapon with poison. They have a
+double edge on their next strike, any potency for that strike increases
+by 2, and if the target has M < 4, they are weakened (save ends).
+
+⭐️ **Exploit Weakness**
+
+The shadow deals an extra 10 damage to any target affected by a
+condition.
+
+⭐️ **Rivalry**
+
+At the start of an encounter, the shadow chooses one creature
+within their line of effect. Both the shadow and the creature can
+add a d3 roll to power rolls they make against each other.
+
+####### Rival Fury
+
+| Humanoid, Rival | - | Level 10 | Elite Brute | EV 48 |
+|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
+| **1M**<br>Size | **5**<br>Speed | **2603**<br>Stamina | **1**<br>Stability | **0**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement | - | **-**<br>With Captain | **-**<br>Weaknesses |
+|  **+5**<br>Might  | **+4**<br>Agility |  **0**<br>Reason  |  **+2**<br>Intuition  |  **+3**<br>Presence  |
+
+🗡 **Seismic Crush (Signature Ability)**
+
+| **Melee, Strike, Weapon** | **Main action** |
+| --- | ---:|
+| **📏 Melee 1** | **🎯 Two creatures or objects** |
+
+**Power Roll + 5:**
+
+- **≤11:** 15 damage; push 4
+- **12-16:** 21 damage; push 5
+- **17+:** 25 damage; push 6
+**2 Malice:** Each target who has M < 4 is bleeding and slowed (save
+ends). 
+
+🗡 **Death Grip (4 Malice)**
+
+| **Melee, Strike, Weapon** | **Main action** |
+| --- | ---:|
+| **📏 Melee 1** | **🎯 One creature** |
+
+**Power Roll + 5:**
+
+- **≤11:** 15 damage; M < 3 grabbed
+- **12-16:** 21 damage; M < 4 grabbed
+- **17+:** 25 damage; M < 5 grabbed
+
+**Effect:** The target must be the fury's size or smaller. While the target
+is grabbed this way, the fury and their allies have a double edge on
+strikes against them.
+
+⭐️ **Devastate**
+
+Once per turn, when the fury force moves a creature or object, 
+or shifts adjacent to a creature or object , they can use a signature
+ability against that creature or object that has a double edge.
+
+⭐️ **Rivalry**
+
+At the start of an encounter, the fury chooses one creature within
+their line of effect. Both the fury and the creature can add a d3 roll
+to power rolls they make against each other.
+
+####### Rival Null
+
+| Humanoid, Rival | - | Level 10 | Elite Harrier | EV 48 |
+|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
+| **1M**<br>Size | **7**<br>Speed | **2403**<br>Stamina | **1**<br>Stability | **0**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement | - | **-**<br>With Captain | **-**<br>Weaknesses |
+|  **+3**<br>Might  | **+5**<br>Agility |  **+4**<br>Reason  |  **+5**<br>Intuition  |  **0**<br>Presence  |
+
+🗡 **Kinetic Danse (Signature Ability)**
+
+| **Melee, Strike, Weapon** | **Main action** |
+| --- | ---:|
+| **📏 Melee 1** | **🎯 Two creatures or objects** |
+
+**Power Roll + 5:**
+
+- **≤11:** 15 damage; the null shifts up to 4 squares ; A < 3 10 damage
+- **12-16:** 20 damage; the null shifts up to 5 squares ; A < 4 15 damage
+- **17+:** 24 damage; the null shifts up to 6 squares ; A < 5 19 damage
+
+🗡 **Incapacitate (5 Malice)**
+
+| **Melee, Psionic, Strike, Weapon** | **Maneuver** |
+| --- | ---:|
+| **📏 Melee 1** | **🎯 Two creatures or objects** |
+
+**Power Roll + 5:**
+
+- **≤11:** 13 damage; R < 3 dazed and restrained (save ends)
+- **12-16:** 17 damage; R < 4 dazed and restrained (save ends)
+- **17+:** 20 damage; R < 5 dazed and restrained (save ends)
+
+⭐️ **Energy Conservation**
+
+The first time each round that the null is targeted by a strike , it
+takes a bane and the null halves the damage from it. The creature
+making the strike takes 10 damage.
+
+⭐️ **Rivalry**
+
+At the start of an encounter, the null chooses one creature within
+their line of effect. Both the null and the creature can add a d3 roll
+to power rolls they make against each other.
+245Rivals
+
+####### Rival Talent
+
+| Humanoid, Rival | - | Level 10 | Elite Hexer | EV 48 |
+|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
+| **1M**<br>Size | **5**<br>Speed | **2202**<br>Stamina | **1**<br>Stability | **0**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement | - | **-**<br>With Captain | **-**<br>Weaknesses |
+|  **0**<br>Might  | **0**<br>Agility |  **+5**<br>Reason  |  **0**<br>Intuition  |  **+1**<br>Presence  |
+
+🏹 **Override (Signature Ability)**
+
+| **Psionic, Ranged, Strike, Telekinesis** | **Main action** |
+| --- | ---:|
+| **📏 Ranged 10** | **🎯 Two creatures or objects** |
+
+**Power Roll + 5:**
+
+- **≤11:** 15 psychic damage
+- **12-16:** 20 psychic damage
+- **17+:** 24 psychic damage
+**4 Malice:** Each target moves up to their speed and can make a free
+strike against one enemy of the talent's choice. The target's move-
+ment can provoke opportunity attacks, but they can't otherwise be
+moved in a way that would harm them.
+
+🏹 **Steal Time (3 Malice)**
+
+| **Chronopathy, Psionic, Ranged** | **Maneuver** |
+| --- | ---:|
+| **📏 Ranged 10** | **🎯 One creature or object** |
+
+**Power Roll + 5:**
+
+- **≤11:** R < 3 slowed (save ends)
+- **12-16:** R < 4 restrained (save ends)
+- **17+:** R < 5 restrained (save ends)
+| **Effect** | **One ally within distance can use an additional main action** | on
+their next turn.
+
+❗️ **Psionic Retribution (2 Malice)**
+
+| **Psionic** | **Triggered action** |
+| --- | ---:|
+| **📏 Self; see below** | **🎯 Self** |
+
+**Trigger:** A creature deals damage to the talent.
+
+**Effect:** The talent halves the damage and shifts up to 2 squares. The
+triggering creature takes psychic damage equal to half the damage
+dealt and is pushed up to 5 squares.
+
+⭐️ **Rivalry**
+
+At the start of an encounter, the talent chooses one creature with-
+in their line of effect. Both the talent and the creature can add a d3
+roll to power rolls they make against each other.
+
+####### Rival Tactician
+
+| Humanoid, Rival | - | Level 10 | Elite Artillery | EV 48 |
+|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
+| **1M**<br>Size | **5**<br>Speed | **2202**<br>Stamina | **1**<br>Stability | **0**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement | - | **-**<br>With Captain | **-**<br>Weaknesses |
+|  **+5**<br>Might  | **+2**<br>Agility |  **+4**<br>Reason  |  **0**<br>Intuition  |  **+**<br>Presence  |
+
+🏹 **Forward Assault (Signature Ability)**
+
+| **Ranged, Strike, Weapon** | **Main action** |
+| --- | ---:|
+| **📏 Ranged 10** | **🎯 Two creatures or objects** |
+
+**Power Roll + 5:**
+
+- **≤11:** 15 damage
+- **12-16:** 21 damage; A < 4 prone and can't stand (EoT)
+- **17+:** 25 damage; prone; A < 5 can't stand (EoT)
+**5 Malice:** Two allies within distance move up to their speed and can
+use a signature ability that has a double edge.
+
+🔳 **Guardian From Afar (3 Malice)**
 
 | **Area, Ranged, Weapon** | **Main action** |
 | --- | ---:|
-| **📏 3 cube within 2** | **🎯 Each enemy in the area** |
+| **📏 3 cube within 10** | **🎯 One creature in the area** |
 
-**Power Roll + 2:**
+**Power Roll + 5:**
 
-- **≤11:** 4 damage, 1 sonic damage; R < 0 dazed (save ends)
-- **12-16:** 7 damage, 2 sonic damage; R < 1 dazed (save ends)
-- **17+:** 9 damage, 3 sonic damage; R < 2 dazed (save ends)
+- **≤11:** 10 damage; M < 3 weakened (save ends)
+- **12-16:** 16 damage; M < 4 weakened (save ends)
+- **17+:** 20 damage; M < 5 weakened (save ends)
 
-❇️ **Sandstorm 3 Malice**
+**Effect:** Each ally in the area regains 10 Stamina.
 
-| **Area** | **Maneuver** |
+❗️ **Battlefield Contro**
+
+| **Ranged** | **Triggered action** |
 | --- | ---:|
-| **📏 3 Burst** | **🎯 Special** |
+| **📏 Ranged 10** | **🎯 The triggering enemy** |
 
-**Effect:** The scyza kicks up a sandstorm, granting concealment to
-themself and any ally in the area until the end of the scyza's next
-turn. Each enemy in the area makes an Intuition test.
+**Trigger:** An enemy within distance willingly moves.
 
-- **≤11:** 10 damage; prone; slowed (EoT)
-- **12-16:** 7 damage; slowed (EoT)
-- **17+:** 4 damage
+**Effect:** At any point during the movement, the tactician and one ally
+within distance can use a signature ability against the target.
 
-❗️ **Brace and Break**
+⭐️ **Rivalry**
 
-| **-** | **Triggered action** |
-| --- | ---:|
-| **📏 Self** | **🎯 Self** |
+At the start of an encounter, the tactician chooses one creature
+within their line of effect. Both the tactician and the creature can
+add a d3 roll to power rolls they make against each other.
 
-**Trigger:** The scyza or an ally riding the scyza is targeted by an ability.
-
-**Effect:** Any damage dealt by the triggering ability is halved. If the
-creature or object who used the ability is within 3 squares of the
-scyza, the scyza can make a free strike against them.
-
-⭐️ **Terrible Beast**
-
-The scyza deals an extra 6 damage with abilities used against
-objects.
-
-⭐️ **War Harness**
-
-While riding the scyza, three size 1 allies can occupy the same
-space.
