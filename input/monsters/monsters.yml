@@ -538,3 +538,15 @@ sections:
     xpath: "//section[@id='monsters']//section[@id='count-rhodar-von-glauer']//section[@class='level9']"
     file_dpath: 'Monsters/Count Rhodar Von Glauer/Features'
     type: 'monster/feature'
+
+  - header_path: monsters/lich
+    xpath: "//section[@id='monsters']//section[@id='lich']"
+    file_dpath: 'Monsters/Lich'
+    type: 'monster/section'
+  - header_path: monsters/lich
+    xpath: "//section[@id='monsters']//section[@id='lich']//section[@class='level7']"
+    file_dpath: 'Monsters/Lich/Statblocks'
+  - header_path: monsters/lich
+    xpath: "//section[@id='monsters']//section[@id='lich']//section[@class='level9']"
+    file_dpath: 'Monsters/Lich/Features'
+    type: 'monster/feature'
