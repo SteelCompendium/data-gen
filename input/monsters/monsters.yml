@@ -514,3 +514,15 @@ sections:
     xpath: "//section[@id='monsters']//section[@id='trolls']//section[@class='level9']"
     file_dpath: 'Monsters/Trolls/Features'
     type: 'monster/feature'
+
+  - header_path: monsters/undead
+    xpath: "//section[@id='monsters']//section[@id='undead-1']"
+    file_dpath: 'Monsters/Undead'
+    type: 'monster/section'
+  - header_path: monsters/undead
+    xpath: "//section[@id='monsters']//section[@id='undead-1']//section[@class='level7']"
+    file_dpath: 'Monsters/Undead/Statblocks'
+  - header_path: monsters/undead
+    xpath: "//section[@id='monsters']//section[@id='undead-1']//section[@class='level9']"
+    file_dpath: 'Monsters/Undead/Features'
+    type: 'monster/feature'
