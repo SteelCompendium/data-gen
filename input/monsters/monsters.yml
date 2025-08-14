@@ -490,3 +490,15 @@ sections:
     xpath: "//section[@id='monsters']//section[@id='shambling-mound']//section[@class='level9']"
     file_dpath: 'Monsters/Shambling Mound/Features'
     type: 'monster/feature'
+
+  - header_path: monsters/time-raiders
+    xpath: "//section[@id='monsters']//section[@id='time-raiders']"
+    file_dpath: 'Monsters/Time Raiders'
+    type: 'monster/section'
+  - header_path: monsters/time-raiders
+    xpath: "//section[@id='monsters']//section[@id='time-raiders']//section[@class='level7']"
+    file_dpath: 'Monsters/Time Raiders/Statblocks'
+  - header_path: monsters/time-raiders
+    xpath: "//section[@id='monsters']//section[@id='time-raiders']//section[@class='level9']"
+    file_dpath: 'Monsters/Time Raiders/Features'
+    type: 'monster/feature'

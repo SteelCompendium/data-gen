@@ -1,58 +1,45 @@
-## Time Raiders
+# TROLLS
 
-Genetic rebels, the space punks known as the time raiders (called the *kuran'zoi* among themselves) scour the Sea of Stars, the Sea Between Worlds, for heavily laden ships of any type. But they prefer the ships of UNISOL and other empires, for they love raiding the frigates of powerful governments who think their money and imperious nature can buy security.
+Ravenous trolls rampage through the wild to quell their fathomless hunger, leaving only destruction in their wake. Tall and gangly, they have mottled green skin covered by a mane of matted hair that runs down their neck and back. In many ways, they resemble massive humanoids, but their exaggerated features belie this comparison. A troll's lower jaw hangs unhinged and distended, and their long arms end in claws that drag along the ground as they walk.
 
-### Veterans of the Psychic Wars
+# Hypermetabolism
 
-Thousands of years ago, the synlirii-those powerful and evil psionic horrors more commonly known as voiceless talkers-created the kuran'zoi as soldiers. But as the synlirii experimented with and enhanced these warriors' psionic potential, the kuran'zoi came to understand the true nature of their progenitors. They rebelled against the synlirii and fled to the Sea of Stars, becoming nomads of the timescape.
+A troll's constant hunger and aggression beget a life of violence. Like a grotesque miracle, they quickly assimilate consumed flesh into themselves to regenerate their body. Some scholars think this extreme metabolic process is the source of their hunger, but none know for certain which came first.
 
-### Hardened-Vision Hexapods
+# Phases of Destruction
 
-Kuran'zoi possess resilient ocular sensors that allow them to see in the dark. Knowing these sensors would also defend them against the hardlight storms of the Astral Sea, the escaping kuran'zoi chose the Sea of Stars as their home. They thrive where the winds of limbo roar.
+Fortunately for the ecosystems they inhabit, trolls can't be active all the time. Their natural behavior is to hunt relentlessly for a few days, then return to their dens to rest for as much as a week. Patient troll hunters can wait for this torpor and catch their quarry by surprise-though the cost of waiting can be high thanks to the damage a troll might do in the meantime.
 
-Time raiders also have two sets of arms, allowing them to wield melee weapons at the same time as ranged weapons. A single well-trained kuran'zoi is like a squad unto themself.
+# Strange Mutations
 
-### Psi-Tech
+Trolls prefer to prey upon humanoids and animals, but stories tell of them feeding on fetid demons and undead, assimilating those creatures' flesh to magnificent and horrifying effect. A troll with loose hanging skin, curling nails, or exposed bone might be in better health than their appearance would suggest.
 
-Like their synlirii foes, time raiders travel on mindships and wield psionic weapons and tools that only their people can activate. Many kuran'zoi specialize in melee weapons that psionically devastate enemies, but time raider vertexes also learn to pilot enormous suits of psionic armor that empower their allies.
+# Limbjumbles
 
-### Genre Raiders
+When a suitably large piece of a troll is torn off in battle, it does its very best to keep on living. Deep-seated survival instinct goes into overdrive, causing the detached piece to sprout unthinkable assortments of malformed arms and legs. Though these limbjumbles are ultimately short-lived, they can often be found tumbling awkwardly behind living trolls.
 
-The moniker "time raider" is a bit of a misnomer. Because they are pirates of the upper worlds, whenever a time raider hunting party arrives in Orden the locals assume these must be warriors from the future, wielding marvelous weapons of light that hit as hard as steel.
+### **Mutating Your Trolls**
 
-### Leave a Few Alive
+At the director's discretion, a troll can mutate after consuming the flesh of any creature and gain some of their damage immunities, traits, abilities, and movement options. For instance, a troll who devours the carcass of a dead draconian might grow wings and gain their signature ability!
 
-Time raider pirates plunder the vessels they target, but allow just enough of the crew to survive so the ship can make it back home. Kuran'zoi pirate captains often remind their crews: "Leave the sheep alive. Next year, they'll return with a new coat of wool for us to shear."
+Be aware that this can increase the difficulty category of an encounter while one or more of these mutated trolls are present-especially if their mutations enable them to deal more damage than normal or grant them an acid or fire damage immunity.
 
-### Creatures Outside Time
+# Troll Languages
 
-While in the Sea of Stars, time raiders and other creatures don't age. As a result, many living kuran'zoi recall the Psychic Wars. They carry the lessons learned from millennia of conflict with the synlirii into new battles with devastating effect, using mindships to launch attacks on other planes and appearing exactly where they want to. However, this knowledge serves them far beyond war. Time raiders raise their young in ruined citadels and similar strongholds on obscure worlds, keeping their creches secret and protected.
+Most trolls speak High Kuric or Variac, while a few also know Caelian. Trolls are notably difficult to negotiate with unless heroes can provide more appetizing food than themselves.
 
-### Time Raider Languages
+### **Troll Malice Malice Features**
 
-Most time raiders speak Caelian and Voll. Because of the number of worlds they've visited, many time raiders have their speech peppered with misplaced tenses and strange references.
+At the start of any troll's turn, you can spend Malice to activate one of the following features.
 
-######### Time Raider Malice
+🔳 **Foul Spew 3 Malice** One troll acting this turn spews out a half-digested meal in a 5 x 1 line within 1 square of them. Each troll in the area regains 3 Stamina. Each enemy in the area makes a **Might test**.
 
-At the start of any time raider's turn, you can spend Malice to activate one of the following features.
+- **≤11:** 12 acid damage; dazed (EoT)
+- **12-16:** 10 acid damage; weakened (EoT)
+- **17+:** 6 acid damage
 
-> 🔳 **Gravity Well (3 Malice)**
-> 
-> | **Area, Psionic, Ranged, Weapon** |   **Maneuver** |
-> |-----------------------------------|---------------:|
-> | **📏 5 cube within 3**            | **🎯 Special** |
-> 
-> **Effect:** A time raider acting this turn activates a gravity well in the area. The gravity well sits at the center of the cube and lasts until the end of the encounter, or until a creature adjacent to the well uses a maneuver to deactivate it. The area is difficult terrain for enemies. Any enemy who ends their turn in the area is pulled up to 4 squares toward the well.
+🗡 **Emergency Meal 5 Malice** Each troll in the encounter can make a free strike against a creature adjacent to them, and regains Stamina equal to the damage dealt.
 
-> ⭐️ **Recall Module (5 Malice)**
-> 
-> Until the end of the round, each time raider gains a +3 bonus to speed, and can teleport up to their speed as a move action.
+❇️ **Bloody Banquet 7 Malice** Each winded troll in the encounter disgorges the contents of their stomach onto the ground around them, creating a 1 burst of foul vomitus that lasts until the end of the encounter. Each non-troll who enters this area for the first time in a round or starts their turn there takes 5 acid damage. Each troll in the area has a double edge on power rolls.
 
-> 🌀 **Psi-Cage (10 Malice)**
-> 
-> All time raiders in the encounter collectively create a psionic field over the encounter map, which lasts until the first time raider with the highest Stamina maximum drops to 0 Stamina or chooses to end the field (no action required). While the field is up, each non-time raider on the map makes a **Reason test** against this psionic effect at the start of each round.
-> 
-> - **≤11:** 10 psychic damage; slowed (EoT)
-> - **12-16:** 7 psychic damage; slowed (EoT)
-> - **17+:** No effect.
-                                                
+# Draw Steel
