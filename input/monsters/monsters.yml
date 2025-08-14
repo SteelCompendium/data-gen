@@ -421,3 +421,18 @@ sections:
     xpath: "//section[@id='monsters']//section[@id='olothec']//section[@class='level9']"
     file_dpath: 'Monsters/Olothec/Features'
     type: 'monster/feature'
+
+
+  - header_path: monsters/orcs
+    xpath: "//section[@id='monsters']//section[@id='orcs']"
+    file_dpath: 'Monsters/Orcs'
+    type: 'monster/section'
+  - header_path: monsters/orcs
+    xpath: "//section[@id='monsters']//section[@id='orcs']//section[@class='level7']"
+    file_dpath: 'Monsters/Orcs/Statblocks'
+  - header_path: monsters/orcs
+    xpath: "//section[@id='monsters']//section[@id='orcs']//section[@class='level9']"
+    file_dpath: 'Monsters/Orcs/Features'
+    type: 'monster/feature'
+
+
