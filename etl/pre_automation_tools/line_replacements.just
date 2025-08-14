@@ -44,6 +44,8 @@ run input_md_path output_md_path:
 
     #whitespace
     text = re.sub( r' +', r' ', text, flags=re.MULTILINE)
+    text = re.sub( r' \. ', r'. ', text, flags=re.MULTILINE)
+    text = re.sub( r' , ', r', ', text, flags=re.MULTILINE)
     # bullets
     text = re.sub( r'¥ ', r'', text, flags=re.MULTILINE)
     text = re.sub( r'¥', r'', text, flags=re.MULTILINE)
@@ -136,7 +138,7 @@ run input_md_path output_md_path:
     text = re.sub( r'^\#* ?Power Roll \+ ([^\*]*) *\** *\:\**', r'\n\n**Power Roll + \1:**', text, flags=re.MULTILINE)
 
     # Malice
-    text = re.sub( r'^\**(\d+) Malice\**\:\**\s*', r'\n**\1 Malice:** ', text, flags=re.MULTILINE)
+    text = re.sub( r'^\**(\d+\+) Malice\**\:\**\s*', r'\n**\1 Malice:** ', text, flags=re.MULTILINE)
 
     # power roll tiers
     text = re.sub( r'\s*\-? ?á ?', r'\n\n- **≤11:** ', text, flags=re.MULTILINE)
@@ -155,6 +157,8 @@ run input_md_path output_md_path:
     text = re.sub( r'^\**Special\**\:\**', r'\n**Special:**', text, flags=re.MULTILINE)
     text = re.sub( r'^\**Effect\**\:\**', r'\n**Effect:**', text, flags=re.MULTILINE)
     text = re.sub( r'^\**Effect\**\:?\** ([A-Z])', r'\n**Effect:** \1', text, flags=re.MULTILINE)
+    text = re.sub( r'^\**End Effect\**\:?\** ([A-Z])', r'\n\n**End Effect:** \1', text, flags=re.MULTILINE)
+    text = re.sub( r'^\**Solo Turns\**\:?\** ([A-Z])', r'\n\n**Solo Turns:** \1', text, flags=re.MULTILINE)
 
     # image text
     text = re.sub( r'Image\: [^\|]*icon ', r'', text, flags=re.MULTILINE)

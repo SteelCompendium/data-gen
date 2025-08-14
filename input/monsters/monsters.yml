@@ -479,4 +479,14 @@ sections:
     file_dpath: 'Monsters/Rivals/4th Echelon/Features'
     type: 'monster/feature'
 
-
+  - header_path: monsters/shambling-mound
+    xpath: "//section[@id='monsters']//section[@id='shambling-mound']"
+    file_dpath: 'Monsters/Shambling Mound'
+    type: 'monster/section'
+  - header_path: monsters/shambling-mound
+    xpath: "//section[@id='monsters']//section[@id='shambling-mound']//section[@class='level7']"
+    file_dpath: 'Monsters/Shambling Mound/Statblocks'
+  - header_path: monsters/shambling-mound
+    xpath: "//section[@id='monsters']//section[@id='shambling-mound']//section[@class='level9']"
+    file_dpath: 'Monsters/Shambling Mound/Features'
+    type: 'monster/feature'
