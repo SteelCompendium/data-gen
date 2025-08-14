@@ -1,55 +1,124 @@
-## Minotaurs
+## Ogres
 
-The fearsome minotaur is a study in contrasts. Their imposing humanoid body is muscular with patches of thick hair. Their head is that of a massive horned bull, and their soft eyes convey a soulful intelligence mingled with smoldering intensity.
+Massive and bull-necked with bulging muscle and flesh, most ogres indulge their every impulse because few can stop them. Though small for giants, ogres outweigh and tower over humanoids. Most live in the wild where they can create their own rules and ways of life.
 
-### Primal Rage
+### Extreme Emotions
 
-Minotaurs burn with fury. Some constantly desire to unleash this destructive energy on the world, and they attack anyone or anything that crosses their path. Others make it a point of pride to control their rage, only fighting when survival demands it. Regardless, once combat begins, minotaurs relish charging at foes with their great horns. In the heat of battle, a minotaur charges from one foe to the next, only retreating if victory is impossible.
+Most ogres experience emotions at their extremes. Rarely are they simply bemused or cross, and one is more likely to find an ogre leaping with ecstatic joy over a trivial victory or screaming with murderous rage over everyday frustrations. These heightened feelings drive many ogres down selfish paths, and some take whatever they want from anyone too weak to protest. Other ogres can be manipulated into working for evil creatures who promise to meet their heart's desire, be it food, riches, or friendship.
 
-### Labyrinthine Origins
+Ogres who embrace good often dedicate themselves to inspiring causes, letting their emotions fuel their passion and dedication for protecting their chosen people or place.
 
-The first minotaur was once the human warrior Thesia "The Bull" Danaria, who dared challenge the Beast Lords of Kham. When her revolution was crushed, the Lords of Kham used their beastmagics to twist Thesia's mortal body into a human-bull hybrid prone to fits of violent rage. The Beast Lords placed this minotaur at the center of a vast labyrinth and sent captured rebels to attack the monster. Many fell to Thesia's anger-until a prisoner named Velathri took a chance, speaking to the minotaur instead of brandishing steel. He befriended Thesia, and in retribution, the Beast Lords made him a minotaur as well. This act was their undoing, for Thesia and Velathri fell in love.
+### Savory Stories
 
-New minotaurs were born, and decades later, hundreds charged out of the maze together. These minotaurs reduced Kham to ruins, then they spread far and wide, fearing reprisal from neighboring lands. Even today, many minotaurs shun civilization, preferring to live in winding canyons, twisting ruins, bewildering dungeons, or other labyrinthine terrain where they can continue to hunt. However, small numbers of minotaurs can be found in nearly any terrain or settlement.
+Some ogres speak of a time when they shared vast wealth and riches, great homes made of hewn stone, and sumptuous feasts. These stories always end tragically, each with a different villain-from deceptive mages to talking cats-swindling the ogres of what is rightfully theirs. The truth of such legends remains unknown, but many cruel ogres use them as an excuse for their selfish indulgences.
 
-### Deep Bonds
+### Aristocracy of Bullies
 
-Even evil minotaurs can be fiercely loyal friends, gladly charging into certain death for those they trust. These chosen friends never suffer the creature's ire-but gods help them if they betray the minotaur.
+When wicked ogres gather more food than they can stomach or riches than they can spend, they use the excess to tempt their kin into working for them. These petty rulers make other ogres grovel at their feet for table scraps, then send them out into the world to steal more. Many ogre communities form around these arrogant aristocrats-but few such leaders die of old age, as the ambition and emotions of their subjects bring about violent ends.
 
-### Minotaur Languages
+### Cyclops: Ogre Progenitor
 
-Most minotaurs speak their own dialect of Khamish.
+Ogres originally descended from the cyclops, an old-world giant with a single eye whose kind still roam through remote canyons and valleys. These behemoths stand heads above the ogres and are twice as destructive once they've spotted their prey. But while their binocular cousins have gone on to become successful hunters and live for themselves, the cyclops is a scavenger hindered by their poor eyesight. Most cyclopses are eager to work for and defend powerful warlords or wealthy ogres, as long as they have easy access to food and shelter.
 
-### Minotaur Malice
+Rumor has it that a cyclops can emit a mile-long energy ray from their eye. However, focusing such power is nearly impossible when their vision is usually too irritated and clouded by dirt.
 
-At the start of any minotaur's turn, you can spend Malice to activate one of the following features.
+### Ogre Languages
 
-> 👤 **Bull Rush (3 Malice)** 
+Most ogres speak Caelian and High Kuric.
+
+######### Ogre Malice
+
+At the start of any ogre's turn, you can spend Malice to activate one of the following features.
+
+> ❇️ **Shockwave (3 Malice)**
 > 
-> For each 3 Malice spent, one minotaur acting this turn gains a +4 bonus to speed and ignores difficult terrain until the start of their next turn.
-
-> 👤 **Cut the... Nonsense! (5 Malice)**
+> One ogre acting this turn jumps and lands on their rear, causing a 3 burst shockwave. Each size 1 creature in the area makes a **Might test** or **Agility test**.
 > 
-> One minotaur acting this turn halves any damage they take, and can use the Knockback maneuver as a free triggered action whenever an enemy comes adjacent to them, all until the start of their next turn.
+> - **≤11:** 5 damage; vertical push 3
+> - **12-16:** 4 damage; vertical push 2
+> - **17+:** Push 1
 
-> ❇️ **Bullseye (7 Malice)** 
+> 🌀 **Bully (5 Malice)** 
 > 
-> All minotaurs in the encounter fill the area around them with psychic impressions of feeling lost and isolated. Each enemy within 5 squares of a minotaur is teleported up to 5 squares and makes an **Intuition test**.
+> Each ogre in the encounter shifts up to their speed and can make a free strike. If they can, they gang up on the same target rather than picking different targets.
+
+> ⭐️ **Rampage (7 Malice)** 
 > 
-> - **≤11:** The target has line of effect only within 3 squares and is frightened of all minotaurs (save ends).
-> - **12-16:** The target has line of effect only within 3 squares (EoT). 
-> - **17+:** No effect.
+> Until the end of the round, each ogre has damage immunity 5 and deals an extra 5 damage with abilities, and heroic abilities that target any ogre have their Heroic Resource cost reduced by 1 (to a minimum of 1).
 
+####### Ogre Goon
 
-####### Minotaur
+|    Giant, Ogre    |         -         |      Level 2       |      Elite Brute      |        EV 16         |
+|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
+|   **2**<br>Size   |  **5**<br>Speed   | **100**<br>Stamina |  **4**<br>Stability   | **5**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+|  **+2**<br>Might  | **0**<br>Agility  |  **-1**<br>Reason  |  **0**<br>Intuition   |  **-1**<br>Presence  |
 
-| Accursed, Humanoid, Minotaur |         -         |      Level 3       |     Elite Harrier     |        EV 20         |
-|:----------------------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|        **2**<br>Size         |  **8**<br>Speed   | **100**<br>Stamina |  **2**<br>Stability   | **5**<br>Free Strike |
-|      **-**<br>Immunity       | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
-|       **+2**<br>Might        | **+2**<br>Agility |  **0**<br>Reason   |  **+1**<br>Intuition  |  **-1**<br>Presence  |
+> 🗡 **Club Swing (Signature Ability)**
+> 
+> | **Melee, Strike, Weapon** |                 **Main action** |
+> |---------------------------|--------------------------------:|
+> | **📏 Melee 2**            | **🎯 Two creatures or objects** |
+> 
+> **Power Roll + 2:**
+> 
+> - **≤11:** 7 damage; push 2
+> - **12-16:** 11 damage; push 4
+> - **17+:** 14 damage; push 6, prone
+> 
+> **Effect:** Any target who takes damage from this forced movement takes an extra 4 damage. 
 
-> 🗡 **Flail and Blade (Signature Ability)**
+> 🗡 **Grabby Hand (1 Malice)**
+> 
+> | **Melee, Strike, Weapon** |                  **Maneuver** |
+> |---------------------------|------------------------------:|
+> | **📏 Melee 1**            | **🎯 One creature or object** |
+> 
+> **Power Roll + 2:**
+> 
+> - **≤11:** 7 damage
+> - **12-16:** 11 damage; grabbed
+> - **17+:** 14 damage; grabbed
+> 
+> **Effect:** A target grabbed this way takes a bane on the Escape Grab maneuver.
+
+> 🔳 **People Bowling (3 Malice)**
+> 
+> | **Area, Weapon**           |                                **Maneuver** |
+> |----------------------------|--------------------------------------------:|
+> | **📏 6 x 1 line within 1** | **🎯 Each creature and object in the area** |
+> 
+> **Effect:** The goon must have a size 1 creature or object grabbed, which they hurl across the area, ending the grab. The hurled creature or object is targeted by the ability, and lands in the last square of the line or the nearest unoccupied square of the goon's choice.
+>                      
+> **Power Roll + 2:**
+> 
+> - **≤11:** 5 damage
+> - **12-16:** 9 damage
+> - **17+:** 12 damage; prone
+
+> ❗️ **Swat the Fly**
+> 
+> | **Melee**      |                     **Triggered action** |
+> |----------------|-----------------------------------------:|
+> | **📏 Melee 1** | **🎯 The triggering creature or object** |
+> 
+> **Trigger:** A creature or object within distance moves or shifts away from the goon.
+> 
+> **Effect:** The goon slides the target up to 5 squares
+
+> ⭐️ **Defiant Ange**
+> 
+> While winded, the goon has damage immunity 2.
+
+####### Ogre Juggernaut
+
+|    Giant, Ogre    |         -         |      Level 2      |     Elite Harrier     |        EV 16         |
+|:-----------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
+|   **2**<br>Size   |  **6**<br>Speed   | **80**<br>Stamina |  **2**<br>Stability   | **5**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|  **+2**<br>Might  | **+1**<br>Agility | **-1**<br>Reason  |  **0**<br>Intuition   |  **-1**<br>Presence  |
+
+> 🗡 **Pitchfork Catapult (Signature Ability)**
 > 
 > | **Charge, Melee, Strike, Weapon** |                 **Main action** |
 > |-----------------------------------|--------------------------------:|
@@ -57,71 +126,29 @@ At the start of any minotaur's turn, you can spend Malice to activate one of the
 > 
 > **Power Roll + 2:**
 > 
-> - **≤11:** 7 damage; push 1
-> - **12-16:** 11 damage; push 2
-> - **17+:** 14 damage; push 3
+> - **≤11:** 7 damage
+> - **12-16:** 10 damage; A < 1 vertical push 2
+> - **17+:** 13 damage; A < 2 vertical slide 3
 > 
-> **Effect:** The minotaur shifts up to 3 squares
+> **1 Malice:** Each target who has M < 1 is bleeding (save ends). 
 
-> 👤 **Primal Bay (3 Malice)**
+> ❇️ **Earth-Breaking Jump**
 > 
-> | **-**       | **Main action** |
-> |-------------|----------------:|
-> | **📏 Self** |     **🎯 Self** |
+> | **Area, Weapon** |                  **Main action** |
+> |------------------|---------------------------------:|
+> | **📏 3 burst**   | **🎯 Each creature in the area** |
 > 
-> **Effect:** Until the end of their next turn, the minotaur has damage immunity 2 and deals an extra 5 damage with strikes. On their next turn, the minotaur can use one additional maneuver.
-
-> 🗡 **Goring Horns (5 Malice)**
-> 
-> | **Charge, Melee, Strike, Weapon** |                  **Maneuver** |
-> |-----------------------------------|------------------------------:|
-> | **📏 Melee 2**                    | **🎯 One creature or object** |
-> 
-> - **≤11:** 5 damage; I < 0 dazed (save ends)
-> - **12-16:** 8 damage; I < 1 dazed (save ends)
-> - **17+:** 9 damage; I < 2 dazed (save ends)
-> 
-> **Effect:** If this ability is used as part of the Charge main action, its potency increases by 1.
-
-> ❗️ **Retaliatory Strike**
-> 
-> | **Ranged**      |           **Triggered action** |
-> |-----------------|-------------------------------:|
-> | **📏 Ranged 8** | **🎯 The triggering creature** |
-> 
-> **Trigger:** A creature within distance deals damage to the minotaur.
-> 
-> **Effect:** The minotaur uses theCharge main action and either Flail and Blade or Goring Horns against the target.
-
-> ⭐️ **Minotaur Sense**
-> 
-> The minotaur can't obtain less than a tier 2 outcome when making tests to navigate, search, or seek.
-
-####### Minotaur Sunderer
-
-| Accursed, Humanoid, Minotaur |         -         |      Level 3       |      Elite Brute      |        EV 20         |
-|:----------------------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|        **2**<br>Size         |  **6**<br>Speed   | **120**<br>Stamina |  **2**<br>Stability   | **6**<br>Free Strike |
-|      **-**<br>Immunity       | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
-|       **+2**<br>Might        | **+1**<br>Agility |  **0**<br>Reason   |  **+2**<br>Intuition  |  **-1**<br>Presence  |
-
-> 🗡 **Spiked Maul (Signature Ability)**
-> 
-> | **Charge, Melee, Strike, Weapon** |                 **Main action** |
-> |-----------------------------------|--------------------------------:|
-> | **📏 Melee 2**                    | **🎯 Two creatures or objects** |
+> **Effect:** The juggernaut jumps up to 6 squares before using this ability.
 > 
 > **Power Roll + 2:**
 > 
-> - **≤11:** 8 damage; pull 1
-> - **12-16:** 12 damage; pull 2
-> - **17+:** 15 damage; pull 3
-> 
-> **Effect:** A target pulled adjacent to the sunderer is automatically grabbed. 
+> - **≤11:** 4 damage
+> - **12-16:** 6 damage; push 2; M < 1 prone
+> - **17+:** 9 damage; push 4; M < 2 prone
 
-> ❇️ **Fearsome Bay (5 Malice)**
+> ❇️ **Horrible Bellow (2 Malice)**
 > 
-> | **Area**       |               **Main action** |
+> | **Area**       |                  **Maneuver** |
 > |----------------|------------------------------:|
 > | **📏 3 burst** | **🎯 Each enemy in the area** |
 > 
@@ -129,109 +156,117 @@ At the start of any minotaur's turn, you can spend Malice to activate one of the
 > - **12-16:** I < 1 frightened (save ends)
 > - **17+:** I < 2 frightened (save ends)
 > 
-> **Effect:** Until the end of their next turn, the minotaur has damage immunity 2 and deals an extra 5 damage with strikes.
+> **Effect:** While a target is frightened this way, any ogre gains an edge on strikes against them.
 
-> 🗡 **Disemboweling Horns (3 Malice)**
+> ❗️ **Hrraaaaaagh!**
 > 
-> | **Charge, Melee, Strike, Weapon** |        **Maneuver** |
-> |-----------------------------------|--------------------:|
-> | **📏 Melee 2**                    | **🎯 One creature** |
+> | **ree triggered action** |       **-** |
+> |--------------------------|------------:|
+> | **📏 Self**              | **🎯 Self** |
 > 
-> **Special:** The target must be grabbed by the sunderer.
+> **Trigger:** The juggernaut takes damage.
 > 
-> - **≤11:** 5 damage; M < 0 bleeding (save ends)
-> - **12-16:** 8 damage; M < 1 bleeding (save ends)
-> - **17+:** 9 damage; M < 2 bleeding (save ends)
-> 
-> **Effect:** While bleeding this way, the target takes 1d6 damage at the start of each of their turns.
+> **Effect:** The juggernaut moves up to their speed and can make a free strike.
 
-> ❗️ **Retaliatory Strike**
+> ⭐️ **Destructive Path**
 > 
-> | **Ranged**      |           **Triggered action** |
-> |-----------------|-------------------------------:|
-> | **📏 Ranged 6** | **🎯 The triggering creature** |
-> 
-> **Trigger:** A creature within distance deals damage to the sunderer.
-> 
-> **Effect:** The sunderer uses the Charge main action and Spiked Maul against the target.
+> The juggernaut automatically destroys any mundane size 1 objects in their path when they move or are forced moved. They can break through any mundane wall made of wood, stone, or a similarly sturdy material this way as long as the wall is 2 squares thick or less.
 
-> ⭐️ **Minotaur Sense**
+> ⭐️ **Defiant Ange**
 > 
-> The sunderer can't obtain less than a tier 2 outcome when making tests to navigate, search, or seek.
- 
+> While winded, the juggernaut has damage immunity 2.
 
-####### Minotaur Bully
+###### Ogre Lairs
 
-| Accursed, Humanoid, Minotaur |         -         |      Level 8      |                  Minion Brute                  | EV 10 for four minions |
-|:----------------------------:|:-----------------:|:-----------------:|:----------------------------------------------:|:----------------------:|
-|        **2**<br>Size         |  **6**<br>Speed   | **14**<br>Stamina |               **2**<br>Stability               |  **4**<br>Free Strike  |
-|      **-**<br>Immunity       | **-**<br>Movement |         -         | **+3 damage bonus to strikes**<br>With Captain |  **-**<br>Weaknesses   |
-|       **+4**<br>Might        | **+2**<br>Agility |  **0**<br>Reason  |              **+3**<br>Intuition               |   **-1**<br>Presence   |
-
-> ⚔️ **Javelin and Bellow (Signature Ability)**
+> One of the great tragedies of the ogres is that they keenly appreciate luxuries but are the wrong size to use most of them. Although ogres can guzzle fine wines and perch stolen crowns atop their heads, they can't fit into small folks' fine clothes, wield their tiny weapons, or sit in their chairs without smashing them to splinters. Nevertheless, ogres often decorate their lairs with costly furniture, decorations, suits of armor, and other prizes-sometimes in less than mint condition.
 > 
-> | **Charge, Melee, Ranged, Strike, Weapon** |                          **Main action** |
-> |-------------------------------------------|-----------------------------------------:|
-> | **📏 Melee 2 or ranged 5**                | **🎯 One creature or object per minion** |
+> The following are sample treasures from an ogre's lair, of which an ogre might have one or two. These items can be found in Draw Steel: Heroes.
 > 
-> **Power Roll + 4:**
-> 
-> - **≤11:** 4 damage
-> - **12-16:** 7 damage
-> - **17+:** 9 damage; I < 4 taunted (EoT) or frightened of all minotaurs (save ends)
+> - **Treasures:** Giant's-Blood Flame, Growth Potion, Icemaker Maul
+> - **Components:** A lead slingstone that killed a giant, a slaughter demon's horn (used as a drinking horn)
+> - **Project Sources:** Notes in Low Kuric for the Thundering I weapon enhancement, notes in High Kuric for a Bastion Belt or the Devastating weapon enhancement
 
-> ⭐️ **Minotaur Sense**
-> 
-> The bully can't obtain less than a tier 2 outcome when making tests to navigate, search, or seek.
+####### Cyclops
 
-####### Minotaur Lackey
+|    Giant, Ogre    |         -         |     Level 10      |           Minion Controller           | EV 12 for four minions |
+|:-----------------:|:-----------------:|:-----------------:|:-------------------------------------:|:----------------------:|
+|   **3**<br>Size   |  **6**<br>Speed   | **14**<br>Stamina |          **5**<br>Stability           |  **4**<br>Free Strike  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **+4 bonus to speed**<br>With Captain |  **-**<br>Weaknesses   |
+|  **+5**<br>Might  | **-1**<br>Agility | **-1**<br>Reason  |          **+3**<br>Intuition          |   **-1**<br>Presence   |
 
-| Accursed, Humanoid, Minotaur |         -         |      Level 8      |            Minion Harrier             | EV 10 for four minions |
-|:----------------------------:|:-----------------:|:-----------------:|:-------------------------------------:|:----------------------:|
-|        **2**<br>Size         |  **8**<br>Speed   | **13**<br>Stamina |          **2**<br>Stability           |  **3**<br>Free Strike  |
-|      **-**<br>Immunity       | **-**<br>Movement |         -         | **+2 bonus to speed**<br>With Captain |  **-**<br>Weaknesses   |
-|       **+3**<br>Might        | **+4**<br>Agility |  **0**<br>Reason  |          **+1**<br>Intuition          |   **-1**<br>Presence   |
-
-> 🗡 **Horn Vault (Signature Ability)**
+> ❇️ **Wild Slam (Signature Ability)**
 > 
-> | **Charge, Melee, Strike, Weapon** |                          **Main action** |
-> |-----------------------------------|-----------------------------------------:|
-> | **📏 Melee 2**                    | **🎯 One creature or object per minion** |
-> 
-> **Power Roll + 4:**
-> 
-> - **≤11:** 3 damage
-> - **12-16:** 6 damage; slide 1
-> - **17+:** 8 damage; slide 3
-> 
-> **Effect:** A target who is force moved into an obstacle and has M < 3 is bleeding (save ends). 
-
-> ⭐️ **Minotaur Sense**
-> 
-> The lackey can't obtain less than a tier 2 outcome when making tests to navigate, search, or seek.
-
-####### Minotaur Stampede
-
-| Accursed, Humanoid, Minotaur, Swarm |         -         |     Level 10      |               Minion Defender               | EV 12 for four minions |
-|:-----------------------------------:|:-----------------:|:-----------------:|:-------------------------------------------:|:----------------------:|
-|            **4**<br>Size            |  **8**<br>Speed   | **17**<br>Stamina |             **2**<br>Stability              |  **4**<br>Free Strike  |
-|          **-**<br>Immunity          | **-**<br>Movement |         -         | **Gain an edge on strikes**<br>With Captain |  **-**<br>Weaknesses   |
-|           **+5**<br>Might           | **+5**<br>Agility |  **0**<br>Reason  |             **+2**<br>Intuition             |   **-1**<br>Presence   |
-
-> 🗡 **Bull Rush (Signature Ability)**
-> 
-> | **Charge, Melee, Strike, Weapon** |                          **Main action** |
-> |-----------------------------------|-----------------------------------------:|
-> | **📏 Melee 2**                    | **🎯 One creature or object per minion** |
+> | **Area, Weapon** |                          **Main action** |
+> |------------------|-----------------------------------------:|
+> | **📏 1 burst**   | **🎯 Each enemy and object in the area** |
 > 
 > **Power Roll + 5:**
 > 
-> - **≤11:** 4 damage
-> - **12-16:** 7 damage; prone
-> - **17+:** 9 damage; prone; M < 5 can't stand (save ends)
+> - **≤11:** 3 damage; A < 3 3 damage
+> - **12-16:** 6 damage; push 3; A < 4 4 damage
+> - **17+:** 7 damage; prone; A < 5 5 damage and restrained (save ends)
 > 
-> **Effect:** If this ability is used as part of the Charge main action, each creature the stampede moves through who has M < 4 is knocked prone.
+> **Effect:** The cyclops automatically treats their initial power roll as a 17. They can still roll to determine if they score a critical hit.
 
-> ⭐️ **Swarm**
+> ⭐️ **Limited Vision**
 > 
-> The stampede can move through spaces as if they were a size 2 creature, and can occupy other creatures' spaces. At the start of each of the stampede's turns, they can make a free strike against each creature whose space they share.
+> The cyclops has line of effect only within 3 squares. Whenever the cyclops takes damage from a ranged ability, they can move up to 3 squares toward the source of the damage.
+
+####### Ogre Blue Blood
+
+|    Giant, Ogre    |         -         |      Level 7      |                Minion Brute                 | EV 9 for four minions |
+|:-----------------:|:-----------------:|:-----------------:|:-------------------------------------------:|:---------------------:|
+|   **2**<br>Size   |  **5**<br>Speed   | **13**<br>Stamina |             **4**<br>Stability              | **4**<br>Free Strike  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **Gain an edge on strikes**<br>With Captain |  **-**<br>Weaknesses  |
+|  **+4**<br>Might  | **+1**<br>Agility | **-1**<br>Reason  |             **0**<br>Intuition              |  **+2**<br>Presence   |
+
+> 🗡 **Crush Underfoot (Signature Ability)**
+> 
+> | **Melee, Strike, Weapon** |                          **Main action** |
+> |---------------------------|-----------------------------------------:|
+> | **📏 Melee 2**            | **🎯 One creature or object per minion** |
+> 
+> **Power Roll + 4:**
+> 
+> - **≤11:** 4 damage
+> - **12-16:** 7 damage; M < 3 prone
+> - **17+:** 8 damage; prone
+> 
+> **Effect:** A target who is already prone takes an extra 4 damage.
+
+> ⭐️ **In My Stead**
+> 
+> Whenever the blue blood would make a free strike, an ally within 5 squares can make a free strike instead.
+
+> ⭐️ **Defiant Ange**
+> 
+> While winded, the blue blood has damage immunity 2.
+
+####### Ogre Tantrum
+
+|    Giant, Ogre    |         -         |      Level 7      |                Minion Artillery                 | EV 9 for four minions |
+|:-----------------:|:-----------------:|:-----------------:|:-----------------------------------------------:|:---------------------:|
+|   **2**<br>Size   |  **5**<br>Speed   | **10**<br>Stamina |               **2**<br>Stability                | **4**<br>Free Strike  |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **+5 bonus to ranged distance**<br>With Captain |  **-**<br>Weaknesses  |
+|  **+4**<br>Might  | **+2**<br>Agility | **-1**<br>Reason  |               **0**<br>Intuition                |  **-1**<br>Presence   |
+
+> 🏹 **Throw Fit (Signature Ability)**
+> 
+> | **Ranged, Strike, Weapon** |                          **Main action** |
+> |----------------------------|-----------------------------------------:|
+> | **📏 Ranged 8**            | **🎯 One creature or object per minion** |
+> 
+> **Effect:** The tantrum unearths a rock or a hunk of terrain and tosses it. If a size 1L, 1M, or 1S creature or object adjacent to the tantrum has A < 3 the tantrum can grab them to use as the projectile for this ability.
+> 
+> **Power Roll + 4:**
+> 
+> - **≤11:** 4 damage
+> - **12-16:** 7 damage; push 2
+> - **17+:** 8 damage; push 4
+> 
+> A creature or object used as a projectile is vertically pushed 8 (or 13 with a captain), ignoring stability.
+
+> ⭐️ **Excessive Anger**
+> 
+> While winded, the tantrum has damage immunity 3 and speed 8.
+

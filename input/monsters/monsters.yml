@@ -388,12 +388,24 @@ sections:
 
   - header_path: monsters/minotaurs
     xpath: "//section[@id='monsters']//section[@id='minotaurs']"
-    file_dpath: 'Monsters/Minotaurss'
+    file_dpath: 'Monsters/Minotaurs'
     type: 'monster/section'
   - header_path: monsters/minotaurs
     xpath: "//section[@id='monsters']//section[@id='minotaurs']//section[@class='level7']"
-    file_dpath: 'Monsters/Minotaurss/Statblocks'
+    file_dpath: 'Monsters/Minotaurs/Statblocks'
   - header_path: monsters/minotaurs
     xpath: "//section[@id='monsters']//section[@id='minotaurs']//section[@class='level9']"
-    file_dpath: 'Monsters/Minotaurss/Features'
+    file_dpath: 'Monsters/Minotaurs/Features'
+    type: 'monster/feature'
+
+  - header_path: monsters/ogres
+    xpath: "//section[@id='monsters']//section[@id='ogres']"
+    file_dpath: 'Monsters/Ogres'
+    type: 'monster/section'
+  - header_path: monsters/ogres
+    xpath: "//section[@id='monsters']//section[@id='ogres']//section[@class='level7']"
+    file_dpath: 'Monsters/Ogres/Statblocks'
+  - header_path: monsters/ogres
+    xpath: "//section[@id='monsters']//section[@id='ogres']//section[@class='level9']"
+    file_dpath: 'Monsters/Ogres/Features'
     type: 'monster/feature'
