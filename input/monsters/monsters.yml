@@ -373,3 +373,15 @@ sections:
     xpath: "//section[@id='monsters']//section[@id='manticore']//section[@class='level9']"
     file_dpath: 'Monsters/Manticores/Features'
     type: 'monster/feature'
+
+  - header_path: monsters/medusa
+    xpath: "//section[@id='monsters']//section[@id='medusa']"
+    file_dpath: 'Monsters/Medusas'
+    type: 'monster/section'
+  - header_path: monsters/medusa
+    xpath: "//section[@id='monsters']//section[@id='medusa']//section[@class='level7']"
+    file_dpath: 'Monsters/Medusas/Statblocks'
+  - header_path: monsters/medusa
+    xpath: "//section[@id='monsters']//section[@id='medusa']//section[@class='level9']"
+    file_dpath: 'Monsters/Medusas/Features'
+    type: 'monster/feature'
