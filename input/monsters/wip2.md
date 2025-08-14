@@ -1,280 +1,188 @@
-## Ogres
+## Olothec
 
-Massive and bull-necked with bulging muscle and flesh, most ogres indulge their every impulse because few can stop them. Though small for giants, ogres outweigh and tower over humanoids. Most live in the wild where they can create their own rules and ways of life.
+Protean in form, beings of nearly pure intellect, the Old Ones think in alien geometric logic. Their name for themselves is unrecorded, but sages believe they are the oldest beings in the timescape and simply call them "The Old Ones." Synlirii refer to them as olothec (*OH-luh thek*)-"ancient enemies." But some humanoid scholars have noted this term bears an uncanny similarity to another archaic synlirii word meaning "ancient ancestor."
 
-### Extreme Emotions
+### Immortal Evil
 
-Most ogres experience emotions at their extremes. Rarely are they simply bemused or cross, and one is more likely to find an ogre leaping with ecstatic joy over a trivial victory or screaming with murderous rage over everyday frustrations. These heightened feelings drive many ogres down selfish paths, and some take whatever they want from anyone too weak to protest. Other ogres can be manipulated into working for evil creatures who promise to meet their heart's desire, be it food, riches, or friendship.
+Across countless cultures and ancestries, olothec feature in nightmares and temple friezes alike. While their origins are obscure and may never be known, their hatred of the mundane world and every living thing in it is well recorded. Olothec channel psionic energy beyond any mortal power, surpassing even the voiceless talkers. To them, a living creature who can't reshape their own flesh is repugnant, an unnatural abomination requiring eradication-or transformation.
 
-Ogres who embrace good often dedicate themselves to inspiring causes, letting their emotions fuel their passion and dedication for protecting their chosen people or place.
+### Agents of Chaos
 
-### Savory Stories
+Olothec consider the primordial chaos that spawned them as the ideal state of existence. They have long warred against the voiceless talkers, loathing their constant manipulation and refinement of evolutionary forces. Where olothec lair in forgotten sea tunnels and beneath ancient ruins, they surround themselves with slime servants-humanoids, beasts, horrors, and others, all devolved to a perfect physical and mental state.
 
-Some ogres speak of a time when they shared vast wealth and riches, great homes made of hewn stone, and sumptuous feasts. These stories always end tragically, each with a different villain-from deceptive mages to talking cats-swindling the ogres of what is rightfully theirs. The truth of such legends remains unknown, but many cruel ogres use them as an excuse for their selfish indulgences.
+### Primordial Form
 
-### Aristocracy of Bullies
+At first sight, an olothec seems like little more than a rippling mass of tentacles, twisting around each other like a shifting shroud. Creatures who get too close discover each of those tentacles ends in a ravenous mouth set with razor-sharp teeth. Each mouth is tipped by a cluster of three eyes that focus the olothec's relentless attacks. In water or on land, fetid slime coats the horror, protecting them against attackers and acting as a conduit for their fearsome psionic power.
 
-When wicked ogres gather more food than they can stomach or riches than they can spend, they use the excess to tempt their kin into working for them. These petty rulers make other ogres grovel at their feet for table scraps, then send them out into the world to steal more. Many ogre communities form around these arrogant aristocrats-but few such leaders die of old age, as the ambition and emotions of their subjects bring about violent ends.
+### Mutations of the Flesh
 
-### Cyclops: Ogre Progenitor
+Millennia of practice have allowed olothec to perfect psionic abilities that devolve and transform their victims into primordial life forms. Exposure to the psionic slime of an olothec's tentacles can change a creature into a mindless, oozing thrall. The most powerful olothec have unique powers that further warp flesh.
 
-Ogres originally descended from the cyclops, an old-world giant with a single eye whose kind still roam through remote canyons and valleys. These behemoths stand heads above the ogres and are twice as destructive once they've spotted their prey. But while their binocular cousins have gone on to become successful hunters and live for themselves, the cyclops is a scavenger hindered by their poor eyesight. Most cyclopses are eager to work for and defend powerful warlords or wealthy ogres, as long as they have easy access to food and shelter.
+### Olothec Languages
 
-Rumor has it that a cyclops can emit a mile-long energy ray from their eye. However, focusing such power is nearly impossible when their vision is usually too irritated and clouded by dirt.
+Most olothec communicate telepathically using Mindspeech and speak Urollialic. Many also know Old Variac and Caelian, but converse in those languages only when necessary.
 
-### Ogre Languages
-
-Most ogres speak Caelian and High Kuric.
-
-######### Ogre Malice
-
-At the start of any ogre's turn, you can spend Malice to activate one of the following features.
-
-> ❇️ **Shockwave (3 Malice)**
+> **Content Warning: Body Horror**
 > 
-> One ogre acting this turn jumps and lands on their rear, causing a 3 burst shockwave. Each size 1 creature in the area makes a **Might test** or **Agility test**.
+> Most olothec are creatures of incomprehensible evil who use their psionic might to reshape the flesh of their enemies. Their stat blocks contain strong elements of body horror. You should feel free to modify any of these effects for the safety of you and your players.
+
+######### Olothec Malice
+
+At the start of an olothec's turn, you can spend Malice to activate one of the following features.
+
+> ☠️ **Solo Action (4 Malice)**
 > 
-> - **≤11:** 5 damage; vertical push 3
-> - **12-16:** 4 damage; vertical push 2
-> - **17+:** Push 1
+> The olothec takes an additional main action on their turn. They can use this feature even if they are dazed.
 
-> 🌀 **Bully (5 Malice)** 
+> 🗡 **Writhing Envelopment (4 Malice)**
 > 
-> Each ogre in the encounter shifts up to their speed and can make a free strike. If they can, they gang up on the same target rather than picking different targets.
-
-> ⭐️ **Rampage (7 Malice)** 
+> | **Melee, Strike, Weapon** | **Main action** |
+> |---------------------------|-----------------------------------------------------:|
+> | **📏 Melee 3** | **🎯 One slimed, transformed, or devolved creature** |
 > 
-> Until the end of the round, each ogre has damage immunity 5 and deals an extra 5 damage with abilities, and heroic abilities that target any ogre have their Heroic Resource cost reduced by 1 (to a minimum of 1).
+> **Power Roll + 4:**
+> 
+> - **≤11:** 11 psychic damage; A < 2 grabbed
+> - **12-16:** 17 psychic damage; A < 3 grabbed
+> - **17+:** 20 psychic damage; A < 4 grabbed
+> 
+> **Effect:** The olothec can pull a target grabbed this way adjacent to them. While grabbed this way, a target can't make saving throws to end any other effects, and the olothec has a double edge on strikes against them.
 
-####### Ogre Goon
+> ❇️ **Memory of Chaos (6 Malice)**
+> 
+> The olothec broadcasts their memory of the universe in its primordial state-a sweeping cacophony of transcendental irrationality and unceasing change. Until the end of the encounter, any creature who starts their turn within 3 squares of the olothec and has R < 3 is dazed and slowed until the end of their next turn).
 
-| Giant, Ogre | - | Level 2 | Elite Brute | EV 16 |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-| **2**<br>Size | **5**<br>Speed | **100**<br>Stamina | **4**<br>Stability | **5**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement | - | **-**<br>With Captain | **-**<br>Weaknesses |
-| **+2**<br>Might | **0**<br>Agility | **-1**<br>Reason | **0**<br>Intuition | **-1**<br>Presence |
+####### Olothec
 
-> 🗡 **Club Swing (Signature Ability)**
+| Horror, Olothec | - | Level 6 | Solo | EV 84 |
+|:-------------------------:|:-------------------------:|:------------------:|:---------------------:|:--------------------:|
+| **2**<br>Size | **7**<br>Speed | **450**<br>Stamina | **0**<br>Stability | **7**<br>Free Strike |
+| **Psychic 6**<br>Immunity | **Fly, swim**<br>Movement | - | **-**<br>With Captain | **-**<br>Weaknesses |
+| **+4**<br>Might | **-1**<br>Agility | **+4**<br>Reason | **+2**<br>Intuition | **+3**<br>Presence |
+
+> ☠️ **Solo Monster**
+> 
+> **End Effect:** At the end of each of their turns, the olothec can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+> 
+> **Solo Turns:** The olothec can take two turns each round. They can't take turns consecutively.
+
+> ⭐️ **Gelatinosis**
+> 
+> A creature permanently devolves into a slime servant if they spend 1 continuous minute weakened by Devolving Tentacles, they are reduced to 0 Stamina by the psychic damage from Devolving Tentacles, or they suffer all three transformations from Oozing Transformation.
+
+> 🗡 **Devolving Tentacles (Signature Ability)**
 > 
 > | **Melee, Strike, Weapon** | **Main action** |
 > |---------------------------|--------------------------------:|
-> | **📏 Melee 2** | **🎯 Two creatures or objects** |
+> | **📏 Melee 3** | **🎯 Two creatures or objects** |
 > 
-> **Power Roll + 2:**
+> **Power Roll + 4:**
 > 
-> - **≤11:** 7 damage; push 2
-> - **12-16:** 11 damage; push 4
-> - **17+:** 14 damage; push 6, prone
+> - **≤11:** 11 damage; M < 2 weakened or the target is slimed (save ends)
+> - **12-16:** 17 damage; M < 3 weakened or the target is slimed (save ends)
+> - **17+:** 20 damage; M < 4 weakened and the target is slimed (save ends)
 > 
-> **Effect:** Any target who takes damage from this forced movement takes an extra 4 damage. 
+> **Effect:** A slimed target takes 4 psychic damage whenever they make a power roll.
 
-> 🗡 **Grabby Hand (1 Malice)**
-> 
-> | **Melee, Strike, Weapon** | **Maneuver** |
-> |---------------------------|------------------------------:|
-> | **📏 Melee 1** | **🎯 One creature or object** |
-> 
-> **Power Roll + 2:**
-> 
-> - **≤11:** 7 damage
-> - **12-16:** 11 damage; grabbed
-> - **17+:** 14 damage; grabbed
-> 
-> **Effect:** A target grabbed this way takes a bane on the Escape Grab maneuver.
-
-> 🔳 **People Bowling (3 Malice)**
-> 
-> | **Area, Weapon** | **Maneuver** |
-> |----------------------------|--------------------------------------------:|
-> | **📏 6 x 1 line within 1** | **🎯 Each creature and object in the area** |
-> 
-> **Effect:** The goon must have a size 1 creature or object grabbed, which they hurl across the area, ending the grab. The hurled creature or object is targeted by the ability, and lands in the last square of the line or the nearest unoccupied square of the goon's choice.
-> 
-> **Power Roll + 2:**
-> 
-> - **≤11:** 5 damage
-> - **12-16:** 9 damage
-> - **17+:** 12 damage; prone
-
-> ❗️ **Swat the Fly**
-> 
-> | **Melee** | **Triggered action** |
-> |----------------|-----------------------------------------:|
-> | **📏 Melee 1** | **🎯 The triggering creature or object** |
-> 
-> **Trigger:** A creature or object within distance moves or shifts away from the goon.
-> 
-> **Effect:** The goon slides the target up to 5 squares
-
-> ⭐️ **Defiant Ange**
-> 
-> While winded, the goon has damage immunity 2.
-
-####### Ogre Juggernaut
-
-| Giant, Ogre | - | Level 2 | Elite Harrier | EV 16 |
-|:-----------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
-| **2**<br>Size | **6**<br>Speed | **80**<br>Stamina | **2**<br>Stability | **5**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement | - | **-**<br>With Captain | **-**<br>Weaknesses |
-| **+2**<br>Might | **+1**<br>Agility | **-1**<br>Reason | **0**<br>Intuition | **-1**<br>Presence |
-
-> 🗡 **Pitchfork Catapult (Signature Ability)**
-> 
-> | **Charge, Melee, Strike, Weapon** | **Main action** |
-> |-----------------------------------|--------------------------------:|
-> | **📏 Melee 2** | **🎯 Two creatures or objects** |
-> 
-> **Power Roll + 2:**
-> 
-> - **≤11:** 7 damage
-> - **12-16:** 10 damage; A < 1 vertical push 2
-> - **17+:** 13 damage; A < 2 vertical slide 3
-> 
-> **1 Malice:** Each target who has M < 1 is bleeding (save ends). 
-
-> ❇️ **Earth-Breaking Jump**
+> 🔳 **Slime Spew**
 > 
 > | **Area, Weapon** | **Main action** |
-> |------------------|---------------------------------:|
-> | **📏 3 burst** | **🎯 Each creature in the area** |
+> |----------------------------|--------------------------------------------:|
+> | **📏 7 x 2 line within 1** | **🎯 Each creature and object in the area** |
 > 
-> **Effect:** The juggernaut jumps up to 6 squares before using this ability.
+> **Power Roll + 4:**
 > 
-> **Power Roll + 2:**
+> - **≤11:** 6 acid damage; A < 2 push special
+> - **12-16:** 10 acid damage; A < 3 push special
+> - **17+:** 13 acid damage; A < 4 push special and prone
 > 
-> - **≤11:** 4 damage
-> - **12-16:** 6 damage; push 2; M < 1 prone
-> - **17+:** 9 damage; push 4; M < 2 prone
+> **Effect:** Each creature pushed this way is pushed to an unoccupied space in the area as far as possible from the olothec.
+> 
+> **1 Malice:** The area is difficult terrain. Any creature who enters the area or moves within it for the first time on a turn and has A < 3 is knocked prone.
 
-> ❇️ **Horrible Bellow (2 Malice)**
+> 🏹 **Oozing Transformation (2 Malice)**
 > 
-> | **Area** | **Maneuver** |
-> |----------------|------------------------------:|
-> | **📏 3 burst** | **🎯 Each enemy in the area** |
+> | **Psionic, Ranged, Strike** | **Main action** |
+> |-----------------------------|--------------------:|
+> | **📏 Ranged 10** | **🎯 One creature** |
 > 
-> - **≤11:** I < 0 frightened (save ends)
-> - **12-16:** I < 1 frightened (save ends)
-> - **17+:** I < 2 frightened (save ends)
+> **Power Roll + 4:**
 > 
-> **Effect:** While a target is frightened this way, any ogre gains an edge on strikes against them.
+> - **≤11:** 13 psychic damage; I < 2 the target is transformed (save ends)
+> - **12-16:** 20 psychic damage; I < 3 the target is transformed (save ends)
+> - **17+:** 23 psychic damage; I < 4 the target is transformed (save ends)
+> 
+> **Effect:** Each time a target is transformed, the Director chooses one of the following transformations. When a target ends the transformed effect, all transformations on them end.
+> 
+> **Head:** The target's head becomes a ball of slime. They can't communicate and have line of effect only within 3 squares.
+> 
+> **Legs:** The target's legs become pillars of ooze. They are slowed while on land and can automatically swim at full speed while moving.
+> 
+> **Torso:** The target's arms become gelatinous. They can't benefit from edges or double edges and can't gain or use surges.
 
-> ❗️ **Hrraaaaaagh!**
+> 👤 **Jaunt**
 > 
-> | **ree triggered action** | **-** |
-> |--------------------------|------------:|
+> | **Psionic** | **Maneuver** |
+> |-------------|-------------:|
 > | **📏 Self** | **🎯 Self** |
 > 
-> **Trigger:** The juggernaut takes damage.
-> 
-> **Effect:** The juggernaut moves up to their speed and can make a free strike.
+> **Effect:** The olothec teleports to an unoccupied space within 10 squares. Alternatively, they swap places with a creature or object within 5 squares of them.
 
-> ⭐️ **Destructive Path**
-> 
-> The juggernaut automatically destroys any mundane size 1 objects in their path when they move or are forced moved. They can break through any mundane wall made of wood, stone, or a similarly sturdy material this way as long as the wall is 2 squares thick or less.
+❗️ **Liquify**
 
-> ⭐️ **Defiant Ange**
-> 
-> While winded, the juggernaut has damage immunity 2.
-
-###### Ogre Lairs
-
-> One of the great tragedies of the ogres is that they keenly appreciate luxuries but are the wrong size to use most of them. Although ogres can guzzle fine wines and perch stolen crowns atop their heads, they can't fit into small folks' fine clothes, wield their tiny weapons, or sit in their chairs without smashing them to splinters. Nevertheless, ogres often decorate their lairs with costly furniture, decorations, suits of armor, and other prizes-sometimes in less than mint condition.
-> 
-> The following are sample treasures from an ogre's lair, of which an ogre might have one or two. These items can be found in Draw Steel: Heroes.
-> 
-> - **Treasures:** Giant's-Blood Flame, Growth Potion, Icemaker Maul
-> - **Components:** A lead slingstone that killed a giant, a slaughter demon's horn (used as a drinking horn)
-> - **Project Sources:** Notes in Low Kuric for the Thundering I weapon enhancement, notes in High Kuric for a Bastion Belt or the Devastating weapon enhancement
-
-211Ogres
-
-####### Ogre Blue Blood
-
-| Giant, Ogre |         -         |      Level 7       |         Minion Brute          |        EV 9 for four minions         |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|   **2**<br>Size   |  **5**<br>Speed   | **13**<br>Stamina |  **4**<br>Stability   | **4**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **Gain an edge on strikes**<br>With Captain | **-**<br>Weaknesses  |
-|  **+4**<br>Might  | **+1**<br>Agility |  **-1**<br>Reason  |  **0**<br>Intuition  |  **+2**<br>Presence  |
-
-🗡 **Crush Underfoot (Signature Ability)**
-
-| **Melee, Strike, Weapon** | **Main action** |
+| **Psionic, Ranged** | **Triggered action** |
 | --- | ---:|
-| **📏 Melee 2** | **🎯 One creature or object per minion** |
+| **📏 Ranged 5** | **🎯 Each enemy** |
+
+**Trigger:** An enemy within distance deals damage to the olothec.
+
+**Effect:** The target takes 8 psychic damage and has psychic weakness
+- **17+:** until the end of the olothec's next turn.
+
+⭐️ **Primordial Mind**
+
+The olothec can't be made frightened or taunted.
+
+⭐️ **Slime Sense**
+
+A slimed or transformed creature can't have concealment from or
+be hidden from the olothec.
+
+☠️ **Horrifying Form (Villain Action 1)**
+
+Psionic, Ranged, Strike
+| **📏 Ranged 20** | **🎯 Each enemy** |
 
 **Power Roll + 4:**
 
-- **≤11:** 4 damage
-- **12-16:** 7 damage; M < 3 prone
-- **17+:** 8 damage; prone
+- **≤11:** 10 psychic damage; P < 2 frightened (save ends)
+- **12-16:** 14 psychic damage; P < 3 frightened (save ends)
+- **17+:** 17 psychic damage; P < 4 frightened (save ends)
 
-**Effect:** A target who is already prone takes an extra 4 damage.
+**Effect:** While frightened this way, a target can't make saving throws
+to end any other effects
 
-⭐️ **In My Stead**
+☠️ **Psychic Pulse (Villain Action 2)**
 
-Whenever the blue blood would make a free strike, an ally within
-5 squares can make a free strike instead.
+Area, Psionic
+| **📏 10 burst** | **🎯 Each creature in the area** |
 
-⭐️ **Defiant Ange**
+**Effect:** The olothec slides each target up to 5 squares. Each target
+takes 12 psychic damage, and if they have M < 3 they are weakened
+and slimed (save ends). A slimed target takes 4 psychic damage
+whenever they make a power roll. Additionally, until the start of their
+next turn, the olothec has damage immunity 4.
 
-While winded, the blue blood has damage immunity 2.
+☠️ **Return to Perfection (Villain Action 3)**
 
-####### Ogre Tantrum
-
-| Giant, Ogre |         -         |      Level 7       |         Minion Artillery          |        EV 9 for four minions         |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|   **2**<br>Size   |  **5**<br>Speed   | **10**<br>Stamina |  **2**<br>Stability   | **4**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **+5 bonus to ranged distance**<br>With Captain | **-**<br>Weaknesses  |
-|  **+4**<br>Might  | **+2**<br>Agility |  **-1**<br>Reason  |  **0**<br>Intuition  |  **-1**<br>Presence  |
-
-🏹 **Throw Fit (Signature Ability)**
-
-| **Ranged, Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Ranged 8** | **🎯 One creature or object per minion** |
-
-**Effect:** The tantrum unearths a rock or a hunk of terrain and tosses
-it. If a size 1L, 1M, or 1S creature or object adjacent to the tantrum
-has A < 3 the tantrum can grab them to use as the projectile for this
-ability.
+Area, Psionic
+| **📏 10 burst** | **🎯 Each creature in the area** |
 
 **Power Roll + 4:**
 
-- **≤11:** 4 damage
-- **12-16:** 7 damage; push 2
-- **17+:** 8 damage; push 4
-A creature or object used as a projectile is vertically pushed 8 (or 13
-with a captain), ignoring stability.
+- **≤11:** 7 psychic damage; R < 2 the target is devolved (save ends)
+- **12-16:** 13 psychic damage; R < 3 the target is devolved (save ends)
+- **17+:** 16 psychic damage; R < 3 the target is devolved (save ends)
 
-⭐️ **Excessive Anger**
-
-While winded, the tantrum has damage immunity 3 and speed 8.
-
-####### Cyclops
-
-| Giant, Ogre |         -         |      Level 10       |         Minion Controller          |        EV 12 for four minions         |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|   **3**<br>Size   |  **6**<br>Speed   | **14**<br>Stamina |  **5**<br>Stability   | **4**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **+4 bonus to speed**<br>With Captain | **-**<br>Weaknesses  |
-|  **+5**<br>Might  | **-1**<br>Agility |  **-1**<br>Reason  |  **+3**<br>Intuition  |  **-1**<br>Presence  |
-
-❇️ **Wild Slam (Signature Ability)**
-
-| **Area, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 1 burst** | **🎯 Each enemy and object in the area** |
-
-**Power Roll + 5:**
-
-- **≤11:** 3 damage; A < 3 3 damage
-- **12-16:** 6 damage; push 3; A < 4 4 damage
-- **17+:** 7 damage; prone; A < 5 5 damage and restrained (save ends)
-
-**Effect:** The cyclops automatically treats their initial power roll as a 17. 
-They can still roll to determine if they score a critical hit.
-
-⭐️ **Limited Vision**
-
-The cyclops has line of effect only within 3 squares . Whenever the
-cyclops takes damage from a ranged ability, they can move up to 3
-squares toward the source of the damage.
+**Effect:** A devolved creature has a −1 score for all their characteristics
+other than Reason.
