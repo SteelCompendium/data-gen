@@ -610,3 +610,15 @@ sections:
     xpath: "//section[@id='monsters']//section[@id='werewolf']//section[@class='level9']"
     file_dpath: 'Monsters/Werewolf/Features'
     type: 'monster/feature'
+
+  - header_path: monsters/wyverns
+    xpath: "//section[@id='monsters']//section[@id='wyverns']"
+    file_dpath: 'Monsters/Wyverns'
+    type: 'monster/section'
+  - header_path: monsters/wyverns
+    xpath: "//section[@id='monsters']//section[@id='wyverns']//section[@class='level7']"
+    file_dpath: 'Monsters/Wyverns/Statblocks'
+  - header_path: monsters/wyverns
+    xpath: "//section[@id='monsters']//section[@id='wyverns']//section[@class='level9']"
+    file_dpath: 'Monsters/Wyverns/Features'
+    type: 'monster/feature'

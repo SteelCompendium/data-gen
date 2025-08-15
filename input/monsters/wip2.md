@@ -1,186 +1,185 @@
-## Wyverns
+## Xorannox the Tyract
 
-The sight of a wyvern perched high atop a rotting tree or lit upon the jagged peak of a shadowy mountain marks the boundary between the known lands and forest primeval. There are raw, ancient sorceries in the wilderness that imbue those lands with power and hate older than roads and carts.
+Xorannox the Tyract is an overmind. Formally known by their endonym, vaurath (plural: vaurathi), overminds plot and scheme against their chief rivals, the synlirii and the olothec, for control of the World Below.
 
-Though they superficially resemble dragons, wyverns are not dragons or dragon-kin. Distant relatives of the terror lizards of Ix, wyverns sport tough, leathery skin with hues running from brown to red to black depending on their native terrain. They are solitary creatures who track their prey by following the smell of fear they create.
+#### Psionic Eyes
 
-#### Mountain Hunters
+An overmind is an enormous floating brain with a large central eye surrounded by many smaller embedded eyes. Even more alien, several psionic eyes float within inches of their head, each connected to a small brain that can manifest a unique psionic effect.
 
-While on the hunt, wyverns perch on stone outcroppings and natural spires overlooking their territory. They first attack with their stinger, injecting prey with corrosive acid. If a wyvern's victim attempts to hide, the wyvern's hooked claws and fearsome teeth can tear open any crag or crevice in pursuit.
+#### Intelligent Loremasters
 
-#### Acidic Aggressors
+Like their rivals, overminds are loremasters of supreme intellect. They aren't usually wizards, but they all view the collection of knowledge and arcane sciences as the best tool for ultimate conquest. Overminds are cruel and capricious but enjoy tests of intellectual might. Their one vanity is their unshakable belief in their own intellectual superiority over all others.
 
-Without front limbs to grasp their prey, wyverns prefer to keep their distance and strike with their long, stinger-tipped tails. A single sting is usually enough to kill common game outright, and even larger foes are left wracked by pain. Wyverns have no interest in drawn-out struggle, and they relentlessly sting their foes at every opportunity.
+#### Overmind Lairs
 
-#### Protective Parents
+Thanks to their innate flight, overminds prefer to build (or rather, have their thralls build) towers with no doors or entrances anywhere near the bottom.
 
-A wyvern's infamous temper is easily provoked, particularly if their eggs or hatchlings are threatened. Many monster slayers for hire won't accept contracts to track and hunt wyverns during hatching season. Yet this season is when heroes are needed most, as mated pairs aggressively hunt anything or anyone to feed their young.
+#### Rivalries and Negotiations
 
-#### Communicating with Wyverns
+Unlike the synlirii and the olothec, overminds have an intense hatred of their own kind and never work together. However, overminds often enjoy diplomacy with other species, seeking to form alliances and build secret networks of agents throughout the World Below.
 
-Wyverns are unable to speak. However, a clever hero carrying a feast of fresh meat might be able to reason with one.
+#### Smelly Eggs
 
-#### Wyvern Malice Malice Features
+Overmind procreation involves one horror laying a single egg in a slime pool and leaving it behind. When another overmind later detects the distinct smell of the egg, they spray their inseminating fluid into the pool. These actions are compelled by biological necessity, a compulsion even the overminds can't ignore.
 
-At the start of any wyvern's turn, you can spend Malice to activate one of the following features.
+Unwitting explorers sometimes accidentally abscond with an egg. If unfertilized, its bearer is likely to attract the attention of other overminds and synlirii that use the eggs in genetic experiments to create psionic creatures. If the egg is fertilized, the explorer could find themselves becoming a newly hatched overmind's first victim.
 
-> 🗡 **Simmering Anger (3 Malice)** 
-> 
-> One wyvern in the encounter can make a free strike against each enemy adjacent to them.
+#### Xorannox the Tyract
 
-> ⭐️ **Boiling Fury (5 Malice)** 
-> 
-> Until the end of the round, each wyvern in the encounter has a double edge on strikes and can use their signature ability instead of a free strike when making opportunity attacks.
+Xorannox (*ZOR-ah-nocks*) rules as Lord of the White Tower, an isolated, multilevel finger of alabaster stone connecting to the World Below. He is commonly known as the Tyract, an ancient Za'hariax word that literally translates as "a king who rules with his teeth"-and the overmind indeed consumes those who displease him.
 
-> 🌀 **Overflowing Rage (7 Malice)**
-> 
-> Every wyvern's anger fills the encounter map with a thick miasma of hatred. Each enemy in the encounter makes an **Intuition test**.
-> 
-> - **≤11:** The target is taunted by the nearest creature or object (save ends). While the target is taunted this way, power rolls against them have a double edge.
-> - **12-16:** The target is taunted by the nearest creature or object (save ends).
-> - **17+:** No effect.
+Xorannox is chief of the Grasp, a secret organization that seeks to overthrow the voiceless talkers' great empire and place Xorannox above all, first as king, then as god. The Tyract is a master strategist, always one step ahead of his enemies. Heroes may be surprised to discover their allies are members of the Grasp. When they meet Xorannox, he's delighted! He loves treating with humanoids! They have the same enemies, after all.
 
-325Wyverns
+Unfortunately, no matter how useful or dependable a party of heroes might be, Xorannox is nearly incapable of resisting the urge to betray his allies. He assumes, as do most vaurathi, that the natural end of all alliances is betrayal. Thus when the gauntlet is thrown and his life is in danger, the only minions he can truly trust are his own six eyes.
 
-####### Wyvern Predator
+#### Xorannox's Languages
 
-| Beast, Wyvern |         -         |      Level 4       |         Elite Brute          |        EV 24         |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|   **3**<br>Size   |  **7**<br>Speed   | **140**<br>Stamina |  **3**<br>Stability   | **6**<br>Free Strike |
-| **Acid 5**<br>Immunity | **Fly**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
-|  **+3**<br>Might  | **+2**<br>Agility |  **-1**<br>Reason  |  **+1**<br>Intuition  |  **0**<br>Presence  |
+Overminds typically speak Za'hariax. Xorannox also speaks Caelian, Hyrallic, and Voll.
 
-🗡 **Sedating Stinger (Signature Ability)**
+####### Xorannox the Tyract
 
-| **Magic, Strike, Weapon** | **Main action** |
+| Horror, Overmind | - | Level 6 | Solo | EV 96 |
+|:-----------------:|:--------------------------:|:------------------:|:---------------------:|:--------------------:|
+| **3**<br>Size | **5**<br>Speed | **450**<br>Stamina | **2**<br>Stability | **7**<br>Free Strike |
+| **-**<br>Immunity | **Fly, hover**<br>Movement | - | **-**<br>With Captain | **-**<br>Weaknesses |
+| **+4**<br>Might | **+2**<br>Agility | **+4**<br>Reason | **+3**<br>Intuition | **+3**<br>Presence |
+
+☠️ **Solo Monster**
+
+**End Effect:** At the end of each of his turns, Xorannox can take 10
+damage to end one effect on him that can be ended by a saving
+throw. This damage can't be reduced in any way.
+
+**Solo Turns:** Xorannox can take two turns each round. He can't
+take turns consecutively. 
+
+🌀 **Eyes of the Tyract**
+
+Six unique eyestalks float around Xorannox, acting on his turn
+at his command until they are reduced to 0 Stamina. On each
+of Xorannox's turns, he directs one eyestalk to move and use a
+signature ability. 
+
+🗡 **Toothful Thrashing (Signature Ability)**
+
+| **Melee, Strike, Weapon** | **Main action** |
 | --- | ---:|
-| **📏 Melee 3** | **🎯 Two creatures or objects** |
+| **📏 Melee 1** | **🎯 One creatures or object** |
 
-**Power Roll + 3:**
+**Power Roll + 4:**
 
-- **≤11:** 9 damage
-- **12-16:** 14 damage; M < 2 slowed (save ends)
-- **17+:** 17 damage; M < 3 slowed (save ends)
+- **≤11:** 12 damage; slide 2; M < 2 bleeding (EoT)
+- **12-16:** 20 damage; slide 3; M < 3 bleeding (EoT)
+- **17+:** 23 damage; vertical slide 3; M < 4 bleeding (EoT)
 
-**Effect:** If a target slowed this way is already slowed, they are
-instead restrained (save ends).
+❇️ **Grav Spike**
 
-🔳 **Tail Sweep**
-
-| **Area, Weapon** | **Main action** |
+| **Area, Psionic** | **Main action** |
 | --- | ---:|
-| **📏 6 x 3 line within 1** | **🎯 Each enemy and object in the area** |
+| **📏 2 burst** | **🎯 Each enemy in the area** |
 
-**Power Roll + 3:**
+**Power Roll + 4:**
 
-- **≤11:** 6 damage; A < 1 3 acid damage
-- **12-16:** 11 damage; A < 2 3 acid damage
-- **17+:** 14 damage; A < 3 3 acid damage
+- **≤11:** Vertical push 3
+- **12-16:** Vertical push 5
+- **17+:** Vertical push 7
 
-**5 Malice:** The predator uses this ability a second time, either recre-
-ating the same line or creating a new line.
+**Effect:** Xorannox shifts up to his speed before or afte r usin
+this ability.
 
-🗡 **Grasping Jaws (2 Malice)**
-
-| **Magic, Strike, Weapon** | **Maneuver** |
-| --- | ---:|
-| **📏 Melee 2** | **🎯 One creature or object** |
-
-**Power Roll + 3:**
-
-- **≤11:** 9 damage; A < 1 grabbed
-- **12-16:** 14 damage; A < 2 grabbed
-- **17+:** 17 damage; A < 3 grabbed and the target takes a bane on the
-Escape Grab maneuver
-
-❗️ **Deterring Sting 1 Malice**
-
-| **Melee** | **Triggered action** |
-| --- | ---:|
-| **📏 Melee 3** | **🎯 The triggering creature** |
-
-**Trigger:** A creature within distance deals damage to the predator
-with a melee ability.
-
-**Effect:** The predator uses Sedating Stinger against the target, then
-shifts up to 3 squares
-
-⭐️ **Stubborn Rage**
-
-While winded or within 10 squares of another wyvern, the
-predator can't be made dazed or frightened.
-
-⭐️ **Tenacious Hunter**
-
-Any creature affected by a condition imposed by a wyvern can 't
-be hidden from the predator.
-
-####### Wyvern Lurker
-
-| Beast, Wyvern |         -         |      Level 4       |         Elite Ambusher          |        EV 24         |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|   **2**<br>Size   |  **9**<br>Speed   | **120**<br>Stamina |  **2**<br>Stability   | **6**<br>Free Strike |
-| **Acid 5**<br>Immunity | **Fly**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
-|  **+2**<br>Might  | **+3**<br>Agility |  **-1**<br>Reason  |  **+1**<br>Intuition  |  **0**<br>Presence  |
-
-🗡 **Agonizing Stinger (Signature Ability)**
-
-| **Magic, Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Melee 2** | **🎯 Two creatures or objects** |
-
-**Power Roll + 3:**
-
-- **≤11:** 9 damage
-- **12-16:** 14 damage; M < 2 bleeding (save ends)
-- **17+:** 17 damage; M < 3 bleeding (save ends)
-
-**1 Malice:** One target hidden from the lurker takes an extra 6
-acid damage.
-
-🗡 **Acidic Anguish (3 Malice)**
-
-| **Magic, Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Melee 2** | **🎯 One creature or object** |
-
-**Power Roll + 3:**
-
-- **≤11:** 10 acid damage; M < 1 weakened (save ends)
-- **12-16:** 16 acid damage; M < 2 weakened (save ends)
-- **17+:** 20 acid damage; M < 3 weakened (save ends)
-
-**Effect:** A target weakened this way takes 1d4 acid damage at the
-start of each of their turns.
-
-👤 **Swooping Torment**
+👤 **Optical Collusion **
 
 | **-** | **Maneuver** |
 | --- | ---:|
 | **📏 Self** | **🎯 Self** |
 
-**Effect:** The lurker flies up to their speed, then can attempt to hide .
-Each enemy the lurker moves adjacent to during this movement
-can choose to take 3 sonic damage or fall prone.
+**Effect:** Xorannox commands all his eyestalks to move up to
+their speed.
 
-❗️ **Retaliatory Dive **
+🔳 **Shutout 2 Malice**
 
-| **Ranged** | **Triggered action** |
+| **Area** | **Maneuver** |
 | --- | ---:|
-| **📏 Ranged 5** | **🎯 The triggering creature** |
+| **📏 5 x 2 line within 1** | **🎯 Special** |
 
-**Trigger:** A creature within distance deals damage to the lurker
-with a ranged ability.
+**Effect:** Xorannox ends all ongoing supernatural effects and
+suppresses supernatural effects from treasures in the area. New
+supernatural effects can 't be activated in the area until the end of
+Xorannox's next turn.
 
-**Effect:** The lurker flies adjacent to the target and can make a free
-strike against them.
+❗️ **Cower!**
 
-⭐️ **Ruthless Rage**
+| **Psionic, Ranged** | **Triggered action** |
+| --- | ---:|
+| **📏 Ranged 10** | **🎯 The triggering creature** |
 
-While within 10 squares of another wyvern, the lurker deals an
-extra 3 damage with strikes.
+**Trigger:** A creature within distance deals damage to Xorannox.
 
-⭐️ **Tenacious Hunter**
+**Effect:** If the target has I < 3 they are frightened (save ends)
 
-Any creature affected by a condition imposed by a wyvern can 't
-be hidden from the lurker.
+⭐️ **Above It All**
+
+Xorannox can't be made frightened or knocked prone, and he can't
+be flanked
+
+⭐️ **Natural Enemies**
+
+If Xorannox perceives another overmind or a voiceless talker on the
+encounter map, he targets that threat one or more times on each of
+his turns.
+
+☠️ **Disruption Beam (Villain Action 1)**
+
+Psionic, Ranged, Strike
+| **📏 Ranged 10** | **🎯 Three creatures** |
+
+**Power Roll + 4:**
+
+- **≤11:** 11 psychic damage; R < 2 dazed (save ends)
+- **12-16:** 17 psychic damage; R < 3 dazed (save ends)
+- **17+:** 20 psychic damage; R < 4 dazed (save ends)
+
+☠️ **All Eyes, All Rise (Villain Action 2)**
+
+| **📏 Self** | **🎯 Self** |
+
+**Effect:** Xorannox recreates any destroyed eyestalks, which return in
+unoccupied spaces on the encounter map with full Stamina.
+
+☠️ **Panoptibeam (Villain Action 3)**
+
+Area
+| **📏 2 burst** | **🎯 Each enemy in the area** |
+
+**Effect:** Xorannox directs each of his eyestalks to use a signature
+ability against any target.
+Xorannox's Malice Malice Features
+At the start of Xorannox's turn, you can spend Malice to activate one
+of the following features.
+
+❇️ **Gas Belch 3 Malice**
+
+Xorannox lets out a noxious belch. Each enemy within 2 squares
+of him who has M < 3 is weakened (save ends).
+
+⭐️ **Slime Trail 5 Malice**
+
+Until the end of Xorannox's next turn, whenever he or any of
+his eyes leave their space, they secrete a viscous slime onto the
+ground in that area. Any enemy who enters an affected square
+has lightning weakness 5 and fire weakness 5 until the end of
+the encounter.
+
+☠️ **Solo Action 5 Malice**
+
+Xorannox takes an additional main action on his turn. He can use
+this feature even if he is dazed.
+
+🌀 **Mind Over Matter 7 Malice**
+
+Xorannox fills the encounter map with a powerful telekinetic
+field. The Director chooses a cardinal direction (north, south, east ,
+or west). Whenever a creature in the encounter willingly moves or
+is force moved, they are pulled 2 squares in the chosen direction, 
+ignoring stability. Each time this feature is used, its previous effect
+ends.
