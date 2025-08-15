@@ -622,3 +622,15 @@ sections:
     xpath: "//section[@id='monsters']//section[@id='wyverns']//section[@class='level9']"
     file_dpath: 'Monsters/Wyverns/Features'
     type: 'monster/feature'
+
+  - header_path: monsters/xorannox-the-tyract
+    xpath: "//section[@id='monsters']//section[@id='xorannox-the-tyract']"
+    file_dpath: 'Monsters/Xorannox the Tyract'
+    type: 'monster/section'
+  - header_path: monsters/xorannox-the-tyract
+    xpath: "//section[@id='monsters']//section[@id='xorannox-the-tyract']//section[@class='level7']"
+    file_dpath: 'Monsters/Xorannox the Tyract/Statblocks'
+  - header_path: monsters/xorannox-the-tyract
+    xpath: "//section[@id='monsters']//section[@id='xorannox-the-tyract']//section[@class='level9']"
+    file_dpath: 'Monsters/Xorannox the Tyract/Features'
+    type: 'monster/feature'
