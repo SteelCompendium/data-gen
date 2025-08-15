@@ -70,10 +70,10 @@
   "counters": {
     "chapter": 3,
     "monster/section": 51,
-    "monster/feature": 47,
+    "monster/feature": 48,
     "monster": 413,
     "dynamic-terrain/mechanism": 8,
-    "dynamic-terrain/siege-engine": 6,
+    "dynamic-terrain/siege-engine": 7,
     "dynamic-terrain/fieldwork": 7,
     "dynamic-terrain/power-fixture": 3,
     "dynamic-terrain/environmental-hazard": 7,
