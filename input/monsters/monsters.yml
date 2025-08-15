@@ -587,3 +587,15 @@ sections:
     file_dpath: 'Monsters/Lord Syuul/Features'
     type: 'monster/feature'
 
+  - header_path: monsters/war-dogs
+    xpath: "//section[@id='monsters']//section[@id='war-dogs']"
+    file_dpath: 'Monsters/War Dogs'
+    type: 'monster/section'
+  - header_path: monsters/war-dogs
+    xpath: "//section[@id='monsters']//section[@id='war-dogs']//section[@class='level7']"
+    file_dpath: 'Monsters/War Dogs/Statblocks'
+  - header_path: monsters/war-dogs
+    xpath: "//section[@id='monsters']//section[@id='war-dogs']//section[@class='level9']"
+    file_dpath: 'Monsters/War Dogs/Features'
+    type: 'monster/feature'
+
