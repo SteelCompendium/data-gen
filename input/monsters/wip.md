@@ -2,15 +2,15 @@
 
 A terrain object is an element placed in an encounter that alters tactics on the battlefield, allowing the Director to better theme an encounter. Terrain objects range from hazards that provide tempting targets for forced movement, to fieldworks and siege engines that provide a locational advantage, to supernatural objects that an entire encounter can be built around.
 
-# Terrain Object Stat Blocks
+### Terrain Object Stat Blocks
 
 Each terrain object is set up in a stat block, but this stat block format is different than for monsters. The following sections explain what you'll find in a terrain object stat block.
 
-### **EV**
+#### EV
 
 Each dynamic terrain object has an encounter value cost, just like monsters in an encounter. Some objects, particularly environmental hazards, have a cost representing an area, such as a 10 x 10-square section of terrain. A hazard can always be smaller than that indicated size.
 
-### **Stamina**
+#### Stamina
 
 Terrain objects have either a fixed amount of Stamina or an amount of Stamina per square, depending on their nature and size. If an object has an amount of Stamina per square, it can be partially destroyed square by square.
 
@@ -22,13 +22,13 @@ Terrain objects either have a standard size (for example, 1M) or a size noted as
 
 Some terrain objects have a defined direction indicating how they are placed, such as archer's stakes having a front side.
 
-# **Deactivate**
+#### Deactivate
 
 Most terrain objects can be deactivated under certain circumstances. The Sabotage skill is generally applicable for tests made to deactivate mechanisms and siege engines, while traps might allow different skills to be used depending on their setup-Alchemy to deactivate a pool of flammable oil, Nature to deactivate a spiked pit trap in a forest, Magic or Psionics to deactivate a supernatural object, and so forth. Disabling a supernatural object requires a more intricate process detailed in each object's stat block.
 
 Once a terrain object is deactivated, the Director determines what must be done to reset it and how long it takes to do so.
 
-### **Activate**
+#### Activate
 
 Terrain objects typically activate when a creature enters their space or when the object is interacted with in a specific way. Unless otherwise noted, there is no limit to how often a terrain object can activate.
 
@@ -40,19 +40,19 @@ Many area terrain objects activate when a creature enters their area without shi
 
 Each terrain object's effect entry defines what happens when the object is triggered.
 
-# **Upgrades**
+#### Upgrades
 
 Some terrain objects can be upgraded to create additional effects. If a terrain object has a size in squares, the upgrade cost is paid on a squareby-square basis unless otherwise noted.
 
 ### Hidden Terrain Objects
 
-Some terrain objects are inherently hidden or can be hidden with an upgrade. Hidden objects can be found as part of the Search for Hidden Creatures maneuver (see *Draw Steel: Heroes*). When you make an Intuition test to search for hidden creatures and objects, use the following outcomes for dealing with objects:
+Some terrain objects are inherently hidden or can be hidden with an upgrade. Hidden objects can be found as part of the Search for Hidden Creatures maneuver (see *Draw Steel: Heroes*). When you make an **Intuition test** to search for hidden creatures and objects, use the following outcomes for dealing with objects:
 
-- 1 You find all hidden terrain objects adjacent to you.
-- 2 You find all hidden terrain objects within 5 squares of you.
-- 3 You find all hidden terrain objects within 10 squares of you.
+- **≤11:** You find all hidden terrain objects adjacent to you.
+- **12-16:** You find all hidden terrain objects within 5 squares of you.
+- **17+:** You find all hidden terrain objects within 10 squares of you.
 
-### **Allied Awareness**
+#### Allied Awareness
 
 Some terrain objects have an Allied Awareness trait noting benefits and options available to creatures who have familiarity and training with the object. If a creature is aware of a terrain object and has sufficient time to study it, they gain the object's Allied Awareness benefits at the Director's determination.
 
@@ -60,535 +60,548 @@ Some terrain objects have an Allied Awareness trait noting benefits and options 
 
 Environmental hazards represent natural elements that creatures (typically creatures defending a location) have channeled, cultivated, or otherwise placed to give them an edge in an encounter.
 
-| Angry Beehive | Level 2 Hazard Hexer<br>EV 2 |
-|---------------|------------------------------|
-|               |                              |
+######### Angry Beehive (Level 2 Hazard Hexer)
 
 This beehive is full of angry bees who swarm and attack with little provocation.
 
-**Stamina:** 3 **Size:** 1S
+- **EV:** 2
+- **Stamina:** 3
+- **Size:** 1S
 
-🌀 **Deactivate**
+> 🌀 **Deactivate**
+> 
+> The beehive can't be deactivated. If it takes damage or is destroyed, the hive unleashes a swarm of bees.
 
-The beehive can't be deactivated. If it takes damage or is destroyed, the hive unleashes a swarm of bees.
+> ❕ **Activate**
+> 
+> A creature enters the hive's space or an adjacent space without shifting.
+> 
+> **Effect:** The hive is removed from the encounter map and a swarm of bees is placed in one square of the space of the triggering creature. Any creature who starts their turn in the swarm's space takes 3 poison damage. At the start of each round, the swarm moves 1 square and its size increases by 1 square (to 2 squares by 2 squares, 3 squares by 3 squares, and so forth), preferring squares in a creature's space. After 3 rounds, the swarm dissipates.
 
-### \* **Activate**
+> ⭐️ **Upgrades**
+> 
+> **Concealed Hive (+1 EV)** The hive is hidden until the swarm is unleashed.
+> 
+> **Killer Bees (+2 EV)** The bees are a particularly aggressive and dangerous species. The hive triggers even if a creature shifts into or while adjacent to it, and the swarm deals 1d6 + 3 poison damage.
 
-A creature enters the hive's space or an adjacent space without shifting.
+######### Brambles (Level 1 Hazard Defender)
 
-**Effect:** The hive is removed from the encounter map and a swarm of bees is placed in one square of the space of the triggering creature. Any creature who starts their turn in the swarm's space takes 3 poison damage. At the start of each round, the swarm moves 1 square and its size increases by 1 square (to 2 squares by 2 squares, 3 squares by 3 squares, and so forth), preferring squares in a creature's space. After 3 rounds, the swarm dissipates.
+This thicket features close-growing vines tipped with sharp thorns.
 
-⭐️ **Upgrades**
+- **EV:** 1 per 10 x 10 thicket
+- **Stamina:** 3 per square
+- **Size:** One or more squares of difficult terrain
 
-**Concealed Hive (+1 EV)** The hive is hidden until the swarm is unleashed.
+> 🌀 **Deactivate**
+> 
+> Each square of brambles must be individually destroyed.
 
-**Killer Bees (+2 EV)** The bees are a particularly aggressive and dangerous species. The hive triggers even if a creature shifts into or while adjacent to it, and the swarm deals 1d6 + 3 poison damage.
+> ❕ **Activate**
+> 
+> A creature enters a square of brambles without shifting.
+> 
+> **Effect:** A creature takes 1 damage per square of brambles they enter.
 
-**Brambles Level 1 Hazard Defender** EV 1 per 10 x 10 thicket
+> ⭐️ **Upgrade**
+> 
+> **Poisonous Thorns (+1 EV)** The brambles are poisonous. Any creature who takes damage from brambles is also bleeding (save ends).
 
-This thicket features close-growing vines tipped with sharp thorns. **Stamina:** 3 per square **Size:** One or more squares of difficult terrain
-
-🌀 **Deactivate**
-
-Each square of brambles must be individually destroyed.
-
-### \* **Activate**
-
-A creature enters a square of brambles without shifting.
-
-**Effect:** A creature takes 1 damage per square of brambles they enter.
-
-⭐️ **Upgrade**
-
-**Poisonous Thorns (+1 EV)** The brambles are poisonous. Any creature who takes damage from brambles is also bleeding (save ends).
-
-**Corrosive Pool Level 2 Hazard Hexer** EV 3 per 10 x 10 pool
+######### Corrosive Pool (Level 2 Hazard Hexer)
 
 This shallow pool bubbles with acid or some other corrosive liquid.
 
-**Stamina:** 12 per square **Size:** One or more squares of difficult terrain **Immunity:** 20 to all damage except cold or fire damage
+- **EV:** 3 per 10 x 10 pool
+- **Stamina:** 12 per square
+- **Size:** One or more squares of difficult terrain 
+-
+- **Immunity:** 20 to all damage except cold or fire damage
 
-🌀 **Deactivate**
+> 🌀 **Deactivate**
+> 
+> The pool must be completely destroyed.
 
-The pool must be completely destroyed.
+> ❕ **Activate**
+> 
+> A creature or object enters the corrosive pool or starts their turn there. The liquid in the pool is also highly volatile (see **Explosive Reaction** below).
+> 
+> **Effect:** A creature or object takes 3 acid damage if they start their turn in the pool, and takes 3 acid damage for each square of the pool they enter.
 
-### \* **Activate**
+> ❗️ **Explosive Reaction** 
+> 
+> | **Area**       |                   **Free triggered action** |
+> |----------------|--------------------------------------------:|
+> | **📏 3 burst** | **🎯 Each creature and object in the area** |
+> 
+> **Trigger:** The pool takes fire damage.
+> 
+> **Power Roll + 2:**
+> 
+> - **≤11:** 3 fire damage; M < 1 the target is burning (save ends)
+> - **12-16:** 6 fire damage; M < 2 the target is burning (save ends)
+> - **17+:** 9 fire damage; M < 3 the target is burning (save ends) 
+> 
+> **Effect:** The liquid in the pool is consumed. This ability has a double edge against any target in the pool. A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round. Any target with acid weakness takes extra damage from this ability and while burning as if the fire damage were acid damage.
 
-A creature or object enters the corrosive pool or starts their turn there. The liquid in the pool is also highly volatile (see **Explosive Reaction** below).
+> ⭐️ **Allied Awareness**
+> 
+> Allies who have weapons are equipped with torches. Any ally can use a maneuver to throw a torch up to 5 squares and deal 1 fire damage to the pool, triggering Explosive Reaction.
 
-**Effect:** A creature or object takes 3 acid damage if they start their turn in the pool, and takes 3 acid damage for each square of the pool they enter.
-
-❗️ **Explosive Reaction** 2d10 + 2
-
-Area Free triggered action
-| --- | ---:|
-| **📏 3 burst** | **🎯 Each creature and object in the area** |
-
-**Trigger:** The pool takes fire damage.
-
-3 fire damage; m<1] the target is burning (save ends)
-
-6 fire damage; m<2] the target is burning (save ends)
-
-9 fire damage; m<3] the target is burning (save ends) **Effect:** The liquid in the pool is consumed. This ability has a dou-
-
-ble edge against any target in the pool. A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round. Any target with acid weakness takes extra damage from this ability and while burning as if the fire damage were acid damage.
-
-⭐️ **Allied Awareness**
-
-Allies who have weapons are equipped with torches. Any ally can use a maneuver to throw a torch up to 5 squares and deal 1 fire damage to the pool, triggering Explosive Reaction.
-
-### **Frozen Pond Level 1 Hazard Hexer**
-
-EV 1 per 10 x 10 pond
+######### Frozen Pond (Level 1 Hazard Hexer)
 
 A shallow, frozen patch of water features ice thick enough that it won't break, but its surface is slick and treacherous to navigate.
 
-**Stamina:** 3 per square **Size:** One or more squares of difficult terrain **Immunity:** 5 to all damage except fire damage
+- **EV:** 1 per 10 x 10 pond
+- **Stamina:** 3 per square
+- **Size:** One or more squares of difficult terrain
+- **Immunity:** 5 to all damage except fire damage
 
-🌀 **Deactivate**
+> 🌀 **Deactivate**
+> 
+> Destroying a square of the frozen pond turns the square into shallow icy water.
 
-Destroying a square of the frozen pond turns the square into shallow icy water.
+> ❕ **Activate**
+> 
+> A creature or object enters a square of the frozen pond without shifting.
+> 
+> **Effect:** The **Slippery Surface** ability.
 
-### \* **Activate**
+> ❗️ **Slippery Surface** 
+> 
+> | **Melee, Strike** |                **Free triggered action** |
+> |-------------------|-----------------------------------------:|
+> | **📏 Melee 0**    | **🎯 The triggering creature or object** |
+> 
+> **Trigger:** A creature or object enters a square of the frozen pond without shifting.
+> 
+> **Power Roll + 2:**
+> 
+> - **≤11:** Push 1 in the direction the target was moving
+> - **12-16:** Push 2 in the direction the target was moving; A < 1 slowed (save ends)
+> - **17+:** Push 3 in the direction the target was moving; A < 2 prone and can't stand (save ends)
+> 
+> **Effect:** The triggering creature's movement ends, then they are force moved. If the target triggered this ability by being force moved, this ability gains an edge and any remaining forced movement distance is added to the ability's forced movement. The ability's forced movement doesn't trigger the ability again.
 
-A creature or object enters a square of the frozen pond without shifting.
+> ⭐️ **Upgrade**
+> 
+> **Thin Ice (+1 EV)** The ice covering the pond is thin and the water is deeper. Whenever a creature or object enters or falls prone in a square of the frozen pond, that square is destroyed and replaced with icy water. The **Icy Water** ability replaces **Slippery Surface**.
+> 
+> Any creature who starts their turn in the icy water takes 1 cold damage. If the water is deep enough, a creature can swim beneath the surface of the frozen pond, but takes this cold damage while doing so.
 
-**Effect:** The **Slippery Surface** ability.
+❗️ **Icy Water** 
 
-❗️ **Slippery Surface** 2d10 + 2
+> **Power Roll + 2:**
+> 
+> | **Melee, Strike** |                **Free triggered action** |
+> |-------------------|-----------------------------------------:|
+> | **📏 Melee 0**    | **🎯 The triggering creature or object** |
+> 
+> **Trigger:** A creature or object enters or falls prone in a square of the frozen pond.
+> 
+> - **≤11:** Slide 1
+> - **12-16:** 1 cold damage; m<1] slowed (save ends) 
+> - **17+:** 3 cold damage; m<2] restrained (save ends)
+> 
+> **Effect:** The triggering creature's movement ends, then they are force moved if applicable.
 
-Melee, Strike Free triggered action
-
-| --- | ---:|
-| **📏 Melee 0** | **🎯 The triggering creature or object** |
-
-**Trigger:** A creature or object enters a square of the frozen pond without shifting.
-
-- 1 Push 1 in the direction the target was moving
-- 2 Push 2 in the direction the target was moving; a<1] slowed (save ends)
-- 3 Push 3 in the direction the target was moving; a<2] prone and can't stand (save ends)
-
-**Effect:** The triggering creature's movement ends, then they are force moved. If the target triggered this ability by being force moved, this ability gains an edge and any remaining forced movement distance is added to the ability's forced movement. The ability's forced movement doesn't trigger the ability again.
-
-⭐️ **Upgrade**
-
-**Thin Ice (+1 EV)** The ice covering the pond is thin and the water is deeper. Whenever a creature or object enters or falls prone in a square of the frozen pond, that square is destroyed and replaced with icy water. The **Icy Water** ability replaces **Slippery Surface**.
-
-Any creature who starts their turn in the icy water takes 1 cold damage. If the water is deep enough, a creature can swim beneath the surface of the frozen pond, but takes this cold damage while doing so.
-
-❗️ **Icy Water** 2d10 + 2
-
-Melee, Strike Free triggered action
-| --- | ---:|
-| **📏 Melee 0** | **🎯 The triggering creature or object** |
-
-**Trigger:** A creature or object enters or falls prone in a square of the frozen pond.
-
-Slide 1
-
-1 cold damage; m<1] slowed (save ends) 3 3 cold damage; m<2] restrained (save ends)
-
-**Effect:** The triggering creature's movement ends, then they are force moved if applicable.
-
-**Lava**
-
-**Lava Level 3 Hazard Hexer** EV 4 per 10 x 10 patch
+######### Lava (Level 3 Hazard Hexer)
 
 A patch of blisteringly hot molten rock wells up from the ground, threatening anyone who gets close to it.
 
-**Stamina:** 12 per square **Size:** One or more squares of difficult terrain **Immunity:** 20 to all damage except cold damage
+- **EV:** 4 per 10 x 10 patch
+- **Stamina:** 12 per square
+- **Size:** One or more squares of difficult terrain
+- **Immunity:** 20 to all damage except cold damage
 
-🌀 **Deactivate**
+> 🌀 **Deactivate**
+> 
+> Each square of lava must be individually destroyed.
 
-Each square of lava must be individually destroyed.
+> ❕ **Activate**
+> 
+> A creature or object enters the lava or starts their turn there, or starts their turn adjacent to the lava.
+> 
+> **Effect:** The **Liquid Hot Magma** ability.
 
-### \* **Activate**
+> ❗️ **Liquid Hot Magma** 
+> 
+> | **Melee, Strike** |                **Free triggered action** |
+> |-------------------|-----------------------------------------:|
+> | **📏 Melee 1**    | **🎯 The triggering creature or object** |
+> 
+> **Trigger:** A creature or object enters the lava or starts their turn there, or starts their turn adjacent to the lava.
+> 
+> **Power Roll + 2:**
+> 
+> - **≤11:** 5 fire damage; M < 1 the target is burning (save ends)
+> - **12-16:** 9 fire damage; M < 2 the target is burning (save ends)
+> - **17+:** 12 fire damage; M < 3 the target is burning (save ends)
+> 
+> **Effect:** If the target is adjacent to lava but not in it, this ability takes a bane. A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round.
 
-A creature or object enters the lava or starts their turn there, or starts their turn adjacent to the lava.
+> ⭐️ **Upgrade**
+> 
+> **Magma Flow (+4 EV)** The lava is flowing! At the start of each round, add one square of lava adjacent to an existing square of lava.
 
-######## Effect:** The **Liquid Hot Magma ability.
-
-❗️ **Liquid Hot Magma** 2d10 + 2
-
-Melee, Strike
-
-Melee, Strike Free triggered action
-| --- | ---:|
-| **📏 Melee 1** | **🎯 The triggering creature or object** |
-
-**Trigger:** A creature or object enters the lava or starts their turn
-
-there, or starts their turn adjacent to the lava.
-
-5 fire damage; m<1] the target is burning (save ends)
-
-9 fire damage; m<2] the target is burning (save ends)
-
-12 fire damage; m<3] the target is burning (save ends)
-
-**Effect:** If the target is adjacent to lava but not in it, this ability takes a bane. A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round.
-
-⭐️ **Upgrade**
-
-**Magma Flow (+4 EV)** The lava is flowing! At the start of each round, add one square of lava adjacent to an existing square of lava.
-
-**Quicksand**
-
-**Quicksand Level 3 Hazard Hexer** EV 3 per 10 x 10 patch
+######### Quicksand (Level 3 Hazard Hexer)
 
 When this patch of sand is stepped on, it is revealed to be a slurry saturated by water-and ready to draw creatures down to their doom.
 
-**Stamina:** - **Size:** One or more squares
+- **EV:** 3 per 10 x 10 patch
+- **Stamina:** -
+- **Size:** One or more squares
 
-🌀 **Deactivate**
+> 🌀 **Deactivate**
+> 
+> -
 
--
+> ❕ **Activate**
+> 
+> A creature or object enters the quicksand or starts their turn there.
+> 
+> **Effect:** The **Grasping Depths** ability.
 
-### \* **Activate**
+> ❗️ **Grasping Depths** 
+>
+> | **Melee, Strike** |                **Free triggered action** |
+> |-------------------|-----------------------------------------:|
+> | **📏 Melee 0**    | **🎯 The triggering creature or object** |
+>
+> **Trigger:** A creature or object enters the quicksand or starts their turn there.
+> 
+> **Power Roll + 2:**
+> 
+> - **≤11:** M < 0 slowed (save ends)
+> - **12-16:** M < 1 restrained (save ends)
+> - **17+:** M < 2 restrained (save ends)
+> 
+> **Effect:** This ability takes a bane if a triggering creature shifted into the quicksand. A character who starts their turn restrained this way is suffocating.
 
-A creature or object enters the quicksand or starts their turn there.
+> ⭐️ **Hidden**
+> 
+> The quicksand is hidden until triggered or detected.
 
-**Effect:** The **Grasping Depths** ability.
-
-| ! Grasping Depths 2d10 + 2 |                                                                    |
-|----------------------------|--------------------------------------------------------------------|
-| Melee, Strike              | Free triggered action                                              |
-| e Melee 0                  | x The triggering creature or object                                |
-|                            | Trigger: A creature or object enters the quicksand or starts their |
-
-turn there.
-
-m<0] slowed (save ends)
-
-m<1] restrained (save ends)
-
-m<2] restrained (save ends)
-
-**Effect:** This ability takes a bane if a triggering creature shifted into the quicksand. A character who starts their turn restrained this way is suffocating.
-
-⭐️ **Hidden**
-
-The quicksand is hidden until triggered or detected.
-
-# Toxic Plants
-
-**Toxic Plants Level 2 Hazard Hexer** EV 2 per 10 x 10 field
+######### Toxic Plants (Level 2 Hazard Hexer)
 
 Colorful mushrooms or lovely flowering plants release a cloud of spores or pollen when disturbed, causing creatures to fall into a magical slumber.
 
-**Stamina:** 3 per square
+- **EV:** 2 per 10 x 10 field
+- **Stamina:** 3 per square
+- **Size:** One or more squares
 
-**Stamina:** 3 per square **Size:** One or more squares
+> 🌀 **Deactivate**
+> 
+> Each square of plants must be individually destroyed.
 
-🌀 **Deactivate**
+> ❕ **Activate**
+> 
+> A creature starts their turn in the area of the toxic plants, or enters a square of toxic plants without shifting.
+> 
+> **Effect:** The **Sleep Spores** ability.
 
-Each square of plants must be individually destroyed.
+> ❗️ **Sleep Spores** 
+> 
+> | **Magic, Melee, Strike** |      **Free triggered action** |
+> |--------------------------|-------------------------------:|
+> | **📏 Melee 0**           | **🎯 The triggering creature** |
+> 
+> Magic, Melee, Strike Free triggered action
+> 
+> **Trigger:** A creature starts their turn in the area of the toxic plants, or enters a square of toxic plants without shifting.
+> 
+> **Power Roll + 2:**
+> 
+> - **≤11:** M < 0 dazed (save ends) 
+> - **12-16:** M < 1 dazed (save ends) 
+> - **17+:** M < 2 dazed (save ends)
+> 
+> **Effect:** While dazed this way, a target who starts their turn in the area of the toxic plants falls prone and can't stand.
 
-### \* **Activate**
+> ⭐️ **Upgrades**
+> 
+> **Poisonous Spores (+2 EV)** Any creature dazed by this hazard takes 1d6 poison damage at the start of each of their turns.
+> 
+> **Carnivorous Plants (+2 EV)** The plants are carnivorous and attempt to slowly digest any creature who falls among them. Any creature who starts their turn prone in the area takes 4 acid damage.
 
-A creature starts their turn in the area of the toxic plants, or enters a square of toxic plants without shifting.
-
-**Effect:** The **Sleep Spores** ability.
-
-❗️ **Sleep Spores** 2d10 + 2
-
-| --- | ---:|
-| **📏 Melee 0** | **🎯 The triggering creature** |
-
-Magic, Melee, Strike Free triggered action
-
-**Trigger:** A creature starts their turn in the area of the toxic plants, or enters a square of toxic plants without shifting.
-
-m<0] dazed (save ends) 2 m<1] dazed (save ends) 3 m<2] dazed (save ends)
-
-**Effect:** While dazed this way, a target who starts their turn in the area of the toxic plants falls prone and can't stand.
-
-⭐️ **Upgrades**
-
-**Poisonous Spores (+2 EV)** Any creature dazed by this hazard takes 1d6 poison damage at the start of each of their turns.
-
-**Carnivorous Plants (+2 EV)** The plants are carnivorous and attempt to slowly digest any creature who falls among them. Any creature who starts their turn prone in the area takes 4 acid damage.
-
-## Fieldworks
+### Fieldworks
 
 Fieldworks represent temporary military fortifications meant to give defenders an edge in an encounter.
 
-**Archer's Stakes Level 1 Fortification Defender**
+######### Archer's Stakes (Level 1 Fortification Defender)
 
 A series of sharp stakes have been placed point-out to protect defenders against charges and other direct attacks.
 
-EV 2
+- **EV:** 2
+- **Stamina:** 3 per square
+- **Size:** One or more squares of difficult terrain 
+- **Typical Space:** 4 x 1-square area
+- **Direction:** One side of the stakes is defined as the front.
 
-**Stamina:** 3 per square **Size:** One or more squares of difficult terrain **Typical Space:** 4 x 1-square area
+> 🌀 **Deactivate**
+> 
+> Each square of stakes must be individually destroyed.
 
-**Direction:** One side of the stakes is defined as the front.
+> ❕ **Activate**
+> 
+> A creature enters an area of stakes from the front.
+> 
+> **Effect:** The triggering creature takes 2 damage per square of stakes they enter. If they are force moved into an area of stakes, they take an additional 3 damage.
 
-🌀 **Deactivate**
+> ⭐️ **Upgrades**
+> 
+> **Poison (+2 EV)** The tips of the stakes have poison applied to them. Any creature who takes damage from the stakes also takes 1d6 poison damage at the start of each of their turns (save ends).
+> 
+> **Sticky (+3 EV)** A sticky slime or webbing has been applied to the stakes and the ground between them. Any creature who enters an area of stakes triggers the **Sticky Stakes** ability in addition to suffering the stakes' other effects.
 
-Each square of stakes must be individually destroyed.
+> ❗️ **Sticky Stakes** 
+> 
+> | **Melee, Strike, Weapon** |                **Free triggered action** |
+> |---------------------------|-----------------------------------------:|
+> | **📏 Melee 0**            | **🎯 The triggering creature or object** |
+> 
+> **Trigger:** A creature or object enters an area of sticky stakes.
+> 
+> **Power Roll + 2:**
+> 
+> - **≤11:** No effect.
+> - **12-16:** A < 1 slowed (save ends) 
+> - **17+:** A < 2 restrained (save ends)
 
-### \* **Activate**
+> ⭐️ **Allied Awareness**
+> 
+> Allies of this object ignore the difficult terrain created by the stakes, take no damage from moving through the stakes unless they are force moved, and have cover while in an area of archer's stakes.
 
-A creature enters an area of stakes from the front.
-
-**Effect:** The triggering creature takes 2 damage per square of stakes they enter. If they are force moved into an area of stakes, they take an additional 3 damage.
-
-⭐️ **Upgrades**
-
-**Poison (+2 EV)** The tips of the stakes have poison applied to them. Any creature who takes damage from the stakes also takes 1d6 poison damage at the start of each of their turns (save ends).
-
-**Sticky (+3 EV)** A sticky slime or webbing has been applied to the stakes and the ground between them. Any creature who enters an area of stakes triggers the **Sticky Stakes** ability in addition to suffering the stakes' other effects.
-
-❗️ **Sticky Stakes** 2d10 + 2
-
-Melee, Strike, Weapon
-
-▲ Melee 0
-
-Melee, Strike, Weapon Free triggered action
-| --- | ---:|
-| **📏 Melee 0** | **🎯 The triggering creature or object** |
-
-**Trigger:** A creature or object enters an area of sticky stakes.
-
-No effect.
-
-a<1] slowed (save ends) 3 a<2] restrained (save ends)
-
-⭐️ **Allied Awareness**
-
-Allies of this object ignore the difficult terrain created by the stakes, take no damage from moving through the stakes unless they are force moved, and have cover while in an area of archer's stakes.
-
-**Bear Trap Level 1 Trap Ambusher** EV 2
-
----
+######### Bear Trap (Level 1 Trap Ambusher)
 
 A set of spring-loaded steel jaws stands ready to snap shut when stepped on.
 
-######## Stamina:** 6 **Size: 1S
+- **EV:** 2
+- **Stamina:** 6 
+- **Size: 1S
 
-🌀 **Deactivate**
+> 🌀 **Deactivate**
+> 
+> As a maneuver, a creature adjacent to a bear trap can make an **Agility test**.
+> 
+> - **≤11:** The creature triggers the trap and is affected as if in its space. 
+> - **12-16:** The trap is deactivated but the creature is slowed (EoT). 
+> - **17+:** The trap is deactivated and doesn't trigger.
 
-As a maneuver, a creature adjacent to a bear trap can make an **Agility test**.
+> ❕ **Activate**
+> 
+> The bear trap is calibrated to be triggered by creatures or objects of a particular size or larger. The trap triggers when a creature or object of the appropriate size enters its space.
+> 
+> **Effect:** A triggering creature or object ends their movement and is targeted by the **Bear Trap** ability.
 
-The creature triggers the trap and is affected as if in its space. 2 The trap is deactivated but the creature is slowed (EoT). 3 The trap is deactivated and doesn't trigger.
+> ❗️ **Bear Trap** 
+> 
+> | **Melee, Strike, Weapon** |                **Free triggered action** |
+> |---------------------------|-----------------------------------------:|
+> | **📏 Melee 0**            | **🎯 The triggering creature or object** |
+> 
+> **Trigger:** A creature or object of the appropriate size enters the trap's space. 
+> 
+> **Power Roll + 2:**
+> 
+> - **≤11:** 1 The target shifts 1 square away from the trap.
+> - **12-16:** 3 damage; A < 1 slowed (save ends)
+> - **17+:** 5 damage; A < 2 slowed (save ends)
+> 
+> **Effect:** The bear trap must be manually reset.
 
-### \* **Activate**
+> ⭐️ **Upgrade**
+> 
+> **Chain (+1 EV)** The bear trap is attached to the ground by a steel chain. A target who would be made slowed by the trap is restrained instead.
 
-The bear trap is calibrated to be triggered by creatures or objects of a particular size or larger. The trap triggers when a creature or object of the appropriate size enters its space.
+> ⭐️ **Hidden**
+> 
+> The bear trap is hidden until triggered or detected.
 
-**Effect:** A triggering creature or object ends their movement and is targeted by the **Bear Trap** ability.
-
-❗️ **Bear Trap** 2d10 + 2
-
-Melee, Strike, Weapon Free triggered action
-| --- | ---:|
-| **📏 Melee 0** | **🎯 The triggering creature or object** |
-
-ing creature or object
-
-**Trigger:** A creature or object of the appropriate size enters the
-
-trap's space. 1 The target shifts 1 square away from the trap.
-
-3 damage; a<1] slowed (save ends)
-
-5 damage; a<2] slowed (save ends)
-
-**Effect:** The bear trap must be manually reset.
-
-⭐️ **Upgrade**
-
-**Chain (+1 EV)** The bear trap is attached to the ground by a steel chain. A target who would be made slowed by the trap is restrained instead.
-
-⭐️ **Hidden**
-
-The bear trap is hidden until triggered or detected.
-
-**Flammable Oil Level 1 Trap Ambusher** EV 2 per 10 x 10 patch
+######### Flammable Oil (Level 1 Trap Ambusher)
 
 A patch of flammable oil or pitch on the ground is ready to be ignited.
 
-**Stamina:** - **Size:** One or more squares
+- **EV:** 2 per 10 x 10 patch
+- **Stamina:** -
+- **Size:** One or more squares
 
-🌀 **Deactivate**
+> 🌀 **Deactivate**
+> 
+> As a maneuver, a creature adjacent to a patch of flammable oil can make an **Agility test**.
+> 
+> - **≤11:** The creature ignites the oil and is affected as if in its area.
+> - **12-16:** The oil temporarily ignites before safely burning out, and the creature takes 3 fire damage and is burning (save ends).
+> - **17+:** The oil is rendered safe and can't be ignited.
 
-As a maneuver, a creature adjacent to a patch of flammable oil can make an **Agility test**.
+> ❕ **Activate**
+> 
+> A creature or object in a square of oil takes fire damage, or a creature or object enters a square of burning oil or starts their turn there.
+> 
+> **Effect:** The triggering creature or object takes 3 fire damage and is burning (save ends). A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round.
 
-The creature ignites the oil and is affected as if in its area.
+> ⭐️ **Upgrade**
+> 
+> **Concealed Oil (+1 EV)** The oil is hidden until it ignites.
 
-- 2 The oil temporarily ignites before safely burning out, and the creature takes 3 fire damage and is burning (save ends).
-- 3 The oil is rendered safe and can't be ignited.
+> ⭐️ **Allied Awareness**
+> 
+> Allies who have weapons are equipped with torches. Any ally can use a maneuver to throw a torch up to 5 squares and ignite the flammable oil.
 
-### \* **Activate**
-
-A creature or object in a square of oil takes fire damage, or a creature or object enters a square of burning oil or starts their turn there.
-
-**Effect:** The triggering creature or object takes 3 fire damage and is burning (save ends). A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round.
-
-⭐️ **Upgrade**
-
-**Concealed Oil (+1 EV)** The oil is hidden until it ignites.
-
-⭐️ **Allied Awareness**
-
-Allies who have weapons are equipped with torches. Any ally can use a maneuver to throw a torch up to 5 squares and ignite the flammable oil.
-
-**Hidey-Hole Level 1 Fortification Ambusher** EV 1
+######### Hidey-Hole (Level 1 Fortification Ambusher)
 
 A cavity in a floor, wall, or ceiling might hold hidden threats.
 
-**Stamina:**-
+- **EV:** 1
+- **Stamina:** -
+- **Size:** One or more squares
 
-**Stamina:** - **Size:** One or more squares
+> 🌀 **Deactivate**
+> 
+> As a maneuver, a creature adjacent to a hidey-hole can make a **Might test**.
+> 
+> - **≤11:** The creature is restrained (save ends).
+> - **12-16:** The hidey-hole collapses but the creature is slowed (save ends). 
+> - **17+:** The hidey-hole collapses and can no longer be used until repaired.
 
-🌀 **Deactivate**
+> ❕ **Activate**
+> 
+> A creature starts the encounter in the hidey-hole or ends their turn there.
+> 
+> **Effect:** The triggering creature can attempt to hide as a free triggered action.
 
-As a maneuver, a creature adjacent to a hidey-hole can make a **Might test**.
+> ⭐️ **Upgrade**
+> 
+> **Network (+1 EV per hidey-hole)** The hidey-hole is connected to a tunnel network. A creature familiar with the network can move from one hidey-hole to any space adjacent to a connected hidey-hole if they have movement available equal to the straight-line distance to that space. A creature unfamiliar with the network can use a maneuver to make a **hard Intuition test** to discover a connected hidey-hole.
 
-- 1 The creature is restrained (save ends).
-- 2 The hidey-hole collapses but the creature is slowed
-- (save ends). 3 The hidey-hole collapses and can no longer be used until repaired.
-
-### \* **Activate**
-
-A creature starts the encounter in the hidey-hole or ends their turn there.
-
-**Effect:** The triggering creature can attempt to hide as a free triggered action.
-
-⭐️ **Upgrade**
-
-**Network (+1 EV per hidey-hole)** The hidey-hole is connected to a tunnel network. A creature familiar with the network can move from one hidey-hole to any space adjacent to a connected hidey-hole if they have movement available equal to the straight-line distance to that space. A creature unfamiliar with the network can use a maneuver to make a **hard Intuition test** to discover a connected hidey-hole.
-
-**Pavise Shield**
-
-**Pavise Shield Level 1 Fortification Defender** EV 1
+######### Pavise Shield (Level 1 Fortification Defender)
 
 A reinforced metal shield embedded in the ground acts as cover for the creature controlling it.
 
-**amina:** 9
-
-**Stamina:** 9 **Size:** 1M
+- **EV:** 1
+- **Stamina:** 9
+- **Size:** 1M
 
 🌀 **Deactivate**
 
 As a maneuver, a creature adjacent to a pavise shield controlled by another creature can make a **Might test**.
 
-- 1 The creature controlling the shield retains control of it and can make an opportunity attack against the creature making the test.
-- 2 The creature controlling the shield retains control of it. 3 The creature making the test grabs the shield and takes control of it.
+- **≤11:** The creature controlling the shield retains control of it and can make an opportunity attack against the creature making the test.
+- **12-16:** The creature controlling the shield retains control of it. 
+- **17+:** The creature making the test grabs the shield and takes control of it.
 
-**Effect:** While a creature has the pavise shield grabbed, they have cover and take half damage from abilities whose line of effect extends through the shield. The pavise shield takes the other half of the damage.
+> ❕ **Activate**
+> 
+> **Effect:** While a creature has the pavise shield grabbed, they have cover and take half damage from abilities whose line of effect extends through the shield. The pavise shield takes the other half of the damage.
+> 
+> **Movement:** While a creature has a pavise shield grabbed, their speed is halved and they move the shield like a grabbed creature.
 
-**Movement:** While a creature has a pavise shield grabbed, their speed is halved and they move the shield like a grabbed creature.
-
-**Snare Trap Level 1 Trap Ambusher** EV 1
-
-EV
+######### Snare Trap (Level 1 Trap Ambusher)
 
 A rope snare is set to grab a target, leaving them hanging upside down.
 
-######## Stamina:** 1 **Size: 1S
+- **EV:** 1
+- **Stamina:** 1 
+- **Size:** 1S
 
-🌀 **Deactivate**
+> 🌀 **Deactivate**
+> 
+> As a maneuver, a creature adjacent to a snare trap can make an **Agility test**.
+> 
+> - **≤11:** The creature triggers the trap and is affected as if in its space. 
+> - **12-16:** The trap is deactivated but the creature is slowed (EoT).
+> - **17+:** The trap is deactivated and doesn't trigger.
 
-As a maneuver, a creature adjacent to a snare trap can make an **Agility test**.
+> ❕ **Activate**
+> 
+> The snare trap is calibrated to be triggered by creatures or objects of a particular size or larger. The trap triggers when a creature or object of the appropriate size enters its space.
+> 
+> **Effect:** A triggering creature or object ends their movement and is targeted by the **Snare** ability.
 
-$\sqrt{11}$  The
+> ❗️ **Snare** 
+> 
+> | **Melee, Strike, Weapon** |                **Free triggered action** |
+> |---------------------------|-----------------------------------------:|
+> | **📏 Melee 0**            | **🎯 The triggering creature or object** |
+> 
+> **Trigger:** A creature or object of the appropriate size enters the trap's space.
+> 
+> **Power Roll + 2:**
+> 
+> - **≤11:** The target shifts 1 square away from the snare.
+> - **12-16:** 1 damage; A < 1 restrained (save ends)
+> - **17+:** 3 damage; A < 2 restrained (save ends)
+> 
+> **Effect:** A creature restrained this way is vertical pulled 2 squares and suspended in the air by the snare line. On a successful save, the snare is cut or breaks and the creature falls to the ground. The snare must be manually reset.
 
-The creature triggers the trap and is affected as if in its space. 2 The trap is deactivated but the creature is slowed (EoT).
+> ⭐️ **Upgrade**
+> 
+> **Net Trap (+1 EV)** The snare becomes a net that can wrap up multiple targets. The net has 3 Stamina and fills an area of 3 squares by 3 squares. The Snare ability loses its existing keywords, gains the Area keyword, and targets each creature or object in the area. The trap can be triggered by a target moving through one specific square, or by requiring multiple squares to be moved through. Any creature who makes their save to end the restrained effect ends that effect for all targets, who all fall to the ground.
 
-The trap is deactivated and doesn't trigger.
+> ⭐️ **Hidden**
+> 
+> The snare trap is hidden until triggered or detected.
 
-### \* **Activate**
-
-The snare trap is calibrated to be triggered by creatures or objects of a particular size or larger. The trap triggers when a creature or object of the appropriate size enters its space.
-
-**Effect:** A triggering creature or object ends their movement and is targeted by the **Snare** ability.
-
-❗️ **Snare** 2d10 + 2 Melee, Strike, Weapon Free triggered action
-| --- | ---:|
-| **📏 Melee 0** | **🎯 The triggering creature or object** |
-
-Free triggered action
-triggering creature or object
-
-**Trigger:** A creature or object of the appropriate size enters the trap's space.
-
-The target shifts 1 square away from the snare.
-
-1 damage; a<1] restrained (save ends)
-
-3 damage; a<2] restrained (save ends)
-
-**Effect:** A creature restrained this way is vertical pulled 2 squares and suspended in the air by the snare line. On a successful save, the snare is cut or breaks and the creature falls to the ground. The snare must be manually reset.
-
-⭐️ **Upgrade**
-
-**Net Trap (+1 EV)** The snare becomes a net that can wrap up multiple targets. The net has 3 Stamina and fills an area of 3 squares by 3 squares. The Snare ability loses its existing keywords, gains the Area keyword, and targets each creature or object in the area. The trap can be triggered by a target moving through one specific square, or by requiring multiple squares to be moved through. Any creature who makes their save to end the restrained effect ends that effect for all targets, who all fall to the ground.
-
-⭐️ **Hidden**
-
-The snare trap is hidden until triggered or detected.
-
-**Spike Trap**
-
-**Spike Trap Level 2 Trap Ambusher** EV 3
+######### Spike Trap (Level 2 Trap Ambusher)
 
 A pit dug into the ground is filled with spikes, and camouflaged to avoid detection.
 
-######## Stamina:** 6 **Size: One or more squares
+- **EV:** 3
+- **Stamina:** 6 
+- **Size:** One or more squares
+- **Typical Space:** 2 x 2-square area
 
-**Typical Space:** 2 x 2-square area
+> 🌀 **Deactivate**
+> 
+> As a maneuver, a creature adjacent to a spike trap can make an **Agility test**.
+> 
+> - **≤11:** The creature triggers the trap and is affected as if in its area.
+> - **12-16:** The trap is deactivated but the creature is slowed (EoT).
+> - **17+:** The trap is deactivated and doesn't trigger.
 
-🌀 **Deactivate**
+> ❕ **Activate**
+> 
+> The spike trap is calibrated to be triggered by creatures or objects of a particular size or larger. The trap triggers when a creature or object of the appropriate size enters its area.
+> 
+> **Effect:** The **Spike Trap** ability.
 
-As a maneuver, a creature adjacent to a spike trap can make an **Agility test**.
+> ❗️ **Spike Trap** 
+> 
+> | **Area, Weapon** |                **Free triggered action** |
+> |------------------|-----------------------------------------:|
+> | **📏 Melee 0**   | **🎯 The triggering creature or object** |
+> 
+> **Trigger:** A creature or object of the appropriate size enters the trap's area.
+> 
+> **Power Roll + 2:**
+> 
+> - **≤11:** 3 damage; the target shifts 1 square away from the trap
+> - **12-16:** 4 damage; the target falls into the pit; A < 0 prone
+> - **17+:** 6 damage; the target falls into the pit; A < 1 prone; restrained (save ends)
+> 
+> **Effect:** The target ends their movement when they enter the trap's area. The pit is typically 2 squares deep. The trap must be manually reset.
 
-The creature triggers the trap and is affected as if in its area.
+> ⭐️ **Hidden**
+> 
+> The spike trap is hidden until triggered or detected.
 
-- 2 The trap is deactivated but the creature is slowed (EoT).
-- 3 The trap is deactivated and doesn't trigger.
-
-### \* **Activate**
-
-The spike trap is calibrated to be triggered by creatures or objects of a particular size or larger. The trap triggers when a creature or object of the appropriate size enters its area.
-
-**Effect:** The **Spike Trap** ability.
-
-❗️ **Spike Trap** 2d10 + 2
-
-- ![triangle ruler icon](image)
-- Melee 0
-
-Area, Weapon Free triggered action
-| --- | ---:|
-| **📏 Melee 0** | **🎯 The triggering creature or object** |
-
-**Trigger:** A creature or object of the appropriate size enters the trap's area.
-
-- 1 3 damage; the target shifts 1 square away from the trap
-- 2 4 damage; the target falls into the pit; a<0] prone
-- 3 6 damage; the target falls into the pit; a<1] prone;
-- restrained (save ends)
-
-**Effect:** The target ends their movement when they enter the trap's area. The pit is typically 2 squares deep. The trap must be manually reset.
-
-⭐️ **Hidden**
-
-The spike trap is hidden until triggered or detected.
-
-# Mechanisms
+### Mechanisms
 
 Mechanisms represent any number of intricate devices that can complicate a battle. Unlike more straightforward traps, a mechanism is often linked to another triggering mechanism that activates it.
 
-| Column of Blades                                                                                                                                                                                                              |                 | Level 3 Fortification Defender<br>EV 3 |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------|----------------------------------------|
-| A spinning wooden column is affixed with sharp blades to<br>slash the unwary.                                                                                                                                                 |                 |                                        |
-| Stamina: **5**                                                                                                                                                                                                             | Size: **1L** |                                        |
+######### Column of Blades (Level 3 Fortification Defender)
+
+A spinning wooden column is affixed with sharp blades to slash the unwary.
+
+- **EV:** 3
+- **Stamina:** 5
+- **Size:** 1L
+
 | **⦾ Deactivate**<br>The column of blades must be completely destroyed.                                                                                                                                                     |                 |                                        |
-| **! Activate**<br>A creature or object moves adjacent to the column of blades.<br>**Effect:** The **Spinning Blades** ability.                                                                                       |                 |                                        |
-| **! Spinning Blades** 2d10 + 2<br>Melee, Strike, Weapon<br>*** The triggering creature or object |                 |                                        |
+| **! Activate**<br>A creature or object moves adjacent to the column of blades.<br>
+
+**Effect:** The **Spinning Blades** ability.                                                                                       |                 |                                        |
+| **! Spinning Blades** 
+
+**Power Roll + 2:**<br>Melee, Strike, Weapon<br>*** The triggering creature or object |                 |                                        |
 
 **Trigger:** A creature or object moves within distance of the column. 1 4 damage
 
@@ -606,7 +619,9 @@ Mechanisms represent any number of intricate devices that can complicate a battl
 
 **Spiked Flails (+4 EV)** Instead of blades, the column is affixed with heavy spiked balls attached by long chains. The **Whirling Flails** ability replaces **Spinning Blades**.
 
-❗️ **Whirling Flails** 2d10 + 2
+❗️ **Whirling Flails** 
+
+**Power Roll + 2:**
 
 Melee, Strike, Weapon Free triggered action
 
@@ -632,7 +647,10 @@ A concealed dart thrower hurls missiles at short range.
 
 EV 1
 
-**Stamina:** 3 **Size:** 1S
+- 
+- **Stamina:** 3
+-
+- **Size:** 1S
 
 **Direction** The dart trap fires in a fixed direction.
 
@@ -646,7 +664,9 @@ A pressure plate, switch, or other linked trigger is activated.
 
 **Effect:** The **Dart** ability.
 
-❗️ **Dart** 2d10 + 2
+❗️ **Dart** 
+
+**Power Roll + 2:**
 
 Ranged, Strike, Weapon Free triggered action
 
@@ -677,7 +697,7 @@ p can make an
 
 The trap is deactivated and doesn't trigger.
 
-### \* **Activate**
+❕ **Activate**
 
 A pressure plate, switch, or other linked trigger is activated. **Effect:** The **Dart** ability.
 
@@ -686,25 +706,31 @@ Veapon
 | --- | ---:|
 | **📏 Ranged 5** | **🎯 One creature or object** |
 
-### **Pillar Level 2 Hazard Hexer**
+######### Pillar (Level 2 Hazard Hexer)
+
 
 EV 3
 
 This stone pillar can be toppled onto unsuspecting foes with the right amount of damage or a well-engineered trigger mechanism.
 
-**Stamina:** 6 **Size:** One square that can't be moved through **Direction:** The pillar topples in a preset direction.
+- 
+- **Stamina:** 6
+-
+- **Size:** One square that can't be moved through **Direction:** The pillar topples in a preset direction.
 
 🌀 **Deactivate**
 
 The pillar's linked trigger must be deactivated.
 
-### \* **Activate**
+❕ **Activate**
 
 The pillar is destroyed, or a pressure plate, switch, or other linked trigger is activated.
 
 ### **Effect:** The **Toppling Pillar** ability.
 
-❗️ **Toppling Pillar** 2d10 + 2
+❗️ **Toppling Pillar** 
+
+**Power Roll + 2:**
 
 Area
 
@@ -730,7 +756,9 @@ e 4 x 1 line within 1 x Each creature and object in the area **Trigger:** The pi
 
 A portcullis is hidden in the ceiling of a passage or choke point, waiting to drop when activated.
 
-**Stamina:** 9 per square **Size:** The area of the corridor to be blocked **Typical Space:** 2 x 1-square area, up to a 4 x 2-square area
+
+- **Stamina:** 9 per square
+- **Size:** The area of the corridor to be blocked **Typical Space:** 2 x 1-square area, up to a 4 x 2-square area
 
 🌀 **Deactivate**
 
@@ -740,11 +768,13 @@ As a maneuver, a creature adjacent to a portcullis can make an **Agility test**.
 - its area. 2 The portcullis is deactivated but the creature is slowed (EoT).
 - 3 The portcullis is deactivated and doesn't trigger.
 
-### \* **Activate**
+❕ **Activate**
 
 A pressure plate, switch, or other linked trigger is activated. **Effect:** The **Heavy Gate** ability.
 
-❗️ **Heavy Gate** 2d10 + 2
+❗️ **Heavy Gate** 
+
+**Power Roll + 2:**
 
 Area, Weapon
 - Special
@@ -771,7 +801,10 @@ The portcullis is hidden until triggered or detected.
 
 This mechanism acts as a trigger for another linked mechanism, and is skillfully hidden from view in the floor.
 
-### **Stamina:** - **Size:** Any area
+### - 
+- **Stamina:** -
+-
+- **Size:** Any area
 
 **Typical Space:** One square, up to a 4 x 4-square area
 
@@ -786,7 +819,7 @@ The creature triggers the pressure plate.
 - 2 The pressure plate is deactivated but the creature is slowed (EoT).
 - 3 The pressure plate is deactivated and doesn't trigger.
 
-### \* **Activate**
+❕ **Activate**
 
 The pressure plate is calibrated to be triggered by creatures or objects of a particular size. The pressure plate triggers when a creature or object of the appropriate size enters its area.
 
@@ -804,7 +837,10 @@ The pressure plate is hidden until triggered or detected.
 
 A counterweighted pulley system can be used to quickly ascend to the top of a wall, scaffold, tower, or other structure.
 
-**Stamina:** 1 **Size:** 1S
+- 
+- **Stamina:** 1
+-
+- **Size:** 1S
 
 🌀 **Deactivate**
 
@@ -813,7 +849,7 @@ As a maneuver, a creature adjacent to a pulley can make an **Agility test**.
 - 1 The creature triggers the pulley.
 - 2 The pulley is deactivated but the creature is slowed (EoT). 3 The pulley is deactivated and doesn't trigger.
 
-### \* **Activate**
+❕ **Activate**
 
 A creature adjacent to the pulley uses a maneuver to release the pulley.
 
@@ -833,7 +869,9 @@ EV
 
 A heavy wooden ram drops down or swings into the fray, crushing all in its path.
 
-**Stamina:** 3 per square **Size:** Any area; the area can't be moved through **Typical Space:** 1 x 3-square area or a 2 x 2-square area **Direction:** One side of the ram is defined as the front.
+
+- **Stamina:** 3 per square
+- **Size:** Any area; the area can't be moved through **Typical Space:** 1 x 3-square area or a 2 x 2-square area **Direction:** One side of the ram is defined as the front.
 
 🌀 **Deactivate**
 
@@ -844,11 +882,13 @@ As a maneuver, a creature adjacent to a ram can make an
 - 2 The ram is deactivated but the creature is slowed (EoT). 3 The ram is deactivated and doesn't trigger.
 -
 
-### \* **Activate**
+❕ **Activate**
 
 A pressure plate, switch, or other linked trigger is activated. **Effect:** The **Ram** ability.
 
-❗️ **Ram** 2d10 + 2
+❗️ **Ram** 
+
+**Power Roll + 2:**
 
 Area, Weapon
 ▮ Special
@@ -885,7 +925,10 @@ The ram is hidden until triggered or detected.
 
 Set into any surface, this mechanism acts as a trigger for another linked mechanism.
 
-### **Stamina:** 3 **Size:** 1T
+### - 
+- **Stamina:** 3
+-
+- **Size:** 1T
 
 **Link:** A switch is linked to another mechanism that it activates when triggered.
 
@@ -897,7 +940,7 @@ As a maneuver, a creature adjacent to a switch can make an **Agility test**.
 - 2 The switch is deactivated but the creature is slowed (EoT).
 - 3 The switch is deactivated and doesn't trigger.
 
-### \* **Activate**
+❕ **Activate**
 
 A creature adjacent to the switch uses a maneuver to trigger it.
 
@@ -917,7 +960,9 @@ Power fixtures are especially potent fortifications for solo creatures and small
 
 An empowering monument to a higher power enables a villain's machinations.
 
-**Stamina:** 35 **Size:** 2
+
+- **Stamina:** 35
+- **Size:** 2
 
 **Size:**
 
@@ -931,7 +976,9 @@ At the start of each round while the holy idol is intact, the Director gains a d
 
 **Psionic Shard Level 5 Fortification Defender** EV 7
 
-A massive humming crystal makes the air around it feel thick. **Stamina:** 40 **Size:** 2
+A massive humming crystal makes the air around it feel thick. 
+- **Stamina:** 40
+- **Size:** 2
 
 🌀 **Deactivate**
 
@@ -949,9 +996,12 @@ A psionic shard is attuned to one side in an encounter. While a psionic shard is
 
 **Effect:** The shard releases a shockwave channeled through each creature affected by Psionic Barrier. Each ally in the encounter is dazed until the end of their next turn.
 
-**Tree of Might Level 5 Hazard Hexer**
+######### Tree of Might (Level 5 Hazard Hexer)
 
-EV 14 A gnarled tree has unearthed roots that writhe and curl. **Stamina:** 60 **Size:** 3
+
+EV 14 A gnarled tree has unearthed roots that writhe and curl. 
+- **Stamina:** 60
+- **Size:** 3
 
 **Immunity:** 5 to all damage except corruption or fire damage
 
@@ -980,7 +1030,9 @@ Multiple minions in a squad can activate different aspects of a siege engine usi
 | Arrow Launcher                                                                                             | Level 2 Siege Engine Artillery<br>EV 8 |
 |------------------------------------------------------------------------------------------------------------|----------------------------------------|
 | A small wooden cart uses alchemical rockets to launch up to a hundred arrows at a time across a wide area. |                                        |
-| **Stamina:** 30                                                                                         | **Size:** 1L                        |
+| 
+- **Stamina:** 30                                                                                         |
+- **Size:** 1L                        |
 
 🌀 **Deactivate**
 
@@ -991,7 +1043,9 @@ The creature accidentally activates the **Arrow Storm** ability.
 - 2 The arrow launcher is deactivated but the creature is slowed (EoT).
 - 3 The arrow launcher is deactivated and can't be used.
 
-🔳 **Arrow Storm** 2d10 + 2
+🔳 **Arrow Storm** 
+
+**Power Roll + 2:**
 
 - Area, Ranged, Weapon Main action (Adjacent creature) e 5 cube within 20 x Each creature and object in the area
 - 1 5 damage
@@ -1024,7 +1078,9 @@ The creature accidentally activates the **Arrow Storm** ability.
 
 **Screamers (+3 EV)** The arrows make a high-pitched screaming noise as they are fired and descend onto their targets. The **Screamers** ability replaces **Arrow Storm**.
 
-🔳 **Screamers** 2d10 + 2
+🔳 **Screamers** 
+
+**Power Roll + 2:**
 
 | Area, Ranged, Weapon              | Main action (Adjacent creature)                              |
 |-----------------------------------|--------------------------------------------------------------|
@@ -1042,7 +1098,9 @@ The creature accidentally activates the **Arrow Storm** ability.
 
 A large cauldron of boiling oil stands ready to be poured onto enemies.
 
-### **Stamina:** 50 **Size:** 1L
+### 
+- **Stamina:** 50
+- **Size:** 1L
 
 **Size:** 1L
 
@@ -1054,7 +1112,9 @@ As a maneuver, a creature adjacent to a boiling oil cauldron can make an **Agili
 - 2 The boiling oil cauldron is deactivated but the creature is slowed (EoT).
 - 3 The boiling oil cauldron is deactivated and can't be used.
 
-🔳 **Boiling Oil** 2d10 + 2
+🔳 **Boiling Oil** 
+
+**Power Roll + 2:**
 
 Area, Weapon Main action (Adjacent creature)
 
@@ -1077,7 +1137,9 @@ EV 10
 
 This massive counterweighted engine hurls a heavy projectile for a devastating assault.
 
-**Stamina:** 50 **Size:** 2
+
+- **Stamina:** 50
+- **Size:** 2
 
 🌀 **Deactivate**
 
@@ -1087,7 +1149,9 @@ As a maneuver, a creature adjacent to a catapult can make an **Agility test**.
 - 2 The catapult is deactivated but the creature is slowed (EoT).
 - 3 The catapult is deactivated and can't be used.
 
-🔳 **Arcing Shot** 2d10 + 2
+🔳 **Arcing Shot** 
+
+**Power Roll + 2:**
 
 - Area, Ranged, Weapon Main action (Adjacent creature)
 - e 3 cube within 20 x Each creature and object in the area
@@ -1124,7 +1188,9 @@ As a maneuver, a creature adjacent to a catapult can make an **Agility test**.
 
 A massive wooden wheel is loaded with explosives and rolled toward enemy forces or fortifications, ready to explode.
 
-**Stamina:** 25 **Size:** 2
+
+- **Stamina:** 25
+- **Size:** 2
 
 🌀 **Deactivate**
 
@@ -1136,7 +1202,9 @@ The exploding mill wheel is deactivated and can't be used.
 
 Once the wheel is rolling, it can't be deactivated. However, it can be exploded early by destroying it or blocking its movement with a suitably large creature or object.
 
-🌀 **Roll the Wheel** 2d10 + 2
+🌀 **Roll the Wheel** 
+
+**Power Roll + 2:**
 
 Special
 
@@ -1176,7 +1244,9 @@ On a natural 19 or 20, a creature can both pilot the wheel and can disarm its ex
 
 **Field Ballista Level 2 Siege Engine Artillery** EV 8
 
-A massive crossbow fires thick metal bolts with devastating effect. **Stamina:** 40 **Size:** 2
+A massive crossbow fires thick metal bolts with devastating effect. 
+- **Stamina:** 40
+- **Size:** 2
 
 🌀 **Deactivate**
 
@@ -1186,7 +1256,9 @@ As a maneuver, a creature adjacent to a field ballista can make an **Agility tes
 - 2 The field ballista is deactivated but the creature is slowed (EoT).
 - 3 The field ballista is deactivated and can't be used.
 
-🏹 **Release Bolt** 2d10 + 2
+🏹 **Release Bolt** 
+
+**Power Roll + 2:**
 
 | Ranged, Strike, Weapon<br>Ranged 20 | Main action (Adjacent creature)<br>One creature or object |
 |--------------------------------------------------------------------|------------------------------------------------------------------------------------------|
@@ -1221,7 +1293,9 @@ As a maneuver, a creature adjacent to a field ballista can make an **Agility tes
 
 **Chain Bolt (+2EV)** The field ballista's bolts are set with heavy chains that wrap around targets. The **Chain Bolt** ability replaces **Release Bolt**, and the field ballista gains the **Crank the Chain** ability.
 
-🏹 **Chain Bolt** 2d10 + 2
+🏹 **Chain Bolt** 
+
+**Power Roll + 2:**
 
 - - Ranged, Strike, Weapon Main action (Adjacent creature)
     | --- | ---:|
@@ -1232,7 +1306,9 @@ As a maneuver, a creature adjacent to a field ballista can make an **Agility tes
 
 **Effect:** This ability can't be used again until the field ballista is reloaded.
 
-🏹 **Crank the Chain** 2d10 + 2
+🏹 **Crank the Chain** 
+
+**Power Roll + 2:**
 
 Ranged, Strike, Weapon Main action (Adjacent creature)
 | --- | ---:|
@@ -1258,7 +1334,9 @@ As a maneuver, a creature adjacent to an iron dragon can make an **Agility test*
 - 1 The creature accidentally activates the **Gout of Flame** ability.
 - 2 The iron dragon is deactivated but the creature is slowed (EoT). 3 The iron dragon is deactivated and can't be used.
 
-🔳 **Gout of Flame** 2d10 + 2
+🔳 **Gout of Flame** 
+
+**Power Roll + 2:**
 
 Area, Weapon
 
@@ -1293,7 +1371,9 @@ A sturdy wooden tower accessed by interior ladders or stairs provides
 
 cover and high ground for attackers.
 
-**Stamina:** 50 **Size:** 3
+
+- **Stamina:** 50
+- **Size:** 3
 
 🌀 **Deactivate**
 
@@ -1337,7 +1417,9 @@ Supernatural objects are unique in having effects that target or affect enemies 
 
 A foreboding obelisk shaped of dark stone harrows the minds and spirits of those around it.
 
-| **Stamina:** 100 | **Size:** |
+| 
+- **Stamina:** 100 |
+- **Size:** |
 |---------------------|--------------|
 |---------------------|--------------|
 
@@ -1351,13 +1433,15 @@ As a maneuver, a creature adjacent to the black obelisk can make a **Reason test
 - 2 The creature must make another test to deactivate the obelisk. If they obtain this outcome a second time, they accidentally activate **Your Fears Become Manifest**.
 - 3 The obelisk is deactivated until the end of the encounter.
 
-### \* **Activate**
+❕ **Activate**
 
 A new round starts.
 
 **Effect:** The **Your Fears Become Manifest** ability.
 
-❗️ **Your Fears Become Manifest** 2d10 + 2
+❗️ **Your Fears Become Manifest** 
+
+**Power Roll + 2:**
 
 Area, Magic
 
@@ -1376,7 +1460,9 @@ EV 20
 
 This unnatural object twists space around it in a reflection of its own unnatural form.
 
-**Stamina:** 80 **Size:** 1M
+
+- **Stamina:** 80
+- **Size:** 1M
 
 **Size:** 1M
 
@@ -1402,7 +1488,9 @@ EV 24
 
 The throne of A'An, sun god of the Antical Protectorate in what is now Vanigar, retains some of her power from the age before she was slain to end the Age of Suns-and plunge the region into eternal winter.
 
-**Stamina:** 140 **Size:** 2
+
+- **Stamina:** 140
+- **Size:** 2
 
 **Size:** 2
 
@@ -1441,7 +1529,9 @@ A creature seated on the throne becomes the hierophant of A'An and gains the fol
 - The hierophant has a +5 bonus to stability, and any strike made against them takes a bane unless the attacker is also attuned to the throne.
 - The hierophant can use the **Primordial Flare** and **Solar Accretion** abilities.
 
-🏹 **Primordial Flare** 2d10 + 2
+🏹 **Primordial Flare** 
+
+**Power Roll + 2:**
 
 | **Magic, Ranged, Strike** | **Maneuver** |
 | --- | ---:|
