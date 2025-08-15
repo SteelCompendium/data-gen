@@ -1,0 +1,8 @@
+global:
+  source: "mcdm.monsters.v1"
+  file_dpath: 'Dynamic Terrain'
+sections:
+  - header_path: "general-keywords"
+    xpath: "//section[@id='general-keywords']//section[@class='level6']"
+    file_dpath: 'Basics/Keywords'
+    type: keywords
