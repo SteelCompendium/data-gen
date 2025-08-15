@@ -562,3 +562,16 @@ sections:
     xpath: "//section[@id='monsters']//section[@id='valok']//section[@class='level9']"
     file_dpath: 'Monsters/Valok/Features'
     type: 'monster/feature'
+
+  - header_path: monsters/voiceless-talkers
+    xpath: "//section[@id='monsters']//section[@id='voiceless-talkers']"
+    file_dpath: 'Monsters/Voiceless Talkers'
+    type: 'monster/section'
+  - header_path: monsters/voiceless-talkers
+    xpath: "//section[@id='monsters']//section[@id='voiceless-talkers']//section[@class='level7']"
+    file_dpath: 'Monsters/Voiceless Talkers/Statblocks'
+  - header_path: monsters/voiceless-talkers
+    xpath: "//section[@id='monsters']//section[@id='voiceless-talkers']//section[@class='level9']"
+    file_dpath: 'Monsters/Voiceless Talkers/Features'
+    type: 'monster/feature'
+

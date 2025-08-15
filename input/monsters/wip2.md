@@ -1,478 +1,193 @@
-## Valok
+## Lord Syuul
 
-Abandoned autonomous machines made by the ancient steel dwarves, valok can still be found deep within the crumbling ruins and underground structures of long-dead civilizations. The steel dwarves made their instruments well, though, and valok can still be activated! However, doing so without the correct control phrases could unleash an unstoppable machine overloaded by the weight of time.
+"Yours is an interesting mind, Tyract. I wonder what it *tastes* like?"
 
-#### Exotic Metal Body
+Chief Design Architect of the living synlirii high science vessel *Waking Nightmare*, Lord Syuul (*see-YOU-ull*) scours the timescape looking for novel genetic specimens he can torture into new species. His spies, informants, and allies are always on the lookout for subjects with unique hereditary traits the Interlace might extract.
 
-Steel dwarves unlocked the secrets of smithing valiar-the truemetal prized not only for its strength and flexibility, but for its entrancing silvery white beauty. They could turn valiar into anything, from breathtaking weapons and exquisite buildings to hypnotic gossamer fabrics that are nearly transparent and virtually indestructible. The secrets of working with the truemetal disappeared with the steel dwarves, but not before they built the nigh-invulnerable bodies of the valok.
+### The Extractors
 
-#### Prismacore Power
+Syuul's most trusted servants form his elite surgical commandos, the Extractors. Whenever his ship detects the presence of some novel or unique genetic ability, they dispatch a small team of synlirii genetic surgeons and a single scanner.
 
-The steel dwarves also mined iridoss, commonly known as prismacore. This rare gemstone was infused with the power of other worlds. Unlike other constructs who are powered by spells or prayer, each valok's prismacore heart allows them to operate without magic. Since prismacore never loses power, valok can work ceaselessly, without rest or respite.
+Scanners are 4-foot-tall floating glass cylinders filled with solid brain material and cerebrospinal fluid. They hover in place, scanning and cataloging every living being in the area in an instant.
 
-### Mechanized Evolution
+The scanner identifies any creatures with valuable hereditary abilities so the Extractors can apply the Interlace, siphoning off the victim's unique abilities.
 
-The first valok were great machines made to dig, smelt, and build. Legends say these giant walkers could build entire cities in a matter of days, and could even construct other valok. As the steel dwarves learned the deep secrets of prismacore, they made machines who could speak and think more freely.
+Miraculously, some subjects survive this process. Those who do find they no longer have access to whatever hereditary traits the Extractors stole.
 
-While two classes of valok-servok and multivok-have been discovered, ancient steel dwarf carvings hint that a highly advanced third class was created just before their makers disappeared.
+### Mind Masters of the Timescape
 
-### Ancient and Deep
+Known to his servants and thralls as the Architect of Change, Syuul's research is no mere academic pursuit. He works tirelessly to build a catalog of mutations and hereditary traits. Talents, with their innate ability to turn thoughts into raw power, are his current obsession.
 
-Ruined valok litter the deepest ruins of the steel dwarves, and without the steel dwarves'secrets, their valiar and iridoss are useless to modern smiths. But some valok still labor in the depths, carrying out the orders given to them long ago and ready to end any who interfere.
+Lord Syuul remembers a time when his people ruled the world of Proteus, the Sea of Eternal Change, as gods. Before the time raiders rebelled, before the synlirii retreated to the World Below. While his fellow genetic architects are content to rule the Dark Under All, Syuul burns with hatred.
 
-#### Valok Malice Malice Features
+Hatred not just of the time raiders and the ungrateful proteans, but of every living being not under his direct control.
 
-At the start of any valok's turn, you can spend Malice to activate one of the following features.
+He no longer values his original technological marvel, the Body Banks, and so was happy to trade that obsolete invention to Ajax's wizard Mortum in exchange for more genetic material.
 
-> 👤 **Repeater (3 Malice)**
+The Body Banks were limited. They required manually feeding specimens into the tanks. His new device allows Lord Syuul to dynamically rewrite a living being's genetic material from a distance. From *any* distance.
+
+In his mind, everything that is not Lord Syuul is flawed. When his new device is complete, he will remake the timescape in his own image. Every living being, a formless mass of mind and flesh thinking only Syuul's thoughts.
+
+### Lord Syuul's Languages
+
+Lord Syuul communicates telepathically using Mindspeech and speaks Variac.
+
+######### Lord Syuul's Malice
+
+At the start of Lord Syuul's turn, you can spend Malice to activate one of the following features.
+
+> 👤 **Guise (3 Malice)** 
 > 
-> One valok acting this turn takes an additional main action.
+> Lord Syuul projects a psionic screen over his body, preventing other creatures from treating him as an enemy until the end of his next turn.
 
-> 🌀 **I Was Not Commanded to Wait (5 Malice)**
+> ❇️ **Do It for Me (5 Malice)**
 > 
-> At the end of each turn until the end of the round, one valok can either shift up to 2 squares or make a free strike.
-
-> ⭐️ **Rapid Logic Overdrive (7 Malice)**
+> Lord Syuul psionically plunders the minds of each creature within 2 squares of him. Each such creature makes a **Reason test**.
 > 
-> Each valok in the encounter can end one effect on them that can be ended by a saving throw, and can move up to their speed (making use of the bonus below). Additionally, until the end of the encounter, all valok deal an extra 5 damage on strikes and gain a +5 bonus to speed. This feature can be activated multiples times, stacking the effects.
+> - **≤11:** 13 psychic damage; the target uses a signature ability against a creature of Lord Syuul's choice
+> - **12-16:** 10 psychic damage; the target makes a free strike against a creature of Lord Syuul's choice
+> - **17+:** No effect.
 
-### Servok
+> ☠️ **Solo Action (5 Malice)** 
+> 
+> Lord Syuul takes an additional main action on his turn. He can use this feature even if he is dazed.
 
-Servoks, the labor and siege class of valok, are huge, slow, and built for a specific purpose-though all are designed to defend themselves when threatened. No humaniform servoks have yet been discovered. Their forms depend on their purpose, but they are never smaller than a wagon. Despite each servok's utilitarian construction and the ages of grime accumulated atop their valiar, they are impressive to behold.
+> 🌀 **Overpower (7 Malice)** 
+> 
+> Lord Syuul sends out a psionic burst to completely overpower his greatest threats. He makes a **Reason test** (2d10 + 4).
+> 
+> - **≤11:** Lord Syuul has damage weakness 5.
+> - **12-16:** Lord Syuul has damage immunity 2.
+> - **17+:** Lord Syuul has damage immunity 5.
+> 
+> Once per round as a maneuver, Lord Syuul can repeat this test, replacing the previous Overpower effect.
+> 
+> Whenever an Overpower effect is active, any hero who has one or more psionic abilities can use a maneuver to push back by making a **Reason test**, replacing the previous Overpower effect.
+> 
+> - **≤11:** Lord Syuul has damage immunity 5.
+> - **12-16:** Lord Syuul has damage immunity 2.
+> - **17+:** Lord Syuul has damage weakness 5.
+> 
+> The Overpower effect lasts until the end of the encounter.
 
-Servok builders once constructed buildings, roads, and walls. Some active builders still work the caverns where they were left, clearing the ground in preparation for lost grand projects known only to their progenitors. Servok miners dug the legendary tunnels of the steel dwarves. A few miners still bore deep into the earth, searching for ore and ready to destroy anything that interferes with that function.
+####### Lord Syuul
 
-The quaking of earth and the boom of an arcane cannon precedes the appearance of a servok war engine. Built to roll through enemy ranks with their bladed rake, the war engine can also eliminate targets from afar with a massive gun that shoots both magic blasts and burning oil. Many war engines went to battle and never returned, and where they wander now, they consider every creature they meet who isn't a steel dwarf to be an enemy.
+| Horror, Voiceless Talker | - | Level 6 | Solo | EV 96 |
+|:--------------------------:|:-------------------------------:|:------------------:|:---------------------:|:--------------------:|
+| **1M**<br>Size | **7**<br>Speed | **450**<br>Stamina | **3**<br>Stability | **7**<br>Free Strike |
+| **Psychic 10**<br>Immunity | **Hover, teleport**<br>Movement | - | **-**<br>With Captain | **-**<br>Weaknesses |
+| **+1**<br>Might | **+3**<br>Agility | **+4**<br>Reason | **+4**<br>Intuition | **+3**<br>Presence |
 
-#### Multivok
+> ☠️ **Solo Monster**
+> 
+> **End Effect:** At the end of each of his turns, Lord Syuul can take 10 damage to end one effect on him that can be ended by a saving throw. This damage can't be reduced in any way.
+> 
+> **Solo Turns:** Lord Syuul can take two turns each round. He can't take turns consecutively.
 
-Smaller than servoks, multivoks can speak and carry out commands, though their capacity for complexity is limited. While multivoks are humaniform, their masterfully crafted bodies lack the expression and fine articulation of humanoids. They were built to run and maintain ships and ore harvesters, survey dangerous or distant locations, guard nobles, and oversee servoks-tasks which many multivoks tirelessly attempt to continue today.
+> 🗡 **Tentacle Grab (Signature Ability)**
+> 
+> | **Melee, Strike, Weapon** | **Main action** |
+> |---------------------------|--------------------------------:|
+> | **📏 Melee 2** | **🎯 Two creatures or objects** |
+> 
+> **Power Roll + 4:**
+> 
+> - **≤11:** 11 damage; A < 2 grabbed
+> - **12-16:** 17 damage; A < 3 grabbed
+> - **17+:** 20 damage; A < 4 grabbed
+> 
+> **2 Malice:** The distance of this ability increases to melee 10. Each target grabbed by Lord Syuul is pulled up to 10 squares.
 
-With arms ending in axe blades and repeating crossbows mounted on their shoulders, a multivok bodyguard cuts an impressive figure. Multivok bodyguards who are still active are often found watching over the bones or possessions of their long-dead charges with unfaltering loyalty.
+> 🔳 **Dampening Grenade**
+> 
+> | **Area, Psionic, Ranged** | **Main action** |
+> |---------------------------|------------------------------:|
+> | **📏 2 cube within 5** | **🎯 Each enemy in the area** |
+> 
+> **Power Roll + 4:**
+> 
+> - **≤11:** 6 damage; the effect ends after 2 turns
+> - **12-16:** 10 damage; the effect ends at the end of Lord Syuul's next turn
+> - **17+:** 13 damage; the effect lasts until the end of the encounter
+> 
+> **Effect:** Any supernatural ability used by a creature in the area has a double bane. All reactive tests made against magic or psionic effects in the area have a double edge. 
 
-One of the most advanced multivoks, a chief directs and coordinates other valok to get work done. Multivok chiefs were built to oversee projects in the absence of steel dwarf supervisors. Active chiefs still roam the halls of the steel dwarves, organizing their fellow constructs to protect treasures, construct buildings, dig tunnels, and destroy invaders.
+> 🗡 **Mind Blown (7 Malice)**
+> 
+> | **Melee, Psionic, Strike** | **Main action** |
+> |----------------------------|-------------------------:|
+> | **📏 Melee 1** | **🎯 One grabbed enemy** |
+> 
+> **Power Roll + 4:**
+> 
+> - **≤11:** 12 damage
+> - **12-16:** 20 damage
+> - **17+:** 24 damage
+> 
+> **Effect:** If this action reduces the target to 0 Stamina and they have a brain, their brain explodes, instantly killing them.
 
-### Valok Languages
+> 👤 **You Come With Me**
+> 
+> | **Psionic** | **Maneuver** |
+> |-------------|-------------:|
+> | **📏 Self** | **🎯 Self** |
+> 
+> Lord Syuul can teleport up to 5 squares along with each creature and object he has grabbed. He can release grabbed creatures and objects before or after teleporting
 
-Most valok communicate exclusively in Rallarian.
+> ❗️ **Adaptability**
+> 
+> | **Psionic** | **Triggered action** |
+> |-------------|---------------------:|
+> | **📏 Self** | **🎯 Self** |
+> 
+> **Trigger:** Lord Syuul takes damage that has a damage type.
+> 
+> **Effect:** Until the start of his next turn, Lord Syuul gains immunity 5 to the triggering damage type.
 
-283Valok
+> ⭐️ **Mind Over Manners**
+> 
+> Whenever Lord Syuul uses a psionic ability, he can do so as if he were in the space of any creature within his line of effect who he has observed using a psionic ability.
 
-####### Multivok Bodyguard
+☠️ **See Only Me ((Villain Action 1))**
 
-| Construct, Multivok, Soulless, Valok |         -         |      Level 9       |         Elite Defender          |        EV 44         |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|   **2**<br>Size   |  **5**<br>Speed   | **240**<br>Stamina |  **5**<br>Stability   | **9**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
-|  **+4**<br>Might  | **0**<br>Agility |  **-2**<br>Reason  |  **+1**<br>Intuition  |  **-4**<br>Presence  |
 
-🏹 **Gatling Bolt Gun (Signature Ability)**
+Area, Psionic
 
-| **Ranged, Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Ranged 10** | **🎯 Two creatures or objects** |
+| **📏 10 burst** | **🎯 Each enemy in the area** |
 
-**Power Roll + 4:**
-
-- **≤11:** 13 damage
-- **12-16:** 18 damage
-- **17+:** 22 damage; A < 4 bleeding (save ends)
-
-🗡 **Valiar Axe (3 Malice)**
-
-| **Melee, Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Melee 2** | **🎯 One creature or object** |
-
-**Power Roll + 4:**
-
-- **≤11:** 15 damage; M < 2 weakened (save ends)
-- **12-16:** 21 damage; M < 3 weakened (save ends)
-- **17+:** 26 damage; prone; M < 4 weakened (save ends)
-
-**Effect:** The bodyguard has a double edge on this ability if it was previ-
-ously used against the same target in this encounter.
-
-❇️ **Magnetic Pull**
-
-| **Area** | **Maneuver** |
-| --- | ---:|
-| **📏 10 burst** | **🎯 Each enemy and object in the area** |
-
-**Special:** This ability targets only metal-clad enemies and metal
-objects of size 3 or smaller. 
-
-**Effect:** Each target is pulled up to 8 squares, or if they have M < 3, they
-are pulled up to 15 squares. The bodyguard can make a free strike
-against each target who ends this forced movement adjacent to
-them.
-
-❗️ **Valiar Cloak**
-
-| **Melee** | **Triggered action** |
-| --- | ---:|
-| **📏 Melee 2** | **🎯 Self** |
-
-**Trigger:** One ally within distance is targeted by an enemy's ability. 
-The bodyguard can use this ability after seeing the outcome of the
-power roll.
-
-**Effect:** The bodyguard becomes the triggering ability's target instead.
-
-⭐️ **Multivok Maintenance**
-
-At the start of the bodyguard's turn, each servok within 2 squares
-of them regains 15 Stamina.
-
-⭐️ **Crafted to Perfection**
-
-The bodyguard's shape can't be changed by any external effect
-
-⭐️ **Valiar Might**
-
-While the bodyguard isn't bleeding, weakened, or winded, any
-power roll made against them is automatically a tier 1 outcome. A
-critical hit still grants its additional main action.
-
-####### Multivok Chief
-
-| Construct, Multivok, Soulless, Valok |         -         |      Level 9       |         Elite Support          |        EV 44         |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|   **1L**<br>Size   |  **5**<br>Speed   | **220**<br>Stamina |  **3**<br>Stability   | **9**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
-|  **+4**<br>Might  | **+1**<br>Agility |  **-2**<br>Reason  |  **+1**<br>Intuition  |  **-3**<br>Presence  |
-
-🗡 **Pneumatic Punch (Signature Ability)**
-
-| **Melee, Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Melee 2** | **🎯 Two creatures or objects** |
-
-**Power Roll + 4:**
-
-- **≤11:** 13 damage; push 3
-- **12-16:** 18 damage; push 5
-- **17+:** 22 damage; push 8
-
-🏹 **Targeting Beam (3 Malice)**
-
-| **Ranged, Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Ranged 10** | **🎯 One creature or object** |
+**Effect:** Each target makes an Intuition test.
 
 **Power Roll + 4:**
 
-- **≤11:** 15 damage; A < 2 slowed (save ends)
-- **12-16:** 21 damage; A < 3 slowed (save ends)
-- **17+:** 26 damage; A < 4 slowed (save ends)
+- **≤11:** 16 psychic damage; the target has no line of effect to any cre-
+ture except Lord Syuul, and takes a bane on strikes targeting
+Lord Syuul (save ends)
+- **12-16:** 13 psychic damage; the target has no line of effect to any
+creature except Lord Syuul (save ends)
+- **17+:** 7 psychic damage
 
-**Effect:** This damage can't be reduced in any way. While a target is
-slowed this way, any strike against them has a double edge.
+☠️ **Phantom Pain (Villain Action 2)**
 
-🏹 **Chief's Command**
-
-| **Ranged** | **Maneuver** |
-| --- | ---:|
-| **📏 Ranged 5** | **🎯 One ally** |
-| **Effect** | **The target shifts up to their speed and can use a main action** |
-
-❗️ **Quick Shield**
-
-| **Ranged** | **Triggered action** |
-| --- | ---:|
-| **📏 Ranged 10** | **🎯 The triggering creature** |
-
-**Trigger:** The chief or an ally within distance is subject to an effect that
-can be ended by a saving throw or that ends at the end of their turn.
-
-**Effect:** The target gains 15 temporary Stamina. Each time this
-triggered action is used, the amount of temporary Stamina received
-decreases by 3 (to a minimum of 0).
-
-⭐️ **Multivok Maintenance**
-
-At the start of the chief's turn, each servok within 2 squares of
-them regains 15 Stamina.
-
-⭐️ **Crafted to Perfection**
-
-The chief's shape can't be changed by any external effect
-
-⭐️ **Valiar Might**
-
-While the chief isn't bleeding, weakened, or winded, any power
-roll made against them is automatically a tier 1 outcome. A critical
-hit still grants its additional main action.
-
-####### Servok Builder
-
-| Construct, Servok, Soulless, Valok |         -         |      Level 9       |         Elite Brute          |        EV 44         |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|   **3**<br>Size   |  **5**<br>Speed   | **2408**<br>Stamina |  **1**<br>Stability   | **0**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
-|  **+4**<br>Might  | **-2**<br>Agility |  **-4**<br>Reason  |  **-1**<br>Intuition  |  **-5**<br>Presence  |
-
-🔳 **Wrecking Ball (Signature Ability)**
-
-| **Area, Ranged, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 3 cube within 5** | **🎯 Each enemy and object in the area** |
-
-**Effect:** Each target must make either an Agility test or an Intuition test.
-
-**Power Roll + 4:**
-
-- **≤11:** 15 damage; push 5, prone
-- **12-16:** 12 damage; push 3
-- **17+:** 8 damage
-
-🗡 **Construction Arm**
-
-| **Melee, Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Melee 3** | **🎯 One creature or object** |
-
-**Power Roll + 4:**
-
-- **≤11:** 16 damage
-- **12-16:** 23 damage; grabbed
-- **17+:** 28 damage; grabbed; M < 4 vertical push 5
-
-🔳 **Lay the Foundation 3 Malice**
-
-| **Area** | **Main action** |
-| --- | ---:|
-| **📏 6 x 3 line within 1** | **🎯 Special** |
-
-**Effect:** The area is covered in wet concrete and is difficul t terrai n. An
-enemy who starts their turn in the concrete makes a Might test.
-
-- **≤11:** Restrained (EoT)
-- **12-16:** Slowed (EoT)
-- **17+:** No effect
-
-🔳 **Build Wall**
-
-| **Area, Ranged** | **Maneuver** |
-| --- | ---:|
-| **📏 6 wall within 3** | **🎯 Special** |
-
-**Effect:** The builder creates a concrete wall. They can also remove
-any unoccupied squares of wet concrete within 3 squares of them, 
-creating two additional squares of wall for each square of concrete
-removed.
-
-❗️ **Sputter 1 Malice**
-
-| **Melee** | **Free triggered action** |
-| --- | ---:|
-| **📏 Melee 3** | **🎯 The triggering creature or object** |
-
-**Trigger:** A creature or object within distance deals damage to the
-builder.
-
-- **≤11:** A < 2 restrained (save ends)
-- **12-16:** A < 3 restrained (save ends)
-- **17+:** A < 4 restrained (save ends)
-
-**Effect:** While a creature is restrained this way, or if the target is an ob-
-ject, the target and their space are encased in wet concrete. A creature
-no longer restrained leaves squares of wet concrete behind.
-
-⭐️ **Servok Siege Machine**
-
-The builder ignores difficul t terrai n, an d thei r abilitie s dea l a
-extra 15 damage to objects.
-
-⭐️ **Crafted to Perfection**
-
-The builder's shape can't be changed by any external effect
-
-⭐️ **Valiar Might**
-
-While the builder isn't bleeding, weakened, or winded, any power
-roll made against them is automatically a tier 1 outcome. A critical
-hit still grants its additional main action.
-285Valok
-
-####### Servok Miner
-
-| Construct, Servok, Soulless, Valok |         -         |      Level 9       |         Elite Controller          |        EV 44         |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|   **2**<br>Size   |  **5**<br>Speed   | **200**<br>Stamina |  **6**<br>Stability   | **9**<br>Free Strike |
-| **-**<br>Immunity | **Burrow, climb**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
-|  **+4**<br>Might  | **-2**<br>Agility |  **-4**<br>Reason  |  **-1**<br>Intuition  |  **-5**<br>Presence  |
-
-🗡 **Drill Press (Signature Ability)**
-
-| **Melee, Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Melee 2** | **🎯 Two creatures or objects** |
-
-**Power Roll + 4:**
-
-- **≤11:** 13 damage; M < 2 restrained (save ends) and prone
-- **12-16:** 18 damage; M < 3 restrained (save ends) and prone
-- **17+:** 22 damage; prone; M < 4 restrained (save ends)
-
-**Effect:** In suitably soft ground, a target restrained this way is e-
-trenched in a 1-square-deep hole.
-
-🔳 **Unload Rocks 3 Malice**
-
-| **Area** | **Main action** |
-| --- | ---:|
-| **📏 4 cube within 1** | **🎯 Each enemy and object in the area** |
-
-**Effect:** Each target makes an Agility test.
-
-- **≤11:** 14 damage; slide 4; the miner's allies have concealment from
-the target (save ends)
-- **12-16:** 11 damage; slide 2
-- **17+:** 7 damage
-The area is difficul t terrai
-
-🔳 **Break Ground 5 Malice**
-
-| **Area** | **Maneuver** |
-| --- | ---:|
-| **📏 20 x 1 line within 1** | **🎯 Each enemy and object in the area** |
-
-**Effect:** A 5-square-deep fissure opens along the ground in the area .
-Each ally in the area can shift into the nearest unoccupied space
-outside the fissure. Each target makes an Agility test.
-
-- **≤11:** 14 damage; the target falls into the fissure, 
-and is prone and can't stand (EoT)
-- **12-16:** 11 damage; the target is prone and hanging onto the edge of
-the fissur
-- **17+:** 7 damage; the target can shift into the nearest 
-unoccupied space outside the fissur
-
-❗️ **Miner Inconvenience 2 Malice**
-
-| **Area** | **Triggered action** |
-| --- | ---:|
+Psionic
 | **📏 Self** | **🎯 Self** |
 
-**Trigger:** The miner is targeted by a strike.
+**Effect:** Lord Syuul becomes invisible, can teleport up to 10 squares, 
+and projects an illusory double within 10 squares. The double can't
+move or act, but Lord Syuul can use psionic abilities as if he were
+in its square. Whenever a creature touches or damages the double
+with a melee strike, they take 10 psychic damage. If Lord Syuul takes
+damage, his invisibility ends and the double disappears.
 
-**Effect:** Until the end of the round, dust and dirt billow in a 2 burst
-around the miner's initial space. While the miner is in the area, they
-ignore the nondamaging effects of any strike made against them ,
-including the triggering strike.
+☠️ **Mindshatter (Villain Action 3)**
 
-⭐️ **Valiar Tunneler**
+Area, Psionic
+| **📏 5 burst** | **🎯 Each creature in the area** |
 
-The miner can burrow through stone and metal. When the miner
-burrows, they create a stable size 2 tunnel in their wake.
+**Power Roll + 4:**
 
-⭐️ **Servok Siege Machine**
+- **≤11:** 7 psychic damage
+- **12-16:** 13 psychic damage
+- **17+:** 16 psychic damage
 
-The miner ignores difficul t terrai n, an d thei r abilitie s dea l a n extr
-15 damage to objects.
-
-⭐️ **Crafted to Perfection**
-
-The miner's shape can't be changed by any external effect
-
-⭐️ **Valiar Might**
-
-While the miner isn't bleeding, weakened, or winded, any power
-roll made against them is automatically a tier 1 outcome. A critical
-hit still grants its additional main action.
-
-####### Servok War Engine
-
-| Construct, Servok, Soulless, Valok |         -         |      Level 10       |         Elite Brute          |        EV 48         |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|   **3**<br>Size   |  **5**<br>Speed   | **2608**<br>Stamina |  **1**<br>Stability   | **0**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
-|  **+5**<br>Might  | **-2**<br>Agility |  **-4**<br>Reason  |  **-1**<br>Intuition  |  **-5**<br>Presence  |
-
-🗡 **Blade Rake (Signature Ability)**
-
-| **Melee, Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Melee 3** | **🎯 Two creatures or objects** |
-
-**Power Roll + 5:**
-
-- **≤11:** 15 damage
-- **12-16:** 21 damage; pull 3
-- **17+:** 25 damage; pull 6
-
-🏹 **Prismacore Cannon**
-
-| **Ranged, Strike, Weapon** | **Main action** |
-| --- | ---:|
-| **📏 Ranged 20** | **🎯 One creature or object** |
-
-**Power Roll + 5:**
-
-- **≤11:** 22 damage
-- **12-16:** 29 damage; I < 4 dazed (save ends)
-- **17+:** 34 damage; I < 5 dazed (save ends)
-
-**Effect:** This damage can't be reduced in any way. This ability can't be
-used again until the start of the next round.
-
-👤 **Destructive Rollout**
-
-| **-** | **Maneuver** |
-| --- | ---:|
-| **📏 Self** | **🎯 Self** |
-
-**Effect:** The war engine moves up to their speed in a straight line, 
-automatically destroying mundane size 1 objects or walls in their
-path. The first time the war engine moves through a creature 's space
-during this movement, that creature can choose to either fall prone
-or take 10 damage.
-
-🔳 **Burning Oil 3 Malice**
-
-| **Area** | **Maneuver** |
-| --- | ---:|
-| **📏 20 x 1 line within 1** | **🎯 Each enemy and object in the area** |
-
-**Effect:** Each target makes an Agility test.
-
-- **≤11:** 16 fire damage ; the target is burning (save ends
-- **12-16:** 12 fire damage ; the target is burning (EoT
-- **17+:** 8 fire damag
-A burning creature takes 1d6 fire damage at the start of each of their
-turns. A burning object takes 1d6 fire damage at the end of each
-round. Additionally, the area is burning until the end of the encoun-
-ter. While the area is burning, it is difficul t terrai n an d an y enem
-takes 3 fire damage for each square of the area they enter
-
-❗️ **Quick Blast (1 Malice)**
-
-| **Ranged, Strike, Weapon** | **Free triggered action** |
-| --- | ---:|
-| **📏 Ranged 20** | **🎯 One creature or object** |
-
-**Trigger:** The target deals damage to the war engine.
-
-**Power Roll + 5:**
-
-- **≤11:** 8 damage; push 2
-- **12-16:** 12 damage; push 5
-- **17+:** 16 damage; push 8
-
-**Effect:** This damage can't be reduced in any way.
-
-⭐️ **Servok Siege Machine**
-
-The war engine ignores difficul t terrai n, an d thei r abilitie s dea l a
-extra 15 damage to objects.
-
-⭐️ **Crafted to Perfection**
-
-The war engine's shape can't be changed by any external effect
-
-⭐️ **Valiar Might**
-
-While the war engine isn't bleeding, weakened, or winded, any
-power roll made against them is automatically a tier 1 outcome. A
-critical hit still grants its additional main action.
+**Effect:** Until the end of the encounter, each target has damage weak-
+ness 3.
