@@ -550,3 +550,15 @@ sections:
     xpath: "//section[@id='monsters']//section[@id='lich']//section[@class='level9']"
     file_dpath: 'Monsters/Lich/Features'
     type: 'monster/feature'
+
+  - header_path: monsters/valok
+    xpath: "//section[@id='monsters']//section[@id='valok']"
+    file_dpath: 'Monsters/Valok'
+    type: 'monster/section'
+  - header_path: monsters/valok
+    xpath: "//section[@id='monsters']//section[@id='valok']//section[@class='level7']"
+    file_dpath: 'Monsters/Valok/Statblocks'
+  - header_path: monsters/valok
+    xpath: "//section[@id='monsters']//section[@id='valok']//section[@class='level9']"
+    file_dpath: 'Monsters/Valok/Features'
+    type: 'monster/feature'
