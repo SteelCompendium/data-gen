@@ -575,3 +575,15 @@ sections:
     file_dpath: 'Monsters/Voiceless Talkers/Features'
     type: 'monster/feature'
 
+  - header_path: monsters/lord-syuul
+    xpath: "//section[@id='monsters']//section[@id='lord-syuul']"
+    file_dpath: 'Monsters/Lord Syuul'
+    type: 'monster/section'
+  - header_path: monsters/lord-syuul
+    xpath: "//section[@id='monsters']//section[@id='lord-syuul']//section[@class='level7']"
+    file_dpath: 'Monsters/Lord Syuul/Statblocks'
+  - header_path: monsters/lord-syuul
+    xpath: "//section[@id='monsters']//section[@id='lord-syuul']//section[@class='level9']"
+    file_dpath: 'Monsters/Lord Syuul/Features'
+    type: 'monster/feature'
+
