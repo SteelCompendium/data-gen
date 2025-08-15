@@ -33,16 +33,51 @@
         }
       }
     },
-    "keywords": {
+    "dynamic-terrain": {
       "_id": 3,
+      "_children": {
+        "mechanism": {
+          "_id": 1,
+          "_children": {}
+        },
+        "siege-engine": {
+          "_id": 2,
+          "_children": {}
+        },
+        "fieldwork": {
+          "_id": 3,
+          "_children": {}
+        },
+        "power-fixture": {
+          "_id": 4,
+          "_children": {}
+        },
+        "environmental-hazard": {
+          "_id": 5,
+          "_children": {}
+        },
+        "supernatural-object": {
+          "_id": 6,
+          "_children": {}
+        }
+      }
+    },
+    "keywords": {
+      "_id": 4,
       "_children": {}
     }
   },
   "counters": {
-    "chapter": 2,
-    "monster/section": 50,
-    "monster/feature": 46,
-    "monster": 406,
+    "chapter": 3,
+    "monster/section": 51,
+    "monster/feature": 47,
+    "monster": 413,
+    "dynamic-terrain/mechanism": 8,
+    "dynamic-terrain/siege-engine": 6,
+    "dynamic-terrain/fieldwork": 7,
+    "dynamic-terrain/power-fixture": 3,
+    "dynamic-terrain/environmental-hazard": 7,
+    "dynamic-terrain/supernatural-object": 3,
     "keywords": 17
   }
 }

@@ -2,7 +2,33 @@ global:
   source: "mcdm.monsters.v1"
   file_dpath: 'Dynamic Terrain'
 sections:
-  - header_path: "general-keywords"
-    xpath: "//section[@id='general-keywords']//section[@class='level6']"
-    file_dpath: 'Basics/Keywords'
-    type: keywords
+  - header_path: "dynamic-terrain/environmental-hazards"
+    xpath: "//section[@id='dynamic-terrain']//section[@id='environmental-hazards']//section[@class='level9']"
+    file_dpath: 'Dynamic Terrain/Environmental Hazards'
+    type: 'dynamic-terrain/environmental-hazard'
+
+  - header_path: "dynamic-terrain/fieldworks"
+    xpath: "//section[@id='dynamic-terrain']//section[@id='fieldworks']//section[@class='level9']"
+    file_dpath: 'Dynamic Terrain/Fieldworks'
+    type: 'dynamic-terrain/fieldwork'
+
+  - header_path: "dynamic-terrain/mechanisms"
+    xpath: "//section[@id='dynamic-terrain']//section[@id='mechanisms']//section[@class='level9']"
+    file_dpath: 'Dynamic Terrain/Mechanisms'
+    type: 'dynamic-terrain/mechanism'
+
+  - header_path: "dynamic-terrain/power-fixtures"
+    xpath: "//section[@id='dynamic-terrain']//section[@id='power-fixtures']//section[@class='level9']"
+    file_dpath: 'Dynamic Terrain/Power Fixtures'
+    type: 'dynamic-terrain/power-fixture'
+
+  - header_path: "dynamic-terrain/siege-engines"
+    xpath: "//section[@id='dynamic-terrain']//section[@id='siege-engines']//section[@class='level9']"
+    file_dpath: 'Dynamic Terrain/Siege Engines'
+    type: 'dynamic-terrain/siege-engine'
+
+  - header_path: "dynamic-terrain/supernatural-objects"
+    xpath: "//section[@id='dynamic-terrain']//section[@id='supernatural-objects']//section[@class='level9']"
+    file_dpath: 'Dynamic Terrain/Supernatural Objects'
+    type: 'dynamic-terrain/supernatural-object'
+

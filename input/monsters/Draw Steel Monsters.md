@@ -18272,10 +18272,10 @@ It is believed these magical origins are what give shambling mounds their abilit
 >
 > Creating poison from the extracted toxins requires the completion of a special crafting project (see Chapter 12: Downtime Projects of *Draw Steel: Heroes*).
 >
-> - **Item Prerequisite**: Shambling mound toxins
-> - **Project Source**: Texts or lore in Caelian
-> - **Project Roll Characteristic**: Reason or Intuition
-> - **Project Goal**: 45
+> - **Item Prerequisite:** Shambling mound toxins
+> - **Project Source:** Texts or lore in Caelian
+> - **Project Roll Characteristic:** Reason or Intuition
+> - **Project Goal:** 45
 >
 > As a maneuver, one vial of poison can be applied to a weapon. For 1 minute after the poison is applied, damage dealing abilities using that weapon deal an extra 4 + 1d6 poison damage.
 
@@ -21253,7 +21253,7 @@ Most valok communicate exclusively in Rallarian.
 > |-----------------|----------------:|
 > | **📏 Ranged 5** | **🎯 One ally** |
 >
-> **Effect: **The target shifts up to their speed and can use a main action
+> **Effect:** The target shifts up to their speed and can use a main action
 
 > ❗️ **Quick Shield**
 >
@@ -25322,7 +25322,7 @@ A set of spring-loaded steel jaws stands ready to snap shut when stepped on.
 
 - **EV:** 2
 - **Stamina:** 6
-- **Size: 1S
+- **Size:** 1S
 
 > 🌀 **Deactivate**
 >
@@ -25880,7 +25880,7 @@ Set into any surface, this mechanism acts as a trigger for another linked mechan
 >
 > **Concealed (+1 EV)** The switch is hidden.
 
-# Power Fixtures
+### Power Fixtures
 
 Power fixtures are especially potent fortifications for solo creatures and smaller strike forces. The more of these terrain objects that occupy the field of battle, the worse things get for the attacking side.
 
