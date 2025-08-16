@@ -452,33 +452,21 @@ sections:
     file_dpath: 'Monsters/Rivals'
     type: 'monster/section'
   - header_path: monsters/rivals
+    xpath: "//section[@id='monsters']//section[@id='rivals']//section[@class='level9']"
+    file_dpath: 'Monsters/Rivals/Features'
+    type: 'monster/feature'
+  - header_path: monsters/rivals
     xpath: "//section[@id='monsters']//section[@id='rivals']//section[@id='rivals-1st-echelon']//section[@class='level7']"
     file_dpath: 'Monsters/Rivals/1st Echelon/Statblocks'
-  - header_path: monsters/rivals
-    xpath: "//section[@id='monsters']//section[@id='rivals']//section[@id='rivals-1st-echelon']//section[@class='level9']"
-    file_dpath: 'Monsters/Rivals/1st Echelon/Features'
-    type: 'monster/feature'
   - header_path: monsters/rivals
     xpath: "//section[@id='monsters']//section[@id='rivals']//section[@id='rivals-2nd-echelon']//section[@class='level7']"
     file_dpath: 'Monsters/Rivals/2nd Echelon/Statblocks'
   - header_path: monsters/rivals
-    xpath: "//section[@id='monsters']//section[@id='rivals']//section[@id='rivals-2nd-echelon']//section[@class='level9']"
-    file_dpath: 'Monsters/Rivals/2nd Echelon/Features'
-    type: 'monster/feature'
-  - header_path: monsters/rivals
     xpath: "//section[@id='monsters']//section[@id='rivals']//section[@id='rivals-3rd-echelon']//section[@class='level7']"
     file_dpath: 'Monsters/Rivals/3rd Echelon/Statblocks'
   - header_path: monsters/rivals
-    xpath: "//section[@id='monsters']//section[@id='rivals']//section[@id='rivals-3rd-echelon']//section[@class='level9']"
-    file_dpath: 'Monsters/Rivals/3rd Echelon/Features'
-    type: 'monster/feature'
-  - header_path: monsters/rivals
     xpath: "//section[@id='monsters']//section[@id='rivals']//section[@id='rivals-4th-echelon']//section[@class='level7']"
     file_dpath: 'Monsters/Rivals/4th Echelon/Statblocks'
-  - header_path: monsters/rivals
-    xpath: "//section[@id='monsters']//section[@id='rivals']//section[@id='rivals-4th-echelon']//section[@class='level9']"
-    file_dpath: 'Monsters/Rivals/4th Echelon/Features'
-    type: 'monster/feature'
 
   - header_path: monsters/shambling-mound
     xpath: "//section[@id='monsters']//section[@id='shambling-mound']"
