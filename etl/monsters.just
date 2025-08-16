@@ -134,18 +134,27 @@ convert_md_to_other_formats md_dpath:
     just _print_section "Monsters: Converting markdown into other formats"
     conversions_dpath="{{monsters_staging_dpath}}/9_conversions"
 
-    #    just abilities convert_all "{{md_dpath}}/Abilities" "json" "${conversions_dpath}/json/Abilities"
-    #    just abilities convert_all "{{md_dpath}}/Abilities" "yaml" "${conversions_dpath}/yaml/Abilities"
-    #    just abilities convert_all "{{md_dpath}}/Abilities" "xml" "${conversions_dpath}/xml/Abilities"
-    #    # Dont convert to markdown: you will lose frontmatter data
+    find "{{md_dpath}}/Monsters" -type d -name "Statblocks" | while read -r statblock_dpath; do
+        # TODO - this needs to be everything in-between the root dir and the statblock dir (rival/*-echelon)
+        monster_type="$(basename "$(dirname "$statblock_dpath")")"
+        echo "Converting $monster_type"
+        mkdir -p "${conversions_dpath}/json/${monster_type}/Statblocks"
+        mkdir -p "${conversions_dpath}/yaml/${monster_type}/Statblocks"
+        #mkdir -p "${conversions_dpath}/xml/${monster_type}/Statblocks"
+        just statblocks convert_all "${statblock_dpath}" "json" "${conversions_dpath}/json/${monster_type}/Statblocks"
+        just statblocks convert_all "${statblock_dpath}" "yaml" "${conversions_dpath}/yaml/${monster_type}/Statblocks"
+        #just abilities convert_all "${statblock_dpath}" "xml" "${conversions_dpath}/xml/${monster_type}/Statblocks"
+    done
+
+    # Dont convert to markdown: you will lose frontmatter data
     #
     #    just abilities gen_aggregate_data_doc "${conversions_dpath}/json/Abilities" "json" "${conversions_dpath}/json/Abilities/abilities.json"
     #    just abilities gen_aggregate_data_doc "${conversions_dpath}/yaml/Abilities" "yaml" "${conversions_dpath}/yaml/Abilities/abilities.yaml"
     #    just abilities gen_aggregate_data_doc "${conversions_dpath}/xml/Abilities" "xml" "${conversions_dpath}/xml/Abilities/abilities.xml"
-    #
-    #    just _copy_data_to_repo "${conversions_dpath}/json" "data-rules-json"
-    #    just _copy_data_to_repo "${conversions_dpath}/yaml" "data-rules-yaml"
-    #    just _copy_data_to_repo "${conversions_dpath}/xml" "data-rules-xml"
+
+    just _copy_data_to_repo "${conversions_dpath}/json" "data-bestiary-json"
+    just _copy_data_to_repo "${conversions_dpath}/yaml" "data-bestiary-yaml"
+    #just _copy_data_to_repo "${conversions_dpath}/xml" "data-bestiary-xml"
 
     # only separate blockquotes on the markdown variant
     just markdown separate_blockquotes "{{md_dpath}}"

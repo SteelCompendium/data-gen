@@ -27,6 +27,7 @@ convert_all md_dpath output_format output_dpath:
     set -euo pipefail
     echo >&2 "Abilities: converting markdown to '{{output_format}}'"
     npx --package steel-compendium-sdk sc-convert \
+        --type ability \
         --from markdown \
         --to "{{output_format}}" \
         --output "{{output_dpath}}" \

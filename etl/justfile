@@ -22,6 +22,7 @@ mod monsters_sections 'monsters_sections.just'
 mod monsters_frontmatter 'monsters_frontmatter.just'
 mod sc_classification 'sc_classification.just'
 mod section_config 'section_config.just'
+mod statblocks 'statblocks.just'
 
 ##################################################
 # Constants and env vars
