@@ -33,8 +33,59 @@
         }
       }
     },
-    "dynamic-terrain": {
+    "feature": {
       "_id": 3,
+      "_children": {
+        "ability": {
+          "_id": 1,
+          "_children": {
+            "role-advancement": {
+              "_id": 1,
+              "_children": {
+                "hexer": {
+                  "_id": 1,
+                  "_children": {}
+                },
+                "support": {
+                  "_id": 2,
+                  "_children": {}
+                },
+                "brute": {
+                  "_id": 3,
+                  "_children": {}
+                },
+                "controller": {
+                  "_id": 4,
+                  "_children": {}
+                },
+                "artillery": {
+                  "_id": 5,
+                  "_children": {}
+                },
+                "harrier": {
+                  "_id": 6,
+                  "_children": {}
+                },
+                "defender": {
+                  "_id": 7,
+                  "_children": {}
+                },
+                "mount": {
+                  "_id": 8,
+                  "_children": {}
+                },
+                "ambusher": {
+                  "_id": 9,
+                  "_children": {}
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "dynamic-terrain": {
+      "_id": 4,
       "_children": {
         "mechanism": {
           "_id": 1,
@@ -63,15 +114,24 @@
       }
     },
     "keywords": {
-      "_id": 4,
+      "_id": 5,
       "_children": {}
     }
   },
   "counters": {
-    "chapter": 3,
+    "chapter": 4,
     "monster/section": 51,
     "monster/feature": 48,
     "monster": 413,
+    "feature/ability/role-advancement/hexer": 2,
+    "feature/ability/role-advancement/support": 3,
+    "feature/ability/role-advancement/brute": 3,
+    "feature/ability/role-advancement/controller": 3,
+    "feature/ability/role-advancement/artillery": 3,
+    "feature/ability/role-advancement/harrier": 3,
+    "feature/ability/role-advancement/defender": 3,
+    "feature/ability/role-advancement/mount": 3,
+    "feature/ability/role-advancement/ambusher": 3,
     "dynamic-terrain/mechanism": 8,
     "dynamic-terrain/siege-engine": 7,
     "dynamic-terrain/fieldwork": 7,

@@ -33,10 +33,11 @@ sections:
   - header_path: monsters/animals
     xpath: "//section[@id='monsters']//section[@id='animals']//section[@class='level7']"
     file_dpath: 'Monsters/Animals/Statblocks'
-  - header_path: monsters/animals
-    xpath: "//section[@id='monsters']//section[@id='animals']//section[@class='level9']"
-    file_dpath: 'Monsters/Animals/Features'
-    type: 'monster/feature'
+    # animals have no malice
+    #  - header_path: monsters/animals
+    #    xpath: "//section[@id='monsters']//section[@id='animals']//section[@class='level9']"
+    #    file_dpath: 'Monsters/Animals/Features'
+    #    type: 'monster/feature'
 
   - header_path: monsters/arixx
     xpath: "//section[@id='monsters']//section[@id='arixx']"

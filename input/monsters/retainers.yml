@@ -1,0 +1,52 @@
+global:
+  source: "mcdm.monsters.v1"
+  file_dpath: 'Basics'
+sections:
+  - header_path: "retainers/role-abilities/ambusher-abilities"
+    xpath: "//section[@id='retainers']//section[@id='role-advancement-abilities']//section[@id='ambusher-abilities']//section[@class='level8']"
+    file_dpath: 'Retainers/Role Advancement Abilities/Ambusher abilities'
+    type: feature/ability/role-advancement/ambusher
+
+  - header_path: "retainers/role-abilities/artillery-abilities"
+    xpath: "//section[@id='retainers']//section[@id='role-advancement-abilities']//section[@id='artillery-abilities']//section[@class='level8']"
+    file_dpath: 'Retainers/Role Advancement Abilities/Artillery abilities'
+    type: feature/ability/role-advancement/artillery
+
+  - header_path: "retainers/role-abilities/brute-abilities"
+    xpath: "//section[@id='retainers']//section[@id='role-advancement-abilities']//section[@id='brute-abilities']//section[@class='level8']"
+    file_dpath: 'Retainers/Role Advancement Abilities/Brute abilities'
+    type: feature/ability/role-advancement/brute
+
+  - header_path: "retainers/role-abilities/controller-abilities"
+    xpath: "//section[@id='retainers']//section[@id='role-advancement-abilities']//section[@id='controller-abilities']//section[@class='level8']"
+    file_dpath: 'Retainers/Role Advancement Abilities/Controller abilities'
+    type: feature/ability/role-advancement/controller
+
+  - header_path: "retainers/role-abilities/defender-abilities"
+    xpath: "//section[@id='retainers']//section[@id='role-advancement-abilities']//section[@id='defender-abilities']//section[@class='level8']"
+    file_dpath: 'Retainers/Role Advancement Abilities/Defender abilities'
+    type: feature/ability/role-advancement/defender
+
+  - header_path: "retainers/role-abilities/harrier-abilities"
+    xpath: "//section[@id='retainers']//section[@id='role-advancement-abilities']//section[@id='harrier-abilities']//section[@class='level8']"
+    file_dpath: 'Retainers/Role Advancement Abilities/Harrier abilities'
+    type: feature/ability/role-advancement/harrier
+
+  - header_path: "retainers/role-abilities/hexer-abilities"
+    xpath: "//section[@id='retainers']//section[@id='role-advancement-abilities']//section[@id='hexer-abilities']//section[@class='level8']"
+    file_dpath: 'Retainers/Role Advancement Abilities/Hexer abilities'
+    type: feature/ability/role-advancement/hexer
+
+  - header_path: "retainers/role-abilities/mount-abilities"
+    xpath: "//section[@id='retainers']//section[@id='role-advancement-abilities']//section[@id='mount-abilities']//section[@class='level8']"
+    file_dpath: 'Retainers/Role Advancement Abilities/Mount abilities'
+    type: feature/ability/role-advancement/mount
+
+  - header_path: "retainers/role-abilities/support-abilities"
+    xpath: "//section[@id='retainers']//section[@id='role-advancement-abilities']//section[@id='support-abilities']//section[@class='level8']"
+    file_dpath: 'Retainers/Role Advancement Abilities/Support abilities'
+    type: feature/ability/role-advancement/support
+
+  - header_path: retainers/statblocks
+    xpath: "//section[@id='retainers']//section[@id='retainer-statblocks']//section[@class='level7']"
+    file_dpath: 'Retainers/Statblocks'

@@ -1,1574 +1,1933 @@
-# Dynamic Terrain
+# Retainers
 
-A terrain object is an element placed in an encounter that alters tactics on the battlefield, allowing the Director to better theme an encounter. Terrain objects range from hazards that provide tempting targets for forced movement, to fieldworks and siege engines that provide a locational advantage, to supernatural objects that an entire encounter can be built around.
+A retainer is a type of NPC follower who fights alongside the heroes. Retainer creatures can gain levels just as heroes do, so their battlefield contributions remain relevant as the heroes grow in status and power. A lowly level 1 goblin guide can advance up to level 10 if they adventure with a heroic party for long enough!
 
-### Terrain Object Stat Blocks
+The stat blocks in this chapter have the Retainer type next to their level and role. For example, a goblin guide is a level 1 harrier retainer. Some retainers, such as the human warrior or the time raider mind healer, are members of playable ancestries. Others, such as the minotaur gorer, are more monstrous in nature. Additionally, the rules in this chapter allow for the creation of new retainers using nearly any monster as a base creature.
 
-Each terrain object is set up in a stat block, but this stat block format is different than for monsters. The following sections explain what you'll find in a terrain object stat block.
+A retainer is a follower of a specific hero. This hero is called the retainer's mentor, and their player controls that retainer in battle. Each player can control only one retainer at a time. If a hero ever acquires more than one retainer, all but one of those are considered to be working at the party's stronghold or performing some function at the periphery of any battle, not contributing meaningfully to its outcome.
 
-#### EV
+#### Sidekicks, Not Stars
 
-Each dynamic terrain object has an encounter value cost, just like monsters in an encounter. Some objects, particularly environmental hazards, have a cost representing an area, such as a 10 x 10-square section of terrain. A hazard can always be smaller than that indicated size.
+Retainers are useful allies, but the heroes are always the stars of the show! Retainers are simply there to pitch in and make the heroes look good.
 
-#### Stamina
+Retainers are simpler to run than heroes. They have fewer abilities and fewer resources to manage. Usually, a retainer makes one power roll per turn and then gets out of the way. But while a retainer's turn is quick, it can be tactically interesting! Besides dealing damage, a retainer's abilities often benefit their mentor or allow the mentor to do interesting things.
 
-Terrain objects have either a fixed amount of Stamina or an amount of Stamina per square, depending on their nature and size. If an object has an amount of Stamina per square, it can be partially destroyed square by square.
+Because a retainer acts on their mentor's turn, they allow the heroes' side of an encounter to have two characters act in sequence without having to use any special abilities, providing a significant tactical advantage.
 
-#### Size
+#### Gaining Retainers
 
-Terrain objects either have a standard size (for example, 1M) or a size noted as squares of terrain or material. If a terrain object's size is noted as squares, a creature can move through that terrain object but might trigger the object's effects. Many terrain objects sized in squares are difficult terrain, as noted in the object's size entry.
+In many cases, heroes gain retainers as they acquire character features. For instance, a hero might gain a retainer from a title, a complication, or some other element of the game. When a player earns Renown, they might be able to choose a retainer as a new follower.
 
-#### Direction
+At other times, the events of the story can dictate that a retainer joins the party. When the heroes rescue a prisoner or befriend a former rival, you might decide that the NPC joins the party, becoming a retainer of one of the characters.
 
-Some terrain objects have a defined direction indicating how they are placed, such as archer's stakes having a front side.
+Any hero gaining a retainer is always at your discretion. If something in the rules grants a specific retainer, you can always substitute another retainer who works better for your campaign.
 
-#### Deactivate
+#### Retainers Leaving the Party
 
-Most terrain objects can be deactivated under certain circumstances. The Sabotage skill is generally applicable for tests made to deactivate mechanisms and siege engines, while traps might allow different skills to be used depending on their setup-Alchemy to deactivate a pool of flammable oil, Nature to deactivate a spiked pit trap in a forest, Magic or Psionics to deactivate a supernatural object, and so forth. Disabling a supernatural object requires a more intricate process detailed in each object's stat block.
+A retainer doesn't need to always travel with the heroes. When they're not called on to adventure, they can remain behind at the party's stronghold or otherwise live their own life. Even when they're not present, they're still considered to be a retainer and a member of the party.
 
-Once a terrain object is deactivated, the Director determines what must be done to reset it and how long it takes to do so.
+However, there might be cases when a retainer leaves the party permanently. Retainers aren't invulnerable, so they can be killed in battle. But they can leave under less extreme circumstances as well. If the events of an adventure set a retainer against their mentor, or if the retainer's story naturally comes to an end, you and the players can decide it's time for the retainer to ride off into the sunset. The characters might meet their former adventuring buddy again as a friendly NPC, though-or perhaps as a foe!
 
-#### Activate
+#### Retainers in Combat
 
-Terrain objects typically activate when a creature enters their space or when the object is interacted with in a specific way. Unless otherwise noted, there is no limit to how often a terrain object can activate.
+When using retainers in combat, a number of special rules should be kept in mind.
 
-Some terrain objects, particularly traps and other objects that are set up by creatures, are set to activate only in response to creatures or objects of a particular size. For example, smaller creatures such as goblins and kobolds typically calibrate their traps for size 1M and larger creatures, making those traps safe for smaller creatures to pass through.
+- **Another Hero:** A retainer counts as an additional hero of their current level for the purpose of encounter building (see Step-by-Step Encounter Building).
+- **Part of a Mentor's Turn:** A retainer takes their turn as part of their mentor's turn. For the purpose of effects that end at the end of the retainer's turn, or any other rules elements that depend on the start or end of a creature's turn, the start and end of the mentor's turn is also the start and end of the retainer's turn.
+- **Hero Can't Act:** If a hero can't act on their turn (because they are unconscious, for example), their player can still control the hero's retainer.
+- **Retainer Action Economy:** On their turn, a retainer can take a move action, a maneuver, and a main action, just like a hero.
 
-Many area terrain objects activate when a creature enters their area without shifting. If such a terrain object is difficult terrain, remember that creatures can't usually shift through difficult terrain without having a trait or feature that allows them to do so.
+Recoveries: A retainer has 6 Recoveries.
 
-#### Effect
+- **Death:** A retainer can become dying at 0 Stamina and die at negative half their Stamina, just like a hero.
+- **Surges:** Whenever a retainer gains surges, those surges are gained by their mentor, with the mentor and retainer sharing surges. The retainer spends surges the same way a hero can, but the extra damage granted to them by spending a surge is equal to their mentor's highest characteristic score.
 
-Each terrain object's effect entry defines what happens when the object is triggered.
+#### Retainer Advancement
 
-#### Upgrades
+A retainer doesn't earn Victories or gain XP. Instead, they usually have the same level as their mentor. When a character acquires a retainer, the retainer starts out at that mentor character's level. Thereafter, each time a mentor gains a level, all their retainers attain the same level, whether they are actively adventuring with the hero or not.
 
-Some terrain objects can be upgraded to create additional effects. If a terrain object has a size in squares, the upgrade cost is paid on a squareby-square basis unless otherwise noted.
+If a character somehow acquires a retainer with a level higher than their own, the retainer doesn't lose levels, but they don't gain any new levels until their mentor's level exceeds their own.
 
-### Hidden Terrain Objects
+#### Advancement Features
 
-Some terrain objects are inherently hidden or can be hidden with an upgrade. Hidden objects can be found as part of the Search for Hidden Creatures maneuver (see *Draw Steel: Heroes*). When you make an **Intuition test** to search for hidden creatures and objects, use the following outcomes for dealing with objects:
+A retainer creature's stat block includes characteristics, a level, a role, one or more abilities including a signature ability, and other standard monster features. This stat block represents the retainer's statistics at their lowest level. The retainer's statistics improve as they gain levels, as shown on the Retainer Advancement table.
 
-- **≤11:** You find all hidden terrain objects adjacent to you.
-- **12-16:** You find all hidden terrain objects within 5 squares of you.
-- **17+:** You find all hidden terrain objects within 10 squares of you.
+The number of levels a retainer can gain depends on their starting level. For instance, a devil defector starts at level 5, and so can gain only 5 levels before reaching level 10. If the level noted in a retainer's stat block is higher than 1, they don't gain advancement benefits for any levels up to and including their starting level. As a higher-level creature, similar bonuses are already baked into their statistics.
 
-#### Allied Awareness
+Retainer advancement benefits are broken out as follows:
 
-Some terrain objects have an Allied Awareness trait noting benefits and options available to creatures who have familiarity and training with the object. If a creature is aware of a terrain object and has sufficient time to study it, they gain the object's Allied Awareness benefits at the Director's determination.
+- **Characteristic Increase:** At level 2, a retainer increases one of their characteristic scores by 1 (to a maximum of 2). At level 5, they increase each of their characteristic scores by 1 (to a maximum of 3), and at level 8, they increase one characteristic score by 1 (to a maximum of 4). For each single-characteristic increase, the player of the retainer's mentor chooses which characteristic to use.
+- **Free Strike Damage Bonus:** The retainer gains a +2 damage bonus to free strikes at level 3, at level 6, and at level 9.
+- **Advancement Abilities:** A retainer gains new abilities at levels 4, 7, and 10 (unless the retainer's starting level is that level or higher). Each retainer stat block is accompanied by retainer advancement abilities specific to that retainer. Whenever a retainer would gain a new advancement ability, instead of choosing their retainer ability, the player of their mentor can instead choose a role advancement ability that matches their role and level. (Advancement abilities for each type of creature role are detailed in the next section.)
+- **Stamina Bonus:** At each level, a retainer gains a +9 bonus to Stamina. 
+- **Signature Ability Damage Increase:** A retainer's signature ability is unique in that it grows stronger as the retainer advances in level. Only the retainer's signature ability improves this way! The table features two columns for a retainer's signature ability damage bonus-one for a tier 1 power roll outcome and one for a tier 2 or tier 3 outcome. A retainer's signature ability gains a +1 damage bonus every second level for a tier 1 outcome, and every level for a tier 2 or tier 3 outcome.
 
-### Environmental Hazards
+##### Advancement Example
 
-Environmental hazards represent natural elements that creatures (typically creatures defending a location) have channeled, cultivated, or otherwise placed to give them an edge in an encounter.
+A 4th-level hero convinces a goblin guide, a level 1 harrier retainer, to join the party. The goblin guide immediately jumps to level 4. For level 2, the guide increases their Agility by 1. For level 3, the guide gains a +2 damage bonus to their free strikes. For level 4, the guide chooses between the level 4 retainer advancement ability Weaving Knives or the level 4 harrier advancement ability Tackle (see below).
 
-######### Angry Beehive (Level 2 Hazard Hexer)
+Additionally, for jumping from level 1 to level 4, the guide gains a +27 bonus to Stamina, giving them Stamina 48. Their signature ability gains a +2 damage bonus on a tier 1 outcome (for a total of 5 damage), and a +3 bonus on a tier 2 outcome (8 damage) or a tier 3 outcome (10 damage).
 
-This beehive is full of angry bees who swarm and attack with little provocation.
+#### Encounter Abilities
 
-- **EV:** 2
-- **Stamina:** 3
-- **Size:** 1S
+Some retainer abilities have the Encounter keyword. Once a retainer uses an encounter ability, they can't use that ability again until their mentor earns a Victory.
 
-> 🌀 **Deactivate**
+#### Custom Retainers
+
+This book includes more than a dozen retainer stat blocks with advancement information. But most creature stat blocks can be turned into retainers, provided a creature isn't a minion, a leader, or a solo. You have the final say over whether a player can choose a specific creature as a custom retainer.
+
+To turn a creature into a custom retainer, start with the creature's stat block. Instead of the Stamina noted in the stat block, a custom retainer has 21 Stamina at level 1. Then use the Retainer Advancement table as a guide to adjusting the creature's statistics as they increase in level, including starting at higher than level 1.
+
+If the creature's signature ability affects an area or targets more than one creature or object, the ability now only affects one target within distance. A custom retainer has no retainer advancement abilities, so they must take the role advancement ability specific to their level and role. Custom retainers can't use any abilities or effects that require Malice.
+
+##### Advancement Example
+
+A 4th-level hero trains a striped condor griffon, a level 2 elite brute, gaining that noble creature as a retainer. The griffon starts as a level 2 retainer. They have Stamina 30 (21 for level 1 and a +9 bonus for being level 2). Because they started at level 2, they don't gain any level 2 benefits or advancement features from the Retainer Advancement table.
+
+At level 3, the griffon gains a +2 damage bonus to their free strikes, a +9 bonus to Stamina (giving them Stamina 39), and a +1 damage bonus to their signature ability for a tier 2 or tier 3 outcome. At level 4, the griffon gains the level 4 brute ability Big Windup (see Big Windup), another + 9 bonus to Stamina (for Stamina 48), and a +1 damage bonus to their signature ability for all tier outcomes. This gives them a total damage bonus to their signature ability of +1 for tier 1 outcomes and +2 for tier 2 and tier 3 outcomes.
+
+#### Role Advancement Abilities
+
+When a retainer reaches level 4, 7, or 10, they can gain one of the following abilities based on their role, rather than gaining the retainer advancement ability presented alongside their stat block. A retainer qualifies only for the role advancement ability that matches their role and level.
+
+If a role advancement ability has the Magic or Psionic keyword, a retainer can swap the Magic keyword for Psionic or vice versa. They can also lose the keyword if they can achieve the ability's effects through gadgetry, martial prowess, or other nonsupernatural means.
+
+###### Retainer Advancement Table
+
+| Level | Advancement Feature                                                        | Stamina Bonus | Signature Ability<br/>Damage Bonus<br/>Tier 1 | Signature Ability<br/>Damage Bonus<br/>Tier 2 & 3 |
+|-------|----------------------------------------------------------------------------|---------------|-----------------------------------------------|---------------------------------------------------|
+| 2     | Increase one characteristic score by 1                                     | +9            | +1                                            | +1                                                |
+| 3     | +2 damage bonus to free strikes                                            | +9            | -                                             | +1                                                |
+| 4     | Level 4 retainer advancement ability or level 4 role advancement ability   | +9            | +1                                            | +1                                                |
+| 5     | Increase each characteristic score by 1                                    | +9            | -                                             | +1                                                |
+| 6     | +2 damage bonus to free strikes                                            | +9            | +1                                            | +1                                                |
+| 7     | Level 7 retainer advancement ability or level 7 role advancement ability   | +9            | -                                             | +1                                                |
+| 8     | Increase one characteristic score by 1                                     | +9            | +1                                            | +1                                                |
+| 9     | +2 damage bonus to free strikes                                            | +9            | -                                             | +1                                                |
+| 10    | Level 10 retainer advancement ability or level 10 role advancement ability | +9            | +1                                            | +1                                                |
+
+##### Ambusher Abilities
+
+######## Level 4 Role Advancement Ability
+
+> 🗡 **Go for the Jugular (Encounter)**
 > 
-> The beehive can't be deactivated. If it takes damage or is destroyed, the hive unleashes a swarm of bees.
+> | **Melee, Strike, Weapon** |   **Main action** |
+> |---------------------------|------------------:|
+> | **📏 Melee 1**            | **🎯 One creature |
+> 
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 5 damage; M < WEAK bleeding (save ends)
+> - **12-16:** 9 damage; M < AVERAGE bleeding (save ends)
+> - **17+:** 12 damage; M < STRONG bleeding (save ends)
+> 
+> **Effect:** If the target is grabbed or the retainer had an edge on the power roll, the retainer gains 2 surges. 
+                                                                           
+######## Level 7 Role Advancement Ability
 
-> ❕ **Activate**
+> ⚔️ **Hamstring Slice (Encounter)**
 > 
-> A creature enters the hive's space or an adjacent space without shifting.
+> | **Melee, Ranged, Strike, Weapon** |     **Main Action** |
+> |-----------------------------------|--------------------:|
+> | **📏 Melee 1 or ranged 5**        | **🎯 One creature** |
 > 
-> **Effect:** The hive is removed from the encounter map and a swarm of bees is placed in one square of the space of the triggering creature. Any creature who starts their turn in the swarm's space takes 3 poison damage. At the start of each round, the swarm moves 1 square and its size increases by 1 square (to 2 squares by 2 squares, 3 squares by 3 squares, and so forth), preferring squares in a creature's space. After 3 rounds, the swarm dissipates.
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 7 damage; M < WEAK slowed (EoT)
+> - **12-16:** 10 damage; M < AVERAGE slowed (save ends)
+> - **17+:** 15 damage; M < STRONG slowed and the target can't used triggered actions (save ends)
+> 
+> **Effect:** The retainer and their mentor can each move up to their speed.  
 
-> ⭐️ **Upgrades**
-> 
-> **Concealed Hive (+1 EV)** The hive is hidden until the swarm is unleashed.
-> 
-> **Killer Bees (+2 EV)** The bees are a particularly aggressive and dangerous species. The hive triggers even if a creature shifts into or while adjacent to it, and the swarm deals 1d6 + 3 poison damage.
+######## Level 10 Role Advancement Ability
 
-######### Brambles (Level 1 Hazard Defender)
+> ⚔️ **Hold 'Em Down (Encounter)**
+> 
+> | **Melee, Ranged, Strike, Weapon** |     **Main Action** |
+> |-----------------------------------|--------------------:|                                                         
+> | **📏 Melee 1 or ranged 5**        | **🎯 One creature** |
+> 
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 11 damage; a size 1 or smaller target who has M < WEAK is grabbed
+> - **12-16:** 16 damage; a size 1 or smaller target who has M < AVERAGE is grabbed
+> - **17+:** 21 damage; a size 1 or smaller target who has M < STRONG is grabbed
+> 
+> **Effect:** The retainer gains 2 surges when any creature makes a strike against a target grabbed this way.
+ 
+##### Artillery Abilities
 
-This thicket features close-growing vines tipped with sharp thorns.
+######## Level 4 Role Advancement Ability
 
-- **EV:** 1 per 10 x 10 thicket
-- **Stamina:** 3 per square
-- **Size:** One or more squares of difficult terrain
+> ❗️ **Supporting Volley**
+> 
+> | **Ranged, Weapon** |           **Triggered action** |
+> |--------------------|-------------------------------:|
+> | **📏 Ranged 5**    | **🎯 The triggering creature** |
+> 
+> **Trigger:** The retainer's mentor makes a strike against a creature within distance.
+> 
+> **Effect:** The retainer makes a ranged free strike against the target.
 
-> 🌀 **Deactivate**
-> 
-> Each square of brambles must be individually destroyed.
+######## Level 7 Role Advancement Ability
 
-> ❕ **Activate**
-> 
-> A creature enters a square of brambles without shifting.
-> 
-> **Effect:** A creature takes 1 damage per square of brambles they enter.
-
-> ⭐️ **Upgrade**
-> 
-> **Poisonous Thorns (+1 EV)** The brambles are poisonous. Any creature who takes damage from brambles is also bleeding (save ends).
-
-######### Corrosive Pool (Level 2 Hazard Hexer)
-
-This shallow pool bubbles with acid or some other corrosive liquid.
-
-- **EV:** 3 per 10 x 10 pool
-- **Stamina:** 12 per square
-- **Size:** One or more squares of difficult terrain
-- **Immunity:** 20 to all damage except cold or fire damage
-
-> 🌀 **Deactivate**
-> 
-> The pool must be completely destroyed.
-
-> ❕ **Activate**
-> 
-> A creature or object enters the corrosive pool or starts their turn there. The liquid in the pool is also highly volatile (see **Explosive Reaction** below).
-> 
-> **Effect:** A creature or object takes 3 acid damage if they start their turn in the pool, and takes 3 acid damage for each square of the pool they enter.
-
-> ❗️ **Explosive Reaction** 
-> 
-> | **Area**       |                   **Free triggered action** |
-> |----------------|--------------------------------------------:|
-> | **📏 3 burst** | **🎯 Each creature and object in the area** |
-> 
-> **Trigger:** The pool takes fire damage.
-> 
-> **Power Roll + 2:**
-> 
-> - **≤11:** 3 fire damage; M < 1 the target is burning (save ends)
-> - **12-16:** 6 fire damage; M < 2 the target is burning (save ends)
-> - **17+:** 9 fire damage; M < 3 the target is burning (save ends) 
-> 
-> **Effect:** The liquid in the pool is consumed. This ability has a double edge against any target in the pool. A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round. Any target with acid weakness takes extra damage from this ability and while burning as if the fire damage were acid damage.
-
-> ⭐️ **Allied Awareness**
-> 
-> Allies who have weapons are equipped with torches. Any ally can use a maneuver to throw a torch up to 5 squares and deal 1 fire damage to the pool, triggering Explosive Reaction.
-
-######### Frozen Pond (Level 1 Hazard Hexer)
-
-A shallow, frozen patch of water features ice thick enough that it won't break, but its surface is slick and treacherous to navigate.
-
-- **EV:** 1 per 10 x 10 pond
-- **Stamina:** 3 per square
-- **Size:** One or more squares of difficult terrain
-- **Immunity:** 5 to all damage except fire damage
-
-> 🌀 **Deactivate**
-> 
-> Destroying a square of the frozen pond turns the square into shallow icy water.
-
-> ❕ **Activate**
-> 
-> A creature or object enters a square of the frozen pond without shifting.
-> 
-> **Effect:** The **Slippery Surface** ability.
-
-> ❗️ **Slippery Surface** 
-> 
-> | **Melee, Strike** |                **Free triggered action** |
-> |-------------------|-----------------------------------------:|
-> | **📏 Melee 0**    | **🎯 The triggering creature or object** |
-> 
-> **Trigger:** A creature or object enters a square of the frozen pond without shifting.
-> 
-> **Power Roll + 2:**
-> 
-> - **≤11:** Push 1 in the direction the target was moving
-> - **12-16:** Push 2 in the direction the target was moving; A < 1 slowed (save ends)
-> - **17+:** Push 3 in the direction the target was moving; A < 2 prone and can't stand (save ends)
-> 
-> **Effect:** The triggering creature's movement ends, then they are force moved. If the target triggered this ability by being force moved, this ability gains an edge and any remaining forced movement distance is added to the ability's forced movement. The ability's forced movement doesn't trigger the ability again.
-
-> ⭐️ **Upgrade**
-> 
-> **Thin Ice (+1 EV)** The ice covering the pond is thin and the water is deeper. Whenever a creature or object enters or falls prone in a square of the frozen pond, that square is destroyed and replaced with icy water. The **Icy Water** ability replaces **Slippery Surface**.
-> 
-> Any creature who starts their turn in the icy water takes 1 cold damage. If the water is deep enough, a creature can swim beneath the surface of the frozen pond, but takes this cold damage while doing so.
-
-❗️ **Icy Water** 
-
-> **Power Roll + 2:**
-> 
-> | **Melee, Strike** |                **Free triggered action** |
-> |-------------------|-----------------------------------------:|
-> | **📏 Melee 0**    | **🎯 The triggering creature or object** |
-> 
-> **Trigger:** A creature or object enters or falls prone in a square of the frozen pond.
-> 
-> - **≤11:** Slide 1
-> - **12-16:** 1 cold damage; M < 1 slowed (save ends) 
-> - **17+:** 3 cold damage; M < 2 restrained (save ends)
-> 
-> **Effect:** The triggering creature's movement ends, then they are force moved if applicable.
-
-######### Lava (Level 3 Hazard Hexer)
-
-A patch of blisteringly hot molten rock wells up from the ground, threatening anyone who gets close to it.
-
-- **EV:** 4 per 10 x 10 patch
-- **Stamina:** 12 per square
-- **Size:** One or more squares of difficult terrain
-- **Immunity:** 20 to all damage except cold damage
-
-> 🌀 **Deactivate**
-> 
-> Each square of lava must be individually destroyed.
-
-> ❕ **Activate**
-> 
-> A creature or object enters the lava or starts their turn there, or starts their turn adjacent to the lava.
-> 
-> **Effect:** The **Liquid Hot Magma** ability.
-
-> ❗️ **Liquid Hot Magma** 
-> 
-> | **Melee, Strike** |                **Free triggered action** |
-> |-------------------|-----------------------------------------:|
-> | **📏 Melee 1**    | **🎯 The triggering creature or object** |
-> 
-> **Trigger:** A creature or object enters the lava or starts their turn there, or starts their turn adjacent to the lava.
-> 
-> **Power Roll + 2:**
-> 
-> - **≤11:** 5 fire damage; M < 1 the target is burning (save ends)
-> - **12-16:** 9 fire damage; M < 2 the target is burning (save ends)
-> - **17+:** 12 fire damage; M < 3 the target is burning (save ends)
-> 
-> **Effect:** If the target is adjacent to lava but not in it, this ability takes a bane. A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round.
-
-> ⭐️ **Upgrade**
-> 
-> **Magma Flow (+4 EV)** The lava is flowing! At the start of each round, add one square of lava adjacent to an existing square of lava.
-
-######### Quicksand (Level 3 Hazard Hexer)
-
-When this patch of sand is stepped on, it is revealed to be a slurry saturated by water-and ready to draw creatures down to their doom.
-
-- **EV:** 3 per 10 x 10 patch
-- **Stamina:** -
-- **Size:** One or more squares
-
-> 🌀 **Deactivate**
-> 
-> -
-
-> ❕ **Activate**
-> 
-> A creature or object enters the quicksand or starts their turn there.
-> 
-> **Effect:** The **Grasping Depths** ability.
-
-> ❗️ **Grasping Depths** 
+> 🔳 **Line 'Em Up (Encounter)**
 >
-> | **Melee, Strike** |                **Free triggered action** |
-> |-------------------|-----------------------------------------:|
-> | **📏 Melee 0**    | **🎯 The triggering creature or object** |
->
-> **Trigger:** A creature or object enters the quicksand or starts their turn there.
+> | **Area, Weapon**            |               **Main action** |
+> |-----------------------------|------------------------------:|
+> | **📏 10 x 1 line within 1** | **🎯 Each enemy in the area** |
 > 
-> **Power Roll + 2:**
+> **Power Roll + highest characteristic:**
 > 
-> - **≤11:** M < 0 slowed (save ends)
-> - **12-16:** M < 1 restrained (save ends)
-> - **17+:** M < 2 restrained (save ends)
-> 
-> **Effect:** This ability takes a bane if a triggering creature shifted into the quicksand. A character who starts their turn restrained this way is suffocating.
-
-> ⭐️ **Hidden**
-> 
-> The quicksand is hidden until triggered or detected.
-
-######### Toxic Plants (Level 2 Hazard Hexer)
-
-Colorful mushrooms or lovely flowering plants release a cloud of spores or pollen when disturbed, causing creatures to fall into a magical slumber.
-
-- **EV:** 2 per 10 x 10 field
-- **Stamina:** 3 per square
-- **Size:** One or more squares
-
-> 🌀 **Deactivate**
-> 
-> Each square of plants must be individually destroyed.
-
-> ❕ **Activate**
-> 
-> A creature starts their turn in the area of the toxic plants, or enters a square of toxic plants without shifting.
-> 
-> **Effect:** The **Sleep Spores** ability.
-
-> ❗️ **Sleep Spores** 
-> 
-> | **Magic, Melee, Strike** |      **Free triggered action** |
-> |--------------------------|-------------------------------:|
-> | **📏 Melee 0**           | **🎯 The triggering creature** |
-> 
-> Magic, Melee, Strike Free triggered action
-> 
-> **Trigger:** A creature starts their turn in the area of the toxic plants, or enters a square of toxic plants without shifting.
-> 
-> **Power Roll + 2:**
-> 
-> - **≤11:** M < 0 dazed (save ends) 
-> - **12-16:** M < 1 dazed (save ends) 
-> - **17+:** M < 2 dazed (save ends)
-> 
-> **Effect:** While dazed this way, a target who starts their turn in the area of the toxic plants falls prone and can't stand.
-
-> ⭐️ **Upgrades**
-> 
-> **Poisonous Spores (+2 EV)** Any creature dazed by this hazard takes 1d6 poison damage at the start of each of their turns.
-> 
-> **Carnivorous Plants (+2 EV)** The plants are carnivorous and attempt to slowly digest any creature who falls among them. Any creature who starts their turn prone in the area takes 4 acid damage.
-
-### Fieldworks
-
-Fieldworks represent temporary military fortifications meant to give defenders an edge in an encounter.
-
-######### Archer's Stakes (Level 1 Fortification Defender)
-
-A series of sharp stakes have been placed point-out to protect defenders against charges and other direct attacks.
-
-- **EV:** 2
-- **Stamina:** 3 per square
-- **Size:** One or more squares of difficult terrain 
-- **Typical Space:** 4 x 1-square area
-- **Direction:** One side of the stakes is defined as the front.
-
-> 🌀 **Deactivate**
-> 
-> Each square of stakes must be individually destroyed.
-
-> ❕ **Activate**
-> 
-> A creature enters an area of stakes from the front.
-> 
-> **Effect:** The triggering creature takes 2 damage per square of stakes they enter. If they are force moved into an area of stakes, they take an additional 3 damage.
-
-> ⭐️ **Upgrades**
-> 
-> **Poison (+2 EV)** The tips of the stakes have poison applied to them. Any creature who takes damage from the stakes also takes 1d6 poison damage at the start of each of their turns (save ends).
-> 
-> **Sticky (+3 EV)** A sticky slime or webbing has been applied to the stakes and the ground between them. Any creature who enters an area of stakes triggers the **Sticky Stakes** ability in addition to suffering the stakes' other effects.
-
-> ❗️ **Sticky Stakes** 
-> 
-> | **Melee, Strike, Weapon** |                **Free triggered action** |
-> |---------------------------|-----------------------------------------:|
-> | **📏 Melee 0**            | **🎯 The triggering creature or object** |
-> 
-> **Trigger:** A creature or object enters an area of sticky stakes.
-> 
-> **Power Roll + 2:**
-> 
-> - **≤11:** No effect.
-> - **12-16:** A < 1 slowed (save ends) 
-> - **17+:** A < 2 restrained (save ends)
-
-> ⭐️ **Allied Awareness**
-> 
-> Allies of this object ignore the difficult terrain created by the stakes, take no damage from moving through the stakes unless they are force moved, and have cover while in an area of archer's stakes.
-
-######### Bear Trap (Level 1 Trap Ambusher)
-
-A set of spring-loaded steel jaws stands ready to snap shut when stepped on.
-
-- **EV:** 2
-- **Stamina:** 6 
-- **Size: 1S
-
-> 🌀 **Deactivate**
-> 
-> As a maneuver, a creature adjacent to a bear trap can make an **Agility test**.
-> 
-> - **≤11:** The creature triggers the trap and is affected as if in its space. 
-> - **12-16:** The trap is deactivated but the creature is slowed (EoT). 
-> - **17+:** The trap is deactivated and doesn't trigger.
-
-> ❕ **Activate**
-> 
-> The bear trap is calibrated to be triggered by creatures or objects of a particular size or larger. The trap triggers when a creature or object of the appropriate size enters its space.
-> 
-> **Effect:** A triggering creature or object ends their movement and is targeted by the **Bear Trap** ability.
-
-> ❗️ **Bear Trap** 
-> 
-> | **Melee, Strike, Weapon** |                **Free triggered action** |
-> |---------------------------|-----------------------------------------:|
-> | **📏 Melee 0**            | **🎯 The triggering creature or object** |
-> 
-> **Trigger:** A creature or object of the appropriate size enters the trap's space. 
-> 
-> **Power Roll + 2:**
-> 
-> - **≤11:** 1 The target shifts 1 square away from the trap.
-> - **12-16:** 3 damage; A < 1 slowed (save ends)
-> - **17+:** 5 damage; A < 2 slowed (save ends)
-> 
-> **Effect:** The bear trap must be manually reset.
-
-> ⭐️ **Upgrade**
-> 
-> **Chain (+1 EV)** The bear trap is attached to the ground by a steel chain. A target who would be made slowed by the trap is restrained instead.
-
-> ⭐️ **Hidden**
-> 
-> The bear trap is hidden until triggered or detected.
-
-######### Flammable Oil (Level 1 Trap Ambusher)
-
-A patch of flammable oil or pitch on the ground is ready to be ignited.
-
-- **EV:** 2 per 10 x 10 patch
-- **Stamina:** -
-- **Size:** One or more squares
-
-> 🌀 **Deactivate**
-> 
-> As a maneuver, a creature adjacent to a patch of flammable oil can make an **Agility test**.
-> 
-> - **≤11:** The creature ignites the oil and is affected as if in its area.
-> - **12-16:** The oil temporarily ignites before safely burning out, and the creature takes 3 fire damage and is burning (save ends).
-> - **17+:** The oil is rendered safe and can't be ignited.
-
-> ❕ **Activate**
-> 
-> A creature or object in a square of oil takes fire damage, or a creature or object enters a square of burning oil or starts their turn there.
-> 
-> **Effect:** The triggering creature or object takes 3 fire damage and is burning (save ends). A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round.
-
-> ⭐️ **Upgrade**
-> 
-> **Concealed Oil (+1 EV)** The oil is hidden until it ignites.
-
-> ⭐️ **Allied Awareness**
-> 
-> Allies who have weapons are equipped with torches. Any ally can use a maneuver to throw a torch up to 5 squares and ignite the flammable oil.
-
-######### Hidey-Hole (Level 1 Fortification Ambusher)
-
-A cavity in a floor, wall, or ceiling might hold hidden threats.
-
-- **EV:** 1
-- **Stamina:** -
-- **Size:** One or more squares
-
-> 🌀 **Deactivate**
-> 
-> As a maneuver, a creature adjacent to a hidey-hole can make a **Might test**.
-> 
-> - **≤11:** The creature is restrained (save ends).
-> - **12-16:** The hidey-hole collapses but the creature is slowed (save ends). 
-> - **17+:** The hidey-hole collapses and can no longer be used until repaired.
-
-> ❕ **Activate**
-> 
-> A creature starts the encounter in the hidey-hole or ends their turn there.
-> 
-> **Effect:** The triggering creature can attempt to hide as a free triggered action.
-
-> ⭐️ **Upgrade**
-> 
-> **Network (+1 EV per hidey-hole)** The hidey-hole is connected to a tunnel network. A creature familiar with the network can move from one hidey-hole to any space adjacent to a connected hidey-hole if they have movement available equal to the straight-line distance to that space. A creature unfamiliar with the network can use a maneuver to make a **hard Intuition test** to discover a connected hidey-hole.
-
-######### Pavise Shield (Level 1 Fortification Defender)
-
-A reinforced metal shield embedded in the ground acts as cover for the creature controlling it.
-
-- **EV:** 1
-- **Stamina:** 9
-- **Size:** 1M
-
-🌀 **Deactivate**
-
-As a maneuver, a creature adjacent to a pavise shield controlled by another creature can make a **Might test**.
-
-- **≤11:** The creature controlling the shield retains control of it and can make an opportunity attack against the creature making the test.
-- **12-16:** The creature controlling the shield retains control of it. 
-- **17+:** The creature making the test grabs the shield and takes control of it.
-
-> ❕ **Activate**
-> 
-> **Effect:** While a creature has the pavise shield grabbed, they have cover and take half damage from abilities whose line of effect extends through the shield. The pavise shield takes the other half of the damage.
-> 
-> **Movement:** While a creature has a pavise shield grabbed, their speed is halved and they move the shield like a grabbed creature.
-
-######### Snare Trap (Level 1 Trap Ambusher)
-
-A rope snare is set to grab a target, leaving them hanging upside down.
-
-- **EV:** 1
-- **Stamina:** 1 
-- **Size:** 1S
-
-> 🌀 **Deactivate**
-> 
-> As a maneuver, a creature adjacent to a snare trap can make an **Agility test**.
-> 
-> - **≤11:** The creature triggers the trap and is affected as if in its space. 
-> - **12-16:** The trap is deactivated but the creature is slowed (EoT).
-> - **17+:** The trap is deactivated and doesn't trigger.
-
-> ❕ **Activate**
-> 
-> The snare trap is calibrated to be triggered by creatures or objects of a particular size or larger. The trap triggers when a creature or object of the appropriate size enters its space.
-> 
-> **Effect:** A triggering creature or object ends their movement and is targeted by the **Snare** ability.
-
-> ❗️ **Snare** 
-> 
-> | **Melee, Strike, Weapon** |                **Free triggered action** |
-> |---------------------------|-----------------------------------------:|
-> | **📏 Melee 0**            | **🎯 The triggering creature or object** |
-> 
-> **Trigger:** A creature or object of the appropriate size enters the trap's space.
-> 
-> **Power Roll + 2:**
-> 
-> - **≤11:** The target shifts 1 square away from the snare.
-> - **12-16:** 1 damage; A < 1 restrained (save ends)
-> - **17+:** 3 damage; A < 2 restrained (save ends)
-> 
-> **Effect:** A creature restrained this way is vertical pulled 2 squares and suspended in the air by the snare line. On a successful save, the snare is cut or breaks and the creature falls to the ground. The snare must be manually reset.
-
-> ⭐️ **Upgrade**
-> 
-> **Net Trap (+1 EV)** The snare becomes a net that can wrap up multiple targets. The net has 3 Stamina and fills an area of 3 squares by 3 squares. The Snare ability loses its existing keywords, gains the Area keyword, and targets each creature or object in the area. The trap can be triggered by a target moving through one specific square, or by requiring multiple squares to be moved through. Any creature who makes their save to end the restrained effect ends that effect for all targets, who all fall to the ground.
-
-> ⭐️ **Hidden**
-> 
-> The snare trap is hidden until triggered or detected.
-
-######### Spike Trap (Level 2 Trap Ambusher)
+> - **≤11:** 7 damage; M < WEAK prone
+> - **12-16:** 11 damage; M < AVERAGE prone
+> - **17+:** 16 damage; M < STRONG prone
 
-A pit dug into the ground is filled with spikes, and camouflaged to avoid detection.
+######## Level 10 Role Advancement Ability
 
-- **EV:** 3
-- **Stamina:** 6 
-- **Size:** One or more squares
-- **Typical Space:** 2 x 2-square area
-
-> 🌀 **Deactivate**
-> 
-> As a maneuver, a creature adjacent to a spike trap can make an **Agility test**.
-> 
-> - **≤11:** The creature triggers the trap and is affected as if in its area.
-> - **12-16:** The trap is deactivated but the creature is slowed (EoT).
-> - **17+:** The trap is deactivated and doesn't trigger.
-
-> ❕ **Activate**
-> 
-> The spike trap is calibrated to be triggered by creatures or objects of a particular size or larger. The trap triggers when a creature or object of the appropriate size enters its area.
-> 
-> **Effect:** The **Spike Trap** ability.
-
-> ❗️ **Spike Trap** 
-> 
-> | **Area, Weapon** |                **Free triggered action** |
-> |------------------|-----------------------------------------:|
-> | **📏 Melee 0**   | **🎯 The triggering creature or object** |
-> 
-> **Trigger:** A creature or object of the appropriate size enters the trap's area.
-> 
-> **Power Roll + 2:**
-> 
-> - **≤11:** 3 damage; the target shifts 1 square away from the trap
-> - **12-16:** 4 damage; the target falls into the pit; A < 0 prone
-> - **17+:** 6 damage; the target falls into the pit; A < 1 prone; restrained (save ends)
-> 
-> **Effect:** The target ends their movement when they enter the trap's area. The pit is typically 2 squares deep. The trap must be manually reset.
-
-> ⭐️ **Hidden**
-> 
-> The spike trap is hidden until triggered or detected.
-
-### Mechanisms
-
-Mechanisms represent any number of intricate devices that can complicate a battle. Unlike more straightforward traps, a mechanism is often linked to another triggering mechanism that activates it.
-
-######### Column of Blades (Level 3 Fortification Defender)
-
-A spinning wooden column is affixed with sharp blades to slash the unwary.
-
-- **EV:** 3
-- **Stamina:** 5
-- **Size:** 1L
-
-> 🌀 **Deactivate**
-> 
-> The column of blades must be completely destroyed.
-
-> ❕ **Activate**
-> 
-> A creature or object moves adjacent to the column of blades.
-> 
-> **Effect:** The **Spinning Blades** ability.
-
-> ❗️ **Spinning Blades** 
-> 
-> | **Melee, Strike, Weapon** |                **Free triggered action** |
-> |---------------------------|-----------------------------------------:|
-> | **📏 Melee 1**            | **🎯 The triggering creature or object** |
-> 
-> **Trigger:** A creature or object moves within distance of the column. 
-> 
-> **Power Roll + 2:**
-> 
-> - **≤11:** 4 damage
-> - **12-16:** 6 damage; M < 2 bleeding (save ends)
-> - **17+:** 9 damage; M < 3 bleeding (save ends)
-
-> ⭐️ **Upgrades**
-> 
-> **Stone Column (+1 EV)** The column is made of stone and has 8 Stamina.
-> 
-> **Metal Column (+1 EV)** The column is made of metal and has 11 Stamina.
-> 
-> **Concealed (+1 EV)** The blades are concealed inside the column, which remains motionless until triggered.
-> 
-> **Spiked Flails (+4 EV)** Instead of blades, the column is affixed with heavy spiked balls attached by long chains. The **Whirling Flails** ability replaces **Spinning Blades**.
-
-> ❗️ **Whirling Flails** 
-> 
-> | **Melee, Strike, Weapon** |                **Free triggered action** |
-> |---------------------------|-----------------------------------------:|
-> | **📏 Melee 2**            | **🎯 The triggering creature or object** |
-> 
-> **Trigger:** A creature or object moves within distance of the column. 
-> 
-> - **≤11:** 5 damage
-> - **12-16:** 8 damage; M < 2 dazed (save ends)
-> - **17+:** 11 damage; M < 3 dazed (save ends)
-
-> ⭐️ **Allied Awareness**
-> 
-> Allies who shift don't trigger the column. A creature observing an ally shift this way can make an **Intuition test** to shift in imitation of their movements.
-> 
-> **Power Roll + 2:**
-> 
-> - **≤11:** The creature triggers the column and the column's ability gains an edge.
-> - **12-16:** The creature triggers the column.
-> - **17+:** The creature doesn't trigger the column.
-
-######### Dart Trap (Level 1 Trap Ambusher)
-
-A concealed dart thrower hurls missiles at short range.
-
-- **EV:** 1
-- **Stamina:** 3
-- **Size:** 1S
-- **Direction:** The dart trap fires in a fixed direction.
-
-> 🌀 **Deactivate**
-> 
-> As a maneuver, a creature adjacent to a dart trap can make an **Agility test**.
-> 
-> - **≤11:** The creature triggers the trap and is targeted by it. 
-> - **12-16:** The trap is deactivated but the creature is slowed (EoT).
-> - **17+:** The trap is deactivated and doesn’t trigger.
-
-> ❕ **Activate**
-> 
-> A pressure plate, switch, or other linked trigger is activated.
-> 
-> **Effect:** The **Dart** ability.
-
-> ❗️ **Dart** 
-> 
-> | **Ranged, Strike, Weapon** |     **Free triggered action** |
-> |----------------------------|------------------------------:|
-> | **📏 Ranged 5**            | **🎯 One creature or object** |
-> 
-> **Trigger:** A pressure plate, switch, or other linked trigger is activated.
-> 
-> **Power Roll + 2:**
-> 
-> - **≤11:** 2 damage
-> - **12-16:** 4 damage
-> - **17+:** 5 damage
-
-> ⭐️ **Upgrades**
-> 
-> **Poison Darts (+2 EV)** The darts are tipped with poison. Any creature who takes damage from a dart also takes 1d6 poison damage at the start of each of their turns (save ends).
-> 
-> **Large Darts (+1 EV)** Larger, heavier darts impart kinetic force to the trap's attack. A target of the **Dart** ability is pushed 1 square on a tier 1 outcome, 2 squares on a tier 2 outcome, or 3 squares on a tier 3 outcome.
-> 
-> **Gatling Darts (+4 EV)** The dart trap is equipped with multiple barrels to launch darts at a high rate of fire. The **Dart** ability loses the Ranged and Strike and takes the Area keyword, its area becomes a 5 x 1 line within 1, and it deals an extra 1d6 damage.
-
-> ⭐️ **Hidden**
-> 
-> The dart trap is hidden until triggered or detected.
-
-######### Pillar (Level 2 Hazard Hexer)
-
-
-This stone pillar can be toppled onto unsuspecting foes with the right amount of damage or a well-engineered trigger mechanism.
-
-- **EV:** 3
-- **Stamina:** 6
-- **Size:** One square that can't be moved through 
-- **Direction:** The pillar topples in a preset direction.
-
-> 🌀 **Deactivate**
-> 
-> The pillar's linked trigger must be deactivated.
-
-> ❕ **Activate**
-> 
-> The pillar is destroyed, or a pressure plate, switch, or other linked trigger is activated.
+> 🏹 **Ricochet Shot (Encounter)**
 > 
-> **Effect:** The **Toppling Pillar** ability.
-
-> ❗️ **Toppling Pillar** 
-> 
-> | **Area**                   |                   **Free triggered action** |
-> |----------------------------|--------------------------------------------:|
-> | **📏 4 x 1 line within 1** | **🎯 Each creature and object in the area** |
-> 
-> **Trigger:** The pillar is destroyed, or a pressure plate, switch, or other linked trigger is activated.
-> 
-> **Power Roll + 2:**
-> 
-> - **≤11:** 4 damage
-> - **12-16:** 6 damage; M < 1 restrained (save ends)
-> - **17+:** 9 damage; M < 2 restrained (save ends)
-> 
-> **Effect:** The area is difficult terrain.
-
-> ⭐️ **Upgrades**
+> | **Ranged, Strike, Weapon** | **Main action** |
+> | --- | ---:|
+> | **📏 Ranged 5** | **🎯 One creature or object** |
 > 
-> **Metal Pillar (+1 EV)** The pillar is made of metal, has 9 Stamina, and deals 1d6 extra damage.
+> **Power Roll + highest characteristic:**
 > 
-> **Multiple Pillars (+3 EV per additional pillar)** Multiple pillars can be used to represent a larger toppling object such as a wall. If triggered by destruction, all individual pillars need to be destroyed before the object falls.
-
-######### Portcullis (Level 3 Trap Ambusher)
-
-A portcullis is hidden in the ceiling of a passage or choke point, waiting to drop when activated.
-
-- **EV:** 4
-- **Stamina:** 9 per square
-- **Size:** The area of the corridor to be blocked 
-- **Typical Space:** 2 x 1-square area, up to a 4 x 2-square area
-
-> 🌀 **Deactivate**
-> 
-> As a maneuver, a creature adjacent to a portcullis can make an **Agility test**.
+> - **≤11:** 9 damage
+> - **12-16:** 14 damage
+> - **17+:** 19 damage
 > 
-> - **≤11:** The creature triggers the portcullis and is affected as if in its area. 
-> - **12-16:** The portcullis is deactivated but the creature is slowed (EoT).
-> - **17+:** The portcullis is deactivated and doesn't trigger.
+> **Effect:** The retainer can target a second creature or object within 5 squares of the original target and that has line of effect to the original target. The retainer doesn't need line of effect to the second target but must be aware of their location.
 
-> ❕ **Activate**
-> 
-> A pressure plate, switch, or other linked trigger is activated. 
-> 
-> **Effect:** The **Heavy Gate** ability.
+##### Brute Abilities
+        
+######## Level 4 Role Advancement Ability
 
-> ❗️ **Heavy Gate** 
+> 👤 **Big Windup**
 > 
-> | **Area, Weapon** |                   **Free triggered action** | 
-> |------------------|--------------------------------------------:|
-> | **📏 Special**   | **🎯 Each creature and object in the area** |
+> | **-**       | **Maneuver** |
+> |-------------|-------------:|
+> | **📏 Self** |  **🎯 Self** |
 > 
-> **Trigger:** A pressure plate, switch, or other linked trigger is activated.
-> 
-> **Special:** The area of this ability is the area directly beneath the portcullis when it falls.
-> 
-> **Power Roll + 2:**
-> 
-> - **≤11:** 3 damage; slide 1, ignoring stability
-> - **12-16:** 7 damage; A < 2 restrained (save ends)
-> - **17+:** 10 damage; A < 3 restrained (save ends)
-> 
-> **Effect:** The portcullis blocks movement from one side of it to the other. A target slid by the portcullis ends up on one side of it or the other (choose randomly). The portcullis must be manually reset.
-
-> ⭐️ **Hidden**
-> 
-> The portcullis is hidden until triggered or detected.
-
-######### Pressure Plate (Level 1 Trigger Support)
+> **Effect:** Until the start of the retainer's next turn, strikes made against the retainer gain an edge. At the start of the retainer's next turn, they gain 2 surges, and any ability they use before the end of their turn that force moves a creature can move that creature 2 additional squares.
 
-This mechanism acts as a trigger for another linked mechanism, and is skillfully hidden from view in the floor.
+######## Level 7 Role Advancement Ability
 
-- **EV:** 2
-- **Stamina:** -
-- **Size:** Any area
-- **Typical Space:** One square, up to a 4 x 4-square area
-- **Link:** A pressure plate is linked to another mechanism that it activates when triggered.
-
-> 🌀 **Deactivate**
-> 
-> As a maneuver, a creature adjacent to a pressure plate can make an **Agility test**.
-> 
-> - **≤11:** The creature triggers the pressure plate.
-> - **12-16:** The pressure plate is deactivated but the creature is slowed (EoT).
-> - **17+:** The pressure plate is deactivated and doesn't trigger.
-
-> ❕ **Activate**
+> 🗡 **Overhand Swat (Encounter)**
 > 
-> The pressure plate is calibrated to be triggered by creatures or objects of a particular size. The pressure plate triggers when a creature or object of the appropriate size enters its area.
+> | **Melee, Strike, Weapon** |     **Main action** |
+> |---------------------------|--------------------:|
+> | **📏 Melee 1**            | **🎯 One creature** |
 > 
-> **Effect:** The linked mechanism is activated. A pressure plate automatically resets and can be triggered repeatedly.
-
-> ⭐️ **Upgrade**
+> **Power Roll + highest characteristic:**
 > 
-> **Tripwire (−1 EV)** The pressure plate is a tripwire, which can trigger once and must be manually reset. A concealed tripwire can be discovered with an **easy Intuition test**.
-
-> ⭐️ **Hidden**
+> - **≤11:** 8 damage
+> - **12-16:** 13 damage; push 2
+> - **17+:** 16 damage; push 3; M < STRONG prone
 > 
-> The pressure plate is hidden until triggered or detected.
-
-######### Pulley (Level 1 Trigger Support)
+> **Effect:** If the target ends any forced movement from this ability in a square adjacent to the retainer's mentor, the mentor can make a melee free strike against them.
 
-A counterweighted pulley system can be used to quickly ascend to the top of a wall, scaffold, tower, or other structure.
+######## Level 10 Role Advancement Ability
 
-- **EV:** 1
-- **Stamina:** 1
-- **Size:** 1S
-
-> 🌀 **Deactivate**
-> 
-> As a maneuver, a creature adjacent to a pulley can make an **Agility test**.
-> 
-> - **≤11:** The creature triggers the pulley.
-> - **12-16:** The pulley is deactivated but the creature is slowed (EoT). 
-> - **17+:** The pulley is deactivated and doesn't trigger.
-
-> ❕ **Activate**
+> ❇️ **Dizzying Sweep (Encounter)**
 > 
-> A creature adjacent to the pulley uses a maneuver to release the pulley.
+> | **Area, Weapon** |                  **Main action** |
+> |------------------|---------------------------------:|
+> | **📏 1 burst**   | **🎯 Each creature in the area** |
 > 
-> **Effect:** The triggering creature is lifted to the top of the structure the pulley is attached to. The pulley must be manually reset.
-
-> ⭐️ **Climbable**
+> **Power Roll + highest characteristic:**
 > 
-> A creature adjacent to the pulley can climb its ropes with an **easy Agility test** to ascend to the top of the structure it's attached to.
-
-> ⭐️ **Upgrade**
+> - **≤11:** 10 damage; push 1
+> - **12-16:** 14 damage; push 2
+> - **17+:** 20 damage; push 4
 > 
-> **Looped Chain (+1 EV)** Instead of a rope and pulley, the system uses a counterweighted looped chain. A looped chain automatically resets and can be triggered repeatedly.
-
-######### Ram (Level 2 Trap Ambusher)
+> **Effect:** The retainer is dazed until the end of their next turn.
 
-A heavy wooden ram drops down or swings into the fray, crushing all in its path.
+##### Controller Abilities
 
-- **EV:** 3
-- **Stamina:** 3 per square
-- **Size:** Any area; the area can't be moved through 
-- **Typical Space:** 1 x 3-square area or a 2 x 2-square area 
-- **Direction:** One side of the ram is defined as the front.
+######## Level 4 Role Advancement Ability
 
-> 🌀 **Deactivate**
-> 
-> As a maneuver, a creature adjacent to a ram can make an **Agility test**.
-> 
-> - **≤11:** The creature triggers the ram and is affected as if in its space.
-> - **12-16:** The ram is deactivated but the creature is slowed (EoT). 
-> - **17+:** The ram is deactivated and doesn't trigger.
-
-> ❕ **Activate**
-> 
-> A pressure plate, switch, or other linked trigger is activated. 
-> 
-> **Effect:** The **Ram** ability.
-
-> ❗️ **Ram** 
-> 
-> | **Area, Weapon** |                   **Free triggered action** |
-> |------------------|--------------------------------------------:|
-> | **📏 Special**   | **🎯 Each creature and object in the area** |
-> 
-> **Trigger:** A pressure plate, switch, or other linked trigger is activated.
+> 🔳 Elemental Blast (Encounter)**
 > 
-> **Special:** The area of this ability is the path the ram moves through from its starting position.
+> | **Area, Magic, Ranged** |                  **Main action** |
+> |-------------------------|---------------------------------:|
+> | **📏 3 cube within 10** | **🎯 Each creature in the area** |
 > 
-> **Power Roll + 2:**
+> **Power Roll + highest characteristic:**
 > 
-> - **≤11:** 3 damage; slide 1, ignoring stability
+> - **≤11:** 4 damage; push 2
 > - **12-16:** 6 damage; push 3
-> - **17+:** 9 damage; push 5
+> - **17+:** 10 damage; push 5
 > 
-> **Effect:** A target slid by the ram ends up on one side of it or the other (choose randomly). The ram must be manually reset.
+> **Effect:** When the retainer uses this ability, they can choose for it to deal one of the following damage types: acid, cold, fire, lightning, poison, or sonic.
 
-> ⭐️ **Upgrades**
-> 
-> **Stone (+1 EV)** The ram is made of stone, has 6 Stamina per square, and deals an extra 1d3 damage.
-> 
-> **Metal (+2 EV)** The ram is made of metal, has 9 Stamina per square, and deals an extra 1d6 damage.
-> 
-> **Repeating (+1 EV)** The ram automatically resets at the start of each round.
-> 
-> **Rapid Repeating (+3 EV)** The ram automatically resets at the start of each turn.
-> 
-> **Multiple Rams (+3 EV per additional ram)** Multiple rams can be used to represent a larger mechanism, such as a stack of tumbling logs.
+######## Level 7 Role Advancement Ability
 
-> ⭐️ **Hidden**
+> 🔳 **Oil Slick (Encounter)**
 > 
-> The ram is hidden until triggered or detected.
+> | **Area, Ranged, Weapon** |               **Main action** |
+> |--------------------------|------------------------------:|
+> | **📏 3 cube within 10**  | **🎯 Each enemy in the area** |
+> 
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 5 poison damage; M < WEAK prone
+> - **12-16:** 8 poison damage; M < AVERAGE prone
+> - **17+:** 11 poison damage; M < STRONG prone
+> 
+> **Effect:** The area is difficult terrain for enemies. Any enemy has fire weakness 5 while in the area, and any enemy who ends their turn in the area and has no movement remaining falls prone.
 
-######### Switch (Level 1 Trigger Support)
+######## Level 10 Role Advancement Ability
 
-Set into any surface, this mechanism acts as a trigger for another linked mechanism.
+> 🏹 **Shattering Shards (Encounter)**
+> 
+> | **Ranged, Strike, Weapon** |   **Main action** |
+> |----------------------------|------------------:|
+> | **📏 Ranged 10**           | **🎯 One Object** |
+> 
+> **Special:** The target must be size 1M or smaller.
+> 
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 7 damage
+> - **12-16:** 11 damage
+> - **17+:** 16 damage
+> 
+> **Effect:** The area within 2 squares of the target is difficult terrain, and each enemy in the area takes the same damage the object took.
 
-- **EV:** 1
-- **Stamina:** 3
-- **Size:** 1T
-- **Link:** A switch is linked to another mechanism that it activates when triggered.
+##### Defender Abilities
 
-> 🌀 **Deactivate**
-> 
-> As a maneuver, a creature adjacent to a switch can make an **Agility test**.
-> 
-> - **≤11:** The creature triggers the switch.
-> - **12-16:** The switch is deactivated but the creature is slowed (EoT).
-> - **17+:** The switch is deactivated and doesn't trigger.
+######## Level 4 Role Advancement Ability
 
-> ❕ **Activate**
+> ❗️ **Watch Out! Encounter**
 > 
-> A creature adjacent to the switch uses a maneuver to trigger it.
+> | **Melee**      |         **Triggered action** |
+> |----------------|-----------------------------:|
+> | **📏 Melee 1** | **🎯 The retainer's mentor** |
 > 
-> **Effect:** The linked mechanism is activated. A switch automatically resets and can be triggered repeatedly.
+> **Trigger:** The target takes damage from a strike.
+> 
+> **Effect:** The retainer pushes the target or the attacking creature up to 2 squares. If that moves the mentor out of distance of the strike, the strike has no effect
 
-> ⭐️ **Upgrade**
-> 
-> **Concealed (+1 EV)** The switch is hidden.
+######## Level 7 Role Advancement Ability
 
-# Power Fixtures
+> 🗡 **It's Me You Want! (Encounter)**
+> 
+> | **Melee, Strike, Weapon** |      **Main action** |
+> |---------------------------|---------------------:|
+> | **📏 Melee 1**            | **🎯 Two creatures** |
+> 
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 7 damage; taunted (EoT)
+> - **12-16:** 11 damage; taunted (save ends)
+> - **17+:** 16 damage; taunted (save ends)
 
-Power fixtures are especially potent fortifications for solo creatures and smaller strike forces. The more of these terrain objects that occupy the field of battle, the worse things get for the attacking side.
+######## Level 10 Role Advancement Ability
 
-######### Holy Idol (Level 5 Relic Support)
+> 🗡 **Last Stand (Encounter)**
+> 
+> | **Melee, Weapon** |  **Main action** |
+> |-------------------|-----------------:|
+> | **📏 Melee 1**    | **🎯 One enemy** |
+> 
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 8 damage
+> - **12-16:** 13 damage
+> - **17+:** 17 damage
+> 
+> **Effect:** The retainer and their mentor each gain 10 temporary Stamina. Additionally, each winded ally within 2 squares of the retainer can spend a Recovery.
 
-An empowering monument to a higher power enables a villain's machinations.
+##### Harrier Abilities
 
-- **EV:** 7
-- **Stamina:** 35
-- **Size:** 2
+######## Level 4 Role Advancement Ability
 
-> 🌀 **Deactivate**
+> 🗡 **Tackle (Encounter)**
 > 
-> The holy idol must be completely destroyed.
-
-> ⭐️ **Empowered Will**
+> **Power Roll + highest characteristic:**
 > 
-> At the start of each round while the holy idol is intact, the Director gains a d6 that lasts until the end of the round. When a Director-controlled creature deals or takes damage, the Director can roll the d6 to increase the damage the creature deals or reduce the damage the creature takes by an amount equal to the roll (to a minimum of 2 damage). If multiple idols are in play, only one d6 can be applied to a single instance of damage.
-
-######### Psionic Shard (Level 5 Fortification Defender)
-
-A massive humming crystal makes the air around it feel thick. 
-
-- **EV:** 7
-- **Stamina:** 40
-- **Size:** 2
-
-> 🌀 **Deactivate**
-> 
-> The psionic shard must be completely destroyed.
-
-> ⭐️ **Psionic Barrier**
-> 
-> A psionic shard is attuned to one side in an encounter. While a psionic shard is intact, any damage dealt to each ally of the shard in the encounter is halved.
-
-> ❗️ **Psionic Pulse**
-> 
-> | **-**    | **Free triggered action** |
-> |----------|--------------------------:|
-> | **📏 -** |                  **🎯 -** |
-> 
-> **Trigger:** The shard is destroyed.
-> 
-> **Effect:** The shard releases a shockwave channeled through each creature affected by Psionic Barrier. Each ally in the encounter is dazed until the end of their next turn.
-
-######### Tree of Might (Level 5 Hazard Hexer)
-
-A gnarled tree has unearthed roots that writhe and curl.
-
-- **EV:** 14
-- **Stamina:** 60
-- **Size:** 3
-- **Immunity:** 5 to all damage except corruption or fire damage
-
-> 🌀 **Deactivate**
-> 
-> The tree of might must be completely destroyed.
-
-> ⭐️ **Tree's Nourishment**
-> 
-> At the start of each round while the tree of might is intact, each enemy touching the ground in the encounter area who has M < 0 takes 10 corruption damage, and the tree of might grows a fruit. The potency increases by 1 each subsequent round.
-
-> ⭐️ **Mighty Fruit**
-> 
-> Once per round, any creature adjacent to the tree of might can take a fruit from the tree and eat it (no action required). The creature gains 10 temporary Stamina and has their Might score increased by 1 (to a maximum of 6) until the end of the encounter.
-
-### Siege Engines
-
-Siege engines are powerful weapons that require a team of creatures to operate and move. These weapons can scale in size from smaller field artillery to massive mechanisms that can destroy buildings.
-
-#### Adjacent Creature Main Actions
-
-Rather than siege engines taking actions on their own, a creature adjacent to the siege engine can use a main action to activate a siege engine ability noted as "Main action (Adjacent creature)." In addition to their primary attack, some siege engines require an adjacent creature main action to reload them once they are used, while others have adjacent creature main actions allowing them to be moved or allowing a creature to improve the engine's distance and accuracy.
-
-Multiple minions in a squad can activate different aspects of a siege engine using adjacent creature main actions.
-
-########## Arrow Launcher (Level 2 Siege Engine Artillery)
-
-A small wooden cart uses alchemical rockets to launch up to a hundred arrows at a time across a wide area.
-
-- **EV:** 8
-- **Stamina:** 30
-- **Size:** 1L
-
-> 🌀 **Deactivate**
-> 
-> As a maneuver, a creature adjacent to an arrow launcher can make an **Agility test**.
-> 
-> - **≤11:** The creature accidentally activates the **Arrow Storm** ability.
-> - **12-16:** The arrow launcher is deactivated but the creature is slowed (EoT).
-> - **17+:** The arrow launcher is deactivated and can't be used.
-
-> 🔳 **Arrow Storm** 
-> 
-> | **- Area, Ranged, Weapon** |         **Main action (Adjacent creature)** | 
-> |----------------------------|--------------------------------------------:|
-> | **📏 5 cube within 20**    | **🎯 Each creature and object in the area** |
-> 
-> **Power Roll + 2:**
-> 
-> - **≤11:** 5 damage
-> - **12-16:** 8 damage
-> - **17+:** 11 damage
-> 
-> **Effect:** This ability can't be used again until the arrow launcher is reloaded.
-
-> ⭐️ **Reload**
-> 
-> | **-**    | **Main action (Adjacent creature)** |
-> |----------|------------------------------------:|
-> | **📏 -** |                            **🎯 -** |
-> 
-> **Effect:** The arrow launcher is reloaded, allowing **Arrow Storm** to be used again. This action can be used only once per round.
-
-> ⭐️ **Spot**
-> 
-> | **-**    | **Main action (Adjacent creature)** |
-> |----------|------------------------------------:|
-> | **📏 -** |                            **🎯 -** |
-> 
-> **Effect:** The next use of **Arrow Storm** gains an edge and has a +10 bonus to ranged distance. This action can be used only once per round.
-
-> ⭐️ **Move**
-> 
-> | **-**    | **Main action (Adjacent creature)** |
-> |----------|------------------------------------:|
-> | **📏 -** |                            **🎯 -** |
-> 
-> **Effect:** The arrow launcher and the creature using this action move together up to 3 squares.
-
-> ⭐️ **Upgrades**
-> 
-> **Flaming Arrows (+1 EV) Arrow Storm** deals fire damage, and can ignite flammable objects in its area.
-> 
-> **Screamers (+3 EV)** The arrows make a high-pitched screaming noise as they are fired and descend onto their targets. The **Screamers** ability replaces **Arrow Storm**.
-
-> 🔳 **Screamers** 
-> 
-> | Area, Ranged, Weapon    |             Main action (Adjacent creature) |
-> |-------------------------|--------------------------------------------:|
-> | **📏 5 cube within 20** | **🎯 Each creature and object in the area** |
-> 
-> - **≤11:** 5 damage; R < 0 dazed (save ends)
-> - **12-16:** 8 damage; R < 1 dazed (save ends) 
-> - **17+:** 11 damage; R < 2 frightened (save ends)
-> 
-> **Effect:** This ability can't be used again until the arrow
-> 
-> **Effect:** This ability can't be used again until the arrow launcher is reloaded.
-
-######### Boiling Oil Cauldron (Level 3 Fortification Defender)
-
-A large cauldron of boiling oil stands ready to be poured onto enemies.
-
-- **EV:** 10
-- **Stamina:** 50
-- **Size:** 1L
-
-> 🌀 **Deactivate**
-> 
-> As a maneuver, a creature adjacent to a boiling oil cauldron can make an **Agility test**.
-> 
-> - **≤11:** The creature accidentally activates the **Boiling Oil** ability.
-> - **12-16:** The boiling oil cauldron is deactivated but the creature is slowed (EoT).
-> - **17+:** The boiling oil cauldron is deactivated and can't be used.
-
-> 🔳 **Boiling Oil** 
-> 
-> | **Area, Weapon**       |         **Main action (Adjacent creature)** |
-> |------------------------|--------------------------------------------:|
-> | **📏 3 cube within 1** | **🎯 Each creature and object in the area** |
-> 
-> **Power Roll + 2:**
-> 
-> - **≤11:** 5 fire damage; M < 1 burning (save ends)
-> - **12-16:** 9 fire damage; M < 2 burning (save ends)
-> - **17+:** 12 fire damage; M < 3 burning (save ends)
-> 
-> **Effect:** If the boiling oil is poured down on targets from above, it has high ground and gains an edge on the power roll. A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round. This ability can't be used again until the boiling oil cauldron is reloaded.
-
-> ⭐️ **Reload**
-> 
-> | **-**    | **Main action (Adjacent creature)** |
-> |----------|------------------------------------:|
-> | **📏 -** |                            **🎯 -** |
-> 
-> **Effect:** The boiling oil cauldron is reloaded, allowing **Boiling Oil** to be used again. This action can be used only once per round.
-
-######### Catapult (Level 3 Siege Engine Artillery)
-
-This massive counterweighted engine hurls a heavy projectile for a devastating assault.
-
-- **EV:** 10
-- **Stamina:** 50
-- **Size:** 2
-
-> 🌀 **Deactivate**
-> 
-> As a maneuver, a creature adjacent to a catapult can make an **Agility test**.
-> 
-> - **≤11:** The creature accidentally activates the **Arcing Shot** ability.
-> - **12-16:** The catapult is deactivated but the creature is slowed (EoT).
-> - **17+:** The catapult is deactivated and can't be used.
-
-> 🔳 **Arcing Shot** 
-> 
-> | **- Area, Ranged, Weapon** |         **Main action (Adjacent creature)** |
-> |----------------------------|--------------------------------------------:|
-> | **📏 3 cube within 20**    | **🎯 Each creature and object in the area** |
-> 
-> **Power Roll + 2:**
-> 
-> - **≤11:** 5 damage
-> - **12-16:** 9 damage; A < 0 push 1 
-> - **17+:** 12 damage; A < 1 push 2
-> 
-> **Effect:** Line of effect for this ability is an arc that can be traced over obstacles between the catapult and the target area. This ability can't be used again until the catapult is reloaded.
-
-> ⭐️ **Reload**
-> 
-> | **-**    | **Main action (Adjacent creature)** |
-> |----------|-------------------------------------:|
-> | **📏 -** |                             **🎯 -** |
-> 
-> **Effect:** The catapult is reloaded, allowing **Arcing Shot** to be used again. This action can be used only once per round.
-
-> ⭐️ **Spot**
-> 
-> | **-**    | **Main action (Adjacent creature)** |
-> |----------|------------------------------------:|
-> | **📏 -** |                            **🎯 -** |
-> 
-> **Effect:** The next use of **Arcing Shot** gains an edge and has a +10 bonus to ranged distance. This action can be used only once per round.
-
-> ⭐️ **Move**
-> 
-> | **-**    | **Main action (Adjacent creature)** |
-> |----------|------------------------------------:|
-> | **📏 -** |                            **🎯 -** |
-> 
-> **Effect:** The catapult and the creature using this action move together up to 2 squares.
-
-> ⭐️ **Upgrades**
-> 
-> **Air Assault (+2 EV)** The side fielding the catapult has trained their forces to safely use the siege engine to launch them across the battlefield. As an adjacent creature main action, the catapult can be used to vertical push 10 any ally of size 1L or less. If the ally lands in an unoccupied space, they take no damage.
-> 
-> **Flammable (+2 EV) Arcing Shot** deals fire damage, and the area of that ability is on fire until the end of the encounter. Any creature who enters the area for the first time in a round or starts their turn there takes 2 fire damage.
-
-######### Exploding Mill Wheel (Level 3 Siege Engine Artillery)
-
-A massive wooden wheel is loaded with explosives and rolled toward enemy forces or fortifications, ready to explode.
-
-- **EV:** 10
-- **Stamina:** 25
-- **Size:** 2
-
-> 🌀 **Deactivate**
-> 
-> As a maneuver, a creature adjacent to an exploding mill wheel that isn't rolling can make an **Agility test**.
-> 
-> - **≤11:** The creature accidentally activates the **Roll the Wheel** ability. 
-> - **12-16:** The exploding mill wheel is deactivated but the creature is slowed (EoT).
-> - **17+:** The exploding mill wheel is deactivated and can't be used.
-> 
-> Once the wheel is rolling, it can't be deactivated. However, it can be exploded early by destroying it or blocking its movement with a suitably large creature or object.
-
-> 🌀 **Roll the Wheel** 
-> 
-> | **Area**       |         **Main action (Adjacent creature)** | 
-> |----------------|--------------------------------------------:|
-> | **📏 Special** | **🎯 Each creature and object in the area** |
-> 
-> **Effect:** When this ability is used and at the start of every turn thereafter, the exploding mill wheel rolls, moving 2 squares in a straight line. Each creature and object of size 2 or smaller in the area defined by the wheel's movement is targeted by the following power roll. A target force moved this way is moved to either side of the wheel, as the Director determines.
-> 
-> **Power Roll + 2:**
+> | **Charge, Melee, Strike, Weapon** |  **Main action** |
+> |-----------------------------------|-----------------:|
+> | **📏 Melee 1**                    | **🎯 One enemy** |
 > 
 > - **≤11:** 5 damage; push 1
 > - **12-16:** 9 damage; push 2
-> - **17+:** 12 damage; push 3
-> 
-> If the wheel enters the space of any creature or object of size 3 or larger, or if it is reduced to 0 Stamina, its movement stops and it explodes. Each creature and object in a 5 burst centered on the wheel is targeted by the following power roll.
-> 
-> - **≤11:** 5 damage; push 1; M < 0 burning (save ends)
-> - **12-16:** 9 damage; push 2; M < 1 burning (save ends)
-> - **17+:** 12 damage; push 3; M < 2 burning (save ends)
-> 
-> A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round.
+> - **17+:** 12 damage; push 4
 
-> ⭐️ **Upgrade**
-> 
-> **Piloted (+4 EV)** The wheel has been fitted with a control mechanism and a pilot's seat for a creature of size 1M or smaller. As a move action, the pilot can turn the wheel in any direction while it is moving. As a main action, the pilot can leap out of the pilot's seat, landing in an adjacent space while the wheel continues moving in a straight line.
-> 
-> Without proper training, determining how to pilot the wheel requires a **Reason test**.
-> 
-> - **≤11:** The wheel immediately explodes as if striking a size 3 or larger creature or object.
-> - **12-16:** The creature fails to pilot the wheel.
-> - **17+:** The creature can pilot the wheel.
-> 
-> On a natural 19 or 20, a creature can both pilot the wheel and can disarm its explosives as a maneuver.
+######## Level 7 Role Advancement Ability
 
-######### Field Ballista (Level 2 Siege Engine Artillery)
-
-A massive crossbow fires thick metal bolts with devastating effect. 
-
-- **EV:** 8
-- **Stamina:** 40
-- **Size:** 2
-
-> 🌀 **Deactivate**
+> 🗡 **Meet You There (Encounter)**
 > 
-> As a maneuver, a creature adjacent to a field ballista can make an **Agility test**.
+> | **Melee, Strike, Weapon** |     **Main action** |
+> |---------------------------|--------------------:|
+> | **📏 Melee 1**            | **🎯 One creature** |
 > 
-> - **≤11:** The creature accidentally activates the **Release Bolt** ability.
-> - **12-16:** The field ballista is deactivated but the creature is slowed (EoT).
-> - **17+:** The field ballista is deactivated and can't be used.
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 7 damage
+> - **12-16:** 10 damage
+> - **17+:** 15 damage
+> 
+> **Effect:** Before or after the strike, the retainer and their mentor can each shift up to their speed
 
-> 🏹 **Release Bolt** 
+######## Level 10 Role Advancement Ability
+
+> ❇️ **Nab and Stab (Encounter)**
 > 
-> | **Ranged, Strike, Weapon** | **Main action (Adjacent creature)** |
-> |----------------------------|------------------------------------:|
-> | **📏 Ranged 20**           |       **🎯 One creature or object** |
+> | **Area, Weapon** |                  **Main action** |
+> |------------------|---------------------------------:|
+> | **📏 1 burst**   | **🎯 Each creature in the area** |
 > 
-> **Power Roll + 2:**
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 11 damage; one target who has M < WEAK is grabbed
+> - **12-16:** 16 damage; one target who has M < AVERAGE is grabbed
+> - **17+:** 21 damage; one target who has M < STRONG is grabbed
+> 
+> **Effect:** The retainer shifts up to 2 squares, and can move a creature grabbed using this ability with them.
+
+##### Hexer Abilities
+
+######## Level 4 Role Advancement Ability
+
+> 🏹 **Backfire Curse (Encounter)**
+> 
+> | **Magic, Ranged, Strike** |  **Main action** |
+> |---------------------------|-----------------:|
+> | **📏 Ranged 10**          | **🎯 One enemy** |
+> 
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 2 corruption damage; the target is cursed (EoT)
+> - **12-16:** 5 corruption damage; the target is cursed (EoT)
+> - **17+:** 7 corruption damage; the target is cursed (EoT)
+> 
+> **Effect:** While the target is cursed this way, whenever they make a strike that targets only one creature, the retainer can use a free triggered action to choose a second target for the strike within its distance.
+
+> ######## Level 7 Role Advancement Ability
+> 
+> 🏹 **Take Root (Encounter)**
+> 
+> | **Magic, Ranged, Strike** |     **Main action** |
+> |---------------------------|--------------------:|
+> | **📏 Ranged 10**          | **🎯 One creature** |
+> 
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 5 damage; M < WEAK slowed (save ends)
+> - **12-16:** 9 damage; M < AVERAGE slowed (save ends)
+> - **17+:** 12 damage; M < STRONG slowed (save ends)
+> 
+> **Effect:** While the target is slowed this way, if they end their turn without moving on that turn, they are no longer slowed and are restrained (save ends).
+
+######## Level 10 Role Advancement Ability
+
+> 🏹 **Mazed (Encounter)**
+> 
+> | **Magic, Ranged, Strike** |     **Main action** |
+> |---------------------------|--------------------:|
+> | **📏 Ranged 10**          | **🎯 One creature** |
+> 
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 7 damage; if the target has M < WEAK they are mazed (save ends)
+> - **12-16:** 11 damage; if the target has M < AVERAGE they are mazed (save ends)
+> - **17+:** 16 damage; if the target has M < STRONG they are mazed (save ends)
+> 
+> **Effect:** While mazed, the target is dazed. Additionally, at the end of each of the mazed target's turns, the retainer can cause the target to move up to their speed in a straight line in a direction of the retainer's choice. This is not forced movement, and the movement ends if it would cause the target to enter difficult or damaging terrain.
+
+##### Mount Abilities
+
+######## Level 4 Role Advancement Ability
+
+> 🗡 **Cavalry Charge (Encounter)**
+> 
+> | **Charge, Melee, Strike, Weapon** |  **Main action** |
+> |-----------------------------------|-----------------:|
+> | **📏 Melee 1**                    | **🎯 One enemy** |
+> 
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 6 damage
+> - **12-16:** 8 damage
+> - **17+:** 11 damage
+> 
+> **Effect:** If this ability is used as part of the Charge main action, the mount's rider can use a free triggered action to make a melee free strike against the same target.
+
+######## Level 7 Role Advancement Ability
+
+> 👤 **Giddyup! Encounter**
+> 
+> | **-**          | **Move action** |
+> |----------------|----------------:|
+> | **📏 Range 5** |     **🎯 Self** |
+> 
+> **Effect:** The mount shifts twice their speed. They can jump as part of this movement.
+
+######## Level 10 Role Advancement Ability
+
+> ❇️ **Rearing Trample (Encounter)**
+> 
+> | **Area, Weapon** |               **Main action** |
+> |------------------|------------------------------:|
+> | **📏 1 burst**   | **🎯 Each enemy in the area** |
+> 
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 10 damage; M < WEAK prone
+> - **12-16:** 15 damage; M < AVERAGE prone
+> - **17+:** 21 damage; M < STRONG prone
+> 
+> **Effect:** A target knocked prone this way or who is already prone takes an extra 5 damage.
+
+##### Support Abilities
+
+######## Level 4 Role Advancement Ability
+
+> 🗡 **Battlefield Medic**
+> 
+> | **Melee**      |            **Manuever** |
+> |----------------|------------------------:|
+> | **📏 Melee 1** | **🎯 Self or one ally** |
+> 
+> **Effect:** The target spends a Recovery, and ability rolls against the target take a bane until the start of the retainer's next turn.
+
+######## Level 7 Role Advancement Ability
+
+> 🏹 **Focus Fire (Encounter)**
+> 
+> | **Ranged, Strike, Weapon** |     **Main action** |
+> |----------------------------|--------------------:|
+> | **📏 Ranged 5**            | **🎯 One creature** |
+> 
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 9 damage
+> - **12-16:** 13 damage
+> - **17+:** 18 damage
+> 
+> **Effect:** One ally within distance gains 2 surges.
+
+######## Level 10 Role Advancement Ability
+
+> 🗡 **Back from the Dead Encounter**
+> 
+> | **Melee**      | **Main action** |
+> |----------------|----------------:|
+> | **📏 Melee 1** | **🎯 One ally** |
+> 
+> **Effect:** If the target is at or below 0 Stamina, or if they have died due to Stamina loss since the end of the retainer's last turn, the target is alive with 1 Stamina and can spend a Recovery.
+
+####### Angulotl Hopper
+
+|    Angulotl, Humanoid    |              -               |      Level 1      |   Harrier Retainer    |         EV -         |
+|:------------------------:|:----------------------------:|:-----------------:|:---------------------:|:--------------------:|
+|      **1S**<br>Size      |        **6**<br>Speed        | **21**<br>Stamina |  **0**<br>Stability   | **2**<br>Free Strike |
+| **Poison 2**<br>Immunity | **Climb, swim **<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|     **+1**<br>Might      |      **+2**<br>Agility       |  **0**<br>Reason  |  **0**<br>Intuition   |  **0**<br>Presence   |
+
+> 🗡 **Leapfrog  (Signature Ability)**
+> 
+> | **Melee, Strike, Weapon** |               **Main action** |
+> |---------------------------|------------------------------:|
+> | **📏 Melee 1**            | **🎯 One creature or object** |
+> 
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 3 damage
+> - **12-16:** 5 damage
+> - **17+:** 7 damage
+> 
+> **Effect:** Before or after making this strike, the hopper jumps up to 2 squares, or up to 4 squares if they jump over their mentor's space.
+
+> ⭐️ **Toxiferous**
+> 
+> Whenever an adjacent enemy grabs the hopper or uses a melee ability against them, that enemy takes 3 poison damage.
+
+######## Level 4 Retainer Advancement Ability
+
+> 🗡 **Leaping Attack (Encounter)**
+> 
+> | **Melee, Strike, Weapon** |               **Main action** |
+> |---------------------------|------------------------------:|
+> | **📏 Melee 1**            | **🎯 One creature or object** |
+> 
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 5 damage; M <w, prone
+> - **12-16:** 9 damage; M <v, prone
+> - **17+:** 12 damage; M <s, prone
+> 
+> **Effect:** The hopper can jump up to their speed in a straight line before the strike without provoking opportunity attacks. If they jump 2 or more squares this way, they gain 1 surge.
+           
+######## Level 7 Retainer Advancement Ability
+
+> 🏹 **Three-Poison Dart (Encounter)**
+>
+> | **Ranged, Strike, Weapon** |     **Main action** |
+> |----------------------------|--------------------:|
+> | **📏 Ranged 5**            | **🎯 One creature** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 5 poison damage; M < WEAK, weakened (save ends)
+> - **12-16:** 9 poison damage; M < AVERAGE, slowed and weakened (save ends)
+> - **17+:** 12 poison damage; M < STRONG, dazed, slowed, and weakened (save ends)
+
+######## Level 10 Retainer Advancement Ability
+
+> ❗️ **Trip of the Tongue Encounter**
+>
+> | **Melee**      |          **Triggered action** |
+> |----------------|------------------------------:|
+> | **📏 Melee 5** | **🎯 One creature or object** |
+>
+> **Trigger:** A creature moves within distance
+>
+> **Effect:** If the target has M < AVERAGE, heir movement ends, they are knocked prone, and one ally within distance gains 2 surges.
+
+####### Bugbear Commando 
+
+| Bugbear, Fey, Goblin, Humanoid |         -         |      Level 2      |   Ambusher Retainer   |         EV -         |
+|:------------------------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
+|         **1L**<br>Size         |  **5**<br>Speed   | **30**<br>Stamina |  **0**<br>Stability   | **2**<br>Free Strike |
+|       **-**<br>Immunity        | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|        **+2**<br>Might         | **+2**<br>Agility |  **0**<br>Reason  |  **+1**<br>Intuition  |  **0**<br>Presence   |
+
+> 🗡 **Bear Hug (Signature Ability)**
+> 
+> | **Melee, Strike, Weapon** |               **Main action** |
+> |---------------------------|------------------------------:|
+> | **📏 Melee 1**            | **🎯 One creature or object** |
+> 
+> **Power Roll + highest characteristic:**
 > 
 > - **≤11:** 5 damage
-> - **12-16:** 8 damage; M < 1 push 1
-> - **17+:** 11 damage; M < 2 push 2
+> - **12-16:** 6 damage
+> - **17+:** 11 damage
 > 
-> **Effect:** This ability can't be used again until the field ballista is reloaded.
+> **Effect:** If the commando started their turn with concealment from the target or hidden from them, they gain 1 surge that can be used immediately.
 
-> ⭐️ **Reload**
+> 🗡 **Throw**
 > 
-> | **-**    | **Main action (Adjacent creature)** |
-> |----------|------------------------------------:|
-> | **📏 -** |                            **🎯 -** |
+> | **Melee, Strike** |                  **Maneuver** |
+> |-------------------|------------------------------:|
+> | **📏 Melee 1**    | **🎯 One creature or object** |
 > 
-> **Effect:** The field ballista is reloaded, allowing **Release Bolt** to be used again. This action can be used only once per round.
+> **Special:** The target must be grabbed by the commando.
+> 
+> **Effect:** The target is vertical pushed up to 5 squares. An ally doesn't take damage from being force moved this way.
 
-> ⭐️ **Spot**
+> ❗️ **Catcher**
 > 
-> | **-**    | **Main action (Adjacent creature)** |
-> |----------|------------------------------------:|
-> | **📏 -** |                            **🎯 -** |
+> | **Melee**      |                **Free triggered action** |
+> |----------------|-----------------------------------------:|
+> | **📏 Melee 1** | **🎯 The triggering creature or object** |
+> 
+> **Trigger:** A size 1 creature or object is force moved within distance, or a size 1 ally willingly moves within distance.
+> 
+> **Effect:** The target is grabbed by the commando.
 
-**Effect:** The next use of **Release Bolt** gains an edge and has a +10 bonus to ranged distance. This action can be used only once per round.
+######## Level 4 Retainer Advancement Ability
 
-> ⭐️ **Move**
+> 🗡 **Face Grab (Encounter)**
 > 
-> | **-**    | **Main action (Adjacent creature)** |
-> |----------|------------------------------------:|
-> | **📏 -** |                            **🎯 -** |
+> | **Melee, Strike, Weapon** |     **Main action** |
+> |---------------------------|--------------------:|
+> | **📏 Melee 1**            | **🎯 One creature** |
 > 
-> **Effect:** The field ballista and the creature using this action move together up to 3 squares.
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 6 damage; M < WEAK grabbed
+> - **12-16:** 9 damage; M < AVERAGE grabbed
+> - **17+:** 13 damage; M < STRONG grabbed
+> 
+> **Effect:** While the target is grabbed this way, they can't communicate and all creatures and objects have concealment from them.
 
-> ⭐️ **Upgrades**
+######## Level 7 Retainer Advancement Ability
+
+> 🏹 **Shadow Drag (Encounter)**
 > 
-> **Penetrating Bolt (+2 EV)** The field ballista targets the nearest two additional creatures or objects in a straight line beyond the initial target.
 > 
-> **Chain Bolt (+2EV)** The field ballista's bolts are set with heavy chains that wrap around targets. The **Chain Bolt** ability replaces **Release Bolt**, and the field ballista gains the **Crank the Chain** ability.
+> | **Magic, Ranged, Strike** |               **Main action** |
+> |---------------------------|------------------------------:|
+> | **📏 Ranged 10**          | **🎯 One creature or object** |
 > 
-> 🏹 **Chain Bolt** 
+> **Power Roll + highest characteristic:**
 > 
-> | **- - Ranged, Strike, Weapon** | **Main action (Adjacent creature)** |
-> |--------------------------------|------------------------------------:|
-> | **📏 Ranged 20**               |       **🎯 One creature or object** |
+> - **≤11:** Pull 8
+> - **12-16:** Pull 10
+> - **17+:** Pull 12
 > 
-> **Power Roll + 2:**
+> **Effect:** The target takes 1 damage for each square they are pulled.
+
+######## Level 10 Retainer Advancement Ability
+
+> 🗡 **Neck Snap (Encounter)**
+> 
+> | **Melee**      |                             **Main action** |
+> |----------------|--------------------------------------------:|
+> | **📏 Melee 1** | **🎯 One creature grabbed by the commando** |
+> 
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 12 damage
+> - **12-16:** 18 damage
+> - **17+:** 24 damage
+> 
+> **Effect:** The target takes 15 damage, they are no longer grabbed, and they fall prone.
+
+######## Devil Defector
+
+|    Devil, Infernal     |          -          |      Level 5      |    Hexer Retainer     |         EV -         |
+|:----------------------:|:-------------------:|:-----------------:|:---------------------:|:--------------------:|
+|     **1M**<br>Size     |   **6**<br>Speed    | **57**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
+| **Fire 5**<br>Immunity | **Fly**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|    **+3**<br>Might     |  **+2**<br>Agility  | **+3**<br>Reason  |  **+1**<br>Intuition  |  **+2**<br>Presence  |
+
+> 🏹 **Black Flame (Signature Ability)**
+> 
+> | **Magic, Ranged, Strike** |               **Main action** |
+> |---------------------------|------------------------------:|
+> | **📏 Ranged 10**          | **🎯 One creature or object** |
+> 
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 6 corruption or fire damage
+> - **12-16:** 10 corruption or fire damage
+> - **17+:** 13 corruption or fire damage
+
+> ❗️ **Tempting Offer Encounter**
+> 
+> | **Ranged, Strike** |      **Free triggered action** |
+> |--------------------|-------------------------------:|
+> | **📏 Ranged 10**   | **🎯 The triggering creature** |
+> 
+> **Trigger:** A sapient enemy is reduced to 0 Stamina.
+> 
+> **Effect:** The defector makes an offer to keep the target alive. If the target accepts, they are reduced to 1 Stamina instead. On the target's next turn, the defector controls their move action and the target must use a signature ability against a creature of the defector's choice or immediately die. To have the target turn down the offer, the Diretor must spend 3 Malice.
+
+> ⭐️ **True Name**
+> 
+> If a creature within 10 squares speaks the defector's true name, the defector loses their damage immunities and their Tempting Offer triggered action until the end of the encounter
+
+######## Level 7 Retainer Advancement Ability
+
+> 🔳 **Flames of Revenge (Encounter)**
+> 
+> | **Area, Magic, Ranged** |               **Main action** |
+> |-------------------------|------------------------------:|
+> | **📏 3 cube within 10** | **🎯 Each enemy in the area** |
+> 
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 6 corruption damage
+> - **12-16:** 10 corruption damage
+> - **17+:** 14 corruption damage
+> 
+> **Effect:** If the defector's mentor is in the area, the mentor burns with flame until the end of the defector's next turn. While this fire burns the mentor has fire immunity 10, and any creature who targets the mentor with a strike takes 10 fire damage
+
+######## Level 10 Retainer Advancement Ability
+
+> 🔳 **Hell On Earth Encounter**
+> 
+> | **Area, Magic, Ranged** | **Main action** |
+> |-------------------------|----------------:|
+> | **📏 5 cube within 10** |  **🎯 Special** |
+> 
+> **Effect:** The area burns with infernal fire until the end of the devil's next turn. Any enemy of the defector who ends their turn in the area takes 10 fire damage, and if they have P < AVERAGE they are frightened (save ends).
+
+####### The Nameless
+
+| Draconian, Dragon, Humanoid  |          -          |      Level 6      |   Defender Retainer   |         EV -         |
+|:----------------------------:|:-------------------:|:-----------------:|:---------------------:|:--------------------:|
+|        **1M**<br>Size        |   **5**<br>Speed    | **66**<br>Stamina |  **4**<br>Stability   | **6**<br>Free Strike |
+| **Corruption 6**<br>Immunity | **Fly**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|       **+3**<br>Might        |  **+2**<br>Agility  | **+1**<br>Reason  |  **+1**<br>Intuition  |  **+2**<br>Presence  |
+
+> 🗡 **Baneful Blade  (Signature Ability)**
+> 
+> | **Charge, Melee, Strike, Weapon** |               **Main action** |
+> |-----------------------------------|------------------------------:|
+> | **📏 Melee 1**                    | **🎯 One creature or object** |
+>                    
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 6 damage
+> - **12-16:** 11 damage
+> - **17+:** 14 damage; push 2
+
+> 🗡 **I'm Not a Steed, You're Equipment Encounter**
+> 
+> | **Melee**      |              **Main action** |
+> |----------------|-----------------------------:|
+> | **📏 Melee 1** | **🎯 The Nameless's mentor** |
+> 
+> **Effect:** The Nameless's mentor enters the Nameless's space and rides on their back. The Nameless or the mentor can move the mentor to an adjacent space as a free maneuver. While in the Nameless's space, the mentor moves with them and can't use their move action, and ability rolls against the mentor take a bane.
+
+> ⭐️ **Wing Block**
+> 
+> Ranged strikes against the Nameless take a bane.
+
+######## Level 7 Retainer Advancement Ability
+
+> ❇️ **Looming Wings (Encounter)**
+>
+> | **Area, Weapon** |               **Main action** |
+> |------------------|------------------------------:|
+> | **📏 1 burst**   | **🎯 Each enemy in the area** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 5 corruption damage; I < WEAK weakened (save ends)
+> - **12-16:** 9 corruption damage; I < AVERAGE weakened (save ends)
+> - **17+:** 12 corruption damage; I < STRONG weakened (save ends)
+>
+> **Effect:** If the Nameless's mentor is in the area, ability rolls against the mentor have a double bane until the start of their next turn.
+
+######## Level 10 Retainer Advancement Ability
+
+> ❇️ **Spew Death (Encounter)**
+>
+> | **Area, Magic** |               **Main action** |
+> |-----------------|------------------------------:|
+> | **📏 5 burst**  | **🎯 Each enemy in the area** |
+>
+> **Power Roll + highest characteristic:**
+>
+> **Special:** The Nameless must be winded to use this ability.
+>
+> - **≤11:** 11 corruption damage
+> - **12-16:** 16 corruption damage
+> - **17+:** 21 corruption damage
+>
+> **Effect:** Any living minions reduced to 0 Stamina by this ability regain all their Stamina and become corporeal undead under the Nameless's control until the end of the Nameless's next turn, after which they are destroyed.
+
+####### Dwarf Mortar 
+
+|  Dwarf, Humanoid  |         -         |      Level 1      |    Hexer Retainer     |         EV -         |
+|:-----------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
+|  **1M**<br>Size   |  **5**<br>Speed   | **21**<br>Stamina |  **3**<br>Stability   | **3**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|  **+2**<br>Might  | **0**<br>Agility  |  **0**<br>Reason  |  **+1**<br>Intuition  |  **0**<br>Presence   |
+
+> 🏹 **Armor-Piercing Shell (Signature Ability)**
+> 
+> | **Ranged, Strike, Weapon** |               **Main action** |
+> |----------------------------|------------------------------:|
+> | **📏 Ranged 15**           | **🎯 One creature or object** |
+> 
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 3 damage
+> - **12-16:** 5 damage
+> - **17+:** 7 damage
+> 
+> **Effect:** This ability ignores cover and bypasses temporary Stamina.
+
+> ⭐️ **Voice Rune**
+> 
+> The mortar can use a magical rune inscribed on their skin to talk to their mentor over any distance as long as both are in the same world.
+
+######## Level 4 Retainer Advancement Ability
+
+> 🔳 **Signal Shell (Encounter)**
+> 
+> | **Area, Ranged, Weapon**  |               **Main action** |
+> |---------------------------|------------------------------:|
+> | **📏 Special; see below** | **🎯 Each enemy in the area** |
+> 
+> **Effect:** The mortar fires a shell straight upward, which hovers 3 squares up in the air and sheds light below it in a 3 cube. Enemies illuminated by this light can't hide or turn invisible and can't benefit from concealment or cover. At the start of the mortar's next turn, the shell explodes to deal damage to enemies in the area.
+> 
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 5 fire damage
+> - **12-16:** 8 fire damage
+> - **17+:** 11 fire damage
+
+######## Level 10 Retainer Advancement Ability
+
+> 🔳 **Pacifier Shell (Encounter)**
+> 
+> | **Area, Ranged, Weapon** |               **Main action** |
+> |--------------------------|------------------------------:|
+> | **📏 3 cube within 15**  | **🎯 Each enemy in the area** |
+> 
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 8 damage; I < WEAK dazed (save ends
+> - **12-16:** 12 damage; I < AVERAGE dazed (save ends)
+> - **17+:** 16 damage; I < STRONG dazed (save ends) and prone
+
+######## Level 7 Retainer Advancement Ability
+
+> 🔳 **Screaming Shell (Encounter)**
+> 
+> | **Area, Weapon**            |               **Main action** |
+> |-----------------------------|------------------------------:|
+> | **📏 10 x 1 line within 1** | **🎯 Each enemy in the area** |
+> 
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 6 damage; P < WEAK frightened
+> - **12-16:** 9 damage; P < AVERAGE frightened
+> - **17+:** 13 damage; P < STRONG frightened
+> 
+> **Effect:** Until the start of the mortar's next turn, strikes made against the mortar or any ally adjacent to them take a bane.
+
+High Elf Weatherwise 
+
+| Fey, High Elf, Humanoid |         -         |     Level 1      |  Controller Retainer  |         EV -         |
+|:-----------------------:|:-----------------:|:----------------:|:---------------------:|:--------------------:|
+|     **1M**<br>Size      |  **5**<br>Speed   | **21**<br>Stamina |  **0**<br>Stability   | **2**<br>Free Strike |
+|    **-**<br>Immunity    | **-**<br>Movement |        -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|     **-1**<br>Might     | **+1**<br>Agility | **+2**<br>Reason |  **0**<br>Intuition   |  **+1**<br>Presence  |
+
+> 🏹 **Summer's Bolt (Signature Ability)**
+> 
+> | **Magic, Ranged, Strike** |               **Main action** |
+> |---------------------------|------------------------------:|
+> | **📏 Ranged 10**          | **🎯 One creature or object** |
+> 
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 3 fire damage
+> - **12-16:** 5 fire damage
+> - **17+:** 7 fire damage
+> 
+> **Effect:** If the weatherwise targets their mentor, the mentor ignores the damage and instead gains temporary Stamina equal to the damage dealt.
+
+> ⭐️ **Otherworldly Grace**
+> 
+> At the start of each of their turns, the weatherwise can choose one effect on them that can be ended by a saving throw. That effect instead ends at the end of their turn.
+
+######## Level 4 Retainer Advancement Ability
+
+> 🔳 **Winter's Breath (Encounter)**
+> 
+> | **Area, Magic**        |               **Main action** |
+> |------------------------|------------------------------:|
+> | **📏 3 cube within 1** | **🎯 Each enemy in the area** |
+> 
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 3 cold damage; push 2
+> - **12-16:** 5 cold damage; push 3
+> - **17+:** 8 cold damage; push 5
+> 
+> **Effect:** The weatherwise can teleport up to 5 squares before or after using this ability.
+
+######## Level 7 Retainer Advancement Ability
+
+> ❇️ **Spring's Rebirth Encounter**
+> 
+> | **Area, Magic** |              **Main action** |
+> |-----------------|-----------------------------:|
+> | **📏 3 burst**  | **🎯 Each ally in the area** |
+> 
+> **Effect:** Each target can spend a Recovery, and can choose one effect on them that can be ended by a saving throw. That effect instead ends at the end of their turn.
+
+######## Level 10 Retainer Advancement Ability
+
+> 🔳 **Autumn's Decay (Encounter)**
+> 
+> | **Area, Magic**        |               **Main action** |
+> |------------------------|------------------------------:|
+> | **📏 3 cube within 1** | **🎯 Each enemy in the area** |
+> 
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 6 corruption damage; P < WEAK prone and can't stand (save ends)
+> - **12-16:** 10 corruption damage; P < AVERAGE prone and can't stand (save ends)
+> - **17+:** 14 corruption damage; P < STRONG prone and can't stand (save ends)
+
+####### Shadow Elf Shade 
+
+| Fey, Humanoid, Shadow Elf |           -           |      Level 4      |   Ambusher Retainer   |         EV -         |
+|:-------------------------:|:---------------------:|:-----------------:|:---------------------:|:--------------------:|
+|      **1M**<br>Size       |    **5**<br>Speed     | **48**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
+|     **-**<br>Immunity     | **Climb**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|      **+1**<br>Might      |   **+3**<br>Agility   |  **0**<br>Reason  |  **+2**<br>Intuition  |  **+1**<br>Presence  |
+
+> ⚔️ **Gloom Dagger (Signature Ability)**
+> 
+> | **Melee, Ranged, Strike, Weapon** |               **Main action** |
+> |-----------------------------------|------------------------------:|
+> | **📏 Melee 1 or ranged 3**        | **🎯 One creature or object** |
+> 
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 6 damage
+> - **12-16:** 10 damage
+> - **17+:** 13 damage
+> 
+> **Effect:** Whenever the shade starts their turn with concealment from the target, they gain 1 surge.
+
+> 🔳 **Duskfall Encounter**
+> 
+> | **Area, Magic**        |   **Maneuver** |
+> |------------------------|---------------:|
+> | **📏 3 cube within 1** | **🎯 Special** |
+> 
+> **Effect:** Until the end of the next turn, the area is filled with darkness . The shade's mentor ignores concealment created by this darkness.
+
+> ⭐️ **Of the Umbra**
+> 
+> The shade ignores concealment created by darkness. While the shade is in direct sunlight, they have damage weakness 3. While the shade has concealment, they have damage immunity 3.
+
+######## Level 7 Retainer Advancement Ability
+
+> 🏹 **Slow-Poison Needle (Encounter)**
+> 
+> | **Ranged, Strike, Weapon** |     **Main action** |
+> |----------------------------|--------------------:|
+> | **📏 Ranged 5**            | **🎯 One creature** |
+> 
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 8 poison damage; weakened (save ends)
+> - **12-16:** 12 poison damage; weakened (save ends)
+> - **17+:** 16 poison damage; weakened (save ends)
+> 
+> **Effect:** The slow-poison needle is initially painless, with the damage and effect delayed until the start of the target 's next turn. If the shade is hidden, using this ability doesn't cause them to be revealed.
+
+######## Level 10 Retainer Advancement Ability
+
+> 🗡 **Shadow Dagger (Encounter)**
+> 
+> | **Melee, Strike, Weapon** |     **Main action** |
+> |---------------------------|--------------------:|
+> | **📏 Melee 1**            | **🎯 One creature** |
+> 
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 12 poison damage; the target has shadowed vision (save ends)
+> - **12-16:** 17 poison damage; the target has shadowed vision (save ends)
+> - **17+:** 23 poison damage; the target has shadowed vision (save ends)
+> 
+> **Effect:** While a creature has shadowed vision, all creatures have concealment from them.
+
+####### Wode Elf Arrowswift 
+
+| Fey, Humanoid, Wode Elf |         -         |      Level 1      |  Artillery Retainer   |         EV -         |
+|:-----------------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
+|     **1M**<br>Size      |  **7**<br>Speed   | **21**<br>Stamina |  **1**<br>Stability   | **2**<br>Free Strike |
+|    **-**<br>Immunity    | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|     **0**<br>Might      | **+2**<br>Agility |  **0**<br>Reason  |  **+1**<br>Intuition  |  **0**<br>Presence   |
+
+> 🏹 **Longshot (Signature Ability)**
+> 
+> | **Ranged, Strike, Weapon** |               **Main action** |
+> |----------------------------|------------------------------:|
+> | **📏 Ranged 15**           | **🎯 One creature or object** |
+> 
+> **Power Roll + highest characteristic:**
 > 
 > - **≤11:** 4 damage
-> - **12-16:** 7 damage; M < 1 slowed (save ends)
-> - **17+:** 10 damage; M < 2 slowed (save ends)
+> - **12-16:** 7 damage
+> - **17+:** 10 damage
 > 
-> **Effect:** This ability can't be used again until the field ballista is reloaded.
-> 
-> 🏹 **Crank the Chain** 
-> 
-> | **Ranged, Strike, Weapon** | **Main action (Adjacent creature)** |
-> |----------------------------|------------------------------------:|
-> | **📏 Ranged 20**           |                 **🎯 One creature** |
-> 
-> **Special:** The target must be slowed by the field ballista.
-> 
-> **Power Roll + 2:**
-> 
-> - **≤11:** Pull 1
-> - **12-16:** Pull 
-> - **17+:** 3 Pull 5
-> 
-> **Effect:** This forced movement triggers opportunity attacks.
+> **Effect:** The arrowswift can take a bane on this ability to gain a +5 bonus to ranged distance.
 
-######### Iron Dragon (Level 4 Siege Engine Artillery)
+> ⭐️ **Masking Glamor**
+> 
+> Abilities targeting the arrowswift that would take a bane from cover or concealment have a double bane instead.
 
-A massive metal device uses a bellows system and liquid fuel to shoot out gouts of flame.
+######## Level 4 Retainer Advancement Ability
 
-- **EV:** 12
-- **Stamina:** 60 
-- **Size:** 2
+> 🏹 **Snipe (Encounter)**
+> 
+> | **Ranged, Strike, Weapon** |     **Main action** |
+> |----------------------------|--------------------:|
+> | **📏 Ranged 15**           | **🎯 One creature** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 7 damage
+> - **12-16:** 11 damage
+> - **17+:** 16 damage
+> 
+> **Effect:** If the arrowswift is hidden when they use this ability, they gain 2 surges that can be used immediately.
 
-> 🌀 **Deactivate**
-> 
-> As a maneuver, a creature adjacent to an iron dragon can make an **Agility test**.
-> 
-> - **≤11:** The creature accidentally activates the **Gout of Flame** ability.
-> - **12-16:** The iron dragon is deactivated but the creature is slowed (EoT). 
-> - **17+:** The iron dragon is deactivated and can't be used.
+######## Level 7 Retainer Advancement Ability
 
-> 🔳 **Gout of Flame** 
+> 👤 **Magic Arrows Encounter**
 > 
-> | **Area, Weapon**           |         **Main action (Adjacent creature)** |
-> |----------------------------|--------------------------------------------:|
-> | **📏 8 x 2 line within 1** | **🎯 Each creature and object in the area** |
+> | **-**       | **Maneuver** |
+> |-------------|-------------:|
+> | **📏 Self** |  **🎯 Self** |
 > 
-> **Power Roll + 2:**
-> 
-> - **≤11:** 6 damage; A < 0 the target is burning (save ends)
-> - **12-16:** 10 damage; A < 1 the target is burning (save ends)
-> - **17+:** 13 damage; A < 2 the target is burning (save ends)
-> 
-> **Effect:** A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round. This ability can't be used again until the iron dragon is reloaded.
+> **Effect:** Until the end of the encounter, whenever the arrowswift makes a ranged strike, the strike gains an edge and the arrowswift gains 1 surge that must be used immediately. While the arrowswift's mentor is adjacent to them, the mentor also gains this benefit
 
-> ⭐️ **Reload**
-> 
-> | **-**    | **Main action (Adjacent creature)** |
-> |----------|------------------------------------:|
-> | **📏 -** |                            **🎯 -** |
-> 
-> **Effect:** The iron dragon is reloaded, allowing **Gout of Flame** to be used again. This action can be used only once per round.
+######## Level 10 Retainer Advancement Ability
 
-> ⭐️ **Spot**
+> 🏹 **Double Shot (Encounter)**
 > 
-> | **-**    | **Main action (Adjacent creature)** |
-> |----------|------------------------------------:|
-> | **📏 -** |                            **🎯 -** |
+> | **Ranged, Strike, Weapon** |                 **Main action** |
+> |----------------------------|--------------------------------:|
+> | **📏 Ranged 15**           | **🎯 Two creatures or objects** |
 > 
-> **Effect:** The next use of **Gout of Flame** gains an edge and has a +10 bonus to ranged distance. This action can be used only once per round.
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 12 damage
+> - **12-16:** 17 damage
+> - **17+:** 23 damage
 
-> ⭐️ **Move**
-> 
-> | **-**    | **Main action (Adjacent creature)** | 
-> |----------|------------------------------------:|
-> | **📏 -** |                            **🎯 -** |
-> 
-> **Effect:** The iron dragon and the creature using this action move together up to 2 squares
+####### Gnoll Gnasher
 
-######### Watchtower (Level 2 Fortification Defender)
+|  Abyssal, Gnoll   |         -         |      Level 2      |   Harrier Retainer    |        EV 60         |
+|:-----------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
+|  **1M**<br>Size   |  **7**<br>Speed   | **30**<br>Stamina |  **1**<br>Stability   | **3**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|  **+1**<br>Might  | **+2**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
 
-A sturdy wooden tower accessed by interior ladders or stairs provides cover and high ground for attackers.
-
-- **EV:** 8
-- **Stamina:** 50
-- **Size:** 3
-
-> 🌀 **Deactivate**
+> 🗡 **Gnash  (Signature Ability)**
 > 
-> The watchtower must be completely destroyed.
+> | **Melee, Strike, Weapon** |               **Main action** |
+> |---------------------------|------------------------------:|
+> | **📏 Melee 1**            | **🎯 One creature or object** |
+> 
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 4 damage
+> - **12-16:** 7 damage
+> - **17+:** 10 damage; M < STRONG bleeding (save ends)
 
-> ⭐️ **High Ground and Cover**
+> ⭐️ **Death Frenzy**
 > 
-> Creatures who have access to the watchtower's interior ladders or stairs have high ground and cover against creatures outside the watchtower.
+> Whenever a non-minion ally within 7 squares of the gnasher is reduced to 0 Stamina, the gnasher moves up to their speed and can make a melee free strike.
 
-> 🌀 **Getting Inside**
-> 
-> A creature outside and adjacent to the watchtower can gain access to the interior by climbing it as an **Agility test** or breaking into it with a **Might test**.
-> 
-> - **≤11:** 1d6 damage; the creature remains outside the watchtower
-> - **12-16:** The creature remains outside the watchtower.
-> - **17+:** The creature gains access to the watchtower.
+######## Level 4 Retainer Advancement Ability
 
-> ⭐️ **Upgrades**
+> ❗️ **Frenzied Bite Encounter**
 > 
-> **Ballista Emplacement (+12 EV)** The watchtower is equipped with a field ballista that can be used by creatures in the watchtower. The ballista can't be moved.
+> | **-**       | **Triggered action** |
+> |-------------|---------------------:|
+> | **📏 Self** |          **🎯 Self** |
 > 
-> **Boiling Oil Cauldron (+17 EV)** The watchtower is equipped with a boiling oil cauldron that can be used by creatures in the watchtower.
+> **Trigger:** An enemy within 5 squares is reduced to 0 Stamina.
 > 
-> **Spyglass (+2 EV)** Any creature in the watchtower can use the spyglass to search for hidden creatures around the tower, gaining an edge on the Intuition test and increasing the distance at which creatures can be spotted to 15 squares.
-> 
-> **Stone Tower (+2 EV)** The watchtower is reinforced with stone and has 75 Stamina.
-> 
-> **Iron Tower (+4 EV)** The watchtower is reinforced with stone and iron and has 100 Stamina.
+> **Effect:** The gnasher moves up to their speed and can use their signature ability.
 
-### Supernatural Objects
+######## Level 7 Retainer Advancement Ability
 
-Infused with magic or psionics, these powerful and esoteric terrain objects can provide a strong environmental threat, or even be the centerpiece of an encounter.
-
-> **Objects With Enemies?**
+> 🗡 **Flurry of Fangs (Encounter)**
 > 
-> Supernatural objects are unique in having effects that target or affect enemies and allies. Although supernatural objects don't (necessarily) have awareness or sapience, their presence in an encounter aligns them clearly with or against the heroes. Unless the Director determines otherwise, the heroes are usually the enemies of a supernatural object.
-
-######### The Black Obelisk (Level 3 Relic Controller)
-
-A foreboding obelisk shaped of dark stone harrows the minds and spirits of those around it.
-
-- **EV:** 20
-- **Stamina:** 100
-- **Size:** 2 
-
-> 🌀 **Deactivate**
+> | **Melee, Strike, Weapon** |                   **Main action** |
+> |---------------------------|----------------------------------:|
+> | **📏 Melee 1**            | **🎯 Three creatures or objects** |
 > 
-> As a maneuver, a creature adjacent to the black obelisk can make a **Reason test**.
+> **Power Roll + highest characteristic:**
 > 
-> - **≤11:** The creature accidentally activates the **Your Fears Become Manifest** ability, which gains an edge.
-> - **12-16:** The creature must make another test to deactivate the obelisk. If they obtain this outcome a second time, they accidentally activate **Your Fears Become Manifest**.
-> - **17+:** The obelisk is deactivated until the end of the encounter.
+> - **≤11:** 7 damage
+> - **12-16:** 11 damage
+> - **17+:** 16 damage
 
-> ❕ **Activate**
-> 
-> A new round starts.
-> 
-> **Effect:** The **Your Fears Become Manifest** ability.
+######## Level 10 Retainer Advancement Ability
 
-> ❗️ **Your Fears Become Manifest** 
+> 👤 **Horrific Feas Encounter**
+> 
+> | **-**       | **Main action** |
+> |-------------|----------------:|
+> | **📏 Self** |     **🎯 Self** |
+> 
+> **Trigger:** The gnasher reduces a creature to 0 Stamina.
+> 
+> **Effect:** The gnasher consumes part of the target's body. The gnasher can spend a Recovery, and each enemy within 5 squares of the gnasher who has I < AVERAGE is frightened (save ends).
+
+####### Goblin Guide
+
+| Goblin, Humanoid  |           -           |      Level 1      |   Harrier Retainer    |         EV -         |
+|:-----------------:|:---------------------:|:-----------------:|:---------------------:|:--------------------:|
+|  **1S**<br>Size   |    **5**<br>Speed     | **21**<br>Stamina |  **0**<br>Stability   | **2**<br>Free Strike |
+| **-**<br>Immunity | **Climb**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|  **-1**<br>Might  |   **+1**<br>Agility   |  **0**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
+
+> 🗡 **Stabbity Stab (Signature Ability)**
+> 
+> | **Melee, Strike, Weapon** |               **Main action** |
+> |---------------------------|------------------------------:|
+> | **📏 Melee 1**            | **🎯 One creature or object** |
+> 
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 3 damage
+> - **12-16:** 5 damage
+> - **17+:** 7 damage
+> 
+> **Effect:** The target can't make opportunity attacks until the end of the guide's turn.
+
+> ⭐️ **Crafty**
+> 
+> The guide doesn't provoke opportunity attacks by moving.
+
+######## Level 4 Retainer Advancement Ability
+
+> 🗡 **Weaving Knives (Encounter)**
+> 
+> | **Melee, Strike, Weapon** |               **Main action** |
+> |---------------------------|------------------------------:|
+> | **📏 Melee 1**            | **🎯 One creature or object** |
+> 
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 5 damage
+> - **12-16:** 9 damage
+> - **17+:** 12 damage
+> 
+> **Effect:** The guide shifts up to their speed before and after the strike
+
+######## Level 7 Retainer Advancement Ability
+
+> 🗡 **Sneak and Stab (Encounter)**
+> 
+> | **Melee, Strike, Weapon** |     **Main action** |
+> |---------------------------|--------------------:|
+> | **📏 Melee 1**            | **🎯 One creature** |
+> 
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 8 damage
+> - **12-16:** 12 damage; the guide and their mentor can each move up to their speed
+> - **17+:** 16 damage; the guide and their mentor can each move up to their speed, then attempt to hide
+> 
+> **Effect:** If the guide is hidden from the target, this ability has a double edge.
+
+######## Level 10 Retainer Advancement Ability
+
+> 🌀 **Poison Blade (Encounter)**
+> 
+> | **-**          | **Main action** |
+> |----------------|----------------:|
+> | **📏 Special** |  **🎯 Special** |
+> 
+> **Power Roll + highest characteristic:**
+> 
+> **Effect:** The guide applies poison to their weapon. The next time the guide obtains a tier 2 or tier 3 outcome on a weapon strike, the strike deals an extra 10 poison damage, and if the target has M <v, they are weakened (save ends). If the guide is adjacent to their mentor when they use Poison Blade, they apply poison to the mentor's weapon in the same way.
+
+####### Hobgoblin Flameslinger 
+
+| Goblin, Hobgoblin, Humanoid, Infernal |         -          |      Level 4      |  Controller Retainer  |         EV -         |
+|:-------------------------------------:|:------------------:|:-----------------:|:---------------------:|:--------------------:|
+|            **1M**<br>Size             |   **5**<br>Speed   | **48**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
+|            **1M**<br>Size             |   **5**<br>Speed   | **48**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
+|        **Fire 4**<br>Immunity         | **- **<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|            **+1**<br>Might            |  **0**<br>Agility  | **+2**<br>Reason  |  **+1**<br>Intuition  |  **+3**<br>Presence  |
+
+> 🏹 **Fire Curse (Signature Ability)**
+> 
+> | **Magic, Ranged, Strike** |               **Main action** |
+> |---------------------------|------------------------------:|
+> | **📏 Ranged 10**          | **🎯 One creature or object** |
+> 
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 5 fire damage
+> - **12-16:** 9 fire damage
+> - **17+:** 12 fire damage; A < STRONG the target is burning (save ends)
+> 
+> **Effect:** A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round.
+
+> 🏹 **Fuel for the Fire**
+> 
+> | **Magic, Ranged** |     **Main action** |
+> |-------------------|--------------------:|
+> | **📏 Ranged 10**  | **🎯 One creature** |
+> 
+> **Effect:** Until the end of the flameslinger's next turn, the target has fire weakness equal to the flameslinger's level. If the target is the flameslinger's mentor, they instead have fire immunity equal to the flameslinger's level
+
+> ⭐️ **Infernal Ichor**
+> 
+> When the flameslinger is reduced to 0 Stamina, they spray buring blood. Each creature adjacent to the flameslinger takes 3 fire damage.
+
+######## Level 7 Retainer Advancement Ability
+
+> 🔳 **Unholy Attraction (Encounter)**
+> 
+> | **Area, Magic, Ranged** |               **Main action** |
+> |-------------------------|------------------------------:|
+> | **📏 3 cube within 10** | **🎯 Each enemy in the area** |
+> 
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 8 damage; pull 1
+> - **12-16:** 12 damage; pull 2
+> - **17+:** 16 damage, pull 4
+> 
+> **Effect:** A target who is pulled adjacent to the flameslinger and who has P < AVERAGE is knocked prone.
+
+######## Level 10 Retainer Advancement Ability
+
+> ❇️ **Fire Spiral (Encounter)**
+> 
+> | **Area, Magic** |               **Main action** |
+> |-----------------|------------------------------:|
+> | **📏 3 Burst**  | **🎯 Each enemy in the area** |
+> 
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 8 damage; push 2
+> - **12-16:** 12 damage; push 3
+> - **17+:** 16 damage; push 5
+> 
+> **Effect:** If the flameslinger's mentor is within 10 squares of the flameslinger, the mentor can be the source of the burst instead of the flameslinger
+
+####### Human Warrior
+
+|  Human, Humanoid  |         -         |      Level 1      |   Defender Retainer   |         EV -         |
+|:-----------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
+|  **1M**<br>Size   |  **5**<br>Speed   | **21**<br>Stamina |  **0**<br>Stability   | **2**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|  **+2**<br>Might  | **0**<br>Agility  |  **0**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
+
+> 🗡 **Chop  (Signature Ability)**
+> 
+> | **Melee, Strike, Weapon** |               **Main action** |
+> |---------------------------|------------------------------:|
+> | **📏 Melee 1**            | **🎯 One creature or object** |
+> 
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 3 damage
+> - **12-16:** 5 damage
+> - **17+:** 7 damage
+> 
+> **Effect:** If the warrior is adjacent to their mentor, this ability gains an edge.
+
+> ⭐️ **Supernatural Insight**
+> 
+> The warrior ignores concealment if it's granted by a supernatural effect
+
+######## Level 4 Retainer Advancement Ability
+
+> ❗️ **'Scuse Me, Boss (Encounter)**
+> 
+> | **Melee**      |          **Triggered action** |
+> |----------------|------------------------------:|
+> | **📏 Melee 1** |   **🎯 The warrior's mentor** |
+> 
+> **Trigger:** The warrior's mentor is targeted by a strike while within distance.
+> 
+> **Effect:** The warrior and the mentor switch places. The warrior is the strike's new target and the strike has a double bane.
+
+######## Level 7 Retainer Advancement Ability
+
+> 🗡 **Defensive Fighting (Encounter)**
+> 
+> | **Melee, Strike, Weapon** |     **Main action** |
+> |---------------------------|--------------------:|
+> | **📏 Melee 1**            | **🎯 One creature** |
+> 
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 7 damage
+> - **12-16:** 11 damage
+> - **17+:** 16 damage
+> 
+> **Effect:** Until the start of the warrior's next turn, ability rolls against the warrior or any ally adjacent to the warrior have a double bane. 
+
+######## Level 10 Retainer Advancement Ability
+
+> ❇️ **Whirlwind of Steel (Encounter)**
+> 
+> | **Area, Charge, Weapon** |               **Main action** |
+> |--------------------------|------------------------------:|
+> | **📏 Burst 1**           | **🎯 Each enemy in the area** |
+> 
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 12 damage
+> - **12-16:** 18 damage
+> - **17+:** 24 damage
+
+####### Kobold Shieldbearer 
+
+| Humanoid, Kobold  |         -         |      Level 1       |   Defender Retainer   |         EV -         |
+|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
+|   **2**<br>Size   |  **5**<br>Speed   | **300**<br>Stamina |  **4**<br>Stability   | **6**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
+|  **+2**<br>Might  | **+1**<br>Agility |  **0**<br>Reason   |  **0**<br>Intuition   |  **0**<br>Presence   |
+
+> 🗡 **Gladius (Signature Ability)**
+> 
+> | **Melee, Strike, Weapon** |               **Main action** |
+> |---------------------------|------------------------------:|
+> | **📏 Melee 1**            | **🎯 One creature or object** |
+> 
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 3 damage
+> - **12-16:** 5 damage
+> - **17+:** 7 damage; taunted (EoT)
+
+> ⭐️ **Shield, Boss?**
+> 
+> While the shieldbearer is adjacent to their mentor, both have a +1 bonus to stability, have cover, and grant cover to allies.
+
+######## Level 4 Retainer Advancement Ability
+
+> ❗️ **Shield Block Encounter**
+> 
+> | **Ranged**      |             **Triggered action** |
+> |-----------------|---------------------------------:|
+> | **📏 Ranged 5** | **🎯 The shieldbearer's mentor** |
+> 
+> **Trigger:** The mentor takes damage from a strike while within distance.
+> 
+> **Effect:** The shieldbearer blocks the strike (if adjacent to the mentor) or throws their shield into the mentor's space. The triggering strike's damage is halved and the potency of any potency effects is reduced by 1. If the shieldbearer threw their shield, it bounces back to their hand.
+
+######## Level 7 Retainer Advancement Ability
+
+> 🗡 **Living Backpack**
+> 
+> | **Melee**      |                  **Main action** |
+> |----------------|---------------------------------:|
+> | **📏 Melee 1** | **🎯 The shieldbearer's mentor** |
+> 
+> **Effect:** The shieldbearer straps their shield on their back and climbs onto their mentor's back, entering the mentor's space. While the shieldbearer is on their mentor's back, each of them gains 10 temporary Stamina and can use Shield Block as a triggered action targeting an ally instead of the shieldbearer's mentor. Additionally, the shieldbearer moves with the mentor, and they can't use main actions, maneuvers, or move actions except to end this effect as a maneuver. The effect also ends if the shieldbearer is force moved away from their mentor or knocked prone. If the shieldbearer is still in their mentor's space when the effect ends, they move into an adjacent unoccupied space of their choice.
+
+######## Level 10 Retainer Advancement Ability
+
+> 🗡 **Let's Go Sledding (Encounter)**
+> 
+> | **Charge, Melee, Strike, Weapon** |      **Main action** |
+> |-----------------------------------|---------------------:|
+> | **📏 Melee 1**                    | **🎯 Three enemies** |
+> 
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 6 damage; M < WEAK prone
+> - **12-16:** 10 damage; M < AVERAGE prone
+> - **17+:** 14 damage; M < STRONG prone
+> 
+> **Effect:** If this ability is used as part of the Charge main action, the shieldbearer gains 2 surges that can be used immediately.
+
+####### Minotaur Gorer
+
+| Accursed, Humanoid, Minotaur |         -         |      Level 3      |    Brute Retainer     |         EV -         |
+|:----------------------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
+|        **2**<br>Size         |  **6**<br>Speed   | **39**<br>Stamina |  **2**<br>Stability   | **6**<br>Free Strike |
+|      **-**<br>Immunity       | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|       **+2**<br>Might        | **+1**<br>Agility |  **0**<br>Reason  |  **+1**<br>Intuition  |  **0**<br>Presence   |
+
+>  🗡 **Gore (Signature Ability)**
+>  
+>  | **Charge, Melee, Strike, Weapon** |               **Main action** |
+>  |-----------------------------------|------------------------------:|
+>  | **📏 Melee 1**                    | **🎯 One creature or object** |
+>  
+>  **Power Roll + highest characteristic:**
+>  
+>  - **≤11:** 5 damage
+>  - **12-16:** 9 damage
+>  - **17+:** 12 damage; M < STRONG prone
+
+> ❗️ **Retaliatory Strike**
+> 
+> | **Ranged**      |           **Triggered action** |
+> |-----------------|-------------------------------:|
+> | **📏 Ranged 6** | **🎯 The triggering creature** |
+> 
+> **Trigger:** A creature within distance deals damage to the gorer.
+> 
+> **Effect:** The gorer uses the Charge main action and Gore against the target.
+
+> ⭐️ **Minotaur Sense**
+> 
+> The gorer can't obtain less than a tier 2 outcome when making tests to navigate, search, or seek.
+
+######## Level 4 Retainer Advancement Ability
+
+> ❗️ **Horn Toss**
+> 
+> | **Melee**      |      **Free triggered action** |
+> |----------------|-------------------------------:|
+> | **📏 Melee 1** | **🎯 The triggering creature** |
+> 
+> **Trigger:** The gorer damages a creature within distance using Gore.
+> 
+> **Effect:** The target is pushed up to 3 squares. If the target has stability 0, they are also knocked prone.
+
+######## Level 7 Retainer Advancement Ability
+
+> 👤 **Triumphant Bay Encounter**
+> 
+> | **-**       | **Maneuver** |
+> |-------------|-------------:|
+> | **📏 Self** |  **🎯 Self** |
+> 
+> **Effect:** The gorer gains 3 surges, and until the start of the gorer's next turn, strikes made against them and their mentor take a bane.
+
+######## Level 10 Retainer Advancement Ability
+
+> ❇️ **Horn Rake (Encounter)**
+> 
+> | **Area, Weapon** |               **Main action** |
+> |------------------|------------------------------:|
+> | **📏 1 burst**   | **🎯 Each enemy in the area** |
+> 
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 11 damage; M < WEAK bleeding (save ends)
+> - **12-16:** 16 damage; M < AVERAGE bleeding (save ends)
+> - **17+:** 21 damage; M < STRONG prone and can't stand (save ends). 
+
+####### Orc Charger 
+
+|   Humanoid, Orc   |         -         |      Level 1      |   Harrier Retainer    |         EV -         |
+|:-----------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
+|  **1M**<br>Size   |  **8**<br>Speed   | **21**<br>Stamina |  **0**<br>Stability   | **3**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|  **+2**<br>Might  | **+2**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition   |  **0**<br>Presence   |
+
+> ⚔️ **Notched Axe (Signature Ability)**
+> 
+> | **Charge, Melee, Ranged, Strike, Weapon** |               **Main action** |
+> |-------------------------------------------|------------------------------:|
+> | **📏 Melee 1 or ranged 5**                | **🎯 One creature or object** |
+> 
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 3 damage
+> - **12-16:** 5 damage
+> - **17+:** 7 damage
+
+> ⭐️ **Relentless**
+> 
+> If the charger is reduced to 0 Stamina, they can make a free strike before dying. If the target of the free strike is reduced to 0 Stamina, the charger is reduced to 1 Stamina instead.
+
+######## Level 4 Retainer Advancement Ability
+
+> 👤 **Blood Oath Encounter**
+> 
+> | **Self**    | **Maneuver** |
+> |-------------|-------------:|
+> | **📏 Self** |  **🎯 Self** |
+> 
+> **Effect:** Until the start of the charger's next turn, the charger and their mentor each have temporary Stamina equal to their Recovery value and a +2 bonus to speed, and they each gain an edge on reactive tests.
+
+######## Level 7 Retainer Advancement Ability
+
+> 👤 **Mow 'Em Down Encounter**
+> 
+> | **-**                  | **Main action** |
+> |------------------------|----------------:|
+> | **📏 Self; See below** |     **🎯 Self** |
+> 
+> **Effect:** The charger moves in a straight line up to their speed. During this move, they ignore enemy free strikes, and they can make a melee free strike against any creature they move adjacent to.
+
+######## Level 10 Retainer Advancement Ability
+
+> ❇️ **Vein Burst (Encounter)**
+> 
+> | **Area, Psionic** |               **Main action** |
+> |-------------------|------------------------------:|
+> | **📏 2 burst**    | **🎯 Each enemy in the area** |
+> 
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 12 psychic damage
+> - **12-16:** 18 psychic damage
+> - **17+:** 24 psychic damage
+> 
+> **Effect:** The charger takes psychic damage equal to the number of enemies affected. This damage can't be reducetd in any way
+
+####### Radenwight Sidekick
+
+| Humanoid, Radenwight |           -           |      Level 1      |   Support Retainer    |         EV -         |
+|:--------------------:|:---------------------:|:-----------------:|:---------------------:|:--------------------:|
+|    **1S**<br>Size    |    **5**<br>Speed     | **21**<br>Stamina |  **0**<br>Stability   | **2**<br>Free Strike |
+|  **-**<br>Immunity   | **Climb**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|    **0**<br>Might    |   **+2**<br>Agility   |  **0**<br>Reason  |  **+1**<br>Intuition  |  **0**<br>Presence   |
+
+> ⚔️ **Dagger's Bite (Signature Ability)**
+> 
+> | **Melee, Ranged, Strike, Weapon** |               **Main action** |
+> |-----------------------------------|------------------------------:|
+> | **📏 Melee 1 or ranged 5**        | **🎯 One creature or object** |
+> 
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 3 damage
+> - **12-16:** 5 damage
+> - **17+:** 7 damage
+
+> ❗️ **Ready Rodent**
+> 
+> | **Melee, Weapon** | **Triggered action** |
+> |-------------------|---------------------:|
+> | **📏 Melee 1**    |  **🎯 One creature** |
+> 
+> **Trigger:** An ally deals damage to the target.
+> 
+> **Effect:** The sidekick makes a free strike against the target.
+
+######## Level 4 Retainer Advancement Ability
+
+> 👤 **Boost**
+> 
+> | **-**       | **Maneuver** |
+> |-------------|-------------:|
+> | **📏 Self** |  **🎯 Self** |
+> 
+> **Effect:** If the sidekick's mentor moves adjacent to the sidekick at any point during the mentor's turn, the mentor gains a +1 bonus to speed and can automatically climb at full speed while moving until the end of their turn.
+
+######## Level 7 Retainer Advancement Ability
+
+> 🔳 **Bug Bag (Encounter)**
+> 
+> | **Area, Ranged**       |                  **Main action** |
+> |------------------------|---------------------------------:|
+> | **📏 3 cube within 3** | **🎯 Each creature in the area** |
+> 
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 6 poison damage; M < WEAK weakened (save ends)
+> - **12-16:** 9 poison damage; M < AVERAGE weakened (save ends)
+> - **17+:** 13 poison damage; M < STRONG weakened (save ends)
+
+######## Level 10 Retainer Advancement Ability
+
+> 🏹 **Triumphant Squeak (Encounter)**
+> 
+> | **Ranged** | **Maneuver** |
+> | --- | ---:|
+> | **📏 Ranged 10** | **🎯 Self and each ally** |
+> 
+> **Power Roll + highest characteristic:**
+> 
+> **Effect:** Each target can spend a Recovery, and ends the dazed, frightened, and weakened conditions on themself.
+
+####### Time Raider Mind Healer
+
+|   Humanoid, Time Raider   |         -         |      Level 3      |   Support Retainer    |         EV -         |
+|:-------------------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
+|      **1M**<br>Size       |  **5**<br>Speed   | **39**<br>Stamina |  **0**<br>Stability   | **4**<br>Free Strike |
+| **Psychic 5**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|      **0**<br>Might       | **+2**<br>Agility | **+2**<br>Reason  |  **+2**<br>Intuition  |  **0**<br>Presence   |
+
+> 🏹 **Laser Lancet (Signature Ability)**
+> 
+> | **Ranged, Strike, Weapon** |               **Main action** |
+> |----------------------------|------------------------------:|
+> | **📏 Ranged 3**            | **🎯 One creature or object** |
+> 
+> **2d10 + highest characteristic:**
+> 
+> - **≤11:** 5 fire damage
+> - **12-16:** 8 fire damage
+> - **17+:** 11 fire damage
+> 
+> **Effect:** If the mind healer targets an ally, the ability deals no damage. Additionally, the target can end one effect on them that can be ended by a saving throw or that ends at the end of their turn.
+
+> ⭐️ **Foresight**
+> 
+> The mind healer doesn't take a bane on strikes against creatures with concealment.
+
+######## Level 4 Retainer Advancement Ability
+
+> 🏹 **Stim Charge Encounter**
+> 
+> | **Ranged**      |     **Main action** |
+> |-----------------|--------------------:|
+> | **📏 Ranged 3** | **🎯 One creature** |
+> 
+> **Effect:** The target can spend 1 Recovery, and has their speed doubled until the end of their next turn.
+
+######## Level 7 Retainer Advancement Ability
+
+> 🏹 **Mind Whelm (Encounter)**
+> 
+> | **Psionic, Ranged, Strike** |     **Main action** |
+> |-----------------------------|--------------------:|
+> | **📏 Ranged 3**             | **🎯 One creature** |
+> 
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 8 psychic damage; R < WEAK frightened (save ends)
+> - **12-16:** 13 psychic damage; R < AVERAGE frightened (save ends)
+> - **17+:** 17 psychic damage; R < STRONG frightened (save ends)
+
+######## Level 10 Retainer Advancement Ability
+
+> ❇️ **Psychic Short Circuit (Encounter)**
+> 
+> | **Area, Psionic** |               **Main action** |
+> |-------------------|------------------------------:|
+> | **📏 2 burst**    | **🎯 Each enemy in the area** |
+> 
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 11 psychic damage
+> - **12-16:** 16 psychic damage
+> - **17+:** 21 psychic damage
+> 
+> **Effect:** If the mind healer is dazed, frightened, or taunted, they can end one of those conditions and impose the same condition on one enemy in the area. Additionally, they can do the same for their mentor if the mentor is in the area and is dazed, frightened, or taunted.
+
+####### Troll Mercenary 
+
+|   Giant, Troll    |         -          |      Level 5      |    Brute Retainer     |              EV -               |
+|:-----------------:|:------------------:|:-----------------:|:---------------------:|:-------------------------------:|
+|   **2**<br>Size   |   **6**<br>Speed   | **57**<br>Stamina |  **4**<br>Stability   |      **6**<br>Free Strike       |
+| **-**<br>Immunity | **- **<br>Movement |         -         | **-**<br>With Captain | **Acid 5, fire **<br>Weaknesses |
+|  **+3**<br>Might  | **+1**<br>Agility  | **-1**<br>Reason  |  **0**<br>Intuition   |       **+1**<br>Presence        |
+
+> 🗡 **Big Bite (Signature Ability)**
+> 
+> | **Charge, Melee, Strike, Weapon** |               **Main action** |
+> |-----------------------------------|------------------------------:|
+> | **📏 Melee 1**                    | **🎯 One creature or object** |
+> 
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 6 damage
+> - **12-16:** 11 damage
+> - **17+:** 14 damage
+> 
+> **Effect:** The mercenary regains Stamina equal to half the damage dealt.
+
+> ❇️ **Troll Roar (Encounter)**
+> 
+> | **Area**       |                  **Maneuver** |
+> |----------------|------------------------------:|
+> | **📏 3 burst** | **🎯 Each enemy in the area** |
+> 
+> - **≤11:** P < WEAK frightened (save ends)
+> - **12-16:** P < AVERAGE frightened (save ends)
+> - **17+:** P < STRONG frightened (save ends), push 3, prone
+
+> ⭐️ **Relentless Hunger **
+> 
+> The mercenary dies only if they are reduced to 0 Stamina by acid or fire damage, if they end their turn with 0 Stamina, or if they take acid or fire damage while at 0 Stamina
+
+######## Level 7 Retainer Advancement Ability
+
+> 🗡 **Hangry Frenzy (Encounter)**
+> 
+> | **Melee**      |        **Main action** |
+> |----------------|-----------------------:|
+> | **📏 Melee 1** | **🎯 Three creatures** |
+> 
+> **Effect:** The mercenary must be winded to use this ability. The mercenary uses Big Bite against each target.
+
+######## Level 10 Retainer Advancement Ability
+
+> ❗️ **Fire Bad Encounter**
+> 
+> | **-**       | **Triggered action** |
+> |-------------|---------------------:|
+> | **📏 Self** |          **🎯 Self** |
+> 
+> **Trigger:** An ability deals acid or fire damage to the mercenary
+> 
+> **Effect:** The mercenary moves up to their speed. If this movement takes them beyond the distance of the triggering ability, the ability has no effect on them
+
+####### Undead Servitor 
+
+| Undead, Soulless  |         -         |      Level 1      |    Brute Retainer     |         EV -         |
+|:-----------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
+|  **1M**<br>Size   |  **5**<br>Speed   | **21**<br>Stamina |  **0**<br>Stability   | **3**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|  **+2**<br>Might  | **-1**<br>Agility | **-3**<br>Reason  |  **-1**<br>Intuition  |  **0**<br>Presence   |
+
+> 🗡 **Lurching Swipe (Signature Ability)**
+> 
+> | **Melee, Strike, Weapon** |               **Main action** |
+> |---------------------------|------------------------------:|
+> | **📏 Melee 1**            | **🎯 One creature or object** |
+> 
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 4 damage
+> - **12-16:** 7 damage
+> - **17+:** 10 damage
+
+> ⭐️ **Arise**
+> 
+> The first time in an encounter that the servitor is reduced to 0 Stamina by damage that isn't fire damage or holy damage and their body isn't destroyed, they regain half their Stamina maxi- mum and fall prone.
+
+######## Level 4 Retainer Advancement Ability
+
+> 🗡 **Grab and Bite (Encounter)**
+> 
+> | **Melee, Strike, Weapon** |     **Main action** |
+> |---------------------------|--------------------:|
+> | **📏 Melee 1**            | **🎯 One creature** |
+> 
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 7 damage; M < WEAK grabbed
+> - **12-16:** 11 damage; M < AVERAGE grabbed
+> - **17+:** 16 damage; M < STRONG grabbed
+
+########Level 7 Retainer Advancement Ability
+
+> 🏹 **Death to Death (Encounter)**
+> 
+> | **Magic, Ranged, Strike** |        **Maneuver** |
+> |---------------------------|--------------------:|
+> | **📏 Ranged 10**          | **🎯 One creature** |
+> 
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 8 corruption damage; P < WEAK weakened (save ends)
+> - **12-16:** 13 corruption damage; P < AVERAGE weakened (save ends)
+> - **17+:** 17 corruption damage; P < STRONG weakened (save ends)
+> 
+> **Effect:** Before making the strike, the servitor can teleport up to 10 squares to a space containing a dead creature, then burst out of the creature's body.
+
+######## Level 10 Retainer Advancement Ability
+
+> ❗️ **Death Miasma (Encounter)**
 > 
 > | **Area, Magic** |     **Free triggered action** |
 > |-----------------|------------------------------:|
-> | **📏 10 Burst** | **🎯 Each enemy in the area** |
+> | **📏 2 burst**  | **🎯 Each enemy in the area** |
 > 
-> **Trigger:** A new round starts.
+> **Trigger:** The servitor is reduced to 0 Stamina.
 > 
-> **Power Roll + 2:**
+> **Effect:** The servitor explodes.
 > 
-> - **≤11:** P < 1 slowed (EoT)
-> - **12-16:** P < 2 slowed and weakened (EoT)
-> - **17+:** P < 3 frightened, slowed, and weakened (EoT)
+> **Power Roll + highest characteristic:**
 > 
-> **Effect:** The target is pushed 2 squares.
+> - **≤11:** 6 corruption damage
+> - **12-16:** 10 corruption damage
+> - **17+:** 14 corruption damage
 
-######### The Chronal Hypercube (Level 3 Relic Controller)
+####### Unquiet Spirit 
 
-This unnatural object twists space around it in a reflection of its own unnatural form.
+|            Undead, Soulless            |             -              |      Level 1      |    Hexer Retainer     |         EV -         |
+|:--------------------------------------:|:--------------------------:|:-----------------:|:---------------------:|:--------------------:|
+|             **1M**<br>Size             |       **5**<br>Speed       | **21**<br>Stamina |  **1**<br>Stability   | **2**<br>Free Strike |
+| **Corruption 3, poison 3**<br>Immunity | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|            **-4**<br>Might             |     **+1**<br>Agility      |  **0**<br>Reason  |  **0**<br>Intuition   |  **+2**<br>Presence  |
 
-- **EV:** 20
-- **Stamina:** 80
-- **Size:** 1M
-
-> 🌀 **Deactivate**
+> 🏹 **Chill of Death (Signature Ability)**
 > 
-> A creature who has the Psionics skill can deactivate and take control of the chronal hypercube by making a **Reason test** while within 10 squares of the hypercube.
-> 
-> - **≤11:** The creature takes 1d6 psychic damage.
-> - **12-16:** The creature fails to deactivate the hypercube.
-> - **17+:** The hypercube teleports adjacent to the creature at the start of the next round and becomes an ally to the creature and their allies.
-
-> ⭐️ **Dimensional Flicker**
-> 
-> At the start of each round while the hypercube is present, roll a d10. On a 7 or higher, the hypercube teleports to a square of one ally's choice within 10 squares and is hidden. While the hypercube is hidden, Psionics is the only skill that can be applied to a test made to find it.
-
-> ⭐️ **Chronal Superhighway**
-> 
-> Any ally within 10 squares of the hypercube can teleport when they move. An ally who teleports gains an edge on the next power roll they make.
-
-######### The Throne of A'An (Level 4 Relic Controller)
-
-The throne of A'An, sun god of the Antical Protectorate in what is now Vanigar, retains some of her power from the age before she was slain to end the Age of Suns-and plunge the region into eternal winter.
-
-- **EV:** 24
-- **Stamina:** 140
-- **Size:** 2
-
-> 🌀 **Deactivate**
-> 
-> The throne of A'An can be deactivated only by the current hierophant of A'An (see **Sitting on the Throne**), who must succeed on a **Presence test** that takes a bane to do so.
-> 
-> - **≤11:** The hierophant triggers the **Nova** ability.
-> - **12-16:** The hierophant fails to deactivate the throne.
-> - **17+:** The throne is deactivated until the end of the encounter.
-
-> ⭐️ **Light of the Northern Sun**
-> 
-> In the Age of Suns, there was no darkness and no night. Even among the many suns of that time, the light of A'An was the brightest. The throne of A'An manifests the sun powers of that god, even when no one is seated in it. The following effects always occur within 10 squares of the throne:
-> 
-> - The throne sheds bright light that negates all darkness and concealment, and which prevents creatures from being hidden.
-> - Any creature with cold immunity has fire weakness 10.
-> - Any creature who uses an ability that deals cold damage takes 11 fire damage.
-
-> ⭐️ **Sitting on the Throne**
-> 
-> Only a creature attuned to the throne can sit on it. A creature adjacent to the throne can use a main action to attune to it by succeeding on a **Presence test**.
-> 
-> - **≤11:** The creature takes 11 fire damage.
-> - **12-16:** The creature fails to attune to the throne.
-> - **17+:** The creature attunes to the throne and can sit on it.
-> 
-> A creature seated on the throne becomes the hierophant of A'An and gains the following benefits:
-> 
-> - The hierophant and each of their allies within 10 squares of the throne have fire immunity 10.
-> - The hierophant and each of their allies within 10 squares of the throne can choose to have their abilities deal fire damage instead of their usual damage.
-> - The hierophant has a +5 bonus to stability, and any strike made against them takes a bane unless the attacker is also attuned to the throne.
-> - The hierophant can use the **Primordial Flare** and **Solar Accretion** abilities.
-
-> 🏹 **Primordial Flare** 
-> 
-> | **Magic, Ranged, Strike** |                  **Maneuver** |
+> | **Magic, Ranged, Strike** |               **Main action** |
 > |---------------------------|------------------------------:|
-> | **📏 Ranged 20**          | **🎯 One creature or object** |
+> | **📏 Ranged 10**          | **🎯 One creature or object** |
 > 
-> **Power Roll + 2:**
+> **Power Roll + highest characteristic:**
 > 
-> - **≤11:** 6 fire damage
-> - **12-16:** 11 fire damage
-> - **17+:** 14 fire damage
-> 
-> **Effect:** The target has fire weakness 10 until the start of the hierophant's next turn.
+> - **≤11:** 3 cold damage
+> - **12-16:** 5 cold damage
+> - **17+:** 7 cold damage; P < STRONG slowed (EoT)
 
-> ❗️ **Solar Accretion**
+> 👤 **Spirit Meld**
 > 
-> | **Magic, Ranged** | **Free triggered action** |
-> |-------------------|--------------------------:|
-> | **📏 Ranged 10**  |       **🎯 One creature** |
+> | **-**       | **Main action** |
+> |-------------|----------------:|
+> | **📏 Self** |     **🎯 Self** |
 > 
-> **Trigger:** A target within distance is made winded or is reduced to 0 Stamina by fire damage.
-> 
-> **Effect:** If the hierophant is a hero, they gain 3 of their Heroic Resource. If the hierophant is a Director-controlled creature, the Director gains 3 Malice.
+> **Effect:** While adjacent to their mentor, the unquiet spirit enters the mentor's space. A spirit who enters their mentor's space this way moves with the mentor, can't be sensed, and can't affect or be affected by other creatures or objects. They can 't take main actions , maneuvers, or move actions, except to use this ability to leave their mentor's space and appear in an adjacent space.
 
-> ❗️ **Nova**
+> ⭐️ **Corruptive Phasing**
 > 
-> | **Area, Magic** |                   **Free triggered action** |
-> |-----------------|--------------------------------------------:|
-> | **📏 10 burst** | **🎯 Each creature and object in the area** |
-> 
-> **Trigger:** The throne is destroyed or the hierophant obtains a tier 1 outcome on the test to deactivate it.
-> 
-> **Effect:** Each target takes 14 fire damage and the Hierophant gains the Incubator of A'An complication (see the sidebar). If there is no hierophant, one creature within 10 squares of the throne chosen by the Director gains this complication.
+> The unquiet spirit can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the spirit moves through a creature other than their mentor, that creature takes 2 corruption damage.
 
-###### Incubator of A'An
+######## Level 4 Retainer Advancement Ability
 
-> **Incubator of A'An**
+> 🏹 **Enervating Curse (Encounter)**
 > 
-> A shard of the formerly dead sun god A'An incubates within your body, guiding you so that A'An can be restored to her true glory by earning one hundred disciples.
+> | **Magic, Ranged, Strike** |     **Main action** |
+> |---------------------------|--------------------:|
+> | **📏 Ranged 10**          | **🎯 One creature** |
 > 
-> (This complication should be introduced to a campaign only with caution, and with the understanding that all the players are happy to have the party's agency affected by one of the characters roleplaying a forgotten god.)
+> **Power Roll + highest characteristic:**
 > 
-> **Benefit:** You have all the abilities of the Sun domain as if you were a conduit of your level. Additionally, you gain fire immunity 5. If you succeed in resurrecting A'An, you will become a saint of A'An.
+> - **≤11:** 6 corruption damage; the target has 1 level of drain 
+> - **12-16:** 10 corruption damage; the target has 2 levels of drain
+> - **17+:** 14 corruption damage; the target has 3 levels of drain
 > 
-> **Drawback:** You have cold weakness 5. Whenever you finish a respite and you have not recruited a new disciple of A'An since your last respite, make a **Presence test**.
+> **Effect:** The next creature to make a strike against the target gains 1 surge for each level of drain, which must be used on that strike. 
+
+######## Level 7 Retainer Advancement Ability
+
+> 🔳 **Ectoplasm (Encounter)**
 > 
-> - **≤11:** A'An possesses your body until your next respite. You now must roleplay A'An trapped in your form, prioritiz- ing earning new disciples.
-> - **12-16:** You lose a Recovery.
-> - **17+:** You suffer no effect
+> | **Area, Magic**        |               **Main action** |
+> |------------------------|------------------------------:|
+> | **📏 3 cube within 1** | **🎯 Each enemy in the area** |
+> 
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** A < WEAK slowed and weakened (save ends)
+> - **12-16:** A < AVERAGE slowed and weakened (save ends)
+> - **17+:** A < STRONG slowed and weakened (save ends)
+
+######## Level 10 Retainer Advancement Ability
+
+> 🏹 **Death Phase Encounter**
+> 
+> | **Magic, Ranged, Strike** |     **Main action** |
+> |---------------------------|--------------------:|
+> | **📏 Ranged 5**           | **🎯 One creature** |
+> 
+> **Effect:** If the target has P < STRONG, they are phased until the end of their next turn. A phased target gains the unquiet spirit's Corruptive Phasing trait and can fly. They are visible but can't affect or be affed by other creatures or objects. A willing creature not subject to the ability's potency can choose to automatically be affected.
+
+####### Vampire Rebel
+
+|  Undead, Vampire  |           -           |      Level 4      |   Harrier Retainer    |         EV -         |
+|:-----------------:|:---------------------:|:-----------------:|:---------------------:|:--------------------:|
+|  **1M**<br>Size   |    **5**<br>Speed     | **48**<br>Stamina |  **0**<br>Stability   | **4**<br>Free Strike |
+| **-**<br>Immunity | **Climb**<br>Movement |         -         | **-**<br>With Captain | **-**<br>Weaknesses  |
+|  **+2**<br>Might  |   **+3**<br>Agility   |  **0**<br>Reason  |  **0**<br>Intuition   |  **+3**<br>Presence  |
+
+> 🗡 **Flashing Fangs (Signature Ability)**
+> 
+> | **Melee, Strike, Weapon** |               **Main action** |
+> |---------------------------|------------------------------:|
+> | **📏 Melee 1**            | **🎯 One creature or object** |
+> 
+> **2d10 + highest characteristic:**
+> 
+> - **≤11:** 5 damage
+> - **12-16:** 5 damage, 3 corruption damage
+> - **17+:** 5 damage, 6 corruption damage; M < STRONG bleeding (save ends)
+> 
+> **Effect:** The vampire rebel gains temporary Stamina equal to any corruption damage dealt.
+
+> 👤 **Bat Form (Encounter)**
+> 
+> | **-**       | **Move Action** |
+> |-------------|----------------:|
+> | **📏 Self** |     **🎯 Self** |
+> 
+> **Effect:** The vampire rebel changes their form into a bat. In bat form, their size is 1T and they can fly. The vampire rebel then shifts up to their speed, then regains their true form. If they can't fit in their current space when they return to their true form, they take 10 damage and are pushed to the nearest unoccupied space.
+
+> ⭐️ **Agonizing Bloodthirst**
+> 
+> The vampire rebel has speed 10 while any creature within 10 squares of them is bleeding. If the vampire rebel is able to deal damage to a bleeding creature on their turn and does not do so, they take 5 corruption damage at the end of their turn.
+
+######## Level 7 Retainer Advancement Ability
+
+> 🗡 **Blood Surge (Encounter)**
+> 
+> | **Melee, Strike, Weapon** |     **Main action** |
+> |---------------------------|--------------------:|
+> | **📏 Melee 1**            | **🎯 One creature** |
+> 
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 7 damage; M < WEAK bleeding (save ends)
+> - **12-16:** 11 damage; M < AVERAGE bleeding (save ends)
+> - **17+:** 16 damage; M < STRONG bleeding (save ends)
+> 
+> **Effect:** Before the strike, the vampire rebel shifts up to their speed. If the vampire rebel has temporary Stamina, they can expend it, dealing an extra 2 corruption damage for each point of temporary Stamina expended this way.
+
+######## Level 10 Retainer Advancement Ability
+
+> 🔳 **Exsanguination (Encounter)**
+> 
+> | **Area, Magic**        |               **Main action** |
+> |------------------------|------------------------------:|
+> | **📏 3 cube within 1** | **🎯 Each enemy in the area** |
+> 
+> **Power Roll + highest characteristic:**
+> 
+> - **≤11:** 7 corruption damage; M < WEAK bleeding (save ends)
+> - **12-16:** 11 corruption damage; M < AVERAGE bleeding (save ends)
+> - **17+:** 16 corruption damage; M < STRONG bleeding (save ends)
