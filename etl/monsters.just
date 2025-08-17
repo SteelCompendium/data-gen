@@ -21,18 +21,11 @@ gen input_fpath:
     #!/usr/bin/env bash
     set -euo pipefail
     just _wipe_dir "{{monsters_staging_dpath}}"
-    # TODO - actually implement this
     mkdir -p "{{monsters_unlinked_dpath}}"
 
     just monsters gen_monsters_md_unlinked "{{input_fpath}}" "{{monsters_unlinked_dpath}}"
     # TODO - just link_md_files ..., then change to monsters_linked_dpath
     just monsters convert_md_to_other_formats "{{monsters_unlinked_dpath}}"
-
-    #    # TODO - I think I want to break up this repo into books to prepare for supplemental materials (so data-bestiary-md/monsters)
-    #    just _copy_data_to_repo "{{monsters_unlinked_dpath}}" "data-bestiary-md"
-    #    just _copy_data_to_repo "{{monsters_unlinked_dpath}}" "data-bestiary-md-dse"
-    #    just _copy_data_to_repo "{{monsters_unlinked_dpath}}" "data-bestiary-json"
-    #    just _copy_data_to_repo "{{monsters_unlinked_dpath}}" "data-bestiary-yaml"
 
 ##################################################
 # Private Recipes
@@ -135,9 +128,11 @@ convert_md_to_other_formats md_dpath:
     conversions_dpath="{{monsters_staging_dpath}}/9_conversions"
 
     find "{{md_dpath}}/Monsters" -type d -name "Statblocks" | while read -r statblock_dpath; do
-        # TODO - this needs to be everything in-between the root dir and the statblock dir (rival/*-echelon)
-        monster_type="$(basename "$(dirname "$statblock_dpath")")"
+        # note: monster_type might be "rivals/1st-echelon"
+        monster_type="${statblock_dpath#{{md_dpath}}/Monsters/}"
+        monster_type="${monster_type%/Statblocks}"
         echo "Converting $monster_type"
+
         mkdir -p "${conversions_dpath}/json/${monster_type}/Statblocks"
         mkdir -p "${conversions_dpath}/yaml/${monster_type}/Statblocks"
         #mkdir -p "${conversions_dpath}/xml/${monster_type}/Statblocks"
