@@ -13601,7 +13601,7 @@ At the start of a kingfissure worm's turn or when an action's trigger occurs, yo
 >
 > **Effect:** Until the end of the next round, each target takes a −3 penalty to stability, treats all terrain as difficult terrain, and takes 10 damage whenever they are knocked prone.
 
-####### Kingfissure Wor
+####### Kingfissure Worm
 
 |    Beast, Worm    |           -            |      Level 7       |         Solo          |        EV 108        |
 |:-----------------:|:----------------------:|:------------------:|:---------------------:|:--------------------:|
@@ -26635,9 +26635,9 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🗡 **Go for the Jugular (Encounter)**
 >
-> | **Melee, Strike, Weapon** |   **Main action** |
-> |---------------------------|------------------:|
-> | **📏 Melee 1**            | **🎯 One creature |
+> | **Melee, Strike, Weapon** |     **Main action** |
+> |---------------------------|--------------------:|
+> | **📏 Melee 1**            | **🎯 One creature** |
 >
 > **Power Roll + highest characteristic:**
 >
