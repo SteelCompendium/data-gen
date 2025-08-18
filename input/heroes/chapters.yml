@@ -27,6 +27,7 @@ sections:
   chapter_num: '10'
 - header_path: negotiation
   chapter_num: '11'
+  xpath: "//section[@id='negotiation']"
 - header_path: downtime-projects
   chapter_num: '12'
 - header_path: rewards

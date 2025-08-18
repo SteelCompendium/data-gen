@@ -3,13 +3,50 @@ global:
   file_dpath: "Classes"
   type: class
 sections:
-- header_path: "censor"
-- header_path: "conduit"
-- header_path: "elementalist"
-- header_path: "fury"
+  - header_path: "censor"
+  - header_path: "conduit"
+  - header_path: "elementalist"
+  - header_path: "fury"
   # null gets read into python as `None`
-- header_path: "null"
-- header_path: "shadow"
-- header_path: "tactician"
-- header_path: "talent"
-- header_path: "troubadour"
+  - header_path: "null"
+  - header_path: "shadow"
+  - header_path: "tactician"
+  - header_path: "talent"
+  - header_path: "troubadour"
+
+  - header_path: 'censor'
+    xpath: "//section[@id='censor']//section[@class='level3']"
+    file_dpath: "Classes By Level/Censor"
+    type: 'class/level'
+  - header_path: 'conduit'
+    xpath: "//section[@id='conduit']//section[@class='level3']"
+    file_dpath: "Classes By Level/Conduit"
+    type: 'class/level'
+  - header_path: 'elementalist'
+    xpath: "//section[@id='elementalist']//section[@class='level3']"
+    file_dpath: "Classes By Level/Elementalist"
+    type: 'class/level'
+  - header_path: 'fury'
+    xpath: "//section[@id='fury']//section[@class='level3']"
+    file_dpath: "Classes By Level/Fury"
+    type: 'class/level'
+  - header_path: 'null'
+    xpath: "//section[@id='null']//section[@class='level3']"
+    file_dpath: "Classes By Level/Null"
+    type: 'class/level'
+  - header_path: 'shadow'
+    xpath: "//section[@id='shadow']//section[@class='level3']"
+    file_dpath: "Classes By Level/Shadow"
+    type: 'class/level'
+  - header_path: 'tactician'
+    xpath: "//section[@id='tactician']//section[@class='level3']"
+    file_dpath: "Classes By Level/Tactician"
+    type: 'class/level'
+  - header_path: 'talent'
+    xpath: "//section[@id='talent']//section[@class='level3']"
+    file_dpath: "Classes By Level/Talent"
+    type: 'class/level'
+  - header_path: 'troubadour'
+    xpath: "//section[@id='troubadour']//section[@class='level3']"
+    file_dpath: "Classes By Level/Troubadour"
+    type: 'class/level'
