@@ -22,10 +22,24 @@ generate md_dpath:
       - Update metadata and rewrite file
     '''
     import sys, re
+    import yaml, subprocess
     from pathlib import Path
     import frontmatter
 
     def generate_for_abilities(rel_path: Path, metadata: dict, body: str) -> dict:
+        print(rel_path)
+        # Run the external command and capture the YAML output
+        result = subprocess.run(
+            ["just", "abilities", "convert", str(rel_path), "yaml"],
+            check=True,
+            stdout=subprocess.PIPE,
+            text=True
+        )
+        yaml_data = yaml.safe_load(result.stdout)
+        for key in ("flavor", "keywords", "type", "distance", "target"):
+            if key in yaml_data:
+                metadata[key] = yaml_data[key]
+
         # cost and sub-values + type
         assumed_base_type = 'feature/trait'
         m = re.match(r'^(.*?)\s*\((.*?)\)\s*$', metadata['item_name'])
@@ -83,26 +97,30 @@ generate md_dpath:
 
     # TODO - make more metadata generators for different types when I have data
     DISPATCH = {
-        'Abilities': generate_for_abilities,
-        'Chapters': generate_for_chapters,
-        'Cultures': generate_for_cultures,
-        'Titles': generate_for_titles,
-        'Treasures': generate_for_treasures,
+        re.compile(r"Abilities/"): generate_for_abilities,
+        re.compile(r"Chapters/"): generate_for_chapters,
+        re.compile(r"Cultures/"): generate_for_cultures,
+        re.compile(r"Titles/"): generate_for_titles,
+        re.compile(r"Treasures/"): generate_for_treasures,
     }
 
     def get_generator(rel_path: Path):
-        first = rel_path.parts[0] if rel_path.parts else None
-        return DISPATCH.get(first, default_generator)
+        rel_path_str = rel_path.as_posix()
+        for pattern, generator in DISPATCH.items():
+            if pattern.match(rel_path_str):
+                return generator
+        return default_generator
 
     def process_file(filepath: Path, root: Path):
         post = frontmatter.load(filepath)
         body = post.content
-        rel = filepath.relative_to(root)
-        gen = get_generator(rel)
-        new_meta = gen(rel, post.metadata, body)
-        post.metadata.update(new_meta)
+        rel_path = filepath.relative_to(root)
+        generator = get_generator(rel_path)
+        new_metadata = generator(filepath, post.metadata, body)
+        post.metadata.update(new_metadata)
         filepath.write_text(frontmatter.dumps(post), encoding='utf-8')
 
-    root_dir = Path("{{md_dpath}}")
-    for md_file in root_dir.rglob('*.md'):
-        process_file(md_file, root_dir)
+    if __name__ == "__main__":
+        root_dir = Path("{{md_dpath}}").resolve()
+        for md_file in root_dir.rglob("*.md"):
+            process_file(md_file, root_dir)

@@ -13,7 +13,7 @@
 ##################################################
 
 
-# Converts ability markdown into another format (yaml, json, etc)
+# Converts statblock markdown into another format (yaml, json, etc)
 convert_all md_dpath output_format output_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
@@ -25,7 +25,7 @@ convert_all md_dpath output_format output_dpath:
         --output "{{output_dpath}}" \
         "{{md_dpath}}"
 
-# Converts ability markdown into another format (yaml, json, etc) and prints output
+# Converts statblock markdown into another format (yaml, json, etc) and prints output
 convert md_fpath output_format:
     #!/usr/bin/env bash
     set -euo pipefail
