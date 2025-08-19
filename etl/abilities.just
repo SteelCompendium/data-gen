@@ -58,7 +58,7 @@ gen_index_for_each_dir_in dpath depth="0":
         title="${to_index#{{dpath}}}"
         title="${title#/}"
         title="$(echo "$title" | sed -E 's|/|: |')"
-        just index gen "$to_index" "$index_fpath" "file_name cost level feature_type " "$title"
+        just index gen "$to_index" "$index_fpath" "file_name cost level feature_type action_type distance target" "$title"
     done
 
 # Generates a single file containing all ability data
