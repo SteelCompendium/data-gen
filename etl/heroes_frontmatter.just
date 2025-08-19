@@ -27,7 +27,6 @@ generate md_dpath:
     import frontmatter
 
     def generate_for_abilities(rel_path: Path, metadata: dict, body: str) -> dict:
-        print(rel_path)
         # Run the external command and capture the YAML output
         result = subprocess.run(
             ["just", "abilities", "convert", str(rel_path), "yaml"],
@@ -38,7 +37,10 @@ generate md_dpath:
         yaml_data = yaml.safe_load(result.stdout)
         for key in ("flavor", "keywords", "type", "distance", "target"):
             if key in yaml_data:
-                metadata[key] = yaml_data[key]
+                if key == "type":
+                    metadata["action_type"] = yaml_data[key]
+                else:
+                    metadata[key] = yaml_data[key]
 
         # cost and sub-values + type
         assumed_base_type = 'feature/trait'
