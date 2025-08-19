@@ -6,7 +6,7 @@
 
 steel_compendium_dpath := `just _steel_compendium_dpath`
 input_dpath := `just _input_dpath`
-monsters_staging_dpath := `just _staging_dpath` / "monsters"
+monsters_staging_dpath := `just _staging_dpath` / "Monsters Book"
 monsters_unlinked_dpath := monsters_staging_dpath / "unlinked"
 monsters_linked_dpath := monsters_staging_dpath / "linked"
 

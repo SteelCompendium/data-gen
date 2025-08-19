@@ -24,3 +24,14 @@ convert_all md_dpath output_format output_dpath:
         --to "{{output_format}}" \
         --output "{{output_dpath}}" \
         "{{md_dpath}}"
+
+# Converts ability markdown into another format (yaml, json, etc) and prints output
+convert md_fpath output_format:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    npx --package steel-compendium-sdk sc-convert \
+        --type statblock \
+        --from markdown \
+        --to "{{output_format}}" \
+        "{{md_fpath}}"
+
