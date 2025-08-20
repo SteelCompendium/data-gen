@@ -14,7 +14,7 @@ unified_dse_staging_dpath := `just _staging_dpath` / "unified-dse"
 
 # Input/sources
 rules_md_source_dpath := steel_compendium_dpath / "data-rules-md"
-#rules_dse_md_source_dpath := steel_compendium_dpath / "data-rules-md-dse"
+rules_dse_md_source_dpath := steel_compendium_dpath / "data-rules-md-dse"
 bestiary_md_source_dpath := steel_compendium_dpath / "data-bestiary-md"
 bestiary_dse_md_source_dpath := steel_compendium_dpath / "data-bestiary-md-dse"
 adventures_md_source_dpath := steel_compendium_dpath / "data-adventures-md"
@@ -75,6 +75,6 @@ _gen_unified_md_dse:
     # Unify sources. Use rsync to avoid .git dir
     just _print_section "Unified: Pulling DSE sources to common dir ({{unified_dse_staging_dpath}})"
     mkdir -p "{{unified_dse_staging_dpath}}"
-    rsync -a "{{rules_md_source_dpath}}"/* "{{unified_dse_staging_dpath}}/Rules" --exclude '.git' --exclude 'LICENSE'
+    rsync -a "{{rules_dse_md_source_dpath}}"/* "{{unified_dse_staging_dpath}}/Rules" --exclude '.git' --exclude 'LICENSE'
     rsync -a "{{bestiary_dse_md_source_dpath}}"/* "{{unified_dse_staging_dpath}}/Bestiary" --exclude '.git' --exclude 'LICENSE'
     rsync -a "{{adventures_md_source_dpath}}"/* "{{unified_dse_staging_dpath}}/Adventures" --exclude '.git' --exclude 'LICENSE'
