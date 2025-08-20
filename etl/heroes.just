@@ -153,6 +153,7 @@ convert_md_to_other_formats md_dpath:
     cp -R "{{md_dpath}}"/* "${conversions_dpath}/md-dse"
     just abilities embed_abilities "${conversions_dpath}/md-dse/Abilities" "${conversions_dpath}/yaml/Abilities"
 
+    # Build the aggregate data files
     just abilities gen_aggregate_data_doc "${conversions_dpath}/json/Abilities" "json" "${conversions_dpath}/json/Abilities/abilities.json"
     just abilities gen_aggregate_data_doc "${conversions_dpath}/yaml/Abilities" "yaml" "${conversions_dpath}/yaml/Abilities/abilities.yaml"
     just abilities gen_aggregate_data_doc "${conversions_dpath}/xml/Abilities" "xml" "${conversions_dpath}/xml/Abilities/abilities.xml"
@@ -160,9 +161,11 @@ convert_md_to_other_formats md_dpath:
     just _copy_data_to_repo "${conversions_dpath}/json" "data-rules-json"
     just _copy_data_to_repo "${conversions_dpath}/yaml" "data-rules-yaml"
     just _copy_data_to_repo "${conversions_dpath}/xml" "data-rules-xml"
-    just _copy_data_to_repo "${conversions_dpath}/md-dse" "data-rules-md-dse"
 
-    # only separate blockquotes on the markdown variant
+    # only separate blockquotes on the markdown variants
     just markdown separate_blockquotes "{{md_dpath}}"
     just _copy_data_to_repo "{{md_dpath}}" "data-rules-md"
+
+    just markdown separate_blockquotes "${conversions_dpath}/md-dse"
+    just _copy_data_to_repo "${conversions_dpath}/md-dse" "data-rules-md-dse"
 
