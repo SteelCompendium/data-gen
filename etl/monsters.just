@@ -160,5 +160,5 @@ convert_md_to_other_formats md_dpath:
     # Separate blockquotes with a <!-- --> to avoid merges
     # only separate blockquotes on the markdown variant
     just markdown separate_blockquotes "{{md_dpath}}"
-    just _copy_data_to_repo "{{md_dpath}}" "data-bestiary-md" "/monsters"
+    just _copy_data_to_repo "{{md_dpath}}" "data-bestiary-md" "/Monsters"
 
