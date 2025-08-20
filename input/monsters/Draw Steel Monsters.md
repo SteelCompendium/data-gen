@@ -1695,6 +1695,8 @@ At the start of Ajax's turn, you can spend Malice to activate one of the followi
 > |---------------------------|------------------------------:|
 > | **📏 5 burst**            | **🎯 Each enemy in the area** |
 >
+> **Power Roll + 5:**
+>
 > - **≤11:** 11 fire damage; A < 4 weakened (save ends)
 > - **12-16:** 17 fire damage; A < 5 weakened (save ends)
 > - **17+:** 21 fire damage; A < 6 weakened (save ends)
@@ -19226,7 +19228,7 @@ Most undead speak (or at least understand) the languages they knew in life.
 
 It's rare you fight a single zombie. Low-level undead most often appear in huge droves, and skeletons, ghouls, specters, and shades can overwhelm the mightiest of heroes through sheer numbers alone if those heroes aren't careful.
 
-######### **Undead Malice (Level 1+ Malice Features)**
+######### Undead Malice (Level 1+ Malice Features)
 
 At the start of any undead's turn, you can spend Malice to activate one of the following features.
 

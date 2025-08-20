@@ -139,10 +139,15 @@ convert_md_to_other_formats md_dpath:
         just statblocks convert_all "${statblock_dpath}" "json" "${conversions_dpath}/json/${monster_type}/Statblocks"
         just statblocks convert_all "${statblock_dpath}" "yaml" "${conversions_dpath}/yaml/${monster_type}/Statblocks"
         #just abilities convert_all "${statblock_dpath}" "xml" "${conversions_dpath}/xml/${monster_type}/Statblocks"
+        # Dont convert to markdown: you will lose frontmatter data
     done
 
-    # Dont convert to markdown: you will lose frontmatter data
-    #
+    # Make the DSE markdown by embedding the yaml
+    mkdir -p "${conversions_dpath}/md-dse"
+    cp -R "{{md_dpath}}"/* "${conversions_dpath}/md-dse"
+    just statblocks embed_statblocks "${conversions_dpath}/md-dse/Monsters" "${conversions_dpath}/yaml"
+
+    # TODO - build an aggregate file of all the statblocks
     #    just abilities gen_aggregate_data_doc "${conversions_dpath}/json/Abilities" "json" "${conversions_dpath}/json/Abilities/abilities.json"
     #    just abilities gen_aggregate_data_doc "${conversions_dpath}/yaml/Abilities" "yaml" "${conversions_dpath}/yaml/Abilities/abilities.yaml"
     #    just abilities gen_aggregate_data_doc "${conversions_dpath}/xml/Abilities" "xml" "${conversions_dpath}/xml/Abilities/abilities.xml"
@@ -150,7 +155,10 @@ convert_md_to_other_formats md_dpath:
     just _copy_data_to_repo "${conversions_dpath}/json" "data-bestiary-json"
     just _copy_data_to_repo "${conversions_dpath}/yaml" "data-bestiary-yaml"
     #just _copy_data_to_repo "${conversions_dpath}/xml" "data-bestiary-xml"
+    just _copy_data_to_repo "${conversions_dpath}/md-dse" "data-bestiary-md-dse"
 
+    # Separate blockquotes with a <!-- --> to avoid merges
     # only separate blockquotes on the markdown variant
     just markdown separate_blockquotes "{{md_dpath}}"
     just _copy_data_to_repo "{{md_dpath}}" "data-bestiary-md" "/monsters"
+

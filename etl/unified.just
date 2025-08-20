@@ -10,6 +10,8 @@ unified_staging_dpath := `just _staging_dpath` / "unified"
 unified_unlinked_dpath := unified_staging_dpath / "unlinked"
 unified_linked_dpath := unified_staging_dpath / "linked"
 
+unified_dse_staging_dpath := `just _staging_dpath` / "unified-dse"
+
 # Input/sources
 rules_md_source_dpath := steel_compendium_dpath / "data-rules-md"
 bestiary_md_source_dpath := steel_compendium_dpath / "data-bestiary-md"
@@ -59,3 +61,15 @@ _gen_unified_md:
     #    # Format/Lint the linked markdown files
     #    just _print_section "Unified: Formatting unified, linked files"
     #    just markdown lint "{{unified_linked_dpath}}"
+
+[private]
+_gen_unified_md_dse:
+    #!/usr/bin/env bash
+    set -euo pipefail
+
+    # Unify sources. Use rsync to avoid .git dir
+    just _print_section "Unified: Pulling DSE sources to common dir ({{unified_dse_staging_dpath}})"
+    mkdir -p "{{unified_dse_staging_dpath}}"
+    rsync -a "{{rules_md_source_dpath}}"/* "{{unified_dse_staging_dpath}}/Rules" --exclude '.git' --exclude 'LICENSE'
+    rsync -a "{{bestiary_md_source_dpath}}"/* "{{unified_dse_staging_dpath}}/Bestiary" --exclude '.git' --exclude 'LICENSE'
+    rsync -a "{{adventures_md_source_dpath}}"/* "{{unified_dse_staging_dpath}}/Adventures" --exclude '.git' --exclude 'LICENSE'
