@@ -7,7 +7,7 @@
 log_prefix := "[JUST][monster_sections]"
 
 input_dpath := `just _input_dpath` / 'monsters'
-monsters_staging_dpath := `just _staging_dpath` / "monsters"
+monsters_staging_dpath := `just _staging_dpath` / "Monsters"
 sections_staging_dpath := monsters_staging_dpath / "0_sections"
 
 section_list := '"Basics" "Chapters" "Monsters" "Dynamic Terrain" "Retainers"'
