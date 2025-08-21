@@ -33,11 +33,13 @@ convert_all md_dpath output_format output_dpath:
         --output "{{output_dpath}}" \
         "{{md_dpath}}"
 
-# Converts ability markdown into another format (yaml, json, etc) and prints output
+# Converts ability markdown into another format (yaml, json, etc) and prints output --prefix
 convert md_fpath output_format:
     #!/usr/bin/env bash
     set -euo pipefail
-    npx --package steel-compendium-sdk sc-convert \
+    export NPX_PREFIX="${XDG_CACHE_HOME:-$HOME/.cache}/sc-convert"
+    mkdir -p "$NPX_PREFIX"
+    npx --yes --prefix "$NPX_PREFIX" --package steel-compendium-sdk sc-convert \
         --type ability \
         --from markdown \
         --to "{{output_format}}" \

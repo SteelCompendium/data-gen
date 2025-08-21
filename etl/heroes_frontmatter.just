@@ -27,6 +27,7 @@ generate md_dpath:
     import frontmatter
 
     def generate_for_abilities(rel_path: Path, metadata: dict, body: str) -> dict:
+        print(rel_path)
         # Run the external command and capture the YAML output
         result = subprocess.run(
             ["just", "abilities", "convert", str(rel_path), "yaml"],

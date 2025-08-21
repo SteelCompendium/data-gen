@@ -29,7 +29,7 @@ convert_all md_dpath output_format output_dpath:
 convert md_fpath output_format:
     #!/usr/bin/env bash
     set -euo pipefail
-    npx --package steel-compendium-sdk sc-convert \
+    npx --yes --package steel-compendium-sdk sc-convert \
         --type statblock \
         --from markdown \
         --to "{{output_format}}" \
