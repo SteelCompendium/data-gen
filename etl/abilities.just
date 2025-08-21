@@ -26,7 +26,7 @@ convert_all md_dpath output_format output_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
     echo >&2 "Abilities: converting markdown to '{{output_format}}'"
-    npx --package steel-compendium-sdk sc-convert \
+    sc-convert \
         --type ability \
         --from markdown \
         --to "{{output_format}}" \
@@ -37,9 +37,7 @@ convert_all md_dpath output_format output_dpath:
 convert md_fpath output_format:
     #!/usr/bin/env bash
     set -euo pipefail
-    export NPX_PREFIX="${XDG_CACHE_HOME:-$HOME/.cache}/sc-convert"
-    mkdir -p "$NPX_PREFIX"
-    npx --yes --prefix "$NPX_PREFIX" --package steel-compendium-sdk sc-convert \
+    sc-convert \
         --type ability \
         --from markdown \
         --to "{{output_format}}" \

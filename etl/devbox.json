@@ -20,7 +20,7 @@
   },
   "shell": {
     "init_hook": [
-      "if [ \"$(type -t \"source\")\" = \"builtin\" ]; then clear -x; source bin/furc; fi",
+      "if [ \"$(type -t \"source\")\" = \"builtin\" ]; then clear -x; fi",
       ". $VENV_DIR/bin/activate",
       "pip install markdown-to-json",
       "pip install tabulate PyYAML python-frontmatter",
@@ -29,6 +29,7 @@
       "pip install mdformat mdformat-wikilink mdformat-tables mdformat-frontmatter mdformat-mkdocs",
       "pip install rapidfuzz",
       "pip install python-slugify",
+      "npm install steel-compendium-sdk",
       "go install github.com/pdfcpu/pdfcpu/cmd/pdfcpu@latest",
       "PATH=$PATH:$(go env GOPATH)/bin"
     ],
