@@ -14020,7 +14020,7 @@ Choose two signature abilities from the following options. Signature abilities c
 
 **Strained:** The size of the burst increases by 2, and you are bleeding until the start of your next turn.
 
-#### Materialize
+######## Materialize
 
 *You picture an object in your mind and give it form-directly above your opponent's head.*
 
@@ -19869,7 +19869,6 @@ Using the Hide maneuver, a creature attempts to hide from other creatures who ar
 A creature wanting to push an adjacent creature away from them can attempt to shove that creature using the following ability.
 
 ######## Knockback
-
 
 | **Melee, Weapon** |        **Maneuver** |
 |-------------------|--------------------:|
