@@ -130,24 +130,28 @@ convert_md_to_other_formats md_dpath:
     # Convert Statblocks
     find "{{md_dpath}}/Monsters" -type d -name "Statblocks" | while read -r statblock_dpath; do
         # note: monster_type might be "rivals/1st-echelon"
-        monster_type="${statblock_dpath#{{md_dpath}}/Monsters/}"
-        monster_type="${monster_type%/Statblocks}"
+        monster_type="$(just monsters trim_path "{{md_dpath}}/Monsters/" "/Statblocks" "$statblock_dpath")"
         echo "Converting Statblocks for $monster_type"
-        just statblocks convert_all "${statblock_dpath}" "json" "${conversions_dpath}/json/${monster_type}/Statblocks"
-        just statblocks convert_all "${statblock_dpath}" "yaml" "${conversions_dpath}/yaml/${monster_type}/Statblocks"
+        just statblocks convert_all "${statblock_dpath}" "json" "${conversions_dpath}/json/Monsters/${monster_type}/Statblocks"
+        just statblocks convert_all "${statblock_dpath}" "yaml" "${conversions_dpath}/yaml/Monsters/${monster_type}/Statblocks"
     done
 
     # Convert Monster Featureblocks
     find "{{md_dpath}}/Monsters" -type d -name "Features" | while read -r featureblock_dpath; do
         # note: monster_type might be "rivals/1st-echelon"
-        monster_type="${featureblock_dpath#{{md_dpath}}/Monsters/}"
-        monster_type="${monster_type%/Features}"
+        monster_type="$(just monsters trim_path "{{md_dpath}}/Monsters/" "/Features" "$featureblock_dpath")"
         echo "Converting Featureblocks for $monster_type"
-        just featureblocks convert_all "${featureblock_dpath}" "json" "${conversions_dpath}/json/${monster_type}/Features"
-        just featureblocks convert_all "${featureblock_dpath}" "yaml" "${conversions_dpath}/yaml/${monster_type}/Features"
+        just featureblocks convert_all "${featureblock_dpath}" "json" "${conversions_dpath}/json/Monsters/${monster_type}/Features"
+        just featureblocks convert_all "${featureblock_dpath}" "yaml" "${conversions_dpath}/yaml/Monsters/${monster_type}/Features"
     done
 
-    # TODO - convert dynamic terrain
+    # Convert Dynamic Terrain
+    find "{{md_dpath}}/Dynamic Terrain" -type d | while read -r dt_dpath; do
+        dt_type="$(just monsters trim_path "{{md_dpath}}/Dynamic Terrain/" "" "$dt_dpath")"
+        echo "Converting Featureblocks for $dt_type"
+        just featureblocks convert_all "${dt_dpath}" "json" "${conversions_dpath}/json/Dynamic Terrain/${dt_type}/Features"
+        just featureblocks convert_all "${dt_dpath}" "yaml" "${conversions_dpath}/yaml/Dynamic Terrain/${dt_type}/Features"
+    done
 
     # Make the DSE markdown by embedding the yaml
     mkdir -p "${conversions_dpath}/md-dse"
@@ -169,3 +173,11 @@ convert_md_to_other_formats md_dpath:
     # only separate blockquotes on the markdown variant
     just markdown separate_blockquotes "{{md_dpath}}"
     just _copy_data_to_repo "{{md_dpath}}" "data-bestiary-md" "/Monsters"
+
+trim_path prefix suffix dpath:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    dpath="{{dpath}}"
+    result="${dpath#{{prefix}}}"
+    result="${result%{{suffix}}}"
+    echo "$result"
