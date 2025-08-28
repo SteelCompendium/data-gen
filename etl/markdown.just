@@ -79,6 +79,8 @@ embed_yaml codeblock_lang md_dpath sub_dpath yaml_dpath:
     from pathlib import Path
     import frontmatter
 
+    print(f"Embedding yaml into {{md_dpath}} ({{sub_dpath}}) from {{yaml_dpath}}")
+
     md_root = Path('{{md_dpath}}').resolve()
     yaml_root = Path('{{yaml_dpath}}').resolve()
 

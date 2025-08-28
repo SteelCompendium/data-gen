@@ -151,8 +151,8 @@ convert_md_to_other_formats md_dpath:
         if [ "$(basename "$dt_dpath")" == "Dynamic Terrain" ]; then continue; fi
         dt_type="$(just monsters trim_path "{{md_dpath}}/Dynamic Terrain/" "" "$dt_dpath")"
         echo "Converting Featureblocks for $dt_type"
-        just featureblocks convert_all "${dt_dpath}" "json" "${conversions_dpath}/json/Dynamic Terrain/${dt_type}/Features"
-        just featureblocks convert_all "${dt_dpath}" "yaml" "${conversions_dpath}/yaml/Dynamic Terrain/${dt_type}/Features"
+        just featureblocks convert_all "${dt_dpath}" "json" "${conversions_dpath}/json/Dynamic Terrain/${dt_type}"
+        just featureblocks convert_all "${dt_dpath}" "yaml" "${conversions_dpath}/yaml/Dynamic Terrain/${dt_type}"
     done
 
     # Make the DSE markdown by embedding the yaml
