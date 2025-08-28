@@ -5,6 +5,8 @@ global:
 sections:
 - header_path: monster-basics
   chapter_num: '1'
+  # This is required because there are two "Monster Basics" headings and the automation will pick up the second one
+  xpath: "//section[@id='monster-basics']"
 - header_path: monsters
   chapter_num: '2'
 - header_path: dynamic-terrain
