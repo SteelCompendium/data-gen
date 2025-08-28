@@ -156,7 +156,7 @@ convert_md_to_other_formats md_dpath:
     # Make the DSE markdown by embedding the yaml
     mkdir -p "${conversions_dpath}/md-dse"
     cp -R "{{md_dpath}}"/* "${conversions_dpath}/md-dse"
-    just statblocks embed_statblocks "${conversions_dpath}/md-dse/Monsters" "Statblocks/" "${conversions_dpath}/yaml"
+    just statblocks embed_statblocks "${conversions_dpath}/md-dse/Monsters" "Statblocks/" "${conversions_dpath}/yaml/Monsters"
     # TODO - featureblocks should get embedded into markdown files
 
     # TODO - build an aggregate file of all the statblocks
