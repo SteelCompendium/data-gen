@@ -147,6 +147,8 @@ convert_md_to_other_formats md_dpath:
 
     # Convert Dynamic Terrain
     find "{{md_dpath}}/Dynamic Terrain" -type d | while read -r dt_dpath; do
+        # Skip the Dynamic Terrain parent directory
+        if [ "$(basename "$dt_dpath")" == "Dynamic Terrain" ]; then continue; fi
         dt_type="$(just monsters trim_path "{{md_dpath}}/Dynamic Terrain/" "" "$dt_dpath")"
         echo "Converting Featureblocks for $dt_type"
         just featureblocks convert_all "${dt_dpath}" "json" "${conversions_dpath}/json/Dynamic Terrain/${dt_type}/Features"
@@ -156,17 +158,17 @@ convert_md_to_other_formats md_dpath:
     # Make the DSE markdown by embedding the yaml
     mkdir -p "${conversions_dpath}/md-dse"
     cp -R "{{md_dpath}}"/* "${conversions_dpath}/md-dse"
-    just statblocks embed_statblocks "${conversions_dpath}/md-dse/Monsters" "Statblocks/" "${conversions_dpath}/yaml/Monsters"
-    # TODO - featureblocks should get embedded into markdown files
+    just markdown embed_yaml "ds-statblock" "${conversions_dpath}/md-dse/Monsters" "Statblocks/" "${conversions_dpath}/yaml/Monsters"
+    just markdown embed_yaml "ds-featureblock" "${conversions_dpath}/md-dse/Monsters" "Features/" "${conversions_dpath}/yaml/Monsters"
+    just markdown embed_yaml "ds-featureblock" "${conversions_dpath}/md-dse/Dynamic Terrain" "" "${conversions_dpath}/yaml/Dynamic Terrain"
 
     # TODO - build an aggregate file of all the statblocks
-    #    just abilities gen_aggregate_data_doc "${conversions_dpath}/json/Abilities" "json" "${conversions_dpath}/json/Abilities/abilities.json"
-    #    just abilities gen_aggregate_data_doc "${conversions_dpath}/yaml/Abilities" "yaml" "${conversions_dpath}/yaml/Abilities/abilities.yaml"
-    #    just abilities gen_aggregate_data_doc "${conversions_dpath}/xml/Abilities" "xml" "${conversions_dpath}/xml/Abilities/abilities.xml"
+    #just abilities gen_aggregate_data_doc "${conversions_dpath}/json/Abilities" "json" "${conversions_dpath}/json/Abilities/abilities.json"
+    #just abilities gen_aggregate_data_doc "${conversions_dpath}/yaml/Abilities" "yaml" "${conversions_dpath}/yaml/Abilities/abilities.yaml"
+    #just abilities gen_aggregate_data_doc "${conversions_dpath}/xml/Abilities" "xml" "${conversions_dpath}/xml/Abilities/abilities.xml"
 
     just _copy_data_to_repo "${conversions_dpath}/json" "data-bestiary-json"
     just _copy_data_to_repo "${conversions_dpath}/yaml" "data-bestiary-yaml"
-    #just _copy_data_to_repo "${conversions_dpath}/xml" "data-bestiary-xml"
     just _copy_data_to_repo "${conversions_dpath}/md-dse" "data-bestiary-md-dse"
 
     # Separate blockquotes with a <!-- --> to avoid merges

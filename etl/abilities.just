@@ -104,6 +104,7 @@ gen_aggregate_data_doc data_dpath data_format output_fpath:
     fi
     mv "$aggregate_fpath" "{{output_fpath}}"
 
+# TODO - replace this with just markdown embed_yaml
 # For each markdown file in md_dpath, the body gets replaced with a DSE codeblock for a statblock
 embed_abilities md_dpath yaml_dpath:
     #!/usr/bin/env python3
