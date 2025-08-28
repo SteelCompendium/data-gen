@@ -1818,7 +1818,7 @@ At the start of any angulotl's turn, you can spend Malice to activate one of the
 > **Power Roll + 2:**
 >
 > - **≤11:** 2 poison damage
-> - **12–16:** 4 poison damage
+> - **12-16:** 4 poison damage
 > - **17+:** 5 poison damage
 >
 > **Effect:** The dart gains an edge on this ability against any target who has less than full Stamina.
@@ -1844,7 +1844,7 @@ At the start of any angulotl's turn, you can spend Malice to activate one of the
 > **Power Roll + 2:**
 >
 > - **≤11:** 1 poison damage
-> - **12–16:** 2 poison damage; the pollywog can shift 1 square
+> - **12-16:** 2 poison damage; the pollywog can shift 1 square
 > - **17+:** 3 poison damage; the pollywog shifts up to 3 squares
 
 > ⭐️ **Quick Snack**
@@ -1868,7 +1868,7 @@ At the start of any angulotl's turn, you can spend Malice to activate one of the
 > **Power Roll + 2:**
 >
 > - **≤11:** 2 damage
-> - **12–16:** 4 damage
+> - **12-16:** 4 damage
 > - **17+:** 5 damage; grabbed
 >
 > **Effect:** Any target grabbed this way takes 2 lightning damage at the start of each of their turns.
@@ -4651,7 +4651,7 @@ At the start of any level 4 or higher demon's turn, you can spend Malice to acti
 >
 > - **≤11:** 11 corruption damage; A < 2 restrained (save ends)
 > - **12-16:** 16 corruption damage; A < 3 restrained (save ends)
-> - **17+:** 19 corruption damage; A < 4 restrained (save ends)** |
+> - **17+:** 19 corruption damage; A < 4 restrained (save ends)
 >
 > **2 Malice:** Two ensnarers appear in unoccupied spaces adjacent to each target. On a tier 3 outcome, four ensnarers appear.
 
