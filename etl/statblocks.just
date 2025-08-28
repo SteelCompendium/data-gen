@@ -18,6 +18,7 @@ convert_all md_dpath output_format output_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
     echo >&2 "Statblocks: converting markdown to '{{output_format}}'"
+    mkdir -p "{{output_dpath}}"
     sc-convert \
         --type statblock \
         --from markdown \
@@ -36,7 +37,7 @@ convert md_fpath output_format:
         "{{md_fpath}}"
 
 # For each markdown file in md_dpath, the body gets replaced with a DSE codeblock for a statblock
-embed_statblocks md_dpath yaml_dpath:
+embed_statblocks md_dpath sub_dpath yaml_dpath:
     #!/usr/bin/env python3
     import sys
     from pathlib import Path
@@ -52,7 +53,7 @@ embed_statblocks md_dpath yaml_dpath:
         print(f"YAML root not found: {yaml_root}", file=sys.stderr)
         sys.exit(3)
 
-    for md_file in md_root.rglob("*.md"):
+    for md_file in md_root.rglob("{{sub_dpath}}*.md"):
         rel = md_file.relative_to(md_root)
 
         # Candidate YAML paths in the mirror dir (same relpath + different extension)

@@ -127,25 +127,33 @@ convert_md_to_other_formats md_dpath:
     just _print_section "Monsters: Converting markdown into other formats"
     conversions_dpath="{{monsters_staging_dpath}}/9_conversions"
 
+    # Convert Statblocks
     find "{{md_dpath}}/Monsters" -type d -name "Statblocks" | while read -r statblock_dpath; do
         # note: monster_type might be "rivals/1st-echelon"
         monster_type="${statblock_dpath#{{md_dpath}}/Monsters/}"
         monster_type="${monster_type%/Statblocks}"
-        echo "Converting $monster_type"
-
-        mkdir -p "${conversions_dpath}/json/${monster_type}/Statblocks"
-        mkdir -p "${conversions_dpath}/yaml/${monster_type}/Statblocks"
-        #mkdir -p "${conversions_dpath}/xml/${monster_type}/Statblocks"
+        echo "Converting Statblocks for $monster_type"
         just statblocks convert_all "${statblock_dpath}" "json" "${conversions_dpath}/json/${monster_type}/Statblocks"
         just statblocks convert_all "${statblock_dpath}" "yaml" "${conversions_dpath}/yaml/${monster_type}/Statblocks"
-        #just abilities convert_all "${statblock_dpath}" "xml" "${conversions_dpath}/xml/${monster_type}/Statblocks"
-        # Dont convert to markdown: you will lose frontmatter data
     done
+
+    # Convert Monster Featureblocks
+    find "{{md_dpath}}/Monsters" -type d -name "Features" | while read -r featureblock_dpath; do
+        # note: monster_type might be "rivals/1st-echelon"
+        monster_type="${featureblock_dpath#{{md_dpath}}/Monsters/}"
+        monster_type="${monster_type%/Features}"
+        echo "Converting Featureblocks for $monster_type"
+        just featureblocks convert_all "${featureblock_dpath}" "json" "${conversions_dpath}/json/${monster_type}/Features"
+        just featureblocks convert_all "${featureblock_dpath}" "yaml" "${conversions_dpath}/yaml/${monster_type}/Features"
+    done
+
+    # TODO - convert dynamic terrain
 
     # Make the DSE markdown by embedding the yaml
     mkdir -p "${conversions_dpath}/md-dse"
     cp -R "{{md_dpath}}"/* "${conversions_dpath}/md-dse"
-    just statblocks embed_statblocks "${conversions_dpath}/md-dse/Monsters" "${conversions_dpath}/yaml"
+    just statblocks embed_statblocks "${conversions_dpath}/md-dse/Monsters" "Statblocks/" "${conversions_dpath}/yaml"
+    # TODO - featureblocks should get embedded into markdown files
 
     # TODO - build an aggregate file of all the statblocks
     #    just abilities gen_aggregate_data_doc "${conversions_dpath}/json/Abilities" "json" "${conversions_dpath}/json/Abilities/abilities.json"
@@ -161,4 +169,3 @@ convert_md_to_other_formats md_dpath:
     # only separate blockquotes on the markdown variant
     just markdown separate_blockquotes "{{md_dpath}}"
     just _copy_data_to_repo "{{md_dpath}}" "data-bestiary-md" "/Monsters"
-

@@ -8,7 +8,7 @@
   - H6 for tables
   - H7 are statblocks in heroes book (TODO?)
   - H8 is reserved for abilities (not features). Every ability must be an H8 in order for ability automation to work
-  - H9 is a malice block
+  - H9 is a Featureblock (malice, dynamic terrain)
 - once headers are done, focus on the content
   - power roll formatter
   - line replacement
