@@ -6706,7 +6706,7 @@ Eerie myths surround the gloom dragons, for they wield languages they do not the
 >
 > If the encounter map is a location the dragon has occupied for 1 week or more, illusory magic suffuses the location with shadowy malevolence. Each creature on the encounter map other than the dragon takes a −2 penalty to saving throws made to end the frightened condition. Additionally, whenever a frightened enemy on the encounter map takes damage, they take an extra 3 psychic damage.
 
-###### Gloom Dragon
+####### Gloom Dragon
 
 |     Dragon, Elemental     |             -              |      Level 4       |         Solo          |        EV 72         |   
 |:-------------------------:|:--------------------------:|:------------------:|:---------------------:|:--------------------:|   
@@ -6860,7 +6860,7 @@ The oldest of crucible dragons are known to speak some Vastariax, though younger
 >
 > If the encounter map is a location the dragon has occupied for 1 week or more, melted metal and blades coat nearly every surface. Any creature other than the dragon who starts their turn in physical contact with a surface on the encounter map takes 5 damage. Such creatures take an additional 5 damage when they take damage from being force moved into a surface on the map. Whenever an enemy in the encounter uses an ability that deals lightning damage, they take 1d6 damage to themself and each enemy and object adjacent to them.
 
-###### Crucible Dragon
+####### Crucible Dragon
 
 |   Dragon, Elemental    |         -         |      Level 6       |         Solo          |        EV 96         |   
 |:----------------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|   
