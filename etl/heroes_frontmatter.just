@@ -64,6 +64,14 @@ generate md_dpath:
 
         return metadata
 
+    def generate_for_kits(rel_path: Path, metadata: dict, body: str) -> dict:
+        metadata = generate_for_abilities(rel_path, metadata, body)
+        # Expected to be like "Abilities/Kits/Arcane Archer" which is a little fragile
+        file_dpath = metadata["file_dpath"]
+        metadata["kit"] = file_dpath.replace("Abilities/Kits/", "")
+        return metadata
+
+
     def generate_for_chapters(rel_path: Path, metadata: dict, body: str) -> dict:
         ch_num = int(metadata["chapter_num"])
         ch_name = metadata["item_name"]
@@ -100,6 +108,7 @@ generate md_dpath:
 
     # TODO - make more metadata generators for different types when I have data
     DISPATCH = {
+        re.compile(r"Abilities/Kits"): generate_for_kits,
         re.compile(r"Abilities/"): generate_for_abilities,
         re.compile(r"Chapters/"): generate_for_chapters,
         re.compile(r"Cultures/"): generate_for_cultures,
