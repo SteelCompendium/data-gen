@@ -9,3 +9,93 @@ sections:
     xpath: "//section[@id='kits']//section[@id='kits-table']"
     type: 'reference_table/kits'
     title: '📄 Kit Table'
+
+  # Kit abilities
+  - header_path: ignored
+    xpath: "//section[@id='kits']//section[@id='arcane-archer']//section[@class='level8']"
+    file_dpath: 'Abilities/Kits/Arcane Archer'
+    type: "kit-ability/arcane-archer"
+  - header_path: ignored
+    xpath: "//section[@id='kits']//section[@id='battlemind']//section[@class='level8']"
+    file_dpath: 'Abilities/Kits/Battlemind'
+    type: "kit-ability/battlemind"
+  - header_path: ignored
+    xpath: "//section[@id='kits']//section[@id='cloak-and-dagger']//section[@class='level8']"
+    file_dpath: 'Abilities/Kits/Cloak and Dagger'
+    type: "kit-ability/cloak-and-dagger"
+  - header_path: ignored
+    xpath: "//section[@id='kits']//section[@id='dual-wielder']//section[@class='level8']"
+    file_dpath: 'Abilities/Kits/Dual Wielder'
+    type: "kit-ability/dual-wielder"
+  - header_path: ignored
+    xpath: "//section[@id='kits']//section[@id='guisarmier']//section[@class='level8']"
+    file_dpath: 'Abilities/Kits/Guisarmier'
+    type: "kit-ability/guisarmier"
+  - header_path: ignored
+    xpath: "//section[@id='kits']//section[@id='kits-table']//section[@class='level8']"
+    file_dpath: 'Abilities/Kits/Kits Table'
+    type: "kit-ability/kits-table"
+  - header_path: ignored
+    xpath: "//section[@id='kits']//section[@id='martial-artist']//section[@class='level8']"
+    file_dpath: 'Abilities/Kits/Martial Artist'
+    type: "kit-ability/martial-artist"
+  - header_path: ignored
+    xpath: "//section[@id='kits']//section[@id='mountain']//section[@class='level8']"
+    file_dpath: 'Abilities/Kits/Mountain'
+    type: "kit-ability/mountain"
+  - header_path: ignored
+    xpath: "//section[@id='kits']//section[@id='panther']//section[@class='level8']"
+    file_dpath: 'Abilities/Kits/Panther'
+    type: "kit-ability/panther"
+  - header_path: ignored
+    xpath: "//section[@id='kits']//section[@id='pugilist']//section[@class='level8']"
+    file_dpath: 'Abilities/Kits/Pugilist'
+    type: "kit-ability/pugilist"
+  - header_path: ignored
+    xpath: "//section[@id='kits']//section[@id='raider']//section[@class='level8']"
+    file_dpath: 'Abilities/Kits/Raider'
+    type: "kit-ability/raider"
+  - header_path: ignored
+    xpath: "//section[@id='kits']//section[@id='ranger']//section[@class='level8']"
+    file_dpath: 'Abilities/Kits/Ranger'
+    type: "kit-ability/ranger"
+  - header_path: ignored
+    xpath: "//section[@id='kits']//section[@id='rapid-fire']//section[@class='level8']"
+    file_dpath: 'Abilities/Kits/Rapid Fire'
+    type: "kit-ability/rapid-fire"
+  - header_path: ignored
+    xpath: "//section[@id='kits']//section[@id='retiarius']//section[@class='level8']"
+    file_dpath: 'Abilities/Kits/Retiarius'
+    type: "kit-ability/retiarius"
+  - header_path: ignored
+    xpath: "//section[@id='kits']//section[@id='shining-armor']//section[@class='level8']"
+    file_dpath: 'Abilities/Kits/Shining Armor'
+    type: "kit-ability/shining-armor"
+  - header_path: ignored
+    xpath: "//section[@id='kits']//section[@id='sniper']//section[@class='level8']"
+    file_dpath: 'Abilities/Kits/Sniper'
+    type: "kit-ability/sniper"
+  - header_path: ignored
+    xpath: "//section[@id='kits']//section[@id='spellsword']//section[@class='level8']"
+    file_dpath: 'Abilities/Kits/Spellsword'
+    type: "kit-ability/spellsword"
+  - header_path: ignored
+    xpath: "//section[@id='kits']//section[@id='stick-and-robe']//section[@class='level8']"
+    file_dpath: 'Abilities/Kits/Stick and Robe'
+    type: "kit-ability/stick-and-robe"
+  - header_path: ignored
+    xpath: "//section[@id='kits']//section[@id='swashbuckler']//section[@class='level8']"
+    file_dpath: 'Abilities/Kits/Swashbuckler'
+    type: "kit-ability/swashbuckler"
+  - header_path: ignored
+    xpath: "//section[@id='kits']//section[@id='sword-and-board']//section[@class='level8']"
+    file_dpath: 'Abilities/Kits/Sword and Board'
+    type: "kit-ability/sword-and-board"
+  - header_path: ignored
+    xpath: "//section[@id='kits']//section[@id='warrior-priest']//section[@class='level8']"
+    file_dpath: 'Abilities/Kits/Warrior Priest'
+    type: "kit-ability/warrior-priest"
+  - header_path: ignored
+    xpath: "//section[@id='kits']//section[@id='whirlwind']//section[@class='level8']"
+    file_dpath: 'Abilities/Kits/Whirlwind'
+    type: "kit-ability/whirlwind"
