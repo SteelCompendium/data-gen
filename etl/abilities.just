@@ -54,6 +54,11 @@ gen_index_for_each_dir_in dpath depth="0":
     echo >&2
 
     find "{{dpath}}"/* -maxdepth '{{depth}}' -type d | while read -r to_index; do
+        # Skipping kit dirs (Kits/Raider), but still indexing the Kit dir
+        if [[ "$to_index" == */Kits/* ]]; then
+            continue
+        fi
+
         index_fpath="${to_index}/Index.md"
         # Remove and prefix path, remove leading '/', replace intermediate '/' with ': '
         title="${to_index#{{dpath}}}"
