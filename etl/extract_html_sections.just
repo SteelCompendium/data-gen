@@ -19,7 +19,7 @@ extract_sections config_fpath html_fpath output_dpath skip_delete="true":
 
     # TODO - should this just automatically pull all metadata keys?  I think so
     # These will all get added to the output html as metadata
-    KEYS = ["file_dpath","xpath","header_path","type", "source", "item_id", "item_name", "feature_type", "chapter_num", "title"]
+    KEYS = ["file_dpath","xpath","header_path","type", "source", "item_id", "item_name", "feature_type", "chapter_num", "title", "include_parens_in_filename"]
 
     for s in cfg.get("sections", []):
         file_dpath = s.get("file_dpath") or ""
@@ -31,6 +31,7 @@ extract_sections config_fpath html_fpath output_dpath skip_delete="true":
         ability_dir = out_root / file_dpath
         ability_dir.mkdir(parents=True, exist_ok=True)
 
+        # write the metadata to a temp file to be loaded by the extractor
         meta = {k: s.get(k, "") for k in KEYS}
         with tempfile.NamedTemporaryFile("w", delete=False, suffix=".yml") as tmp:
             yaml.safe_dump(meta, tmp, sort_keys=False)
@@ -120,7 +121,11 @@ _extract_section xpath src_html_fpath out_dpath metadata_yml_fpath:
         header = item.xpath('.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::h7 or self::h8 or self::p]/text()')
         header = (header[0] if header else "item")
 
-        filename = re.sub(r'\s*\(.*\)', '', ' '.join(header.split()))
+        filename = ' '.join(header.split())
+        if meta.get("include_parens_in_filename", "false").lower() in ['true', 'True']:
+            filename = re.sub(r'\s*\((.*)\)', r" - \1", filename)
+        else:
+            filename = re.sub(r'\s*\(.*\)', '', filename)
         filename = re.sub(r"\'([a-z])", r"\1", filename)
         filename = slugify(filename, separator=" ", lowercase=False)
         fpath = os.path.join("{{out_dpath}}", filename) + ".html"

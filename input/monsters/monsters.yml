@@ -122,6 +122,7 @@ sections:
     xpath: "//section[@id='monsters']//section[@id='demons']//section[@class='level9']"
     file_dpath: 'Monsters/Demons/Features'
     type: 'monster/feature'
+    include_parens_in_filename: "true"
 
   - header_path: monsters/devils
     xpath: "//section[@id='monsters']//section[@id='devils']"
@@ -455,6 +456,7 @@ sections:
     xpath: "//section[@id='monsters']//section[@id='rivals']//section[@class='level9']"
     file_dpath: 'Monsters/Rivals/Features'
     type: 'monster/feature'
+    include_parens_in_filename: "true"
   - header_path: monsters/rivals
     xpath: "//section[@id='monsters']//section[@id='rivals']//section[@id='rivals-1st-echelon']//section[@class='level7']"
     file_dpath: 'Monsters/Rivals/1st Echelon/Statblocks'
@@ -515,6 +517,7 @@ sections:
     xpath: "//section[@id='monsters']//section[@id='undead-1']//section[@class='level9']"
     file_dpath: 'Monsters/Undead/Features'
     type: 'monster/feature'
+    include_parens_in_filename: "true"
 
   - header_path: monsters/count-rhodar-von-glauer
     xpath: "//section[@id='monsters']//section[@id='count-rhodar-von-glauer']"
@@ -587,6 +590,7 @@ sections:
     xpath: "//section[@id='monsters']//section[@id='war-dogs']//section[@class='level9']"
     file_dpath: 'Monsters/War Dogs/Features'
     type: 'monster/feature'
+    include_parens_in_filename: "true"
 
   - header_path: monsters/werewolf
     xpath: "//section[@id='monsters']//section[@id='werewolf']"
