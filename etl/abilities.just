@@ -67,7 +67,7 @@ gen_index_for_each_dir_in dpath depth="0":
         if [[ "$to_index" == */Kits ]]; then
             just index gen "$to_index" "$index_fpath" "file_name kit action_type distance target" "$title"
         else
-            just index gen "$to_index" "$index_fpath" "file_name cost level feature_type action_type distance target" "$title"
+            just index gen "$to_index" "$index_fpath" "file_name subclass cost level feature_type action_type distance target" "$title"
         fi
     done
 

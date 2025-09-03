@@ -1,0 +1,1121 @@
+{
+  "mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:explosive-assistance": {
+    "subclass": "Fire"
+  },
+  "mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:motivate-earth": {
+    "subclass": "Earth"
+  },
+  "mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:subtle-relocation": {
+    "subclass": "Void"
+  },
+  "mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:shared-void-sense": {
+    "subclass": "Void"
+  },
+  "mcdm.heroes.v1:feature.trait.elementalist.1st-level-feature:void-acolyte-of-the-mystery": {
+    "subclass": "Void"
+  },
+  "mcdm.heroes.v1:feature.trait.elementalist.1st-level-feature:fire-acolyte-of-fire": {
+    "subclass": "Fire"
+  },
+  "mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:skin-like-castle-walls": {
+    "subclass": "Earth"
+  },
+  "mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:breath-of-dawn-remembered": {
+    "subclass": "Green"
+  },
+  "mcdm.heroes.v1:feature.trait.elementalist.1st-level-feature:it-is-the-soul-which-hears": {
+    "subclass": "Green"
+  },
+  "mcdm.heroes.v1:feature.trait.elementalist.1st-level-feature:green-acolyte-of-the-green": {
+    "subclass": "Green"
+  },
+  "mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:return-to-formlessness": {
+    "subclass": "Fire"
+  },
+  "mcdm.heroes.v1:feature.trait.elementalist.1st-level-feature:earth-acolyte-of-earth": {
+    "subclass": "Earth"
+  },
+  "mcdm.heroes.v1:feature.trait.elementalist.8th-level-feature:chimeric-manifestation": {
+    "subclass": "Green"
+  },
+  "mcdm.heroes.v1:feature.trait.elementalist.8th-level-feature:black-hole-star": {
+    "subclass": "Void"
+  },
+  "mcdm.heroes.v1:feature.ability.elementalist.8th-level-feature:summon-source-of-earth": {
+    "subclass": "Earth"
+  },
+  "mcdm.heroes.v1:feature.trait.elementalist.8th-level-feature:the-flame-primordial": {
+    "subclass": "Fire"
+  },
+  "mcdm.heroes.v1:feature.trait.elementalist.10th-level-feature:master-of-green": {
+    "subclass": "Green"
+  },
+  "mcdm.heroes.v1:feature.trait.elementalist.10th-level-feature:master-of-fire": {
+    "subclass": "Fire"
+  },
+  "mcdm.heroes.v1:feature.trait.elementalist.10th-level-feature:master-of-earth": {
+    "subclass": "Earth"
+  },
+  "mcdm.heroes.v1:feature.trait.elementalist.10th-level-feature:master-of-void": {
+    "subclass": "Void"
+  },
+  "mcdm.heroes.v1:feature.trait.elementalist.5th-level-feature:pierce-the-veil-of-substance": {
+    "subclass": "Void"
+  },
+  "mcdm.heroes.v1:feature.trait.elementalist.5th-level-feature:the-mountain-does-not-move": {
+    "subclass": "Earth"
+  },
+  "mcdm.heroes.v1:feature.trait.elementalist.5th-level-feature:hide-of-tenfold-shields": {
+    "subclass": "Green"
+  },
+  "mcdm.heroes.v1:feature.trait.elementalist.5th-level-feature:smoldering-step": {
+    "subclass": "Fire"
+  },
+  "mcdm.heroes.v1:feature.trait.elementalist.2nd-level-feature:disciple-of-earth": {
+    "subclass": "Earth"
+  },
+  "mcdm.heroes.v1:feature.ability.elementalist.2nd-level-feature:there-is-no-space-between": {
+    "subclass": "Void"
+  },
+  "mcdm.heroes.v1:feature.trait.elementalist.2nd-level-feature:disciple-of-fire": {
+    "subclass": "Fire"
+  },
+  "mcdm.heroes.v1:feature.trait.elementalist.3rd-level-feature:distance-is-only-memory": {
+    "subclass": "Void"
+  },
+  "mcdm.heroes.v1:feature.ability.elementalist.3rd-level-feature:remember-growth-and-sun-and-rain": {
+    "subclass": "Green"
+  },
+  "mcdm.heroes.v1:feature.trait.elementalist.3rd-level-feature:a-conversation-with-fire": {
+    "subclass": "Fire"
+  },
+  "mcdm.heroes.v1:feature.ability.elementalist.3rd-level-feature:earth-accepts-me": {
+    "subclass": "Earth"
+  },
+  "mcdm.heroes.v1:feature.trait.elementalist.4th-level-feature:quaking-earth": {
+    "subclass": "Earth"
+  },
+  "mcdm.heroes.v1:feature.trait.elementalist.4th-level-feature:burning-grounds": {
+    "subclass": "Fire"
+  },
+  "mcdm.heroes.v1:feature.trait.elementalist.4th-level-feature:veiling-bed": {
+    "subclass": "Void"
+  },
+  "mcdm.heroes.v1:feature.trait.elementalist.4th-level-feature:flowering-bed": {
+    "subclass": "Green"
+  },
+  "mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:blessing-of-compassion": {
+    "subclass": "Love"
+  },
+  "mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:hands-of-the-maker": {
+    "subclass": "Creation"
+  },
+  "mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:blessing-of-fortunate-weather": {
+    "subclass": "Storm"
+  },
+  "mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:faithful-friend": {
+    "subclass": "Nature"
+  },
+  "mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:oracular-visions": {
+    "subclass": "Fate"
+  },
+  "mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:sanctified-weapon": {
+    "subclass": "War"
+  },
+  "mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:inspired-deception": {
+    "subclass": "Trickery"
+  },
+  "mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:inner-light": {
+    "subclass": "Sun"
+  },
+  "mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:protective-circle": {
+    "subclass": "Protection"
+  },
+  "mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:blessing-of-comprehension": {
+    "subclass": "Knowledge"
+  },
+  "mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:grave-speech": {
+    "subclass": "Death"
+  },
+  "mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:lightning-lord-9-piety": {
+    "subclass": "Storm"
+  },
+  "mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:invocation-of-mystery-9-piety": {
+    "subclass": "Trickery"
+  },
+  "mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:gods-machine-9-piety": {
+    "subclass": "Creation"
+  },
+  "mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:revitalizing-grace-9-piety": {
+    "subclass": "Life"
+  },
+  "mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:blade-of-the-heavens-9-piety": {
+    "subclass": "War"
+  },
+  "mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:aura-of-souls-9-piety": {
+    "subclass": "Death"
+  },
+  "mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:blessing-of-the-midday-sun-9-piety": {
+    "subclass": "Sun"
+  },
+  "mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:spirit-stampede-9-piety": {
+    "subclass": "Nature"
+  },
+  "mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:lauded-by-god-9-piety": {
+    "subclass": "Love"
+  },
+  "mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:your-story-ends-here-9-piety": {
+    "subclass": "Fate"
+  },
+  "mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:invocation-of-undoing-9-piety": {
+    "subclass": "Knowledge"
+  },
+  "mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:cuirass-of-the-gods-9-piety": {
+    "subclass": "Protection"
+  },
+  "mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:wellspring-of-grace-5-piety": {
+    "subclass": "Life"
+  },
+  "mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:divine-comedy-5-piety": {
+    "subclass": "Trickery"
+  },
+  "mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:blessing-of-insight-5-piety": {
+    "subclass": "War"
+  },
+  "mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:the-gods-command-you-obey-5-piety": {
+    "subclass": "Knowledge"
+  },
+  "mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:saints-tempest-5-piety": {
+    "subclass": "Storm"
+  },
+  "mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:reap-5-piety": {
+    "subclass": "Death"
+  },
+  "mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:statue-of-power-5-piety": {
+    "subclass": "Creation"
+  },
+  "mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:sacred-bond-5-piety": {
+    "subclass": "Protection"
+  },
+  "mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:morning-light-5-piety": {
+    "subclass": "Sun"
+  },
+  "mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:nature-judges-thee-5-piety": {
+    "subclass": "Nature"
+  },
+  "mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:our-hearts-your-strength-5-piety": {
+    "subclass": "Love"
+  },
+  "mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:blessing-of-fate-and-destiny-5-piety": {
+    "subclass": "Fate"
+  },
+  "mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:righteous-phalanx-11-piety": {
+    "subclass": "War"
+  },
+  "mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:word-of-weakening-11-piety": {
+    "subclass": "Knowledge"
+  },
+  "mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:divine-dragon-11-piety": {
+    "subclass": "Creation"
+  },
+  "mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:bend-fate-11-piety": {
+    "subclass": "Fate"
+  },
+  "mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:night-falls-11-piety": {
+    "subclass": "Trickery"
+  },
+  "mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:blessing-of-the-fortress-11-piety": {
+    "subclass": "Protection"
+  },
+  "mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:word-of-final-redemption-11-piety": {
+    "subclass": "Death"
+  },
+  "mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:radiance-of-grace-11-piety": {
+    "subclass": "Life"
+  },
+  "mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:solar-flare-11-piety": {
+    "subclass": "Sun"
+  },
+  "mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:godstorm-11-piety": {
+    "subclass": "Storm"
+  },
+  "mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:alacrity-of-the-heart-11-piety": {
+    "subclass": "Love"
+  },
+  "mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:thorn-cage-11-piety": {
+    "subclass": "Nature"
+  },
+  "mcdm.heroes.v1:feature.trait.conduit.7th-level-feature:your-triumphs-are-remembered": {
+    "subclass": "War"
+  },
+  "mcdm.heroes.v1:feature.trait.conduit.7th-level-feature:thunderstruck": {
+    "subclass": "Storm"
+  },
+  "mcdm.heroes.v1:feature.trait.conduit.7th-level-feature:word-of-fate-denied": {
+    "subclass": "Fate"
+  },
+  "mcdm.heroes.v1:feature.trait.conduit.7th-level-feature:blessing-of-iron": {
+    "subclass": "Protection"
+  },
+  "mcdm.heroes.v1:feature.trait.conduit.7th-level-feature:light-of-the-burning-sun": {
+    "subclass": "Sun"
+  },
+  "mcdm.heroes.v1:feature.ability.conduit.7th-level-feature:guided-to-your-side": {
+    "subclass": "Love"
+  },
+  "mcdm.heroes.v1:feature.trait.conduit.7th-level-feature:divine-quartermaster": {
+    "subclass": "Creation"
+  },
+  "mcdm.heroes.v1:feature.trait.conduit.4th-level-feature:oracular-warning": {
+    "subclass": "Fate"
+  },
+  "mcdm.heroes.v1:feature.trait.conduit.4th-level-feature:light-of-revelation": {
+    "subclass": "Sun"
+  },
+  "mcdm.heroes.v1:feature.trait.conduit.4th-level-feature:saints-epiphany": {
+    "subclass": "Knowledge"
+  },
+  "mcdm.heroes.v1:feature.trait.conduit.4th-level-feature:invocation-of-the-heart": {
+    "subclass": "Love"
+  },
+  "mcdm.heroes.v1:feature.trait.conduit.4th-level-feature:seance": {
+    "subclass": "Death"
+  },
+  "mcdm.heroes.v1:feature.trait.conduit.4th-level-feature:improved-sanctified-weapon": {
+    "subclass": "War"
+  },
+  "mcdm.heroes.v1:feature.trait.conduit.4th-level-feature:wode-road": {
+    "subclass": "Nature"
+  },
+  "mcdm.heroes.v1:feature.trait.conduit.4th-level-feature:improved-hands-of-the-maker": {
+    "subclass": "Creation"
+  },
+  "mcdm.heroes.v1:feature.trait.conduit.4th-level-feature:blessing-of-life": {
+    "subclass": "Life"
+  },
+  "mcdm.heroes.v1:feature.ability.conduit.4th-level-feature:blessing-of-secrets": {
+    "subclass": "Trickery"
+  },
+  "mcdm.heroes.v1:feature.trait.conduit.4th-level-feature:impervious-touch": {
+    "subclass": "Protection"
+  },
+  "mcdm.heroes.v1:feature.trait.conduit.4th-level-feature:windwalk": {
+    "subclass": "Storm"
+  },
+  "mcdm.heroes.v1:feature.trait.censor.1st-level-feature:blessing-of-compassion": {
+    "subclass": "Love"
+  },
+  "mcdm.heroes.v1:feature.ability.censor.1st-level-feature:hands-of-the-maker": {
+    "subclass": "Creation"
+  },
+  "mcdm.heroes.v1:feature.trait.censor.1st-level-feature:blessing-of-fortunate-weather": {
+    "subclass": "Storm"
+  },
+  "mcdm.heroes.v1:feature.ability.censor.1st-level-feature:faithful-friend": {
+    "subclass": "Nature"
+  },
+  "mcdm.heroes.v1:feature.trait.censor.1st-level-feature:oracular-visions": {
+    "subclass": "Fate"
+  },
+  "mcdm.heroes.v1:feature.trait.censor.1st-level-feature:sanctified-weapon": {
+    "subclass": "War"
+  },
+  "mcdm.heroes.v1:feature.trait.censor.1st-level-feature:inspired-deception": {
+    "subclass": "Trickery"
+  },
+  "mcdm.heroes.v1:feature.trait.censor.1st-level-feature:inner-light": {
+    "subclass": "Sun"
+  },
+  "mcdm.heroes.v1:feature.trait.censor.1st-level-feature:protective-circle": {
+    "subclass": "Protection"
+  },
+  "mcdm.heroes.v1:feature.trait.censor.1st-level-feature:blessing-of-comprehension": {
+    "subclass": "Knowledge"
+  },
+  "mcdm.heroes.v1:feature.ability.censor.1st-level-feature:grave-speech": {
+    "subclass": "Death"
+  },
+  "mcdm.heroes.v1:feature.trait.censor.8th-level-feature:demonologist": {
+    "subclass": "Exorcist"
+  },
+  "mcdm.heroes.v1:feature.trait.censor.8th-level-feature:their-past-revealed": {
+    "subclass": "Oracle"
+  },
+  "mcdm.heroes.v1:feature.trait.censor.8th-level-feature:vow": {
+    "subclass": "Paragon"
+  },
+  "mcdm.heroes.v1:feature.ability.censor.6th-level-feature:burden-of-evil-9-wrath": {
+    "subclass": "Oracle"
+  },
+  "mcdm.heroes.v1:feature.ability.censor.6th-level-feature:pain-of-your-own-making-9-wrath": {
+    "subclass": "Exorcist"
+  },
+  "mcdm.heroes.v1:feature.ability.censor.6th-level-feature:intercede-9-wrath": {
+    "subclass": "Paragon"
+  },
+  "mcdm.heroes.v1:feature.ability.censor.6th-level-feature:begone-9-wrath": {
+    "subclass": "Exorcist"
+  },
+  "mcdm.heroes.v1:feature.ability.censor.6th-level-feature:congregation-9-wrath": {
+    "subclass": "Paragon"
+  },
+  "mcdm.heroes.v1:feature.ability.censor.6th-level-feature:edict-of-peace-9-wrath": {
+    "subclass": "Oracle"
+  },
+  "mcdm.heroes.v1:feature.trait.censor.5th-level-feature:evil-revealed": {
+    "subclass": "Exorcist"
+  },
+  "mcdm.heroes.v1:feature.trait.censor.5th-level-feature:stand-fast": {
+    "subclass": "Paragon"
+  },
+  "mcdm.heroes.v1:feature.trait.censor.5th-level-feature:prophecy": {
+    "subclass": "Oracle"
+  },
+  "mcdm.heroes.v1:feature.ability.censor.2nd-level-feature:sentenced-5-wrath": {
+    "subclass": "Paragon"
+  },
+  "mcdm.heroes.v1:feature.ability.censor.2nd-level-feature:revelator-5-wrath": {
+    "subclass": "Exorcist"
+  },
+  "mcdm.heroes.v1:feature.trait.censor.2nd-level-feature:a-sense-for-truth": {
+    "subclass": "Exorcist"
+  },
+  "mcdm.heroes.v1:feature.ability.censor.2nd-level-feature:with-my-blessing-5-wrath": {
+    "subclass": "Oracle"
+  },
+  "mcdm.heroes.v1:feature.ability.censor.2nd-level-feature:prescient-grace-5-wrath": {
+    "subclass": "Oracle"
+  },
+  "mcdm.heroes.v1:feature.trait.censor.2nd-level-feature:it-was-foretold": {
+    "subclass": "Oracle"
+  },
+  "mcdm.heroes.v1:feature.trait.censor.2nd-level-feature:saints-vigilance": {
+    "subclass": "Exorcist"
+  },
+  "mcdm.heroes.v1:feature.trait.censor.2nd-level-feature:stalwart-icon": {
+    "subclass": "Paragon"
+  },
+  "mcdm.heroes.v1:feature.trait.censor.2nd-level-feature:judge-of-character": {
+    "subclass": "Oracle"
+  },
+  "mcdm.heroes.v1:feature.ability.censor.2nd-level-feature:blessing-of-the-faithful-5-wrath": {
+    "subclass": "Paragon"
+  },
+  "mcdm.heroes.v1:feature.trait.censor.2nd-level-feature:lead-by-example": {
+    "subclass": "Paragon"
+  },
+  "mcdm.heroes.v1:feature.ability.censor.2nd-level-feature:it-is-justice-you-fear-5-wrath": {
+    "subclass": "Exorcist"
+  },
+  "mcdm.heroes.v1:feature.ability.censor.9th-level-feature:blessing-and-a-curse-11-wrath": {
+    "subclass": "Oracle"
+  },
+  "mcdm.heroes.v1:feature.ability.censor.9th-level-feature:fulfill-your-destiny-11-wrath": {
+    "subclass": "Oracle"
+  },
+  "mcdm.heroes.v1:feature.ability.censor.9th-level-feature:banish-11-wrath": {
+    "subclass": "Exorcist"
+  },
+  "mcdm.heroes.v1:feature.ability.censor.9th-level-feature:terror-manifest-11-wrath": {
+    "subclass": "Exorcist"
+  },
+  "mcdm.heroes.v1:feature.ability.censor.9th-level-feature:apostate-11-wrath": {
+    "subclass": "Paragon"
+  },
+  "mcdm.heroes.v1:feature.ability.censor.9th-level-feature:edict-of-unyielding-resolve-11-wrath": {
+    "subclass": "Paragon"
+  },
+  "mcdm.heroes.v1:feature.trait.censor.7th-level-feature:gods-library": {
+    "subclass": "Knowledge"
+  },
+  "mcdm.heroes.v1:feature.trait.censor.7th-level-feature:font-of-grace": {
+    "subclass": "Life"
+  },
+  "mcdm.heroes.v1:feature.ability.censor.7th-level-feature:trinity-of-trickery-9-wrath": {
+    "subclass": "Trickery"
+  },
+  "mcdm.heroes.v1:feature.trait.censor.7th-level-feature:natures-bounty": {
+    "subclass": "Nature"
+  },
+  "mcdm.heroes.v1:feature.ability.censor.7th-level-feature:guided-to-your-side": {
+    "subclass": "Love"
+  },
+  "mcdm.heroes.v1:feature.trait.censor.7th-level-feature:word-of-death-deferred": {
+    "subclass": "Death"
+  },
+  "mcdm.heroes.v1:feature.trait.censor.4th-level-feature:oracular-warning": {
+    "subclass": "Fate"
+  },
+  "mcdm.heroes.v1:feature.trait.censor.4th-level-feature:light-of-revelation": {
+    "subclass": "Sun"
+  },
+  "mcdm.heroes.v1:feature.trait.censor.4th-level-feature:saints-epiphany": {
+    "subclass": "Knowledge"
+  },
+  "mcdm.heroes.v1:feature.trait.censor.4th-level-feature:invocation-of-the-heart": {
+    "subclass": "Love"
+  },
+  "mcdm.heroes.v1:feature.trait.censor.4th-level-feature:seance": {
+    "subclass": "Death"
+  },
+  "mcdm.heroes.v1:feature.trait.censor.4th-level-feature:improved-sanctified-weapon": {
+    "subclass": "War"
+  },
+  "mcdm.heroes.v1:feature.trait.censor.4th-level-feature:wode-road": {
+    "subclass": "Nature"
+  },
+  "mcdm.heroes.v1:feature.trait.censor.4th-level-feature:improved-hands-of-the-maker": {
+    "subclass": "Creation"
+  },
+  "mcdm.heroes.v1:feature.trait.censor.4th-level-feature:blessing-of-life": {
+    "subclass": "Life"
+  },
+  "mcdm.heroes.v1:feature.ability.censor.4th-level-feature:blessing-of-secrets": {
+    "subclass": "Trickery"
+  },
+  "mcdm.heroes.v1:feature.trait.censor.4th-level-feature:impervious-touch": {
+    "subclass": "Protection"
+  },
+  "mcdm.heroes.v1:feature.trait.censor.4th-level-feature:windwalk": {
+    "subclass": "Storm"
+  },
+  "mcdm.heroes.v1:feature.trait.null.8th-level-feature:synaptic-triage": {
+    "subclass": "Cryokinetic"
+  },
+  "mcdm.heroes.v1:feature.trait.null.8th-level-feature:shared-momentum": {
+    "subclass": "Chronokinetic"
+  },
+  "mcdm.heroes.v1:feature.trait.null.8th-level-feature:inertial-dampener": {
+    "subclass": "Metakinetic"
+  },
+  "mcdm.heroes.v1:feature.ability.null.6th-level-feature:iron-body-9-discipline": {
+    "subclass": "Metakinetic"
+  },
+  "mcdm.heroes.v1:feature.ability.null.6th-level-feature:phase-step-9-discipline": {
+    "subclass": "Chronokinetic"
+  },
+  "mcdm.heroes.v1:feature.ability.null.6th-level-feature:wall-of-ice-9-discipline": {
+    "subclass": "Cryokinetic"
+  },
+  "mcdm.heroes.v1:feature.ability.null.6th-level-feature:gravitic-charge-9-discipline": {
+    "subclass": "Metakinetic"
+  },
+  "mcdm.heroes.v1:feature.ability.null.6th-level-feature:ice-pillars-9-discipline": {
+    "subclass": "Cryokinetic"
+  },
+  "mcdm.heroes.v1:feature.ability.null.6th-level-feature:interphase-9-discipline": {
+    "subclass": "Chronokinetic"
+  },
+  "mcdm.heroes.v1:feature.trait.null.5th-level-feature:instant-action": {
+    "subclass": "Chronokinetic"
+  },
+  "mcdm.heroes.v1:feature.trait.null.5th-level-feature:chilling-readiness": {
+    "subclass": "Cryokinetic"
+  },
+  "mcdm.heroes.v1:feature.trait.null.5th-level-feature:inertial-fulcrum": {
+    "subclass": "Metakinetic"
+  },
+  "mcdm.heroes.v1:feature.ability.null.2nd-level-feature:blur-5-discipline": {
+    "subclass": "Chronokinetic"
+  },
+  "mcdm.heroes.v1:feature.ability.null.2nd-level-feature:kinetic-shield-5-discipline": {
+    "subclass": "Metakinetic"
+  },
+  "mcdm.heroes.v1:feature.trait.null.2nd-level-feature:inertial-sink": {
+    "subclass": "Metakinetic"
+  },
+  "mcdm.heroes.v1:feature.ability.null.2nd-level-feature:force-redirected-5-discipline": {
+    "subclass": "Chronokinetic"
+  },
+  "mcdm.heroes.v1:feature.trait.null.2nd-level-feature:entropic-adaptability": {
+    "subclass": "Cryokinetic"
+  },
+  "mcdm.heroes.v1:feature.ability.null.2nd-level-feature:heat-sink-5-discipline": {
+    "subclass": "Cryokinetic"
+  },
+  "mcdm.heroes.v1:feature.trait.null.2nd-level-feature:rapid-processing": {
+    "subclass": "Chronokinetic"
+  },
+  "mcdm.heroes.v1:feature.ability.null.2nd-level-feature:entropic-field-5-discipline": {
+    "subclass": "Cryokinetic"
+  },
+  "mcdm.heroes.v1:feature.ability.null.2nd-level-feature:gravitic-strike-5-discipline": {
+    "subclass": "Metakinetic"
+  },
+  "mcdm.heroes.v1:feature.ability.null.9th-level-feature:time-loop-11-discipline": {
+    "subclass": "Chronokinetic"
+  },
+  "mcdm.heroes.v1:feature.ability.null.9th-level-feature:realitas-11-discipline": {
+    "subclass": "Metakinetic"
+  },
+  "mcdm.heroes.v1:feature.ability.null.9th-level-feature:absolute-zero-11-discipline": {
+    "subclass": "Cryokinetic"
+  },
+  "mcdm.heroes.v1:feature.ability.null.9th-level-feature:inertial-absorption-11-discipline": {
+    "subclass": "Metakinetic"
+  },
+  "mcdm.heroes.v1:feature.ability.null.9th-level-feature:arrestor-cycle-11-discipline": {
+    "subclass": "Chronokinetic"
+  },
+  "mcdm.heroes.v1:feature.ability.null.9th-level-feature:heat-drain-11-discipline": {
+    "subclass": "Cryokinetic"
+  },
+  "mcdm.heroes.v1:feature.trait.fury.1st-level-feature:beast-shape": {
+    "subclass": "Stormwight"
+  },
+  "mcdm.heroes.v1:feature.trait.fury.1st-level-feature:primordial-cunning": {
+    "subclass": "Reaver"
+  },
+  "mcdm.heroes.v1:feature.ability.fury.1st-level-feature:lines-of-force": {
+    "subclass": "Berserker"
+  },
+  "mcdm.heroes.v1:feature.ability.fury.1st-level-feature:furious-change": {
+    "subclass": "Stormwight"
+  },
+  "mcdm.heroes.v1:feature.trait.fury.1st-level-feature:primordial-strength": {
+    "subclass": "Berserker"
+  },
+  "mcdm.heroes.v1:feature.ability.fury.1st-level-feature:unearthly-reflexes": {
+    "subclass": "Reaver"
+  },
+  "mcdm.heroes.v1:feature.trait.fury.1st-level-feature:relentless-hunter": {
+    "subclass": "Stormwight"
+  },
+  "mcdm.heroes.v1:feature.trait.fury.8th-level-feature:strongest-there-is": {
+    "subclass": "Berserker"
+  },
+  "mcdm.heroes.v1:feature.trait.fury.8th-level-feature:menagerie": {
+    "subclass": "Stormwight"
+  },
+  "mcdm.heroes.v1:feature.trait.fury.8th-level-feature:a-step-ahead": {
+    "subclass": "Reaver"
+  },
+  "mcdm.heroes.v1:feature.ability.fury.6th-level-feature:riders-on-the-storm-9-ferocity": {
+    "subclass": "Stormwight"
+  },
+  "mcdm.heroes.v1:feature.ability.fury.6th-level-feature:seek-and-destroy-9-ferocity": {
+    "subclass": "Reaver"
+  },
+  "mcdm.heroes.v1:feature.ability.fury.6th-level-feature:death-strike-9-ferocity": {
+    "subclass": "Reaver"
+  },
+  "mcdm.heroes.v1:feature.ability.fury.6th-level-feature:pounce-9-ferocity": {
+    "subclass": "Stormwight"
+  },
+  "mcdm.heroes.v1:feature.trait.fury.6th-level-feature:marauder-of-the-primordial-chaos": {
+    "subclass": "Stormwight"
+  },
+  "mcdm.heroes.v1:feature.ability.fury.6th-level-feature:avalanche-impact-9-ferocity": {
+    "subclass": "Berserker"
+  },
+  "mcdm.heroes.v1:feature.ability.fury.6th-level-feature:force-of-storms-9-ferocity": {
+    "subclass": "Berserker"
+  },
+  "mcdm.heroes.v1:feature.trait.fury.5th-level-feature:unfettered": {
+    "subclass": "Reaver"
+  },
+  "mcdm.heroes.v1:feature.trait.fury.5th-level-feature:stormborn": {
+    "subclass": "Stormwight"
+  },
+  "mcdm.heroes.v1:feature.trait.fury.5th-level-feature:bounder": {
+    "subclass": "Berserker"
+  },
+  "mcdm.heroes.v1:feature.trait.fury.2nd-level-feature:tooth-and-claw": {
+    "subclass": "Stormwight"
+  },
+  "mcdm.heroes.v1:feature.trait.fury.2nd-level-feature:inescapable-wrath": {
+    "subclass": "Reaver"
+  },
+  "mcdm.heroes.v1:feature.trait.fury.2nd-level-feature:unstoppable-force": {
+    "subclass": "Berserker"
+  },
+  "mcdm.heroes.v1:feature.trait.fury.3rd-level-feature:natures-knight": {
+    "subclass": "Stormwight"
+  },
+  "mcdm.heroes.v1:feature.trait.fury.3rd-level-feature:immovable-object": {
+    "subclass": "Berserker"
+  },
+  "mcdm.heroes.v1:feature.trait.fury.3rd-level-feature:see-through-their-tricks": {
+    "subclass": "Reaver"
+  },
+  "mcdm.heroes.v1:feature.ability.fury.9th-level-feature:shower-of-blood-11-ferocity": {
+    "subclass": "Reaver"
+  },
+  "mcdm.heroes.v1:feature.ability.fury.9th-level-feature:primordial-bane-11-ferocity": {
+    "subclass": "Reaver"
+  },
+  "mcdm.heroes.v1:feature.ability.fury.9th-level-feature:primordial-vortex-11-ferocity": {
+    "subclass": "Berserker"
+  },
+  "mcdm.heroes.v1:feature.ability.fury.9th-level-feature:death-rattle-11-ferocity": {
+    "subclass": "Stormwight"
+  },
+  "mcdm.heroes.v1:feature.ability.fury.9th-level-feature:death-comes-for-you-all-11-ferocity": {
+    "subclass": "Berserker"
+  },
+  "mcdm.heroes.v1:feature.ability.fury.9th-level-feature:deluge-11-ferocity": {
+    "subclass": "Stormwight"
+  },
+  "mcdm.heroes.v1:feature.ability.tactician.1st-level-feature:overwatch": {
+    "subclass": "Mastermind"
+  },
+  "mcdm.heroes.v1:feature.trait.tactician.1st-level-feature:covert-operations": {
+    "subclass": "Insurgent"
+  },
+  "mcdm.heroes.v1:feature.trait.tactician.1st-level-feature:commanding-presence": {
+    "subclass": "Vanguard"
+  },
+  "mcdm.heroes.v1:feature.ability.tactician.1st-level-feature:parry": {
+    "subclass": "Vanguard"
+  },
+  "mcdm.heroes.v1:feature.trait.tactician.1st-level-feature:studied-commander": {
+    "subclass": "Mastermind"
+  },
+  "mcdm.heroes.v1:feature.ability.tactician.1st-level-feature:advanced-tactics": {
+    "subclass": "Insurgent"
+  },
+  "mcdm.heroes.v1:feature.trait.tactician.8th-level-feature:bait-and-ambush": {
+    "subclass": "Insurgent"
+  },
+  "mcdm.heroes.v1:feature.trait.tactician.8th-level-feature:pincer-movement": {
+    "subclass": "Mastermind"
+  },
+  "mcdm.heroes.v1:feature.trait.tactician.8th-level-feature:see-your-enemies-driven-before-you": {
+    "subclass": "Vanguard"
+  },
+  "mcdm.heroes.v1:feature.ability.tactician.6th-level-feature:hustle-9-focus": {
+    "subclass": "Mastermind"
+  },
+  "mcdm.heroes.v1:feature.ability.tactician.6th-level-feature:battle-plan-9-focus": {
+    "subclass": "Mastermind"
+  },
+  "mcdm.heroes.v1:feature.ability.tactician.6th-level-feature:to-me-squad-9-focus": {
+    "subclass": "Vanguard"
+  },
+  "mcdm.heroes.v1:feature.ability.tactician.6th-level-feature:coordinated-execution-9-focus": {
+    "subclass": "Insurgent"
+  },
+  "mcdm.heroes.v1:feature.ability.tactician.6th-level-feature:panic-in-their-lines-9-focus": {
+    "subclass": "Insurgent"
+  },
+  "mcdm.heroes.v1:feature.ability.tactician.6th-level-feature:instant-retaliation-9-focus": {
+    "subclass": "Vanguard"
+  },
+  "mcdm.heroes.v1:feature.trait.tactician.5th-level-feature:anticipation": {
+    "subclass": "Mastermind"
+  },
+  "mcdm.heroes.v1:feature.trait.tactician.5th-level-feature:distracted": {
+    "subclass": "Insurgent"
+  },
+  "mcdm.heroes.v1:feature.trait.tactician.5th-level-feature:tactical-offensive": {
+    "subclass": "Vanguard"
+  },
+  "mcdm.heroes.v1:feature.trait.tactician.5th-level-feature:i-predicted-that": {
+    "subclass": "Mastermind"
+  },
+  "mcdm.heroes.v1:feature.trait.tactician.5th-level-feature:shake-it-off": {
+    "subclass": "Vanguard"
+  },
+  "mcdm.heroes.v1:feature.trait.tactician.5th-level-feature:leave-no-trace": {
+    "subclass": "Insurgent"
+  },
+  "mcdm.heroes.v1:feature.ability.tactician.2nd-level-feature:targets-of-opportunity-5-focus": {
+    "subclass": "Mastermind"
+  },
+  "mcdm.heroes.v1:feature.trait.tactician.2nd-level-feature:infiltration-tactics": {
+    "subclass": "Insurgent"
+  },
+  "mcdm.heroes.v1:feature.trait.tactician.2nd-level-feature:melee-superiority": {
+    "subclass": "Vanguard"
+  },
+  "mcdm.heroes.v1:feature.ability.tactician.2nd-level-feature:no-dying-on-my-watch-5-focus": {
+    "subclass": "Vanguard"
+  },
+  "mcdm.heroes.v1:feature.ability.tactician.2nd-level-feature:squad-on-me-5-focus": {
+    "subclass": "Vanguard"
+  },
+  "mcdm.heroes.v1:feature.ability.tactician.2nd-level-feature:try-me-instead-5-focus": {
+    "subclass": "Insurgent"
+  },
+  "mcdm.heroes.v1:feature.ability.tactician.2nd-level-feature:fog-of-war-5-focus": {
+    "subclass": "Insurgent"
+  },
+  "mcdm.heroes.v1:feature.ability.tactician.2nd-level-feature:ive-got-your-back-5-focus": {
+    "subclass": "Mastermind"
+  },
+  "mcdm.heroes.v1:feature.trait.tactician.2nd-level-feature:goaded": {
+    "subclass": "Mastermind"
+  },
+  "mcdm.heroes.v1:feature.ability.tactician.9th-level-feature:their-lack-of-focus-is-their-undoing-11-focus": {
+    "subclass": "Insurgent"
+  },
+  "mcdm.heroes.v1:feature.ability.tactician.9th-level-feature:that-one-is-mine-11-focus": {
+    "subclass": "Vanguard"
+  },
+  "mcdm.heroes.v1:feature.ability.tactician.9th-level-feature:squad-hit-and-run-11-focus": {
+    "subclass": "Insurgent"
+  },
+  "mcdm.heroes.v1:feature.ability.tactician.9th-level-feature:blot-out-the-sun-11-focus": {
+    "subclass": "Mastermind"
+  },
+  "mcdm.heroes.v1:feature.ability.tactician.9th-level-feature:counterstrategy-11-focus": {
+    "subclass": "Mastermind"
+  },
+  "mcdm.heroes.v1:feature.ability.tactician.9th-level-feature:no-escape-11-focus": {
+    "subclass": "Vanguard"
+  },
+  "mcdm.heroes.v1:feature.trait.tactician.7th-level-feature:asymmetric-warfare": {
+    "subclass": "Insurgent"
+  },
+  "mcdm.heroes.v1:feature.trait.tactician.7th-level-feature:grand-strategy": {
+    "subclass": "Mastermind"
+  },
+  "mcdm.heroes.v1:feature.trait.tactician.7th-level-feature:shock-and-awe": {
+    "subclass": "Vanguard"
+  },
+  "mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:acrobatics": {
+    "subclass": "Duelist"
+  },
+  "mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:star-power-1-drama": {
+    "subclass": "Duelist"
+  },
+  "mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:riposte": {
+    "subclass": "Duelist"
+  },
+  "mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:power-chord": {
+    "subclass": "Virtuoso"
+  },
+  "mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:harmonize-3-drama": {
+    "subclass": "Virtuoso"
+  },
+  "mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:turnabout-is-fair-play": {
+    "subclass": "Auteur"
+  },
+  "mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:dramatic-monologue": {
+    "subclass": "Auteur"
+  },
+  "mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:blocking": {
+    "subclass": "Auteur"
+  },
+  "mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:ballad-of-the-beast": {
+    "subclass": "Virtuoso"
+  },
+  "mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:thunder-mother": {
+    "subclass": "Virtuoso"
+  },
+  "mcdm.heroes.v1:feature.trait.troubadour.8th-level-feature:deleted-scene": {
+    "subclass": "Auteur"
+  },
+  "mcdm.heroes.v1:feature.trait.troubadour.8th-level-feature:masterwork": {
+    "subclass": "Duelist"
+  },
+  "mcdm.heroes.v1:feature.ability.troubadour.8th-level-feature:radical-fantasia": {
+    "subclass": "Virtuoso"
+  },
+  "mcdm.heroes.v1:feature.ability.troubadour.8th-level-feature:moonlight-sonata": {
+    "subclass": "Virtuoso"
+  },
+  "mcdm.heroes.v1:feature.ability.troubadour.6th-level-feature:legendary-drum-fill-9-drama": {
+    "subclass": "Virtuoso"
+  },
+  "mcdm.heroes.v1:feature.ability.troubadour.6th-level-feature:heres-how-your-story-ends-9-drama": {
+    "subclass": "Auteur"
+  },
+  "mcdm.heroes.v1:feature.ability.troubadour.6th-level-feature:feedback-9-drama": {
+    "subclass": "Virtuoso"
+  },
+  "mcdm.heroes.v1:feature.ability.troubadour.6th-level-feature:youre-all-my-understudies-9-drama": {
+    "subclass": "Auteur"
+  },
+  "mcdm.heroes.v1:feature.ability.troubadour.6th-level-feature:fight-choreography-9-drama": {
+    "subclass": "Duelist"
+  },
+  "mcdm.heroes.v1:feature.ability.troubadour.6th-level-feature:blood-on-the-stage-9-drama": {
+    "subclass": "Duelist"
+  },
+  "mcdm.heroes.v1:feature.ability.troubadour.5th-level-feature:we-cant-be-upstaged": {
+    "subclass": "Duelist"
+  },
+  "mcdm.heroes.v1:feature.ability.troubadour.5th-level-feature:take-two": {
+    "subclass": "Auteur"
+  },
+  "mcdm.heroes.v1:feature.trait.troubadour.5th-level-feature:fix-it-in-post": {
+    "subclass": "Auteur"
+  },
+  "mcdm.heroes.v1:feature.trait.troubadour.5th-level-feature:medley": {
+    "subclass": "Virtuoso"
+  },
+  "mcdm.heroes.v1:feature.trait.troubadour.5th-level-feature:bolstering-banter": {
+    "subclass": "Virtuoso"
+  },
+  "mcdm.heroes.v1:feature.trait.troubadour.5th-level-feature:verbal-duel": {
+    "subclass": "Duelist"
+  },
+  "mcdm.heroes.v1:feature.ability.troubadour.2nd-level-feature:tough-crowd-5-drama": {
+    "subclass": "Virtuoso"
+  },
+  "mcdm.heroes.v1:feature.ability.troubadour.2nd-level-feature:twist-at-the-end-5-drama": {
+    "subclass": "Auteur"
+  },
+  "mcdm.heroes.v1:feature.ability.troubadour.2nd-level-feature:encore-5-drama": {
+    "subclass": "Virtuoso"
+  },
+  "mcdm.heroes.v1:feature.ability.troubadour.2nd-level-feature:en-garde-5-drama": {
+    "subclass": "Duelist"
+  },
+  "mcdm.heroes.v1:feature.ability.troubadour.2nd-level-feature:guest-star-5-drama": {
+    "subclass": "Auteur"
+  },
+  "mcdm.heroes.v1:feature.ability.troubadour.2nd-level-feature:classic-chandelier-stunt-5-drama": {
+    "subclass": "Duelist"
+  },
+  "mcdm.heroes.v1:feature.trait.troubadour.3rd-level-feature:foil": {
+    "subclass": "Duelist"
+  },
+  "mcdm.heroes.v1:feature.trait.troubadour.3rd-level-feature:missed-cue": {
+    "subclass": "Auteur"
+  },
+  "mcdm.heroes.v1:feature.ability.troubadour.3rd-level-feature:never-ending-hero": {
+    "subclass": "Virtuoso"
+  },
+  "mcdm.heroes.v1:feature.ability.troubadour.3rd-level-feature:fire-up-the-night": {
+    "subclass": "Virtuoso"
+  },
+  "mcdm.heroes.v1:feature.ability.troubadour.9th-level-feature:renegotiated-contract-11-drama": {
+    "subclass": "Duelist"
+  },
+  "mcdm.heroes.v1:feature.ability.troubadour.9th-level-feature:rising-tension-11-drama": {
+    "subclass": "Auteur"
+  },
+  "mcdm.heroes.v1:feature.ability.troubadour.9th-level-feature:epic-11-drama": {
+    "subclass": "Auteur"
+  },
+  "mcdm.heroes.v1:feature.ability.troubadour.9th-level-feature:melt-their-faces-11-drama": {
+    "subclass": "Virtuoso"
+  },
+  "mcdm.heroes.v1:feature.ability.troubadour.9th-level-feature:jam-session-11-drama": {
+    "subclass": "Virtuoso"
+  },
+  "mcdm.heroes.v1:feature.ability.troubadour.9th-level-feature:expert-fencer-11-drama": {
+    "subclass": "Duelist"
+  },
+  "mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:im-no-threat": {
+    "subclass": "Harlequin Mask"
+  },
+  "mcdm.heroes.v1:feature.trait.shadow.1st-level-feature:smoke-bomb": {
+    "subclass": "Caustic Alchemy"
+  },
+  "mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:clever-trick-1-insight": {
+    "subclass": "Harlequin Mask"
+  },
+  "mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:defensive-roll": {
+    "subclass": "Caustic Alchemy"
+  },
+  "mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:in-all-this-confusion": {
+    "subclass": "Black Ash"
+  },
+  "mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:coat-the-blade": {
+    "subclass": "Caustic Alchemy"
+  },
+  "mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:black-ash-teleport": {
+    "subclass": "Black Ash"
+  },
+  "mcdm.heroes.v1:feature.trait.shadow.8th-level-feature:cinder-step": {
+    "subclass": "Black Ash"
+  },
+  "mcdm.heroes.v1:feature.trait.shadow.8th-level-feature:parkour": {
+    "subclass": "Harlequin Mask"
+  },
+  "mcdm.heroes.v1:feature.ability.shadow.8th-level-feature:time-bomb": {
+    "subclass": "Caustic Alchemy"
+  },
+  "mcdm.heroes.v1:feature.ability.shadow.6th-level-feature:look-9-insight": {
+    "subclass": "Harlequin Mask"
+  },
+  "mcdm.heroes.v1:feature.ability.shadow.6th-level-feature:one-vial-makes-you-better-9-insight": {
+    "subclass": "Caustic Alchemy"
+  },
+  "mcdm.heroes.v1:feature.ability.shadow.6th-level-feature:puppet-strings-9-insight": {
+    "subclass": "Harlequin Mask"
+  },
+  "mcdm.heroes.v1:feature.ability.shadow.6th-level-feature:black-ash-eruption-9-insight": {
+    "subclass": "Black Ash"
+  },
+  "mcdm.heroes.v1:feature.ability.shadow.6th-level-feature:cinderstorm-9-insight": {
+    "subclass": "Black Ash"
+  },
+  "mcdm.heroes.v1:feature.ability.shadow.6th-level-feature:one-vial-makes-you-faster-9-insight": {
+    "subclass": "Caustic Alchemy"
+  },
+  "mcdm.heroes.v1:feature.trait.shadow.5th-level-feature:volatile-reagents": {
+    "subclass": "Caustic Alchemy"
+  },
+  "mcdm.heroes.v1:feature.trait.shadow.5th-level-feature:harlequin-gambit": {
+    "subclass": "Harlequin Mask"
+  },
+  "mcdm.heroes.v1:feature.trait.shadow.5th-level-feature:trail-of-cinders": {
+    "subclass": "Black Ash"
+  },
+  "mcdm.heroes.v1:feature.trait.shadow.2nd-level-feature:burning-ash": {
+    "subclass": "Black Ash"
+  },
+  "mcdm.heroes.v1:feature.ability.shadow.2nd-level-feature:stink-bomb-5-insight": {
+    "subclass": "Caustic Alchemy"
+  },
+  "mcdm.heroes.v1:feature.ability.shadow.2nd-level-feature:sticky-bomb-5-insight": {
+    "subclass": "Caustic Alchemy"
+  },
+  "mcdm.heroes.v1:feature.ability.shadow.2nd-level-feature:in-a-puff-of-ash-5-insight": {
+    "subclass": "Black Ash"
+  },
+  "mcdm.heroes.v1:feature.ability.shadow.2nd-level-feature:too-slow-5-insight": {
+    "subclass": "Black Ash"
+  },
+  "mcdm.heroes.v1:feature.trait.shadow.2nd-level-feature:friend": {
+    "subclass": "Harlequin Mask"
+  },
+  "mcdm.heroes.v1:feature.ability.shadow.2nd-level-feature:so-gullible-5-insight": {
+    "subclass": "Harlequin Mask"
+  },
+  "mcdm.heroes.v1:feature.ability.shadow.2nd-level-feature:machinations-of-sound-5-insight": {
+    "subclass": "Harlequin Mask"
+  },
+  "mcdm.heroes.v1:feature.trait.shadow.2nd-level-feature:trained-assassin": {
+    "subclass": "Caustic Alchemy"
+  },
+  "mcdm.heroes.v1:feature.ability.shadow.9th-level-feature:demon-door-11-insight": {
+    "subclass": "Black Ash"
+  },
+  "mcdm.heroes.v1:feature.ability.shadow.9th-level-feature:to-the-stars-11-insight": {
+    "subclass": "Caustic Alchemy"
+  },
+  "mcdm.heroes.v1:feature.ability.shadow.9th-level-feature:i-am-you-11-insight": {
+    "subclass": "Harlequin Mask"
+  },
+  "mcdm.heroes.v1:feature.ability.shadow.9th-level-feature:chain-reaction-11-insight": {
+    "subclass": "Caustic Alchemy"
+  },
+  "mcdm.heroes.v1:feature.ability.shadow.9th-level-feature:it-was-me-all-along-11-insight": {
+    "subclass": "Harlequin Mask"
+  },
+  "mcdm.heroes.v1:feature.ability.shadow.9th-level-feature:cacophony-of-cinders-11-insight": {
+    "subclass": "Black Ash"
+  },
+  "mcdm.heroes.v1:feature.ability.talent.1st-level-feature:remote-assistance": {
+    "subclass": "Telepathy"
+  },
+  "mcdm.heroes.v1:feature.ability.talent.1st-level-feature:feedback-loop": {
+    "subclass": "Telepathy"
+  },
+  "mcdm.heroes.v1:feature.ability.talent.1st-level-feature:minor-telekinesis": {
+    "subclass": "Telekinesis"
+  },
+  "mcdm.heroes.v1:feature.ability.talent.1st-level-feature:again": {
+    "subclass": "Chronopathy"
+  },
+  "mcdm.heroes.v1:feature.ability.talent.1st-level-feature:accelerate": {
+    "subclass": "Chronopathy"
+  },
+  "mcdm.heroes.v1:feature.ability.talent.1st-level-feature:repel": {
+    "subclass": "Telekinesis"
+  },
+  "mcdm.heroes.v1:feature.trait.talent.8th-level-feature:mindlink": {
+    "subclass": "Telepathy"
+  },
+  "mcdm.heroes.v1:feature.ability.talent.8th-level-feature:stasis-shield-3-clarity": {
+    "subclass": "Chronopathy"
+  },
+  "mcdm.heroes.v1:feature.ability.talent.8th-level-feature:levitation-field": {
+    "subclass": "Telekinesis"
+  },
+  "mcdm.heroes.v1:feature.trait.talent.8th-level-feature:low-gravity": {
+    "subclass": "Telekinesis"
+  },
+  "mcdm.heroes.v1:feature.trait.talent.8th-level-feature:doubling-the-hours": {
+    "subclass": "Chronopathy"
+  },
+  "mcdm.heroes.v1:feature.trait.talent.8th-level-feature:universal-connection": {
+    "subclass": "Telepathy"
+  },
+  "mcdm.heroes.v1:feature.ability.talent.6th-level-feature:synaptic-dissipation-9-clarity": {
+    "subclass": "Telepathy"
+  },
+  "mcdm.heroes.v1:feature.ability.talent.6th-level-feature:greater-kinetic-grip-9-clarity": {
+    "subclass": "Telekinesis"
+  },
+  "mcdm.heroes.v1:feature.ability.talent.6th-level-feature:gravitic-well-9-clarity": {
+    "subclass": "Telekinesis"
+  },
+  "mcdm.heroes.v1:feature.ability.talent.6th-level-feature:stasis-field-9-clarity": {
+    "subclass": "Chronopathy"
+  },
+  "mcdm.heroes.v1:feature.ability.talent.6th-level-feature:fate-9-clarity": {
+    "subclass": "Chronopathy"
+  },
+  "mcdm.heroes.v1:feature.ability.talent.6th-level-feature:synaptic-conditioning-9-clarity": {
+    "subclass": "Telepathy"
+  },
+  "mcdm.heroes.v1:feature.trait.talent.5th-level-feature:speed-of-thought": {
+    "subclass": "Chronopathy"
+  },
+  "mcdm.heroes.v1:feature.trait.talent.5th-level-feature:kinetic-amplifier": {
+    "subclass": "Telekinesis"
+  },
+  "mcdm.heroes.v1:feature.trait.talent.5th-level-feature:distortion-temporal": {
+    "subclass": "Chronopathy"
+  },
+  "mcdm.heroes.v1:feature.trait.talent.5th-level-feature:compulsion": {
+    "subclass": "Telepathy"
+  },
+  "mcdm.heroes.v1:feature.trait.talent.5th-level-feature:triangulate": {
+    "subclass": "Telekinesis"
+  },
+  "mcdm.heroes.v1:feature.trait.talent.5th-level-feature:remote-amplification": {
+    "subclass": "Telepathy"
+  },
+  "mcdm.heroes.v1:feature.ability.talent.2nd-level-feature:synaptic-override-5-clarity": {
+    "subclass": "Telepathy"
+  },
+  "mcdm.heroes.v1:feature.ability.talent.2nd-level-feature:applied-chronometrics-5-clarity": {
+    "subclass": "Chronopathy"
+  },
+  "mcdm.heroes.v1:feature.ability.talent.2nd-level-feature:slow-5-clarity": {
+    "subclass": "Chronopathy"
+  },
+  "mcdm.heroes.v1:feature.ability.talent.2nd-level-feature:levity-and-gravity-5-clarity": {
+    "subclass": "Telekinesis"
+  },
+  "mcdm.heroes.v1:feature.trait.talent.2nd-level-feature:ease-the-mind": {
+    "subclass": "Telepathy"
+  },
+  "mcdm.heroes.v1:feature.ability.talent.2nd-level-feature:gravitic-burst-5-clarity": {
+    "subclass": "Telekinesis"
+  },
+  "mcdm.heroes.v1:feature.ability.talent.2nd-level-feature:overwhelm-5-clarity": {
+    "subclass": "Telepathy"
+  },
+  "mcdm.heroes.v1:feature.trait.talent.2nd-level-feature:ease-their-fall": {
+    "subclass": "Telekinesis"
+  },
+  "mcdm.heroes.v1:feature.trait.talent.2nd-level-feature:ease-the-hours": {
+    "subclass": "Chronopathy"
+  },
+  "mcdm.heroes.v1:feature.ability.talent.9th-level-feature:synaptic-terror-11-clarity": {
+    "subclass": "Telepathy"
+  },
+  "mcdm.heroes.v1:feature.ability.talent.9th-level-feature:gravitic-nova-11-clarity": {
+    "subclass": "Telekinesis"
+  },
+  "mcdm.heroes.v1:feature.ability.talent.9th-level-feature:acceleration-field-11-clarity": {
+    "subclass": "Chronopathy"
+  },
+  "mcdm.heroes.v1:feature.ability.talent.9th-level-feature:resonant-mind-spike-11-clarity": {
+    "subclass": "Telepathy"
+  },
+  "mcdm.heroes.v1:feature.ability.talent.9th-level-feature:fulcrum-11-clarity": {
+    "subclass": "Telekinesis"
+  },
+  "mcdm.heroes.v1:feature.ability.talent.9th-level-feature:borrow-from-the-future-11-clarity": {
+    "subclass": "Chronopathy"
+  }
+}

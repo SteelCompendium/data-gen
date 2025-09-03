@@ -4,7 +4,7 @@
 # Constants and env vars
 ##################################################
 
-ability_scc_to_subclass_json_fpath := source_directory() / "../input/heroes/ability_scc_to_subclass.json"
+metadata_json_fpath := source_directory() / "../input/heroes/metadata.json"
 
 ##################################################
 # Public Recipes
@@ -28,8 +28,8 @@ generate md_dpath:
     from pathlib import Path
     import frontmatter
 
-    def generate_for_abilities(rel_path: Path, metadata: dict, body: str, subclass_mapping: dict) -> dict:
-        print(rel_path)
+    def generate_for_abilities(rel_path: Path, metadata: dict, body: str, metadata_mapping: dict) -> dict:
+        metadata = default_generator(rel_path, metadata, body, metadata_mapping)
         # Run the external command and capture the YAML output
         result = subprocess.run(
             ["just", "abilities", "convert", str(rel_path), "yaml"],
@@ -64,44 +64,40 @@ generate md_dpath:
         # class
         metadata['class'] = metadata['header_path'].split('/')[0]
 
-        # subclass
-        if "scc" in metadata:
-            for scc in metadata["scc"]:
-                if scc in subclass_mapping:
-                    metadata["subclass"] = subclass_mapping[scc]
-                else:
-                    print(f"Warning: Missing scc or subclass mapping on {rel_path}")
-
         return metadata
 
-    def generate_for_kits(rel_path: Path, metadata: dict, body: str, subclass_mapping: dict) -> dict:
-        metadata = generate_for_abilities(rel_path, metadata, body, subclass_mapping)
+    def generate_for_kits(rel_path: Path, metadata: dict, body: str, metadata_mapping: dict) -> dict:
+        metadata = generate_for_abilities(rel_path, metadata, body, metadata_mapping)
         # Expected to be like "Abilities/Kits/Arcane Archer" which is a little fragile
         file_dpath = metadata["file_dpath"]
         metadata["kit"] = file_dpath.replace("Abilities/Kits/", "")
         return metadata
 
 
-    def generate_for_chapters(rel_path: Path, metadata: dict, body: str, subclass_mapping: dict) -> dict:
+    def generate_for_chapters(rel_path: Path, metadata: dict, body: str, metadata_mapping: dict) -> dict:
+        metadata = default_generator(rel_path, metadata, body, metadata_mapping)
         ch_num = int(metadata["chapter_num"])
         ch_name = metadata["item_name"]
         return {
             "title": f'Chapter {ch_num}: {ch_name}',
         }
 
-    def generate_for_cultures(rel_path: Path, metadata: dict, body: str, subclass_mapping: dict) -> dict:
-            parts = metadata["type"].strip("/").split("/")
-            culture_benefit_type = parts[1]
-            return {
-                "culture_benefit_type": culture_benefit_type.strip().title()
-            }
+    def generate_for_cultures(rel_path: Path, metadata: dict, body: str, metadata_mapping: dict) -> dict:
+        metadata = default_generator(rel_path, metadata, body, metadata_mapping)
+        parts = metadata["type"].strip("/").split("/")
+        culture_benefit_type = parts[1]
+        return {
+            "culture_benefit_type": culture_benefit_type.strip().title()
+        }
 
-    def generate_for_titles(rel_path: Path, metadata: dict, body: str, subclass_mapping: dict) -> dict:
+    def generate_for_titles(rel_path: Path, metadata: dict, body: str, metadata_mapping: dict) -> dict:
+        metadata = default_generator(rel_path, metadata, body, metadata_mapping)
         m = re.search(r'(?<=/)\d+(?:st|nd|rd|th)(?=-)', metadata["type"])
         ordinal = m.group(0).strip() if m else None
         return {"echelon": ordinal}
 
-    def generate_for_treasures(rel_path: Path, metadata: dict, body: str, subclass_mapping: dict) -> dict:
+    def generate_for_treasures(rel_path: Path, metadata: dict, body: str, metadata_mapping: dict) -> dict:
+        metadata = default_generator(rel_path, metadata, body, metadata_mapping)
         parts = metadata["type"].strip("/").split("/")
         treasure_type = parts[-2]
         last_segment = parts[-1]
@@ -113,8 +109,16 @@ generate md_dpath:
             "echelon": ordinal
         }
 
-    def default_generator(rel_path: Path, metadata: dict, body: str, subclass_mapping: dict) -> dict:
-        return {}
+    def default_generator(rel_path: Path, metadata: dict, body: str, metadata_mapping: dict) -> dict:
+        # hard-coded metadata (metadata.json)
+        if "scc" in metadata:
+            # scc is a list
+            for scc in metadata["scc"]:
+                if scc in metadata_mapping:
+                    metadata.update(metadata_mapping[scc])
+        else:
+            print(f"Warning: Missing scc on {rel_path}")
+        return metadata
 
     # TODO - make more metadata generators for different types when I have data
     DISPATCH = {
@@ -133,18 +137,18 @@ generate md_dpath:
                 return generator
         return default_generator
 
-    def process_file(filepath: Path, root: Path, subclass_mapping: dict):
+    def process_file(filepath: Path, root: Path, metadata_mapping: dict):
         post = frontmatter.load(filepath)
         body = post.content
         rel_path = filepath.relative_to(root)
         generator = get_generator(rel_path)
-        new_metadata = generator(filepath, post.metadata, body, subclass_mapping)
+        new_metadata = generator(filepath, post.metadata, body, metadata_mapping)
         post.metadata.update(new_metadata)
         filepath.write_text(frontmatter.dumps(post), encoding='utf-8')
 
     if __name__ == "__main__":
         root_dir = Path("{{md_dpath}}").resolve()
-        with open("{{ability_scc_to_subclass_json_fpath}}", "r") as f:
-            subclass_mapping = json.load(f)
+        with open("{{metadata_json_fpath}}", "r") as f:
+            metadata_mapping = json.load(f)
             for md_file in root_dir.rglob("*.md"):
-                process_file(md_file, root_dir, subclass_mapping)
+                process_file(md_file, root_dir, metadata_mapping)
