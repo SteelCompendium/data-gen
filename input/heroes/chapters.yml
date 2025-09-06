@@ -21,6 +21,7 @@ sections:
   chapter_num: '7'
 - header_path: complications
   chapter_num: '8'
+  xpath: "//section[@id='complications']"
 - header_path: tests
   chapter_num: '9'
 - header_path: combat
