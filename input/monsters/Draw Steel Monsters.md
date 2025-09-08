@@ -22,7 +22,7 @@ You can utilize your own character sheets that detail important creatures' motiv
 
 The defining feature of a monster is that they impose their will on the world at the expense of someone else. A monster might take control of the land, summon a terrible force to destroy nature or settlements, or simply bring harm to someone weaker than them. This means that a creature driven by instinct who hunts for food isn't a monster unless they hunt outside their needs or their territory. Without malice or cruel ambitions that can be opposed, such creatures are no different from a force of nature.
 
-#### A creature becomes a monster when their malice meets opposition.
+**A creature becomes a monster when their malice meets opposition.**
 
 This often boils down to the monster fighting the hero over the fate of someone else. The game utilizes each monster in a way that challenges the heroes and their players, inviting the heroes to use their abilities to overcome the monster's will.
 
@@ -1615,7 +1615,7 @@ At the start of Ajax's turn, you can spend Malice to activate one of the followi
 >
 > | **Magic, Ranged, Weapon**  |                    **Maneuver** |
 > |----------------------------|--------------------------------:|
-> | **📏 Ranged 5**            | **🎯 One creature or object 1** |
+> | **📏 Ranged 5**            | **🎯 One creature or object** |
 >
 > **Power Roll + 5:**
 >
@@ -2068,7 +2068,7 @@ At the start of any angulotl's turn, you can spend Malice to activate one of the
 
 > ⭐️ **Toxiferous**
 >
-> Whenever an adjacent enemy grabs the daybringer or uses a me lee ability against them, that enemy takes 3 poison damage.
+> Whenever an adjacent enemy grabs the daybringer or uses a melee ability against them, that enemy takes 3 poison damage.
 
 ## Animals
 
@@ -2543,7 +2543,7 @@ The Example Animals table breaks out a number of animals using this notation. Se
 >
 > - **≤11:** 7 damage
 > - **12-16:** 10 damage; M < 1 prone
-> - **17+:** 13 damage; M < 1 prone
+> - **17+:** 13 damage; M < 2 prone
 
 > 👤 **Ready to Strike**
 >
@@ -2585,7 +2585,7 @@ The Example Animals table breaks out a number of animals using this notation. Se
 >
 > - **≤11:** 7 damage
 > - **12-16:** 11 damage; push 1; M < 1 prone
-> - **17+:** 14 damage; push 2; M < 1 prone
+> - **17+:** 14 damage; push 2; M < 2 prone
 
 > ❇️ **Wild Swing**
 >
@@ -2879,9 +2879,9 @@ At the start of an ashen hoarder's turn, you can spend Malice to activate one of
 >
 > **Power Roll + 4:**
 >
-> 6 corruption damage; M < 2 the target is impaled (save ends)
-> 11 corruption damage; M < 3 the target is impaled (save ends)
-> 14 corruption damage; M < 4 the target is impaled (save ends)
+> - **≤11:** 6 corruption damage; M < 2 the target is impaled (save ends)
+> - **12-16:** 11 corruption damage; M < 3 the target is impaled (save ends)
+> - **17+:** 14 corruption damage; M < 4 the target is impaled (save ends)
 >
 > **Effect:** An impaled creature is restrained and bleeding, and moves with the ashen hoarder. The ashen hoarder can have three creatures impaled with this ability at a time.
 
@@ -3020,7 +3020,7 @@ At the start of any basilisk's turn, you can spend Malice to activate one of the
 >
 > | **Area, Magic**            |   **Maneuver** |
 > |----------------------------|---------------:|
-> | **📏 5 × 2 line within 1** | **🎯 Special** |
+> | **📏 5 x 2 line within 1** | **🎯 Special** |
 >
 > **Special:** The area extends from both the basilisk’s eyes, and this ability targets the first creature without cover on either side of the area.
 >
@@ -3202,7 +3202,7 @@ At the start of a bredbeddle's turn, you can spend Malice to activate one of the
 > - **12-16:** 4 damage; A < 2 bleeding (save ends)
 > - **17+:** 5 damage; A < 3 bleeding (save ends); M < 2 dazed (save ends)
 >
-> **Malice:** The bredbeddle shifts up to 2 squares, and can target additional enemies who come within distance of this ability during the shift.
+> **3 Malice:** The bredbeddle shifts up to 2 squares, and can target additional enemies who come within distance of this ability during the shift.
 
 > 🗡 **Lop (3 Malice)**
 >
@@ -3342,7 +3342,7 @@ Most bugbears speak Caelian, Khelt, and Szetch.
 
 > 🏹 **Shadow Drag (Signature Ability)**
 >
-> | **Magic, Ranged. Strike** |                 **Main Action** |
+> | **Magic, Ranged, Strike** |                 **Main Action** |
 > |---------------------------|--------------------------------:|
 > | **📏 Ranged 8**           | **🎯 Two creatures or objects** |
 >
@@ -3694,7 +3694,7 @@ Most bugbears speak Caelian, Khelt, and Szetch.
 |       **-**<br>Immunity        | **-**<br>Movement |        -         | **+3 bonus to speed**<br>With Captain |  **-**<br>Weaknesses  |
 |        **+2**<br>Might         | **+3**<br>Agility | **+0**<br>Reason |          **+0**<br>Intuition          |  **+1**<br>Presence   |
 
-> 🗡 **Cut 'Em Low! Signature Ability**
+> 🗡 **Cut 'Em Low! (Signature Ability)**
 >
 > | **Charge, Melee, Strike, Weapon** |                          **Main action** |
 > |-----------------------------------|-----------------------------------------:|
@@ -4496,8 +4496,6 @@ At the start of any level 4 or higher demon's turn, you can spend Malice to acti
 > |----------------------------|------------------------------:|
 > | **📏 8 x 3 line within 1** | **🎯 Each enemy in the area** |
 >
-> e 8 x 3 line within 1 x Each enemy in the area
->
 > **Power Roll + 2:**
 >
 > - **≤11:** 2 damage; pull 1; A < 1 bleeding (save ends)
@@ -4693,8 +4691,8 @@ At the start of any level 4 or higher demon's turn, you can spend Malice to acti
 > **Power Roll + 4:**
 >
 > - **≤11:** 7 corruption damage
-> - **12-16:** 2 12 corruption damage
-> - **17+:** 3 15 corruption damage; two frenzieds appear in unoccupied spaces adjacent to each target
+> - **12-16:** 12 corruption damage
+> - **17+:** 15 corruption damage; two frenzieds appear in unoccupied spaces adjacent to each target
 
 > ☠️ **Fold Space (Villain Action 2)**
 >
@@ -4702,7 +4700,7 @@ At the start of any level 4 or higher demon's turn, you can spend Malice to acti
 > |------------------|------------:|
 > | **📏 Ranged 20** | **🎯 Self** |
 >
-> **Effect:** The egress folds into their own portal and teleports to an un occupied space within distance. Four level 4 demon minions (most commonly orliq, grulqins, and wobalas) appear in squares in the egress's former space.
+> **Effect:** The egress folds into their own portal and teleports to an unoccupied space within distance. Four level 4 demon minions (most commonly orliq, grulqins, and wobalas) appear in squares in the egress's former space.
 
 > ☠️ **Blood of the Abyss (Villain Action 3)**
 >
@@ -4713,8 +4711,8 @@ At the start of any level 4 or higher demon's turn, you can spend Malice to acti
 > **Power Roll + 4:**
 >
 > - **≤11:** 6 corruption damage; R < 2 weakened (save ends)
-> - **12-16:** 2 11 corruption damage; R < 3 weakened (save ends)
-> - **17+:** 3 14 corruption damage; R < 4 weakened (save ends)
+> - **12-16:** 11 corruption damage; R < 3 weakened (save ends)
+> - **17+:** 14 corruption damage; R < 4 weakened (save ends)
 >
 > **Effect:** The egress recalls and instantly destroys any minion allies on the encounter map. A torrent of churned-up minion bodies, blood, and ichor erupts from the egress, dealing an extra 1 damage for each minion destroyed this way.
 
@@ -5394,9 +5392,9 @@ At the start of any level 10 or higher demon's turn, you can spend Malice to act
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 1 10 fire damage; push 1
-> - **12-16:** 2 15 fire damage; push 2
-> - **17+:** 3 19 fire damage; push 3
+> - **≤11:** 10 fire damage; push 1
+> - **12-16:** 15 fire damage; push 2
+> - **17+:** 19 fire damage; push 3
 
 ## Devils
 
@@ -5596,10 +5594,10 @@ At the start of any devil's turn, you can spend Malice to activate one of the fo
 > **Trigger:** A creature targets the adjudicator with a strike.
 >
 > **Effect:** The target makes a Presence test
-
-- **≤11:** The adjudicator chooses a new target for the strike.
-- **12-16:** The adjudicator halves the triggering damage.
-- **17+:** The target takes a bane on the strike.
+>
+> - **≤11:** The adjudicator chooses a new target for the strike.
+> - **12-16:** The adjudicator halves the triggering damage.
+> - **17+:** The target takes a bane on the strike.
 
 > ⭐️ **Vexatious Litigation**
 >
@@ -5657,7 +5655,7 @@ At the start of any devil's turn, you can spend Malice to activate one of the fo
 > |-------------------|--------------------:|
 > | **📏 Ranged 12**  | **🎯 One creature** |
 >
-> If the target is burning (see Fire and Brimstone), they take 6 fire damage.
+> **Effect:** If the target is burning (see Fire and Brimstone), they take 6 fire damage.
 
 > ❗️ **Devilish Charm (2 Malice)**
 >
@@ -24095,7 +24093,7 @@ At the start of any level 10 or higher war dog's turn, you can spend Malice to a
 
 | Soulless, War Dog |         -         |      Level 10       |         Elite Controller          |        EV 48         |
 |:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|   **2**<br>Size   |  **1**<br>Speed   | **02533**<br>Stamina |  **1**<br>Stability   | **0**<br>Free Strike |
+|   **2**<br>Size   |  **10**<br>Speed  | **253**<br>Stamina |  **3**<br>Stability   | **10**<br>Free Strike |
 | **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain | **-**<br>Weaknesses  |
 |  **+2**<br>Might  | **+1**<br>Agility |  **+5**<br>Reason  |  **+4**<br>Intuition  |  **+1**<br>Presence  |
 
