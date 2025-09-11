@@ -1,4 +1,4 @@
-# TODO - im 99% sure this is not needed.  toc.just will build the toc file, then abilities.just will handle the rest
+# TODO - im 99% sure this is not needed.  toc.just will build the toc file, then features.just will handle the rest
 
 # Usage: just run path/to/your/headers_toc.md
 # ~/code/personal/steelCompendium $ just -f data-gen/etl/pre-automation-tools/toc_to_ability_hierarchy.justfile run data-gen/temp/toc.md

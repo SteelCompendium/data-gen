@@ -28,8 +28,8 @@ extract_sections config_fpath html_fpath output_dpath skip_delete="true":
             print(f"Skipping section missing xpath in config: {s.get('header_path','')}", file=sys.stderr)
             continue
 
-        ability_dir = out_root / file_dpath
-        ability_dir.mkdir(parents=True, exist_ok=True)
+        feature_dir = out_root / file_dpath
+        feature_dir.mkdir(parents=True, exist_ok=True)
 
         # write the metadata to a temp file to be loaded by the extractor
         meta = {k: s.get(k, "") for k in KEYS}
@@ -37,7 +37,7 @@ extract_sections config_fpath html_fpath output_dpath skip_delete="true":
             yaml.safe_dump(meta, tmp, sort_keys=False)
             meta_path = tmp.name
 
-        subprocess.run(["just", "extract_html_sections", "extract_section", str(ability_dir), xpath, html, "{{skip_delete}}", meta_path], check=True)
+        subprocess.run(["just", "extract_html_sections", "extract_section", str(feature_dir), xpath, html, "{{skip_delete}}", meta_path], check=True)
 
     print(f"Successfully extracted sections to '{out_root}'")
     print("See failed extractions in staging/failed_extractions.txt")

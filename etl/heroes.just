@@ -38,17 +38,17 @@ gen_heroes_md_unlinked input_fpath output_dpath:
     just _print_section "Heroes: Generating hero markdown"
     mkdir -p "{{heroes_unlinked_dpath}}"
 
-    # Abilities: Extract Table of Contents from heroes.md
+    # Features: Extract Table of Contents from heroes.md
     just _print_section "Heroes: Converting heroes markdown to Table of Contents"
-    toc_fpath="{{heroes_staging_dpath}}/0_abilities/toc.md"
+    toc_fpath="{{heroes_staging_dpath}}/0_features/toc.md"
     mkdir -p "$(dirname "$toc_fpath")"
     just markdown extract_toc "{{input_fpath}}" "$toc_fpath"
 
-    # Abilities: Convert ToC into abilities.yml config
-    # (This is setup to be run as a separate step so that abilities.yml can be edited, but for now no edits are needed)
-    just _print_section "Heroes: Converting ToC to abilities config yaml"
-    ability_config_fpath="{{heroes_staging_dpath}}/0_abilities/abilities.yml"
-    just ability_config generate_config "$toc_fpath" "$ability_config_fpath"
+    # Features: Convert ToC into features.yml config
+    # (This is setup to be run as a separate step so that features.yml can be edited, but for now no edits are needed)
+    just _print_section "Heroes: Converting ToC to features config yaml"
+    feature_config_fpath="{{heroes_staging_dpath}}/0_features/features.yml"
+    just features_config generate_config "$toc_fpath" "$feature_config_fpath"
 
     # Sections: Convert markdown to html
     just _print_section "Heroes: Converting MD to html"
@@ -60,9 +60,9 @@ gen_heroes_md_unlinked input_fpath output_dpath:
     html_sections_dpath="{{heroes_staging_dpath}}/2_html_sections"
     just heroes_sections extract "$html_fpath" "$html_sections_dpath"
 
-    # Ability Sections: extract out ability sections using abilities.yml config
-    just _print_section "Heroes: Extracting ability and feature sections from html"
-    just extract_html_sections extract_sections "$ability_config_fpath" "$html_fpath" "$html_sections_dpath/Abilities" "skip_delete"
+    # Feature Sections: extract out feature sections using features.yml config
+    just _print_section "Heroes: Extracting feature and feature sections from html"
+    just extract_html_sections extract_sections "$feature_config_fpath" "$html_fpath" "$html_sections_dpath/Features" "skip_delete"
 
     # Sections: Convert html sections to md sections
     just _print_section "Heroes: Converting html to md"
@@ -78,8 +78,8 @@ gen_heroes_md_unlinked input_fpath output_dpath:
     just heroes_frontmatter generate "${md_sections_dpath}"
     just frontmatter process_all "${md_sections_dpath}"
 
-    # Abilities: Generate indexes for abilities (depth=1 so we index the "*-Level Features" dirs too)
-    just abilities gen_index_for_each_dir_in "${md_sections_dpath}/Abilities" "1"
+    # Features: Generate indexes for features (depth=1 so we index the "*-Level Features" dirs too)
+    just features gen_index_for_each_dir_in "${md_sections_dpath}/Features" "1"
     # Sections: Generate indexes
     just heroes_sections gen_indexes "${md_sections_dpath}"
 
@@ -120,7 +120,7 @@ input_md_cleanup input_fpath output_fpath:
     # Replace H8 headers with bold+span
     echo >&2 "Replacing H8 headers"
     # TODO - consider adding `<a class="headerlink" id="scalar-assault-bold" href="scalar-assault-bold" title="Permanent link">&para;</a>`
-    sed -i -E 's/^######## (.*)$/**<span class="steel-compendium-ability">\1<\/span>**/g' "{{output_fpath}}"
+    sed -i -E 's/^######## (.*)$/**<span class="steel-compendium-feature">\1<\/span>**/g' "{{output_fpath}}"
 
     # Replace H8 headers with bold+span
     echo >&2 "Replacing H9 headers"
@@ -143,18 +143,18 @@ convert_md_to_other_formats md_dpath:
     just _print_section "Heroes: Converting markdown into other formats"
     conversions_dpath="{{heroes_staging_dpath}}/9_conversions"
 
-    just abilities convert_all "{{md_dpath}}/Abilities" "json" "${conversions_dpath}/json/Abilities"
-    just abilities convert_all "{{md_dpath}}/Abilities" "yaml" "${conversions_dpath}/yaml/Abilities"
+    just features convert_all "{{md_dpath}}/Features" "json" "${conversions_dpath}/json/Features"
+    just features convert_all "{{md_dpath}}/Features" "yaml" "${conversions_dpath}/yaml/Features"
     # Dont convert to markdown: you will lose frontmatter data
 
     # Make the DSE markdown by embedding the yaml
     mkdir -p "${conversions_dpath}/md-dse"
     cp -R "{{md_dpath}}"/* "${conversions_dpath}/md-dse"
-    just abilities embed_abilities "${conversions_dpath}/md-dse/Abilities" "${conversions_dpath}/yaml/Abilities"
+    just features embed_features "${conversions_dpath}/md-dse/Features" "${conversions_dpath}/yaml/Features"
 
     # Build the aggregate data files
-    just abilities gen_aggregate_data_doc "${conversions_dpath}/json/Abilities" "json" "${conversions_dpath}/json/Abilities/abilities.json"
-    just abilities gen_aggregate_data_doc "${conversions_dpath}/yaml/Abilities" "yaml" "${conversions_dpath}/yaml/Abilities/abilities.yaml"
+    just features gen_aggregate_data_doc "${conversions_dpath}/json/Features" "json" "${conversions_dpath}/json/Features/features.json"
+    just features gen_aggregate_data_doc "${conversions_dpath}/yaml/Features" "yaml" "${conversions_dpath}/yaml/Features/features.yaml"
 
     just _copy_data_to_repo "${conversions_dpath}/json" "data-rules-json"
     just _copy_data_to_repo "${conversions_dpath}/yaml" "data-rules-yaml"

@@ -1,8 +1,8 @@
-# Justfile module expected to be named "abilities"
+# Justfile module expected to be named "features"
 
-# # Extract ability html from single html file (note, the html file needs to be generated. Run in devbox
+# # Extract feature html from single html file (note, the html file needs to be generated. Run in devbox
 # devbox shell
-# just -f abilities.just extract_sections "../input/heroes/abilities.yml" "../staging/heroes/1_html/Draw Steel Heroes.html" "../staging/heroes/2_html_sections/Abilities"
+# just -f features.just extract_sections "../input/heroes/features.yml" "../staging/heroes/1_html/Draw Steel Heroes.html" "../staging/heroes/2_html_sections/Features"
 
 ##################################################
 # Constants and env vars
@@ -13,19 +13,19 @@
 ##################################################
 
 # this recipe assumes that there is already section-metadata applied to the frontmatter of the document
-# Note: these could be abilities or features (right?)
+# Note: these could be features (right?)
 gen_metadata md_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
     find "{{md_dpath}}" -type f -name '*.md' | while read -r fpath; do
-        just abilities _gen_metadata "$fpath"
+        just features _gen_metadata "$fpath"
     done
 
-# Converts ability markdown into another format (yaml, json, etc)
+# Converts feature markdown into another format (yaml, json, etc)
 convert_all md_dpath output_format output_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
-    echo >&2 "Abilities: converting markdown to '{{output_format}}'"
+    echo >&2 "Features: converting markdown to '{{output_format}}'"
     mkdir -p "{{output_dpath}}"
     sc-convert \
         --type feature \
@@ -34,7 +34,7 @@ convert_all md_dpath output_format output_dpath:
         --output "{{output_dpath}}" \
         "{{md_dpath}}"
 
-# Converts ability markdown into another format (yaml, json, etc) and prints output --prefix
+# Converts feature markdown into another format (yaml, json, etc) and prints output --prefix
 convert md_fpath output_format:
     #!/usr/bin/env bash
     set -euo pipefail
@@ -71,7 +71,7 @@ gen_index_for_each_dir_in dpath depth="0":
         fi
     done
 
-# Generates a single file containing all ability data
+# Generates a single file containing all feature data
 gen_aggregate_data_doc data_dpath data_format output_fpath:
     #!/usr/bin/env bash
     set -euo pipefail
@@ -80,9 +80,9 @@ gen_aggregate_data_doc data_dpath data_format output_fpath:
 
     # header
     if [ "{{data_format}}" == "json" ]; then
-        echo '{ "abilities": [' > "$aggregate_fpath"
+        echo '{ "features": [' > "$aggregate_fpath"
     elif [ "{{data_format}}" == "yaml" ]; then
-        echo 'abilities: ' > "$aggregate_fpath"
+        echo 'features: ' > "$aggregate_fpath"
     fi
 
     # body
@@ -108,7 +108,7 @@ gen_aggregate_data_doc data_dpath data_format output_fpath:
 
 # TODO - replace this with just markdown embed_yaml
 # For each markdown file in md_dpath, the body gets replaced with a DSE codeblock for a statblock
-embed_abilities md_dpath yaml_dpath:
+embed_features md_dpath yaml_dpath:
     #!/usr/bin/env python3
     import sys
     from pathlib import Path

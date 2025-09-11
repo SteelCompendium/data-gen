@@ -28,11 +28,11 @@ generate md_dpath:
     from pathlib import Path
     import frontmatter
 
-    def generate_for_abilities(rel_path: Path, metadata: dict, body: str, metadata_mapping: dict) -> dict:
+    def generate_for_features(rel_path: Path, metadata: dict, body: str, metadata_mapping: dict) -> dict:
         metadata = default_generator(rel_path, metadata, body, metadata_mapping)
         # Run the external command and capture the YAML output
         result = subprocess.run(
-            ["just", "abilities", "convert", str(rel_path), "yaml"],
+            ["just", "features", "convert", str(rel_path), "yaml"],
             check=True,
             stdout=subprocess.PIPE,
             text=True
@@ -53,6 +53,7 @@ generate md_dpath:
             m = re.match(r'^([0-9+]+)\s+(.+)$', metadata["cost"].strip())
             if m:
                 metadata["cost_amount"], metadata["cost_resource"] = int(m.group(1)), m.group(2)
+                # TODO - revisit this.  sdk v1 should have feature_type in the metadata
                 assumed_base_type = 'feature/ability'
 
         # level
@@ -67,10 +68,10 @@ generate md_dpath:
         return metadata
 
     def generate_for_kits(rel_path: Path, metadata: dict, body: str, metadata_mapping: dict) -> dict:
-        metadata = generate_for_abilities(rel_path, metadata, body, metadata_mapping)
-        # Expected to be like "Abilities/Kits/Arcane Archer" which is a little fragile
+        metadata = generate_for_features(rel_path, metadata, body, metadata_mapping)
+        # Expected to be like "Features/Kits/Arcane Archer" which is a little fragile
         file_dpath = metadata["file_dpath"]
-        metadata["kit"] = file_dpath.replace("Abilities/Kits/", "")
+        metadata["kit"] = file_dpath.replace("Features/Kits/", "")
         return metadata
 
 
@@ -122,8 +123,8 @@ generate md_dpath:
 
     # TODO - make more metadata generators for different types when I have data
     DISPATCH = {
-        re.compile(r"Abilities/Kits"): generate_for_kits,
-        re.compile(r"Abilities/"): generate_for_abilities,
+        re.compile(r"Features/Kits"): generate_for_kits,
+        re.compile(r"Features/"): generate_for_features,
         re.compile(r"Chapters/"): generate_for_chapters,
         re.compile(r"Cultures/"): generate_for_cultures,
         re.compile(r"Titles/"): generate_for_titles,

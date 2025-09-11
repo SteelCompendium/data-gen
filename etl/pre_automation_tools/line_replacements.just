@@ -164,7 +164,7 @@ run input_md_path output_md_path:
     text = re.sub( r'Image\: [^\|]*icon ', r'', text, flags=re.MULTILINE)
     text = re.sub( r'Image\: [^\|]*icon[^ ]', r'', text, flags=re.MULTILINE)
 
-    # abilities
+    # features
     text = re.sub( r'\#+ \*\*(.*) \((.*)\)\*\*', r'######## \1 (\2)', text, flags=re.MULTILINE)
     text = re.sub( r'^\#\# \*\*(.*)\*\*', r'#### \1', text, flags=re.MULTILINE)
     text = re.sub( r'^\#\#\#\# \*\*(.*)\*\*', r'######## \1', text, flags=re.MULTILINE)

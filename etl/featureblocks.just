@@ -33,4 +33,4 @@ convert md_fpath output_format:
 
 # For each markdown file in md_dpath, the body gets replaced with a DSE codeblock for a featureblock
 embed_featureblocks md_dpath yaml_dpath:
-    echo "Not yet implemented.  This code is duplicated in the abilities and statblock, only diff is the codeblock lang"
+    echo "Not yet implemented.  This code is duplicated in the features and statblock, only diff is the codeblock lang"

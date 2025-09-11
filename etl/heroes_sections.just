@@ -10,12 +10,12 @@ input_dpath := `just _input_dpath` / 'heroes'
 heroes_staging_dpath := `just _staging_dpath` / "heroes"
 sections_staging_dpath := heroes_staging_dpath / "0_sections"
 
-# TODO - Abilities not included
+# TODO - Features not included
 # TODO - Negotiation/Motivations adn Pitfalls not included
 section_list := '"Ancestries" "Careers" "Chapters" "Classes" "Complications" "Conditions" "Cultures" "Kits" "Movement" "Perks" "Skills" "Titles" "Treasures"'
 
-# abilities.yml missing
-section_config_yml_filenames := '"ability_fixes.yml" "chapters.yml" "classes.yml" "common_abilities.yml" "movement.yml" "kits.yml" "ancestries.yml" "careers.yml" "cultures.yml" "complications.yml" "conditions.yml" "skills.yml" "negotiations.yml" "perks.yml" "titles.yml" "treasures.yml"'
+# features.yml missing
+section_config_yml_filenames := '"feature_fixes.yml" "chapters.yml" "classes.yml" "common_features.yml" "movement.yml" "kits.yml" "ancestries.yml" "careers.yml" "cultures.yml" "complications.yml" "conditions.yml" "skills.yml" "negotiations.yml" "perks.yml" "titles.yml" "treasures.yml"'
 
 ##################################################
 # Public Recipes

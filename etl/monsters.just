@@ -104,7 +104,7 @@ input_md_cleanup input_fpath output_fpath:
     # Replace H8 headers with bold+span
     echo >&2 "Replacing H8 headers"
     # TODO - consider adding `<a class="headerlink" id="scalar-assault-bold" href="scalar-assault-bold" title="Permanent link">&para;</a>`
-    sed -i -E 's/^######## (.*)$/**<span class="steel-compendium-ability">\1<\/span>**/g' "{{output_fpath}}"
+    sed -i -E 's/^######## (.*)$/**<span class="steel-compendium-feature">\1<\/span>**/g' "{{output_fpath}}"
 
     # Replace H8 headers with bold+span
     echo >&2 "Replacing H9 headers"
@@ -163,8 +163,8 @@ convert_md_to_other_formats md_dpath:
     just markdown embed_yaml "ds-featureblock" "${conversions_dpath}/md-dse/Dynamic Terrain" "" "${conversions_dpath}/yaml/Dynamic Terrain"
 
     # TODO - build an aggregate file of all the statblocks
-    #just abilities gen_aggregate_data_doc "${conversions_dpath}/json/Abilities" "json" "${conversions_dpath}/json/Abilities/abilities.json"
-    #just abilities gen_aggregate_data_doc "${conversions_dpath}/yaml/Abilities" "yaml" "${conversions_dpath}/yaml/Abilities/abilities.yaml"
+    #just features gen_aggregate_data_doc "${conversions_dpath}/json/Features" "json" "${conversions_dpath}/json/Features/features.json"
+    #just features gen_aggregate_data_doc "${conversions_dpath}/yaml/Features" "yaml" "${conversions_dpath}/yaml/Features/features.yaml"
 
     just _copy_data_to_repo "${conversions_dpath}/json" "data-bestiary-json"
     just _copy_data_to_repo "${conversions_dpath}/yaml" "data-bestiary-yaml"

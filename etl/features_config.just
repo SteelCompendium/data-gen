@@ -1,11 +1,11 @@
-# Justfile module expected to be named "ability_config"
+# Justfile module expected to be named "features_config"
 
 # Workflow
 # # Extract the full ToC from the (corrected) source doc
 # just -f markdown.just extract_toc "../../input/heroes/Draw Steel Heroes.md" "../../input/heroes/toc.md"
 #
-# # Convert toc.md to abilities.yml config
-# just -f ability_config.just generate_config ../input/heroes/toc.md ../input/heroes/abilities.yml
+# # Convert toc.md to features.yml config
+# just -f feature_config.just generate_config ../input/heroes/toc.md ../input/heroes/features.yml
 
 ##################################################
 # Constants and env vars
@@ -15,11 +15,11 @@
 # Public Recipes
 ##################################################
 
-# First convert the headers toc doc to abilities
-# just -f abilities.just generate_config ../input/heroes/toc.md ../input/heroes/abilities.yml
-# Then extract sections (see just -f abilities.just extract_sections)
+# First convert the headers toc doc to features
+# just -f features.just generate_config ../input/heroes/toc.md ../input/heroes/features.yml
+# Then extract sections (see just -f features.just extract_sections)
 #
-# This job is kinda expected to be run once (after the rules.md is done) and then the abilities.yml is used from then on
+# This job is kinda expected to be run once (after the rules.md is done) and then the features.yml is used from then on
 #
 # headers_fpath expectation:
 # # Censor
@@ -35,10 +35,10 @@
 # ####### Judgment Order Benefit
 # ###### Kit
 # ###### My Life for Yours
-# ######### My Life for Yours (actual abilities at h8)
+# ######### My Life for Yours (actual features at h8)
 #
 # output:
-# abilities:
+# features:
 # - header_path: censor/1st-level-features/censor-order
 # - header_path: censor/1st-level-features/deity-and-domains
 # - header_path: censor/1st-level-features/wrath-in-combat
@@ -47,22 +47,23 @@
 # - header_path: censor/1st-level-features/judgment-order-benefit
 # - header_path: censor/1st-level-features/kit
 # - header_path: censor/1st-level-features/my-life-for-yours-1
-generate_config headers_fpath ability_yml_fpath:
+generate_config headers_fpath feature_yml_fpath:
     #!/usr/bin/env bash
     set -euo pipefail
-    just -f "{{source_file()}}" build_ability_config "{{headers_fpath}}" "{{ability_yml_fpath}}"
-    just section_config expand_general "{{ability_yml_fpath}}"
+    just -f "{{source_file()}}" build_feature_config "{{headers_fpath}}" "{{feature_yml_fpath}}"
+    just section_config expand_general "{{feature_yml_fpath}}"
 
 ##################################################
 # Private Recipes
 ##################################################
 
-# Given an input file of headers, will convert them to abilities.yml format for extraction
-# IMPORTANT: abilities (H8s) assume that they each have a "useless" header before them which are ignored. This
+# Given an input file of headers, will convert them to features.yml format for extraction
+# TODO - check to see if this is still relevant after v1 sdk
+# IMPORTANT: features (H8s) assume that they each have a "useless" header before them which are ignored. This
 #   may be a problem if there are abilities under features.  If that is the case, I think I will need this code
 #   to ignore H8 as leaves (so that whatever header they are under gets treated as a leaf), but still include them
 # TODO - this source needs to move
-build_ability_config headers_fpath ability_yml_fpath source="mcdm.heroes.v1":
+build_feature_config headers_fpath feature_yml_fpath source="mcdm.heroes.v1":
     #!/usr/bin/env python3
 
     import argparse
@@ -90,7 +91,7 @@ build_ability_config headers_fpath ability_yml_fpath source="mcdm.heroes.v1":
 
     def process_document(content):
         """
-        Parses the document content and extracts ability paths.
+        Parses the document content and extracts feature paths.
         """
         rejectList = []
 
@@ -118,7 +119,7 @@ build_ability_config headers_fpath ability_yml_fpath source="mcdm.heroes.v1":
                 all_headers.append({'level': level, 'text': text})
 
         path_stack = []
-        output_abilities = []
+        output_features = []
 
         for i, header in enumerate(all_headers):
             level = header['level']
@@ -148,27 +149,28 @@ build_ability_config headers_fpath ability_yml_fpath source="mcdm.heroes.v1":
                     level_features_header_text = p_header['text']
 
             if is_under_level_features and is_leaf:
-                ability_name = text
-                kebab_ability_name = to_kebab_case(ability_name)
+                feature_name = text
+                kebab_feature_name = to_kebab_case(feature_name)
 
                 parent_header_text = path_stack[-1]['text'] if path_stack else ""
-                if ability_name == parent_header_text:
-                    kebab_ability_name += "-1"
+                if feature_name == parent_header_text:
+                    kebab_feature_name += "-1"
 
                 path_parts = []
                 if h1_text:
                     path_parts.append(to_kebab_case(h1_text))
                 if level_features_header_text:
                     path_parts.append(to_kebab_case(level_features_header_text))
-                path_parts.append(kebab_ability_name)
+                path_parts.append(kebab_feature_name)
 
                 header_path = "/".join(path_parts)
 
+                # TODO - I dont think this works...
                 # TODO - idk if I like this here, but `type` needs to be in metadata before classification
                 # type is generated here because its needed for classification
                 base_type = 'ability' if level == 8 else 'trait'
                 # base_type = 'trait'
-                # m = re.match(r'^(.*?)\s*\(([0-9+]+)\s+(.+)\)\s*$', ability_name)
+                # m = re.match(r'^(.*?)\s*\(([0-9+]+)\s+(.+)\)\s*$', feature_name)
                 # if m:
                 #     base_type = 'ability'
                 clazz = header_path.split('/')[0]
@@ -178,17 +180,17 @@ build_ability_config headers_fpath ability_yml_fpath source="mcdm.heroes.v1":
                 type = '/'.join(['feature', base_type, clazz, level_feature])
 
                 # Note: any metadata added here needs to get added to extract_html_sections too
-                output_abilities.append({
+                output_features.append({
                     'header_path': header_path,
-                    'item_name': ability_name,
-                    'item_id': to_kebab_case(ability_name),
+                    'item_name': feature_name,
+                    'item_id': to_kebab_case(feature_name),
                     'type': type,
                     'feature_type': base_type
                 })
 
             path_stack.append(header)
 
-        return {'global': {'source': '{{source}}'}, 'sections': output_abilities}
+        return {'global': {'source': '{{source}}'}, 'sections': output_features}
 
     try:
         with open("{{headers_fpath}}", 'r') as f:
@@ -199,7 +201,7 @@ build_ability_config headers_fpath ability_yml_fpath source="mcdm.heroes.v1":
 
     data = process_document(content)
 
-    with open("{{ability_yml_fpath}}", 'w') as f:
+    with open("{{feature_yml_fpath}}", 'w') as f:
         yaml.dump(data, f, sort_keys=False)
 
-    print(f"Successfully created '{{ability_yml_fpath}}'")
+    print(f"Successfully created '{{feature_yml_fpath}}'")

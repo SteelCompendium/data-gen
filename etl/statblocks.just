@@ -1,8 +1,8 @@
 # Justfile module expected to be named "statblocks"
 
-# # Extract ability html from single html file (note, the html file needs to be generated. Run in devbox
+# # Extract feature html from single html file (note, the html file needs to be generated. Run in devbox
 # devbox shell
-# just -f abilities.just extract_sections "../input/heroes/abilities.yml" "../staging/heroes/1_html/Draw Steel Heroes.html" "../staging/heroes/2_html_sections/Abilities"
+# just -f features.just extract_sections "../input/heroes/features.yml" "../staging/heroes/1_html/Draw Steel Heroes.html" "../staging/heroes/2_html_sections/Features"
 
 ##################################################
 # Constants and env vars
