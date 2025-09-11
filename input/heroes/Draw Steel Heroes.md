@@ -4577,32 +4577,32 @@ Though you can't gain wrath outside of combat, you can use your heroic abilities
 
 When you use an ability outside of combat that lets you spend unlimited wrath on its effect, you can use it as if you had spent an amount of wrath equal to your Victories. (Such abilities aren't part of the core rules for the censor, but they might appear in future products.)
 
-#### Judgment
+######## Judgment
 
 You pick out the enemies most worthy of your wrath and place a divine judgment upon them, censoring them with the power of your god. You have the following ability.
 
-######## Judgment
-
-*You utter a prayer that outlines your foe in holy energy.*
-
-| **Magic, Ranged** |     **Maneuver** |
-|-------------------|-----------------:|
-| **📏 Ranged 10**  | **🎯 One enemy** |
-
-**Effect:** The target is judged by you until the end of the encounter, you use this ability again, you willingly end this effect (no action required), or another censor judges the target.
-
-Whenever a creature judged by you uses a main action and is within your line of effect, you can use a free triggered action to deal holy damage equal to twice your Presence score to them.
-
-When a creature judged by you is reduced to 0 Stamina, you can use a free triggered action to use this ability against a new target.
-
-Additionally, you can spend 1 wrath to take one of the following free triggered actions:
-
-- When an adjacent creature judged by you starts to shift, you make a melee free strike against them and their speed becomes 0 until the end of the current turn, preventing them from shifting.
-- When a creature judged by you within 10 squares makes a power roll, you cause them to take a bane on the roll.
-- When a creature judged by you within 10 squares uses an ability with a potency that targets only one creature, the potency is reduced by 1 for that creature.
-- If you damage a creature judged by you with a melee ability, the creature is taunted by you until the end of their next turn.
-  
-You can choose only one free triggered action option at a time, even if multiple options are triggered by the same effect.
+> ######## Judgment
+> 
+> *You utter a prayer that outlines your foe in holy energy.*
+> 
+> | **Magic, Ranged** |     **Maneuver** |
+> |-------------------|-----------------:|
+> | **📏 Ranged 10**  | **🎯 One enemy** |
+> 
+> **Effect:** The target is judged by you until the end of the encounter, you use this ability again, you willingly end this effect (no action required), or another censor judges the target.
+> 
+> Whenever a creature judged by you uses a main action and is within your line of effect, you can use a free triggered action to deal holy damage equal to twice your Presence score to them.
+> 
+> When a creature judged by you is reduced to 0 Stamina, you can use a free triggered action to use this ability against a new target.
+> 
+> Additionally, you can spend 1 wrath to take one of the following free triggered actions:
+> 
+> - When an adjacent creature judged by you starts to shift, you make a melee free strike against them and their speed becomes 0 until the end of the current turn, preventing them from shifting.
+> - When a creature judged by you within 10 squares makes a power roll, you cause them to take a bane on the roll.
+> - When a creature judged by you within 10 squares uses an ability with a potency that targets only one creature, the potency is reduced by 1 for that creature.
+> - If you damage a creature judged by you with a melee ability, the creature is taunted by you until the end of their next turn.
+>   
+> You can choose only one free triggered action option at a time, even if multiple options are triggered by the same effect.
 
 ##### Judgment Order Benefit
 
@@ -7538,25 +7538,25 @@ When you use a persistent ability outside of combat (see Persistent Magic below)
 
 When you use an ability outside of combat that lets you spend unlimited essence on its effect, you can use it as if you had spent an amount of essence equal to your Victories.
 
-#### Hurl Element
+######## Hurl Element
 
 You have the following ability, which can be used as a ranged free strike.
 
-######## Hurl Element
-
-*You cast a ball of elemental energy at a foe.*
-
-| **Magic, Ranged, Strike** |               **Main action** |
-|---------------------------|------------------------------:|
-| **📏 Ranged 10**          | **🎯 One creature or object** |
-
-**Power Roll + Reason:**
-
-- **≤11:** 2 + R damage
-- **12-16:** 4 + R damage
-- **17+:** 6 + R damage
-
-**Effect:** When you make this strike, choose the damage type from one of the following options: acid, cold, corruption, fire, lightning, poison, or sonic.
+> ######## Hurl Element
+> 
+> *You cast a ball of elemental energy at a foe.*
+> 
+> | **Magic, Ranged, Strike** |               **Main action** |
+> |---------------------------|------------------------------:|
+> | **📏 Ranged 10**          | **🎯 One creature or object** |
+> 
+> **Power Roll + Reason:**
+> 
+> - **≤11:** 2 + R damage
+> - **12-16:** 4 + R damage
+> - **17+:** 6 + R damage
+> 
+> **Effect:** When you make this strike, choose the damage type from one of the following options: acid, cold, corruption, fire, lightning, poison, or sonic.
 
 #### Persistent Magic
 
@@ -7568,23 +7568,23 @@ If you maintain the same ability on several targets and the effect includes a po
 
 If you take damage equal to or greater than 5 times your Reason score in one turn, you stop maintaining any persistent abilities. For instance, if you have a Reason score of 2 and are maintaining Instantaneous Excavation, taking 10 or more damage in one turn causes you to stop maintaining the ability.
 
-#### Practical Magic
+######## Practical Magic
 
 You have the following ability.
 
-######## Practical Magic
-
-*Your mastery of elemental power lets you customize your conjurations.*
-
-| **Magic**              | **Maneuver** |
-|------------------------|-------------:|
-| **📏 Self; see below** |  **🎯 Self** |
-
-**Effect:** Choose one of the following effects:
-
-- You use the Knockback maneuver (see Chapter 10: Combat), but its distance becomes the range of your Hurl Element ability, and you use Reason instead of Might for the power roll.
-- You choose a creature within the distance of your Hurl Element ability and one of the following damage types: acid, cold, corruption, fire, lightning, poison, or sonic. That creature takes damage of the chosen type equal to your Reason score.
-- You teleport up to a number of squares equal to your Reason score. If you choose this option, you can spend essence to teleport 1 additional square for each essence spent.
+> ######## Practical Magic
+> 
+> *Your mastery of elemental power lets you customize your conjurations.*
+> 
+> | **Magic**              | **Maneuver** |
+> |------------------------|-------------:|
+> | **📏 Self; see below** |  **🎯 Self** |
+> 
+> **Effect:** Choose one of the following effects:
+> 
+> - You use the Knockback maneuver (see Chapter 10: Combat), but its distance becomes the range of your Hurl Element ability, and you use Reason instead of Might for the power roll.
+> - You choose a creature within the distance of your Hurl Element ability and one of the following damage types: acid, cold, corruption, fire, lightning, poison, or sonic. That creature takes damage of the chosen type equal to your Reason score.
+> - You teleport up to a number of squares equal to your Reason score. If you choose this option, you can spend essence to teleport 1 additional square for each essence spent.
 
 #### 1st-Level Specialization Feature
 

@@ -145,7 +145,6 @@ convert_md_to_other_formats md_dpath:
 
     just abilities convert_all "{{md_dpath}}/Abilities" "json" "${conversions_dpath}/json/Abilities"
     just abilities convert_all "{{md_dpath}}/Abilities" "yaml" "${conversions_dpath}/yaml/Abilities"
-    just abilities convert_all "{{md_dpath}}/Abilities" "xml" "${conversions_dpath}/xml/Abilities"
     # Dont convert to markdown: you will lose frontmatter data
 
     # Make the DSE markdown by embedding the yaml
@@ -156,11 +155,9 @@ convert_md_to_other_formats md_dpath:
     # Build the aggregate data files
     just abilities gen_aggregate_data_doc "${conversions_dpath}/json/Abilities" "json" "${conversions_dpath}/json/Abilities/abilities.json"
     just abilities gen_aggregate_data_doc "${conversions_dpath}/yaml/Abilities" "yaml" "${conversions_dpath}/yaml/Abilities/abilities.yaml"
-    just abilities gen_aggregate_data_doc "${conversions_dpath}/xml/Abilities" "xml" "${conversions_dpath}/xml/Abilities/abilities.xml"
 
     just _copy_data_to_repo "${conversions_dpath}/json" "data-rules-json"
     just _copy_data_to_repo "${conversions_dpath}/yaml" "data-rules-yaml"
-    just _copy_data_to_repo "${conversions_dpath}/xml" "data-rules-xml"
 
     # only separate blockquotes on the markdown variants
     just markdown separate_blockquotes "{{md_dpath}}"

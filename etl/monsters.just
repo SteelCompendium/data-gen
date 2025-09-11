@@ -165,7 +165,6 @@ convert_md_to_other_formats md_dpath:
     # TODO - build an aggregate file of all the statblocks
     #just abilities gen_aggregate_data_doc "${conversions_dpath}/json/Abilities" "json" "${conversions_dpath}/json/Abilities/abilities.json"
     #just abilities gen_aggregate_data_doc "${conversions_dpath}/yaml/Abilities" "yaml" "${conversions_dpath}/yaml/Abilities/abilities.yaml"
-    #just abilities gen_aggregate_data_doc "${conversions_dpath}/xml/Abilities" "xml" "${conversions_dpath}/xml/Abilities/abilities.xml"
 
     just _copy_data_to_repo "${conversions_dpath}/json" "data-bestiary-json"
     just _copy_data_to_repo "${conversions_dpath}/yaml" "data-bestiary-yaml"

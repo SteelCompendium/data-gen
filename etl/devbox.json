@@ -30,14 +30,14 @@
       "pip install mdformat mdformat-wikilink mdformat-tables mdformat-frontmatter mdformat-mkdocs",
       "pip install rapidfuzz",
       "pip install python-slugify",
-      "npm install steel-compendium-sdk",
+      "npm install steel-compendium-sdk@latest",
       "go install github.com/pdfcpu/pdfcpu/cmd/pdfcpu@latest",
       "PATH=$PATH:$(go env GOPATH)/bin"
     ],
     "scripts": {
-      "gen":             "time just gen",
-      "gen_heroes":      "time just gen_heroes",
-      "gen_monsters":      "time just gen_monsters",
+      "gen": "time just gen",
+      "gen_heroes": "time just gen_heroes",
+      "gen_monsters": "time just gen_monsters",
       "switch_repos_to": "just switch_repos_to $@"
     }
   }

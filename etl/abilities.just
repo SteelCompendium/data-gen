@@ -27,8 +27,8 @@ convert_all md_dpath output_format output_dpath:
     set -euo pipefail
     echo >&2 "Abilities: converting markdown to '{{output_format}}'"
     mkdir -p "{{output_dpath}}"
-    npx sc-convert \
-        --type ability \
+    sc-convert \
+        --type feature \
         --from markdown \
         --to "{{output_format}}" \
         --output "{{output_dpath}}" \
@@ -38,8 +38,8 @@ convert_all md_dpath output_format output_dpath:
 convert md_fpath output_format:
     #!/usr/bin/env bash
     set -euo pipefail
-    npx sc-convert \
-        --type ability \
+    sc-convert \
+        --type feature \
         --from markdown \
         --to "{{output_format}}" \
         "{{md_fpath}}"
@@ -79,9 +79,7 @@ gen_aggregate_data_doc data_dpath data_format output_fpath:
     aggregate_fpath=$(mktemp)
 
     # header
-    if [ "{{data_format}}" == "xml" ]; then
-        echo "<abilities>" > "$aggregate_fpath"
-    elif [ "{{data_format}}" == "json" ]; then
+    if [ "{{data_format}}" == "json" ]; then
         echo '{ "abilities": [' > "$aggregate_fpath"
     elif [ "{{data_format}}" == "yaml" ]; then
         echo 'abilities: ' > "$aggregate_fpath"
@@ -89,10 +87,7 @@ gen_aggregate_data_doc data_dpath data_format output_fpath:
 
     # body
     find "{{data_dpath}}" -type f -name '*.{{data_format}}' | while read -r fpath; do
-        if [ "{{data_format}}" == "xml" ]; then
-            # indent
-            sed 's/^/  /' "$fpath" >> "$aggregate_fpath"
-        elif [ "{{data_format}}" == "json" ]; then
+        if [ "{{data_format}}" == "json" ]; then
             # prefix each line with two spaces, and add a comma to the end of the last line
             sed -e 's/^/  /' -e '$ s/$/,/' "$fpath" >> "$aggregate_fpath"
         elif [ "{{data_format}}" == "yaml" ]; then
@@ -102,9 +97,7 @@ gen_aggregate_data_doc data_dpath data_format output_fpath:
     done
 
     # footer
-    if [ "{{data_format}}" == "xml" ]; then
-        echo "</abilities>" >> "$aggregate_fpath"
-    elif [ "{{data_format}}" == "json" ]; then
+    if [ "{{data_format}}" == "json" ]; then
         sed -i '${s/,$//}' "$aggregate_fpath"
         echo "]" >> "$aggregate_fpath"
         echo "}" >> "$aggregate_fpath"
@@ -154,7 +147,7 @@ embed_abilities md_dpath yaml_dpath:
         # Ensure a trailing newline inside the block for clean formatting
         if not yaml_text.endswith("\n"):
             yaml_text += "\n"
-        new_body = f"```ds-ability\n{yaml_text}```\n"
+        new_body = f"```ds-feature\n{yaml_text}```\n"
 
         # Load & preserve frontmatter; replace only the content/body
         post = frontmatter.load(md_file)
