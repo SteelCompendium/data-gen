@@ -4577,7 +4577,7 @@ Though you can't gain wrath outside of combat, you can use your heroic abilities
 
 When you use an ability outside of combat that lets you spend unlimited wrath on its effect, you can use it as if you had spent an amount of wrath equal to your Victories. (Such abilities aren't part of the core rules for the censor, but they might appear in future products.)
 
-######## Judgment
+#### Judgment
 
 You pick out the enemies most worthy of your wrath and place a divine judgment upon them, censoring them with the power of your god. You have the following ability.
 
@@ -7538,7 +7538,7 @@ When you use a persistent ability outside of combat (see Persistent Magic below)
 
 When you use an ability outside of combat that lets you spend unlimited essence on its effect, you can use it as if you had spent an amount of essence equal to your Victories.
 
-######## Hurl Element
+#### Hurl Element
 
 You have the following ability, which can be used as a ranged free strike.
 
@@ -7568,7 +7568,7 @@ If you maintain the same ability on several targets and the effect includes a po
 
 If you take damage equal to or greater than 5 times your Reason score in one turn, you stop maintaining any persistent abilities. For instance, if you have a Reason score of 2 and are maintaining Instantaneous Excavation, taking 10 or more damage in one turn causes you to stop maintaining the ability.
 
-######## Practical Magic
+#### Practical Magic
 
 You have the following ability.
 
