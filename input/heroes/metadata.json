@@ -1117,5 +1117,218 @@
   },
   "mcdm.heroes.v1:feature.ability.talent.9th-level-feature:borrow-from-the-future-11-clarity": {
     "subclass": "Chronopathy"
+  },
+  "mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:unquiet-ground": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:meteoric-introduction": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:grasp-of-beyond": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:bifurcated-incineration": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:afflict-a-bountiful-decay": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:the-green-within-the-green-without": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:viscous-fire": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:hurl-element": {
+    "ability_type": "Free Strike"
+  },
+  "mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:ray-of-agonizing-self-reflection": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:ray-of-wrath": {
+    "ability_type": "Free Strike"
+  },
+  "mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:wither": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:warriors-prayer": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:blessed-light": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:staggering-curse": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:holy-lash": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:drain": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:lightfall": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:sacrificial-offer": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:feature.ability.censor.1st-level-feature:every-step-death": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:feature.ability.censor.1st-level-feature:halt-miscreant": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:feature.ability.censor.1st-level-feature:your-allies-cannot-save-you": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:feature.ability.censor.1st-level-feature:back-blasphemer": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:feature.ability.null.1st-level-feature:faster-than-the-eye": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:feature.ability.null.1st-level-feature:joint-lock": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:feature.ability.null.1st-level-feature:inertial-step": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:feature.ability.null.1st-level-feature:phase-inversion-strike": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:feature.ability.null.1st-level-feature:magnetic-strike": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:feature.ability.null.1st-level-feature:kinetic-strike": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:feature.ability.null.1st-level-feature:pressure-points": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:feature.ability.null.1st-level-feature:dance-of-blows": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:feature.ability.fury.1st-level-feature:brutal-slam": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:feature.ability.fury.1st-level-feature:hit-and-run": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:feature.ability.fury.1st-level-feature:impaled": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:feature.ability.fury.1st-level-feature:to-the-death": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:witty-banter": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:artful-flourish": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:cutting-sarcasm": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:instigator": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:i-work-better-alone": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:gasping-in-pain": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:teamwork-has-its-place": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:you-were-watching-the-wrong-one": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:kit-ability.arcane-archer:exploding-arrow": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:kit-ability.retiarius:net-and-stab": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:kit-ability.battlemind:unmooring": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:kit-ability.sword-and-board:shield-bash": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:kit-ability.raider:raiders-awe": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:kit-ability.cloak-and-dagger:fade": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:kit-ability.guisarmier:forward-thrust-backward-smash": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:kit-ability.swashbuckler:fancy-footwork": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:kit-ability.whirlwind:extension-of-my-arm": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:kit-ability.sniper:patient-shot": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:kit-ability.warrior-priest:weakening-brand": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:kit-ability.ranger:hamstring-shot": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:kit-ability.rapid-fire:two-shot": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:kit-ability.panther:devastating-rush": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:kit-ability.pugilist:lets-dance": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:kit-ability.martial-artist:battle-grace": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:kit-ability.shining-armor:protective-attack": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:kit-ability.mountain:pain-for-pain": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:kit-ability.dual-wielder:double-strike": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:kit-ability.spellsword:leaping-lightning": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:kit-ability.stick-and-robe:where-i-want-you": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:feature.ability.talent.1st-level-feature:optic-blast": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:feature.ability.talent.1st-level-feature:kinetic-grip": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:feature.ability.talent.1st-level-feature:incinerate": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:feature.ability.talent.1st-level-feature:spirit-sword": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:feature.ability.talent.1st-level-feature:kinetic-pulse": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:feature.ability.talent.1st-level-feature:hoarfrost": {
+    "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:feature.ability.talent.1st-level-feature:mind-spike": {
+    "ability_type": "Free Strike"
+  },
+  "mcdm.heroes.v1:feature.ability.talent.1st-level-feature:entropic-bolt": {
+    "ability_type": "Signature"
   }
 }
