@@ -27,7 +27,7 @@ convert_all md_dpath output_format output_dpath:
     set -euo pipefail
     echo >&2 "Abilities: converting markdown to '{{output_format}}'"
     mkdir -p "{{output_dpath}}"
-    npx sc-convert \
+    sc-convert \
         --type ability \
         --from markdown \
         --to "{{output_format}}" \
@@ -38,7 +38,7 @@ convert_all md_dpath output_format output_dpath:
 convert md_fpath output_format:
     #!/usr/bin/env bash
     set -euo pipefail
-    npx sc-convert \
+    sc-convert \
         --type ability \
         --from markdown \
         --to "{{output_format}}" \
