@@ -93,6 +93,17 @@ _extract_section xpath src_html_fpath out_dpath metadata_yml_fpath:
         text = re.sub(r'[^a-zA-Z0-9]+', '-', text)
         return text.strip('-').lower()
 
+    def inner_html(el: etree._Element) -> str:
+        """Return the serialized inner HTML (children + text nodes) of an element."""
+        parts = []
+        for n in el.xpath('node()'):
+            if isinstance(n, etree._Element):
+                parts.append(etree.tostring(n, method="html", encoding="unicode"))
+            else:
+                # text node / whitespace
+                parts.append(str(n))
+        return "".join(parts)
+
     # Ensure output dir exists
     os.makedirs("{{out_dpath}}", exist_ok=True)
 
@@ -117,9 +128,22 @@ _extract_section xpath src_html_fpath out_dpath metadata_yml_fpath:
     items = tree.xpath("{{xpath}}")
 
     for item in items:
+        # Skip non-elements (e.g., text nodes if a different XPath returns node())
+        if not isinstance(item, etree._Element):
+            continue
+
+        # For headings/filename detection, search within the matched item
+        search_root = item
+
+        # Serialize content (blockquote => inner HTML, else => whole element)
+        if item.tag == "blockquote":
+            item_content = inner_html(item)
+        else:
+            item_content = etree.tostring(item, pretty_print=False, method="html", encoding="unicode")
+
         # header text or first paragraph as fallback
-        header = item.xpath('.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::h7 or self::h8 or self::p]/text()')
-        header = (header[0] if header else "item")
+        header_nodes = search_root.xpath('.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p]/text()')
+        header = (header_nodes[0].strip() if header_nodes else "item")
 
         filename = ' '.join(header.split())
         if meta.get("include_parens_in_filename", "false").lower() in ['true', 'True']:
@@ -130,17 +154,14 @@ _extract_section xpath src_html_fpath out_dpath metadata_yml_fpath:
         filename = slugify(filename, separator=" ", lowercase=False)
         fpath = os.path.join("{{out_dpath}}", filename) + ".html"
 
-        item_content = etree.tostring(item, pretty_print=False, method="html").decode('utf-8')
-
         # metadata (with item_id)
         item_meta = dict(meta)
         item_meta['file_basename'] = filename
         item_meta['item_name'] = item_meta.get('item_name') or header
-        # TODO - this should move to post-extract metadata generation
         item_meta['item_id'] = item_meta.get('item_id') or to_kebab_case(header)
-        item_content = inject_meta(item_content, build_meta_block(item_meta))
 
-        # replace <p> header with h6
+        # inject meta + transform <p class="heading"> to <h6>
+        item_content = inject_meta(item_content, build_meta_block(item_meta))
         item_content = p_header_pattern.sub(r'<h6\g<attrs> class="heading"\g<rest>>\g<inner></h6>', item_content)
 
         with open(fpath, 'w', encoding='utf-8') as f_out:
