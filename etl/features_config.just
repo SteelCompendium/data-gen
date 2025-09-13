@@ -152,9 +152,11 @@ build_feature_config headers_fpath feature_yml_fpath source="mcdm.heroes.v1":
                 feature_name = text
                 kebab_feature_name = to_kebab_case(feature_name)
 
-                parent_header_text = path_stack[-1]['text'] if path_stack else ""
-                if feature_name == parent_header_text:
-                    kebab_feature_name += "-1"
+                # Previously I would use the parent header if its name was an exact match, but with nested
+                # Abilities this is no longer wanted
+                #parent_header_text = path_stack[-1]['text'] if path_stack else ""
+                #if feature_name == parent_header_text:
+                #    kebab_feature_name += "-1"
 
                 path_parts = []
                 if h1_text:
