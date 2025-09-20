@@ -46,15 +46,48 @@ generate md_dpath:
                     metadata[key] = yaml_data[key]
 
         # cost and sub-values + type
-        assumed_base_type = 'feature/trait'
         m = re.match(r'^(.*?)\s*\((.*?)\)\s*$', metadata['item_name'])
         if m:
             metadata["cost"] = m.group(2)
             m = re.match(r'^([0-9+]+)\s+(.+)$', metadata["cost"].strip())
             if m:
                 metadata["cost_amount"], metadata["cost_resource"] = int(m.group(1)), m.group(2)
-                # TODO - revisit this.  sdk v1 should have feature_type in the metadata
-                assumed_base_type = 'feature/ability'
+
+        # level
+        match = re.search(r'((\d+)(?:st|nd|rd|th)-level-feature)s', metadata['header_path'])
+        if match:
+            metadata['level'] = int(match.group(2))
+            level_feature = match.group(1)
+
+        # class
+        metadata['class'] = metadata['header_path'].split('/')[0]
+
+        return metadata
+
+    def generate_for_abilities(rel_path: Path, metadata: dict, body: str, metadata_mapping: dict) -> dict:
+        metadata = default_generator(rel_path, metadata, body, metadata_mapping)
+        # Run the external command and capture the YAML output
+        result = subprocess.run(
+            ["just", "features", "convert", str(rel_path), "yaml"],
+            check=True,
+            stdout=subprocess.PIPE,
+            text=True
+        )
+        yaml_data = yaml.safe_load(result.stdout)
+        for key in ("flavor", "keywords", "usage", "distance", "target"):
+            if key in yaml_data:
+                if key == "usage":
+                    metadata["action_type"] = yaml_data[key]
+                else:
+                    metadata[key] = yaml_data[key]
+
+        # cost and sub-values + type
+        m = re.match(r'^(.*?)\s*\((.*?)\)\s*$', metadata['item_name'])
+        if m:
+            metadata["cost"] = m.group(2)
+            m = re.match(r'^([0-9+]+)\s+(.+)$', metadata["cost"].strip())
+            if m:
+                metadata["cost_amount"], metadata["cost_resource"] = int(m.group(1)), m.group(2)
 
         # level
         match = re.search(r'((\d+)(?:st|nd|rd|th)-level-feature)s', metadata['header_path'])
@@ -125,6 +158,7 @@ generate md_dpath:
     DISPATCH = {
         re.compile(r"Features/Kits"): generate_for_kits,
         re.compile(r"Features/"): generate_for_features,
+        re.compile(r"Abilities/"): generate_for_abilities,
         re.compile(r"Chapters/"): generate_for_chapters,
         re.compile(r"Cultures/"): generate_for_cultures,
         re.compile(r"Titles/"): generate_for_titles,

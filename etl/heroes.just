@@ -144,17 +144,22 @@ convert_md_to_other_formats md_dpath:
     conversions_dpath="{{heroes_staging_dpath}}/9_conversions"
 
     just features convert_all "{{md_dpath}}/Features" "json" "${conversions_dpath}/json/Features"
+    just features convert_all "{{md_dpath}}/Features" "json" "${conversions_dpath}/json/Abilities"
     just features convert_all "{{md_dpath}}/Features" "yaml" "${conversions_dpath}/yaml/Features"
+    just features convert_all "{{md_dpath}}/Features" "yaml" "${conversions_dpath}/yaml/Abilities"
     # Dont convert to markdown: you will lose frontmatter data
 
     # Make the DSE markdown by embedding the yaml
     mkdir -p "${conversions_dpath}/md-dse"
     cp -R "{{md_dpath}}"/* "${conversions_dpath}/md-dse"
     just features embed_features "${conversions_dpath}/md-dse/Features" "${conversions_dpath}/yaml/Features"
+    just features embed_features "${conversions_dpath}/md-dse/Features" "${conversions_dpath}/yaml/Abilities"
 
     # Build the aggregate data files
     just features gen_aggregate_data_doc "${conversions_dpath}/json/Features" "json" "${conversions_dpath}/json/Features/features.json"
+    just features gen_aggregate_data_doc "${conversions_dpath}/json/Abilities" "json" "${conversions_dpath}/json/Features/abilities.json"
     just features gen_aggregate_data_doc "${conversions_dpath}/yaml/Features" "yaml" "${conversions_dpath}/yaml/Features/features.yaml"
+    just features gen_aggregate_data_doc "${conversions_dpath}/yaml/Abilities" "yaml" "${conversions_dpath}/yaml/Features/abilities.yaml"
 
     just _copy_data_to_repo "${conversions_dpath}/json" "data-rules-json"
     just _copy_data_to_repo "${conversions_dpath}/yaml" "data-rules-yaml"

@@ -6,465 +6,465 @@ sections:
     type: feature/ability/censor/1st-level-feature
     feature_type: ability
     file_dpath: Abilities/Censor/1st-Level Features
-    xpath: "//section[@id='censor']//section[starts-with(@id,'st-level-features')]//section/blockquote | //section[@id='censor']//section[starts-with(@id,'st-level-features')]//section[@class='level8']"
+    xpath: "//section[@id='censor']//section[starts-with(@id,'st-level-features')]//section/blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='censor']//section[starts-with(@id,'st-level-features')]//section[@class='level8']"
   - header_path: censor/2nd-level-features
     type: feature/ability/censor/2nd-level-feature
     feature_type: ability
     file_dpath: Abilities/Censor/2nd-Level Features
-    xpath: "//section[@id='censor']//section[starts-with(@id,'nd-level-features')]//section/blockquote | //section[@id='censor']//section[starts-with(@id,'nd-level-features')]//section[@class='level8']"
+    xpath: "//section[@id='censor']//section[starts-with(@id,'nd-level-features')]//section/blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='censor']//section[starts-with(@id,'nd-level-features')]//section[@class='level8']"
   - header_path: censor/3rd-level-features
     type: feature/ability/censor/3rd-level-feature
     feature_type: ability
     file_dpath: Abilities/Censor/3rd-Level Features
-    xpath: "//section[@id='censor']//section[starts-with(@id,'rd-level-features')]//section/blockquote | //section[@id='censor']//section[starts-with(@id,'rd-level-features')]//section[@class='level8']"
+    xpath: "//section[@id='censor']//section[starts-with(@id,'rd-level-features')]//section/blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='censor']//section[starts-with(@id,'rd-level-features')]//section[@class='level8']"
   - header_path: censor/4th-level-features
     type: feature/ability/censor/4th-level-feature
     feature_type: ability
     file_dpath: Abilities/Censor/4th-Level Features
-    xpath: "//section[@id='censor']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '4th')] ] //blockquote | //section[@id='censor'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '4th')]]//section[@class='level8']"
+    xpath: "//section[@id='censor']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '4th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='censor'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '4th')]]//section[@class='level8']"
   - header_path: censor/5th-level-features
     type: feature/ability/censor/5th-level-feature
     feature_type: ability
     file_dpath: Abilities/Censor/5th-Level Features
-    xpath: "//section[@id='censor']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '5th')] ] //blockquote | //section[@id='censor'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '5th')]]//section[@class='level8']"
+    xpath: "//section[@id='censor']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '5th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='censor'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '5th')]]//section[@class='level8']"
   - header_path: censor/6th-level-features
     type: feature/ability/censor/6th-level-feature
     feature_type: ability
     file_dpath: Abilities/Censor/6th-Level Features
-    xpath: "//section[@id='censor']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '6th')] ] //blockquote | //section[@id='censor'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '6th')]]//section[@class='level8']"
+    xpath: "//section[@id='censor']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '6th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='censor'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '6th')]]//section[@class='level8']"
   - header_path: censor/7th-level-features
     type: feature/ability/censor/7th-level-feature
     feature_type: ability
     file_dpath: Abilities/Censor/7th-Level Features
-    xpath: "//section[@id='censor']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '7th')] ] //blockquote | //section[@id='censor'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '7th')]]//section[@class='level8']"
+    xpath: "//section[@id='censor']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '7th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='censor'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '7th')]]//section[@class='level8']"
   - header_path: censor/8th-level-features
     type: feature/ability/censor/8th-level-feature
     feature_type: ability
     file_dpath: Abilities/Censor/8th-Level Features
-    xpath: "//section[@id='censor']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '8th')] ] //blockquote | //section[@id='censor'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '8th')]]//section[@class='level8']"
+    xpath: "//section[@id='censor']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '8th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='censor'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '8th')]]//section[@class='level8']"
   - header_path: censor/9th-level-features
     type: feature/ability/censor/9th-level-feature
     feature_type: ability
     file_dpath: Abilities/Censor/9th-Level Features
-    xpath: "//section[@id='censor']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '9th')] ] //blockquote | //section[@id='censor'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '9th')]]//section[@class='level8']"
+    xpath: "//section[@id='censor']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '9th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='censor'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '9th')]]//section[@class='level8']"
   - header_path: censor/10th-level-features
     type: feature/ability/censor/10th-level-feature
     feature_type: ability
     file_dpath: Abilities/Censor/10th-Level Features
-    xpath: "//section[@id='censor']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '10th')] ] //blockquote | //section[@id='censor'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '10th')]]//section[@class='level8']"
+    xpath: "//section[@id='censor']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '10th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='censor'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '10th')]]//section[@class='level8']"
 
   # Conduit
   - header_path: conduit/1st-level-features
     type: feature/ability/conduit/1st-level-feature
     feature_type: ability
     file_dpath: Abilities/Conduit/1st-Level Features
-    xpath: "//section[@id='conduit']//section[starts-with(@id,'st-level-features')]//section/blockquote | //section[@id='conduit']//section[starts-with(@id,'st-level-features')]//section[@class='level8']"
+    xpath: "//section[@id='conduit']//section[starts-with(@id,'st-level-features')]//section/blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='conduit']//section[starts-with(@id,'st-level-features')]//section[@class='level8']"
   - header_path: conduit/2nd-level-features
     type: feature/ability/conduit/2nd-level-feature
     feature_type: ability
     file_dpath: Abilities/Conduit/2nd-Level Features
-    xpath: "//section[@id='conduit']//section[starts-with(@id,'nd-level-features')]//section/blockquote | //section[@id='conduit']//section[starts-with(@id,'nd-level-features')]//section[@class='level8']"
+    xpath: "//section[@id='conduit']//section[starts-with(@id,'nd-level-features')]//section/blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='conduit']//section[starts-with(@id,'nd-level-features')]//section[@class='level8']"
   - header_path: conduit/3rd-level-features
     type: feature/ability/conduit/3rd-level-feature
     feature_type: ability
     file_dpath: Abilities/Conduit/3rd-Level Features
-    xpath: "//section[@id='conduit']//section[starts-with(@id,'rd-level-features')]//section/blockquote | //section[@id='conduit']//section[starts-with(@id,'rd-level-features')]//section[@class='level8']"
+    xpath: "//section[@id='conduit']//section[starts-with(@id,'rd-level-features')]//section/blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='conduit']//section[starts-with(@id,'rd-level-features')]//section[@class='level8']"
   - header_path: conduit/4th-level-features
     type: feature/ability/conduit/4th-level-feature
     feature_type: ability
     file_dpath: Abilities/Conduit/4th-Level Features
-    xpath: "//section[@id='conduit']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '4th')] ] //blockquote | //section[@id='conduit'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '4th')]]//section[@class='level8']"
+    xpath: "//section[@id='conduit']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '4th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='conduit'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '4th')]]//section[@class='level8']"
   - header_path: conduit/5th-level-features
     type: feature/ability/conduit/5th-level-feature
     feature_type: ability
     file_dpath: Abilities/Conduit/5th-Level Features
-    xpath: "//section[@id='conduit']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '5th')] ] //blockquote | //section[@id='conduit'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '5th')]]//section[@class='level8']"
+    xpath: "//section[@id='conduit']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '5th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='conduit'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '5th')]]//section[@class='level8']"
   - header_path: conduit/6th-level-features
     type: feature/ability/conduit/6th-level-feature
     feature_type: ability
     file_dpath: Abilities/Conduit/6th-Level Features
-    xpath: "//section[@id='conduit']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '6th')] ] //blockquote | //section[@id='conduit'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '6th')]]//section[@class='level8']"
+    xpath: "//section[@id='conduit']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '6th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='conduit'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '6th')]]//section[@class='level8']"
   - header_path: conduit/7th-level-features
     type: feature/ability/conduit/7th-level-feature
     feature_type: ability
     file_dpath: Abilities/Conduit/7th-Level Features
-    xpath: "//section[@id='conduit']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '7th')] ] //blockquote | //section[@id='conduit'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '7th')]]//section[@class='level8']"
+    xpath: "//section[@id='conduit']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '7th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='conduit'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '7th')]]//section[@class='level8']"
   - header_path: conduit/8th-level-features
     type: feature/ability/conduit/8th-level-feature
     feature_type: ability
     file_dpath: Abilities/Conduit/8th-Level Features
-    xpath: "//section[@id='conduit']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '8th')] ] //blockquote | //section[@id='conduit'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '8th')]]//section[@class='level8']"
+    xpath: "//section[@id='conduit']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '8th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='conduit'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '8th')]]//section[@class='level8']"
   - header_path: conduit/9th-level-features
     type: feature/ability/conduit/9th-level-feature
     feature_type: ability
     file_dpath: Abilities/Conduit/9th-Level Features
-    xpath: "//section[@id='conduit']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '9th')] ] //blockquote | //section[@id='conduit'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '9th')]]//section[@class='level8']"
+    xpath: "//section[@id='conduit']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '9th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='conduit'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '9th')]]//section[@class='level8']"
   - header_path: conduit/10th-level-features
     type: feature/ability/conduit/10th-level-feature
     feature_type: ability
     file_dpath: Abilities/Conduit/10th-Level Features
-    xpath: "//section[@id='conduit']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '10th')] ] //blockquote | //section[@id='conduit'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '10th')]]//section[@class='level8']"
+    xpath: "//section[@id='conduit']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '10th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='conduit'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '10th')]]//section[@class='level8']"
 
   # Elementalist
   - header_path: elementalist/1st-level-features
     type: feature/ability/elementalist/1st-level-feature
     feature_type: ability
     file_dpath: Abilities/Elementalist/1st-Level Features
-    xpath: "//section[@id='elementalist']//section[starts-with(@id,'st-level-features')]//section/blockquote | //section[@id='elementalist']//section[starts-with(@id,'st-level-features')]//section[@class='level8']"
+    xpath: "//section[@id='elementalist']//section[starts-with(@id,'st-level-features')]//section/blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='elementalist']//section[starts-with(@id,'st-level-features')]//section[@class='level8']"
   - header_path: elementalist/2nd-level-features
     type: feature/ability/elementalist/2nd-level-feature
     feature_type: ability
     file_dpath: Abilities/Elementalist/2nd-Level Features
-    xpath: "//section[@id='elementalist']//section[starts-with(@id,'nd-level-features')]//section/blockquote | //section[@id='elementalist']//section[starts-with(@id,'nd-level-features')]//section[@class='level8']"
+    xpath: "//section[@id='elementalist']//section[starts-with(@id,'nd-level-features')]//section/blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='elementalist']//section[starts-with(@id,'nd-level-features')]//section[@class='level8']"
   - header_path: elementalist/3rd-level-features
     type: feature/ability/elementalist/3rd-level-feature
     feature_type: ability
     file_dpath: Abilities/Elementalist/3rd-Level Features
-    xpath: "//section[@id='elementalist']//section[starts-with(@id,'rd-level-features')]//section/blockquote | //section[@id='elementalist']//section[starts-with(@id,'rd-level-features')]//section[@class='level8']"
+    xpath: "//section[@id='elementalist']//section[starts-with(@id,'rd-level-features')]//section/blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='elementalist']//section[starts-with(@id,'rd-level-features')]//section[@class='level8']"
   - header_path: elementalist/4th-level-features
     type: feature/ability/elementalist/4th-level-feature
     feature_type: ability
     file_dpath: Abilities/Elementalist/4th-Level Features
-    xpath: "//section[@id='elementalist']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '4th')] ] //blockquote | //section[@id='elementalist'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '4th')]]//section[@class='level8']"
+    xpath: "//section[@id='elementalist']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '4th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='elementalist'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '4th')]]//section[@class='level8']"
   - header_path: elementalist/5th-level-features
     type: feature/ability/elementalist/5th-level-feature
     feature_type: ability
     file_dpath: Abilities/Elementalist/5th-Level Features
-    xpath: "//section[@id='elementalist']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '5th')] ] //blockquote | //section[@id='elementalist'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '5th')]]//section[@class='level8']"
+    xpath: "//section[@id='elementalist']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '5th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='elementalist'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '5th')]]//section[@class='level8']"
   - header_path: elementalist/6th-level-features
     type: feature/ability/elementalist/6th-level-feature
     feature_type: ability
     file_dpath: Abilities/Elementalist/6th-Level Features
-    xpath: "//section[@id='elementalist']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '6th')] ] //blockquote | //section[@id='elementalist'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '6th')]]//section[@class='level8']"
+    xpath: "//section[@id='elementalist']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '6th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='elementalist'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '6th')]]//section[@class='level8']"
   - header_path: elementalist/7th-level-features
     type: feature/ability/elementalist/7th-level-feature
     feature_type: ability
     file_dpath: Abilities/Elementalist/7th-Level Features
-    xpath: "//section[@id='elementalist']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '7th')] ] //blockquote | //section[@id='elementalist'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '7th')]]//section[@class='level8']"
+    xpath: "//section[@id='elementalist']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '7th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='elementalist'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '7th')]]//section[@class='level8']"
   - header_path: elementalist/8th-level-features
     type: feature/ability/elementalist/8th-level-feature
     feature_type: ability
     file_dpath: Abilities/Elementalist/8th-Level Features
-    xpath: "//section[@id='elementalist']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '8th')] ] //blockquote | //section[@id='elementalist'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '8th')]]//section[@class='level8']"
+    xpath: "//section[@id='elementalist']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '8th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='elementalist'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '8th')]]//section[@class='level8']"
   - header_path: elementalist/9th-level-features
     type: feature/ability/elementalist/9th-level-feature
     feature_type: ability
     file_dpath: Abilities/Elementalist/9th-Level Features
-    xpath: "//section[@id='elementalist']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '9th')] ] //blockquote | //section[@id='elementalist'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '9th')]]//section[@class='level8']"
+    xpath: "//section[@id='elementalist']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '9th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='elementalist'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '9th')]]//section[@class='level8']"
   - header_path: elementalist/10th-level-features
     type: feature/ability/elementalist/10th-level-feature
     feature_type: ability
     file_dpath: Abilities/Elementalist/10th-Level Features
-    xpath: "//section[@id='elementalist']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '10th')] ] //blockquote | //section[@id='elementalist'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '10th')]]//section[@class='level8']"
+    xpath: "//section[@id='elementalist']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '10th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='elementalist'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '10th')]]//section[@class='level8']"
 
   # Fury
   - header_path: fury/1st-level-features
     type: feature/ability/fury/1st-level-feature
     feature_type: ability
     file_dpath: Abilities/Fury/1st-Level Features
-    xpath: "//section[@id='fury']//section[starts-with(@id,'st-level-features')]//section/blockquote | //section[@id='fury']//section[starts-with(@id,'st-level-features')]//section[@class='level8']"
+    xpath: "//section[@id='fury']//section[starts-with(@id,'st-level-features')]//section/blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='fury']//section[starts-with(@id,'st-level-features')]//section[@class='level8']"
   - header_path: fury/2nd-level-features
     type: feature/ability/fury/2nd-level-feature
     feature_type: ability
     file_dpath: Abilities/Fury/2nd-Level Features
-    xpath: "//section[@id='fury']//section[starts-with(@id,'nd-level-features')]//section/blockquote | //section[@id='fury']//section[starts-with(@id,'nd-level-features')]//section[@class='level8']"
+    xpath: "//section[@id='fury']//section[starts-with(@id,'nd-level-features')]//section/blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='fury']//section[starts-with(@id,'nd-level-features')]//section[@class='level8']"
   - header_path: fury/3rd-level-features
     type: feature/ability/fury/3rd-level-feature
     feature_type: ability
     file_dpath: Abilities/Fury/3rd-Level Features
-    xpath: "//section[@id='fury']//section[starts-with(@id,'rd-level-features')]//section/blockquote | //section[@id='fury']//section[starts-with(@id,'rd-level-features')]//section[@class='level8']"
+    xpath: "//section[@id='fury']//section[starts-with(@id,'rd-level-features')]//section/blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='fury']//section[starts-with(@id,'rd-level-features')]//section[@class='level8']"
   - header_path: fury/4th-level-features
     type: feature/ability/fury/4th-level-feature
     feature_type: ability
     file_dpath: Abilities/Fury/4th-Level Features
-    xpath: "//section[@id='fury']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '4th')] ] //blockquote | //section[@id='fury'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '4th')]]//section[@class='level8']"
+    xpath: "//section[@id='fury']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '4th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='fury'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '4th')]]//section[@class='level8']"
   - header_path: fury/5th-level-features
     type: feature/ability/fury/5th-level-feature
     feature_type: ability
     file_dpath: Abilities/Fury/5th-Level Features
-    xpath: "//section[@id='fury']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '5th')] ] //blockquote | //section[@id='fury'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '5th')]]//section[@class='level8']"
+    xpath: "//section[@id='fury']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '5th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='fury'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '5th')]]//section[@class='level8']"
   - header_path: fury/6th-level-features
     type: feature/ability/fury/6th-level-feature
     feature_type: ability
     file_dpath: Abilities/Fury/6th-Level Features
-    xpath: "//section[@id='fury']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '6th')] ] //blockquote | //section[@id='fury'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '6th')]]//section[@class='level8']"
+    xpath: "//section[@id='fury']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '6th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='fury'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '6th')]]//section[@class='level8']"
   - header_path: fury/7th-level-features
     type: feature/ability/fury/7th-level-feature
     feature_type: ability
     file_dpath: Abilities/Fury/7th-Level Features
-    xpath: "//section[@id='fury']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '7th')] ] //blockquote | //section[@id='fury'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '7th')]]//section[@class='level8']"
+    xpath: "//section[@id='fury']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '7th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='fury'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '7th')]]//section[@class='level8']"
   - header_path: fury/8th-level-features
     type: feature/ability/fury/8th-level-feature
     feature_type: ability
     file_dpath: Abilities/Fury/8th-Level Features
-    xpath: "//section[@id='fury']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '8th')] ] //blockquote | //section[@id='fury'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '8th')]]//section[@class='level8']"
+    xpath: "//section[@id='fury']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '8th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='fury'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '8th')]]//section[@class='level8']"
   - header_path: fury/9th-level-features
     type: feature/ability/fury/9th-level-feature
     feature_type: ability
     file_dpath: Abilities/Fury/9th-Level Features
-    xpath: "//section[@id='fury']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '9th')] ] //blockquote | //section[@id='fury'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '9th')]]//section[@class='level8']"
+    xpath: "//section[@id='fury']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '9th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='fury'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '9th')]]//section[@class='level8']"
   - header_path: fury/10th-level-features
     type: feature/ability/fury/10th-level-feature
     feature_type: ability
     file_dpath: Abilities/Fury/10th-Level Features
-    xpath: "//section[@id='fury']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '10th')] ] //blockquote | //section[@id='fury'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '10th')]]//section[@class='level8']"
+    xpath: "//section[@id='fury']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '10th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='fury'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '10th')]]//section[@class='level8']"
 
   # Null
   - header_path: null/1st-level-features
     type: feature/ability/null/1st-level-feature
     feature_type: ability
     file_dpath: Abilities/Null/1st-Level Features
-    xpath: "//section[@id='null']//section[starts-with(@id,'st-level-features')]//section/blockquote | //section[@id='null']//section[starts-with(@id,'st-level-features')]//section[@class='level8']"
+    xpath: "//section[@id='null']//section[starts-with(@id,'st-level-features')]//section/blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='null']//section[starts-with(@id,'st-level-features')]//section[@class='level8']"
   - header_path: null/2nd-level-features
     type: feature/ability/null/2nd-level-feature
     feature_type: ability
     file_dpath: Abilities/Null/2nd-Level Features
-    xpath: "//section[@id='null']//section[starts-with(@id,'nd-level-features')]//section/blockquote | //section[@id='null']//section[starts-with(@id,'nd-level-features')]//section[@class='level8']"
+    xpath: "//section[@id='null']//section[starts-with(@id,'nd-level-features')]//section/blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='null']//section[starts-with(@id,'nd-level-features')]//section[@class='level8']"
   - header_path: null/3rd-level-features
     type: feature/ability/null/3rd-level-feature
     feature_type: ability
     file_dpath: Abilities/Null/3rd-Level Features
-    xpath: "//section[@id='null']//section[starts-with(@id,'rd-level-features')]//section/blockquote | //section[@id='null']//section[starts-with(@id,'rd-level-features')]//section[@class='level8']"
+    xpath: "//section[@id='null']//section[starts-with(@id,'rd-level-features')]//section/blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='null']//section[starts-with(@id,'rd-level-features')]//section[@class='level8']"
   - header_path: null/4th-level-features
     type: feature/ability/null/4th-level-feature
     feature_type: ability
     file_dpath: Abilities/Null/4th-Level Features
-    xpath: "//section[@id='null']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '4th')] ] //blockquote | //section[@id='null'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '4th')]]//section[@class='level8']"
+    xpath: "//section[@id='null']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '4th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='null'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '4th')]]//section[@class='level8']"
   - header_path: null/5th-level-features
     type: feature/ability/null/5th-level-feature
     feature_type: ability
     file_dpath: Abilities/Null/5th-Level Features
-    xpath: "//section[@id='null']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '5th')] ] //blockquote | //section[@id='null'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '5th')]]//section[@class='level8']"
+    xpath: "//section[@id='null']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '5th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='null'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '5th')]]//section[@class='level8']"
   - header_path: null/6th-level-features
     type: feature/ability/null/6th-level-feature
     feature_type: ability
     file_dpath: Abilities/Null/6th-Level Features
-    xpath: "//section[@id='null']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '6th')] ] //blockquote | //section[@id='null'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '6th')]]//section[@class='level8']"
+    xpath: "//section[@id='null']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '6th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='null'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '6th')]]//section[@class='level8']"
   - header_path: null/7th-level-features
     type: feature/ability/null/7th-level-feature
     feature_type: ability
     file_dpath: Abilities/Null/7th-Level Features
-    xpath: "//section[@id='null']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '7th')] ] //blockquote | //section[@id='null'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '7th')]]//section[@class='level8']"
+    xpath: "//section[@id='null']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '7th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='null'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '7th')]]//section[@class='level8']"
   - header_path: null/8th-level-features
     type: feature/ability/null/8th-level-feature
     feature_type: ability
     file_dpath: Abilities/Null/8th-Level Features
-    xpath: "//section[@id='null']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '8th')] ] //blockquote | //section[@id='null'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '8th')]]//section[@class='level8']"
+    xpath: "//section[@id='null']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '8th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='null'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '8th')]]//section[@class='level8']"
   - header_path: null/9th-level-features
     type: feature/ability/null/9th-level-feature
     feature_type: ability
     file_dpath: Abilities/Null/9th-Level Features
-    xpath: "//section[@id='null']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '9th')] ] //blockquote | //section[@id='null'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '9th')]]//section[@class='level8']"
+    xpath: "//section[@id='null']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '9th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='null'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '9th')]]//section[@class='level8']"
   - header_path: null/10th-level-features
     type: feature/ability/null/10th-level-feature
     feature_type: ability
     file_dpath: Abilities/Null/10th-Level Features
-    xpath: "//section[@id='null']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '10th')] ] //blockquote | //section[@id='null'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '10th')]]//section[@class='level8']"
+    xpath: "//section[@id='null']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '10th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='null'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '10th')]]//section[@class='level8']"
 
   # Shadow
   - header_path: shadow/1st-level-features
     type: feature/ability/shadow/1st-level-feature
     feature_type: ability
     file_dpath: Abilities/Shadow/1st-Level Features
-    xpath: "//section[@id='shadow']//section[starts-with(@id,'st-level-features')]//section/blockquote | //section[@id='shadow']//section[starts-with(@id,'st-level-features')]//section[@class='level8']"
+    xpath: "//section[@id='shadow']//section[starts-with(@id,'st-level-features')]//section/blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='shadow']//section[starts-with(@id,'st-level-features')]//section[@class='level8']"
   - header_path: shadow/2nd-level-features
     type: feature/ability/shadow/2nd-level-feature
     feature_type: ability
     file_dpath: Abilities/Shadow/2nd-Level Features
-    xpath: "//section[@id='shadow']//section[starts-with(@id,'nd-level-features')]//section/blockquote | //section[@id='shadow']//section[starts-with(@id,'nd-level-features')]//section[@class='level8']"
+    xpath: "//section[@id='shadow']//section[starts-with(@id,'nd-level-features')]//section/blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='shadow']//section[starts-with(@id,'nd-level-features')]//section[@class='level8']"
   - header_path: shadow/3rd-level-features
     type: feature/ability/shadow/3rd-level-feature
     feature_type: ability
     file_dpath: Abilities/Shadow/3rd-Level Features
-    xpath: "//section[@id='shadow']//section[starts-with(@id,'rd-level-features')]//section/blockquote | //section[@id='shadow']//section[starts-with(@id,'rd-level-features')]//section[@class='level8']"
+    xpath: "//section[@id='shadow']//section[starts-with(@id,'rd-level-features')]//section/blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='shadow']//section[starts-with(@id,'rd-level-features')]//section[@class='level8']"
   - header_path: shadow/4th-level-features
     type: feature/ability/shadow/4th-level-feature
     feature_type: ability
     file_dpath: Abilities/Shadow/4th-Level Features
-    xpath: "//section[@id='shadow']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '4th')] ] //blockquote | //section[@id='shadow'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '4th')]]//section[@class='level8']"
+    xpath: "//section[@id='shadow']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '4th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='shadow'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '4th')]]//section[@class='level8']"
   - header_path: shadow/5th-level-features
     type: feature/ability/shadow/5th-level-feature
     feature_type: ability
     file_dpath: Abilities/Shadow/5th-Level Features
-    xpath: "//section[@id='shadow']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '5th')] ] //blockquote | //section[@id='shadow'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '5th')]]//section[@class='level8']"
+    xpath: "//section[@id='shadow']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '5th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='shadow'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '5th')]]//section[@class='level8']"
   - header_path: shadow/6th-level-features
     type: feature/ability/shadow/6th-level-feature
     feature_type: ability
     file_dpath: Abilities/Shadow/6th-Level Features
-    xpath: "//section[@id='shadow']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '6th')] ] //blockquote | //section[@id='shadow'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '6th')]]//section[@class='level8']"
+    xpath: "//section[@id='shadow']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '6th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='shadow'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '6th')]]//section[@class='level8']"
   - header_path: shadow/7th-level-features
     type: feature/ability/shadow/7th-level-feature
     feature_type: ability
     file_dpath: Abilities/Shadow/7th-Level Features
-    xpath: "//section[@id='shadow']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '7th')] ] //blockquote | //section[@id='shadow'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '7th')]]//section[@class='level8']"
+    xpath: "//section[@id='shadow']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '7th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='shadow'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '7th')]]//section[@class='level8']"
   - header_path: shadow/8th-level-features
     type: feature/ability/shadow/8th-level-feature
     feature_type: ability
     file_dpath: Abilities/Shadow/8th-Level Features
-    xpath: "//section[@id='shadow']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '8th')] ] //blockquote | //section[@id='shadow'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '8th')]]//section[@class='level8']"
+    xpath: "//section[@id='shadow']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '8th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='shadow'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '8th')]]//section[@class='level8']"
   - header_path: shadow/9th-level-features
     type: feature/ability/shadow/9th-level-feature
     feature_type: ability
     file_dpath: Abilities/Shadow/9th-Level Features
-    xpath: "//section[@id='shadow']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '9th')] ] //blockquote | //section[@id='shadow'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '9th')]]//section[@class='level8']"
+    xpath: "//section[@id='shadow']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '9th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='shadow'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '9th')]]//section[@class='level8']"
   - header_path: shadow/10th-level-features
     type: feature/ability/shadow/10th-level-feature
     feature_type: ability
     file_dpath: Abilities/Shadow/10th-Level Features
-    xpath: "//section[@id='shadow']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '10th')] ] //blockquote | //section[@id='shadow'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '10th')]]//section[@class='level8']"
+    xpath: "//section[@id='shadow']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '10th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='shadow'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '10th')]]//section[@class='level8']"
 
   # Tactician
   - header_path: tactician/1st-level-features
     type: feature/ability/tactician/1st-level-feature
     feature_type: ability
     file_dpath: Abilities/Tactician/1st-Level Features
-    xpath: "//section[@id='tactician']//section[starts-with(@id,'st-level-features')]//section/blockquote | //section[@id='tactician']//section[starts-with(@id,'st-level-features')]//section[@class='level8']"
+    xpath: "//section[@id='tactician']//section[starts-with(@id,'st-level-features')]//section/blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='tactician']//section[starts-with(@id,'st-level-features')]//section[@class='level8']"
   - header_path: tactician/2nd-level-features
     type: feature/ability/tactician/2nd-level-feature
     feature_type: ability
     file_dpath: Abilities/Tactician/2nd-Level Features
-    xpath: "//section[@id='tactician']//section[starts-with(@id,'nd-level-features')]//section/blockquote | //section[@id='tactician']//section[starts-with(@id,'nd-level-features')]//section[@class='level8']"
+    xpath: "//section[@id='tactician']//section[starts-with(@id,'nd-level-features')]//section/blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='tactician']//section[starts-with(@id,'nd-level-features')]//section[@class='level8']"
   - header_path: tactician/3rd-level-features
     type: feature/ability/tactician/3rd-level-feature
     feature_type: ability
     file_dpath: Abilities/Tactician/3rd-Level Features
-    xpath: "//section[@id='tactician']//section[starts-with(@id,'rd-level-features')]//section/blockquote | //section[@id='tactician']//section[starts-with(@id,'rd-level-features')]//section[@class='level8']"
+    xpath: "//section[@id='tactician']//section[starts-with(@id,'rd-level-features')]//section/blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='tactician']//section[starts-with(@id,'rd-level-features')]//section[@class='level8']"
   - header_path: tactician/4th-level-features
     type: feature/ability/tactician/4th-level-feature
     feature_type: ability
     file_dpath: Abilities/Tactician/4th-Level Features
-    xpath: "//section[@id='tactician']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '4th')] ] //blockquote | //section[@id='tactician'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '4th')]]//section[@class='level8']"
+    xpath: "//section[@id='tactician']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '4th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='tactician'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '4th')]]//section[@class='level8']"
   - header_path: tactician/5th-level-features
     type: feature/ability/tactician/5th-level-feature
     feature_type: ability
     file_dpath: Abilities/Tactician/5th-Level Features
-    xpath: "//section[@id='tactician']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '5th')] ] //blockquote | //section[@id='tactician'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '5th')]]//section[@class='level8']"
+    xpath: "//section[@id='tactician']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '5th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='tactician'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '5th')]]//section[@class='level8']"
   - header_path: tactician/6th-level-features
     type: feature/ability/tactician/6th-level-feature
     feature_type: ability
     file_dpath: Abilities/Tactician/6th-Level Features
-    xpath: "//section[@id='tactician']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '6th')] ] //blockquote | //section[@id='tactician'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '6th')]]//section[@class='level8']"
+    xpath: "//section[@id='tactician']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '6th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='tactician'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '6th')]]//section[@class='level8']"
   - header_path: tactician/7th-level-features
     type: feature/ability/tactician/7th-level-feature
     feature_type: ability
     file_dpath: Abilities/Tactician/7th-Level Features
-    xpath: "//section[@id='tactician']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '7th')] ] //blockquote | //section[@id='tactician'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '7th')]]//section[@class='level8']"
+    xpath: "//section[@id='tactician']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '7th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='tactician'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '7th')]]//section[@class='level8']"
   - header_path: tactician/8th-level-features
     type: feature/ability/tactician/8th-level-feature
     feature_type: ability
     file_dpath: Abilities/Tactician/8th-Level Features
-    xpath: "//section[@id='tactician']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '8th')] ] //blockquote | //section[@id='tactician'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '8th')]]//section[@class='level8']"
+    xpath: "//section[@id='tactician']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '8th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='tactician'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '8th')]]//section[@class='level8']"
   - header_path: tactician/9th-level-features
     type: feature/ability/tactician/9th-level-feature
     feature_type: ability
     file_dpath: Abilities/Tactician/9th-Level Features
-    xpath: "//section[@id='tactician']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '9th')] ] //blockquote | //section[@id='tactician'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '9th')]]//section[@class='level8']"
+    xpath: "//section[@id='tactician']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '9th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='tactician'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '9th')]]//section[@class='level8']"
   - header_path: tactician/10th-level-features
     type: feature/ability/tactician/10th-level-feature
     feature_type: ability
     file_dpath: Abilities/Tactician/10th-Level Features
-    xpath: "//section[@id='tactician']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '10th')] ] //blockquote | //section[@id='tactician'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '10th')]]//section[@class='level8']"
+    xpath: "//section[@id='tactician']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '10th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='tactician'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '10th')]]//section[@class='level8']"
 
   # Talent
   - header_path: talent/1st-level-features
     type: feature/ability/talent/1st-level-feature
     feature_type: ability
     file_dpath: Abilities/Talent/1st-Level Features
-    xpath: "//section[@id='talent']//section[starts-with(@id,'st-level-features')]//section/blockquote | //section[@id='talent']//section[starts-with(@id,'st-level-features')]//section[@class='level8']"
+    xpath: "//section[@id='talent']//section[starts-with(@id,'st-level-features')]//section/blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='talent']//section[starts-with(@id,'st-level-features')]//section[@class='level8']"
   - header_path: talent/2nd-level-features
     type: feature/ability/talent/2nd-level-feature
     feature_type: ability
     file_dpath: Abilities/Talent/2nd-Level Features
-    xpath: "//section[@id='talent']//section[starts-with(@id,'nd-level-features')]//section/blockquote | //section[@id='talent']//section[starts-with(@id,'nd-level-features')]//section[@class='level8']"
+    xpath: "//section[@id='talent']//section[starts-with(@id,'nd-level-features')]//section/blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='talent']//section[starts-with(@id,'nd-level-features')]//section[@class='level8']"
   - header_path: talent/3rd-level-features
     type: feature/ability/talent/3rd-level-feature
     feature_type: ability
     file_dpath: Abilities/Talent/3rd-Level Features
-    xpath: "//section[@id='talent']//section[starts-with(@id,'rd-level-features')]//section/blockquote | //section[@id='talent']//section[starts-with(@id,'rd-level-features')]//section[@class='level8']"
+    xpath: "//section[@id='talent']//section[starts-with(@id,'rd-level-features')]//section/blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='talent']//section[starts-with(@id,'rd-level-features')]//section[@class='level8']"
   - header_path: talent/4th-level-features
     type: feature/ability/talent/4th-level-feature
     feature_type: ability
     file_dpath: Abilities/Talent/4th-Level Features
-    xpath: "//section[@id='talent']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '4th')] ] //blockquote | //section[@id='talent'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '4th')]]//section[@class='level8']"
+    xpath: "//section[@id='talent']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '4th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='talent'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '4th')]]//section[@class='level8']"
   - header_path: talent/5th-level-features
     type: feature/ability/talent/5th-level-feature
     feature_type: ability
     file_dpath: Abilities/Talent/5th-Level Features
-    xpath: "//section[@id='talent']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '5th')] ] //blockquote | //section[@id='talent'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '5th')]]//section[@class='level8']"
+    xpath: "//section[@id='talent']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '5th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='talent'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '5th')]]//section[@class='level8']"
   - header_path: talent/6th-level-features
     type: feature/ability/talent/6th-level-feature
     feature_type: ability
     file_dpath: Abilities/Talent/6th-Level Features
-    xpath: "//section[@id='talent']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '6th')] ] //blockquote | //section[@id='talent'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '6th')]]//section[@class='level8']"
+    xpath: "//section[@id='talent']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '6th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='talent'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '6th')]]//section[@class='level8']"
   - header_path: talent/7th-level-features
     type: feature/ability/talent/7th-level-feature
     feature_type: ability
     file_dpath: Abilities/Talent/7th-Level Features
-    xpath: "//section[@id='talent']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '7th')] ] //blockquote | //section[@id='talent'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '7th')]]//section[@class='level8']"
+    xpath: "//section[@id='talent']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '7th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='talent'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '7th')]]//section[@class='level8']"
   - header_path: talent/8th-level-features
     type: feature/ability/talent/8th-level-feature
     feature_type: ability
     file_dpath: Abilities/Talent/8th-Level Features
-    xpath: "//section[@id='talent']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '8th')] ] //blockquote | //section[@id='talent'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '8th')]]//section[@class='level8']"
+    xpath: "//section[@id='talent']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '8th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='talent'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '8th')]]//section[@class='level8']"
   - header_path: talent/9th-level-features
     type: feature/ability/talent/9th-level-feature
     feature_type: ability
     file_dpath: Abilities/Talent/9th-Level Features
-    xpath: "//section[@id='talent']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '9th')] ] //blockquote | //section[@id='talent'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '9th')]]//section[@class='level8']"
+    xpath: "//section[@id='talent']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '9th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='talent'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '9th')]]//section[@class='level8']"
   - header_path: talent/10th-level-features
     type: feature/ability/talent/10th-level-feature
     feature_type: ability
     file_dpath: Abilities/Talent/10th-Level Features
-    xpath: "//section[@id='talent']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '10th')] ] //blockquote | //section[@id='talent'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '10th')]]//section[@class='level8']"
+    xpath: "//section[@id='talent']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '10th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='talent'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '10th')]]//section[@class='level8']"
 
   # Troubadour
   - header_path: troubadour/1st-level-features
     type: feature/ability/troubadour/1st-level-feature
     feature_type: ability
     file_dpath: Abilities/Troubadour/1st-Level Features
-    xpath: "//section[@id='troubadour']//section[starts-with(@id,'st-level-features')]//section/blockquote | //section[@id='troubadour']//section[starts-with(@id,'st-level-features')]//section[@class='level8']"
+    xpath: "//section[@id='troubadour']//section[starts-with(@id,'st-level-features')]//section/blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='troubadour']//section[starts-with(@id,'st-level-features')]//section[@class='level8']"
   - header_path: troubadour/2nd-level-features
     type: feature/ability/troubadour/2nd-level-feature
     feature_type: ability
     file_dpath: Abilities/Troubadour/2nd-Level Features
-    xpath: "//section[@id='troubadour']//section[starts-with(@id,'nd-level-features')]//section/blockquote | //section[@id='troubadour']//section[starts-with(@id,'nd-level-features')]//section[@class='level8']"
+    xpath: "//section[@id='troubadour']//section[starts-with(@id,'nd-level-features')]//section/blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='troubadour']//section[starts-with(@id,'nd-level-features')]//section[@class='level8']"
   - header_path: troubadour/3rd-level-features
     type: feature/ability/troubadour/3rd-level-feature
     feature_type: ability
     file_dpath: Abilities/Troubadour/3rd-Level Features
-    xpath: "//section[@id='troubadour']//section[starts-with(@id,'rd-level-features')]//section/blockquote | //section[@id='troubadour']//section[starts-with(@id,'rd-level-features')]//section[@class='level8']"
+    xpath: "//section[@id='troubadour']//section[starts-with(@id,'rd-level-features')]//section/blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='troubadour']//section[starts-with(@id,'rd-level-features')]//section[@class='level8']"
   - header_path: troubadour/4th-level-features
     type: feature/ability/troubadour/4th-level-feature
     feature_type: ability
     file_dpath: Abilities/Troubadour/4th-Level Features
-    xpath: "//section[@id='troubadour']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '4th')] ] //blockquote | //section[@id='troubadour'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '4th')]]//section[@class='level8']"
+    xpath: "//section[@id='troubadour']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '4th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='troubadour'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '4th')]]//section[@class='level8']"
   - header_path: troubadour/5th-level-features
     type: feature/ability/troubadour/5th-level-feature
     feature_type: ability
     file_dpath: Abilities/Troubadour/5th-Level Features
-    xpath: "//section[@id='troubadour']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '5th')] ] //blockquote | //section[@id='troubadour'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '5th')]]//section[@class='level8']"
+    xpath: "//section[@id='troubadour']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '5th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='troubadour'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '5th')]]//section[@class='level8']"
   - header_path: troubadour/6th-level-features
     type: feature/ability/troubadour/6th-level-feature
     feature_type: ability
     file_dpath: Abilities/Troubadour/6th-Level Features
-    xpath: "//section[@id='troubadour']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '6th')] ] //blockquote | //section[@id='troubadour'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '6th')]]//section[@class='level8']"
+    xpath: "//section[@id='troubadour']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '6th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='troubadour'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '6th')]]//section[@class='level8']"
   - header_path: troubadour/7th-level-features
     type: feature/ability/troubadour/7th-level-feature
     feature_type: ability
     file_dpath: Abilities/Troubadour/7th-Level Features
-    xpath: "//section[@id='troubadour']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '7th')] ] //blockquote | //section[@id='troubadour'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '7th')]]//section[@class='level8']"
+    xpath: "//section[@id='troubadour']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '7th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='troubadour'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '7th')]]//section[@class='level8']"
   - header_path: troubadour/8th-level-features
     type: feature/ability/troubadour/8th-level-feature
     feature_type: ability
     file_dpath: Abilities/Troubadour/8th-Level Features
-    xpath: "//section[@id='troubadour']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '8th')] ] //blockquote | //section[@id='troubadour'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '8th')]]//section[@class='level8']"
+    xpath: "//section[@id='troubadour']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '8th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='troubadour'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '8th')]]//section[@class='level8']"
   - header_path: troubadour/9th-level-features
     type: feature/ability/troubadour/9th-level-feature
     feature_type: ability
     file_dpath: Abilities/Troubadour/9th-Level Features
-    xpath: "//section[@id='troubadour']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '9th')] ] //blockquote | //section[@id='troubadour'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '9th')]]//section[@class='level8']"
+    xpath: "//section[@id='troubadour']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '9th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='troubadour'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '9th')]]//section[@class='level8']"
   - header_path: troubadour/10th-level-features
     type: feature/ability/troubadour/10th-level-feature
     feature_type: ability
     file_dpath: Abilities/Troubadour/10th-Level Features
-    xpath: "//section[@id='troubadour']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '10th')] ] //blockquote | //section[@id='troubadour'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '10th')]]//section[@class='level8']"
+    xpath: "//section[@id='troubadour']//section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '10th')] ] //blockquote[ *[1][self::p[@class='heading']] ] | //section[@id='troubadour'] //section[starts-with(@id,'th-level-features')][.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p][contains(normalize-space(.), '10th')]]//section[@class='level8']"
