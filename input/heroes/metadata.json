@@ -1330,5 +1330,113 @@
   },
   "mcdm.heroes.v1:feature.ability.talent.1st-level-feature:entropic-bolt": {
     "ability_type": "Signature"
+  },
+  "mcdm.heroes.v1:feature.trait.elementalist.1st-level-feature:a-beyonding-of-vision": {
+    "subclass": "Void"
+  },
+  "mcdm.heroes.v1:feature.trait.elementalist.8th-level-feature:source-of-earth-statblock": {
+    "subclass": "Earth"
+  },
+  "mcdm.heroes.v1:feature.trait.elementalist.3rd-level-feature:remember-growth-and-sun-and-rain": {
+    "subclass": "Green"
+  },
+  "mcdm.heroes.v1:feature.trait.elementalist.3rd-level-feature:earth-accepts-me": {
+    "subclass": "Earth"
+  },
+  "mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:hands-of-the-maker": {
+    "subclass": "Creation"
+  },
+  "mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:revitalizing-ritual": {
+    "subclass": "Life"
+  },
+  "mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:faithful-friend": {
+    "subclass": "Nature"
+  },
+  "mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:grave-speech": {
+    "subclass": "Death"
+  },
+  "mcdm.heroes.v1:feature.trait.conduit.7th-level-feature:gods-library": {
+    "subclass": "Knowledge"
+  },
+  "mcdm.heroes.v1:feature.trait.conduit.7th-level-feature:font-of-grace": {
+    "subclass": "Life"
+  },
+  "mcdm.heroes.v1:feature.trait.conduit.7th-level-feature:trinity-of-trickery": {
+    "subclass": "Trickery"
+  },
+  "mcdm.heroes.v1:feature.trait.conduit.7th-level-feature:covenant-of-the-heart": {
+    "subclass": "Love"
+  },
+  "mcdm.heroes.v1:feature.trait.conduit.7th-level-feature:natures-bounty": {
+    "subclass": "Nature"
+  },
+  "mcdm.heroes.v1:feature.trait.conduit.7th-level-feature:word-of-death-deferred": {
+    "subclass": "Death"
+  },
+  "mcdm.heroes.v1:feature.trait.conduit.4th-level-feature:blessing-of-secrets": {
+    "subclass": "Trickery"
+  },
+  "mcdm.heroes.v1:feature.trait.censor.1st-level-feature:revitalizing-ritual": {
+    "subclass": "Life"
+  },
+  "mcdm.heroes.v1:feature.trait.censor.1st-level-feature:faithful-friend": {
+    "subclass": "Nature"
+  },
+  "mcdm.heroes.v1:feature.trait.censor.7th-level-feature:your-triumphs-are-remembered": {
+    "subclass": "War"
+  },
+  "mcdm.heroes.v1:feature.trait.censor.7th-level-feature:word-of-fate-denied": {
+    "subclass": "Fate"
+  },
+  "mcdm.heroes.v1:feature.trait.censor.7th-level-feature:blessing-of-iron": {
+    "subclass": "Protection"
+  },
+  "mcdm.heroes.v1:feature.trait.censor.7th-level-feature:trinity-of-trickery": {
+    "subclass": "Trickery"
+  },
+  "mcdm.heroes.v1:feature.trait.censor.7th-level-feature:ride-the-lightning": {
+    "subclass": "Storm"
+  },
+  "mcdm.heroes.v1:feature.trait.censor.7th-level-feature:covenant-of-the-heart": {
+    "subclass": "Love"
+  },
+  "mcdm.heroes.v1:feature.trait.censor.7th-level-feature:light-of-the-burning-sun": {
+    "subclass": "Sun"
+  },
+  "mcdm.heroes.v1:feature.trait.censor.7th-level-feature:divine-quartermaster": {
+    "subclass": "Creation"
+  },
+  "mcdm.heroes.v1:feature.trait.troubadour.1st-level-feature:acrobatics": {
+    "subclass": "Duelist"
+  },
+  "mcdm.heroes.v1:feature.trait.troubadour.1st-level-feature:star-power": {
+    "subclass": "Duelist"
+  },
+  "mcdm.heroes.v1:feature.trait.troubadour.1st-level-feature:power-chord": {
+    "subclass": "Virtuoso"
+  },
+  "mcdm.heroes.v1:feature.trait.troubadour.1st-level-feature:virtuoso-performances": {
+    "subclass": "Virtuoso"
+  },
+  "mcdm.heroes.v1:feature.trait.troubadour.1st-level-feature:dramatic-monologue": {
+    "subclass": "Auteur"
+  },
+  "mcdm.heroes.v1:feature.trait.troubadour.1st-level-feature:blocking": {
+    "subclass": "Auteur"
+  },
+  "mcdm.heroes.v1:feature.trait.troubadour.8th-level-feature:crowd-favorites": {
+    "subclass": "Virtuoso"
+  },
+  "mcdm.heroes.v1:feature.trait.troubadour.5th-level-feature:we-cant-be-upstaged": {
+    "subclass": "Duelist"
+  },
+  "mcdm.heroes.v1:feature.trait.troubadour.5th-level-feature:take-two": {
+    "subclass": "Auteur"
+  },
+  "mcdm.heroes.v1:feature.trait.troubadour.3rd-level-feature:second-album": {
+    "subclass": "Virtuoso"
+  },
+  "mcdm.heroes.v1:feature.trait.shadow.8th-level-feature:time-bomb": {
+    "subclass": "Caustic Alchemy"
   }
 }
