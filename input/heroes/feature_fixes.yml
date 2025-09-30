@@ -64,18 +64,17 @@ sections:
       concat('blessing-of-secrets-3', '-')), '0123456789', '')))]
 
   # Because these are in the form `.* (.*)` the code thinks they are abilities, but they are not
-  # TODO - I think this needs to be removed.  These are features, not abilities
   - source: mcdm.heroes.v1
     header_path: null/7th-level-features/psi-boost
     item_name: Psi Boost
     type: feature/trait/null/7th-level-feature
     feature_type: trait
-    file_dpath: Abilities/Null/7th-Level Features
+    file_dpath: Features/Null/7th-Level Features
     xpath: "//section[@id='null']//section[@id='psi-boost']"
   - source: mcdm.heroes.v1
     header_path: talent/6th-level-features/psi-boost-1
     item_name: Psi Boost
     type: feature/trait/talent/6th-level-feature
     feature_type: trait
-    file_dpath: Abilities/Talent/6th-Level Features
+    file_dpath: Features/Talent/6th-Level Features
     xpath: "//section[@id='talent']//section[@id='psi-boost-1']"
