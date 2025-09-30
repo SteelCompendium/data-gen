@@ -64,6 +64,7 @@ sections:
       concat('blessing-of-secrets-3', '-')), '0123456789', '')))]
 
   # Because these are in the form `.* (.*)` the code thinks they are abilities, but they are not
+  # TODO - I think this needs to be removed.  These are features, not abilities
   - source: mcdm.heroes.v1
     header_path: null/7th-level-features/psi-boost
     item_name: Psi Boost
