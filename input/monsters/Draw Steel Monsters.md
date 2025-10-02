@@ -1990,7 +1990,7 @@ At the start of any angulotl's turn, you can spend Malice to activate one of the
 > **Angulotl Sample Encounters**
 >
 > - **Clawfish Ranchers, 18 EV:** Twelve clawfish, four pollywogs, two needlers
-> - **Homeguard Scouts, 24 EV:** Sixteen cleavers, eight darts, one needler, two slinks
+> - **Homeguard Scouts, 27 EV:** Sixteen cleavers, eight darts, one needler, two slinks
 > - **Corrupted Clutch, 34 EV:** Eight clawfish, twelve cleavers, eight pollywogs, one needler, two slinks, one wave
 > - **Angulotl Assault Squad, 48 EV:** Eight clawfish, twelve cleavers, twelve darts, two needlers, two slinks, one daybringer
 
@@ -2275,6 +2275,8 @@ The animal gains the following ability.
 > | **Area, Weapon**       |                     **Maneuver** |
 > |------------------------|---------------------------------:|
 > | **📏 3 cube within 1** | **🎯 Each creature in the area** |
+>
+> **Power Roll + highest characteristic:**
 >
 > - **≤11:** A < 0 restrained (save ends)
 > - **12-16:** A < 1 restrained (save ends)
@@ -10923,7 +10925,7 @@ Stronger and smarter than their beastly counterparts, abyssal hyenas crawl out o
 
 #### Tusker Demons
 
-Towering among the gnolls of a war band, the elephantine tusker demon serves as beast of burden and war machine. Tusker demons have no facial features except a twisted crown of tusks that surrounds their ravening maw. Although they usually follow gnoll commands, tuskers in lethe (see the Demons section) are prone to violent outbursts and charge at anything that moves—enemies and allies alike.
+Towering among the gnolls of a war band, the elephantine tusker demon serves as beast of burden and war machine. Tusker demons have no facial features except a twisted crown of tusks that surrounds their ravening maw. Although they usually follow gnoll commands, tuskers in lethe (see the [Demons] section) are prone to violent outbursts and charge at anything that moves—enemies and allies alike.
 
 #### Gnoll Languages
 
@@ -13055,7 +13057,7 @@ At the start of any human's turn, you can spend Malice to activate one of the fo
 |             Human, Humanoid             |         -         |     Level 1      |             Minion Brute              | EV 3 for four minions |
 |:---------------------------------------:|:-----------------:|:----------------:|:-------------------------------------:|:---------------------:|
 |             **1M**<br>Size              |  **5**<br>Speed   | **5**<br>Stamina |          **0**<br>Stability           | **2**<br>Free Strike  |
-| **Corruption 1, psychic 1**<br>Immunity | **-**<br>Movement |        -         | **+5 bonus to speed**<br>With Captain |   **-**<br>Weakness   |
+| **Corruption 1, psychic 1**<br>Immunity | **-**<br>Movement |        -         | **+2 bonus to speed**<br>With Captain |   **-**<br>Weakness   |
 |             **+2**<br>Might             | **0**<br>Agility  | **0**<br>Reason  |          **0**<br>Intuition           |   **0**<br>Presence   |
 
 > 🗡 **Halberd (Signature Ability)**
@@ -13356,7 +13358,7 @@ At the start of any human's turn, you can spend Malice to activate one of the fo
 > |------------------|------------------------------:|
 > | **📏 1 burst**   | **🎯 Each enemy in the area** |
 >
-> **Power Roll + 2:**
+> **Power Roll + 3:**
 >
 > - **≤11:** 3 damage; M < 1 slowed (save ends)
 > - **12-16:** 6 damage; M < 2 slowed (save ends)
@@ -13430,7 +13432,7 @@ At the start of any human's turn, you can spend Malice to activate one of the fo
 > |----------------------------------|------------------------------:|
 > | **📏 Melee 2**                   | **🎯 Two enemies or objects** |
 >
-> **Power Roll + 2:**
+> **Power Roll + 3:**
 >
 > - **≤11:** 8 damage; pull 1
 > - **12-16:** 12 damage; pull 2
@@ -13446,7 +13448,7 @@ At the start of any human's turn, you can spend Malice to activate one of the fo
 > |----------------|-----------------:|
 > | **📏 Melee 1** | **🎯 One enemy** |
 >
-> **Power Roll + 2:**
+> **Power Roll + 3:**
 >
 > - **≤11:** Push 1; M < 1 prone
 > - **12-16:** Push 2; M < 2 prone
@@ -13964,7 +13966,7 @@ At the start of any kobolds's turn, you can spend Malice to activate one of the 
 >
 > | **Melee, Strike, Weapon** |               **Main action** |
 > |---------------------------|------------------------------:|
-> | **📏 Melee 5**            | **🎯 One creature or object** |
+> | **📏 Melee 1**            | **🎯 One creature or object** |
 >
 > **Power Roll + 2:**
 >
@@ -14133,8 +14135,6 @@ At the start of any kobolds's turn, you can spend Malice to activate one of the 
 > | **📏 Ranged 10** | **🎯 One enemy** |
 >
 > **Effect:** Until the start of the centurion's next turn, the centurion and their allies gain an edge on power rolls against the target.
->
-> **3+ Malice:** This ability targets one additional target for each 3 Malice spent.
 
 > ❗️ **Testudo!**
 >
@@ -14230,7 +14230,7 @@ At the start of any kobolds's turn, you can spend Malice to activate one of the 
 >
 > When the drangolin burrows, each adjacent size 1S or smaller ally can move with them.
 
-## Lightbender
+## Lightbenders
 
 Lightbenders prowl deserts, plains, forests—any sunbathed wilderness where they can take advantage of the adaptations that make them skilled daylight predators. This monstrous creature's fur bends and refracts light from the surrounding environment, producing mirages that distract and confuse their prey.
 
@@ -14352,7 +14352,7 @@ At the start of any lightbender's turn, you can spend Malice to activate one of 
 >
 > **Effect:** The pouncer can make a free strike against each target they knock prone.
 
-> ❇️ **Sparking Tail Whip**
+> ❇️ **Sparkling Tail Whip**
 >
 > | **Area, Magic** |                          **Main action** |
 > |-----------------|-----------------------------------------:|
@@ -14682,7 +14682,7 @@ At the start of any lizardfolk's turn, you can spend Malice to activate one of t
 > |---------------------------|--------------------------------------:|
 > | **📏 Melee 1**            | **🎯 One grabbed creature or object** |
 >
-> **Power Roll + 2:**
+> **Power Roll + 3:**
 >
 > - **≤11:** 8 damage; M < 1 dazed (save ends)
 > - **12-16:** 12 damage; M < 2 dazed (save ends)
@@ -14897,7 +14897,7 @@ Hunted as monsters with no thought given to their nature or origin, medusas are 
 
 When a powerful mortal defies a god for good or for ill, agents of that deity might curse them to live as a medusa. The offender's skin and eyes become reptilian, and a nest of black venomous snakes replaces their hair. When the medusa wishes, beams from their eyes can slowly petrify others to stone.
 
-Followers of the gods who imposes this punishment spread terrifying myths about medusas, causing mortals to attack and shun them. This often drives medusas into solitude, or to places haunted by creatures who don't judge them based on mere appearance and horror stories. Many medusas plot ways to break their curse, searching for lost healing rituals or secrets to use against the gods who cursed them. Others embrace their new gifts, building stone gardens of the aggressors who foolishly hunted or harmed them.
+Followers of the gods who impose this punishment spread terrifying myths about medusas, causing mortals to attack and shun them. This often drives medusas into solitude, or to places haunted by creatures who don't judge them based on mere appearance and horror stories. Many medusas plot ways to break their curse, searching for lost healing rituals or secrets to use against the gods who cursed them. Others embrace their new gifts, building stone gardens of the aggressors who foolishly hunted or harmed them.
 
 #### Petrification
 
@@ -15497,7 +15497,7 @@ At the start of any ogre's turn, you can spend Malice to activate one of the fol
 
 > ⭐️ **Destructive Path**
 >
-> The juggernaut automatically destroys any mundane size 1 objects in their path when they move or are forced moved. They can break through any mundane wall made of wood, stone, or a similarly sturdy material this way as long as the wall is 2 squares thick or less.
+> The juggernaut automatically destroys any mundane size 1 objects in their path when they move or are force moved. They can break through any mundane wall made of wood, stone, or a similarly sturdy material this way as long as the wall is 2 squares thick or less.
 
 > ⭐️ **Defiant Anger**
 >
@@ -15663,7 +15663,7 @@ At the start of an olothec's turn, you can spend Malice to activate one of the f
 
 ####### Olothec
 
-|      Horror, Olothec      |             -             |      Level 6       |         Solo          |        EV 84         |
+|      Horror, Olothec      |             -             |      Level 6       |         Solo          |        EV 96         |
 |:-------------------------:|:-------------------------:|:------------------:|:---------------------:|:--------------------:|
 |       **2**<br>Size       |      **7**<br>Speed       | **450**<br>Stamina |  **0**<br>Stability   | **7**<br>Free Strike |
 | **Psychic 6**<br>Immunity | **Fly, swim**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
@@ -15967,7 +15967,7 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 2 damage;
+> - **≤11:** 2 damage
 > - **12-16:** 4 damage; push 3
 > - **17+:** 5 damage; push 3 or prone
 >
@@ -16057,7 +16057,7 @@ At the start of any orc's turn, you can spend Malice to activate one of the foll
 |:-----------------------------------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
 |              **1M**<br>Size               |  **6**<br>Speed   | **20**<br>Stamina |  **0**<br>Stability   | **4**<br>Free Strike |
 | **Cold, fire, or lightning**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
-|              **+1**<br>Might              | **+1**<br>Agility | **+0**<br>Reason  |  **+0**<br>Intuition  |  **-2**<br>Presence  |
+|              **+1**<br>Might              | **+1**<br>Agility | **+0**<br>Reason  |  **+0**<br>Intuition  |  **+2**<br>Presence  |
 
 > ⭐️ **Elemental Affinity**
 >
@@ -16507,7 +16507,7 @@ At the start of any radenwight's turn, you can spend Malice to activate one of t
 
 > 🗡 **Trouser Cut (3 Malice)**
 >
-> | **Magic, Melee** |     **Main action** |
+> | **Melee, Strike, Weapon* |     **Main action** |
 > |--------------------------|--------------------:|
 > | **📏 Melee 1**           | **🎯 One creature** |
 >
@@ -16586,6 +16586,8 @@ At the start of any radenwight's turn, you can spend Malice to activate one of t
 > - **≤11:** 2 damage
 > - **12-16:** 4 damage
 > - **17+:** 5 damage
+>
+> **Effect:** One ally of the redeye within 2 squares of the target shifts up to 2 squares.
 
 > ❗️ **Ready Rodent**
 >
@@ -18729,7 +18731,7 @@ At the start of any time raider's turn, you can spend Malice to activate one of 
 >
 > | **Melee, Psionic, Strike, Weapon** |               **Main action** |
 > |------------------------------------|------------------------------:|
-> | **📏 Ranged 10**                   | **🎯 One creature or object** |
+> | **📏 Melee 2**                     | **🎯 One creature or object** |
 >
 > **Power Roll + 2:**
 >
@@ -18895,7 +18897,7 @@ When a suitably large piece of a troll is torn off in battle, it does its very b
 
 > **Mutating Your Trolls**
 >
-> At the director's discretion, a troll can mutate after consuming the flesh of any creature and gain some of their damage immunities, traits, abilities, and movement options. For instance, a troll who devours the carcass of a dead draconian might grow wings and gain their signature ability!
+> At the Director's discretion, a troll can mutate after consuming the flesh of any creature and gain some of their damage immunities, traits, abilities, and movement options. For instance, a troll who devours the carcass of a dead draconian might grow wings and gain their signature ability!
 >
 > Be aware that this can increase the difficulty category of an encounter while one or more of these mutated trolls are present—especially if their mutations enable them to deal more damage than normal or grant them an acid or fire damage immunity.
 
@@ -19240,7 +19242,7 @@ At the start of any undead's turn, you can spend Malice to activate one of the f
 
 > 🔳 **The Grasping, the Hungry (5 Malice)**
 >
-> Ravenous and rotting undead arms burst forth from 9 connected squares of a vertical or horizontal surface. Any creature who ends their turn adjacent to an affected square makes an Agility test.
+> Ravenous and rotting undead arms burst forth from 9 connected squares of a vertical or horizontal surface. Any creature who ends their turn adjacent to an affected square makes an **Agility test**.
 >
 > - **≤11:** 5 damage; restrained (save ends)
 > - **12-16:** 5 damage; restrained (EoT)
@@ -20412,7 +20414,7 @@ At the start of any level 7 or higher undead's turn, you can spend Malice to act
 
 ####### Vampire Lord
 
-|                 Undead                 |                   -                    |       Level 7       |        Leader         |        EV 36         |
+|            Undead, Vampire             |                   -                    |       Level 7       |        Leader         |        EV 36         |
 |:--------------------------------------:|:--------------------------------------:|:-------------------:|:---------------------:|:--------------------:|
 |             **1M**<br>Size             |             **12**<br>Speed            | **200**<br>Stamina  |  **3**<br>Stability   | **7**<br>Free Strike |
 | **Corruption 9, poison 9**<br>Immunity | **Climb, hover, teleport**<br>Movement |          -          | **-**<br>With Captain |  **-**<br>Weakness   |
@@ -25901,9 +25903,9 @@ A massive humming crystal makes the air around it feel thick.
 
 > ❗️ **Psionic Pulse**
 >
-> | **-**    | **Free triggered action** |
-> |----------|--------------------------:|
-> | **📏 -** |                  **🎯 -** |
+> | **-**          | **Free triggered action** |
+> |----------------|--------------------------:|
+> | **📏 Special** |            **🎯 Special** |
 >
 > **Trigger:** The shard is destroyed.
 >
@@ -26278,9 +26280,9 @@ A massive metal device uses a bellows system and liquid fuel to shoot out gouts 
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 6 damage; A < 0 the target is burning (save ends)
-> - **12-16:** 10 damage; A < 1 the target is burning (save ends)
-> - **17+:** 13 damage; A < 2 the target is burning (save ends)
+> - **≤11:** 6 fire damage; A < 0 the target is burning (save ends)
+> - **12-16:** 10 fire damage; A < 1 the target is burning (save ends)
+> - **17+:** 13 fire damage; A < 2 the target is burning (save ends)
 >
 > **Effect:** A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round. This ability can't be used again until the iron dragon is reloaded.
 
@@ -26459,7 +26461,7 @@ The throne of A'An, sun god of the Antical Protectorate in what is now Vanigar, 
 > |---------------------------|------------------------------:|
 > | **📏 Ranged 20**          | **🎯 One creature or object** |
 >
-> **Power Roll + 2:**
+> **Power Roll + 3:**
 >
 > - **≤11:** 6 fire damage
 > - **12-16:** 11 fire damage
@@ -26993,7 +26995,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🗡 **Battlefield Medic**
 >
-> | **Melee**      |            **Manuever** |
+> | **Melee**      |            **Maneuver** |
 > |----------------|------------------------:|
 > | **📏 Melee 1** | **🎯 Self or one ally** |
 >
@@ -27093,7 +27095,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 >
 > **Trigger:** A creature moves within distance.
 >
-> **Effect:** If the target has M < AVERAGE, heir movement ends, they are knocked prone, and one ally within distance gains 2 surges.
+> **Effect:** If the target has M < AVERAGE, their movement ends, they are knocked prone, and one ally within distance gains 2 surges.
 
 ####### Bugbear Commando
 
@@ -27710,8 +27712,6 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > |----------------|----------------:|
 > | **📏 Special** |  **🎯 Special** |
 >
-> **Power Roll + highest characteristic:**
->
 > **Effect:** The guide applies poison to their weapon. The next time the guide obtains a tier 2 or tier 3 outcome on a weapon strike, the strike deals an extra 10 poison damage, and if the target has M <v, they are weakened (save ends). If the guide is adjacent to their mentor when they use Poison Blade, they apply poison to the mentor's weapon in the same way.
 
 ####### Hobgoblin Flameslinger
@@ -28103,8 +28103,6 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > | --- | ---:|
 > | **📏 Ranged 10** | **🎯 Self and each ally** |
 >
-> **Power Roll + highest characteristic:**
->
 > **Effect:** Each target can spend a Recovery, and ends the dazed, frightened, and weakened conditions on themself.
 
 ####### Time Raider Mind Healer
@@ -28200,6 +28198,8 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > | **Area**       |                  **Maneuver** |
 > |----------------|------------------------------:|
 > | **📏 3 burst** | **🎯 Each enemy in the area** |
+>
+> **Power Roll + highest characteristic:**
 >
 > - **≤11:** P < WEAK frightened (save ends)
 > - **12-16:** P < AVERAGE frightened (save ends)
