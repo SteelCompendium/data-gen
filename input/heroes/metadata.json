@@ -260,6 +260,9 @@
   "mcdm.heroes.v1:feature.trait.conduit.7th-level-feature:light-of-the-burning-sun": {
     "subclass": "Sun"
   },
+  "mcdm.heroes.v1:feature.ability.conduit.7th-level-feature:trinity-of-trickery-9-piety": {
+    "subclass": "Trickery"
+  },
   "mcdm.heroes.v1:feature.ability.conduit.7th-level-feature:guided-to-your-side": {
     "subclass": "Love"
   },
