@@ -2822,7 +2822,7 @@ You have the following ability.
 
 *You become an actual shadow.*
 
-| **Magic**   | **Main action** |
+| **Magic**   |    **Maneuver** |
 |-------------|----------------:|
 | **📏 Self** |     **🎯 Self** |
 
@@ -11765,9 +11765,9 @@ Choose one heroic ability from the following options, each of which costs 3 insi
 >
 > **Power Roll + Agility:**
 >
-> - **≤11:** 4 + A damage; R < WEAK, bleeding (save ends)
-> - **12-16:** 6 + A damage; R < AVERAGE, bleeding (save ends)
-> - **17+:** 10 + A damage; R < STRONG, bleeding (save ends)
+> - **≤11:** 4 + A damage; A < WEAK, bleeding (save ends)
+> - **12-16:** 6 + A damage; A < AVERAGE, bleeding (save ends)
+> - **17+:** 10 + A damage; A < STRONG, bleeding (save ends)
 
 > ######## Get In Get Out (3 Insight)
 >
@@ -18393,9 +18393,9 @@ In times of stress, you get headaches. Psionic energy builds up in your mind unt
 >
 > *Psionic energy bursts from your body in an iridescent shimmer.*
 >
-> | **Area, Psionic** |               **Main action** |
-> |-------------------|------------------------------:|
-> | **📏 3 burst**    | **🎯 Each enemy in the area** |
+> | **Area, Psionic** |                  **Main action** |
+> |-------------------|---------------------------------:|
+> | **📏 3 burst**    | **🎯 Each creature in the area** |
 >
 > **Effect:** Using this ability costs all your Heroic Resource.
 >
