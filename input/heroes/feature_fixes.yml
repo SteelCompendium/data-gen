@@ -78,3 +78,12 @@ sections:
     feature_type: trait
     file_dpath: Features/Talent/6th-Level Features
     xpath: "//section[@id='talent']//section[@id='psi-boost-1']"
+
+  # Growing Ferocity is not a leaf-level feature (has tables) so it doesnt get picked up
+  - source: mcdm.heroes.v1
+    header_path: fury/1st-level-features/growing-ferocity
+    item_name: Growing Ferocity
+    item_id: growing-ferocity
+    type: feature/trait/fury/1st-level-feature
+    feature_type: trait
+    file_dpath: Features/Fury/1st-Level Features
