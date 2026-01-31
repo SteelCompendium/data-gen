@@ -27,6 +27,7 @@ generate md_dpath:
         )
         yaml_data = yaml.safe_load(result.stdout)
         return {
+            "item_id": metadata["item_id"],
             "level": yaml_data['level'],
             "roles": yaml_data['roles'],
             "ancestry": yaml_data["ancestry"],

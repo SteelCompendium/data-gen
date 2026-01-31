@@ -9,6 +9,7 @@ sections:
   - header_path: monsters/ajax-the-invincible
     xpath: "//section[@id='monsters']//section[@id='ajax-the-invincible']//section[@class='level7']"
     file_dpath: 'Monsters/Ajax the Invincible/Statblocks'
+    type: 'monster/ajax-the-invincible/statblock'
   - header_path: monsters/ajax-the-invincible
     xpath: "//section[@id='monsters']//section[@id='ajax-the-invincible']//section[@class='level9']"
     file_dpath: 'Monsters/Ajax the Invincible/Features'
@@ -21,6 +22,7 @@ sections:
   - header_path: monsters/angulotls
     xpath: "//section[@id='monsters']//section[@id='angulotls']//section[@class='level7']"
     file_dpath: 'Monsters/Angulotls/Statblocks'
+    type: 'monster/angulotls/statblock'
   - header_path: monsters/angulotls
     xpath: "//section[@id='monsters']//section[@id='angulotls']//section[@class='level9']"
     file_dpath: 'Monsters/Angulotls/Features'
@@ -33,6 +35,7 @@ sections:
   - header_path: monsters/animals
     xpath: "//section[@id='monsters']//section[@id='animals']//section[@class='level7']"
     file_dpath: 'Monsters/Animals/Statblocks'
+    type: 'monster/animals/statblock'
     # animals have no malice
     #  - header_path: monsters/animals
     #    xpath: "//section[@id='monsters']//section[@id='animals']//section[@class='level9']"
@@ -46,6 +49,7 @@ sections:
   - header_path: monsters/arixx
     xpath: "//section[@id='monsters']//section[@id='arixx']//section[@class='level7']"
     file_dpath: 'Monsters/Arixx/Statblocks'
+    type: 'monster/arixx/statblock'
   - header_path: monsters/arixx
     xpath: "//section[@id='monsters']//section[@id='arixx']//section[@class='level9']"
     file_dpath: 'Monsters/Arixx/Features'
@@ -58,6 +62,7 @@ sections:
   - header_path: monsters/ashen-hoarder
     xpath: "//section[@id='monsters']//section[@id='ashen-hoarder']//section[@class='level7']"
     file_dpath: 'Monsters/Ashen Hoarder/Statblocks'
+    type: 'monster/ashen-hoarder/statblock'
   - header_path: monsters/ashen-hoarder
     xpath: "//section[@id='monsters']//section[@id='ashen-hoarder']//section[@class='level9']"
     file_dpath: 'Monsters/Ashen Hoarder/Features'
@@ -70,6 +75,7 @@ sections:
   - header_path: monsters/basilisks
     xpath: "//section[@id='monsters']//section[@id='basilisks']//section[@class='level7']"
     file_dpath: 'Monsters/Basilisks/Statblocks'
+    type: 'monster/basilisks/statblock'
   - header_path: monsters/basilisks
     xpath: "//section[@id='monsters']//section[@id='basilisks']//section[@class='level9']"
     file_dpath: 'Monsters/Basilisks/Features'
@@ -82,6 +88,7 @@ sections:
   - header_path: monsters/bredbeddle
     xpath: "//section[@id='monsters']//section[@id='bredbeddle']//section[@class='level7']"
     file_dpath: 'Monsters/Bredbeddle/Statblocks'
+    type: 'monster/bredbeddle/statblock'
   - header_path: monsters/bredbeddle
     xpath: "//section[@id='monsters']//section[@id='bredbeddle']//section[@class='level9']"
     file_dpath: 'Monsters/Bredbeddle/Features'
@@ -94,6 +101,7 @@ sections:
   - header_path: monsters/bugbears
     xpath: "//section[@id='monsters']//section[@id='bugbears']//section[@class='level7']"
     file_dpath: 'Monsters/Bugbears/Statblocks'
+    type: 'monster/bugbears/statblock'
   - header_path: monsters/bugbears
     xpath: "//section[@id='monsters']//section[@id='bugbears']//section[@class='level9']"
     file_dpath: 'Monsters/Bugbears/Features'
@@ -106,6 +114,7 @@ sections:
   - header_path: monsters/chimera
     xpath: "//section[@id='monsters']//section[@id='chimera']//section[@class='level7']"
     file_dpath: 'Monsters/Chimera/Statblocks'
+    type: 'monster/chimera/statblock'
   - header_path: monsters/chimera
     xpath: "//section[@id='monsters']//section[@id='chimera']//section[@class='level9']"
     file_dpath: 'Monsters/Chimera/Features'
@@ -118,6 +127,7 @@ sections:
   - header_path: monsters/demons
     xpath: "//section[@id='monsters']//section[@id='demons']//section[@class='level7']"
     file_dpath: 'Monsters/Demons/Statblocks'
+    type: 'monster/demons/statblock'
   - header_path: monsters/demons
     xpath: "//section[@id='monsters']//section[@id='demons']//section[@class='level9']"
     file_dpath: 'Monsters/Demons/Features'
@@ -131,6 +141,7 @@ sections:
   - header_path: monsters/devils
     xpath: "//section[@id='monsters']//section[@id='devils']//section[@class='level7']"
     file_dpath: 'Monsters/Devils/Statblocks'
+    type: 'monster/devils/statblock'
   - header_path: monsters/devils
     xpath: "//section[@id='monsters']//section[@id='devils']//section[@class='level9']"
     file_dpath: 'Monsters/Devils/Features'
@@ -143,6 +154,7 @@ sections:
   - header_path: monsters/draconians
     xpath: "//section[@id='monsters']//section[@id='draconians']//section[@class='level7']"
     file_dpath: 'Monsters/Draconians/Statblocks'
+    type: 'monster/draconians/statblock'
   - header_path: monsters/draconians
     xpath: "//section[@id='monsters']//section[@id='draconians']//section[@class='level9']"
     file_dpath: 'Monsters/Draconians/Features'
@@ -155,6 +167,7 @@ sections:
   - header_path: monsters/dragons
     xpath: "//section[@id='monsters']//section[@id='dragons']//section[@class='level7']"
     file_dpath: 'Monsters/Dragons/Statblocks'
+    type: 'monster/dragons/statblock'
   - header_path: monsters/dragons
     xpath: "//section[@id='monsters']//section[@id='dragons']//section[@class='level9']"
     file_dpath: 'Monsters/Dragons/Features'
@@ -167,6 +180,7 @@ sections:
   - header_path: monsters/dwarves
     xpath: "//section[@id='monsters']//section[@id='dwarves']//section[@class='level7']"
     file_dpath: 'Monsters/Dwarves/Statblocks'
+    type: 'monster/dwarves/statblock'
   - header_path: monsters/dwarves
     xpath: "//section[@id='monsters']//section[@id='dwarves']//section[@class='level9']"
     file_dpath: 'Monsters/Dwarves/Features'
@@ -179,6 +193,7 @@ sections:
   - header_path: monsters/elementals
     xpath: "//section[@id='monsters']//section[@id='elementals']//section[@class='level7']"
     file_dpath: 'Monsters/Elementals/Statblocks'
+    type: 'monster/elementals/statblock'
   - header_path: monsters/elementals
     xpath: "//section[@id='monsters']//section[@id='elementals']//section[@class='level9']"
     file_dpath: 'Monsters/Elementals/Features'
@@ -191,6 +206,7 @@ sections:
   - header_path: monsters/elves-high
     xpath: "//section[@id='monsters']//section[@id='elves-high']//section[@class='level7']"
     file_dpath: 'Monsters/Elves High/Statblocks'
+    type: 'monster/elves-high/statblock'
   - header_path: monsters/elves-high
     xpath: "//section[@id='monsters']//section[@id='elves-high']//section[@class='level9']"
     file_dpath: 'Monsters/Elves High/Features'
@@ -203,6 +219,7 @@ sections:
   - header_path: monsters/elves-shadow
     xpath: "//section[@id='monsters']//section[@id='elves-shadow']//section[@class='level7']"
     file_dpath: 'Monsters/Elves Shadow/Statblocks'
+    type: 'monster/elves-shadow/statblock'
   - header_path: monsters/elves-shadow
     xpath: "//section[@id='monsters']//section[@id='elves-shadow']//section[@class='level9']"
     file_dpath: 'Monsters/Elves Shadow/Features'
@@ -215,6 +232,7 @@ sections:
   - header_path: monsters/elves-wode
     xpath: "//section[@id='monsters']//section[@id='elves-wode']//section[@class='level7']"
     file_dpath: 'Monsters/Elves Wode/Statblocks'
+    type: 'monster/elves-wode/statblock'
   - header_path: monsters/elves-wode
     xpath: "//section[@id='monsters']//section[@id='elves-wode']//section[@class='level9']"
     file_dpath: 'Monsters/Elves Wode/Features'
@@ -227,6 +245,7 @@ sections:
   - header_path: monsters/fossil-cryptic
     xpath: "//section[@id='monsters']//section[@id='fossil-cryptic']//section[@class='level7']"
     file_dpath: 'Monsters/Fossil Cryptic/Statblocks'
+    type: 'monster/fossil-cryptic/statblock'
   - header_path: monsters/fossil-cryptic
     xpath: "//section[@id='monsters']//section[@id='fossil-cryptic']//section[@class='level9']"
     file_dpath: 'Monsters/Fossil Cryptic/Features'
@@ -239,6 +258,7 @@ sections:
   - header_path: monsters/giants
     xpath: "//section[@id='monsters']//section[@id='giants']//section[@class='level7']"
     file_dpath: 'Monsters/Giants/Statblocks'
+    type: 'monster/giants/statblock'
   - header_path: monsters/giants
     xpath: "//section[@id='monsters']//section[@id='giants']//section[@class='level9']"
     file_dpath: 'Monsters/Giants/Features'
@@ -251,6 +271,7 @@ sections:
   - header_path: monsters/gnolls
     xpath: "//section[@id='monsters']//section[@id='gnolls']//section[@class='level7']"
     file_dpath: 'Monsters/Gnolls/Statblocks'
+    type: 'monster/gnolls/statblock'
   - header_path: monsters/gnolls
     xpath: "//section[@id='monsters']//section[@id='gnolls']//section[@class='level9']"
     file_dpath: 'Monsters/Gnolls/Features'
@@ -263,6 +284,7 @@ sections:
   - header_path: monsters/goblins
     xpath: "//section[@id='monsters']//section[@id='goblins']//section[@class='level7']"
     file_dpath: 'Monsters/Goblins/Statblocks'
+    type: 'monster/goblins/statblock'
   - header_path: monsters/goblins
     xpath: "//section[@id='monsters']//section[@id='goblins']//section[@class='level9']"
     file_dpath: 'Monsters/Goblins/Features'
@@ -275,6 +297,7 @@ sections:
   - header_path: monsters/griffons
     xpath: "//section[@id='monsters']//section[@id='griffons']//section[@class='level7']"
     file_dpath: 'Monsters/Griffons/Statblocks'
+    type: 'monster/griffons/statblock'
   - header_path: monsters/griffons
     xpath: "//section[@id='monsters']//section[@id='griffons']//section[@class='level9']"
     file_dpath: 'Monsters/Griffons/Features'
@@ -287,6 +310,7 @@ sections:
   - header_path: monsters/hag
     xpath: "//section[@id='monsters']//section[@id='hag']//section[@class='level7']"
     file_dpath: 'Monsters/Hag/Statblocks'
+    type: 'monster/hag/statblock'
   - header_path: monsters/hag
     xpath: "//section[@id='monsters']//section[@id='hag']//section[@class='level9']"
     file_dpath: 'Monsters/Hag/Features'
@@ -299,6 +323,7 @@ sections:
   - header_path: monsters/hobgoblins
     xpath: "//section[@id='monsters']//section[@id='hobgoblins']//section[@class='level7']"
     file_dpath: 'Monsters/Hobgoblins/Statblocks'
+    type: 'monster/hobgoblins/statblock'
   - header_path: monsters/hobgoblins
     xpath: "//section[@id='monsters']//section[@id='hobgoblins']//section[@class='level9']"
     file_dpath: 'Monsters/Hobgoblins/Features'
@@ -311,6 +336,7 @@ sections:
   - header_path: monsters/humans
     xpath: "//section[@id='monsters']//section[@id='humans']//section[@class='level7']"
     file_dpath: 'Monsters/Humans/Statblocks'
+    type: 'monster/humans/statblock'
   - header_path: monsters/humans
     xpath: "//section[@id='monsters']//section[@id='humans']//section[@class='level9']"
     file_dpath: 'Monsters/Humans/Features'
@@ -323,6 +349,7 @@ sections:
   - header_path: monsters/kingfissure-worm
     xpath: "//section[@id='monsters']//section[@id='kingfissure-worm']//section[@class='level7']"
     file_dpath: 'Monsters/Kingfissure Worm/Statblocks'
+    type: 'monster/kingfissure-worm/statblock'
   - header_path: monsters/kingfissure-worm
     xpath: "//section[@id='monsters']//section[@id='kingfissure-worm']//section[@class='level9']"
     file_dpath: 'Monsters/Kingfissure Worm/Features'
@@ -335,6 +362,7 @@ sections:
   - header_path: monsters/kobolds
     xpath: "//section[@id='monsters']//section[@id='kobolds']//section[@class='level7']"
     file_dpath: 'Monsters/Kobolds/Statblocks'
+    type: 'monster/kobolds/statblock'
   - header_path: monsters/kobolds
     xpath: "//section[@id='monsters']//section[@id='kobolds']//section[@class='level9']"
     file_dpath: 'Monsters/Kobolds/Features'
@@ -347,6 +375,7 @@ sections:
   - header_path: monsters/lightbender
     xpath: "//section[@id='monsters']//section[@id='lightbender']//section[@class='level7']"
     file_dpath: 'Monsters/Lightbenders/Statblocks'
+    type: 'monster/lightbenders/statblock'
   - header_path: monsters/lightbender
     xpath: "//section[@id='monsters']//section[@id='lightbender']//section[@class='level9']"
     file_dpath: 'Monsters/Lightbenders/Features'
@@ -359,6 +388,7 @@ sections:
   - header_path: monsters/lizardfolk
     xpath: "//section[@id='monsters']//section[@id='lizardfolk']//section[@class='level7']"
     file_dpath: 'Monsters/Lizardfolks/Statblocks'
+    type: 'monster/lizardfolks/statblock'
   - header_path: monsters/lizardfolk
     xpath: "//section[@id='monsters']//section[@id='lizardfolk']//section[@class='level9']"
     file_dpath: 'Monsters/Lizardfolks/Features'
@@ -371,6 +401,7 @@ sections:
   - header_path: monsters/manticore
     xpath: "//section[@id='monsters']//section[@id='manticore']//section[@class='level7']"
     file_dpath: 'Monsters/Manticores/Statblocks'
+    type: 'monster/manticores/statblock'
   - header_path: monsters/manticore
     xpath: "//section[@id='monsters']//section[@id='manticore']//section[@class='level9']"
     file_dpath: 'Monsters/Manticores/Features'
@@ -383,6 +414,7 @@ sections:
   - header_path: monsters/medusa
     xpath: "//section[@id='monsters']//section[@id='medusa']//section[@class='level7']"
     file_dpath: 'Monsters/Medusas/Statblocks'
+    type: 'monster/medusas/statblock'
   - header_path: monsters/medusa
     xpath: "//section[@id='monsters']//section[@id='medusa']//section[@class='level9']"
     file_dpath: 'Monsters/Medusas/Features'
@@ -395,6 +427,7 @@ sections:
   - header_path: monsters/minotaurs
     xpath: "//section[@id='monsters']//section[@id='minotaurs']//section[@class='level7']"
     file_dpath: 'Monsters/Minotaurs/Statblocks'
+    type: 'monster/minotaurs/statblock'
   - header_path: monsters/minotaurs
     xpath: "//section[@id='monsters']//section[@id='minotaurs']//section[@class='level9']"
     file_dpath: 'Monsters/Minotaurs/Features'
@@ -407,6 +440,7 @@ sections:
   - header_path: monsters/ogres
     xpath: "//section[@id='monsters']//section[@id='ogres']//section[@class='level7']"
     file_dpath: 'Monsters/Ogres/Statblocks'
+    type: 'monster/ogres/statblock'
   - header_path: monsters/ogres
     xpath: "//section[@id='monsters']//section[@id='ogres']//section[@class='level9']"
     file_dpath: 'Monsters/Ogres/Features'
@@ -419,6 +453,7 @@ sections:
   - header_path: monsters/olothec
     xpath: "//section[@id='monsters']//section[@id='olothec']//section[@class='level7']"
     file_dpath: 'Monsters/Olothec/Statblocks'
+    type: 'monster/olothec/statblock'
   - header_path: monsters/olothec
     xpath: "//section[@id='monsters']//section[@id='olothec']//section[@class='level9']"
     file_dpath: 'Monsters/Olothec/Features'
@@ -431,6 +466,7 @@ sections:
   - header_path: monsters/orcs
     xpath: "//section[@id='monsters']//section[@id='orcs']//section[@class='level7']"
     file_dpath: 'Monsters/Orcs/Statblocks'
+    type: 'monster/orcs/statblock'
   - header_path: monsters/orcs
     xpath: "//section[@id='monsters']//section[@id='orcs']//section[@class='level9']"
     file_dpath: 'Monsters/Orcs/Features'
@@ -443,6 +479,7 @@ sections:
   - header_path: monsters/radenwights
     xpath: "//section[@id='monsters']//section[@id='radenwights']//section[@class='level7']"
     file_dpath: 'Monsters/Radenwights/Statblocks'
+    type: 'monster/radenwights/statblock'
   - header_path: monsters/radenwights
     xpath: "//section[@id='monsters']//section[@id='radenwights']//section[@class='level9']"
     file_dpath: 'Monsters/Radenwights/Features'
@@ -457,18 +494,22 @@ sections:
     file_dpath: 'Monsters/Rivals/Features'
     type: 'monster/feature'
     include_parens_in_filename: "true"
-  - header_path: monsters/rivals
+  - header_path: monsters/rivals/1st-echelon
     xpath: "//section[@id='monsters']//section[@id='rivals']//section[@id='rivals-1st-echelon']//section[@class='level7']"
     file_dpath: 'Monsters/Rivals/1st Echelon/Statblocks'
-  - header_path: monsters/rivals
+    type: 'monster/rivals/1st echelon/statblock'
+  - header_path: monsters/rivals/2nd-echelon
     xpath: "//section[@id='monsters']//section[@id='rivals']//section[@id='rivals-2nd-echelon']//section[@class='level7']"
     file_dpath: 'Monsters/Rivals/2nd Echelon/Statblocks'
-  - header_path: monsters/rivals
+    type: 'monster/rivals/2nd echelon/statblock'
+  - header_path: monsters/rivals/3rd-echelon
     xpath: "//section[@id='monsters']//section[@id='rivals']//section[@id='rivals-3rd-echelon']//section[@class='level7']"
     file_dpath: 'Monsters/Rivals/3rd Echelon/Statblocks'
-  - header_path: monsters/rivals
+    type: 'monster/rivals/3rd echelon/statblock'
+  - header_path: monsters/rivals/4th-echelon
     xpath: "//section[@id='monsters']//section[@id='rivals']//section[@id='rivals-4th-echelon']//section[@class='level7']"
     file_dpath: 'Monsters/Rivals/4th Echelon/Statblocks'
+    type: 'monster/rivals/4th echelon/statblock'
 
   - header_path: monsters/shambling-mound
     xpath: "//section[@id='monsters']//section[@id='shambling-mound']"
@@ -477,6 +518,7 @@ sections:
   - header_path: monsters/shambling-mound
     xpath: "//section[@id='monsters']//section[@id='shambling-mound']//section[@class='level7']"
     file_dpath: 'Monsters/Shambling Mound/Statblocks'
+    type: 'monster/shambling-mound/statblock'
   - header_path: monsters/shambling-mound
     xpath: "//section[@id='monsters']//section[@id='shambling-mound']//section[@class='level9']"
     file_dpath: 'Monsters/Shambling Mound/Features'
@@ -489,6 +531,7 @@ sections:
   - header_path: monsters/time-raiders
     xpath: "//section[@id='monsters']//section[@id='time-raiders']//section[@class='level7']"
     file_dpath: 'Monsters/Time Raiders/Statblocks'
+    type: 'monster/time-raiders/statblock'
   - header_path: monsters/time-raiders
     xpath: "//section[@id='monsters']//section[@id='time-raiders']//section[@class='level9']"
     file_dpath: 'Monsters/Time Raiders/Features'
@@ -501,6 +544,7 @@ sections:
   - header_path: monsters/trolls
     xpath: "//section[@id='monsters']//section[@id='trolls']//section[@class='level7']"
     file_dpath: 'Monsters/Trolls/Statblocks'
+    type: 'monster/trolls/statblock'
   - header_path: monsters/trolls
     xpath: "//section[@id='monsters']//section[@id='trolls']//section[@class='level9']"
     file_dpath: 'Monsters/Trolls/Features'
@@ -513,6 +557,7 @@ sections:
   - header_path: monsters/undead
     xpath: "//section[@id='monsters']//section[@id='undead-1']//section[@class='level7']"
     file_dpath: 'Monsters/Undead/Statblocks'
+    type: 'monster/undead/statblock'
   - header_path: monsters/undead
     xpath: "//section[@id='monsters']//section[@id='undead-1']//section[@class='level9']"
     file_dpath: 'Monsters/Undead/Features'
@@ -526,6 +571,7 @@ sections:
   - header_path: monsters/count-rhodar-von-glauer
     xpath: "//section[@id='monsters']//section[@id='count-rhodar-von-glauer']//section[@class='level7']"
     file_dpath: 'Monsters/Count Rhodar Von Glauer/Statblocks'
+    type: 'monster/count rhodar von glauer/statblock'
   - header_path: monsters/count-rhodar-von-glauer
     xpath: "//section[@id='monsters']//section[@id='count-rhodar-von-glauer']//section[@class='level9']"
     file_dpath: 'Monsters/Count Rhodar Von Glauer/Features'
@@ -538,6 +584,7 @@ sections:
   - header_path: monsters/lich
     xpath: "//section[@id='monsters']//section[@id='lich']//section[@class='level7']"
     file_dpath: 'Monsters/Lich/Statblocks'
+    type: 'monster/lich/statblock'
   - header_path: monsters/lich
     xpath: "//section[@id='monsters']//section[@id='lich']//section[@class='level9']"
     file_dpath: 'Monsters/Lich/Features'
@@ -550,6 +597,7 @@ sections:
   - header_path: monsters/valok
     xpath: "//section[@id='monsters']//section[@id='valok']//section[@class='level7']"
     file_dpath: 'Monsters/Valok/Statblocks'
+    type: 'monster/valok/statblock'
   - header_path: monsters/valok
     xpath: "//section[@id='monsters']//section[@id='valok']//section[@class='level9']"
     file_dpath: 'Monsters/Valok/Features'
@@ -562,6 +610,7 @@ sections:
   - header_path: monsters/voiceless-talkers
     xpath: "//section[@id='monsters']//section[@id='voiceless-talkers']//section[@class='level7']"
     file_dpath: 'Monsters/Voiceless Talkers/Statblocks'
+    type: 'monster/voiceless-talkers/statblock'
   - header_path: monsters/voiceless-talkers
     xpath: "//section[@id='monsters']//section[@id='voiceless-talkers']//section[@class='level9']"
     file_dpath: 'Monsters/Voiceless Talkers/Features'
@@ -574,6 +623,7 @@ sections:
   - header_path: monsters/lord-syuul
     xpath: "//section[@id='monsters']//section[@id='lord-syuul']//section[@class='level7']"
     file_dpath: 'Monsters/Lord Syuul/Statblocks'
+    type: 'monster/lord-syuul/statblock'
   - header_path: monsters/lord-syuul
     xpath: "//section[@id='monsters']//section[@id='lord-syuul']//section[@class='level9']"
     file_dpath: 'Monsters/Lord Syuul/Features'
@@ -586,6 +636,7 @@ sections:
   - header_path: monsters/war-dogs
     xpath: "//section[@id='monsters']//section[@id='war-dogs']//section[@class='level7']"
     file_dpath: 'Monsters/War Dogs/Statblocks'
+    type: 'monster/war-dogs/statblock'
   - header_path: monsters/war-dogs
     xpath: "//section[@id='monsters']//section[@id='war-dogs']//section[@class='level9']"
     file_dpath: 'Monsters/War Dogs/Features'
@@ -599,6 +650,7 @@ sections:
   - header_path: monsters/werewolf
     xpath: "//section[@id='monsters']//section[@id='werewolf']//section[@class='level7']"
     file_dpath: 'Monsters/Werewolf/Statblocks'
+    type: 'monster/werewolf/statblock'
   - header_path: monsters/werewolf
     xpath: "//section[@id='monsters']//section[@id='werewolf']//section[@class='level9']"
     file_dpath: 'Monsters/Werewolf/Features'
@@ -611,6 +663,7 @@ sections:
   - header_path: monsters/wyverns
     xpath: "//section[@id='monsters']//section[@id='wyverns']//section[@class='level7']"
     file_dpath: 'Monsters/Wyverns/Statblocks'
+    type: 'monster/wyverns/statblock'
   - header_path: monsters/wyverns
     xpath: "//section[@id='monsters']//section[@id='wyverns']//section[@class='level9']"
     file_dpath: 'Monsters/Wyverns/Features'
@@ -623,6 +676,7 @@ sections:
   - header_path: monsters/xorannox-the-tyract
     xpath: "//section[@id='monsters']//section[@id='xorannox-the-tyract']//section[@class='level7']"
     file_dpath: 'Monsters/Xorannox the Tyract/Statblocks'
+    type: 'monster/xorannox the tyract/statblock'
   - header_path: monsters/xorannox-the-tyract
     xpath: "//section[@id='monsters']//section[@id='xorannox-the-tyract']//section[@class='level9']"
     file_dpath: 'Monsters/Xorannox the Tyract/Features'

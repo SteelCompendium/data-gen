@@ -30,6 +30,488 @@
         "feature": {
           "_id": 2,
           "_children": {}
+        },
+        "chimera": {
+          "_id": 3,
+          "_children": {
+            "statblock": {
+              "_id": 1,
+              "_children": {}
+            }
+          }
+        },
+        "ogres": {
+          "_id": 4,
+          "_children": {
+            "statblock": {
+              "_id": 1,
+              "_children": {}
+            }
+          }
+        },
+        "rivals": {
+          "_id": 5,
+          "_children": {
+            "1st echelon": {
+              "_id": 1,
+              "_children": {
+                "statblock": {
+                  "_id": 1,
+                  "_children": {}
+                }
+              }
+            },
+            "2nd echelon": {
+              "_id": 2,
+              "_children": {
+                "statblock": {
+                  "_id": 1,
+                  "_children": {}
+                }
+              }
+            },
+            "3rd echelon": {
+              "_id": 3,
+              "_children": {
+                "statblock": {
+                  "_id": 1,
+                  "_children": {}
+                }
+              }
+            },
+            "4th echelon": {
+              "_id": 4,
+              "_children": {
+                "statblock": {
+                  "_id": 1,
+                  "_children": {}
+                }
+              }
+            }
+          }
+        },
+        "gnolls": {
+          "_id": 6,
+          "_children": {
+            "statblock": {
+              "_id": 1,
+              "_children": {}
+            }
+          }
+        },
+        "lizardfolks": {
+          "_id": 7,
+          "_children": {
+            "statblock": {
+              "_id": 1,
+              "_children": {}
+            }
+          }
+        },
+        "undead": {
+          "_id": 8,
+          "_children": {
+            "statblock": {
+              "_id": 1,
+              "_children": {}
+            }
+          }
+        },
+        "griffons": {
+          "_id": 9,
+          "_children": {
+            "statblock": {
+              "_id": 1,
+              "_children": {}
+            }
+          }
+        },
+        "kobolds": {
+          "_id": 10,
+          "_children": {
+            "statblock": {
+              "_id": 1,
+              "_children": {}
+            }
+          }
+        },
+        "draconians": {
+          "_id": 11,
+          "_children": {
+            "statblock": {
+              "_id": 1,
+              "_children": {}
+            }
+          }
+        },
+        "olothec": {
+          "_id": 12,
+          "_children": {
+            "statblock": {
+              "_id": 1,
+              "_children": {}
+            }
+          }
+        },
+        "elves-high": {
+          "_id": 13,
+          "_children": {
+            "statblock": {
+              "_id": 1,
+              "_children": {}
+            }
+          }
+        },
+        "wyverns": {
+          "_id": 14,
+          "_children": {
+            "statblock": {
+              "_id": 1,
+              "_children": {}
+            }
+          }
+        },
+        "orcs": {
+          "_id": 15,
+          "_children": {
+            "statblock": {
+              "_id": 1,
+              "_children": {}
+            }
+          }
+        },
+        "ajax-the-invincible": {
+          "_id": 16,
+          "_children": {
+            "statblock": {
+              "_id": 1,
+              "_children": {}
+            }
+          }
+        },
+        "time-raiders": {
+          "_id": 17,
+          "_children": {
+            "statblock": {
+              "_id": 1,
+              "_children": {}
+            }
+          }
+        },
+        "radenwights": {
+          "_id": 18,
+          "_children": {
+            "statblock": {
+              "_id": 1,
+              "_children": {}
+            }
+          }
+        },
+        "humans": {
+          "_id": 19,
+          "_children": {
+            "statblock": {
+              "_id": 1,
+              "_children": {}
+            }
+          }
+        },
+        "minotaurs": {
+          "_id": 20,
+          "_children": {
+            "statblock": {
+              "_id": 1,
+              "_children": {}
+            }
+          }
+        },
+        "hobgoblins": {
+          "_id": 21,
+          "_children": {
+            "statblock": {
+              "_id": 1,
+              "_children": {}
+            }
+          }
+        },
+        "giants": {
+          "_id": 22,
+          "_children": {
+            "statblock": {
+              "_id": 1,
+              "_children": {}
+            }
+          }
+        },
+        "bredbeddle": {
+          "_id": 23,
+          "_children": {
+            "statblock": {
+              "_id": 1,
+              "_children": {}
+            }
+          }
+        },
+        "ashen-hoarder": {
+          "_id": 24,
+          "_children": {
+            "statblock": {
+              "_id": 1,
+              "_children": {}
+            }
+          }
+        },
+        "elves-shadow": {
+          "_id": 25,
+          "_children": {
+            "statblock": {
+              "_id": 1,
+              "_children": {}
+            }
+          }
+        },
+        "elves-wode": {
+          "_id": 26,
+          "_children": {
+            "statblock": {
+              "_id": 1,
+              "_children": {}
+            }
+          }
+        },
+        "lord-syuul": {
+          "_id": 27,
+          "_children": {
+            "statblock": {
+              "_id": 1,
+              "_children": {}
+            }
+          }
+        },
+        "arixx": {
+          "_id": 28,
+          "_children": {
+            "statblock": {
+              "_id": 1,
+              "_children": {}
+            }
+          }
+        },
+        "angulotls": {
+          "_id": 29,
+          "_children": {
+            "statblock": {
+              "_id": 1,
+              "_children": {}
+            }
+          }
+        },
+        "medusas": {
+          "_id": 30,
+          "_children": {
+            "statblock": {
+              "_id": 1,
+              "_children": {}
+            }
+          }
+        },
+        "kingfissure-worm": {
+          "_id": 31,
+          "_children": {
+            "statblock": {
+              "_id": 1,
+              "_children": {}
+            }
+          }
+        },
+        "animals": {
+          "_id": 32,
+          "_children": {
+            "statblock": {
+              "_id": 1,
+              "_children": {}
+            }
+          }
+        },
+        "demons": {
+          "_id": 33,
+          "_children": {
+            "statblock": {
+              "_id": 1,
+              "_children": {}
+            }
+          }
+        },
+        "count rhodar von glauer": {
+          "_id": 34,
+          "_children": {
+            "statblock": {
+              "_id": 1,
+              "_children": {}
+            }
+          }
+        },
+        "bugbears": {
+          "_id": 35,
+          "_children": {
+            "statblock": {
+              "_id": 1,
+              "_children": {}
+            }
+          }
+        },
+        "hag": {
+          "_id": 36,
+          "_children": {
+            "statblock": {
+              "_id": 1,
+              "_children": {}
+            }
+          }
+        },
+        "devils": {
+          "_id": 37,
+          "_children": {
+            "statblock": {
+              "_id": 1,
+              "_children": {}
+            }
+          }
+        },
+        "goblins": {
+          "_id": 38,
+          "_children": {
+            "statblock": {
+              "_id": 1,
+              "_children": {}
+            }
+          }
+        },
+        "xorannox the tyract": {
+          "_id": 39,
+          "_children": {
+            "statblock": {
+              "_id": 1,
+              "_children": {}
+            }
+          }
+        },
+        "elementals": {
+          "_id": 40,
+          "_children": {
+            "statblock": {
+              "_id": 1,
+              "_children": {}
+            }
+          }
+        },
+        "valok": {
+          "_id": 41,
+          "_children": {
+            "statblock": {
+              "_id": 1,
+              "_children": {}
+            }
+          }
+        },
+        "basilisks": {
+          "_id": 42,
+          "_children": {
+            "statblock": {
+              "_id": 1,
+              "_children": {}
+            }
+          }
+        },
+        "werewolf": {
+          "_id": 43,
+          "_children": {
+            "statblock": {
+              "_id": 1,
+              "_children": {}
+            }
+          }
+        },
+        "voiceless-talkers": {
+          "_id": 44,
+          "_children": {
+            "statblock": {
+              "_id": 1,
+              "_children": {}
+            }
+          }
+        },
+        "dragons": {
+          "_id": 45,
+          "_children": {
+            "statblock": {
+              "_id": 1,
+              "_children": {}
+            }
+          }
+        },
+        "manticores": {
+          "_id": 46,
+          "_children": {
+            "statblock": {
+              "_id": 1,
+              "_children": {}
+            }
+          }
+        },
+        "lich": {
+          "_id": 47,
+          "_children": {
+            "statblock": {
+              "_id": 1,
+              "_children": {}
+            }
+          }
+        },
+        "shambling-mound": {
+          "_id": 48,
+          "_children": {
+            "statblock": {
+              "_id": 1,
+              "_children": {}
+            }
+          }
+        },
+        "war-dogs": {
+          "_id": 49,
+          "_children": {
+            "statblock": {
+              "_id": 1,
+              "_children": {}
+            }
+          }
+        },
+        "dwarves": {
+          "_id": 50,
+          "_children": {
+            "statblock": {
+              "_id": 1,
+              "_children": {}
+            }
+          }
+        },
+        "trolls": {
+          "_id": 51,
+          "_children": {
+            "statblock": {
+              "_id": 1,
+              "_children": {}
+            }
+          }
+        },
+        "fossil-cryptic": {
+          "_id": 52,
+          "_children": {
+            "statblock": {
+              "_id": 1,
+              "_children": {}
+            }
+          }
         }
       }
     },
@@ -122,7 +604,59 @@
     "chapter": 4,
     "monster/section": 51,
     "monster/feature": 63,
-    "monster": 413,
+    "monster/chimera/statblock": 1,
+    "monster/ogres/statblock": 5,
+    "monster/rivals/1st echelon/statblock": 7,
+    "monster/rivals/2nd echelon/statblock": 7,
+    "monster/rivals/3rd echelon/statblock": 7,
+    "monster/rivals/4th echelon/statblock": 7,
+    "monster/gnolls/statblock": 11,
+    "monster/lizardfolks/statblock": 7,
+    "monster/undead/statblock": 34,
+    "monster/griffons/statblock": 2,
+    "monster/kobolds/statblock": 12,
+    "monster/draconians/statblock": 6,
+    "monster/olothec/statblock": 1,
+    "monster/elves-high/statblock": 13,
+    "monster/wyverns/statblock": 2,
+    "monster/orcs/statblock": 15,
+    "monster/ajax-the-invincible/statblock": 1,
+    "monster/time-raiders/statblock": 10,
+    "monster/radenwights/statblock": 8,
+    "monster/humans/statblock": 15,
+    "monster/minotaurs/statblock": 5,
+    "monster/hobgoblins/statblock": 15,
+    "monster/giants/statblock": 13,
+    "monster/bredbeddle/statblock": 1,
+    "monster/ashen-hoarder/statblock": 1,
+    "monster/elves-shadow/statblock": 14,
+    "monster/elves-wode/statblock": 13,
+    "monster/lord-syuul/statblock": 1,
+    "monster/arixx/statblock": 1,
+    "monster/angulotls/statblock": 8,
+    "monster/medusas/statblock": 1,
+    "monster/kingfissure-worm/statblock": 1,
+    "monster/animals/statblock": 6,
+    "monster/demons/statblock": 33,
+    "monster/count rhodar von glauer/statblock": 1,
+    "monster/bugbears/statblock": 7,
+    "monster/hag/statblock": 1,
+    "monster/devils/statblock": 8,
+    "monster/goblins/statblock": 12,
+    "monster/xorannox the tyract/statblock": 7,
+    "monster/elementals/statblock": 5,
+    "monster/valok/statblock": 5,
+    "monster/basilisks/statblock": 2,
+    "monster/werewolf/statblock": 1,
+    "monster/voiceless-talkers/statblock": 7,
+    "monster/dragons/statblock": 5,
+    "monster/manticores/statblock": 1,
+    "monster/lich/statblock": 1,
+    "monster/shambling-mound/statblock": 1,
+    "monster/war-dogs/statblock": 45,
+    "monster/dwarves/statblock": 13,
+    "monster/trolls/statblock": 6,
+    "monster/fossil-cryptic/statblock": 1,
     "feature/ability/role-advancement/hexer": 2,
     "feature/ability/role-advancement/support": 3,
     "feature/ability/role-advancement/brute": 3,
