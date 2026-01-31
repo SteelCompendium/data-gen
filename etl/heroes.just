@@ -22,7 +22,8 @@ gen input_fpath:
     set -euo pipefail
     just _wipe_dir "{{heroes_staging_dpath}}"
     just heroes gen_heroes_md "{{input_fpath}}" "{{heroes_unlinked_dpath}}" "{{heroes_linked_dpath}}"
-    just heroes convert_md_to_other_formats "{{heroes_unlinked_dpath}}"
+    just heroes convert_unlinked_md_to_other_formats "{{heroes_unlinked_dpath}}"
+    just heroes convert_linked_md_to_other_formats "{{heroes_linked_dpath}}"
 
 ##################################################
 # Private Recipes
@@ -150,7 +151,7 @@ link_md_files:
 #    #just -f link_md/justfile run "$md_sections_formatted_dpath" "{{staging_heroes_linked_dpath}}"
 
 # Given a directory of (formatted) markdown files, converts them into json, yaml, etc
-convert_md_to_other_formats md_dpath:
+convert_unlinked_md_to_other_formats md_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
 
@@ -184,4 +185,30 @@ convert_md_to_other_formats md_dpath:
 
     just markdown separate_blockquotes "${conversions_dpath}/md-dse"
     just _copy_data_to_repo "${conversions_dpath}/md-dse" "data-rules-md-dse"
+
+# Given a directory of (linked and formatted) markdown files, converts them into json, yaml, etc
+convert_linked_md_to_other_formats md_dpath:
+    #!/usr/bin/env bash
+    set -euo pipefail
+
+    just _print_section "Heroes: Converting markdown into other formats"
+    conversions_dpath="{{heroes_staging_dpath}}/10_conversions_linked"
+
+    # generate the yaml for dse
+    just features convert_all "{{md_dpath}}/Features" "yaml" "${conversions_dpath}/yaml/Features"
+    just features convert_all "{{md_dpath}}/Abilities" "yaml" "${conversions_dpath}/yaml/Abilities"
+    # Dont convert to markdown: you will lose frontmatter data
+
+    # Make the DSE markdown by embedding the yaml
+    mkdir -p "${conversions_dpath}/md-dse"
+    cp -R "{{md_dpath}}"/* "${conversions_dpath}/md-dse"
+    just features embed_features "${conversions_dpath}/md-dse/Features" "${conversions_dpath}/yaml/Features"
+    just features embed_features "${conversions_dpath}/md-dse/Abilities" "${conversions_dpath}/yaml/Abilities"
+
+    # only separate blockquotes on the markdown variants
+    just markdown separate_blockquotes "{{md_dpath}}"
+    just _copy_data_to_repo "{{md_dpath}}" "data-rules-md-linked"
+
+    just markdown separate_blockquotes "${conversions_dpath}/md-dse"
+    just _copy_data_to_repo "${conversions_dpath}/md-dse" "data-rules-md-dse-linked"
 
