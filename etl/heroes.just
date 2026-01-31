@@ -21,8 +21,7 @@ gen input_fpath:
     #!/usr/bin/env bash
     set -euo pipefail
     just _wipe_dir "{{heroes_staging_dpath}}"
-    just heroes gen_heroes_md_unlinked "{{input_fpath}}" "{{heroes_unlinked_dpath}}"
-    # TODO - just link_md_files ..., then change to heroes_linked_dpath
+    just heroes gen_heroes_md "{{input_fpath}}" "{{heroes_unlinked_dpath}}" "{{heroes_linked_dpath}}"
     just heroes convert_md_to_other_formats "{{heroes_unlinked_dpath}}"
 
 ##################################################
@@ -31,12 +30,13 @@ gen input_fpath:
 
 # After heroes book markdown is fully cleaned up, will generate all markdown files
 [private]
-gen_heroes_md_unlinked input_fpath output_dpath:
+gen_heroes_md input_fpath unlinked_output_dpath linked_output_dpath:
     #!/usr/bin/env bash
     set -euo pipefail
 
     just _print_section "Heroes: Generating hero markdown"
-    mkdir -p "{{heroes_unlinked_dpath}}"
+    mkdir -p "{{unlinked_output_dpath}}"
+    mkdir -p "{{linked_output_dpath}}"
 
     # Features: Extract Table of Contents from heroes.md
     just _print_section "Heroes: Converting heroes markdown to Table of Contents"
@@ -88,15 +88,28 @@ gen_heroes_md_unlinked input_fpath output_dpath:
     preformatted_dpath="{{heroes_staging_dpath}}/7_preformatted"
     mkdir -p "$preformatted_dpath"
     cp -R "$md_sections_dpath"/* "$preformatted_dpath"
-    just heroes input_md_cleanup "{{input_fpath}}" "${preformatted_dpath}/Draw Steel Heroes - Unlinked.md"
+    just heroes input_md_cleanup "{{input_fpath}}" "${preformatted_dpath}/Draw Steel Heroes.md"
 
     # Format/Lint all markdown files
     formatted_dpath="{{heroes_staging_dpath}}/8_formatted_md"
     cp -R "$preformatted_dpath" "$formatted_dpath"
     just markdown lint "$formatted_dpath"
 
+    # link
+    linking_dpath="{{heroes_staging_dpath}}/9_linking_md"
+    mkdir -p "$linking_dpath/unlinked"
+    mkdir -p "$linking_dpath/linked"
+    cp -R "$formatted_dpath"/* "$linking_dpath/unlinked"
+    cp -R "$formatted_dpath"/* "$linking_dpath/linked"
+    just linker remove_scc_links "$linking_dpath/unlinked"
+    just linker apply_scc_links "$linking_dpath/linked" "$scc_to_path_json_fpath"
+
+    # Keeping this for backwards compatability
+    cp "${linking_dpath}/unlinked/Draw Steel Heroes.md" "${linking_dpath}/unlinked/Draw Steel Heroes - Unlinked.md"
+
     # Finally, move to output dir
-    cp -R "$formatted_dpath"/* "{{output_dpath}}/"
+    cp -R "$linking_dpath/unlinked/"* "{{unlinked_output_dpath}}/"
+    cp -R "$linking_dpath/linked/"* "{{linked_output_dpath}}/"
 
 # Cleans up the original "Draw Steel Heroes.md" file for inclusion in data-md repo
 input_md_cleanup input_fpath output_fpath:
@@ -142,7 +155,7 @@ convert_md_to_other_formats md_dpath:
     set -euo pipefail
 
     just _print_section "Heroes: Converting markdown into other formats"
-    conversions_dpath="{{heroes_staging_dpath}}/9_conversions"
+    conversions_dpath="{{heroes_staging_dpath}}/10_conversions"
 
     just features convert_all "{{md_dpath}}/Features" "json" "${conversions_dpath}/json/Features"
     just features convert_all "{{md_dpath}}/Abilities" "json" "${conversions_dpath}/json/Abilities"
