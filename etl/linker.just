@@ -42,6 +42,9 @@ apply_scc_links md_dpath scc_to_path_json_fpath:
     MD_DPATH = Path("{{md_dpath}}")
     SCC_TO_PATH_JSON_FILE = Path("{{scc_to_path_json_fpath}}")
 
+    URL_PREFIX = "{REL_PATH_PREFIX}"
+    URL_SUFFIX = "{REL_PATH_SUFFIX}"
+
     def load_scc_map():
         if SCC_TO_PATH_JSON_FILE.exists():
             return json.loads(SCC_TO_PATH_JSON_FILE.read_text())
@@ -64,7 +67,7 @@ apply_scc_links md_dpath scc_to_path_json_fpath:
                  full_match = match.group(0)
                  scc_key = match.group(1) # The part after "scc:"
                  if scc_key in scc_map:
-                     replacement = "({REL_PATH_PREFIX}" + scc_map[scc_key] + "{REL_PATH_SUFFIX})"
+                     replacement = "(" + URL_PREFIX + scc_map[scc_key] + URL_SUFFIX +")"
                      new_body = new_body.replace(full_match, replacement)
             
              if new_body != body:
@@ -77,7 +80,7 @@ apply_scc_links md_dpath scc_to_path_json_fpath:
                  full_match = match.group(0)
                  scc_key = match.group(1)
                  if scc_key in scc_map:
-                      replacement = "({REL_PATH_PREFIX}" + scc_map[scc_key] + "{REL_PATH_SUFFIX})"
+                      replacement = "(" + URL_PREFIX + scc_map[scc_key] + URL_SUFFIX +")"
                       new_content = new_content.replace(full_match, replacement)
              
              if new_content != content:
