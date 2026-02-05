@@ -91,26 +91,26 @@ gen_heroes_md input_fpath unlinked_output_dpath linked_output_dpath:
     cp -R "$md_sections_dpath"/* "$preformatted_dpath"
     just heroes input_md_cleanup "{{input_fpath}}" "${preformatted_dpath}/Draw Steel Heroes.md"
 
-    # Format/Lint all markdown files
-    formatted_dpath="{{heroes_staging_dpath}}/8_formatted_md"
-    cp -R "$preformatted_dpath" "$formatted_dpath"
-    just markdown lint "$formatted_dpath"
-
     # link
-    linking_dpath="{{heroes_staging_dpath}}/9_linking_md"
+    linking_dpath="{{heroes_staging_dpath}}/8_linking_md"
     mkdir -p "$linking_dpath/unlinked"
     mkdir -p "$linking_dpath/linked"
-    cp -R "$formatted_dpath"/* "$linking_dpath/unlinked"
-    cp -R "$formatted_dpath"/* "$linking_dpath/linked"
+    cp -R "$preformatted_dpath"/* "$linking_dpath/unlinked"
+    cp -R "$preformatted_dpath"/* "$linking_dpath/linked"
     just linker remove_scc_links "$linking_dpath/unlinked"
     just linker apply_scc_links "$linking_dpath/linked" "$scc_to_path_json_fpath"
 
+    # Format/Lint all markdown files
+    formatted_dpath="{{heroes_staging_dpath}}/9_formatted_md"
+    cp -R "$linking_dpath" "$formatted_dpath"
+    just markdown lint "$formatted_dpath"
+
     # Keeping this for backwards compatability
-    cp "${linking_dpath}/unlinked/Draw Steel Heroes.md" "${linking_dpath}/unlinked/Draw Steel Heroes - Unlinked.md"
+    cp "${formatted_dpath}/unlinked/Draw Steel Heroes.md" "${formatted_dpath}/unlinked/Draw Steel Heroes - Unlinked.md"
 
     # Finally, move to output dir
-    cp -R "$linking_dpath/unlinked/"* "{{unlinked_output_dpath}}/"
-    cp -R "$linking_dpath/linked/"* "{{linked_output_dpath}}/"
+    cp -R "$formatted_dpath/unlinked/"* "{{unlinked_output_dpath}}/"
+    cp -R "$formatted_dpath/linked/"* "{{linked_output_dpath}}/"
 
 # Cleans up the original "Draw Steel Heroes.md" file for inclusion in data-md repo
 input_md_cleanup input_fpath output_fpath:
