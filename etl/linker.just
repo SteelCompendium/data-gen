@@ -42,8 +42,8 @@ apply_scc_links md_dpath scc_to_path_json_fpath:
     MD_DPATH = Path("{{md_dpath}}")
     SCC_TO_PATH_JSON_FILE = Path("{{scc_to_path_json_fpath}}")
 
-    URL_PREFIX = "{REL_PATH_PREFIX}"
-    URL_SUFFIX = "{REL_PATH_SUFFIX}"
+    URL_PREFIX = "REL_PATH_PREFIX"
+    URL_SUFFIX = "REL_PATH_SUFFIX"
 
     def load_scc_map():
         if SCC_TO_PATH_JSON_FILE.exists():
