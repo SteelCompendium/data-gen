@@ -252,7 +252,7 @@
             }
           }
         },
-        "ashen-hoarder": {
+        "lightbenders": {
           "_id": 24,
           "_children": {
             "statblock": {
@@ -261,7 +261,7 @@
             }
           }
         },
-        "elves-shadow": {
+        "ashen-hoarder": {
           "_id": 25,
           "_children": {
             "statblock": {
@@ -270,7 +270,7 @@
             }
           }
         },
-        "elves-wode": {
+        "elves-shadow": {
           "_id": 26,
           "_children": {
             "statblock": {
@@ -279,7 +279,7 @@
             }
           }
         },
-        "lord-syuul": {
+        "elves-wode": {
           "_id": 27,
           "_children": {
             "statblock": {
@@ -288,7 +288,7 @@
             }
           }
         },
-        "arixx": {
+        "lord-syuul": {
           "_id": 28,
           "_children": {
             "statblock": {
@@ -297,7 +297,7 @@
             }
           }
         },
-        "angulotls": {
+        "arixx": {
           "_id": 29,
           "_children": {
             "statblock": {
@@ -306,7 +306,7 @@
             }
           }
         },
-        "medusas": {
+        "angulotls": {
           "_id": 30,
           "_children": {
             "statblock": {
@@ -315,7 +315,7 @@
             }
           }
         },
-        "kingfissure-worm": {
+        "medusas": {
           "_id": 31,
           "_children": {
             "statblock": {
@@ -324,7 +324,7 @@
             }
           }
         },
-        "animals": {
+        "kingfissure-worm": {
           "_id": 32,
           "_children": {
             "statblock": {
@@ -333,7 +333,7 @@
             }
           }
         },
-        "demons": {
+        "animals": {
           "_id": 33,
           "_children": {
             "statblock": {
@@ -342,7 +342,7 @@
             }
           }
         },
-        "count rhodar von glauer": {
+        "demons": {
           "_id": 34,
           "_children": {
             "statblock": {
@@ -351,7 +351,7 @@
             }
           }
         },
-        "bugbears": {
+        "count rhodar von glauer": {
           "_id": 35,
           "_children": {
             "statblock": {
@@ -360,7 +360,7 @@
             }
           }
         },
-        "hag": {
+        "bugbears": {
           "_id": 36,
           "_children": {
             "statblock": {
@@ -369,7 +369,7 @@
             }
           }
         },
-        "devils": {
+        "hag": {
           "_id": 37,
           "_children": {
             "statblock": {
@@ -378,7 +378,7 @@
             }
           }
         },
-        "goblins": {
+        "devils": {
           "_id": 38,
           "_children": {
             "statblock": {
@@ -387,7 +387,7 @@
             }
           }
         },
-        "xorannox the tyract": {
+        "goblins": {
           "_id": 39,
           "_children": {
             "statblock": {
@@ -396,7 +396,7 @@
             }
           }
         },
-        "elementals": {
+        "xorannox the tyract": {
           "_id": 40,
           "_children": {
             "statblock": {
@@ -405,7 +405,7 @@
             }
           }
         },
-        "valok": {
+        "elementals": {
           "_id": 41,
           "_children": {
             "statblock": {
@@ -414,7 +414,7 @@
             }
           }
         },
-        "basilisks": {
+        "valok": {
           "_id": 42,
           "_children": {
             "statblock": {
@@ -423,7 +423,7 @@
             }
           }
         },
-        "werewolf": {
+        "basilisks": {
           "_id": 43,
           "_children": {
             "statblock": {
@@ -432,7 +432,7 @@
             }
           }
         },
-        "voiceless-talkers": {
+        "werewolf": {
           "_id": 44,
           "_children": {
             "statblock": {
@@ -441,7 +441,7 @@
             }
           }
         },
-        "dragons": {
+        "voiceless-talkers": {
           "_id": 45,
           "_children": {
             "statblock": {
@@ -450,7 +450,7 @@
             }
           }
         },
-        "manticores": {
+        "dragons": {
           "_id": 46,
           "_children": {
             "statblock": {
@@ -459,7 +459,7 @@
             }
           }
         },
-        "lich": {
+        "manticores": {
           "_id": 47,
           "_children": {
             "statblock": {
@@ -468,7 +468,7 @@
             }
           }
         },
-        "shambling-mound": {
+        "lich": {
           "_id": 48,
           "_children": {
             "statblock": {
@@ -477,7 +477,7 @@
             }
           }
         },
-        "war-dogs": {
+        "shambling-mound": {
           "_id": 49,
           "_children": {
             "statblock": {
@@ -486,7 +486,7 @@
             }
           }
         },
-        "dwarves": {
+        "war-dogs": {
           "_id": 50,
           "_children": {
             "statblock": {
@@ -495,7 +495,7 @@
             }
           }
         },
-        "trolls": {
+        "dwarves": {
           "_id": 51,
           "_children": {
             "statblock": {
@@ -504,8 +504,17 @@
             }
           }
         },
-        "fossil-cryptic": {
+        "trolls": {
           "_id": 52,
+          "_children": {
+            "statblock": {
+              "_id": 1,
+              "_children": {}
+            }
+          }
+        },
+        "fossil-cryptic": {
+          "_id": 53,
           "_children": {
             "statblock": {
               "_id": 1,
@@ -603,7 +612,7 @@
   "counters": {
     "chapter": 4,
     "monster/section": 51,
-    "monster/feature": 63,
+    "monster/feature": 64,
     "monster/chimera/statblock": 1,
     "monster/ogres/statblock": 5,
     "monster/rivals/1st echelon/statblock": 7,
@@ -628,6 +637,7 @@
     "monster/hobgoblins/statblock": 15,
     "monster/giants/statblock": 13,
     "monster/bredbeddle/statblock": 1,
+    "monster/lightbenders/statblock": 2,
     "monster/ashen-hoarder/statblock": 1,
     "monster/elves-shadow/statblock": 14,
     "monster/elves-wode/statblock": 13,
