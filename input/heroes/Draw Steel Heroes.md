@@ -680,7 +680,7 @@ Whenever a hero or other creature in the game attempts a task with an uncertain 
 
 The game uses two types of power rolls. An **ability roll** is used when you use certain abilities to determine their impact. For instance, if a [fury](scc:mcdm.heroes.v1:class:fury) uses their Brutal Slam ability to strike an enemy, their ability roll determines how much damage the enemy takes and how far back the enemy is pushed. See [Abilities](#page-83-0) for more information.
 
-A **test** is a power roll you make outside of using your abilities to affect or interact with the world around you. A [tactician](scc:mcdm.heroes.v1:class:tactician) might not have an ability that lets them [climb](scc:mcdm.heroes.v1:movement:climb-or-swim) up the face of a cliff, so climbing is an activity they can attempt with a test. An [elementalist](scc:mcdm.heroes.v1:class:elementalist) doesn't have an ability that lets them automatically intimidate a cultist into backing down from a fight, but they can make a test if they want to try. See [Tests](#page-263-0) for more information.
+A **test** is a power roll you make outside of using your abilities to affect or interact with the world around you. A [tactician](scc:mcdm.heroes.v1:class:tactician) might not have an ability that lets them [climb](scc:mcdm.heroes.v1:movement:climb-or-swim) up the face of a cliff, so climbing is an activity they can attempt with a test. An [elementalist](scc:mcdm.heroes.v1:class:elementalist) doesn't have an ability that lets them automatically intimidate a cultist into backing down from a fight, but they can make a test if they want to try. See [Tests](mcdm.heroes.v1:chapter:tests) for more information.
 
 > **Sapient Creatures**
 >
@@ -688,7 +688,7 @@ A **test** is a power roll you make outside of using your abilities to affect or
 
 #### Making a Power Roll
 
-When you make a power roll, you roll two ten-sided dice (usually noted as 2d10 in the rules) and add one of your characteristics. The characteristic you add depends on the kind of roll you're making, as outlined in [Abilities](#page-83-0) and [Tests](#page-263-0).
+When you make a power roll, you roll two ten-sided dice (usually noted as 2d10 in the rules) and add one of your characteristics. The characteristic you add depends on the kind of roll you're making, as outlined in [Abilities](#page-83-0) and [Tests](mcdm.heroes.v1:chapter:tests).
 
 ##### Power Roll Outcomes
 
@@ -698,19 +698,19 @@ The total of a power roll determines your outcome tier—three levels that deter
 - **Tier 2:** If your power roll total is **12 to 16**, it is a tier 2 outcome. This is the average outcome of many power rolls, especially for heroes who are 1st level. When using an ability, a tier 2 outcome means that what you do has a moderate impact. With this outcome, a strike ability deals a decent amount of damage and has an effect that briefly helps allies or hinders enemies. For a test, a tier 2 outcome means you might succeed at what you set out to do—though depending on the difficulty, success might have a cost.
 - **Tier 3:** If your power roll total is **17 or higher**, it is a tier 3 outcome. This is the best outcome a power roll can have. When using an ability, a tier 3 outcome means you deliver the maximum impact possible. With this outcome, a strike ability deals a lot of damage and has a powerful or lasting effect on enemies or allies. For a test, a tier 3 outcome means you succeed at what you set out to do. If the test has an easy difficulty, you also get a little something extra in addition to your success.
 
-The specific outcome of any power roll is determined by the effect or ability that requires the roll (see [Abilities](#page-83-0)) or the rules for tests (see [Tests](#page-263-0)).
+The specific outcome of any power roll is determined by the effect or ability that requires the roll (see [Abilities](#page-83-0)) or the rules for tests (see [Tests](mcdm.heroes.v1:chapter:tests)).
 
 ##### Downgrade a Power Roll
 
 Whenever you make a power roll, you can downgrade it to select the outcome of a lower tier. For instance, if an ability has a tier 3 outcome that lets you impose the [restrained](scc:mcdm.heroes.v1:condition:restrained) condition on a creature, but the tier 2 outcome for that ability lets you impose the [slowed](scc:mcdm.heroes.v1:condition:slowed) condition, you can use the tier 2 outcome if you would rather have the creature [slowed](scc:mcdm.heroes.v1:condition:slowed) than [restrained](scc:mcdm.heroes.v1:condition:restrained).
 
-If you downgrade a critical hit, you still get the extra action benefit of the critical hit (see [Critical Hit](#page-89-0) in [Classes](#page-83-2)).
+If you downgrade a critical hit, you still get the extra action benefit of the critical hit (see [Critical Hit](#page-89-0) in [Classes](mcdm.heroes.v1:chapter:classes)).
 
 ##### Natural Roll
 
 The total of your power roll before your characteristic or any other modifiers are added is called the natural roll. The rules often refer to this as "rolling a natural X," where X is the total of the roll. For example, if you get a 20 on a power roll before adding your characteristic, this is called rolling a natural 20.
 
-When you roll a natural 19 or 20 on a power roll, it is always a tier 3 result regardless of any modifiers, and on certain types of power rolls, this is a critical hit (see [Critical Hit](#page-89-0) in [Classes](#page-83-2)).
+When you roll a natural 19 or 20 on a power roll, it is always a tier 3 result regardless of any modifiers, and on certain types of power rolls, this is a critical hit (see [Critical Hit](#page-89-0) in [Classes](mcdm.heroes.v1:chapter:classes)).
 
 #### Edges and Banes
 
@@ -770,13 +770,13 @@ At the start of a new game session, the heroes have a number of hero tokens equa
 
 Heroes can earn more tokens through play by taking big risks to save others. A hero who leaps off a cliff to reach the bottom and aid a friend, who crosses a burning bridge to save a stray cat, or who wagers their most prized treasure as part of a negotiation to get shelter for a group of refugees might earn a hero token for the group. The Director has the final say regarding which heroic acts earn hero tokens.
 
-Players can also be awarded hero tokens as part of a test's outcome when they succeed on the test with a reward (see [Tests](#page-263-0)).
+Players can also be awarded hero tokens as part of a test's outcome when they succeed on the test with a reward (see [Tests](mcdm.heroes.v1:chapter:tests)).
 
 #### Spending Hero Tokens
 
 Whenever hero tokens are available, you can spend them in the following ways:
 
-- You can spend a hero token to gain 2 surges, allowing you to increase the damage or potency of an ability. (See [Surges](#page-89-2) in [Classes](#page-83-2).)
+- You can spend a hero token to gain 2 surges, allowing you to increase the damage or potency of an ability. (See [Surges](#page-89-2) in [Classes](mcdm.heroes.v1:chapter:classes).)
 - You can spend a hero token when you fail a saving throw, letting you succeed on the save instead.
 - You can spend a hero token to reroll a test. You must use the new roll.
 - You can spend 2 hero tokens on your turn or when you take damage (no action required) to regain Stamina equal to your recovery value before taking the damage.
@@ -1100,7 +1100,7 @@ The first thing you should do is think about the kind of hero you want to make. 
 
 #### 2. Ancestry
 
-Choose your hero's humanoid ancestry from among the range of [ancestries](scc:mcdm.heroes.v1:chapter:ancestries) available in the game—devil, dragon knight, [dwarf](scc:mcdm.heroes.v1:ancestry:dwarf), wode elf, high elf, [hakaan](scc:mcdm.heroes.v1:ancestry:hakaan), [human](scc:mcdm.heroes.v1:ancestry:human), [memonek](scc:mcdm.heroes.v1:ancestry:memonek), [orc](scc:mcdm.heroes.v1:ancestry:orc), [polder](scc:mcdm.heroes.v1:ancestry:polder), [revenant](scc:mcdm.heroes.v1:ancestry:revenant), or time raider. Future supplements will introduce additional [ancestries](scc:mcdm.heroes.v1:chapter:ancestries) you can choose from. See [Chapter 3: Ancestries](#page-35-0) for more information.
+Choose your hero's humanoid ancestry from among the range of [ancestries](scc:mcdm.heroes.v1:chapter:ancestries) available in the game—devil, [dragon knight](mcdm.heroes.v1:ancestry:dragon-knight), [dwarf](scc:mcdm.heroes.v1:ancestry:dwarf), wode elf, high elf, [hakaan](scc:mcdm.heroes.v1:ancestry:hakaan), [human](scc:mcdm.heroes.v1:ancestry:human), [memonek](scc:mcdm.heroes.v1:ancestry:memonek), [orc](scc:mcdm.heroes.v1:ancestry:orc), [polder](scc:mcdm.heroes.v1:ancestry:polder), [revenant](scc:mcdm.heroes.v1:ancestry:revenant), or time raider. Future supplements will introduce additional [ancestries](scc:mcdm.heroes.v1:chapter:ancestries) you can choose from. See [Chapter 3: Ancestries](#page-35-0) for more information.
 
 #### 3. Culture
 
@@ -1262,7 +1262,7 @@ This chapter details twelve [ancestries](scc:mcdm.heroes.v1:chapter:ancestries) 
 
 **[Devil](scc:mcdm.heroes.v1:ancestry:devil):** [Devils](scc:mcdm.heroes.v1:ancestry:devil) originated in the Seven Cities of Hell and have a supernatural charisma that helps them persuade others. They are similar in stature to [humans](scc:mcdm.heroes.v1:ancestry:human), and their skin tones include deep blues, purples, and reds. They sport horns, eyes of all shades (including gold and red), and tails, and some have feathered or leathery wings.
 
-**[Dragon Knight](scc:mcdm.heroes.v1:ancestry:dragon-knight):** Dragon knights are muscled draconic humanoids who stand between 6 and 7 feet tall. The scales covering their reptilian heads, bodies, and tails can be almost any color. All dragon knights have wings, but on only a few are those wings big enough to let them [fly](scc:mcdm.heroes.v1:movement:fly).
+**[Dragon Knight](scc:mcdm.heroes.v1:ancestry:dragon-knight):** [Dragon knights](mcdm.heroes.v1:ancestry:dragon-knight) are muscled draconic humanoids who stand between 6 and 7 feet tall. The scales covering their reptilian heads, bodies, and tails can be almost any color. All [dragon knights](mcdm.heroes.v1:ancestry:dragon-knight) have wings, but on only a few are those wings big enough to let them [fly](scc:mcdm.heroes.v1:movement:fly).
 
 **[Dwarf](scc:mcdm.heroes.v1:ancestry:dwarf):** Humanoids with stony skin, [dwarves](scc:mcdm.heroes.v1:ancestry:dwarf) have short and stout bodies. Many carve supernatural runes into their flesh, and some have beards made of crystals.
 
@@ -1316,7 +1316,7 @@ However, mortals are not gods and lack their ineffable wisdom. They are, in fact
 
 In every instance in recorded history, attempts by mortals to make obedient servitor species backfired. The steel [dwarves](scc:mcdm.heroes.v1:ancestry:dwarf) worked marvels with valiar, the truemetal, and the miracle mineral iridoss, known as prismacore, that grants objects a semblance of life. Eventually their science and magics produced the omnivok—machines that were self-aware. Perhaps uniquely, when the [dwarves](scc:mcdm.heroes.v1:ancestry:dwarf) realized they had created beings equal to themselves they stopped their work and gave their creations full rights and independence, preferring to work with them rather than attempt, and inevitably fail, to be their masters.
 
-Normally, it doesn't work out that nicely. Even with the best of intentions, things go awry. The Dragon Phalanx were created by Good King Omund's wizard Vitae to be the perfect knights, dispensing justice throughout the lands. But the same sorceries that grant self-awareness also grant independence. Agency. And though they enjoyed 30 years of peace and justice, eventually the dragon knights were betrayed by one of their own, seduced by the power offered by Ajax.
+Normally, it doesn't work out that nicely. Even with the best of intentions, things go awry. The Dragon Phalanx were created by Good King Omund's wizard Vitae to be the perfect knights, dispensing justice throughout the lands. But the same sorceries that grant self-awareness also grant independence. Agency. And though they enjoyed 30 years of peace and justice, eventually the [dragon knights](mcdm.heroes.v1:ancestry:dragon-knight) were betrayed by one of their own, seduced by the power offered by Ajax.
 
 The law of unintended consequences applies to the just and the unjust alike.
 
@@ -1658,11 +1658,11 @@ You possess wings powerful enough to take you airborne. While using your wings t
 
 ## Dragon Knight
 
-The ritual of Dracogenesis that grants the power to create a generation of dragon knights—also known as draconians or wyrmwights—is obscure and supremely difficult for even an experienced sorcerer to master. Small populations of draconians in Khemhara, Higara, and Khoursir attest to this. Descendants of original generations created millennia ago by powerful wizards, they have never been numerous. A typical clutch yields only a single egg. After only a few generations, these draconians begin to show new adaptations like feathers or frilled ridges.
+The ritual of Dracogenesis that grants the power to create a generation of [dragon knights](mcdm.heroes.v1:ancestry:dragon-knight)—also known as draconians or wyrmwights—is obscure and supremely difficult for even an experienced sorcerer to master. Small populations of draconians in Khemhara, Higara, and Khoursir attest to this. Descendants of original generations created millennia ago by powerful wizards, they have never been numerous. A typical clutch yields only a single egg. After only a few generations, these draconians begin to show new adaptations like feathers or frilled ridges.
 
 The largest extant population of draconians is the remnants of the Dragon Phalanx in Vasloria. Created by Good King Omund's wizard Vitae, the Dragon Phalanx once numbered several thousand of the king's greatest knights, ensuring the rule of law across the land.
 
-Knighthood was a title carried by every member of that first generation of dragon knights. Within the Dragon Phalanx were [shadows](scc:mcdm.heroes.v1:class:shadow), [censors](scc:mcdm.heroes.v1:class:censor), [tacticians](scc:mcdm.heroes.v1:class:tactician), and [elementalists](scc:mcdm.heroes.v1:class:elementalist). Members of virtually every heroic vocation could be found in one of the eight dragonflights that made up the phalanx. For over 30 years, these heroes were symbols of justice, protecting the weak from the strong, and standing between the common folk and those who sought power over others. Those who grew up in that place and time could not imagine any other way of life.
+Knighthood was a title carried by every member of that first generation of [dragon knights](mcdm.heroes.v1:ancestry:dragon-knight). Within the Dragon Phalanx were [shadows](scc:mcdm.heroes.v1:class:shadow), [censors](scc:mcdm.heroes.v1:class:censor), [tacticians](scc:mcdm.heroes.v1:class:tactician), and [elementalists](scc:mcdm.heroes.v1:class:elementalist). Members of virtually every heroic vocation could be found in one of the eight dragonflights that made up the phalanx. For over 30 years, these heroes were symbols of justice, protecting the weak from the strong, and standing between the common folk and those who sought power over others. Those who grew up in that place and time could not imagine any other way of life.
 
 Then Ajax came.
 
@@ -1674,7 +1674,7 @@ A tall, broad draconian stepped into the light. He was old, his scales battle-sc
 
 The three [human](scc:mcdm.heroes.v1:ancestry:human) bandits took a step back. One of the [dwarves](scc:mcdm.heroes.v1:ancestry:dwarf) just sneered—then, sensing his [human](scc:mcdm.heroes.v1:ancestry:human) compatriots' reluctance, turned to look at them. "What's this?" the lead [dwarf](scc:mcdm.heroes.v1:ancestry:dwarf) growled.
 
-Looking at the dragon knight, another bandit added quickly, "We didn't know there was one of you here."
+Looking at the [dragon knight](mcdm.heroes.v1:ancestry:dragon-knight), another bandit added quickly, "We didn't know there was one of you here."
 
 The draconian didn't move. Didn't give any indication he heard the man. Just stared unblinking at the lead [dwarf](scc:mcdm.heroes.v1:ancestry:dwarf). "Think of the *bounty*," the [dwarf](scc:mcdm.heroes.v1:ancestry:dwarf) hissed to the [humans](scc:mcdm.heroes.v1:ancestry:human), but he kept his eye on the draconian. "We'll all be *rich*."
 
@@ -1682,15 +1682,15 @@ The two [dwarves](scc:mcdm.heroes.v1:ancestry:dwarf) surveyed the tavern. The pe
 
 "We'll be *back*," the lead [dwarf](scc:mcdm.heroes.v1:ancestry:dwarf) said, and the group of them backed out of the inn, sheathing their shortswords before they turned and left.
 
-As one, the people in the tavern turned to look with undisguised awe at the dragon knight. He noticed this, ducked his head to avoid their gaze. "Show's over," he growled, then he turned to go back to his seat in the rear.
+As one, the people in the tavern turned to look with undisguised awe at the [dragon knight](mcdm.heroes.v1:ancestry:dragon-knight). He noticed this, ducked his head to avoid their gaze. "Show's over," he growled, then he turned to go back to his seat in the rear.
 
-A short, doughty, middle-aged man stood up, and two equally doughty women at the same table stood up with him. "Excuse me, sir knight," the man said as the dragon knight walked past their table.
+A short, doughty, middle-aged man stood up, and two equally doughty women at the same table stood up with him. "Excuse me, sir knight," the man said as the [dragon knight](mcdm.heroes.v1:ancestry:dragon-knight) walked past their table.
 
 The knight moved on, ignoring them. The man reached out and grabbed the massive draconian's arm. The knight wheeled on the peasant, looming over him.
 
 The man touched his forelock. The two women with him curtseyed. "Begging your pardon, sir, but we been lookin' for you."
 
-The dragon knight sneered and bared a set of sharp teeth. "*Look for someone else*," he growled as he pulled his arm away.
+The [dragon knight](mcdm.heroes.v1:ancestry:dragon-knight) sneered and bared a set of sharp teeth. "*Look for someone else*," he growled as he pulled his arm away.
 
 The man scurried around to stand in front of the draconian, blocking his way. He took off his worn cap and held it over his breast. "I'm sorry sir, but there ain't no one else. There's this new tax, you see, from the new baron. And a priest says he's of Saint Ajax."
 
@@ -1698,7 +1698,7 @@ The knight bared his impressive teeth, ready to scare Jago and the other two awa
 
 "You might want to hear 'em out, Vaant," said a voice from the table the three peasants had been sitting at.
 
-The dragon knight turned sharply to look at the man who'd spoken. His back was to the draconian, but the voice gave him away.
+The [dragon knight](mcdm.heroes.v1:ancestry:dragon-knight) turned sharply to look at the man who'd spoken. His back was to the draconian, but the voice gave him away.
 
 "John?"
 
@@ -1706,7 +1706,7 @@ The man turned to look up.
 
 "Hi Vaant," he said, smiling. He rose from the table. He was middleaged, fit. Black hair hung down to his shoulders. He was armed with many weapons. "Folks," he said, "this is Vaantikalisax, knight of King Omund in the Thunder Phalanx. He may be the last of the Storm Knights."
 
-The man held out his hand. The dragon knight looked at it for a moment before reaching out slowly to grasp it. "What are you doing out here?" he asked.
+The man held out his hand. The [dragon knight](mcdm.heroes.v1:ancestry:dragon-knight) looked at it for a moment before reaching out slowly to grasp it. "What are you doing out here?" he asked.
 
 "These people need help. I said I'd find it. Heard a rumor someone matching your description was holed up here having a drinking contest with Mr. John Barleycorn."
 
@@ -1718,7 +1718,7 @@ The draconian sniffed, released John's hand. "Sure," he said. "But why *me*?"
 
 "Yeah." Sir John smiled. "The hero game."
 
-The inn had mostly gone back to its business but the three peasants watched intently. Eventually the dragon knight spoke again, his voice low.
+The inn had mostly gone back to its business but the three peasants watched intently. Eventually the [dragon knight](mcdm.heroes.v1:ancestry:dragon-knight) spoke again, his voice low.
 
 "I owe you a lot, John—but not everything."
 
@@ -1728,17 +1728,17 @@ The inn had mostly gone back to its business but the three peasants watched inte
 
 "What does your oath say? 'Even should the sun stop in the sky, even should the night-'"
 
-"John," the dragon knight said, his voice suddenly sad. Exasperated. "You don't want to quote my oath to me. You really don't. I liked serving with you. I have fond memories of that time—of you. Don't spoil it." He looked at his friend, the three peasants, then shook his head and turned to leave the inn.
+"John," the [dragon knight](mcdm.heroes.v1:ancestry:dragon-knight) said, his voice suddenly sad. Exasperated. "You don't want to quote my oath to me. You really don't. I liked serving with you. I have fond memories of that time—of you. Don't spoil it." He looked at his friend, the three peasants, then shook his head and turned to leave the inn.
 
-"Vaant," Sir John said, following. "Sir Vaantikalisax, by your *oath*!" The dragon knight stopped and spun around. Everyone in the inn was watching the show again. Act two.
+"Vaant," Sir John said, following. "Sir Vaantikalisax, by your *oath*!" The [dragon knight](mcdm.heroes.v1:ancestry:dragon-knight) stopped and spun around. Everyone in the inn was watching the show again. Act two.
 
 "The people need leadership," John said.
 
-Vaantikalisax's reptile eyes flashed in anger. "They *had it*! Thirty years, and what did it amount to?! I watched Ajax... I watched him..." The dragon knight's eyes flinched. His clawed hands tightened on his mace and shield. "I watched the oath... fail."
+Vaantikalisax's reptile eyes flashed in anger. "They *had it*! Thirty years, and what did it amount to?! I watched Ajax... I watched him..." The [dragon knight](mcdm.heroes.v1:ancestry:dragon-knight)'s eyes flinched. His clawed hands tightened on his mace and shield. "I watched the oath... fail."
 
 "Vaant... Vaant, the Dragon Phalanx didn't *fail*. You were *betrayed*. It was Mandrake! One of your own, don't you get it? You're just as fallible as the rest of us. You were never 'incorruptible.' It's just what we wanted to believe. You're just people—like the rest of us."
 
-The dragon knight looked at the people around him, at the three peasants desperate for someone, anyone, to help them. Then he looked back to his friend.
+The [dragon knight](mcdm.heroes.v1:ancestry:dragon-knight) looked at the people around him, at the three peasants desperate for someone, anyone, to help them. Then he looked back to his friend.
 
 "Exactly," Vaantikalisax said. Then he turned and left the inn.
 
@@ -2806,7 +2806,7 @@ Sir Vaantikalisax loomed just inside the doorway, his scales and armor glowing i
 
 "I, uh..." Vaantikalisax said. The tall, broad draconian looked from John to the three peasants. Jago, Sarah, and Beth were beaming with even more joy than John, if that were possible.
 
-The dragon knight stared at them for a moment, then turned back to his friend.
+The [dragon knight](mcdm.heroes.v1:ancestry:dragon-knight) stared at them for a moment, then turned back to his friend.
 
 "Maybe you're right," he said.
 
@@ -3030,7 +3030,7 @@ Slowly everyone assembled could make out the sounds of a conversation, quiet wit
 
 "Oh, thank you for the brilliant tactical advice," another voice, high pitched, piped up.
 
-Suddenly, the images became three dimensional, solid, and seven heroes stood among them. A [human](scc:mcdm.heroes.v1:ancestry:human) in working battle plate. A [dwarf](scc:mcdm.heroes.v1:ancestry:dwarf) with his battle-staff tipped with an hourglass. An [orc](scc:mcdm.heroes.v1:ancestry:orc) with a huge battleaxe casually resting on her shoulder. A [polder](scc:mcdm.heroes.v1:ancestry:polder) with twin rapiers in his hands. A tall willowy high elf with night-black skin and golden hair. An unarmed [hakaan](scc:mcdm.heroes.v1:ancestry:hakaan) towering over everyone. And a dragon knight. Of all the motley band, it was the dragon knight who caused the people of the town to gasp. Even at a distance, even with the war dogs between them, they recognized the device of Good King Omund on the knight's shield.
+Suddenly, the images became three dimensional, solid, and seven heroes stood among them. A [human](scc:mcdm.heroes.v1:ancestry:human) in working battle plate. A [dwarf](scc:mcdm.heroes.v1:ancestry:dwarf) with his battle-staff tipped with an hourglass. An [orc](scc:mcdm.heroes.v1:ancestry:orc) with a huge battleaxe casually resting on her shoulder. A [polder](scc:mcdm.heroes.v1:ancestry:polder) with twin rapiers in his hands. A tall willowy high elf with night-black skin and golden hair. An unarmed [hakaan](scc:mcdm.heroes.v1:ancestry:hakaan) towering over everyone. And a [dragon knight](mcdm.heroes.v1:ancestry:dragon-knight). Of all the motley band, it was the [dragon knight](mcdm.heroes.v1:ancestry:dragon-knight) who caused the people of the town to gasp. Even at a distance, even with the war dogs between them, they recognized the device of Good King Omund on the knight's shield.
 
 The war dogs scrambled. For a moment, it seemed they might flee at this sudden intrusion, but the taxiarch bellowed "Hold fast!" and they held their ground, uncertainty over the unknown threat of a band of heroes battling in each of them against the certain fear of their commander.
 
@@ -3060,7 +3060,7 @@ John knew what came next, but he wasn't an assassin. He had his own part to play
 
 Lycaon cocked his head at Sir John and took a few foolish steps toward the [tactician](scc:mcdm.heroes.v1:class:tactician). He was just out of reach. But close enough.
 
-"I see you are a man, like Ajax. Why do you lower yourself with these... creatures?" The war dog taxiarch looked at the elf, giant, [polder](scc:mcdm.heroes.v1:ancestry:polder), [dwarf](scc:mcdm.heroes.v1:ancestry:dwarf), and dragon knight. "Little more than slimy things crawled out of the sea? Join us. Join me. Join Ajax. It'll be nice for you..."-his voice lowered almost to a whisper-"... to be on the winning side for a change."
+"I see you are a man, like Ajax. Why do you lower yourself with these... creatures?" The war dog taxiarch looked at the elf, giant, [polder](scc:mcdm.heroes.v1:ancestry:polder), [dwarf](scc:mcdm.heroes.v1:ancestry:dwarf), and [dragon knight](mcdm.heroes.v1:ancestry:dragon-knight). "Little more than slimy things crawled out of the sea? Join us. Join me. Join Ajax. It'll be nice for you..."-his voice lowered almost to a whisper-"... to be on the winning side for a change."
 
 Sir John took a deep breath, his body language changed and that was enough. Several things then happened at once, so quickly no one would later be able to say who acted first.
 
@@ -3177,7 +3177,7 @@ You can build your culture one aspect at a time, or you can use the following ta
 | Ancestry      | Language    | Environment | Organization | Upbringing |
 |---------------|-------------|-------------|--------------|------------|
 | [Devil](scc:mcdm.heroes.v1:ancestry:devil)         | Anjali      | Urban       | Bureaucratic | Academic   |
-| Dragon knight | Vastariax   | Secluded    | Bureaucratic | Martial    |
+| [Dragon knight](mcdm.heroes.v1:ancestry:dragon-knight) | Vastariax   | Secluded    | Bureaucratic | Martial    |
 | [Dwarf](scc:mcdm.heroes.v1:ancestry:dwarf)         | Zaliac      | Secluded    | Bureaucratic | Creative   |
 | Wode elf      | Yllyric     | Wilderness  | Bureaucratic | Martial    |
 | High elf      | Hyrallic    | Secluded    | Bureaucratic | Martial    |
@@ -3349,7 +3349,7 @@ The Caelian Empire dominated five of the eight regions of Orden 3,000 years ago.
 
 Some 1,300 years after the fall of the Caelian Empire, the languages of the different regions of the empire are enjoying a resurgence. Still, the Caelian tongue is spoken by most [humans](scc:mcdm.heroes.v1:ancestry:human) in most regions to one extent or another.
 
-Most people in Orden can speak and understand some Caelian, simply because the empire was so powerful and so widespread. Anyone trading with the empire or living near its borders or under its influence eventually learned to speak Caelian, including [dwarves](scc:mcdm.heroes.v1:ancestry:dwarf), dragon knights, elves, [hakaan](scc:mcdm.heroes.v1:ancestry:hakaan), [orcs](scc:mcdm.heroes.v1:ancestry:orc), [polders](scc:mcdm.heroes.v1:ancestry:polder), lizardfolk, and goblins. If a person speaks more than one language in Orden, the second language is almost always Caelian. All player characters know Caelian! As a result, that language of empire is now colloquially referred to as "the common tongue"-the language that most folk of Orden have in common.
+Most people in Orden can speak and understand some Caelian, simply because the empire was so powerful and so widespread. Anyone trading with the empire or living near its borders or under its influence eventually learned to speak Caelian, including [dwarves](scc:mcdm.heroes.v1:ancestry:dwarf), [dragon knights](mcdm.heroes.v1:ancestry:dragon-knight), elves, [hakaan](scc:mcdm.heroes.v1:ancestry:hakaan), [orcs](scc:mcdm.heroes.v1:ancestry:orc), [polders](scc:mcdm.heroes.v1:ancestry:polder), lizardfolk, and goblins. If a person speaks more than one language in Orden, the second language is almost always Caelian. All player characters know Caelian! As a result, that language of empire is now colloquially referred to as "the common tongue"-the language that most folk of Orden have in common.
 
 ##### Extant Languages
 
@@ -17989,7 +17989,7 @@ You're a disgraced member of a powerful family or guild, having been turned out 
 
 You sometimes have strange dreams of a raging inferno... a gleaming pile of treasure... of spreading your wings and taking flight. You haven't told anyone about these dreams, except for your one strange relative who seems to know more than they're letting on.
 
-**Benefit:** Choose 2 ancestry points' worth of purchased dragon knight traits (see [Chapter 3: Ancestries](#page-35-0)). You can use these traits whenever you have 5 or more Victories.
+**Benefit:** Choose 2 ancestry points' worth of purchased [dragon knight](mcdm.heroes.v1:ancestry:dragon-knight) traits (see [Chapter 3: Ancestries](#page-35-0)). You can use these traits whenever you have 5 or more Victories.
 
 **Drawback:** Whenever you are reduced to 0 Stamina, you explode with heat and fire. You and each creature within 5 squares of you takes fire damage equal to twice your level. You can't reduce this damage for yourself in any way.
 
@@ -24444,8 +24444,8 @@ Titles suitable for 3rd-echelon characters are presented in alphabetical order.
 
 **Effect:** Choose one of the following benefits:
 
-- *Dragon Scaled:* Dragon scales grow on your body wherever the heart's blood of the dragon touched you. You gain the Wyrmplate signature trait from the dragon knight ancestry (see [Chapter 3](#page-35-0)).
-- *Dragon Touched:* You gain 3 ancestry points to spend on purchased dragon knight ancestry traits.
+- *Dragon Scaled:* Dragon scales grow on your body wherever the heart's blood of the dragon touched you. You gain the Wyrmplate signature trait from the [dragon knight](mcdm.heroes.v1:ancestry:dragon-knight) ancestry (see [Chapter 3](#page-35-0)).
+- *Dragon Touched:* You gain 3 ancestry points to spend on purchased [dragon knight](mcdm.heroes.v1:ancestry:dragon-knight) ancestry traits.
 
 #### Fleet Admiral
 
@@ -25821,7 +25821,7 @@ Here's an example of an opening overview that Matthew Colville created for his g
 
 *The rebellion against Ajax begins here. Surely the wards of the emperor contain the power to stop the Overlord. The heroes must travel across the world and brave many dangers to find and unlock the last emperor's wards. Whoever does will wield the lost empire's power.*
 
-As you can see, this opening overview introduces the setting—Vasloria (see [Orden and the Timescape](#page-24-1) in [Chapter 1: The Basics](#page-17-3)). It also gives just enough history and background information for the players to understand their heroes' goal—to recover the knowledge and weapons of the last emperor, sealed behind powerful wards, in order to stop the tyrant Ajax.
+As you can see, this opening overview introduces the setting—Vasloria (see [Orden and the Timescape](#page-24-1) in [Chapter 1: The Basics](mcdm.heroes.v1:chapter:the-basics)). It also gives just enough history and background information for the players to understand their heroes' goal—to recover the knowledge and weapons of the last emperor, sealed behind powerful wards, in order to stop the tyrant Ajax.
 
 > **Personal Problems at the Table**
 >
@@ -25877,7 +25877,7 @@ The buy-in tells the players that their heroes are going to travel to far-flung 
 
 #### Player Option Restrictions
 
-Some campaigns include restrictions on the character options players can choose. For example, a Director might be interested in running a game where the heroes are all [memonek](scc:mcdm.heroes.v1:ancestry:memonek) and time raiders who have come to Vasloria searching for a secret incursion of voiceless talkers. In this case, the Director might restrict all [ancestries](scc:mcdm.heroes.v1:chapter:ancestries) (see [Chapter 3](#page-35-0)) except those two. A campaign about citizens forming a rebellion to take on a tyrannical leader might restrict career options (see [Chapter 4](#page-67-0)) so that no one can take [Aristocrat](scc:mcdm.heroes.v1:career:aristocrat) or [Politician](scc:mcdm.heroes.v1:career:politician).
+Some campaigns include restrictions on the character options players can choose. For example, a Director might be interested in running a game where the heroes are all [memonek](scc:mcdm.heroes.v1:ancestry:memonek) and time raiders who have come to Vasloria searching for a secret incursion of voiceless talkers. In this case, the Director might restrict all [ancestries](scc:mcdm.heroes.v1:chapter:ancestries) (see [Chapter 3](scc:mcdm.heroes.v1:chapter:ancestries)) except those two. A campaign about citizens forming a rebellion to take on a tyrannical leader might restrict career options (see [Chapter 4](mcdm.heroes.v1:chapter:background)) so that no one can take [Aristocrat](scc:mcdm.heroes.v1:career:aristocrat) or [Politician](scc:mcdm.heroes.v1:career:politician).
 
 Put any restrictions your campaign has into your pitch!
 
@@ -25976,7 +25976,7 @@ Multiple-front campaigns make the world feel authentic and alive, but they requi
 
 As part of your worldbuilding, you can create an outline of the events that might occur in each echelon of your campaign. The farther these events get from the start of the campaign, the vaguer you can leave the details. The actions of the heroes should matter and influence the course of events, so don't plan too much. Otherwise, you might end up throwing out earlier preparation to make player and character decisions matter.
 
-Your outline should include the plans of the villains in your campaign. Review [Echelons of Play](#page-22-0) in [Chapter 1: The Basics](#page-17-3) to get an idea of the threat level and stories the heroes should be experiencing at each stage of the campaign. An echelon outline might look like this:
+Your outline should include the plans of the villains in your campaign. Review [Echelons of Play](#page-22-0) in [Chapter 1: The Basics](mcdm.heroes.v1:chapter:the-basics) to get an idea of the threat level and stories the heroes should be experiencing at each stage of the campaign. An echelon outline might look like this:
 
 - **1st Echelon:** The heroes protect the village of Gravesford in the Barony of Bedegar from the forces of Lord Saxton, an usurper and tyrant loyal to Ajax. Eventually, they must bring the fight to Lord Saxton's keep in Bedegar City.
 - **2nd Echelon:** After toppling Saxton's keep, the heroes find a letter from Ajax detailing plans to amass powerful treasures from throughout Vasloria. The heroes can race to these locations to claim the treasures before Ajax's forces do.
@@ -26221,7 +26221,7 @@ Allow the heroes' investigation to drive the action. In an exploration scene, yo
 
 The heroes can usually obtain basic information just by interacting with their environment. If a player asks, "Does it look like the muddy floor of the cave would cling to someone's boots?", getting confirmation doesn't require a test. However, following the tracks that lead out of the cave toward the bandits' new hideout does require a test, because that's a harder task whose failure gives the bandits extra time to prepare an ambush for when the heroes arrive! If a character wants to meticulously dig through the refuse pile and examine each piece of trash, no test is required to find the torn-up pieces of the map unless they're under serious time pressure to do so. However, a character piecing the map back together needs to succeed on a Reason test to do so, because failing that task means the heroes obtain only incomplete information as they continue their search.
 
-[Chapter 9: Tests](#page-263-0) explains tests in detail and provides examples of different difficulties of tests. A lot of other fantasy games reflexively ask for a roll of the dice anytime a hero attempts a task. However, *Draw Steel* is built around the idea that the Director calls for tests only when failure would make the story more interesting for the heroes and not grind the game to a halt. You might end up asking for fewer tests than you're used to—and that's the way the game is meant to be played!
+[Chapter 9: Tests](mcdm.heroes.v1:chapter:tests) explains tests in detail and provides examples of different difficulties of tests. A lot of other fantasy games reflexively ask for a roll of the dice anytime a hero attempts a task. However, *Draw Steel* is built around the idea that the Director calls for tests only when failure would make the story more interesting for the heroes and not grind the game to a halt. You might end up asking for fewer tests than you're used to—and that's the way the game is meant to be played!
 
 Additionally, if a player has a particularly clever and plausible idea for attempting to overcome a challenge, you can have them automatically succeed on a task even if failure would make the story more interesting. It's important to reward clever thinking with success once in a while, so that the players are encouraged to think outside the box and create memorable moments!
 
@@ -26257,7 +26257,7 @@ If a test is a **success**, the hero does what they set out to do! You can even 
 
 If the test is a **success with a reward**, the hero does what they set out to do—and then some. A reward might grant another character who needs to make the same test an automatic success, grant an edge on a future test for the hero, reveal a hidden treasure the hero wasn't looking for, inspire a nearby NPC to come forth and offer aid, or earn the group a hero token. A reward on a test is yours to choose.
 
-Sample consequences and rewards for tests are detailed in [Chapter 9: Tests](#page-263-0).
+Sample consequences and rewards for tests are detailed in [Chapter 9: Tests](mcdm.heroes.v1:chapter:tests).
 
 #### Creating and Running Hazards
 
@@ -26342,7 +26342,7 @@ Refer to the details you wrote down for your NPCs while you roleplay them. Keep 
 
 ### Creating and Running Negotiations
 
-When you're preparing for a negotiation (see [Chapter 11: Negotiation](#page-297-0)), you'll want to pick an NPC and give them their negotiation stats—a starting interest and patience, motivations and pitfalls, and an Impression score. The Starting Attitudes table in the Negotiation chapter should give you an idea of where to start with some of these stats, but you should feel free to adjust the numbers as you see fit.
+When you're preparing for a negotiation (see [Chapter 11: Negotiation](mcdm.heroes.v1:chapter:negotiation)), you'll want to pick an NPC and give them their negotiation stats—a starting interest and patience, motivations and pitfalls, and an Impression score. The Starting Attitudes table in the Negotiation chapter should give you an idea of where to start with some of these stats, but you should feel free to adjust the numbers as you see fit.
 
 When assigning negotiation stats, keep the following guidelines in mind:
 
@@ -26735,7 +26735,7 @@ You can use montage tests to play out chases, escapes, investigations, wildernes
 
 When you prepare a montage test, you'll want to write down some key information.
 
-First, make a list of potential challenges the heroes can face during the montage test. This list should be at least as long as the number of successes the heroes must achieve to earn a total success. You might also prepare a list of consequences and rewards that could come up for individual tests made during the montage test, but since you can't predict what approaches the players will take to their characters' tests, don't worry about covering every scenario. You can always fall back on earning Malice and giving out hero tokens as a default consequence and reward (see [Test Outcomes](#page-264-0) in [Chapter 9: Tests](#page-263-0)).
+First, make a list of potential challenges the heroes can face during the montage test. This list should be at least as long as the number of successes the heroes must achieve to earn a total success. You might also prepare a list of consequences and rewards that could come up for individual tests made during the montage test, but since you can't predict what approaches the players will take to their characters' tests, don't worry about covering every scenario. You can always fall back on earning Malice and giving out hero tokens as a default consequence and reward (see [Test Outcomes](#page-264-0) in [Chapter 9: Tests](mcdm.heroes.v1:chapter:tests)).
 
 You'll then need to create the three outcomes of the montage: total success, partial success, and total failure. With a total success, the heroes should accomplish whatever they set out to do. With a partial success, they should accomplish their goal at a cost, create a new problem for themselves after doing what they set out to do, or not quite accomplish their full goal. With a total failure, the characters fail to do whatever they set out to do, but this result should not grind the story to a halt. Maybe they lose track of the fleeing lackeys they were pursuing, but they know they can now raid a mage's tower to find that information. Even if failure costs the characters dearly, they should still have options for continuing the adventure.
 
@@ -26743,7 +26743,7 @@ You'll then need to create the three outcomes of the montage: total success, par
 
 When you run a montage test, start by setting the scene for the players and listing the various challenges the heroes must overcome. Allow the players to strategize about the order in which they'll tackle these challenges and make tests.
 
-When you adjudicate individual tests as part of a montage test, do so as you would any other test (see [Adjudicating Tests](#page-263-0) in [Chapter 9](#page-263-0)). Individual tests should have rewards and consequences when appropriate. In addition to the usual options for rewards or consequences, you can choose to have those outcomes grant an edge or impose a bane on a test made later as part of the montage test. Do whatever makes sense for the heroes' actions in the narrative.
+When you adjudicate individual tests as part of a montage test, do so as you would any other test (see [Adjudicating Tests](#page-263-0) in [Chapter 9](mcdm.heroes.v1:chapter:tests)). Individual tests should have rewards and consequences when appropriate. In addition to the usual options for rewards or consequences, you can choose to have those outcomes grant an edge or impose a bane on a test made later as part of the montage test. Do whatever makes sense for the heroes' actions in the narrative.
 
 After each test, narrate the hero's failure or success in such a way that the other players can understand if and how the challenge has been overcome. Your description might even spark some new ideas for what the characters can do next.
 
@@ -26943,7 +26943,7 @@ One of the following outcomes ends the montage test:
 
 ### Running Respites
 
-When the heroes decide to take a respite (see [Respite](#page-21-4) in [Chapter 1:](#page-17-3)  [The Basics](#page-17-3)), your role as Director changes a bit. Most of the heroes' activities during respites revolve around downtime projects, which are typically self-directed. However, you still have levers you can pull to make the story interesting.
+When the heroes decide to take a respite (see [Respite](#page-21-4) in [Chapter 1: The Basics](mcdm.heroes.v1:chapter:the-basics), your role as Director changes a bit. Most of the heroes' activities during respites revolve around downtime projects, which are typically self-directed. However, you still have levers you can pull to make the story interesting.
 
 #### Safe Place
 
@@ -26953,13 +26953,13 @@ Heroes can't take a respite unless they're in a safe place. This typically means
 
 #### Too Many Respites?
 
-It's up to the players how many respites the heroes take in a row. Characters eager to take a long series of respites to undertake downtime projects ([Chapter 12](#page-307-2)) is fine, but they should always feel pressure to get back to the fight. Remember that villains don't stop plotting and conquering while the heroes rest. Their plans continue! If the characters are taking their sweet time with respites so they can create as many Healing Potions as possible, have them get wind of the latest evil actions that nearby villains are taking. Heroes wanting to defend the people and values they love had better stop respiting and start adventuring.
+It's up to the players how many respites the heroes take in a row. Characters eager to take a long series of respites to undertake downtime projects ([Chapter 12](mcdm.heroes.v1:chapter:downtime-projects)) is fine, but they should always feel pressure to get back to the fight. Remember that villains don't stop plotting and conquering while the heroes rest. Their plans continue! If the characters are taking their sweet time with respites so they can create as many Healing Potions as possible, have them get wind of the latest evil actions that nearby villains are taking. Heroes wanting to defend the people and values they love had better stop respiting and start adventuring.
 
 If you prefer a campaign that has few respites, you might want to deploy artisans, sages, and readily available project sources to allow the heroes a chance to craft useful items and do research, since their available time to do so will be limited.
 
 #### Project Events
 
-Downtime project events are a Director's time to shine during downtime. Remember that these events (detailed in [Chapter 12](#page-307-2)) are optional, and you can use them as frequently as you like. In general, more than one or two events per respite can be disruptive to the overall campaign. It's also fine to have no events if you just want to keep the campaign's main story rolling along.
+Downtime project events are a Director's time to shine during downtime. Remember that these events (detailed in [Chapter 12](mcdm.heroes.v1:chapter:downtime-projects)) are optional, and you can use them as frequently as you like. In general, more than one or two events per respite can be disruptive to the overall campaign. It's also fine to have no events if you just want to keep the campaign's main story rolling along.
 
 When you're running downtime events, be sure to rotate which heroes are in the spotlight of the action. Don't focus on the same hero over and over again. You can also do a little preparation for events before you play them out, reading the event prompt and fleshing it out into a scene. Prompts are intentionally vaguely written so you can modify them as you see fit or easily create your own.
 
@@ -26987,7 +26987,7 @@ That said, you can make it easier to craft treasures and other items by changing
 
 ### Granting Rewards
 
-You should have as much fun giving out treasure, Renown, wealth, and titles to the characters as the players have earning those rewards (see [Chapter 13: Rewards](#page-327-1)). But what's the right amount of treasure to give out without turning the heroes into total badasses who can simply cut down every dragon they meet? How often do the rules of the game expect a hero to earn Renown? What about titles? This section has answers for you!
+You should have as much fun giving out treasure, Renown, wealth, and titles to the characters as the players have earning those rewards (see [Chapter 13: Rewards](mcdm.heroes.v1:chapter:rewards)). But what's the right amount of treasure to give out without turning the heroes into total badasses who can simply cut down every dragon they meet? How often do the rules of the game expect a hero to earn Renown? What about titles? This section has answers for you!
 
 #### Granting Treasures
 
@@ -27016,7 +27016,7 @@ The players can choose their hero's treasures, and can replace any leveled treas
 
 #### Making New Treasures
 
-You can easily create new types of leveled treasures for heroes to find using the enhancements from the Imbue Treasure project in [Chapter 12: Downtime Projects](#page-307-2).
+You can easily create new types of leveled treasures for heroes to find using the enhancements from the Imbue Treasure project in [Chapter 12: Downtime Projects](mcdm.heroes.v1:chapter:downtime-projects).
 
 You can also take any of the treasures in this book and easily reskin them. Do you wish Gecko Gloves were actually boots? Just change the description and the Hands keywords and you're good to go. Do you want the Icemaker Maul to be a dagger that creates pools of acid instead of an ice field? Change the Heavy Weapon keyword and swap the damage types, and you're ready to rock! Simply changing keywords, damage, and descriptions for treasures isn't going to break the game.
 
