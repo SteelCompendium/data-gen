@@ -368,16 +368,16 @@ sections:
     file_dpath: 'Monsters/Kobolds/Features'
     type: 'monster/feature'
 
-  - header_path: monsters/lightbender
-    xpath: "//section[@id='monsters']//section[@id='lightbender']"
+  - header_path: monsters/lightbenders
+    xpath: "//section[@id='monsters']//section[@id='lightbenders']"
     file_dpath: 'Monsters/Lightbenders'
     type: 'monster/section'
-  - header_path: monsters/lightbender
-    xpath: "//section[@id='monsters']//section[@id='lightbender']//section[@class='level7']"
+  - header_path: monsters/lightbenders
+    xpath: "//section[@id='monsters']//section[@id='lightbenders']//section[@class='level7']"
     file_dpath: 'Monsters/Lightbenders/Statblocks'
     type: 'monster/lightbenders/statblock'
-  - header_path: monsters/lightbender
-    xpath: "//section[@id='monsters']//section[@id='lightbender']//section[@class='level9']"
+  - header_path: monsters/lightbenders
+    xpath: "//section[@id='monsters']//section[@id='lightbenders']//section[@class='level9']"
     file_dpath: 'Monsters/Lightbenders/Features'
     type: 'monster/feature'
 
