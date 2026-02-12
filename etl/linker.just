@@ -37,6 +37,7 @@ apply_scc_links md_dpath scc_to_path_json_fpath:
     #!/usr/bin/env python3
     import json
     import re
+    import urllib.parse
     from pathlib import Path
 
     MD_DPATH = Path("{{md_dpath}}")
@@ -67,7 +68,8 @@ apply_scc_links md_dpath scc_to_path_json_fpath:
                  full_match = match.group(0)
                  scc_key = match.group(1) # The part after "scc:"
                  if scc_key in scc_map:
-                     replacement = "(" + URL_PREFIX + scc_map[scc_key] + URL_SUFFIX +")"
+                     quoted_path = urllib.parse.quote(scc_map[scc_key])
+                     replacement = "(" + URL_PREFIX + quoted_path + URL_SUFFIX +")"
                      new_body = new_body.replace(full_match, replacement)
             
              if new_body != body:
@@ -80,7 +82,8 @@ apply_scc_links md_dpath scc_to_path_json_fpath:
                  full_match = match.group(0)
                  scc_key = match.group(1)
                  if scc_key in scc_map:
-                      replacement = "(" + URL_PREFIX + scc_map[scc_key] + URL_SUFFIX +")"
+                      quoted_path = urllib.parse.quote(scc_map[scc_key])
+                      replacement = "(" + URL_PREFIX + quoted_path + URL_SUFFIX +")"
                       new_content = new_content.replace(full_match, replacement)
              
              if new_content != content:

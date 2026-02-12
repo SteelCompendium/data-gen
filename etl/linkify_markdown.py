@@ -3,7 +3,7 @@ import sys
 import os
 
 # Configuration
-MAPPING_FILE = 'staging/name_to_scc.yaml'
+MAPPING_FILE = 'input/name_to_scc.yaml'
 LINK_PREFIX = 'scc:'
 
 def load_mapping(filepath):
