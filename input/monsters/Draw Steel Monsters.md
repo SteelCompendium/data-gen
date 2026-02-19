@@ -20356,7 +20356,7 @@ At the start of any level 7 or higher undead's turn, you can spend Malice to act
 > - **12-16:** 8 damage
 > - **17+:** 5 damage
 >
-> - The waxen is then destroyed and the area is difficult terrain for enemies.
+> The waxen is then destroyed and the area is difficult terrain for enemies.
 
 > ⭐️ **Burn Bright**
 >
