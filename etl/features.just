@@ -85,8 +85,18 @@ gen_aggregate_data_doc data_dpath data_format output_fpath:
         echo 'features: ' > "$aggregate_fpath"
     fi
 
-    # body
-    find "{{data_dpath}}" -type f -name '*.{{data_format}}' | while read -r fpath; do
+    data_dpath="{{data_dpath}}"
+
+    # Extract root before first *
+    root="${data_dpath%%\**}"
+    root="${root%/}"
+
+    # Fallback if no *
+    if [ "$root" = "$data_dpath" ]; then
+        root="$data_dpath"
+    fi
+
+    find "$root" -type f -path "$data_dpath/*.{{data_format}}" | while read -r fpath; do
         if [ "{{data_format}}" == "json" ]; then
             # prefix each line with two spaces, and add a comma to the end of the last line
             sed -e 's/^/  /' -e '$ s/$/,/' "$fpath" >> "$aggregate_fpath"
