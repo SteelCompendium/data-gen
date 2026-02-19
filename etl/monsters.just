@@ -164,8 +164,8 @@ convert_md_to_other_formats md_dpath:
     just markdown embed_yaml "ds-featureblock" "${conversions_dpath}/md-dse/Dynamic Terrain" "" "${conversions_dpath}/yaml/Dynamic Terrain"
 
     # Build an aggregate file of all the statblocks
-    just features gen_aggregate_data_doc "${conversions_dpath}/json/Monsters/*/Statblocks" "json" "${conversions_dpath}/json/Monsters/statblocks.json"
-    just features gen_aggregate_data_doc "${conversions_dpath}/yaml/Monsters/*/Statblocks" "yaml" "${conversions_dpath}/yaml/Monsters/statblocks.yaml"
+    just aggregate gen_aggregate_data_doc "monsters" "${conversions_dpath}/json/Monsters/*/Statblocks" "json" "${conversions_dpath}/json/Monsters/statblocks.json"
+    just aggregate gen_aggregate_data_doc "monsters" "${conversions_dpath}/yaml/Monsters/*/Statblocks" "yaml" "${conversions_dpath}/yaml/Monsters/statblocks.yaml"
 
     just _copy_data_to_repo "${conversions_dpath}/json" "data-bestiary-json"
     just _copy_data_to_repo "${conversions_dpath}/yaml" "data-bestiary-yaml"

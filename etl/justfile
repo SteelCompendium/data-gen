@@ -9,6 +9,7 @@ mod adventures 'adventures.just'
 mod unified 'unified.just'
 
 # utils
+mod aggregate 'aggregate.just'
 mod features 'features.just'
 mod features_config 'features_config.just'
 mod extract_html_sections 'extract_html_sections.just'

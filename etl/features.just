@@ -75,46 +75,7 @@ gen_index_for_each_dir_in dpath depth="0":
 gen_aggregate_data_doc data_dpath data_format output_fpath:
     #!/usr/bin/env bash
     set -euo pipefail
-    just _print_section "Generating aggregate file for '{{data_format}}' ('{{data_dpath}}')"
-    aggregate_fpath=$(mktemp)
-
-    # header
-    if [ "{{data_format}}" == "json" ]; then
-        echo '{ "features": [' > "$aggregate_fpath"
-    elif [ "{{data_format}}" == "yaml" ]; then
-        echo 'features: ' > "$aggregate_fpath"
-    fi
-
-    data_dpath="{{data_dpath}}"
-
-    # Extract root before first *
-    root="${data_dpath%%\**}"
-    root="${root%/}"
-
-    # Fallback if no *
-    if [ "$root" = "$data_dpath" ]; then
-        root="$data_dpath"
-    fi
-
-    find "$root" -type f -path "$data_dpath/*.{{data_format}}" | while read -r fpath; do
-        if [ "{{data_format}}" == "json" ]; then
-            # prefix each line with two spaces, and add a comma to the end of the last line
-            sed -e 's/^/  /' -e '$ s/$/,/' "$fpath" >> "$aggregate_fpath"
-        elif [ "{{data_format}}" == "yaml" ]; then
-            # First line gets "  - ", subsequent lines get 4 spaces
-            sed -e '1s/^/  - /' -e '1!s/^/    /' "$fpath" >> "$aggregate_fpath"
-        fi
-    done
-
-    # footer
-    if [ "{{data_format}}" == "json" ]; then
-        sed -i '${s/,$//}' "$aggregate_fpath"
-        echo "]" >> "$aggregate_fpath"
-        echo "}" >> "$aggregate_fpath"
-    elif [ "{{data_format}}" == "yaml" ]; then
-        echo "" >> "$aggregate_fpath"
-    fi
-    mv "$aggregate_fpath" "{{output_fpath}}"
+    just aggregate gen_aggregate_data_doc "features" "{{data_dpath}}" "{{data_format}}" "{{output_fpath}}"
 
 # TODO - replace this with just markdown embed_yaml
 # For each markdown file in md_dpath, the body gets replaced with a DSE codeblock for a statblock
