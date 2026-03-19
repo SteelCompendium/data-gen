@@ -298,7 +298,7 @@ Inevitably, one or more noncombatants might get caught up in a dangerous situati
 
 ####### Noncombatant
 
-|   Human or Animal   |         -         |     Level -      |           -           |         EV -         |
+|   Human or Animal   |         -         |     Level 0      |           -           |         EV -         |
 |:-------------------:|:-----------------:|:----------------:|:---------------------:|:--------------------:|
 |  **1S-2**<br>Size   |  **5**<br>Speed   | **8**<br>Stamina |  **0**<br>Stability   | **1**<br>Free Strike |
 | **-**<br>Immunities | **-**<br>Movement |                  | **-**<br>With Captain |  **-**<br>Weakness   |
@@ -15485,7 +15485,7 @@ At the start of any ogre's turn, you can spend Malice to activate one of the fol
 >
 > **Effect:** While a target is frightened this way, any ogre gains an edge on strikes against them.
 
-> ❗️ **Hrraaaaaagh!**
+> ❗️ **Hrraaaaaagh! (1 Malice)**
 >
 > | **-**       | **Free triggered action** |
 > |-------------|--------------------------:|
