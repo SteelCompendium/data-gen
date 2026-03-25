@@ -3104,7 +3104,7 @@ Your unique physiology enhances your movement. You gain an edge on tests that us
 
 ##### Four-Armed Martial Arts (2 Points)
 
-Your multiple arms let you take on multiple tasks at the same time. Whenever you use the Grab or [Knockback](scc:mcdm.heroes.v1:common-ability.maneuver:knockback) maneuver against an adjacent creature, you can target one additional adjacent creature, using the same power roll for both targets. Additionally, you can have up to two creatures [grabbed](scc:mcdm.heroes.v1:condition:grabbed) at a time.
+Your multiple arms let you take on multiple tasks at the same time. Whenever you use the [Grab](scc:mcdm.heroes.v1:common-ability.maneuver:grab) or [Knockback](scc:mcdm.heroes.v1:common-ability.maneuver:knockback) maneuver against an adjacent creature, you can target one additional adjacent creature, using the same power roll for both targets. Additionally, you can have up to two creatures [grabbed](scc:mcdm.heroes.v1:condition:grabbed) at a time.
 
 ##### Psionic Gift (2 Points)
 
@@ -4025,7 +4025,7 @@ Each class also has a number of subclasses presented in this book. Your subclass
 
 ### Abilities
 
-Abilities are special actions, maneuvers, and more that allow you to affect creatures, objects, and the environment. They represent the main activities your character can undertake when the game is in combat or some other time-sensitive scenario. All characters have access to a few basic abilities, including [free strikes](scc:mcdm.heroes.v1:common-ability.main-action:free-strike) and maneuvers such as Grab and [Knockback](scc:mcdm.heroes.v1:common-ability.maneuver:knockback) (see Maneuvers in [Chapter 10: Combat](#page-288-0)). But your class, ancestry (see [Chapter 3](#page-35-1)), kit ([Chapter 6](#page-231-1)), titles and treasures ([Chapter 13: Rewards](#page-327-1)), and other heroic options give you access to more powerful abilities that make your hero stand out.
+Abilities are special actions, maneuvers, and more that allow you to affect creatures, objects, and the environment. They represent the main activities your character can undertake when the game is in combat or some other time-sensitive scenario. All characters have access to a few basic abilities, including [free strikes](scc:mcdm.heroes.v1:common-ability.main-action:free-strike) and maneuvers such as [Grab](scc:mcdm.heroes.v1:common-ability.maneuver:grab) and [Knockback](scc:mcdm.heroes.v1:common-ability.maneuver:knockback) (see Maneuvers in [Chapter 10: Combat](#page-288-0)). But your class, ancestry (see [Chapter 3](#page-35-1)), kit ([Chapter 6](#page-231-1)), titles and treasures ([Chapter 13: Rewards](#page-327-1)), and other heroic options give you access to more powerful abilities that make your hero stand out.
 
 Abilities are presented in a special format that first describes the ability, then summarizes its mechanical details, and finally breaks out the ability's power roll (if it has one) and effects.
 
@@ -4037,7 +4037,7 @@ Abilities are presented in a special format that first describes the ability, th
 
 Each ability has an evocative name that sets up what it does in the game, followed by a line or two of flavor text that provides a sense of how the use of the ability might appear if described in an action scene in a story.
 
-The name and story text for abilities sometimes refers to specific ways in which the ability plays out—particularly combat abilities whose names imply specific types of weapons or tactics. However, that narrative flavor has no effect on how an ability can be used. For example, the [fury](scc:mcdm.heroes.v1:class:fury)'s Impaled ability allows you to grab a target, setting up the idea of harpooning your monstrous foe with a sword to keep them close. But you can use that ability with an axe, a mace, a hammer, or any other weapon.
+The name and story text for abilities sometimes refers to specific ways in which the ability plays out—particularly combat abilities whose names imply specific types of weapons or tactics. However, that narrative flavor has no effect on how an ability can be used. For example, the [fury](scc:mcdm.heroes.v1:class:fury)'s Impaled ability allows you to [grab](scc:mcdm.heroes.v1:common-ability.maneuver:grab) a target, setting up the idea of harpooning your monstrous foe with a sword to keep them close. But you can use that ability with an axe, a mace, a hammer, or any other weapon.
 
 #### Heroic Resource Cost
 
@@ -4442,9 +4442,9 @@ A creature who has another creature [grabbed](scc:mcdm.heroes.v1:condition:grabb
 
 A creature can release a creature they have [grabbed](scc:mcdm.heroes.v1:condition:grabbed) at any time to end that condition (no action required). A [grabbed](scc:mcdm.heroes.v1:condition:grabbed) creature can attempt to escape being [grabbed](scc:mcdm.heroes.v1:condition:grabbed) using the [Escape Grab](scc:mcdm.heroes.v1:common-ability.maneuver:escape-grab) maneuver (see [Chapter 10: Combat](#page-288-0)). If a [grabbed](scc:mcdm.heroes.v1:condition:grabbed) creature [teleports](scc:mcdm.heroes.v1:movement:teleport), or if either the [grabbed](scc:mcdm.heroes.v1:condition:grabbed) creature or the creature grabbing them is force moved so that both creatures are not adjacent to each other, that creature is no longer [grabbed](scc:mcdm.heroes.v1:condition:grabbed).
 
-A creature can grab only creatures of their size or smaller. If a creature's Might score is 2 or higher, they can grab any creature larger than them with a size equal to or less than their Might score.
+A creature can [grab](scc:mcdm.heroes.v1:common-ability.maneuver:grab) only creatures of their size or smaller. If a creature's Might score is 2 or higher, they can [grab](scc:mcdm.heroes.v1:common-ability.maneuver:grab) any creature larger than them with a size equal to or less than their Might score.
 
-Unless otherwise indicated, a creature can grab only one creature at a time.
+Unless otherwise indicated, a creature can [grab](scc:mcdm.heroes.v1:common-ability.maneuver:grab) only one creature at a time.
 
 ##### Prone
 
@@ -8080,12 +8080,12 @@ You can revert back to your true form as a maneuver. You can't enter an [animal 
 | Giant bird          | 5th   | 0                 | 7 ([fly](scc:mcdm.heroes.v1:movement:fly))       | 2    | +0              | +1/+1/+1           | After making a melee [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike), you can shift up to 3 squares as a free<br>triggered action.                                                                                                                                                                                  |
 | Giant<br>salamander | 6th   | 5                 | 5             | 1L   | +3              | +2/+2/+2           | Your melee [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike) deals fire damage. Additionally, you have fire immunity<br>3.                                                                                                                                                                                            |
 | Giant spider        | 6th   | 0                 | 5 ([climb](scc:mcdm.heroes.v1:movement:climb-or-swim))     | 2    | +0              | +0/+1/+2           | You have a double edge on melee [free strikes](scc:mcdm.heroes.v1:common-ability.main-action:free-strike) against creatures you are hidden<br>from.                                                                                                                                                                                          |
-| Giant snake         | 7th   | 5                 | 5             | 3    | +0              | +0/+1/+2           | Whenever you obtain a tier 2 or tier 3 outcome on a melee [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike), you<br>can automatically grab the target. While [grabbed](scc:mcdm.heroes.v1:condition:grabbed) this way, the target takes 2<br>damage at the start of each of their turns.                                                                      |
+| Giant snake         | 7th   | 5                 | 5             | 3    | +0              | +0/+1/+2           | Whenever you obtain a tier 2 or tier 3 outcome on a melee [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike), you<br>can automatically [grab](scc:mcdm.heroes.v1:common-ability.maneuver:grab) the target. While [grabbed](scc:mcdm.heroes.v1:condition:grabbed) this way, the target takes 2<br>damage at the start of each of their turns.                                                                      |
 | Kangaroo            | 7th   | 0                 | 7             | 1L   | +1              | +0/+0/+4           | When you score a critical hit with a melee [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike), the target is [dazed](scc:mcdm.heroes.v1:condition:dazed) (save<br>ends). When you take the Advance move action, you can high [jump](scc:mcdm.heroes.v1:movement:jump) or long<br>[jump](scc:mcdm.heroes.v1:movement:jump) up to half your speed. This [jump](scc:mcdm.heroes.v1:movement:jump) can allow you to move more squares<br>than your speed.                    |
 | Spiny armadillo     | 7th   | 10                | 5             | 1M   | +2              | +0/+0/+0           | Whenever you take damage from an adjacent creature's melee ability, that<br>creature takes 3 damage.                                                                                                                                                                            |
 | Ostrich             | 8th   | 0                 | 10            | 2    | +0              | +1/+1/+1           | Your movement does not provoke opportunity attacks.                                                                                                                                                                                                                             |
 | Shark               | 8th   | 0                 | 8 ([swim](scc:mcdm.heroes.v1:movement:climb-or-swim) only) | 2    | +0              | +2/+2/+2           | You can breathe in water but can't breathe outside of it. Additionally, you gain<br>an edge on strikes against targets who are [bleeding](scc:mcdm.heroes.v1:condition:bleeding) or winded.                                                                                                                              |
-| Giant octopus       | 9th   | 5                 | 5 ([swim](scc:mcdm.heroes.v1:movement:climb-or-swim))      | 3    | +2              | +0/+0/+0           | You can breathe in water. Additionally, you can target two creatures or objects<br>with your melee [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike). Whenever you obtain a tier 2 or tier 3 outcome on<br>a melee [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike), you can automatically grab the target. You can have up to<br>eight creatures [grabbed](scc:mcdm.heroes.v1:condition:grabbed). |
+| Giant octopus       | 9th   | 5                 | 5 ([swim](scc:mcdm.heroes.v1:movement:climb-or-swim))      | 3    | +2              | +0/+0/+0           | You can breathe in water. Additionally, you can target two creatures or objects<br>with your melee [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike). Whenever you obtain a tier 2 or tier 3 outcome on<br>a melee [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike), you can automatically [grab](scc:mcdm.heroes.v1:common-ability.maneuver:grab) the target. You can have up to<br>eight creatures [grabbed](scc:mcdm.heroes.v1:condition:grabbed). |
 | Rhinoceros          | 9th   | 10                | 8             | 2    | +5              | +2/+2/+2           | Whenever you make a melee [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike) as part of the Charge action, that<br>strike gains an edge.                                                                                                                                                                               |
 | King terror lizard  | 10th  | 20                | 5             | 4    | +3              | +2/+2/+2           | Your melee [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike) is a 1 burst with the Area and Strike keywords.                                                                                                                                                                                                          |
 
@@ -8906,7 +8906,7 @@ Within the heat of battle, your determination and anger grow, fueling a Heroic R
 
 > **Where's My Maneuver?**
 >
-> Since most other [classes](scc:mcdm.heroes.v1:chapter:classes) get a bespoke maneuver, you might find yourself asking, "Where's the special maneuver for the [fury](scc:mcdm.heroes.v1:class:fury)?" The answer is that the class doesn't need its own maneuver, because most of the time, the fantasy of the [fury](scc:mcdm.heroes.v1:class:fury) has them using the Grab or [Knockback](scc:mcdm.heroes.v1:common-ability.maneuver:knockback) maneuvers in combat. They're really good at those maneuvers too, so it doesn't make sense to give you another option that you'll rarely or never use.
+> Since most other [classes](scc:mcdm.heroes.v1:chapter:classes) get a bespoke maneuver, you might find yourself asking, "Where's the special maneuver for the [fury](scc:mcdm.heroes.v1:class:fury)?" The answer is that the class doesn't need its own maneuver, because most of the time, the fantasy of the [fury](scc:mcdm.heroes.v1:class:fury) has them using the [Grab](scc:mcdm.heroes.v1:common-ability.maneuver:grab) or [Knockback](scc:mcdm.heroes.v1:common-ability.maneuver:knockback) maneuvers in combat. They're really good at those maneuvers too, so it doesn't make sense to give you another option that you'll rarely or never use.
 
 ##### Ferocity in Combat
 
@@ -10089,10 +10089,10 @@ As your ferocity grows, you gain benefits as noted on the Boren [Growing Ferocit
 | Ferocity        | Benefit                                                                                                                                                                                                                   |
 |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 2               | You can have up to two creatures [grabbed](scc:mcdm.heroes.v1:condition:grabbed) at a time. Additionally, whenever you make a strike against a creature you have [grabbed](scc:mcdm.heroes.v1:condition:grabbed), you gain 1 surge.                                                                       |
-| 4               | The first time you grab a creature on a turn, you gain 1 surge.                                                                                                                                                           |
-| 6               | You gain an edge on the Grab and [Knockback](scc:mcdm.heroes.v1:common-ability.maneuver:knockback) maneuvers.                                                                                                                                                                     |
-| 8 (4th level)   | The first time you grab a creature on a turn, you gain 2 surges instead of 1.                                                                                                                                             |
-| 10 (7th level)  | You have a double edge on the Grab and [Knockback](scc:mcdm.heroes.v1:common-ability.maneuver:knockback) maneuvers.                                                                                                                                                               |
+| 4               | The first time you [grab](scc:mcdm.heroes.v1:common-ability.maneuver:grab) a creature on a turn, you gain 1 surge.                                                                                                                                                           |
+| 6               | You gain an edge on the [Grab](scc:mcdm.heroes.v1:common-ability.maneuver:grab) and [Knockback](scc:mcdm.heroes.v1:common-ability.maneuver:knockback) maneuvers.                                                                                                                                                                     |
+| 8 (4th level)   | The first time you [grab](scc:mcdm.heroes.v1:common-ability.maneuver:grab) a creature on a turn, you gain 2 surges instead of 1.                                                                                                                                             |
+| 10 (7th level)  | You have a double edge on the [Grab](scc:mcdm.heroes.v1:common-ability.maneuver:grab) and [Knockback](scc:mcdm.heroes.v1:common-ability.maneuver:knockback) maneuvers.                                                                                                                                                               |
 | 12 (10th level) | Whenever you use a heroic ability, you gain 10 temporary Stamina. Additionally, whenever you have a creature [grabbed](scc:mcdm.heroes.v1:condition:grabbed), any ability roll made against that creature gains a bonus to its potency equal to your Might score. |
 
 #### Corven
@@ -10410,14 +10410,14 @@ Additionally, as your discipline grows, your psionic mastery of your body intens
 |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 2               | Whenever you use the [Knockback](scc:mcdm.heroes.v1:common-ability.maneuver:knockback) maneuver, you can use the [Disengage](scc:mcdm.heroes.v1:common-ability.move-action:disengage) move action as a free triggered action either before or after the maneuver.                                              |
 | 4               | The first time on a turn that you willingly move 1 or more squares as part of an ability, you gain 1 surge.                                                                                 |
-| 6               | You gain an edge on the Grab and [Knockback](scc:mcdm.heroes.v1:common-ability.maneuver:knockback) maneuvers.                                                                                                                                       |
+| 6               | You gain an edge on the [Grab](scc:mcdm.heroes.v1:common-ability.maneuver:grab) and [Knockback](scc:mcdm.heroes.v1:common-ability.maneuver:knockback) maneuvers.                                                                                                                                       |
 | 8 (4th level)   | The first time on a turn that you willingly move 1 or more squares as part of an ability, you gain 2 surges.                                                                                |
-| 10 (7th level)  | You have a double edge on the Grab and [Knockback](scc:mcdm.heroes.v1:common-ability.maneuver:knockback) maneuvers.                                                                                                                                 |
+| 10 (7th level)  | You have a double edge on the [Grab](scc:mcdm.heroes.v1:common-ability.maneuver:grab) and [Knockback](scc:mcdm.heroes.v1:common-ability.maneuver:knockback) maneuvers.                                                                                                                                 |
 | 12 (10th level) | Whenever you force move a target, the forced movement distance gains a bonus equal to your Intuition score. Additionally, whenever you use a heroic ability, you gain 10 temporary Stamina. |
 
 ##### Cryokinetic Mastery
 
-Whenever you use your [Inertial Shield](scc:mcdm.heroes.v1:feature.ability.null.1st-level-feature:inertial-shield) ability, you can then use the Grab maneuver as a free triggered action.
+Whenever you use your [Inertial Shield](scc:mcdm.heroes.v1:feature.ability.null.1st-level-feature:inertial-shield) ability, you can then use the [Grab](scc:mcdm.heroes.v1:common-ability.maneuver:grab) maneuver as a free triggered action.
 
 Additionally, as your discipline grows, you strengthen the psionic power suffusing you, granting benefits from the Cryokinetic Mastery table. Benefits are cumulative except where an improved benefit replaces a lesser benefit.
 
@@ -10426,10 +10426,10 @@ Additionally, as your discipline grows, you strengthen the psionic power suffusi
 | Discipline      | Benefit                                                                                                                                                                                           |
 |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 2               | Whenever you use the [Knockback](scc:mcdm.heroes.v1:common-ability.maneuver:knockback) maneuver, you can target one additional creature. Additionally, whenever you deal untyped damage with a psionic ability, you can change it to cold damage instead. |
-| 4               | The first time on a turn that you grab a creature or an enemy moves 1 or more squares in the area of your [Null](scc:mcdm.heroes.v1:class:null) Field ability, you gain 1 surge.                                                   |
-| 6               | You gain an edge on the Grab and [Knockback](scc:mcdm.heroes.v1:common-ability.maneuver:knockback) maneuvers.                                                                                                                                             |
-| 8 (4th level)   | The first time on a turn that you grab a creature or an enemy moves 1 or more squares in the area of your [Null](scc:mcdm.heroes.v1:class:null) Field ability, you gain 2 surges.                                                  |
-| 10 (7th level)  | You have a double edge on the Grab and [Knockback](scc:mcdm.heroes.v1:common-ability.maneuver:knockback) maneuvers.                                                                                                                                       |
+| 4               | The first time on a turn that you [grab](scc:mcdm.heroes.v1:common-ability.maneuver:grab) a creature or an enemy moves 1 or more squares in the area of your [Null](scc:mcdm.heroes.v1:class:null) Field ability, you gain 1 surge.                                                   |
+| 6               | You gain an edge on the [Grab](scc:mcdm.heroes.v1:common-ability.maneuver:grab) and [Knockback](scc:mcdm.heroes.v1:common-ability.maneuver:knockback) maneuvers.                                                                                                                                             |
+| 8 (4th level)   | The first time on a turn that you [grab](scc:mcdm.heroes.v1:common-ability.maneuver:grab) a creature or an enemy moves 1 or more squares in the area of your [Null](scc:mcdm.heroes.v1:class:null) Field ability, you gain 2 surges.                                                  |
+| 10 (7th level)  | You have a double edge on the [Grab](scc:mcdm.heroes.v1:common-ability.maneuver:grab) and [Knockback](scc:mcdm.heroes.v1:common-ability.maneuver:knockback) maneuvers.                                                                                                                                       |
 | 12 (10th level) | Whenever you force move a target, the forced movement distance gains a bonus equal to your Intuition score. Additionally, whenever you use a heroic ability, you gain 10 temporary Stamina.       |
 
 ##### Metakinetic Mastery
@@ -10444,9 +10444,9 @@ Additionally, as your discipline grows, your psionic potential is amplified, gra
 |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 2               | Whenever you use the [Knockback](scc:mcdm.heroes.v1:common-ability.maneuver:knockback) maneuver, the forced movement distance gains a bonus equal to your Intuition score.                                                                          |
 | 4               | The first time in a combat round that you take damage or are force moved, you gain 1 surge, even if you resist the effect.                                                                  |
-| 6               | You gain an edge on the Grab and [Knockback](scc:mcdm.heroes.v1:common-ability.maneuver:knockback) maneuvers.                                                                                                                                       |
+| 6               | You gain an edge on the [Grab](scc:mcdm.heroes.v1:common-ability.maneuver:grab) and [Knockback](scc:mcdm.heroes.v1:common-ability.maneuver:knockback) maneuvers.                                                                                                                                       |
 | 8 (4th level)   | The first time in a combat round that you take damage or are force moved, you gain 2 surges, even if you resist the effect.                                                                 |
-| 10 (7th level)  | You have a double edge on the Grab and [Knockback](scc:mcdm.heroes.v1:common-ability.maneuver:knockback) maneuvers.                                                                                                                                 |
+| 10 (7th level)  | You have a double edge on the [Grab](scc:mcdm.heroes.v1:common-ability.maneuver:grab) and [Knockback](scc:mcdm.heroes.v1:common-ability.maneuver:knockback) maneuvers.                                                                                                                                 |
 | 12 (10th level) | Whenever you force move a target, the forced movement distance gains a bonus equal to your Intuition score. Additionally, whenever you use a heroic ability, you gain 10 temporary Stamina. |
 
 #### Null Speed
@@ -10471,7 +10471,7 @@ You gain a +1 bonus to speed and to the distance you can shift when you take the
 
 #### Psionic Martial Arts
 
-Whenever you use the [Knockback](scc:mcdm.heroes.v1:common-ability.maneuver:knockback) or Grab maneuver, you use Intuition instead of Might for the power roll and for determining if you can target creatures larger than you. Additionally, whenever you use the [Knockback](scc:mcdm.heroes.v1:common-ability.maneuver:knockback) maneuver, you can choose to slide the target instead of pushing them.
+Whenever you use the [Knockback](scc:mcdm.heroes.v1:common-ability.maneuver:knockback) or [Grab](scc:mcdm.heroes.v1:common-ability.maneuver:grab) maneuver, you use Intuition instead of Might for the power roll and for determining if you can target creatures larger than you. Additionally, whenever you use the [Knockback](scc:mcdm.heroes.v1:common-ability.maneuver:knockback) maneuver, you can choose to slide the target instead of pushing them.
 
 #### Null Abilities
 
@@ -17367,7 +17367,7 @@ Whenever you are in a natural environment (but not in a settlement in that envir
 
 #### Friend Catapult
 
-As a maneuver, you grab a willing adjacent ally or object of your size or smaller, then [vertical](scc:mcdm.heroes.v1:movement:vertical) push that target up to a number of squares equal to twice your Might score. If a creature you push falls as a result of this movement, the effective distance of the fall is reduced by a number of squares equal to twice your Might score. When you use this perk, you can't use it again until you earn 1 or more Victories.
+As a maneuver, you [grab](scc:mcdm.heroes.v1:common-ability.maneuver:grab) a willing adjacent ally or object of your size or smaller, then [vertical](scc:mcdm.heroes.v1:movement:vertical) push that target up to a number of squares equal to twice your Might score. If a creature you push falls as a result of this movement, the effective distance of the fall is reduced by a number of squares equal to twice your Might score. When you use this perk, you can't use it again until you earn 1 or more Victories.
 
 #### I've Got You!
 
@@ -17573,7 +17573,7 @@ You have the following ability.
 > |---------------------|--------------------------:|
 > | **📏 Ranged 10**    | **🎯 One size 1T object** |
 >
-> **Effect:** You can grab or manipulate the target object with your mind, moving the object up to a number of squares equal to your Reason, Intuition, or Presence score (your choice). You can use this ability to turn doorknobs, pull levers, and so forth. You can manipulate any small movable piece of a larger object as long as the piece is unattended and size 1T. You can't use this ability to break a smaller piece off a larger object.
+> **Effect:** You can [grab](scc:mcdm.heroes.v1:common-ability.maneuver:grab) or manipulate the target object with your mind, moving the object up to a number of squares equal to your Reason, Intuition, or Presence score (your choice). You can use this ability to turn doorknobs, pull levers, and so forth. You can manipulate any small movable piece of a larger object as long as the piece is unattended and size 1T. You can't use this ability to break a smaller piece off a larger object.
 
 #### Psychic Whisper
 
@@ -17851,7 +17851,7 @@ Your parents made a deal, and as part of that deal, you're supposed to marry som
 
 You came into contact with a mote of pure chaos energy, or were subjected to a supernatural effect or object that fused chaos into your very being. Now you can sprout and retract your limbs in a way that horrifies unprepared onlookers.
 
-**Benefit:** You gain an edge on the [Escape Grab](scc:mcdm.heroes.v1:common-ability.maneuver:escape-grab), Grab, and [Knockback](scc:mcdm.heroes.v1:common-ability.maneuver:knockback) maneuvers. Additionally, you can hold an additional item even when your hands are full.
+**Benefit:** You gain an edge on the [Escape Grab](scc:mcdm.heroes.v1:common-ability.maneuver:escape-grab), [Grab](scc:mcdm.heroes.v1:common-ability.maneuver:grab), and [Knockback](scc:mcdm.heroes.v1:common-ability.maneuver:knockback) maneuvers. Additionally, you can hold an additional item even when your hands are full.
 
 **Drawback:** While dying, you grow and retract uncoordinated limbs at random, imposing a bane on your power rolls.
 
@@ -19183,7 +19183,7 @@ The Director checks the Test Difficulty Outcomes table once more, confirming tha
 
 **Director:** *Wishful thinking.*
 
-**Alyssa:** *What if Korvo grabs onto the rope and I lift him up while he just hangs on for the ride?*
+**Alyssa:** *What if Korvo [grabs](scc:mcdm.heroes.v1:common-ability.maneuver:grab) onto the rope and I lift him up while he just hangs on for the ride?*
 
 **Director:** *Sure. That'll be a Might test if Korvo's down for it.*
 
@@ -19833,7 +19833,7 @@ A creature who is [grabbed](scc:mcdm.heroes.v1:condition:grabbed) by another cre
 > **Power Roll + Might or Agility:**
 >
 > - **≤11:** No effect.
-> - **12-16:** You can escape the grab, but if you do, a creature who has you [grabbed](scc:mcdm.heroes.v1:condition:grabbed) can make a melee [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike) against you before you are no longer [grabbed](scc:mcdm.heroes.v1:condition:grabbed).
+> - **12-16:** You can escape the [grab](scc:mcdm.heroes.v1:common-ability.maneuver:grab), but if you do, a creature who has you [grabbed](scc:mcdm.heroes.v1:condition:grabbed) can make a melee [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike) against you before you are no longer [grabbed](scc:mcdm.heroes.v1:condition:grabbed).
 > - **17+:** You are no longer [grabbed](scc:mcdm.heroes.v1:condition:grabbed).
 >
 > **Effect:** You take a bane on this maneuver if your size is smaller than the size of the creature, object, or effect that has you [grabbed](scc:mcdm.heroes.v1:condition:grabbed).
@@ -19842,7 +19842,7 @@ See [Conditions](#page-91-2) in [Chapter 5: Classes](#page-83-2) for information
 
 #### Grab
 
-A creature seeking to keep a foe close and locked down can attempt to grab a creature using the following ability.
+A creature seeking to keep a foe close and locked down can attempt to [grab](scc:mcdm.heroes.v1:common-ability.maneuver:grab) a creature using the following ability.
 
 > ######## Grab
 >
@@ -19853,12 +19853,12 @@ A creature seeking to keep a foe close and locked down can attempt to grab a cre
 > **Power Roll + Might:**
 >
 > - **≤11:** No effect.
-> - **12-16:** You can grab the target, but if you do, the target can make a melee [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike) against you before they are [grabbed](scc:mcdm.heroes.v1:condition:grabbed).
+> - **12-16:** You can [grab](scc:mcdm.heroes.v1:common-ability.maneuver:grab) the target, but if you do, the target can make a melee [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike) against you before they are [grabbed](scc:mcdm.heroes.v1:condition:grabbed).
 > - **17+:** The target is [grabbed](scc:mcdm.heroes.v1:condition:grabbed) by you.
 >
 > **Effect:** You can usually target only creatures of your size or smaller. If your Might score is 2 or higher, you can target any creature with a size equal to or less than your Might score.
 
-Unless otherwise indicated, a creature can grab only one creature at a time.
+Unless otherwise indicated, a creature can [grab](scc:mcdm.heroes.v1:common-ability.maneuver:grab) only one creature at a time.
 
 See [Conditions](#page-91-2) in [Chapter 5: Classes](#page-83-2) for information on the [grabbed](scc:mcdm.heroes.v1:condition:grabbed) condition.
 
@@ -22139,7 +22139,7 @@ This section presents 2nd-echelon consumable treasures in alphabetical order.
 
 **Project Goal:** 90
 
-**Effect:** When you drink this potion as a maneuver, you sprout 3-foot sharpened horns from your forehead. Whenever you use the Charge main action, the target of your strike is gored upon your horns and [grabbed](scc:mcdm.heroes.v1:condition:grabbed). While [grabbed](scc:mcdm.heroes.v1:condition:grabbed) this way, the creature is [bleeding](scc:mcdm.heroes.v1:condition:bleeding). You can also grab another creature with your limbs. The horns harmlessly fall off your head at the end of the encounter.
+**Effect:** When you drink this potion as a maneuver, you sprout 3-foot sharpened horns from your forehead. Whenever you use the Charge main action, the target of your strike is gored upon your horns and [grabbed](scc:mcdm.heroes.v1:condition:grabbed). While [grabbed](scc:mcdm.heroes.v1:condition:grabbed) this way, the creature is [bleeding](scc:mcdm.heroes.v1:condition:bleeding). You can also [grab](scc:mcdm.heroes.v1:common-ability.maneuver:grab) another creature with your limbs. The horns harmlessly fall off your head at the end of the encounter.
 
 ##### Chocolate of Immovability
 
@@ -22581,7 +22581,7 @@ Additionally, when you are targeted by any effect that deals lightning damage, y
 
 **Project Goal:** 150
 
-**Effect:** As a maneuver, you call upon the Divine Vine in Yllyric, causing it to extend up to 5 squares from you and attach its jaws to a creature or object, allowing you to use the Grab maneuver at a distance. If the target is [grabbed](scc:mcdm.heroes.v1:condition:grabbed), you can choose to keep the divine vine extended, pull the target adjacent to you, or pull yourself adjacent to the target. The divine vine stays attached to the target until it takes damage from a strike, the target escapes your grab, or you call upon the vine to release the target (no action required).
+**Effect:** As a maneuver, you call upon the Divine Vine in Yllyric, causing it to extend up to 5 squares from you and attach its jaws to a creature or object, allowing you to use the [Grab](scc:mcdm.heroes.v1:common-ability.maneuver:grab) maneuver at a distance. If the target is [grabbed](scc:mcdm.heroes.v1:condition:grabbed), you can choose to keep the divine vine extended, pull the target adjacent to you, or pull yourself adjacent to the target. The divine vine stays attached to the target until it takes damage from a strike, the target escapes your [grab](scc:mcdm.heroes.v1:common-ability.maneuver:grab), or you call upon the vine to release the target (no action required).
 
 ##### Flameshade Gloves
 
@@ -23197,7 +23197,7 @@ Magic and psionic armor and shields are the primary tools of heroes always ready
 
 **Project Goal:** 450
 
-**1st Level:** While you wield or carry this shield, you gain a +2 bonus to Stamina. This Stamina bonus adds to the Stamina bonus granted by other treasures. Additionally, once per turn when an adjacent enemy uses an ability, you can use a free triggered action to use the Grab maneuver against that enemy. You can have any number of enemies [grabbed](scc:mcdm.heroes.v1:condition:grabbed) in this way.
+**1st Level:** While you wield or carry this shield, you gain a +2 bonus to Stamina. This Stamina bonus adds to the Stamina bonus granted by other treasures. Additionally, once per turn when an adjacent enemy uses an ability, you can use a free triggered action to use the [Grab](scc:mcdm.heroes.v1:common-ability.maneuver:grab) maneuver against that enemy. You can have any number of enemies [grabbed](scc:mcdm.heroes.v1:condition:grabbed) in this way.
 
 **5th Level:** The shield's bonus to Stamina increases to +5, and you can use the shield's free triggered action against any enemy within 10 squares who uses an ability. Additionally, any enemy who uses the [Escape Grab](scc:mcdm.heroes.v1:common-ability.maneuver:escape-grab) maneuver while [grabbed](scc:mcdm.heroes.v1:condition:grabbed) this way takes a bane on the test.
 
@@ -23503,7 +23503,7 @@ For combat-focused heroes, weapons channeling magic and psionic power can easily
 
 **Project Goal:** 450
 
-**1st Level:** Any weapon ability that deals rolled damage using this weapon deals an extra 1 fire damage. Additionally, whenever you make a strike using the net and obtain a tier 3 outcome, you can automatically grab the target. A target [grabbed](scc:mcdm.heroes.v1:condition:grabbed) in this way takes a bane when using the [Escape Grab](scc:mcdm.heroes.v1:common-ability.maneuver:escape-grab) maneuver.
+**1st Level:** Any weapon ability that deals rolled damage using this weapon deals an extra 1 fire damage. Additionally, whenever you make a strike using the net and obtain a tier 3 outcome, you can automatically [grab](scc:mcdm.heroes.v1:common-ability.maneuver:grab) the target. A target [grabbed](scc:mcdm.heroes.v1:condition:grabbed) in this way takes a bane when using the [Escape Grab](scc:mcdm.heroes.v1:common-ability.maneuver:escape-grab) maneuver.
 
 **5th Level:** The weapon's extra fire damage increases to 2. Additionally, a target [grabbed](scc:mcdm.heroes.v1:condition:grabbed) by a strike using the net takes 8 fire damage each time they attempt to escape using the [Escape Grab](scc:mcdm.heroes.v1:common-ability.maneuver:escape-grab) maneuver.
 
@@ -23645,11 +23645,11 @@ In addition to armor, shields, implements, and weapons, heroes can make use of a
 
 **Project Goal:** 450
 
-**1st Level:** While you wear these hand wraps, any weapon ability that deals rolled damage using your unarmed strikes gains a +1 damage bonus. Additionally, once per turn, you can take 5 damage that can't be reduced in any way to use the Grab maneuver (no action required).
+**1st Level:** While you wear these hand wraps, any weapon ability that deals rolled damage using your unarmed strikes gains a +1 damage bonus. Additionally, once per turn, you can take 5 damage that can't be reduced in any way to use the [Grab](scc:mcdm.heroes.v1:common-ability.maneuver:grab) maneuver (no action required).
 
-**5th Level:** The damage bonus granted by the hand wraps increases to +2. Additionally, once per turn, you can take 10 damage that can't be reduced in any way to make a melee [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike) (no action required). On your turn, you can use the wraps' melee [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike) option or Grab maneuver option, but only one.
+**5th Level:** The damage bonus granted by the hand wraps increases to +2. Additionally, once per turn, you can take 10 damage that can't be reduced in any way to make a melee [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike) (no action required). On your turn, you can use the wraps' melee [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike) option or [Grab](scc:mcdm.heroes.v1:common-ability.maneuver:grab) maneuver option, but only one.
 
-**9th Level:** The damage bonus granted by the hand wraps increases to +3. Additionally, once per turn, you can take 15 damage that can't be reduced in any way to use a signature ability (no action required). On your turn, you can use the wraps' signature ability option, melee [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike) option, or Grab maneuver option, but only one.
+**9th Level:** The damage bonus granted by the hand wraps increases to +3. Additionally, once per turn, you can take 15 damage that can't be reduced in any way to use a signature ability (no action required). On your turn, you can use the wraps' signature ability option, melee [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike) option, or [Grab](scc:mcdm.heroes.v1:common-ability.maneuver:grab) maneuver option, but only one.
 
 ##### Lightning Treads
 
