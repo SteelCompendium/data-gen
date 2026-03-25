@@ -128,7 +128,7 @@ Whenever you see a rule or game term in the glossary index underlined in cross-r
 
 **Aura:** When an ability or other effect creates an aura, that area is expressed as "X aura." The number X is the radius of the aura, which always originates from the creature or object who created it, extends from the outside of the creator's space, and moves with them.
 
-**[Background](mcdm.heroes.v1:chapter:background):** A hero's culture and career.
+**[Background](scc:mcdm.heroes.v1:chapter:background):** A hero's culture and career.
 
 **Bane:** A situational disadvantage that gives a creature a −2 penalty to a power roll.
 
@@ -1104,7 +1104,7 @@ Choose your hero's humanoid ancestry from among the range of [ancestries](scc:mc
 
 #### 3. Culture
 
-Choose or create your hero's culture. Although ancestry gives your hero any number of physiological benefits, your culture describes the community that raised you and gives you languages and skills. See [Culture](#page-67-1) in [Chapter 4: Background](mcdm.heroes.v1:chapter:background) for more information.
+Choose or create your hero's culture. Although ancestry gives your hero any number of physiological benefits, your culture describes the community that raised you and gives you languages and skills. See [Culture](#page-67-1) in [Chapter 4: Background](scc:mcdm.heroes.v1:chapter:background) for more information.
 
 > **Choosing Skills**
 >
@@ -1114,7 +1114,7 @@ Choose or create your hero's culture. Although ancestry gives your hero any numb
 
 #### 4. Career
 
-Choose your hero's career, which describes what you did for a living before you became a hero. A career provides you with skills, an inciting incident that precipitated your adventuring career, and a perk that lets you customize your hero. It might also grant you languages, Renown, wealth, or the potential to undertake crafting and research. See Careers in [Chapter 4: Background](mcdm.heroes.v1:chapter:background) for more information.
+Choose your hero's career, which describes what you did for a living before you became a hero. A career provides you with skills, an inciting incident that precipitated your adventuring career, and a perk that lets you customize your hero. It might also grant you languages, Renown, wealth, or the potential to undertake crafting and research. See Careers in [Chapter 4: Background](scc:mcdm.heroes.v1:chapter:background) for more information.
 
 > **I Speak Their Language**
 >
@@ -1256,7 +1256,7 @@ Fantastic peoples inhabit the worlds of *Draw Steel*. Among them are [devils](sc
 
 Your hero is one of these folks! The fantastic ancestry you choose bestows benefits that come from your anatomy and physiology. This choice doesn't grant you cultural benefits, such as crafting or [lore skills](scc:mcdm.heroes.v1:skill:lore-skills), though. While many game settings have cultures made of mostly one ancestry, other cultures and worlds have a cosmopolitan mix of peoples.
 
-In *Draw Steel*, ancestry describes how you were born. Culture (part of [Chapter 4: Background](mcdm.heroes.v1:chapter:background)) describes how you grew up. If you want to be a [wode elf](scc:mcdm.heroes.v1:ancestry:wode-elf) who was raised in a forest among other [wode elves](scc:mcdm.heroes.v1:ancestry:wode-elf), you can do that! If you want to play a [wode elf](scc:mcdm.heroes.v1:ancestry:wode-elf) who was raised in an underground city of [dwarves](scc:mcdm.heroes.v1:ancestry:dwarf), [humans](scc:mcdm.heroes.v1:ancestry:human), and [orcs](scc:mcdm.heroes.v1:ancestry:orc), you can do that too!
+In *Draw Steel*, ancestry describes how you were born. Culture (part of [Chapter 4: Background](scc:mcdm.heroes.v1:chapter:background)) describes how you grew up. If you want to be a [wode elf](scc:mcdm.heroes.v1:ancestry:wode-elf) who was raised in a forest among other [wode elves](scc:mcdm.heroes.v1:ancestry:wode-elf), you can do that! If you want to play a [wode elf](scc:mcdm.heroes.v1:ancestry:wode-elf) who was raised in an underground city of [dwarves](scc:mcdm.heroes.v1:ancestry:dwarf), [humans](scc:mcdm.heroes.v1:ancestry:human), and [orcs](scc:mcdm.heroes.v1:ancestry:orc), you can do that too!
 
 This chapter details twelve [ancestries](scc:mcdm.heroes.v1:chapter:ancestries) for the game:
 
@@ -1290,7 +1290,7 @@ This chapter details twelve [ancestries](scc:mcdm.heroes.v1:chapter:ancestries) 
 >
 > Edges and banes, Recoveries, respites: [Chapter 1: The Basics](#page-17-3)
 >
-> Background Languages: [Chapter 4: Background](mcdm.heroes.v1:chapter:background)
+> Background Languages: [Chapter 4: Background](scc:mcdm.heroes.v1:chapter:background)
 >
 > Abilities, conditions, potencies, saving throws, surges: [Chapter 5: Classes](#page-83-2)
 >
@@ -3329,7 +3329,7 @@ A hero with a martial upbringing was raised by warriors. These might have been t
 
 ##### Noble
 
-Your hero grew up among leaders who rule over others and play the games of politics to maintain power. Many families are nobles by birthright, but some cultures have noble titles earned through deeds or popularity. Whatever the case, heroes with this [background](mcdm.heroes.v1:chapter:background) understand why the whispered words in the right ear can sometimes be more powerful than any army.
+Your hero grew up among leaders who rule over others and play the games of politics to maintain power. Many families are nobles by birthright, but some cultures have noble titles earned through deeds or popularity. Whatever the case, heroes with this [background](scc:mcdm.heroes.v1:chapter:background) understand why the whispered words in the right ear can sometimes be more powerful than any army.
 
 **Skill Options:** One skill from the interpersonal skill group. (*Quick Build:* Lead.)
 
@@ -13814,7 +13814,7 @@ Your ward allows you to slip away from threats. Whenever you take damage, you be
 
 #### Telepathic Speech
 
-You know the Mindspeech language (see Languages in Orden in [Chapter 4: Background](mcdm.heroes.v1:chapter:background)). Additionally, you can telepathically communicate with any creatures within distance of your Mind Spike ability if they share a language with you and you know of each other. When you communicate with someone this way, they can respond telepathically.
+You know the Mindspeech language (see Languages in Orden in [Chapter 4: Background](scc:mcdm.heroes.v1:chapter:background)). Additionally, you can telepathically communicate with any creatures within distance of your Mind Spike ability if they share a language with you and you know of each other. When you communicate with someone this way, they can respond telepathically.
 
 #### 1st-Level Tradition Features
 
@@ -18013,7 +18013,7 @@ You have contracted a rare magical disease called [evanesceria](scc:mcdm.heroes.
 
 Whether you're a convicted criminal, a noble stripped of their title, or a person who made one too many enemies, you've been cast forth from your homeland, never to return. At least not until you're strong enough to set things right.
 
-**Benefit:** You know one extant language of your choice (see [Languages in Orden](#page-70-0) in [Chapter 4: Background](mcdm.heroes.v1:chapter:background)).
+**Benefit:** You know one extant language of your choice (see [Languages in Orden](#page-70-0) in [Chapter 4: Background](scc:mcdm.heroes.v1:chapter:background)).
 
 **Drawback:** If any NPC from your homeland recognizes you, whether in your homeland or elsewhere, they attempt to harm you at the Director's discretion.
 
@@ -18199,7 +18199,7 @@ You made a deal with a [devil](scc:mcdm.heroes.v1:ancestry:devil). Not a very go
 
 You studied in an academy or other educational institution. Your training was thorough and your reading list was wide-ranging. But when you left school, you discovered there were serious gaps in your education. Maybe some of those books were a little out of date.
 
-**Benefit:** You have three skills of your choice, and you know one dead language of your choice (see [Languages in Orden](#page-70-0) in [Chapter 4: Background](mcdm.heroes.v1:chapter:background)).
+**Benefit:** You have three skills of your choice, and you know one dead language of your choice (see [Languages in Orden](#page-70-0) in [Chapter 4: Background](scc:mcdm.heroes.v1:chapter:background)).
 
 **Drawback:** The Director chooses one of the skills you have from this complication. You lose that skill and can't ever learn it again. Additionally, you take a bane on any test to which that skill would apply.
 
@@ -18415,7 +18415,7 @@ You were orphaned or lost in the wild, and a friendly animal pack (perhaps apes,
 
 **Benefit:** You have the Handle Animals skill (from the interpersonal skill group). Additionally, choose a type of animal related to the animals who helped you, such as wolf. You gain an edge on tests that use the Handle Animals skill when interacting with animals of this type. You can also communicate with animals of this type as if you shared a language, and animals of this type aren't initially hostile to you unless they're supernaturally compelled to be.
 
-**Drawback:** You don't have a culture (see [Culture](#page-67-1) in [Chapter 4: Background](mcdm.heroes.v1:chapter:background)), though you can speak Caelian.
+**Drawback:** You don't have a culture (see [Culture](#page-67-1) in [Chapter 4: Background](scc:mcdm.heroes.v1:chapter:background)), though you can speak Caelian.
 
 #### Refugee
 
@@ -18995,7 +18995,7 @@ For example, intimidating someone with a purely verbal threat is a Presence test
 
 Having a wide range of specific skills means you'll frequently make tests that don't use one of your character's skills, simply applying a characteristic. By not having a few broader skills, it means that having a character who covers the spread of every skill is actually impossible. Luckily, the math of the game doesn't require you to have a skill to have a decent chance of success on a test. That means heroes can attempt tasks without the help of a skill just because someone needs to do it, and that's pretty darn heroic!
 
-Since you don't need to worry about your character covering a wide spread of skills, you're free to choose the skills you think fit your hero best and are the most fun to work with. Maybe you're thinking about an [elementalist](scc:mcdm.heroes.v1:class:elementalist) who has a gymnastic [background](mcdm.heroes.v1:chapter:background) in [jumping](scc:mcdm.heroes.v1:movement:jump) and tumbling, and who also studied religion and blacksmithing. Having that kind of specific backstory is a big part of cinematic storytelling.
+Since you don't need to worry about your character covering a wide spread of skills, you're free to choose the skills you think fit your hero best and are the most fun to work with. Maybe you're thinking about an [elementalist](scc:mcdm.heroes.v1:class:elementalist) who has a gymnastic [background](scc:mcdm.heroes.v1:chapter:background) in [jumping](scc:mcdm.heroes.v1:movement:jump) and tumbling, and who also studied religion and blacksmithing. Having that kind of specific backstory is a big part of cinematic storytelling.
 
 The rules for skills allow for them to be flexibly applied to any test that is appropriate for the skill. This encourages clever thinking. A player can ask the Director, "I want to impress the duke with a story about how I ascended the sheer Cliffs of Azgahnan. Can I use my Climb skill for a +2 bonus to my Presence test?" Getting creative like that is a lot of fun. It paints a visual picture, and it's good tactical thinking! However, if the skills in a game are too broad in the kinds of activities they represent, players inevitably end up applying the same skill over and over again to as many tests as possible. This isn't fun for anyone, and doesn't make a very compelling story.
 
@@ -20235,7 +20235,7 @@ Patience can decrease each time the heroes make an argument during a negotiation
 
 ##### Language and Patience
 
-If one or more heroes negotiating with an NPC can communicate in the NPC's native language (not including Caelian), then the NPC's patience increases by 1 at the start of the negotiation (to a maximum of 5). If three or more heroes negotiating with an NPC can communicate in the NPC's native language, the NPC's patience increases by 2 (to a maximum of 5). [Chapter 4: Background](mcdm.heroes.v1:chapter:background) has information on some of the languages in the game.
+If one or more heroes negotiating with an NPC can communicate in the NPC's native language (not including Caelian), then the NPC's patience increases by 1 at the start of the negotiation (to a maximum of 5). If three or more heroes negotiating with an NPC can communicate in the NPC's native language, the NPC's patience increases by 2 (to a maximum of 5). [Chapter 4: Background](scc:mcdm.heroes.v1:chapter:background) has information on some of the languages in the game.
 
 #### Motivations
 
@@ -20757,7 +20757,7 @@ To start a downtime project, you must have access to specific lore detailing how
 
 Some project sources are relatively easy to find. Building a castle doesn't require tomes filled with ancient lore, but it's also not something every stonemason knows how to do. However, the location of the tomb of Ashrya, the mummified protector of one hundred slumbering sorcerer-sovereigns, might exist only in a single tome that requires an accompanying adventure to unearth.
 
-The language with which project sources are set down or can be shared is chosen by the Director. The sample projects below have suggestions using languages in Orden (see that section in [Chapter 4: Background](mcdm.heroes.v1:chapter:background)), though you might be able to find a version of a source in other languages as well.
+The language with which project sources are set down or can be shared is chosen by the Director. The sample projects below have suggestions using languages in Orden (see that section in [Chapter 4: Background](scc:mcdm.heroes.v1:chapter:background)), though you might be able to find a version of a source in other languages as well.
 
 Whenever the Director determines that a creature with needed knowledge can be used as a project source, another hero can serve as this source of knowledge. However, they must use a respite activity to be your project source whenever you make a project roll related to the project.
 
@@ -21843,7 +21843,7 @@ Your character can carry any number of consumables at a time.
 >
 > Recoveries, respites, Victories: Chapter 1: The Basics
 >
-> Languages: [Chapter 4: Background](mcdm.heroes.v1:chapter:background)
+> Languages: [Chapter 4: Background](scc:mcdm.heroes.v1:chapter:background)
 >
 > Abilities, conditions, potencies, surges: Chapter 5: [Classes](scc:mcdm.heroes.v1:chapter:classes)
 >
@@ -23263,7 +23263,7 @@ Implements are pieces of jewelry, orbs, staffs, tomes, wands, and other objects 
 
 **1st Level:** While you wield this implement, your magic or psionic abilities that deal rolled damage gain a +1 damage bonus. Additionally, if you make a magic strike, the strike must deal cold damage instead of its usual damage.
 
-**5th Level:** The implement's damage bonus increases to +2. Additionally, whenever you use a magic or psionic ability, a whirlwind] of sleet and ice whips around you, dealing 3 cold damage to each adjacent enemy.
+**5th Level:** The implement's damage bonus increases to +2. Additionally, whenever you use a magic or psionic ability, a whirlwind of sleet and ice whips around you, dealing 3 cold damage to each adjacent enemy.
 
 **9th Level:** The implement's damage bonus increases to +3, and the whirlwind you create when you use a magic or psionic ability deals 6 cold damage to each enemy within 2 squares of you. Additionally, the whirlwind creates a 2 aura around you that lasts until the start of your next turn. Each enemy who enters the aura for the first time in a combat round or starts their turn there takes 6 cold damage.
 
@@ -24708,7 +24708,7 @@ Additionally, choose a heroic ability belonging to any class. You gain this hero
 
 As you accomplish heroic deeds, your fame allows you to influence NPCs and attract followers. Your infamy among your enemies also grows. Every hero has a Renown score that represents how they can use their reputation to influence others. The higher the score, the greater your impact with those who know of your legend.
 
-At the start of character creation, your Renown is 0. Some careers can increase your initial Renown score (see [Chapter 4: Background](mcdm.heroes.v1:chapter:background)).
+At the start of character creation, your Renown is 0. Some careers can increase your initial Renown score (see [Chapter 4: Background](scc:mcdm.heroes.v1:chapter:background)).
 
 ### Increasing Renown
 
@@ -24773,7 +24773,7 @@ Treasures such as magic swords, psionic crowns, and even healing potions are rar
 
 ### Earning Wealth
 
-Each hero starts with a Wealth score of 1 that can be improved by their choice of career during character creation (see [Chapter 4: Background](mcdm.heroes.v1:chapter:background)). Your hero earns Wealth whenever you find and keep a massive amount of monetary treasure, such as a hoard of coins and gems from a dragon's lair, or several unique and valuable paintings gifted by a monarch as a reward for a job well done.
+Each hero starts with a Wealth score of 1 that can be improved by their choice of career during character creation (see [Chapter 4: Background](scc:mcdm.heroes.v1:chapter:background)). Your hero earns Wealth whenever you find and keep a massive amount of monetary treasure, such as a hoard of coins and gems from a dragon's lair, or several unique and valuable paintings gifted by a monarch as a reward for a job well done.
 
 In general, a hero earns 1 wealth every second level of play. The Director can increase this rate if they wish.
 
@@ -25877,7 +25877,7 @@ The buy-in tells the players that their heroes are going to travel to far-flung 
 
 #### Player Option Restrictions
 
-Some campaigns include restrictions on the character options players can choose. For example, a Director might be interested in running a game where the heroes are all [memonek](scc:mcdm.heroes.v1:ancestry:memonek) and [time raiders](scc:mcdm.heroes.v1:ancestry:time-raider) who have come to Vasloria searching for a secret incursion of voiceless talkers. In this case, the Director might restrict all [ancestries](scc:mcdm.heroes.v1:chapter:ancestries) (see [Chapter 3](scc:mcdm.heroes.v1:chapter:ancestries)) except those two. A campaign about citizens forming a rebellion to take on a tyrannical leader might restrict career options (see [Chapter 4: Background](mcdm.heroes.v1:chapter:background)) so that no one can take [Aristocrat](scc:mcdm.heroes.v1:career:aristocrat) or [Politician](scc:mcdm.heroes.v1:career:politician).
+Some campaigns include restrictions on the character options players can choose. For example, a Director might be interested in running a game where the heroes are all [memonek](scc:mcdm.heroes.v1:ancestry:memonek) and [time raiders](scc:mcdm.heroes.v1:ancestry:time-raider) who have come to Vasloria searching for a secret incursion of voiceless talkers. In this case, the Director might restrict all [ancestries](scc:mcdm.heroes.v1:chapter:ancestries) (see [Chapter 3](scc:mcdm.heroes.v1:chapter:ancestries)) except those two. A campaign about citizens forming a rebellion to take on a tyrannical leader might restrict career options (see [Chapter 4: Background](scc:mcdm.heroes.v1:chapter:background)) so that no one can take [Aristocrat](scc:mcdm.heroes.v1:career:aristocrat) or [Politician](scc:mcdm.heroes.v1:career:politician).
 
 Put any restrictions your campaign has into your pitch!
 
@@ -27120,7 +27120,7 @@ Go over any house rules you have with the players, and ask them if they have any
 
 During the first session of a new campaign, the players will likely spend most of their time building heroes. While they do so, it's a good idea for you to be available to answer any questions they have about the campaign and the setting. They might ask about everything from the name of the town where their first adventure starts, important organizations in the game, or if a specific language or skill will be useful in the campaign.
 
-As your players make their heroes, you can take notes. It's a good idea to record each hero's name, ancestry, [background](mcdm.heroes.v1:chapter:background), class, and complication (if any). Also record any important backstory details a player shares with you, such as their character's hometown, the names of rivals, loved ones, or enemies, and any organizations with which they have history.
+As your players make their heroes, you can take notes. It's a good idea to record each hero's name, ancestry, [background](scc:mcdm.heroes.v1:chapter:background), class, and complication (if any). Also record any important backstory details a player shares with you, such as their character's hometown, the names of rivals, loved ones, or enemies, and any organizations with which they have history.
 
 #### Start With a Bang
 
