@@ -308,7 +308,7 @@ Whenever you see a rule or game term in the glossary index underlined in cross-r
 
 **Heroic Resource:** A measure of a hero's combat power that increases during battle, and which can be spent to use abilities or improve their effectiveness.
 
-**Hide Maneuver:** A maneuver that allows a creature to hide from other creatures who aren't observing them.
+**Hide Maneuver:** A maneuver that allows a creature to [hide](scc:mcdm.heroes.v1:common-ability.maneuver:hide) from other creatures who aren't observing them.
 
 **High Elves:** A fey ancestry in tune with innate magic that affects how others interact with them.
 
@@ -4356,7 +4356,7 @@ Many abilities that require power rolls also have effect entries describing addi
 
 ##### Actions Within Actions
 
-If an ability's effect allows you to take a main action, a maneuver, a move action, or a triggered action, the cost of doing so is subsumed in the ability's type entry on the first line below the flavor text. You never need to spend additional time to use an ability. For example, the [shadow](scc:mcdm.heroes.v1:class:shadow)'s Black Ash [Teleport](scc:mcdm.heroes.v1:movement:teleport) ability is a maneuver that allows you to [teleport](scc:mcdm.heroes.v1:movement:teleport) and then use the Hide maneuver as its overall effect. Using the Hide maneuver is part of the maneuver to use the ability, so that you don't need to have another maneuver available to do so.
+If an ability's effect allows you to take a main action, a maneuver, a move action, or a triggered action, the cost of doing so is subsumed in the ability's type entry on the first line below the flavor text. You never need to spend additional time to use an ability. For example, the [shadow](scc:mcdm.heroes.v1:class:shadow)'s Black Ash [Teleport](scc:mcdm.heroes.v1:movement:teleport) ability is a maneuver that allows you to [teleport](scc:mcdm.heroes.v1:movement:teleport) and then use the [Hide](scc:mcdm.heroes.v1:common-ability.maneuver:hide) maneuver as its overall effect. Using the [Hide](scc:mcdm.heroes.v1:common-ability.maneuver:hide) maneuver is part of the maneuver to use the ability, so that you don't need to have another maneuver available to do so.
 
 #### Spend Heroic Resource
 
@@ -4977,7 +4977,7 @@ Your devotion to your deity allows you to take command of the battlefield, letti
 
 ##### Saint's Vigilance
 
-You have honed your ability to detect sin and can use it to find those who hide from justice. Any creature judged by you can't use the Hide maneuver. Additionally, you gain an edge when searching for hidden creatures. If you find a hidden creature, you can use your Judgment ability against them as a free triggered action.
+You have honed your ability to detect sin and can use it to find those who hide from justice. Any creature judged by you can't use the [Hide](scc:mcdm.heroes.v1:common-ability.maneuver:hide) maneuver. Additionally, you gain an edge when searching for hidden creatures. If you find a hidden creature, you can use your Judgment ability against them as a free triggered action.
 
 ##### A Sense for Truth
 
@@ -5208,7 +5208,7 @@ As a main action, you forge a bond of love and friendship with one willing creat
 
 ##### Light of Revelation
 
-As a maneuver, you make your body shine brightly, illuminating your space and each square within 5 squares until you dismiss the light (no action required). This light shines through any darkness. Hidden creatures in the area are automatically revealed, and creatures in the light, including you, can't hide. While this feature is active, you gain an edge on tests made to notice hidden objects and entrances and to detect supernatural illusions.
+As a maneuver, you make your body shine brightly, illuminating your space and each square within 5 squares until you dismiss the light (no action required). This light shines through any darkness. Hidden creatures in the area are automatically revealed, and creatures in the light, including you, can't [hide](scc:mcdm.heroes.v1:common-ability.maneuver:hide). While this feature is active, you gain an edge on tests made to notice hidden objects and entrances and to detect supernatural illusions.
 
 ##### Oracular Warning
 
@@ -5930,7 +5930,7 @@ Additionally, whenever you activate a domain effect by praying for piety, you ca
 
 ###### Trickery Domain Piety and Effect
 
-- **Piety:** You gain 2 piety the first time in an encounter that you or a creature within 10 squares takes the [Aid Attack](scc:mcdm.heroes.v1:common-ability.maneuver:aid-attack) or Hide maneuver.
+- **Piety:** You gain 2 piety the first time in an encounter that you or a creature within 10 squares takes the [Aid Attack](scc:mcdm.heroes.v1:common-ability.maneuver:aid-attack) or [Hide](scc:mcdm.heroes.v1:common-ability.maneuver:hide) maneuver.
 - **Prayer Effect:** You slide one creature within 10 squares of you up to a number of squares equal to 5 + your [conduit](scc:mcdm.heroes.v1:class:conduit) level.
 
 ###### War Domain Piety and Effect
@@ -5975,7 +5975,9 @@ Each time you finish a respite, you can decide the weather conditions within 100
 
 **Clear:** You and your allies gain an edge on tests that use the Search or Navigate skills.
 
-**Foggy:** You and your allies gain an edge on tests that use the Hide skill. **Overcast:** You and your allies gain an edge on tests that use the Endurance skill.
+**Foggy:** You and your allies gain an edge on tests that use the Hide skill.
+
+**Overcast:** You and your allies gain an edge on tests that use the Endurance skill.
 
 **Precipitation:** When the ground is muddy or snowy, you and your allies gain an edge on tests that use the Track skill.
 
@@ -6747,7 +6749,7 @@ As a main action, you forge a bond of love and friendship with a willing creatur
 
 ###### Light of Revelation
 
-As a maneuver, you make your body shine brightly, illuminating your space and each square within 5 squares. This light shines through any darkness. Hidden creatures in the area are automatically revealed, and creatures in the light, including you, can't hide. While this feature is active, you gain an edge on tests made to notice hidden objects and entrances and to detect supernatural illusions.
+As a maneuver, you make your body shine brightly, illuminating your space and each square within 5 squares. This light shines through any darkness. Hidden creatures in the area are automatically revealed, and creatures in the light, including you, can't [hide](scc:mcdm.heroes.v1:common-ability.maneuver:hide). While this feature is active, you gain an edge on tests made to notice hidden objects and entrances and to detect supernatural illusions.
 
 ###### Oracular Warning
 
@@ -10105,7 +10107,7 @@ You gain an edge on tests made to hide and sneak. Additionally, whenever you fal
 
 ##### Animal Form: Crow
 
-While you are in your crow form, your size is 1T and you can [fly](scc:mcdm.heroes.v1:movement:fly). You can use the Hide maneuver as a free maneuver, and you can use your allies as cover when you hide. You can't use any abilities while in this form except for Aspect of the Wild.
+While you are in your crow form, your size is 1T and you can [fly](scc:mcdm.heroes.v1:movement:fly). You can use the [Hide](scc:mcdm.heroes.v1:common-ability.maneuver:hide) maneuver as a free maneuver, and you can use your allies as cover when you [hide](scc:mcdm.heroes.v1:common-ability.maneuver:hide). You can't use any abilities while in this form except for Aspect of the Wild.
 
 ##### Hybrid Form: Crow
 
@@ -10165,7 +10167,7 @@ You gain an edge on tests made to hide and sneak. Additionally, you ignore diffi
 
 ##### Animal Form: Rat
 
-While you are in your rat form, your size is 1T and you can automatically [climb](scc:mcdm.heroes.v1:movement:climb-or-swim) at full speed while moving. You can use the Hide maneuver as a free maneuver, you can use your allies as cover when you hide, and you can stay hidden while you move through squares occupied by any creature. Additionally, you gain an edge on tests made to [climb](scc:mcdm.heroes.v1:movement:climb-or-swim) other creatures. You can't use any abilities while in this form except for Aspect of the Wild.
+While you are in your rat form, your size is 1T and you can automatically [climb](scc:mcdm.heroes.v1:movement:climb-or-swim) at full speed while moving. You can use the [Hide](scc:mcdm.heroes.v1:common-ability.maneuver:hide) maneuver as a free maneuver, you can use your allies as cover when you [hide](scc:mcdm.heroes.v1:common-ability.maneuver:hide), and you can stay hidden while you move through squares occupied by any creature. Additionally, you gain an edge on tests made to [climb](scc:mcdm.heroes.v1:movement:climb-or-swim) other creatures. You can't use any abilities while in this form except for Aspect of the Wild.
 
 ##### Hybrid Form: Rat
 
@@ -11545,7 +11547,7 @@ You have the following ability.
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 > 
-> **Effect:** You [teleport](scc:mcdm.heroes.v1:movement:teleport) up to 5 squares. If you have concealment or cover at your destination, you can use the Hide maneuver even if you are observed. If you successfully hide using this maneuver, you gain 1 surge.
+> **Effect:** You [teleport](scc:mcdm.heroes.v1:movement:teleport) up to 5 squares. If you have concealment or cover at your destination, you can use the [Hide](scc:mcdm.heroes.v1:common-ability.maneuver:hide) maneuver even if you are observed. If you successfully [hide](scc:mcdm.heroes.v1:common-ability.maneuver:hide) using this maneuver, you gain 1 surge.
 > 
 > **Spend 1+ Insight:** You [teleport](scc:mcdm.heroes.v1:movement:teleport) 1 additional square for each insight spent.
 
@@ -11585,7 +11587,7 @@ You have the following ability.
 
 ##### Smoke Bomb
 
-You always carry a supply of smoke bombs to use for distractions and easy getaways. You can use the Hide maneuver even if you are observed and don't initially have cover or concealment. When you do so, you can shift a number of squares equal to your Agility score. If you end this movement with cover or concealment, you are automatically hidden.
+You always carry a supply of smoke bombs to use for distractions and easy getaways. You can use the [Hide](scc:mcdm.heroes.v1:common-ability.maneuver:hide) maneuver even if you are observed and don't initially have cover or concealment. When you do so, you can shift a number of squares equal to your Agility score. If you end this movement with cover or concealment, you are automatically hidden.
 
 #### College Triggered Action
 
@@ -11621,7 +11623,7 @@ Your [shadow](scc:mcdm.heroes.v1:class:shadow) college grants you a triggered ac
 >
 > **Trigger:** Another creature damages you.
 >
-> **Effect:** You take half the triggering damage, then can shift up to 2 squares after the triggering effect resolves. If you end this shift with concealment or cover, you can use the Hide maneuver even if you are observed.
+> **Effect:** You take half the triggering damage, then can shift up to 2 squares after the triggering effect resolves. If you end this shift with concealment or cover, you can use the [Hide](scc:mcdm.heroes.v1:common-ability.maneuver:hide) maneuver even if you are observed.
 >
 > **Spend 1 Insight:** The potency of any effects associated with the damage are reduced by 1 for you.
 
@@ -12259,7 +12261,7 @@ Choose one of the following abilities.
 > |----------------|--------------------------------------:|
 > | **📏 4 burst** | **🎯 Self and each ally in the area** |
 >
-> **Effect:** Each target can [teleport](scc:mcdm.heroes.v1:movement:teleport) up to 5 squares. For each target in addition to you who [teleports](scc:mcdm.heroes.v1:movement:teleport) away from or into a space adjacent to an enemy, that enemy takes fire damage equal to your Agility score. Additionally, a target who ends this movement in concealment or cover can use the Hide maneuver even if they are observed.
+> **Effect:** Each target can [teleport](scc:mcdm.heroes.v1:movement:teleport) up to 5 squares. For each target in addition to you who [teleports](scc:mcdm.heroes.v1:movement:teleport) away from or into a space adjacent to an enemy, that enemy takes fire damage equal to your Agility score. Additionally, a target who ends this movement in concealment or cover can use the [Hide](scc:mcdm.heroes.v1:common-ability.maneuver:hide) maneuver even if they are observed.
 
 ##### 6th-Level Caustic Alchemy Abilities
 
@@ -13202,7 +13204,7 @@ You have learned to be more preemptive on the battlefield, thinking more steps a
 
 ##### Distracted
 
-You have mastered the ability to distract your foes, allowing you and your allies to take advantage of their gaps in attention. Whenever you or any ally attempts to hide, any creature marked by you doesn't count as an observer. Additionally, you and your allies can use other allies as cover for the purpose of hiding.
+You have mastered the ability to distract your foes, allowing you and your allies to take advantage of their gaps in attention. Whenever you or any ally attempts to [hide](scc:mcdm.heroes.v1:common-ability.maneuver:hide), any creature marked by you doesn't count as an observer. Additionally, you and your allies can use other allies as cover for the purpose of hiding.
 
 ##### I Predicted That
 
@@ -13450,7 +13452,7 @@ Your [tactical doctrine](scc:mcdm.heroes.v1:feature.trait.tactician.1st-level-fe
 
 You have trained your squad to be silent ambushers.
 
-**Mark Benefit:** When you or any ally makes a strike against a creature marked by you, you can spend 2 focus to let the character making the strike shift up to a number of squares equal to your Reason score and use the Hide maneuver as a free maneuver once during the shift. The creature can shift before or after the strike is resolved.
+**Mark Benefit:** When you or any ally makes a strike against a creature marked by you, you can spend 2 focus to let the character making the strike shift up to a number of squares equal to your Reason score and use the [Hide](scc:mcdm.heroes.v1:common-ability.maneuver:hide) maneuver as a free maneuver once during the shift. The creature can shift before or after the strike is resolved.
 
 ##### Pincer Movement
 
@@ -17459,7 +17461,7 @@ Whenever you fail a test using any skill from the intrigue skill group, you can 
 
 #### Master of Disguise
 
-You can don or remove a disguise as part of any test you make using the Hide skill, or while using the Hide maneuver.
+You can don or remove a disguise as part of any test you make using the Hide skill, or while using the [Hide](scc:mcdm.heroes.v1:common-ability.maneuver:hide) maneuver.
 
 #### Slipped Lead
 
@@ -17809,7 +17811,7 @@ You have no memory of your past before the... incident. Hopefully, you'll regain
 
 Due to a magical accident, your being has fused with that of a small, harmless animal. You turn into this animal when it's convenient—and sometimes when it's inconvenient as well.
 
-**Benefit:** As a maneuver, you take the form of a specific animal of size 1T. You retain all your other statistics aside from your size, but you can't talk or use actions, and the only maneuvers you can use are [Escape Grab](scc:mcdm.heroes.v1:common-ability.maneuver:escape-grab), Hide, and Stand Up. Based on the animal you can turn into, you might be able to [burrow](scc:mcdm.heroes.v1:movement:burrow) or [fly](scc:mcdm.heroes.v1:movement:fly), or to automatically [climb](scc:mcdm.heroes.v1:movement:climb-or-swim) or [swim](scc:mcdm.heroes.v1:movement:climb-or-swim) at full speed while moving. If your [animal form](scc:mcdm.heroes.v1:complication:animal-form) doesn't provide such additional movement, you have a +2 bonus to speed.
+**Benefit:** As a maneuver, you take the form of a specific animal of size 1T. You retain all your other statistics aside from your size, but you can't talk or use actions, and the only maneuvers you can use are [Escape Grab](scc:mcdm.heroes.v1:common-ability.maneuver:escape-grab), [Hide](scc:mcdm.heroes.v1:common-ability.maneuver:hide), and Stand Up. Based on the animal you can turn into, you might be able to [burrow](scc:mcdm.heroes.v1:movement:burrow) or [fly](scc:mcdm.heroes.v1:movement:fly), or to automatically [climb](scc:mcdm.heroes.v1:movement:climb-or-swim) or [swim](scc:mcdm.heroes.v1:movement:climb-or-swim) at full speed while moving. If your [animal form](scc:mcdm.heroes.v1:complication:animal-form) doesn't provide such additional movement, you have a +2 bonus to speed.
 
 Unless you use this benefit again, you return to your true form at the start of your next turn.
 
@@ -18721,7 +18723,7 @@ You spent many years imprisoned for a crime you didn't commit. During your long 
 
 **Benefit:** You have two skills of your choice, neither of which can be from the interpersonal skill group.
 
-**Drawback:** Your health suffered in prison. Whenever you are winded, you are stricken with a hacking cough that makes it impossible for you to hide or sneak.
+**Drawback:** Your health suffered in prison. Whenever you are winded, you are stricken with a hacking cough that makes it impossible for you to [hide](scc:mcdm.heroes.v1:common-ability.maneuver:hide) or sneak.
 
 # Tests
 
@@ -18900,7 +18902,7 @@ In lieu of other rewards, the Director can also decide that a hero who succeeds 
 
 #### How Long Does It Take?
 
-The amount of time required for a task involving a test is determined by the Director. A task such as recalling lore with a Reason test might take no time at all. Ducking behind a barrel to hide with an Agility test might require a maneuver or a main action, while tracking a band of voiceless talkers through the World Below could take hours or even days.
+The amount of time required for a task involving a test is determined by the Director. A task such as recalling lore with a Reason test might take no time at all. Ducking behind a barrel to [hide](scc:mcdm.heroes.v1:common-ability.maneuver:hide) with an Agility test might require a maneuver or a main action, while tracking a band of voiceless talkers through the World Below could take hours or even days.
 
 ##### Tests During Combat
 
@@ -18924,7 +18926,7 @@ To quickly assess the difficulty of a task opposed by one or more creatures and 
 - **Moderate Test:** A test is moderate if multiple creatures oppose the hero and those creatures would have lower bonuses to their test rolls than the hero, or if only one creature opposes the hero and has the same test bonus as the hero.
 - **Hard Test:** A test is hard if an opposed creature would have a higher bonus to their test roll than the hero, or if multiple creatures with the same test bonus as the hero oppose the hero.
 
-The failure consequences of opposed tasks are some of the easiest to create on the fly. Fail to hide from someone, and they notice you. Fail to lie to someone, and they catch your duplicity. Fail to arm wrestle someone for a free ale, and you're picking up the tab. The consequence is that the opposition bests the hero.
+The failure consequences of opposed tasks are some of the easiest to create on the fly. Fail to [hide](scc:mcdm.heroes.v1:common-ability.maneuver:hide) from someone, and they notice you. Fail to lie to someone, and they catch your duplicity. Fail to arm wrestle someone for a free ale, and you're picking up the tab. The consequence is that the opposition bests the hero.
 
 #### NPCs Roll for Deceptive Tasks
 
@@ -18969,7 +18971,7 @@ Skills represent the different specializations a hero has outside of attacking, 
 
 #### Applying Skills
 
-If you have a skill that applies to a test you make, you gain a +2 bonus to the test. For instance, if your hero has the Hide skill, you have a +2 bonus to any test you make that involves hiding yourself. This might include an Agility test to hide behind a barrel, or a Presence test to disappear into a crowd.
+If you have a skill that applies to a test you make, you gain a +2 bonus to the test. For instance, if your hero has the Hide skill, you have a +2 bonus to any test you make that involves hiding yourself. This might include an Agility test to [hide](scc:mcdm.heroes.v1:common-ability.maneuver:hide) behind a barrel, or a Presence test to disappear into a crowd.
 
 The +2 bonus gained for a skill isn't an edge. A player can make a test that has both the +2 bonus for a skill and the +2 bonus for an edge.
 
@@ -19229,15 +19231,13 @@ Hiding and sneaking are important tools for heroes and their foes. You might wan
 
 #### Hiding
 
-To hide from a creature, you must have cover or concealment from that creature (see [Chapter 10: Combat](#page-288-0)), who can't observe you attempting to hide. A creature is observing you if they're aware of your specific location before you attempt to hide. This means they can pinpoint you with their senses and point a finger (or paw or tentacle) at you as if to shout, "There they are!" If you duck behind a barrel to hide from a foe, your attempt to hide has a chance of succeeding only if your foe doesn't notice you doing so. If you're being chased by a hungry dragon, you can hide only if you first move to a location where the dragon can't observe you—for instance, by turning a sharp corner into a tunnel full of giant stalagmites before the dragon does. You then make your hide attempt.
+To [hide](scc:mcdm.heroes.v1:common-ability.maneuver:hide) from a creature, you must have cover or concealment from that creature (see [Chapter 10: Combat](#page-288-0)), who can't observe you attempting to [hide](scc:mcdm.heroes.v1:common-ability.maneuver:hide). A creature is observing you if they're aware of your specific location before you attempt to [hide](scc:mcdm.heroes.v1:common-ability.maneuver:hide). This means they can pinpoint you with their senses and point a finger (or paw or tentacle) at you as if to shout, "There they are!" If you duck behind a barrel to [hide](scc:mcdm.heroes.v1:common-ability.maneuver:hide) from a foe, your attempt to [hide](scc:mcdm.heroes.v1:common-ability.maneuver:hide) has a chance of succeeding only if your foe doesn't notice you doing so. If you're being chased by a hungry dragon, you can [hide](scc:mcdm.heroes.v1:common-ability.maneuver:hide) only if you first move to a location where the dragon can't observe you—for instance, by turning a sharp corner into a tunnel full of giant stalagmites before the dragon does. You then make your [hide](scc:mcdm.heroes.v1:common-ability.maneuver:hide) attempt.
 
-When you use the Hide maneuver to hide during combat while you have cover or concealment from a creature who isn't observing you, you are automatically hidden from them unless the Director deems otherwise. If you hide outside of combat, the Director might ask you to make a test using the Hide skill to determine how well hidden you are.
+When you use the [Hide](scc:mcdm.heroes.v1:common-ability.maneuver:hide) maneuver to [hide](scc:mcdm.heroes.v1:common-ability.maneuver:hide) during combat while you have cover or concealment from a creature who isn't observing you, you are automatically hidden from them unless the Director deems otherwise. If you [hide](scc:mcdm.heroes.v1:common-ability.maneuver:hide) outside of combat, the Director might ask you to make a test using the Hide skill to determine how well hidden you are.
 
 While you are hidden from another creature, the creature can't target you with abilities that don't have the Area keyword. This benefit ends as soon as you are no longer hidden from that creature.
 
 Additionally, while you are hidden from another creature, you gain an edge on ability rolls made against that creature. This benefit lasts until the end of the turn in which you are no longer hidden. This means you can be hidden from another creature at the start of your turn, move out of cover or concealment toward them and use an ability against them, and still gain an edge on ability rolls made against the creature as long as you use the ability before the end of that turn.
-
-Draw Steel
 
 You are no longer hidden from a creature if you don't have cover or concealment from them. If you use an ability, interact with an enemy, move without sneaking, or otherwise make noise or reveal yourself while hidden, you are no longer hidden once the activity that reveals you resolves. For instance, if you are hidden and then make a strike, you resolve the strike first, then are no longer hidden.
 
@@ -19251,7 +19251,7 @@ If a creature is hidden from your allies but not from you, you can use a maneuve
 
 > **What Does It Mean to Be Observed?**
 >
-> Most of the time, if a creature has line of effect to you, they're able to observe you—especially if you're an active threat to them, such as in a combat encounter. However, the game leaves what it means to be observed open to interpretation, because there are circumstances where a creature might have line of effect to you but isn't observing you, giving you a chance to hide. For example, a guard in a crowded marketplace likely isn't able to observe every creature within their line of effect, so slipping away to hide in that situation is probably easier than hiding from them in an otherwise empty street. The Director has the final say on who is observing you, and who you are able to observe.
+> Most of the time, if a creature has line of effect to you, they're able to observe you—especially if you're an active threat to them, such as in a combat encounter. However, the game leaves what it means to be observed open to interpretation, because there are circumstances where a creature might have line of effect to you but isn't observing you, giving you a chance to [hide](scc:mcdm.heroes.v1:common-ability.maneuver:hide). For example, a guard in a crowded marketplace likely isn't able to observe every creature within their line of effect, so slipping away to [hide](scc:mcdm.heroes.v1:common-ability.maneuver:hide) in that situation is probably easier than hiding from them in an otherwise empty street. The Director has the final say on who is observing you, and who you are able to observe.
 
 #### Sneaking
 
@@ -19864,7 +19864,7 @@ See [Conditions](#page-91-2) in [Chapter 5: Classes](#page-83-2) for information
 
 #### Hide
 
-Using the Hide maneuver, a creature attempts to hide from other creatures who aren't observing them while they have cover or concealment. See Hide and Sneak in Chapter 9: Tests for full details.
+Using the [Hide](scc:mcdm.heroes.v1:common-ability.maneuver:hide) maneuver, a creature attempts to [hide](scc:mcdm.heroes.v1:common-ability.maneuver:hide) from other creatures who aren't observing them while they have cover or concealment. See Hide and Sneak in Chapter 9: Tests for full details.
 
 #### Knockback
 
@@ -22171,7 +22171,7 @@ This section presents 2nd-echelon consumable treasures in alphabetical order.
 
 **Project Goal:** 90
 
-**Effect:** When you drink this potion as a maneuver, light shifts around your body, letting you blend into the environment around you for 10 minutes. While this effect is active, you have a double edge on tests made to hide and sneak, and you can use the Hide maneuver even while you are observed.
+**Effect:** When you drink this potion as a maneuver, light shifts around your body, letting you blend into the environment around you for 10 minutes. While this effect is active, you have a double edge on tests made to hide and sneak, and you can use the [Hide](scc:mcdm.heroes.v1:common-ability.maneuver:hide) maneuver even while you are observed.
 
 ##### Float Powder
 
@@ -24072,9 +24072,9 @@ The Director chooses one of the following benefits, based on the fate your capto
 **Effect:** Choose one of the following benefits:
 
 - *Flying Circus:* When you are adjacent to a willing ally on their turn, you can use a triggered action to push them up to 2 squares if their size is the same as yours, or 4 squares if they are smaller. If this push causes the ally to fall, they can use a maneuver before they fall to reduce the height of the fall by 2.
-- *Spotlight:* You magically cause a creature within 10 squares to shed light for 5 squares. This light lasts for 1 minute, until the creature is more than 10 squares away from you, or until you dismiss the effect (no action required). While illuminated, a creature can't sneak or hide, they take a bane on tests made to perform any action secretly, and they gain an edge on tests made using the Lead, Music, or Perform skills.
+- *Spotlight:* You magically cause a creature within 10 squares to shed light for 5 squares. This light lasts for 1 minute, until the creature is more than 10 squares away from you, or until you dismiss the effect (no action required). While illuminated, a creature can't sneak or [hide](scc:mcdm.heroes.v1:common-ability.maneuver:hide), they take a bane on tests made to perform any action secretly, and they gain an edge on tests made using the Lead, Music, or Perform skills.
 - *Supporting Player:* You gain an edge on group tests using Presence and on tests made to assist another creature with a Presence test.
-- *Work the Crowd:* While any of your allies is playing music or performing, you gain an edge on tests made to conceal objects, hide, pick pockets, or sneak.
+- *Work the Crowd:* While any of your allies is playing music or performing, you gain an edge on tests made to conceal objects, [hide](scc:mcdm.heroes.v1:common-ability.maneuver:hide), pick pockets, or sneak.
 
 #### Wanted Dead or Alive
 
@@ -24199,7 +24199,7 @@ Titles suitable for 2nd-echelon characters are presented in alphabetical order.
 - *Artillerist:* You gain a +5 damage bonus when using a ship's weapons
 - *Black Flag:* You have a recognizable flag that strikes terror on the high seas. While your flag is flying from your ship, crewmembers of other ships who have line of effect to the flag take a bane on strikes made against your ship or its crew.
 - *Fearsome Reputation:* You earn 1 Renown.
-- *Scoundrel Tactics:* While aboard a ship, you can use the following skills to make a test to influence another ship up to 5 miles away whose crewmembers have line of effect to you, and you gain an edge when you do so. You can use Disguise to hide your ship's identity or general type, Intimidate to convince another ship's crew to flee or surrender, or Hide or Sneak to let your ship avoid notice.
+- *Scoundrel Tactics:* While aboard a ship, you can use the following skills to make a test to influence another ship up to 5 miles away whose crewmembers have line of effect to you, and you gain an edge when you do so. You can use Disguise to hide your ship's identity or general type, Intimidate to convince another ship's crew to flee or surrender, or [Hide](scc:mcdm.heroes.v1:common-ability.maneuver:hide) or Sneak to let your ship avoid notice.
 
 #### Faction Officer
 
@@ -24283,7 +24283,7 @@ Titles suitable for 2nd-echelon characters are presented in alphabetical order.
 > |------------------|--------------------:|
 > | **📏 Ranged 10** | **🎯 One creature** |
 >
-> **Trigger:** An ally makes a test to lie to, pick the pocket of, hide from, or sneak by the target and doesn't like the outcome.
+> **Trigger:** An ally makes a test to lie to, pick the pocket of, [hide](scc:mcdm.heroes.v1:common-ability.maneuver:hide) from, or sneak by the target and doesn't like the outcome.
 >
 > **Effect:** You momentarily attract the target's notice to let your ally reroll their test. Once you use this ability, you can't use it again against the same target for 1 hour.
 

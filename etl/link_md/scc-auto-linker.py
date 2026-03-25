@@ -314,8 +314,12 @@ def process_file(
             output_lines.append(line)
             continue
 
-        # Skip frontmatter and headers
+        # Skip frontmatter, headers, and blockquote headers (> ######)
         if in_frontmatter or stripped.startswith("#"):
+            output_lines.append(line)
+            continue
+        bq_stripped = stripped.lstrip("> ").lstrip()
+        if bq_stripped.startswith("#"):
             output_lines.append(line)
             continue
 
