@@ -2,6 +2,12 @@ global:
   source: "mcdm.monsters.v1"
   type: monster
 sections:
+  # odd non-combatant on page 5
+  - header_path: monsters/noncombatant
+    xpath: "//section[@id='noncombatant']"
+    file_dpath: 'Monsters/Noncombatant/Statblocks'
+    type: 'monster/noncombatant/statblock'
+
   - header_path: monsters/ajax-the-invincible
     xpath: "//section[@id='monsters']//section[@id='ajax-the-invincible']"
     file_dpath: 'Monsters/Ajax the Invincible'
