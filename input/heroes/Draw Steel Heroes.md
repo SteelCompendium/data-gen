@@ -10356,7 +10356,7 @@ When you use an ability outside of combat that lets you spend unlimited discipli
 
 You project a psionic field of order around your body, dampening the effects of supernatural abilities harmful to you and your allies.
 
-> ######## [Null](scc:mcdm.heroes.v1:class:null) Field
+> ######## Null Field
 > 
 > *You project an aura that dampens the power of your foes.*
 > 
@@ -11529,7 +11529,7 @@ Your [shadow](scc:mcdm.heroes.v1:class:shadow) college grants you one or two fea
 
 | College         | Feature                    |
 |-----------------|----------------------------|
-| Black Ash       | Black Ash [Teleport](scc:mcdm.heroes.v1:movement:teleport)         |
+| Black Ash       | Black Ash Teleport         |
 | Caustic Alchemy | Coat the Blade, Smoke Bomb |
 | Harlequin Mask  | I'm No Threat              |
 
@@ -11537,7 +11537,7 @@ Your [shadow](scc:mcdm.heroes.v1:class:shadow) college grants you one or two fea
 
 You have the following ability.
 
-> ######## Black Ash [Teleport](scc:mcdm.heroes.v1:movement:teleport)
+> ######## Black Ash Teleport
 > 
 > *In a swirl of black ash, you step from one place to another.*
 > 
