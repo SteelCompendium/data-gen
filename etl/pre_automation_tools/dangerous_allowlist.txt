@@ -1,0 +1,134 @@
+# Manual allowlist for dangerous-tier auto-links
+# Format: line_number|term_display
+# Generated from manual review of 704 dangerous candidates
+
+# --- Devil (ancestry) ---
+1103|Devil
+5571|Devil
+5683|Devil
+18184|Devil
+18188|Devil
+20164|Devil
+21288|Devil
+21409|Devil
+21475|Devil
+21493|Devil
+21683|Devil
+21725|Devil
+22316|Devil
+22758|Devil
+24430|Devil
+24434|Devil
+24435|Devil
+24436|Devil
+24472|Devil
+24477|Devil
+24479|Devil
+25405|Devil
+
+# --- Human (ancestry) ---
+14372|Human
+14878|Human
+20586|Human
+20618|Human
+23937|Human
+24458|Human
+
+# --- Fly (movement) ---
+269|Fly
+1135|Fly
+4451|Fly
+5227|Fly
+6766|Fly
+12146|Fly
+14454|Fly
+14456|Fly
+14790|Fly
+19660|Fly
+19728|Fly
+19925|Fly
+21023|Fly
+21065|Fly
+21282|Fly
+23488|Fly
+
+# --- Walk (movement) ---
+569|Walk
+19570|Walk
+
+# --- Jump (movement) ---
+3292|Jump
+3732|Jump
+4451|Jump
+8872|Jump
+18994|Jump
+18998|Jump
+19054|Jump
+26788|Jump
+26826|Jump
+26892|Jump
+27051|Jump
+
+# --- Climb or Swim (movement) ---
+683|Climb or Swim
+741|Climb or Swim
+3103|Climb or Swim
+3328|Climb or Swim
+3678|Climb or Swim
+3900|Climb or Swim
+4451|Climb or Swim
+18760|Climb or Swim
+18868|Climb or Swim
+18882|Climb or Swim
+18990|Climb or Swim
+18994|Climb or Swim
+19008|Climb or Swim
+19049|Climb or Swim
+19058|Climb or Swim
+19154|Climb or Swim
+19389|Climb or Swim
+19618|Climb or Swim
+19638|Climb or Swim
+19706|Climb or Swim
+22618|Climb or Swim
+24252|Climb or Swim
+26778|Climb or Swim
+26788|Climb or Swim
+26826|Climb or Swim
+26892|Climb or Swim
+
+# --- Shadow (class) ---
+2823|Shadow
+2829|Shadow
+2843|Shadow
+11444|Shadow
+11477|Shadow
+12154|Shadow
+12220|Shadow
+12420|Shadow
+12598|Shadow
+13537|Shadow
+23768|Shadow
+
+# --- Talent (class) ---
+13695|Talent
+13771|Talent
+
+# --- Fury (class) ---
+8878|Fury
+
+# --- Familiar (perk) ---
+3799|Familiar
+17542|Familiar
+17544|Familiar
+17546|Familiar
+17548|Familiar
+17554|Familiar
+17562|Familiar
+
+# --- Grounded (complication) ---
+1935|Grounded
+2675|Grounded
+
+# --- Sniper (kit) ---
+16365|Sniper

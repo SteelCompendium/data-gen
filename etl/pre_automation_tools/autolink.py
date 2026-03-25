@@ -1,12 +1,51 @@
 #!/usr/bin/env python3
 """
-Auto-link game terms in Draw Steel Heroes markdown using scc: URIs.
+autolink.py -- Auto-link game terms in Draw Steel markdown using scc: URIs.
+
+Scans a markdown source file for known Draw Steel game terms (ancestries,
+classes, kits, conditions, complications, movement types, perks, titles,
+skills, careers) and wraps unlinked occurrences in markdown links using the
+scc: URI scheme (e.g., [Fury](scc:mcdm.heroes.v1:class:fury)).
+
+Terms are organized into three disambiguation tiers:
+  - safe:       Unambiguous game terms. Always auto-linked.
+  - contextual: Game-specific but could appear in non-game contexts.
+                Auto-linked by default.
+  - dangerous:  Common English words that happen to be game terms (e.g.,
+                "fly", "walk", "noble", "medium"). Only linked when
+                explicitly approved via an allowlist file (--allowlist).
+
+Context-aware skipping:
+  - Existing markdown links [text](url) are never double-linked.
+  - Markdown headers (# lines) are skipped entirely.
+  - Bold definition terms (**Term:**) are not re-linked.
+  - Text inside double quotes ("term") is skipped.
+  - Table separator rows are skipped.
 
 Usage:
-    python3 scripts/autolink.py "input/heroes/Draw Steel Heroes.md" [--dry-run] [--review]
+    python3 etl/pre_automation_tools/autolink.py <file.md> [options]
 
---dry-run: Print stats without modifying the file
---review:  Output a diff-style review of dangerous-tier changes to stderr
+Options:
+    --dry-run              Print stats without modifying the file.
+    --review               Show all dangerous-tier candidates with context
+                           on stderr (does not apply them).
+    --allowlist FILE       Apply dangerous-tier links only for (line, term)
+                           pairs listed in FILE. Format: one "line_num|Term"
+                           per line. See dangerous_allowlist.txt.
+
+Examples:
+    # Safe + contextual only (default):
+    python3 etl/pre_automation_tools/autolink.py input/heroes/Draw\ Steel\ Heroes.md
+
+    # Dry run to see stats:
+    python3 etl/pre_automation_tools/autolink.py input/heroes/Draw\ Steel\ Heroes.md --dry-run
+
+    # Review dangerous candidates:
+    python3 etl/pre_automation_tools/autolink.py input/heroes/Draw\ Steel\ Heroes.md --dry-run --review
+
+    # Apply with manually curated dangerous links:
+    python3 etl/pre_automation_tools/autolink.py input/heroes/Draw\ Steel\ Heroes.md \\
+        --allowlist etl/pre_automation_tools/dangerous_allowlist.txt
 """
 
 import re
@@ -78,7 +117,7 @@ for name in ["Devil", "Dragon Knight", "Dwarf", "Hakaan", "High Elf", "Human",
 # Classes
 for name in ["Censor", "Conduit", "Elementalist", "Fury", "Null", "Shadow",
              "Tactician", "Talent", "Troubadour"]:
-    tier = "dangerous" if name in ("Fury", "Null", "Shadow", "Talent") else "safe"
+    tier = "dangerous" if name in ("Fury", "Shadow", "Talent") else ("contextual" if name == "Null" else "safe")
     TERMS.append(_t(name, "class", tier=tier))
 
 # Conditions
@@ -356,8 +395,25 @@ def _is_in_table_header(line: str) -> bool:
     return False
 
 
-def link_terms(content: str, tiers: set[str], review_mode: bool = False) -> tuple[str, dict]:
+def _load_allowlist(path: Path) -> set[tuple[int, str]]:
+    """Load a manual allowlist file. Format: one 'line_number|term_display' per line."""
+    allowed = set()
+    for raw in path.read_text().splitlines():
+        raw = raw.strip()
+        if not raw or raw.startswith("#"):
+            continue
+        parts = raw.split("|", 1)
+        if len(parts) == 2:
+            allowed.add((int(parts[0]), parts[1].strip()))
+    return allowed
+
+
+def link_terms(content: str, tiers: set[str], review_mode: bool = False,
+               allowlist: set[tuple[int, str]] | None = None) -> tuple[str, dict]:
     """Process content and add links for terms in the specified tiers.
+
+    If allowlist is provided, dangerous-tier terms are only linked when
+    (line_number, term.display) is in the allowlist.
 
     Returns (new_content, stats_dict).
     """
@@ -377,14 +433,14 @@ def link_terms(content: str, tiers: set[str], review_mode: bool = False) -> tupl
             new_lines.append(line)
             continue
 
-        new_line = _link_line(line, line_num, tiers, stats, review_mode)
+        new_line = _link_line(line, line_num, tiers, stats, review_mode, allowlist)
         new_lines.append(new_line)
 
     return '\n'.join(new_lines), stats
 
 
 def _link_line(line: str, line_num: int, tiers: set[str], stats: dict,
-               review_mode: bool) -> str:
+               review_mode: bool, allowlist: set[tuple[int, str]] | None = None) -> str:
     """Process a single line, adding links for matching terms."""
     # Process terms longest-first to avoid partial replacement issues
     for term in TERMS:
@@ -421,19 +477,26 @@ def _link_line(line: str, line_num: int, tiers: set[str], stats: dict,
             # Build the link
             link = f"[{matched_text}]({term.uri})"
 
-            if review_mode and term.tier == "dangerous":
-                context_start = max(0, start - 40)
-                context_end = min(len(line), end + 40)
-                context = line[context_start:context_end]
-                stats["review"].append({
-                    "line": line_num,
-                    "term": term.display,
-                    "uri": term.uri,
-                    "tier": term.tier,
-                    "context": context,
-                    "matched": matched_text,
-                })
-                continue  # Don't apply dangerous links in review mode
+            # Dangerous tier: check allowlist or review mode
+            if term.tier == "dangerous":
+                if review_mode:
+                    context_start = max(0, start - 40)
+                    context_end = min(len(line), end + 40)
+                    context = line[context_start:context_end]
+                    stats["review"].append({
+                        "line": line_num,
+                        "term": term.display,
+                        "uri": term.uri,
+                        "tier": term.tier,
+                        "context": context,
+                        "matched": matched_text,
+                    })
+                    continue
+                if allowlist is not None:
+                    if (line_num, term.display) not in allowlist:
+                        continue
+                else:
+                    continue  # No allowlist and not review mode: skip dangerous
 
             # Apply the link
             line = line[:start] + link + line[end:]
@@ -451,25 +514,42 @@ def main():
 
     dry_run = "--dry-run" in args
     review_mode = "--review" in args
-    args = [a for a in args if not a.startswith("--")]
+    allowlist_path = None
+    filtered = []
+    i = 0
+    while i < len(args):
+        if args[i] == "--allowlist" and i + 1 < len(args):
+            allowlist_path = Path(args[i + 1])
+            i += 2
+        elif args[i].startswith("--"):
+            i += 1
+        else:
+            filtered.append(args[i])
+            i += 1
+    args = filtered
 
     if not args:
-        print("Usage: autolink.py <file.md> [--dry-run] [--review]", file=sys.stderr)
+        print("Usage: autolink.py <file.md> [--dry-run] [--review] [--allowlist FILE]", file=sys.stderr)
         print("", file=sys.stderr)
         print("Tiers applied:", file=sys.stderr)
         print("  safe + contextual: always applied", file=sys.stderr)
-        print("  dangerous: skipped (use --review to see candidates)", file=sys.stderr)
+        print("  dangerous: applied only for lines in --allowlist, or shown with --review", file=sys.stderr)
         sys.exit(1)
 
     filepath = Path(args[0])
     content = filepath.read_text()
 
-    # Always apply safe + contextual tiers; include dangerous for review scanning
+    # Always apply safe + contextual tiers; include dangerous when review or allowlist
     tiers = {"safe", "contextual"}
+    allowlist = None
     if review_mode:
         tiers.add("dangerous")
+    if allowlist_path:
+        tiers.add("dangerous")
+        allowlist = _load_allowlist(allowlist_path)
+        print(f"Loaded {len(allowlist)} allowlist entries from {allowlist_path}", file=sys.stderr)
 
-    new_content, stats = link_terms(content, tiers, review_mode=review_mode)
+    new_content, stats = link_terms(content, tiers, review_mode=review_mode, allowlist=allowlist)
 
     # Print stats
     print(f"Links added:           {stats['linked']}", file=sys.stderr)

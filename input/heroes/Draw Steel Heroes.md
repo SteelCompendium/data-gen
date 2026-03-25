@@ -266,7 +266,7 @@ Whenever you see a rule or game term in the glossary index underlined in cross-r
 
 **Flanking:** When two or more allied creatures are adjacent to and on opposite sides of an enemy, those creatures are flanking that enemy. A creature flanking an enemy gains an edge on melee strikes against that enemy.
 
-**[Fly](scc:mcdm.heroes.v1:movement:fly):** A movement mode available to creatures with "[fly](scc:mcdm.heroes.v1:movement:fly)" in their speed entry, or who gain the capability to temporarily [fly](scc:mcdm.heroes.v1:movement:fly). Such creatures can move through the air horizontally or diagonally at full speed and remain in midair. If a flying creature is made [prone](scc:mcdm.heroes.v1:condition:prone) or has their speed reduced to 0, they fall.
+**[Fly](scc:mcdm.heroes.v1:movement:fly):** A movement mode available to creatures with "[fly](scc:mcdm.heroes.v1:movement:fly)" in their speed entry, or who gain the capability to temporarily [fly](scc:mcdm.heroes.v1:movement:fly). Such creatures can move through the air horizontally or diagonally at full speed and remain in midair. If a [flying](scc:mcdm.heroes.v1:movement:fly) creature is made [prone](scc:mcdm.heroes.v1:condition:prone) or has their speed reduced to 0, they fall.
 
 **Focus:** The [tactician](scc:mcdm.heroes.v1:class:tactician)'s Heroic Resource.
 
@@ -566,7 +566,7 @@ Whenever you see a rule or game term in the glossary index underlined in cross-r
 
 **Victories:** A measure of a hero's increasing power over the course of an adventure, earned by triumphing in battles and overcoming other challenges.
 
-**[Walk](scc:mcdm.heroes.v1:movement:walk):** The most common movement type, used to move over solid ground. Walking can incorporate ambulating on legs, rolling, slithering, or any other default method of movement.
+**[Walk](scc:mcdm.heroes.v1:movement:walk):** The most common movement type, used to move over solid ground. [Walking](scc:mcdm.heroes.v1:movement:walk) can incorporate ambulating on legs, rolling, slithering, or any other default method of movement.
 
 **Wall:** When an ability or other effect creates a wall, that area is expressed as "X wall." The number X is how many squares are used to make the wall. Each square must share at least one side (not just a corner) with another square of the wall. A wall effect has a duration specified by the effect, or it lasts indefinitely or until destroyed.
 
@@ -680,7 +680,7 @@ Whenever a hero or other creature in the game attempts a task with an uncertain 
 
 The game uses two types of power rolls. An **ability roll** is used when you use certain abilities to determine their impact. For instance, if a [fury](scc:mcdm.heroes.v1:class:fury) uses their Brutal Slam ability to strike an enemy, their ability roll determines how much damage the enemy takes and how far back the enemy is pushed. See [Abilities](#page-83-0) for more information.
 
-A **test** is a power roll you make outside of using your abilities to affect or interact with the world around you. A [tactician](scc:mcdm.heroes.v1:class:tactician) might not have an ability that lets them [climb](scc:mcdm.heroes.v1:movement:climb-or-swim) up the face of a cliff, so climbing is an activity they can attempt with a test. An [elementalist](scc:mcdm.heroes.v1:class:elementalist) doesn't have an ability that lets them automatically intimidate a cultist into backing down from a fight, but they can make a test if they want to try. See [Tests](scc:mcdm.heroes.v1:chapter:tests) for more information.
+A **test** is a power roll you make outside of using your abilities to affect or interact with the world around you. A [tactician](scc:mcdm.heroes.v1:class:tactician) might not have an ability that lets them [climb](scc:mcdm.heroes.v1:movement:climb-or-swim) up the face of a cliff, so [climbing](scc:mcdm.heroes.v1:movement:climb-or-swim) is an activity they can attempt with a test. An [elementalist](scc:mcdm.heroes.v1:class:elementalist) doesn't have an ability that lets them automatically intimidate a cultist into backing down from a fight, but they can make a test if they want to try. See [Tests](scc:mcdm.heroes.v1:chapter:tests) for more information.
 
 > **Sapient Creatures**
 >
@@ -738,7 +738,7 @@ Under certain circumstances, you might have one or more edges and banes on the s
 
 ##### When to Use Edges and Banes
 
-The rules tell you when to modify a roll with an edge or a bane. The Director can also modify rolls with edges and banes as a response to narrative or environmental circumstances. For instance, no rule specifically says that rain imposes a bane on power rolls made to [climb](scc:mcdm.heroes.v1:movement:climb-or-swim) a stone wall. But it makes sense that rainy conditions should make climbing that wall harder, so a Director should absolutely do so!
+The rules tell you when to modify a roll with an edge or a bane. The Director can also modify rolls with edges and banes as a response to narrative or environmental circumstances. For instance, no rule specifically says that rain imposes a bane on power rolls made to [climb](scc:mcdm.heroes.v1:movement:climb-or-swim) a stone wall. But it makes sense that rainy conditions should make [climbing](scc:mcdm.heroes.v1:movement:climb-or-swim) that wall harder, so a Director should absolutely do so!
 
 > **Why Cap?**
 >
@@ -1100,7 +1100,7 @@ The first thing you should do is think about the kind of hero you want to make. 
 
 #### 2. Ancestry
 
-Choose your hero's humanoid ancestry from among the range of [ancestries](scc:mcdm.heroes.v1:chapter:ancestries) available in the game—devil, [dragon knight](scc:mcdm.heroes.v1:ancestry:dragon-knight), [dwarf](scc:mcdm.heroes.v1:ancestry:dwarf), [wode elf](scc:mcdm.heroes.v1:ancestry:wode-elf), [high elf](scc:mcdm.heroes.v1:ancestry:high-elf), [hakaan](scc:mcdm.heroes.v1:ancestry:hakaan), [human](scc:mcdm.heroes.v1:ancestry:human), [memonek](scc:mcdm.heroes.v1:ancestry:memonek), [orc](scc:mcdm.heroes.v1:ancestry:orc), [polder](scc:mcdm.heroes.v1:ancestry:polder), [revenant](scc:mcdm.heroes.v1:ancestry:revenant), or [time raider](scc:mcdm.heroes.v1:ancestry:time-raider). Future supplements will introduce additional [ancestries](scc:mcdm.heroes.v1:chapter:ancestries) you can choose from. See [Chapter 3: Ancestries](#page-35-0) for more information.
+Choose your hero's humanoid ancestry from among the range of [ancestries](scc:mcdm.heroes.v1:chapter:ancestries) available in the game—[devil](scc:mcdm.heroes.v1:ancestry:devil), [dragon knight](scc:mcdm.heroes.v1:ancestry:dragon-knight), [dwarf](scc:mcdm.heroes.v1:ancestry:dwarf), [wode elf](scc:mcdm.heroes.v1:ancestry:wode-elf), [high elf](scc:mcdm.heroes.v1:ancestry:high-elf), [hakaan](scc:mcdm.heroes.v1:ancestry:hakaan), [human](scc:mcdm.heroes.v1:ancestry:human), [memonek](scc:mcdm.heroes.v1:ancestry:memonek), [orc](scc:mcdm.heroes.v1:ancestry:orc), [polder](scc:mcdm.heroes.v1:ancestry:polder), [revenant](scc:mcdm.heroes.v1:ancestry:revenant), or [time raider](scc:mcdm.heroes.v1:ancestry:time-raider). Future supplements will introduce additional [ancestries](scc:mcdm.heroes.v1:chapter:ancestries) you can choose from. See [Chapter 3: Ancestries](#page-35-0) for more information.
 
 #### 3. Culture
 
@@ -1132,7 +1132,7 @@ Your class might grant your hero a kit that helps define your approach to martia
 
 A free strike is a combat ability you can use when it's not your turn, representing the simplest and most basic weapon attack you can make. An enemy is foolish enough to walk away from you in melee? Free strike! Every hero has a melee weapon free strike and a ranged weapon free strike. They're all the same—until modified by your kit or class—and it's up to you to decide what exactly your free strikes are. A thrown dagger? A punch? The design is intended to let you use your imagination.
 
-You can also make free strikes on your turn to represent using weapons your hero isn't otherwise themed to use. A [wode elf](scc:mcdm.heroes.v1:ancestry:wode-elf) master archer can stab a too-close enemy with a dagger as a free strike, and a greataxe-wielding [orc](scc:mcdm.heroes.v1:ancestry:orc) [fury](scc:mcdm.heroes.v1:class:fury) can use a free strike to hurl a handaxe at a flying enemy staying annoyingly out of melee range.
+You can also make free strikes on your turn to represent using weapons your hero isn't otherwise themed to use. A [wode elf](scc:mcdm.heroes.v1:ancestry:wode-elf) master archer can stab a too-close enemy with a dagger as a free strike, and a greataxe-wielding [orc](scc:mcdm.heroes.v1:ancestry:orc) [fury](scc:mcdm.heroes.v1:class:fury) can use a free strike to hurl a handaxe at a [flying](scc:mcdm.heroes.v1:movement:fly) enemy staying annoyingly out of melee range.
 
 See Free Strikes in Chapter 10: Combat for more information on using free strikes, and see Abilities in Chapter 5: [Classes](scc:mcdm.heroes.v1:chapter:classes) for information on the ability format and how to read it.
 
@@ -1932,7 +1932,7 @@ You can have one rune active at a time, and can change or remove a rune with 10 
 
 #### Purchased Dwarf Traits
 
-You have 3 ancestry points to spend on the following traits. (*Quick Build:* Grounded, Spark Off Your Skin.)
+You have 3 ancestry points to spend on the following traits. (*Quick Build:* [Grounded](scc:mcdm.heroes.v1:complication:grounded), Spark Off Your Skin.)
 
 ##### Great Fortitude (2 Points)
 
@@ -2672,7 +2672,7 @@ Whenever a creature deals damage to you that leaves you dying, you can make a fr
 
 #### Purchased Orc Traits
 
-You have 3 ancestry points to spend on the following traits. (*Quick Build:* Glowing Recovery, Grounded.)
+You have 3 ancestry points to spend on the following traits. (*Quick Build:* Glowing Recovery, [Grounded](scc:mcdm.heroes.v1:complication:grounded).)
 
 ##### Bloodfire Rush (1 Point)
 
@@ -2820,13 +2820,13 @@ You have the following ability.
 
 ######## Shadowmeld
 
-*You become an actual shadow.*
+*You become an actual [shadow](scc:mcdm.heroes.v1:class:shadow).*
 
 | **Magic**   |    **Maneuver** |
 |-------------|----------------:|
 | **📏 Self** |     **🎯 Self** |
 
-**Effect:** You flatten yourself into a shadow against a wall or floor you are touching, and become hidden from any creature you have cover or concealment from or who isn't observing you. While in shadow form, you have full awareness of your surroundings, and strikes made against you and tests made to search for you take a bane. You can't move or be force moved, and you can't take main actions or maneuvers except to exit this form or to direct creatures under your control, such as one you summon using an ability. Any ability or effect that targets more than 1 square affects you in this form only if it explicitly affects the surface you are flattened against. You can exit this form as a maneuver.
+**Effect:** You flatten yourself into a [shadow](scc:mcdm.heroes.v1:class:shadow) against a wall or floor you are touching, and become hidden from any creature you have cover or concealment from or who isn't observing you. While in [shadow](scc:mcdm.heroes.v1:class:shadow) form, you have full awareness of your surroundings, and strikes made against you and tests made to search for you take a bane. You can't move or be force moved, and you can't take main actions or maneuvers except to exit this form or to direct creatures under your control, such as one you summon using an ability. Any ability or effect that targets more than 1 square affects you in this form only if it explicitly affects the surface you are flattened against. You can exit this form as a maneuver.
 
 If the surface you are flattened against is destroyed, this ability ends and you take 1d6 damage that can't be reduced in any way.
 
@@ -2840,7 +2840,7 @@ You have 4 ancestry points to spend on the following traits. (*Quick Build:* Cor
 
 ##### Corruption Immunity (1 Point)
 
-Your innate shadow magic grants you resilience against the unnatural. You have corruption immunity equal to your level + 2.
+Your innate [shadow](scc:mcdm.heroes.v1:class:shadow) magic grants you resilience against the unnatural. You have corruption immunity equal to your level + 2.
 
 ##### Fearless (2 Points)
 
@@ -3100,7 +3100,7 @@ Your senses extend past mundane obscuration and the veil of the future alike. Yo
 
 ##### Four-Armed Athletics (1 Point)
 
-Your unique physiology enhances your movement. You gain an edge on tests that use the Climb, Gymnastics, or Swim skills when you can use all your arms in the attempt.
+Your unique physiology enhances your movement. You gain an edge on tests that use the [Climb](scc:mcdm.heroes.v1:movement:climb-or-swim), Gymnastics, or [Swim](scc:mcdm.heroes.v1:movement:climb-or-swim) skills when you can use all your arms in the attempt.
 
 ##### Four-Armed Martial Arts (2 Points)
 
@@ -3289,7 +3289,7 @@ A communal culture is a place where all members of the culture are considered eq
 
 Many communal cultures operate outside settled lands, sticking to the wilds, a specific district in a larger settlement, city sewers, forgotten ruins, or other isolated places. For even when such cultures are harmless, their members know that outsiders might try to impose rules upon them if they live in the same place. As such, many folks in communal cultures focus on fending for themselves while avoiding the danger that other groups can represent.
 
-**Skill Options:** One skill from the crafting or exploration skill groups. (*Quick Build:* Jump.)
+**Skill Options:** One skill from the crafting or exploration skill groups. (*Quick Build:* [Jump](scc:mcdm.heroes.v1:movement:jump).)
 
 #### Upbringing
 
@@ -3325,7 +3325,7 @@ Your hero grew up among folk who performed activities that other people—whethe
 
 A hero with a martial upbringing was raised by warriors. These might have been the soldiers of an established army, a band of mercenaries, a guild of monster-slaying adventurers, or any other folk whose lives revolve around combat. Heroes with a martial upbringing are always ready for a fight—and they know how to finish that fight.
 
-**Skill Options:** One of the following: Blacksmithing or Fletching from the crafting skill group; Climb, Endurance, or Ride from the exploration group; Intimidate from the interpersonal group; Alertness or Track from the intrigue group; or Monsters or Strategy from the lore skill group (*Quick Build:* Intimidate.)
+**Skill Options:** One of the following: Blacksmithing or Fletching from the crafting skill group; [Climb](scc:mcdm.heroes.v1:movement:climb-or-swim), Endurance, or Ride from the exploration group; Intimidate from the interpersonal group; Alertness or Track from the intrigue group; or Monsters or Strategy from the lore skill group (*Quick Build:* Intimidate.)
 
 ##### Noble
 
@@ -3675,7 +3675,7 @@ You ventured into uncharted areas and made your living as a cartographer, resear
 
 You gain the following career benefits:
 
-**Skills:** The Navigate skill (from the exploration skill group), plus two more skills from the exploration group (*Quick Build:* Climb, Heal, Navigate.)
+**Skills:** The Navigate skill (from the exploration skill group), plus two more skills from the exploration group (*Quick Build:* [Climb](scc:mcdm.heroes.v1:movement:climb-or-swim), Heal, Navigate.)
 
 **Languages:** Two languages
 
@@ -3729,7 +3729,7 @@ In the past, you entertained the masses with flashy displays of violence in the 
 
 You gain the following career benefits:
 
-**Skills:** Two skills from the exploration skill group (*Quick Build:*  Gymnastics, Jump.)
+**Skills:** Two skills from the exploration skill group (*Quick Build:*  Gymnastics, [Jump](scc:mcdm.heroes.v1:movement:jump).)
 
 **Languages:** One language
 
@@ -3796,7 +3796,7 @@ You gain the following career benefits:
 | d6 | Inciting Incident                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |----|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1  | **Forgotten Memories:** While practicing a spell, your inexperience caused the magic to backfire and your memories were wiped, leaving you with only fragments of who you once were. Determined to recall your past, you now dedicate yourself to helping others, hoping your actions will spark some remembrance or lead you to a way to reverse the magic. |
-| 2  | **Magic of Friendship:** As a sign of your status as a star pupil, your mentor gifted you a familiar as a magic pet. Another jealous apprentice captured the familiar and slipped away in the night. Haunted by your pet's absence, you adventure to find your kidnapped friend and prevent others from feeling your loss. |
+| 2  | **Magic of Friendship:** As a sign of your status as a star pupil, your mentor gifted you a [familiar](scc:mcdm.heroes.v1:perk.supernatural:familiar) as a magic pet. Another jealous apprentice captured the [familiar](scc:mcdm.heroes.v1:perk.supernatural:familiar) and slipped away in the night. Haunted by your pet's absence, you adventure to find your kidnapped friend and prevent others from feeling your loss. |
 | 3  | **Missing Mage:** One day you woke up and the mage you worked for was gone. They didn't take any of their belongings and there was no sign of any foul play-only the scent of sulfur in their bedchamber. You set out on your heroic journey in the aftermath and have been looking for them ever since. |
 | 4  | **Nightmares Made Flesh:** Your attempts at magic have always been unpredictable. A powerful mage promised to help you gain control. During your training, a terrible nightmare caused your body to flare with magic and pull the monster of your nightmare into the waking world. The horror escaped. You left, seeking to vanquish their vileness. |
 | 5  | **Otherworldly:** While studying magic, you accidentally sent yourself from your original world to this one. Now you're stranded here, hoping to find ancient texts or powerful magic treasures that might transport you back home. A life of adventure it is! | 
@@ -3897,7 +3897,7 @@ You worked on a ship, whether a merchant cog, a mercenary or military craft, or 
 
 You gain the following career benefits:
 
-**Skills:** Swim (from the exploration skill group), plus two more skills from the exploration group (*Quick Build:* Climb, Gymnastics, Swim.)
+**Skills:** [Swim](scc:mcdm.heroes.v1:movement:climb-or-swim) (from the exploration skill group), plus two more skills from the exploration group (*Quick Build:* [Climb](scc:mcdm.heroes.v1:movement:climb-or-swim), Gymnastics, [Swim](scc:mcdm.heroes.v1:movement:climb-or-swim).)
 
 **Languages:** Two languages
 
@@ -4317,7 +4317,7 @@ Reading the ability this way prevents a lot of back and forth. You don't need to
 
 ##### Adjusting Potencies
 
-Potencies are made for quick resolution at the table, but a number of triggered actions and other abilities—for example, the [censor](scc:mcdm.heroes.v1:class:censor)'s Judgment ability and the [null](scc:mcdm.heroes.v1:class:null)'s Null Field ability—allow you to manipulate the value of potencies. If you build a hero who can adjust potencies, pay attention during combat! You might be able to help out a friend who needs a little boost to make their ability take full effect, or hinder an enemy about to lock down one of your allies.
+Potencies are made for quick resolution at the table, but a number of triggered actions and other abilities—for example, the [censor](scc:mcdm.heroes.v1:class:censor)'s Judgment ability and the [null](scc:mcdm.heroes.v1:class:null)'s [Null](scc:mcdm.heroes.v1:class:null) Field ability—allow you to manipulate the value of potencies. If you build a hero who can adjust potencies, pay attention during combat! You might be able to help out a friend who needs a little boost to make their ability take full effect, or hinder an enemy about to lock down one of your allies.
 
 ##### Spending Resources on Potencies
 
@@ -4366,7 +4366,7 @@ Some abilities have a "Spend X [Heroic Resource]" entry in the body of the abili
 
 The unique effects of different abilities are combined—effectively stacking on top of each other—if their durations and targets overlap. However, the effects of the same ability used multiple times don't stack. Instead, the most impactful effect—such as the highest bonus—from each use of the ability applies. The most recently used ability applies for determining duration.
 
-For example, the [null](scc:mcdm.heroes.v1:class:null)'s Null Field ability reduces the potencies of enemies within the field by 1. If two allied [nulls](scc:mcdm.heroes.v1:class:null) each have their Null Field ability active and an enemy cultist is targeted by both abilities, that cultist's potencies are reduced by 1, not by 2.
+For example, the [null](scc:mcdm.heroes.v1:class:null)'s [Null](scc:mcdm.heroes.v1:class:null) Field ability reduces the potencies of enemies within the field by 1. If two allied [nulls](scc:mcdm.heroes.v1:class:null) each have their [Null](scc:mcdm.heroes.v1:class:null) Field ability active and an enemy cultist is targeted by both abilities, that cultist's potencies are reduced by 1, not by 2.
 
 Different effects that impose the same condition (see [Conditions](#page-91-2) below) don't stack to impose the condition twice. For instance, if a hero is targeted by numerous creatures whose abilities cause a target to become [weakened](scc:mcdm.heroes.v1:condition:weakened) (imposing a bane on the target's power rolls), the target isn't [weakened](scc:mcdm.heroes.v1:condition:weakened) twice to impose a double bane on those rolls. A character who is [grabbed](scc:mcdm.heroes.v1:condition:grabbed) by an enemy can't be [grabbed](scc:mcdm.heroes.v1:condition:grabbed) again by another enemy. The same holds true for game effects that aren't conditions. For example, if a hero is targeted by multiple abilities or effects that can halve their recovery value, the hero's recovery value is halved only once.
 
@@ -4448,7 +4448,7 @@ Unless otherwise indicated, a creature can grab only one creature at a time.
 
 ##### Prone
 
-While a creature is [prone](scc:mcdm.heroes.v1:condition:prone), they are flat on the ground, any strike they make takes a bane, and melee abilities used against them gain an edge. A [prone](scc:mcdm.heroes.v1:condition:prone) creature must [crawl](scc:mcdm.heroes.v1:movement:crawl) to move along the ground, which costs 1 additional square of movement for every square crawled. A creature can't [climb](scc:mcdm.heroes.v1:movement:climb-or-swim), [jump](scc:mcdm.heroes.v1:movement:jump), [swim](scc:mcdm.heroes.v1:movement:climb-or-swim), or [fly](scc:mcdm.heroes.v1:movement:fly) while [prone](scc:mcdm.heroes.v1:condition:prone). If they are climbing, flying, or jumping when knocked [prone](scc:mcdm.heroes.v1:condition:prone), they fall.
+While a creature is [prone](scc:mcdm.heroes.v1:condition:prone), they are flat on the ground, any strike they make takes a bane, and melee abilities used against them gain an edge. A [prone](scc:mcdm.heroes.v1:condition:prone) creature must [crawl](scc:mcdm.heroes.v1:movement:crawl) to move along the ground, which costs 1 additional square of movement for every square crawled. A creature can't [climb](scc:mcdm.heroes.v1:movement:climb-or-swim), [jump](scc:mcdm.heroes.v1:movement:jump), [swim](scc:mcdm.heroes.v1:movement:climb-or-swim), or [fly](scc:mcdm.heroes.v1:movement:fly) while [prone](scc:mcdm.heroes.v1:condition:prone). If they are [climbing](scc:mcdm.heroes.v1:movement:climb-or-swim), [flying](scc:mcdm.heroes.v1:movement:fly), or [jumping](scc:mcdm.heroes.v1:movement:jump) when knocked [prone](scc:mcdm.heroes.v1:condition:prone), they fall.
 
 Unless the ability or effect that imposed the [prone](scc:mcdm.heroes.v1:condition:prone) condition says otherwise, a [prone](scc:mcdm.heroes.v1:condition:prone) creature can stand up using the Stand Up maneuver (see [Maneuvers](#page-287-0) in [Chapter 10: Combat](#page-288-0)). A creature adjacent to a willing [prone](scc:mcdm.heroes.v1:condition:prone) creature can likewise use the Stand Up maneuver to make that creature stand up.
 
@@ -5224,7 +5224,7 @@ At the start of a respite, you can inspire yourself or another creature taking t
 
 ##### Windwalk
 
-While you have 5 or more Victories, you can [fly](scc:mcdm.heroes.v1:movement:fly). If you can already [fly](scc:mcdm.heroes.v1:movement:fly), you have a +2 bonus to speed while flying instead.
+While you have 5 or more Victories, you can [fly](scc:mcdm.heroes.v1:movement:fly). If you can already [fly](scc:mcdm.heroes.v1:movement:fly), you have a +2 bonus to speed while [flying](scc:mcdm.heroes.v1:movement:fly) instead.
 
 ##### Wode Road
 
@@ -5568,7 +5568,7 @@ Your [censor](scc:mcdm.heroes.v1:class:censor) order grants you a feature, as sh
 
 ##### Demonologist
 
-The most esoteric secrets of your order teach you that to defeat your enemy, you must understand them. You treat your Renown as 2 higher than usual when dealing with demons, devils, and other agents of chaos. If you successfully complete a negotiation with one of these creatures, you gain an edge on power rolls made against them and can use your Judgment ability against them as a free triggered action before an encounter begins.
+The most esoteric secrets of your order teach you that to defeat your enemy, you must understand them. You treat your Renown as 2 higher than usual when dealing with demons, [devils](scc:mcdm.heroes.v1:ancestry:devil), and other agents of chaos. If you successfully complete a negotiation with one of these creatures, you gain an edge on power rolls made against them and can use your Judgment ability against them as a free triggered action before an encounter begins.
 
 ##### Their Past Revealed
 
@@ -5680,7 +5680,7 @@ Choose one of the following abilities.
 > - **12-16:** 8 + M damage; P < AVERAGE, the target is banished (save ends)
 > - **17+:** 11 + M damage; P < STRONG, the target is banished (save ends)
 > 
-> **Effect:** This ability gains an edge against demons, devils, undead, and creatures not native to your current world. If you know the target's true name, this ability has a double edge. While banished, the target is sent to another manifold in the timescape and removed from the encounter map. A banished target can do nothing but make saving throws, and takes 10 holy damage each time they do so. If the target is reduced to 0 Stamina while banished, they are lost to the timescape.
+> **Effect:** This ability gains an edge against demons, [devils](scc:mcdm.heroes.v1:ancestry:devil), undead, and creatures not native to your current world. If you know the target's true name, this ability has a double edge. While banished, the target is sent to another manifold in the timescape and removed from the encounter map. A banished target can do nothing but make saving throws, and takes 10 holy damage each time they do so. If the target is reduced to 0 Stamina while banished, they are lost to the timescape.
 
 > ######## Terror Manifest (11 Wrath)
 > 
@@ -6763,7 +6763,7 @@ At the start of a respite, you can inspire yourself or another creature taking t
 
 ###### Windwalk
 
-While you have 5 or more Victories, you can [fly](scc:mcdm.heroes.v1:movement:fly). If you can already [fly](scc:mcdm.heroes.v1:movement:fly), you have a +2 bonus to speed while flying instead.
+While you have 5 or more Victories, you can [fly](scc:mcdm.heroes.v1:movement:fly). If you can already [fly](scc:mcdm.heroes.v1:movement:fly), you have a +2 bonus to speed while [flying](scc:mcdm.heroes.v1:movement:fly) instead.
 
 ###### Wode Road
 
@@ -8869,13 +8869,13 @@ You do not temper the heat of battle within you. You unleash it! Your experience
 
 **Recoveries:** 10
 
-**Skills:** You gain the Nature skill (see Skills in Chapter 9: Tests). Then choose any two skills from the exploration or intrigue skill groups. (*Quick Build:* Alertness, Jump, Nature.)
+**Skills:** You gain the Nature skill (see Skills in Chapter 9: Tests). Then choose any two skills from the exploration or intrigue skill groups. (*Quick Build:* Alertness, [Jump](scc:mcdm.heroes.v1:movement:jump), Nature.)
 
 ###### Fury Advancement Table
 
 | Level | Features                                                                                                                        | Abilities                 | Aspect Abilities |
 |-------|---------------------------------------------------------------------------------------------------------------------------------|---------------------------|------------------|
-| 1st   | Primordial Aspect, Ferocity, Growing Ferocity, Aspect Features, Aspect Triggered Action, Mighty Leaps, Fury Abilities           | Signature, 3, 5           | -                |
+| 1st   | Primordial Aspect, Ferocity, Growing Ferocity, Aspect Features, Aspect Triggered Action, Mighty Leaps, [Fury](scc:mcdm.heroes.v1:class:fury) Abilities           | Signature, 3, 5           | -                |
 | 2nd   | Perk, Aspect Feature, Aspect Ability                                                                                            | Signature, 3, 5           | 5                |
 | 3rd   | Aspect Feature, 7-Ferocity Ability                                                                                              | Signature, 3, 5, 7        | 5                |
 | 4th   | Characteristic Increase, Damaging Ferocity, Growing Ferocity Improvement, Perk, Primordial Attunement, Primordial Strike, Skill | Signature, 3, 5, 7        | 5                |
@@ -10309,10 +10309,10 @@ The mind is not separate from the body. Perfection of one requires perfection of
 
 | Level | Features                                                                                                                                            | Abilities                     | Tradition Abilities |
 |-------|-----------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|---------------------|
-| 1st   | Null Tradition, Discipline, Null Field, Inertial Shield, Discipline Mastery, Null Speed, Psionic Augmentation, Psionic Martial Arts, Null Abilities | Two signature, 3, 5           | -                   |
+| 1st   | [Null](scc:mcdm.heroes.v1:class:null) Tradition, Discipline, [Null](scc:mcdm.heroes.v1:class:null) Field, Inertial Shield, Discipline Mastery, [Null](scc:mcdm.heroes.v1:class:null) Speed, Psionic Augmentation, Psionic Martial Arts, [Null](scc:mcdm.heroes.v1:class:null) Abilities | Two signature, 3, 5           | -                   |
 | 2nd   | Perk, Tradition Feature, Tradition Ability                                                                                                          | Two signature, 3, 5           | 5                   |
 | 3rd   | Psionic Leap, Reorder, 7-Discipline Ability                                                                                                         | Two signature, 3, 5, 7        | 5                   |
-| 4th   | Characteristic Increase, Discipline Mastery Improvement, Enhanced Null Field, Perk, Regenerative Field, Skill                                       | Two signature, 3, 5, 7        | 5                   |
+| 4th   | Characteristic Increase, Discipline Mastery Improvement, Enhanced [Null](scc:mcdm.heroes.v1:class:null) Field, Perk, Regenerative Field, Skill                                       | Two signature, 3, 5, 7        | 5                   |
 | 5th   | Tradition Feature, 9-Discipline Ability                                                                                                             | Two signature, 3, 5, 7, 9     | 5                   |
 | 6th   | Elemental Absorption, Elemental Buffer, Perk, Tradition Ability                                                                                     | Two signature, 3, 5, 7, 9     | 5, 9                |
 | 7th   | Characteristic Increase, Discipline Mastery Improvement, Psi Boost, Improved Body, Skill                                                            | Two signature, 3, 5, 7, 9     | 5, 9                |
@@ -10342,7 +10342,7 @@ As your mastery of your body and tradition grows, it imbues you with a Heroic Re
 
 At the start of a combat encounter or some other stressful situation tracked in combat rounds (as determined by the Director), you gain discipline equal to your Victories. At the start of each of your turns during combat, you gain 2 discipline.
 
-Additionally, the first time each combat round that an enemy in the area of your Null Field ability (see below) uses a main action, you gain 1 discipline. The first time each combat round that the Director uses an ability that costs Malice (see *[Draw Steel: Monsters](https://mcdm.gg/DS-Monsters)*), you gain 1 discipline.
+Additionally, the first time each combat round that an enemy in the area of your [Null](scc:mcdm.heroes.v1:class:null) Field ability (see below) uses a main action, you gain 1 discipline. The first time each combat round that the Director uses an ability that costs Malice (see *[Draw Steel: Monsters](https://mcdm.gg/DS-Monsters)*), you gain 1 discipline.
 
 You lose any remaining discipline at the end of the encounter.
 
@@ -10356,7 +10356,7 @@ When you use an ability outside of combat that lets you spend unlimited discipli
 
 You project a psionic field of order around your body, dampening the effects of supernatural abilities harmful to you and your allies.
 
-> ######## Null Field
+> ######## [Null](scc:mcdm.heroes.v1:class:null) Field
 > 
 > *You project an aura that dampens the power of your foes.*
 > 
@@ -10366,7 +10366,7 @@ You project a psionic field of order around your body, dampening the effects of 
 > 
 > **Effect:** Each target reduces their potencies by 1.
 > 
-> Once as a free maneuver on each of your turns, you can spend 1 discipline and give your Null Field one of the following additional effects until the start of your next turn:
+> Once as a free maneuver on each of your turns, you can spend 1 discipline and give your [Null](scc:mcdm.heroes.v1:class:null) Field one of the following additional effects until the start of your next turn:
 > 
 > - Gravitic Disruption: The first time on a turn that a target takes damage, you can slide them up to 2 squares.
 > - Inertial Anchor: Any target who starts their turn in the area can't shift.
@@ -10426,9 +10426,9 @@ Additionally, as your discipline grows, you strengthen the psionic power suffusi
 | Discipline      | Benefit                                                                                                                                                                                           |
 |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 2               | Whenever you use the Knockback maneuver, you can target one additional creature. Additionally, whenever you deal untyped damage with a psionic ability, you can change it to cold damage instead. |
-| 4               | The first time on a turn that you grab a creature or an enemy moves 1 or more squares in the area of your Null Field ability, you gain 1 surge.                                                   |
+| 4               | The first time on a turn that you grab a creature or an enemy moves 1 or more squares in the area of your [Null](scc:mcdm.heroes.v1:class:null) Field ability, you gain 1 surge.                                                   |
 | 6               | You gain an edge on the Grab and Knockback maneuvers.                                                                                                                                             |
-| 8 (4th level)   | The first time on a turn that you grab a creature or an enemy moves 1 or more squares in the area of your Null Field ability, you gain 2 surges.                                                  |
+| 8 (4th level)   | The first time on a turn that you grab a creature or an enemy moves 1 or more squares in the area of your [Null](scc:mcdm.heroes.v1:class:null) Field ability, you gain 2 surges.                                                  |
 | 10 (7th level)  | You have a double edge on the Grab and Knockback maneuvers.                                                                                                                                       |
 | 12 (10th level) | Whenever you force move a target, the forced movement distance gains a bonus equal to your Intuition score. Additionally, whenever you use a heroic ability, you gain 10 temporary Stamina.       |
 
@@ -10633,7 +10633,7 @@ Choose one heroic ability from the following options, each of which costs 3 disc
 > |-------------------|------------------------------:|
 > | **📏 2 burst**    | **🎯 Each enemy in the area** |
 >
-> **Effect:** Each target takes psychic damage equal to twice your Intuition score. Until the start of your next turn, the size of your Null Field ability increases by 1. At the end of your current turn, each enemy in the area of your Null Field ability takes psychic damage equal to your Intuition score.
+> **Effect:** Each target takes psychic damage equal to twice your Intuition score. Until the start of your next turn, the size of your [Null](scc:mcdm.heroes.v1:class:null) Field ability increases by 1. At the end of your current turn, each enemy in the area of your [Null](scc:mcdm.heroes.v1:class:null) Field ability takes psychic damage equal to your Intuition score.
 
 > ######## Relentless Nemesis (3 Discipline)
 >
@@ -10825,7 +10825,7 @@ Choose one of the following heroic abilities.
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** Until the start of your next turn, the size of your Null Field ability increases by 1, and you and any ally benefit from concealment while in the area. At the end of this turn, each enemy in the area takes cold damage equal to your Intuition score.
+> **Effect:** Until the start of your next turn, the size of your [Null](scc:mcdm.heroes.v1:class:null) Field ability increases by 1, and you and any ally benefit from concealment while in the area. At the end of this turn, each enemy in the area takes cold damage equal to your Intuition score.
 
 ##### 2nd-Level Metakinetic Ability
 
@@ -10871,7 +10871,7 @@ You can long [jump](scc:mcdm.heroes.v1:movement:jump) and high [jump](scc:mcdm.h
 
 #### Reorder
 
-At the start of each of your turns, you can use a free triggered action to end one effect on you that is ended by a saving throw or that ends at the end of your turn. Alternatively, you can grant this benefit to one creature in the area of your Null Field ability.
+At the start of each of your turns, you can use a free triggered action to end one effect on you that is ended by a saving throw or that ends at the end of your turn. Alternatively, you can grant this benefit to one creature in the area of your [Null](scc:mcdm.heroes.v1:class:null) Field ability.
 
 #### 7-Discipline Ability
 
@@ -10879,13 +10879,13 @@ Choose one heroic ability from the following options, each of which costs 7 disc
 
 > ######## Absorption Field (7 Discipline)
 >
-> *Your null field absorbs kinetic energy.*
+> *Your [null](scc:mcdm.heroes.v1:class:null) field absorbs kinetic energy.*
 >
 > | **Psionic** | **Maneuver** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** Until the end of the encounter, the size of your Null Field ability increases by 1. While the area of that ability is enlarged this way, each enemy in the area takes a bane on ability rolls.
+> **Effect:** Until the end of the encounter, the size of your [Null](scc:mcdm.heroes.v1:class:null) Field ability increases by 1. While the area of that ability is enlarged this way, each enemy in the area takes a bane on ability rolls.
 
 > ######## Molecular Rearrangement Field (7 Discipline)
 >
@@ -10895,7 +10895,7 @@ Choose one heroic ability from the following options, each of which costs 7 disc
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** Until the end of the encounter, the size of your Null Field ability increases by 1. While the area of that ability is enlarged this way, each enemy who has I < AVERAGE and enters the area for the first time in a combat round or starts their turn there is [bleeding](scc:mcdm.heroes.v1:condition:bleeding) (save ends). Each ally who enters the area for the first time in a combat round or starts their turn there gains temporary Stamina equal to your Intuition score.
+> **Effect:** Until the end of the encounter, the size of your [Null](scc:mcdm.heroes.v1:class:null) Field ability increases by 1. While the area of that ability is enlarged this way, each enemy who has I < AVERAGE and enters the area for the first time in a combat round or starts their turn there is [bleeding](scc:mcdm.heroes.v1:condition:bleeding) (save ends). Each ally who enters the area for the first time in a combat round or starts their turn there gains temporary Stamina equal to your Intuition score.
 
 > ######## Stabilizing Field (7 Discipline)
 >
@@ -10905,17 +10905,17 @@ Choose one heroic ability from the following options, each of which costs 7 disc
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** Until the end of the encounter, the size of your Null Field ability increases by 1. While the area of that ability is enlarged this way, you ignore difficult terrain and reduce the potency of enemy effects targeting you by 1 for you. You can also use a free triggered action at the start of each of your turns to end one effect on you that is ended by a saving throw or that ends at the end of your turn. Each ally in the area also gains these benefits.
+> **Effect:** Until the end of the encounter, the size of your [Null](scc:mcdm.heroes.v1:class:null) Field ability increases by 1. While the area of that ability is enlarged this way, you ignore difficult terrain and reduce the potency of enemy effects targeting you by 1 for you. You can also use a free triggered action at the start of each of your turns to end one effect on you that is ended by a saving throw or that ends at the end of your turn. Each ally in the area also gains these benefits.
 
 > ######## Synapse Field (7 Discipline)
 >
-> *Attacks made by allies in your null field disrupt your enemies' thoughts, causing psychic pain.*
+> *Attacks made by allies in your [null](scc:mcdm.heroes.v1:class:null) field disrupt your enemies' thoughts, causing psychic pain.*
 >
 > | **Psionic** | **Maneuver** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** Until the end of the encounter, the size of your Null Field ability increases by 1. While the area of that ability is enlarged this way, whenever an enemy in the area takes rolled damage, they take extra psychic damage equal to twice your Intuition score.
+> **Effect:** Until the end of the encounter, the size of your [Null](scc:mcdm.heroes.v1:class:null) Field ability increases by 1. While the area of that ability is enlarged this way, whenever an enemy in the area takes rolled damage, they take extra psychic damage equal to twice your Intuition score.
 
 ### 4th-Level Features
 
@@ -10931,7 +10931,7 @@ Your Discipline Mastery feature provides additional benefits when you have 8 or 
 
 #### Enhanced Null Field
 
-While using your Null Field ability, you disrupt magic and psionic power suffusing the area around you. During combat, any temporary supernatural terrain effects of your level or lower are removed when your aura partially or fully overlaps with their location. Permanent supernatural terrain effects of your level or lower are temporarily negated while your aura overlaps with their location, but return when the aura no longer overlaps with them.
+While using your [Null](scc:mcdm.heroes.v1:class:null) Field ability, you disrupt magic and psionic power suffusing the area around you. During combat, any temporary supernatural terrain effects of your level or lower are removed when your aura partially or fully overlaps with their location. Permanent supernatural terrain effects of your level or lower are temporarily negated while your aura overlaps with their location, but return when the aura no longer overlaps with them.
 
 #### Perk
 
@@ -10939,7 +10939,7 @@ You gain one perk of your choice.
 
 #### Regenerative Field
 
-The first time each combat round that an enemy in the area of your Null Field ability uses a main action, you gain 2 discipline instead of 1.
+The first time each combat round that an enemy in the area of your [Null](scc:mcdm.heroes.v1:class:null) Field ability uses a main action, you gain 2 discipline instead of 1.
 
 #### Skill
 
@@ -10967,7 +10967,7 @@ You steel yourself for imminent danger by tapping into your body's cold energy. 
 
 #### Inertial Fulcrum
 
-Whenever you use an ability to reduce damage dealt to you or to reduce the distance of forced movement imposed upon you, you can deal damage to one enemy in the area of your Null Field ability equal to your Intuition score.
+Whenever you use an ability to reduce damage dealt to you or to reduce the distance of forced movement imposed upon you, you can deal damage to one enemy in the area of your [Null](scc:mcdm.heroes.v1:class:null) Field ability equal to your Intuition score.
 
 #### Instant Action
 
@@ -11019,7 +11019,7 @@ Choose one heroic ability from the following options, each of which costs 9 disc
 > |-------------|------------:|
 > | **📏 Self** | **🎯 Self** |
 >
-> **Effect:** You [jump](scc:mcdm.heroes.v1:movement:jump) up to your speed without provoking opportunity attacks. Until the end of your next turn, a static afterimage of you remains in the space you left, and any enemy adjacent to your afterimage takes a bane on ability rolls. You can use your abilities from your own space or from the space of your afterimage as if you were still there. Additionally, if your Null Field ability is active, your afterimage also projects the aura from that ability, which you control as if you were in the afterimage's space.
+> **Effect:** You [jump](scc:mcdm.heroes.v1:movement:jump) up to your speed without provoking opportunity attacks. Until the end of your next turn, a static afterimage of you remains in the space you left, and any enemy adjacent to your afterimage takes a bane on ability rolls. You can use your abilities from your own space or from the space of your afterimage as if you were still there. Additionally, if your [Null](scc:mcdm.heroes.v1:class:null) Field ability is active, your afterimage also projects the aura from that ability, which you control as if you were in the afterimage's space.
 
 > ######## Synaptic Reset (9 Discipline)
 >
@@ -11215,15 +11215,15 @@ Your [null](scc:mcdm.heroes.v1:class:null) tradition grants you a feature, as sh
 
 ##### Inertial Dampener
 
-You and each creature or object of your choice in the area of your Null Field ability gain a bonus to stability equal to your Intuition score. A creature who attempts to force move a target with this bonus takes psychic damage equal to your Intuition score.
+You and each creature or object of your choice in the area of your [Null](scc:mcdm.heroes.v1:class:null) Field ability gain a bonus to stability equal to your Intuition score. A creature who attempts to force move a target with this bonus takes psychic damage equal to your Intuition score.
 
 ##### Shared Momentum
 
-When you take the Disengage move action, one ally in the area of your Null Field ability can also take the Disengage move action as a free triggered action, using your distance for that move action.
+When you take the Disengage move action, one ally in the area of your [Null](scc:mcdm.heroes.v1:class:null) Field ability can also take the Disengage move action as a free triggered action, using your distance for that move action.
 
 ##### Synaptic Triage
 
-As a free maneuver, you can spend 1d6 Stamina to remove one effect on you. Each creature of your choice in the area of your Null Field ability also gains this benefit.
+As a free maneuver, you can spend 1d6 Stamina to remove one effect on you. Each creature of your choice in the area of your [Null](scc:mcdm.heroes.v1:class:null) Field ability also gains this benefit.
 
 #### 11-Discipline Ability
 
@@ -11231,7 +11231,7 @@ Choose one heroic ability from the following options, each of which costs 11 dis
 
 > ######## Arcane Purge (11 Discipline)
 >
-> *You focus your null field into a pressure point strike that prevents your foe from channeling sorcery.*
+> *You focus your [null](scc:mcdm.heroes.v1:class:null) field into a pressure point strike that prevents your foe from channeling sorcery.*
 >
 > | **Melee, Psionic, Strike, Weapon** |     **Main action** |
 > |------------------------------------|--------------------:|
@@ -11283,7 +11283,7 @@ Choose one heroic ability from the following options, each of which costs 11 dis
 > |------------------------|-----------------------------:|
 > | **📏 Self; see below** |  **🎯 Self or one creature** |
 >
-> **Trigger:** The target takes damage from another creature's ability while in the area of your Null Field ability.
+> **Trigger:** The target takes damage from another creature's ability while in the area of your [Null](scc:mcdm.heroes.v1:class:null) Field ability.
 >
 > **Effect:** The target takes half the damage, and if the triggering creature has I < AVERAGE, they are [dazed](scc:mcdm.heroes.v1:condition:dazed) (save ends). While the triggering creature is [dazed](scc:mcdm.heroes.v1:condition:dazed) this way, they take psychic damage equal to your Intuition score whenever they use a main action.
 
@@ -11419,15 +11419,15 @@ When you gain discipline at the start of each of your turns during combat, you g
 
 #### Manifold Resonance
 
-Your body becomes perfected matter, beyond the whims and chaos of the timescape and the restrictions of the manifolds. Each time you finish a respite, you can shift yourself and any creatures in the area of your Null Field ability to any location in the timescape known to you, known to any other creature in the area, or where any supernatural treasure in the area has been before.
+Your body becomes perfected matter, beyond the whims and chaos of the timescape and the restrictions of the manifolds. Each time you finish a respite, you can shift yourself and any creatures in the area of your [Null](scc:mcdm.heroes.v1:class:null) Field ability to any location in the timescape known to you, known to any other creature in the area, or where any supernatural treasure in the area has been before.
 
-Whenever you use an ability, you gain 1 discipline that can be used only to apply a benefit from your Psi Boost feature to that ability. Additionally, you and allies in the area of your Null Field ability ignore banes and double banes on your power rolls.
+Whenever you use an ability, you gain 1 discipline that can be used only to apply a benefit from your Psi Boost feature to that ability. Additionally, you and allies in the area of your [Null](scc:mcdm.heroes.v1:class:null) Field ability ignore banes and double banes on your power rolls.
 
 #### Order
 
 You have an epic resource called order. Each time you finish a respite, you gain order equal to the XP you gain. You can spend order on your abilities as if it were discipline.
 
-At the start of a combat encounter, you can spend 1 order to increase the size of your Null Field by 1 until the end of the encounter.
+At the start of a combat encounter, you can spend 1 order to increase the size of your [Null](scc:mcdm.heroes.v1:class:null) Field by 1 until the end of the encounter.
 
 Order remains until you spend it.
 
@@ -11441,7 +11441,7 @@ You gain one skill of your choice.
 
 ## Shadow
 
-Subtlety is your art, the tip of the blade your brush. You studied at a secret college, specializing in alchemy, illusion, or shadow-magics. Your training and knowledge place you among the elite ranks of assassins, spies, and commandos. But more potent than any weapon or sorcery is your insight into your enemies' weaknesses.
+Subtlety is your art, the tip of the blade your brush. You studied at a secret college, specializing in alchemy, illusion, or [shadow](scc:mcdm.heroes.v1:class:shadow)-magics. Your training and knowledge place you among the elite ranks of assassins, spies, and commandos. But more potent than any weapon or sorcery is your insight into your enemies' weaknesses.
 
 **As a [shadow](scc:mcdm.heroes.v1:class:shadow), you possess abilities that deal significant damage, enable you to move swiftly across the battlefield and evade hazards, and allow you to fade from notice even in the midst of the most intense combat encounters. You also possess more skills than any other hero.**
 
@@ -11474,7 +11474,7 @@ Subtlety is your art, the tip of the blade your brush. You studied at a secret c
 
 | Level | Features                                                                                                            | Abilities                 | College Abilities |
 |-------|---------------------------------------------------------------------------------------------------------------------|---------------------------|-------------------|
-| 1st   | Shadow College, Insight, College Features, College Triggered Action, Hesitation Is Weakness, Kit, Shadow Abilities  | Signature, 3, 5           | -                 |
+| 1st   | [Shadow](scc:mcdm.heroes.v1:class:shadow) College, Insight, College Features, College Triggered Action, Hesitation Is Weakness, Kit, [Shadow](scc:mcdm.heroes.v1:class:shadow) Abilities  | Signature, 3, 5           | -                 |
 | 2nd   | College Feature, Perk, College Ability                                                                              | Signature, 3, 5           | 5                 |
 | 3rd   | Careful Observation, 7-Insight Ability                                                                              | Signature, 3, 5, 7        | 5                 |
 | 4th   | Characteristic Increase, Keep It Down, Night Watch, Perk, Skill, Surge of Insight                                   | Signature, 3, 5, 7        | 5                 |
@@ -12143,7 +12143,7 @@ Additionally, you can now bring an adjacent willing creature along with you when
 
 Whenever you take damage, each enemy adjacent to you takes fire, acid, or poison damage (your choice) equal to your Agility score.
 
-Additionally, your Defensive Roll ability now allows you to shift up to 5 squares, including shifting vertically. If you don't end this shift on solid ground and are not flying, you fall.
+Additionally, your Defensive Roll ability now allows you to shift up to 5 squares, including shifting vertically. If you don't end this shift on solid ground and are not [flying](scc:mcdm.heroes.v1:movement:fly), you fall.
 
 #### 9-Insight Ability
 
@@ -12151,7 +12151,7 @@ Choose one heroic ability from the following options, each of which costs 9 insi
 
 > ######## Blackout (9 Insight)
 >
-> *You cause a plume of shadow to erupt from your eyes and create a cloud of darkness.*
+> *You cause a plume of [shadow](scc:mcdm.heroes.v1:class:shadow) to erupt from your eyes and create a cloud of darkness.*
 >
 > | **Area, Magic** |   **Maneuver** |
 > |-----------------|---------------:|
@@ -12217,7 +12217,7 @@ You gain one perk of your choice.
 
 #### Umbral Form
 
-As a maneuver, you lose control of yourself, becoming a shadow creature dripping with ash. This transformation lasts until the end of the encounter, until you are dying, or after 1 uninterrupted hour of quiet focus outside of combat. You gain the following effects while in this form:
+As a maneuver, you lose control of yourself, becoming a [shadow](scc:mcdm.heroes.v1:class:shadow) creature dripping with ash. This transformation lasts until the end of the encounter, until you are dying, or after 1 uninterrupted hour of quiet focus outside of combat. You gain the following effects while in this form:
 
 - You can automatically [climb](scc:mcdm.heroes.v1:movement:climb-or-swim) at full speed while moving.
 - Enemies' spaces don't count as difficult terrain for you. An enemy takes corruption damage equal to your Agility score the first time you pass through their space on a turn.
@@ -12417,7 +12417,7 @@ Choose one heroic ability from the following options, each of which costs 11 ins
 
 > ######## Shadowgrasp (11 Insight)
 >
-> *The shadows around you give way, allowing the shadow creature within you to grasp at your foes.*
+> *The shadows around you give way, allowing the [shadow](scc:mcdm.heroes.v1:class:shadow) creature within you to grasp at your foes.*
 >
 > | **Area, Magic** |               **Main action** |
 > |-----------------|------------------------------:|
@@ -12595,7 +12595,7 @@ You can target three creatures simultaneously with your Careful Observation abil
 
 #### Improved Umbral Form
 
-You gain full control over the shadow creature you become with your Umbral Form feature, and you can end the transformation at will (no action required). Additionally, you are always wreathed in darkness that grants you concealment while in this form, and creatures no longer gain an edge on strikes against you.
+You gain full control over the [shadow](scc:mcdm.heroes.v1:class:shadow) creature you become with your Umbral Form feature, and you can end the transformation at will (no action required). Additionally, you are always wreathed in darkness that grants you concealment while in this form, and creatures no longer gain an edge on strikes against you.
 
 While you are in your umbral form, you can spend 1 uninterrupted minute concentrating on a location where you've been before. At the end of that minute, you and each willing creature of your choice within 10 squares of you can [teleport](scc:mcdm.heroes.v1:movement:teleport) to unoccupied spaces of your choice within that location. Each creature who [teleports](scc:mcdm.heroes.v1:movement:teleport) this way is invisible for 1 hour or until they use an ability.
 
@@ -13534,7 +13534,7 @@ Choose one of the following abilities.
 
 > ######## Squad! Hit and Run! (11 Focus)
 >
-> *I had to pry this secret from the shadow colleges.*
+> *I had to pry this secret from the [shadow](scc:mcdm.heroes.v1:class:shadow) colleges.*
 >
 > | **Ranged**       |            **Main action** |
 > |------------------|---------------------------:|
@@ -13692,7 +13692,7 @@ Arare few people are born with the potential to harness psionic power, but only 
 
 | Level | Features                                                                                                                                     | Abilities                     | Tradition Abilities |
 |-------|----------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|---------------------|
-| 1st   | Talent Tradition, Clarity and Strain, Mind Spike, Psionic Augmentation, Talent Ward, Telepathic Speech, Tradition Features, Talent Abilities | Two signature, 3, 5           | -                   |
+| 1st   | [Talent](scc:mcdm.heroes.v1:class:talent) Tradition, Clarity and Strain, Mind Spike, Psionic Augmentation, [Talent](scc:mcdm.heroes.v1:class:talent) Ward, Telepathic Speech, Tradition Features, [Talent](scc:mcdm.heroes.v1:class:talent) Abilities | Two signature, 3, 5           | -                   |
 | 2nd   | Perk, Tradition Feature, Tradition Ability                                                                                                   | Two signature, 3, 5           | 5                   |
 | 3rd   | Scan, 7-Clarity Ability                                                                                                                      | Two signature, 3, 5, 7        | 5                   |
 | 4th   | Characteristic Increase, Mind Projection, Mind Recovery, Perk, Skill Suspensor Field                                                         | Two signature, 3, 5, 7        | 5                   |
@@ -13768,7 +13768,7 @@ You have the following ability, which can be used as a ranged free strike.
 
 #### Psionic Augmentation
 
-Through meditation, you create pathways in your mind that enhance your statistics. Choose one of the following augmentations. You can change your augmentation and ward (see Talent Ward below) by undergoing a psionic meditation as a respite activity. (*Quick Build:*  Force Augmentation.)
+Through meditation, you create pathways in your mind that enhance your statistics. Choose one of the following augmentations. You can change your augmentation and ward (see [Talent](scc:mcdm.heroes.v1:class:talent) Ward below) by undergoing a psionic meditation as a respite activity. (*Quick Build:*  Force Augmentation.)
 
 ##### Battle Augmentation
 
@@ -14369,7 +14369,7 @@ Choose one heroic ability from the following options, each of which costs 7 clar
 >
 > **Effect:** A target who is flung through time is removed from the encounter map until the end of their next turn, reappearing in their original space or the nearest unoccupied space.
 >
-> **Strained:** You take 2d6 damage and permanently grow visibly older (the equivalent of 10 years for a human). If you obtain a tier 3 outcome on the power roll, you gain 2 clarity.
+> **Strained:** You take 2d6 damage and permanently grow visibly older (the equivalent of 10 years for a [human](scc:mcdm.heroes.v1:ancestry:human)). If you obtain a tier 3 outcome on the power roll, you gain 2 clarity.
 
 > ######## Force Orbs (7 Clarity)
 >
@@ -14451,9 +14451,9 @@ You gain one skill of your choice. See Skills in Chapter 9: Tests.
 
 #### Suspensor Field
 
-You can [fly](scc:mcdm.heroes.v1:movement:fly). While flying, your stability is reduced to 0 and can't be increased. If you can already [fly](scc:mcdm.heroes.v1:movement:fly), you have a +2 bonus to speed while flying instead.
+You can [fly](scc:mcdm.heroes.v1:movement:fly). While [flying](scc:mcdm.heroes.v1:movement:fly), your stability is reduced to 0 and can't be increased. If you can already [fly](scc:mcdm.heroes.v1:movement:fly), you have a +2 bonus to speed while [flying](scc:mcdm.heroes.v1:movement:fly) instead.
 
-If you are strained while flying and are force moved, the forced movement distance gains a +2 bonus.
+If you are strained while [flying](scc:mcdm.heroes.v1:movement:fly) and are force moved, the forced movement distance gains a +2 bonus.
 
 ### 5th-Level Features
 
@@ -14787,7 +14787,7 @@ You have the following ability.
 > |-------------------|-----------------------------:|
 > | **📏 3 burst**    | **🎯 Each ally in the area** |
 >
-> **Effect:** Each target can [fly](scc:mcdm.heroes.v1:movement:fly) until the start of your next turn, and can immediately shift up to their speed. You can also shift up to your speed. While flying, a target's stability is reduced to 0 and can't be increased.
+> **Effect:** Each target can [fly](scc:mcdm.heroes.v1:movement:fly) until the start of your next turn, and can immediately shift up to their speed. You can also shift up to your speed. While [flying](scc:mcdm.heroes.v1:movement:fly), a target's stability is reduced to 0 and can't be increased.
 >
 > **Spend 5 Clarity:** The effects last for 1 hour instead.
 
@@ -14875,7 +14875,7 @@ Choose one heroic ability from the following options, each of which costs 11 cla
 > - The target gains 1 of their Heroic Resource, and can end any effects on them that are ended by a saving throw or that end at the end of their turn.
 > - The target gains 2 surges, and gains a +3 bonus to speed until the end of the encounter.
 >
-> **Strained:** You and the target both permanently grow visibly younger (the equivalent of 20 human years, to the minimum of an 18-year-old). Additionally, you are [weakened](scc:mcdm.heroes.v1:condition:weakened) and [slowed](scc:mcdm.heroes.v1:condition:slowed) (save ends).
+> **Strained:** You and the target both permanently grow visibly younger (the equivalent of 20 [human](scc:mcdm.heroes.v1:ancestry:human) years, to the minimum of an 18-year-old). Additionally, you are [weakened](scc:mcdm.heroes.v1:condition:weakened) and [slowed](scc:mcdm.heroes.v1:condition:slowed) (save ends).
 
 > ######## Steel (11 Clarity)
 >
@@ -16362,7 +16362,7 @@ You gain one skill of your choice.
 
 # Kits
 
-The knight in [shining armor](scc:mcdm.heroes.v1:kit:shining-armor). The [warrior priest](scc:mcdm.heroes.v1:kit:warrior-priest). The sniper. Censors, furies, shadows, tacticians, and troubadours can tap into these and many more archetypal concepts using kits. A kit is a combination of weapons, armor, and fighting techniques that lets you personalize your martial hero for battle.
+The knight in [shining armor](scc:mcdm.heroes.v1:kit:shining-armor). The [warrior priest](scc:mcdm.heroes.v1:kit:warrior-priest). The [sniper](scc:mcdm.heroes.v1:kit:sniper). Censors, furies, shadows, tacticians, and troubadours can tap into these and many more archetypal concepts using kits. A kit is a combination of weapons, armor, and fighting techniques that lets you personalize your martial hero for battle.
 
 ### Changing Your Kit
 
@@ -17539,19 +17539,19 @@ As a maneuver, choose a creature within 10 squares. If that creature is your lev
 
 #### Familiar
 
-A supernatural spirit who has taken the form of a specific small animal or animated object has chosen to be your familiar—or to adopt you as their familiar.
+A supernatural spirit who has taken the form of a specific small animal or animated object has chosen to be your [familiar](scc:mcdm.heroes.v1:perk.supernatural:familiar)—or to adopt you as their [familiar](scc:mcdm.heroes.v1:perk.supernatural:familiar).
 
-The spirit uses the familiar stat block.
+The spirit uses the [familiar](scc:mcdm.heroes.v1:perk.supernatural:familiar) stat block.
 
-The familiar can hold small objects in their mouth or claws, but can't perform activities that would typically require hands (opening a door, unrolling a scroll, and so forth). They can't harm other creatures or objects. They can flank in combat, but only with you.
+The [familiar](scc:mcdm.heroes.v1:perk.supernatural:familiar) can hold small objects in their mouth or claws, but can't perform activities that would typically require hands (opening a door, unrolling a scroll, and so forth). They can't harm other creatures or objects. They can flank in combat, but only with you.
 
-If your familiar is destroyed, you can restore them as a respite activity, or by spending a Recovery as a main action to bring them back into existence in an unoccupied space adjacent to you.
+If your [familiar](scc:mcdm.heroes.v1:perk.supernatural:familiar) is destroyed, you can restore them as a respite activity, or by spending a Recovery as a main action to bring them back into existence in an unoccupied space adjacent to you.
 
 ###### Familiar Statblock
 
 **Familiar**
 
-|      Familiar       |         -         |           Level -            |           -           |         EV -         |
+|      [Familiar](scc:mcdm.heroes.v1:perk.supernatural:familiar)       |         -         |           Level -            |           -           |         EV -         |
 |:-------------------:|:-----------------:|:----------------------------:|:---------------------:|:--------------------:|
 |   **1T**<br>Size    |  **5**<br>Speed   | **2x your level**<br>Stamina |  **0**<br>Stability   | **-**<br>Free Strike |
 | **-**<br>Immunities | **-**<br>Movement |                              | **-**<br>With Captain | **-**<br>Weaknesses  |
@@ -17559,7 +17559,7 @@ If your familiar is destroyed, you can restore them as a respite activity, or by
 
 > **Telepathic**
 > 
-> While you and your familiar are within 10 squares of each other, you can communicate telepathically and share each other's senses. While sharing senses, each of you also benefits from your own senses at the same time.
+> While you and your [familiar](scc:mcdm.heroes.v1:perk.supernatural:familiar) are within 10 squares of each other, you can communicate telepathically and share each other's senses. While sharing senses, each of you also benefits from your own senses at the same time.
 
 #### Invisible Force
 
@@ -18181,11 +18181,11 @@ You made a deal (perhaps unknowingly) with an archdevil that has tied you to tha
 
 **Benefit:** Whenever you are present for a battle in which both sides have creatures who aren't surprised, your side determines who goes first if the d10 roll is a 4 or higher (see [Combat Round](#page-279-1) in [Chapter 10: Combat](#page-288-0)).
 
-**Drawback:** The archdevil occasionally asks you to defeat enemies on their behalf. If you refuse, your fiendish patron sends devils after you and those you care about.
+**Drawback:** The archdevil occasionally asks you to defeat enemies on their behalf. If you refuse, your fiendish patron sends [devils](scc:mcdm.heroes.v1:ancestry:devil) after you and those you care about.
 
 #### Infernal Contract... But, Like, Bad
 
-You made a deal with a devil. Not a very good deal, because it wasn't a very good devil. It's too late for regrets, though, because your soul is forfeit unless you find a loophole or can convince the devil to void the deal.
+You made a deal with a [devil](scc:mcdm.heroes.v1:ancestry:devil). Not a very good deal, because it wasn't a very good [devil](scc:mcdm.heroes.v1:ancestry:devil). It's too late for regrets, though, because your soul is forfeit unless you find a loophole or can convince the [devil](scc:mcdm.heroes.v1:ancestry:devil) to void the deal.
 
 **Benefit:** Choose one of the following benefits:
 
@@ -18757,7 +18757,7 @@ Though the Director can decide to call for tests in any circumstances, a number 
 
 ##### Might Tests
 
-You make a Might test whenever a risky task calls for the use of physical strength. Might tests are most often used for breaking down doors and other structures, hurling heavy objects, pulling your body up a sheer wall, swimming against a mighty current, and other feats of physical power.
+You make a Might test whenever a risky task calls for the use of physical strength. Might tests are most often used for breaking down doors and other structures, hurling heavy objects, pulling your body up a sheer wall, [swimming](scc:mcdm.heroes.v1:movement:climb-or-swim) against a mighty current, and other feats of physical power.
 
 ##### Agility Tests
 
@@ -18865,7 +18865,7 @@ When a hero rolls a failure without a consequence, the Director can offer to let
 
 ##### Success With a Consequence
 
-If you succeed on a test and incur a consequence, you do what you set out to do, but with an added cost. A hero might succeed in climbing up a wall, but the surface of the wall crumbles and becomes unstable as they do, making the [climb](scc:mcdm.heroes.v1:movement:climb-or-swim) more difficult for the ally ascending after them. When trying to sneak by a cultist, a hero successfully does so, but leaves footprints or other evidence of trespassing behind. If a hero bribes a guard to be allowed to sneak into a prison, the guard lets them in—but then demands a gemstone the hero needs for an important crafting project before they let the hero out.
+If you succeed on a test and incur a consequence, you do what you set out to do, but with an added cost. A hero might succeed in [climbing](scc:mcdm.heroes.v1:movement:climb-or-swim) up a wall, but the surface of the wall crumbles and becomes unstable as they do, making the [climb](scc:mcdm.heroes.v1:movement:climb-or-swim) more difficult for the ally ascending after them. When trying to sneak by a cultist, a hero successfully does so, but leaves footprints or other evidence of trespassing behind. If a hero bribes a guard to be allowed to sneak into a prison, the guard lets them in—but then demands a gemstone the hero needs for an important crafting project before they let the hero out.
 
 Just like failure with a consequence, the consequences accompanying success don't need to be immediately apparent. In lieu of other consequences, the Director has the option to gain 2 additional Malice at the start of the next combat encounter.
 
@@ -18879,7 +18879,7 @@ If you succeed on a test without consequence or reward, you simply achieve whate
 
 If you succeed on a test with a reward, you accomplish whatever you set out to do. But you also gain a little something extra, in the form of momentum or luck that makes the immediate future easier for you or your friends.
 
-The Director determines the reward for a success, which is most often related to the task at hand. For instance, if a hero succeeds with a reward while climbing a wall, they might find a ladder at the top they can lower so that any allies climbing up after them can do so without needing to make a test. A hero trying to sneak by cultists who succeeds with a reward might be able to dose the cultists' nearby water barrel with sleeping poison as they pass by unseen. Succeeding with a reward while bribing a prison guard could mean that the guard unlocks a door for the hero in addition to forgetting they were ever there.
+The Director determines the reward for a success, which is most often related to the task at hand. For instance, if a hero succeeds with a reward while [climbing](scc:mcdm.heroes.v1:movement:climb-or-swim) a wall, they might find a ladder at the top they can lower so that any allies [climbing](scc:mcdm.heroes.v1:movement:climb-or-swim) up after them can do so without needing to make a test. A hero trying to sneak by cultists who succeeds with a reward might be able to dose the cultists' nearby water barrel with sleeping poison as they pass by unseen. Succeeding with a reward while bribing a prison guard could mean that the guard unlocks a door for the hero in addition to forgetting they were ever there.
 
 As with consequences, the reward that comes with a success doesn't need to be immediate or apparent. For example, a hero succeeds with a reward on an easy test made to cheat at a high-stakes game of cards with a noble. Not only does the hero win the game, but the Director decides that their reward comes from a servant watching the game who's impressed with the character's performance. After the game, the servant approaches the hero, offering magic from the noble's private stash in congratulations and admiration.
 
@@ -18987,15 +18987,15 @@ Sometimes you won't have a skill that applies to a test. That's okay! If your ch
 
 Although certain skills are often paired with one characteristic more than others, a skill can apply to a test made using any characteristic that makes sense. The Director has the final say on which characteristic is used to complete a task, and can call for a different characteristic based on the circumstances.
 
-For example, intimidating someone with a purely verbal threat is a Presence test. But if a player describes their character tearing a log in half with their bare hands to intimidate a foe, the Director is likely to call for a Might test instead. The Intimidate skill can apply to both tests. In the same way, scaling the side of a building is covered by a Might test, but if a hero does a series of leaps from one balcony to another to reach a roof, the Director could call for an Agility test instead. The Climb skill applies to both of these tests.
+For example, intimidating someone with a purely verbal threat is a Presence test. But if a player describes their character tearing a log in half with their bare hands to intimidate a foe, the Director is likely to call for a Might test instead. The Intimidate skill can apply to both tests. In the same way, scaling the side of a building is covered by a Might test, but if a hero does a series of leaps from one balcony to another to reach a roof, the Director could call for an Agility test instead. The [Climb](scc:mcdm.heroes.v1:movement:climb-or-swim) skill applies to both of these tests.
 
 #### Many Specific Skills
 
-*Draw Steel* includes a big list of skills, and each is fairly specific. For example, instead of one Athletics skill that covers climbing, jumping, swimming, and lifting heavy objects, your character might use separate Climb, Jump, Lift, and Swim skills. Instead of a Thievery skill that covers picking locks, picking pockets, and disabling traps, the game has three skills: Pick Lock, Pick Pocket, and Sabotage.
+*Draw Steel* includes a big list of skills, and each is fairly specific. For example, instead of one Athletics skill that covers [climbing](scc:mcdm.heroes.v1:movement:climb-or-swim), [jumping](scc:mcdm.heroes.v1:movement:jump), [swimming](scc:mcdm.heroes.v1:movement:climb-or-swim), and lifting heavy objects, your character might use separate [Climb](scc:mcdm.heroes.v1:movement:climb-or-swim), [Jump](scc:mcdm.heroes.v1:movement:jump), Lift, and [Swim](scc:mcdm.heroes.v1:movement:climb-or-swim) skills. Instead of a Thievery skill that covers picking locks, picking pockets, and disabling traps, the game has three skills: Pick Lock, Pick Pocket, and Sabotage.
 
 Having a wide range of specific skills means you'll frequently make tests that don't use one of your character's skills, simply applying a characteristic. By not having a few broader skills, it means that having a character who covers the spread of every skill is actually impossible. Luckily, the math of the game doesn't require you to have a skill to have a decent chance of success on a test. That means heroes can attempt tasks without the help of a skill just because someone needs to do it, and that's pretty darn heroic!
 
-Since you don't need to worry about your character covering a wide spread of skills, you're free to choose the skills you think fit your hero best and are the most fun to work with. Maybe you're thinking about an [elementalist](scc:mcdm.heroes.v1:class:elementalist) who has a gymnastic background in jumping and tumbling, and who also studied religion and blacksmithing. Having that kind of specific backstory is a big part of cinematic storytelling.
+Since you don't need to worry about your character covering a wide spread of skills, you're free to choose the skills you think fit your hero best and are the most fun to work with. Maybe you're thinking about an [elementalist](scc:mcdm.heroes.v1:class:elementalist) who has a gymnastic background in [jumping](scc:mcdm.heroes.v1:movement:jump) and tumbling, and who also studied religion and blacksmithing. Having that kind of specific backstory is a big part of cinematic storytelling.
 
 The rules for skills allow for them to be flexibly applied to any test that is appropriate for the skill. This encourages clever thinking. A player can ask the Director, "I want to impress the duke with a story about how I ascended the sheer Cliffs of Azgahnan. Can I use my Climb skill for a +2 bonus to my Presence test?" Getting creative like that is a lot of fun. It paints a visual picture, and it's good tactical thinking! However, if the skills in a game are too broad in the kinds of activities they represent, players inevitably end up applying the same skill over and over again to as many tests as possible. This isn't fun for anyone, and doesn't make a very compelling story.
 
@@ -19005,7 +19005,7 @@ The rules for skills allow for them to be flexibly applied to any test that is a
 
 > **Are All Skills Equal?**
 >
-> When choosing skills for your character, deciding which skills will be most useful depends a lot on the campaign. For instance, the Swim skill might be used constantly during a campaign that takes place on the ocean and has heroes exploring underwater ruins, but it won't come up as much in a campaign that takes place entirely in a vast desert. The Psionics skill might come up a lot in a campaign where voiceless talkers are the main foes, and Magic might be more useful in a game where the heroes take on a circle of evil wizards. If you're worried about whether a skill you'd like to take will be useful, discuss your skill list with the Director after you create a hero. And if a skill doesn't work out, you can always trade it for another skill as you wish (see Changing Character Options in Chapter 2: Making a Hero).
+> When choosing skills for your character, deciding which skills will be most useful depends a lot on the campaign. For instance, the [Swim](scc:mcdm.heroes.v1:movement:climb-or-swim) skill might be used constantly during a campaign that takes place on the ocean and has heroes exploring underwater ruins, but it won't come up as much in a campaign that takes place entirely in a vast desert. The Psionics skill might come up a lot in a campaign where voiceless talkers are the main foes, and Magic might be more useful in a game where the heroes take on a circle of evil wizards. If you're worried about whether a skill you'd like to take will be useful, discuss your skill list with the Director after you create a hero. And if a skill doesn't work out, you can always trade it for another skill as you wish (see Changing Character Options in Chapter 2: Making a Hero).
 
 #### Skill Groups
 
@@ -19046,16 +19046,16 @@ Consequences for tests made with [exploration skills](scc:mcdm.heroes.v1:skill:e
 
 | Skill      | Use                                                             |
 |------------|-----------------------------------------------------------------|
-| Climb      | Move up vertical surfaces                                       |
+| [Climb](scc:mcdm.heroes.v1:movement:climb-or-swim)      | Move up vertical surfaces                                       |
 | Drive      | Control vehicles                                                |
 | Endurance  | Remain engaged in strenuous activity over a long period of time |
 | Gymnastics | Move across unsteady or narrow surfaces; tumble                 |
 | Heal       | Use mundane first aid                                           |
-| Jump       | Leap vertical and horizontal distances                          |
+| [Jump](scc:mcdm.heroes.v1:movement:jump)       | Leap vertical and horizontal distances                          |
 | Lift       | Pick up, carry, and throw heavy objects                         |
 | Navigate   | Read a map and travel without becoming lost                     |
 | Ride       | Ride and control a nonsapient mount, such as a horse            |
-| Swim       | Move through deep liquid                                        |
+| [Swim](scc:mcdm.heroes.v1:movement:climb-or-swim)       | Move through deep liquid                                        |
 
 ##### Interpersonal Skills
 
@@ -19151,7 +19151,7 @@ In this scenario, a trio of adventurers want to scale the 40-foot-high walls sur
 
 The Director knows that the walls around the Star Chamber, the headquarters of the evil knights Lady Morgant leads, are smooth and hard to [climb](scc:mcdm.heroes.v1:movement:climb-or-swim), designed to repel invaders. The test's difficulty is hard, but the Director keeps that information a secret for now.
 
-**Alyssa (playing Jorn, a [tactician](scc:mcdm.heroes.v1:class:tactician)):** *Let me go first. I've got good Might and can throw the others down a rope once I'm up there. And I've got the Climb skill.*
+**Alyssa (playing Jorn, a [tactician](scc:mcdm.heroes.v1:class:tactician)):** *Let me go first. I've got good Might and can throw the others down a rope once I'm up there. And I've got the [Climb](scc:mcdm.heroes.v1:movement:climb-or-swim) skill.*
 
 **Director:** *For sure. Okay, roll it up.*
 
@@ -19386,7 +19386,7 @@ When the test begins, the Director sets the scene. They tell the players that th
 
 Urdoncara, a [fury](scc:mcdm.heroes.v1:class:fury), starts things off by asking to make an Intuition test using the Nature skill to predict the best times of day to travel and rest. She wants the party to avoid the worst of the desert's extreme temperatures and any sandstorms or other weather phenomena, so that the journey is quickened. The Director decides this is an easy test. Urdoncara makes the test and gets a total of 12, earning 1 success for the montage test.
 
-Jorn, a [tactician](scc:mcdm.heroes.v1:class:tactician), wants to make a Reason test using the Climb skill to lead the party over dunes and other hazards with minimal effort. The Director allows the attempt, but says that knowing what makes one dune easier to [climb](scc:mcdm.heroes.v1:movement:climb-or-swim) than another is tricky, setting the difficulty at hard. Jorn gets a 9 on the test and fails with a consequence, which the Director decides will cause him to take a bane on his next power roll due to the exertion. The montage test has 1 success and 1 failure.
+Jorn, a [tactician](scc:mcdm.heroes.v1:class:tactician), wants to make a Reason test using the [Climb](scc:mcdm.heroes.v1:movement:climb-or-swim) skill to lead the party over dunes and other hazards with minimal effort. The Director allows the attempt, but says that knowing what makes one dune easier to [climb](scc:mcdm.heroes.v1:movement:climb-or-swim) than another is tricky, setting the difficulty at hard. Jorn gets a 9 on the test and fails with a consequence, which the Director decides will cause him to take a bane on his next power roll due to the exertion. The montage test has 1 success and 1 failure.
 
 Karrel, an [elementalist](scc:mcdm.heroes.v1:class:elementalist), thinks the group might cross the desert faster if they have specially modified sandshoes that distribute their weight and prevent their feet from sinking into the sand. The Director loves the idea, and decides that making four pairs of the shoes while traveling the desert is a medium Reason test. Karrel gets to use their Tailoring skill and winds up with a total of 13-a success with a consequence. The Director decides to gain an additional 2 Malice at the start of the next combat encounter as a consequence, but the group now has 2 successes and 1 failure on the montage test.
 
@@ -19567,7 +19567,7 @@ Creatures in the game can use eight types of movement: [walk](scc:mcdm.heroes.v1
 
 ##### Walk
 
-Walking is the most common movement type, whether it refers to ambulating on legs, rolling, slithering, or some other default method of movement. Unless specified otherwise, all creatures can move over solid horizontal ground without any problem.
+[Walking](scc:mcdm.heroes.v1:movement:walk) is the most common movement type, whether it refers to ambulating on legs, rolling, slithering, or some other default method of movement. Unless specified otherwise, all creatures can move over solid horizontal ground without any problem.
 
 ##### Burrow
 
@@ -19615,7 +19615,7 @@ While a creature who is completely beneath the ground while [burrowing](scc:mcdm
 
 A creature who has "[climb](scc:mcdm.heroes.v1:movement:climb-or-swim)" in their speed entry, or who gains the temporary ability to automatically [climb](scc:mcdm.heroes.v1:movement:climb-or-swim), can [climb](scc:mcdm.heroes.v1:movement:climb-or-swim) across vertical and horizontal surfaces at full speed. Likewise, a creature who has "[swim](scc:mcdm.heroes.v1:movement:climb-or-swim)" in their speed entry, or who gains the temporary ability to automatically [swim](scc:mcdm.heroes.v1:movement:climb-or-swim), can [swim](scc:mcdm.heroes.v1:movement:climb-or-swim) in liquid at full speed.
 
-Creatures without those types of movement can still [climb](scc:mcdm.heroes.v1:movement:climb-or-swim) or [swim](scc:mcdm.heroes.v1:movement:climb-or-swim) when a rule allows them to move, but each square of climbing or swimming costs 2 squares of movement. If a surface is difficult to [climb](scc:mcdm.heroes.v1:movement:climb-or-swim) (for instance, a sheer cliff or ice-covered wall) or a liquid is hard to [swim](scc:mcdm.heroes.v1:movement:climb-or-swim) through (a raging river or whirlpool), the Director can call for a Might test. On a failure, a creature can't [climb](scc:mcdm.heroes.v1:movement:climb-or-swim) or [swim](scc:mcdm.heroes.v1:movement:climb-or-swim) but wastes no movement in the attempt. The Director can also impose other consequences to failure, such as being caught in the spinning current of a whirlpool.
+Creatures without those types of movement can still [climb](scc:mcdm.heroes.v1:movement:climb-or-swim) or [swim](scc:mcdm.heroes.v1:movement:climb-or-swim) when a rule allows them to move, but each square of [climbing](scc:mcdm.heroes.v1:movement:climb-or-swim) or [swimming](scc:mcdm.heroes.v1:movement:climb-or-swim) costs 2 squares of movement. If a surface is difficult to [climb](scc:mcdm.heroes.v1:movement:climb-or-swim) (for instance, a sheer cliff or ice-covered wall) or a liquid is hard to [swim](scc:mcdm.heroes.v1:movement:climb-or-swim) through (a raging river or whirlpool), the Director can call for a Might test. On a failure, a creature can't [climb](scc:mcdm.heroes.v1:movement:climb-or-swim) or [swim](scc:mcdm.heroes.v1:movement:climb-or-swim) but wastes no movement in the attempt. The Director can also impose other consequences to failure, such as being caught in the spinning current of a whirlpool.
 
 ###### Climbing Other Creatures
 
@@ -19635,7 +19635,7 @@ While you [climb](scc:mcdm.heroes.v1:movement:climb-or-swim) or ride a creature,
 - **12-16:** You slide down the creature into an unoccupied adjacent space of your choice and don't land [prone](scc:mcdm.heroes.v1:condition:prone).
 - **17+:** You continue to hold on to the creature.
 
-If you are knocked [prone](scc:mcdm.heroes.v1:condition:prone) while climbing or riding a creature, you fall and land [prone](scc:mcdm.heroes.v1:condition:prone) in an adjacent space of your choice, taking damage as usual from the fall.
+If you are knocked [prone](scc:mcdm.heroes.v1:condition:prone) while [climbing](scc:mcdm.heroes.v1:movement:climb-or-swim) or riding a creature, you fall and land [prone](scc:mcdm.heroes.v1:condition:prone) in an adjacent space of your choice, taking damage as usual from the fall.
 
 ##### Jump
 
@@ -19657,7 +19657,7 @@ If you are [prone](scc:mcdm.heroes.v1:condition:prone) (see [Conditions](#page-9
 
 ##### Fly
 
-A creature who has "fly" in their speed entry, or who gains the temporary ability to [fly](scc:mcdm.heroes.v1:movement:fly), can move through the air vertically or horizontally at full speed and remain in midair. If a flying creature is knocked [prone](scc:mcdm.heroes.v1:condition:prone) or has their speed reduced to 0, they fall (see [Falling](#page-283-3) below).
+A creature who has "fly" in their speed entry, or who gains the temporary ability to [fly](scc:mcdm.heroes.v1:movement:fly), can move through the air vertically or horizontally at full speed and remain in midair. If a [flying](scc:mcdm.heroes.v1:movement:fly) creature is knocked [prone](scc:mcdm.heroes.v1:condition:prone) or has their speed reduced to 0, they fall (see [Falling](#page-283-3) below).
 
 ##### Hover
 
@@ -19703,7 +19703,7 @@ Areas of acid, fire, sharp rocks, lava, or any other terrain that causes damage 
 
 Whenever a creature uses an ability to target a creature or object while standing on the ground and occupying a space that is fully above the target's space, they gain an edge on the power roll against that target. To be fully above a target, the bottom of a creature's space must be higher than or bordering on the top of the target's space.
 
-A creature can gain this benefit while climbing only if they have "climb" in their speed entry or can automatically [climb](scc:mcdm.heroes.v1:movement:climb-or-swim) at full speed while moving.
+A creature can gain this benefit while [climbing](scc:mcdm.heroes.v1:movement:climb-or-swim) only if they have "climb" in their speed entry or can automatically [climb](scc:mcdm.heroes.v1:movement:climb-or-swim) at full speed while moving.
 
 #### Forced Movement
 
@@ -19725,7 +19725,7 @@ Forced movement ignores difficult terrain and never provokes opportunity attacks
 
 If a forced movement effect has the word "vertical" in front of it, then the forced movement can move a target up or down in addition to horizontally. For example, if a forced movement effect says "vertical push 5," then a creature targeted by the effect can be pushed up to 5 squares in any direction, as long as the forced movement is a straight line.
 
-If a creature who can't [fly](scc:mcdm.heroes.v1:movement:fly) is left in midair at the end of a vertical forced move, they fall. Forced movement made against a creature who is flying is always a vertical forced move, whether or not the effect specifies it.
+If a creature who can't [fly](scc:mcdm.heroes.v1:movement:fly) is left in midair at the end of a vertical forced move, they fall. Forced movement made against a creature who is [flying](scc:mcdm.heroes.v1:movement:fly) is always a vertical forced move, whether or not the effect specifies it.
 
 Though you can't freely push, pull, or slide a target up and down unless that forced movement specifies "vertical," you can move them along a physical slope such as a hill or staircase. For a target to be force moved along a slope, each square of the slope can be no more than 1 square higher or lower than the previous square.
 
@@ -19922,7 +19922,7 @@ When a creature takes the Defend main action, ability rolls made against them ha
 
 #### Free Strike
 
-A creature can use this main action to make a free strike (see [Free](#page-289-1)  [Strikes](#page-289-1) below). Most of the time, you'll want to use the more impactful main actions granted by your class, kit, or other feature, just as the Director will use the main actions in a creature's stat block, but free strikes are available for when all else fails. For instance, a [fury](scc:mcdm.heroes.v1:class:fury) who has no other options for ranged strikes might use the Ranged Weapon Free Strike ability with an improvised weapon when battling a flying foe.
+A creature can use this main action to make a free strike (see [Free](#page-289-1)  [Strikes](#page-289-1) below). Most of the time, you'll want to use the more impactful main actions granted by your class, kit, or other feature, just as the Director will use the main actions in a creature's stat block, but free strikes are available for when all else fails. For instance, a [fury](scc:mcdm.heroes.v1:class:fury) who has no other options for ranged strikes might use the Ranged Weapon Free Strike ability with an improvised weapon when battling a [flying](scc:mcdm.heroes.v1:movement:fly) foe.
 
 #### Heal
 
@@ -20161,7 +20161,7 @@ The enemy holds a strategically important position and the heroes want it. The e
 
 ##### Stop the Action
 
-Sometimes combat is complicated by the fact that the heroes need to stop the villainous actions of their foes. It's not enough to simply defeat the warriors in a cult. The heroes must also stop the zealots' archdevil-summoning ritual! Or it might be that the heroes need to interrupt a wedding and make sure an evil mage doesn't marry the heir to the throne. Despite combat, the mage forces the ceremony to continue! Objectives in this category have a timer associated with them. If the heroes don't achieve the objective in a certain number of rounds, the conditions of the battle could well change. For instance, if the cultists summon the archdevil, defeating the devil suddenly becomes the heroes' new objective!
+Sometimes combat is complicated by the fact that the heroes need to stop the villainous actions of their foes. It's not enough to simply defeat the warriors in a cult. The heroes must also stop the zealots' archdevil-summoning ritual! Or it might be that the heroes need to interrupt a wedding and make sure an evil mage doesn't marry the heir to the throne. Despite combat, the mage forces the ceremony to continue! Objectives in this category have a timer associated with them. If the heroes don't achieve the objective in a certain number of rounds, the conditions of the battle could well change. For instance, if the cultists summon the archdevil, defeating the [devil](scc:mcdm.heroes.v1:ancestry:devil) suddenly becomes the heroes' new objective!
 
 ##### Complete the Action
 
@@ -20583,7 +20583,7 @@ If the NPC's interest is 0, the NPC ends the negotiation without accepting a dea
 
 After killing the true lord of Bedegar, the tyrannical Lord Saxton took over the barony's capital, and is presently gathering forces to march on the rest of Bedegar's settlements. The heroes recently saved Edmund, the true heir to Bedegar's throne, and are now attempting to build an army that can stand against Saxton and defeat the tyrant.
 
-The heroes are engaging in a negotiation with Zola Honeycut, the human guildmaster of the Clock—a thieves' guild whose headquarters is located in Bedegar's capital. The guild openly opposed Saxton when he first seized power, but the tyrant was quick to crack down on all known members of the Clock, forcing them into hiding or hanging them as a warning to others. The heroes' hope is that they can convince Zola to support their armed resistance.
+The heroes are engaging in a negotiation with Zola Honeycut, the [human](scc:mcdm.heroes.v1:ancestry:human) guildmaster of the Clock—a thieves' guild whose headquarters is located in Bedegar's capital. The guild openly opposed Saxton when he first seized power, but the tyrant was quick to crack down on all known members of the Clock, forcing them into hiding or hanging them as a warning to others. The heroes' hope is that they can convince Zola to support their armed resistance.
 
 #### Zola's Negotiation Stats
 
@@ -20615,7 +20615,7 @@ Zola is glad that people are finally opposing Lord Saxton, but is angry that no 
 
 Here's how the negotiation with Zola might play out.
 
-**Director (Djordi):** *The windows are boarded up, allowing no light to enter the seemingly abandoned Goat's Eye tavern. The whole place smells of charred wood, evidence of the fire that burned most of the building's interior three years ago. As the door shuts behind you, light from a hooded lantern on the opposite side of the tavern suddenly fills the room. Amid the blackened walls and pillars, you note where six burly ruffians flank your group on both sides. The human holding the lantern smiles. "Welcome. I'm Zola. Willoughby told me you were coming. Have a seat." She motions to a few crates arranged in a circle around a wide barrel.*
+**Director (Djordi):** *The windows are boarded up, allowing no light to enter the seemingly abandoned Goat's Eye tavern. The whole place smells of charred wood, evidence of the fire that burned most of the building's interior three years ago. As the door shuts behind you, light from a hooded lantern on the opposite side of the tavern suddenly fills the room. Amid the blackened walls and pillars, you note where six burly ruffians flank your group on both sides. The [human](scc:mcdm.heroes.v1:ancestry:human) holding the lantern smiles. "Welcome. I'm Zola. Willoughby told me you were coming. Have a seat." She motions to a few crates arranged in a circle around a wide barrel.*
 
 **James (playing Korvo, a [shadow](scc:mcdm.heroes.v1:class:shadow)):** *I have a seat and say, "Korvo at your service, Ms. Honeycut. And these here are the finest companions a [polder](scc:mcdm.heroes.v1:ancestry:polder) could ask for: Linn, Jorn, and Val."*
 
@@ -21020,7 +21020,7 @@ You can use an absorbed ability as if you knew it, making power rolls for the ab
 - **12-16:** 12 damage; push 4
 - **17+:** 15 damage; push 5
 
-**Levitating:** On your turn, you can treat up to 5 consecutive squares of movement as flying movement. If you are still in midair at the end of your turn, you fall [prone](scc:mcdm.heroes.v1:condition:prone).
+**Levitating:** On your turn, you can treat up to 5 consecutive squares of movement as [flying](scc:mcdm.heroes.v1:movement:fly) movement. If you are still in midair at the end of your turn, you fall [prone](scc:mcdm.heroes.v1:condition:prone).
 
 **Magic Resistance II:** Your characteristic scores are treated as 2 higher (to a maximum of 3) for the purpose of resisting the potencies of magic abilities. This benefit replaces Magic Resistance I.
 
@@ -21062,7 +21062,7 @@ You can use an absorbed ability as if you knew it, making power rolls for the ab
 
 **Project Goal:** 150
 
-**Devil's Bargain:** You can [fly](scc:mcdm.heroes.v1:movement:fly). Additionally, if an effect would make you [prone](scc:mcdm.heroes.v1:condition:prone) while flying, you can choose to not go [prone](scc:mcdm.heroes.v1:condition:prone) by losing Stamina equal to the distance you would have fallen from becoming [prone](scc:mcdm.heroes.v1:condition:prone).
+**Devil's Bargain:** You can [fly](scc:mcdm.heroes.v1:movement:fly). Additionally, if an effect would make you [prone](scc:mcdm.heroes.v1:condition:prone) while [flying](scc:mcdm.heroes.v1:movement:fly), you can choose to not go [prone](scc:mcdm.heroes.v1:condition:prone) by losing Stamina equal to the distance you would have fallen from becoming [prone](scc:mcdm.heroes.v1:condition:prone).
 
 **Dragon Soul II:** While you are winded, your head transforms into a dragon's head and you have the following ability.
 
@@ -21279,13 +21279,13 @@ A hero who has a kit that uses unarmed strikes, such as the [Martial Artist](scc
 
 **Vengeance I:** Whenever you use a damage-dealing ability using this weapon against a creature who has dealt damage to you since the end of your last turn, the ability deals an extra 2 damage.
 
-**Wingbane:** Whenever you damage a flying creature using this weapon, that creature is also [bleeding](scc:mcdm.heroes.v1:condition:bleeding) (save ends). While [bleeding](scc:mcdm.heroes.v1:condition:bleeding) in this way, the creature takes 1 damage per square they [fly](scc:mcdm.heroes.v1:movement:fly). If the creature starts and ends their turn on the same solid surface, the [bleeding](scc:mcdm.heroes.v1:condition:bleeding) condition ends.
+**Wingbane:** Whenever you damage a [flying](scc:mcdm.heroes.v1:movement:fly) creature using this weapon, that creature is also [bleeding](scc:mcdm.heroes.v1:condition:bleeding) (save ends). While [bleeding](scc:mcdm.heroes.v1:condition:bleeding) in this way, the creature takes 1 damage per square they [fly](scc:mcdm.heroes.v1:movement:fly). If the creature starts and ends their turn on the same solid surface, the [bleeding](scc:mcdm.heroes.v1:condition:bleeding) condition ends.
 
 ###### 1st-Level Weapon Enhancements Table
 
 | Enhancement   | Item Prerequisite                                                    | Project Source Language |
 |---------------|----------------------------------------------------------------------|-------------------------|
-| Blood Bargain | The blood of a devil                                                 | Anjali                  |
+| Blood Bargain | The blood of a [devil](scc:mcdm.heroes.v1:ancestry:devil)                                                 | Anjali                  |
 | Chilling I    | A piece of ice from Quintessence that never melts                    | Yllyric                 |
 | Disrupting I  | A vial of blood from a living saint                                  | Anjali                  |
 | Hurling       | A magnet made from rare metals                                       | Variac                  |
@@ -21406,7 +21406,7 @@ A hero who has a kit that uses unarmed strikes, such as the [Martial Artist](scc
 | Nova           | A piece of metal touched by a sun                                                                                                     | Ullorvic                |
 | Terrifying III | The central eye of an overmind                                                                                                        | Variac                  |
 | Thundering III | An oracle of storms must willingly bless the weapon with lightning while it is being wielded, and its wielder must survive this trial | Low Kuric               |
-| Vengeance III  | The true name of a devil who hunts other devils                                                                                       | Kalliak                 |
+| Vengeance III  | The true name of a [devil](scc:mcdm.heroes.v1:ancestry:devil) who hunts other [devils](scc:mcdm.heroes.v1:ancestry:devil)                                                                                       | Kalliak                 |
 | Windcutting    | A feather from a bird, once thought extinct, who dwells at the eye of an ever-whirling tornado                                        | Yllyric                 |
 
 ### Research Projects
@@ -21472,7 +21472,7 @@ Forbidden knowledge is lore that a powerful individual or organization is attemp
 | 23-24  | After the roll, the hero discovers a new bit of knowledge or a technique that allows them to immediately start and finish a second project with a project goal of 50 or lower.                                                                                                                                                                                                                                                                                                                                  |
 | 25-26  | Before the roll, the hero finds that someone has attempted to sabotage their project, resulting in damage to notes, the project source, or crafting components. The damage is negligible, but the creature responsible will strike again to worse effect if not discovered.                                                                                                                                                                                                                                     |
 | 27-28  | Before the roll, the project source is found to hold additional information, letting the hero treat the project roll as an automatic breakthrough. The note could have been left by a helpful visitor, or by someone who wants the hero's work to be finished for their own gain.                                                                                                                                                                                                                               |
-| 29-30  | After the roll, the project draws the attention of a devil, who tries to subtly change the project source from the Seven Cities of Hell. If the hero doesn't notice, the devil is summoned the next time the hero makes a project roll, with goals of the Director's determination.                                                                                                                                                                                                                             |
+| 29-30  | After the roll, the project draws the attention of a [devil](scc:mcdm.heroes.v1:ancestry:devil), who tries to subtly change the project source from the Seven Cities of Hell. If the hero doesn't notice, the [devil](scc:mcdm.heroes.v1:ancestry:devil) is summoned the next time the hero makes a project roll, with goals of the Director's determination.                                                                                                                                                                                                                             |
 | 31-32  | Before the roll, the hero stumbles upon a tool, expert, or book that helps them with the project, letting them treat the project roll as an automatic breakthrough.                                                                                                                                                                                                                                                                                                                                             |
 | 33-34  | After the roll, the project source suddenly becomes impossible to understand. A psionic NPC has used a mighty power to obscure or corrupt the project source to prevent a potential catastrophe they foresaw. If the heroes can help prevent the catastrophe in another way, the NPC will end the effect.                                                                                                                                                                                                       |
 | 35-36  | After the roll, the hero discovers that the project source contains a piece of helpful knowledge unrelated to the current project.                                                                                                                                                                                                                                                                                                                                                                              |
@@ -21490,7 +21490,7 @@ Forbidden knowledge is lore that a powerful individual or organization is attemp
 | 59-60  | Before the roll, the hero realizes they're at a critical point in the project, and can achieve more if they just shave off a few hours of rest. By choosing to lose some sleep, the character can make two project rolls for the project, but when they end the current respite, they do so with 1 fewer Recoveries than usual.                                                                                                                                                                                 |
 | 61-62  | Before the roll, a sage approaches the hero and offers to help with the project. This NPC isn't really a sage, however—they're an assassin hoping to catch the hero off guard.                                                                                                                                                                                                                                                                                                                                  |
 | 63-64  | Before the roll, a sage approaches the hero and offers to help with the project. This NPC isn't really a sage, however—they're a bard who wishes to compose a song about the hero's deeds. The NPC is to ingratiate themself to the hero while contributing nothing to the actual project.                                                                                                                                                                                                                      |
-| 65-66  | After the roll, a physical project source or a component of the project creates an unstable portal to another world related to the nature of the project. Tiny devils, elementals, or other creatures start clawing their way out of the item and causing mischief.                                                                                                                                                                                                                                             |
+| 65-66  | After the roll, a physical project source or a component of the project creates an unstable portal to another world related to the nature of the project. Tiny [devils](scc:mcdm.heroes.v1:ancestry:devil), elementals, or other creatures start clawing their way out of the item and causing mischief.                                                                                                                                                                                                                                             |
 | 67-68  | After the roll, the hero realizes that the project source also holds information regarding the location of another project source or certain items, which are needed for another project the hero or one of their allies wants to pursue.                                                                                                                                                                                                                                                                       |
 | 69-70  | Before the roll, a group of enemies working for the campaign's villain attacks the hero, intent on destroying as much of the project's source or other resources as possible.                                                                                                                                                                                                                                                                                                                                   |
 | 71-72  | Before the roll, a storm moves into the area that threatens to persist until the project is completed. The closer to completion the hero gets on the project, the more violent the storm becomes. It's possible that the storm is conscious, or that someone is controlling the storm to stand in the hero's way.                                                                                                                                                                                               |
@@ -21680,7 +21680,7 @@ While undertaking this project, you provide help to people in need, doing odd jo
 | d10 | Event                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |-----|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1   | After the roll, the hero's service is recognized by the local nobility or authorities. Upon completion of the project, the hero earns 1 Renown.                                                                                                                                                                                                                                                                                  |
-| 2   | Before the roll, a mysterious force hinders the work in an unfortunate way, with tools going missing, tutoring materials vanishing, cleaning supplies turning up already filthy, and so forth. The hero can't continue the project until the culprit—a maligned devil or spirit connected to the hero's past—is identified and dealt with.                                                                                       |
+| 2   | Before the roll, a mysterious force hinders the work in an unfortunate way, with tools going missing, tutoring materials vanishing, cleaning supplies turning up already filthy, and so forth. The hero can't continue the project until the culprit—a maligned [devil](scc:mcdm.heroes.v1:ancestry:devil) or spirit connected to the hero's past—is identified and dealt with.                                                                                       |
 | 3   | Before the roll, the community is so excited by the project that they join in to lend a hand. The project gains an automatic breakthrough.                                                                                                                                                                                                                                                                                       |
 | 4   | Before the roll, a sympathetic NPC—perhaps a friend or ally from the community or from the hero's past—offers to assist with the project. The hero gains a +3 bonus to the project roll.                                                                                                                                                                                                                                         |
 | 5   | Before the roll, work on the project unearths a previously lost detail of the community—a lost or hidden section of a settlement, a surprising historical detail, a secret regarding a prominent local, and so forth. The locals take a keen interest in the development, but the revelation threatens to tear the community apart. If the character can't take steps to undo this strife, they take a bane on the project roll. |
@@ -21722,7 +21722,7 @@ Whether for sustenance, relaxation, or bragging rights, you've gone fishing, pro
 | d10 | Event                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |-----|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1   | While fishing, the hero reels in a talking fish. The fish informs the hero of any events that have occurred within 10 squares of the body of water where they were caught over the last week, or provides one piece of Forbidden Knowledge (see the Discover Lore project), as the Director determines.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| 2   | While fishing, the hero reels in a note in a bottle. The note is written in Anjali and binds the reader into a deal with a powerful devil if read out loud. This gives the devil ownership of the reader's soul in exchange for rolling an additional d10 on all future Fishing project rolls.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| 2   | While fishing, the hero reels in a note in a bottle. The note is written in Anjali and binds the reader into a deal with a powerful [devil](scc:mcdm.heroes.v1:ancestry:devil) if read out loud. This gives the [devil](scc:mcdm.heroes.v1:ancestry:devil) ownership of the reader's soul in exchange for rolling an additional d10 on all future Fishing project rolls.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | 3   | While the hero is fishing, passersby inform them of a rumor of a magic fishing rod that allows the fisher to double the size of the fish they reel in. The Director can decide whether the rumor is true, and if so, where the rod might be found.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | 4   | While fishing, the hero reels in an **angulotl daybringer** (see *[Draw Steel:](https://mcdm.gg/DS-Monsters)  [Monsters](https://mcdm.gg/DS-Monsters)*). The angulotl is insulted by the hero catching them, and threatens to summon heavy thunderstorms and drown the region in a flood. However, they can be negotiated with, and might provide the hero with one serving of an amazing meal if they stay on good terms. A creature who eats a serving of this meal increases their Recoveries by 1 until the end of their next respite, and gains 25 temporary Stamina that lasts until the end of their next respite if it isn't lost first. A creature can benefit only from one serving of this meal or another like it (such as from the Perfect New Recipe project) at a time. |
 | 5   | While fishing, the hero reels in half of a mysterious ancient treasure of the Director's choice. If the other half is found, both halves magically meld together to restore the treasure.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
@@ -22313,7 +22313,7 @@ At the start of each of your turns, each creature adjacent to the wall takes psy
 
 **Project Goal:** 180
 
-**Effect:** Whenever you would take damage, you can use a triggered action to tear the card and summon a devil. You avoid the damage and any accompanying effects, and the devil redirects the triggering effect to a target of their choice anywhere on the same manifold. You are treated to a clear vision of whoever suffers the damage. The devil then disappears.
+**Effect:** Whenever you would take damage, you can use a triggered action to tear the card and summon a [devil](scc:mcdm.heroes.v1:ancestry:devil). You avoid the damage and any accompanying effects, and the [devil](scc:mcdm.heroes.v1:ancestry:devil) redirects the triggering effect to a target of their choice anywhere on the same manifold. You are treated to a clear vision of whoever suffers the damage. The [devil](scc:mcdm.heroes.v1:ancestry:devil) then disappears.
 
 ##### Personal Effigy
 
@@ -22615,7 +22615,7 @@ If the object is too thick or has no open space on the other side, your hand bec
 
 **Project Goal:** 150
 
-**Effect:** While you wear these gloves, your grip is all but impossible to break. You can't be disarmed, you can't lose your grip while climbing unless you are force moved, and any creature [grabbed](scc:mcdm.heroes.v1:condition:grabbed) by you takes a bane on the test for the Escape Grab maneuver.
+**Effect:** While you wear these gloves, your grip is all but impossible to break. You can't be disarmed, you can't lose your grip while [climbing](scc:mcdm.heroes.v1:movement:climb-or-swim) unless you are force moved, and any creature [grabbed](scc:mcdm.heroes.v1:condition:grabbed) by you takes a bane on the test for the Escape Grab maneuver.
 
 ##### Hellcharger Helm
 
@@ -22755,7 +22755,7 @@ This section presents 2nd-echelon trinket treasures in alphabetical order.
 
 **Keywords:** Head, Psionic
 
-**Item Prerequisite:** The gold nib of a fountain pen used to sign a major treaty or compact, a ruby once worn by a devil
+**Item Prerequisite:** The gold nib of a fountain pen used to sign a major treaty or compact, a ruby once worn by a [devil](scc:mcdm.heroes.v1:ancestry:devil)
 
 **Project Source:** Texts or lore in Hyrallic
 
@@ -22899,7 +22899,7 @@ Additionally, you have the following ability.
 
 **Project Goal:** 450
 
-**Effect:** You must be a [null](scc:mcdm.heroes.v1:class:null) to wear this ring. While you do so, the area of your Null Field ability increases by 1.
+**Effect:** You must be a [null](scc:mcdm.heroes.v1:class:null) to wear this ring. While you do so, the area of your [Null](scc:mcdm.heroes.v1:class:null) Field ability increases by 1.
 
 Additionally, you have the following ability.
 
@@ -23485,7 +23485,7 @@ For combat-focused heroes, weapons channeling magic and psionic power can easily
 
 **1st Level:** Any weapon ability that deals rolled damage using this weapon deals an extra 1 holy damage. Additionally, when the weapon is used with a weapon ability that allows you to push a target, you can shift to any square adjacent to the target after the push.
 
-**5th Level:** The weapon's extra holy damage increases to 2. Additionally, whenever you use the Charge main action and use an ability with the Charge keyword, or whenever you use an ability that allows you to shift, you can [fly](scc:mcdm.heroes.v1:movement:fly) as part of the charge movement or the shift. If you don't end your flying movement on the ground, you fall.
+**5th Level:** The weapon's extra holy damage increases to 2. Additionally, whenever you use the Charge main action and use an ability with the Charge keyword, or whenever you use an ability that allows you to shift, you can [fly](scc:mcdm.heroes.v1:movement:fly) as part of the charge movement or the shift. If you don't end your [flying](scc:mcdm.heroes.v1:movement:fly) movement on the ground, you fall.
 
 **9th Level:** The weapon's extra holy damage increases to 3. Additionally, whenever the weapon is used with a weapon ability that allows you to push or slide a target, that forced movement can be vertical.
 
@@ -23765,7 +23765,7 @@ The [Encepter](scc:mcdm.heroes.v1:treasure.artifact:encepter) is said to have fi
 
 **Keywords:** Psionic
 
-Change is the engine of existence. Permanence begets stagnation. When the past refuses to relinquish control, a path must be cleared for the future. Energized by the flickering of minds and souls passing through the void, the Mortal Coil taps into the entropic potential inherent in every living creature to cast a shadow capable of felling even gods. For the true gift of life is death, and gifts are meant to be given.
+Change is the engine of existence. Permanence begets stagnation. When the past refuses to relinquish control, a path must be cleared for the future. Energized by the flickering of minds and souls passing through the void, the Mortal Coil taps into the entropic potential inherent in every living creature to cast a [shadow](scc:mcdm.heroes.v1:class:shadow) capable of felling even gods. For the true gift of life is death, and gifts are meant to be given.
 
 Only one destined for death can contain the power of the Mortal Coil. A mortal creature who carries this artifact serves as its host, gaining an additional main action on each of their turns, aging at ten times the usual rate, and becoming unable to ever regain Stamina. A host with no natural maximum lifespan permanently reduces their Stamina maximum by 10 each year.
 
@@ -23934,7 +23934,7 @@ Additionally, the Director assigns you one of the following benefits, as appropr
 
 - *Academic Faction:* You find a sage who can make up to three Reason tests to recall lore or make project rolls for research projects on your behalf. The sage has a +5 bonus to these tests. These project rolls take 10 minutes each and don't need to be made during a respite.
 - *Guild Faction:* You find an expert crafter who can make up to three project rolls for crafting projects on your behalf. The crafter has a +5 bonus to these tests. These project rolls take 10 uninterrupted minutes each and don't need to be made during a respite.
-- *Martial Faction:* You recruit up to three minions with levels no greater than your own, of a type appropriate for the faction (such as **human guards**). These minions follow your orders for a day.
+- *Martial Faction:* You recruit up to three minions with levels no greater than your own, of a type appropriate for the faction (such as **[human](scc:mcdm.heroes.v1:ancestry:human) guards**). These minions follow your orders for a day.
 - *Spy Faction:* You find an agent who can provide you with three pieces of information about the settlement you're in, such as the location of a hidden person, a secret entrance into a guarded area, or the negotiation motivation or pitfall of an important person.
 
 **Special:** You can gain this title multiple times, once for each faction. You can be stripped of this title if you act against the faction's interests.
@@ -24249,7 +24249,7 @@ Titles suitable for 2nd-echelon characters are presented in alphabetical order.
 >
 > **Special:** If the target is size 2 or larger, you gain an edge on this ability.
 
-- *Up the Beanstalk:* You have the [Climb](scc:mcdm.heroes.v1:movement:climb-or-swim) skill. If you already have this skill, you instead gain an edge on tests made using the [Climb](scc:mcdm.heroes.v1:movement:climb-or-swim) skill. While you're climbing a creature, the creature has a double bane on strikes against you and you have a double edge on tests made to stay on the creature.
+- *Up the Beanstalk:* You have the [Climb](scc:mcdm.heroes.v1:movement:climb-or-swim) skill. If you already have this skill, you instead gain an edge on tests made using the [Climb](scc:mcdm.heroes.v1:movement:climb-or-swim) skill. While you're [climbing](scc:mcdm.heroes.v1:movement:climb-or-swim) a creature, the creature has a double bane on strikes against you and you have a double edge on tests made to stay on the creature.
 
 #### Godsworn
 
@@ -24427,13 +24427,13 @@ Titles suitable for 3rd-echelon characters are presented in alphabetical order.
 
 *If you can't beat 'em, join 'em.*
 
-**Prerequisite:** You defeat a leader or solo creature with the Devil keyword, such as an archdevil, or you make a deal with a devil.
+**Prerequisite:** You defeat a leader or solo creature with the [Devil](scc:mcdm.heroes.v1:ancestry:devil) keyword, such as an archdevil, or you make a deal with a [devil](scc:mcdm.heroes.v1:ancestry:devil).
 
 **Effect:** Choose one of the following benefits:
 
-- *Devil Lore:* You know the Anjali language, and your understanding of this language helps you create irresistible supernatural effects. The potencies of your magic or psionic abilities that target Reason, Intuition, or Presence increase by 1.
-- *Infernal Legacy:* You gain 3 ancestry points to spend on purchased devil ancestry traits (see [Chapter 3](#page-35-0)).
-- *Sly Devil:* You gain the Silver Tongue signature trait from the devil ancestry.
+- *[Devil](scc:mcdm.heroes.v1:ancestry:devil) Lore:* You know the Anjali language, and your understanding of this language helps you create irresistible supernatural effects. The potencies of your magic or psionic abilities that target Reason, Intuition, or Presence increase by 1.
+- *Infernal Legacy:* You gain 3 ancestry points to spend on purchased [devil](scc:mcdm.heroes.v1:ancestry:devil) ancestry traits (see [Chapter 3](#page-35-0)).
+- *Sly [Devil](scc:mcdm.heroes.v1:ancestry:devil):* You gain the Silver Tongue signature trait from the [devil](scc:mcdm.heroes.v1:ancestry:devil) ancestry.
 - *Untouched by Corruption:* Whenever you use a damage-dealing ability, that ability can deal holy damage instead of its usual damage type.
 
 #### Dragon Blooded
@@ -24455,7 +24455,7 @@ Titles suitable for 3rd-echelon characters are presented in alphabetical order.
 
 **Effect:** Choose one of the following benefits:
 
-- *First Mate:* You have a pirate retainer, such as a **human warrior**, chosen by the Director from *[Draw Steel: Monsters](https://mcdm.gg/DS-Monsters)*. This retainer's level increases to your level.
+- *First Mate:* You have a pirate retainer, such as a **[human](scc:mcdm.heroes.v1:ancestry:human) warrior**, chosen by the Director from *[Draw Steel: Monsters](https://mcdm.gg/DS-Monsters)*. This retainer's level increases to your level.
 - *[Swashbuckler](scc:mcdm.heroes.v1:kit:swashbuckler):* You can automatically [climb](scc:mcdm.heroes.v1:movement:climb-or-swim) at full speed while moving
 - *Treasure Keeper:* You earn 1 Wealth.
 - *Weather Wizard:* Once per day, you can spend 10 uninterrupted minutes to magically alter mundane weather in a 5-mile radius around you. The weather moves with you and persists for 6 hours or until you dismiss it as a free maneuver. Choose from one of the following weather types:
@@ -24469,14 +24469,14 @@ Titles suitable for 3rd-echelon characters are presented in alphabetical order.
 
 *When I saw the bloodstained manuscript under Fellwander's arm, I knew his quest for the Opera was over—and with it, his chance for redemption.*
 
-**Prerequisite:** You visit the realms of gods, devils, or other immortal beings and hear a note of the Music of Creation.
+**Prerequisite:** You visit the realms of gods, [devils](scc:mcdm.heroes.v1:ancestry:devil), or other immortal beings and hear a note of the Music of Creation.
 
 **Effect:** Choose one of the following benefits:
 
 - *Angelic Chorus:* You can use the lessons of musical improvisation in combat. Choose one class act triggered action from the [troubadour](scc:mcdm.heroes.v1:class:troubadour) class. You gain that ability regardless of whether your class and subclass allow you to take it. If this ability allows you to gain or spend drama, you can gain or spend the Heroic Resource of your class in place of drama.
-- *Devil's Opera:* You have the following ability, which can be paid for using the Heroic Resource of your class.
+- *[Devil](scc:mcdm.heroes.v1:ancestry:devil)'s Opera:* You have the following ability, which can be paid for using the Heroic Resource of your class.
 
-> ######## The Devil's Chord (9 Heroic Resource)
+> ######## The [Devil](scc:mcdm.heroes.v1:ancestry:devil)'s Chord (9 Heroic Resource)
 >
 > *Helloooo Orden!*
 >
@@ -25402,7 +25402,7 @@ When Llewellyn slew Ghruk the Trollhag, she cried out, "Follow Melianus!" as she
 
 That night, Llewellyn waited in the stables and, at midnight, Melianus appeared. He mounted his great black warhorse Coalfire and rode. To where, Llewellyn could not guess. But the knight followed the duke as he rode east toward the marsh, he remembered the rumors.
 
-At the edge of the marsh, Coalfire's eyes began to glow with a baleful flame and his mane burst into crimson fire. Llewellyn's breath caught in his throat. "A nightmare!" he realized. The rumors were true! The sorcerer had given Melianus a devil steed.
+At the edge of the marsh, Coalfire's eyes began to glow with a baleful flame and his mane burst into crimson fire. Llewellyn's breath caught in his throat. "A nightmare!" he realized. The rumors were true! The sorcerer had given Melianus a [devil](scc:mcdm.heroes.v1:ancestry:devil) steed.
 
 On flaming nightmare hooves was Melianus able to cross the impassable swamp. Llewellyn balked, no one could cross the cursed bog. But Silverheart champed at her bit, pulled on the reins. She would not yield. Placing his trust in his steed, Llewellyn let the reins lie slack, and Silverheart took the lead.
 
@@ -26775,7 +26775,7 @@ The following challenges can be part of the montage test:
 
 - **Bucket Brigades:** Characters can organize the would-be firefighters into disciplined bucket brigades, or can fight the fire directly in some other way. *Suggested* C*haracteristics:* Presence, Reason. *Suggested Skills:* Architecture, Intimidate, Lead.
 - **Clearing a Firebreak:** Preventing the fire from spreading might involve clearing the ground of flammable materials, either by moving it or burning it away under controlled conditions. *Suggested Characteristics:* Might, Reason. *Suggested Skills and Abilities:* Endurance, Lift; abilities that deal fire damage. *Special:* A creature loses a Recovery if they incur a consequence on the test for this challenge.
-- **Evacuating Buildings:** Characters must save people trapped in burning buildings. *Suggested Characteristics:* Might, Presence. *Suggested Skills:* Climb, Endurance, Persuade. *Special:* A creature who doesn't have fire immunity loses a Recovery if they incur a consequence on the test for this challenge. The heroes can attempt this challenge twice during the montage test.
+- **Evacuating Buildings:** Characters must save people trapped in burning buildings. *Suggested Characteristics:* Might, Presence. *Suggested Skills:* [Climb](scc:mcdm.heroes.v1:movement:climb-or-swim), Endurance, Persuade. *Special:* A creature who doesn't have fire immunity loses a Recovery if they incur a consequence on the test for this challenge. The heroes can attempt this challenge twice during the montage test.
 - **Find More Firefighters:** By finding groups that aren't fighting the fire, such as fleeing civilians, characters can convince them to help. *Suggested Characteristic:* Presence. *Suggested Skills:* Intimidate, Lead, Persuade.
 - **Free the Horses:** Characters can loose the stabled horses threatened by the fire and lead them to safety. *Suggested Characteristics:* Might, Presence. *Suggested Skills:* Handle Animals, Lift, Ride.
 - **Move Burning Rubble:** Shifting burning debris blocking doorways can allow people to escape the blaze. *Suggested Characteristic:* Might. *Suggested Skills:* Endurance, Lift. *Special:* A creature who doesn't have fire immunity loses a Recovery if they incur a consequence on the test for this challenge.
@@ -26785,7 +26785,7 @@ The following challenges can be part of the montage test:
 
 At the end of the first montage test round, an emergency crops up. One or more heroes, selected by the players, must deal with the situation before the end of the round. If the heroes successfully deal with the twist, they earn a success for the montage test. Otherwise, they earn a failure.
 
-- **Building Collapse:** While a hero is in or near a blazing building, it starts to collapse. The hero must escape before the building crumbles. *Suggested Characteristics:* Agility, Intuition. *Suggested Skills:* Climb, Gymnastics, Jump.
+- **Building Collapse:** While a hero is in or near a blazing building, it starts to collapse. The hero must escape before the building crumbles. *Suggested Characteristics:* Agility, Intuition. *Suggested Skills:* [Climb](scc:mcdm.heroes.v1:movement:climb-or-swim), Gymnastics, [Jump](scc:mcdm.heroes.v1:movement:jump).
 - **Cause of the Fire:** At the end of the first round of the montage test, the hostile cause of the fire appears—a squad of an invading army, a dragon, a team of arsonists, and so forth. The characters must engage in a standard or hard encounter with this threat.
 - **Help!** Townsfolk are about to run into a burning building to save a trapped relative. This twist requires two tests, each of which nets a success or a failure for the montage test. One hero can try to prevent the townspeople from entering the burning building while another rescues the relative. *Suggested Characteristics:* Might, Presence. *Suggested Skills:* Lift, Persuade.
 
@@ -26823,7 +26823,7 @@ The first time any hero fails a test made as part of the montage test while the 
 
 The following challenges can be part of the heroes' infiltration:
 
-- **Aerial Route:** Characters can follow a path that leads along catwalks or high ledges. *Suggested Characteristics:* Agility, Might. *Suggested Skills:* Climb, Gymnastics, Jump.
+- **Aerial Route:** Characters can follow a path that leads along catwalks or high ledges. *Suggested Characteristics:* Agility, Might. *Suggested Skills:* [Climb](scc:mcdm.heroes.v1:movement:climb-or-swim), Gymnastics, [Jump](scc:mcdm.heroes.v1:movement:jump).
 - **Avoid Traffic:** By finding the dustiest, least-traveled areas and sticking to them, characters can avoid notice. *Suggested Characteristics:* Intuition, Reason. *Suggested Skills:* Navigate, Search, Track.
 - **Lie Low:** Once while the alarm level is greater than 0, the heroes can find a place to hide for a bit, reducing the alarm level by 1. This activity doesn't require a test or generate a success or failure.
 - **Make a Diversion:** After causing a ruckus, the characters quickly go the other way. *Suggested Characteristics:* Might, Presence. *Suggested Skills:* Alchemy, Perform, Sabotage.
@@ -26889,7 +26889,7 @@ The following challenges can be part of the montage test:
 
 - **Ask Around:** Characters can gather clues from locals or bystanders—or if they have access to the proper magic, from animals or the dead. *Suggested Characteristics:* Intuition, Presence. *Suggested Skills:* Interrogate, Persuade, Rumors.
 - **Follow the Trail:** Looking for tracks or other signs of the fugitive's passage can lead the characters on. *Suggested Characteristic:* Intuition. *Suggested Skills:* Alertness, Search, Track. *Special:* The heroes can attempt this challenge twice during the montage test.
-- **Obtain a Good View:** Characters can climb up high to get the big picture of where the fugitive might have gone. *Suggested Characteristics:* Agility, Might. *Suggested Skills:* Climb, Gymnastics, Jump.
+- **Obtain a Good View:** Characters can [climb](scc:mcdm.heroes.v1:movement:climb-or-swim) up high to get the big picture of where the fugitive might have gone. *Suggested Characteristics:* Agility, Might. *Suggested Skills:* [Climb](scc:mcdm.heroes.v1:movement:climb-or-swim), Gymnastics, [Jump](scc:mcdm.heroes.v1:movement:jump).
 - **Predict the Next Move:** The heroes might have an idea where the quarry is headed. A character gains an edge on the test for this challenge if they know the quarry well. *Suggested Characteristics:* Intuition, Reason. *Suggested Skills:* Navigate, Read Person, an appropriate skill from the lore skill group (Nature to follow an animal, Criminal Underworld to follow a criminal, and so forth).
 - **Push Ahead:** While the quarry is resting, the heroes have a chance to close in. Suggested Characteristic: Might. Suggested Skills: Drive, Endurance, Navigate, Ride. Special: The hero making the test for this challenge loses a Recovery.
 
@@ -27048,7 +27048,7 @@ The heroes increase their wealth whenever they score a big payday or recover a h
 You can award hero tokens to the players for taking risks with their heroes beyond what the game typically expects of them. For instance, battling a group of monsters is part of the game and doesn't earn a hero token. However, the following activities might:
 
 - A hero stands alone against a group of enemies to allow their comrades to escape.
-- A hero willingly jumps into quicksand, into lava, off a cliff, or into similar peril to save another character.
+- A hero willingly [jumps](scc:mcdm.heroes.v1:movement:jump) into quicksand, into lava, off a cliff, or into similar peril to save another character.
 - The group is presented with an easy way out of a difficult situation that involves lying, cheating, stealing, or the like, but they take the more arduous and honorable path.
 - A hero gives away an important resource, such as a Healing Potion, to help another creature in need.
 
