@@ -48,6 +48,8 @@ AMBIGUOUS_TERMS = {
     "raider", "ranger", "sniper", "mountain", "panther",
     # Perks -- common words used in prose
     "teamwork",
+    # Others that I found to be unsafe
+    "animal form", "whirlwind", "teleport", "human", "devil", "when a creature moves", "climb", "jump", "swim", "vertical"
 }
 
 # Terms that should NEVER be linked (too generic or would create noise)
