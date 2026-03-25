@@ -9,6 +9,12 @@ Operates in three tiers:
 
 Usage:
   python scc-auto-linker.py <markdown_file> <scc_to_path.json> [--dry-run] [--report <report_file>] [--tier 1|2|3|all]
+  python scc-auto-linker.py <markdown_file> <scc_to_path.json> --term <slug> [--dry-run]
+
+The --term flag promotes a single tier-3 term to auto-link, ignoring AMBIGUOUS_TERMS
+and TIER3_TYPES for that term only. Useful for reviewing one dangerous term at a time.
+The slug is the kebab-case ID (e.g., "noble", "free-strike", "animal-form").
+Combine with --dry-run to preview without writing.
 """
 
 import argparse
@@ -49,7 +55,9 @@ AMBIGUOUS_TERMS = {
     # Perks -- common words used in prose
     "teamwork",
     # Others that I found to be unsafe
-    "animal form", "whirlwind", "teleport", "human", "devil", "when a creature moves", "climb", "jump", "swim", "vertical"
+    "animal form", "whirlwind", "teleport", "human", "devil", "when a creature moves", "climb", "jump", "swim", "vertical",
+    # Titles/features with generic English usage
+    "doomed", "spotlight",
 }
 
 # Terms that should NEVER be linked (too generic or would create noise)
@@ -105,12 +113,21 @@ class LinkTerm:
     variants: list = field(default_factory=list)  # Plural/alternate forms
 
 
-def classify_tier(display: str, scc_type: str) -> int:
-    """Classify a term into a linking tier."""
+def classify_tier(display: str, scc_type: str, promote_terms: set[str] | None = None) -> int:
+    """Classify a term into a linking tier.
+
+    Args:
+        promote_terms: If set, these term slugs bypass AMBIGUOUS_TERMS and
+                       TIER3_TYPES, getting promoted to tier 2 (auto-link).
+    """
     display_lower = display.lower()
 
     if display_lower in SKIP_TERMS:
         return 0  # skip entirely
+
+    # --term promotion: override ambiguity for specific terms
+    if promote_terms and display_lower in promote_terms:
+        return 2
 
     # Entire types that are too ambiguous for auto-linking
     if scc_type in TIER3_TYPES:
@@ -153,7 +170,7 @@ def build_plural_forms(display: str) -> list[str]:
     return forms
 
 
-def load_terms(scc_path: str) -> list[LinkTerm]:
+def load_terms(scc_path: str, promote_terms: set[str] | None = None) -> list[LinkTerm]:
     """Load and classify all linkable terms from scc_to_path.json."""
     with open(scc_path) as f:
         scc_map = json.load(f)
@@ -186,7 +203,7 @@ def load_terms(scc_path: str) -> list[LinkTerm]:
         item_slug = parts[2]
         display = item_slug.replace("-", " ")
 
-        tier = classify_tier(display, scc_type)
+        tier = classify_tier(display, scc_type, promote_terms=promote_terms)
         if tier == 0:
             continue
 
@@ -421,16 +438,40 @@ def main():
     parser.add_argument("--report", type=str, default=None, help="Path to write tier 3 review report")
     parser.add_argument("--tier", type=str, default="2",
                         help="Max tier to auto-apply: 1, 2, 3, or all (default: 2)")
+    parser.add_argument("--term", type=str, default=None,
+                        help="Promote a single tier-3 term for review. Uses the kebab-case "
+                             "slug (e.g., 'noble', 'animal-form'). Implies --tier 2 so only "
+                             "the promoted term (plus existing tier 1/2) is applied.")
     args = parser.parse_args()
 
-    max_tier = 3 if args.tier == "all" else int(args.tier)
+    # --term implies tier 2: we promote the one term to tier 2 so it gets
+    # auto-linked alongside the safe tiers, while everything else stays put.
+    promote_terms: set[str] | None = None
+    if args.term:
+        # Convert slug to display form for matching
+        promote_display = args.term.replace("-", " ").lower()
+        promote_terms = {promote_display}
+        max_tier = 2
+        print(f"Single-term mode: promoting '{promote_display}' from tier 3 -> tier 2")
+    else:
+        max_tier = 3 if args.tier == "all" else int(args.tier)
 
     print(f"Loading SCC terms from {args.scc_json}...")
-    terms = load_terms(args.scc_json)
+    terms = load_terms(args.scc_json, promote_terms=promote_terms)
     print(f"  Loaded {len(terms)} linkable terms")
     print(f"    Tier 1 (multi-word, auto): {sum(1 for t in terms if t.tier == 1)}")
     print(f"    Tier 2 (single-word, auto): {sum(1 for t in terms if t.tier == 2)}")
     print(f"    Tier 3 (ambiguous, review): {sum(1 for t in terms if t.tier == 3)}")
+
+    # In --term mode, filter to only the promoted term so tier 1/2 don't
+    # re-process already-linked content (they'd be skipped by is_inside_link
+    # anyway, but this keeps output clean and fast).
+    if promote_terms:
+        terms = [t for t in terms if t.display.lower() in promote_terms]
+        if not terms:
+            print(f"\nError: no linkable term found for slug '{args.term}'")
+            sys.exit(1)
+        print(f"  Filtered to {len(terms)} term(s): {[t.display for t in terms]}")
 
     print(f"\nProcessing {args.markdown_file} (max_tier={max_tier})...")
     output_lines, applied, review = process_file(
