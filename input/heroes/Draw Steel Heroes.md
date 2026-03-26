@@ -4959,7 +4959,7 @@ Your [censor](scc:mcdm.heroes.v1:class:censor) order grants you two features, as
 
 | Order                    | Features                             |
 |--------------------------|--------------------------------------|
-| Exorcist                 | Saint's Vigilance, [A Sense for Truth](scc:mcdm.heroes.v1:feature.trait.censor.2nd-level-feature:a-sense-for-truth) |
+| Exorcist                 | [Saint's Vigilance](scc:mcdm.heroes.v1:feature.trait.censor.2nd-level-feature:saints-vigilance), [A Sense for Truth](scc:mcdm.heroes.v1:feature.trait.censor.2nd-level-feature:a-sense-for-truth) |
 | Oracle                   | [It Was Foretold](scc:mcdm.heroes.v1:feature.trait.censor.2nd-level-feature:it-was-foretold), [Judge of Character](scc:mcdm.heroes.v1:feature.trait.censor.2nd-level-feature:judge-of-character)  |
 | Paragon                  | [Lead by Example](scc:mcdm.heroes.v1:feature.trait.censor.2nd-level-feature:lead-by-example), [Stalwart Icon](scc:mcdm.heroes.v1:feature.trait.censor.2nd-level-feature:stalwart-icon)       |
 
@@ -5160,7 +5160,7 @@ You gain a domain feature from your domain, as shown on the 4th-Level [Censor](s
 | Creation                         | [Improved Hands of the Maker](scc:mcdm.heroes.v1:feature.trait.conduit.4th-level-feature:improved-hands-of-the-maker) |
 | Death                            | Seance                      |
 | Fate                             | [Oracular Warning](scc:mcdm.heroes.v1:feature.trait.conduit.4th-level-feature:oracular-warning)            |
-| Knowledge                        | Saint's Epiphany            |
+| Knowledge                        | [Saint's Epiphany](scc:mcdm.heroes.v1:feature.trait.conduit.4th-level-feature:saints-epiphany)            |
 | Life                             | [Blessing of Life](scc:mcdm.heroes.v1:feature.trait.conduit.4th-level-feature:blessing-of-life)            |
 | Love                             | [Invocation of the Heart](scc:mcdm.heroes.v1:feature.trait.conduit.4th-level-feature:invocation-of-the-heart)     |
 | Nature                           | [Wode Road](scc:mcdm.heroes.v1:feature.trait.conduit.4th-level-feature:wode-road)                   |
@@ -5453,7 +5453,7 @@ You gain a domain feature from your domain, as shown on the 7th-Level [Censor](s
 | Knowledge  | Gods' Library                |
 | Life       | [Font of Grace](scc:mcdm.heroes.v1:feature.trait.conduit.7th-level-feature:font-of-grace)                |
 | Love       | [Covenant of the Heart](scc:mcdm.heroes.v1:feature.trait.conduit.7th-level-feature:covenant-of-the-heart)        |
-| Nature     | Nature's Bounty              |
+| Nature     | [Nature's Bounty](scc:mcdm.heroes.v1:feature.trait.conduit.7th-level-feature:natures-bounty)              |
 | Protection | [Blessing of Iron](scc:mcdm.heroes.v1:feature.trait.conduit.7th-level-feature:blessing-of-iron)             |
 | Storm      | [Ride the Lightning](scc:mcdm.heroes.v1:feature.trait.censor.7th-level-feature:ride-the-lightning)           |
 | Sun        | [Light of the Burning Sun](scc:mcdm.heroes.v1:feature.trait.conduit.7th-level-feature:light-of-the-burning-sun)     |
@@ -5835,9 +5835,9 @@ The power of the gods flows through you! As a vessel for divine power, you don't
 | 4th   | Blessed Domains, Characteristic Increase, Domain Feature, Perk, Skill Increase                                                       | Two signature, 3, 5, 7        | 5                 |
 | 5th   | Domain Feature, 9-Piety Ability                                                                                                      | Two signature, 3, 5, 7, 9     | 5                 |
 | 6th   | [Burgeoning Saint](scc:mcdm.heroes.v1:feature.trait.conduit.6th-level-feature:burgeoning-saint), Perk, Domain Ability                                                                                               | Two signature, 3, 5, 7, 9     | 5, 9              |
-| 7th   | Characteristic Increase, Domain Feature, Faithful's Reward, Skill Increase                                                           | Two signature, 3, 5, 7, 9     | 5, 9              |
+| 7th   | Characteristic Increase, Domain Feature, [Faithful's Reward](scc:mcdm.heroes.v1:feature.trait.conduit.7th-level-feature:faithfuls-reward), Skill Increase                                                           | Two signature, 3, 5, 7, 9     | 5, 9              |
 | 8th   | Domain Feature, Perk, 11-Piety Ability                                                                                               | Two signature, 3, 5, 7, 9, 11 | 5, 9              |
-| 9th   | Domain Ability, Faith's Sword, Ordained                                                                                              | Two signature, 3, 5, 7, 9, 11 | 5, 9, 11          |
+| 9th   | Domain Ability, [Faith's Sword](scc:mcdm.heroes.v1:feature.trait.conduit.9th-level-feature:faiths-sword), Ordained                                                                                              | Two signature, 3, 5, 7, 9, 11 | 5, 9, 11          |
 | 10th  | Avatar, Characteristic Increase, Divine Power, [Most Pious](scc:mcdm.heroes.v1:feature.trait.conduit.10th-level-feature:most-pious), Perk, Skill Increase                                                      | Two signature, 3, 5, 7, 9, 11 | 5, 9, 11          |
 
 ### 1st-Level Features
@@ -5868,7 +5868,7 @@ You lose any remaining piety at the end of the encounter.
 
 ##### Piety Outside of Combat
 
-Though you can't gain piety outside of combat, you can use your heroic abilities and effects that cost piety without spending it. Whenever you use an ability or effect outside of combat that costs piety, you can't use that same ability or effect outside of combat again until you earn 1 or more Victories or finish a respite.
+Though you can't gain [piety outside of combat](scc:mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:piety-outside-of-combat), you can use your heroic abilities and effects that cost piety without spending it. Whenever you use an ability or effect outside of combat that costs piety, you can't use that same ability or effect outside of combat again until you earn 1 or more Victories or finish a respite.
 
 When you use an ability outside of combat that lets you spend unlimited piety on its effect, such as [Healing Grace](scc:mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:healing-grace), you can use it as if you had spent an amount of piety equal to your Victories.
 
@@ -6701,7 +6701,7 @@ Choose one of your domains. You gain a domain feature for that domain, as shown 
 | Creation   | [Improved Hands of the Maker](scc:mcdm.heroes.v1:feature.trait.conduit.4th-level-feature:improved-hands-of-the-maker) |
 | Death      | Seance                      |
 | Fate       | [Oracular Warning](scc:mcdm.heroes.v1:feature.trait.conduit.4th-level-feature:oracular-warning)            |
-| Knowledge  | Saint's Epiphany            |
+| Knowledge  | [Saint's Epiphany](scc:mcdm.heroes.v1:feature.trait.conduit.4th-level-feature:saints-epiphany)            |
 | Life       | [Blessing of Life](scc:mcdm.heroes.v1:feature.trait.conduit.4th-level-feature:blessing-of-life)            |
 | Love       | [Invocation of the Heart](scc:mcdm.heroes.v1:feature.trait.conduit.4th-level-feature:invocation-of-the-heart)     |
 | Nature     | [Wode Road](scc:mcdm.heroes.v1:feature.trait.conduit.4th-level-feature:wode-road)                   |
@@ -7055,7 +7055,7 @@ Choose one of your domains. You gain a domain feature for that domain, as shown 
 | Knowledge  | Gods' Library                |
 | Life       | [Font of Grace](scc:mcdm.heroes.v1:feature.trait.conduit.7th-level-feature:font-of-grace)                |
 | Love       | [Covenant of the Heart](scc:mcdm.heroes.v1:feature.trait.conduit.7th-level-feature:covenant-of-the-heart)        |
-| Nature     | Nature's Bounty              |
+| Nature     | [Nature's Bounty](scc:mcdm.heroes.v1:feature.trait.conduit.7th-level-feature:natures-bounty)              |
 | Protection | [Blessing of Iron](scc:mcdm.heroes.v1:feature.trait.conduit.7th-level-feature:blessing-of-iron)             |
 | Storm      | Thunderstruck                |
 | Sun        | [Light of the Burning Sun](scc:mcdm.heroes.v1:feature.trait.conduit.7th-level-feature:light-of-the-burning-sun)     |
@@ -9400,7 +9400,7 @@ Your [primordial aspect](scc:mcdm.heroes.v1:feature.trait.fury.1st-level-feature
 |---------------------------|--------------------------|
 | Berserker                 | [Immovable Object](scc:mcdm.heroes.v1:feature.trait.fury.3rd-level-feature:immovable-object)         |
 | Reaver                    | [See Through Their Tricks](scc:mcdm.heroes.v1:feature.trait.fury.3rd-level-feature:see-through-their-tricks) |
-| Stormwight                | Nature's Knight          |
+| Stormwight                | [Nature's Knight](scc:mcdm.heroes.v1:feature.trait.fury.3rd-level-feature:natures-knight)          |
 
 ##### Immovable Object
 
@@ -9600,7 +9600,7 @@ As a 6th-level [fury](scc:mcdm.heroes.v1:class:fury), you gain the following fea
 
 As your connection to the power of the Primordial Chaos grows ever stronger, you automatically sense any elemental creatures or magic sources of elemental power, such as a lava pool or a lake overlapping with Quintessence, within 1 mile of you.
 
-Additionally, you can speak with elemental creatures, and when you are in a negotiation with an elemental, you treat your Renown as 1 higher than usual. This stacks with the increase to your effective Renown provided by the Nature's Knight aspect feature (see 3rd-Level Features). When any elemental first becomes aware of you in combat, if they have P < AVERAGE, they are [frightened](scc:mcdm.heroes.v1:condition:frightened) of you (save ends).
+Additionally, you can speak with elemental creatures, and when you are in a negotiation with an elemental, you treat your Renown as 1 higher than usual. This stacks with the increase to your effective Renown provided by the [Nature's Knight](scc:mcdm.heroes.v1:feature.trait.fury.3rd-level-feature:natures-knight) aspect feature (see 3rd-Level Features). When any elemental first becomes aware of you in combat, if they have P < AVERAGE, they are [frightened](scc:mcdm.heroes.v1:condition:frightened) of you (save ends).
 
 #### Primordial Portal
 
@@ -9766,7 +9766,7 @@ Your [primordial aspect](scc:mcdm.heroes.v1:feature.trait.fury.1st-level-feature
 
 ##### Menagerie
 
-You can use all stormwight kits. During a respite, you can choose to swap your stormwight kit and still take another respite activity. Your Nature's Knight feature now lets you automatically sense the presence of animals within 1 mile of you. Additionally, whenever you make a test to track another creature, you can roll three dice and choose which two to use.
+You can use all stormwight kits. During a respite, you can choose to swap your stormwight kit and still take another respite activity. Your [Nature's Knight](scc:mcdm.heroes.v1:feature.trait.fury.3rd-level-feature:natures-knight) feature now lets you automatically sense the presence of animals within 1 mile of you. Additionally, whenever you make a test to track another creature, you can roll three dice and choose which two to use.
 
 ##### A Step Ahead
 
@@ -11531,7 +11531,7 @@ Your [shadow](scc:mcdm.heroes.v1:class:shadow) college grants you one or two fea
 
 | College         | Feature                    |
 |-----------------|----------------------------|
-| Black Ash       | Black Ash Teleport         |
+| Black Ash       | [Black Ash Teleport](scc:mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:black-ash-teleport)         |
 | Caustic Alchemy | [Coat the Blade](scc:mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:coat-the-blade), [Smoke Bomb](scc:mcdm.heroes.v1:feature.trait.shadow.1st-level-feature:smoke-bomb) |
 | Harlequin Mask  | I'm No Threat              |
 
@@ -13534,7 +13534,7 @@ Your [tactical doctrine](scc:mcdm.heroes.v1:feature.trait.tactician.1st-level-fe
 
 Choose one of the following abilities.
 
-> ######## Squad! Hit and Run! (11 Focus)
+> ######## Squad! [Hit and Run](scc:mcdm.heroes.v1:feature.ability.fury.1st-level-feature:hit-and-run)! (11 Focus)
 >
 > *I had to pry this secret from the shadow colleges.*
 >
@@ -15101,7 +15101,7 @@ There is no visible text in the image provided. The image appears to show a deco
 | 4th   | Characteristic Increase, [Melodrama](scc:mcdm.heroes.v1:feature.trait.troubadour.4th-level-feature:melodrama), Perk, Skill, Zeitgeist                                                                      | Signature, 3, 5, 7        | 5                   |
 | 5th   | Class Act Feature, 9-Drama Ability                                                                                              | Signature, 3, 5, 7, 9     | 5                   |
 | 6th   | Perk, [Spotlight](scc:mcdm.heroes.v1:feature.ability.troubadour.6th-level-feature:spotlight), Class Act Ability                                                                                              | Signature, 3, 5, 7, 9     | 5, 9                |
-| 7th   | Characteristic Increase, A Muse's Muse, [Equal Billing](scc:mcdm.heroes.v1:feature.trait.troubadour.7th-level-feature:equal-billing), Skill                                                                    | Signature, 5, 7, 9        | 5, 9                |
+| 7th   | Characteristic Increase, [A Muse's Muse](scc:mcdm.heroes.v1:feature.trait.troubadour.7th-level-feature:a-muses-muse), [Equal Billing](scc:mcdm.heroes.v1:feature.trait.troubadour.7th-level-feature:equal-billing), Skill                                                                    | Signature, 5, 7, 9        | 5, 9                |
 | 8th   | Perk, Class Act Feature, 11-Drama Ability                                                                                       | Signature, 3, 5, 7, 9, 11 | 5, 9, 11            |
 | 9th   | [Roar of the Crowd](scc:mcdm.heroes.v1:feature.trait.troubadour.9th-level-feature:roar-of-the-crowd), Class Act Ability                                                                                            | Signature, 3, 5, 7, 9, 11 | 5, 9, 11            |
 | 10th  | Applause, Characteristic Increase, Dramaturgy, [Greatest of All Time](scc:mcdm.heroes.v1:feature.trait.troubadour.10th-level-feature:greatest-of-all-time), Perk, Skill                                                | Signature, 3, 5, 7, 9, 11 | 5, 9, 11            |
@@ -21817,7 +21817,7 @@ A hero can wield as many weapons, implements, suits of armor, or shields as they
 
 To gain the benefits of a weapon or armor treasure, the treasure must have keywords that match the equipment of your kit. For instance, a hero using the [Warrior Priest](scc:mcdm.heroes.v1:kit:warrior-priest) kit can benefit from wearing a heavy armor treasure and wielding light weapon treasures, since those are part of that kit.
 
-If your hero doesn't use a kit, they can't gain benefits from using armor or weapon treasures unless they have a feature that says otherwise, such as the [conduit](scc:mcdm.heroes.v1:class:conduit)'s Prayer of Soldier's Skill.
+If your hero doesn't use a kit, they can't gain benefits from using armor or weapon treasures unless they have a feature that says otherwise, such as the [conduit](scc:mcdm.heroes.v1:class:conduit)'s [Prayer of Soldier's Skill](scc:mcdm.heroes.v1:feature.trait.conduit.1st-level-feature:prayer-of-soldiers-skill).
 
 A weapon's damage bonus only adds to melee abilities if your kit has a melee damage bonus. A weapon's damage bonus only adds to ranged abilities if your kit has a ranged damage bonus.
 

@@ -58,6 +58,7 @@ AMBIGUOUS_TERMS = {
     "animal form", "whirlwind", "teleport", "human", "devil", "when a creature moves", "climb", "jump", "swim", "vertical",
     # Titles/features with generic English usage
     "doomed", "spotlight",
+    "primordial power", "null field",
 }
 
 # Terms that should NEVER be linked (too generic or would create noise)
@@ -253,11 +254,22 @@ def is_inside_quotes(line: str, match_start: int, match_end: int) -> bool:
     return False
 
 
+def _possessive_pattern(escaped_form: str) -> str:
+    """Expand an escaped form so possessive-s also matches apostrophe forms.
+
+    Slugs drop apostrophes: "saints vigilance" should match both
+    "Saints Vigilance" and "Saint's Vigilance".  We replace each
+    ``s<space>`` with ``(?:'?s)<space>`` so the apostrophe before the
+    trailing s is optional.
+    """
+    return re.sub(r"s(\\ )", r"(?:'?s)\1", escaped_form)
+
+
 def build_pattern(term: LinkTerm) -> re.Pattern:
     """Build a regex pattern that matches the term and its variants."""
-    forms = [re.escape(term.display)]
+    forms = [_possessive_pattern(re.escape(term.display))]
     for v in term.variants:
-        forms.append(re.escape(v))
+        forms.append(_possessive_pattern(re.escape(v)))
 
     # Sort longest first to prefer longer matches
     forms.sort(key=len, reverse=True)
