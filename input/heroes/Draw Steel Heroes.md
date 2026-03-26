@@ -5243,7 +5243,7 @@ Your [censor](scc:mcdm.heroes.v1:class:censor) order grants you a feature, as sh
 | Order                    | Feature       |
 |--------------------------|---------------|
 | Exorcist                 | [Evil Revealed](scc:mcdm.heroes.v1:feature.trait.censor.5th-level-feature:evil-revealed) |
-| Oracle                   | Prophecy      |
+| Oracle                   | [Prophecy](scc:mcdm.heroes.v1:feature.trait.censor.5th-level-feature:prophecy)      |
 | Paragon                  | [Stand Fast](scc:mcdm.heroes.v1:feature.trait.censor.5th-level-feature:stand-fast)!   |
 
 ##### Evil Revealed
