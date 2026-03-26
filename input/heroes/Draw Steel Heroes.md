@@ -4529,7 +4529,7 @@ As a [censor](scc:mcdm.heroes.v1:class:censor), you're at your best against the 
 | 7th   | Characteristic Increase, Domain Feature, [Focused Wrath](scc:mcdm.heroes.v1:feature.trait.censor.7th-level-feature:focused-wrath), Skill                                              | Signature, 3, 5, 7, 9     | 5, 9               |
 | 8th   | Perk, Order Feature, 11-Wrath Ability                                                                      | Signature, 3, 5, 7, 9, 11 | 5, 9               |
 | 9th   | [Improved Implement of Wrath](scc:mcdm.heroes.v1:feature.trait.censor.9th-level-feature:improved-implement-of-wrath), Order Ability                                                                 | Signature, 3, 5, 7, 9, 11 | 5, 9, 11           |
-| 10th  | Characteristic Increase, Perk, Skill, Templar, Virtue, [Wrath of the Gods](scc:mcdm.heroes.v1:feature.trait.censor.10th-level-feature:wrath-of-the-gods)                                   | Signature, 3, 5, 7, 9, 11 | 5, 9, 11           |
+| 10th  | Characteristic Increase, Perk, Skill, [Templar](scc:mcdm.heroes.v1:feature.trait.censor.10th-level-feature:templar), Virtue, [Wrath of the Gods](scc:mcdm.heroes.v1:feature.trait.censor.10th-level-feature:wrath-of-the-gods)                                   | Signature, 3, 5, 7, 9, 11 | 5, 9, 11           |
 
 ### 1st-Level Features
 
@@ -5158,7 +5158,7 @@ You gain a domain feature from your domain, as shown on the 4th-Level [Censor](s
 | Domain                           | Feature                     |
 |----------------------------------|-----------------------------|
 | Creation                         | [Improved Hands of the Maker](scc:mcdm.heroes.v1:feature.trait.conduit.4th-level-feature:improved-hands-of-the-maker) |
-| Death                            | Seance                      |
+| Death                            | [Seance](scc:mcdm.heroes.v1:feature.trait.censor.4th-level-feature:seance)                      |
 | Fate                             | [Oracular Warning](scc:mcdm.heroes.v1:feature.trait.conduit.4th-level-feature:oracular-warning)            |
 | Knowledge                        | [Saint's Epiphany](scc:mcdm.heroes.v1:feature.trait.conduit.4th-level-feature:saints-epiphany)            |
 | Life                             | [Blessing of Life](scc:mcdm.heroes.v1:feature.trait.conduit.4th-level-feature:blessing-of-life)            |
@@ -6699,7 +6699,7 @@ Choose one of your domains. You gain a domain feature for that domain, as shown 
 | Domain     | Feature                     |
 |------------|-----------------------------|
 | Creation   | [Improved Hands of the Maker](scc:mcdm.heroes.v1:feature.trait.conduit.4th-level-feature:improved-hands-of-the-maker) |
-| Death      | Seance                      |
+| Death      | [Seance](scc:mcdm.heroes.v1:feature.trait.censor.4th-level-feature:seance)                      |
 | Fate       | [Oracular Warning](scc:mcdm.heroes.v1:feature.trait.conduit.4th-level-feature:oracular-warning)            |
 | Knowledge  | [Saint's Epiphany](scc:mcdm.heroes.v1:feature.trait.conduit.4th-level-feature:saints-epiphany)            |
 | Life       | [Blessing of Life](scc:mcdm.heroes.v1:feature.trait.conduit.4th-level-feature:blessing-of-life)            |
@@ -16122,7 +16122,7 @@ Your [troubadour](scc:mcdm.heroes.v1:class:troubadour) class act grants you a fe
 | Class Act | Feature         |
 |-----------|-----------------|
 | Auteur    | [Deleted Scene](scc:mcdm.heroes.v1:feature.trait.troubadour.8th-level-feature:deleted-scene)   |
-| Duelist   | Masterwork      |
+| Duelist   | [Masterwork](scc:mcdm.heroes.v1:feature.trait.troubadour.8th-level-feature:masterwork)      |
 | Virtuoso  | [Crowd Favorites](scc:mcdm.heroes.v1:feature.trait.troubadour.8th-level-feature:crowd-favorites) |
 
 ##### Crowd Favorites
@@ -17758,7 +17758,7 @@ Complications are presented in alphabetical order.
 | 68   | [Raised by Beasts](scc:mcdm.heroes.v1:complication:raised-by-beasts)                   |
 | 69   | [Refugee](scc:mcdm.heroes.v1:complication:refugee)                            |
 | 70   | [Rival](scc:mcdm.heroes.v1:complication:rival)                              |
-| 71   | Rogue [Talent](scc:mcdm.heroes.v1:class:talent)                       |
+| 71   | [Rogue Talent](scc:mcdm.heroes.v1:complication:rogue-talent)                       |
 | 72   | [Runaway](scc:mcdm.heroes.v1:complication:runaway)                            |
 | 73   | [Searching for a Cure](scc:mcdm.heroes.v1:complication:searching-for-a-cure)               |
 | 74   | [Secret Identity](scc:mcdm.heroes.v1:complication:secret-identity)                    |
