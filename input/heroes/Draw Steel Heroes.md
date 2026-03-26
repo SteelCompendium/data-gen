@@ -15098,7 +15098,7 @@ There is no visible text in the image provided. The image appears to show a deco
 | 1st   | [Troubadour](scc:mcdm.heroes.v1:class:troubadour) Class Act, Drama, Kit, [Scene Partner](scc:mcdm.heroes.v1:feature.trait.troubadour.1st-level-feature:scene-partner), [Routines](scc:mcdm.heroes.v1:feature.trait.troubadour.1st-level-feature:routines), Class Act Features, Class Act Triggered Action, [Troubadour](scc:mcdm.heroes.v1:class:troubadour) Abilities | Signature, 3, 5           | -                   |
 | 2nd   | [Appeal to the Muses](scc:mcdm.heroes.v1:feature.trait.troubadour.2nd-level-feature:appeal-to-the-muses), Invocation, Perk, Class Act Ability                                                                        | Signature, 3, 5           | 5                   |
 | 3rd   | Class Act Feature, 7-Drama Ability                                                                                              | Signature, 3, 5, 7        | 5                   |
-| 4th   | Characteristic Increase, [Melodrama](scc:mcdm.heroes.v1:feature.trait.troubadour.4th-level-feature:melodrama), Perk, Skill, Zeitgeist                                                                      | Signature, 3, 5, 7        | 5                   |
+| 4th   | Characteristic Increase, [Melodrama](scc:mcdm.heroes.v1:feature.trait.troubadour.4th-level-feature:melodrama), Perk, Skill, [Zeitgeist](scc:mcdm.heroes.v1:feature.trait.troubadour.4th-level-feature:zeitgeist)                                                                      | Signature, 3, 5, 7        | 5                   |
 | 5th   | Class Act Feature, 9-Drama Ability                                                                                              | Signature, 3, 5, 7, 9     | 5                   |
 | 6th   | Perk, [Spotlight](scc:mcdm.heroes.v1:feature.ability.troubadour.6th-level-feature:spotlight), Class Act Ability                                                                                              | Signature, 3, 5, 7, 9     | 5, 9                |
 | 7th   | Characteristic Increase, [A Muse's Muse](scc:mcdm.heroes.v1:feature.trait.troubadour.7th-level-feature:a-muses-muse), [Equal Billing](scc:mcdm.heroes.v1:feature.trait.troubadour.7th-level-feature:equal-billing), Skill                                                                    | Signature, 5, 7, 9        | 5, 9                |
@@ -16157,7 +16157,7 @@ Whenever a creature within distance of your [Dramatic Monologue](scc:mcdm.heroes
 
 Choose one of your signature abilities and name it after yourself. You always have this ability available, even if it is sourced from a kit you switch out. Whenever you use this ability, you gain an edge and 1 surge that you can use only on this ability.
 
-Additionally, when your named signature ability is the last ability you use in an encounter, you can immediately use the Hear Ye, Hear Ye! effect of your Zeitgeist feature to tell tales of your exploits after the encounter ends.
+Additionally, when your named signature ability is the last ability you use in an encounter, you can immediately use the Hear Ye, Hear Ye! effect of your [Zeitgeist](scc:mcdm.heroes.v1:feature.trait.troubadour.4th-level-feature:zeitgeist) feature to tell tales of your exploits after the encounter ends.
 
 #### 11-Drama Ability
 
