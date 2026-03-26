@@ -5447,18 +5447,18 @@ You gain a domain feature from your domain, as shown on the 7th-Level [Censor](s
 
 | Domain     | Feature                      |
 |------------|------------------------------|
-| Creation   | [Divine Quartermaster](scc:mcdm.heroes.v1:feature.trait.conduit.7th-level-feature:divine-quartermaster)         |
-| Death      | [Word of Death Deferred](scc:mcdm.heroes.v1:feature.trait.conduit.7th-level-feature:word-of-death-deferred)       |
-| Fate       | [Word of Fate Denied](scc:mcdm.heroes.v1:feature.trait.conduit.7th-level-feature:word-of-fate-denied)          |
-| Knowledge  | Gods' Library                |
-| Life       | [Font of Grace](scc:mcdm.heroes.v1:feature.trait.conduit.7th-level-feature:font-of-grace)                |
-| Love       | [Covenant of the Heart](scc:mcdm.heroes.v1:feature.trait.conduit.7th-level-feature:covenant-of-the-heart)        |
-| Nature     | [Nature's Bounty](scc:mcdm.heroes.v1:feature.trait.conduit.7th-level-feature:natures-bounty)              |
-| Protection | [Blessing of Iron](scc:mcdm.heroes.v1:feature.trait.conduit.7th-level-feature:blessing-of-iron)             |
+| Creation   | [Divine Quartermaster](scc:mcdm.heroes.v1:feature.trait.censor.7th-level-feature:divine-quartermaster)         |
+| Death      | [Word of Death Deferred](scc:mcdm.heroes.v1:feature.trait.censor.7th-level-feature:word-of-death-deferred)       |
+| Fate       | [Word of Fate Denied](scc:mcdm.heroes.v1:feature.trait.censor.7th-level-feature:word-of-fate-denied)          |
+| Knowledge  | [Gods' Library](scc:mcdm.heroes.v1:feature.trait.censor.7th-level-feature:gods-library)                |
+| Life       | [Font of Grace](scc:mcdm.heroes.v1:feature.trait.censor.7th-level-feature:font-of-grace)                |
+| Love       | [Covenant of the Heart](scc:mcdm.heroes.v1:feature.trait.censor.7th-level-feature:covenant-of-the-heart)        |
+| Nature     | [Nature's Bounty](scc:mcdm.heroes.v1:feature.trait.censor.7th-level-feature:natures-bounty)              |
+| Protection | [Blessing of Iron](scc:mcdm.heroes.v1:feature.trait.censor.7th-level-feature:blessing-of-iron)             |
 | Storm      | [Ride the Lightning](scc:mcdm.heroes.v1:feature.trait.censor.7th-level-feature:ride-the-lightning)           |
-| Sun        | [Light of the Burning Sun](scc:mcdm.heroes.v1:feature.trait.conduit.7th-level-feature:light-of-the-burning-sun)     |
-| Trickery   | [Trinity of Trickery](scc:mcdm.heroes.v1:feature.trait.conduit.7th-level-feature:trinity-of-trickery)          |
-| War        | [Your Triumphs Are Remembered](scc:mcdm.heroes.v1:feature.trait.conduit.7th-level-feature:your-triumphs-are-remembered) |
+| Sun        | [Light of the Burning Sun](scc:mcdm.heroes.v1:feature.trait.censor.7th-level-feature:light-of-the-burning-sun)     |
+| Trickery   | [Trinity of Trickery](scc:mcdm.heroes.v1:feature.trait.censor.7th-level-feature:trinity-of-trickery)          |
+| War        | [Your Triumphs Are Remembered](scc:mcdm.heroes.v1:feature.trait.censor.7th-level-feature:your-triumphs-are-remembered) |
 
 ##### Blessing of Iron
 
@@ -7052,12 +7052,12 @@ Choose one of your domains. You gain a domain feature for that domain, as shown 
 | Creation   | [Divine Quartermaster](scc:mcdm.heroes.v1:feature.trait.conduit.7th-level-feature:divine-quartermaster)         |
 | Death      | [Word of Death Deferred](scc:mcdm.heroes.v1:feature.trait.conduit.7th-level-feature:word-of-death-deferred)       |
 | Fate       | [Word of Fate Denied](scc:mcdm.heroes.v1:feature.trait.conduit.7th-level-feature:word-of-fate-denied)          |
-| Knowledge  | Gods' Library                |
+| Knowledge  | [Gods' Library](scc:mcdm.heroes.v1:feature.trait.conduit.7th-level-feature:gods-library)                |
 | Life       | [Font of Grace](scc:mcdm.heroes.v1:feature.trait.conduit.7th-level-feature:font-of-grace)                |
 | Love       | [Covenant of the Heart](scc:mcdm.heroes.v1:feature.trait.conduit.7th-level-feature:covenant-of-the-heart)        |
 | Nature     | [Nature's Bounty](scc:mcdm.heroes.v1:feature.trait.conduit.7th-level-feature:natures-bounty)              |
 | Protection | [Blessing of Iron](scc:mcdm.heroes.v1:feature.trait.conduit.7th-level-feature:blessing-of-iron)             |
-| Storm      | Thunderstruck                |
+| Storm      | [Thunderstruck](scc:mcdm.heroes.v1:feature.trait.conduit.7th-level-feature:thunderstruck)                |
 | Sun        | [Light of the Burning Sun](scc:mcdm.heroes.v1:feature.trait.conduit.7th-level-feature:light-of-the-burning-sun)     |
 | Trickery   | [Trinity of Trickery](scc:mcdm.heroes.v1:feature.trait.conduit.7th-level-feature:trinity-of-trickery)          |
 | War        | [Your Triumphs Are Remembered](scc:mcdm.heroes.v1:feature.trait.conduit.7th-level-feature:your-triumphs-are-remembered) |
