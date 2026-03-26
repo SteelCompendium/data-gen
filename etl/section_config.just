@@ -107,7 +107,7 @@ expand_general config_fpath:
             # to avoid over-matching generic ids like 'th-level-domain-feature'
             if ordinal_lit:
                 header_check = (
-                    "[.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6 or self::p]"
+                    "[./*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6]"
                     f"[contains(normalize-space(.), {ordinal_lit})]]"
                 )
                 pred = pred + header_check

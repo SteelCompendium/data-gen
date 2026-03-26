@@ -1,7 +1,7 @@
 global:
   source: "mcdm.heroes.v1"
 sections:
-    # abilities_config.just expects this ability to be "every-step...-death"
+  # abilities_config.just expects this ability to be "every-step...-death"
   - source: mcdm.heroes.v1
     header_path: censor/1st-level-features/every-step...-death
     item_name: Every Step... Death!
@@ -9,142 +9,142 @@ sections:
     type: feature/ability/censor/1st-level-feature
     feature_type: ability
     file_dpath: Abilities/Censor/1st-Level Features
-  # These abilities exist on both the censor and conduit so their ids in html are `-3` instead of `-1`
-  - source: mcdm.heroes.v1
-    header_path: conduit/1st-level-features/faithful-friend-3
-    item_name: Faithful Friend
-    item_id: faithful-friend
-    type: feature/ability/conduit/1st-level-feature
-    feature_type: ability
-    file_dpath: Abilities/Conduit/1st-Level Features
-    xpath: //section[@id='conduit' or (starts-with(@id, concat('conduit', '-')) and
-      not(translate(substring-after(@id, concat('conduit', '-')), '0123456789', '')))]//section[@id='st-level-features'
-      or (starts-with(@id, concat('st-level-features', '-')) and not(translate(substring-after(@id,
-      concat('st-level-features', '-')), '0123456789', '')))]//section[@id='faithful-friend-3'
-      or (starts-with(@id, concat('faithful-friend-3', '-')) and not(translate(substring-after(@id,
-      concat('faithful-friend-3', '-')), '0123456789', '')))]
-  - source: mcdm.heroes.v1
-    header_path: conduit/1st-level-features/grave-speech-3
-    item_name: Grave Speech
-    item_id: grave-speech
-    type: feature/ability/conduit/1st-level-feature
-    feature_type: ability
-    file_dpath: Abilities/Conduit/1st-Level Features
-    xpath: //section[@id='conduit' or (starts-with(@id, concat('conduit', '-')) and
-      not(translate(substring-after(@id, concat('conduit', '-')), '0123456789', '')))]//section[@id='st-level-features'
-      or (starts-with(@id, concat('st-level-features', '-')) and not(translate(substring-after(@id,
-      concat('st-level-features', '-')), '0123456789', '')))]//section[@id='grave-speech-3'
-      or (starts-with(@id, concat('grave-speech-3', '-')) and not(translate(substring-after(@id,
-      concat('grave-speech-3', '-')), '0123456789', '')))]
-  - source: mcdm.heroes.v1
-    header_path: conduit/1st-level-features/hands-of-the-maker-3
-    item_name: Hands of the Maker
-    item_id: hands-of-the-maker
-    type: feature/ability/conduit/1st-level-feature
-    feature_type: ability
-    file_dpath: Abilities/Conduit/1st-Level Features
-    xpath: //section[@id='conduit' or (starts-with(@id, concat('conduit', '-')) and
-      not(translate(substring-after(@id, concat('conduit', '-')), '0123456789', '')))]//section[@id='st-level-features'
-      or (starts-with(@id, concat('st-level-features', '-')) and not(translate(substring-after(@id,
-      concat('st-level-features', '-')), '0123456789', '')))]//section[@id='hands-of-the-maker-3'
-      or (starts-with(@id, concat('hands-of-the-maker-3', '-')) and not(translate(substring-after(@id,
-      concat('hands-of-the-maker-3', '-')), '0123456789', '')))]
-  - source: mcdm.heroes.v1
-    header_path: conduit/4th-level-features/blessing-of-secrets-3
-    item_name: Blessing of Secrets
-    item_id: blessing-of-secrets
-    type: feature/ability/conduit/4th-level-feature
-    feature_type: ability
-    file_dpath: Abilities/Conduit/4th-Level Features
-    xpath: //section[@id='conduit' or (starts-with(@id, concat('conduit', '-')) and
-      not(translate(substring-after(@id, concat('conduit', '-')), '0123456789', '')))]//section[@id='th-level-features'
-      or (starts-with(@id, concat('th-level-features', '-')) and not(translate(substring-after(@id,
-      concat('th-level-features', '-')), '0123456789', '')))]//section[@id='blessing-of-secrets-3'
-      or (starts-with(@id, concat('blessing-of-secrets-3', '-')) and not(translate(substring-after(@id,
-      concat('blessing-of-secrets-3', '-')), '0123456789', '')))]
-
-  # Because these are in the form `.* (.*)` the code thinks they are abilities, but they are not
-  - source: mcdm.heroes.v1
-    header_path: null/7th-level-features/psi-boost
-    item_name: Psi Boost
-    type: feature/trait/null/7th-level-feature
-    feature_type: trait
-    file_dpath: Features/Null/7th-Level Features
-    xpath: "//section[@id='null']//section[@id='psi-boost']"
-  - source: mcdm.heroes.v1
-    header_path: talent/6th-level-features/psi-boost-1
-    item_name: Psi Boost
-    type: feature/trait/talent/6th-level-feature
-    feature_type: trait
-    file_dpath: Features/Talent/6th-Level Features
-    xpath: "//section[@id='talent']//section[@id='psi-boost-1']"
-
-  # These features are not a leaf-level feature (has tables) so they dont get picked up
-  - source: mcdm.heroes.v1
-    header_path: elementalist/1st-level-features/specialization-triggered-action
-    item_name: Specialization Triggered Action
-    item_id: specialization-triggered-action
-    type: feature/trait/elementalist/1st-level-feature
-    feature_type: trait
-    file_dpath: Features/Elementalist/1st-Level Features
-  - source: mcdm.heroes.v1
-    header_path: elementalist/2nd-level-features/disciple-of-the-green
-    item_name: Disciple of the Green
-    item_id: disciple-of-the-green
-    type: feature/trait/elementalist/2nd-level-feature
-    feature_type: trait
-    file_dpath: Features/Elementalist/2nd-Level Features
-  - source: mcdm.heroes.v1
-    header_path: elementalist/4th-level-features/mantle-of-essence
-    item_name: Mantle of Essence
-    item_id: mantle-of-essence
-    type: feature/trait/elementalist/4th-level-feature
-    feature_type: trait
-    file_dpath: Features/Elementalist/4th-Level Features
-
-  - source: mcdm.heroes.v1
-    header_path: fury/1st-level-features/growing-ferocity
-    item_name: Growing Ferocity
-    item_id: growing-ferocity
-    type: feature/trait/fury/1st-level-feature
-    feature_type: trait
-    file_dpath: Features/Fury/1st-Level Features
-  - source: mcdm.heroes.v1
-    header_path: fury/1st-level-features/aspect-triggered-action
-    item_name: Aspect Triggered Action
-    item_id: aspect-triggered-action
-    type: feature/trait/fury/1st-level-feature
-    feature_type: trait
-    file_dpath: Features/Fury/1st-Level Features
-  # TODO - all the stormwight kits need to get added
-
-  - source: mcdm.heroes.v1
-    header_path: shadow/1st-level-features/college-triggered-action
-    item_name: College Triggered Action
-    item_id: college-triggered-action
-    type: feature/trait/shadow/1st-level-feature
-    feature_type: trait
-    file_dpath: Features/Shadow/1st-Level Features
-
-  - source: mcdm.heroes.v1
-    header_path: tactician/1st-level-features/doctrine-triggered-action
-    item_name: Doctrine Triggered Action
-    item_id: doctrine-triggered-action
-    type: feature/trait/tactician/1st-level-feature
-    feature_type: trait
-    file_dpath: Features/Tactician/1st-Level Features
-
-  - source: mcdm.heroes.v1
-    header_path: troubadour/1st-level-features/class-act-triggered-action
-    item_name: Class Act Triggered Action
-    item_id: class-act-triggered-action
-    type: feature/trait/troubadour/1st-level-feature
-    feature_type: trait
-    file_dpath: Features/Troubadour/1st-Level Features
-  - source: mcdm.heroes.v1
-    header_path: troubadour/4th-level-features/zeitgeist
-    item_name: Zeitgeist
-    item_id: zeitgeist
-    type: feature/trait/troubadour/4th-level-feature
-    feature_type: trait
-    file_dpath: Features/Troubadour/4th-Level Features
+#  # These abilities exist on both the censor and conduit so their ids in html are `-3` instead of `-1`
+#  - source: mcdm.heroes.v1
+#    header_path: conduit/1st-level-features/faithful-friend-3
+#    item_name: Faithful Friend
+#    item_id: faithful-friend
+#    type: feature/ability/conduit/1st-level-feature
+#    feature_type: ability
+#    file_dpath: Abilities/Conduit/1st-Level Features
+#    xpath: //section[@id='conduit' or (starts-with(@id, concat('conduit', '-')) and
+#      not(translate(substring-after(@id, concat('conduit', '-')), '0123456789', '')))]//section[@id='st-level-features'
+#      or (starts-with(@id, concat('st-level-features', '-')) and not(translate(substring-after(@id,
+#      concat('st-level-features', '-')), '0123456789', '')))]//section[@id='faithful-friend-3'
+#      or (starts-with(@id, concat('faithful-friend-3', '-')) and not(translate(substring-after(@id,
+#      concat('faithful-friend-3', '-')), '0123456789', '')))]
+#  - source: mcdm.heroes.v1
+#    header_path: conduit/1st-level-features/grave-speech-3
+#    item_name: Grave Speech
+#    item_id: grave-speech
+#    type: feature/ability/conduit/1st-level-feature
+#    feature_type: ability
+#    file_dpath: Abilities/Conduit/1st-Level Features
+#    xpath: //section[@id='conduit' or (starts-with(@id, concat('conduit', '-')) and
+#      not(translate(substring-after(@id, concat('conduit', '-')), '0123456789', '')))]//section[@id='st-level-features'
+#      or (starts-with(@id, concat('st-level-features', '-')) and not(translate(substring-after(@id,
+#      concat('st-level-features', '-')), '0123456789', '')))]//section[@id='grave-speech-3'
+#      or (starts-with(@id, concat('grave-speech-3', '-')) and not(translate(substring-after(@id,
+#      concat('grave-speech-3', '-')), '0123456789', '')))]
+#  - source: mcdm.heroes.v1
+#    header_path: conduit/1st-level-features/hands-of-the-maker-3
+#    item_name: Hands of the Maker
+#    item_id: hands-of-the-maker
+#    type: feature/ability/conduit/1st-level-feature
+#    feature_type: ability
+#    file_dpath: Abilities/Conduit/1st-Level Features
+#    xpath: //section[@id='conduit' or (starts-with(@id, concat('conduit', '-')) and
+#      not(translate(substring-after(@id, concat('conduit', '-')), '0123456789', '')))]//section[@id='st-level-features'
+#      or (starts-with(@id, concat('st-level-features', '-')) and not(translate(substring-after(@id,
+#      concat('st-level-features', '-')), '0123456789', '')))]//section[@id='hands-of-the-maker-3'
+#      or (starts-with(@id, concat('hands-of-the-maker-3', '-')) and not(translate(substring-after(@id,
+#      concat('hands-of-the-maker-3', '-')), '0123456789', '')))]
+#  - source: mcdm.heroes.v1
+#    header_path: conduit/4th-level-features/blessing-of-secrets-3
+#    item_name: Blessing of Secrets
+#    item_id: blessing-of-secrets
+#    type: feature/ability/conduit/4th-level-feature
+#    feature_type: ability
+#    file_dpath: Abilities/Conduit/4th-Level Features
+#    xpath: //section[@id='conduit' or (starts-with(@id, concat('conduit', '-')) and
+#      not(translate(substring-after(@id, concat('conduit', '-')), '0123456789', '')))]//section[@id='th-level-features'
+#      or (starts-with(@id, concat('th-level-features', '-')) and not(translate(substring-after(@id,
+#      concat('th-level-features', '-')), '0123456789', '')))]//section[@id='blessing-of-secrets-3'
+#      or (starts-with(@id, concat('blessing-of-secrets-3', '-')) and not(translate(substring-after(@id,
+#      concat('blessing-of-secrets-3', '-')), '0123456789', '')))]
+#
+#  # Because these are in the form `.* (.*)` the code thinks they are abilities, but they are not
+#  - source: mcdm.heroes.v1
+#    header_path: null/7th-level-features/psi-boost
+#    item_name: Psi Boost
+#    type: feature/trait/null/7th-level-feature
+#    feature_type: trait
+#    file_dpath: Features/Null/7th-Level Features
+#    xpath: "//section[@id='null']//section[@id='psi-boost']"
+#  - source: mcdm.heroes.v1
+#    header_path: talent/6th-level-features/psi-boost-1
+#    item_name: Psi Boost
+#    type: feature/trait/talent/6th-level-feature
+#    feature_type: trait
+#    file_dpath: Features/Talent/6th-Level Features
+#    xpath: "//section[@id='talent']//section[@id='psi-boost-1']"
+#
+#  # These features are not a leaf-level feature (has tables) so they dont get picked up
+#  - source: mcdm.heroes.v1
+#    header_path: elementalist/1st-level-features/specialization-triggered-action
+#    item_name: Specialization Triggered Action
+#    item_id: specialization-triggered-action
+#    type: feature/trait/elementalist/1st-level-feature
+#    feature_type: trait
+#    file_dpath: Features/Elementalist/1st-Level Features
+#  - source: mcdm.heroes.v1
+#    header_path: elementalist/2nd-level-features/disciple-of-the-green
+#    item_name: Disciple of the Green
+#    item_id: disciple-of-the-green
+#    type: feature/trait/elementalist/2nd-level-feature
+#    feature_type: trait
+#    file_dpath: Features/Elementalist/2nd-Level Features
+#  - source: mcdm.heroes.v1
+#    header_path: elementalist/4th-level-features/mantle-of-essence
+#    item_name: Mantle of Essence
+#    item_id: mantle-of-essence
+#    type: feature/trait/elementalist/4th-level-feature
+#    feature_type: trait
+#    file_dpath: Features/Elementalist/4th-Level Features
+#
+#  - source: mcdm.heroes.v1
+#    header_path: fury/1st-level-features/growing-ferocity
+#    item_name: Growing Ferocity
+#    item_id: growing-ferocity
+#    type: feature/trait/fury/1st-level-feature
+#    feature_type: trait
+#    file_dpath: Features/Fury/1st-Level Features
+#  - source: mcdm.heroes.v1
+#    header_path: fury/1st-level-features/aspect-triggered-action
+#    item_name: Aspect Triggered Action
+#    item_id: aspect-triggered-action
+#    type: feature/trait/fury/1st-level-feature
+#    feature_type: trait
+#    file_dpath: Features/Fury/1st-Level Features
+#  # TODO - all the stormwight kits need to get added
+#
+#  - source: mcdm.heroes.v1
+#    header_path: shadow/1st-level-features/college-triggered-action
+#    item_name: College Triggered Action
+#    item_id: college-triggered-action
+#    type: feature/trait/shadow/1st-level-feature
+#    feature_type: trait
+#    file_dpath: Features/Shadow/1st-Level Features
+#
+#  - source: mcdm.heroes.v1
+#    header_path: tactician/1st-level-features/doctrine-triggered-action
+#    item_name: Doctrine Triggered Action
+#    item_id: doctrine-triggered-action
+#    type: feature/trait/tactician/1st-level-feature
+#    feature_type: trait
+#    file_dpath: Features/Tactician/1st-Level Features
+#
+#  - source: mcdm.heroes.v1
+#    header_path: troubadour/1st-level-features/class-act-triggered-action
+#    item_name: Class Act Triggered Action
+#    item_id: class-act-triggered-action
+#    type: feature/trait/troubadour/1st-level-feature
+#    feature_type: trait
+#    file_dpath: Features/Troubadour/1st-Level Features
+#  - source: mcdm.heroes.v1
+#    header_path: troubadour/4th-level-features/zeitgeist
+#    item_name: Zeitgeist
+#    item_id: zeitgeist
+#    type: feature/trait/troubadour/4th-level-feature
+#    feature_type: trait
+#    file_dpath: Features/Troubadour/4th-Level Features

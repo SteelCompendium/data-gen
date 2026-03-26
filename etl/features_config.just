@@ -134,9 +134,6 @@ build_feature_config headers_fpath feature_yml_fpath source="mcdm.heroes.v1":
             while path_stack and path_stack[-1]['level'] >= level:
                 path_stack.pop()
 
-            is_leaf = (i == len(all_headers) - 1) or \
-                      (all_headers[i+1]['level'] <= level)
-
             is_under_level_features = False
             level_features_header_text = None
             h1_text = None
@@ -148,7 +145,8 @@ build_feature_config headers_fpath feature_yml_fpath source="mcdm.heroes.v1":
                     is_under_level_features = True
                     level_features_header_text = p_header['text']
 
-            if is_under_level_features and is_leaf:
+            # this used to check for leaf-level headers, but we know Features are always at level 4
+            if is_under_level_features and level == 4:
                 feature_name = text
                 kebab_feature_name = to_kebab_case(feature_name)
 
