@@ -17664,7 +17664,7 @@ Complications are presented in alphabetical order.
 | 29   | [Feytouched](scc:mcdm.heroes.v1:complication:feytouched)                         | 79   | [Shared Spirit](scc:mcdm.heroes.v1:complication:shared-spirit)              |
 | 30   | [Fiery Ideal](scc:mcdm.heroes.v1:complication:fiery-ideal)                        | 80   | [Shattered Legacy](scc:mcdm.heroes.v1:complication:shattered-legacy)           |
 | 31   | [Fire and Chaos](scc:mcdm.heroes.v1:complication:fire-and-chaos)                     | 81   | [Shipwrecked](scc:mcdm.heroes.v1:complication:shipwrecked)                |
-| 32   | [Following in the Footsteps](scc:mcdm.heroes.v1:complication:following-in-the-footsteps)         | 82   | Sibling's Shield           |
+| 32   | [Following in the Footsteps](scc:mcdm.heroes.v1:complication:following-in-the-footsteps)         | 82   | [Sibling's Shield](scc:mcdm.heroes.v1:complication:siblings-shield)           |
 | 33   | [Forbidden Romance](scc:mcdm.heroes.v1:complication:forbidden-romance)                  | 83   | [Silent Sentinel](scc:mcdm.heroes.v1:complication:silent-sentinel)            |
 | 34   | [Frostheart](scc:mcdm.heroes.v1:complication:frostheart)                         | 84   | [Slight Case of Lycanthropy](scc:mcdm.heroes.v1:complication:slight-case-of-lycanthropy) |
 | 35   | [Getting Too Old for This](scc:mcdm.heroes.v1:complication:getting-too-old-for-this)           | 85   | [Stolen Face](scc:mcdm.heroes.v1:complication:stolen-face)                |
@@ -17769,7 +17769,7 @@ Complications are presented in alphabetical order.
 | 79   | [Shared Spirit](scc:mcdm.heroes.v1:complication:shared-spirit)                      |
 | 80   | [Shattered Legacy](scc:mcdm.heroes.v1:complication:shattered-legacy)                   |
 | 81   | [Shipwrecked](scc:mcdm.heroes.v1:complication:shipwrecked)                        |
-| 82   | Sibling's Shield                   |
+| 82   | [Sibling's Shield](scc:mcdm.heroes.v1:complication:siblings-shield)                   |
 | 83   | [Silent Sentinel](scc:mcdm.heroes.v1:complication:silent-sentinel)                    |
 | 84   | [Slight Case of Lycanthropy](scc:mcdm.heroes.v1:complication:slight-case-of-lycanthropy)         |
 | 85   | [Stolen Face](scc:mcdm.heroes.v1:complication:stolen-face)                        |
@@ -18537,7 +18537,7 @@ You are the sole survivor of a shipwreck that left you stranded on a remote and 
 
 You were tasked with delivering a ceremonial shield to your older sibling, a celebrated warrior, for their years of service. When you arrived at their homestead, you found them dead on their doorstep with their own sword lodged in their back. To find out who did this to them—and why—you decided to step into their shoes. It will take a while to match up to your sibling's legacy, though.
 
-**Benefit:** While you wear your sibling's shield on your back, you can't be flanked.
+**Benefit:** While you wear your [sibling's shield](scc:mcdm.heroes.v1:complication:siblings-shield) on your back, you can't be flanked.
 
 **Drawback:** Visions of your dead sibling haunt you at night. Whenever you take a respite, make an Intuition test that can't make use of any skill. On a tier 1 or tier 2 outcome, you regain 1 fewer Recoveries than usual when you finish the respite.
 
