@@ -180,7 +180,7 @@ def load_terms(scc_path: str, promote_terms: set[str] | None = None) -> list[Lin
     linkable_types = {
         "condition", "movement", "kit", "class", "ancestry",
         "perk", "career", "complication", "skill", "title",
-        "common-ability",
+        "common-ability", "feature"
         # kit-ability excluded: terms like "fade", "battle grace" are too
         # context-dependent and collide with common prose
     }

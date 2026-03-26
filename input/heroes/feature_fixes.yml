@@ -141,3 +141,10 @@ sections:
     type: feature/trait/troubadour/1st-level-feature
     feature_type: trait
     file_dpath: Features/Troubadour/1st-Level Features
+  - source: mcdm.heroes.v1
+    header_path: troubadour/4th-level-features/zeitgeist
+    item_name: Zeitgeist
+    item_id: zeitgeist
+    type: feature/trait/troubadour/4th-level-feature
+    feature_type: trait
+    file_dpath: Features/Troubadour/4th-Level Features

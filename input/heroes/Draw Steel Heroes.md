@@ -14470,8 +14470,8 @@ Your [talent](scc:mcdm.heroes.v1:class:talent) tradition grants you two features
 | Tradition   | Features                              |
 |-------------|---------------------------------------|
 | Chronopathy | [Distortion Temporal](scc:mcdm.heroes.v1:feature.trait.talent.5th-level-feature:distortion-temporal), [Speed of Thought](scc:mcdm.heroes.v1:feature.trait.talent.5th-level-feature:speed-of-thought) |
-| Telekinesis | [Kinetic Amplifier](scc:mcdm.heroes.v1:feature.trait.talent.5th-level-feature:kinetic-amplifier), Triangulate        |
-| Telepathy   | Compulsion, [Remote Amplification](scc:mcdm.heroes.v1:feature.trait.talent.5th-level-feature:remote-amplification)      |
+| Telekinesis | [Kinetic Amplifier](scc:mcdm.heroes.v1:feature.trait.talent.5th-level-feature:kinetic-amplifier), [Triangulate](scc:mcdm.heroes.v1:feature.trait.talent.5th-level-feature:triangulate)        |
+| Telepathy   | [Compulsion](scc:mcdm.heroes.v1:feature.trait.talent.5th-level-feature:compulsion), [Remote Amplification](scc:mcdm.heroes.v1:feature.trait.talent.5th-level-feature:remote-amplification)      |
 
 ##### Compulsion
 
@@ -15104,7 +15104,7 @@ There is no visible text in the image provided. The image appears to show a deco
 | 7th   | Characteristic Increase, [A Muse's Muse](scc:mcdm.heroes.v1:feature.trait.troubadour.7th-level-feature:a-muses-muse), [Equal Billing](scc:mcdm.heroes.v1:feature.trait.troubadour.7th-level-feature:equal-billing), Skill                                                                    | Signature, 5, 7, 9        | 5, 9                |
 | 8th   | Perk, Class Act Feature, 11-Drama Ability                                                                                       | Signature, 3, 5, 7, 9, 11 | 5, 9, 11            |
 | 9th   | [Roar of the Crowd](scc:mcdm.heroes.v1:feature.trait.troubadour.9th-level-feature:roar-of-the-crowd), Class Act Ability                                                                                            | Signature, 3, 5, 7, 9, 11 | 5, 9, 11            |
-| 10th  | Applause, Characteristic Increase, Dramaturgy, [Greatest of All Time](scc:mcdm.heroes.v1:feature.trait.troubadour.10th-level-feature:greatest-of-all-time), Perk, Skill                                                | Signature, 3, 5, 7, 9, 11 | 5, 9, 11            |
+| 10th  | Applause, Characteristic Increase, [Dramaturgy](scc:mcdm.heroes.v1:feature.trait.troubadour.10th-level-feature:dramaturgy), [Greatest of All Time](scc:mcdm.heroes.v1:feature.trait.troubadour.10th-level-feature:greatest-of-all-time), Perk, Skill                                                | Signature, 3, 5, 7, 9, 11 | 5, 9, 11            |
 
 ### 1st-Level Features
 
@@ -15199,7 +15199,7 @@ Your [troubadour](scc:mcdm.heroes.v1:class:troubadour) class act grants you two 
 
 | Class Act  | Features                           |
 |------------|------------------------------------|
-| Auteur     | Blocking, [Dramatic Monologue](scc:mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:dramatic-monologue)       |
+| Auteur     | [Blocking](scc:mcdm.heroes.v1:feature.trait.troubadour.1st-level-feature:blocking), [Dramatic Monologue](scc:mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:dramatic-monologue)       |
 | Duelist    | Acrobatics, [Star Power](scc:mcdm.heroes.v1:feature.trait.troubadour.1st-level-feature:star-power)             |
 | Virtuoso   | [Power Chord](scc:mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:power-chord), [Virtuoso Performances](scc:mcdm.heroes.v1:feature.trait.troubadour.1st-level-feature:virtuoso-performances) |
 
@@ -15319,7 +15319,7 @@ You have the following performance abilities, which are usable with your [Routin
 
 Your [troubadour](scc:mcdm.heroes.v1:class:troubadour) class act grants you a triggered action, as shown on the Class Act Triggered Actions table.
 
-###### Class Act Triggered Action Table
+###### Class Act Triggered Actions Table
 
 | Class Act | Triggered Action       |
 |-----------|------------------------|
