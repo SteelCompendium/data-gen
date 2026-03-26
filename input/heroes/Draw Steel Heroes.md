@@ -15706,12 +15706,12 @@ Your [troubadour](scc:mcdm.heroes.v1:class:troubadour) class act grants you a fe
 | Class Act  | Features     |
 |------------|--------------|
 | Auteur     | [Missed Cue](scc:mcdm.heroes.v1:feature.trait.troubadour.3rd-level-feature:missed-cue)   |
-| Duelist    | Foil         |
+| Duelist    | [Foil](scc:mcdm.heroes.v1:feature.trait.troubadour.3rd-level-feature:foil)         |
 | Virtuoso   | [Second Album](scc:mcdm.heroes.v1:feature.trait.troubadour.3rd-level-feature:second-album) |
 
 ##### Foil
 
-At the start of an encounter, choose one creature within your line of effect. You have a double edge on power rolls made against or in competition with that creature. The chosen creature also has a double edge on power rolls made against or in competition with you. If the chosen creature is reduced to 0 Stamina, you can choose a new foil at the start of the next combat round.
+At the start of an encounter, choose one creature within your line of effect. You have a double edge on power rolls made against or in competition with that creature. The chosen creature also has a double edge on power rolls made against or in competition with you. If the chosen creature is reduced to 0 Stamina, you can choose a new [foil](scc:mcdm.heroes.v1:feature.trait.troubadour.3rd-level-feature:foil) at the start of the next combat round.
 
 ##### Missed Cue
 
@@ -15889,7 +15889,7 @@ Choose one of the following features.
 
 ###### Verbal Duel
 
-Once on each of your turns while the target of your Foil feature is adjacent to you, you can use a free maneuver to exchange words with them. Make an opposed Presence test with the target. Whoever gets the higher result can make a [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike), which deals psychic damage instead of its usual damage.
+Once on each of your turns while the target of your [Foil](scc:mcdm.heroes.v1:feature.trait.troubadour.3rd-level-feature:foil) feature is adjacent to you, you can use a free maneuver to exchange words with them. Make an opposed Presence test with the target. Whoever gets the higher result can make a [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike), which deals psychic damage instead of its usual damage.
 
 ###### We Can't Be Upstaged!
 
