@@ -152,7 +152,7 @@ Whenever you see a rule or game term in the glossary index underlined in cross-r
 
 **Characteristics:** Statistics used to represent a creature's mental and physical prowess, broken out as Might, Agility, Reason, Intuition, and Presence. Each characteristic has a score that ranges from −5 to +5.
 
-**Charge Main Action:** A main action that allows a creature to move up to their speed in a straight line, then make a melee [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike) or use an ability with the Charge keyword against a target when they end their move.
+**Charge Main Action:** A main action that allows a creature to move up to their speed in a straight line, then make a melee [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike) or use an ability with the [Charge](scc:mcdm.heroes.v1:common-ability.main-action:charge) keyword against a target when they end their move.
 
 **Ceiling:** Any solid surface above a creature.
 
@@ -1138,7 +1138,7 @@ See [Free Strikes](scc:mcdm.heroes.v1:common-ability.main-action:free-strike) in
 
 ######## Melee Weapon Free Strike
 
-| **Charge, Melee, Strike, Weapon**  |               **Main action** |
+| **[Charge](scc:mcdm.heroes.v1:common-ability.main-action:charge), Melee, Strike, Weapon**  |               **Main action** |
 |------------------------------------|------------------------------:|
 | **📏 Melee 1**                     | **🎯 One creature or object** |
 
@@ -4075,7 +4075,7 @@ Abilities with the Area keyword create an area of effect. Many area abilities de
 
 ##### Charge
 
-Abilities with the Charge keyword can be used with the Charge main action instead of a melee [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike). (The Charge main action is described in Main [Actions](#page-288-0) in [Chapter 10: Combat](#page-288-0).)
+Abilities with the [Charge](scc:mcdm.heroes.v1:common-ability.main-action:charge) keyword can be used with the [Charge](scc:mcdm.heroes.v1:common-ability.main-action:charge) main action instead of a melee [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike). (The [Charge](scc:mcdm.heroes.v1:common-ability.main-action:charge) main action is described in Main [Actions](#page-288-0) in [Chapter 10: Combat](#page-288-0).)
 
 ##### Magic
 
@@ -4175,7 +4175,7 @@ You can stack squares on top of each other to make the wall higher. Unless other
 >
 > Talking about a straight line area of effect on an encounter map doesn't mean the line can only be a straight [vertical](scc:mcdm.heroes.v1:movement:vertical) or horizontal line of contiguous squares. It means each square in the line's length must move in the same direction without bending back in an opposite direction. To make a line area quickly, pick your line's origin square, then pick each subsquent square in the line one at a time in a single direction without bending back in an opposite direction.
 >
-> Likewise, abilities and effects that require a creature to move in a straight line, such as the Charge main action or forced movement that is a push or a pull, don't have to take the form of a straight series of squares on the grid. Simply move the creature one square at a time in a single direction without ever bending back in a direction opposite to where they've already moved.
+> Likewise, abilities and effects that require a creature to move in a straight line, such as the [Charge](scc:mcdm.heroes.v1:common-ability.main-action:charge) main action or forced movement that is a push or a pull, don't have to take the form of a straight series of squares on the grid. Simply move the creature one square at a time in a single direction without ever bending back in a direction opposite to where they've already moved.
 
 #### Target
 
@@ -8076,7 +8076,7 @@ You can revert back to your true form as a maneuver. You can't enter an [animal 
 | Bird                | 3rd   | 0                 | 5 ([fly](scc:mcdm.heroes.v1:movement:fly))       | 1T   | +0              | +0/+0/+0           | -                                                                                                                                                                                                                                                                               |
 | Great cat           | 3rd   | 5                 | 6 ([climb](scc:mcdm.heroes.v1:movement:climb-or-swim))     | 2    | +0              | +1/+1/+1           | As a maneuver, you can [jump](scc:mcdm.heroes.v1:movement:jump) up to 3 squares in any direction. If you land on<br>an enemy of your size or smaller, that enemy is knocked [prone](scc:mcdm.heroes.v1:condition:prone), and you can<br>make a melee [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike) against them (no action required).                                                       |
 | Giant frog          | 4th   | 5                 | 5 ([swim](scc:mcdm.heroes.v1:movement:climb-or-swim))      | 2    | +0              | +0/+0/+0           | Your melee [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike) has a distance of melee 3. When you take the Advance<br>move action, you can high [jump](scc:mcdm.heroes.v1:movement:jump) or long [jump](scc:mcdm.heroes.v1:movement:jump) up to half your speed. This<br>[jump](scc:mcdm.heroes.v1:movement:jump) can allow you to move more squares than your speed.                                                              |
-| Horse               | 4th   | 5                 | 8             | 2    | +1              | +0/+0/+0           | You can use the Charge main action as a maneuver. You can't use two Charge<br>main actions on the same turn.                                                                                                                                                                    |
+| Horse               | 4th   | 5                 | 8             | 2    | +1              | +0/+0/+0           | You can use the [Charge](scc:mcdm.heroes.v1:common-ability.main-action:charge) main action as a maneuver. You can't use two [Charge](scc:mcdm.heroes.v1:common-ability.main-action:charge)<br>main actions on the same turn.                                                                                                                                                                    |
 | Mohler              | 4th   | 0                 | 7 ([burrow](scc:mcdm.heroes.v1:movement:burrow))    | 1S   | +1              | +0/+0/+0           | Your melee distance gains a +1 bonus.                                                                                                                                                                                                                                           |
 | Bear                | 5th   | 10                | 5 ([climb](scc:mcdm.heroes.v1:movement:climb-or-swim))     | 2    | +1              | +2/+2/+2           | Your melee distance gains a +1 bonus.                                                                                                                                                                                                                                           |
 | Giant bird          | 5th   | 0                 | 7 ([fly](scc:mcdm.heroes.v1:movement:fly))       | 2    | +0              | +1/+1/+1           | After making a melee [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike), you can shift up to 3 squares as a free<br>triggered action.                                                                                                                                                                                  |
@@ -8088,7 +8088,7 @@ You can revert back to your true form as a maneuver. You can't enter an [animal 
 | Ostrich             | 8th   | 0                 | 10            | 2    | +0              | +1/+1/+1           | Your movement does not provoke opportunity attacks.                                                                                                                                                                                                                             |
 | Shark               | 8th   | 0                 | 8 ([swim](scc:mcdm.heroes.v1:movement:climb-or-swim) only) | 2    | +0              | +2/+2/+2           | You can breathe in water but can't breathe outside of it. Additionally, you gain<br>an edge on strikes against targets who are [bleeding](scc:mcdm.heroes.v1:condition:bleeding) or winded.                                                                                                                              |
 | Giant octopus       | 9th   | 5                 | 5 ([swim](scc:mcdm.heroes.v1:movement:climb-or-swim))      | 3    | +2              | +0/+0/+0           | You can breathe in water. Additionally, you can target two creatures or objects<br>with your melee [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike). Whenever you obtain a tier 2 or tier 3 outcome on<br>a melee [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike), you can automatically [grab](scc:mcdm.heroes.v1:common-ability.maneuver:grab) the target. You can have up to<br>eight creatures [grabbed](scc:mcdm.heroes.v1:condition:grabbed). |
-| Rhinoceros          | 9th   | 10                | 8             | 2    | +5              | +2/+2/+2           | Whenever you make a melee [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike) as part of the Charge action, that<br>strike gains an edge.                                                                                                                                                                               |
+| Rhinoceros          | 9th   | 10                | 8             | 2    | +5              | +2/+2/+2           | Whenever you make a melee [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike) as part of the [Charge](scc:mcdm.heroes.v1:common-ability.main-action:charge) action, that<br>strike gains an edge.                                                                                                                                                                               |
 | King terror lizard  | 10th  | 20                | 5             | 4    | +3              | +2/+2/+2           | Your melee [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike) is a 1 burst with the Area and Strike keywords.                                                                                                                                                                                                          |
 
 ##### There Is No Space Between
@@ -9278,7 +9278,7 @@ At the end of each of your turns, each enemy adjacent to you takes damage equal 
 
 ##### Unstoppable Force
 
-Whenever you use the Charge main action, you can use a strike signature ability or a strike heroic ability instead of a [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike). Additionally, you can [jump](scc:mcdm.heroes.v1:movement:jump) as part of your charge.
+Whenever you use the [Charge](scc:mcdm.heroes.v1:common-ability.main-action:charge) main action, you can use a strike signature ability or a strike heroic ability instead of a [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike). Additionally, you can [jump](scc:mcdm.heroes.v1:movement:jump) as part of your [charge](scc:mcdm.heroes.v1:common-ability.main-action:charge).
 
 #### 2nd-Level Aspect Ability
 
@@ -13126,7 +13126,7 @@ Choose one heroic ability from the following options, each of which costs 7 focu
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** Until the end of the encounter or until you are dying, the first time on a turn that you or any ally deals damage to a target marked by you, the creature who dealt the damage can push the target up to 2 squares and then shift up to 2 squares. Additionally, any ally using the Charge main action to target a creature marked by you can use a melee strike signature ability or a melee strike heroic ability instead of a melee [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike).
+> **Effect:** Until the end of the encounter or until you are dying, the first time on a turn that you or any ally deals damage to a target marked by you, the creature who dealt the damage can push the target up to 2 squares and then shift up to 2 squares. Additionally, any ally using the [Charge](scc:mcdm.heroes.v1:common-ability.main-action:charge) main action to target a creature marked by you can use a melee strike signature ability or a melee strike heroic ability instead of a melee [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike).
 
 > ######## Hit 'Em Hard! (7 Focus)
 >
@@ -13220,7 +13220,7 @@ As a free maneuver, you can spend 1d6 Stamina to ignore a consequence from a tes
 
 ##### Tactical Offensive
 
-When you use the Charge main action to attack a creature marked by you, you can use a signature or heroic ability with the Melee and Strike keywords instead of a melee [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike).
+When you use the [Charge](scc:mcdm.heroes.v1:common-ability.main-action:charge) main action to attack a creature marked by you, you can use a signature or heroic ability with the Melee and Strike keywords instead of a melee [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike).
 
 #### 9-Focus Ability
 
@@ -13372,15 +13372,15 @@ Choose one of the following abilities.
 >
 > *You lead your allies in a charge.*
 >
-> | **Charge, Melee, Strike, Weapon** |     **Main action** |
+> | **[Charge](scc:mcdm.heroes.v1:common-ability.main-action:charge), Melee, Strike, Weapon** |     **Main action** |
 > |-----------------------------------|--------------------:|
 > | **📏 Melee 1**                    | **🎯 One creature** |
 >
 > **Power Roll + Might:**
 >
-> - **≤11:** 6 + M damage; one ally within 10 squares can use the Charge main action as a free triggered action, and can use a melee strike signature ability instead of a [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike) for the charge
-> - **12-16:** 9 + M damage; one ally within 10 squares can use the Charge main action as a free triggered action, and can use a melee strike signature ability that gains an edge instead of a [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike) for the charge
-> - **17+:** 13 + M damage; two allies within 10 squares can use the Charge main action as a free triggered action, and can each use a melee strike signature ability that gains an edge instead of a [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike) for the charge
+> - **≤11:** 6 + M damage; one ally within 10 squares can use the [Charge](scc:mcdm.heroes.v1:common-ability.main-action:charge) main action as a free triggered action, and can use a melee strike signature ability instead of a [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike) for the [charge](scc:mcdm.heroes.v1:common-ability.main-action:charge)
+> - **12-16:** 9 + M damage; one ally within 10 squares can use the [Charge](scc:mcdm.heroes.v1:common-ability.main-action:charge) main action as a free triggered action, and can use a melee strike signature ability that gains an edge instead of a [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike) for the [charge](scc:mcdm.heroes.v1:common-ability.main-action:charge)
+> - **17+:** 13 + M damage; two allies within 10 squares can use the [Charge](scc:mcdm.heroes.v1:common-ability.main-action:charge) main action as a free triggered action, and can each use a melee strike signature ability that gains an edge instead of a [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike) for the [charge](scc:mcdm.heroes.v1:common-ability.main-action:charge)
 >
 > **Effect:** If the target is hit with two or more strikes as part of this ability and they have R < STRONG, they are [dazed](scc:mcdm.heroes.v1:condition:dazed) (save ends). If the target is reduced to 0 Stamina before one or both allies has made their strike, the ally or allies can pick a different target.
 
@@ -13592,7 +13592,7 @@ Choose one of the following abilities.
 >
 > *Nothing will stop you from reaching your foe.*
 >
-> | **Charge, Melee, Strike, Weapon** |     **Main action** |
+> | **[Charge](scc:mcdm.heroes.v1:common-ability.main-action:charge), Melee, Strike, Weapon** |     **Main action** |
 > | --------------------------------- | ------------------: |
 > | **📏 Melee 1**                    | **🎯 One creature** |
 >
@@ -13604,7 +13604,7 @@ Choose one of the following abilities.
 > - **12-16:** 16 + M damage
 > - **17+:** 21 + M damage
 >
-> **Effect:** If you use this ability as part of the Charge main action, enemies' spaces don't count as difficult terrain for your movement. Additionally, if you move through any creature's space, you can slide that creature 1 square out of the path of your charge.
+> **Effect:** If you use this ability as part of the [Charge](scc:mcdm.heroes.v1:common-ability.main-action:charge) main action, enemies' spaces don't count as difficult terrain for your movement. Additionally, if you move through any creature's space, you can slide that creature 1 square out of the path of your [charge](scc:mcdm.heroes.v1:common-ability.main-action:charge).
 
 > ######## That One Is Mine! (11 Focus)
 >
@@ -14517,7 +14517,7 @@ Choose one heroic ability from the following options, each of which costs 9 clar
 >
 > *You move fast enough to turn around and watch your foes feel the aftermath.*
 >
-> | **Area, Charge, Psionic, Telekinesis** |               **Main action** |
+> | **Area, [Charge](scc:mcdm.heroes.v1:common-ability.main-action:charge), Psionic, Telekinesis** |               **Main action** |
 > |----------------------------------------|------------------------------:|
 > | **📏 5 x 2 line within 1**             | **🎯 Each enemy in the area** |
 >
@@ -16266,7 +16266,7 @@ Choose one of the following abilities.
 >
 > *If you can land the strike, the crowd goes wild.*
 >
-> | **Charge, Melee, Strike, Weapon** |               **Main action** |
+> | **[Charge](scc:mcdm.heroes.v1:common-ability.main-action:charge), Melee, Strike, Weapon** |               **Main action** |
 > |-----------------------------------|------------------------------:|
 > | **📏 Melee 3**                    | **🎯 One creature or object** |
 >
@@ -19906,15 +19906,15 @@ Unless otherwise noted in its description, a creature can activate a consumable 
 
 When you take a main action, you most often do so to use a unique ability granted by your class, kit, or a treasure (see [Abilities](#page-83-0) in [Chapter 5: Classes](#page-83-2)). These abilities represent the most unique, flavorful, and impactful things you can do with your main action.
 
-You can also use your main action to help another creature regain Stamina, charge into battle, defend yourself, or make a [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike).
+You can also use your main action to help another creature regain Stamina, [charge](scc:mcdm.heroes.v1:common-ability.main-action:charge) into battle, defend yourself, or make a [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike).
 
 You can convert your main action into a maneuver or a move action, allowing you to take two maneuvers or move actions on your turn.
 
 #### Charge
 
-When a creature takes the Charge main action, they move up to their speed in a straight line, then make a melee [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike) (see [Free Strikes](#page-289-1) below) against a target when they end their move. If the creature has an ability with the Charge keyword, they can use that ability against the target instead of a [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike).
+When a creature takes the [Charge](scc:mcdm.heroes.v1:common-ability.main-action:charge) main action, they move up to their speed in a straight line, then make a melee [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike) (see [Free Strikes](#page-289-1) below) against a target when they end their move. If the creature has an ability with the [Charge](scc:mcdm.heroes.v1:common-ability.main-action:charge) keyword, they can use that ability against the target instead of a [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike).
 
-A creature can't move through difficult terrain or shift when they charge. They can [fly](scc:mcdm.heroes.v1:movement:fly) or [burrow](scc:mcdm.heroes.v1:movement:burrow) as part of the Charge main action if they have that movement available to them, but they can't [climb](scc:mcdm.heroes.v1:movement:climb-or-swim) or [swim](scc:mcdm.heroes.v1:movement:climb-or-swim) while charging unless they can automatically use that movement at full speed.
+A creature can't move through difficult terrain or shift when they [charge](scc:mcdm.heroes.v1:common-ability.main-action:charge). They can [fly](scc:mcdm.heroes.v1:movement:fly) or [burrow](scc:mcdm.heroes.v1:movement:burrow) as part of the [Charge](scc:mcdm.heroes.v1:common-ability.main-action:charge) main action if they have that movement available to them, but they can't [climb](scc:mcdm.heroes.v1:movement:climb-or-swim) or [swim](scc:mcdm.heroes.v1:movement:climb-or-swim) while charging unless they can automatically use that movement at full speed.
 
 #### Defend
 
@@ -19930,7 +19930,7 @@ A creature who uses the [Heal](scc:mcdm.heroes.v1:common-ability.main-action:hea
 
 ### Free Strikes
 
-Every creature can use a [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike) ability as a main action on their turn, though doing so typically isn't the most effective choice. Most of the time, you'll use [free strikes](scc:mcdm.heroes.v1:common-ability.main-action:free-strike) when the rules call for it. Specific rules let you use [free strikes](scc:mcdm.heroes.v1:common-ability.main-action:free-strike) as part of an action that allows you to also do something else impactful, such as how the Charge main action lets you move and use a melee [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike) in one main action (see Charge above).
+Every creature can use a [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike) ability as a main action on their turn, though doing so typically isn't the most effective choice. Most of the time, you'll use [free strikes](scc:mcdm.heroes.v1:common-ability.main-action:free-strike) when the rules call for it. Specific rules let you use [free strikes](scc:mcdm.heroes.v1:common-ability.main-action:free-strike) as part of an action that allows you to also do something else impactful, such as how the [Charge](scc:mcdm.heroes.v1:common-ability.main-action:charge) main action lets you move and use a melee [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike) in one main action (see [Charge](scc:mcdm.heroes.v1:common-ability.main-action:charge) above).
 
 Many rules and abilities allow heroes to make [free strikes](scc:mcdm.heroes.v1:common-ability.main-action:free-strike) when it isn't their turn, such as the [tactician](scc:mcdm.heroes.v1:class:tactician)'s [Overwatch](scc:mcdm.heroes.v1:feature.ability.tactician.1st-level-feature:overwatch) ability. As well, all characters can make an opportunity attack [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-strike).
 
@@ -19952,7 +19952,7 @@ A melee weapon [free strike](scc:mcdm.heroes.v1:common-ability.main-action:free-
 
 ######## Melee Weapon Free Strike
 
-| **Charge, Melee, Stike, Weapon** |               **Main action** |
+| **[Charge](scc:mcdm.heroes.v1:common-ability.main-action:charge), Melee, Stike, Weapon** |               **Main action** |
 | -------------------------------- | -----------------------------:|
 | **📏 Melee 1**                   | **🎯 One creature or object** |
 
@@ -22139,7 +22139,7 @@ This section presents 2nd-echelon consumable treasures in alphabetical order.
 
 **Project Goal:** 90
 
-**Effect:** When you drink this potion as a maneuver, you sprout 3-foot sharpened horns from your forehead. Whenever you use the Charge main action, the target of your strike is gored upon your horns and [grabbed](scc:mcdm.heroes.v1:condition:grabbed). While [grabbed](scc:mcdm.heroes.v1:condition:grabbed) this way, the creature is [bleeding](scc:mcdm.heroes.v1:condition:bleeding). You can also [grab](scc:mcdm.heroes.v1:common-ability.maneuver:grab) another creature with your limbs. The horns harmlessly fall off your head at the end of the encounter.
+**Effect:** When you drink this potion as a maneuver, you sprout 3-foot sharpened horns from your forehead. Whenever you use the [Charge](scc:mcdm.heroes.v1:common-ability.main-action:charge) main action, the target of your strike is gored upon your horns and [grabbed](scc:mcdm.heroes.v1:condition:grabbed). While [grabbed](scc:mcdm.heroes.v1:condition:grabbed) this way, the creature is [bleeding](scc:mcdm.heroes.v1:condition:bleeding). You can also [grab](scc:mcdm.heroes.v1:common-ability.maneuver:grab) another creature with your limbs. The horns harmlessly fall off your head at the end of the encounter.
 
 ##### Chocolate of Immovability
 
@@ -22631,7 +22631,7 @@ If the object is too thick or has no open space on the other side, your hand bec
 
 **Project Goal:** 150
 
-**Effect:** Whenever you use the Charge main action while wearing this helmet, you gain a +5 bonus to speed until the end of your current turn. After charging, you can use the [Knockback](scc:mcdm.heroes.v1:common-ability.maneuver:knockback) maneuver as a free maneuver, regardless of the target creature's size.
+**Effect:** Whenever you use the [Charge](scc:mcdm.heroes.v1:common-ability.main-action:charge) main action while wearing this helmet, you gain a +5 bonus to speed until the end of your current turn. After charging, you can use the [Knockback](scc:mcdm.heroes.v1:common-ability.maneuver:knockback) maneuver as a free maneuver, regardless of the target creature's size.
 
 ##### Mask of the Many
 
@@ -23485,7 +23485,7 @@ For combat-focused heroes, weapons channeling magic and psionic power can easily
 
 **1st Level:** Any weapon ability that deals rolled damage using this weapon deals an extra 1 holy damage. Additionally, when the weapon is used with a weapon ability that allows you to push a target, you can shift to any square adjacent to the target after the push.
 
-**5th Level:** The weapon's extra holy damage increases to 2. Additionally, whenever you use the Charge main action and use an ability with the Charge keyword, or whenever you use an ability that allows you to shift, you can [fly](scc:mcdm.heroes.v1:movement:fly) as part of the charge movement or the shift. If you don't end your [flying](scc:mcdm.heroes.v1:movement:fly) movement on the ground, you fall.
+**5th Level:** The weapon's extra holy damage increases to 2. Additionally, whenever you use the [Charge](scc:mcdm.heroes.v1:common-ability.main-action:charge) main action and use an ability with the [Charge](scc:mcdm.heroes.v1:common-ability.main-action:charge) keyword, or whenever you use an ability that allows you to shift, you can [fly](scc:mcdm.heroes.v1:movement:fly) as part of the [charge](scc:mcdm.heroes.v1:common-ability.main-action:charge) movement or the shift. If you don't end your [flying](scc:mcdm.heroes.v1:movement:fly) movement on the ground, you fall.
 
 **9th Level:** The weapon's extra holy damage increases to 3. Additionally, whenever the weapon is used with a weapon ability that allows you to push or slide a target, that forced movement can be [vertical](scc:mcdm.heroes.v1:movement:vertical).
 
@@ -24171,7 +24171,7 @@ Titles suitable for 2nd-echelon characters are presented in alphabetical order.
 > |----------------|--------------------------------------:|
 > | **📏 3 burst** | **🎯 Self and each ally in the area** |
 >
-> **Effect:** Each target can use the Charge main action.
+> **Effect:** Each target can use the [Charge](scc:mcdm.heroes.v1:common-ability.main-action:charge) main action.
 
 - *Renowned Warrior:* You earn 1 Renown.
 - *Student of War:* Choose a 1st-level doctrine feature from the [tactician](scc:mcdm.heroes.v1:class:tactician) class. You gain that feature even if you don't have the [Tactical Doctrine](scc:mcdm.heroes.v1:feature.trait.tactician.1st-level-feature:tactical-doctrine) feature.
@@ -24385,7 +24385,7 @@ Taking the Boffin benefit lets you use the following boffin properties as a mane
 
 - *From Hell's Heart:* While you are winded, your melee strikes gain a +3 damage bonus.
 - *Furious Attack:* Choose one signature ability from the [fury](scc:mcdm.heroes.v1:class:fury) class. You gain that ability regardless of whether your class and subclass allow you to take it. If this ability allows you to gain or spend ferocity, you can't do so unless you have the Ferocity class feature.
-- *Furious Charge:* When you use the Charge action, your strike made as part of that action gains a damage bonus equal to the number of squares you moved as part of the charge.
+- *Furious Charge:* When you use the [Charge](scc:mcdm.heroes.v1:common-ability.main-action:charge) action, your strike made as part of that action gains a damage bonus equal to the number of squares you moved as part of the [charge](scc:mcdm.heroes.v1:common-ability.main-action:charge).
 
 ### 3rd-Echelon Titles
 
