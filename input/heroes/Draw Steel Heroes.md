@@ -5562,9 +5562,9 @@ Your [censor](scc:mcdm.heroes.v1:class:censor) order grants you a feature, as sh
 
 | Order                    | Feature             |
 |--------------------------|---------------------|
-| Exorcist                 | Demonologist        |
+| Exorcist                 | [Demonologist](scc:mcdm.heroes.v1:feature.trait.censor.8th-level-feature:demonologist)        |
 | Oracle                   | [Their Past Revealed](scc:mcdm.heroes.v1:feature.trait.censor.8th-level-feature:their-past-revealed) |
-| Paragon                  | Vow                 |
+| Paragon                  | [Vow](scc:mcdm.heroes.v1:feature.trait.censor.8th-level-feature:vow)                 |
 
 ##### Demonologist
 
