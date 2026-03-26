@@ -5838,7 +5838,7 @@ The power of the gods flows through you! As a vessel for divine power, you don't
 | 7th   | Characteristic Increase, Domain Feature, [Faithful's Reward](scc:mcdm.heroes.v1:feature.trait.conduit.7th-level-feature:faithfuls-reward), Skill Increase                                                           | Two signature, 3, 5, 7, 9     | 5, 9              |
 | 8th   | Domain Feature, Perk, 11-Piety Ability                                                                                               | Two signature, 3, 5, 7, 9, 11 | 5, 9              |
 | 9th   | Domain Ability, [Faith's Sword](scc:mcdm.heroes.v1:feature.trait.conduit.9th-level-feature:faiths-sword), Ordained                                                                                              | Two signature, 3, 5, 7, 9, 11 | 5, 9, 11          |
-| 10th  | Avatar, Characteristic Increase, Divine Power, [Most Pious](scc:mcdm.heroes.v1:feature.trait.conduit.10th-level-feature:most-pious), Perk, Skill Increase                                                      | Two signature, 3, 5, 7, 9, 11 | 5, 9, 11          |
+| 10th  | [Avatar](scc:mcdm.heroes.v1:feature.trait.conduit.10th-level-feature:avatar), Characteristic Increase, Divine Power, [Most Pious](scc:mcdm.heroes.v1:feature.trait.conduit.10th-level-feature:most-pious), Perk, Skill Increase                                                      | Two signature, 3, 5, 7, 9, 11 | 5, 9, 11          |
 
 ### 1st-Level Features
 
@@ -7401,7 +7401,7 @@ As a 10th-level [conduit](scc:mcdm.heroes.v1:class:conduit), you gain the follow
 
 #### Avatar
 
-You are now an avatar of your god! When you use your Prayer feature, you can be affected by up to three prayers at once, and you can change all those prayers and your ward as a respite activity. You can also use a maneuver to activate one of your domain effects (see Domain Piety and Effects) without needing to pray.
+You are now an [avatar](scc:mcdm.heroes.v1:feature.trait.conduit.10th-level-feature:avatar) of your god! When you use your Prayer feature, you can be affected by up to three prayers at once, and you can change all those prayers and your ward as a respite activity. You can also use a maneuver to activate one of your domain effects (see Domain Piety and Effects) without needing to pray.
 
 Additionally, whenever you take a respite, you can open a portal to rest in the presence of your deity and bring along any allies. When you do, you can ask your deity three questions, which the Director must answer honestly if your deity knows the answers (though they might answer cryptically or incompletely). When you finish your respite, you and your allies can appear at any location in the timescape where someone worships your deity.
 
