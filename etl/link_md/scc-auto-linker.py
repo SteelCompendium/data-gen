@@ -58,7 +58,7 @@ AMBIGUOUS_TERMS = {
     "animal form", "whirlwind", "teleport", "human", "devil", "when a creature moves", "climb", "jump", "swim", "vertical",
     # Titles/features with generic English usage
     "doomed", "spotlight",
-    "primordial power", "null field",
+    "primordial power", "null field", "hit and run"
 }
 
 # Terms that should NEVER be linked (too generic or would create noise)

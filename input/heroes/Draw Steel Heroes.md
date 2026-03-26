@@ -13534,7 +13534,7 @@ Your [tactical doctrine](scc:mcdm.heroes.v1:feature.trait.tactician.1st-level-fe
 
 Choose one of the following abilities.
 
-> ######## Squad! [Hit and Run](scc:mcdm.heroes.v1:feature.ability.fury.1st-level-feature:hit-and-run)! (11 Focus)
+> ######## Squad! Hit and Run! (11 Focus)
 >
 > *I had to pry this secret from the shadow colleges.*
 >
