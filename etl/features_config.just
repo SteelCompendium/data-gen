@@ -177,7 +177,7 @@ build_feature_config headers_fpath feature_yml_fpath source="mcdm.heroes.v1":
                     'feature_type': base_type
                 })
 
-            # Subfeatures are H5-H7 headers underneath an H4 feature
+            # Subtraits are H5-H7 headers underneath an H4 feature
             elif is_under_level_features and 5 <= level <= 7:
                 # Find the parent H4 feature in the stack
                 parent_h4 = None
@@ -186,10 +186,10 @@ build_feature_config headers_fpath feature_yml_fpath source="mcdm.heroes.v1":
                         parent_h4 = p
 
                 if parent_h4 is not None:
-                    subfeature_name = text
-                    kebab_name = to_kebab_case(subfeature_name)
+                    subtrait_name = text
+                    kebab_name = to_kebab_case(subtrait_name)
 
-                    # Build path: class / level-features / parent-feature / [intermediates] / subfeature
+                    # Build path: class / level-features / parent-feature / [intermediates] / subtrait
                     path_parts = []
                     if h1_text:
                         path_parts.append(to_kebab_case(h1_text))
@@ -206,17 +206,17 @@ build_feature_config headers_fpath feature_yml_fpath source="mcdm.heroes.v1":
                     clazz = header_path.split('/')[0]
                     match = re.search(r'((\d+)(?:st|nd|rd|th)-level-feature)s', header_path)
                     if not match:
-                        print(f"Warning: skipping subfeature '{subfeature_name}' -- no level-feature found in path '{header_path}'", file=sys.stderr)
+                        print(f"Warning: skipping subtrait '{subtrait_name}' -- no level-feature found in path '{header_path}'", file=sys.stderr)
                         continue
                     level_feature = match.group(1)
-                    type = '/'.join(['subfeature', 'trait', clazz, level_feature])
+                    type = '/'.join(['feature', 'subtrait', clazz, level_feature])
 
                     output_features.append({
                         'header_path': header_path,
-                        'item_name': subfeature_name,
+                        'item_name': subtrait_name,
                         'item_id': kebab_name,
                         'type': type,
-                        'feature_type': 'trait'
+                        'feature_type': 'subtrait'
                     })
 
             path_stack.append(header)
