@@ -1,10 +1,12 @@
 # Justfile module expected to be named "adventures"
 
+import '_utils.just'
+
 ##################################################
 # Constants and env vars
 ##################################################
 
-adventures_staging_dpath := `just _staging_dpath` / "adventures"
+adventures_staging_dpath := staging_dpath / "adventures"
 adventures_unlinked_dpath := adventures_staging_dpath / "unlinked"
 adventures_linked_dpath := adventures_staging_dpath / "linked"
 

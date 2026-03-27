@@ -1,12 +1,12 @@
 # Justfile module expected to be named "heroes"
 
+import '_utils.just'
+
 ##################################################
 # Constants and env vars
 ##################################################
 
-steel_compendium_dpath := `just _steel_compendium_dpath`
-input_dpath := `just _input_dpath`
-heroes_staging_dpath := `just _staging_dpath` / "heroes"
+heroes_staging_dpath := staging_dpath / "heroes"
 heroes_unlinked_dpath := heroes_staging_dpath / "unlinked"
 heroes_linked_dpath := heroes_staging_dpath / "linked"
 
@@ -73,7 +73,7 @@ gen_heroes_md input_fpath unlinked_output_dpath linked_output_dpath:
     # Sections: generate frontmatter and classification
     just _print_section "Heroes: Generating metadata (frontmatter)"
     # TODO - avoid generating classification.json until source material (md) is final
-    scc_to_path_json_fpath="$(just _staging_dpath)/scc_to_path.json"
+    scc_to_path_json_fpath="{{staging_dpath}}/scc_to_path.json"
     rm -f "{{input_dpath}}/classification.json"
     # TODO - merge these three?
     just sc_classification gen_frontmatter "${md_sections_dpath}" "{{input_dpath}}/classification.json" "$scc_to_path_json_fpath"
@@ -211,4 +211,3 @@ convert_linked_md_to_other_formats md_dpath:
 
     just markdown separate_blockquotes "${conversions_dpath}/md-dse"
     just _copy_data_to_repo "${conversions_dpath}/md-dse" "data-rules-md-dse-linked"
-

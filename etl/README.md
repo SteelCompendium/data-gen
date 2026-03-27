@@ -14,6 +14,35 @@
   - line replacement
 - manual fixes from there
 
+## Justfile Architecture
+
+The ETL pipeline is orchestrated by `just` (justfiles). The root `justfile` declares top-level modules
+(`heroes`, `monsters`, `adventures`, `unified`) and utility modules (`aggregate`, `features`, `markdown`, etc.)
+via `mod`.
+
+Shared variables and private utility recipes live in `_utils.just`. Any module that needs shared paths
+(`staging_dpath`, `input_dpath`, `steel_compendium_root_dpath`) or utility recipes (`_wipe_dir`,
+`_copy_data_to_repo`, `_print_section`, etc.) pulls them in with:
+
+```just
+import '_utils.just'
+```
+
+**Important:** Always use `import` (not `mod`) for `_utils.just`. Using `mod` or backtick subprocess calls
+(e.g. `` `just _staging_dpath` ``) from within modules causes infinite circular dependency loops at parse time.
+
+### File overview
+
+| File | Role |
+|------|------|
+| `justfile` | Root orchestrator. Imports `_utils.just`, declares all modules, defines top-level `gen` recipes. |
+| `_utils.just` | Shared variables and private utility recipes. Imported (never modded) by root and modules. |
+| `heroes.just` | Heroes book pipeline: markdown -> html -> sections -> frontmatter -> formats -> data repos. |
+| `monsters.just` | Monsters book pipeline (same pattern as heroes). |
+| `adventures.just` | Adventures pipeline (stub/placeholder). |
+| `unified.just` | Assembles output from heroes/monsters/adventures into unified `data-md` repos. |
+| Other `.just` files | Utility modules for specific tasks (html conversion, linking, indexing, etc.). |
+
 ## Development
 
 ### Metadata
