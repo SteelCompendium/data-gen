@@ -222,7 +222,7 @@ Whenever you see a rule or game term in the glossary index underlined in cross-r
 
 **Director:** The player who prepares, presents, and adjudicates the game for all the other players, who each create and run a hero.
 
-**Discipline:** The [null](scc:mcdm.heroes.v1:class:null)'s Heroic Resource.
+**Discipline:** The null's Heroic Resource.
 
 **Disengage Move Action:** A move action that allows a creature to shift 1 square.
 
@@ -382,7 +382,7 @@ Whenever you see a rule or game term in the glossary index underlined in cross-r
 
 **NPC:** A nonplayer character, usually created and run by the Director.
 
-**[Null](scc:mcdm.heroes.v1:class:null):** A class for a hero who is an unarmed psionic warrior with the ability to dampen supernatural effects.
+**Nulls:** A class for a hero who is an unarmed psionic warrior with the ability to dampen supernatural effects.
 
 **Object:** Inanimate matter, including walls, rocks, vehicles, and corpses (the kind that can't move around and bite you), as well as living non-creatures such as plants.
 
@@ -1059,7 +1059,7 @@ The Director should make an agenda for a campaign's first session often called "
 
 - The Director and players talk about the safety tools they want to employ at the game table (whether physical or virtual), so that everyone has a good time and understands which topics should be avoided in the game's narrative and which should be embraced. For more information, check out the MCDM Tabletop Safety Toolkit at *[mcdm.gg/SafetyToolkit](http://mcdm.gg/SafetyToolkit)*, which includes advice for running a successful first session.
 - The Director discusses the campaign's world and the major story themes they want to introduce into the game. This often takes the form of a campaign pitch the Director presents to the players.
-- The Director should tell the players if any options are limited or rare in their campaign. For example, some Directors don't want psionics to appear in their game worlds, so they might decide that heroes can't be [nulls](scc:mcdm.heroes.v1:class:null) or [talents](scc:mcdm.heroes.v1:class:talent). Another campaign might be grounded in more typical medieval fantasy and not have any [memonek](scc:mcdm.heroes.v1:ancestry:memonek) or [time raiders](scc:mcdm.heroes.v1:ancestry:time-raider), or those [ancestries](scc:mcdm.heroes.v1:chapter:ancestries) might be exceedingly rare. In the latter case, players should know that their [memonek](scc:mcdm.heroes.v1:ancestry:memonek) or [time raider](scc:mcdm.heroes.v1:ancestry:time-raider) heroes are likely to get a lot of questions from curious NPCs.
+- The Director should tell the players if any options are limited or rare in their campaign. For example, some Directors don't want psionics to appear in their game worlds, so they might decide that heroes can't be nulls or [talents](scc:mcdm.heroes.v1:class:talent). Another campaign might be grounded in more typical medieval fantasy and not have any [memonek](scc:mcdm.heroes.v1:ancestry:memonek) or [time raiders](scc:mcdm.heroes.v1:ancestry:time-raider), or those [ancestries](scc:mcdm.heroes.v1:chapter:ancestries) might be exceedingly rare. In the latter case, players should know that their [memonek](scc:mcdm.heroes.v1:ancestry:memonek) or [time raider](scc:mcdm.heroes.v1:ancestry:time-raider) heroes are likely to get a lot of questions from curious NPCs.
 - The players get a chance to tell the Director what they would like to experience in the campaign. This can include anything from "I'd love to play out some chase scenes!" to "I want to explore themes of loss and grief." These wishes should be starting points for a conversation. If not all players are comfortable with certain themes or content requested by other players, then session zero is a great time to discuss that and come to a consensus about what everyone wants out of the game.
 - Make heroes! Once everyone understands what the campaign is about, it's the perfect time to get into character creation. When a group of players make heroes together, they can tie backstories together and strategize to build a tactically dominant party both in and out of combat.
 - The Director runs an encounter to kick off the campaign. If all the players have the time, it's totally worth it to get some play in during the first session, even if it's just a quick brawl in a tavern with some cultists! Starting off with a little action lets you see what the game is all about—and raises anticipation for the next session.
@@ -1122,7 +1122,7 @@ Choose your hero's career, which describes what you did for a living before you 
 
 #### 5. Class
 
-Choose your hero's class. This choice has the biggest impact on how your hero interacts with the rules of the game, particularly the rules for combat. Your class provides your starting characteristic scores that determine your character's physical and mental acumen, as well as the Stamina and Recoveries that determine your physical hardiness. A class also provides your character with skills, several abilities—the unique features that define what your hero can do—and other features and benefits. You can be a [censor](scc:mcdm.heroes.v1:class:censor), [conduit](scc:mcdm.heroes.v1:class:conduit), [elementalist](scc:mcdm.heroes.v1:class:elementalist), [fury](scc:mcdm.heroes.v1:class:fury), [null](scc:mcdm.heroes.v1:class:null), [shadow](scc:mcdm.heroes.v1:class:shadow), [tactician](scc:mcdm.heroes.v1:class:tactician), [talent](scc:mcdm.heroes.v1:class:talent), or [troubadour](scc:mcdm.heroes.v1:class:troubadour). See Chapter 5: [Classes](scc:mcdm.heroes.v1:chapter:classes) for more information on each class, as well as the different types of abilities—signature abilities, heroic abilities, and more—that heroes of a specific class have access to.
+Choose your hero's class. This choice has the biggest impact on how your hero interacts with the rules of the game, particularly the rules for combat. Your class provides your starting characteristic scores that determine your character's physical and mental acumen, as well as the Stamina and Recoveries that determine your physical hardiness. A class also provides your character with skills, several abilities—the unique features that define what your hero can do—and other features and benefits. You can be a [censor](scc:mcdm.heroes.v1:class:censor), [conduit](scc:mcdm.heroes.v1:class:conduit), [elementalist](scc:mcdm.heroes.v1:class:elementalist), [fury](scc:mcdm.heroes.v1:class:fury), null, [shadow](scc:mcdm.heroes.v1:class:shadow), [tactician](scc:mcdm.heroes.v1:class:tactician), [talent](scc:mcdm.heroes.v1:class:talent), or [troubadour](scc:mcdm.heroes.v1:class:troubadour). See Chapter 5: [Classes](scc:mcdm.heroes.v1:chapter:classes) for more information on each class, as well as the different types of abilities—signature abilities, heroic abilities, and more—that heroes of a specific class have access to.
 
 #### 6. Kit
 
@@ -2286,7 +2286,7 @@ The giant nodded solemnly. "You are lorewise. My trust in you was well-placed. I
 
 "Many do!" Ardashir said. "I do not. I left the hills of my people long ago to pursue a different path. A path of order and discipline. It is my birthright perhaps."
 
-"He's a [null](scc:mcdm.heroes.v1:class:null)," Embers explained. "They eschew all weapons and implements of war. It is part of their creed, as I understand it."
+"He's a null," Embers explained. "They eschew all weapons and implements of war. It is part of their creed, as I understand it."
 
 "Strength alone might serve," Dazar nodded, "when the strength is such as yours."
 
@@ -4009,7 +4009,7 @@ Your class provides you with many of your features, most of your abilities—you
 
 **[Fury](scc:mcdm.heroes.v1:class:fury):** Coursing with the ferocity of the Primordial Chaos in their veins, a [fury](scc:mcdm.heroes.v1:class:fury) is a mobile warrior who gets up close and personal with enemies to dish out lots of damage. Leaping around the battlefield felling foes and breaking down walls is where the [fury](scc:mcdm.heroes.v1:class:fury) lives.
 
-**[Null](scc:mcdm.heroes.v1:class:null):** Disciplined and calm, the [null](scc:mcdm.heroes.v1:class:null) is an unarmed warrior who manifests an aura that quells the supernatural and hinders the offensive prowess of their enemies. They use psionics to make their body stronger than any steel and faster than any steed.
+**Nulls:** Disciplined and calm, the null is an unarmed warrior who manifests an aura that quells the supernatural and hinders the offensive prowess of their enemies. They use psionics to make their body stronger than any steel and faster than any steed.
 
 **[Shadow](scc:mcdm.heroes.v1:class:shadow):** Stalking from the darkness, the [shadow](scc:mcdm.heroes.v1:class:shadow) is an expert assassin and thief who fights equally well in melee and at range as they get the drop on their foes. They utilize magic to help them stay mobile on the battlefield and sneak up on their prey.
 
@@ -4049,7 +4049,7 @@ The nine Heroic Resources in the game are:
 - The [conduit](scc:mcdm.heroes.v1:class:conduit)'s piety
 - The [elementalist](scc:mcdm.heroes.v1:class:elementalist)'s essence
 - The [fury](scc:mcdm.heroes.v1:class:fury)'s ferocity
-- The [null](scc:mcdm.heroes.v1:class:null)'s discipline
+- The null's discipline
 - The [shadow](scc:mcdm.heroes.v1:class:shadow)'s insight
 - The [tactician](scc:mcdm.heroes.v1:class:tactician)'s focus
 - The [talent](scc:mcdm.heroes.v1:class:talent)'s clarity
@@ -4317,7 +4317,7 @@ Reading the ability this way prevents a lot of back and forth. You don't need to
 
 ##### Adjusting Potencies
 
-Potencies are made for quick resolution at the table, but a number of triggered actions and other abilities—for example, the [censor](scc:mcdm.heroes.v1:class:censor)'s Judgment ability and the [null](scc:mcdm.heroes.v1:class:null)'s [Null](scc:mcdm.heroes.v1:class:null) Field ability—allow you to manipulate the value of potencies. If you build a hero who can adjust potencies, pay attention during combat! You might be able to help out a friend who needs a little boost to make their ability take full effect, or hinder an enemy about to lock down one of your allies.
+Potencies are made for quick resolution at the table, but a number of triggered actions and other abilities—for example, the [censor](scc:mcdm.heroes.v1:class:censor)'s Judgment ability and the null's Nulls Field ability—allow you to manipulate the value of potencies. If you build a hero who can adjust potencies, pay attention during combat! You might be able to help out a friend who needs a little boost to make their ability take full effect, or hinder an enemy about to lock down one of your allies.
 
 ##### Spending Resources on Potencies
 
@@ -4366,7 +4366,7 @@ Some abilities have a "Spend X [Heroic Resource]" entry in the body of the abili
 
 The unique effects of different abilities are combined—effectively stacking on top of each other—if their durations and targets overlap. However, the effects of the same ability used multiple times don't stack. Instead, the most impactful effect—such as the highest bonus—from each use of the ability applies. The most recently used ability applies for determining duration.
 
-For example, the [null](scc:mcdm.heroes.v1:class:null)'s [Null](scc:mcdm.heroes.v1:class:null) Field ability reduces the potencies of enemies within the field by 1. If two allied [nulls](scc:mcdm.heroes.v1:class:null) each have their [Null](scc:mcdm.heroes.v1:class:null) Field ability active and an enemy cultist is targeted by both abilities, that cultist's potencies are reduced by 1, not by 2.
+For example, the null's Nulls Field ability reduces the potencies of enemies within the field by 1. If two allied nulls each have their Nulls Field ability active and an enemy cultist is targeted by both abilities, that cultist's potencies are reduced by 1, not by 2.
 
 Different effects that impose the same condition (see [Conditions](#page-91-2) below) don't stack to impose the condition twice. For instance, if a hero is targeted by numerous creatures whose abilities cause a target to become [weakened](scc:mcdm.heroes.v1:condition:weakened) (imposing a bane on the target's power rolls), the target isn't [weakened](scc:mcdm.heroes.v1:condition:weakened) twice to impose a double bane on those rolls. A character who is [grabbed](scc:mcdm.heroes.v1:condition:grabbed) by an enemy can't be [grabbed](scc:mcdm.heroes.v1:condition:grabbed) again by another enemy. The same holds true for game effects that aren't conditions. For example, if a hero is targeted by multiple abilities or effects that can halve their recovery value, the hero's recovery value is halved only once.
 
@@ -10279,7 +10279,7 @@ As your ferocity grows, you gain benefits as noted on the Vuken [Growing Ferocit
 
 The mind is not separate from the body. Perfection of one requires perfection of the other. You strive for perfect discipline, perfect order, mastery over mind and body, becoming an unarmed psionic warrior who dampens and absorbs magic and psionics. You require no weapons, no tools. You suffice.
 
-**As a [null](scc:mcdm.heroes.v1:class:null), you resist the supernatural forces of the universe with composure and confidence. As you strive for perfect order, you are an enemy of the ultimate expression of chaos: the supernatural. Those who break the laws of nature using sorcery or psionics should fear you.**
+**As a null, you resist the supernatural forces of the universe with composure and confidence. As you strive for perfect order, you are an enemy of the ultimate expression of chaos: the supernatural. Those who break the laws of nature using sorcery or psionics should fear you.**
 
 > "Any weapon can be turned against the hand that wields it."
 >
@@ -10311,10 +10311,10 @@ The mind is not separate from the body. Perfection of one requires perfection of
 
 | Level | Features                                                                                                                                            | Abilities                     | Tradition Abilities |
 |-------|-----------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|---------------------|
-| 1st   | [Null](scc:mcdm.heroes.v1:class:null) Tradition, Discipline, [Null](scc:mcdm.heroes.v1:class:null) Field, [Inertial Shield](scc:mcdm.heroes.v1:feature.ability.null.1st-level-feature:inertial-shield), [Discipline Mastery](scc:mcdm.heroes.v1:feature.trait.null.1st-level-feature:discipline-mastery), [Null](scc:mcdm.heroes.v1:class:null) Speed, [Psionic Augmentation](scc:mcdm.heroes.v1:feature.trait.talent.1st-level-feature:psionic-augmentation), [Psionic Martial Arts](scc:mcdm.heroes.v1:feature.trait.null.1st-level-feature:psionic-martial-arts), [Null](scc:mcdm.heroes.v1:class:null) Abilities | Two signature, 3, 5           | -                   |
+| 1st   | Nulls Tradition, Discipline, Nulls Field, [Inertial Shield](scc:mcdm.heroes.v1:feature.ability.null.1st-level-feature:inertial-shield), [Discipline Mastery](scc:mcdm.heroes.v1:feature.trait.null.1st-level-feature:discipline-mastery), Nulls Speed, [Psionic Augmentation](scc:mcdm.heroes.v1:feature.trait.talent.1st-level-feature:psionic-augmentation), [Psionic Martial Arts](scc:mcdm.heroes.v1:feature.trait.null.1st-level-feature:psionic-martial-arts), Nulls Abilities | Two signature, 3, 5           | -                   |
 | 2nd   | Perk, Tradition Feature, Tradition Ability                                                                                                          | Two signature, 3, 5           | 5                   |
 | 3rd   | [Psionic Leap](scc:mcdm.heroes.v1:feature.trait.null.3rd-level-feature:psionic-leap), [Reorder](scc:mcdm.heroes.v1:feature.trait.null.3rd-level-feature:reorder), 7-Discipline Ability                                                                                                         | Two signature, 3, 5, 7        | 5                   |
-| 4th   | Characteristic Increase, [Discipline Mastery Improvement](scc:mcdm.heroes.v1:feature.trait.null.7th-level-feature:discipline-mastery-improvement), Enhanced [Null](scc:mcdm.heroes.v1:class:null) Field, Perk, [Regenerative Field](scc:mcdm.heroes.v1:feature.trait.null.4th-level-feature:regenerative-field), Skill                                       | Two signature, 3, 5, 7        | 5                   |
+| 4th   | Characteristic Increase, [Discipline Mastery Improvement](scc:mcdm.heroes.v1:feature.trait.null.7th-level-feature:discipline-mastery-improvement), Enhanced Nulls Field, Perk, [Regenerative Field](scc:mcdm.heroes.v1:feature.trait.null.4th-level-feature:regenerative-field), Skill                                       | Two signature, 3, 5, 7        | 5                   |
 | 5th   | Tradition Feature, 9-Discipline Ability                                                                                                             | Two signature, 3, 5, 7, 9     | 5                   |
 | 6th   | [Elemental Absorption](scc:mcdm.heroes.v1:feature.trait.null.6th-level-feature:elemental-absorption), [Elemental Buffer](scc:mcdm.heroes.v1:feature.trait.null.6th-level-feature:elemental-buffer), Perk, Tradition Ability                                                                                     | Two signature, 3, 5, 7, 9     | 5, 9                |
 | 7th   | Characteristic Increase, [Discipline Mastery Improvement](scc:mcdm.heroes.v1:feature.trait.null.7th-level-feature:discipline-mastery-improvement), [Psi Boost](scc:mcdm.heroes.v1:feature.trait.talent.6th-level-feature:psi-boost), [Improved Body](scc:mcdm.heroes.v1:feature.trait.null.7th-level-feature:improved-body), Skill                                                            | Two signature, 3, 5, 7, 9     | 5, 9                |
@@ -10324,17 +10324,17 @@ The mind is not separate from the body. Perfection of one requires perfection of
 
 ### 1st-Level Features
 
-As a 1st-level [null](scc:mcdm.heroes.v1:class:null), you gain the following features.
+As a 1st-level null, you gain the following features.
 
 #### Null Tradition
 
-Through extensive physical and psionic training, you have learned to unlock the full potential of your body. As you shape the growth of your power, you choose a [null](scc:mcdm.heroes.v1:class:null) tradition from the following options, each of which grants you a skill. (*Quick Build:* Chronokinetic and the Monsters skill.)
+Through extensive physical and psionic training, you have learned to unlock the full potential of your body. As you shape the growth of your power, you choose a [null tradition](scc:mcdm.heroes.v1:feature.trait.null.1st-level-feature:null-tradition) from the following options, each of which grants you a skill. (*Quick Build:* Chronokinetic and the Monsters skill.)
 
 - **Chronokinetic:** Your training unmoors you from temporal reality, allowing you to use the flow of time as another dimension that all things move through. You gain one skill from the lore group.
 - **Cryokinetic:** You can tap into absolute cold, the most essential energy of myriad manifolds, and manifest its effects in your body. You gain one skill from the crafting group.
 - **Metakinetic:** You learn to see through the illusions of the universe to more fully understand your body and its psionic potential. You gain one skill from the exploration group.
 
-Your [null](scc:mcdm.heroes.v1:class:null) tradition is your subclass, and your choice of tradition determines many of the features you'll gain as you gain new levels.
+Your [null tradition](scc:mcdm.heroes.v1:feature.trait.null.1st-level-feature:null-tradition) is your subclass, and your choice of tradition determines many of the features you'll gain as you gain new levels.
 
 #### Discipline
 
@@ -10344,7 +10344,7 @@ As your mastery of your body and tradition grows, it imbues you with a Heroic Re
 
 At the start of a combat encounter or some other stressful situation tracked in combat rounds (as determined by the Director), you gain discipline equal to your Victories. At the start of each of your turns during combat, you gain 2 discipline.
 
-Additionally, the first time each combat round that an enemy in the area of your [Null](scc:mcdm.heroes.v1:class:null) Field ability (see below) uses a main action, you gain 1 discipline. The first time each combat round that the Director uses an ability that costs Malice (see *[Draw Steel: Monsters](https://mcdm.gg/DS-Monsters)*), you gain 1 discipline.
+Additionally, the first time each combat round that an enemy in the area of your Nulls Field ability (see below) uses a main action, you gain 1 discipline. The first time each combat round that the Director uses an ability that costs Malice (see *[Draw Steel: Monsters](https://mcdm.gg/DS-Monsters)*), you gain 1 discipline.
 
 You lose any remaining discipline at the end of the encounter.
 
@@ -10352,7 +10352,7 @@ You lose any remaining discipline at the end of the encounter.
 
 Though you can't gain [discipline outside of combat](scc:mcdm.heroes.v1:feature.subtrait.null.1st-level-feature:discipline-outside-of-combat), you can use your heroic abilities and effects that cost discipline without spending it. Whenever you use an ability or effect outside of combat that costs discipline, you can't use that same ability or effect outside of combat again until you earn 1 or more Victories or finish a respite.
 
-When you use an ability outside of combat that lets you spend unlimited discipline on its effect, you can use it as if you had spent an amount of discipline equal to your Victories. (Such abilities aren't part of the core rules for the [null](scc:mcdm.heroes.v1:class:null), but they might appear in future products.)
+When you use an ability outside of combat that lets you spend unlimited discipline on its effect, you can use it as if you had spent an amount of discipline equal to your Victories. (Such abilities aren't part of the core rules for the null, but they might appear in future products.)
 
 #### Null Field
 
@@ -10368,7 +10368,7 @@ You project a psionic field of order around your body, dampening the effects of 
 > 
 > **Effect:** Each target reduces their potencies by 1.
 > 
-> Once as a free maneuver on each of your turns, you can spend 1 discipline and give your [Null](scc:mcdm.heroes.v1:class:null) Field one of the following additional effects until the start of your next turn:
+> Once as a free maneuver on each of your turns, you can spend 1 discipline and give your Nulls Field one of the following additional effects until the start of your next turn:
 > 
 > - Gravitic Disruption: The first time on a turn that a target takes damage, you can slide them up to 2 squares.
 > - Inertial Anchor: Any target who starts their turn in the area can't shift.
@@ -10396,7 +10396,7 @@ Your instincts for danger let you predict attacks before they happen.
 
 #### Discipline Mastery
 
-As you advance in your chosen [null](scc:mcdm.heroes.v1:class:null) tradition, you gain certain benefits in combat, including benefits based on the amount of discipline you have. Benefits based on how much discipline you have last until the end of your turn, even if a benefit would become unavailable to you because of the amount of discipline you spend during your turn.
+As you advance in your chosen [null tradition](scc:mcdm.heroes.v1:feature.trait.null.1st-level-feature:null-tradition), you gain certain benefits in combat, including benefits based on the amount of discipline you have. Benefits based on how much discipline you have last until the end of your turn, even if a benefit would become unavailable to you because of the amount of discipline you spend during your turn.
 
 Some [Discipline Mastery](scc:mcdm.heroes.v1:feature.trait.null.1st-level-feature:discipline-mastery) benefits can be applied only if you are a specific level or higher, with the level of those benefits noted in the tables below.
 
@@ -10428,9 +10428,9 @@ Additionally, as your discipline grows, you strengthen the psionic power suffusi
 | Discipline      | Benefit                                                                                                                                                                                           |
 |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 2               | Whenever you use the [Knockback](scc:mcdm.heroes.v1:common-ability.maneuver:knockback) maneuver, you can target one additional creature. Additionally, whenever you deal untyped damage with a psionic ability, you can change it to cold damage instead. |
-| 4               | The first time on a turn that you [grab](scc:mcdm.heroes.v1:common-ability.maneuver:grab) a creature or an enemy moves 1 or more squares in the area of your [Null](scc:mcdm.heroes.v1:class:null) Field ability, you gain 1 surge.                                                   |
+| 4               | The first time on a turn that you [grab](scc:mcdm.heroes.v1:common-ability.maneuver:grab) a creature or an enemy moves 1 or more squares in the area of your Nulls Field ability, you gain 1 surge.                                                   |
 | 6               | You gain an edge on the [Grab](scc:mcdm.heroes.v1:common-ability.maneuver:grab) and [Knockback](scc:mcdm.heroes.v1:common-ability.maneuver:knockback) maneuvers.                                                                                                                                             |
-| 8 (4th level)   | The first time on a turn that you [grab](scc:mcdm.heroes.v1:common-ability.maneuver:grab) a creature or an enemy moves 1 or more squares in the area of your [Null](scc:mcdm.heroes.v1:class:null) Field ability, you gain 2 surges.                                                  |
+| 8 (4th level)   | The first time on a turn that you [grab](scc:mcdm.heroes.v1:common-ability.maneuver:grab) a creature or an enemy moves 1 or more squares in the area of your Nulls Field ability, you gain 2 surges.                                                  |
 | 10 (7th level)  | You have a double edge on the [Grab](scc:mcdm.heroes.v1:common-ability.maneuver:grab) and [Knockback](scc:mcdm.heroes.v1:common-ability.maneuver:knockback) maneuvers.                                                                                                                                       |
 | 12 (10th level) | Whenever you force move a target, the forced movement distance gains a bonus equal to your Intuition score. Additionally, whenever you use a heroic ability, you gain 10 temporary Stamina.       |
 
@@ -10635,7 +10635,7 @@ Choose one heroic ability from the following options, each of which costs 3 disc
 > |-------------------|------------------------------:|
 > | **📏 2 burst**    | **🎯 Each enemy in the area** |
 >
-> **Effect:** Each target takes psychic damage equal to twice your Intuition score. Until the start of your next turn, the size of your [Null](scc:mcdm.heroes.v1:class:null) Field ability increases by 1. At the end of your current turn, each enemy in the area of your [Null](scc:mcdm.heroes.v1:class:null) Field ability takes psychic damage equal to your Intuition score.
+> **Effect:** Each target takes psychic damage equal to twice your Intuition score. Until the start of your next turn, the size of your Nulls Field ability increases by 1. At the end of your current turn, each enemy in the area of your Nulls Field ability takes psychic damage equal to your Intuition score.
 
 > ######## Relentless Nemesis (3 Discipline)
 >
@@ -10737,7 +10737,7 @@ Choose one heroic ability from the following options, each of which costs 5 disc
 
 ### 2nd-Level Features
 
-As a 2nd-level [null](scc:mcdm.heroes.v1:class:null), you gain the following features.
+As a 2nd-level null, you gain the following features.
 
 #### Perk
 
@@ -10745,7 +10745,7 @@ You gain one exploration, interpersonal, or intrigue perk of your choice. See Ch
 
 #### 2nd-Level Tradition Feature
 
-Your [null](scc:mcdm.heroes.v1:class:null) tradition grants you a feature, as shown on the 2nd-Level Tradition Features table.
+Your [null tradition](scc:mcdm.heroes.v1:feature.trait.null.1st-level-feature:null-tradition) grants you a feature, as shown on the 2nd-Level Tradition Features table.
 
 ###### 2nd-Level Tradition Features Table
 
@@ -10771,7 +10771,7 @@ As a maneuver, you can read an entire book or process a similar amount of inform
 
 #### 2nd-Level Tradition Ability
 
-Your [null](scc:mcdm.heroes.v1:class:null) tradition grants your choice of one of two abilities.
+Your [null tradition](scc:mcdm.heroes.v1:feature.trait.null.1st-level-feature:null-tradition) grants your choice of one of two abilities.
 
 ##### 2nd-Level Chronokinetic Ability
 
@@ -10827,7 +10827,7 @@ Choose one of the following heroic abilities.
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** Until the start of your next turn, the size of your [Null](scc:mcdm.heroes.v1:class:null) Field ability increases by 1, and you and any ally benefit from concealment while in the area. At the end of this turn, each enemy in the area takes cold damage equal to your Intuition score.
+> **Effect:** Until the start of your next turn, the size of your Nulls Field ability increases by 1, and you and any ally benefit from concealment while in the area. At the end of this turn, each enemy in the area takes cold damage equal to your Intuition score.
 
 ##### 2nd-Level Metakinetic Ability
 
@@ -10865,7 +10865,7 @@ Choose one of the following abilities.
 
 ### 3rd-Level Features
 
-As a 3rd-level [null](scc:mcdm.heroes.v1:class:null), you gain the following features.
+As a 3rd-level null, you gain the following features.
 
 #### Psionic Leap
 
@@ -10873,7 +10873,7 @@ You can long [jump](scc:mcdm.heroes.v1:movement:jump) and high [jump](scc:mcdm.h
 
 #### Reorder
 
-At the start of each of your turns, you can use a free triggered action to end one effect on you that is ended by a saving throw or that ends at the end of your turn. Alternatively, you can grant this benefit to one creature in the area of your [Null](scc:mcdm.heroes.v1:class:null) Field ability.
+At the start of each of your turns, you can use a free triggered action to end one effect on you that is ended by a saving throw or that ends at the end of your turn. Alternatively, you can grant this benefit to one creature in the area of your Nulls Field ability.
 
 #### 7-Discipline Ability
 
@@ -10887,7 +10887,7 @@ Choose one heroic ability from the following options, each of which costs 7 disc
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** Until the end of the encounter, the size of your [Null](scc:mcdm.heroes.v1:class:null) Field ability increases by 1. While the area of that ability is enlarged this way, each enemy in the area takes a bane on ability rolls.
+> **Effect:** Until the end of the encounter, the size of your Nulls Field ability increases by 1. While the area of that ability is enlarged this way, each enemy in the area takes a bane on ability rolls.
 
 > ######## Molecular Rearrangement Field (7 Discipline)
 >
@@ -10897,7 +10897,7 @@ Choose one heroic ability from the following options, each of which costs 7 disc
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** Until the end of the encounter, the size of your [Null](scc:mcdm.heroes.v1:class:null) Field ability increases by 1. While the area of that ability is enlarged this way, each enemy who has I < AVERAGE and enters the area for the first time in a combat round or starts their turn there is [bleeding](scc:mcdm.heroes.v1:condition:bleeding) (save ends). Each ally who enters the area for the first time in a combat round or starts their turn there gains temporary Stamina equal to your Intuition score.
+> **Effect:** Until the end of the encounter, the size of your Nulls Field ability increases by 1. While the area of that ability is enlarged this way, each enemy who has I < AVERAGE and enters the area for the first time in a combat round or starts their turn there is [bleeding](scc:mcdm.heroes.v1:condition:bleeding) (save ends). Each ally who enters the area for the first time in a combat round or starts their turn there gains temporary Stamina equal to your Intuition score.
 
 > ######## Stabilizing Field (7 Discipline)
 >
@@ -10907,7 +10907,7 @@ Choose one heroic ability from the following options, each of which costs 7 disc
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** Until the end of the encounter, the size of your [Null](scc:mcdm.heroes.v1:class:null) Field ability increases by 1. While the area of that ability is enlarged this way, you ignore difficult terrain and reduce the potency of enemy effects targeting you by 1 for you. You can also use a free triggered action at the start of each of your turns to end one effect on you that is ended by a saving throw or that ends at the end of your turn. Each ally in the area also gains these benefits.
+> **Effect:** Until the end of the encounter, the size of your Nulls Field ability increases by 1. While the area of that ability is enlarged this way, you ignore difficult terrain and reduce the potency of enemy effects targeting you by 1 for you. You can also use a free triggered action at the start of each of your turns to end one effect on you that is ended by a saving throw or that ends at the end of your turn. Each ally in the area also gains these benefits.
 
 > ######## Synapse Field (7 Discipline)
 >
@@ -10917,11 +10917,11 @@ Choose one heroic ability from the following options, each of which costs 7 disc
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** Until the end of the encounter, the size of your [Null](scc:mcdm.heroes.v1:class:null) Field ability increases by 1. While the area of that ability is enlarged this way, whenever an enemy in the area takes rolled damage, they take extra psychic damage equal to twice your Intuition score.
+> **Effect:** Until the end of the encounter, the size of your Nulls Field ability increases by 1. While the area of that ability is enlarged this way, whenever an enemy in the area takes rolled damage, they take extra psychic damage equal to twice your Intuition score.
 
 ### 4th-Level Features
 
-As a 4th-level [null](scc:mcdm.heroes.v1:class:null), you gain the following features.
+As a 4th-level null, you gain the following features.
 
 #### Characteristic Increase
 
@@ -10933,7 +10933,7 @@ Your [Discipline Mastery](scc:mcdm.heroes.v1:feature.trait.null.1st-level-featur
 
 #### Enhanced Null Field
 
-While using your [Null](scc:mcdm.heroes.v1:class:null) Field ability, you disrupt magic and psionic power suffusing the area around you. During combat, any temporary supernatural terrain effects of your level or lower are removed when your aura partially or fully overlaps with their location. Permanent supernatural terrain effects of your level or lower are temporarily negated while your aura overlaps with their location, but return when the aura no longer overlaps with them.
+While using your Nulls Field ability, you disrupt magic and psionic power suffusing the area around you. During combat, any temporary supernatural terrain effects of your level or lower are removed when your aura partially or fully overlaps with their location. Permanent supernatural terrain effects of your level or lower are temporarily negated while your aura overlaps with their location, but return when the aura no longer overlaps with them.
 
 #### Perk
 
@@ -10941,7 +10941,7 @@ You gain one perk of your choice.
 
 #### Regenerative Field
 
-The first time each combat round that an enemy in the area of your [Null](scc:mcdm.heroes.v1:class:null) Field ability uses a main action, you gain 2 discipline instead of 1.
+The first time each combat round that an enemy in the area of your Nulls Field ability uses a main action, you gain 2 discipline instead of 1.
 
 #### Skill
 
@@ -10949,11 +10949,11 @@ You gain one skill of your choice. See Skills in Chapter 9: Tests.
 
 ### 5th-Level Features
 
-As a 5th-level [null](scc:mcdm.heroes.v1:class:null), you gain the following features.
+As a 5th-level null, you gain the following features.
 
 #### 5th-Level Tradition Feature
 
-Your [null](scc:mcdm.heroes.v1:class:null) tradition grants you a feature, as shown on the 5th-Level Tradition Features table.
+Your [null tradition](scc:mcdm.heroes.v1:feature.trait.null.1st-level-feature:null-tradition) grants you a feature, as shown on the 5th-Level Tradition Features table.
 
 ###### 5th-Level Tradition Features Table
 
@@ -10969,7 +10969,7 @@ You steel yourself for imminent danger by tapping into your body's cold energy. 
 
 #### Inertial Fulcrum
 
-Whenever you use an ability to reduce damage dealt to you or to reduce the distance of forced movement imposed upon you, you can deal damage to one enemy in the area of your [Null](scc:mcdm.heroes.v1:class:null) Field ability equal to your Intuition score.
+Whenever you use an ability to reduce damage dealt to you or to reduce the distance of forced movement imposed upon you, you can deal damage to one enemy in the area of your Nulls Field ability equal to your Intuition score.
 
 #### Instant Action
 
@@ -11021,7 +11021,7 @@ Choose one heroic ability from the following options, each of which costs 9 disc
 > |-------------|------------:|
 > | **📏 Self** | **🎯 Self** |
 >
-> **Effect:** You [jump](scc:mcdm.heroes.v1:movement:jump) up to your speed without provoking opportunity attacks. Until the end of your next turn, a static afterimage of you remains in the space you left, and any enemy adjacent to your afterimage takes a bane on ability rolls. You can use your abilities from your own space or from the space of your afterimage as if you were still there. Additionally, if your [Null](scc:mcdm.heroes.v1:class:null) Field ability is active, your afterimage also projects the aura from that ability, which you control as if you were in the afterimage's space.
+> **Effect:** You [jump](scc:mcdm.heroes.v1:movement:jump) up to your speed without provoking opportunity attacks. Until the end of your next turn, a static afterimage of you remains in the space you left, and any enemy adjacent to your afterimage takes a bane on ability rolls. You can use your abilities from your own space or from the space of your afterimage as if you were still there. Additionally, if your Nulls Field ability is active, your afterimage also projects the aura from that ability, which you control as if you were in the afterimage's space.
 
 > ######## Synaptic Reset (9 Discipline)
 >
@@ -11035,7 +11035,7 @@ Choose one heroic ability from the following options, each of which costs 9 disc
 
 ### 6th-Level Features
 
-As a 6th-level [null](scc:mcdm.heroes.v1:class:null), you gain the following features.
+As a 6th-level null, you gain the following features.
 
 #### Elemental Absorption
 
@@ -11051,7 +11051,7 @@ You gain one exploration, interpersonal, or intrigue perk of your choice.
 
 #### 6th-Level Tradition Ability
 
-Your [null](scc:mcdm.heroes.v1:class:null) tradition grants your choice of one of two heroic abilities.
+Your [null tradition](scc:mcdm.heroes.v1:feature.trait.null.1st-level-feature:null-tradition) grants your choice of one of two heroic abilities.
 
 ##### 6th-Level Chronokinetic Abilities
 
@@ -11145,7 +11145,7 @@ Choose one of the following abilities.
 
 ### 7th-Level Features
 
-As a 7th-level [null](scc:mcdm.heroes.v1:class:null), you gain the following features.
+As a 7th-level null, you gain the following features.
 
 #### Characteristic Increase
 
@@ -11197,7 +11197,7 @@ You gain one skill of your choice.
 
 ### 8th-Level Features
 
-As an 8th-level [null](scc:mcdm.heroes.v1:class:null), you gain the following features.
+As an 8th-level null, you gain the following features.
 
 #### Perk
 
@@ -11205,7 +11205,7 @@ You gain one perk of your choice.
 
 #### 8th-Level Tradition Feature
 
-Your [null](scc:mcdm.heroes.v1:class:null) tradition grants you a feature, as shown on the 8th-Level Tradition Features table.
+Your [null tradition](scc:mcdm.heroes.v1:feature.trait.null.1st-level-feature:null-tradition) grants you a feature, as shown on the 8th-Level Tradition Features table.
 
 ###### 8th-Level Tradition Features Table
 
@@ -11217,15 +11217,15 @@ Your [null](scc:mcdm.heroes.v1:class:null) tradition grants you a feature, as sh
 
 ##### Inertial Dampener
 
-You and each creature or object of your choice in the area of your [Null](scc:mcdm.heroes.v1:class:null) Field ability gain a bonus to [stability](scc:mcdm.heroes.v1:movement:stability) equal to your Intuition score. A creature who attempts to force move a target with this bonus takes psychic damage equal to your Intuition score.
+You and each creature or object of your choice in the area of your Nulls Field ability gain a bonus to [stability](scc:mcdm.heroes.v1:movement:stability) equal to your Intuition score. A creature who attempts to force move a target with this bonus takes psychic damage equal to your Intuition score.
 
 ##### Shared Momentum
 
-When you take the [Disengage](scc:mcdm.heroes.v1:common-ability.move-action:disengage) move action, one ally in the area of your [Null](scc:mcdm.heroes.v1:class:null) Field ability can also take the [Disengage](scc:mcdm.heroes.v1:common-ability.move-action:disengage) move action as a free triggered action, using your distance for that move action.
+When you take the [Disengage](scc:mcdm.heroes.v1:common-ability.move-action:disengage) move action, one ally in the area of your Nulls Field ability can also take the [Disengage](scc:mcdm.heroes.v1:common-ability.move-action:disengage) move action as a free triggered action, using your distance for that move action.
 
 ##### Synaptic Triage
 
-As a free maneuver, you can spend 1d6 Stamina to remove one effect on you. Each creature of your choice in the area of your [Null](scc:mcdm.heroes.v1:class:null) Field ability also gains this benefit.
+As a free maneuver, you can spend 1d6 Stamina to remove one effect on you. Each creature of your choice in the area of your Nulls Field ability also gains this benefit.
 
 #### 11-Discipline Ability
 
@@ -11285,13 +11285,13 @@ Choose one heroic ability from the following options, each of which costs 11 dis
 > |------------------------|-----------------------------:|
 > | **📏 Self; see below** |  **🎯 Self or one creature** |
 >
-> **Trigger:** The target takes damage from another creature's ability while in the area of your [Null](scc:mcdm.heroes.v1:class:null) Field ability.
+> **Trigger:** The target takes damage from another creature's ability while in the area of your Nulls Field ability.
 >
 > **Effect:** The target takes half the damage, and if the triggering creature has I < AVERAGE, they are [dazed](scc:mcdm.heroes.v1:condition:dazed) (save ends). While the triggering creature is [dazed](scc:mcdm.heroes.v1:condition:dazed) this way, they take psychic damage equal to your Intuition score whenever they use a main action.
 
 ### 9th-Level Features
 
-As a 9th-level [null](scc:mcdm.heroes.v1:class:null), you gain the following features.
+As a 9th-level null, you gain the following features.
 
 #### I Am the Weapon
 
@@ -11299,7 +11299,7 @@ Your Stamina increases by 21 and you can't be made [bleeding](scc:mcdm.heroes.v1
 
 #### 9th-Level Tradition Ability
 
-Your [null](scc:mcdm.heroes.v1:class:null) tradition grants your choice of one of two heroic abilities.
+Your [null tradition](scc:mcdm.heroes.v1:feature.trait.null.1st-level-feature:null-tradition) grants your choice of one of two heroic abilities.
 
 ##### 9th-Level Chronokinetic Abilities
 
@@ -11405,7 +11405,7 @@ Choose one of the following abilities.
 
 ### 10th-Level Features
 
-As a 10th-level [null](scc:mcdm.heroes.v1:class:null), you gain the following features.
+As a 10th-level null, you gain the following features.
 
 #### Characteristic Increase
 
@@ -11421,15 +11421,15 @@ When you gain discipline at the start of each of your turns during combat, you g
 
 #### Manifold Resonance
 
-Your body becomes perfected matter, beyond the whims and chaos of the timescape and the restrictions of the manifolds. Each time you finish a respite, you can shift yourself and any creatures in the area of your [Null](scc:mcdm.heroes.v1:class:null) Field ability to any location in the timescape known to you, known to any other creature in the area, or where any supernatural treasure in the area has been before.
+Your body becomes perfected matter, beyond the whims and chaos of the timescape and the restrictions of the manifolds. Each time you finish a respite, you can shift yourself and any creatures in the area of your Nulls Field ability to any location in the timescape known to you, known to any other creature in the area, or where any supernatural treasure in the area has been before.
 
-Whenever you use an ability, you gain 1 discipline that can be used only to apply a benefit from your [Psi Boost](scc:mcdm.heroes.v1:feature.trait.talent.6th-level-feature:psi-boost) feature to that ability. Additionally, you and allies in the area of your [Null](scc:mcdm.heroes.v1:class:null) Field ability ignore banes and double banes on your power rolls.
+Whenever you use an ability, you gain 1 discipline that can be used only to apply a benefit from your [Psi Boost](scc:mcdm.heroes.v1:feature.trait.talent.6th-level-feature:psi-boost) feature to that ability. Additionally, you and allies in the area of your Nulls Field ability ignore banes and double banes on your power rolls.
 
 #### Order
 
 You have an epic resource called order. Each time you finish a respite, you gain order equal to the XP you gain. You can spend order on your abilities as if it were discipline.
 
-At the start of a combat encounter, you can spend 1 order to increase the size of your [Null](scc:mcdm.heroes.v1:class:null) Field by 1 until the end of the encounter.
+At the start of a combat encounter, you can spend 1 order to increase the size of your Nulls Field by 1 until the end of the encounter.
 
 Order remains until you spend it.
 
@@ -20949,7 +20949,7 @@ Armor imbued with an enhancement grants you special benefits while it is worn. A
 
 > **Clothing as Armor Treasures**
 >
-> A hero who has a kit that provides no armor, such as the [Martial Artist](scc:mcdm.heroes.v1:kit:martial-artist) or [Sniper](scc:mcdm.heroes.v1:kit:sniper) kit, can create and make use of leveled armor treasures that imbue mundane clothing with supernatural power. At the Director's discretion, heroes who don't use kits, such as [elementalists](scc:mcdm.heroes.v1:class:elementalist) and [nulls](scc:mcdm.heroes.v1:class:null), can also benefit from such treasures.
+> A hero who has a kit that provides no armor, such as the [Martial Artist](scc:mcdm.heroes.v1:kit:martial-artist) or [Sniper](scc:mcdm.heroes.v1:kit:sniper) kit, can create and make use of leveled armor treasures that imbue mundane clothing with supernatural power. At the Director's discretion, heroes who don't use kits, such as [elementalists](scc:mcdm.heroes.v1:class:elementalist) and nulls, can also benefit from such treasures.
 
 ###### 1st-Level Armor Enhancement
 
@@ -21117,7 +21117,7 @@ On your turn, you can [teleport](scc:mcdm.heroes.v1:movement:teleport) to the im
 
 Implements are jewelry, spectacles, orbs, staffs, tomes, wands, weapons, and other objects used by those who channel magic and psionic power to focus that power. You decide what object to imbue when you create an implement treasure, but it must be an object you can carry or wear. You must have a mundane version of the item you plan to imbue when you start this project.
 
-An implement imbued with an enhancement grants you special benefits while it is wielded. Additionally, when an implement receives its 1st-level enhancement, it grants your magic or psionic abilities that deal rolled damage a +1 damage bonus. A 5th-level enhancement increases the bonus to +2, and a 9th-level enhancement increases it to +3. [Censors](scc:mcdm.heroes.v1:class:censor), [conduits](scc:mcdm.heroes.v1:class:conduit), [elementalists](scc:mcdm.heroes.v1:class:elementalist), [nulls](scc:mcdm.heroes.v1:class:null), [talents](scc:mcdm.heroes.v1:class:talent), and [troubadours](scc:mcdm.heroes.v1:class:troubadour) benefit from using implements more than the other [classes](scc:mcdm.heroes.v1:chapter:classes) in this book.
+An implement imbued with an enhancement grants you special benefits while it is wielded. Additionally, when an implement receives its 1st-level enhancement, it grants your magic or psionic abilities that deal rolled damage a +1 damage bonus. A 5th-level enhancement increases the bonus to +2, and a 9th-level enhancement increases it to +3. [Censors](scc:mcdm.heroes.v1:class:censor), [conduits](scc:mcdm.heroes.v1:class:conduit), [elementalists](scc:mcdm.heroes.v1:class:elementalist), nulls, [talents](scc:mcdm.heroes.v1:class:talent), and [troubadours](scc:mcdm.heroes.v1:class:troubadour) benefit from using implements more than the other [classes](scc:mcdm.heroes.v1:chapter:classes) in this book.
 
 ###### 1st-Level Implement Enhancement
 
@@ -21251,7 +21251,7 @@ A weapon imbued with an enhancement grants you special benefits while it is wiel
 
 ###### Unarmed Strike Treasures
 
-A hero who has a kit that uses unarmed strikes, such as the [Martial Artist](scc:mcdm.heroes.v1:kit:martial-artist) and [Pugilist](scc:mcdm.heroes.v1:kit:pugilist) kit, can create leveled weapon treasures that enhance their unarmed strikes by imbuing hand wraps, rings, shoes, or any other item worn on the body with supernatural power. At the Director's discretion, heroes who don't use kits, such as [elementalists](scc:mcdm.heroes.v1:class:elementalist) and [nulls](scc:mcdm.heroes.v1:class:null), can also benefit from such treasures.
+A hero who has a kit that uses unarmed strikes, such as the [Martial Artist](scc:mcdm.heroes.v1:kit:martial-artist) and [Pugilist](scc:mcdm.heroes.v1:kit:pugilist) kit, can create leveled weapon treasures that enhance their unarmed strikes by imbuing hand wraps, rings, shoes, or any other item worn on the body with supernatural power. At the Director's discretion, heroes who don't use kits, such as [elementalists](scc:mcdm.heroes.v1:class:elementalist) and nulls, can also benefit from such treasures.
 
 ###### 1st-Level Weapon Enhancement
 
@@ -22899,7 +22899,7 @@ Additionally, you have the following ability.
 
 **Project Goal:** 450
 
-**Effect:** You must be a [null](scc:mcdm.heroes.v1:class:null) to wear this ring. While you do so, the area of your [Null](scc:mcdm.heroes.v1:class:null) Field ability increases by 1.
+**Effect:** You must be a null to wear this ring. While you do so, the area of your Nulls Field ability increases by 1.
 
 Additionally, you have the following ability.
 
