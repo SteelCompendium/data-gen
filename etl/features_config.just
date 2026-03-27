@@ -68,6 +68,7 @@ build_feature_config headers_fpath feature_yml_fpath source="mcdm.heroes.v1":
 
     import argparse
     import re
+    import sys
     import yaml
 
     def to_kebab_case(text):
@@ -204,8 +205,10 @@ build_feature_config headers_fpath feature_yml_fpath source="mcdm.heroes.v1":
 
                     clazz = header_path.split('/')[0]
                     match = re.search(r'((\d+)(?:st|nd|rd|th)-level-feature)s', header_path)
-                    if match:
-                        level_feature = match.group(1)
+                    if not match:
+                        print(f"Warning: skipping subfeature '{subfeature_name}' -- no level-feature found in path '{header_path}'", file=sys.stderr)
+                        continue
+                    level_feature = match.group(1)
                     type = '/'.join(['subfeature', 'trait', clazz, level_feature])
 
                     output_features.append({
