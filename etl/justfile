@@ -67,6 +67,11 @@ unify:
     just _print_title "Unify"
     just unified gen_unified
 
+gen_links:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    python3 link_md/scc-auto-linker.py ../input/heroes/Draw\ Steel\ Heroes.md ../input/scc_to_path.json
+
 switch_repos_to branch:
     #!/usr/bin/env bash
     set -euo pipefail

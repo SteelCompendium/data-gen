@@ -57,6 +57,7 @@ AMBIGUOUS_TERMS = {
     "teamwork",
     # Others that I found to be unsafe
     "animal form", "whirlwind", "teleport", "human", "devil", "when a creature moves", "climb", "jump", "swim", "vertical",
+    "elementalist",
     # Titles/features with generic English usage
     "doomed", "spotlight",
     "primordial power", "null field", "hit and run", "order", "skill", "divine power", "triggered action", "kit",
@@ -183,7 +184,7 @@ def load_terms(scc_path: str, promote_terms: set[str] | None = None) -> list[Lin
     linkable_types = {
         "condition", "movement", "kit", "class", "ancestry",
         "perk", "career", "complication", "skill", "title",
-        "common-ability", "feature"
+        "common-ability",
         # kit-ability excluded: terms like "fade", "battle grace" are too
         # context-dependent and collide with common prose
     }
@@ -335,6 +336,11 @@ def process_file(
             continue
         bq_stripped = stripped.lstrip("> ").lstrip()
         if bq_stripped.startswith("#"):
+            output_lines.append(line)
+            continue
+
+        # Skip blockquote list items (e.g., "> * Some content")
+        if stripped.startswith("> * "):
             output_lines.append(line)
             continue
 
