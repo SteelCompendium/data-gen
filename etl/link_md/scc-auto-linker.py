@@ -58,7 +58,9 @@ AMBIGUOUS_TERMS = {
     "animal form", "whirlwind", "teleport", "human", "devil", "when a creature moves", "climb", "jump", "swim", "vertical",
     # Titles/features with generic English usage
     "doomed", "spotlight",
-    "primordial power", "null field", "hit and run"
+    "primordial power", "null field", "hit and run", "order", "skill", "divine power", "triggered action", "kit",
+    "friend", "foil", "perk", "again", "blocking", "breath", "signature ability", "vision", "virtue", "warmaster",
+    "judgement", "mark", "psion", "focus outside of combat"
 }
 
 # Terms that should NEVER be linked (too generic or would create noise)
@@ -180,7 +182,7 @@ def load_terms(scc_path: str, promote_terms: set[str] | None = None) -> list[Lin
     linkable_types = {
         "condition", "movement", "kit", "class", "ancestry",
         "perk", "career", "complication", "skill", "title",
-        "common-ability", "feature"
+        "common-ability"
         # kit-ability excluded: terms like "fade", "battle grace" are too
         # context-dependent and collide with common prose
     }
