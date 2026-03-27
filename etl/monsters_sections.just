@@ -1,13 +1,15 @@
 # Justfile module expected to be named "monsters_sections"
 
+import '_utils.just'
+
 ##################################################
 # Constants and env vars
 ##################################################
 
 log_prefix := "[JUST][monster_sections]"
 
-input_dpath := `just _input_dpath` / 'monsters'
-monsters_staging_dpath := `just _staging_dpath` / "Monsters"
+monsters_input_dpath := input_dpath / 'monsters'
+monsters_staging_dpath := staging_dpath / "Monsters"
 sections_staging_dpath := monsters_staging_dpath / "0_sections"
 
 section_list := '"Basics" "Chapters" "Monsters" "Dynamic Terrain" "Retainers"'
@@ -24,7 +26,7 @@ extract monsters_html_fpath output_dpath:
     echo "Extracting Monster sections from '{{monsters_html_fpath}}'"
     configs=( {{section_config_yml_filenames}} )
     for config in "${configs[@]}"; do
-        just monsters_sections _expand_and_extract "{{input_dpath}}/${config}" "{{monsters_html_fpath}}" "{{output_dpath}}"
+        just monsters_sections _expand_and_extract "{{monsters_input_dpath}}/${config}" "{{monsters_html_fpath}}" "{{output_dpath}}"
     done
 
 # Generates an index.md file for each section
@@ -57,4 +59,3 @@ _expand_and_extract config_fpath html_fpath output_dpath:
     cp "{{config_fpath}}" "$expanded_config_fpath"
     just section_config expand_general "$expanded_config_fpath"
     just extract_html_sections extract_sections "$expanded_config_fpath" "{{html_fpath}}" "{{output_dpath}}" "skip_delete"
-

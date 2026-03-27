@@ -1,34 +1,34 @@
 # Justfile module expected to be named "unified"
 # Handles collecting markdown sources from various repos and assembling them into one unified repo
 
+import '_utils.just'
+
 ##################################################
 # Constants and env vars
 ##################################################
 
-steel_compendium_dpath := `just _steel_compendium_dpath`
+unified_staging_dpath := staging_dpath / "unified"
+unified_linked_staging_dpath := staging_dpath / "unified-linked"
 
-unified_staging_dpath := `just _staging_dpath` / "unified"
-unified_linked_staging_dpath := `just _staging_dpath` / "unified-linked"
-
-unified_dse_staging_dpath := `just _staging_dpath` / "unified-dse"
-linked_unified_dse_staging_dpath := `just _staging_dpath` / "unified-dse-linked"
+unified_dse_staging_dpath := staging_dpath / "unified-dse"
+linked_unified_dse_staging_dpath := staging_dpath / "unified-dse-linked"
 
 # Input/sources (unlinked)
-rules_md_source_dpath := steel_compendium_dpath / "data-rules-md"
-rules_dse_md_source_dpath := steel_compendium_dpath / "data-rules-md-dse"
-bestiary_md_source_dpath := steel_compendium_dpath / "data-bestiary-md"
-bestiary_dse_md_source_dpath := steel_compendium_dpath / "data-bestiary-md-dse"
-adventures_md_source_dpath := steel_compendium_dpath / "data-adventures-md"
+rules_md_source_dpath := steel_compendium_root_dpath / "data-rules-md"
+rules_dse_md_source_dpath := steel_compendium_root_dpath / "data-rules-md-dse"
+bestiary_md_source_dpath := steel_compendium_root_dpath / "data-bestiary-md"
+bestiary_dse_md_source_dpath := steel_compendium_root_dpath / "data-bestiary-md-dse"
+adventures_md_source_dpath := steel_compendium_root_dpath / "data-adventures-md"
 
 # Input/sources (linked)
-linked_rules_md_source_dpath := steel_compendium_dpath / "data-rules-md-linked"
-linked_rules_dse_md_source_dpath := steel_compendium_dpath / "data-rules-md-dse-linked"
+linked_rules_md_source_dpath := steel_compendium_root_dpath / "data-rules-md-linked"
+linked_rules_dse_md_source_dpath := steel_compendium_root_dpath / "data-rules-md-dse-linked"
 # TODO - change to linked
-linked_bestiary_md_source_dpath := steel_compendium_dpath / "data-bestiary-md"
+linked_bestiary_md_source_dpath := steel_compendium_root_dpath / "data-bestiary-md"
 # TODO - change to linked
-linked_bestiary_dse_md_source_dpath := steel_compendium_dpath / "data-bestiary-md-dse"
+linked_bestiary_dse_md_source_dpath := steel_compendium_root_dpath / "data-bestiary-md-dse"
 # TODO - change to linked
-linked_adventures_md_source_dpath := steel_compendium_dpath / "data-adventures-md"
+linked_adventures_md_source_dpath := steel_compendium_root_dpath / "data-adventures-md"
 
 ##################################################
 # Public Recipes

@@ -7,7 +7,19 @@ directory for the conversion logic.  It's a mess, good luck!
 
 Please use this [form to report bugs](https://docs.google.com/forms/d/e/1FAIpQLSc6m-pZ0NLt2EArE-Tcxr-XbAPMyhu40ANHJKtyRvvwBd2LSw/viewform?usp=sharing&ouid=105036387964900154878) if you find them!
 
-## Development 
+## Development
+
+### Project Structure
+
+The conversion logic lives in `etl/` and is orchestrated by `just` (justfiles):
+
+- `etl/justfile` -- Root orchestrator. Imports shared utilities and declares all modules.
+- `etl/_utils.just` -- Shared variables (paths) and private utility recipes (wipe, copy, print helpers). Imported by the root justfile and by any module that needs shared state.
+- `etl/heroes.just`, `etl/monsters.just`, `etl/adventures.just` -- Top-level pipelines for each book.
+- `etl/unified.just` -- Assembles outputs from all books into unified `data-md` repos.
+- Other `etl/*.just` files -- Utility modules for specific tasks (html conversion, section extraction, linking, indexing, format conversion, etc.).
+
+Shared recipes use `import '_utils.just'` (not `mod`) to avoid circular dependency issues at parse time.
 
 ### Quick Start
 

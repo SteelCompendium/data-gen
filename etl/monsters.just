@@ -1,12 +1,12 @@
 # Justfile module expected to be named "monsters"
 
+import '_utils.just'
+
 ##################################################
 # Constants and env vars
 ##################################################
 
-steel_compendium_dpath := `just _steel_compendium_dpath`
-input_dpath := `just _input_dpath`
-monsters_staging_dpath := `just _staging_dpath` / "Monsters Book"
+monsters_staging_dpath := staging_dpath / "Monsters Book"
 monsters_unlinked_dpath := monsters_staging_dpath / "unlinked"
 monsters_linked_dpath := monsters_staging_dpath / "linked"
 
@@ -58,7 +58,7 @@ gen_monsters_md_unlinked input_fpath output_dpath:
     # Sections: generate frontmatter and classification
     just _print_section "Monsters: Generating metadata (frontmatter)"
     # TODO - avoid generating classification.json until source material (md) is final
-    scc_to_path_json_fpath="$(just _staging_dpath)/scc_to_path.json"
+    scc_to_path_json_fpath="{{staging_dpath}}/scc_to_path.json"
     rm -f "{{input_dpath}}/classification.json"
     # TODO - merge these three?
     just sc_classification gen_frontmatter "${md_sections_dpath}" "{{input_dpath}}/classification.json" "$scc_to_path_json_fpath"
