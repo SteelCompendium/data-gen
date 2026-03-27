@@ -145,16 +145,10 @@ build_feature_config headers_fpath feature_yml_fpath source="mcdm.heroes.v1":
                     is_under_level_features = True
                     level_features_header_text = p_header['text']
 
-            # this used to check for leaf-level headers, but we know Features are always at level 4
+            # Features are H4 headers under a "-Level Features" section
             if is_under_level_features and level == 4:
                 feature_name = text
                 kebab_feature_name = to_kebab_case(feature_name)
-
-                # Previously I would use the parent header if its name was an exact match, but with nested
-                # Abilities this is no longer wanted
-                #parent_header_text = path_stack[-1]['text'] if path_stack else ""
-                #if feature_name == parent_header_text:
-                #    kebab_feature_name += "-1"
 
                 path_parts = []
                 if h1_text:
@@ -165,14 +159,8 @@ build_feature_config headers_fpath feature_yml_fpath source="mcdm.heroes.v1":
 
                 header_path = "/".join(path_parts)
 
-                # TODO - I dont think this works...
-                # TODO - idk if I like this here, but `type` needs to be in metadata before classification
                 # type is generated here because its needed for classification
-                base_type = 'ability' if level == 8 else 'trait'
-                # base_type = 'trait'
-                # m = re.match(r'^(.*?)\s*\(([0-9+]+)\s+(.+)\)\s*$', feature_name)
-                # if m:
-                #     base_type = 'ability'
+                base_type = 'trait'
                 clazz = header_path.split('/')[0]
                 match = re.search(r'((\d+)(?:st|nd|rd|th)-level-feature)s', header_path)
                 if match:
@@ -187,6 +175,46 @@ build_feature_config headers_fpath feature_yml_fpath source="mcdm.heroes.v1":
                     'type': type,
                     'feature_type': base_type
                 })
+
+            # Subfeatures are H5-H7 headers underneath an H4 feature
+            elif is_under_level_features and 5 <= level <= 7:
+                # Find the parent H4 feature in the stack
+                parent_h4 = None
+                for p in path_stack:
+                    if p['level'] == 4:
+                        parent_h4 = p
+
+                if parent_h4 is not None:
+                    subfeature_name = text
+                    kebab_name = to_kebab_case(subfeature_name)
+
+                    # Build path: class / level-features / parent-feature / [intermediates] / subfeature
+                    path_parts = []
+                    if h1_text:
+                        path_parts.append(to_kebab_case(h1_text))
+                    if level_features_header_text:
+                        path_parts.append(to_kebab_case(level_features_header_text))
+                    # Include H4 parent and any intermediate H5/H6 ancestors
+                    for p in path_stack:
+                        if p['level'] >= 4:
+                            path_parts.append(to_kebab_case(p['text']))
+                    path_parts.append(kebab_name)
+
+                    header_path = "/".join(path_parts)
+
+                    clazz = header_path.split('/')[0]
+                    match = re.search(r'((\d+)(?:st|nd|rd|th)-level-feature)s', header_path)
+                    if match:
+                        level_feature = match.group(1)
+                    type = '/'.join(['subfeature', 'trait', clazz, level_feature])
+
+                    output_features.append({
+                        'header_path': header_path,
+                        'item_name': subfeature_name,
+                        'item_id': kebab_name,
+                        'type': type,
+                        'feature_type': 'trait'
+                    })
 
             path_stack.append(header)
 
