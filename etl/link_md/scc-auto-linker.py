@@ -66,7 +66,7 @@ AMBIGUOUS_TERMS = {
     "anticipation", "signature abilities", "heroic abilities", "heroic ability", "insight", "essence", "judgement",
     "to the death", "applause", "unfettered", "prophecy", "vow", "ferocity", "wrath", "insight", "command", "invocation",
     "discipline", "focus", "clarity", "drama", "judgment", "piety", "characteristic increase", "protective circle",
-    "subterfuge", "repel", "distracted", "take two", "accelerate", "enchantment", "stand fast", "avatar"
+    "subterfuge", "repel", "distracted", "take two", "accelerate", "enchantment", "stand fast", "avatar", "goaded"
 
 }
 
