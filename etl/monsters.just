@@ -117,8 +117,6 @@ link_md_files:
     #!/usr/bin/env bash
     set -euo pipefail
     mkdir -p "{{monsters_linked_dpath}}"
-#    # Link MD section files to each other
-#    #just -f link_md/justfile run "$md_sections_formatted_dpath" "{{staging_monsters_linked_dpath}}"
 
 # Given a directory of (formatted) markdown files, converts them into json, yaml, etc
 convert_md_to_other_formats md_dpath:
