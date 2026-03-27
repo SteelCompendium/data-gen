@@ -13,7 +13,9 @@ set shell := ["bash", "-c"]
 
 # Generates a markdown index file that contains a table of all markdown files in `to_index_dpath`
 # Table includes a column for each item specified in `space_separated_columns` (special case: `file_name`)
-gen to_index_dpath output_fpath space_separated_columns="file_name" title="":
+# When `indent_nested` is non-empty, files in subdirectories are indented under their parent and sorted
+# so that a parent file appears before its children (e.g. traits before subtraits).
+gen to_index_dpath output_fpath space_separated_columns="file_name" title="" indent_nested="":
     #!/usr/bin/env bash
     set -euo pipefail
 
@@ -63,12 +65,60 @@ gen to_index_dpath output_fpath space_separated_columns="file_name" title="":
       # ─── rows ────────────────────────────────────────────────────────────────
       shopt -s globstar nullglob
 
-      while IFS= read -r -d '' f; do
+      # Build the sorted file list.
+      # When indent_nested is set, sort so parent files appear before their children:
+      #   Enchantment.md          (trait)
+      #   Enchantment/Bar.md      (subtrait, indented)
+      #   Essence.md              (trait)
+      #   Essence/Baz.md          (subtrait, indented)
+      if [[ -n "{{indent_nested}}" ]]; then
+        # Build sort keys: for direct children use "Name/!", for nested use "Parent/Name"
+        # The ! char sorts before letters, so the parent groups with and precedes its children.
+        sorted_files=()
+        while IFS= read -r -d '' f; do
+          sorted_files+=("$f")
+        done < <(
+          for f in "$dir"/**/*.md; do
+            base=${dir%/}
+            relpath=${f#"$base"/}
+            relpath_no_ext=${relpath%.md}
+            # Count slashes to determine depth
+            depth=$(echo "$relpath" | tr -cd '/' | wc -c)
+            if (( depth == 0 )); then
+              # Direct child: group key = its own name, sort second = ! (first in group)
+              sort_key="${relpath_no_ext}/!"
+            else
+              # Nested child: group key = first path component, sort second = rest
+              group="${relpath%%/*}"
+              rest="${relpath_no_ext#*/}"
+              sort_key="${group}/${rest}"
+            fi
+            printf '%s\t%s\0' "$sort_key" "$f"
+          done | sort -z -t$'\t' -k1,1 | while IFS=$'\t' read -r -d '' _ fpath; do
+            printf '%s\0' "$fpath"
+          done
+        )
+      else
+        sorted_files=()
+        while IFS= read -r -d '' f; do
+          sorted_files+=("$f")
+        done < <(printf '%s\0' "$dir"/**/*.md | sort -z)
+      fi
+
+      for f in "${sorted_files[@]}"; do
         # make sure it actually matched something
         [[ -e $f ]] || continue
         # skip index files
         [[ "$(just index _get_frontmatter_value "type" "$f")" != "index" ]] || continue
-        #echo >&2 "        $f"
+
+        # Determine if this file is nested (in a subdirectory of the indexed dir)
+        base=${dir%/}
+        relpath=${f#"$base"/}
+        depth=$(echo "$relpath" | tr -cd '/' | wc -c)
+        is_nested=false
+        if [[ -n "{{indent_nested}}" ]] && (( depth > 0 )); then
+          is_nested=true
+        fi
 
         printf '|'
         for c in "${cols[@]}"; do
@@ -76,8 +126,6 @@ gen to_index_dpath output_fpath space_separated_columns="file_name" title="":
             file_name=$(basename "$f")
             name="${file_name%.*}"
 
-            base=${dir%/}  # normalize: drop trailing slash if any
-            relpath=${f#"$base"/}      # strip "$dir/" prefix
             relpath_no_ext=${relpath%.md}
 
             # URL-encode each path component separately
@@ -88,7 +136,11 @@ gen to_index_dpath output_fpath space_separated_columns="file_name" title="":
             done
             encoded_relpath=$(IFS=/; echo "${encoded_parts[*]}")
 
-            val="[${name}](${encoded_relpath})"
+            if $is_nested; then
+              val="  [${name}](${encoded_relpath})"
+            else
+              val="[${name}](${encoded_relpath})"
+            fi
           else
             # grab `.key` from the front-matter, defaulting to "" if missing
             val=$(just index _get_frontmatter_value "$c" "$f")
@@ -99,7 +151,7 @@ gen to_index_dpath output_fpath space_separated_columns="file_name" title="":
           printf " %s |" "$val"
         done
         printf '\n'
-      done < <(printf '%s\0' "$dir"/**/*.md | sort -z)
+      done
     } > "$out"
     echo >&2
 
