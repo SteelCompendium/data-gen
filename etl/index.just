@@ -105,18 +105,32 @@ gen to_index_dpath output_fpath space_separated_columns="file_name" title="" ind
         done < <(printf '%s\0' "$dir"/**/*.md | sort -z)
       fi
 
+      # Find the minimum depth among all non-index .md files so we can
+      # treat that as the "top level" for nesting purposes.
+      min_depth=999
+      if [[ -n "{{indent_nested}}" ]]; then
+        for f in "${sorted_files[@]}"; do
+          [[ -e "$f" ]] || continue
+          [[ "$(just index _get_frontmatter_value "type" "$f")" != "index" ]] || continue
+          _base=${dir%/}
+          _rel=${f#"$_base"/}
+          _d=$(echo "$_rel" | tr -cd '/' | wc -c)
+          (( _d < min_depth )) && min_depth=$_d
+        done
+      fi
+
       for f in "${sorted_files[@]}"; do
         # make sure it actually matched something
         [[ -e $f ]] || continue
         # skip index files
         [[ "$(just index _get_frontmatter_value "type" "$f")" != "index" ]] || continue
 
-        # Determine if this file is nested (in a subdirectory of the indexed dir)
+        # Determine if this file is nested (deeper than the shallowest files)
         base=${dir%/}
         relpath=${f#"$base"/}
         depth=$(echo "$relpath" | tr -cd '/' | wc -c)
         is_nested=false
-        if [[ -n "{{indent_nested}}" ]] && (( depth > 0 )); then
+        if [[ -n "{{indent_nested}}" ]] && (( depth > min_depth )); then
           is_nested=true
         fi
 
@@ -137,7 +151,7 @@ gen to_index_dpath output_fpath space_separated_columns="file_name" title="" ind
             encoded_relpath=$(IFS=/; echo "${encoded_parts[*]}")
 
             if $is_nested; then
-              val="  [${name}](${encoded_relpath})"
+              val=" ⎿ [${name}](${encoded_relpath})"
             else
               val="[${name}](${encoded_relpath})"
             fi
