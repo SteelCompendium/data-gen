@@ -10,6 +10,7 @@ Operates in three tiers:
 Usage:
   python scc-auto-linker.py <markdown_file> <scc_to_path.json> [--dry-run] [--report <report_file>] [--tier 1|2|3|all]
   python scc-auto-linker.py <markdown_file> <scc_to_path.json> --term <slug> [--dry-run]
+  python scc-auto-linker.py <markdown_file> <scc_to_path.json> --clean [--dry-run]
 
 The --term flag promotes a single tier-3 term to auto-link, ignoring AMBIGUOUS_TERMS
 and TIER3_TYPES for that term only. Useful for reviewing one dangerous term at a time.
@@ -60,7 +61,7 @@ AMBIGUOUS_TERMS = {
     "doomed", "spotlight",
     "primordial power", "null field", "hit and run", "order", "skill", "divine power", "triggered action", "kit",
     "friend", "foil", "perk", "again", "blocking", "breath", "signature ability", "vision", "virtue", "warmaster",
-    "judgement", "mark", "psion", "focus outside of combat"
+    "judgement", "mark", "psion", "focus outside of combat", "focus", "one"
 }
 
 # Terms that should NEVER be linked (too generic or would create noise)
@@ -182,7 +183,7 @@ def load_terms(scc_path: str, promote_terms: set[str] | None = None) -> list[Lin
     linkable_types = {
         "condition", "movement", "kit", "class", "ancestry",
         "perk", "career", "complication", "skill", "title",
-        "common-ability"
+        "common-ability", "feature"
         # kit-ability excluded: terms like "fade", "battle grace" are too
         # context-dependent and collide with common prose
     }
@@ -424,6 +425,38 @@ def write_report(report_path: str, review_links: list[LinkResult]):
             f.write("\n")
 
 
+def clean_invalid_links(
+    md_path: str,
+    scc_map: dict[str, str],
+    dry_run: bool = False,
+) -> tuple[list[str], int]:
+    """Remove scc: links whose keys are not in the current scc_to_path mapping.
+
+    Returns:
+        (output_lines, removed_count)
+    """
+    with open(md_path, "r", encoding="utf-8") as f:
+        lines = f.readlines()
+
+    scc_link_re = re.compile(r'\[([^\]]*)\]\(scc:([^)]+)\)')
+    removed = 0
+    output_lines = []
+
+    for line in lines:
+        def _replace(m: re.Match) -> str:
+            nonlocal removed
+            display_text = m.group(1)
+            scc_key = m.group(2)
+            if scc_key not in scc_map:
+                removed += 1
+                return display_text
+            return m.group(0)
+
+        output_lines.append(scc_link_re.sub(_replace, line))
+
+    return output_lines, removed
+
+
 def print_summary(applied: list[LinkResult], review: list[LinkResult]):
     """Print a summary of changes."""
     print(f"\nLinks applied: {len(applied)}")
@@ -460,7 +493,27 @@ def main():
                         help="Promote a single tier-3 term for review. Uses the kebab-case "
                              "slug (e.g., 'noble', 'animal-form'). Implies --tier 2 so only "
                              "the promoted term (plus existing tier 1/2) is applied.")
+    parser.add_argument("--clean", action="store_true",
+                        help="Remove scc: links whose keys no longer exist in scc_to_path.json")
     args = parser.parse_args()
+
+    # --clean mode: strip links with scc keys missing from the mapping
+    if args.clean:
+        with open(args.scc_json) as f:
+            scc_map = json.load(f)
+        print(f"Cleaning invalid scc: links in {args.markdown_file}...")
+        print(f"  {len(scc_map)} keys in {args.scc_json}")
+        output_lines, removed = clean_invalid_links(
+            args.markdown_file, scc_map, dry_run=args.dry_run
+        )
+        print(f"  Removed {removed} invalid link(s)")
+        if not args.dry_run and removed > 0:
+            with open(args.markdown_file, "w", encoding="utf-8") as f:
+                f.writelines(output_lines)
+            print(f"  File updated: {args.markdown_file}")
+        elif args.dry_run:
+            print("  (Dry run -- no changes written)")
+        return
 
     # --term implies tier 2: we promote the one term to tier 2 so it gets
     # auto-linked alongside the safe tiers, while everything else stays put.
