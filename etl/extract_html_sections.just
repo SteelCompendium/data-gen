@@ -8,7 +8,7 @@ failed_extraction_fpath := source_dir() / "../staging/failed_extractions.txt"
 
 # Given a fully expanded config.yml doc, extract all the sections and apply generic metadata
 # See section_config.just for info on config expectations
-extract_sections config_fpath html_fpath output_dpath skip_delete="true":
+extract_sections config_fpath html_fpath output_dpath skip_delete="true" file_dpath_prefix="":
     #!/usr/bin/env python3
     import yaml, subprocess, tempfile, sys
     from pathlib import Path
@@ -16,6 +16,7 @@ extract_sections config_fpath html_fpath output_dpath skip_delete="true":
     cfg = yaml.safe_load(open("{{config_fpath}}"))
     out_root = Path("{{output_dpath}}")
     html = "{{html_fpath}}"
+    file_dpath_prefix = "{{file_dpath_prefix}}"
 
     # TODO - should this just automatically pull all metadata keys?  I think so
     # These will all get added to the output html as metadata
@@ -33,6 +34,10 @@ extract_sections config_fpath html_fpath output_dpath skip_delete="true":
 
         # write the metadata to a temp file to be loaded by the extractor
         meta = {k: s.get(k, "") for k in KEYS}
+        if file_dpath_prefix and meta.get("file_dpath"):
+            meta["file_dpath"] = file_dpath_prefix + "/" + meta["file_dpath"]
+        elif file_dpath_prefix:
+            meta["file_dpath"] = file_dpath_prefix
         with tempfile.NamedTemporaryFile("w", delete=False, suffix=".yml") as tmp:
             yaml.safe_dump(meta, tmp, sort_keys=False)
             meta_path = tmp.name

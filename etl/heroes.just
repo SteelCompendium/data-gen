@@ -63,7 +63,7 @@ gen_heroes_md input_fpath unlinked_output_dpath linked_output_dpath:
 
     # Feature Sections: extract out feature sections using features.yml config
     just _print_section "Heroes: Extracting feature and feature sections from html"
-    just extract_html_sections extract_sections "$feature_config_fpath" "$html_fpath" "$html_sections_dpath/Features" "skip_delete"
+    just extract_html_sections extract_sections "$feature_config_fpath" "$html_fpath" "$html_sections_dpath/Features" "skip_delete" "Features"
 
     # Sections: Convert html sections to md sections
     just _print_section "Heroes: Converting html to md"
