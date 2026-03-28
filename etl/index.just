@@ -151,7 +151,7 @@ gen to_index_dpath output_fpath space_separated_columns="file_name" title="" ind
             encoded_relpath=$(IFS=/; echo "${encoded_parts[*]}")
 
             if $is_nested; then
-              val=" ⎿ [${name}](${encoded_relpath})"
+              val=" └── [${name}](${encoded_relpath})"
             else
               val="[${name}](${encoded_relpath})"
             fi
