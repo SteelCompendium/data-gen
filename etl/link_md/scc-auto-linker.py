@@ -57,11 +57,17 @@ AMBIGUOUS_TERMS = {
     "teamwork",
     # Others that I found to be unsafe
     "animal form", "whirlwind", "teleport", "human", "devil", "when a creature moves", "climb", "jump", "swim", "vertical",
+    "elementalist",
     # Titles/features with generic English usage
     "doomed", "spotlight",
     "primordial power", "null field", "hit and run", "order", "skill", "divine power", "triggered action", "kit",
     "friend", "foil", "perk", "again", "blocking", "breath", "signature ability", "vision", "virtue", "warmaster",
-    "judgement", "mark", "psion", "focus outside of combat", "focus", "one"
+    "judgement", "mark", "psion", "focus outside of combat", "focus", "one", "foreshadowing", "tooth and claw", "prayer",
+    "anticipation", "signature abilities", "heroic abilities", "heroic ability", "insight", "essence", "judgement",
+    "to the death", "applause", "unfettered", "prophecy", "vow", "ferocity", "wrath", "insight", "command", "invocation",
+    "discipline", "focus", "clarity", "drama", "judgment", "piety", "characteristic increase", "protective circle",
+    "subterfuge", "repel", "distracted", "take two", "accelerate", "enchantment", "stand fast", "avatar", "goaded"
+
 }
 
 # Terms that should NEVER be linked (too generic or would create noise)
@@ -85,6 +91,7 @@ TIER3_TYPES = {
     "title",        # "doomed", "scarred", "teacher" etc. are common English
     "perk",         # "familiar", "handy", "teamwork" etc. are common English
     "career",       # most career names are common words
+    "characteristic increase"
 }
 
 # Irregular plurals: display_singular -> [plural_forms]
@@ -183,7 +190,8 @@ def load_terms(scc_path: str, promote_terms: set[str] | None = None) -> list[Lin
     linkable_types = {
         "condition", "movement", "kit", "class", "ancestry",
         "perk", "career", "complication", "skill", "title",
-        "common-ability", "feature"
+        "common-ability",
+        "feature"
         # kit-ability excluded: terms like "fade", "battle grace" are too
         # context-dependent and collide with common prose
     }
@@ -335,6 +343,11 @@ def process_file(
             continue
         bq_stripped = stripped.lstrip("> ").lstrip()
         if bq_stripped.startswith("#"):
+            output_lines.append(line)
+            continue
+
+        # Skip blockquote list items (e.g., "> * Some content")
+        if stripped.startswith("> *"):
             output_lines.append(line)
             continue
 
