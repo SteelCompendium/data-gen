@@ -45,6 +45,15 @@ and publishes them to separate `data-*` git repos under the Steel Compendium umb
 - `staging/` -- Intermediate build artifacts (wiped on each run)
 - `../data-*` -- Sibling repos that receive final output
 
+## Draw Steel TTRPG Reference
+
+Two condensed reference documents live in `reference/` for sessions that need Draw Steel system knowledge:
+
+- `reference/draw-steel-overview.md` -- High-level overview (~3 pages). Design philosophy, core mechanics, hero building, combat summary, setting.
+- `reference/draw-steel-reference.md` -- Comprehensive condensed reference (~15 pages). All ancestries, classes, kits, skills, combat rules, conditions, negotiation, downtime, rewards, gods/domains, and progression.
+
+Read the overview first. Use the reference for mechanical details on specific subsystems.
+
 ## SCC (Steel Compendium Classification)
 
 Hierarchical classification system: `source:type:item` (e.g. `mcdm.heroes.v1:abilities.fury:gouge`).
