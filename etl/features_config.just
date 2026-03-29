@@ -96,6 +96,7 @@ build_feature_config headers_fpath feature_yml_fpath source="mcdm.heroes.v1":
         """
         rejectList = []
 
+        # TODO - do these need to get removed now that subtraits are a thing?
         # These are all sub-items of Null's 7th-level Psi boost trait
         rejectList.append("Dynamic Power (1 Discipline)")
         rejectList.append("Expanded Power (3 Discipline)")
