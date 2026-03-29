@@ -47,13 +47,7 @@ and publishes them to separate `data-*` git repos under the Steel Compendium umb
 
 ## Draw Steel TTRPG Reference
 
-Two condensed reference documents live in `reference/` for sessions that need Draw Steel system knowledge:
-
-- `reference/draw-steel-overview.md` -- High-level overview (~3 pages). Design philosophy, core mechanics, hero building, combat summary, setting.
-- `reference/draw-steel-reference.md` -- Comprehensive condensed reference (~15 pages). All ancestries, classes, kits, skills, combat rules, conditions, negotiation, downtime, rewards, gods/domains, and progression.
-- `reference/draw-steel-agent-reference.md` -- Detailed agent reference (~40 pages). Everything in the condensed reference plus: all ability names per class organized by cost tier, all domain features/piety triggers/prayer effects, all 21 kit stat tables, all 48 perks with descriptions, all career grants, stormwight kit details with Growing Ferocity tables, all treasure/trinket/artifact names, all title names organized by echelon with benefit choices, collision damage rules, and more.
-
-Read the overview first. Use the condensed reference for moderate detail. Use the agent reference when you need granular mechanical specifics (e.g., what a specific domain does, what abilities a class has at a given level, kit stat comparisons).
+Condensed reference documents live in the workspace root at `../reference/`. See the workspace CLAUDE.md for details.
 
 ## SCC (Steel Compendium Classification)
 
