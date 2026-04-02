@@ -84,8 +84,6 @@ gen_heroes_md input_fpath unlinked_output_dpath linked_output_dpath:
     just features gen_index_for_each_dir_in "${md_sections_dpath}/Features" "1"
     # Sections: Generate indexes
     just heroes_sections gen_indexes "${md_sections_dpath}"
-    # Class indexes: per-class and per-level index files from SCC data
-    just index gen_class_indexes "$scc_to_path_json_fpath" "${md_sections_dpath}/Class Indexes"
 
     # Assemble all markdown together for final formatting, linking, etc
     preformatted_dpath="{{heroes_staging_dpath}}/7_preformatted"
