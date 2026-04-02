@@ -62,11 +62,27 @@ gen_frontmatter md_dpath state_json_fpath scc_to_path_json_fpath:
             node = node[comp]["_children"]
         return ids
 
+    # Resource types used as ability costs in Draw Steel (e.g. "Assassinate (11 Insight)")
+    # When slugified these become trailing suffixes like "-11-insight" that should be stripped
+    # to produce item IDs like "assassinate-11" instead of "assassinate-11-insight"
+    COST_SUFFIXES = {
+        "clarity", "discipline", "drama", "essence", "ferocity",
+        "focus", "insight", "malice", "piety", "point", "points", "wrath",
+    }
+
+    import re
+    _COST_RE = re.compile(r"-\d+(?:\+)?-(" + "|".join(COST_SUFFIXES) + r")$")
+
+    def strip_cost_suffix(item_id: str) -> str:
+        if not item_id:
+            return item_id
+        return _COST_RE.sub("", item_id)
+
     def process_file(md_path: Path, state, scc_map):
         post = frontmatter.load(md_path)
         src = post.get("source")  # e.g. "mcdm.heroes.v1"
         typ = post.get("type")    # e.g. "heroes/introduction/…"
-        itm = post.get("item_id")    # e.g. "heroes/introduction/…"
+        itm = strip_cost_suffix(post.get("item_id"))
         if not src or not typ:
             return
 
