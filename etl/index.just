@@ -72,37 +72,72 @@ gen to_index_dpath output_fpath space_separated_columns="file_name" title="" ind
       #   Essence.md              (trait)
       #   Essence/Baz.md          (subtrait, indented)
       if [[ -n "{{indent_nested}}" ]]; then
-        # Build sort keys: for direct children use "Name/!", for nested use "Parent/Name"
-        # The ! char sorts before letters, so the parent groups with and precedes its children.
+        # Recursively walk directories, emitting each .md file before the
+        # contents of its matching subdirectory. Matching normalizes names
+        # (lowercased, spaces/hyphens collapsed) so "2nd Level Foo.md"
+        # pairs with directory "2nd-Level Foo/". Version sort (-V) within
+        # each directory gives natural numeric ordering (1st before 10th).
+        _walk_dir() {
+          local wd="$1"
+          local -a md_files=() subdirs=()
+
+          for entry in "$wd"/*; do
+            [[ -e "$entry" ]] || continue
+            if [[ -d "$entry" ]]; then
+              subdirs+=("$entry")
+            elif [[ "$entry" == *.md ]]; then
+              md_files+=("$entry")
+            fi
+          done
+
+          # Version-sort files and dirs independently
+          local -a s_md=() s_dirs=()
+          if (( ${#md_files[@]} > 0 )); then
+            while IFS= read -r -d '' f; do s_md+=("$f"); done \
+              < <(printf '%s\0' "${md_files[@]}" | sort -zV)
+          fi
+          if (( ${#subdirs[@]} > 0 )); then
+            while IFS= read -r -d '' d; do s_dirs+=("$d"); done \
+              < <(printf '%s\0' "${subdirs[@]}" | sort -zV)
+          fi
+
+          # Build normalized-basename -> dir-path lookup
+          local -A dir_by_norm=()
+          local d norm
+          for d in "${s_dirs[@]}"; do
+            norm=$(basename "$d" | tr '[:upper:]' '[:lower:]' | tr ' -' '__')
+            dir_by_norm["$norm"]="$d"
+          done
+
+          local -A used_dirs=()
+          local f stem norm_f
+          for f in "${s_md[@]}"; do
+            printf '%s\0' "$f"
+            stem=$(basename "$f" .md)
+            norm_f=$(echo "$stem" | tr '[:upper:]' '[:lower:]' | tr ' -' '__')
+            if [[ -n "${dir_by_norm[$norm_f]+x}" ]]; then
+              _walk_dir "${dir_by_norm[$norm_f]}"
+              used_dirs["${dir_by_norm[$norm_f]}"]=1
+            fi
+          done
+
+          # Emit contents of any unmatched subdirectories
+          for d in "${s_dirs[@]}"; do
+            if [[ -z "${used_dirs[$d]+x}" ]]; then
+              _walk_dir "$d"
+            fi
+          done
+        }
+
         sorted_files=()
         while IFS= read -r -d '' f; do
           sorted_files+=("$f")
-        done < <(
-          for f in "$dir"/**/*.md; do
-            base=${dir%/}
-            relpath=${f#"$base"/}
-            relpath_no_ext=${relpath%.md}
-            # Count slashes to determine depth
-            depth=$(echo "$relpath" | tr -cd '/' | wc -c)
-            if (( depth == 0 )); then
-              # Direct child: group key = its own name, sort second = ! (first in group)
-              sort_key="${relpath_no_ext}/!"
-            else
-              # Nested child: group key = first path component, sort second = rest
-              group="${relpath%%/*}"
-              rest="${relpath_no_ext#*/}"
-              sort_key="${group}/${rest}"
-            fi
-            printf '%s\t%s\0' "$sort_key" "$f"
-          done | sort -z -t$'\t' -k1,1 | while IFS=$'\t' read -r -d '' _ fpath; do
-            printf '%s\0' "$fpath"
-          done
-        )
+        done < <(_walk_dir "$dir")
       else
         sorted_files=()
         while IFS= read -r -d '' f; do
           sorted_files+=("$f")
-        done < <(printf '%s\0' "$dir"/**/*.md | sort -z)
+        done < <(printf '%s\0' "$dir"/**/*.md | sort -z -V)
       fi
 
       # Find the minimum depth among all non-index .md files so we can
