@@ -1,8 +1,3 @@
----
-repo: data-gen
-updated: 2026-04-05
----
-
 # Conventions
 
 ## File and Directory Naming

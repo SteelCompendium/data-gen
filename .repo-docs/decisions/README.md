@@ -1,8 +1,3 @@
----
-repo: data-gen
-updated: 2026-04-05
----
-
 # Decision Log
 
 A running record of architectural and design decisions made in this project.

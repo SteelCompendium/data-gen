@@ -8,7 +8,7 @@ tech:
   - python (frontmatter, classification, linking)
   - pandoc (markdown/html conversion)
   - devbox (environment management)
-updated: 2026-04-05
+updated: 2026-04-07
 ---
 
 # data-gen
@@ -81,7 +81,7 @@ data-gen/
 | **New to this repo** | This file | [project.md](project.md) |
 | **Developer** | [development.md](development.md) | [architecture.md](architecture.md), [conventions.md](conventions.md) |
 | **Architect** | [architecture.md](architecture.md) | [integration.md](integration.md), [decisions/](decisions/) |
-| **DevOps / SRE** | [development.md](development.md) | [integration.md](integration.md) |
+| **DevOps / SRE** | [ci-cd.md](ci-cd.md) | [development.md](development.md), [integration.md](integration.md) |
 
 ### Agent Roles
 
@@ -90,6 +90,7 @@ data-gen/
 | **Code review** | [conventions.md](conventions.md) | [architecture.md](architecture.md) |
 | **Bug fix / debug** | [troubleshooting.md](troubleshooting.md) | [development.md](development.md), [architecture.md](architecture.md) |
 | **Feature implementation** | [architecture.md](architecture.md) | [conventions.md](conventions.md), [development.md](development.md), [decisions/](decisions/) |
+| **CI/CD / DevOps** | [ci-cd.md](ci-cd.md) | [development.md](development.md), [integration.md](integration.md) |
 | **Documentation** | This file | [project.md](project.md), [architecture.md](architecture.md) |
 | **Onboarding / Q&A** | This file | [project.md](project.md), [development.md](development.md) |
 
@@ -103,11 +104,11 @@ data-gen/
 
 | File | Description |
 |------|-------------|
-| [index.md](index.md) | This file -- overview, quick reference, structure |
 | [project.md](project.md) | Domain context, glossary, feature inventory |
 | [architecture.md](architecture.md) | Pipeline stages, components, data flow |
 | [development.md](development.md) | Setup, prerequisites, workflows |
 | [integration.md](integration.md) | Upstream/downstream repos, data contracts |
+| [ci-cd.md](ci-cd.md) | Build process, release workflow, branch strategy |
 | [conventions.md](conventions.md) | Naming, commit style, code patterns |
 | [troubleshooting.md](troubleshooting.md) | Known issues, common errors |
 | [decisions/](decisions/) | Architectural decision records |
